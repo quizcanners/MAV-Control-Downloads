@@ -1,0 +1,139 @@
+name: Setup link domain
+
+# One-shot, idempotent setup of the link host (DNS on Cloudflare + GitHub Pages + HTTPS).
+# Secrets (Settings > Secrets and variables > Actions):
+#   CLOUDFLARE_API_TOKEN  token scoped Zone:DNS:Edit (plus Zone:Zone:Read to look up the zone id) on the one zone only
+#   PAGES_ADMIN_TOKEN     fine-grained PAT on this repo: Pages RW + Administration RW (Metadata R is implicit)
+on:
+  workflow_dispatch:
+    inputs:
+      domain:
+        description: Host (apex domain in Cloudflare)
+        default: prublyda.com
+        required: true
+      ipv6:
+        description: Also create the 4 AAAA records
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    env:
+      DOMAIN: ${{ inputs.domain }}
+      IPV6: ${{ inputs.ipv6 }}
+      CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      GH_PAT: ${{ secrets.PAGES_ADMIN_TOKEN }}
+      REPO: ${{ github.repository }}
+    steps:
+      - name: Check secrets are present
+        run: |
+          [ -n "$CF_TOKEN" ] || { echo "::error::Secret CLOUDFLARE_API_TOKEN is missing"; exit 1; }
+          [ -n "$GH_PAT" ] || { echo "::error::Secret PAGES_ADMIN_TOKEN is missing"; exit 1; }
+
+      - name: Cloudflare DNS (4 A + optional 4 AAAA, DNS only)
+        run: |
+          set -euo pipefail
+          cf() { # method path [json]
+            if [ -n "${3:-}" ]; then
+              curl -sS -X "$1" "https://api.cloudflare.com/client/v4$2" -H "Authorization: Bearer $CF_TOKEN" -H "Content-Type: application/json" --data "$3"
+            else
+              curl -sS -X "$1" "https://api.cloudflare.com/client/v4$2" -H "Authorization: Bearer $CF_TOKEN"
+            fi
+          }
+          R=$(cf GET "/zones?name=$DOMAIN")
+          [ "$(echo "$R" | jq -r .success)" = true ] || { echo "::error::Zone lookup failed: $(echo "$R" | jq -c .errors)"; exit 1; }
+          ZONE=$(echo "$R" | jq -r '.result[0].id // empty')
+          [ -n "$ZONE" ] || { echo "::error::Zone $DOMAIN not visible to the token"; exit 1; }
+          echo "Zone id found for $DOMAIN"
+
+          A="185.199.108.153 185.199.109.153 185.199.110.153 185.199.111.153"
+          AAAA="2606:50c0:8000::153 2606:50c0:8001::153 2606:50c0:8002::153 2606:50c0:8003::153"
+          WANT=$(for i in $A; do echo "A $i"; done)
+          if [ "$IPV6" = true ]; then WANT="$WANT"$'\n'$(for i in $AAAA; do echo "AAAA $i"; done); fi
+
+          # Conflicts: any A/AAAA/CNAME on the apex pointing elsewhere. Report and fail, never delete.
+          EX=$(cf GET "/zones/$ZONE/dns_records?name=$DOMAIN&per_page=100")
+          [ "$(echo "$EX" | jq -r .success)" = true ] || { echo "::error::Record list failed"; exit 1; }
+          CONFLICT=0
+          while IFS=$'\t' read -r type content proxied; do
+            [ -z "$type" ] && continue
+            case "$type" in A|AAAA|CNAME) ;; *) continue;; esac
+            if ! echo "$WANT" | grep -qxF "$type $content"; then
+              echo "::error::Conflicting record on $DOMAIN: $type $content (not changed, remove it by hand)"; CONFLICT=1
+            elif [ "$proxied" = true ]; then
+              echo "::error::Record $type $content is proxied (orange cloud); set to DNS only"; CONFLICT=1
+            fi
+          done < <(echo "$EX" | jq -r '.result[] | [.type,.content,.proxied] | @tsv')
+          [ "$CONFLICT" = 0 ] || { echo "Conflicts found, stopping."; exit 1; }
+
+          while read -r type ip; do
+            [ -z "$type" ] && continue
+            if echo "$EX" | jq -e --arg t "$type" --arg c "$ip" '.result[] | select(.type==$t and .content==$c)' >/dev/null; then
+              echo "ok (exists): $type $ip"
+            else
+              BODY=$(jq -nc --arg t "$type" --arg n "$DOMAIN" --arg c "$ip" '{type:$t,name:$n,content:$c,ttl:1,proxied:false}')
+              O=$(cf POST "/zones/$ZONE/dns_records" "$BODY")
+              [ "$(echo "$O" | jq -r .success)" = true ] || { echo "::error::Create $type $ip failed: $(echo "$O" | jq -c .errors)"; exit 1; }
+              echo "created: $type $ip"
+            fi
+          done <<< "$WANT"
+
+      - name: GitHub Pages (enable, custom domain)
+        run: |
+          set -uo pipefail
+          api() { curl -sS -o /tmp/out.json -w '%{http_code}' -X "$1" "https://api.github.com/repos/$REPO/pages" \
+            -H "Authorization: Bearer $GH_PAT" -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" ${2:+--data "$2"}; }
+          CODE=$(api GET)
+          if [ "$CODE" = 404 ]; then
+            CODE=$(api POST '{"source":{"branch":"main","path":"/"}}')
+            echo "Enable Pages: HTTP $CODE"
+            [ "$CODE" = 201 ] || { echo "::error::Enable failed: $(jq -c .message /tmp/out.json)"; exit 1; }
+          elif [ "$CODE" != 200 ]; then
+            echo "::error::Pages GET HTTP $CODE: $(jq -c .message /tmp/out.json)"; exit 1
+          else
+            echo "Pages already enabled"
+          fi
+          CODE=$(api PUT "$(jq -nc --arg c "$DOMAIN" '{cname:$c,source:{branch:"main",path:"/"}}')")
+          echo "Set cname: HTTP $CODE"
+          [ "$CODE" = 204 ] || { echo "::error::cname failed: $(jq -c .message /tmp/out.json)"; exit 1; }
+
+      - name: Wait for certificate, enforce HTTPS
+        run: |
+          set -uo pipefail
+          H=(-H "Authorization: Bearer $GH_PAT" -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28")
+          U="https://api.github.com/repos/$REPO/pages"
+          for i in $(seq 1 40); do
+            J=$(curl -sS "${H[@]}" "$U")
+            ST=$(echo "$J" | jq -r '.https_certificate.state // "none"')
+            ENF=$(echo "$J" | jq -r '.https_enforced')
+            echo "try $i: cert=$ST https_enforced=$ENF status=$(echo "$J" | jq -r '.status // "?"')"
+            if [ "$ENF" = true ]; then echo "HTTPS already enforced"; exit 0; fi
+            if [ "$ST" = approved ]; then
+              CODE=$(curl -sS -o /tmp/out.json -w '%{http_code}' -X PUT "${H[@]}" "$U" --data '{"https_enforced":true}')
+              echo "https_enforced=true: HTTP $CODE"
+              [ "$CODE" = 204 ] && exit 0
+              echo "::warning::enforce HTTP $CODE: $(jq -c .message /tmp/out.json)"
+            fi
+            sleep 45
+          done
+          echo "::error::Certificate not ready after ~30 min (DNS must be DNS-only and propagated). Re-run the workflow later."
+          exit 1
+
+      - name: Pass check (well-known files)
+        run: |
+          set -uo pipefail
+          FAIL=0
+          for f in assetlinks.json apple-app-site-association; do
+            URL="https://$DOMAIN/.well-known/$f"
+            for i in 1 2 3 4 5 6; do
+              CODE=$(curl -sS -o /tmp/wk -w '%{http_code}' --max-redirs 0 "$URL" || echo 000)
+              [ "$CODE" = 200 ] && break; sleep 20
+            done
+            echo "== $URL -> HTTP $CODE"
+            if [ "$CODE" = 200 ] && jq -e . /tmp/wk >/dev/null 2>&1; then jq -c . /tmp/wk; echo "PASS $f"; else echo "FAIL $f"; FAIL=1; fi
+          done
+          exit $FAIL
