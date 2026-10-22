@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MAV Control map link</title>
+<style>
+:root{color-scheme:light dark}
+body{font:16px system-ui,sans-serif;margin:2rem auto;max-width:32rem;padding:0 16px}
+.coord{font:600 1.4rem ui-monospace,monospace;overflow-wrap:anywhere;margin:1rem 0}
+.btn{display:inline-block;padding:.7rem 1.2rem;border-radius:8px;background:#1a73e8;color:#fff;text-decoration:none;font-weight:600}
+</style></head>
+<body>
+<h1>MAV Control</h1>
+<p id="msg">This link opens a map position in MAV Control. If the app is installed and the link was opened from a verified source, it opens by itself.</p>
+<div class="coord" id="coord" hidden></div>
+<p><a class="btn" id="open" href="#" hidden>Open in MAV Control</a></p>
+<h2>App not installed?</h2>
+<ul id="downloads"></ul>
+<script>
+// DOWNLOAD LINKS: fill in the real store/TestFlight/APK URLs here (placeholders, none are published yet).
+var DOWNLOADS = [
+  // { label: 'Android (APK)', url: 'REPLACE_WITH_ANDROID_DOWNLOAD_URL' },
+  // { label: 'iPhone (TestFlight)', url: 'REPLACE_WITH_TESTFLIGHT_URL' }
+];
+var list = document.getElementById('downloads');
+if (!DOWNLOADS.length) list.innerHTML = '<li>Ask the person who sent the link for the download.</li>';
+DOWNLOADS.forEach(function (d) {
+  var li = document.createElement('li'), a = document.createElement('a');
+  a.href = d.url; a.textContent = d.label; li.appendChild(a); list.appendChild(li);
+});
+// Fallback when App/Universal Links did not open the app (for example inside WhatsApp's in-app browser):
+// forward only a plain MGRS value to the custom scheme.
+var m = new URLSearchParams(location.search).get('mgrs');
+var ok = m && /^[0-9A-Za-z \t]{4,40}$/.test(m);
+var a = document.getElementById('open'), c = document.getElementById('coord');
+if (ok) {
+  m = m.trim();
+  a.href = 'mavcontrol://map?mgrs=' + encodeURIComponent(m); a.hidden = false;
+  c.textContent = m; c.hidden = false;
+  document.getElementById('msg').textContent = 'Map position (MGRS):';
+} else {
+  document.getElementById('msg').textContent = 'This link has no valid MGRS coordinate.';
+}
+</script>
+</body></html>
