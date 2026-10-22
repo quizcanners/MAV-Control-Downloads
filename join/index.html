@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'unsafe-inline'; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<title>MAV Control · Приєднатися / Join</title>
+<style>body{font:16px system-ui,sans-serif;max-width:36rem;margin:2rem auto;padding:0 16px}label,input{display:block}input{box-sizing:border-box;width:100%;font:inherit;padding:.7rem;margin:.5rem 0}a{display:inline-block;padding:.7rem;background:#1767b0;color:white;text-decoration:none}a[aria-disabled=true]{pointer-events:none;opacity:.6}p{line-height:1.5}</style>
+</head><body>
+<h1>MAV Control</h1>
+<p id="inviter">Перевіряємо запрошення / Checking invitation…</p>
+<section id="journey" hidden>
+<label for="name">Ваше ім’я — щонайменше 5 символів / Your name — at least 5 characters</label>
+<input id="name" autocomplete="name" maxlength="64" aria-describedby="nameIssue">
+<p id="nameIssue" role="status"></p>
+<p><a id="open" aria-disabled="true">Відкрити MAV Control / Open MAV Control</a></p>
+<p>Якщо застосунок установлено, відкрийте його для автентифікації. Дочекайтеся підтвердження від того, хто вас запросив.</p>
+<p>If the app is installed, open it to authenticate and wait for the inviter’s confirmation.</p>
+<h2>Ще не встановлено? / Not installed yet?</h2>
+<p id="installation" role="status">Інсталяційний шлях із цим запрошенням ще готується. Пакет не пропонується, доки немає перевіреного сумісного випуску. Запрошення залишається на цій сторінці.<br>The installation path with this invitation is being prepared. No installer is offered until a verified compatible release is available. Your invitation stays on this page.</p>
+<p>Після встановлення поверніться сюди й натисніть «Відкрити MAV Control» — повторно сканувати QR не потрібно.<br>After installation, return here and choose Open MAV Control; there is no need to scan the QR again.</p>
+</section>
+<script type="module" src="page.mjs"></script>
+</body></html>
