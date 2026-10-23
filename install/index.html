@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; worker-src 'self'; style-src 'unsafe-inline'; connect-src 'self' https://install.prublyda.com; base-uri 'none'; form-action 'none'; object-src 'none'">
+<title>MAV Control · Установити та приєднатися / Install and join</title>
+<style>[hidden]{display:none!important}body{font:16px system-ui,sans-serif;max-width:38rem;margin:2rem auto;padding:0 16px}label,input{display:block}input{box-sizing:border-box;width:100%;font:inherit;padding:.7rem;margin:.5rem 0}a,button{display:inline-block;font:inherit;padding:.7rem;background:#1767b0;color:white;border:0;text-decoration:none;margin:.2rem 0}a[aria-disabled=true],button:disabled{pointer-events:none;opacity:.6}p{line-height:1.5}</style>
+</head><body>
+<h1>MAV Control</h1>
+<p id="inviter">Перевіряємо запрошення / Checking invitation…</p>
+<section id="journey" hidden>
+<label for="name">Ваше ім’я — щонайменше 5 символів / Your name — at least 5 characters</label>
+<input id="name" autocomplete="name" maxlength="64" aria-describedby="nameIssue">
+<p id="nameIssue" role="status"></p>
+<p><a id="open" aria-disabled="true">Відкрити та приєднатися / Open and join</a></p>
+<p>Якщо MAV Control уже встановлено, відкрийте його. Дочекайтеся підтвердження від того, хто вас запросив.<br>If MAV Control is already installed, open it and wait for the inviter’s confirmation.</p>
+<h2>Ще не встановлено? / Not installed yet?</h2>
+<p id="package"></p><p id="platformIssue"></p>
+<button id="prepare" disabled>Завантажити інсталятор / Download installer</button>
+<button id="cancel" hidden>Скасувати / Cancel</button>
+<p id="status" role="status"></p>
+<a id="save" hidden>Зберегти інсталятор / Save installer</a>
+<p>Збережіть та встановіть інсталятор, поверніться на цю сторінку й натисніть «Відкрити та приєднатися». Повторно сканувати QR не потрібно.<br>Save and install the installer, return to this page and choose Open and join. There is no need to scan the QR again.</p>
+</section>
+<script type="module" src="page.mjs"></script>
+</body></html>
