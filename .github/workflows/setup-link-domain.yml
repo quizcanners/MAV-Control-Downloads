@@ -15,12 +15,17 @@ on:
         description: Also create the 4 AAAA records
         type: boolean
         default: true
+      installer_dns_only:
+        description: Configure only install.prublyda.com on the existing routing host (no Pages changes)
+        type: boolean
+        default: false
 
 permissions:
   contents: read
 
 jobs:
   setup:
+    if: ${{ !inputs.installer_dns_only }}
     runs-on: ubuntu-latest
     env:
       DOMAIN: ${{ inputs.domain }}
@@ -137,3 +142,49 @@ jobs:
             if [ "$CODE" = 200 ] && jq -e . /tmp/wk >/dev/null 2>&1; then jq -c . /tmp/wk; echo "PASS $f"; else echo "FAIL $f"; FAIL=1; fi
           done
           exit $FAIL
+
+  installer-dns:
+    if: ${{ inputs.installer_dns_only }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    concurrency: install-prublyda-dns
+    env:
+      CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    steps:
+      - name: Ensure the existing routing host has its installer DNS record
+        shell: python
+        run: |
+          import json, os, urllib.request
+          token = os.environ['CF_TOKEN']
+          if not token:
+              raise SystemExit('CLOUDFLARE_API_TOKEN is missing')
+          def api(path, body=None):
+              request = urllib.request.Request(
+                  'https://api.cloudflare.com/client/v4' + path,
+                  data=None if body is None else json.dumps(body).encode(),
+                  headers={'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'})
+              try:
+                  with urllib.request.urlopen(request, timeout=30) as response:
+                      result = json.load(response)
+              except Exception:
+                  raise SystemExit('Cloudflare request failed; no credentials or response body logged') from None
+              if result.get('success') is not True:
+                  raise SystemExit('Cloudflare refused the request; records were not replaced')
+              return result['result']
+          zones = api('/zones?name=prublyda.com')
+          if len(zones) != 1 or zones[0]['name'] != 'prublyda.com':
+              raise SystemExit('Expected exactly the prublyda.com zone')
+          path = '/zones/' + zones[0]['id'] + '/dns_records'
+          query = '?name=install.prublyda.com&per_page=100'
+          def addresses():
+              return [row for row in api(path + query) if row['type'] in ('A', 'AAAA', 'CNAME')]
+          def correct(rows):
+              return len(rows) == 1 and rows[0]['type'] == 'A' and rows[0]['name'] == 'install.prublyda.com' and rows[0]['content'] == '116.203.217.199' and rows[0].get('proxied') is False
+          rows = addresses()
+          if rows and not correct(rows):
+              raise SystemExit('Conflicting install.prublyda.com address/proxy records; nothing changed')
+          if not rows:
+              api(path, {'type': 'A', 'name': 'install.prublyda.com', 'content': '116.203.217.199', 'ttl': 300, 'proxied': False})
+          if not correct(addresses()):
+              raise SystemExit('Installer DNS readback failed')
+          print('PASS install.prublyda.com A 116.203.217.199 DNS only; apex and Pages untouched')
