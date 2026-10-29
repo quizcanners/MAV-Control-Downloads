@@ -16,7 +16,7 @@ on:
         type: boolean
         default: true
       installer_dns_only:
-        description: Configure only install.prublyda.com on the existing routing host (no Pages changes)
+        description: Configure only install.prublyda.com and galera.prublyda.com on the existing routing host (no Pages changes)
         type: boolean
         default: false
 
@@ -175,16 +175,18 @@ jobs:
           if len(zones) != 1 or zones[0]['name'] != 'prublyda.com':
               raise SystemExit('Expected exactly the prublyda.com zone')
           path = '/zones/' + zones[0]['id'] + '/dns_records'
-          query = '?name=install.prublyda.com&per_page=100'
-          def addresses():
-              return [row for row in api(path + query) if row['type'] in ('A', 'AAAA', 'CNAME')]
-          def correct(rows):
-              return len(rows) == 1 and rows[0]['type'] == 'A' and rows[0]['name'] == 'install.prublyda.com' and rows[0]['content'] == '116.203.217.199' and rows[0].get('proxied') is False
-          rows = addresses()
-          if rows and not correct(rows):
-              raise SystemExit('Conflicting install.prublyda.com address/proxy records; nothing changed')
-          if not rows:
-              api(path, {'type': 'A', 'name': 'install.prublyda.com', 'content': '116.203.217.199', 'ttl': 300, 'proxied': False})
-          if not correct(addresses()):
-              raise SystemExit('Installer DNS readback failed')
-          print('PASS install.prublyda.com A 116.203.217.199 DNS only; apex and Pages untouched')
+          # Both names live on the existing routing host: install (installer relay) and galera (agent coordination ledger, quiz 2026-10-29).
+          for host in ('install.prublyda.com', 'galera.prublyda.com'):
+              query = '?name=' + host + '&per_page=100'
+              def addresses():
+                  return [row for row in api(path + query) if row['type'] in ('A', 'AAAA', 'CNAME')]
+              def correct(rows):
+                  return len(rows) == 1 and rows[0]['type'] == 'A' and rows[0]['name'] == host and rows[0]['content'] == '116.203.217.199' and rows[0].get('proxied') is False
+              rows = addresses()
+              if rows and not correct(rows):
+                  raise SystemExit('Conflicting ' + host + ' address/proxy records; nothing changed')
+              if not rows:
+                  api(path, {'type': 'A', 'name': host, 'content': '116.203.217.199', 'ttl': 300, 'proxied': False})
+              if not correct(addresses()):
+                  raise SystemExit(host + ' DNS readback failed')
+              print('PASS ' + host + ' A 116.203.217.199 DNS only; apex and Pages untouched')
