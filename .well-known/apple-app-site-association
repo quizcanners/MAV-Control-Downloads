@@ -2,8 +2,22 @@
   "applinks": {
     "details": [
       {
-        "appIDs": ["A3MFNBLQ44.com.shershni.mavcontrol"],
-        "components": [ { "/": "/map", "?": { "mgrs": "?*" }, "comment": "map position links only" } ]
+        "appIDs": [
+          "A3MFNBLQ44.com.shershni.mavcontrol"
+        ],
+        "components": [
+          {
+            "/": "/map",
+            "?": {
+              "mgrs": "?*"
+            },
+            "comment": "map position links only"
+          },
+          {
+            "/": "/join",
+            "comment": "authentication invitation; payload in fragment"
+          }
+        ]
       }
     ]
   }
