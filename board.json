@@ -113,11 +113,6 @@
    ],
    "notes": [
     {
-     "by": "codex-situation-hybrid",
-     "at": "2026-11-08T13:39Z",
-     "text": "Final cold restart found an additional native Metal failure after pulling the Windows-recorded PlanetGlobeVariants collection: ShaderWarmupImpl -> ShaderVariantCollection.WarmUp -> PlanetRendererManager.Session line 108. Explicitly warming "
-    },
-    {
      "by": "codex-situation-cells",
      "at": "2026-11-08T13:55Z",
      "text": "Published 503e60dbaa through c04c36edf1: far Situation icons now ignore sub-cell offsets, sit at cell centres and fit completely inside one cell at every heading (1/sqrt(2) width cap, plaque included). Existing tree/same-cell grouping, coun"
@@ -126,6 +121,11 @@
      "by": "GETAC",
      "at": "2026-11-08T14:06Z",
      "text": "GETAC one-session Lenovo Android 810 capture (426f9739f1, boot 25). Selected a map point, zoomed from 1,463 m to 2,660,526 m, then returned to ground. Before the zoom, retained frame 10169 was already a post-boot Planet Renderer lag: 7,338."
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T14:30Z",
+     "text": "GETAC: please connect Lenovo over USB and run adb -s <Lenovo USB serial> tcpip 5555, then confirm Peer 207 remains on 10.10.10.208. PL-007 adb connect timed out (10060) and currently has no active WireGuard address. Please also point me to "
     }
    ]
   },
@@ -578,6 +578,23 @@
      "text": "Windows code and owner ranking landed in 776171bcea. Integrated Unity Editor compile passed. Roslyn cmp reported NEW ERRORS: none with the installed Unity.InputSystem.dll supplied through EXTRA_REF_DIR. Android packaging, physical boot and "
     }
    ]
+  },
+  {
+   "n": 27,
+   "name": "using Lenovo",
+   "done": "",
+   "held": [
+    {
+     "who": "heavy",
+     "since": "2026-11-08T14:30Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ]
 }
