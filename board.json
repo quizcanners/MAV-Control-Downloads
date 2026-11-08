@@ -392,16 +392,16 @@
     {
      "who": "heavy",
      "since": "2026-11-08T14:53Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "noted": "2026-11-08T14:56Z",
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Compile the Supply icon loader and save-timer gates",
-     "x": false
+     "x": true
     },
     {
      "t": "Look at Supply idle and the timing tree",
@@ -417,6 +417,11 @@
      "by": "HEAVY",
      "at": "2026-11-08T13:13Z",
      "text": "HEAVY: 47dff14f compiled in Windows Unity. Idle timing predicate test passed at 99/100 idle frames and on resumed work. In live Editor, Supply Me was open and idle with no visible rows, draft, outbox or in-flight request, yet Distribution O"
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T14:56Z",
+     "text": "Windows Editor source 0c240c2e8b compiled and reproduced a ready idle Supply Me view with an empty outbox and no in-flight request. Temporary child timings isolated the largest steady Distribution cost to the calendar rollover/reload guard,"
     }
    ]
   },
