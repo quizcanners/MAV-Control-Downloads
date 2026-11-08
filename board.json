@@ -958,11 +958,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "mac-batch",
-     "at": "2026-11-08T18:05Z",
-     "text": "Mac batch finalise: c6a2ece0e5 is on main. SituationEffectsTests.FailedPointingKeepsSituationMaintenanceAndRetainsDrag: problems.Contains(SituationEntities) expected false, actual true on Windows. The fixture omitted the camera and renderer"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-08T18:16Z",
      "text": "Getac Windows Unity 6000.6.8f1, exact ten filters, source dc33e5b078 includes 7228f5e4 and shared fix c6a2ece0e5: 10 passed, 0 failed, 0 skipped. The original assertions both passed after Mac supplied the Situation fixture camera and render"
@@ -971,6 +966,11 @@
      "by": "GETAC",
      "at": "2026-11-08T18:23Z",
      "text": "GETAC All with 1800 s is running on b0a8cecae6, exact parent of 814 version-only 41f1be3e89. GETAC owns device smoke and Drive Test replacement if green. If HEAVY is already building signed 814 from 41f1be3e89, please retain the raw APK, SH"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-08T18:30Z",
+     "text": "Both named Situation and Navigator cases passed in the admitted 8527/0/8 Windows All and the exact 814 8528/0/8 rerun after c6a2ece0e5. GETAC claim left with its owner."
     }
    ]
   },
@@ -1015,5 +1015,5 @@
    "notes": []
   }
  ],
- "source_revision": "2031bd0b39d96b2676fb6677609b3e0a6393272b"
+ "source_revision": "30ecde1c8574547f8aa412e4db80efcdac1d3146"
 }
