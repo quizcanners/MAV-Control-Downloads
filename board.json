@@ -702,19 +702,14 @@
     {
      "who": "heavy",
      "since": "2026-11-08T16:28Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-08T16:48Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "cloud-idlefps",
-     "at": "2026-11-08T16:26Z",
-     "text": "Show the fixed power limits next to the live readings (quiz, 2026-11-08: keep them in code): Conserve at 20% battery or less off the charger (DevicePowerPolicy.LowBatteryLevel), at thermal status 3 or more (HotThermalStatus), or with the OS"
-    },
     {
      "by": "CLOUD_THREAD",
      "at": "2026-11-08T16:39Z",
@@ -724,6 +719,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-08T16:45Z",
      "text": "Compile pass for the heavy worker (quiz, 2026-11-08: \"2. Yep\"): remove the dead SaveAiSandboxLatestOutput entry from HeavyUsage in Station_FrameBudget.cs (enum and its description at ~line 1202) and check that saved frame budgets still load"
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T16:48Z",
+     "text": "0093b1ba9f adds Device power under Menu > Diagnostics > Lags using the existing expandable diagnostics rows. The glance shows status, mode, battery percent when available and idle FPS; details show external power, battery, thermal, OS saver"
     }
    ]
   },
@@ -793,5 +793,5 @@
    "notes": []
   }
  ],
- "source_revision": "683212298f7826122b08ae9fe7dd45e494493401"
+ "source_revision": "3a4e848f16a49b3555ad5e4c709766258dad0b40"
 }
