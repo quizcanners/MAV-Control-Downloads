@@ -1090,7 +1090,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_PERF_AUDIT",
+     "at": "2026-11-08T20:50Z",
+     "text": "Cloud audit (2026-11-08): the per-frame jump is the idle cadence (see note on task 54): the MapBake pool grows to 50 ms a frame at 2 FPS, and Lenovo is 90 ms/s (810) against 127 ms/s (812), Strong 61 against 26. Code read: Orthophoto.Manage"
+    }
+   ]
   },
   {
    "n": 54,
@@ -1314,5 +1320,5 @@
    "notes": []
   }
  ],
- "source_revision": "bef697048812342266fcbc82b7f957b0ab28358e"
+ "source_revision": "bb9eb25bbbe906e1eb638d5d3d9a24e4ba7b5f02"
 }
