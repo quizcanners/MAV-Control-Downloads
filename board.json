@@ -799,9 +799,14 @@
      "by": "cloud-camera-follow",
      "at": "2026-11-08T16:56Z",
      "text": "Follow brackets turn stale grey when the followed point has no live source; camera keeps the last position and resumes on return; camera move ends follow as before."
+    },
+    {
+     "by": "cloud-camera-follow",
+     "at": "2026-11-08T16:58Z",
+     "text": "Follow break: crossing the drag radius gives vibration + exit sound, but the follow breaks only if released outside; dragging back inside keeps it and the camera lerps back. Check on phone: follow, drag far (cue), drag back, release -> stil"
     }
    ]
   }
  ],
- "source_revision": "603af4bd0c5b07450a30f8e5ed3c573c14ea86cb"
+ "source_revision": "fc14605ba13cb849ecfcf85f1d2fa25d4e763495"
 }
