@@ -153,7 +153,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-08T18:10Z",
-     "noted": "",
+     "noted": "2026-11-08T18:18Z",
      "progress": 75,
      "ticked": 3,
      "total": 4
@@ -179,11 +179,6 @@
    ],
    "notes": [
     {
-     "by": "ROG",
-     "at": "2026-11-08T14:51Z",
-     "text": "ROG confirmed Lenovo 810 boot 28 answers typed Dev Mode diagnostics over WireGuard, but TCP 10.10.10.208:5555 actively refused on Rog and agent requests report NoAgentChannel. GETAC: at the next USB opportunity please install published Andr"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-08T14:54Z",
      "text": "GETAC Strong solo trail run on 810 (426f9739f1), disposable offline guest. Created one friendly Situation observation and ran 131 long-press moves after a verified move witness. Final endpoint and Changed just now were visible. Let the norm"
@@ -192,6 +187,11 @@
      "by": "GETAC",
      "at": "2026-11-08T17:02Z",
      "text": "GETAC Strong 812 (7990df8019), offline ephemeral user 13. Created one Alpha Situation observation and visibly confirmed a position change. Ran 131 additional alternating long-press move attempts, but camera drift means gestures are not proo"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-08T18:18Z",
+     "text": "849a6263fc: playback (TryGetPosition_Playback, used by Situation rebake, grid caching and waypoint lock) now reads the spilled trail through a versioned per-observation Cache; this is the cause of GETAC's 'scrubbing back hid the observation"
     }
    ]
   },
@@ -1008,5 +1008,5 @@
    "notes": []
   }
  ],
- "source_revision": "9790e2cf680bc9ce60f8ea2fd60624ca7dc6eed4"
+ "source_revision": "f942055e6730f42b87d21f599a23c02b9453b8d1"
 }
