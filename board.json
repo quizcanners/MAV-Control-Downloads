@@ -1092,7 +1092,28 @@
    "name": "Idle chat/network work grew",
    "done": "",
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Open the VPN Chat scope in the Performance menu on Lenovo, build 812",
+     "x": false
+    },
+    {
+     "t": "Find the per-frame work with no message arriving",
+     "x": false
+    },
+    {
+     "t": "Move it to message arrival or a timer slower than the 2 FPS cadence",
+     "x": false
+    },
+    {
+     "t": "Install on both phones, repeat the idle read",
+     "x": false
+    },
+    {
+     "t": "Compare with 13.24 ms Strong and 50.66 ms Lenovo in Phone_Timings.md",
+     "x": false
+    }
+   ],
    "notes": []
   },
   {
@@ -1104,5 +1125,5 @@
    "notes": []
   }
  ],
- "source_revision": "9cd3faa94b6b270ada1f84e8180cd44d069d7891"
+ "source_revision": "2b4571e915cb2f71df86d9266ffb1d468ce4e09a"
 }
