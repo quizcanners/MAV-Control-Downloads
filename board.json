@@ -548,19 +548,14 @@
     {
      "who": "mac-batch",
      "since": "2026-11-08T17:56Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-08T18:01Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-08T17:52Z",
-     "text": "GETAC Lenovo 812 owner, idle and Half-resolution switches on. After 45 s untouched SurfaceFlinger averaged 507.08 ms, 505.81 ms on the owner timing window. One tap was followed by 33.30/116.61 ms intervals, then 433/566/533 ms gaps before f"
-    },
     {
      "by": "cloud-idlefps",
      "at": "2026-11-08T17:54Z",
@@ -570,6 +565,11 @@
      "by": "heavy",
      "at": "2026-11-08T17:57Z",
      "text": "No DJI controller/aircraft was present for a linked-on-ground pause observation. Code review only: the pause callback marks the lifecycle inactive, sets bridge pause, and schedules a 10 s SDK shutdown when HasFlyingRealDrone is false even i"
+    },
+    {
+     "by": "mac-batch",
+     "at": "2026-11-08T18:01Z",
+     "text": "Mac batch render check passed on open Unity 6000.6.8f1 Editor at 6fda7d3079: entered Play, held and moved the pointer over five seconds, released, and stopped. URP asset git status was empty before and after. Station_Inspect.cs and URP asse"
     }
    ]
   },
@@ -1005,5 +1005,5 @@
    "notes": []
   }
  ],
- "source_revision": "099dd0dd337a1d12305443e5d0395fbee9d5d278"
+ "source_revision": "70b980a3349e2d524c19c00f6c261e0d74dd82a0"
 }
