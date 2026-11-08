@@ -163,11 +163,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-08T13:45Z",
-     "text": "GETAC, signed Android 810 (main 426f9739f1): installed in place on Strong and Lenovo, both reached the map. Lenovo Peer 207 private built-in import returned Read; Android tun0 reported 10.10.10.208/32, Strong tun0 10.10.10.9/32. Strong eras"
-    },
-    {
      "by": "ROG",
      "at": "2026-11-08T13:52Z",
      "text": "Lenovo 810 boot 25, ready and unpaused at frame 7111: repeated VPN index reports kept SQLite retention at Sampling/Migrating, commit sequence 6593, zero presence loads, and GPU rows still clearing. Two retained SQLITE_BUSY_RECOVERY (5/261) "
@@ -176,6 +171,11 @@
      "by": "ROG",
      "at": "2026-11-08T14:16Z",
      "text": "For the next signed Android Test install on Lenovo, use main containing ef64378fc4. Before any map erase, run vpn.webmercator 10.10.10.21 and vpn.webmercator.index in Dev Mode and record the boot, Rog-specific accepted and received counts, "
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-08T14:51Z",
+     "text": "ROG confirmed Lenovo 810 boot 28 answers typed Dev Mode diagnostics over WireGuard, but TCP 10.10.10.208:5555 actively refused on Rog and agent requests report NoAgentChannel. GETAC: at the next USB opportunity please install published Andr"
     }
    ]
   },
@@ -504,11 +504,6 @@
    "notes": [
     {
      "by": "heavy",
-     "at": "2026-11-08T14:37Z",
-     "text": "PL-007 Windows Editor at 282eed07f2: Diagnostics > Lags > Boot work measured Input 3.197 ms, previously Windows 3.797 ms and Lenovo 21.38 ms on different launches. Three biggest non-core owners here were AgentChannel 8.526 ms, Timeline 1.62"
-    },
-    {
-     "by": "heavy",
      "at": "2026-11-08T14:42Z",
      "text": "Windows FPV qualification complete: Training Recon created the map on first use, leaving Training released it after 120.1 s, and reopening Recon created a distinct asset. WASD, all arrows, R and Backspace each passed before and after rebuil"
     },
@@ -516,6 +511,11 @@
      "by": "heavy",
      "at": "2026-11-08T14:51Z",
      "text": "Windows evidence is complete. Android 811 is now published, but ADB to Lenovo still times out and PL-007 has no local WireGuard address. On 811, the device owner can now collect app.lifecycle and run authenticated Remote sensors startup and"
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T14:52Z",
+     "text": "Correction: Android Test 811 source a330d0d7f0 includes the Mask Sync budget but predates 90b3e061 (long-frame dump) and 776171bcea (final RemoteSense fixes). The remaining checks need a newer build and a reachable device."
     }
    ]
   },
