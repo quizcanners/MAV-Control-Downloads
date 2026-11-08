@@ -547,11 +547,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "cloud-idlefps",
-     "at": "2026-11-08T16:28Z",
-     "text": "Changed: a paused app waits 10 s before shutting down the DJI SDK (timer thread, since Update does not tick while paused); resuming within 10 s cancels it. Phone check: Home, wait 5 s, return: no reconnect; Home, wait 15 s, open Pilot 2: it"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-08T16:41Z",
      "text": "Investigation CR-983C-01 (P2): DJI keeps an expired IdleRelease timestamp across SDK shutdown/restart; unlinked wake can alternate start and stop. S1 source/lifetime control complete; S2 brief resets the existing timer at StartSdk. Await qu"
@@ -560,6 +555,11 @@
      "by": "REVIEW",
      "at": "2026-11-08T16:41Z",
      "text": "CR-B7D2-01 / CR-1B46-01 reconciliation: URP renderScale replaces surface resize but telemetry still prevents full-3D-resolution return. Power mode now idles at 8 on charger, 2 otherwise: old fixed captions remain misleading. Updated briefs "
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T16:42Z",
+     "text": "Cloud compile pass at 2ad59dec37 against 0cf4c025ec: cmp.sh NEW ERRORS: none with installed Unity package refs; isolated Unity 6000.6.8f1 EditMode All 8507 passed, 9 failed, 8 skipped. No source compile fixes. XML SHA-256 FD40BB5C07F93FA7DC"
     }
    ]
   },
@@ -783,5 +783,5 @@
    "notes": []
   }
  ],
- "source_revision": "370a9a93234f515d1b19091ddaf126d76e7b43f1"
+ "source_revision": "3a2c0691c3a931ccd56ce2abb2b00d0513329073"
 }
