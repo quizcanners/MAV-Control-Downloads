@@ -548,19 +548,14 @@
     {
      "who": "mac-touch-scale",
      "since": "2026-11-08T19:44Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-08T19:51Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "mac-batch",
-     "at": "2026-11-08T18:01Z",
-     "text": "Mac batch render check passed on open Unity 6000.6.8f1 Editor at 6fda7d3079: entered Play, held and moved the pointer over five seconds, released, and stopped. URP asset git status was empty before and after. Station_Inspect.cs and URP asse"
-    },
     {
      "by": "mac-batch",
      "at": "2026-11-08T18:03Z",
@@ -570,6 +565,11 @@
      "by": "HEAVY",
      "at": "2026-11-08T18:30Z",
      "text": "GETAC handoff: signed Brigade 68 ARM64 Android 814, source 07bcf48b71, exact-source cmp.sh NEW ERRORS: none, Windows EditMode All 8528 passed/0 failed/8 skipped. APK retained on PL-007 at C:/MavControlEvidence/WorkCritical/heavy-batch2-andr"
+    },
+    {
+     "by": "mac-touch-scale",
+     "at": "2026-11-08T19:51Z",
+     "text": "Mobile touch resolution shipped in ed7c670d84. Android and iOS default on with no saved choice; stored choices are preserved."
     }
    ]
   },
@@ -1193,5 +1193,5 @@
    "notes": []
   }
  ],
- "source_revision": "790277529f092616a5c2ec47664a77f6ee91a8d6"
+ "source_revision": "727dddad938632dd3c438c8eae080aadf1c97e09"
 }
