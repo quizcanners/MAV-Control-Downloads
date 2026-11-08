@@ -548,11 +548,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "heavy",
-     "at": "2026-11-08T17:57Z",
-     "text": "No DJI controller/aircraft was present for a linked-on-ground pause observation. Code review only: the pause callback marks the lifecycle inactive, sets bridge pause, and schedules a 10 s SDK shutdown when HasFlyingRealDrone is false even i"
-    },
-    {
      "by": "mac-batch",
      "at": "2026-11-08T18:01Z",
      "text": "Mac batch render check passed on open Unity 6000.6.8f1 Editor at 6fda7d3079: entered Play, held and moved the pointer over five seconds, released, and stopped. URP asset git status was empty before and after. Station_Inspect.cs and URP asse"
@@ -561,6 +556,11 @@
      "by": "mac-batch",
      "at": "2026-11-08T18:03Z",
      "text": "Mac batch correction: Menu > Diagnostics Power details use the localized Unavailable fallback for null thermal (UI_ProcessesInspector_Lags.ShowPowerDetails), so current source does not match the requested literal ?. DevicePowerPolicy.Sample"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-08T18:30Z",
+     "text": "GETAC handoff: signed Brigade 68 ARM64 Android 814, source 07bcf48b71, exact-source cmp.sh NEW ERRORS: none, Windows EditMode All 8528 passed/0 failed/8 skipped. APK retained on PL-007 at C:/MavControlEvidence/WorkCritical/heavy-batch2-andr"
     }
    ]
   },
@@ -1015,5 +1015,5 @@
    "notes": []
   }
  ],
- "source_revision": "9ebb72bf18aebcd8b894575656b2ffc503062448"
+ "source_revision": "b9b2fbb1bb8d195eb2ad4b1ecf42d51194a790e8"
 }
