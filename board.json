@@ -448,11 +448,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-08T15:23Z",
-     "text": "Finalization audit: 7000 of 26,450 tiles committed (26.47%). Copernicus worker PID 29412 is live. The 25% step is ticked; next milestone is 13,225 tiles. HEAVY retains this running build."
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-08T15:27Z",
      "text": "Done on main: Planet draw 27/27 b541846c8b, Map Source/UI 54/54 b4d352d8cc, Windows launch seal 5/5 38abc418c2, parallax fixture 52a59f6d51 and startup baseline 263d787f6e. Integrated native Unity passed and cmp.sh NEW ERRORS: none."
     },
@@ -460,6 +455,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-08T16:31Z",
      "text": "Delete the kept NOAA copy (quiz, 2026-11-08: \"2. Deleting it\"): once one build with Copernicus has run on the phones with no terrain problems, delete the NOAA relief copy kept for switching back (the folder named in the 14:29Z note) and pus"
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T16:42Z",
+     "text": "Cloud compile pass at 2ad59dec37 against 0cf4c025ec: cmp.sh NEW ERRORS: none with installed Unity package refs; isolated Unity 6000.6.8f1 EditMode All 8507 passed, 9 failed, 8 skipped. No source compile fixes. XML SHA-256 FD40BB5C07F93FA7DC"
     }
    ]
   },
@@ -783,5 +783,5 @@
    "notes": []
   }
  ],
- "source_revision": "c5f7c4158d6a5f87996300d61083b0dc6d9e6774"
+ "source_revision": "a55ad71d452473e2947a3d85a7dc4b0df5535778"
 }
