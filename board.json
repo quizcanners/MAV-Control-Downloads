@@ -187,7 +187,7 @@
     {
      "who": "heavy",
      "since": "2026-11-08T15:11Z",
-     "noted": "2026-11-08T15:11Z",
+     "noted": "2026-11-08T15:15Z",
      "progress": 20,
      "ticked": 1,
      "total": 5
@@ -218,11 +218,6 @@
    "notes": [
     {
      "by": "heavy",
-     "at": "2026-11-08T15:01Z",
-     "text": "Windows All receipt 0cf4c025ec, 13 failed cases triaged against retained All.xml (SHA-256 efd75f6af54a6abdba2153095c411b3680b0541474999e99a05fc7c99dd0a60b)."
-    },
-    {
-     "by": "heavy",
      "at": "2026-11-08T15:03Z",
      "text": "Parallax fixture fix pushed in 52a59f6d51. Unity 6000.6.8f1 compiled successfully and the compiled WarStation.EditModeTests assembly declares TestAttribute only on the parameterless method. Roslyn NEW ERRORS: none. Pixel behavior still requ"
     },
@@ -230,6 +225,11 @@
      "by": "heavy",
      "at": "2026-11-08T15:11Z",
      "text": "Windows receipt fixture fixed in 38abc418c2. Direct cause: DataRoot assertion compared Unity slash spelling with Windows canonical spelling. Deeper reason: the fixture treated serialization spelling as directory identity. It now requires a "
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T15:15Z",
+     "text": "Map Source fixture fixed in b4d352d8cc. Direct cause: the row count and credits index still described the seven-row prefab. Deeper reason: the older structural fixture was missed when Element quality was added and its companion layout fixtu"
     }
    ]
   },
@@ -237,16 +237,7 @@
    "n": 9,
    "name": "Distribution",
    "done": "",
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-08T14:13Z",
-     "noted": "2026-11-08T15:14Z",
-     "progress": 0,
-     "ticked": 0,
-     "total": 5
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Protected HTTPS installer route live",
