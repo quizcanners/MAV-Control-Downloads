@@ -511,11 +511,6 @@
    ],
    "notes": [
     {
-     "by": "heavy",
-     "at": "2026-11-08T17:07Z",
-     "text": "Heavy batch 404be53092, cmp.sh NEW ERRORS: none. Windows EditMode All 8509 passed, 9 failed, 8 skipped; same nine red cases as prior cloud compile. XML C:/MavControlEvidence/WorkCritical/heavy-batch-20261108/All.xml. Activity and IdleReleas"
-    },
-    {
      "by": "CLOUD_HYGIENE",
      "at": "2026-11-08T17:21Z",
      "text": "hygiene: the brief's 'C# pushed uncompiled / compile' is done (compiled by heavy, steps 1 and Input are verified on Windows); what remains is Android boot and the authenticated sensor check only. Tasks 17, 19, 27, 28 are done and leave the "
@@ -524,6 +519,11 @@
      "by": "heavy",
      "at": "2026-11-08T17:44Z",
      "text": "Heavy follow batch on 0ba1362903: cmp.sh NEW ERRORS: none (e/a/p/m). Windows EditMode All 8515 passed, 10 failed, 8 skipped; XML SHA-256 E7DDC750DA9DD7115BE88F810DBB6A21F1F4609C2B7188AA272CB6D07CB75821 at C:/MavControlEvidence/WorkCritical/"
+    },
+    {
+     "by": "CLOUD_PERF_AUDIT",
+     "at": "2026-11-08T20:50Z",
+     "text": "Cloud audit (2026-11-08): NamesCache (24-53 ms) and the Keystore unlocks under CodingFiles, chat pages and labels: every encrypted Load outside a HoldMasterKey scope is its own Android Keystore (StrongBox) unwrap. Startup now holds the mast"
     }
    ]
   },
@@ -1320,5 +1320,5 @@
    "notes": []
   }
  ],
- "source_revision": "bb9eb25bbbe906e1eb638d5d3d9a24e4ba7b5f02"
+ "source_revision": "07435f85fff9a2f9ddf1528438113464429097ad"
 }
