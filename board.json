@@ -504,11 +504,6 @@
    "notes": [
     {
      "by": "heavy",
-     "at": "2026-11-08T14:23Z",
-     "text": "Windows code and owner ranking landed in 776171bcea. Integrated Unity Editor compile passed. Roslyn cmp reported NEW ERRORS: none with the installed Unity.InputSystem.dll supplied through EXTRA_REF_DIR. Android packaging, physical boot and "
-    },
-    {
-     "by": "heavy",
      "at": "2026-11-08T14:37Z",
      "text": "PL-007 Windows Editor at 282eed07f2: Diagnostics > Lags > Boot work measured Input 3.197 ms, previously Windows 3.797 ms and Lenovo 21.38 ms on different launches. Three biggest non-core owners here were AgentChannel 8.526 ms, Timeline 1.62"
     },
@@ -516,6 +511,11 @@
      "by": "heavy",
      "at": "2026-11-08T14:42Z",
      "text": "Windows FPV qualification complete: Training Recon created the map on first use, leaving Training released it after 120.1 s, and reopening Recon created a distinct asset. WASD, all arrows, R and Backspace each passed before and after rebuil"
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T14:51Z",
+     "text": "Windows evidence is complete. Android 811 is now published, but ADB to Lenovo still times out and PL-007 has no local WireGuard address. On 811, the device owner can now collect app.lifecycle and run authenticated Remote sensors startup and"
     }
    ]
   },
