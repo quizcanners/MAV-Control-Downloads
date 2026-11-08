@@ -119,11 +119,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-08T16:03Z",
-     "text": "Investigation CR-90B3-01 (P2, also complexity): the long-frame logger looks up the current stall in worst-frame rankings; a >1 s stall outside both rankings logs frame_not_retained instead of its tree. S1 source/admission control complete; "
-    },
-    {
      "by": "ROG",
      "at": "2026-11-08T16:34Z",
      "text": "Rog observed a live Mac 812 boot 644 LagDetail refusal remote_failure=RetainedRevisionChanged for frame 819/revision 68. Follow-up typed request timed out, so successful recovery is not verified. Automatic long-frame inbox had no new entrie"
@@ -132,6 +127,11 @@
      "by": "REVIEW",
      "at": "2026-11-08T16:41Z",
      "text": "Investigation CR-90B3-01 follow-up (P3 correctness/complexity): text-file/page parsing retired at 3b32518fe; current wall-only lookup labels a work-retained frame unretained. S1 admission/search control complete; S2 brief uses the existing "
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T16:41Z",
+     "text": "Cloud compile pass at 2ad59dec37 against 0cf4c025ec: cmp.sh NEW ERRORS: none with installed Unity package refs; isolated Unity 6000.6.8f1 EditMode All 8507 passed, 9 failed, 8 skipped. No source compile fixes. XML SHA-256 FD40BB5C07F93FA7DC"
     }
    ]
   },
@@ -783,5 +783,5 @@
    "notes": []
   }
  ],
- "source_revision": "d23f2232fb8b1e71cde1296a4473525afd0e5ba3"
+ "source_revision": "c5f7c4158d6a5f87996300d61083b0dc6d9e6774"
 }
