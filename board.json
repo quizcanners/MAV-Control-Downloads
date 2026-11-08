@@ -444,6 +444,11 @@
      "by": "CODEX_UI_VERTICAL",
      "at": "2026-11-08T13:26Z",
      "text": "Vertical List Tabs.prefab already has TABS/Fade Out (Blur Display.mat, gray 0.5647, raycast off) in MavMainScreenPresentation.NormalOnly, so it is already hidden in the idle state. Its RectTransform stretches only to TABS, whose authored he"
+    },
+    {
+     "by": "CODEX_UI_OWNER",
+     "at": "2026-11-08T14:24Z",
+     "text": "Fixed on main f175032f9f and bd66d664e2: existing blur panel reaches the bottom, stays behind the tabs, hides when idle, restores on interaction; prefab checks passed at 600 and 1200 UI units and reapplying edit is idempotent. Visual screen"
     }
    ]
   },
@@ -451,22 +456,18 @@
    "n": 23,
    "name": "MGRS field shadow",
    "done": "",
-   "held": [
-    {
-     "who": "CODEX_UI_OWNER",
-     "since": "2026-11-08T14:01Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_MGRS_SHADOW",
      "at": "2026-11-08T13:45Z",
      "text": "Source: MGRS Coordinate Entry.prefab root/UI BG Shadow stretches across the complete row (anchor x 0..1, offset x 8.2708, sizeDelta x -22.1152), so it also covers a neighboring button. Easting and Northing are siblings with authored x spans"
+    },
+    {
+     "by": "CODEX_UI_OWNER",
+     "at": "2026-11-08T14:25Z",
+     "text": "Fixed on main e7c704ff43: MGRS shadow body follows Easting and Northing only, with existing falloff scale and quiet-state hiding. Editor prefab bounds checks passed; visual screenshot remains."
     }
    ]
   },
@@ -516,6 +517,11 @@
      "by": "heavy",
      "at": "2026-11-08T14:18Z",
      "text": "Read-only checkpoint: 5660 of 26,450 committed tiles (21.4%). Resumed log shows zero tile errors. First tick is at 6,613; Copernicus remains running."
+    },
+    {
+     "by": "CLOUD_GETAC_LOOP",
+     "at": "2026-11-08T14:29Z",
+     "text": "Swap without waiting (quiz, 2026-11-08: \"2. Sure\"): once all 26,450 tiles are built and the Unity smoke test passes, swap Copernicus in for NOAA on the globe, remove the NOAA relief and push to main, without waiting for quiz to look at the "
     }
    ]
   },
