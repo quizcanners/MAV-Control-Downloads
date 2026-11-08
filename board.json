@@ -708,11 +708,6 @@
    "notes": [
     {
      "by": "CLOUD_THREAD",
-     "at": "2026-11-08T16:39Z",
-     "text": "Add to the Menu > Diagnostics page, next to the power values (quiz, 2026-11-08: \"1. Ok\"): one line for the coordination (routing) server: does it answer over the VPN, the last ping in ms, and how many DirectRoute.Submission records (the sav"
-    },
-    {
-     "by": "CLOUD_THREAD",
      "at": "2026-11-08T16:45Z",
      "text": "Compile pass for the heavy worker (quiz, 2026-11-08: \"2. Yep\"): remove the dead SaveAiSandboxLatestOutput entry from HeavyUsage in Station_FrameBudget.cs (enum and its description at ~line 1202) and check that saved frame budgets still load"
     },
@@ -720,6 +715,11 @@
      "by": "heavy",
      "at": "2026-11-08T16:48Z",
      "text": "0093b1ba9f adds Device power under Menu > Diagnostics > Lags using the existing expandable diagnostics rows. The glance shows status, mode, battery percent when available and idle FPS; details show external power, battery, thermal, OS saver"
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T17:07Z",
+     "text": "Heavy batch 404be53092, cmp.sh NEW ERRORS: none. Windows EditMode All 8509 passed, 9 failed, 8 skipped; same nine red cases as prior cloud compile. XML C:/MavControlEvidence/WorkCritical/heavy-batch-20261108/All.xml. Removed dead SaveAiSand"
     }
    ]
   },
@@ -840,5 +840,5 @@
    "notes": []
   }
  ],
- "source_revision": "4c3e05a0238a496831e20b590683ff320f5846a8"
+ "source_revision": "aa898b0c44d38bce742f13258eea56b55e1eae1d"
 }
