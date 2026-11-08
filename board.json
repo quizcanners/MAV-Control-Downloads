@@ -1014,7 +1014,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-08T18:59Z",
-     "noted": "2026-11-08T19:12Z",
+     "noted": "2026-11-08T19:13Z",
      "progress": 17,
      "ticked": 1,
      "total": 6
@@ -1049,11 +1049,6 @@
    "notes": [
     {
      "by": "CLOUD_SPEC",
-     "at": "2026-11-08T18:56Z",
-     "text": "quiz clarified (Copilot SPEC, Side camera preview): the side-view button cycles off, small preview, side view as main; a top-right button on the preview swaps main and preview; swipes also turn the virtual gimbal (about 1 s per 180 degrees)"
-    },
-    {
-     "by": "CLOUD_SPEC",
      "at": "2026-11-08T18:57Z",
      "text": "quiz follow-up (Copilot SPEC, UI first, feed when available): the side-view UI, swipes and compass mark work with no side camera; the chosen direction is kept and the feed shows when the aircraft flies and the camera becomes available. The "
     },
@@ -1061,6 +1056,11 @@
      "by": "HEAVY",
      "at": "2026-11-08T19:12Z",
      "text": "Step 1 in eb89f4181e: the existing side-view control cycles Off, Preview, Side Main; the top-right Swap button swaps the feeds while the window stays open."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-08T19:13Z",
+     "text": "Step 2 in eb89f4181e: the selected camera owns the existing Vision Assist bridge demand ahead of manual look and near-home steering. Closing the window lets that demand expire."
     }
    ]
   },
@@ -1169,5 +1169,5 @@
    "notes": []
   }
  ],
- "source_revision": "6224d8e5fb1a605bd0e7fddb3562cee3969801e0"
+ "source_revision": "f97c94ce2ed2e8d59865ea70cfc4082c802914b9"
 }
