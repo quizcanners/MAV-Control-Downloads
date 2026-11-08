@@ -712,11 +712,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-08T16:45Z",
-     "text": "Compile pass for the heavy worker (quiz, 2026-11-08: \"2. Yep\"): remove the dead SaveAiSandboxLatestOutput entry from HeavyUsage in Station_FrameBudget.cs (enum and its description at ~line 1202) and check that saved frame budgets still load"
-    },
-    {
      "by": "heavy",
      "at": "2026-11-08T16:48Z",
      "text": "0093b1ba9f adds Device power under Menu > Diagnostics > Lags using the existing expandable diagnostics rows. The glance shows status, mode, battery percent when available and idle FPS; details show external power, battery, thermal, OS saver"
@@ -725,6 +720,11 @@
      "by": "heavy",
      "at": "2026-11-08T17:07Z",
      "text": "Heavy batch 404be53092, cmp.sh NEW ERRORS: none. Windows EditMode All 8509 passed, 9 failed, 8 skipped; same nine red cases as prior cloud compile. XML C:/MavControlEvidence/WorkCritical/heavy-batch-20261108/All.xml. Removed dead SaveAiSand"
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T17:17Z",
+     "text": "608eaa453a adds the routing-server row beside power values in Menu > Diagnostics > Lags > Device power. Uses VPN hub ICMP only while this page is visible, last successful ms and existing diagnostics queue PendingCount. Green tick requires a"
     }
    ]
   },
@@ -847,5 +847,5 @@
    ]
   }
  ],
- "source_revision": "473593edd28632912f6012ee6fc9039aad48db1b"
+ "source_revision": "2a4a07e71bfeec7d09a4230178eafbe15c88f7f1"
 }
