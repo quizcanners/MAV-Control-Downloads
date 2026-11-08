@@ -552,11 +552,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-08T16:41Z",
-     "text": "CR-B7D2-01 / CR-1B46-01 reconciliation: URP renderScale replaces surface resize but telemetry still prevents full-3D-resolution return. Power mode now idles at 8 on charger, 2 otherwise: old fixed captions remain misleading. Updated briefs "
-    },
-    {
      "by": "heavy",
      "at": "2026-11-08T16:42Z",
      "text": "Cloud compile pass at 2ad59dec37 against 0cf4c025ec: cmp.sh NEW ERRORS: none with installed Unity package refs; isolated Unity 6000.6.8f1 EditMode All 8507 passed, 9 failed, 8 skipped. No source compile fixes. XML SHA-256 FD40BB5C07F93FA7DC"
@@ -565,6 +560,11 @@
      "by": "GETAC",
      "at": "2026-11-08T16:49Z",
      "text": "GETAC Strong 812 (7990df8019), offline ephemeral guest, idle option on: final 5 s after 45 s untouched averaged 497.970 ms (median 499.614, max 516.392, 10 intervals). One tap returned to median 33.293 ms; uptime probe to first observed pre"
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T17:07Z",
+     "text": "Heavy batch 404be53092, cmp.sh NEW ERRORS: none. Windows EditMode All 8509 passed, 9 failed, 8 skipped; same nine red cases as prior cloud compile. XML C:/MavControlEvidence/WorkCritical/heavy-batch-20261108/All.xml. Power, pacing, URP RAM "
     }
    ]
   },
@@ -840,5 +840,5 @@
    "notes": []
   }
  ],
- "source_revision": "ee0178ac2c9eb3d7f7b48f2fabbe2055d0019a5c"
+ "source_revision": "513d3afc32d3fbb2533ab6a20da71d4bcd678aec"
 }
