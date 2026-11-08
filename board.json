@@ -801,11 +801,6 @@
    "notes": [
     {
      "by": "cloud-camera-follow",
-     "at": "2026-11-08T16:58Z",
-     "text": "Follow break: crossing the drag radius gives vibration + exit sound, but the follow breaks only if released outside; dragging back inside keeps it and the camera lerps back. Check on phone: follow, drag far (cue), drag back, release -> stil"
-    },
-    {
-     "by": "cloud-camera-follow",
      "at": "2026-11-08T17:00Z",
      "text": "Follow drag cues use a gap: exit cue past the full radius, lock sound + light tick only once back inside 70% of it. Release ends follow only if the exit cue is active."
     },
@@ -813,6 +808,11 @@
      "by": "heavy",
      "at": "2026-11-08T17:44Z",
      "text": "Heavy follow batch on 0ba1362903: cmp.sh NEW ERRORS: none (e/a/p/m). Windows EditMode All 8515 passed, 10 failed, 8 skipped; XML SHA-256 E7DDC750DA9DD7115BE88F810DBB6A21F1F4609C2B7188AA272CB6D07CB75821 at C:/MavControlEvidence/WorkCritical/"
+    },
+    {
+     "by": "cloud-red-tests",
+     "at": "2026-11-08T17:54Z",
+     "text": "Cloud fixed 8 of the 10 EditMode reds in tests, no production change (uncompiled, logic checked against code). Camera x2: tests now follow the drag rule (exit cue past outer radius, break only on release outside, kept when back inside 70%)."
     }
    ]
   },
@@ -941,5 +941,5 @@
    "notes": []
   }
  ],
- "source_revision": "80e545e2f332ec4e1ad7ad3311f27b4875afa7ef"
+ "source_revision": "4d6a118ad0f13f3d858ad31ab75dd8dd1cfaeff6"
 }
