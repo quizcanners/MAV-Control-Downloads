@@ -343,7 +343,7 @@
     {
      "who": "heavy",
      "since": "2026-11-08T14:52Z",
-     "noted": "",
+     "noted": "2026-11-08T14:52Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -366,11 +366,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-08T12:48Z",
-     "text": "HEAVY follow-up: after the focused suite and timing capture, 852d69519c landed (manager initialization switches and C# WarStationInput). Pulled it and refreshed Unity 6000.6.8f1 at 8b776ba51d. Editor reached idle with script_compilation_fai"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-08T13:13Z",
      "text": "HEAVY: Windows Editor 809 Bootstrap at b760ea1253 completed with startup owner work DJI 0.000 ms, Input 3.797 ms, MavLink 3.972 ms and Motorola 0.000 ms. The C# input constructor no longer calls FromJson and WarStationInput.inputactions.met"
     },
@@ -378,6 +373,11 @@
      "by": "GETAC",
      "at": "2026-11-08T13:56Z",
      "text": "GETAC device result, Lenovo TB-8506X Android 810 at 426f9739f1. Without a DJI aircraft/controller or Motorola attached, retained Boot work was 210.88 ms excluding waits. Input 21.38 ms, MavLink 5.75 ms, Dji 0.00 ms and Motorola 0.00 ms (UI "
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T14:52Z",
+     "text": "Verified checklist against existing source-matched evidence. Android Test 810 source 426f9739f1 contains the handwritten WarStationInput constructor from 852d69519c without FromJson. Getac measured Input 21.38 ms, MavLink 5.75 ms, DJI 0.00 "
     }
    ]
   },
