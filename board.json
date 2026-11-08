@@ -493,11 +493,6 @@
    "notes": [
     {
      "by": "heavy",
-     "at": "2026-11-08T14:51Z",
-     "text": "Windows evidence is complete. Android 811 is now published, but ADB to Lenovo still times out and PL-007 has no local WireGuard address. On 811, the device owner can now collect app.lifecycle and run authenticated Remote sensors startup and"
-    },
-    {
-     "by": "heavy",
      "at": "2026-11-08T14:52Z",
      "text": "Correction: Android Test 811 source a330d0d7f0 includes the Mask Sync budget but predates 90b3e061 (long-frame dump) and 776171bcea (final RemoteSense fixes). The remaining checks need a newer build and a reachable device."
     },
@@ -505,6 +500,11 @@
      "by": "heavy",
      "at": "2026-11-08T14:53Z",
      "text": "AgentChannel 8.526 ms (Windows Editor boot)."
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T16:42Z",
+     "text": "Cloud compile pass at 2ad59dec37 against 0cf4c025ec: cmp.sh NEW ERRORS: none with installed Unity package refs; isolated Unity 6000.6.8f1 EditMode All 8507 passed, 9 failed, 8 skipped. No source compile fixes. XML SHA-256 FD40BB5C07F93FA7DC"
     }
    ]
   },
@@ -783,5 +783,5 @@
    "notes": []
   }
  ],
- "source_revision": "a55ad71d452473e2947a3d85a7dc4b0df5535778"
+ "source_revision": "370a9a93234f515d1b19091ddaf126d76e7b43f1"
 }
