@@ -88,7 +88,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-08T14:58Z",
-     "noted": "",
+     "noted": "2026-11-08T15:11Z",
      "progress": 0,
      "ticked": 0,
      "total": 6
@@ -130,11 +130,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-08T14:31Z",
-     "text": "Investigation CR-F06D-01 (P2): the one-send-per-frame Mask Sync flag can starve later peers when a full under-3-ms sweep leaves its starting index unchanged, including fast peer-backoff refusals. S1 source and 100-frame scheduling model com"
-    },
-    {
      "by": "heavy",
      "at": "2026-11-08T14:38Z",
      "text": "PL-007 did not obtain a Lenovo ADB transport: two adb connect attempts to 10.10.10.208:5555 timed out (10060), and adb get-state says device not found. This host has no active WireGuard route to Peer 207. Asked GETAC to run USB adb tcpip 55"
@@ -143,6 +138,11 @@
      "by": "heavy",
      "at": "2026-11-08T14:50Z",
      "text": "Android Test 811 is published (a330d0d7f0). PL-007 still has no WireGuard address or ADB transport to Peer 207 after retry (10060). The fresh paired zoom and deepest long-frame child remain for the device owner. The prior Lenovo 810 retaine"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-08T15:11Z",
+     "text": "GETAC Strong 811 at a330d0d7f0bb contains PlanetGlobeVariants and the 3 ms Mask Sync peer budget. Low quality was visibly active. Opened the globe from map zoom 12 to 5 and selected a map point; returned to zoom 12. SurfaceFlinger maximum p"
     }
    ]
   },
@@ -191,7 +191,16 @@
    "n": 7,
    "name": "Verify",
    "done": "",
-   "held": [],
+   "held": [
+    {
+     "who": "heavy",
+     "since": "2026-11-08T15:11Z",
+     "noted": "2026-11-08T15:11Z",
+     "progress": 20,
+     "ticked": 1,
+     "total": 5
+    }
+   ],
    "steps": [
     {
      "t": "Failed fixtures triaged",
