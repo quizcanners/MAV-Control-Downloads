@@ -899,7 +899,13 @@
    "done": "",
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-08T17:57Z",
+     "text": "Same verdict as task 44 (see its note): Geometry Manager and Payload Splitter Other work at ~4 s each in one frame, no lock in either, points to a process-level stall (GC or memory pressure), not loops. 1484b0634b adds main-thread CPU/major"
+    }
+   ]
   },
   {
    "n": 44,
@@ -955,5 +961,5 @@
    "notes": []
   }
  ],
- "source_revision": "10b49ec2b3c30dc114306463ed4d426390d9ee0b"
+ "source_revision": "c5dab151aed9383a8d2be9b6a8ae7279911f413d"
 }
