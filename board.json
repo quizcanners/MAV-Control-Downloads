@@ -191,7 +191,16 @@
    "n": 7,
    "name": "Verify",
    "done": "",
-   "held": [],
+   "held": [
+    {
+     "who": "heavy",
+     "since": "2026-11-08T15:11Z",
+     "noted": "2026-11-08T15:11Z",
+     "progress": 20,
+     "ticked": 1,
+     "total": 5
+    }
+   ],
    "steps": [
     {
      "t": "Failed fixtures triaged",
@@ -240,7 +249,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-08T14:13Z",
-     "noted": "2026-11-08T14:18Z",
+     "noted": "2026-11-08T15:14Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -271,11 +280,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-08T13:04Z",
-     "text": "GETAC device follow-up for former Task 13, now here: Test 809 installs on both tablets were via ADB. No in-app seal-1 or seal-2 upgrade, 504/drop retry timing, or first-screen HTTP failure was exercised. Lenovo stalled on startup and Task 6"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-08T13:49Z",
      "text": "GETAC, Lenovo Android 810 (426f9739f1): opened App updates, selected Test, ran Check for updates, and Diagnostics showed current 810, checked Test, android-arm64, Division_Brigade_68, with no downloadable offer. GitHub published Test listin"
     },
@@ -283,6 +287,11 @@
      "by": "GETAC",
      "at": "2026-11-08T14:18Z",
      "text": "GETAC published signed Android 810 from 426f9739f1 as MAVSEAL1 on GitHub Test (test-r810-Division_Brigade_68-426f9739f13a-9ff0cf273a73). Publisher readback matched the sealed asset. Both attached Androids are already on 810, so the equal-ve"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-08T15:14Z",
+     "text": "GETAC Lenovo 810 to 811 in-app MAVSEAL1 PASS. 810 and 811 are published to GitHub Test. Cut Wi-Fi after the first download showed 5% (17.5/312.3 MiB); first update screen showed HTTP 200: Failed to receive data and Download again. Wi-Fi res"
     }
    ]
   },
