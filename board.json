@@ -178,7 +178,7 @@
     {
      "who": "heavy",
      "since": "2026-11-08T16:16Z",
-     "noted": "",
+     "noted": "2026-11-08T16:21Z",
      "progress": 20,
      "ticked": 1,
      "total": 5
@@ -208,11 +208,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-08T16:03Z",
-     "text": "CR-6515-01 reconciliation: 696c510e0 repairs Android lag-detail optional-serial parsing; selftest remains omitted. Real main boundary control confirms empty lag-detail serial and incorrect selftest serial, with ADB stubbed. Existing proposa"
-    },
-    {
      "by": "heavy",
      "at": "2026-11-08T16:10Z",
      "text": "Fresh project-native Windows EditMode All on Unity 6000.6.8f1: 8503 passed, 12 failed, 8 skipped, controller exit 1. Public source f1a589f9d4, private profile source 045d040d3b. XML SHA-256 DBD53A93CB252E112373BC58DAF0F5D6887FC05C9CC7A1BA67"
@@ -221,6 +216,11 @@
      "by": "heavy",
      "at": "2026-11-08T16:15Z",
      "text": "a9e4d3eb81 fixes the lag allocation fixture. Direct cause: synthetic wall intervals reached the one-second dump threshold during measurement; the failed All log contains long_frame records for frames 999 through 1063. Deeper reason: the fix"
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T16:21Z",
+     "text": "Windows wheel fixture still red. Original failure reproduced at forced origin shift step 12 with 278.85 px drift; inactive fixture globe anchor was never registered with Cesium. Diagnostic private candidate e1b3ccb150 explicitly initializes"
     }
    ]
   },
@@ -702,5 +702,5 @@
    ]
   }
  ],
- "source_revision": "7873039d7c5a1ac4fd2fa38b36a5b75ad2616f89"
+ "source_revision": "a66fd82a5bc7b613e59b677b3e35f73b4f0598ee"
 }
