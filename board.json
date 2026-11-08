@@ -559,11 +559,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "cloud-idlefps",
-     "at": "2026-11-08T15:29Z",
-     "text": "Added: Activity state (Interacting/Watching/Idle/Hidden) written once per frame. Extra steps: (5) Press Home / lock the screen on a phone, wait 10 s, return: map must resume at once with no stale frame and MavLink, recording and VPN still c"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-08T16:03Z",
      "text": "Investigation CR-B7D2-01 (P2): live drone telemetry keeps the shared activity age below 3 s, so a prior drag leaves half-resolution on after input stops. S1 predicate/order control complete; S2 brief keeps input age distinct inside the exis"
@@ -572,6 +567,11 @@
      "by": "REVIEW",
      "at": "2026-11-08T16:03Z",
      "text": "Investigation CR-1B46-01 (P3): populated English/Ukrainian idle captions still say 8 fps although the new policy and C# fallbacks say 2. S1 decoded exact table slots and traced Loc; S2 brief updates existing values, preserving keys. Await q"
+    },
+    {
+     "by": "cloud-idlefps",
+     "at": "2026-11-08T16:12Z",
+     "text": "Power mode landed (DevicePowerPolicy.Mode: Charging 8 fps idle, OnBattery/Conserve 2 fps; Android thermal status read). Still open: (a) the Menu > Diagnostics tab page for power values (a MetricGroup like Startup in UI_ProcessesInspector_Gr"
     }
    ]
   },
@@ -702,5 +702,5 @@
    ]
   }
  ],
- "source_revision": "fed7c7ab6e75f59e83d353ee923feed2200f1252"
+ "source_revision": "bf4e03b5f16ee196d74d572caf05a83943aad4a4"
 }
