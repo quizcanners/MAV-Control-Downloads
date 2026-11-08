@@ -130,11 +130,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-08T19:53Z",
-     "text": "Strong Test 814 (07bcf48b71), Low quality, same pose: black squares persisted with Fotoplan OFF and Day lighting, disappeared with Satellite source once imagery settled, then reappeared at the same positions on switching back to Offline. Re"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-08T20:01Z",
      "text": "Zoom stutter, controlled ADB two-finger input + Unity SurfaceFlinger presents, overlapping gesture through 1 s after release, map UI closed. Strong Test 814 (07bcf48b71), Offline/Low: short pinches (3 each) worst in 166.6/133.3/133.0 ms, ou"
     },
@@ -142,6 +137,11 @@
      "by": "GETAC",
      "at": "2026-11-08T20:11Z",
      "text": "Black-tile follow-up, Strong Test 814: the same L-shaped/isolated Offline patches were visible across a cold app process restart, including at first usable map, while Android per-app GPU stats recorded GL driver loads and no Vulkan loads. E"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-08T20:20Z",
+     "text": "Lenovo in-place upgrade to signed 814 (same APK as Strong) and rerun of the same six native gestures, though starting poses differed. 814 zoom-in peak 216.5 ms; zoom-out gaps beginning after touch-down peaked at 100.0 ms. The last out had a"
     }
    ]
   },
@@ -1203,5 +1203,5 @@
    "notes": []
   }
  ],
- "source_revision": "3541678c5b9243c196007c6822aa02b1c17a0d07"
+ "source_revision": "4b02f0c0b11627f5a3a5125e33266cea53113134"
 }
