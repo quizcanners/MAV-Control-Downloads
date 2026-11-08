@@ -1226,8 +1226,8 @@
     {
      "who": "GETAC",
      "since": "2026-11-08T21:24Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-08T21:52Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -1238,6 +1238,11 @@
      "by": "GETAC",
      "at": "2026-11-08T20:36Z",
      "text": "Strong 814 device proof: captured another visible Offline black patch and read copies of device SQLite payload shards. Stable shard reads passed quick_check. The later index snapshot also passed quick_check and resolves canonical generation"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-08T21:52Z",
+     "text": "Fix on main 875a14cc12. Direct cause: both parent paths could encode absent quadrants as opaque black when no prior pixels were available. Deeper reason: the persisted RGB JPEG does not distinguish missing coverage from real black imagery. "
     }
    ]
   },
@@ -1379,5 +1384,5 @@
    "notes": []
   }
  ],
- "source_revision": "eddd35dfd930a291a24254094f16eec45adb8a1c"
+ "source_revision": "11dab4334cb02e66b36f1b633a49c5b03612b9ec"
 }
