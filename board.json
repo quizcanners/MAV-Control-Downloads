@@ -92,6 +92,14 @@
      "progress": 0,
      "ticked": 0,
      "total": 6
+    },
+    {
+     "who": "MAC",
+     "since": "2026-11-08T15:01Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 6
     }
    ],
    "steps": [
@@ -183,11 +191,20 @@
    "n": 7,
    "name": "Verify",
    "done": "",
-   "held": [],
+   "held": [
+    {
+     "who": "heavy",
+     "since": "2026-11-08T14:59Z",
+     "noted": "2026-11-08T15:01Z",
+     "progress": 20,
+     "ticked": 1,
+     "total": 5
+    }
+   ],
    "steps": [
     {
      "t": "Failed fixtures triaged",
-     "x": false
+     "x": true
     },
     {
      "t": "Native, import and render gates",
@@ -209,11 +226,6 @@
    "notes": [
     {
      "by": "REVIEW",
-     "at": "2026-11-08T13:42Z",
-     "text": "CR-3750-01 reconciled: d55e1fd94 excludes the synthetic remainder from ordinary touched children; source repaired. HEAVY records native results separately; this pass did not rerun them. [Review reconciliation](../Reviews/29668402d.md#workfl"
-    },
-    {
-     "by": "REVIEW",
      "at": "2026-11-08T14:31Z",
      "text": "Investigation CR-96BF-01 (P2): --claim accepts a retained done task, then open listings and app holder projection hide that claim. S1 real local CLI control reproduced; S2 brief uses the existing done_stamp admission. Await quiz before impl"
     },
@@ -221,6 +233,11 @@
      "by": "REVIEW",
      "at": "2026-11-08T14:31Z",
      "text": "Investigation CC-B794-01 (P3 complexity/performance): Tasks Inspector allocates and rebuilds open/done row lists every draw of an unchanged poll response. S1 traces Poll as the value writer; S2 brief moves the existing list builds to accept"
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T15:01Z",
+     "text": "Windows All receipt 0cf4c025ec, 13 failed cases triaged against retained All.xml (SHA-256 efd75f6af54a6abdba2153095c411b3680b0541474999e99a05fc7c99dd0a60b)."
     }
    ]
   },
@@ -433,7 +450,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-08T14:00Z",
-     "noted": "2026-11-08T14:40Z",
+     "noted": "2026-11-08T14:58Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -463,11 +480,6 @@
    ],
    "notes": [
     {
-     "by": "heavy",
-     "at": "2026-11-08T14:18Z",
-     "text": "Read-only checkpoint: 5660 of 26,450 committed tiles (21.4%). Resumed log shows zero tile errors. First tick is at 6,613; Copernicus remains running."
-    },
-    {
      "by": "CLOUD_GETAC_LOOP",
      "at": "2026-11-08T14:29Z",
      "text": "Swap without waiting (quiz, 2026-11-08: \"2. Sure\"): once all 26,450 tiles are built and the Unity smoke test passes, swap Copernicus in for NOAA on the globe, remove the NOAA relief and push to main, without waiting for quiz to look at the "
@@ -476,6 +488,11 @@
      "by": "HEAVY",
      "at": "2026-11-08T14:40Z",
      "text": "Read-only checkpoint: 6100 of 26,450 committed tiles (23.06%). Build remains running. Milestones ticked only for completed quarters."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-08T14:58Z",
+     "text": "Read-only tile count: 6500/26,450 (24.57%). Build remains running; next quarter tick requires 6,613 committed tiles."
     }
    ]
   },
