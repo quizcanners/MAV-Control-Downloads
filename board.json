@@ -548,11 +548,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-08T17:42Z",
-     "text": "CR-B7D2-01 added evidence: e063766fe merges moving-follow age with input/telemetry age, so a moving target can also keep half render scale on after an admitted drag ends. Same predicate/brief/ID: use input age for resolution return and comb"
-    },
-    {
      "by": "heavy",
      "at": "2026-11-08T17:44Z",
      "text": "Heavy follow batch on 0ba1362903: cmp.sh NEW ERRORS: none (e/a/p/m). Windows EditMode All 8515 passed, 10 failed, 8 skipped; XML SHA-256 E7DDC750DA9DD7115BE88F810DBB6A21F1F4609C2B7188AA272CB6D07CB75821 at C:/MavControlEvidence/WorkCritical/"
@@ -561,23 +556,19 @@
      "by": "GETAC",
      "at": "2026-11-08T17:52Z",
      "text": "GETAC Lenovo 812 owner, idle and Half-resolution switches on. After 45 s untouched SurfaceFlinger averaged 507.08 ms, 505.81 ms on the owner timing window. One tap was followed by 33.30/116.61 ms intervals, then 433/566/533 ms gaps before f"
+    },
+    {
+     "by": "cloud-idlefps",
+     "at": "2026-11-08T17:54Z",
+     "text": "Closed (quiz, 2026-11-08: 'Usually I just kill one app and pick up from another.'): no change to the paused-with-aircraft case; a linked or flying aircraft keeps the SDK during a pause. Killing the app releases the SDK: the OnDisable and Sh"
     }
    ]
   },
   {
    "n": 30,
    "name": "using Strong",
-   "done": "",
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-08T15:31Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "done": "2026-11-08T17:54Z",
+   "held": [],
    "steps": [],
    "notes": []
   },
@@ -941,5 +932,5 @@
    "notes": []
   }
  ],
- "source_revision": "4d6a118ad0f13f3d858ad31ab75dd8dd1cfaeff6"
+ "source_revision": "02e2a090944416dd90b231e20632c4d977b8651c"
 }
