@@ -178,7 +178,7 @@
     {
      "who": "heavy",
      "since": "2026-11-08T15:49Z",
-     "noted": "",
+     "noted": "2026-11-08T15:56Z",
      "progress": 20,
      "ticked": 1,
      "total": 5
@@ -209,11 +209,6 @@
    "notes": [
     {
      "by": "heavy",
-     "at": "2026-11-08T15:37Z",
-     "text": "Done on main: f5475548bd corrected the two render fixtures. Windows D3D11 surface class 52/53; shifted Sun shadow and base mip at both ancestor scales passed. Roslyn NEW ERRORS: none."
-    },
-    {
-     "by": "heavy",
      "at": "2026-11-08T15:43Z",
      "text": "Done on main: 41a511b96c updates the thermal forest fixture. Windows Unity 6000.6.8f1 D3D11 PlanetSurfaceShaderRenderTests 53/53; Roslyn NEW ERRORS: none."
     },
@@ -221,6 +216,11 @@
      "by": "heavy",
      "at": "2026-11-08T15:48Z",
      "text": "Done on main at a3c7b7cf8b: BumpOnly, draw reuse and surface render tests passed 83/83 on Windows Unity 6000.6.8f1 D3D11. Roslyn NEW ERRORS: none. The old fixture expected the mesh slope; it predated the shared fallback to the authored geod"
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T15:56Z",
+     "text": "4224f82d39 protects the pinned Cesium tarball materials. Direct cause: the editor save callback omitted LocalTarball. Deeper reason: it treated the registry/Git source list as the complete immutability rule after Cesium was repinned to a ca"
     }
    ]
   },
@@ -640,27 +640,33 @@
     {
      "who": "CODEX_UI_OWNER",
      "since": "2026-11-08T15:38Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "noted": "2026-11-08T15:54Z",
+     "progress": 100,
+     "ticked": 3,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Wire shared shader as the toggle owner",
-     "x": false
+     "x": true
     },
     {
      "t": "Verify on and off pointer drag and bounds in Editor",
-     "x": false
+     "x": true
     },
     {
      "t": "Publish and record result",
-     "x": false
+     "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_UI_OWNER",
+     "at": "2026-11-08T15:54Z",
+     "text": "Main 032097c972: the existing procedural toggle remains visible in both states and owns the pointer drag; legacy offset roots are unbound. Off/on rendered Editor checks and live extreme-drag shader positions 0/1 passed; isolated Unity EditM"
+    }
+   ]
   }
  ]
 }
