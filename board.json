@@ -417,7 +417,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-08T14:00Z",
-     "noted": "2026-11-08T15:27Z",
+     "noted": "2026-11-08T16:51Z",
      "progress": 20,
      "ticked": 1,
      "total": 5
@@ -447,11 +447,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-08T15:27Z",
-     "text": "Done on main: Planet draw 27/27 b541846c8b, Map Source/UI 54/54 b4d352d8cc, Windows launch seal 5/5 38abc418c2, parallax fixture 52a59f6d51 and startup baseline 263d787f6e. Integrated native Unity passed and cmp.sh NEW ERRORS: none."
-    },
-    {
      "by": "CLOUD_THREAD",
      "at": "2026-11-08T16:31Z",
      "text": "Delete the kept NOAA copy (quiz, 2026-11-08: \"2. Deleting it\"): once one build with Copernicus has run on the phones with no terrain problems, delete the NOAA relief copy kept for switching back (the folder named in the 14:29Z note) and pus"
@@ -460,6 +455,11 @@
      "by": "heavy",
      "at": "2026-11-08T16:42Z",
      "text": "Cloud compile pass at 2ad59dec37 against 0cf4c025ec: cmp.sh NEW ERRORS: none with installed Unity package refs; isolated Unity 6000.6.8f1 EditMode All 8507 passed, 9 failed, 8 skipped. No source compile fixes. XML SHA-256 FD40BB5C07F93FA7DC"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-08T16:51Z",
+     "text": "Finalise audit: 9120/26450 Copernicus tiles. PID 29412 live, 25 percent ticked and 50 percent at 13225. Only HEAVY claim is this build. Task 35 done at 7febd47e77; synced 7febd47e77 cmp.sh NEW ERRORS: none."
     }
    ]
   },
@@ -538,8 +538,8 @@
     {
      "who": "GETAC",
      "since": "2026-11-08T15:45Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-08T16:49Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -549,17 +549,17 @@
     {
      "by": "REVIEW",
      "at": "2026-11-08T16:41Z",
-     "text": "Investigation CR-983C-01 (P2): DJI keeps an expired IdleRelease timestamp across SDK shutdown/restart; unlinked wake can alternate start and stop. S1 source/lifetime control complete; S2 brief resets the existing timer at StartSdk. Await qu"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-08T16:41Z",
      "text": "CR-B7D2-01 / CR-1B46-01 reconciliation: URP renderScale replaces surface resize but telemetry still prevents full-3D-resolution return. Power mode now idles at 8 on charger, 2 otherwise: old fixed captions remain misleading. Updated briefs "
     },
     {
      "by": "heavy",
      "at": "2026-11-08T16:42Z",
      "text": "Cloud compile pass at 2ad59dec37 against 0cf4c025ec: cmp.sh NEW ERRORS: none with installed Unity package refs; isolated Unity 6000.6.8f1 EditMode All 8507 passed, 9 failed, 8 skipped. No source compile fixes. XML SHA-256 FD40BB5C07F93FA7DC"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-08T16:49Z",
+     "text": "GETAC Strong 812 (7990df8019), offline ephemeral guest, idle option on: final 5 s after 45 s untouched averaged 497.970 ms (median 499.614, max 516.392, 10 intervals). One tap returned to median 33.293 ms; uptime probe to first observed pre"
     }
    ]
   },
@@ -784,5 +784,5 @@
    "notes": []
   }
  ],
- "source_revision": "7febd47e77c6293ce36de59f7fd20c2e3fa8c70a"
+ "source_revision": "c35535a719d23aa22f1fe84e71d8c69d19844485"
 }
