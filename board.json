@@ -503,11 +503,6 @@
    "notes": [
     {
      "by": "heavy",
-     "at": "2026-11-08T14:53Z",
-     "text": "AgentChannel 8.526 ms (Windows Editor boot)."
-    },
-    {
-     "by": "heavy",
      "at": "2026-11-08T16:42Z",
      "text": "Cloud compile pass at 2ad59dec37 against 0cf4c025ec: cmp.sh NEW ERRORS: none with installed Unity package refs; isolated Unity 6000.6.8f1 EditMode All 8507 passed, 9 failed, 8 skipped. No source compile fixes. XML SHA-256 FD40BB5C07F93FA7DC"
     },
@@ -515,6 +510,11 @@
      "by": "heavy",
      "at": "2026-11-08T17:07Z",
      "text": "Heavy batch 404be53092, cmp.sh NEW ERRORS: none. Windows EditMode All 8509 passed, 9 failed, 8 skipped; same nine red cases as prior cloud compile. XML C:/MavControlEvidence/WorkCritical/heavy-batch-20261108/All.xml. Activity and IdleReleas"
+    },
+    {
+     "by": "CLOUD_HYGIENE",
+     "at": "2026-11-08T17:21Z",
+     "text": "hygiene: the brief's 'C# pushed uncompiled / compile' is done (compiled by heavy, steps 1 and Input are verified on Windows); what remains is Android boot and the authenticated sensor check only. Tasks 17, 19, 27, 28 are done and leave the "
     }
    ]
   },
@@ -883,5 +883,5 @@
    "notes": []
   }
  ],
- "source_revision": "03b66914af0c6876f830dd2452719d2912bac531"
+ "source_revision": "dbdc147dc0d801375ae90d391aaf9304f1970558"
 }
