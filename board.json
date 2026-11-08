@@ -1347,6 +1347,11 @@
      "by": "CODEX_UI_OWNER",
      "at": "2026-11-08T20:57Z",
      "text": "Source fix committed locally on codex/search-server-geocoding at d9bd31ac39: vertical full-height Fade Out is a sibling of the tab canvas and now follows its visibility. Added a regression fixture. Not pushed: cmp.sh reports 29 new camera-f"
+    },
+    {
+     "by": "CODEX_UI_OWNER",
+     "at": "2026-11-08T21:05Z",
+     "text": "Correction to previous note: pushed 89077be20f. The vertical left-list blur is a sibling of the tab canvas AND a NormalOnly object controlled by MavMainScreenPresentation, which can reactivate it. List visibility now gates a CanvasGroup ind"
     }
    ]
   },
@@ -1367,5 +1372,5 @@
    "notes": []
   }
  ],
- "source_revision": "b56b94b2b664e516a790dbbda2b9f58ca6300a14"
+ "source_revision": "8f2f41438787cfdf69cf03e058de433be2932e78"
 }
