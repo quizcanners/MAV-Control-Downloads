@@ -80,16 +80,7 @@
   {
    "n": 5,
    "name": "Planet renderer",
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-08T14:00Z",
-     "noted": "2026-11-08T14:06Z",
-     "progress": 0,
-     "ticked": 0,
-     "total": 5
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Lighting checks",
@@ -268,7 +259,16 @@
   {
    "n": 15,
    "name": "Chat message detail",
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_UI_OWNER",
+     "since": "2026-11-08T14:10Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 5
+    }
+   ],
    "steps": [
     {
      "t": "Full-screen message view with Reply",
@@ -474,41 +474,6 @@
      "by": "heavy",
      "at": "2026-11-08T14:02Z",
      "text": "Read-only SQLite count on PL-007: 5,380 of 26,450 tiles (20.3%); resumed log reports zero tile errors. Build remains running. First tick is due at 6,613 committed tiles."
-    }
-   ]
-  },
-  {
-   "n": 25,
-   "name": "Verify DevMode Tasks row details",
-   "held": [
-    {
-     "who": "heavy",
-     "since": "2026-11-08T14:03Z",
-     "noted": "2026-11-08T14:09Z",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
-   "steps": [
-    {
-     "t": "Roslyn compile comparison",
-     "x": true
-    },
-    {
-     "t": "Open rows in Unity Play mode",
-     "x": true
-    },
-    {
-     "t": "Record result and close",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "heavy",
-     "at": "2026-11-08T14:09Z",
-     "text": "Verified 1244ce35 in Windows Unity 6000.6.8f1 at 3fbaba6e0a. cmp.sh NEW ERRORS: none. All 15 board-tool tests passed, including the three-note cap. Play: clicked claimed Copernicus and unclaimed Map storage rows; saw steps, checked and unch"
     }
    ]
   },
