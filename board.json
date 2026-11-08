@@ -195,7 +195,7 @@
     {
      "who": "heavy",
      "since": "2026-11-08T15:04Z",
-     "noted": "",
+     "noted": "2026-11-08T15:11Z",
      "progress": 20,
      "ticked": 1,
      "total": 5
@@ -225,11 +225,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-08T14:31Z",
-     "text": "Investigation CC-B794-01 (P3 complexity/performance): Tasks Inspector allocates and rebuilds open/done row lists every draw of an unchanged poll response. S1 traces Poll as the value writer; S2 brief moves the existing list builds to accept"
-    },
-    {
      "by": "heavy",
      "at": "2026-11-08T15:01Z",
      "text": "Windows All receipt 0cf4c025ec, 13 failed cases triaged against retained All.xml (SHA-256 efd75f6af54a6abdba2153095c411b3680b0541474999e99a05fc7c99dd0a60b)."
@@ -238,6 +233,11 @@
      "by": "heavy",
      "at": "2026-11-08T15:03Z",
      "text": "Parallax fixture fix pushed in 52a59f6d51. Unity 6000.6.8f1 compiled successfully and the compiled WarStation.EditModeTests assembly declares TestAttribute only on the parameterless method. Roslyn NEW ERRORS: none. Pixel behavior still requ"
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T15:11Z",
+     "text": "Windows receipt fixture fixed in 38abc418c2. Direct cause: DataRoot assertion compared Unity slash spelling with Windows canonical spelling. Deeper reason: the fixture treated serialization spelling as directory identity. It now requires a "
     }
    ]
   },
