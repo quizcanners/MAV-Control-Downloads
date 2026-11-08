@@ -719,6 +719,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-08T16:39Z",
      "text": "Add to the Menu > Diagnostics page, next to the power values (quiz, 2026-11-08: \"1. Ok\"): one line for the coordination (routing) server: does it answer over the VPN, the last ping in ms, and how many DirectRoute.Submission records (the sav"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-08T16:45Z",
+     "text": "Compile pass for the heavy worker (quiz, 2026-11-08: \"2. Yep\"): remove the dead SaveAiSandboxLatestOutput entry from HeavyUsage in Station_FrameBudget.cs (enum and its description at ~line 1202) and check that saved frame budgets still load"
     }
    ]
   },
@@ -788,5 +793,5 @@
    "notes": []
   }
  ],
- "source_revision": "c34f94466a38c00b95504bff362ba0e7148dceb6"
+ "source_revision": "46f34fd70347df1367fcc14f951a429e41c1bc11"
 }
