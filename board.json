@@ -548,8 +548,8 @@
     {
      "who": "GETAC",
      "since": "2026-11-08T15:45Z",
-     "noted": "2026-11-08T16:49Z",
-     "progress": 25,
+     "noted": "2026-11-08T17:52Z",
+     "progress": 40,
      "ticked": 0,
      "total": 0
     }
@@ -559,17 +559,17 @@
     {
      "by": "REVIEW",
      "at": "2026-11-08T17:42Z",
-     "text": "Investigation CR-062D-01 (P2): delayed DJI timer may issue shutdown after resume because Dispose does not join its callback and fired is published after JNI. S1 source/interleaving control complete; S2 brief gives pause/resume/delayed relea"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-08T17:42Z",
      "text": "CR-B7D2-01 added evidence: e063766fe merges moving-follow age with input/telemetry age, so a moving target can also keep half render scale on after an admitted drag ends. Same predicate/brief/ID: use input age for resolution return and comb"
     },
     {
      "by": "heavy",
      "at": "2026-11-08T17:44Z",
      "text": "Heavy follow batch on 0ba1362903: cmp.sh NEW ERRORS: none (e/a/p/m). Windows EditMode All 8515 passed, 10 failed, 8 skipped; XML SHA-256 E7DDC750DA9DD7115BE88F810DBB6A21F1F4609C2B7188AA272CB6D07CB75821 at C:/MavControlEvidence/WorkCritical/"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-08T17:52Z",
+     "text": "GETAC Lenovo 812 owner, idle and Half-resolution switches on. After 45 s untouched SurfaceFlinger averaged 507.08 ms, 505.81 ms on the owner timing window. One tap was followed by 33.30/116.61 ms intervals, then 433/566/533 ms gaps before f"
     }
    ]
   },
@@ -942,5 +942,5 @@
    ]
   }
  ],
- "source_revision": "73f4838b453aa3efb1ac71479e9b1e2dddf7779f"
+ "source_revision": "8b5b83d2da74dcf7bef962a41cfd0a42dee115b9"
 }
