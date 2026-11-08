@@ -113,19 +113,19 @@
    ],
    "notes": [
     {
-     "by": "codex-situation-hybrid",
-     "at": "2026-11-08T13:39Z",
-     "text": "Final cold restart found an additional native Metal failure after pulling the Windows-recorded PlanetGlobeVariants collection: ShaderWarmupImpl -> ShaderVariantCollection.WarmUp -> PlanetRendererManager.Session line 108. Explicitly warming "
-    },
-    {
-     "by": "codex-situation-cells",
-     "at": "2026-11-08T13:55Z",
-     "text": "Published 503e60dbaa through c04c36edf1: far Situation icons now ignore sub-cell offsets, sit at cell centres and fit completely inside one cell at every heading (1/sqrt(2) width cap, plaque included). Existing tree/same-cell grouping, coun"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-08T14:06Z",
      "text": "GETAC one-session Lenovo Android 810 capture (426f9739f1, boot 25). Selected a map point, zoomed from 1,463 m to 2,660,526 m, then returned to ground. Before the zoom, retained frame 10169 was already a post-boot Planet Renderer lag: 7,338."
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T14:30Z",
+     "text": "GETAC: please connect Lenovo over USB and run adb -s <Lenovo USB serial> tcpip 5555, then confirm Peer 207 remains on 10.10.10.208. PL-007 adb connect timed out (10060) and currently has no active WireGuard address. Please also point me to "
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-08T14:31Z",
+     "text": "Investigation CR-F06D-01 (P2): the one-send-per-frame Mask Sync flag can starve later peers when a full under-3-ms sweep leaves its starting index unchanged, including fast peer-backoff refusals. S1 source and 100-frame scheduling model com"
     }
    ]
   },
@@ -210,17 +210,17 @@
     {
      "by": "REVIEW",
      "at": "2026-11-08T13:42Z",
-     "text": "Investigation CR-47DF-01 (P2): rebuilding the idle-filtered timing list can silently inspect a different child at the retained index. S1 source/index control complete; S2 brief moves choice-list rebuilding into the existing not-entered bran"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-08T13:42Z",
-     "text": "Investigation CR-6515-01 (P2): --android without a serial treats lag-detail and selftest as device serials. S1 real-parser boundary control reproduced both; S2 brief suggests two strings in the existing discriminator, with current/proposed "
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-08T13:42Z",
      "text": "CR-3750-01 reconciled: d55e1fd94 excludes the synthetic remainder from ordinary touched children; source repaired. HEAVY records native results separately; this pass did not rerun them. [Review reconciliation](../Reviews/29668402d.md#workfl"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-08T14:31Z",
+     "text": "Investigation CR-96BF-01 (P2): --claim accepts a retained done task, then open listings and app holder projection hide that claim. S1 real local CLI control reproduced; S2 brief uses the existing done_stamp admission. Await quiz before impl"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-08T14:31Z",
+     "text": "Investigation CC-B794-01 (P3 complexity/performance): Tasks Inspector allocates and rebuilds open/done row lists every draw of an unchanged poll response. S1 traces Poll as the value writer; S2 brief moves the existing list builds to accept"
     }
    ]
   },
@@ -421,57 +421,6 @@
    ]
   },
   {
-   "n": 21,
-   "name": "Vertical left tabs",
-   "done": "",
-   "held": [],
-   "steps": [
-    {
-     "t": "Darker blur background behind the tab column",
-     "x": false
-    },
-    {
-     "t": "Extends to the screen bottom",
-     "x": false
-    },
-    {
-     "t": "Hidden when not interacting",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_UI_VERTICAL",
-     "at": "2026-11-08T13:26Z",
-     "text": "Vertical List Tabs.prefab already has TABS/Fade Out (Blur Display.mat, gray 0.5647, raycast off) in MavMainScreenPresentation.NormalOnly, so it is already hidden in the idle state. Its RectTransform stretches only to TABS, whose authored he"
-    },
-    {
-     "by": "CODEX_UI_OWNER",
-     "at": "2026-11-08T14:24Z",
-     "text": "Fixed on main f175032f9f and bd66d664e2: existing blur panel reaches the bottom, stays behind the tabs, hides when idle, restores on interaction; prefab checks passed at 600 and 1200 UI units and reapplying edit is idempotent. Visual screen"
-    }
-   ]
-  },
-  {
-   "n": 23,
-   "name": "MGRS field shadow",
-   "done": "",
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MGRS_SHADOW",
-     "at": "2026-11-08T13:45Z",
-     "text": "Source: MGRS Coordinate Entry.prefab root/UI BG Shadow stretches across the complete row (anchor x 0..1, offset x 8.2708, sizeDelta x -22.1152), so it also covers a neighboring button. Easting and Northing are siblings with authored x spans"
-    },
-    {
-     "by": "CODEX_UI_OWNER",
-     "at": "2026-11-08T14:25Z",
-     "text": "Fixed on main e7c704ff43: MGRS shadow body follows Easting and Northing only, with existing falloff scale and quiet-state hiding. Editor prefab bounds checks passed; visual screenshot remains."
-    }
-   ]
-  },
-  {
    "n": 24,
    "name": "Copernicus globe relief build",
    "done": "",
@@ -533,7 +482,7 @@
     {
      "who": "heavy",
      "since": "2026-11-08T14:29Z",
-     "noted": "",
+     "noted": "2026-11-08T14:37Z",
      "progress": 20,
      "ticked": 1,
      "total": 5
@@ -564,11 +513,6 @@
    "notes": [
     {
      "by": "heavy",
-     "at": "2026-11-08T14:11Z",
-     "text": "Native Unity 6000.6.8f1 PlayerBuildInterface compiled 61 Windows x64 and 60 Android managed player assemblies. This is the player C# compile check; no APK or installer was packaged. No Android device is attached to PL-007. Checking Windows "
-    },
-    {
-     "by": "heavy",
      "at": "2026-11-08T14:20Z",
      "text": "Windows completed on PL-007: final Unity C# compile emitted 61 Windows x64 and 60 Android player assemblies. RemoteSense boot 0.000 ms; uninitialized and cache untouched at startup, initialized and cache restored on workflow entry, released"
     },
@@ -576,6 +520,11 @@
      "by": "heavy",
      "at": "2026-11-08T14:23Z",
      "text": "Windows code and owner ranking landed in 776171bcea. Integrated Unity Editor compile passed. Roslyn cmp reported NEW ERRORS: none with the installed Unity.InputSystem.dll supplied through EXTRA_REF_DIR. Android packaging, physical boot and "
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T14:37Z",
+     "text": "PL-007 Windows Editor at 282eed07f2: Diagnostics > Lags > Boot work measured Input 3.197 ms, previously Windows 3.797 ms and Lenovo 21.38 ms on different launches. Three biggest non-core owners here were AgentChannel 8.526 ms, Timeline 1.62"
     }
    ]
   },
