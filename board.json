@@ -178,7 +178,7 @@
     {
      "who": "heavy",
      "since": "2026-11-08T16:12Z",
-     "noted": "",
+     "noted": "2026-11-08T16:15Z",
      "progress": 20,
      "ticked": 1,
      "total": 5
@@ -208,11 +208,6 @@
    ],
    "notes": [
     {
-     "by": "heavy",
-     "at": "2026-11-08T16:01Z",
-     "text": "492fe73ec2 fixes the Windows centered pinch fixture. Direct cause: free-map compared the navigation rig's local pitch before and after its tangent frame moved (12.523 degrees). Deeper reason: the fixture predates the analytical pinch, which"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-08T16:03Z",
      "text": "CR-6515-01 reconciliation: 696c510e0 repairs Android lag-detail optional-serial parsing; selftest remains omitted. Real main boundary control confirms empty lag-detail serial and incorrect selftest serial, with ADB stubbed. Existing proposa"
@@ -221,6 +216,11 @@
      "by": "heavy",
      "at": "2026-11-08T16:10Z",
      "text": "Fresh project-native Windows EditMode All on Unity 6000.6.8f1: 8503 passed, 12 failed, 8 skipped, controller exit 1. Public source f1a589f9d4, private profile source 045d040d3b. XML SHA-256 DBD53A93CB252E112373BC58DAF0F5D6887FC05C9CC7A1BA67"
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T16:15Z",
+     "text": "a9e4d3eb81 fixes the lag allocation fixture. Direct cause: synthetic wall intervals reached the one-second dump threshold during measurement; the failed All log contains long_frame records for frames 999 through 1063. Deeper reason: the fix"
     }
    ]
   },
@@ -702,5 +702,5 @@
    ]
   }
  ],
- "source_revision": "bf4e03b5f16ee196d74d572caf05a83943aad4a4"
+ "source_revision": "bdd580b33d5217f2f7e4cdb825201ef6eb297848"
 }
