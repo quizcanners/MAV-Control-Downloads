@@ -183,7 +183,16 @@
    "n": 7,
    "name": "Verify",
    "done": "",
-   "held": [],
+   "held": [
+    {
+     "who": "heavy",
+     "since": "2026-11-08T15:31Z",
+     "noted": "",
+     "progress": 20,
+     "ticked": 1,
+     "total": 5
+    }
+   ],
    "steps": [
     {
      "t": "Failed fixtures triaged",
@@ -285,7 +294,7 @@
     {
      "who": "CODEX_UI_OWNER",
      "since": "2026-11-08T14:10Z",
-     "noted": "2026-11-08T15:18Z",
+     "noted": "2026-11-08T15:30Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -316,11 +325,6 @@
    "notes": [
     {
      "by": "CODEX_CHAT_MESSAGES",
-     "at": "2026-11-08T12:05Z",
-     "text": "Source trace: Chat_MessageActions.ConversationController.Delete only sets Visibility=Deleted locally and marks a local history page dirty. UI_ChatMessageMenu.Delete invokes it. UI_ChatMessageRow.OnPointerClick currently toggles tall rows in"
-    },
-    {
-     "by": "CODEX_CHAT_MESSAGES",
      "at": "2026-11-08T12:15Z",
      "text": "CODEX_CHAT_MESSAGES: task remains unimplemented. Claimed 15, traced existing local-only deletion and full-screen/transport work; another agent began actively editing PlanetRenderer files in the shared Unity checkout, so preserved those chan"
     },
@@ -328,6 +332,11 @@
      "by": "CODEX_UI_OWNER",
      "at": "2026-11-08T15:18Z",
      "text": "Reader/reply increment landed 0a7c2065fe: full-message reader with scroll and reply cue in both layouts, compact long-message preview; Unity compile, reader clipping screenshot, saved prefab bindings, cue cancellation, actual VPN serializer"
+    },
+    {
+     "by": "CODEX_UI_OWNER",
+     "at": "2026-11-08T15:30Z",
+     "text": "Focused isolated Unity EditMode run: 45 passed, 0 failed, 0 skipped (source d68e3d09b0, same Chat/test files as main 307a16913c; private identity 189f0e98b3). Original run 44/45 found an overly broad history mask assertion; 307a16913c scope"
     }
    ]
   },
@@ -555,6 +564,40 @@
      "text": "Added: Activity state (Interacting/Watching/Idle/Hidden) written once per frame. Extra steps: (5) Press Home / lock the screen on a phone, wait 10 s, return: map must resume at once with no stale frame and MavLink, recording and VPN still c"
     }
    ]
+  },
+  {
+   "n": 30,
+   "name": "using Strong",
+   "done": "",
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-08T15:31Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 31,
+   "name": "using Lenovo",
+   "done": "",
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-08T15:32Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ]
 }
