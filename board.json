@@ -925,8 +925,8 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-08T17:59Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-08T18:04Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -937,6 +937,11 @@
      "by": "GETAC",
      "at": "2026-11-08T17:51Z",
      "text": "Lenovo 812 frame 3440 at 555.5 s also logged 1.19 s wall followed by err frame_not_retained. Both missing-tree events are in the same hash-verified pulled dump, now removed from the device."
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-08T18:04Z",
+     "text": "Fixed in 1ce15355b8: DumpLongFrame searched only the 10-frame wall ranking; a >1 s frame after ten longer walls with no measured work was in neither ranking. A spare Frame keeps it; FindRetained serves dump, counter, performance.lags.tree a"
     }
    ]
   },
@@ -996,5 +1001,5 @@
    "notes": []
   }
  ],
- "source_revision": "24cef828f4511e3389a514b7772076fa371504e4"
+ "source_revision": "9a1ec639ec1280dd558a83a43ff639fa74d19170"
 }
