@@ -122,19 +122,19 @@
    ],
    "notes": [
     {
-     "by": "heavy",
-     "at": "2026-11-08T14:38Z",
-     "text": "PL-007 did not obtain a Lenovo ADB transport: two adb connect attempts to 10.10.10.208:5555 timed out (10060), and adb get-state says device not found. This host has no active WireGuard route to Peer 207. Asked GETAC to run USB adb tcpip 55"
-    },
-    {
-     "by": "heavy",
-     "at": "2026-11-08T14:50Z",
-     "text": "Android Test 811 is published (a330d0d7f0). PL-007 still has no WireGuard address or ADB transport to Peer 207 after retry (10060). The fresh paired zoom and deepest long-frame child remain for the device owner. The prior Lenovo 810 retaine"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-08T15:11Z",
      "text": "GETAC Strong 811 at a330d0d7f0bb contains PlanetGlobeVariants and the 3 ms Mask Sync peer budget. Low quality was visibly active. Opened the globe from map zoom 12 to 5 and selected a map point; returned to zoom 12. SurfaceFlinger maximum p"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-08T15:18Z",
+     "text": "GETAC: Rog matched Lenovo Android 811 boot 30 frame 849 (5.06 s managed, zero GC) and frame 2044 (2.285 s managed, one GC) through Dev Mode. The typed receipt has no child timing tree. Please retrieve long_frames.txt or the matching log fro"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-08T15:21Z",
+     "text": "GETAC checked both 811 tablets for long_frames.txt. Neither had it. Built source a330d0d7f0bb predates logger commit 90b3e061, so those files cannot explain the two Lenovo stalls in the typed receipts. Lenovo boot had already advanced to 31"
     }
    ]
   },
@@ -187,7 +187,7 @@
     {
      "who": "heavy",
      "since": "2026-11-08T15:17Z",
-     "noted": "",
+     "noted": "2026-11-08T15:22Z",
      "progress": 20,
      "ticked": 1,
      "total": 5
@@ -218,11 +218,6 @@
    "notes": [
     {
      "by": "heavy",
-     "at": "2026-11-08T15:03Z",
-     "text": "Parallax fixture fix pushed in 52a59f6d51. Unity 6000.6.8f1 compiled successfully and the compiled WarStation.EditModeTests assembly declares TestAttribute only on the parameterless method. Roslyn NEW ERRORS: none. Pixel behavior still requ"
-    },
-    {
-     "by": "heavy",
      "at": "2026-11-08T15:11Z",
      "text": "Windows receipt fixture fixed in 38abc418c2. Direct cause: DataRoot assertion compared Unity slash spelling with Windows canonical spelling. Deeper reason: the fixture treated serialization spelling as directory identity. It now requires a "
     },
@@ -230,6 +225,11 @@
      "by": "heavy",
      "at": "2026-11-08T15:15Z",
      "text": "Map Source fixture fixed in b4d352d8cc. Direct cause: the row count and credits index still described the seven-row prefab. Deeper reason: the older structural fixture was missed when Element quality was added and its companion layout fixtu"
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T15:22Z",
+     "text": "D3D11 on e89401d619: 77/83 in the three Planet fixtures; ParallaxGroundShadowUsesRawCoverageOnly passed. Two draw-fixture failures fixed in b541846c8b, with 27/27 draw tests on rerun and Roslyn NEW ERRORS: none. Direct cause: HeightRange.w "
     }
    ]
   },
@@ -294,7 +294,7 @@
     {
      "who": "CODEX_UI_OWNER",
      "since": "2026-11-08T14:10Z",
-     "noted": "",
+     "noted": "2026-11-08T15:18Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -332,6 +332,11 @@
      "by": "CODEX_CHAT_MESSAGES",
      "at": "2026-11-08T12:15Z",
      "text": "CODEX_CHAT_MESSAGES: task remains unimplemented. Claimed 15, traced existing local-only deletion and full-screen/transport work; another agent began actively editing PlanetRenderer files in the shared Unity checkout, so preserved those chan"
+    },
+    {
+     "by": "CODEX_UI_OWNER",
+     "at": "2026-11-08T15:18Z",
+     "text": "Reader/reply increment landed 0a7c2065fe: full-message reader with scroll and reply cue in both layouts, compact long-message preview; Unity compile, reader clipping screenshot, saved prefab bindings, cue cancellation, actual VPN serializer"
     }
    ]
   },
@@ -541,17 +546,8 @@
   {
    "n": 28,
    "name": "Getac idle loop",
-   "done": "",
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-08T15:15Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "done": "2026-11-08T15:20Z",
+   "held": [],
    "steps": [],
    "notes": []
   }
