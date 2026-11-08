@@ -211,11 +211,6 @@
    "notes": [
     {
      "by": "heavy",
-     "at": "2026-11-08T16:21Z",
-     "text": "Windows wheel fixture still red. Original failure reproduced at forced origin shift step 12 with 278.85 px drift; inactive fixture globe anchor was never registered with Cesium. Diagnostic private candidate e1b3ccb150 explicitly initializes"
-    },
-    {
-     "by": "heavy",
      "at": "2026-11-08T16:27Z",
      "text": "48303536c1 fixes the wheel-zoom failure. Direct cause: the free-map dolly rebuilt its world rotation through the changed tangent frame at every sample. Deeper reason: position and orientation writes were coupled, so the zoom restored orient"
     },
@@ -223,6 +218,11 @@
      "by": "heavy",
      "at": "2026-11-08T16:42Z",
      "text": "Cloud compile pass at 2ad59dec37 against 0cf4c025ec: cmp.sh NEW ERRORS: none with installed Unity package refs; isolated Unity 6000.6.8f1 EditMode All 8507 passed, 9 failed, 8 skipped. No source compile fixes. XML SHA-256 FD40BB5C07F93FA7DC"
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T17:07Z",
+     "text": "Heavy batch 404be53092, cmp.sh NEW ERRORS: none. Windows EditMode All 8509 passed, 9 failed, 8 skipped; same nine red cases as prior cloud compile. XML C:/MavControlEvidence/WorkCritical/heavy-batch-20261108/All.xml. All repeats the previou"
     }
    ]
   },
@@ -840,5 +840,5 @@
    "notes": []
   }
  ],
- "source_revision": "aa898b0c44d38bce742f13258eea56b55e1eae1d"
+ "source_revision": "f8aa4978d22fdd0234a0b355aee8c75cc3eecc8e"
 }
