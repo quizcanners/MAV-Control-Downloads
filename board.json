@@ -904,6 +904,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-08T17:57Z",
      "text": "Same verdict as task 44 (see its note): Geometry Manager and Payload Splitter Other work at ~4 s each in one frame, no lock in either, points to a process-level stall (GC or memory pressure), not loops. 1484b0634b adds main-thread CPU/major"
+    },
+    {
+     "by": "CLOUD_THREAD_FREEZE",
+     "at": "2026-11-08T18:00Z",
+     "text": "Cloud read (Payload Splitter ManagedUpdate, Geometry Manager, Sync drill): no loop, lock or I/O can spend ~4 s, and two unrelated scopes each losing ~4 s inside one 7.75 s frame points at the whole process stalling twice, not at work to spr"
     }
    ]
   },
@@ -1000,5 +1005,5 @@
    "notes": []
   }
  ],
- "source_revision": "b12163b2368f8a48bec1a73f4a32824ca6f635fc"
+ "source_revision": "099dd0dd337a1d12305443e5d0395fbee9d5d278"
 }
