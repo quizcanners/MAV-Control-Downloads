@@ -907,7 +907,13 @@
    "done": "",
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-08T17:56Z",
+     "text": "Code read: Traversal control's exclusive time is WebMercator_Sync_Drill.cs:382-399 (TryBeginMeasuredChunk, AdvanceDrills) minus StepDrill (own Branch decisions scope): StartRootPass, TrySpawnDrill, the deadline loop in AdvanceDrill. All bou"
+    }
+   ]
   },
   {
    "n": 45,
@@ -949,5 +955,5 @@
    "notes": []
   }
  ],
- "source_revision": "91f1099fad1a53008be4798d3a12b13e2059b589"
+ "source_revision": "788d8cf4eec3751eff55141806341d4a8109d99c"
 }
