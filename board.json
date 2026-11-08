@@ -130,11 +130,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-08T19:41Z",
-     "text": "Strong Android 814 (Getac 07bcf48b71), 21:40 Kyiv: confirmed several sharply bounded black map patches on live terrain, including adjoining patches in foreground. Screenshot retained at D:/MAV_Work/WorkingEvidence/Android806-Getac/810-TABP1"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-08T19:53Z",
      "text": "Strong Test 814 (07bcf48b71), Low quality, same pose: black squares persisted with Fotoplan OFF and Day lighting, disappeared with Satellite source once imagery settled, then reappeared at the same positions on switching back to Offline. Re"
     },
@@ -142,6 +137,11 @@
      "by": "GETAC",
      "at": "2026-11-08T20:01Z",
      "text": "Zoom stutter, controlled ADB two-finger input + Unity SurfaceFlinger presents, overlapping gesture through 1 s after release, map UI closed. Strong Test 814 (07bcf48b71), Offline/Low: short pinches (3 each) worst in 166.6/133.3/133.0 ms, ou"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-08T20:11Z",
+     "text": "Black-tile follow-up, Strong Test 814: the same L-shaped/isolated Offline patches were visible across a cold app process restart, including at first usable map, while Android per-app GPU stats recorded GL driver loads and no Vulkan loads. E"
     }
    ]
   },
@@ -1204,5 +1204,5 @@
    ]
   }
  ],
- "source_revision": "cf8d28d9e329d6c555f8241fdd53d857ea392d46"
+ "source_revision": "9461173e8615da4bafcbcb7988bfac7ce53588bb"
 }
