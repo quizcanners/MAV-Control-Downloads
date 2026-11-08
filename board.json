@@ -958,8 +958,8 @@
     {
      "who": "GETAC",
      "since": "2026-11-08T17:59Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-08T18:16Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -975,6 +975,11 @@
      "by": "mac-batch",
      "at": "2026-11-08T18:05Z",
      "text": "Mac batch finalise: c6a2ece0e5 is on main. SituationEffectsTests.FailedPointingKeepsSituationMaintenanceAndRetainsDrag: problems.Contains(SituationEntities) expected false, actual true on Windows. The fixture omitted the camera and renderer"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-08T18:16Z",
+     "text": "Getac Windows Unity 6000.6.8f1, exact ten filters, source dc33e5b078 includes 7228f5e4 and shared fix c6a2ece0e5: 10 passed, 0 failed, 0 skipped. The original assertions both passed after Mac supplied the Situation fixture camera and render"
     }
    ]
   },
@@ -1003,5 +1008,5 @@
    "notes": []
   }
  ],
- "source_revision": "dc33e5b07864df5266bcea33d9a752f7db02cdb7"
+ "source_revision": "7ea28e05e9a62e09a662a782ecd2fab4bbc0ccac"
 }
