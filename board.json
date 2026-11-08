@@ -119,11 +119,6 @@
    ],
    "notes": [
     {
-     "by": "MAC",
-     "at": "2026-11-08T15:49Z",
-     "text": "Done: c9ba02205241b4004d6ee43b9ad2fc0ffb080d10 is on main: native MacBook pinch, gradual precise scrolling, and Earth-fixed free-map zoom with one analytical pointer correction; Intel/Apple Silicon native library rebuilt."
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-08T16:03Z",
      "text": "Investigation CR-90B3-01 (P2, also complexity): the long-frame logger looks up the current stall in worst-frame rankings; a >1 s stall outside both rankings logs frame_not_retained instead of its tree. S1 source/admission control complete; "
@@ -132,6 +127,11 @@
      "by": "ROG",
      "at": "2026-11-08T16:34Z",
      "text": "Rog observed a live Mac 812 boot 644 LagDetail refusal remote_failure=RetainedRevisionChanged for frame 819/revision 68. Follow-up typed request timed out, so successful recovery is not verified. Automatic long-frame inbox had no new entrie"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-08T16:41Z",
+     "text": "Investigation CR-90B3-01 follow-up (P3 correctness/complexity): text-file/page parsing retired at 3b32518fe; current wall-only lookup labels a work-retained frame unretained. S1 admission/search control complete; S2 brief uses the existing "
     }
    ]
   },
@@ -548,18 +548,18 @@
    "notes": [
     {
      "by": "cloud-idlefps",
-     "at": "2026-11-08T16:24Z",
-     "text": "Added: DJI SDK released on Idle/Hidden unless an aircraft is linked or flying, and shut down when the app is paused with no aircraft flying (frees the controller for DJI Pilot 2). Half-res render scale now on a RAM copy of the URP asset (pl"
-    },
-    {
-     "by": "cloud-idlefps",
-     "at": "2026-11-08T16:26Z",
-     "text": "Dropped (quiz, 2026-11-08: 'Blurry lines it is.'): no extra camera for sharp UI. Half resolution leaves Shapes lines blurry; skip phone check (1) about sharp UI, keep the hitch check."
-    },
-    {
-     "by": "cloud-idlefps",
      "at": "2026-11-08T16:28Z",
      "text": "Changed: a paused app waits 10 s before shutting down the DJI SDK (timer thread, since Update does not tick while paused); resuming within 10 s cancels it. Phone check: Home, wait 5 s, return: no reconnect; Home, wait 15 s, open Pilot 2: it"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-08T16:41Z",
+     "text": "Investigation CR-983C-01 (P2): DJI keeps an expired IdleRelease timestamp across SDK shutdown/restart; unlinked wake can alternate start and stop. S1 source/lifetime control complete; S2 brief resets the existing timer at StartSdk. Await qu"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-08T16:41Z",
+     "text": "CR-B7D2-01 / CR-1B46-01 reconciliation: URP renderScale replaces surface resize but telemetry still prevents full-3D-resolution return. Power mode now idles at 8 on charger, 2 otherwise: old fixed captions remain misleading. Updated briefs "
     }
    ]
   },
@@ -751,7 +751,37 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 38,
+   "name": "Use standard SIDC symbols for en",
+   "done": "",
+   "held": [
+    {
+     "who": "CODEX_UI_OWNER",
+     "since": "2026-11-08T16:41Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Trace entity types and direction grouping",
+     "x": false
+    },
+    {
+     "t": "Use standard undirected enemy symbols consistently",
+     "x": false
+    },
+    {
+     "t": "Verify atlas, renderer and existing directed symbols",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
- "source_revision": "91ebc70e094483a4aae387ac697dd0dfa229ad75"
+ "source_revision": "d23f2232fb8b1e71cde1296a4473525afd0e5ba3"
 }
