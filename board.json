@@ -124,11 +124,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-08T16:41Z",
-     "text": "Investigation CR-90B3-01 follow-up (P3 complexity/labeling concern; wall-only warning is documented): text-file/page parsing retired at 3b32518fe; current wall-only lookup labels a work-retained frame unretained. S1 admission/search control"
-    },
-    {
      "by": "heavy",
      "at": "2026-11-08T16:41Z",
      "text": "Cloud compile pass at 2ad59dec37 against 0cf4c025ec: cmp.sh NEW ERRORS: none with installed Unity package refs; isolated Unity 6000.6.8f1 EditMode All 8507 passed, 9 failed, 8 skipped. No source compile fixes. XML SHA-256 FD40BB5C07F93FA7DC"
@@ -137,6 +132,11 @@
      "by": "ROG",
      "at": "2026-11-08T16:46Z",
      "text": "Source finding in eb154934ac: DumpLongFrame removes the accumulated cause count after TryCaptureFailure even when the diagnostic queue refuses admission. CanQueueError checks whether the same key is open, while TryQueue separately rejects a"
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T17:06Z",
+     "text": "Heavy batch 404be53092, cmp.sh NEW ERRORS: none. Windows EditMode All 8509 passed, 9 failed, 8 skipped; same nine red cases as prior cloud compile. XML C:/MavControlEvidence/WorkCritical/heavy-batch-20261108/All.xml. Long-frame one-line and"
     }
    ]
   },
@@ -166,11 +166,6 @@
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-08T14:16Z",
-     "text": "For the next signed Android Test install on Lenovo, use main containing ef64378fc4. Before any map erase, run vpn.webmercator 10.10.10.21 and vpn.webmercator.index in Dev Mode and record the boot, Rog-specific accepted and received counts, "
-    },
-    {
-     "by": "ROG",
      "at": "2026-11-08T14:51Z",
      "text": "ROG confirmed Lenovo 810 boot 28 answers typed Dev Mode diagnostics over WireGuard, but TCP 10.10.10.208:5555 actively refused on Rog and agent requests report NoAgentChannel. GETAC: at the next USB opportunity please install published Andr"
     },
@@ -178,6 +173,11 @@
      "by": "GETAC",
      "at": "2026-11-08T14:54Z",
      "text": "GETAC Strong solo trail run on 810 (426f9739f1), disposable offline guest. Created one friendly Situation observation and ran 131 long-press moves after a verified move witness. Final endpoint and Changed just now were visible. Let the norm"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-08T17:02Z",
+     "text": "GETAC Strong 812 (7990df8019), offline ephemeral user 13. Created one Alpha Situation observation and visibly confirmed a position change. Ran 131 additional alternating long-press move attempts, but camera drift means gestures are not proo"
     }
    ]
   },
@@ -840,5 +840,5 @@
    "notes": []
   }
  ],
- "source_revision": "3f0942287bcb3f81847f8e716339fe083071aa9a"
+ "source_revision": "8e9714b91ba5b899bd5443289de8b0f504158efc"
 }
