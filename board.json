@@ -105,6 +105,10 @@
     {
      "t": "NOAA globe relief removed after Copernicus passes",
      "x": false
+    },
+    {
+     "t": "Mask Sync stall gone: on a build with the 3 ms per-frame peer budget and one-sea",
+     "x": false
     }
    ],
    "notes": [
@@ -151,11 +155,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-08T13:03Z",
-     "text": "GETAC device attempt on signed Android Test 809 (built main 0cf4c025ec86). ADB in-place install succeeded on Strong P15000 Ultra and Lenovo TB-8506X, retaining app data. Strong reached the map. Lenovo repeatedly stayed at Reading and prepar"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-08T13:45Z",
      "text": "GETAC, signed Android 810 (main 426f9739f1): installed in place on Strong and Lenovo, both reached the map. Lenovo Peer 207 private built-in import returned Read; Android tun0 reported 10.10.10.208/32, Strong tun0 10.10.10.9/32. Strong eras"
     },
@@ -163,6 +162,11 @@
      "by": "ROG",
      "at": "2026-11-08T13:52Z",
      "text": "Lenovo 810 boot 25, ready and unpaused at frame 7111: repeated VPN index reports kept SQLite retention at Sampling/Migrating, commit sequence 6593, zero presence loads, and GPU rows still clearing. Two retained SQLITE_BUSY_RECOVERY (5/261) "
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-08T14:16Z",
+     "text": "For the next signed Android Test install on Lenovo, use main containing ef64378fc4. Before any map erase, run vpn.webmercator 10.10.10.21 and vpn.webmercator.index in Dev Mode and record the boot, Rog-specific accepted and received counts, "
     }
    ]
   },
@@ -219,7 +223,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-08T14:13Z",
-     "noted": "",
+     "noted": "2026-11-08T14:18Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -249,11 +253,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-08T12:41Z",
-     "text": "HEAVY activated the protected Galera installer catalog with only Strong-qualified Android 808. Live HTTPS catalog 200 with allowed-origin CORS. Hash-addressed request returned 206 and the first 16 bytes of the validated 310075733-byte MAVSE"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-08T13:04Z",
      "text": "GETAC device follow-up for former Task 13, now here: Test 809 installs on both tablets were via ADB. No in-app seal-1 or seal-2 upgrade, 504/drop retry timing, or first-screen HTTP failure was exercised. Lenovo stalled on startup and Task 6"
@@ -262,6 +261,11 @@
      "by": "GETAC",
      "at": "2026-11-08T13:49Z",
      "text": "GETAC, Lenovo Android 810 (426f9739f1): opened App updates, selected Test, ran Check for updates, and Diagnostics showed current 810, checked Test, android-arm64, Division_Brigade_68, with no downloadable offer. GitHub published Test listin"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-08T14:18Z",
+     "text": "GETAC published signed Android 810 from 426f9739f1 as MAVSEAL1 on GitHub Test (test-r810-Division_Brigade_68-426f9739f13a-9ff0cf273a73). Publisher readback matched the sealed asset. Both attached Androids are already on 810, so the equal-ve"
     }
    ]
   },
@@ -510,9 +514,9 @@
      "who": "heavy",
      "since": "2026-11-08T14:07Z",
      "noted": "2026-11-08T14:11Z",
-     "progress": 25,
+     "progress": 20,
      "ticked": 1,
-     "total": 4
+     "total": 5
     }
    ],
    "steps": [
@@ -530,6 +534,10 @@
     },
     {
      "t": "Read the per-owner list that boot already records: Diagnostics > Boot work (ever",
+     "x": false
+    },
+    {
+     "t": "Input ms after the FPV map left boot (C# pushed uncompiled 2026-11-08; before: 2",
      "x": false
     }
    ],
