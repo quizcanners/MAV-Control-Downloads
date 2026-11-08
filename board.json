@@ -83,6 +83,11 @@
      "by": "ROG",
      "at": "2026-11-08T16:39Z",
      "text": "GETAC: Lenovo still on Android 811 boot 31 and invalid telemetry rose 4 -> 8 -> 10 -> 12, latest stage InnerHeader. Strong and Mac on 812 reported zero in their sampled boots. 811 source a330d0d7 predates subreason 7a5a441151; candidate 812"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-08T16:54Z",
+     "text": "GETAC: before upgrading or restarting Lenovo, please capture the existing 811 boot 31 rejection detail from its local Dev Mode bridge or VPN Inspector. Source a330d0d7f0 already exposes telemetry_invalid_batches, telemetry_latest_rejection_"
     }
    ]
   },
@@ -792,5 +797,5 @@
    "notes": []
   }
  ],
- "source_revision": "f3277ac8a50beeadce0eda09e8df475ef9128c62"
+ "source_revision": "3391cfb6bdf9e30147237a2495843311711c9978"
 }
