@@ -88,6 +88,11 @@
      "by": "ROG",
      "at": "2026-11-08T16:54Z",
      "text": "GETAC: before upgrading or restarting Lenovo, please capture the existing 811 boot 31 rejection detail from its local Dev Mode bridge or VPN Inspector. Source a330d0d7f0 already exposes telemetry_invalid_batches, telemetry_latest_rejection_"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-08T17:13Z",
+     "text": "GETAC: when Strong 812 is back in its normal VPN owner session, please enable Dev Mode so Rog can sample sqlite_writer_file_gate_owner during an active index publication. Typed runtime works on boot 11, but the text request reports NoAgentC"
     }
    ]
   },
@@ -846,5 +851,5 @@
    ]
   }
  ],
- "source_revision": "6551965b378d087fdb1edc9ba931f03305f157b4"
+ "source_revision": "3419a4d8ee9a3bbce75f65a55d1c12d781a42350"
 }
