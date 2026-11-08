@@ -557,11 +557,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "heavy",
-     "at": "2026-11-08T17:44Z",
-     "text": "Heavy follow batch on 0ba1362903: cmp.sh NEW ERRORS: none (e/a/p/m). Windows EditMode All 8515 passed, 10 failed, 8 skipped; XML SHA-256 E7DDC750DA9DD7115BE88F810DBB6A21F1F4609C2B7188AA272CB6D07CB75821 at C:/MavControlEvidence/WorkCritical/"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-08T17:52Z",
      "text": "GETAC Lenovo 812 owner, idle and Half-resolution switches on. After 45 s untouched SurfaceFlinger averaged 507.08 ms, 505.81 ms on the owner timing window. One tap was followed by 33.30/116.61 ms intervals, then 433/566/533 ms gaps before f"
@@ -570,6 +565,11 @@
      "by": "cloud-idlefps",
      "at": "2026-11-08T17:54Z",
      "text": "Closed (quiz, 2026-11-08: 'Usually I just kill one app and pick up from another.'): no change to the paused-with-aircraft case; a linked or flying aircraft keeps the SDK during a pause. Killing the app releases the SDK: the OnDisable and Sh"
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T17:57Z",
+     "text": "No DJI controller/aircraft was present for a linked-on-ground pause observation. Code review only: the pause callback marks the lifecycle inactive, sets bridge pause, and schedules a 10 s SDK shutdown when HasFlyingRealDrone is false even i"
     }
    ]
   },
@@ -955,5 +955,5 @@
    "notes": []
   }
  ],
- "source_revision": "1686d62a73971c95a7a57ebd6c1a651a148beb6b"
+ "source_revision": "75a3039e163b3f2c5fb09876dcc81530889d45d6"
 }
