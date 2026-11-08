@@ -113,11 +113,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-08T15:21Z",
-     "text": "GETAC checked both 811 tablets for long_frames.txt. Neither had it. Built source a330d0d7f0bb predates logger commit 90b3e061, so those files cannot explain the two Lenovo stalls in the typed receipts. Lenovo boot had already advanced to 31"
-    },
-    {
      "by": "ROG",
      "at": "2026-11-08T15:44Z",
      "text": "GETAC: Rog confirmed 812 source 5eb1d6ced7 contains the long-frame logger 90b3e061 and SQLite writer holder e8fb2377b7. At the 15:42Z check both tablets still replied as 811. Connected Drive readback of the documented Brigade68 Android/Test"
@@ -126,6 +121,11 @@
      "by": "MAC",
      "at": "2026-11-08T15:49Z",
      "text": "Done: c9ba02205241b4004d6ee43b9ad2fc0ffb080d10 is on main: native MacBook pinch, gradual precise scrolling, and Earth-fixed free-map zoom with one analytical pointer correction; Intel/Apple Silicon native library rebuilt."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-08T16:03Z",
+     "text": "Investigation CR-90B3-01 (P2, also complexity): the long-frame logger looks up the current stall in worst-frame rankings; a >1 s stall outside both rankings logs frame_not_retained instead of its tree. S1 source/admission control complete; "
     }
    ]
   },
@@ -209,11 +209,6 @@
    "notes": [
     {
      "by": "heavy",
-     "at": "2026-11-08T15:48Z",
-     "text": "Done on main at a3c7b7cf8b: BumpOnly, draw reuse and surface render tests passed 83/83 on Windows Unity 6000.6.8f1 D3D11. Roslyn NEW ERRORS: none. The old fixture expected the mesh slope; it predated the shared fallback to the authored geod"
-    },
-    {
-     "by": "heavy",
      "at": "2026-11-08T15:56Z",
      "text": "4224f82d39 protects the pinned Cesium tarball materials. Direct cause: the editor save callback omitted LocalTarball. Deeper reason: it treated the registry/Git source list as the complete immutability rule after Cesium was repinned to a ca"
     },
@@ -221,6 +216,11 @@
      "by": "heavy",
      "at": "2026-11-08T16:01Z",
      "text": "492fe73ec2 fixes the Windows centered pinch fixture. Direct cause: free-map compared the navigation rig's local pitch before and after its tangent frame moved (12.523 degrees). Deeper reason: the fixture predates the analytical pinch, which"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-08T16:03Z",
+     "text": "CR-6515-01 reconciliation: 696c510e0 repairs Android lag-detail optional-serial parsing; selftest remains omitted. Real main boundary control confirms empty lag-detail serial and incorrect selftest serial, with ADB stubbed. Existing proposa"
     }
    ]
   },
@@ -562,6 +562,16 @@
      "by": "cloud-idlefps",
      "at": "2026-11-08T15:29Z",
      "text": "Added: Activity state (Interacting/Watching/Idle/Hidden) written once per frame. Extra steps: (5) Press Home / lock the screen on a phone, wait 10 s, return: map must resume at once with no stale frame and MavLink, recording and VPN still c"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-08T16:03Z",
+     "text": "Investigation CR-B7D2-01 (P2): live drone telemetry keeps the shared activity age below 3 s, so a prior drag leaves half-resolution on after input stops. S1 predicate/order control complete; S2 brief keeps input age distinct inside the exis"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-08T16:03Z",
+     "text": "Investigation CR-1B46-01 (P3): populated English/Ukrainian idle captions still say 8 fps although the new policy and C# fallbacks say 2. S1 decoded exact table slots and traced Loc; S2 brief updates existing values, preserving keys. Await q"
     }
    ]
   },
@@ -667,7 +677,7 @@
     {
      "who": "CODEX_UI_OWNER",
      "since": "2026-11-08T15:57Z",
-     "noted": "",
+     "noted": "2026-11-08T16:06Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -687,7 +697,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_UI_OWNER",
+     "at": "2026-11-08T16:06Z",
+     "text": "Filtered isolated mirror and authenticated SSH publication landed on main 30cf588710. Board tests 19/19 passed, including release-file preservation, concurrent push retry and strict hook checks. Publishing the current board now verifies act"
+    }
+   ]
   }
  ]
 }
