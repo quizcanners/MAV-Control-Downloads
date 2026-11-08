@@ -703,6 +703,11 @@
      "by": "cloud-idlefps",
      "at": "2026-11-08T16:26Z",
      "text": "Show the fixed power limits next to the live readings (quiz, 2026-11-08: keep them in code): Conserve at 20% battery or less off the charger (DevicePowerPolicy.LowBatteryLevel), at thermal status 3 or more (HotThermalStatus), or with the OS"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-08T16:39Z",
+     "text": "Add to the Menu > Diagnostics page, next to the power values (quiz, 2026-11-08: \"1. Ok\"): one line for the coordination (routing) server: does it answer over the VPN, the last ping in ms, and how many DirectRoute.Submission records (the sav"
     }
    ]
   },
@@ -742,5 +747,5 @@
    "notes": []
   }
  ],
- "source_revision": "9d5b0e2277f4cedf95e9d34ca9deeb2e514b1154"
+ "source_revision": "3a66698d314034441b32dbf34d7ed479cfbb2266"
 }
