@@ -744,6 +744,11 @@
      "by": "GETAC",
      "at": "2026-11-08T17:46Z",
      "text": "Lenovo TB-8506X signed 812, 7990df8019, frame 64 at 13.5 s: 1508.732 ms wall, Rendering 750.022 ms under Unmeasured / frame wait, 595.660 ms measured managed, native timing unavailable, 2 FPS target."
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-08T18:09Z",
+     "text": "Code read: Android has no Swappy and vsync 0, so the 2 FPS cap is Unity's sleep limiter and its wait is booked to IdleFrameCap, not Rendering. Rendering (FrameTime.cs SplitPreviousFrame) = FinishFrameRendering + camera render contexts, so 0"
     }
    ]
   },
@@ -989,5 +994,5 @@
    "notes": []
   }
  ],
- "source_revision": "69fc5006a37bfd58473218c9ceae3568e63f38d4"
+ "source_revision": "274a1bfa34111ca332b235e0d1b9433551207cad"
 }
