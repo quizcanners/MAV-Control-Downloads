@@ -684,11 +684,6 @@
    "notes": [
     {
      "by": "CODEX_UI_OWNER",
-     "at": "2026-11-08T16:06Z",
-     "text": "Filtered isolated mirror and authenticated SSH publication landed on main 30cf588710. Board tests 19/19 passed, including release-file preservation, concurrent push retry and strict hook checks. Publishing the current board now verifies act"
-    },
-    {
-     "by": "CODEX_UI_OWNER",
      "at": "2026-11-08T16:10Z",
      "text": "Follow-up main f19cae88ba records the source revision in public snapshots and refuses an older or unrelated delayed publisher; concurrent-release and stale-publisher tests pass. Verified the exact cache-busted URL used by DevMode contains t"
     },
@@ -696,6 +691,11 @@
      "by": "heavy",
      "at": "2026-11-08T16:42Z",
      "text": "Cloud compile pass at 2ad59dec37 against 0cf4c025ec: cmp.sh NEW ERRORS: none with installed Unity package refs; isolated Unity 6000.6.8f1 EditMode All 8507 passed, 9 failed, 8 skipped. No source compile fixes. XML SHA-256 FD40BB5C07F93FA7DC"
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T17:07Z",
+     "text": "Heavy batch 404be53092, cmp.sh NEW ERRORS: none. Windows EditMode All 8509 passed, 9 failed, 8 skipped; same nine red cases as prior cloud compile. XML C:/MavControlEvidence/WorkCritical/heavy-batch-20261108/All.xml. Closed historical 22 is"
     }
    ]
   },
@@ -840,5 +840,5 @@
    "notes": []
   }
  ],
- "source_revision": "513d3afc32d3fbb2533ab6a20da71d4bcd678aec"
+ "source_revision": "4c3e05a0238a496831e20b590683ff320f5846a8"
 }
