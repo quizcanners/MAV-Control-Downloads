@@ -548,11 +548,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "mac-batch",
-     "at": "2026-11-08T18:03Z",
-     "text": "Mac batch correction: Menu > Diagnostics Power details use the localized Unavailable fallback for null thermal (UI_ProcessesInspector_Lags.ShowPowerDetails), so current source does not match the requested literal ?. DevicePowerPolicy.Sample"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-08T18:30Z",
      "text": "GETAC handoff: signed Brigade 68 ARM64 Android 814, source 07bcf48b71, exact-source cmp.sh NEW ERRORS: none, Windows EditMode All 8528 passed/0 failed/8 skipped. APK retained on PL-007 at C:/MavControlEvidence/WorkCritical/heavy-batch2-andr"
@@ -561,6 +556,11 @@
      "by": "mac-touch-scale",
      "at": "2026-11-08T19:51Z",
      "text": "Mobile touch resolution shipped in ed7c670d84. Android and iOS default on with no saved choice; stored choices are preserved."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-08T19:54Z",
+     "text": "Investigation CR-B7D2-01 reconciliation: ed7c670d8 independently source-repairs mobile render-scale release by driving SetInteracting from focused/unpaused held screen touches; telemetry no longer holds mobile half scale. Windows retains th"
     }
    ]
   },
@@ -1030,19 +1030,19 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-08T19:14Z",
-     "text": "Step 5 in eb89f4181e: the Navigation prefab marks the selected bearing relative to the aircraft; Up and Down mark the centre. The marker stays with the window through telemetry loss."
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-08T19:14Z",
-     "text": "Step 6 in eb89f4181e: removed the compass arrow hierarchy, tap/hold callbacks, obsolete author commands and arrow assertions. Main-video Off and near-home peek remain. cmp.sh NEW ERRORS: none; isolated Windows Unity 6000.6.8f1 EditMode 59 p"
-    },
-    {
      "by": "CLOUD_SPEC",
      "at": "2026-11-08T19:24Z",
      "text": "SWIPE RULE CHANGED (quiz, Copilot SPEC, Side camera preview): swipes always steer the side cameras, never the colour camera. Colour is main: a swipe turns only the side camera direction; main view and projection stay put. Side cameras are m"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-08T19:54Z",
+     "text": "Investigation CR-EB89-01 (P2 main-view integration): S1 source trace and S2 brief complete. Latest 12061800b SPEC keeps small-preview main view/projection unchanged, but eb89f4181 broadens IsSideViewActive and existing main-camera/projectio"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-08T19:54Z",
+     "text": "Investigation CR-EB89-02 (P3 gesture feedback): S1 source trace and S2 brief complete. SPEC says picture follows finger; new OnDrag is empty and commits direction only at release. Suggest moving the existing picture under its owned pointer "
     }
    ]
   },
@@ -1182,7 +1182,24 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 59,
+   "name": "Fix 90-degree map camera heading",
+   "done": "",
+   "held": [
+    {
+     "who": "mac-camera",
+     "since": "2026-11-08T19:55Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
- "source_revision": "17d25a92966ba4155ddc5c0046e01861b2c95cee"
+ "source_revision": "150d97b127e1fddd8dddeff08dd881fe764cf45c"
 }
