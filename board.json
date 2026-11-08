@@ -216,11 +216,6 @@
    "notes": [
     {
      "by": "heavy",
-     "at": "2026-11-08T17:07Z",
-     "text": "Heavy batch 404be53092, cmp.sh NEW ERRORS: none. Windows EditMode All 8509 passed, 9 failed, 8 skipped; same nine red cases as prior cloud compile. XML C:/MavControlEvidence/WorkCritical/heavy-batch-20261108/All.xml. All repeats the previou"
-    },
-    {
-     "by": "heavy",
      "at": "2026-11-08T17:33Z",
      "text": "Android 813 exact-source Windows gate d76a8350a0: 8509 passed, 10 failed, 8 skipped. Two follow-camera failures new versus the earlier batch: AcceptedFollowDragSurvivesManagedMovementAndRenderedPlacement_Cases and PointFollowDragKeepsItsIde"
     },
@@ -228,6 +223,11 @@
      "by": "heavy",
      "at": "2026-11-08T17:45Z",
      "text": "Heavy follow batch on 0ba1362903: cmp.sh NEW ERRORS: none (e/a/p/m). Windows EditMode All 8515 passed, 10 failed, 8 skipped; XML SHA-256 E7DDC750DA9DD7115BE88F810DBB6A21F1F4609C2B7188AA272CB6D07CB75821 at C:/MavControlEvidence/WorkCritical/"
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T18:04Z",
+     "text": "Windows All at 7228f5e4f0 retained 8523 passed, 3 failed, 8 skipped; candidate provenance refused because Unity serialized the newly added zero _EdgeDarkening default in List Capsule Body.mat. Remaining exact failures: SituationEffectsTests"
     }
    ]
   },
@@ -1001,5 +1001,5 @@
    "notes": []
   }
  ],
- "source_revision": "9a1ec639ec1280dd558a83a43ff639fa74d19170"
+ "source_revision": "67dc9922fc74670884085e37eea857bf2989de16"
 }
