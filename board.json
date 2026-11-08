@@ -261,11 +261,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-08T14:18Z",
-     "text": "GETAC published signed Android 810 from 426f9739f1 as MAVSEAL1 on GitHub Test (test-r810-Division_Brigade_68-426f9739f13a-9ff0cf273a73). Publisher readback matched the sealed asset. Both attached Androids are already on 810, so the equal-ve"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-08T15:14Z",
      "text": "GETAC Lenovo 810 to 811 in-app MAVSEAL1 PASS. 810 and 811 are published to GitHub Test. Cut Wi-Fi after the first download showed 5% (17.5/312.3 MiB); first update screen showed HTTP 200: Failed to receive data and Download again. Wi-Fi res"
     },
@@ -273,6 +268,11 @@
      "by": "GETAC",
      "at": "2026-11-08T17:10Z",
      "text": "GETAC 812 run: Lenovo entered this session on signed 811 after the prior verified 810-to-811 seal-1 test. Exact 810-to-812 and network-cut retry therefore need a disposable 810 source or another 810 device. Existing Lenovo data was preserve"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-08T17:53Z",
+     "text": "812 installed via USB on Lenovo after the exact-source EditMode All hit 900 s without a result. APK hash matched and Lenovo reached the map. Test publication and 810-to-812 in-app network-cut retry remain open. The earlier 810-to-811 manual"
     }
    ]
   },
@@ -933,5 +933,5 @@
    ]
   }
  ],
- "source_revision": "8576498ef8c3a4211d514a9d5826ac924b338db1"
+ "source_revision": "84e8607973f62d52253c017ba26c8a674d658c05"
 }
