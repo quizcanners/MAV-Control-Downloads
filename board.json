@@ -1121,9 +1121,30 @@
    "name": "Strong RAM grows in idle",
    "done": "",
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Sample PSS on Strong at boot, 30 s, 60 s and 120 s idle",
+     "x": false
+    },
+    {
+     "t": "Read per-owner memory (textures, tile cache, buffers) at the 120 s point",
+     "x": false
+    },
+    {
+     "t": "Name the owner holding the extra 168 MiB",
+     "x": false
+    },
+    {
+     "t": "Cap it or free it when Activity is Idle",
+     "x": false
+    },
+    {
+     "t": "Repeat the 2 min read and add the RAM change to Phone_Timings.md Owners",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
- "source_revision": "2b4571e915cb2f71df86d9266ffb1d468ce4e09a"
+ "source_revision": "b8f94f7d90aa1b849d7b79ccf433137ea1e38f44"
 }
