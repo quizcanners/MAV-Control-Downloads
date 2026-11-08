@@ -1011,7 +1011,28 @@
    "name": "Build the Pilot side camera prev",
    "done": "",
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "VisionAssist preview-direction demand (wins over auto peek, turns Vision Assist ",
+     "x": false
+    },
+    {
+     "t": "Swipe handler on the window: Front/Right/Back/Left steps, vertical to Down/Up an",
+     "x": false
+    },
+    {
+     "t": "Bottom-right window in Pilot UI.prefab reusing the Peek Inset frame, dimmed whil",
+     "x": false
+    },
+    {
+     "t": "Compass mark in Navigation.prefab at the camera bearing relative to the nose",
+     "x": false
+    },
+    {
+     "t": "Delete the side-view arrows, their handlers, UpdateSideViewTurn and their tests",
+     "x": false
+    }
+   ],
    "notes": [
     {
      "by": "CLOUD_SPEC",
@@ -1038,5 +1059,5 @@
    "notes": []
   }
  ],
- "source_revision": "47d1be162dd41dd45132a5822164ec68671f6390"
+ "source_revision": "63c9683835ef6f52be24faa37bb096c13538a8d7"
 }
