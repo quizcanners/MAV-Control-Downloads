@@ -104,7 +104,7 @@
     {
      "who": "MAC_PINCH",
      "since": "2026-11-08T20:21Z",
-     "noted": "",
+     "noted": "2026-11-08T20:54Z",
      "progress": 0,
      "ticked": 0,
      "total": 6
@@ -139,11 +139,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-08T20:01Z",
-     "text": "Zoom stutter, controlled ADB two-finger input + Unity SurfaceFlinger presents, overlapping gesture through 1 s after release, map UI closed. Strong Test 814 (07bcf48b71), Offline/Low: short pinches (3 each) worst in 166.6/133.3/133.0 ms, ou"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-08T20:11Z",
      "text": "Black-tile follow-up, Strong Test 814: the same L-shaped/isolated Offline patches were visible across a cold app process restart, including at first usable map, while Android per-app GPU stats recorded GL driver loads and no Vulkan loads. E"
     },
@@ -151,6 +146,11 @@
      "by": "GETAC",
      "at": "2026-11-08T20:20Z",
      "text": "Lenovo in-place upgrade to signed 814 (same APK as Strong) and rerun of the same six native gestures, though starting poses differed. 814 zoom-in peak 216.5 ms; zoom-out gaps beginning after touch-down peaked at 100.0 ms. The last out had a"
+    },
+    {
+     "by": "MAC_PINCH",
+     "at": "2026-11-08T20:54Z",
+     "text": "Done: 47db50cde8 replaces unlocked, uncentered two-finger root/residual fitting with one absolute distance, yaw and captured-midpoint placement; original ECEF targets survive close zoom, invalid samples and reversal. Centered bypass and Nor"
     }
    ]
   },
@@ -1363,5 +1363,5 @@
    "notes": []
   }
  ],
- "source_revision": "e0e5009c74094aecfac7b725a8a1f7708cab67e1"
+ "source_revision": "11463f3e659df14eb6950c36416c01b669a8c7cc"
 }
