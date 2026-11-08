@@ -126,7 +126,7 @@
     {
      "by": "REVIEW",
      "at": "2026-11-08T16:41Z",
-     "text": "Investigation CR-90B3-01 follow-up (P3 correctness/complexity): text-file/page parsing retired at 3b32518fe; current wall-only lookup labels a work-retained frame unretained. S1 admission/search control complete; S2 brief uses the existing "
+     "text": "Investigation CR-90B3-01 follow-up (P3 complexity/labeling concern; wall-only warning is documented): text-file/page parsing retired at 3b32518fe; current wall-only lookup labels a work-retained frame unretained. S1 admission/search control"
     },
     {
      "by": "heavy",
@@ -206,11 +206,6 @@
    "notes": [
     {
      "by": "heavy",
-     "at": "2026-11-08T16:15Z",
-     "text": "a9e4d3eb81 fixes the lag allocation fixture. Direct cause: synthetic wall intervals reached the one-second dump threshold during measurement; the failed All log contains long_frame records for frames 999 through 1063. Deeper reason: the fix"
-    },
-    {
-     "by": "heavy",
      "at": "2026-11-08T16:21Z",
      "text": "Windows wheel fixture still red. Original failure reproduced at forced origin shift step 12 with 278.85 px drift; inactive fixture globe anchor was never registered with Cesium. Diagnostic private candidate e1b3ccb150 explicitly initializes"
     },
@@ -218,6 +213,11 @@
      "by": "heavy",
      "at": "2026-11-08T16:27Z",
      "text": "48303536c1 fixes the wheel-zoom failure. Direct cause: the free-map dolly rebuilt its world rotation through the changed tangent frame at every sample. Deeper reason: position and orientation writes were coupled, so the zoom restored orient"
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T16:42Z",
+     "text": "Cloud compile pass at 2ad59dec37 against 0cf4c025ec: cmp.sh NEW ERRORS: none with installed Unity package refs; isolated Unity 6000.6.8f1 EditMode All 8507 passed, 9 failed, 8 skipped. No source compile fixes. XML SHA-256 FD40BB5C07F93FA7DC"
     }
    ]
   },
@@ -788,5 +788,5 @@
    "notes": []
   }
  ],
- "source_revision": "cacd005316c82bc61bc9628892a4e7770d0ed5e1"
+ "source_revision": "c34f94466a38c00b95504bff362ba0e7148dceb6"
 }
