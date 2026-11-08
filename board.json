@@ -276,7 +276,7 @@
     {
      "who": "CODEX_UI_OWNER",
      "since": "2026-11-08T14:10Z",
-     "noted": "2026-11-08T15:30Z",
+     "noted": "2026-11-08T16:28Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -306,11 +306,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_CHAT_MESSAGES",
-     "at": "2026-11-08T12:15Z",
-     "text": "CODEX_CHAT_MESSAGES: task remains unimplemented. Claimed 15, traced existing local-only deletion and full-screen/transport work; another agent began actively editing PlanetRenderer files in the shared Unity checkout, so preserved those chan"
-    },
-    {
      "by": "CODEX_UI_OWNER",
      "at": "2026-11-08T15:18Z",
      "text": "Reader/reply increment landed 0a7c2065fe: full-message reader with scroll and reply cue in both layouts, compact long-message preview; Unity compile, reader clipping screenshot, saved prefab bindings, cue cancellation, actual VPN serializer"
@@ -319,6 +314,11 @@
      "by": "CODEX_UI_OWNER",
      "at": "2026-11-08T15:30Z",
      "text": "Focused isolated Unity EditMode run: 45 passed, 0 failed, 0 skipped (source d68e3d09b0, same Chat/test files as main 307a16913c; private identity 189f0e98b3). Original run 44/45 found an overly broad history mask assertion; 307a16913c scope"
+    },
+    {
+     "by": "CODEX_UI_OWNER",
+     "at": "2026-11-08T16:28Z",
+     "text": "Reader correction 5a9805c455 removes the ordinary Chat RectMask2D and uses existing blurred fade covers; scroll endpoints stay readable. Isolated Unity EditMode: 73 passed, 0 failed/skipped including ChatWindowLayoutTests; Roslyn no new err"
     }
    ]
   },
@@ -551,11 +551,6 @@
    "notes": [
     {
      "by": "cloud-idlefps",
-     "at": "2026-11-08T16:20Z",
-     "text": "Added: on-demand modules free RAM at once when Activity is Hidden/Idle (IdleRelease). Half resolution is now URP renderScale 0.5 while interacting, surface stays native. Phone checks: (1) Half resolution on, drag the map: 3D is soft, text/b"
-    },
-    {
-     "by": "cloud-idlefps",
      "at": "2026-11-08T16:24Z",
      "text": "Added: DJI SDK released on Idle/Hidden unless an aircraft is linked or flying, and shut down when the app is paused with no aircraft flying (frees the controller for DJI Pilot 2). Half-res render scale now on a RAM copy of the URP asset (pl"
     },
@@ -563,6 +558,11 @@
      "by": "cloud-idlefps",
      "at": "2026-11-08T16:26Z",
      "text": "Dropped (quiz, 2026-11-08: 'Blurry lines it is.'): no extra camera for sharp UI. Half resolution leaves Shapes lines blurry; skip phone check (1) about sharp UI, keep the hitch check."
+    },
+    {
+     "by": "cloud-idlefps",
+     "at": "2026-11-08T16:28Z",
+     "text": "Changed: a paused app waits 10 s before shutting down the DJI SDK (timer thread, since Update does not tick while paused); resuming within 10 s cancels it. Phone check: Home, wait 5 s, return: no reconnect; Home, wait 15 s, open Pilot 2: it"
     }
    ]
   },
@@ -716,5 +716,5 @@
    ]
   }
  ],
- "source_revision": "3161cde4e9e501c852d8de587ae76ff7911c5fba"
+ "source_revision": "55cd69d558038948be1ee9cad4c68f43c26c5098"
 }
