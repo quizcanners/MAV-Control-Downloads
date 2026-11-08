@@ -256,11 +256,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-08T13:49Z",
-     "text": "GETAC, Lenovo Android 810 (426f9739f1): opened App updates, selected Test, ran Check for updates, and Diagnostics showed current 810, checked Test, android-arm64, Division_Brigade_68, with no downloadable offer. GitHub published Test listin"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-08T14:18Z",
      "text": "GETAC published signed Android 810 from 426f9739f1 as MAVSEAL1 on GitHub Test (test-r810-Division_Brigade_68-426f9739f13a-9ff0cf273a73). Publisher readback matched the sealed asset. Both attached Androids are already on 810, so the equal-ve"
     },
@@ -268,6 +263,11 @@
      "by": "GETAC",
      "at": "2026-11-08T15:14Z",
      "text": "GETAC Lenovo 810 to 811 in-app MAVSEAL1 PASS. 810 and 811 are published to GitHub Test. Cut Wi-Fi after the first download showed 5% (17.5/312.3 MiB); first update screen showed HTTP 200: Failed to receive data and Download again. Wi-Fi res"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-08T17:10Z",
+     "text": "GETAC 812 run: Lenovo entered this session on signed 811 after the prior verified 810-to-811 seal-1 test. Exact 810-to-812 and network-cut retry therefore need a disposable 810 source or another 810 device. Existing Lenovo data was preserve"
     }
    ]
   },
@@ -840,5 +840,5 @@
    "notes": []
   }
  ],
- "source_revision": "f8aa4978d22fdd0234a0b355aee8c75cc3eecc8e"
+ "source_revision": "13733c28a3bbe68049371bb6dc3367ef16905a4e"
 }
