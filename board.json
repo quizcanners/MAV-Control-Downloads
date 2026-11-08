@@ -713,11 +713,6 @@
    "notes": [
     {
      "by": "heavy",
-     "at": "2026-11-08T16:48Z",
-     "text": "0093b1ba9f adds Device power under Menu > Diagnostics > Lags using the existing expandable diagnostics rows. The glance shows status, mode, battery percent when available and idle FPS; details show external power, battery, thermal, OS saver"
-    },
-    {
-     "by": "heavy",
      "at": "2026-11-08T17:07Z",
      "text": "Heavy batch 404be53092, cmp.sh NEW ERRORS: none. Windows EditMode All 8509 passed, 9 failed, 8 skipped; same nine red cases as prior cloud compile. XML C:/MavControlEvidence/WorkCritical/heavy-batch-20261108/All.xml. Removed dead SaveAiSand"
     },
@@ -725,6 +720,11 @@
      "by": "heavy",
      "at": "2026-11-08T17:17Z",
      "text": "608eaa453a adds the routing-server row beside power values in Menu > Diagnostics > Lags > Device power. Uses VPN hub ICMP only while this page is visible, last successful ms and existing diagnostics queue PendingCount. Green tick requires a"
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T17:44Z",
+     "text": "Heavy follow batch on 0ba1362903: cmp.sh NEW ERRORS: none (e/a/p/m). Windows EditMode All 8515 passed, 10 failed, 8 skipped; XML SHA-256 E7DDC750DA9DD7115BE88F810DBB6A21F1F4609C2B7188AA272CB6D07CB75821 at C:/MavControlEvidence/WorkCritical/"
     }
    ]
   },
@@ -907,5 +907,5 @@
    ]
   }
  ],
- "source_revision": "17f0b1e95901d9e48eb1e96d585e610c3e713cda"
+ "source_revision": "fdf22011b14c6c0d1ad772ca634c88726a47e3a1"
 }
