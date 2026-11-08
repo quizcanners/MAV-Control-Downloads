@@ -1050,17 +1050,17 @@
     {
      "by": "HEAVY",
      "at": "2026-11-08T19:13Z",
-     "text": "Step 3 in eb89f4181e: one drag selects one direction, respects a reported range and restores the previous horizon choice after a vertical swipe. The upright virtual turn uses the shortest path at 180 degrees per second; two-finger control r"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-08T19:13Z",
      "text": "Step 4 in eb89f4181e: the Pilot prefab has a bottom-right placeholder and hint without a feed. The window reuses the shared decoded planes and keeps the last frame dim during switching or late delivery. Side-main uses the existing camera-sp"
     },
     {
      "by": "HEAVY",
      "at": "2026-11-08T19:14Z",
      "text": "Step 5 in eb89f4181e: the Navigation prefab marks the selected bearing relative to the aircraft; Up and Down mark the centre. The marker stays with the window through telemetry loss."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-08T19:14Z",
+     "text": "Step 6 in eb89f4181e: removed the compass arrow hierarchy, tap/hold callbacks, obsolete author commands and arrow assertions. Main-video Off and near-home peek remain. cmp.sh NEW ERRORS: none; isolated Windows Unity 6000.6.8f1 EditMode 59 p"
     }
    ]
   },
@@ -1169,5 +1169,5 @@
    "notes": []
   }
  ],
- "source_revision": "dc8a46350ddd7c9376c4ea29e9e48783df206003"
+ "source_revision": "8d87242f259d3443b435fa5bad123a244459183e"
 }
