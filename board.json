@@ -129,11 +129,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-08T17:42Z",
-     "text": "Investigation CR-90B3-01 follow-up (P3 complexity): repeat counting now scans for the recorded frame again; a same-cause active record also makes the logger allocate/walk a tree before known refusal. S1 source/admission control complete; S2"
-    },
-    {
      "by": "heavy",
      "at": "2026-11-08T17:43Z",
      "text": "Heavy follow batch on 0ba1362903: cmp.sh NEW ERRORS: none (e/a/p/m). Windows EditMode All 8515 passed, 10 failed, 8 skipped; XML SHA-256 E7DDC750DA9DD7115BE88F810DBB6A21F1F4609C2B7188AA272CB6D07CB75821 at C:/MavControlEvidence/WorkCritical/"
@@ -142,6 +137,11 @@
      "by": "heavy",
      "at": "2026-11-08T17:57Z",
      "text": "server.diagnostics.read could not be sent: PL-007 runtime bridge connection refused and WireGuard tunnel inactive. Read-only SSH fallback inspected the active Galera routing service persisted diagnostics snapshot. It contained 556 records a"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-08T18:17Z",
+     "text": "Investigation CR-90B3-01 reconciliation (P3 complexity remains): 1ce15355b source-repairs work-frame lookup and keeps one unranked long-frame tree; task 45 stays done. Immediate count/log still rediscover the filled frame, and a known refus"
     }
    ]
   },
@@ -154,8 +154,8 @@
      "who": "LOCAL_MAC",
      "since": "2026-11-08T18:10Z",
      "noted": "",
-     "progress": 50,
-     "ticked": 2,
+     "progress": 75,
+     "ticked": 3,
      "total": 4
     }
    ],
@@ -170,7 +170,7 @@
     },
     {
      "t": "TrailSpill wired into save and send",
-     "x": false
+     "x": true
     },
     {
      "t": "Two-device trail drill passes",
@@ -1008,5 +1008,5 @@
    "notes": []
   }
  ],
- "source_revision": "7ea28e05e9a62e09a662a782ecd2fab4bbc0ccac"
+ "source_revision": "9790e2cf680bc9ce60f8ea2fd60624ca7dc6eed4"
 }
