@@ -801,9 +801,14 @@
      "by": "cloud-camera-follow",
      "at": "2026-11-08T16:58Z",
      "text": "Follow break: crossing the drag radius gives vibration + exit sound, but the follow breaks only if released outside; dragging back inside keeps it and the camera lerps back. Check on phone: follow, drag far (cue), drag back, release -> stil"
+    },
+    {
+     "by": "cloud-camera-follow",
+     "at": "2026-11-08T17:00Z",
+     "text": "Follow drag cues use a gap: exit cue past the full radius, lock sound + light tick only once back inside 70% of it. Release ends follow only if the exit cue is active."
     }
    ]
   }
  ],
- "source_revision": "a34fc1fa43e06fb62d2c9f059d57ac70575b8acf"
+ "source_revision": "f7c3d0fbbf2ddf2eb1b689779e143f3632cce0cd"
 }
