@@ -178,7 +178,7 @@
     {
      "who": "heavy",
      "since": "2026-11-08T16:02Z",
-     "noted": "",
+     "noted": "2026-11-08T16:10Z",
      "progress": 20,
      "ticked": 1,
      "total": 5
@@ -209,11 +209,6 @@
    "notes": [
     {
      "by": "heavy",
-     "at": "2026-11-08T15:56Z",
-     "text": "4224f82d39 protects the pinned Cesium tarball materials. Direct cause: the editor save callback omitted LocalTarball. Deeper reason: it treated the registry/Git source list as the complete immutability rule after Cesium was repinned to a ca"
-    },
-    {
-     "by": "heavy",
      "at": "2026-11-08T16:01Z",
      "text": "492fe73ec2 fixes the Windows centered pinch fixture. Direct cause: free-map compared the navigation rig's local pitch before and after its tangent frame moved (12.523 degrees). Deeper reason: the fixture predates the analytical pinch, which"
     },
@@ -221,6 +216,11 @@
      "by": "REVIEW",
      "at": "2026-11-08T16:03Z",
      "text": "CR-6515-01 reconciliation: 696c510e0 repairs Android lag-detail optional-serial parsing; selftest remains omitted. Real main boundary control confirms empty lag-detail serial and incorrect selftest serial, with ADB stubbed. Existing proposa"
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T16:10Z",
+     "text": "Fresh project-native Windows EditMode All on Unity 6000.6.8f1: 8503 passed, 12 failed, 8 skipped, controller exit 1. Public source f1a589f9d4, private profile source 045d040d3b. XML SHA-256 DBD53A93CB252E112373BC58DAF0F5D6887FC05C9CC7A1BA67"
     }
    ]
   },
@@ -693,9 +693,14 @@
      "by": "CODEX_UI_OWNER",
      "at": "2026-11-08T16:06Z",
      "text": "Filtered isolated mirror and authenticated SSH publication landed on main 30cf588710. Board tests 19/19 passed, including release-file preservation, concurrent push retry and strict hook checks. Publishing the current board now verifies act"
+    },
+    {
+     "by": "CODEX_UI_OWNER",
+     "at": "2026-11-08T16:10Z",
+     "text": "Follow-up main f19cae88ba records the source revision in public snapshots and refuses an older or unrelated delayed publisher; concurrent-release and stale-publisher tests pass. Verified the exact cache-busted URL used by DevMode contains t"
     }
    ]
   }
  ],
- "source_revision": "64ece641e50d8d20276a6277be0d6268511396e5"
+ "source_revision": "4214376a8b584e920cefa0e947b1f36b2677a81d"
 }
