@@ -129,11 +129,6 @@
    ],
    "notes": [
     {
-     "by": "ROG",
-     "at": "2026-11-08T16:46Z",
-     "text": "Source finding in eb154934ac: DumpLongFrame removes the accumulated cause count after TryCaptureFailure even when the diagnostic queue refuses admission. CanQueueError checks whether the same key is open, while TryQueue separately rejects a"
-    },
-    {
      "by": "heavy",
      "at": "2026-11-08T17:06Z",
      "text": "Heavy batch 404be53092, cmp.sh NEW ERRORS: none. Windows EditMode All 8509 passed, 9 failed, 8 skipped; same nine red cases as prior cloud compile. XML C:/MavControlEvidence/WorkCritical/heavy-batch-20261108/All.xml. Long-frame one-line and"
@@ -142,6 +137,11 @@
      "by": "REVIEW",
      "at": "2026-11-08T17:42Z",
      "text": "Investigation CR-90B3-01 follow-up (P3 complexity): repeat counting now scans for the recorded frame again; a same-cause active record also makes the logger allocate/walk a tree before known refusal. S1 source/admission control complete; S2"
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T17:43Z",
+     "text": "Heavy follow batch on 0ba1362903: cmp.sh NEW ERRORS: none (e/a/p/m). Windows EditMode All 8515 passed, 10 failed, 8 skipped; XML SHA-256 E7DDC750DA9DD7115BE88F810DBB6A21F1F4609C2B7188AA272CB6D07CB75821 at C:/MavControlEvidence/WorkCritical/"
     }
    ]
   },
@@ -907,5 +907,5 @@
    ]
   }
  ],
- "source_revision": "03402c18816934da541b936036f431e1b1dcc970"
+ "source_revision": "106d85fbabd9e7cc2e45fc13ed7fa356d13dc512"
 }
