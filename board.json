@@ -944,8 +944,8 @@
     {
      "who": "mac-batch",
      "since": "2026-11-08T17:55Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-08T18:05Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     },
@@ -964,6 +964,11 @@
      "by": "heavy",
      "at": "2026-11-08T17:58Z",
      "text": "For mac-batch: prior Windows All exact details: SituationEffectsTests.FailedPointingKeepsSituationMaintenanceAndRetainsDrag line 268 expected no SituationEntities problematic-update entry, got one. All.log NullReference in Singleton_Situati"
+    },
+    {
+     "by": "mac-batch",
+     "at": "2026-11-08T18:05Z",
+     "text": "Mac batch finalise: c6a2ece0e5 is on main. SituationEffectsTests.FailedPointingKeepsSituationMaintenanceAndRetainsDrag: problems.Contains(SituationEntities) expected false, actual true on Windows. The fixture omitted the camera and renderer"
     }
    ]
   },
@@ -992,5 +997,5 @@
    "notes": []
   }
  ],
- "source_revision": "821a5032ea163d41274a7a13d8dbc575e8241af4"
+ "source_revision": "d660176ef1c458ee10fe6e7527dc2fb559ee4ce7"
 }
