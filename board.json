@@ -183,16 +183,7 @@
    "n": 7,
    "name": "Verify",
    "done": "",
-   "held": [
-    {
-     "who": "heavy",
-     "since": "2026-11-08T14:59Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 5
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Failed fixtures triaged",
@@ -442,7 +433,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-08T14:00Z",
-     "noted": "2026-11-08T14:58Z",
+     "noted": "2026-11-08T14:40Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -472,6 +463,11 @@
    ],
    "notes": [
     {
+     "by": "heavy",
+     "at": "2026-11-08T14:18Z",
+     "text": "Read-only checkpoint: 5660 of 26,450 committed tiles (21.4%). Resumed log shows zero tile errors. First tick is at 6,613; Copernicus remains running."
+    },
+    {
      "by": "CLOUD_GETAC_LOOP",
      "at": "2026-11-08T14:29Z",
      "text": "Swap without waiting (quiz, 2026-11-08: \"2. Sure\"): once all 26,450 tiles are built and the Unity smoke test passes, swap Copernicus in for NOAA on the globe, remove the NOAA relief and push to main, without waiting for quiz to look at the "
@@ -480,11 +476,6 @@
      "by": "HEAVY",
      "at": "2026-11-08T14:40Z",
      "text": "Read-only checkpoint: 6100 of 26,450 committed tiles (23.06%). Build remains running. Milestones ticked only for completed quarters."
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-08T14:58Z",
-     "text": "Read-only tile count: 6500/26,450 (24.57%). Build remains running; next quarter tick requires 6,613 committed tiles."
     }
    ]
   },
