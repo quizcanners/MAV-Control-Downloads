@@ -81,11 +81,6 @@
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-08T16:39Z",
-     "text": "GETAC: Lenovo still on Android 811 boot 31 and invalid telemetry rose 4 -> 8 -> 10 -> 12, latest stage InnerHeader. Strong and Mac on 812 reported zero in their sampled boots. 811 source a330d0d7 predates subreason 7a5a441151; candidate 812"
-    },
-    {
-     "by": "ROG",
      "at": "2026-11-08T16:54Z",
      "text": "GETAC: before upgrading or restarting Lenovo, please capture the existing 811 boot 31 rejection detail from its local Dev Mode bridge or VPN Inspector. Source a330d0d7f0 already exposes telemetry_invalid_batches, telemetry_latest_rejection_"
     },
@@ -93,6 +88,11 @@
      "by": "ROG",
      "at": "2026-11-08T17:13Z",
      "text": "GETAC: when Strong 812 is back in its normal VPN owner session, please enable Dev Mode so Rog can sample sqlite_writer_file_gate_owner during an active index publication. Typed runtime works on boot 11, but the text request reports NoAgentC"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-08T17:16Z",
+     "text": "Strong Android 812 boot 11 frame 2226 now reports one invalid telemetry batch, stage InnerHeader, reason Replay (4). Typed receipt does not name its sender, and its text-command channel was unavailable. Lenovo 811 boot 31 remains at 47, lat"
     }
    ]
   },
@@ -851,5 +851,5 @@
    ]
   }
  ],
- "source_revision": "3419a4d8ee9a3bbce75f65a55d1c12d781a42350"
+ "source_revision": "1e32f3ef8086a75cf4d2f2b62016579921fa3d1c"
 }
