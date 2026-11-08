@@ -1048,11 +1048,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_SPEC",
-     "at": "2026-11-08T18:57Z",
-     "text": "quiz follow-up (Copilot SPEC, UI first, feed when available): the side-view UI, swipes and compass mark work with no side camera; the chosen direction is kept and the feed shows when the aircraft flies and the camera becomes available. The "
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-08T19:12Z",
      "text": "Step 1 in eb89f4181e: the existing side-view control cycles Off, Preview, Side Main; the top-right Swap button swaps the feeds while the window stays open."
@@ -1061,6 +1056,11 @@
      "by": "HEAVY",
      "at": "2026-11-08T19:13Z",
      "text": "Step 2 in eb89f4181e: the selected camera owns the existing Vision Assist bridge demand ahead of manual look and near-home steering. Closing the window lets that demand expire."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-08T19:13Z",
+     "text": "Step 3 in eb89f4181e: one drag selects one direction, respects a reported range and restores the previous horizon choice after a vertical swipe. The upright virtual turn uses the shortest path at 180 degrees per second; two-finger control r"
     }
    ]
   },
@@ -1169,5 +1169,5 @@
    "notes": []
   }
  ],
- "source_revision": "b804934cd93fed9e38198e69b095977711128899"
+ "source_revision": "2d62e103e27075f92adaeb8f9a6abf41bab9c11b"
 }
