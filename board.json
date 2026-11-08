@@ -4,90 +4,454 @@
   {
    "n": 1,
    "name": "DJI",
-   "held": []
+   "held": [],
+   "steps": [
+    {
+     "t": "Build Android with the Dev Mode DJI rows",
+     "x": false
+    },
+    {
+     "t": "Install on the RC, aircraft grounded, props off",
+     "x": false
+    },
+    {
+     "t": "Key console and RC identity shown",
+     "x": false
+    },
+    {
+     "t": "Model name shown",
+     "x": false
+    }
+   ],
+   "notes": []
   },
   {
    "n": 2,
    "name": "Motorola",
-   "held": []
+   "held": [],
+   "steps": [
+    {
+     "t": "Passive Inspector and Diagnostics looks",
+     "x": false
+    },
+    {
+     "t": "Named test gaps closed",
+     "x": false
+    },
+    {
+     "t": "Legacy rendered/native gates and CPS checklist",
+     "x": false
+    },
+    {
+     "t": "Windows USB health snapshot",
+     "x": false
+    }
+   ],
+   "notes": []
   },
   {
    "n": 3,
    "name": "Network link and map sync",
-   "held": []
+   "held": [],
+   "steps": [
+    {
+     "t": "VPN peer link and diagnostics",
+     "x": false
+    },
+    {
+     "t": "Hotspot ownership and iPhone resume readout",
+     "x": false
+    },
+    {
+     "t": "Tile streaming speed and enrollment mesh",
+     "x": false
+    },
+    {
+     "t": "Public-IP QR",
+     "x": false
+    },
+    {
+     "t": "Old Walk sync removed after the paired drill",
+     "x": false
+    }
+   ],
+   "notes": []
   },
   {
    "n": 5,
    "name": "Planet renderer",
-   "held": [
+   "held": [],
+   "steps": [
     {
-     "who": "codex-situation-cells",
-     "since": "2026-11-08T13:42Z",
-     "noted": "2026-11-08T13:55Z",
-     "progress": 0,
-     "ticked": 0,
-     "total": 5
+     "t": "Lighting checks",
+     "x": false
+    },
+    {
+     "t": "Space relief from the 4096x2048 slope texture",
+     "x": false
+    },
+    {
+     "t": "Raised overlay coverage and element mask transition",
+     "x": false
+    },
+    {
+     "t": "Camera pinch keeps both anchors",
+     "x": false
+    },
+    {
+     "t": "NOAA globe relief removed after Copernicus passes",
+     "x": false
+    }
+   ],
+   "notes": [
+    {
+     "by": "codex-situation-hybrid",
+     "at": "2026-11-08T13:30Z",
+     "text": "Published grouped Situation hybrid rendering as 69133ed01e through bc6d4b4e42. Same tree/same-cell merged representatives, counts, affiliation, artwork, heading and freshness feed both paths. MinMaxEnableGap: combined above 50 km; grouped E"
+    },
+    {
+     "by": "codex-situation-hybrid",
+     "at": "2026-11-08T13:39Z",
+     "text": "Final cold restart found an additional native Metal failure after pulling the Windows-recorded PlanetGlobeVariants collection: ShaderWarmupImpl -> ShaderVariantCollection.WarmUp -> PlanetRendererManager.Session line 108. Explicitly warming "
+    },
+    {
+     "by": "codex-situation-cells",
+     "at": "2026-11-08T13:55Z",
+     "text": "Published 503e60dbaa through c04c36edf1: far Situation icons now ignore sub-cell offsets, sit at cell centres and fit completely inside one cell at every heading (1/sqrt(2) width cap, plaque included). Existing tree/same-cell grouping, coun"
     }
    ]
   },
   {
    "n": 6,
    "name": "Map storage",
-   "held": []
+   "held": [],
+   "steps": [
+    {
+     "t": "Presence array released for the view-window read",
+     "x": true
+    },
+    {
+     "t": "TrailSpill enabled",
+     "x": true
+    },
+    {
+     "t": "TrailSpill wired into save and send",
+     "x": false
+    },
+    {
+     "t": "Two-device trail drill passes",
+     "x": false
+    }
+   ],
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-08T13:03Z",
+     "text": "GETAC device attempt on signed Android Test 809 (built main 0cf4c025ec86). ADB in-place install succeeded on Strong P15000 Ultra and Lenovo TB-8506X, retaining app data. Strong reached the map. Lenovo repeatedly stayed at Reading and prepar"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-08T13:45Z",
+     "text": "GETAC, signed Android 810 (main 426f9739f1): installed in place on Strong and Lenovo, both reached the map. Lenovo Peer 207 private built-in import returned Read; Android tun0 reported 10.10.10.208/32, Strong tun0 10.10.10.9/32. Strong eras"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-08T13:52Z",
+     "text": "Lenovo 810 boot 25, ready and unpaused at frame 7111: repeated VPN index reports kept SQLite retention at Sampling/Migrating, commit sequence 6593, zero presence loads, and GPU rows still clearing. Two retained SQLITE_BUSY_RECOVERY (5/261) "
+    }
+   ]
   },
   {
    "n": 7,
    "name": "Verify",
-   "held": []
+   "held": [],
+   "steps": [
+    {
+     "t": "Failed fixtures triaged",
+     "x": false
+    },
+    {
+     "t": "Native, import and render gates",
+     "x": false
+    },
+    {
+     "t": "Linux GameCI failures fixed",
+     "x": false
+    },
+    {
+     "t": "Editor late-shutdown access violation fixed",
+     "x": false
+    },
+    {
+     "t": "Lazy timing tree checked in Editor",
+     "x": false
+    }
+   ],
+   "notes": [
+    {
+     "by": "REVIEW",
+     "at": "2026-11-08T13:42Z",
+     "text": "Investigation CR-47DF-01 (P2): rebuilding the idle-filtered timing list can silently inspect a different child at the retained index. S1 source/index control complete; S2 brief moves choice-list rebuilding into the existing not-entered bran"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-08T13:42Z",
+     "text": "Investigation CR-6515-01 (P2): --android without a serial treats lag-detail and selftest as device serials. S1 real-parser boundary control reproduced both; S2 brief suggests two strings in the existing discriminator, with current/proposed "
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-08T13:42Z",
+     "text": "CR-3750-01 reconciled: d55e1fd94 excludes the synthetic remainder from ordinary touched children; source repaired. HEAVY records native results separately; this pass did not rerun them. [Review reconciliation](../Reviews/29668402d.md#workfl"
+    }
+   ]
   },
   {
    "n": 9,
    "name": "Distribution",
-   "held": []
+   "held": [],
+   "steps": [
+    {
+     "t": "Protected HTTPS installer route live",
+     "x": false
+    },
+    {
+     "t": "QR or USB install",
+     "x": false
+    },
+    {
+     "t": "Coordinate links open the app",
+     "x": false
+    },
+    {
+     "t": "Canonical build publishing",
+     "x": false
+    },
+    {
+     "t": "Android update 792 to 807 repaired",
+     "x": false
+    }
+   ],
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-08T12:41Z",
+     "text": "HEAVY activated the protected Galera installer catalog with only Strong-qualified Android 808. Live HTTPS catalog 200 with allowed-origin CORS. Hash-addressed request returned 206 and the first 16 bytes of the validated 310075733-byte MAVSE"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-08T13:04Z",
+     "text": "GETAC device follow-up for former Task 13, now here: Test 809 installs on both tablets were via ADB. No in-app seal-1 or seal-2 upgrade, 504/drop retry timing, or first-screen HTTP failure was exercised. Lenovo stalled on startup and Task 6"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-08T13:49Z",
+     "text": "GETAC, Lenovo Android 810 (426f9739f1): opened App updates, selected Test, ran Check for updates, and Diagnostics showed current 810, checked Test, android-arm64, Division_Brigade_68, with no downloadable offer. GitHub published Test listin"
+    }
+   ]
   },
   {
    "n": 12,
    "name": "Parked ideas and suggestions (13",
-   "held": []
+   "held": [],
+   "steps": [],
+   "notes": []
   },
   {
    "n": 15,
    "name": "Chat message detail",
-   "held": []
+   "held": [],
+   "steps": [
+    {
+     "t": "Full-screen message view with Reply",
+     "x": false
+    },
+    {
+     "t": "Preview shortening",
+     "x": false
+    },
+    {
+     "t": "Long-press deletion",
+     "x": false
+    },
+    {
+     "t": "Deletion reaches every device incl. offline",
+     "x": false
+    },
+    {
+     "t": "Landscape Chat and MavChat looked at",
+     "x": false
+    }
+   ],
+   "notes": [
+    {
+     "by": "CODEX_CHAT_MESSAGES",
+     "at": "2026-11-08T12:05Z",
+     "text": "Source trace: Chat_MessageActions.ConversationController.Delete only sets Visibility=Deleted locally and marks a local history page dirty. UI_ChatMessageMenu.Delete invokes it. UI_ChatMessageRow.OnPointerClick currently toggles tall rows in"
+    },
+    {
+     "by": "CODEX_CHAT_MESSAGES",
+     "at": "2026-11-08T12:15Z",
+     "text": "CODEX_CHAT_MESSAGES: task remains unimplemented. Claimed 15, traced existing local-only deletion and full-screen/transport work; another agent began actively editing PlanetRenderer files in the shared Unity checkout, so preserved those chan"
+    }
+   ]
   },
   {
    "n": 17,
    "name": "BOOT-COST-NEXT",
-   "held": [
+   "held": [],
+   "steps": [
     {
-     "who": "GETAC",
-     "since": "2026-11-08T13:50Z",
-     "noted": "2026-11-08T13:56Z",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
+     "t": "WarStationInput out of FromJson",
+     "x": false
+    },
+    {
+     "t": "Dji, Input, MavLink, Motorola owner ms re-read on a device",
+     "x": false
+    },
+    {
+     "t": "Rows written into STARTUP.md",
+     "x": false
+    }
+   ],
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-08T12:48Z",
+     "text": "HEAVY follow-up: after the focused suite and timing capture, 852d69519c landed (manager initialization switches and C# WarStationInput). Pulled it and refreshed Unity 6000.6.8f1 at 8b776ba51d. Editor reached idle with script_compilation_fai"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-08T13:13Z",
+     "text": "HEAVY: Windows Editor 809 Bootstrap at b760ea1253 completed with startup owner work DJI 0.000 ms, Input 3.797 ms, MavLink 3.972 ms and Motorola 0.000 ms. The C# input constructor no longer calls FromJson and WarStationInput.inputactions.met"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-08T13:56Z",
+     "text": "GETAC device result, Lenovo TB-8506X Android 810 at 426f9739f1. Without a DJI aircraft/controller or Motorola attached, retained Boot work was 210.88 ms excluding waits. Input 21.38 ms, MavLink 5.75 ms, Dji 0.00 ms and Motorola 0.00 ms (UI "
     }
    ]
   },
   {
    "n": 18,
    "name": "Investigation CC-14FA-01",
-   "held": []
+   "held": [],
+   "steps": [
+    {
+     "t": "Changed inputs separated from unfinished stock",
+     "x": false
+    },
+    {
+     "t": "Operator-person search runs only on changed inputs",
+     "x": false
+    },
+    {
+     "t": "Quiz agrees to the refactor",
+     "x": false
+    }
+   ],
+   "notes": []
   },
   {
    "n": 19,
    "name": "Note from cloud-thread",
-   "held": []
+   "held": [],
+   "steps": [
+    {
+     "t": "Compile the Supply icon loader and save-timer gates",
+     "x": false
+    },
+    {
+     "t": "Look at Supply idle and the timing tree",
+     "x": false
+    },
+    {
+     "t": "Untimed work in Distribution.ManagedUpdate isolated",
+     "x": false
+    }
+   ],
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-08T13:13Z",
+     "text": "HEAVY: 47dff14f compiled in Windows Unity. Idle timing predicate test passed at 99/100 idle frames and on resumed work. In live Editor, Supply Me was open and idle with no visible rows, draft, outbox or in-flight request, yet Distribution O"
+    }
+   ]
   },
   {
    "n": 21,
    "name": "Vertical left tabs",
-   "held": []
+   "held": [],
+   "steps": [
+    {
+     "t": "Darker blur background behind the tab column",
+     "x": false
+    },
+    {
+     "t": "Extends to the screen bottom",
+     "x": false
+    },
+    {
+     "t": "Hidden when not interacting",
+     "x": false
+    }
+   ],
+   "notes": [
+    {
+     "by": "CODEX_UI_VERTICAL",
+     "at": "2026-11-08T13:26Z",
+     "text": "Vertical List Tabs.prefab already has TABS/Fade Out (Blur Display.mat, gray 0.5647, raycast off) in MavMainScreenPresentation.NormalOnly, so it is already hidden in the idle state. Its RectTransform stretches only to TABS, whose authored he"
+    }
+   ]
   },
   {
    "n": 23,
    "name": "MGRS field shadow",
-   "held": []
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_MGRS_SHADOW",
+     "at": "2026-11-08T13:45Z",
+     "text": "Source: MGRS Coordinate Entry.prefab root/UI BG Shadow stretches across the complete row (anchor x 0..1, offset x 8.2708, sizeDelta x -22.1152), so it also covers a neighboring button. Easting and Northing are siblings with authored x spans"
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "name": "Copernicus globe relief build",
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-08T14:00Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 5
+    }
+   ],
+   "steps": [
+    {
+     "t": "25% of tiles built",
+     "x": false
+    },
+    {
+     "t": "50% of tiles built",
+     "x": false
+    },
+    {
+     "t": "75% of tiles built",
+     "x": false
+    },
+    {
+     "t": "100% of tiles built",
+     "x": false
+    },
+    {
+     "t": "Unity smoke test passes",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ]
 }
