@@ -4,6 +4,7 @@
   {
    "n": 1,
    "name": "DJI",
+   "done": "",
    "held": [],
    "steps": [
     {
@@ -28,6 +29,7 @@
   {
    "n": 2,
    "name": "Motorola",
+   "done": "",
    "held": [],
    "steps": [
     {
@@ -52,6 +54,7 @@
   {
    "n": 3,
    "name": "Network link and map sync",
+   "done": "",
    "held": [],
    "steps": [
     {
@@ -80,6 +83,7 @@
   {
    "n": 5,
    "name": "Planet renderer",
+   "done": "",
    "held": [],
    "steps": [
     {
@@ -124,6 +128,7 @@
   {
    "n": 6,
    "name": "Map storage",
+   "done": "",
    "held": [],
    "steps": [
     {
@@ -164,6 +169,7 @@
   {
    "n": 7,
    "name": "Verify",
+   "done": "",
    "held": [],
    "steps": [
     {
@@ -208,6 +214,7 @@
   {
    "n": 9,
    "name": "Distribution",
+   "done": "",
    "held": [],
    "steps": [
     {
@@ -252,6 +259,7 @@
   {
    "n": 12,
    "name": "Parked ideas and suggestions (13",
+   "done": "",
    "held": [],
    "steps": [],
    "notes": []
@@ -259,6 +267,7 @@
   {
    "n": 15,
    "name": "Chat message detail",
+   "done": "",
    "held": [
     {
      "who": "CODEX_UI_OWNER",
@@ -307,6 +316,7 @@
   {
    "n": 17,
    "name": "BOOT-COST-NEXT",
+   "done": "",
    "held": [],
    "steps": [
     {
@@ -343,6 +353,7 @@
   {
    "n": 18,
    "name": "Investigation CC-14FA-01",
+   "done": "",
    "held": [],
    "steps": [
     {
@@ -363,6 +374,7 @@
   {
    "n": 19,
    "name": "Note from cloud-thread",
+   "done": "",
    "held": [],
    "steps": [
     {
@@ -389,6 +401,7 @@
   {
    "n": 21,
    "name": "Vertical left tabs",
+   "done": "",
    "held": [],
    "steps": [
     {
@@ -415,6 +428,7 @@
   {
    "n": 23,
    "name": "MGRS field shadow",
+   "done": "",
    "held": [
     {
      "who": "CODEX_UI_OWNER",
@@ -437,6 +451,7 @@
   {
    "n": 24,
    "name": "Copernicus globe relief build",
+   "done": "",
    "held": [
     {
      "who": "HEAVY",
@@ -478,22 +493,59 @@
    ]
   },
   {
+   "n": 25,
+   "name": "Verify DevMode Tasks row details",
+   "done": "",
+   "held": [
+    {
+     "who": "heavy",
+     "since": "2026-11-08T14:03Z",
+     "noted": "2026-11-08T14:09Z",
+     "progress": 100,
+     "ticked": 3,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Roslyn compile comparison",
+     "x": true
+    },
+    {
+     "t": "Open rows in Unity Play mode",
+     "x": true
+    },
+    {
+     "t": "Record result and close",
+     "x": true
+    }
+   ],
+   "notes": [
+    {
+     "by": "heavy",
+     "at": "2026-11-08T14:09Z",
+     "text": "Verified 1244ce35 in Windows Unity 6000.6.8f1 at 3fbaba6e0a. cmp.sh NEW ERRORS: none. All 15 board-tool tests passed, including the three-note cap. Play: clicked claimed Copernicus and unclaimed Map storage rows; saw steps, checked and unch"
+    }
+   ]
+  },
+  {
    "n": 26,
    "name": "Boot cost",
+   "done": "",
    "held": [
     {
      "who": "heavy",
      "since": "2026-11-08T14:07Z",
-     "noted": "2026-11-08T14:11Z",
-     "progress": 25,
-     "ticked": 1,
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
      "total": 4
     }
    ],
    "steps": [
     {
      "t": "Compile Windows and Android builds (RemoteSense lifecycle in Station_RemoteSense",
-     "x": true
+     "x": false
     },
     {
      "t": "Boot an Android build with no remote sensors; read the RemoteSense owner ms from",
@@ -508,13 +560,7 @@
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "heavy",
-     "at": "2026-11-08T14:11Z",
-     "text": "Native Unity 6000.6.8f1 PlayerBuildInterface compiled 61 Windows x64 and 60 Android managed player assemblies. This is the player C# compile check; no APK or installer was packaged. No Android device is attached to PL-007. Checking Windows "
-    }
-   ]
+   "notes": []
   }
  ]
 }
