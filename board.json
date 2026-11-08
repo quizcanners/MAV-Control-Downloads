@@ -557,11 +557,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "heavy",
-     "at": "2026-11-08T17:32Z",
-     "text": "Android 813 built from d76a8350a0 and signed; ARM64 com.shershni.mavcontrol, production signer matches Brigade 68 v807. APK SHA-256 ce950fae664637277c1f74d532f4f77cdb7d63aefde9e0080adddd6c57f196a0 at C:/MavControlEvidence/WorkCritical/heavy"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-08T17:42Z",
      "text": "Investigation CR-062D-01 (P2): delayed DJI timer may issue shutdown after resume because Dispose does not join its callback and fired is published after JNI. S1 source/interleaving control complete; S2 brief gives pause/resume/delayed relea"
@@ -570,6 +565,11 @@
      "by": "REVIEW",
      "at": "2026-11-08T17:42Z",
      "text": "CR-B7D2-01 added evidence: e063766fe merges moving-follow age with input/telemetry age, so a moving target can also keep half render scale on after an admitted drag ends. Same predicate/brief/ID: use input age for resolution return and comb"
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T17:44Z",
+     "text": "Heavy follow batch on 0ba1362903: cmp.sh NEW ERRORS: none (e/a/p/m). Windows EditMode All 8515 passed, 10 failed, 8 skipped; XML SHA-256 E7DDC750DA9DD7115BE88F810DBB6A21F1F4609C2B7188AA272CB6D07CB75821 at C:/MavControlEvidence/WorkCritical/"
     }
    ]
   },
@@ -907,5 +907,5 @@
    ]
   }
  ],
- "source_revision": "313d62f603ad5385695045d1c094953a6296c969"
+ "source_revision": "c78e932fdb6d4e5bd51cc060cdaa8f9fc2a8054d"
 }
