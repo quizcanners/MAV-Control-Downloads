@@ -174,7 +174,16 @@
    "n": 7,
    "name": "Verify",
    "done": "",
-   "held": [],
+   "held": [
+    {
+     "who": "heavy",
+     "since": "2026-11-08T15:57Z",
+     "noted": "",
+     "progress": 20,
+     "ticked": 1,
+     "total": 5
+    }
+   ],
    "steps": [
     {
      "t": "Failed fixtures triaged",
@@ -626,17 +635,8 @@
   {
    "n": 33,
    "name": "Share screen center toggle",
-   "done": "",
-   "held": [
-    {
-     "who": "CODEX_UI_OWNER",
-     "since": "2026-11-08T15:38Z",
-     "noted": "2026-11-08T15:54Z",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "done": "2026-11-08T15:57Z",
+   "held": [],
    "steps": [
     {
      "t": "Wire shared shader as the toggle owner",
