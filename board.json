@@ -428,7 +428,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-08T14:00Z",
-     "noted": "",
+     "noted": "2026-11-08T14:40Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -459,11 +459,6 @@
    "notes": [
     {
      "by": "heavy",
-     "at": "2026-11-08T14:02Z",
-     "text": "Read-only SQLite count on PL-007: 5,380 of 26,450 tiles (20.3%); resumed log reports zero tile errors. Build remains running. First tick is due at 6,613 committed tiles."
-    },
-    {
-     "by": "heavy",
      "at": "2026-11-08T14:18Z",
      "text": "Read-only checkpoint: 5660 of 26,450 committed tiles (21.4%). Resumed log shows zero tile errors. First tick is at 6,613; Copernicus remains running."
     },
@@ -471,6 +466,11 @@
      "by": "CLOUD_GETAC_LOOP",
      "at": "2026-11-08T14:29Z",
      "text": "Swap without waiting (quiz, 2026-11-08: \"2. Sure\"): once all 26,450 tiles are built and the Unity smoke test passes, swap Copernicus in for NOAA on the globe, remove the NOAA relief and push to main, without waiting for quiz to look at the "
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-08T14:40Z",
+     "text": "Read-only checkpoint: 6100 of 26,450 committed tiles (23.06%). Build remains running. Milestones ticked only for completed quarters."
     }
    ]
   },
