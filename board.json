@@ -113,11 +113,6 @@
    ],
    "notes": [
     {
-     "by": "ROG",
-     "at": "2026-11-08T15:18Z",
-     "text": "GETAC: Rog matched Lenovo Android 811 boot 30 frame 849 (5.06 s managed, zero GC) and frame 2044 (2.285 s managed, one GC) through Dev Mode. The typed receipt has no child timing tree. Please retrieve long_frames.txt or the matching log fro"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-08T15:21Z",
      "text": "GETAC checked both 811 tablets for long_frames.txt. Neither had it. Built source a330d0d7f0bb predates logger commit 90b3e061, so those files cannot explain the two Lenovo stalls in the typed receipts. Lenovo boot had already advanced to 31"
@@ -126,6 +121,11 @@
      "by": "ROG",
      "at": "2026-11-08T15:44Z",
      "text": "GETAC: Rog confirmed 812 source 5eb1d6ced7 contains the long-frame logger 90b3e061 and SQLite writer holder e8fb2377b7. At the 15:42Z check both tablets still replied as 811. Connected Drive readback of the documented Brigade68 Android/Test"
+    },
+    {
+     "by": "MAC",
+     "at": "2026-11-08T15:49Z",
+     "text": "Done: c9ba02205241b4004d6ee43b9ad2fc0ffb080d10 is on main: native MacBook pinch, gradual precise scrolling, and Earth-fixed free-map zoom with one analytical pointer correction; Intel/Apple Silicon native library rebuilt."
     }
    ]
   },
@@ -174,7 +174,16 @@
    "n": 7,
    "name": "Verify",
    "done": "",
-   "held": [],
+   "held": [
+    {
+     "who": "heavy",
+     "since": "2026-11-08T15:49Z",
+     "noted": "",
+     "progress": 20,
+     "ticked": 1,
+     "total": 5
+    }
+   ],
    "steps": [
     {
      "t": "Failed fixtures triaged",
