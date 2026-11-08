@@ -1049,11 +1049,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-08T19:12Z",
-     "text": "Step 1 in eb89f4181e: the existing side-view control cycles Off, Preview, Side Main; the top-right Swap button swaps the feeds while the window stays open."
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-08T19:13Z",
      "text": "Step 2 in eb89f4181e: the selected camera owns the existing Vision Assist bridge demand ahead of manual look and near-home steering. Closing the window lets that demand expire."
     },
@@ -1061,6 +1056,11 @@
      "by": "HEAVY",
      "at": "2026-11-08T19:13Z",
      "text": "Step 3 in eb89f4181e: one drag selects one direction, respects a reported range and restores the previous horizon choice after a vertical swipe. The upright virtual turn uses the shortest path at 180 degrees per second; two-finger control r"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-08T19:13Z",
+     "text": "Step 4 in eb89f4181e: the Pilot prefab has a bottom-right placeholder and hint without a feed. The window reuses the shared decoded planes and keeps the last frame dim during switching or late delivery. Side-main uses the existing camera-sp"
     }
    ]
   },
@@ -1169,5 +1169,5 @@
    "notes": []
   }
  ],
- "source_revision": "0297c3865f55619c46fa82d720a1f22af4b27780"
+ "source_revision": "69747c8b569da45c374521965cb20bc8c96b4e00"
 }
