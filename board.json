@@ -80,7 +80,16 @@
   {
    "n": 5,
    "name": "Planet renderer",
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-08T14:00Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 5
+    }
+   ],
    "steps": [
     {
      "t": "Lighting checks",
@@ -406,7 +415,16 @@
   {
    "n": 23,
    "name": "MGRS field shadow",
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_UI_OWNER",
+     "since": "2026-11-08T14:01Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -451,7 +469,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "heavy",
+     "at": "2026-11-08T14:02Z",
+     "text": "Read-only SQLite count on PL-007: 5,380 of 26,450 tiles (20.3%); resumed log reports zero tile errors. Build remains running. First tick is due at 6,613 committed tiles."
+    }
+   ]
   }
  ]
 }
