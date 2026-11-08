@@ -84,16 +84,7 @@
    "n": 5,
    "name": "Planet renderer",
    "done": "",
-   "held": [
-    {
-     "who": "MAC",
-     "since": "2026-11-08T15:01Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 6
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Lighting checks",
@@ -187,7 +178,7 @@
     {
      "who": "heavy",
      "since": "2026-11-08T15:44Z",
-     "noted": "",
+     "noted": "2026-11-08T15:48Z",
      "progress": 20,
      "ticked": 1,
      "total": 5
@@ -218,11 +209,6 @@
    "notes": [
     {
      "by": "heavy",
-     "at": "2026-11-08T15:22Z",
-     "text": "D3D11 on e89401d619: 77/83 in the three Planet fixtures; ParallaxGroundShadowUsesRawCoverageOnly passed. Two draw-fixture failures fixed in b541846c8b, with 27/27 draw tests on rerun and Roslyn NEW ERRORS: none. Direct cause: HeightRange.w "
-    },
-    {
-     "by": "heavy",
      "at": "2026-11-08T15:37Z",
      "text": "Done on main: f5475548bd corrected the two render fixtures. Windows D3D11 surface class 52/53; shifted Sun shadow and base mip at both ancestor scales passed. Roslyn NEW ERRORS: none."
     },
@@ -230,6 +216,11 @@
      "by": "heavy",
      "at": "2026-11-08T15:43Z",
      "text": "Done on main: 41a511b96c updates the thermal forest fixture. Windows Unity 6000.6.8f1 D3D11 PlanetSurfaceShaderRenderTests 53/53; Roslyn NEW ERRORS: none."
+    },
+    {
+     "by": "heavy",
+     "at": "2026-11-08T15:48Z",
+     "text": "Done on main at a3c7b7cf8b: BumpOnly, draw reuse and surface render tests passed 83/83 on Windows Unity 6000.6.8f1 D3D11. Roslyn NEW ERRORS: none. The old fixture expected the mesh slope; it predated the shared fallback to the authored geod"
     }
    ]
   },
@@ -555,7 +546,16 @@
    "n": 29,
    "name": "Phone check of idle 2 FPS (after",
    "done": "",
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-08T15:45Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -608,29 +608,20 @@
   {
    "n": 32,
    "name": "MavChat capsule selector",
-   "done": "",
-   "held": [
-    {
-     "who": "CODEX_UI_OWNER",
-     "since": "2026-11-08T15:34Z",
-     "noted": "2026-11-08T15:42Z",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "done": "2026-11-08T15:46Z",
+   "held": [],
    "steps": [
     {
      "t": "Reverse drag and release together",
-     "x": false
+     "x": true
     },
     {
      "t": "Verify quick, held and cyclic swipes in Unity",
-     "x": false
+     "x": true
     },
     {
      "t": "Publish and record result",
-     "x": false
+     "x": true
     }
    ],
    "notes": [
