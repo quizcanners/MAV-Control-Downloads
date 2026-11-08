@@ -129,11 +129,6 @@
    ],
    "notes": [
     {
-     "by": "heavy",
-     "at": "2026-11-08T16:41Z",
-     "text": "Cloud compile pass at 2ad59dec37 against 0cf4c025ec: cmp.sh NEW ERRORS: none with installed Unity package refs; isolated Unity 6000.6.8f1 EditMode All 8507 passed, 9 failed, 8 skipped. No source compile fixes. XML SHA-256 FD40BB5C07F93FA7DC"
-    },
-    {
      "by": "ROG",
      "at": "2026-11-08T16:46Z",
      "text": "Source finding in eb154934ac: DumpLongFrame removes the accumulated cause count after TryCaptureFailure even when the diagnostic queue refuses admission. CanQueueError checks whether the same key is open, while TryQueue separately rejects a"
@@ -142,6 +137,11 @@
      "by": "heavy",
      "at": "2026-11-08T17:06Z",
      "text": "Heavy batch 404be53092, cmp.sh NEW ERRORS: none. Windows EditMode All 8509 passed, 9 failed, 8 skipped; same nine red cases as prior cloud compile. XML C:/MavControlEvidence/WorkCritical/heavy-batch-20261108/All.xml. Long-frame one-line and"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-08T17:42Z",
+     "text": "Investigation CR-90B3-01 follow-up (P3 complexity): repeat counting now scans for the recorded frame again; a same-cause active record also makes the logger allocate/walk a tree before known refusal. S1 source/admission control complete; S2"
     }
    ]
   },
@@ -557,19 +557,19 @@
    "steps": [],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-08T16:49Z",
-     "text": "GETAC Strong 812 (7990df8019), offline ephemeral guest, idle option on: final 5 s after 45 s untouched averaged 497.970 ms (median 499.614, max 516.392, 10 intervals). One tap returned to median 33.293 ms; uptime probe to first observed pre"
-    },
-    {
-     "by": "heavy",
-     "at": "2026-11-08T17:07Z",
-     "text": "Heavy batch 404be53092, cmp.sh NEW ERRORS: none. Windows EditMode All 8509 passed, 9 failed, 8 skipped; same nine red cases as prior cloud compile. XML C:/MavControlEvidence/WorkCritical/heavy-batch-20261108/All.xml. Power, pacing, URP RAM "
-    },
-    {
      "by": "heavy",
      "at": "2026-11-08T17:32Z",
      "text": "Android 813 built from d76a8350a0 and signed; ARM64 com.shershni.mavcontrol, production signer matches Brigade 68 v807. APK SHA-256 ce950fae664637277c1f74d532f4f77cdb7d63aefde9e0080adddd6c57f196a0 at C:/MavControlEvidence/WorkCritical/heavy"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-08T17:42Z",
+     "text": "Investigation CR-062D-01 (P2): delayed DJI timer may issue shutdown after resume because Dispose does not join its callback and fired is published after JNI. S1 source/interleaving control complete; S2 brief gives pause/resume/delayed relea"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-08T17:42Z",
+     "text": "CR-B7D2-01 added evidence: e063766fe merges moving-follow age with input/telemetry age, so a moving target can also keep half render scale on after an admitted drag ends. Same predicate/brief/ID: use input age for resolution return and comb"
     }
    ]
   },
@@ -887,7 +887,7 @@
     {
      "who": "CODEX_UI_OWNER",
      "since": "2026-11-08T17:33Z",
-     "noted": "",
+     "noted": "2026-11-08T17:42Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -907,8 +907,14 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_UI_OWNER",
+     "at": "2026-11-08T17:42Z",
+     "text": "Implemented capsule-local shared blur cover for folded layout, caption and status changes; callback applies latest sheet state and yields to full-screen transitions. Pushed 1d8059b758; Unity compile and 114 focused EditMode tests pass. Port"
+    }
+   ]
   }
  ],
- "source_revision": "0ba13629033c90e47e8008d3031cad30812739e0"
+ "source_revision": "6153ee2b53e96a2f09617b12210d3aa2076f4d34"
 }
