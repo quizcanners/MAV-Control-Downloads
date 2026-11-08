@@ -851,7 +851,37 @@
      "text": "Published baf00bf537. Telemetry shows shared procedural toggles for Orthophoto/Motion/Contrast, plus denoise on supported backends; contrast shares fullscreen owner, available before a frame, with English/Ukrainian label. Live Editor checks"
     }
    ]
+  },
+  {
+   "n": 41,
+   "name": "Keep compass visible on screen-c",
+   "done": "",
+   "held": [
+    {
+     "who": "CODEX_UI_OWNER",
+     "since": "2026-11-08T17:19Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Trace shared compass and clock visibility",
+     "x": false
+    },
+    {
+     "t": "Adjust screen-center state without changing other visibility gates",
+     "x": false
+    },
+    {
+     "t": "Verify Editor and focused tests",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
- "source_revision": "38129ed1692c879f153e4e269361727bd85854ac"
+ "source_revision": "866476a92b59631a320f9a11e8626f44a2213eba"
 }
