@@ -1165,6 +1165,11 @@
      "by": "GETAC",
      "at": "2026-11-08T20:08Z",
      "text": "Strong Test 814 (07bcf48b71) cold process, owner profile, USB charging, map visually ready 11.25\u201315.26 s. PSS 962.7 MiB at first usable screenshot, 1246.0 MiB after 2 min untouched (+283.3); 812 was 830.8 to 999.2 (+168.4), with later first"
+    },
+    {
+     "by": "CLOUD_PERF_AUDIT",
+     "at": "2026-11-08T20:50Z",
+     "text": "Cloud audit (2026-11-08): read of existing numbers, no new capture. Strong 811 samples (RAM.md) show file RSS flat near 600 MB and anonymous RSS 845 to 862 MB, so the idle growth is anonymous, not mapped tile pages; the SQLite shard stores "
     }
    ]
   },
@@ -1328,5 +1333,5 @@
    "notes": []
   }
  ],
- "source_revision": "94f5fa6335b8454c5b3fbea07dfe98eaa8f1d203"
+ "source_revision": "4bf56611ad793fc1c07ee158551195b384d93084"
 }
