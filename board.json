@@ -1729,6 +1729,11 @@
      "by": "GETAC",
      "at": "2026-11-09T09:00Z",
      "text": "GETAC Strong Android Dev 817 (2400e9b752): same-pose native pinch A/B, pages off/on max zoom-in presents 350/433 ms; valid second pages-on capture reproduced 366 ms. Frozen frame 1800: wall 420.148 ms; Render Planet 256.336, Patch Preparati"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T22:32Z",
+     "text": "Strong Android Dev 819 (6f45cbc6bc): native pinch reproduced SurfaceFlinger presentation gaps of 166.802 ms zoom-out and 299.974 ms zoom-in; first second after each gesture 166.562/133.102 ms. Half-resolution route reported render_scale_tar"
     }
    ]
   },
@@ -2882,11 +2887,6 @@
    "notes": [
     {
      "by": "CLAUDE_REVIEW",
-     "at": "2026-11-09T21:54Z",
-     "text": "c9e583a58a (cmp.sh NEW ERRORS: none, tests not run): Crypto_ServerAccess shares the deployed server and held packages with every authenticated peer of the recorded subnet heard over the tunnel (NetworkManager.SharesServersOnSubnet, same rul"
-    },
-    {
-     "by": "CLAUDE_REVIEW",
      "at": "2026-11-09T22:14Z",
      "text": "ca4fd66e45: server Admin list (quiz, 2026-11-10). Server keeps Admins by signing key in admins.txt, first Admin = pinned root or deployer; packet kind Admins (25) + AdminsCapability; DevMode / Server / Admins lists authenticated people with"
     },
@@ -2894,6 +2894,11 @@
      "by": "GETAC",
      "at": "2026-11-09T22:19Z",
      "text": "Source finding from Android 819 build 6f45cbc6bc: ServerAccessPackage.TryAdopt treats every offer with an already held server key as a duplicate, including a changed address. AsRecord also caches the address. When implementing server reloca"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T22:32Z",
+     "text": "Strong Android Dev 819 (6f45cbc6bc) reached the map on its existing profile. vpn.routing reports NoServer with zero candidates and zero presence; navigator.route.status reports server_configured=False and requests=0. Automatic routing disco"
     }
    ]
   },
@@ -3417,5 +3422,5 @@
    "notes": []
   }
  ],
- "source_revision": "49d19cf12e56bf0c2218993611fb4c4e53b56b7a"
+ "source_revision": "977a68815e44d7c1bf3ea5cadb8f0f052fe1bde3"
 }
