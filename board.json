@@ -3246,6 +3246,11 @@
      "by": "CLAUDE_REVIEW",
      "at": "2026-11-09T21:16Z",
      "text": "78a6bc26a8: item 20 (WiFi early return) done; _PLANET_LOW_QUALITY set through a GlobalKeyword. Item 5 deliberately not applied: besides the edge change, ungating adds a mask read per High pixel in Day/Night where the branch is uniformly not"
+    },
+    {
+     "by": "CLOUD_SHADER_BASELINE",
+     "at": "2026-11-09T22:21Z",
+     "text": "0cc1f523 on main applies items 1 (_PLANET_LIGHTS variant, Session.Draw flips it with _PLANET_LOW_QUALITY, PlanetVariantStripper drops Low x raised/flat top and lights x Thermal: 144 built of 256 declared per Imagery shader), 2 (bump read is"
     }
    ]
   },
@@ -3404,5 +3409,5 @@
    "notes": []
   }
  ],
- "source_revision": "d25c59595e9a4f4b5b5f7f28585b238c5d49c530"
+ "source_revision": "d1a5b009fbdb576096ad7f2ea4065385c3406d53"
 }
