@@ -1256,6 +1256,11 @@
      "by": "cloud",
      "at": "2026-11-08T20:40Z",
      "text": "Save slot fix pushed uncompiled (Situation_EnemyLogistics.TrySave gated on SyncActive; ShowRoutes setter no longer saves). Local worker: cmp.sh, then check Lags > Save Enemy Logistics stays near 0 with layer off, and that routes still save "
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-08T21:59Z",
+     "text": "Investigation CR-CE1B-01 (P2 persistence): S1 source trace and S2 brief complete. ce1b7e3d7 gates periodic TrySave on SyncActive, but the explicit Inspector Save still calls it; loaded dirty data is not written when layer/recording are off."
     }
    ]
   },
@@ -1373,7 +1378,15 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 74,
+   "name": "RAM level rose on both phones fr",
+   "done": "",
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
- "source_revision": "0839e83e4e5ae80f69ded62913b943e8ac08bb2c"
+ "source_revision": "3874e1e47ee60034fa5e0652112cd1c8c54f22d0"
 }
