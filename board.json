@@ -1655,7 +1655,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-09T07:30Z",
-     "noted": "",
+     "noted": "2026-11-09T07:30Z",
      "progress": 25,
      "ticked": 1,
      "total": 4
@@ -1681,11 +1681,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_FILECOUNT",
-     "at": "2026-11-09T06:52Z",
-     "text": "quiz chose: photos stay files. Drop photos from this task; give Street_Views, ChatPhotos, GeoTiffSources a retention cap only."
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-09T07:11Z",
      "text": "RecordVault helper landed with task 86 (e4f1927f2b, Systems/Record Vault/RecordVault.cs + SPEC): Put, PutIfNewer (import batches), TryRead(id,stamp,tag), ReadStamp, ReadCatalog, Delete, pooled readers, CloseReaders/TrimIdleReaders. Adapters"
@@ -1694,6 +1689,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T07:24Z",
      "text": "23b5149f83: OSM/Tiles is one tiles.sqlite (RecordVault, key grid x/y, payload = the old JSON envelope); legacy .json moved in on read + once per run by ImportLegacyTiles (read back before delete); power lines read rows + unmoved files. Tip:"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-09T07:30Z",
+     "text": "HEAVY is taking the Storage file-count line and switching the already-landed OSM/Tiles importer to shared RecordVault verification. LOCAL_MAC owns the remaining adapter work in progress. Windows OSM test exposed a pooled-reader race with te"
     }
    ]
   },
@@ -1842,5 +1842,5 @@
    ]
   }
  ],
- "source_revision": "add3d09371f43ed528ad21aa0f438a9b2d331b36"
+ "source_revision": "106b10405c3ce74e4d0e37db1d3d4ace3de159cb"
 }
