@@ -2131,11 +2131,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T10:52Z",
-     "text": "#1 landed too (8bc4d2665a, stores spell their folder once). cmp.sh at 8bc4d2665a: NEW ERRORS: none (a first run right after the pull reported 1 Editor-set error that a rerun on the same commit did not; treat as a stale-cache blip). Both sma"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-09T11:36Z",
      "text": "Main 27c49ac095 plus host harness fix compiled in Windows Unity and cmp.sh NEW ERRORS: none in e/a/p/m. No Workflow.Timeline or MapEditing name-resolution failure reproduced with Unity 6000.6.8f1 references. Device checks of the moved handl"
@@ -2144,6 +2139,11 @@
      "by": "REVIEW",
      "at": "2026-11-09T11:53Z",
      "text": "CC-8BC4-01 P3 performance/complexity: S1 investigation and S2 brief complete; folder classifier rebuilds constant slash prefixes per displayed-file classification; boundary-check sketch. Proposal awaits quiz before implementation; current c"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-09T12:21Z",
+     "text": "#4 second batch on main, uncompiled: logistics.* key dispatch (ui/import/events/stock-history) now Distribution.Manager.Debug.TryRun, one line in the sandbox; screen.share wish now ScreenSharingController.WishFromCommand. Finding: most of t"
     }
    ]
   },
@@ -2290,5 +2290,5 @@
    ]
   }
  ],
- "source_revision": "6873bc9073294773fafe772f70ce425f5df379c2"
+ "source_revision": "e2174f0ad0666016a9ac4374983ca5ff84b3f27d"
 }
