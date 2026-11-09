@@ -2454,11 +2454,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "cloud thread",
-     "at": "2026-11-09T15:50Z",
-     "text": "\"Valhalla: No server\" is not the server being down. It is this device holding no saved routing-server record (`RoutingServer.InUse()` returns only the record made by Deploy/\u041d\u0430\u044f\u0432\u043d\u0438\u0439 \u0441\u0435\u0440\u0432\u0435\u0440 on this device; `RoadRoutingCheck.TryServerAddress` "
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-09T14:06Z",
      "text": "CR-CB3B-01 P2: S1 investigation and S2 brief complete; explicit current GPS gaps match the legacy heuristic and become false connecting lines; preserve connection flags. Proposal awaits quiz before implementation; existing claims/completion"
@@ -2467,6 +2462,11 @@
      "by": "REVIEW",
      "at": "2026-11-09T14:06Z",
      "text": "CR-CCC0-01 P2: S1 investigation and S2 brief complete; screen-space t is used as world-space t for route insertion; perspective-correct fraction sketch. Proposal awaits quiz before implementation; existing claims/completions and handoffs re"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T17:14Z",
+     "text": "GETAC b1296a8fe0 gives Valhalla its own routing address and Check on the Routes page. Navigator and Check share it, and existing saved server addresses still work as the default. No VPN deployment or WireGuard rows on this page. Six URL and"
     }
    ]
   },
@@ -2775,7 +2775,57 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 149,
+   "name": "Server access package",
+   "done": "",
+   "held": [],
+   "steps": [
+    {
+     "t": "Package type and persistent list",
+     "x": false
+    },
+    {
+     "t": "InUse and CollectServers fall back to the package",
+     "x": false
+    },
+    {
+     "t": "Roslyn compile",
+     "x": false
+    },
+    {
+     "t": "Checks: no own record plus a held package gives that address",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 150,
+   "name": "Server access package",
+   "done": "",
+   "held": [],
+   "steps": [
+    {
+     "t": "Packet kind and handler on both sides",
+     "x": false
+    },
+    {
+     "t": "Subnet trust rule",
+     "x": false
+    },
+    {
+     "t": "Admin grants Deploy VPN",
+     "x": false
+    },
+    {
+     "t": "Two-device check",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
- "source_revision": "6c7f2936356ecf082c5b1fb57caf81efa62ccc1a"
+ "source_revision": "21c5054f1cc247f77da326d1bcb40ac65166f542"
 }
