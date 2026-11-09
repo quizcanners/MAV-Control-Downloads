@@ -3334,11 +3334,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "cloud-halfres",
-     "at": "2026-11-09T21:12Z",
-     "text": "quiz asks if the half-res switch hitches. It renders into a smaller texture via the URP render scale (no Screen.SetResolution). The hitch risk is URP resizing its 3D textures on each scale flip. Fix if measured: camera dynamic resolution (f"
-    },
-    {
      "by": "CLAUDE_REVIEW",
      "at": "2026-11-09T21:15Z",
      "text": "78a6bc26a8: IsMoving now covers the inertia glide, a follow riding a moving target, the follow flight and the azimuth reset; two resting fingers on the North-up centroid path no longer report zoom (FocusRevision, half resolution). Left: pos"
@@ -3347,9 +3342,14 @@
      "by": "CLAUDE_REVIEW",
      "at": "2026-11-09T21:29Z",
      "text": "39e134eaa9: on Metal, Vulkan and Direct3D 12 the half/full switch is hardware dynamic resolution (main camera allowDynamicResolution once, ScalableBufferManager.ResizeBuffers 0.5 or 1): targets are kept, nothing reallocated. OpenGL ES 3 and"
+    },
+    {
+     "by": "CLAUDE_REVIEW",
+     "at": "2026-11-09T21:31Z",
+     "text": "quiz, 2026-11-10: 'Keep GLES first'. Android stays on the re-create route because of the Strong Vulkan startup crash (KNOWN_ISSUES.md). The phone check here decides whether the switch cost is worth a Vulkan-first build with the Strong filte"
     }
    ]
   }
  ],
- "source_revision": "49ba1c23a275e9df5ad37315877346a5628e1bb7"
+ "source_revision": "0f04cce4dfff0719cc572ed05c6d48d5eb834323"
 }
