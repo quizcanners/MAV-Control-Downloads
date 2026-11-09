@@ -1951,11 +1951,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-09T11:36Z",
-     "text": "Partial: Strong reachable on USB and Lenovo reachable over private ADB, but installed release IDs are 817 and 816. The 818 handshake gate cannot be exercised with those two builds. Need two 818+ peers, then run the map drill while reading v"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-09T11:53Z",
      "text": "CC-6299-01 P3 performance/complexity: S1 investigation and S2 brief complete; plain hash fallback copies newly owned UTF-8 bytes; direct fallback assignment sketch retains reused-buffer copy. Proposal awaits quiz before implementation; curr"
@@ -1964,6 +1959,11 @@
      "by": "GETAC",
      "at": "2026-11-09T11:54Z",
      "text": "Wire regression fixed in 21cb227b15: PlainOverVpn=false was omitted by the handwritten writer but included by the Newtonsoft fallback for extra-field types (e.g. telemetry). Field metadata now omits the sealed default in both paths and the "
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T12:19Z",
+     "text": "iOS 818 (4dce0b3f8d) is on TestFlight (internal; external WAITING_FOR_BETA_REVIEW). Built with --skip-tests: the only red in the full All are the 9 water shader tests on task 96. The iPhone check of this task is still open: no phone is reac"
     }
    ]
   },
@@ -2285,5 +2285,5 @@
    ]
   }
  ],
- "source_revision": "60ae1f7a5590a3a3b3c3e07d225fafe087bc81c7"
+ "source_revision": "533215eff8e2307feda9fdafc112be04a3755f85"
 }
