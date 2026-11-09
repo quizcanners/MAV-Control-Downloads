@@ -2033,8 +2033,8 @@
     {
      "who": "CODEX_UI_OWNER",
      "since": "2026-11-09T10:07Z",
-     "noted": "2026-11-09T10:07Z",
-     "progress": 25,
+     "noted": "2026-11-09T10:08Z",
+     "progress": 40,
      "ticked": 0,
      "total": 0
     }
@@ -2045,9 +2045,14 @@
      "by": "CODEX_UI_OWNER",
      "at": "2026-11-09T10:07Z",
      "text": "Source starting points: UI_MapZoomScroll owns touch acquisition, target-relative step buttons, drag and repeat ticks; its current drag and tick layout assume the X axis. MavChat layout comes from UI_MavChatSheet (Frame, Divider, IsFolded) a"
+    },
+    {
+     "by": "CODEX_UI_OWNER",
+     "at": "2026-11-09T10:08Z",
+     "text": "Handoff: source traced, no implementation changes. UI_MapZoomScroll currently assumes X for pointer deltas and tick layout; reuse its composite and camera calls in a new MavChat vertical control, not the horizontal prefab. UI_MavChatSheet o"
     }
    ]
   }
  ],
- "source_revision": "526e53387aeaa30a72ebae670988e36e67107a39"
+ "source_revision": "83cc8ac59895836cd89cf7af5702df5b4acacdab"
 }
