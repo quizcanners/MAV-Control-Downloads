@@ -1454,7 +1454,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_REVIEW",
+     "at": "2026-11-09T20:48Z",
+     "text": "Source review (plausible for the level, not the idle growth): WebMercator_SqliteTileStore.cs:413-421 sets mmap_size=256 MiB on each of 8 readers, main plus up to 4 attached segments, on Android; touched file-backed pages count in PSS. The n"
+    }
+   ]
   },
   {
    "n": 75,
@@ -3314,5 +3320,5 @@
    ]
   }
  ],
- "source_revision": "0b6704a9ded04446aa992be3b35914e071d1f7c6"
+ "source_revision": "905fb8c8e8b41c73757e3ab754d63eda4bf5e51c"
 }
