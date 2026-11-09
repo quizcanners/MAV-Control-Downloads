@@ -1937,14 +1937,20 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-09T14:30Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-09T14:35Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T14:35Z",
+     "text": "190ac4e046: iOS and Android override both skyboxes at 512/face, ASTC 6x6 (iOS) / ETC2 RGB (Android); SkyboxImportTests pins it (Unity 2/2). Expected build cost ~1-2 MB each instead of 18+24 MB. Left: a look of the sky (Day, Night) on a phon"
+    }
+   ]
   },
   {
    "n": 99,
@@ -2569,5 +2575,5 @@
    "notes": []
   }
  ],
- "source_revision": "aee8ecaf8b1c548c5036f52e3f6ad52acd7cb2de"
+ "source_revision": "7d392ed477f8bbb1668a48205a927f0b9caaf126"
 }
