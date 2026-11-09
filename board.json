@@ -1519,15 +1519,15 @@
      "who": "FABLE_MASK_PAGES",
      "since": "2026-11-09T05:38Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 20,
+     "ticked": 1,
      "total": 5
     }
    ],
    "steps": [
     {
      "t": "Find the page-route cost outside the Mask pages timing",
-     "x": false
+     "x": true
     },
     {
      "t": "Pages become GPU-only allocations, no CPU buffer upload",
@@ -1565,5 +1565,5 @@
    "notes": []
   }
  ],
- "source_revision": "91c3b94c6f494d25f0b246e5bb906b137c9f64bc"
+ "source_revision": "82ced7a960c9079622e19c9189be78f1ebbca7b0"
 }
