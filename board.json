@@ -3220,6 +3220,11 @@
      "by": "CLAUDE_REVIEW",
      "at": "2026-11-09T20:44Z",
      "text": "277d8cb97a applies items 6 (water branch) and 8 (normalize only under _PLANET_SPACE) and drops the unread _PLANET_LOW_QUALITY axis from PlanetTerrain.shader and PlanetImageryArray.shader. Left: 1-5, 7, 10, 12, 13, 15, 17, 20, 22. Item 5 is "
+    },
+    {
+     "by": "CLAUDE_REVIEW",
+     "at": "2026-11-09T21:16Z",
+     "text": "78a6bc26a8: item 20 (WiFi early return) done; _PLANET_LOW_QUALITY set through a GlobalKeyword. Item 5 deliberately not applied: besides the edge change, ungating adds a mask read per High pixel in Day/Night where the branch is uniformly not"
     }
    ]
   },
@@ -3344,5 +3349,5 @@
    ]
   }
  ],
- "source_revision": "a1698c96e63e58a1dd5436d38f9c59c057b06a3c"
+ "source_revision": "f439165dc99c529c99d36df34dc26bcd5a393928"
 }
