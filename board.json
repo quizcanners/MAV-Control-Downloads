@@ -2071,11 +2071,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-09T10:00Z",
-     "text": "Investigation CR-6655-01: P2 overlay investigation extends the existing fringe side effect: the supported 50% opacity makes entire painted roofs order-dependent with ZWrite On and arbitrary-order instancing. S1 uniform writer and blend/dept"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-09T11:42Z",
      "text": "cmp.sh NEW ERRORS: none; Windows Unity imported PlanetImagery.shader. Dev 817 oblique High/Low views are available as older-device references. The Android APK did not contain the raised overlay depth-order change, and no current-build obliq"
@@ -2084,6 +2079,11 @@
      "by": "GETAC",
      "at": "2026-11-09T11:54Z",
      "text": "Windows Unity 6000.6.8f1 isolated raised-overlay fixtures passed 3/3: depth-writing material variant, raised instanced batching, and page-material queue/identity. Getac receipt planet-raised.xml. Current APK oblique Android view remains ope"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T14:29Z",
+     "text": "Mac batch Unity with graphics at 820c10f770: PlanetSurfaceShaderRenderTests + PlanetElementLightingShaderRenderTests + PlanetDrawPatchReuseTests 104/104 (includes the raised-overlay render-state test and RaisedTilesStayInstancedLikeOpaqueGr"
     }
    ]
   },
@@ -2560,5 +2560,5 @@
    "notes": []
   }
  ],
- "source_revision": "820c10f770b159d5b4d2ed3fac24e32e3b24a18e"
+ "source_revision": "1a80aebe7a874240984043804ec0e3bc17e72094"
 }
