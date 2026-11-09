@@ -2075,11 +2075,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T10:45Z",
-     "text": "9e5e0a10d3: #5 done (Logistics debug report: Manager/NeedsInspector/Printer.AppendReport, Debug.Inspector joins; compiled). #1 is not a small move: the folder names are spelled in several owner files each ('Logistics' in 4, 'PlanetMasks' 3,"
-    },
-    {
      "by": "CLOUD_THREAD",
      "at": "2026-11-09T10:48Z",
      "text": "quiz picked 1, 3, 4, 5 (2026-11-09). Done on main, uncompiled: #5 Logistics Debug report now joins NeedsInspector.AppendReport/AppendDraftReport and Printer.AppendStateReport/AppendDetailsReport; #1 Storage page classifier reads each store'"
@@ -2088,6 +2083,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T10:48Z",
      "text": "Correction to my previous note: #5 was done by 9e5e0a10d3 (another agent, view and printer append their parts), not by LOCAL_MAC; my duplicate was dropped. It compiles: cmp.sh at 8bc4d2665a NEW ERRORS: none. The #1 assessment in that note s"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T10:52Z",
+     "text": "#1 landed too (8bc4d2665a, stores spell their folder once). cmp.sh at 8bc4d2665a: NEW ERRORS: none (a first run right after the pull reported 1 Editor-set error that a rerun on the same commit did not; treat as a stale-cache blip). Both sma"
     }
    ]
   },
@@ -2124,5 +2124,5 @@
    "notes": []
   }
  ],
- "source_revision": "55c943752fae28ec5c1036e2742088dd44583c31"
+ "source_revision": "b2e8428f217e52f0e7c8ff7e35d5c4a41f2a0493"
 }
