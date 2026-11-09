@@ -261,11 +261,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-08T15:14Z",
-     "text": "GETAC Lenovo 810 to 811 in-app MAVSEAL1 PASS. 810 and 811 are published to GitHub Test. Cut Wi-Fi after the first download showed 5% (17.5/312.3 MiB); first update screen showed HTTP 200: Failed to receive data and Download again. Wi-Fi res"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-08T17:10Z",
      "text": "GETAC 812 run: Lenovo entered this session on signed 811 after the prior verified 810-to-811 seal-1 test. Exact 810-to-812 and network-cut retry therefore need a disposable 810 source or another 810 device. Existing Lenovo data was preserve"
     },
@@ -273,6 +268,11 @@
      "by": "GETAC",
      "at": "2026-11-08T17:53Z",
      "text": "812 installed via USB on Lenovo after the exact-source EditMode All hit 900 s without a result. APK hash matched and Lenovo reached the map. Test publication and 810-to-812 in-app network-cut retry remain open. The earlier 810-to-811 manual"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T04:57Z",
+     "text": "Lenovo 814 to signed 816 in-place upgrade: Android rejected INSTALL_FAILED_INSUFFICIENT_STORAGE with 869 MB free. App Updates retained 982,529,318 bytes for the same 811 download: raw APK, .previous backup, and sealed copy. I archived each "
     }
    ]
   },
@@ -1463,5 +1463,5 @@
    "notes": []
   }
  ],
- "source_revision": "cfea9f51e74538dc7d6f1b5cb1c29158078ffb9a"
+ "source_revision": "31f745d3bb446359122a439e3c49ac31dcd94b10"
 }
