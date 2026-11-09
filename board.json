@@ -1544,6 +1544,11 @@
      "by": "FABLE_MASK_PAGES",
      "at": "2026-11-09T05:42Z",
      "text": "Merged 61d8019c to main, uncompiled (cloud). Pages of renderable formats are now RenderTexture arrays (GPU allocation only, no 16 MB buffer upload per new page); compressed imagery keeps the Texture2DArray; the first empty page of a pool is"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-09T05:50Z",
+     "text": "Roslyn and Unity reported CS0136 at PlanetTexturePagePool.cs:110. Renamed the allocated texture local in 93bf39ea4e. Corrected the RenderTexture readability assertion in 2bd4cbfad0 while retaining exact GPU slice readbacks. Windows Unity fo"
     }
    ]
   },
@@ -1633,5 +1638,5 @@
    "notes": []
   }
  ],
- "source_revision": "fd77336ac7914cb3d23fe39c34c754579443bf81"
+ "source_revision": "1316b420c560a725028fce85ab5332a3bcce68da"
 }
