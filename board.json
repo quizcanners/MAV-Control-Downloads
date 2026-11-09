@@ -1651,7 +1651,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-09T07:17Z",
-     "noted": "",
+     "noted": "2026-11-09T07:24Z",
      "progress": 25,
      "ticked": 1,
      "total": 4
@@ -1685,6 +1685,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T07:11Z",
      "text": "RecordVault helper landed with task 86 (e4f1927f2b, Systems/Record Vault/RecordVault.cs + SPEC): Put, PutIfNewer (import batches), TryRead(id,stamp,tag), ReadStamp, ReadCatalog, Delete, pooled readers, CloseReaders/TrimIdleReaders. Adapters"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T07:24Z",
+     "text": "23b5149f83: OSM/Tiles is one tiles.sqlite (RecordVault, key grid x/y, payload = the old JSON envelope); legacy .json moved in on read + once per run by ImportLegacyTiles (read back before delete); power lines read rows + unmoved files. Tip:"
     }
    ]
   },
@@ -1833,5 +1838,5 @@
    ]
   }
  ],
- "source_revision": "f19f1925552f4d61a7482a27e6b5cddd2eed0bc5"
+ "source_revision": "d2e71dd23907457e33e3850ec0ba33b8d283bbd4"
 }
