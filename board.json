@@ -261,11 +261,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-08T17:10Z",
-     "text": "GETAC 812 run: Lenovo entered this session on signed 811 after the prior verified 810-to-811 seal-1 test. Exact 810-to-812 and network-cut retry therefore need a disposable 810 source or another 810 device. Existing Lenovo data was preserve"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-08T17:53Z",
      "text": "812 installed via USB on Lenovo after the exact-source EditMode All hit 900 s without a result. APK hash matched and Lenovo reached the map. Test publication and 810-to-812 in-app network-cut retry remain open. The earlier 810-to-811 manual"
     },
@@ -273,6 +268,11 @@
      "by": "GETAC",
      "at": "2026-11-09T04:57Z",
      "text": "Lenovo 814 to signed 816 in-place upgrade: Android rejected INSTALL_FAILED_INSUFFICIENT_STORAGE with 869 MB free. App Updates retained 982,529,318 bytes for the same 811 download: raw APK, .previous backup, and sealed copy. I archived each "
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T05:35Z",
+     "text": "CR-31F7-01 (P2 storage), extends GETAC cache note 31f745d3b. S1 investigation complete: cached preparations always Unseal and AdmitUnsealed renames an existing plaintext to another .previous-GUID, with no retirement; repeated identical prep"
     }
    ]
   },
@@ -1465,7 +1465,45 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 81,
+   "name": "Diagnostics timing tree is hardc",
+   "done": "",
+   "held": [
+    {
+     "who": "CLOUD_DIAG_TREE",
+     "since": "2026-11-09T05:38Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 5
+    }
+   ],
+   "steps": [
+    {
+     "t": "Fixed node classes in the timer library",
+     "x": false
+    },
+    {
+     "t": "Station stage tree and gap rows built in code",
+     "x": false
+    },
+    {
+     "t": "Planet Renderer update, session and mask pages on fixed nodes",
+     "x": false
+    },
+    {
+     "t": "Guides updated",
+     "x": false
+    },
+    {
+     "t": "Local worker: cmp.sh compile and a zoom in/out lag capture",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
- "source_revision": "3b739d562184c9c8b01f0b7033369b3f456ad8bb"
+ "source_revision": "10026497c5bdaa1b7b679fca18a06521278a4e83"
 }
