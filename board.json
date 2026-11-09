@@ -2795,7 +2795,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-09T17:16Z",
-     "noted": "",
+     "noted": "2026-11-09T17:20Z",
      "progress": 0,
      "ticked": 0,
      "total": 4
@@ -2819,7 +2819,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T17:20Z",
+     "text": "d455f2088f: ServerAccessPackage + Persistent.ServerPackages (TryAdopt dedupes by key); InUse()/CollectServers fall back to the first package; root sign key only for the own record. cmp.sh NEW ERRORS none; ServerAccessPackageTests + DirectRo"
+    }
+   ]
   },
   {
    "n": 150,
@@ -2855,5 +2861,5 @@
    "notes": []
   }
  ],
- "source_revision": "3a64c3b03eea726bd10b5b1126e621f64f9cae14"
+ "source_revision": "28ecd8798155d994d655d4c1929b84abcf735b08"
 }
