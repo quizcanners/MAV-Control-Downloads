@@ -1384,9 +1384,34 @@
    "name": "RAM level rose on both phones fr",
    "done": "",
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Install 812 (7990df8019) and 814 (07bcf48b71) on Strong and read PSS at the same",
+     "x": false
+    },
+    {
+     "t": "Repeat on Lenovo, off the first cold launch after upgrade",
+     "x": false
+    },
+    {
+     "t": "List commits between 812 and 814 touching textures, caches, buffers or modules l",
+     "x": false
+    },
+    {
+     "t": "Install the half-way build, read PSS, narrow to one commit",
+     "x": false
+    },
+    {
+     "t": "Name the owner holding the extra MiB and fix or free it when Activity is Idle",
+     "x": false
+    },
+    {
+     "t": "Add the new rows to Phone_Timings.md",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
- "source_revision": "3874e1e47ee60034fa5e0652112cd1c8c54f22d0"
+ "source_revision": "b286015ac584065d73b35ba468809ca930551868"
 }
