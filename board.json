@@ -1519,6 +1519,11 @@
      "by": "CLOUD_DIAG_TREE",
      "at": "2026-11-09T05:49Z",
      "text": "Merged to main 18f711ba, pushed uncompiled (cloud). What is left is the local step: (1) pull, bash Tools/RoslynCompileDiff/cmp.sh must end NEW ERRORS: none (touched: Quiz-cAnners/Utils/quizcanners_Utils_Debug_FixedNodes.cs new, quizcanners_"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-09T05:56Z",
+     "text": "Android and Windows Unity caught CS0133 in StartupPhaseRowBase (fixed f958471ed9) and CS1501 in the camera timing test fixture (fixed 237737d794). Follow-up 47262d352f verifies the humanized camera row and a deterministic 12 ms wall-clock s"
     }
    ]
   },
@@ -1669,5 +1674,5 @@
    "notes": []
   }
  ],
- "source_revision": "6614815eb0819fcc2bf1adf30c53afe441bf9cc4"
+ "source_revision": "98cdb389ba6811108f2b533c89d5c0fa7b14b46b"
 }
