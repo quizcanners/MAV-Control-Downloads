@@ -2963,11 +2963,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-09T18:15Z",
-     "text": "CC-FC71-01 P3 complexity investigation: S1 investigation complete, then S2 brief/suggestion/current and proposed snippets: the FIFO List copies its remaining ray backlog each batch. Proposal awaits quiz before implementation; retain existin"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-09T18:16Z",
      "text": "d75bbd072e: Mac batch Unity, batched raycasts compiled (cmp.sh NEW ERRORS none). Waypoint/Polyline/Photo/StreetView/Trench/Gizmo/Convergence/ground tests 519/520 pass, 0 fail; the 8 reds were stale tests (traversal _deadline -> TimedSlice, "
@@ -2976,6 +2971,11 @@
      "by": "HEAVY",
      "at": "2026-11-09T19:22Z",
      "text": "Windows native Play profile: isolated 90-frame workload submitted 128 requests per frame, cancelled 32 before schedule, and observed 96 live rays per flight, 8,544 hits, zero misses or pending. Retained export shows one BatchQuery.ResultsJo"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T19:41Z",
+     "text": "REVIEW-397 cancellation repair reconciliation: CR-FC71-01 is source-repaired by c6f4c63fe (schedule the written prefix); HEAVY records a separate native cancellation workload. CR-FC71-02 moved-waypoint input lifetime and CC-FC71-01 FIFO tai"
     }
    ]
   },
@@ -2989,17 +2989,17 @@
     {
      "by": "REVIEW",
      "at": "2026-11-09T18:15Z",
-     "text": "CR-FCAF-02 P2: S1 investigation complete, then S2 brief/suggestion/current and proposed snippets: split terrain sample passes repeatedly request already-completed rays. Proposal awaits quiz before implementation; retain existing claims, com"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-09T18:15Z",
      "text": "CR-FCAF-03 P2: S1 investigation complete, then S2 brief/suggestion/current and proposed snippets: partial trench chord results overwrite an endpoint still needed next frame. Proposal awaits quiz before implementation; retain existing claims"
     },
     {
      "by": "HEAVY",
      "at": "2026-11-09T19:23Z",
      "text": "Windows PolylineTraversalProgressTests and DeepStateGeoJsonReaderTests passed. DeepState alignment fixture now supplies its offline map loader and retains the bounded-window assertions. Native batch evidence and the device follow-up are on "
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T19:41Z",
+     "text": "REVIEW-397 async repair reconciliation: c33ca4643 source-repairs CR-FCAF-01/02/03 (acknowledge the photo input version, retain settled sample results, separate trench endpoints from residuals) and the empty DeepState line index. Source/stat"
     }
    ]
   },
@@ -3047,6 +3047,11 @@
      "by": "HEAVY",
      "at": "2026-11-09T19:18Z",
      "text": "Windows Unity EditMode passed the requested GeometryConvergence, GeometryIncomingAuthority, GeometryOutgoingOwnership, VpnReceiveBudget and WorkerDecrypt fixtures. Added and passed a mismatched-version check at the real send queue and recei"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T19:41Z",
+     "text": "CR-0B9C-01 P2: S1 investigation complete, then S2 brief/current and proposed snippets: saved app builds can pass the geometry gate before a current passport because a new peer defaults its geometry version to ours. Suggest the existing unkn"
     }
    ]
   },
@@ -3172,7 +3177,15 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 176,
+   "name": "MavChat floating panel",
+   "done": "",
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
- "source_revision": "40334beb830e8e287bbb33fa99ec9173509add1e"
+ "source_revision": "ea9042cf7f13500ce32ce3ed032afee570d69a35"
 }
