@@ -129,11 +129,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-08T20:20Z",
-     "text": "Lenovo in-place upgrade to signed 814 (same APK as Strong) and rerun of the same six native gestures, though starting poses differed. 814 zoom-in peak 216.5 ms; zoom-out gaps beginning after touch-down peaked at 100.0 ms. The last out had a"
-    },
-    {
      "by": "MAC_PINCH",
      "at": "2026-11-08T20:54Z",
      "text": "Done: 47db50cde8 replaces unlocked, uncentered two-finger root/residual fitting with one absolute distance, yaw and captured-midpoint placement; original ECEF targets survive close zoom, invalid samples and reversal. Centered bypass and Nor"
@@ -142,6 +137,11 @@
      "by": "codex-situation-cells",
      "at": "2026-11-09T04:19Z",
      "text": "Done: shader cleanup 833ff7a9e2, hybrid grouped ECS 69133ed01e, Metal warm-up guard aab4cb525e and centred far cells 503e60dbaa are on origin/main; no unpublished changes belong to this thread."
+    },
+    {
+     "by": "MAC_PINCH",
+     "at": "2026-11-09T04:20Z",
+     "text": "Finalization 2026-11-09: stopped taking work; 47db50cde8 (analytical two-finger distance/yaw/midpoint) is confirmed in current origin/main, with no unpublished commits or tracked local edits from this chat."
     }
    ]
   },
@@ -1468,5 +1468,5 @@
    "notes": []
   }
  ],
- "source_revision": "4be844c03bb61b3e4b7c535f35dcfa986ce4d3f5"
+ "source_revision": "d75afc842989d156bfe6cc775a343e7a9be07abb"
 }
