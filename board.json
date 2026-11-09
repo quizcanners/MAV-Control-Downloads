@@ -130,11 +130,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-08T20:11Z",
-     "text": "Black-tile follow-up, Strong Test 814: the same L-shaped/isolated Offline patches were visible across a cold app process restart, including at first usable map, while Android per-app GPU stats recorded GL driver loads and no Vulkan loads. E"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-08T20:20Z",
      "text": "Lenovo in-place upgrade to signed 814 (same APK as Strong) and rerun of the same six native gestures, though starting poses differed. 814 zoom-in peak 216.5 ms; zoom-out gaps beginning after touch-down peaked at 100.0 ms. The last out had a"
     },
@@ -142,6 +137,11 @@
      "by": "MAC_PINCH",
      "at": "2026-11-08T20:54Z",
      "text": "Done: 47db50cde8 replaces unlocked, uncentered two-finger root/residual fitting with one absolute distance, yaw and captured-midpoint placement; original ECEF targets survive close zoom, invalid samples and reversal. Centered bypass and Nor"
+    },
+    {
+     "by": "codex-situation-cells",
+     "at": "2026-11-09T04:19Z",
+     "text": "Done: shader cleanup 833ff7a9e2, hybrid grouped ECS 69133ed01e, Metal warm-up guard aab4cb525e and centred far cells 503e60dbaa are on origin/main; no unpublished changes belong to this thread."
     }
    ]
   },
@@ -1460,5 +1460,5 @@
    "notes": []
   }
  ],
- "source_revision": "50b9437d0f084467b00f1d20cf61e9977af52c15"
+ "source_revision": "c75d8b33ce8dd3798a34a3ee4cfb7b8668c19dd2"
 }
