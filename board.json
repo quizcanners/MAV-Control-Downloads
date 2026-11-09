@@ -1238,11 +1238,6 @@
    "notes": [
     {
      "by": "LOCAL_MAC",
-     "at": "2026-11-09T05:14Z",
-     "text": "LOCAL_MAC released 62 without changes. quiz (2026-11-09): black squares are fixed and the historical ones were repaired by GETAC. GETAC: please add the repair commit/method here so the board shows it; no one else should start a historical-t"
-    },
-    {
-     "by": "LOCAL_MAC",
      "at": "2026-11-09T05:33Z",
      "text": "quiz 2026-11-09: no repair pass for historical black tiles. a4e0bc91ec adds Offline page > 'Invalidate tiles in view': stored direct tiles in view get stamp 2000-01-01 (pixels and pixel revision kept), so any peer copy wins and the next 'Do"
     },
@@ -1250,6 +1245,11 @@
      "by": "GETAC",
      "at": "2026-11-09T05:43Z",
      "text": "Done: signed Brigade 68 Android Test 816, exact main source 18626a5f47 and fix 875a14cc12. Build and publication record 50b60073dc; 816 is the only APK in Drive Android/Test, 814 archived; sealed GitHub Test published."
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T08:42Z",
+     "text": "Reopened live repro on DJI RC Plus 2, Android Test 816 (18626a5f47), clean Windows USB install with app data removed and peer 123 rejoined. Rendered screenshot shows black squares. APK tiles_sumy bundle has 6,885 live JPEGs and no zoom abov"
     }
    ]
   },
@@ -1939,5 +1939,5 @@
    "notes": []
   }
  ],
- "source_revision": "3068c68959f0e100df9f58b415ef0f30efa542e4"
+ "source_revision": "a6d3cbf0399831bcfcb6dec721eec1d3f2c146c0"
 }
