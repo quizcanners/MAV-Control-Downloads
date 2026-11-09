@@ -3244,14 +3244,20 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-09T21:00Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-09T21:18Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T21:18Z",
+     "text": "7aae981386, Mac full EditMode (8801 tests): 39 red -> 2. Fixed: 28 SetUp crashes (cc080686ff Georeference.changed += without null check; fixtures have no georeference), 9 stale tests (Timeline main workflow, UnoptimizedProcess x5, sharp Mav"
+    }
+   ]
   },
   {
    "n": 175,
@@ -3349,5 +3355,5 @@
    ]
   }
  ],
- "source_revision": "f439165dc99c529c99d36df34dc26bcd5a393928"
+ "source_revision": "149a43cd97c812f79df4b85cf19ca015394cbaa6"
 }
