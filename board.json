@@ -1503,7 +1503,45 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 82,
+   "name": "Planet Renderer",
+   "done": "",
+   "held": [
+    {
+     "who": "FABLE_MASK_PAGES",
+     "since": "2026-11-09T05:38Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 5
+    }
+   ],
+   "steps": [
+    {
+     "t": "Find the page-route cost outside the Mask pages timing",
+     "x": false
+    },
+    {
+     "t": "Pages become GPU-only allocations, no CPU buffer upload",
+     "x": false
+    },
+    {
+     "t": "Empty page kept as a spare instead of destroyed and recreated",
+     "x": false
+    },
+    {
+     "t": "Spec and area guide updated",
+     "x": false
+    },
+    {
+     "t": "Local: cmp.sh and a phone zoom in/out with pages on",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
- "source_revision": "10026497c5bdaa1b7b679fca18a06521278a4e83"
+ "source_revision": "48eb859d5d467693d48423b6894c0f2b50cd5c0e"
 }
