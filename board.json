@@ -907,11 +907,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-09T05:50Z",
-     "text": "Windows Unity compiled f2be9d28 and WebMercatorFinestTilesTests passed in the 522/0/0 batch. Phone Child traversal time and entry count still pending against 2.45 ms and 2,304."
-    },
-    {
      "by": "CLOUD_WM_TRAVERSAL",
      "at": "2026-11-09T07:52Z",
      "text": "Discovery walk (cloud, read only): no unbounded per-step scan found beyond the child-traversal ones already fixed. Candidate for a device trace: TrySpawnDrill repeats a fruitless search over all waiting drills' frames every frame while budg"
@@ -920,6 +915,11 @@
      "by": "CLOUD_WM_TRAVERSAL",
      "at": "2026-11-09T08:27Z",
      "text": "Per-pass stamp landed (uncompiled): branch.PassStamp set in ReturnFrame (zoom<=15), skipped in StepDrill/child loop/AskChildrenAhead/TrySpawnDrill via drill.PassId. Per-peer plugs still written for root PeerHasNewer status + diagnostics; fo"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T08:44Z",
+     "text": "9274a96260: Assets/_PROJECT/Systems/Data Sync/Convergence_Sync.md is the general guide to sync work discovery (single check per pass, per-peer early break, root restart at 1 km, new-pass triggers), Web Mercator as reference. Open follow-up "
     }
    ]
   },
@@ -1939,5 +1939,5 @@
    "notes": []
   }
  ],
- "source_revision": "a6d3cbf0399831bcfcb6dec721eec1d3f2c146c0"
+ "source_revision": "4227a55178e543e4ecd942518e28ed926ab20774"
 }
