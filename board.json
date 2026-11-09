@@ -1675,11 +1675,6 @@
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T07:33Z",
-     "text": "LOCAL_MAC handoff on 87. Done: RecordVault (e4f1927f2b), OSM/Tiles (23b5149f83), OSM/OceanSource (b92808829c). Left in step 2: Situation/Trails (append-only per-guid spill; a whole-row rewrite per spill grows O(n^2) - give the vault a (guid"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-09T07:37Z",
      "text": "Windows slice landed: Storage root shows a total-file-count line and a green tick on complete scans under 100. OSM/Tiles now uses RecordVault.ImportLegacyBatch for on-read and bulk imports, with coordinated readers/writers and verified unli"
@@ -1688,6 +1683,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T07:56Z",
      "text": "d288afc5b6: Situation/Trails is one trails.sqlite (row per spill batch, key guid-hash+batch, legacy .trail moved in on use + one sweep per run); RecordVault gained ReadRangeCatalog/ReadRange/ReplaceRange. Left in step 2: VPNChat/Icons, WayP"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T08:03Z",
+     "text": "WayPoints need no adapter: groups already save to one <checkpoint>.waypoints.mcs (+.previous); the WayPoints folder is a fixed legacy import (FindAllWaypointGroups) that never grows. Chat icons: VPNChat/Icons/<hash>.png.mcs files are never "
     }
    ]
   },
@@ -1889,5 +1889,5 @@
    "notes": []
   }
  ],
- "source_revision": "4b265e3352621e31230fa480d17ab097dd39c652"
+ "source_revision": "2400e9b752a2d5255ccf71e4182b11d183ecd16f"
 }
