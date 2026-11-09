@@ -2511,11 +2511,6 @@
    "notes": [
     {
      "by": "REVIEW",
-     "at": "2026-11-09T14:06Z",
-     "text": "CR-850B-01 P2: S1 investigation and S2 brief complete; tracker resets after threshold crossing and can lose a short flick\u2019s only timed movement; capture the owning press/release. Proposal awaits quiz before implementation; existing claims/c"
-    },
-    {
-     "by": "REVIEW",
      "at": "2026-11-09T15:28Z",
      "text": "REVIEW-394 scope reconciliation for CR-850B-01: 83c5e15a3 disables pager swipes inside the MavChat sheet in favor of capsule Back. The existing short-flick investigation/S2 brief still applies to Pilot and any swipe-enabled pager callers; t"
     },
@@ -2523,6 +2518,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T16:41Z",
      "text": "Mac batch Unity at f0b03d895d: SwipeIntentTests + OrientationLandscapeViewsTests 7/7 passed; Editor step done, phone feel left."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T18:15Z",
+     "text": "REVIEW-395 scope reconciliation for CR-850B-01 P2 existing finding scope extension: S1 investigation complete, then S2 brief/suggestion/current and proposed snippets: notification cards reuse the threshold-reset short-flick defect. Proposal"
     }
    ]
   },
@@ -2681,6 +2681,11 @@
      "by": "cloud-downloads",
      "at": "2026-11-09T15:37Z",
      "text": "Script done: Build-Linux-Nightly.ps1 now calls publish.py (linux-x64, Test channel, Division_Brigade_68) after packaging. Left: the Windows Editor PC runs one Linux build so the Servers page Linux row fills; check the publish line in its lo"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T18:15Z",
+     "text": "CR-4066-01 P2: S1 investigation complete, then S2 brief/suggestion/current and proposed snippets: Linux tar publication is rejected by the packaged-bootstrap verifier. Proposal awaits quiz before implementation; retain existing claims, comp"
     }
    ]
   },
@@ -2933,8 +2938,8 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-09T18:11Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-09T18:16Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -2942,9 +2947,19 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLOUD_BATCHED_RAYCASTS",
-     "at": "2026-11-09T17:53Z",
-     "text": "Also check in Editor: tests with a Physics ground need BatchedRaycasts collected and shot between frames; if a test world hangs on Pending, call BatchedRaycasts.ShootQueued then CollectFinished in its Sweep."
+     "by": "REVIEW",
+     "at": "2026-11-09T18:15Z",
+     "text": "CR-FC71-02 P2: S1 investigation complete, then S2 brief/suggestion/current and proposed snippets: a moved waypoint can take its old location\u2019s height. Proposal awaits quiz before implementation; retain existing claims, completions and nativ"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T18:15Z",
+     "text": "CC-FC71-01 P3 complexity investigation: S1 investigation complete, then S2 brief/suggestion/current and proposed snippets: the FIFO List copies its remaining ray backlog each batch. Proposal awaits quiz before implementation; retain existin"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T18:16Z",
+     "text": "d75bbd072e: Mac batch Unity, batched raycasts compiled (cmp.sh NEW ERRORS none). Waypoint/Polyline/Photo/StreetView/Trench/Gizmo/Convergence/ground tests 519/520 pass, 0 fail; the 8 reds were stale tests (traversal _deadline -> TimedSlice, "
     }
    ]
   },
@@ -2956,9 +2971,19 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLOUD_BATCHED_RAYCASTS",
-     "at": "2026-11-09T17:53Z",
-     "text": "Moved 2026-11-09 (commit on main): all callers except camera lerp, view ground clearance and the sync ground reads; list and reasons in Coordination/Refactoring/batched-raycasts.md. Editor must also run PolylineTraversalProgressTests (trenc"
+     "by": "REVIEW",
+     "at": "2026-11-09T18:15Z",
+     "text": "CR-FCAF-01 P2: S1 investigation complete, then S2 brief/suggestion/current and proposed snippets: dirty photo versions cancel every asynchronous ground answer. Proposal awaits quiz before implementation; retain existing claims, completions "
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T18:15Z",
+     "text": "CR-FCAF-02 P2: S1 investigation complete, then S2 brief/suggestion/current and proposed snippets: split terrain sample passes repeatedly request already-completed rays. Proposal awaits quiz before implementation; retain existing claims, com"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T18:15Z",
+     "text": "CR-FCAF-03 P2: S1 investigation complete, then S2 brief/suggestion/current and proposed snippets: partial trench chord results overwrite an endpoint still needed next frame. Proposal awaits quiz before implementation; retain existing claims"
     }
    ]
   },
@@ -2971,5 +2996,5 @@
    "notes": []
   }
  ],
- "source_revision": "fd5420c2bd25899a745c93b514433557976d6e3a"
+ "source_revision": "664e1a3ccb7b18167d59190fa124d570d9648820"
 }
