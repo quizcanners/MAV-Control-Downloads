@@ -1567,11 +1567,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-09T06:49Z",
-     "text": "Quiz selected a Getac phone for tasks 82, 84, 44 and 64. GETAC: please confirm the phone and provide its reachable ADB endpoint over the existing private route, or confirm USB access on Getac for a local run. A phone with saved Coding scene"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-09T11:36Z",
      "text": "Strong Dev 817 same-pose native pinch receipt from this build shows pages off/on zoom-in max 350/433 ms; independent pages-on capture 366 ms. Pages-on frozen frame 1800 had 238 ms Mask Demand and zero matched upload work. Current main C# cm"
@@ -1580,6 +1575,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T12:21Z",
      "text": "iOS 818 (4dce0b3f8d) is on TestFlight (internal; external WAITING_FOR_BETA_REVIEW). Built with --skip-tests: the only red in the full All are the 9 water shader tests on task 96. The iPhone check of this task is still open: no phone is reac"
+    },
+    {
+     "by": "CLAUDE_REVIEW",
+     "at": "2026-11-09T20:45Z",
+     "text": "Source review: the RenderTexture page + spare fix is in. Left: PlanetPageMirror.Frame polls every mirrored texture each drawn frame (native null check per entry, updateCount per mutable) to detect destroy/apply the producers already know; s"
     }
    ]
   },
@@ -3297,5 +3297,5 @@
    ]
   }
  ],
- "source_revision": "ce9d08424d1ffe6a3260955b6c2f2ef9dc548245"
+ "source_revision": "fe664683e383ca96c69be58c50d745d33c557f8b"
 }
