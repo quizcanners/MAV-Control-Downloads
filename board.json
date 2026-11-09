@@ -1853,9 +1853,30 @@
    "name": "VPN messaging CPU",
    "done": "",
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Getac: cmp.sh, Lenovo idle 120 s per-type message ms/s and Heartbeat sub-stage",
+     "x": false
+    },
+    {
+     "t": "Fix the heartbeat cost the capture names",
+     "x": false
+    },
+    {
+     "t": "Check Profiles.LastCaptured is 0 on the second routine save with peers connected",
+     "x": false
+    },
+    {
+     "t": "Wire changes behind a PeerBuilds gate: one datagram per sealed message, envelope",
+     "x": false
+    },
+    {
+     "t": "Seal on the sender thread",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
- "source_revision": "bc636b851e744c7ac5c036a98e42894fd5524431"
+ "source_revision": "acc1213d0f27ea791fd383e1b394233332928507"
 }
