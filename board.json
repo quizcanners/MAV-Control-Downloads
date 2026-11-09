@@ -1857,11 +1857,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-09T06:48Z",
-     "text": "CC-6D9D-01 (P3 complexity): S1 investigation complete. SetSelected already identifies the selected Choice; FindTarget searches Choices for the same value again after retargeting (and again on initial SnapThumb). S2 brief/current code/propos"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-09T11:36Z",
      "text": "Device visual failure on Strong Dev 817 (2400e9b752 includes 6d9d542a). Map Source selected Offline by yellow label inside a dark track; the brighter monochrome thumb was not visible. Quality switched High -> Low -> High, but the two legacy"
@@ -1870,6 +1865,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T12:22Z",
      "text": "iOS 818 (4dce0b3f8d) is on TestFlight (internal; external WAITING_FOR_BETA_REVIEW). Built with --skip-tests: the only red in the full All are the 9 water shader tests on task 96. The iPhone check of this task is still open: no phone is reac"
+    },
+    {
+     "by": "cloud-capsule-white",
+     "at": "2026-11-09T15:41Z",
+     "text": "cloud-capsule-white: Thumb is now blurred and white-tinted (ThumbWhite .8, BlurMix .5, constants at top of UI_GlassSelector.cs); yellow caption kept. Still the same Editor step as above: the prefab has no Thumb wired yet (device 817 showed "
     }
    ]
   },
@@ -2454,9 +2454,9 @@
    "steps": [],
    "notes": [
     {
-     "by": "cloud-thread-og9ite",
-     "at": "2026-11-09T13:46Z",
-     "text": "Done: long-press on an edited route's line inserts a vertex and drags it (Station_Waypoints_EditingUpdate.cs TryPointRouteLine). Left: device look at the insert + Valhalla check + dark backdrop (items 1-4 of the brief)."
+     "by": "cloud thread",
+     "at": "2026-11-09T15:50Z",
+     "text": "\"Valhalla: No server\" is not the server being down. It is this device holding no saved routing-server record (`RoutingServer.InUse()` returns only the record made by Deploy/\u041d\u0430\u044f\u0432\u043d\u0438\u0439 \u0441\u0435\u0440\u0432\u0435\u0440 on this device; `RoadRoutingCheck.TryServerAddress` "
     },
     {
      "by": "REVIEW",
@@ -2668,5 +2668,5 @@
    ]
   }
  ],
- "source_revision": "9e4c365a5836f1c50e045bb42242608ab6dc074e"
+ "source_revision": "867e87cdd7c8dff5cf74f903acb1c28cca38da9a"
 }
