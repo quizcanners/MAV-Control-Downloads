@@ -2090,11 +2090,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLOUD_NEWTONSOFT",
-     "at": "2026-11-09T10:03Z",
-     "text": "Done (uncompiled): hand-written readers for Heartbeat, Confirmation, SendingFinished, ReceaveConfirmation, Split_SendWebMercatorTile (Network_FlatJson.cs, hooked in DeserializeMessage; anything unusual falls back to Newtonsoft); the 3 hash "
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-09T10:35Z",
      "text": "Mac batch Unity at 589f1a9386: cmp.sh NEW ERRORS: none; FlatMessageReaderTests + CryptoEnvelopeReaderTests 21/21 passed. Getac's compile/test step is covered. Not taken: the main-thread Activator in TryReadCryptoEnvelope (new T() compiles t"
@@ -2103,6 +2098,11 @@
      "by": "GETAC",
      "at": "2026-11-09T11:54Z",
      "text": "Done: 21cb227b15 aligns the sealed envelope writers; d8b8d5acc7 fixes the .NET 8 drill harness; b48e87eedc records CodingSceneReady."
+    },
+    {
+     "by": "CODEX_UI_OWNER",
+     "at": "2026-11-09T13:56Z",
+     "text": "Mac Editor b47481540d: cmp.sh NEW ERRORS none; FlatMessageReaderTests 8/8, CryptoEnvelopeReaderTests 14/14 passed in isolated EditMode."
     }
    ]
   },
@@ -2513,5 +2513,5 @@
    "notes": []
   }
  ],
- "source_revision": "842cec7a50d73e0a3162ce3f78b9e6b0ff2f3bb3"
+ "source_revision": "c3450a3104e66515ec882edb4794ccb64e3e3ccc"
 }
