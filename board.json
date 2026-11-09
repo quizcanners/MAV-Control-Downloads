@@ -2884,6 +2884,11 @@
      "by": "CLAUDE_REVIEW",
      "at": "2026-11-09T21:54Z",
      "text": "c9e583a58a (cmp.sh NEW ERRORS: none, tests not run): Crypto_ServerAccess shares the deployed server and held packages with every authenticated peer of the recorded subnet heard over the tunnel (NetworkManager.SharesServersOnSubnet, same rul"
+    },
+    {
+     "by": "CLAUDE_REVIEW",
+     "at": "2026-11-09T22:14Z",
+     "text": "ca4fd66e45: server Admin list (quiz, 2026-11-10). Server keeps Admins by signing key in admins.txt, first Admin = pinned root or deployer; packet kind Admins (25) + AdminsCapability; DevMode / Server / Admins lists authenticated people with"
     }
    ]
   },
@@ -3309,6 +3314,11 @@
      "by": "cloud",
      "at": "2026-11-09T21:43Z",
      "text": "Changed 2026-11-09: no second Image and no prefab wiring needed. The code now puts the fixed AppLibrary sprite on the existing 'I: Workflow Icon' image. Editor/phone only: run SymbolicIconTests, check in Play that the Menu's workflow tab sh"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T22:02Z",
+     "text": "CR-1EAA-01 P3: S1/S2 investigation and brief complete. The new one-icon controller leaves the old second app-library Image active in BUTTONS Bottom.prefab; both grid Graphics share the same bounds. Suggest retiring the former layer through "
     }
    ]
   },
@@ -3356,18 +3366,18 @@
    "notes": [
     {
      "by": "CLAUDE_REVIEW",
-     "at": "2026-11-09T21:15Z",
-     "text": "78a6bc26a8: IsMoving now covers the inertia glide, a follow riding a moving target, the follow flight and the azimuth reset; two resting fingers on the North-up centroid path no longer report zoom (FocusRevision, half resolution). Left: pos"
-    },
-    {
-     "by": "CLAUDE_REVIEW",
-     "at": "2026-11-09T21:29Z",
-     "text": "39e134eaa9: on Metal, Vulkan and Direct3D 12 the half/full switch is hardware dynamic resolution (main camera allowDynamicResolution once, ScalableBufferManager.ResizeBuffers 0.5 or 1): targets are kept, nothing reallocated. OpenGL ES 3 and"
-    },
-    {
-     "by": "CLAUDE_REVIEW",
      "at": "2026-11-09T21:31Z",
      "text": "quiz, 2026-11-10: 'Keep GLES first'. Android stays on the re-create route because of the Strong Vulkan startup crash (KNOWN_ISSUES.md). The phone check here decides whether the switch cost is worth a Vulkan-first build with the Strong filte"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T22:02Z",
+     "text": "CC-39E1-01 P3 complexity: S1 investigation/S2 brief complete. EnsureCameraScales answers whether the current Camera opted in through a global ready bit duplicating allowDynamicResolution. Suggest direct Camera state or its existing initiali"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T22:02Z",
+     "text": "REVIEW-399 movement repair reconciliation: 78a6bc26a source-repairs CR-0D2A-01 by marking changed follow poses; glide/flight/azimuth marks and stationary-centroid handling are also present. Keep the distinct post-pinch question, graphics AP"
     }
    ]
   },
@@ -3389,5 +3399,5 @@
    "notes": []
   }
  ],
- "source_revision": "cb7390529b4e551ea196fbade786d3b452bf5e92"
+ "source_revision": "fca164c6efdd32e186622014354a02b053af499e"
 }
