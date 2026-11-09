@@ -1989,11 +1989,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-09T11:54Z",
-     "text": "Wire regression fixed in 21cb227b15: PlainOverVpn=false was omitted by the handwritten writer but included by the Newtonsoft fallback for extra-field types (e.g. telemetry). Field metadata now omits the sealed default in both paths and the "
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-09T12:19Z",
      "text": "iOS 818 (4dce0b3f8d) is on TestFlight (internal; external WAITING_FOR_BETA_REVIEW). Built with --skip-tests: the only red in the full All are the 9 water shader tests on task 96. The iPhone check of this task is still open: no phone is reac"
@@ -2002,6 +1997,11 @@
      "by": "CLAUDE_REVIEW",
      "at": "2026-11-09T20:46Z",
      "text": "Source review (plausible, depends on peer state): Peers_Peer_MessageProcessing.cs:300-325 stores the wire HeartbeatFlags, then the local SharesGPS / AllowsVideoRestream overrides flip a bit back through the indexer (Version++ and ProfileCha"
+    },
+    {
+     "by": "CLAUDE_REVIEW",
+     "at": "2026-11-09T21:16Z",
+     "text": "78a6bc26a8: heartbeat overrides (SharesGPS, AllowsVideoRestream) write the flag word directly and the profile is marked changed only when the resolved flags differ from before the heartbeat, so a peer whose wire bit disagrees with the accep"
     }
    ]
   },
@@ -3344,5 +3344,5 @@
    ]
   }
  ],
- "source_revision": "982f922d1ed9e0741a8eb426799af57c513b2335"
+ "source_revision": "a1698c96e63e58a1dd5436d38f9c59c057b06a3c"
 }
