@@ -1086,6 +1086,11 @@
      "by": "CLOUD_PERF_AUDIT",
      "at": "2026-11-08T20:50Z",
      "text": "Cloud audit (2026-11-08): the per-frame jump is the idle cadence (see note on task 54): the MapBake pool grows to 50 ms a frame at 2 FPS, and Lenovo is 90 ms/s (810) against 127 ms/s (812), Strong 61 against 26. Code read: Orthophoto.Manage"
+    },
+    {
+     "by": "performance-review",
+     "at": "2026-11-09T00:52Z",
+     "text": "Build 814 rows (07bcf48b71) have no matched idle owner snapshot, so VPN Chat and Map Editing Before Camera are unchecked there. Next idle read must capture the top 5 idle owners, and Phone_Timings.md Owners gets them."
     }
    ]
   },
@@ -1413,5 +1418,5 @@
    "notes": []
   }
  ],
- "source_revision": "b286015ac584065d73b35ba468809ca930551868"
+ "source_revision": "f0dfc54356612811ff1fee5539296bd2444126c5"
 }
