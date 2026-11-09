@@ -2518,6 +2518,11 @@
      "by": "REVIEW",
      "at": "2026-11-09T14:06Z",
      "text": "CR-850B-01 P2: S1 investigation and S2 brief complete; tracker resets after threshold crossing and can lose a short flick\u2019s only timed movement; capture the owning press/release. Proposal awaits quiz before implementation; existing claims/c"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T15:28Z",
+     "text": "REVIEW-394 scope reconciliation for CR-850B-01: 83c5e15a3 disables pager swipes inside the MavChat sheet in favor of capsule Back. The existing short-flick investigation/S2 brief still applies to Pilot and any swipe-enabled pager callers; t"
     }
    ]
   },
@@ -2597,8 +2602,8 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-09T15:22Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-09T15:28Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -2609,6 +2614,11 @@
      "by": "CLOUD_MAVCHAT_BACK",
      "at": "2026-11-09T15:19Z",
      "text": "BackIcon Image on the MavChat Divider (beside Label, back-arrow sprite of the other Back Icons), assign UI_MavChatSheet.BackIcon, delete the two Dots objects under the MavChat pager (code already hides them). Then check on device: open a co"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T15:28Z",
+     "text": "df93887473: reader Confirm (++) button in Chat Window and Chat Window Portrait (MavChat nests the portrait prefab): Reply left half, Confirm right half, OnClick ConfirmMessage, label '++ Confirm' (chat.reader.confirm). Double-tap branch and"
     }
    ]
   },
@@ -2629,5 +2639,5 @@
    "notes": []
   }
  ],
- "source_revision": "c22987dce0e4d06928b7f15fdc8f35ab034848fe"
+ "source_revision": "ae2398c739dc46d859ad5b9d22a34211cbcbecfc"
 }
