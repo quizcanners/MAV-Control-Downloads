@@ -910,6 +910,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-08T17:56Z",
      "text": "Code read: Traversal control's exclusive time is WebMercator_Sync_Drill.cs:382-399 (TryBeginMeasuredChunk, AdvanceDrills) minus StepDrill (own Branch decisions scope): StartRootPass, TrySpawnDrill, the deadline loop in AdvanceDrill. All bou"
+    },
+    {
+     "by": "CLOUD_WM_TRAVERSAL",
+     "at": "2026-11-09T05:29Z",
+     "text": "Cloud read of child traversal (commit follows): parent frames were re-stepped after each child returned and redid quadrant order, 4 child lookups and per-peer weak-handle plug lookups each time. Fixed: order cached per frame, handled quadra"
     }
    ]
   },
@@ -1463,5 +1468,5 @@
    "notes": []
   }
  ],
- "source_revision": "c95e47213250753d37bf0785689211ffd7ee5852"
+ "source_revision": "e00bbb797bc1a6a0d568c8a5130531ba064168d0"
 }
