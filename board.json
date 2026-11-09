@@ -907,11 +907,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T08:44Z",
-     "text": "9274a96260: Assets/_PROJECT/Systems/Data Sync/Convergence_Sync.md is the general guide to sync work discovery (single check per pass, per-peer early break, root restart at 1 km, new-pass triggers), Web Mercator as reference. Open follow-up "
-    },
-    {
      "by": "CLOUD_WM_PLUGS",
      "at": "2026-11-09T10:01Z",
      "text": "Plug list removed (uncompiled, cloud): PeerPlugCache/PlugId/SetPassPlug/DrillPass/Plug struct gone; root verdict is SyncUpdateState.PeerHasNewer (set in ReturnFrame at zoom 0, cleared at StartRootPass, on local change path, on peer's differ"
@@ -920,6 +915,11 @@
      "by": "GETAC",
      "at": "2026-11-09T11:36Z",
      "text": "Roslyn NEW ERRORS: none, including Editor, Android, standalone and asmdef modes, against the Dev 817 source baseline. Fixed the .NET 8 drill-priority host harness to run the production pass predicate (d8b8d5acc7); it passes. Device verifica"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T11:54Z",
+     "text": "Windows Unity 6000.6.8f1 isolated EditMode: WebMercatorFinestTiles (includes DrillDecisions) 281/281, IndexPaging 73/73, MemoryLedger 5/5. Standalone test_map_drill_priority.py on .NET 8 passes after harness fix d8b8d5acc7. Current-build pa"
     }
    ]
   },
@@ -1946,19 +1946,19 @@
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T10:36Z",
-     "text": "Heartbeat is now read by a hand-written reader (task 106, Network_FlatJson.cs, tests pass on Mac). The Newtonsoft deserialize was one of the two remaining suspects for the 41 ms per heartbeat; the Lenovo capture on a build from 589f1a9386 o"
-    },
-    {
-     "by": "CLOUD_VPN_CPU",
-     "at": "2026-11-09T10:53Z",
-     "text": "Skip sealing landed (quiz, 2026-11-09: \"Skip sealing.\"): nine hash types go unsealed over the tunnel at build 818; Roslyn NEW ERRORS: none. Device check: two builds >= 818 exchange a map hash drill with WireGuard on (vpn.udp udp_plain_sends"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-09T11:36Z",
      "text": "Partial: Strong reachable on USB and Lenovo reachable over private ADB, but installed release IDs are 817 and 816. The 818 handshake gate cannot be exercised with those two builds. Need two 818+ peers, then run the map drill while reading v"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T11:53Z",
+     "text": "CC-6299-01 P3 performance/complexity: S1 investigation and S2 brief complete; plain hash fallback copies newly owned UTF-8 bytes; direct fallback assignment sketch retains reused-buffer copy. Proposal awaits quiz before implementation; curr"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T11:54Z",
+     "text": "Wire regression fixed in 21cb227b15: PlainOverVpn=false was omitted by the handwritten writer but included by the Newtonsoft fallback for extra-field types (e.g. telemetry). Field metadata now omits the sealed default in both paths and the "
     }
    ]
   },
@@ -2051,11 +2051,6 @@
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T09:31Z",
-     "text": "cmp.sh at 464e9c523c (Mac Roslyn, Newtonsoft referenced) includes 6655856f45: NEW ERRORS: none. The Planet shader fixtures and the oblique look remain."
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-09T10:00Z",
      "text": "Investigation CR-6655-01: P2 overlay investigation extends the existing fringe side effect: the supported 50% opacity makes entire painted roofs order-dependent with ZWrite On and arbitrary-order instancing. S1 uniform writer and blend/dept"
@@ -2064,6 +2059,11 @@
      "by": "GETAC",
      "at": "2026-11-09T11:42Z",
      "text": "cmp.sh NEW ERRORS: none; Windows Unity imported PlanetImagery.shader. Dev 817 oblique High/Low views are available as older-device references. The Android APK did not contain the raised overlay depth-order change, and no current-build obliq"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T11:54Z",
+     "text": "Windows Unity 6000.6.8f1 isolated raised-overlay fixtures passed 3/3: depth-writing material variant, raised instanced batching, and page-material queue/identity. Getac receipt planet-raised.xml. Current APK oblique Android view remains ope"
     }
    ]
   },
@@ -2083,6 +2083,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T10:35Z",
      "text": "Mac batch Unity at 589f1a9386: cmp.sh NEW ERRORS: none; FlatMessageReaderTests + CryptoEnvelopeReaderTests 21/21 passed. Getac's compile/test step is covered. Not taken: the main-thread Activator in TryReadCryptoEnvelope (new T() compiles t"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T11:54Z",
+     "text": "Done: 21cb227b15 aligns the sealed envelope writers; d8b8d5acc7 fixes the .NET 8 drill harness; b48e87eedc records CodingSceneReady."
     }
    ]
   },
@@ -2122,11 +2127,6 @@
    "notes": [
     {
      "by": "LOCAL_MAC",
-     "at": "2026-11-09T10:48Z",
-     "text": "Correction to my previous note: #5 was done by 9e5e0a10d3 (another agent, view and printer append their parts), not by LOCAL_MAC; my duplicate was dropped. It compiles: cmp.sh at 8bc4d2665a NEW ERRORS: none. The #1 assessment in that note s"
-    },
-    {
-     "by": "LOCAL_MAC",
      "at": "2026-11-09T10:52Z",
      "text": "#1 landed too (8bc4d2665a, stores spell their folder once). cmp.sh at 8bc4d2665a: NEW ERRORS: none (a first run right after the pull reported 1 Editor-set error that a rerun on the same commit did not; treat as a stale-cache blip). Both sma"
     },
@@ -2134,6 +2134,11 @@
      "by": "GETAC",
      "at": "2026-11-09T11:36Z",
      "text": "Main 27c49ac095 plus host harness fix compiled in Windows Unity and cmp.sh NEW ERRORS: none in e/a/p/m. No Workflow.Timeline or MapEditing name-resolution failure reproduced with Unity 6000.6.8f1 references. Device checks of the moved handl"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T11:53Z",
+     "text": "CC-8BC4-01 P3 performance/complexity: S1 investigation and S2 brief complete; folder classifier rebuilds constant slash prefixes per displayed-file classification; boundary-check sketch. Proposal awaits quiz before implementation; current c"
     }
    ]
   },
@@ -2261,5 +2266,5 @@
    "notes": []
   }
  ],
- "source_revision": "f0c97ae8ea0e50601facdee07840f37b66465ee1"
+ "source_revision": "840456f414d0e8680368880c7bc49f146049812d"
 }
