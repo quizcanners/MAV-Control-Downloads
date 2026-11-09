@@ -1867,7 +1867,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-09T08:27Z",
-     "noted": "",
+     "noted": "2026-11-09T08:29Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -1895,7 +1895,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T08:29Z",
+     "text": "LOCAL_MAC read the heartbeat path again for the 41 ms (no device): the per-type node also covers GetOrCreatePeer, WorkerCrypto.Refresh, the auth check, Deserialize (heartbeat is plain Newtonsoft JSON, not predecoded unless the worker did it"
+    }
+   ]
   },
   {
    "n": 100,
@@ -1929,5 +1935,5 @@
    ]
   }
  ],
- "source_revision": "96b9c202cd19e7cbd896c9ab44ede7f32551d4f8"
+ "source_revision": "7cb65ee0de286ce80838ef9a228b96920f983676"
 }
