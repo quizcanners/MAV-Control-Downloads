@@ -1900,19 +1900,14 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-09T14:19Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-09T14:24Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T10:13Z",
-     "text": "Mac batch Unity with graphics at 0ff2781c5c (851 tests over Planet, mask, encryption, WM sync, Coding Scene, envelope reader): 9 water failures, all expecting the old water = unchanged sky-cubemap sample, now the gradient + generated clouds"
-    },
     {
      "by": "GETAC",
      "at": "2026-11-09T11:42Z",
@@ -1922,6 +1917,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T12:05Z",
      "text": "These 9 water tests are now the only red in the full All (Mac, 211e7ef19) and they block the build gate: the iOS daily ran with --skip-tests to ship 818. Whoever owns the water look: delete or rewrite them from SHADING.md's new water contra"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T14:24Z",
+     "text": "63b12234fb: the 9 water shader tests now check the sky-gradient water (fixture binds a black cloud texture and computes PlanetWaterReflection); the cubemap-only test is deleted. Mac batch Unity with graphics: PlanetElementLighting + PlanetS"
     }
    ]
   },
@@ -2564,5 +2564,5 @@
    "notes": []
   }
  ],
- "source_revision": "0cc32d0070e9c1c08093d3c6aa612535b72607df"
+ "source_revision": "2b713e6251a1f32b4ae89efac7749bf3a8c9afa8"
 }
