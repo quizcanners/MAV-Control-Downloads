@@ -1647,7 +1647,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-09T07:17Z",
-     "noted": "2026-11-09T07:32Z",
+     "noted": "2026-11-09T07:33Z",
      "progress": 25,
      "ticked": 1,
      "total": 4
@@ -1681,11 +1681,6 @@
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T07:24Z",
-     "text": "23b5149f83: OSM/Tiles is one tiles.sqlite (RecordVault, key grid x/y, payload = the old JSON envelope); legacy .json moved in on read + once per run by ImportLegacyTiles (read back before delete); power lines read rows + unmoved files. Tip:"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-09T07:30Z",
      "text": "HEAVY is taking the Storage file-count line and switching the already-landed OSM/Tiles importer to shared RecordVault verification. LOCAL_MAC owns the remaining adapter work in progress. Windows OSM test exposed a pooled-reader race with te"
@@ -1694,6 +1689,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T07:32Z",
      "text": "b92808829c: OSM/OceanSource is one <generation>.sqlite per archive generation (RecordVault, key zoom/x/y); legacy .mvt folder moved in on open; other generations deleted (unreachable cache). Left in this step: Situation/Trails, VPNChat/Icon"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T07:33Z",
+     "text": "LOCAL_MAC handoff on 87. Done: RecordVault (e4f1927f2b), OSM/Tiles (23b5149f83), OSM/OceanSource (b92808829c). Left in step 2: Situation/Trails (append-only per-guid spill; a whole-row rewrite per spill grows O(n^2) - give the vault a (guid"
     }
    ]
   },
@@ -1842,5 +1842,5 @@
    ]
   }
  ],
- "source_revision": "ffa60a3816a52051d3e136289dea95ddedd098e6"
+ "source_revision": "bcb632a7001791f7abcabef52d2620d262c45441"
 }
