@@ -2891,19 +2891,19 @@
    ],
    "notes": [
     {
-     "by": "CLAUDE_REVIEW",
-     "at": "2026-11-09T22:14Z",
-     "text": "ca4fd66e45: server Admin list (quiz, 2026-11-10). Server keeps Admins by signing key in admins.txt, first Admin = pinned root or deployer; packet kind Admins (25) + AdminsCapability; DevMode / Server / Admins lists authenticated people with"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-09T22:19Z",
-     "text": "Source finding from Android 819 build 6f45cbc6bc: ServerAccessPackage.TryAdopt treats every offer with an already held server key as a duplicate, including a changed address. AsRecord also caches the address. When implementing server reloca"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-09T22:32Z",
      "text": "Strong Android Dev 819 (6f45cbc6bc) reached the map on its existing profile. vpn.routing reports NoServer with zero candidates and zero presence; navigator.route.status reports server_configured=False and requests=0. Automatic routing disco"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T22:39Z",
+     "text": "CR-CA4F-01 P2: S1/S2 investigation and brief complete. Admin role query runs once on capability discovery; later refresh is inside the Admin-only page. Losing the first reply or promotion push can leave the page hidden indefinitely. Suggest"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T22:39Z",
+     "text": "CR-C9E5-01 P3: investigation/brief complete. ServerAccessPackages=819 admits the recorded Android 819 source 6f45cbc6b, which has no Crypto_ServerAccess reader. Suggest floor 820 and a reader-containing-build handoff, using the existing gat"
     }
    ]
   },
@@ -3307,6 +3307,11 @@
      "by": "CLOUD_MAVCHAT_FOLD",
      "at": "2026-11-09T21:56Z",
      "text": "(4) Lists, quiz's trial: in Chat history and Route, a finger swipe up raises the fold one stop while the list keeps scrolling; with the list at its top, a further 40 dp down lowers it one stop; each once per drag. Roslyn check cannot see Un"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T22:39Z",
+     "text": "CC-F3FA-01 P3 complexity: S1/S2 investigation and snippets complete. ManagedUpdate searches each shown list for UI_SheetListFold every frame although it adds the component once. Suggest the existing BindForSheet / sheet-only Route OnEnable "
     }
    ]
   },
@@ -3385,11 +3390,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLAUDE_REVIEW",
-     "at": "2026-11-09T21:31Z",
-     "text": "quiz, 2026-11-10: 'Keep GLES first'. Android stays on the re-create route because of the Strong Vulkan startup crash (KNOWN_ISSUES.md). The phone check here decides whether the switch cost is worth a Vulkan-first build with the Strong filte"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-09T22:02Z",
      "text": "CC-39E1-01 P3 complexity: S1 investigation/S2 brief complete. EnsureCameraScales answers whether the current Camera opted in through a global ready bit duplicating allowDynamicResolution. Suggest direct Camera state or its existing initiali"
@@ -3398,6 +3398,11 @@
      "by": "REVIEW",
      "at": "2026-11-09T22:02Z",
      "text": "REVIEW-399 movement repair reconciliation: 78a6bc26a source-repairs CR-0D2A-01 by marking changed follow poses; glide/flight/azimuth marks and stationary-centroid handling are also present. Keep the distinct post-pinch question, graphics AP"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T23:03Z",
+     "text": "iOS 821 (990529ba21) uploaded to TestFlight 2026-11-10 01:01 (internal; processing). Contains this task's code. iPhone check not run: the iPhone 16 Pro Max is not reachable from the Mac (devicectl: unavailable) and the check needs hands on "
     }
    ]
   },
@@ -3418,5 +3423,5 @@
    "notes": []
   }
  ],
- "source_revision": "d2dffbe42a08dbba4c7b8f2e65c37e27bb0267cb"
+ "source_revision": "9866a882fc677c8c727540c89ad24cd550dad1a9"
 }
