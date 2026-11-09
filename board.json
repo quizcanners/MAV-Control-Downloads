@@ -215,11 +215,6 @@
    ],
    "notes": [
     {
-     "by": "heavy",
-     "at": "2026-11-08T18:04Z",
-     "text": "Windows All at 7228f5e4f0 retained 8523 passed, 3 failed, 8 skipped; candidate provenance refused because Unity serialized the newly added zero _EdgeDarkening default in List Capsule Body.mat. Remaining exact failures: SituationEffectsTests"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-08T18:30Z",
      "text": "Green: first complete Windows All 8527/0/8 on 029b3a2a7c after cloud and Mac fixes, compass/background fixture and saved _EdgeDarkening default. Exact Android 814 source 07bcf48b71 then passed 8528/0/8 and cmp.sh NEW ERRORS: none. Provenanc"
@@ -228,6 +223,11 @@
      "by": "CODEX_FLOW_REPAIR",
      "at": "2026-11-09T04:19Z",
      "text": "Final handoff CODEX_FLOW_REPAIR: published 3ef8b27451 and 3b563f4c82; current main also includes 3382aa5249 and a25d464b5c from other workers."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T10:00Z",
+     "text": "Investigation CR-0203-01: P2 confirmed cleanup defect: the new 24-hour profile sweep uses shallow mtimes and can delete a live nested profile; the exact helper did so with a fresh held-open fixture file on Linux. S1 complete; S2 existing-ru"
     }
    ]
   },
@@ -908,11 +908,6 @@
    "notes": [
     {
      "by": "CLOUD_WM_TRAVERSAL",
-     "at": "2026-11-09T07:52Z",
-     "text": "Discovery walk (cloud, read only): no unbounded per-step scan found beyond the child-traversal ones already fixed. Candidate for a device trace: TrySpawnDrill repeats a fruitless search over all waiting drills' frames every frame while budg"
-    },
-    {
-     "by": "CLOUD_WM_TRAVERSAL",
      "at": "2026-11-09T08:27Z",
      "text": "Per-pass stamp landed (uncompiled): branch.PassStamp set in ReturnFrame (zoom<=15), skipped in StepDrill/child loop/AskChildrenAhead/TrySpawnDrill via drill.PassId. Per-peer plugs still written for root PeerHasNewer status + diagnostics; fo"
     },
@@ -920,6 +915,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T08:44Z",
      "text": "9274a96260: Assets/_PROJECT/Systems/Data Sync/Convergence_Sync.md is the general guide to sync work discovery (single check per pass, per-peer early break, root restart at 1 km, new-pass triggers), Web Mercator as reference. Open follow-up "
+    },
+    {
+     "by": "CLOUD_WM_PLUGS",
+     "at": "2026-11-09T10:01Z",
+     "text": "Plug list removed (uncompiled, cloud): PeerPlugCache/PlugId/SetPassPlug/DrillPass/Plug struct gone; root verdict is SyncUpdateState.PeerHasNewer (set in ReturnFrame at zoom 0, cleared at StartRootPass, on local change path, on peer's differ"
     }
    ]
   },
@@ -1675,19 +1675,19 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-09T07:37Z",
-     "text": "Windows slice landed: Storage root shows a total-file-count line and a green tick on complete scans under 100. OSM/Tiles now uses RecordVault.ImportLegacyBatch for on-read and bulk imports, with coordinated readers/writers and verified unli"
+     "by": "REVIEW",
+     "at": "2026-11-09T10:00Z",
+     "text": "Investigation CR-D288-01: P2 confirmed trail persistence defect: two valid GUIDs collide in the 40-bit key; Count and range Replace/Delete can affect the other entity, including receive of a short trail. S1 exact arithmetic plus isolated SQ"
     },
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T07:56Z",
-     "text": "d288afc5b6: Situation/Trails is one trails.sqlite (row per spill batch, key guid-hash+batch, legacy .trail moved in on use + one sweep per run); RecordVault gained ReadRangeCatalog/ReadRange/ReplaceRange. Left in step 2: VPNChat/Icons, WayP"
+     "by": "REVIEW",
+     "at": "2026-11-09T10:00Z",
+     "text": "Investigation CC-D288-01: P3 complexity/performance: each trail Append materializes every older batch just to choose the next ID; Count also allocates the whole catalog. S1 callers/writers and triangular row-count model complete; S2 indexed"
     },
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T08:03Z",
-     "text": "WayPoints need no adapter: groups already save to one <checkpoint>.waypoints.mcs (+.previous); the WayPoints folder is a fixed legacy import (FindAllWaypointGroups) that never grows. Chat icons: VPNChat/Icons/<hash>.png.mcs files are never "
+     "by": "REVIEW",
+     "at": "2026-11-09T10:00Z",
+     "text": "Investigation CC-23B5-01: P3 complexity/performance: an area-specific OSM power-line read lists/sorts the whole tile catalog then reads matching rows individually. S1 captured bounds and key writers traced; S2 one parameterized bounded payl"
     }
    ]
   },
@@ -1847,7 +1847,13 @@
    "done": "",
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T10:00Z",
+     "text": "Investigation CR-D21E-01: P3 confirmed generator math defect: Mathf.SmoothStep(0.45,0.75,noise) interpolates those endpoints, so the cloud mask never opens to zero; host model bytes 119..177. S1 complete; S2 normalize thresholds then smooth"
+    }
+   ]
   },
   {
    "n": 97,
@@ -1997,6 +2003,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T09:31Z",
      "text": "cmp.sh at 464e9c523c (Mac Roslyn, Newtonsoft referenced) includes 6655856f45: NEW ERRORS: none. The Planet shader fixtures and the oblique look remain."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T10:00Z",
+     "text": "Investigation CR-6655-01: P2 overlay investigation extends the existing fringe side effect: the supported 50% opacity makes entire painted roofs order-dependent with ZWrite On and arbitrary-order instancing. S1 uniform writer and blend/dept"
     }
    ]
   },
@@ -2018,5 +2029,5 @@
    "notes": []
   }
  ],
- "source_revision": "32d75bc785271e12bc55f5e2bf048b4d28e061f7"
+ "source_revision": "5fb0b5171af0781a241a1dfb71a26af6256dd507"
 }
