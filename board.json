@@ -1227,11 +1227,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-09T04:50Z",
-     "text": "816 tablet results: parsed the committed index vault and matched the JPEG content hash and byte length for all ten Strong samples to records marked Derived. These are local (Derived records are excluded from peer advertisements); 16 missing"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-09T05:14Z",
      "text": "LOCAL_MAC released 62 without changes. quiz (2026-11-09): black squares are fixed and the historical ones were repaired by GETAC. GETAC: please add the repair commit/method here so the board shows it; no one else should start a historical-t"
@@ -1240,6 +1235,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T05:33Z",
      "text": "quiz 2026-11-09: no repair pass for historical black tiles. a4e0bc91ec adds Offline page > 'Invalidate tiles in view': stored direct tiles in view get stamp 2000-01-01 (pixels and pixel revision kept), so any peer copy wins and the next 'Do"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T05:43Z",
+     "text": "Done: signed Brigade 68 Android Test 816, exact main source 18626a5f47 and fix 875a14cc12. Build and publication record 50b60073dc; 816 is the only APK in Drive Android/Test, 814 archived; sealed GitHub Test published."
     }
    ]
   },
@@ -1562,5 +1562,5 @@
    "notes": []
   }
  ],
- "source_revision": "ae091926f85ef04677eff09a1af70afb7b2d145d"
+ "source_revision": "7040cd38133609d5a4719871230aeeec3d748cd0"
 }
