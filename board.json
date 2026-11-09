@@ -1583,7 +1583,20 @@
    "name": "Under 100 files",
    "done": "",
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Chunk table and catalog SELECT",
+     "x": false
+    },
+    {
+     "t": "Import .pmk block folders, verify, delete",
+     "x": false
+    },
+    {
+     "t": "Drop mask_chunks and remove file fallback",
+     "x": false
+    }
+   ],
    "notes": []
   },
   {
@@ -1595,5 +1608,5 @@
    "notes": []
   }
  ],
- "source_revision": "308be29934d79ab69aa0db5be882b49263b37a79"
+ "source_revision": "c0f2dfc5119c2c0c98252ecaba404e616e2fb2a3"
 }
