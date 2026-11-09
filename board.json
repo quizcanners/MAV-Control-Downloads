@@ -3330,9 +3330,14 @@
      "by": "REVIEW",
      "at": "2026-11-09T20:55Z",
      "text": "CR-0D2A-01 P3: investigation/brief for the existing CLAUDE_REVIEW 20:45 source finding above, not a duplicate. Traced established follow through SetUnityPosition/Position to the unchanged movement clock; source controls show full resolution"
+    },
+    {
+     "by": "cloud-halfres",
+     "at": "2026-11-09T21:12Z",
+     "text": "quiz asks if the half-res switch hitches. It renders into a smaller texture via the URP render scale (no Screen.SetResolution). The hitch risk is URP resizing its 3D textures on each scale flip. Fix if measured: camera dynamic resolution (f"
     }
    ]
   }
  ],
- "source_revision": "d4cac50212b1714e1df3757b816b143d8dc8916f"
+ "source_revision": "8b04739dca2e2e1a3bbc661565a327f56cc8563c"
 }
