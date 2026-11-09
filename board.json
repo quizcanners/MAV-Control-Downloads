@@ -2543,8 +2543,8 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-09T14:51Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-09T14:55Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -2555,6 +2555,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T14:35Z",
      "text": "Also seen: cmp.sh's e and m sets do not resolve UnityEditor types (AssetImporter, TextureImporter, AssetDatabase) in test files under #if UNITY_EDITOR; base already lists them for FollowCenterSdfBindingTests, so any new Editor-only test sho"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T14:55Z",
+     "text": "ae26ba3e3b: cmp.sh takes a lock beside BASE (/tmp/roslyn-base.lock with pid), so overlapping runs (two agents on one Mac) no longer move each other's baseline worktree or rebuild sem.dll mid-run; tested with two runs 3 s apart (second waite"
     }
    ]
   },
@@ -2581,5 +2586,5 @@
    "notes": []
   }
  ],
- "source_revision": "8acbc982f5720058587025c8d4ffe1bf2660c5a1"
+ "source_revision": "facfd936d54acd355172e47cc55d8bfa68a04900"
 }
