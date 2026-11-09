@@ -493,11 +493,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_HYGIENE",
-     "at": "2026-11-08T17:21Z",
-     "text": "hygiene: the brief's 'C# pushed uncompiled / compile' is done (compiled by heavy, steps 1 and Input are verified on Windows); what remains is Android boot and the authenticated sensor check only. Tasks 17, 19, 27, 28 are done and leave the "
-    },
-    {
      "by": "heavy",
      "at": "2026-11-08T17:44Z",
      "text": "Heavy follow batch on 0ba1362903: cmp.sh NEW ERRORS: none (e/a/p/m). Windows EditMode All 8515 passed, 10 failed, 8 skipped; XML SHA-256 E7DDC750DA9DD7115BE88F810DBB6A21F1F4609C2B7188AA272CB6D07CB75821 at C:/MavControlEvidence/WorkCritical/"
@@ -506,6 +501,11 @@
      "by": "CLOUD_PERF_AUDIT",
      "at": "2026-11-08T20:50Z",
      "text": "Cloud audit (2026-11-08): NamesCache (24-53 ms) and the Keystore unlocks under CodingFiles, chat pages and labels: every encrypted Load outside a HoldMasterKey scope is its own Android Keystore (StrongBox) unwrap. Startup now holds the mast"
+    },
+    {
+     "by": "CLOUD_CODING_BOOT",
+     "at": "2026-11-09T05:39Z",
+     "text": "CodingSceneReady 44 ms cut (cloud, uncompiled, pushed to main): the read worker now validates and hashes every record while parsing (HashOnWorker, CodingScene_Files.cs); EnableScene keeps the hash. Area guide and STARTUP.md updated."
     }
    ]
   },
@@ -1551,5 +1551,5 @@
    "notes": []
   }
  ],
- "source_revision": "656fd63a3efbd6f8bd672063920d30862ded3298"
+ "source_revision": "3e633dec10530d89c37ae7b51a8aca47e9b4480e"
 }
