@@ -3086,7 +3086,13 @@
    "done": "",
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_REVIEW",
+     "at": "2026-11-09T20:47Z",
+     "text": "Source review: not implemented yet. Singleton_ScreenSpaceCrosshair.cs:113-117 computes PortraitVisual(...).Blur and drops it; _SdfProgress is set only in UI_FollowCenterBrackets. Give the portrait crosshair a material instance of Monochrome"
+    }
+   ]
   },
   {
    "n": 164,
@@ -3302,5 +3308,5 @@
    ]
   }
  ],
- "source_revision": "cac46673664e9527eb8f87d8eeb3ffb3ab764554"
+ "source_revision": "b88df9e5678563ef8b73791441ab8faa7744fc89"
 }
