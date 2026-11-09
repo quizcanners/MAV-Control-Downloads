@@ -2075,14 +2075,20 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-09T10:42Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-09T10:45Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T10:45Z",
+     "text": "9e5e0a10d3: #5 done (Logistics debug report: Manager/NeedsInspector/Printer.AppendReport, Debug.Inspector joins; compiled). #1 is not a small move: the folder names are spelled in several owner files each ('Logistics' in 4, 'PlanetMasks' 3,"
+    }
+   ]
   },
   {
    "n": 110,
@@ -2093,11 +2099,6 @@
    "notes": [
     {
      "by": "CLOUD_THREAD",
-     "at": "2026-11-09T10:33Z",
-     "text": "quiz, 2026-11-09 (full words also in the area AGENTS.md): \"Lets also rework WiFi scanner logic. I have wrote it for 45 degree anthena. Lets keep it as an option, but by default use a point receiver. Meaning it is just a point on 2D space. D"
-    },
-    {
-     "by": "CLOUD_THREAD",
      "at": "2026-11-09T10:34Z",
      "text": "quiz, 2026-11-09: \"One obvious criteria: points of the vector need to belong to the same wifi source. While multiple wifi sources are blitted to the same map, each individual blit points needs to come from the same source.\" Live pairing alr"
     },
@@ -2105,6 +2106,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-09T10:35Z",
      "text": "Code on main uncompiled: PersistentData.DirectionalAntenna (default off), Inspector toggle in the signal map page, bake param w picks cone (1) or none (0) branchlessly in WifiSignalMap_Bake.shader. Same-source pairing was already BSSID+freq"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T10:44Z",
+     "text": "Investigation CC-B5B9-01 (P3 performance/complexity): S1 traced the saved mode writer/RestartBake and unconditional GetDirection calls plus beam-direction bind for every pair, even with point mode selected. S2 brief/current code/proposed ga"
     }
    ]
   },
@@ -2117,5 +2123,5 @@
    "notes": []
   }
  ],
- "source_revision": "189aadfce51f459ab944802e1d4e1c91bd98d0db"
+ "source_revision": "89073103db2d4267888b425a7294b191a4524b73"
 }
