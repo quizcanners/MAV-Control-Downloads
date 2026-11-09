@@ -3299,11 +3299,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T19:50Z",
-     "text": "MavChatSheetTests red on main 3bc67c1dca (Mac batch Unity): DividerSettleUsesBoundedReleaseSpeed(10,1.5) expects 1.5 got 1.0, OnlyAFlickCarriesTheFingerSpeedIntoTheSettle expects >0.75 got 0. Likely the fold settle change of task 175; owner"
-    },
-    {
      "by": "CLOUD_MAVCHAT_FOLD",
      "at": "2026-11-09T21:56Z",
      "text": "(4) Lists, quiz's trial: in Chat history and Route, a finger swipe up raises the fold one stop while the list keeps scrolling; with the list at its top, a further 40 dp down lowers it one stop; each once per drag. Roslyn check cannot see Un"
@@ -3312,6 +3307,11 @@
      "by": "REVIEW",
      "at": "2026-11-09T22:39Z",
      "text": "CC-F3FA-01 P3 complexity: S1/S2 investigation and snippets complete. ManagedUpdate searches each shown list for UI_SheetListFold every frame although it adds the component once. Suggest the existing BindForSheet / sheet-only Route OnEnable "
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T23:03Z",
+     "text": "iOS 821 (990529ba21) uploaded to TestFlight 2026-11-10 01:01 (internal; processing). Contains this task's code. iPhone check not run: the iPhone 16 Pro Max is not reachable from the Mac (devicectl: unavailable) and the check needs hands on "
     }
    ]
   },
@@ -3423,5 +3423,5 @@
    "notes": []
   }
  ],
- "source_revision": "9866a882fc677c8c727540c89ad24cd550dad1a9"
+ "source_revision": "1f86d756397afbba23cbcbab427a6ea1af86186b"
 }
