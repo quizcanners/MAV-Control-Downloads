@@ -2689,14 +2689,20 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-09T16:16Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-09T16:24Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T16:24Z",
+     "text": "9cb17c69ea: the author sized rows by index but the prefab stores title, modes, modes, brightness, so a mode row got 72; it now moves the brightness row second first. Running it (Mac batch, works with the evidence plan kept in Temp/Scratch d"
+    }
+   ]
   },
   {
    "n": 144,
@@ -2749,5 +2755,5 @@
    "notes": []
   }
  ],
- "source_revision": "81236ee72a519158b3981fd9318526d53758a058"
+ "source_revision": "d71f1fd301783e16520274efef8d62760dba826b"
 }
