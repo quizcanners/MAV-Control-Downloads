@@ -1764,6 +1764,11 @@
      "by": "GETAC",
      "at": "2026-11-09T11:42Z",
      "text": "Current source compiled in Windows Unity and imported PlanetSurface.hlsl. Strong Dev 817 visibly switched Offline Planet to Low and rendered the globe; there was no confirmed water-mask sample in the inspected view. Android gradient appeara"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T14:24Z",
+     "text": "63b12234fb: the 9 water shader tests now check the sky-gradient water (fixture binds a black cloud texture and computes PlanetWaterReflection); the cubemap-only test is deleted. Mac batch Unity with graphics: PlanetElementLighting + PlanetS"
     }
    ]
   },
@@ -2564,5 +2569,5 @@
    "notes": []
   }
  ],
- "source_revision": "2b713e6251a1f32b4ae89efac7749bf3a8c9afa8"
+ "source_revision": "40066407db20b28dc552f58fd0bf08d8646c8fbb"
 }
