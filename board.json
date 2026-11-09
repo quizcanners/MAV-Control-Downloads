@@ -3248,6 +3248,11 @@
      "by": "cloud-menu-picture",
      "at": "2026-11-09T19:58Z",
      "text": "Changed per quiz: no new shader, no hard-coded colour. Picture uses Chat/UI/Stream Preview.mat (centre-crops itself); X pieces swap Menu X Opaque Blur -> Blur Display Bluish on open (UI_ExpandMenu._openedMaterial); openedColor back to white"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T20:27Z",
+     "text": "Mac Editor at eac06fdd3b: cmp.sh NEW ERRORS none; BUTTONS Right.prefab UI_ExpandMenu resolves _pictureMaterial = Chat/UI/Stream Preview.mat and _openedMaterial = UI/Shaders/Blur Display Bluish.mat, openedColor white 0.75 (per the cloud revi"
     }
    ]
   },
@@ -3268,5 +3273,5 @@
    "notes": []
   }
  ],
- "source_revision": "eac06fdd3b565f32966aad9e6d5e3a075993e612"
+ "source_revision": "9d67c85b80483813447f1c77e4541cd4ba8a7694"
 }
