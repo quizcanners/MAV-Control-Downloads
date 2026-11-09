@@ -493,11 +493,6 @@
    ],
    "notes": [
     {
-     "by": "heavy",
-     "at": "2026-11-08T17:44Z",
-     "text": "Heavy follow batch on 0ba1362903: cmp.sh NEW ERRORS: none (e/a/p/m). Windows EditMode All 8515 passed, 10 failed, 8 skipped; XML SHA-256 E7DDC750DA9DD7115BE88F810DBB6A21F1F4609C2B7188AA272CB6D07CB75821 at C:/MavControlEvidence/WorkCritical/"
-    },
-    {
      "by": "CLOUD_PERF_AUDIT",
      "at": "2026-11-08T20:50Z",
      "text": "Cloud audit (2026-11-08): NamesCache (24-53 ms) and the Keystore unlocks under CodingFiles, chat pages and labels: every encrypted Load outside a HoldMasterKey scope is its own Android Keystore (StrongBox) unwrap. Startup now holds the mast"
@@ -506,6 +501,11 @@
      "by": "CLOUD_CODING_BOOT",
      "at": "2026-11-09T05:39Z",
      "text": "CodingSceneReady 44 ms cut (cloud, uncompiled, pushed to main): the read worker now validates and hashes every record while parsing (HashOnWorker, CodingScene_Files.cs); EnableScene keeps the hash. Area guide and STARTUP.md updated."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T06:48Z",
+     "text": "CC-E195-01 (P3 complexity/performance): S1 investigation complete. HashOnWorker validates each default record and sets its hash; EnableScene then calls TryValidate on the same untouched loaded records again, including point walks and two un"
     }
    ]
   },
@@ -539,11 +539,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-08T18:30Z",
-     "text": "GETAC handoff: signed Brigade 68 ARM64 Android 814, source 07bcf48b71, exact-source cmp.sh NEW ERRORS: none, Windows EditMode All 8528 passed/0 failed/8 skipped. APK retained on PL-007 at C:/MavControlEvidence/WorkCritical/heavy-batch2-andr"
-    },
-    {
      "by": "mac-touch-scale",
      "at": "2026-11-08T19:51Z",
      "text": "Mobile touch resolution shipped in ed7c670d84. Android and iOS default on with no saved choice; stored choices are preserved."
@@ -552,6 +547,11 @@
      "by": "REVIEW",
      "at": "2026-11-08T19:54Z",
      "text": "Investigation CR-B7D2-01 reconciliation: ed7c670d8 independently source-repairs mobile render-scale release by driving SetInteracting from focused/unpaused held screen touches; telemetry no longer holds mobile half scale. Windows retains th"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T06:48Z",
+     "text": "CR-1B46-01 reconciliation: e4cc71b78 restores the source contract and IDLE_FRAME_RATE to 8 on every power state, so the earlier caption-versus-2-FPS concern no longer applies to that contract. Existing translated captions already said 8; re"
     }
    ]
   },
@@ -1556,11 +1556,6 @@
    ],
    "notes": [
     {
-     "by": "FABLE_MASK_PAGES",
-     "at": "2026-11-09T05:42Z",
-     "text": "Merged 61d8019c to main, uncompiled (cloud). Pages of renderable formats are now RenderTexture arrays (GPU allocation only, no 16 MB buffer upload per new page); compressed imagery keeps the Texture2DArray; the first empty page of a pool is"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-09T05:50Z",
      "text": "Roslyn and Unity reported CS0136 at PlanetTexturePagePool.cs:110. Renamed the allocated texture local in 93bf39ea4e. Corrected the RenderTexture readability assertion in 2bd4cbfad0 while retaining exact GPU slice readbacks. Windows Unity fo"
@@ -1569,6 +1564,11 @@
      "by": "HEAVY",
      "at": "2026-11-09T06:03Z",
      "text": "Private signed Android 817 development APK from f15d27acc4 is retained at C:/MavControlEvidence/WorkCritical/cloud-merged-20261109/MAV_Control_v817_Brig68_DeviceDebug.apk, SHA-256 4f16db35ddf80356043a5bbd1e9ed4e4171a44d2b540c1d0deb2c673eff0"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-09T06:49Z",
+     "text": "Quiz selected a Getac phone for tasks 82, 84, 44 and 64. GETAC: please confirm the phone and provide its reachable ADB endpoint over the existing private route, or confirm USB access on Getac for a local run. A phone with saved Coding scene"
     }
    ]
   },
@@ -1758,6 +1758,11 @@
      "by": "cloud-capsule",
      "at": "2026-11-09T06:12Z",
      "text": "Merged 6d9d542a, uncompiled. UI_GlassSelector now has the standard capsule form (Track + sliding Thumb, Main Screen Quiet Control material, greys and BlurMix .5 are constants at the top of the file to tune by eye). Left for Editor: bash Too"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T06:48Z",
+     "text": "CC-6D9D-01 (P3 complexity): S1 investigation complete. SetSelected already identifies the selected Choice; FindTarget searches Choices for the same value again after retargeting (and again on initial SnapThumb). S2 brief/current code/propos"
     }
    ]
   },
@@ -1770,5 +1775,5 @@
    "notes": []
   }
  ],
- "source_revision": "bd7bc9ac88d25afab13281a758e41dd537085e2a"
+ "source_revision": "51c8592a8be2bdcfd5d0153fa1d575811f8aea11"
 }
