@@ -2225,11 +2225,6 @@
    "notes": [
     {
      "by": "CLOUD_PINCH_817",
-     "at": "2026-11-09T11:04Z",
-     "text": "quiz, 2026-11-09: \"When I do 2-finger zoom the camera isn\u2019t moving smoothly, latest iPhone build (817). Fable level investigation. Delicate manner. It is hard to tell what exactly is wrong. Maybe it is a result of the stutter we have in tho"
-    },
-    {
-     "by": "CLOUD_PINCH_817",
      "at": "2026-11-09T11:05Z",
      "text": "Findings (cloud, read against iPhone 806 = df5183ba32, 817 = 9dae2b6851; 1182 commits between): the solver is one absolute pose per sample, so a jerk is a frame that did not move or took too long. Ranked: (1) planet frames of 240-420 ms dur"
     },
@@ -2237,6 +2232,11 @@
      "by": "GETAC",
      "at": "2026-11-09T11:36Z",
      "text": "cmp.sh NEW ERRORS: none for 7fc8580ceb. No iPhone target available to this Windows/Android worker. Strong 817 Lags at task 88 are an Android baseline, before the pinch fix and without a Half-resolution control. iPhone A/B at 1-5 km and Lags"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T12:19Z",
+     "text": "iOS 818 (4dce0b3f8d) is on TestFlight (internal; external WAITING_FOR_BETA_REVIEW). Built with --skip-tests: the only red in the full All are the 9 water shader tests on task 96. The iPhone check of this task is still open: no phone is reac"
     }
    ]
   },
@@ -2285,5 +2285,5 @@
    ]
   }
  ],
- "source_revision": "42fd9e96d5e8cc02fd88ed480c96f8dae0f50dea"
+ "source_revision": "60ae1f7a5590a3a3b3c3e07d225fafe087bc81c7"
 }
