@@ -427,7 +427,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-08T14:00Z",
-     "noted": "2026-11-09T04:55Z",
+     "noted": "2026-11-09T04:59Z",
      "progress": 80,
      "ticked": 4,
      "total": 5
@@ -458,11 +458,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-08T18:31Z",
-     "text": "Finalise: Copernicus 12760/26450 (48.24 percent), PID 29412 verified live, launcher 33640. The 25 percent step is ticked and 50 percent is at 13225. Only HEAVY claim is this build. Android and Unity tests exited."
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-08T19:08Z",
      "text": "Copernicus crossed 50%: 14,780 of 26,450 committed tiles (55.88%) in a read-only SQLite count. Worker PID 29412 and launcher 33640 are live. Next milestone is 19,838 tiles."
     },
@@ -470,6 +465,11 @@
      "by": "HEAVY",
      "at": "2026-11-09T04:55Z",
      "text": "Full-resolution Copernicus aggregation finished at 01:14 Kyiv time with 26,450/26,450 committed tiles and zero reported errors. Raw output matches its SHA-256 manifest. Preparing the Unity smoke candidate with the existing NOAA underwater d"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-09T04:59Z",
+     "text": "Published 2dfa940d67 on main. Copernicus 26,450/26,450, with 5,529,193 negative NOAA cells verified byte-for-byte in the merged 4096x2048 grid; LFS SHA-256 b668209b374becb2218d4405f2e0ebec9c6b8f04682ffea2905fef1fc213b513. Windows Unity 6000"
     }
    ]
   },
@@ -1463,5 +1463,5 @@
    "notes": []
   }
  ],
- "source_revision": "31f745d3bb446359122a439e3c49ac31dcd94b10"
+ "source_revision": "a8f193dd8cdc1003803adcda67f9d142bc32df5c"
 }
