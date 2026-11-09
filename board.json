@@ -3209,7 +3209,13 @@
    "done": "",
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T19:50Z",
+     "text": "MavChatSheetTests red on main 3bc67c1dca (Mac batch Unity): DividerSettleUsesBoundedReleaseSpeed(10,1.5) expects 1.5 got 1.0, OnlyAFlickCarriesTheFingerSpeedIntoTheSettle expects >0.75 got 0. Likely the fold settle change of task 175; owner"
+    }
+   ]
   },
   {
    "n": 176,
@@ -3228,5 +3234,5 @@
    "notes": []
   }
  ],
- "source_revision": "196aa5df0bee5e7588116c35c0f54c3ad02b65a8"
+ "source_revision": "55d35921262d337e6ebb82f60a88a680f3a72279"
 }
