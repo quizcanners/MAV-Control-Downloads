@@ -1958,8 +1958,14 @@
    "done": "",
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_WM_SIBLINGS",
+     "at": "2026-11-09T09:01Z",
+     "text": "Not done, for whoever picks this up: (1) I did not find the 'fixed zoom blur under the trees' code by name, so the fill reuses BlitParentToChild (bilinear crop) only; if that blur logic exists, use it for the crop. (2) The fill runs when a "
+    }
+   ]
   }
  ],
- "source_revision": "2cde19c9c30c903512e23015d88012d0d03a0196"
+ "source_revision": "33bba67881330795cdb8126910986d1734fa3906"
 }
