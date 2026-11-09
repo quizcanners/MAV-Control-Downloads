@@ -1239,6 +1239,11 @@
      "by": "GETAC",
      "at": "2026-11-08T21:52Z",
      "text": "Fix on main 875a14cc12. Direct cause: both parent paths could encode absent quadrants as opaque black when no prior pixels were available. Deeper reason: the persisted RGB JPEG does not distinguish missing coverage from real black imagery. "
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T04:32Z",
+     "text": "Android Test 816 built from 18626a5f47 including 875a14cc12. Unity native successful, production signer matched 814, embedded identity verified, raw APK 327607670 bytes SHA256 5455d3280c294d01917eacd0cde6eba026963662b09a9d62c4ba8ec5b2eb0e2d"
     }
    ]
   },
@@ -1468,5 +1473,5 @@
    "notes": []
   }
  ],
- "source_revision": "d75afc842989d156bfe6cc775a343e7a9be07abb"
+ "source_revision": "226caa7c5377e6200e7ee8d8ee088eac192b99e4"
 }
