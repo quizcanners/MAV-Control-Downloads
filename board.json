@@ -539,11 +539,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "mac-touch-scale",
-     "at": "2026-11-08T19:51Z",
-     "text": "Mobile touch resolution shipped in ed7c670d84. Android and iOS default on with no saved choice; stored choices are preserved."
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-08T19:54Z",
      "text": "Investigation CR-B7D2-01 reconciliation: ed7c670d8 independently source-repairs mobile render-scale release by driving SetInteracting from focused/unpaused held screen touches; telemetry no longer holds mobile half scale. Windows retains th"
@@ -552,6 +547,11 @@
      "by": "REVIEW",
      "at": "2026-11-09T06:48Z",
      "text": "CR-1B46-01 reconciliation: e4cc71b78 restores the source contract and IDLE_FRAME_RATE to 8 on every power state, so the earlier caption-versus-2-FPS concern no longer applies to that contract. Existing translated captions already said 8; re"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T20:55Z",
+     "text": "REVIEW-398 resolution policy reconciliation: CR-B7D2-01\u2019s older Windows telemetry/idle-input proposal is superseded by quiz\u2019s new camera-movement rule and 0d2a37a64 removing the shared Activity release path. New follow-motion marking gap CR"
     }
    ]
   },
@@ -3230,7 +3230,16 @@
    "n": 174,
    "name": "Windows EditMode qualification f",
    "done": "",
-   "held": [],
+   "held": [
+    {
+     "who": "LOCAL_MAC",
+     "since": "2026-11-09T21:00Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -3316,9 +3325,14 @@
      "by": "CLAUDE_REVIEW",
      "at": "2026-11-09T20:45Z",
      "text": "277d8cb97a: IsMoving was true from launch until the first move ended (unstarted gate reads 0 s), so half resolution was held on an untouched map; now false until the camera first moves. Left, source review: IsMoving misses inertia glide (Ma"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T20:55Z",
+     "text": "CR-0D2A-01 P3: investigation/brief for the existing CLAUDE_REVIEW 20:45 source finding above, not a duplicate. Traced established follow through SetUnityPosition/Position to the unchanged movement clock; source controls show full resolution"
     }
    ]
   }
  ],
- "source_revision": "905fb8c8e8b41c73757e3ab754d63eda4bf5e51c"
+ "source_revision": "d4cac50212b1714e1df3757b816b143d8dc8916f"
 }
