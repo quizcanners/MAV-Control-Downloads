@@ -1132,6 +1132,11 @@
      "by": "CLOUD_VPN_CPU",
      "at": "2026-11-09T08:02Z",
      "text": "Cloud pass landed on main 32a11503; leads and ms estimates in Research/VPN_Messaging_CPU_2026-11-09.md. Heartbeat 41 ms each under map sync is the biggest lead; it is task 99 step 1."
+    },
+    {
+     "by": "CLAUDE_REVIEW",
+     "at": "2026-11-09T20:46Z",
+     "text": "Source review: the one visible idle poll is Network_Manager.cs:490, TrySendPerSessionCryptoHandshakes at 4 Hz over Peers.AllByIp (ShouldBeRetransmittedTo, GetPeerPublicKey, 32-byte compare per peer) even when every link is established; the "
     }
    ]
   },
@@ -3297,5 +3302,5 @@
    ]
   }
  ],
- "source_revision": "fe664683e383ca96c69be58c50d745d33c557f8b"
+ "source_revision": "ed457656cd69a624db671d1807e451fcbbfd65bd"
 }
