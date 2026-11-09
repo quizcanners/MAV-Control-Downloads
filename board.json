@@ -2963,8 +2963,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-09T19:19Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-09T19:22Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -2974,17 +2974,17 @@
     {
      "by": "REVIEW",
      "at": "2026-11-09T18:15Z",
-     "text": "CR-FC71-02 P2: S1 investigation complete, then S2 brief/suggestion/current and proposed snippets: a moved waypoint can take its old location\u2019s height. Proposal awaits quiz before implementation; retain existing claims, completions and nativ"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-09T18:15Z",
      "text": "CC-FC71-01 P3 complexity investigation: S1 investigation complete, then S2 brief/suggestion/current and proposed snippets: the FIFO List copies its remaining ray backlog each batch. Proposal awaits quiz before implementation; retain existin"
     },
     {
      "by": "LOCAL_MAC",
      "at": "2026-11-09T18:16Z",
      "text": "d75bbd072e: Mac batch Unity, batched raycasts compiled (cmp.sh NEW ERRORS none). Waypoint/Polyline/Photo/StreetView/Trench/Gizmo/Convergence/ground tests 519/520 pass, 0 fail; the 8 reds were stale tests (traversal _deadline -> TimedSlice, "
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-09T19:22Z",
+     "text": "Windows native Play profile: isolated 90-frame workload submitted 128 requests per frame, cancelled 32 before schedule, and observed 96 live rays per flight, 8,544 hits, zero misses or pending. Retained export shows one BatchQuery.ResultsJo"
     }
    ]
   },
@@ -3128,5 +3128,5 @@
    "notes": []
   }
  ],
- "source_revision": "d18e2567fe1f60aa12955fb755b868eefde7a02e"
+ "source_revision": "89b636e8b2bf9e8fff62238368c24e2d027ad8b4"
 }
