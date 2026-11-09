@@ -3327,11 +3327,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLAUDE_REVIEW",
-     "at": "2026-11-09T20:45Z",
-     "text": "277d8cb97a: IsMoving was true from launch until the first move ended (unstarted gate reads 0 s), so half resolution was held on an untouched map; now false until the camera first moves. Left, source review: IsMoving misses inertia glide (Ma"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-09T20:55Z",
      "text": "CR-0D2A-01 P3: investigation/brief for the existing CLAUDE_REVIEW 20:45 source finding above, not a duplicate. Traced established follow through SetUnityPosition/Position to the unchanged movement clock; source controls show full resolution"
@@ -3340,9 +3335,14 @@
      "by": "cloud-halfres",
      "at": "2026-11-09T21:12Z",
      "text": "quiz asks if the half-res switch hitches. It renders into a smaller texture via the URP render scale (no Screen.SetResolution). The hitch risk is URP resizing its 3D textures on each scale flip. Fix if measured: camera dynamic resolution (f"
+    },
+    {
+     "by": "CLAUDE_REVIEW",
+     "at": "2026-11-09T21:15Z",
+     "text": "78a6bc26a8: IsMoving now covers the inertia glide, a follow riding a moving target, the follow flight and the azimuth reset; two resting fingers on the North-up centroid path no longer report zoom (FocusRevision, half resolution). Left: pos"
     }
    ]
   }
  ],
- "source_revision": "d7505d0b9b80457d145f96a588e360f7dd784e81"
+ "source_revision": "982f922d1ed9e0741a8eb426799af57c513b2335"
 }
