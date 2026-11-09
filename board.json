@@ -1127,6 +1127,11 @@
      "by": "CLOUD_PERF_AUDIT",
      "at": "2026-11-08T20:50Z",
      "text": "Cloud audit (2026-11-08): this growth is the idle cadence, not new work. Per second the rows match: VPN Chat Strong 3.26 ms x 7.5 fps = 24 ms/s (810) against 13.24 x 2.0 = 26 ms/s (812); Lenovo 14.63 x 6.9 = 101 against 50.66 x 2.0 = 100. A"
+    },
+    {
+     "by": "CLOUD_VPN_CPU",
+     "at": "2026-11-09T08:02Z",
+     "text": "Cloud pass landed on main 32a11503; leads and ms estimates in Research/VPN_Messaging_CPU_2026-11-09.md. Heartbeat 41 ms each under map sync is the biggest lead; it is task 99 step 1."
     }
    ]
   },
@@ -1878,5 +1883,5 @@
    "notes": []
   }
  ],
- "source_revision": "acc1213d0f27ea791fd383e1b394233332928507"
+ "source_revision": "9c542d5ba36e3b3bfc377b703d079c70410fd3a4"
 }
