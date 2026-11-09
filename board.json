@@ -2114,19 +2114,14 @@
     {
      "who": "CODEX_UI_OWNER",
      "since": "2026-11-09T14:02Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-09T14:14Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_UI_OWNER",
-     "at": "2026-11-09T10:07Z",
-     "text": "Source starting points: UI_MapZoomScroll owns touch acquisition, target-relative step buttons, drag and repeat ticks; its current drag and tick layout assume the X axis. MavChat layout comes from UI_MavChatSheet (Frame, Divider, IsFolded) a"
-    },
     {
      "by": "CODEX_UI_OWNER",
      "at": "2026-11-09T10:08Z",
@@ -2136,6 +2131,11 @@
      "by": "CODEX_UI_OWNER",
      "at": "2026-11-09T13:33Z",
      "text": "Paused before implementation at quiz request to handle Editor compile, notification square and test batch. No source edits. Continue from existing task handoff."
+    },
+    {
+     "by": "CODEX_UI_OWNER",
+     "at": "2026-11-09T14:14Z",
+     "text": "Implemented folded vertical zoom from shared zoom-control components in 3c812d4daf; drag up zooms in and down zooms out, hidden outside folded view. Unity Editor compile passed; MavChatSheet and zoom tick EditMode 91/91 passed; post-sync Ro"
     }
    ]
   },
@@ -2417,6 +2417,11 @@
      "by": "CODEX_UI_OWNER",
      "at": "2026-11-09T13:57Z",
      "text": "Mac Editor b47481540d: Unity compiled and cmp.sh NEW ERRORS none with GPS DebugSimulation removed. No device build or GPS device check was requested."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T14:06Z",
+     "text": "CR-DDCB-01 P2: S1 investigation and S2 brief complete; native-only sharing return omits the selected manual fallback; select existing ManualOrigin at the broadcaster. Proposal awaits quiz before implementation; existing claims/completions a"
     }
    ]
   },
@@ -2431,6 +2436,11 @@
      "by": "CODEX_UI_OWNER",
      "at": "2026-11-09T13:58Z",
      "text": "Mac Editor b47481540d: stale blur tests updated for immediate capsule and notification presentation; MavChatSheetTests 89/89 and NotificationRendererBindingTests 16/16 passed."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T14:06Z",
+     "text": "CR-77DB-01 P3 investigation: S1 investigation and S2 brief complete; instant notification change is global while current guide scopes the exception to MavChat; reconcile at the existing decision. Proposal awaits quiz before implementation; "
     }
    ]
   },
@@ -2445,6 +2455,16 @@
      "by": "cloud-thread-og9ite",
      "at": "2026-11-09T13:46Z",
      "text": "Done: long-press on an edited route's line inserts a vertex and drags it (Station_Waypoints_EditingUpdate.cs TryPointRouteLine). Left: device look at the insert + Valhalla check + dark backdrop (items 1-4 of the brief)."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T14:06Z",
+     "text": "CR-CB3B-01 P2: S1 investigation and S2 brief complete; explicit current GPS gaps match the legacy heuristic and become false connecting lines; preserve connection flags. Proposal awaits quiz before implementation; existing claims/completion"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T14:06Z",
+     "text": "CR-CCC0-01 P2: S1 investigation and S2 brief complete; screen-space t is used as world-space t for route insertion; perspective-correct fraction sketch. Proposal awaits quiz before implementation; existing claims/completions and handoffs re"
     }
    ]
   },
@@ -2491,6 +2511,11 @@
      "by": "CODEX_UI_OWNER",
      "at": "2026-11-09T13:58Z",
      "text": "Mac Editor b47481540d: Unity compiled and cmp.sh NEW ERRORS none; SwipeIntentTests 2/2 passed. Phone gesture feel remains outside this batch."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T14:06Z",
+     "text": "CR-850B-01 P2: S1 investigation and S2 brief complete; tracker resets after threshold crossing and can lose a short flick\u2019s only timed movement; capture the owning press/release. Proposal awaits quiz before implementation; existing claims/c"
     }
    ]
   },
@@ -2500,7 +2525,13 @@
    "done": "",
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T14:06Z",
+     "text": "CC-72E8-01 P3 complexity: S1 investigation and S2 brief complete; static grabber has a runtime pixel/sprite/hierarchy factory; prefer authored prefab child. Proposal awaits quiz before implementation; existing claims/completions and handoff"
+    }
+   ]
   },
   {
    "n": 131,
@@ -2533,5 +2564,5 @@
    "notes": []
   }
  ],
- "source_revision": "da1cced839175b79d288d326aa3bc31a578d4207"
+ "source_revision": "1f629cd4018623043da2ab770cea9c993956517e"
 }
