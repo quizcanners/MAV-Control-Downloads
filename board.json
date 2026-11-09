@@ -1610,7 +1610,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-09T07:23Z",
-     "noted": "",
+     "noted": "2026-11-09T07:29Z",
      "progress": 67,
      "ticked": 2,
      "total": 3
@@ -1640,6 +1640,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T07:10Z",
      "text": "e4f1927f2b: chunks are rows of PlanetMasks/chunks.sqlite on the new shared RecordVault (Systems/Record Vault, so the RecordVault extraction of task 87 is done). Payload = the old .pmk bytes. Legacy .pmk stay readable (row, else file); the s"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-09T07:29Z",
+     "text": "Task 86 Windows follow-up 51aac8da49. Chunk rows and metadata catalog remain in chunks.sqlite, separate from masks.sqlite. Shared RecordVault.ImportLegacyBatch commits small FULL-sync transactions, reads the retained payload back, and only "
     }
    ]
   },
@@ -1838,5 +1843,5 @@
    ]
   }
  ],
- "source_revision": "d2e71dd23907457e33e3850ec0ba33b8d283bbd4"
+ "source_revision": "2bb2b028fb8018fd18fa1c9d14f0a34a9fb9ae16"
 }
