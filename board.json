@@ -1518,7 +1518,7 @@
     {
      "who": "FABLE_MASK_PAGES",
      "since": "2026-11-09T05:38Z",
-     "noted": "",
+     "noted": "2026-11-09T05:42Z",
      "progress": 80,
      "ticked": 4,
      "total": 5
@@ -1546,7 +1546,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "FABLE_MASK_PAGES",
+     "at": "2026-11-09T05:42Z",
+     "text": "Merged 61d8019c to main, uncompiled (cloud). Pages of renderable formats are now RenderTexture arrays (GPU allocation only, no 16 MB buffer upload per new page); compressed imagery keeps the Texture2DArray; the first empty page of a pool is"
+    }
+   ]
   },
   {
    "n": 83,
@@ -1565,5 +1571,5 @@
    "notes": []
   }
  ],
- "source_revision": "458846573cc1403b53fb0af9c1434a2457631a32"
+ "source_revision": "8947bff03ed5e7abb1e2c6409db25a59cfb39226"
 }
