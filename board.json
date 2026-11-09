@@ -1890,11 +1890,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-09T10:00Z",
-     "text": "Investigation CR-D21E-01: P3 confirmed generator math defect: Mathf.SmoothStep(0.45,0.75,noise) interpolates those endpoints, so the cloud mask never opens to zero; host model bytes 119..177. S1 complete; S2 normalize thresholds then smooth"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-09T10:13Z",
      "text": "Mac batch Unity with graphics at 0ff2781c5c (851 tests over Planet, mask, encryption, WM sync, Coding Scene, envelope reader): 9 water failures, all expecting the old water = unchanged sky-cubemap sample, now the gradient + generated clouds"
@@ -1903,6 +1898,11 @@
      "by": "GETAC",
      "at": "2026-11-09T11:42Z",
      "text": "Current source compiled in Windows Unity and imported PlanetSurface.hlsl. Strong Dev 817 High and Low globe rendered, but no confirmed water-mask view or matched Windows High sun-highlight sample was captured. Planet shader variant qualific"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T12:05Z",
+     "text": "These 9 water tests are now the only red in the full All (Mac, 211e7ef19) and they block the build gate: the iOS daily ran with --skip-tests to ship 818. Whoever owns the water look: delete or rewrite them from SHADING.md's new water contra"
     }
    ]
   },
@@ -2285,5 +2285,5 @@
    ]
   }
  ],
- "source_revision": "bad766eaedc51de6019ecc41cb5386850b22edbb"
+ "source_revision": "42fd9e96d5e8cc02fd88ed480c96f8dae0f50dea"
 }
