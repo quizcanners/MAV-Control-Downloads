@@ -907,11 +907,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLOUD_WM_PLUGS",
-     "at": "2026-11-09T10:01Z",
-     "text": "Plug list removed (uncompiled, cloud): PeerPlugCache/PlugId/SetPassPlug/DrillPass/Plug struct gone; root verdict is SyncUpdateState.PeerHasNewer (set in ReturnFrame at zoom 0, cleared at StartRootPass, on local change path, on peer's differ"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-09T11:36Z",
      "text": "Roslyn NEW ERRORS: none, including Editor, Android, standalone and asmdef modes, against the Dev 817 source baseline. Fixed the .NET 8 drill-priority host harness to run the production pass predicate (d8b8d5acc7); it passes. Device verifica"
@@ -920,6 +915,11 @@
      "by": "GETAC",
      "at": "2026-11-09T11:54Z",
      "text": "Windows Unity 6000.6.8f1 isolated EditMode: WebMercatorFinestTiles (includes DrillDecisions) 281/281, IndexPaging 73/73, MemoryLedger 5/5. Standalone test_map_drill_priority.py on .NET 8 passes after harness fix d8b8d5acc7. Current-build pa"
+    },
+    {
+     "by": "CODEX_UI_OWNER",
+     "at": "2026-11-09T13:56Z",
+     "text": "Mac Editor b47481540d: cmp.sh NEW ERRORS none; DrillDecisions 17/17, MemoryLedger 5/5, IndexPaging 71 passed and two Windows-only skipped. test_map_drill_priority.py passed (dotnet 8)."
     }
    ]
   },
@@ -2513,5 +2513,5 @@
    "notes": []
   }
  ],
- "source_revision": "c3450a3104e66515ec882edb4794ccb64e3e3ccc"
+ "source_revision": "ab2cc9c826bd7b46668995282021f4bd606b7778"
 }
