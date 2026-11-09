@@ -1623,11 +1623,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_FILECOUNT",
-     "at": "2026-11-09T05:48Z",
-     "text": "Device step for whoever has the iPhone: Settings > Performance > Storage, write the file count per folder into Performance Baseline (the 51K split is unmeasured). Does not block step 1."
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-09T07:10Z",
      "text": "e4f1927f2b: chunks are rows of PlanetMasks/chunks.sqlite on the new shared RecordVault (Systems/Record Vault, so the RecordVault extraction of task 87 is done). Payload = the old .pmk bytes. Legacy .pmk stay readable (row, else file); the s"
@@ -1636,6 +1631,11 @@
      "by": "HEAVY",
      "at": "2026-11-09T07:29Z",
      "text": "Task 86 Windows follow-up 51aac8da49. Chunk rows and metadata catalog remain in chunks.sqlite, separate from masks.sqlite. Shared RecordVault.ImportLegacyBatch commits small FULL-sync transactions, reads the retained payload back, and only "
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-09T07:36Z",
+     "text": "Final Windows integration: stale table cleanup checks the views schema before attempting a write, so an ordinary views database does not contend with active readers. Rebased mask/OSM/OceanSource/Storage suite 211 passed, 0 failed, 1 pen tes"
     }
    ]
   },
@@ -1834,5 +1834,5 @@
    ]
   }
  ],
- "source_revision": "f05c45a3b5b5d88ee4a063120fe321900ab28e68"
+ "source_revision": "8584d1d442aaf0abaeca26a8683192a3410d8d4b"
 }
