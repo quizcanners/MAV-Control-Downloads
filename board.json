@@ -1693,7 +1693,41 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 93,
+   "name": "Idle option holds 8 fps whenever",
+   "done": "",
+   "held": [
+    {
+     "who": "CLOUD_IDLE_FPS",
+     "since": "2026-11-09T06:05Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
+   "steps": [
+    {
+     "t": "Remove the exceptions in code",
+     "x": false
+    },
+    {
+     "t": "cmp.sh ends NEW ERRORS: none",
+     "x": false
+    },
+    {
+     "t": "Device: option on, hands off 30 s, Diagnostics and compass FPS read 8 on charger",
+     "x": false
+    },
+    {
+     "t": "Ask quiz: reword older 2026-11-08 lines (2 fps, telemetry)",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
- "source_revision": "2a1af6ac5ae123555ef6cdf8f047471168aff3d5"
+ "source_revision": "49f3a3800ee67261968e86d0a06e9d0d70ab1640"
 }
