@@ -2316,11 +2316,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "cloud-hunt",
-     "at": "2026-11-09T12:25Z",
-     "text": "Quote (quiz, 2026-11-09): \"One more thing. Start a hunt for premature budgeting or optimisations. There might be things we could do instantly on demand and not spread them over frames. So we could optimise work instead of delaying\""
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-09T12:38Z",
      "text": "71a0e835a3: #1 power-line LOD paths (RefreshLods) and #2 waypoint trails (<=1024 vertices) now build at once; tests 233/233 on Mac. Kept on purpose: #1 towers (WireChunk.Build creates and uploads a mesh per tile) and #3 group logos (main-th"
@@ -2329,6 +2324,11 @@
      "by": "cloud-hunt",
      "at": "2026-11-09T12:53Z",
      "text": "Applied quiz's rule (2026-11-09): timed 1 ms loops for tower tiles and chat logos (LOD rebuild already unbudgeted by task 121); UnoptimizedProcess 1->5 and Raycasts 20->100 for the non-contained gates (waypoint trail, snapshot start, elevat"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T12:55Z",
+     "text": "CC-A106-01 P3 complexity: S1 investigation and S2 brief complete. Kropyva now finishes in one update but retains its 512-point continuation loop and manager cursors; local region-loop sketch keeps atomic admission and final diagnostic count"
     }
    ]
   },
@@ -2382,15 +2382,21 @@
     {
      "who": "codex-marker-models",
      "since": "2026-11-09T12:49Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-09T12:57Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "codex-marker-models",
+     "at": "2026-11-09T12:57Z",
+     "text": "Done: 5aed090f8f creates Vehicle and Cannon FBXs/materials/Blender sources/previews plus shared generator; published via 4c141fda8e. Modeling 3D guide updated."
+    }
+   ]
   }
  ],
- "source_revision": "b4c461f8ac9c93f6dca0ab71ba371111da33b1ee"
+ "source_revision": "c48cfe5e67a30b4a18da8d89ff6a809f49e423c3"
 }
