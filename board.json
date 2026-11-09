@@ -3288,6 +3288,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T20:26Z",
      "text": "a0a858545b: I: App Library Icon cloned under B_Workflows/Scale Root/Content (before I: Workflow Icon, same material, App Library sprite) and bound to UI_ShowWorkflows._libraryIcon (Tools/PrefabEdits/workflow-library-icon.json). SymbolicIcon"
+    },
+    {
+     "by": "cloud",
+     "at": "2026-11-09T21:43Z",
+     "text": "Changed 2026-11-09: no second Image and no prefab wiring needed. The code now puts the fixed AppLibrary sprite on the existing 'I: Workflow Icon' image. Editor/phone only: run SymbolicIconTests, check in Play that the Menu's workflow tab sh"
     }
    ]
   },
@@ -3351,5 +3356,5 @@
    ]
   }
  ],
- "source_revision": "0f04cce4dfff0719cc572ed05c6d48d5eb834323"
+ "source_revision": "f0ba6540f9f642068d5429b2d389daf1b85bb7c4"
 }
