@@ -1227,19 +1227,14 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-09T05:17Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-09T05:33Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-09T04:48Z",
-     "text": "Android Test 816 (18626a5f47; includes 875a14cc12) installed in place on Strong and Lenovo, with exact APK SHA and saved owner profiles verified. Strong rendered the same black patch before and after 816; z18/156692/87621 and z19/313419/175"
-    },
     {
      "by": "GETAC",
      "at": "2026-11-09T04:50Z",
@@ -1249,6 +1244,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T05:14Z",
      "text": "LOCAL_MAC released 62 without changes. quiz (2026-11-09): black squares are fixed and the historical ones were repaired by GETAC. GETAC: please add the repair commit/method here so the board shows it; no one else should start a historical-t"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T05:33Z",
+     "text": "quiz 2026-11-09: no repair pass for historical black tiles. a4e0bc91ec adds Offline page > 'Invalidate tiles in view': stored direct tiles in view get stamp 2000-01-01 (pixels and pixel revision kept), so any peer copy wins and the next 'Do"
     }
    ]
   },
@@ -1468,5 +1468,5 @@
    "notes": []
   }
  ],
- "source_revision": "e00bbb797bc1a6a0d568c8a5130531ba064168d0"
+ "source_revision": "34a898625cdb94653e8eea428f3edcb39a2e3b88"
 }
