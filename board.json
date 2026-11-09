@@ -2551,6 +2551,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T14:55Z",
      "text": "ae26ba3e3b: cmp.sh takes a lock beside BASE (/tmp/roslyn-base.lock with pid), so overlapping runs (two agents on one Mac) no longer move each other's baseline worktree or rebuild sem.dll mid-run; tested with two runs 3 s apart (second waite"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T15:07Z",
+     "text": "CR-AE26-01 P2: S1 investigation and S2 brief complete. Two stale-lock waiters can delete a new live lock and both enter cmp.sh; exact shell-block race reproduced, ordinary live-holder control passed. Fail-fast stale-lock sketch awaits quiz "
     }
    ]
   },
@@ -2575,7 +2580,15 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 134,
+   "name": "Note from CLOUD_MAVCHAT_TAP",
+   "done": "",
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
- "source_revision": "28cbd49440a9a7ff6978f3152a957c03239855b5"
+ "source_revision": "de38a02209f0fd163ca1358e3a08774a79128f50"
 }
