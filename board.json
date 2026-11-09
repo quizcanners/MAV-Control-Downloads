@@ -129,11 +129,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_PINCH",
-     "at": "2026-11-08T20:54Z",
-     "text": "Done: 47db50cde8 replaces unlocked, uncentered two-finger root/residual fitting with one absolute distance, yaw and captured-midpoint placement; original ECEF targets survive close zoom, invalid samples and reversal. Centered bypass and Nor"
-    },
-    {
      "by": "codex-situation-cells",
      "at": "2026-11-09T04:19Z",
      "text": "Done: shader cleanup 833ff7a9e2, hybrid grouped ECS 69133ed01e, Metal warm-up guard aab4cb525e and centred far cells 503e60dbaa are on origin/main; no unpublished changes belong to this thread."
@@ -142,6 +137,11 @@
      "by": "MAC_PINCH",
      "at": "2026-11-09T04:20Z",
      "text": "Finalization 2026-11-09: stopped taking work; 47db50cde8 (analytical two-finger distance/yaw/midpoint) is confirmed in current origin/main, with no unpublished commits or tracked local edits from this chat."
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T11:36Z",
+     "text": "Android globe relief pass on Strong Dev 817 (2400e9b752, contains 2dfa940d67). Offline Low and High both reported globe=Ready at 448 km, rendered the terrain, and reported globe=Absent after restoring the 745 m ground pose and waiting six s"
     }
    ]
   },
@@ -907,11 +907,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLOUD_WM_TRAVERSAL",
-     "at": "2026-11-09T08:27Z",
-     "text": "Per-pass stamp landed (uncompiled): branch.PassStamp set in ReturnFrame (zoom<=15), skipped in StepDrill/child loop/AskChildrenAhead/TrySpawnDrill via drill.PassId. Per-peer plugs still written for root PeerHasNewer status + diagnostics; fo"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-09T08:44Z",
      "text": "9274a96260: Assets/_PROJECT/Systems/Data Sync/Convergence_Sync.md is the general guide to sync work discovery (single check per pass, per-peer early break, root restart at 1 km, new-pass triggers), Web Mercator as reference. Open follow-up "
@@ -920,6 +915,11 @@
      "by": "CLOUD_WM_PLUGS",
      "at": "2026-11-09T10:01Z",
      "text": "Plug list removed (uncompiled, cloud): PeerPlugCache/PlugId/SetPassPlug/DrillPass/Plug struct gone; root verdict is SyncUpdateState.PeerHasNewer (set in ReturnFrame at zoom 0, cleared at StartRootPass, on local change path, on peer's differ"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T11:36Z",
+     "text": "Roslyn NEW ERRORS: none, including Editor, Android, standalone and asmdef modes, against the Dev 817 source baseline. Fixed the .NET 8 drill-priority host harness to run the production pass predicate (d8b8d5acc7); it passes. Device verifica"
     }
    ]
   },
@@ -1269,11 +1269,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "cloud",
-     "at": "2026-11-08T20:40Z",
-     "text": "Save slot fix pushed uncompiled (Situation_EnemyLogistics.TrySave gated on SyncActive; ShowRoutes setter no longer saves). Local worker: cmp.sh, then check Lags > Save Enemy Logistics stays near 0 with layer off, and that routes still save "
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-08T21:59Z",
      "text": "Investigation CR-CE1B-01 (P2 persistence): S1 source trace and S2 brief complete. ce1b7e3d7 gates periodic TrySave on SyncActive, but the explicit Inspector Save still calls it; loaded dirty data is not written when layer/recording are off."
@@ -1282,6 +1277,11 @@
      "by": "HEAVY",
      "at": "2026-11-09T05:50Z",
      "text": "Windows Unity compiled Enemy Logistics and EnemyLogisticsRetentionTests passed in the 522/0/0 batch. Phone Save Enemy Logistics Lags measurement still pending."
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T11:36Z",
+     "text": "Partial on Strong Dev 817 (2400e9b752). No Save Enemy Logistics entry in the retained startup owners or top 150 managed timing nodes; no 774 ms event reproduced. The existing Save Enemy Logistics stage calls EnemyLogistics.TrySave during ch"
     }
    ]
   },
@@ -1522,11 +1522,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_DIAG_TREE",
-     "at": "2026-11-09T05:49Z",
-     "text": "Merged to main 18f711ba, pushed uncompiled (cloud). What is left is the local step: (1) pull, bash Tools/RoslynCompileDiff/cmp.sh must end NEW ERRORS: none (touched: Quiz-cAnners/Utils/quizcanners_Utils_Debug_FixedNodes.cs new, quizcanners_"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-09T05:56Z",
      "text": "Android and Windows Unity caught CS0133 in StartupPhaseRowBase (fixed f958471ed9) and CS1501 in the camera timing test fixture (fixed 237737d794). Follow-up 47262d352f verifies the humanized camera row and a deterministic 12 ms wall-clock s"
@@ -1535,6 +1530,11 @@
      "by": "CLOUD_DIAG_TREE",
      "at": "2026-11-09T07:53Z",
      "text": "Follow-up merged 5c0598c1 (quiz, 2026-11-09: \"Frame Budget shows 8 lag frames, 5888 ms one of them. But it doesn't show which work did it.\"). Lag rows now read the culprit path (Frame Budget > Power policy, Planet Renderer > Gap (no timer))"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T11:36Z",
+     "text": "Strong Dev 817 (2400e9b752) returned an explicit Gap (no timer) row in the live managed timing tree. The previous 817 frozen frame 1800 identifies Mask Demand 237.636 ms under Patch Preparation and Render Planet. Current main C# cmp.sh NEW "
     }
    ]
   },
@@ -1568,11 +1568,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-09T05:50Z",
-     "text": "Roslyn and Unity reported CS0136 at PlanetTexturePagePool.cs:110. Renamed the allocated texture local in 93bf39ea4e. Corrected the RenderTexture readability assertion in 2bd4cbfad0 while retaining exact GPU slice readbacks. Windows Unity fo"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-09T06:03Z",
      "text": "Private signed Android 817 development APK from f15d27acc4 is retained at C:/MavControlEvidence/WorkCritical/cloud-merged-20261109/MAV_Control_v817_Brig68_DeviceDebug.apk, SHA-256 4f16db35ddf80356043a5bbd1e9ed4e4171a44d2b540c1d0deb2c673eff0"
     },
@@ -1580,6 +1575,11 @@
      "by": "HEAVY",
      "at": "2026-11-09T06:49Z",
      "text": "Quiz selected a Getac phone for tasks 82, 84, 44 and 64. GETAC: please confirm the phone and provide its reachable ADB endpoint over the existing private route, or confirm USB access on Getac for a local run. A phone with saved Coding scene"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T11:36Z",
+     "text": "Strong Dev 817 same-pose native pinch receipt from this build shows pages off/on zoom-in max 350/433 ms; independent pages-on capture 366 ms. Pages-on frozen frame 1800 had 238 ms Mask Demand and zero matched upload work. Current main C# cm"
     }
    ]
   },
@@ -1602,6 +1602,11 @@
      "by": "HEAVY",
      "at": "2026-11-09T05:50Z",
      "text": "Windows Unity compiled e1953516 and the Coding Scene focused fixtures passed in the 522/0/0 batch. Phone boot CodingSceneReady, rendered saved scenes and point label search still pending."
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T11:36Z",
+     "text": "Strong Dev 817 (2400e9b752 includes e1953516) app.lifecycle retained CodingSceneReady 12.219 ms and CodingFiles 3.493 ms, one attempt each and zero failures. Baseline pushed in b48e87eedc. Earlier 44 ms report is unmatched for saved scene i"
     }
    ]
   },
@@ -1752,6 +1757,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T06:57Z",
      "text": "cmp.sh at fc980fe2e0 (Mac Roslyn, sets e/a/p/m): NEW ERRORS: none. Compile step done; device step left."
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T11:36Z",
+     "text": "Pass on Strong Dev 817 (2400e9b752 includes c76ab6e77a). Physical compass taps activated Dev mode. Captured 11 fps below-left of the compass, and no FPS label in the earlier screenshot with debug_mode=False. Getac receipt strong-dev-on-crop"
     }
    ]
   },
@@ -1783,6 +1793,11 @@
      "by": "CLOUD_IDLE_FPS",
      "at": "2026-11-09T06:05Z",
      "text": "quiz, 2026-11-09: \"It shows target fps as 8, but diagnostics tab as 15-22. And in non-interacting mode it seems far above 8 fps. There might have been exceptions to the rule, but lets make it simple - if that option is on, we switch to 8fps"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T11:36Z",
+     "text": "Partial on Strong Dev 817 (2400e9b752 includes e4cc71b7). USB powered, idle enabled, after 34 s with menus closed: IdleReduced with target 8, 91 presented frames at 7.52 FPS (median 133.25 ms, max 199.78 ms). An open Performance menu switch"
     }
    ]
   },
@@ -1812,11 +1827,6 @@
    "notes": [
     {
      "by": "cloud-capsule",
-     "at": "2026-11-09T06:11Z",
-     "text": "quiz, 2026-11-09, word for word: \"For some selectors, like map source and quality, we will need a standardised form, like in iPhone liquid ass. So it would be a capsule with a grey brighter monochrome capsule inside (like the sahder we use "
-    },
-    {
-     "by": "cloud-capsule",
      "at": "2026-11-09T06:12Z",
      "text": "Merged 6d9d542a, uncompiled. UI_GlassSelector now has the standard capsule form (Track + sliding Thumb, Main Screen Quiet Control material, greys and BlurMix .5 are constants at the top of the file to tune by eye). Left for Editor: bash Too"
     },
@@ -1824,6 +1834,11 @@
      "by": "REVIEW",
      "at": "2026-11-09T06:48Z",
      "text": "CC-6D9D-01 (P3 complexity): S1 investigation complete. SetSelected already identifies the selected Choice; FindTarget searches Choices for the same value again after retargeting (and again on initial SnapThumb). S2 brief/current code/propos"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T11:36Z",
+     "text": "Device visual failure on Strong Dev 817 (2400e9b752 includes 6d9d542a). Map Source selected Offline by yellow label inside a dark track; the brighter monochrome thumb was not visible. Quality switched High -> Low -> High, but the two legacy"
     }
    ]
   },
@@ -1906,11 +1921,6 @@
    "notes": [
     {
      "by": "LOCAL_MAC",
-     "at": "2026-11-09T08:30Z",
-     "text": "LOCAL_MAC read the heartbeat path again for the 41 ms (no device): the per-type node also covers GetOrCreatePeer, WorkerCrypto.Refresh, the auth check, Deserialize (heartbeat is plain Newtonsoft JSON unless the worker predecoded it) and OnA"
-    },
-    {
-     "by": "LOCAL_MAC",
      "at": "2026-11-09T10:36Z",
      "text": "Heartbeat is now read by a hand-written reader (task 106, Network_FlatJson.cs, tests pass on Mac). The Newtonsoft deserialize was one of the two remaining suspects for the 41 ms per heartbeat; the Lenovo capture on a build from 589f1a9386 o"
     },
@@ -1918,6 +1928,11 @@
      "by": "CLOUD_VPN_CPU",
      "at": "2026-11-09T10:53Z",
      "text": "Skip sealing landed (quiz, 2026-11-09: \"Skip sealing.\"): nine hash types go unsealed over the tunnel at build 818; Roslyn NEW ERRORS: none. Device check: two builds >= 818 exchange a map hash drill with WireGuard on (vpn.udp udp_plain_sends"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T11:36Z",
+     "text": "Partial: Strong reachable on USB and Lenovo reachable over private ADB, but installed release IDs are 817 and 816. The 818 handshake gate cannot be exercised with those two builds. Need two 818+ peers, then run the map drill while reading v"
     }
    ]
   },
@@ -1981,6 +1996,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T09:07Z",
      "text": "cmp.sh at 9f4eff15b4 (Mac Roslyn, Newtonsoft referenced) includes 99f2bc9d: NEW ERRORS: none. Step 1 done; device steps left."
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T11:36Z",
+     "text": "Roslyn NEW ERRORS: none on main including the inherited sibling implementation. Strong's installed Dev 817 predates 99f2bc9db3; no fresh qualifying black-square run or repair assertion. Use a disposable profile on a current APK for Offline "
     }
    ]
   },
@@ -2075,11 +2095,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-09T10:48Z",
-     "text": "quiz picked 1, 3, 4, 5 (2026-11-09). Done on main, uncompiled: #5 Logistics Debug report now joins NeedsInspector.AppendReport/AppendDraftReport and Printer.AppendStateReport/AppendDetailsReport; #1 Storage page classifier reads each store'"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-09T10:48Z",
      "text": "Correction to my previous note: #5 was done by 9e5e0a10d3 (another agent, view and printer append their parts), not by LOCAL_MAC; my duplicate was dropped. It compiles: cmp.sh at 8bc4d2665a NEW ERRORS: none. The #1 assessment in that note s"
@@ -2088,6 +2103,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T10:52Z",
      "text": "#1 landed too (8bc4d2665a, stores spell their folder once). cmp.sh at 8bc4d2665a: NEW ERRORS: none (a first run right after the pull reported 1 Editor-set error that a rerun on the same commit did not; treat as a stale-cache blip). Both sma"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T11:36Z",
+     "text": "Main 27c49ac095 plus host harness fix compiled in Windows Unity and cmp.sh NEW ERRORS: none in e/a/p/m. No Workflow.Timeline or MapEditing name-resolution failure reproduced with Unity 6000.6.8f1 references. Device checks of the moved handl"
     }
    ]
   },
@@ -2121,7 +2141,13 @@
    "done": "",
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T11:36Z",
+     "text": "Partial: Strong on Dev 817 returned WiFi measurements=not_loaded, and its source predates b5b9fb4cbf. The on/off 45-degree comparison still needs the updated APK and a region with WiFi evidence."
+    }
+   ]
   },
   {
    "n": 112,
@@ -2170,6 +2196,11 @@
      "by": "CLOUD_PINCH_817",
      "at": "2026-11-09T11:05Z",
      "text": "Findings (cloud, read against iPhone 806 = df5183ba32, 817 = 9dae2b6851; 1182 commits between): the solver is one absolute pose per sample, so a jerk is a frame that did not move or took too long. Ranked: (1) planet frames of 240-420 ms dur"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T11:36Z",
+     "text": "cmp.sh NEW ERRORS: none for 7fc8580ceb. No iPhone target available to this Windows/Android worker. Strong 817 Lags at task 88 are an Android baseline, before the pinch fix and without a Half-resolution control. iPhone A/B at 1-5 km and Lags"
     }
    ]
   },
@@ -2222,5 +2253,5 @@
    "notes": []
   }
  ],
- "source_revision": "d4ff1f7d31d0450a699c24dd31e3b03c50a736c6"
+ "source_revision": "363758036c6e82acc577f96225eaca5c7d53d0a3"
 }
