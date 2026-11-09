@@ -2887,6 +2887,11 @@
      "by": "CLAUDE_REVIEW",
      "at": "2026-11-09T20:45Z",
      "text": "Source review for quiz (SPEC 'Follow and zoom' prescribes the current reads, so not changed): (1) FollowTarget from UI sets Following with no focus flight; first frame takes Vector3.Distance, so a drone 20 km away with the camera 500 m up g"
+    },
+    {
+     "by": "CLAUDE_REVIEW",
+     "at": "2026-11-09T21:15Z",
+     "text": "78a6bc26a8 (cmp.sh NEW ERRORS: none; no Unity run): follow distance is taken once when the follow begins; a release after a held drag keeps it; a follow begun without a focus flight takes the camera's height over the target along the view ("
     }
    ]
   },
@@ -3339,5 +3344,5 @@
    ]
   }
  ],
- "source_revision": "8b04739dca2e2e1a3bbc661565a327f56cc8563c"
+ "source_revision": "d7505d0b9b80457d145f96a588e360f7dd784e81"
 }
