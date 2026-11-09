@@ -2795,7 +2795,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-09T17:16Z",
-     "noted": "2026-11-09T17:20Z",
+     "noted": "2026-11-09T17:22Z",
      "progress": 75,
      "ticked": 3,
      "total": 4
@@ -2824,6 +2824,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T17:20Z",
      "text": "d455f2088f: ServerAccessPackage + Persistent.ServerPackages (TryAdopt dedupes by key); InUse()/CollectServers fall back to the first package; root sign key only for the own record. cmp.sh NEW ERRORS none; ServerAccessPackageTests + DirectRo"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T17:22Z",
+     "text": "Done with --force: the open 'Checks' step is Verification; ServerAccessPackageTests cover package shape and dedupe, InUse fallback needs a running Station."
     }
    ]
   },
@@ -2861,5 +2866,5 @@
    "notes": []
   }
  ],
- "source_revision": "9c42a54a279325aa6a66f0f13eaac8e5da35ab40"
+ "source_revision": "b7cc30c07e5d588fa2d4e0b61728e0b38c55490f"
 }
