@@ -2307,19 +2307,14 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-09T12:32Z",
-     "noted": "2026-11-09T12:38Z",
-     "progress": 25,
+     "noted": "2026-11-09T13:20Z",
+     "progress": 40,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T12:38Z",
-     "text": "71a0e835a3: #1 power-line LOD paths (RefreshLods) and #2 waypoint trails (<=1024 vertices) now build at once; tests 233/233 on Mac. Kept on purpose: #1 towers (WireChunk.Build creates and uploads a mesh per tile) and #3 group logos (main-th"
-    },
     {
      "by": "cloud-hunt",
      "at": "2026-11-09T12:53Z",
@@ -2329,6 +2324,11 @@
      "by": "REVIEW",
      "at": "2026-11-09T12:55Z",
      "text": "CC-A106-01 P3 complexity: S1 investigation and S2 brief complete. Kropyva now finishes in one update but retains its 512-point continuation loop and manager cursors; local region-loop sketch keeps atomic admission and final diagnostic count"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T13:20Z",
+     "text": "8a58f2836e: #4 waypoints align to ground without waiting for an idle operator (Planet height is analytical); #5 StreetView photo texture release does every expired photo of the 16 checked per update (one Destroy each). Tests updated/deleted"
     }
    ]
   },
@@ -2464,5 +2464,5 @@
    "notes": []
   }
  ],
- "source_revision": "704f74ea9530520e6ed5ac9e75036bb092f12e55"
+ "source_revision": "95487747899d98abd6dd46dbd2c591ced15b4ec4"
 }
