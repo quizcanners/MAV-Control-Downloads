@@ -1607,6 +1607,11 @@
      "by": "GETAC",
      "at": "2026-11-09T11:36Z",
      "text": "Strong Dev 817 (2400e9b752 includes e1953516) app.lifecycle retained CodingSceneReady 12.219 ms and CodingFiles 3.493 ms, one attempt each and zero failures. Baseline pushed in b48e87eedc. Earlier 44 ms report is unmatched for saved scene i"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T12:04Z",
+     "text": "Full All on the Mac (211e7ef19, 8,522 tests): 10 red. Fixed 1: KropyvaImportTests.Search_IncludesHiddenScenes... (4dce0b3f8d): loading now keeps an existing hash, and RefreshHash also rebuilds the record's search index, so a record edited i"
     }
    ]
   },
@@ -2280,5 +2285,5 @@
    ]
   }
  ],
- "source_revision": "179eef1744688f23a18825780efe54ada8ba5848"
+ "source_revision": "bad766eaedc51de6019ecc41cb5386850b22edbb"
 }
