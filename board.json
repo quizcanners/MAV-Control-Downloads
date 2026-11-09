@@ -2312,11 +2312,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-09T12:55Z",
-     "text": "CC-A106-01 P3 complexity: S1 investigation and S2 brief complete. Kropyva now finishes in one update but retains its 512-point continuation loop and manager cursors; local region-loop sketch keeps atomic admission and final diagnostic count"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-09T13:20Z",
      "text": "8a58f2836e: #4 waypoints align to ground without waiting for an idle operator (Planet height is analytical); #5 StreetView photo texture release does every expired photo of the 16 checked per update (one Destroy each). Tests updated/deleted"
@@ -2325,6 +2320,11 @@
      "by": "CLOUD_FRAME_BUDGET",
      "at": "2026-11-09T13:46Z",
      "text": "Cloud: snapshot start and elevation sync start no longer take an UnoptimizedProcess turn; trail and photo release were already immediate; polyline raycasts keep idle wait on purpose (stale during pan). Uncompiled: run cmp.sh. Device (Androi"
+    },
+    {
+     "by": "CLOUD_APPROVALS",
+     "at": "2026-11-09T14:18Z",
+     "text": "Quiz approved 2026-11-09 (cloud thread): polyline ground raycasts (PolylineMGRSBranch.cs, 2 TryConsume calls) no longer wait for an idle user; guide updated. Device check (Android tablet): pan a ground-aligned polyline over terrain, confirm"
     }
    ]
   },
@@ -2555,5 +2555,5 @@
    "notes": []
   }
  ],
- "source_revision": "942b51b31a84e14487341f058ea60d98a6359d49"
+ "source_revision": "56b13e033aa30e4bf75eaa2e1f95e0489318a6ac"
 }
