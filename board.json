@@ -1913,6 +1913,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T08:30Z",
      "text": "LOCAL_MAC read the heartbeat path again for the 41 ms (no device): the per-type node also covers GetOrCreatePeer, WorkerCrypto.Refresh, the auth check, Deserialize (heartbeat is plain Newtonsoft JSON unless the worker predecoded it) and OnA"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T10:36Z",
+     "text": "Heartbeat is now read by a hand-written reader (task 106, Network_FlatJson.cs, tests pass on Mac). The Newtonsoft deserialize was one of the two remaining suspects for the 41 ms per heartbeat; the Lenovo capture on a build from 589f1a9386 o"
     }
    ]
   },
@@ -2103,5 +2108,5 @@
    "notes": []
   }
  ],
- "source_revision": "a344799429d9bf1207a4d19cfbe3b7b03c3f589a"
+ "source_revision": "0b48a7d650d348c3b5adae15d9e126f6ace42dd2"
 }
