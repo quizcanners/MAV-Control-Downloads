@@ -1610,7 +1610,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-09T06:58Z",
-     "noted": "",
+     "noted": "2026-11-09T07:10Z",
      "progress": 67,
      "ticked": 2,
      "total": 3
@@ -1635,6 +1635,11 @@
      "by": "CLOUD_FILECOUNT",
      "at": "2026-11-09T05:48Z",
      "text": "Device step for whoever has the iPhone: Settings > Performance > Storage, write the file count per folder into Performance Baseline (the 51K split is unmeasured). Does not block step 1."
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T07:10Z",
+     "text": "e4f1927f2b: chunks are rows of PlanetMasks/chunks.sqlite on the new shared RecordVault (Systems/Record Vault, so the RecordVault extraction of task 87 is done). Payload = the old .pmk bytes. Legacy .pmk stay readable (row, else file); the s"
     }
    ]
   },
@@ -1814,5 +1819,5 @@
    ]
   }
  ],
- "source_revision": "14f411346affeac22ba331fb45d0e1210cf4298e"
+ "source_revision": "ddd5944b77fc162d063fe240e097e0af50ae2087"
 }
