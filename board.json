@@ -1852,6 +1852,11 @@
      "by": "REVIEW",
      "at": "2026-11-09T10:00Z",
      "text": "Investigation CR-D21E-01: P3 confirmed generator math defect: Mathf.SmoothStep(0.45,0.75,noise) interpolates those endpoints, so the cloud mask never opens to zero; host model bytes 119..177. S1 complete; S2 normalize thresholds then smooth"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T10:13Z",
+     "text": "Mac batch Unity with graphics at 0ff2781c5c (851 tests over Planet, mask, encryption, WM sync, Coding Scene, envelope reader): 9 water failures, all expecting the old water = unchanged sky-cubemap sample, now the gradient + generated clouds"
     }
    ]
   },
@@ -2045,5 +2050,5 @@
    ]
   }
  ],
- "source_revision": "83488726d630cf0056b935b7b4058a05d66661d5"
+ "source_revision": "b4ad42a4a4b44840dc1601709aedd5395e92c905"
 }
