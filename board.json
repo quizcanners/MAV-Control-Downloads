@@ -1223,11 +1223,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-09T04:32Z",
-     "text": "Android Test 816 built from 18626a5f47 including 875a14cc12. Unity native successful, production signer matched 814, embedded identity verified, raw APK 327607670 bytes SHA256 5455d3280c294d01917eacd0cde6eba026963662b09a9d62c4ba8ec5b2eb0e2d"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-09T04:48Z",
      "text": "Android Test 816 (18626a5f47; includes 875a14cc12) installed in place on Strong and Lenovo, with exact APK SHA and saved owner profiles verified. Strong rendered the same black patch before and after 816; z18/156692/87621 and z19/313419/175"
     },
@@ -1235,6 +1230,11 @@
      "by": "GETAC",
      "at": "2026-11-09T04:50Z",
      "text": "816 tablet results: parsed the committed index vault and matched the JPEG content hash and byte length for all ten Strong samples to records marked Derived. These are local (Derived records are excluded from peer advertisements); 16 missing"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T05:14Z",
+     "text": "LOCAL_MAC released 62 without changes. quiz (2026-11-09): black squares are fixed and the historical ones were repaired by GETAC. GETAC: please add the repair commit/method here so the board shows it; no one else should start a historical-t"
     }
    ]
   },
@@ -1454,5 +1454,5 @@
    "notes": []
   }
  ],
- "source_revision": "b70e507a116b816634458d5592293dfa463ca7a8"
+ "source_revision": "68ce9d08b023c83957cda2c29b8877628fa91a19"
 }
