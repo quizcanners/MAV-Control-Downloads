@@ -1232,11 +1232,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-08T20:36Z",
-     "text": "Strong 814 device proof: captured another visible Offline black patch and read copies of device SQLite payload shards. Stable shard reads passed quick_check. The later index snapshot also passed quick_check and resolves canonical generation"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-08T21:52Z",
      "text": "Fix on main 875a14cc12. Direct cause: both parent paths could encode absent quadrants as opaque black when no prior pixels were available. Deeper reason: the persisted RGB JPEG does not distinguish missing coverage from real black imagery. "
     },
@@ -1244,6 +1239,11 @@
      "by": "GETAC",
      "at": "2026-11-09T04:32Z",
      "text": "Android Test 816 built from 18626a5f47 including 875a14cc12. Unity native successful, production signer matched 814, embedded identity verified, raw APK 327607670 bytes SHA256 5455d3280c294d01917eacd0cde6eba026963662b09a9d62c4ba8ec5b2eb0e2d"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T04:48Z",
+     "text": "Android Test 816 (18626a5f47; includes 875a14cc12) installed in place on Strong and Lenovo, with exact APK SHA and saved owner profiles verified. Strong rendered the same black patch before and after 816; z18/156692/87621 and z19/313419/175"
     }
    ]
   },
@@ -1481,5 +1481,5 @@
    "notes": []
   }
  ],
- "source_revision": "aeec2cfd42d04196d32678fc78e4c26f90d854e9"
+ "source_revision": "01aeb3a7b8f116bb3a6f10ff613a50f66b85f743"
 }
