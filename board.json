@@ -261,11 +261,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-08T17:53Z",
-     "text": "812 installed via USB on Lenovo after the exact-source EditMode All hit 900 s without a result. APK hash matched and Lenovo reached the map. Test publication and 810-to-812 in-app network-cut retry remain open. The earlier 810-to-811 manual"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-09T04:57Z",
      "text": "Lenovo 814 to signed 816 in-place upgrade: Android rejected INSTALL_FAILED_INSUFFICIENT_STORAGE with 869 MB free. App Updates retained 982,529,318 bytes for the same 811 download: raw APK, .previous backup, and sealed copy. I archived each "
     },
@@ -273,6 +268,11 @@
      "by": "REVIEW",
      "at": "2026-11-09T05:35Z",
      "text": "CR-31F7-01 (P2 storage), extends GETAC cache note 31f745d3b. S1 investigation complete: cached preparations always Unseal and AdmitUnsealed renames an existing plaintext to another .previous-GUID, with no retirement; repeated identical prep"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T08:30Z",
+     "text": "GETAC clean install passed on DJI RC Plus 2. Removed MAV Control 777 and the standalone WireGuard app without retaining app data. In Windows Test 817, Settings > Windows > Install on another device, selected Test, DJI, and the assigned peer"
     }
    ]
   },
@@ -1863,16 +1863,7 @@
    "n": 99,
    "name": "VPN messaging CPU",
    "done": "",
-   "held": [
-    {
-     "who": "LOCAL_MAC",
-     "since": "2026-11-09T08:27Z",
-     "noted": "2026-11-09T08:29Z",
-     "progress": 0,
-     "ticked": 0,
-     "total": 5
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Getac: cmp.sh, Lenovo idle 120 s per-type message ms/s and Heartbeat sub-stage",
@@ -1935,5 +1926,5 @@
    ]
   }
  ],
- "source_revision": "7cb65ee0de286ce80838ef9a228b96920f983676"
+ "source_revision": "c120eb817546fd54ee03cc320cb8439f1fec9e7b"
 }
