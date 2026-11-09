@@ -2889,6 +2889,11 @@
      "by": "CLAUDE_REVIEW",
      "at": "2026-11-09T22:14Z",
      "text": "ca4fd66e45: server Admin list (quiz, 2026-11-10). Server keeps Admins by signing key in admins.txt, first Admin = pinned root or deployer; packet kind Admins (25) + AdminsCapability; DevMode / Server / Admins lists authenticated people with"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T22:19Z",
+     "text": "Source finding from Android 819 build 6f45cbc6bc: ServerAccessPackage.TryAdopt treats every offer with an already held server key as a duplicate, including a changed address. AsRecord also caches the address. When implementing server reloca"
     }
    ]
   },
@@ -3399,5 +3404,5 @@
    "notes": []
   }
  ],
- "source_revision": "fca164c6efdd32e186622014354a02b053af499e"
+ "source_revision": "d25c59595e9a4f4b5b5f7f28585b238c5d49c530"
 }
