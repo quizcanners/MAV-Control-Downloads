@@ -2324,6 +2324,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T12:38Z",
      "text": "71a0e835a3: #1 power-line LOD paths (RefreshLods) and #2 waypoint trails (<=1024 vertices) now build at once; tests 233/233 on Mac. Kept on purpose: #1 towers (WireChunk.Build creates and uploads a mesh per tile) and #3 group logos (main-th"
+    },
+    {
+     "by": "cloud-hunt",
+     "at": "2026-11-09T12:53Z",
+     "text": "Applied quiz's rule (2026-11-09): timed 1 ms loops for tower tiles and chat logos (LOD rebuild already unbudgeted by task 121); UnoptimizedProcess 1->5 and Raycasts 20->100 for the non-contained gates (waypoint trail, snapshot start, elevat"
     }
    ]
   },
@@ -2387,5 +2392,5 @@
    "notes": []
   }
  ],
- "source_revision": "5d15596463d354671fd55f38ad1fdc605b28d81c"
+ "source_revision": "b4c461f8ac9c93f6dca0ab71ba371111da33b1ee"
 }
