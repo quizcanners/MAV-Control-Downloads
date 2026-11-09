@@ -1388,7 +1388,13 @@
    "done": "",
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_VPN_CPU",
+     "at": "2026-11-09T08:02Z",
+     "text": "Read every call of OnMAV_Control_Heartbeat (cloud, 2026-11-09): each is a few field copies, so the 41 ms is not in code that reading finds. Capture the sub-stage per task 99 step 1."
+    }
+   ]
   },
   {
    "n": 72,
@@ -1883,5 +1889,5 @@
    "notes": []
   }
  ],
- "source_revision": "9c542d5ba36e3b3bfc377b703d079c70410fd3a4"
+ "source_revision": "4b265e3352621e31230fa480d17ab097dd39c652"
 }
