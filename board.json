@@ -3329,11 +3329,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-09T20:55Z",
-     "text": "CR-0D2A-01 P3: investigation/brief for the existing CLAUDE_REVIEW 20:45 source finding above, not a duplicate. Traced established follow through SetUnityPosition/Position to the unchanged movement clock; source controls show full resolution"
-    },
-    {
      "by": "cloud-halfres",
      "at": "2026-11-09T21:12Z",
      "text": "quiz asks if the half-res switch hitches. It renders into a smaller texture via the URP render scale (no Screen.SetResolution). The hitch risk is URP resizing its 3D textures on each scale flip. Fix if measured: camera dynamic resolution (f"
@@ -3342,9 +3337,14 @@
      "by": "CLAUDE_REVIEW",
      "at": "2026-11-09T21:15Z",
      "text": "78a6bc26a8: IsMoving now covers the inertia glide, a follow riding a moving target, the follow flight and the azimuth reset; two resting fingers on the North-up centroid path no longer report zoom (FocusRevision, half resolution). Left: pos"
+    },
+    {
+     "by": "CLAUDE_REVIEW",
+     "at": "2026-11-09T21:29Z",
+     "text": "39e134eaa9: on Metal, Vulkan and Direct3D 12 the half/full switch is hardware dynamic resolution (main camera allowDynamicResolution once, ScalableBufferManager.ResizeBuffers 0.5 or 1): targets are kept, nothing reallocated. OpenGL ES 3 and"
     }
    ]
   }
  ],
- "source_revision": "4acb7415313cac4eeecd3fe47d41b5fdafb044e4"
+ "source_revision": "5376537bf4c850b2321890866a10eab12ecad6f9"
 }
