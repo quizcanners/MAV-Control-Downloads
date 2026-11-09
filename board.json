@@ -2456,17 +2456,17 @@
     {
      "by": "REVIEW",
      "at": "2026-11-09T14:06Z",
-     "text": "CR-CB3B-01 P2: S1 investigation and S2 brief complete; explicit current GPS gaps match the legacy heuristic and become false connecting lines; preserve connection flags. Proposal awaits quiz before implementation; existing claims/completion"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-09T14:06Z",
      "text": "CR-CCC0-01 P2: S1 investigation and S2 brief complete; screen-space t is used as world-space t for route insertion; perspective-correct fraction sketch. Proposal awaits quiz before implementation; existing claims/completions and handoffs re"
     },
     {
      "by": "GETAC",
      "at": "2026-11-09T17:14Z",
      "text": "GETAC b1296a8fe0 gives Valhalla its own routing address and Check on the Routes page. Navigator and Check share it, and existing saved server addresses still work as the default. No VPN deployment or WireGuard rows on this page. Six URL and"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-09T18:42Z",
+     "text": "REVIEW-396 reconciliation for CR-CB3B-01: S1 updated with d75bbd072's extra-connected-point fixture and LOCAL_MAC's recorded two-point pause-gap edge; S2 existing explicit-flag/load-boundary proposal and snippets retained, still awaiting qu"
     }
    ]
   },
@@ -2999,15 +2999,21 @@
     {
      "who": "refactor-6h",
      "since": "2026-11-09T18:43Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-09T18:46Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "refactor-6h",
+     "at": "2026-11-09T18:46Z",
+     "text": "Fixed 2 chat alert forwarders (571 to 569), counts in Coordination/Refactoring/forwarders-and-long-signatures.md. Not compiled (no dotnet): run cmp.sh. Prefab-bound button forwarders are an Editor step."
+    }
+   ]
   }
  ],
- "source_revision": "fe23211394d16035905ef179a03fa3f44efe3ed1"
+ "source_revision": "4828e863684236ec6fbc346107cb3d27944008f0"
 }
