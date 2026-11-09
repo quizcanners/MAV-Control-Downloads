@@ -1852,11 +1852,6 @@
    ],
    "notes": [
     {
-     "by": "cloud-capsule",
-     "at": "2026-11-09T06:12Z",
-     "text": "Merged 6d9d542a, uncompiled. UI_GlassSelector now has the standard capsule form (Track + sliding Thumb, Main Screen Quiet Control material, greys and BlurMix .5 are constants at the top of the file to tune by eye). Left for Editor: bash Too"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-09T06:48Z",
      "text": "CC-6D9D-01 (P3 complexity): S1 investigation complete. SetSelected already identifies the selected Choice; FindTarget searches Choices for the same value again after retargeting (and again on initial SnapThumb). S2 brief/current code/propos"
@@ -1865,6 +1860,11 @@
      "by": "GETAC",
      "at": "2026-11-09T11:36Z",
      "text": "Device visual failure on Strong Dev 817 (2400e9b752 includes 6d9d542a). Map Source selected Offline by yellow label inside a dark track; the brighter monochrome thumb was not visible. Quality switched High -> Low -> High, but the two legacy"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-09T12:22Z",
+     "text": "iOS 818 (4dce0b3f8d) is on TestFlight (internal; external WAITING_FOR_BETA_REVIEW). Built with --skip-tests: the only red in the full All are the 9 water shader tests on task 96. The iPhone check of this task is still open: no phone is reac"
     }
    ]
   },
@@ -2295,5 +2295,5 @@
    ]
   }
  ],
- "source_revision": "d0664b7322e6c270f785a13e20ef9bc117a0de4e"
+ "source_revision": "578ca48be120b5c34bbd02b0c5e73c9f7715070e"
 }
