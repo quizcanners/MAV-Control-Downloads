@@ -1474,7 +1474,7 @@
     {
      "who": "CLOUD_DIAG_TREE",
      "since": "2026-11-09T05:38Z",
-     "noted": "2026-11-09T05:40Z",
+     "noted": "2026-11-09T05:49Z",
      "progress": 80,
      "ticked": 4,
      "total": 5
@@ -1507,6 +1507,11 @@
      "by": "CLOUD_DIAG_TREE",
      "at": "2026-11-09T05:40Z",
      "text": "Second ask, same tree (quiz, 2026-11-09): \"Also, Boot work shows 49.69 ms total. But it loads a few seconds. Maybe scene loading or something else is not accounted for.  Lets try to catch all the factors. Showing total time from when the Bo"
+    },
+    {
+     "by": "CLOUD_DIAG_TREE",
+     "at": "2026-11-09T05:49Z",
+     "text": "Merged to main 18f711ba, pushed uncompiled (cloud). What is left is the local step: (1) pull, bash Tools/RoslynCompileDiff/cmp.sh must end NEW ERRORS: none (touched: Quiz-cAnners/Utils/quizcanners_Utils_Debug_FixedNodes.cs new, quizcanners_"
     }
    ]
   },
@@ -1631,5 +1636,5 @@
    "notes": []
   }
  ],
- "source_revision": "3b647dce5ad84599103a6d0075f52f0c6559a69b"
+ "source_revision": "21c03e30dd25a765858355e66b9e44d0a1488b9e"
 }
