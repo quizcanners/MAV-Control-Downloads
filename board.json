@@ -2312,19 +2312,14 @@
     {
      "who": "CLOUD_FRAME_BUDGET",
      "since": "2026-11-09T13:45Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-09T13:46Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "cloud-hunt",
-     "at": "2026-11-09T12:53Z",
-     "text": "Applied quiz's rule (2026-11-09): timed 1 ms loops for tower tiles and chat logos (LOD rebuild already unbudgeted by task 121); UnoptimizedProcess 1->5 and Raycasts 20->100 for the non-contained gates (waypoint trail, snapshot start, elevat"
-    },
     {
      "by": "REVIEW",
      "at": "2026-11-09T12:55Z",
@@ -2334,6 +2329,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T13:20Z",
      "text": "8a58f2836e: #4 waypoints align to ground without waiting for an idle operator (Planet height is analytical); #5 StreetView photo texture release does every expired photo of the 16 checked per update (one Destroy each). Tests updated/deleted"
+    },
+    {
+     "by": "CLOUD_FRAME_BUDGET",
+     "at": "2026-11-09T13:46Z",
+     "text": "Cloud: snapshot start and elevation sync start no longer take an UnoptimizedProcess turn; trail and photo release were already immediate; polyline raycasts keep idle wait on purpose (stale during pan). Uncompiled: run cmp.sh. Device (Androi"
     }
    ]
   },
@@ -2525,5 +2525,5 @@
    "notes": []
   }
  ],
- "source_revision": "1f7ce3a209e940a1df210486cfabcf02438d86ce"
+ "source_revision": "f6df1c264871df2bc7c93ecc0a31ec6f07afe0a1"
 }
