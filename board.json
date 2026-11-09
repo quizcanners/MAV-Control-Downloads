@@ -3282,8 +3282,14 @@
    "done": "",
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_REVIEW",
+     "at": "2026-11-09T20:45Z",
+     "text": "277d8cb97a: IsMoving was true from launch until the first move ended (unstarted gate reads 0 s), so half resolution was held on an untouched map; now false until the camera first moves. Left, source review: IsMoving misses inertia glide (Ma"
+    }
+   ]
   }
  ],
- "source_revision": "8492f771f5f90a118299965821b295962102f900"
+ "source_revision": "53f6a2b609d0a3ef3eab3e6c4c21ec5a7e539520"
 }
