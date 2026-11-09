@@ -2869,11 +2869,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "cloud-road-mesh",
-     "at": "2026-11-09T17:29Z",
-     "text": "quiz 2026-11-09: roads and road shadows can go; archive the road code first (Research/ or Archive, with the effort noted), then delete. KEEP the shared shaders (Shaders/_LEGACY/Shadows/ContactShadow.shadergraph, Geometry Vertical Offset Alw"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-09T18:23Z",
      "text": "828909279c: road mesh removed after archiving (Research/Archive_Road_Mesh_2026-11-09: 4 code files + README with effort and quiz's quote). Gone: Roads/ folder (2 .cs, prefab, 2 .mat), Render Queue entries, RoadPrefab (Singleton + Map.unity)"
@@ -2882,6 +2877,11 @@
      "by": "HEAVY",
      "at": "2026-11-09T19:19Z",
      "text": "Windows checkout confirms 828909279c archived the road mesh sources, removed road mesh assets and retained ContactShadow.shadergraph and Geometry Vertical Offset Always Draw.shader. No road meshes remain in the live asset tree."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-09T19:28Z",
+     "text": "Full Windows All exposed three stale cases still loading deleted road mesh materials. a24546813f removes the two retired Road material render cases and replaces the road shadow material check with a check that the shared ContactShadow shade"
     }
    ]
   },
@@ -3148,5 +3148,5 @@
    "notes": []
   }
  ],
- "source_revision": "688dc020e9c9e4bd8f9956b5295ad3502b526ce1"
+ "source_revision": "6d8f955b2b01a852c4d767f15ba215da5228c5c7"
 }
