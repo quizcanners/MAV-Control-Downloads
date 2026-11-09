@@ -1863,7 +1863,16 @@
    "n": 99,
    "name": "VPN messaging CPU",
    "done": "",
-   "held": [],
+   "held": [
+    {
+     "who": "LOCAL_MAC",
+     "since": "2026-11-09T08:27Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 5
+    }
+   ],
    "steps": [
     {
      "t": "Getac: cmp.sh, Lenovo idle 120 s per-type message ms/s and Heartbeat sub-stage",
@@ -1920,5 +1929,5 @@
    ]
   }
  ],
- "source_revision": "33abf861ff24704516b3b3d2b7036d72b2cd9e25"
+ "source_revision": "c5f306d7e5570c060474f310edc90d85da5f3b9c"
 }
