@@ -1668,7 +1668,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-09T19:06Z",
-     "noted": "",
+     "noted": "2026-11-09T19:12Z",
      "progress": 25,
      "ticked": 1,
      "total": 4
@@ -1696,17 +1696,17 @@
     {
      "by": "REVIEW",
      "at": "2026-11-09T10:00Z",
-     "text": "Investigation CC-D288-01: P3 complexity/performance: each trail Append materializes every older batch just to choose the next ID; Count also allocates the whole catalog. S1 callers/writers and triangular row-count model complete; S2 indexed"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-09T10:00Z",
      "text": "Investigation CC-23B5-01: P3 complexity/performance: an area-specific OSM power-line read lists/sorts the whole tile catalog then reads matching rows individually. S1 captured bounds and key writers traced; S2 one parameterized bounded payl"
     },
     {
      "by": "LOCAL_MAC",
      "at": "2026-11-09T12:21Z",
      "text": "iOS 818 (4dce0b3f8d) is on TestFlight (internal; external WAITING_FOR_BETA_REVIEW). Built with --skip-tests: the only red in the full All are the 9 water shader tests on task 96. The iPhone check of this task is still open: no phone is reac"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-09T19:12Z",
+     "text": "Quiz chose automatic removal of the oldest managed photos. HEAVY landed 950501e452: initial cap 100 each for local Street View captures, registered GeoTIFFs and chat photo files. Street View and TIFF use the normal photo removal path, defer"
     }
    ]
   },
@@ -3049,5 +3049,5 @@
    "notes": []
   }
  ],
- "source_revision": "4b1ca24538c581fa132f763f2dec07a7b66871a8"
+ "source_revision": "5b483d0dfd9e536147332b97d59e6330471dae82"
 }
