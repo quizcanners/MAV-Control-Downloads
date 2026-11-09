@@ -1647,7 +1647,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-09T07:30Z",
-     "noted": "2026-11-09T07:30Z",
+     "noted": "2026-11-09T07:37Z",
      "progress": 25,
      "ticked": 1,
      "total": 4
@@ -1673,11 +1673,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-09T07:30Z",
-     "text": "HEAVY is taking the Storage file-count line and switching the already-landed OSM/Tiles importer to shared RecordVault verification. LOCAL_MAC owns the remaining adapter work in progress. Windows OSM test exposed a pooled-reader race with te"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-09T07:32Z",
      "text": "b92808829c: OSM/OceanSource is one <generation>.sqlite per archive generation (RecordVault, key zoom/x/y); legacy .mvt folder moved in on open; other generations deleted (unreachable cache). Left in this step: Situation/Trails, VPNChat/Icon"
@@ -1686,6 +1681,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T07:33Z",
      "text": "LOCAL_MAC handoff on 87. Done: RecordVault (e4f1927f2b), OSM/Tiles (23b5149f83), OSM/OceanSource (b92808829c). Left in step 2: Situation/Trails (append-only per-guid spill; a whole-row rewrite per spill grows O(n^2) - give the vault a (guid"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-09T07:37Z",
+     "text": "Windows slice landed: Storage root shows a total-file-count line and a green tick on complete scans under 100. OSM/Tiles now uses RecordVault.ImportLegacyBatch for on-read and bulk imports, with coordinated readers/writers and verified unli"
     }
    ]
   },
@@ -1842,5 +1842,5 @@
    "notes": []
   }
  ],
- "source_revision": "4ebffe1f30ddcabaa1164f832b4f923756ad9d14"
+ "source_revision": "4e6b592dd00b66576edf51430e0105234afad132"
 }
