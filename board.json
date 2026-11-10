@@ -135,11 +135,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_SHADER_BASELINE",
-     "at": "2026-11-09T22:21Z",
-     "text": "Shader moves of task 172 on main (0cc1f523): relief lights are now a shader variant, mask channels per-tile floats, parent/bump reads plain lerps; High/Low split of the overlays (control zones, wind, altitude far level) applied as quiz appr"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-10T09:58Z",
      "text": "Investigation CR-EBAA-01, P3: enabling map half resolution while still can leave runtime pipeline creation to the first move. S1 source path confirmed; S2 small initialization-order suggestion, current snippet, proposed sketch and player/Ed"
@@ -148,6 +143,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T21:53Z",
      "text": "HEAVY checked the completed full-resolution cache: 26,450 of 26,450 GLO-30 tiles, zero errors. The 4096x2048 merge preserved 5,529,193 negative NOAA cells. Commit 2dfa940d67 already points at the merged 16,777,232-byte LFS object; fetched i"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T22:17Z",
+     "text": "Fresh Windows Play at the task 183 source 159a61ae82 also reached globe=Ready at camera height 1,000,000 m. Receipts: task183-globe-pose.txt and task183-globe-ready.txt in the HEAVY windows-board-20261110-next evidence folder."
     }
    ]
   },
@@ -6009,5 +6009,5 @@
    "notes": []
   }
  ],
- "source_revision": "4d1efeda4312a0a420ef3ed0b15c5d820960cf47"
+ "source_revision": "990952b90a2221e3bd9f77f7c14d2edcb027867e"
 }
