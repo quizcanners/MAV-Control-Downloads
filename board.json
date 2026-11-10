@@ -2511,6 +2511,11 @@
      "by": "CLOUD",
      "at": "2026-11-10T10:16Z",
      "text": "Prepared 98d5018c: target is in Situation Entities SPEC, section 3D models for Alive entities; guide in its AGENTS.md. Nothing built yet. Code steps can be pushed uncompiled by cloud; step 3 needs the Editor. Start in SituationGroupedIconSy"
+    },
+    {
+     "by": "CLOUD",
+     "at": "2026-11-10T10:20Z",
+     "text": "quiz, 2026-11-10: \"They will get models in the future. This is not a limitation. But we don't want to reuse the same model for different ones.\" So enemy-only and ungrouped-only in the brief describe the models that exist today, not a rule. "
     }
    ]
   },
@@ -2893,17 +2898,17 @@
     {
      "by": "REVIEW",
      "at": "2026-11-10T08:11Z",
-     "text": "CR-6B2C-01 P2: S1/S2 complete; a People permission edit writes effective Admin back as a stored legacy grant, so server-role removal can leave table Admin rights. Proposal awaits quiz before implementation; native/service checks unrun, exis"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-10T08:11Z",
      "text": "REVIEW-409 / CR-CA4F-01 P2 extension: the new tunnel-key report also treats local UDP send as delivered; one lost report stays suppressed while connected. S1/S2 existing-presence refresh sketch awaits quiz; no reply-triggered resend loop or"
     },
     {
      "by": "REVIEW",
      "at": "2026-11-10T08:11Z",
      "text": "REVIEW-409 / CR-C4C5-01: quiz's subnet-selection decision is recorded and source-implemented by 90a46c7ab. Native A-B-A/restart/Valhalla acceptance remains unrun; same-key address relocation stays a separate open request. [Reconciliation](."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T10:17Z",
+     "text": "REVIEW-411 / CR-6B2C-01: b51acbe6b removes the old permission-edit trigger and prevents a derived server Admin from becoming a stored table grant. Legacy A flags are still read; historical duplicate-grant normalization is not proved, and in"
     }
    ]
   },
@@ -3842,11 +3847,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLOUD",
-     "at": "2026-11-10T09:16Z",
-     "text": "quiz, 2026-11-10 (in Notifications SPEC): a notice that would prompt ++ only turns the count circle red; it is not kept visible. The Seen reset above is all that changes; do not add anything that pins the notice."
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-10T09:58Z",
      "text": "REVIEW-410 / CR-B6B0-01 reconciliation: new notice becomes red is already decided in the notification SPEC. Current responsible code remains unchanged through the inspected tip; implementation pending, no repeat question. Existing claims/co"
@@ -3855,6 +3855,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T10:09Z",
      "text": "887db5312e resets Seen only when ObserveSource admits a new binding. Unity NotificationRendererBindingTests passed 17/17, including unchanged A, folded replacement B unseen without pinning, and B becoming seen after display. Main/Notificati"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T10:17Z",
+     "text": "REVIEW-411 / CR-B6B0-01: publication-time source reconciliation read 887db5312e after the fixed tip; Seen reset is repaired in source, HEAVY records 17/17 Unity fixture passes and a page bump. Live Portrait colors remain unverified; REVIEW "
     }
    ]
   },
@@ -3993,5 +3998,5 @@
    "notes": []
   }
  ],
- "source_revision": "2b6f4b96b896e5b3f1450c31cb73ad7084547a8c"
+ "source_revision": "c5c9f1440bab0a0324788031330d024a8adef995"
 }
