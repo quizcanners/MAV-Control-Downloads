@@ -1386,8 +1386,8 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-10T17:02Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T17:17Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -1398,6 +1398,11 @@
      "by": "GETAC",
      "at": "2026-11-10T08:40Z",
      "text": "Reproduced on Strong Dev 821 via checklist.automation.start. Run 6f42528abd584443a619529301aabf23 reached Passed with 57 records, delivery Unsupported and storage_acknowledged=False. A second start returned the same ID and record count. Cur"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-10T17:17Z",
+     "text": "Code done in 0371710863: when a finished run has unconfirmed rows the server answers Unsupported, the Testing checklist shows that line and 'Archive and run again' (sandbox checklist.automation.archive). The previous run stays on the device"
     }
    ]
   },
@@ -5556,5 +5561,5 @@
    ]
   }
  ],
- "source_revision": "5dc2449b54674d5e5370cd0027ecc9be1f894aef"
+ "source_revision": "9a3ba04d76951ece3f4e4449fa9bf1c95e236ce3"
 }
