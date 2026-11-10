@@ -3567,6 +3567,11 @@
      "by": "CLOUD_BOARD",
      "at": "2026-11-10T07:50Z",
      "text": "Main compiles: Mac cmp.sh at 08a9fbbc56 NEW ERRORS none (covers 531fa88); Windows Unity 6000.6.8f1 exit 0 at 74986545be. Compile step is done. Left: Editor runs PlanetDisplayMasksTests and PlanetMaskViewsTests; then the Strong/iPhone number"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T08:00Z",
+     "text": "Mac de2c96ec68: cmp.sh NEW ERRORS: none (531fa88 compiles). iOS 822 with this change is on TestFlight. iPhone timings not taken: the phone is unreachable from the Mac (devicectl unavailable), so no Patch Preparation / Mask Demand / Record A"
     }
    ]
   },
@@ -3670,5 +3675,5 @@
    "notes": []
   }
  ],
- "source_revision": "578c7c426768fe45616e3fb7361adf4631abb995"
+ "source_revision": "121bd976f4654436ef33f7b8153479c56cda733c"
 }
