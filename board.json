@@ -1146,11 +1146,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_PERF_AUDIT",
-     "at": "2026-11-08T20:50Z",
-     "text": "Cloud audit (2026-11-08): read of existing numbers, no new capture. Strong 811 samples (RAM.md) show file RSS flat near 600 MB and anonymous RSS 845 to 862 MB, so the idle growth is anonymous, not mapped tile pages; the SQLite shard stores "
-    },
-    {
      "by": "CLAUDE_REVIEW",
      "at": "2026-11-09T20:48Z",
      "text": "Source review (plausible for the level, not the idle growth): WebMercator_SqliteTileStore.cs:413-421 sets mmap_size=256 MiB on each of 8 readers, main plus up to 4 attached segments, on Android; touched file-backed pages count in PSS. The n"
@@ -1159,6 +1154,11 @@
      "by": "GETAC",
      "at": "2026-11-10T08:40Z",
      "text": "Strong Dev 821 same PID and pose, PSS 1837.1 to 1860.8 MiB in 120 s (+23.7); Unity tracked allocations +3990 bytes, managed +0.77 MiB, anonymous RSS +17.23 MiB. The older +168 MiB idle rise did not recur in this warm session and the owner r"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-10T12:23Z",
+     "text": "Source read, no code change (d2f7c0fb27). WebMercator_SqliteTileStore.cs ApplyReaderMmap: '#if UNITY_EDITOR_WIN || UNITY_STANDALONE_WIN  PRAGMA mmap_size=0  #else  PRAGMA mmap_size=ReaderMmapBytes' with 'ReaderMmapBytes = 256L * 1024 * 1024"
     }
    ]
   },
@@ -4304,5 +4304,5 @@
    "notes": []
   }
  ],
- "source_revision": "60e504d089656250c30cd83ef1ddead8da6cbb91"
+ "source_revision": "14b84207e4243b5c3ebfb72afb956d6e04aefaa1"
 }
