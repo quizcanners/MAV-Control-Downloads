@@ -4661,14 +4661,20 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-10T15:10Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T15:14Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-10T15:14Z",
+     "text": "Done in c46f7bb594. StartLerp's _currentTime=0 is not a stop: SetLerpByTime(preserveVelocity) carries the speed through a cubic tangent (RetargetedFocusKeepsItsVelocityAcrossTheDateLine), and point focus already passed it. The exact-altitud"
+    }
+   ]
   },
   {
    "n": 247,
@@ -5074,5 +5080,5 @@
    ]
   }
  ],
- "source_revision": "793958a0f6945f1d5fa7bc5b502f67efff94672e"
+ "source_revision": "3b8b0d9b05ba4a67e85b80b383387e1d6a83b002"
 }
