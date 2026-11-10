@@ -4862,14 +4862,20 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-10T15:22Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T15:28Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-10T15:28Z",
+     "text": "Done in this push (cmp.sh NEW ERRORS: none, written without Unity, tests not run): PlaceLabelsManager_Tombstones.cs. Deleted places are counted on their own, at most 512 (MaximumTombstones), outside the 2,048 live places; oldest gives way, "
+    }
+   ]
   },
   {
    "n": 262,
@@ -5104,5 +5110,5 @@
    ]
   }
  ],
- "source_revision": "02d5e21556abcda7c0c09c0c51a76a2cd7b1ae67"
+ "source_revision": "2be3ba678b8f408e379b178f2d64f8fea31c7bbf"
 }
