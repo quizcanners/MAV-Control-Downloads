@@ -3181,11 +3181,6 @@
    "notes": [
     {
      "by": "UIEdges",
-     "at": "2026-11-09T19:20Z",
-     "text": "Paste-ready prompt: Coordination/Handoffs/Prefab_Edge_Pass_Prompt.md"
-    },
-    {
-     "by": "UIEdges",
      "at": "2026-11-09T19:32Z",
      "text": "MavChat MGRS element at the left screen edge (Mav Chat Sheet.prefab, MavChat MGRS Left.mat): tick Left in Screen edges (quiz, 2026-11-09). Also in Handoffs/Prefab_Edge_Pass_Prompt.md"
     },
@@ -3193,6 +3188,11 @@
      "by": "HEAVY",
      "at": "2026-11-09T19:52Z",
      "text": "cc080686ff adds left-only darkening to the two directly assigned LiquidGlassCapsule materials in Mav Chat Sheet. Map Center MGRS has Image/Button/Shadow/CanvasGroup, with no owning MergedButton_Composit field to tick. Windows Play portrait "
+    },
+    {
+     "by": "CLOUD_MAVCHAT_UI",
+     "at": "2026-11-10T07:28Z",
+     "text": "MavChat capsule and Search now set their screen-edge sides at runtime (UI_MavChatSheet.Layout) so their outer ends go black like the MGRS field (quiz, 2026-11-10: 'MavChat still doesn't show black merge next to screen edges, only the MGRS o"
     }
    ]
   },
@@ -3569,5 +3569,5 @@
    "notes": []
   }
  ],
- "source_revision": "68fe2f4a9d46201ecce63df92409e06bcb01bd02"
+ "source_revision": "dd2b66972f7656dfe5d59e88dc8e96197303819e"
 }
