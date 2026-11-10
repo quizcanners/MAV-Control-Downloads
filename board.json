@@ -3965,8 +3965,8 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-10T23:06Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T23:13Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -3977,6 +3977,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T10:09Z",
      "text": "No port change this pass. Resume with the VPN candidate path, the 14680 Windows rule, and the Android renewal path decision in Peer Video SPEC."
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-10T23:13Z",
+     "text": "ROG_OPUS part 1 done (commit 'Video relay on one Port, 14680'): VPN peers use host candidates only on the shared 14680 socket; a service publication's STUN sockets take system ports outbound; VideoRelayMedia_UDP = 14680 replaces the range i"
     }
    ]
   },
@@ -6056,5 +6061,5 @@
    "notes": []
   }
  ],
- "source_revision": "dfa82cf43a6001751cafa2899fcd5a02434db47d"
+ "source_revision": "2ea5c893a25fe9bea438e663235d673f28d879db"
 }
