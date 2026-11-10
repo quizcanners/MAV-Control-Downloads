@@ -4244,19 +4244,14 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-10T13:39Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T13:40Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T13:28Z",
-     "text": "fefef7f05c: bound built, horizon not. Web Mercator: at most 512 cleanup scopes ranked like Situation's, own scope always placed; tile tombstone records unchanged. Orthophoto: at most 512 tombstone rows (tile_tombstones), blank/cleared/empty"
-    },
     {
      "by": "CLOUD_COMPLEXITY",
      "at": "2026-11-10T13:36Z",
@@ -4266,6 +4261,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-10T13:38Z",
      "text": "quiz, 2026-11-10, correction that replaces the tile horizon: 'we could have \"Deletion timestamp plug\". Meaning if we have deleted some tiles (and we can't delete a single tile, only 2 by 2 groups) we plug the parent with the deletion timest"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T13:40Z",
+     "text": "LOCAL_MAC: deletion timestamp plug for Web Mercator NOT built; premise check stopped it. Only the Tile Eraser deletes whole 2 by 2 groups under a surviving parent (WebMercator_TileEraser.cs:362-379). 'Clear on all devices' does not (WebMerc"
     }
    ]
   },
@@ -4726,5 +4726,5 @@
    "notes": []
   }
  ],
- "source_revision": "067df59e8b6af767484b3d196886bdccf20d6185"
+ "source_revision": "34ee3fb7de8bce2861261b3c16057e5cee21b635"
 }
