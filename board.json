@@ -1727,11 +1727,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-09T22:33Z",
-     "text": "GETAC finalise Android 819 (6f45cbc6bc). Built and signed, with evidence pushed in 977a68815e. Strong returned in 1969229f6f, no held work from this run. Map 3.744 s, smoke 48 pass/0 fail/3 skips, pinch gaps 300/167 ms and separate 773 ms t"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-10T05:45Z",
      "text": "GETAC batch finalise. Android and Windows Dev 821 pinned to 4abf5d2858; signed APK receipt 01df669abb. Windows map 2.785 s, Ready 3.190 s, smoke Incomplete with zero failed and three hidden-workflow skips. Windows wheel in/out commands acce"
     },
@@ -1739,6 +1734,11 @@
      "by": "GETAC",
      "at": "2026-11-10T06:50Z",
      "text": "Strong Android Dev 821 (4abf5d2858), installed in place with matched signed APK, UID and profile. Native pinch SurfaceFlinger peak during/first second after: zoom-out 180.248/250.010 ms, zoom-in 265.909/167.868 ms. Dev 819 had 166.802/166.5"
+    },
+    {
+     "by": "CLOUD_PATCH_PREP",
+     "at": "2026-11-10T07:13Z",
+     "text": "531fa88 (cloud, uncompiled, by reading): the 237 ms Mask Demand frames fit PlanetDisplayMasks.Compose, a 256x256 Ocean+paint union rebuilt on the main thread for every donor pair in the frame an Ocean page or paint view changes; it is displ"
     }
    ]
   },
@@ -3553,5 +3553,5 @@
    ]
   }
  ],
- "source_revision": "cb6eb75e5bcdfc51e120633777f36b491161eb79"
+ "source_revision": "74986545be49b604c6ee8ffcea78208222a23601"
 }
