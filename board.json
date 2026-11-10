@@ -221,11 +221,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_FLOW_REPAIR",
-     "at": "2026-11-09T04:19Z",
-     "text": "Final handoff CODEX_FLOW_REPAIR: published 3ef8b27451 and 3b563f4c82; current main also includes 3382aa5249 and a25d464b5c from other workers."
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-09T10:00Z",
      "text": "Investigation CR-0203-01: P2 confirmed cleanup defect: the new 24-hour profile sweep uses shallow mtimes and can delete a live nested profile; the exact helper did so with a fresh held-open fixture file on Linux. S1 complete; S2 existing-ru"
@@ -234,6 +229,11 @@
      "by": "GETAC",
      "at": "2026-11-10T19:28Z",
      "text": "GETAC Android Test retry at 797f8e8f3e. DailyAll refused before launch because retained run ba5b4e68ed3b4cc3abfa0e72bd09ca3f still says Running/owned_live=true. PID 22400 is absent, but the evidence has progress files and no completed XML o"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-10T19:58Z",
+     "text": "Checked main for Getac's block: no real C# errors from today's changes (cmp.sh against the parent of 863cb3cd6c, no Unity references in the cloud, so only missing-assembly noise); the block is the held owner ba5b4e68ed3b, not a code break. "
     }
    ]
   },
@@ -5379,19 +5379,14 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-10T19:21Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T20:00Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "CLOUD",
-     "at": "2026-11-10T16:54Z",
-     "text": "Code done (uncompiled): Singleton_SubScenes has _overlays_Scene with RequestOverlays(), chained after the reveal (Overlays, Lists UI, Navigation UI, Late UI; unset ones skipped). Left for the Editor: create Overlays.unity, move the objects,"
-    },
     {
      "by": "CLOUD_LOAD_TIME",
      "at": "2026-11-10T17:04Z",
@@ -5401,6 +5396,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-10T17:26Z",
      "text": "LOCAL_MAC, read Map.unity (no change pushed). Map.unity has 3 roots: Planet, Directional Light, '!decalLightmaps'; everything the task moves is a child of Planet (CesiumGeoreference). Of Planet's 26 children 18 carry Cesium components: Cesi"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T20:00Z",
+     "text": "LOCAL_MAC with the Editor: 69ba252a00 Overlays.unity built (Build Settings after Map, set on Bootstrap's Singleton_SubScenes) with the 7 Planet children that carry no Cesium component (GEOMETRY, Geometry Boxes Grid, Drone Models, Peer Cross"
     }
    ]
   },
@@ -5663,5 +5663,5 @@
    "notes": []
   }
  ],
- "source_revision": "c243c40e41d7f32c3b58ab3109d6ee9129c99f96"
+ "source_revision": "d338ebc0b0a86bfb21a01fc22dd640a221bdbf3b"
 }
