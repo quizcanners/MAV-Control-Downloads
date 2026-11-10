@@ -2891,11 +2891,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_GETAC_CHECK",
-     "at": "2026-11-10T06:37Z",
-     "text": "Cloud check of the two GETAC source findings at 8ef77d2: both read true in code. InUse() takes the own record, else the first complete package, whatever subnet is active (matches SPEC 'the first package, the own one first', so the choice is"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-10T06:50Z",
      "text": "Strong Dev 821 on its preserved profile has server_configured=True (Dev 819 was False), while VPN routing reports NoServer with zero candidates and zero presence. No HTTP route request was issued. Presence and usable endpoint adoption still"
@@ -2904,6 +2899,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-10T07:02Z",
      "text": "Cloud (quiz, 2026-11-10: \"When switching VPN subnet It should use servers associated with that subnet. We consider user with multiple VPNs as someone who has access to both.\"): settles GETAC finding 3 / CR-C4C5-01 as the intended rule, not "
+    },
+    {
+     "by": "CLAUDE_REVIEW",
+     "at": "2026-11-10T07:30Z",
+     "text": "6b2c7bedc2: one Admin list (quiz, 2026-11-10: 'Yes, join them'). A named Admin's app reports its WireGuard public key (AdminOp.Tunnel, saved in admins.txt); the people table treats that key as an Admin through TunnelGrants.IsServerAdminKey_"
     }
    ]
   },
@@ -3569,5 +3569,5 @@
    "notes": []
   }
  ],
- "source_revision": "dd2b66972f7656dfe5d59e88dc8e96197303819e"
+ "source_revision": "34770abdf683a8c5914aaaf22d7d18a8709e26e8"
 }
