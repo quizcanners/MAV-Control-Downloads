@@ -3267,11 +3267,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLOUD_MAVCHAT_FOLD",
-     "at": "2026-11-09T21:56Z",
-     "text": "(4) Lists, quiz's trial: in Chat history and Route, a finger swipe up raises the fold one stop while the list keeps scrolling; with the list at its top, a further 40 dp down lowers it one stop; each once per drag. Roslyn check cannot see Un"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-09T22:39Z",
      "text": "CC-F3FA-01 P3 complexity: S1/S2 investigation and snippets complete. ManagedUpdate searches each shown list for UI_SheetListFold every frame although it adds the component once. Suggest the existing BindForSheet / sheet-only Route OnEnable "
@@ -3280,6 +3275,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T23:03Z",
      "text": "iOS 821 (990529ba21) uploaded to TestFlight 2026-11-10 01:01 (internal; processing). Contains this task's code. iPhone check not run: the iPhone 16 Pro Max is not reachable from the Mac (devicectl: unavailable) and the check needs hands on "
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T07:58Z",
+     "text": "iOS 822 (de2c96ec68) is on TestFlight 2026-11-10 09:57 (internal available; external WAITING_FOR_BETA_REVIEW); contains this task's code. iPhone part not run, nothing seen: the iPhone 16 Pro Max is still 'unavailable' to the Mac in devicect"
     }
    ]
   },
@@ -3652,5 +3652,5 @@
    "notes": []
   }
  ],
- "source_revision": "2e398734132b0e13469802da4a5968c28ad1a0e6"
+ "source_revision": "d1ee8f7e9f628d5e7b2e6aa8f708023575cf71f0"
 }
