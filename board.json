@@ -1648,11 +1648,6 @@
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T12:21Z",
-     "text": "iOS 818 (4dce0b3f8d) is on TestFlight (internal; external WAITING_FOR_BETA_REVIEW). Built with --skip-tests: the only red in the full All are the 9 water shader tests on task 96. The iPhone check of this task is still open: no phone is reac"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-09T19:12Z",
      "text": "Quiz chose automatic removal of the oldest managed photos. HEAVY landed 950501e452: initial cap 100 each for local Street View captures, registered GeoTIFFs and chat photo files. Street View and TIFF use the normal photo removal path, defer"
@@ -1661,6 +1656,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-10T09:16Z",
      "text": "LOCAL_MAC 2026-11-10 (cmp.sh NEW ERRORS: none, tests updated, not run, no device). c5e1363308 chat icons: rows of VPNChat/Icons/icons.sqlite (key = first 160 bits of the PNG SHA-256, payload = the sealed bytes, read verified against the ful"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T09:47Z",
+     "text": "ae5291a1eb: label PNG export removed (quiz, 2026-11-10: 'If no Nimbot - don't save the PNG'): Printer.Export, the Exporting/Exported states, the Storage issue, the window's ExportLabel and ExportButton field, the prefab author lines and 4 t"
     }
    ]
   },
@@ -3878,5 +3878,5 @@
    "notes": []
   }
  ],
- "source_revision": "19da31230e05d71415d934d2c5781a23dbae6f45"
+ "source_revision": "a907b13873484e160990c77199271a763b7f07ee"
 }
