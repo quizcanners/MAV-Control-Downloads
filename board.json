@@ -728,11 +728,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-08T17:18Z",
-     "text": "Strong 812 also logged guest reload frame 77 at 1273.158 ms wall, 1257.807 ms unmeasured, 15.351 ms managed, target 30 FPS and native attribution unavailable. Guest external storage blocked direct pull and retained logcat only preserved con"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-08T17:46Z",
      "text": "Lenovo TB-8506X signed 812, 7990df8019, frame 64 at 13.5 s: 1508.732 ms wall, Rendering 750.022 ms under Unmeasured / frame wait, 595.660 ms measured managed, native timing unavailable, 2 FPS target."
     },
@@ -740,6 +735,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-08T18:09Z",
      "text": "Code read: Android has no Swappy and vsync 0, so the 2 FPS cap is Unity's sleep limiter and its wait is booked to IdleFrameCap, not Rendering. Rendering (FrameTime.cs SplitPreviousFrame) = FinishFrameRendering + camera render contexts, so 0"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-10T10:04Z",
+     "text": "ROG_FABLE 2026-11-10, not read: Rog has no station that can ask the server without the Editor. server.diagnostics.read runs only through a local bridge (Editor in Play, a development player, or Android over ADB); the installed Windows playe"
     }
    ]
   },
@@ -3935,5 +3935,5 @@
    "notes": []
   }
  ],
- "source_revision": "cbf1a154bd47795ddead61603a6e55a90571aca9"
+ "source_revision": "79fd7b72d248eed77ef829dc0682d0969699afc4"
 }
