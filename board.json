@@ -5351,8 +5351,8 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-10T17:10Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T17:10Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -5363,6 +5363,11 @@
      "by": "CLOUD",
      "at": "2026-11-10T16:53Z",
      "text": "Code done (f2bec59b..., uncompiled): border tiles are in StreamingAssets/Ukraine Borders.sqlite (cut by Tools/cut_border_tiles.py, altitudes included), UkraineBorderTiles reads them on a worker, TrailPolyline_LODs.UpdateTiles feeds the ribb"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T17:10Z",
+     "text": "LOCAL_MAC: Unity 6000.6.8f1 batch import of main compiles with warnings only, no red line; Assets/StreamingAssets/Ukraine Borders.sqlite imports clean (DefaultImporter); BorderOfUkraine is in neither SO_Ground Station Data.asset nor any .cs"
     }
    ]
   },
@@ -5539,5 +5544,5 @@
    "notes": []
   }
  ],
- "source_revision": "6dffcac64a70c7a24280e12c9f6b2215050a6ac7"
+ "source_revision": "258c0bff9e95f780ac8acac8db106e14d5fbc9bc"
 }
