@@ -3342,11 +3342,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "cloud-menu-picture",
-     "at": "2026-11-09T19:58Z",
-     "text": "Changed per quiz: no new shader, no hard-coded colour. Picture uses Chat/UI/Stream Preview.mat (centre-crops itself); X pieces swap Menu X Opaque Blur -> Blur Display Bluish on open (UI_ExpandMenu._openedMaterial); openedColor back to white"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-09T20:27Z",
      "text": "Mac Editor at eac06fdd3b: cmp.sh NEW ERRORS none; BUTTONS Right.prefab UI_ExpandMenu resolves _pictureMaterial = Chat/UI/Stream Preview.mat and _openedMaterial = UI/Shaders/Blur Display Bluish.mat, openedColor white 0.75 (per the cloud revi"
@@ -3355,6 +3350,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T23:04Z",
      "text": "iOS 821 (990529ba21) uploaded to TestFlight 2026-11-10 01:01 (internal; processing). Contains this task's code. iPhone check not run: the iPhone 16 Pro Max is not reachable from the Mac (devicectl: unavailable) and the check needs hands on "
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T07:59Z",
+     "text": "iOS 822 (de2c96ec68) is on TestFlight 2026-11-10 09:57 (internal available; external WAITING_FOR_BETA_REVIEW); contains this task's code. iPhone part not run, nothing seen: the iPhone 16 Pro Max is still 'unavailable' to the Mac in devicect"
     }
    ]
   },
@@ -3662,5 +3662,5 @@
    "notes": []
   }
  ],
- "source_revision": "5f8b9faeaa0bb02f54c4bbf71f99a8a4464f4e2e"
+ "source_revision": "228346421fb306b2b240103a588597d692c31567"
 }
