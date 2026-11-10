@@ -5379,11 +5379,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLOUD_LOAD_TIME",
-     "at": "2026-11-10T17:04Z",
-     "text": "quiz, 2026-11-10: no loading screen; the map shows at once, the bar covers core scenes and layers, sounds load on demand (task 288, Bootstrap AGENTS 'The loading plan'). Effect here: the reveal moment is now the Map camera's frame, so start"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-10T17:26Z",
      "text": "LOCAL_MAC, read Map.unity (no change pushed). Map.unity has 3 roots: Planet, Directional Light, '!decalLightmaps'; everything the task moves is a child of Planet (CesiumGeoreference). Of Planet's 26 children 18 carry Cesium components: Cesi"
@@ -5392,6 +5387,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-10T20:00Z",
      "text": "LOCAL_MAC with the Editor: 69ba252a00 Overlays.unity built (Build Settings after Map, set on Bootstrap's Singleton_SubScenes) with the 7 Planet children that carry no Cesium component (GEOMETRY, Geometry Boxes Grid, Drone Models, Peer Cross"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T20:02Z",
+     "text": "REVIEW-419: source review through 69ba252a0 found no new finding; seven-root scene/reference checks passed. Existing task status and native follow-up retained. [Coverage and verification limits](../Reviews/69ba252a0.md)."
     }
    ]
   },
@@ -5506,7 +5506,16 @@
    "n": 294,
    "name": "Editor (from 863cb3cd6c)",
    "done": "",
-   "held": [],
+   "held": [
+    {
+     "who": "LOCAL_MAC",
+     "since": "2026-11-10T20:04Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -5654,5 +5663,5 @@
    "notes": []
   }
  ],
- "source_revision": "6aa0bf10e01982ebce8f2d7789b7a0a2606b9925"
+ "source_revision": "c1b6899b54e36a68335582dea52baf3e795a24a0"
 }
