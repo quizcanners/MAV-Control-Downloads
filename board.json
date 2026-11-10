@@ -5510,8 +5510,8 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-10T20:04Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T20:06Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -5522,6 +5522,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-10T17:28Z",
      "text": "LOCAL_MAC, Unity batch report of every UI_ScreenBackdrop (no change): 13 backdrops in Chat QR Window L/P, Chat Window L/P, Search Query L/P, Selected Name Overlay, List Picker, Distribution Window (2), UI_TOP_MOST (Hex Transition, Red Filte"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T20:06Z",
+     "text": "LOCAL_MAC, batch scan of the scenes (no change): UI_TOP_MOST is its own Canvas root, so Hex Transition and Red Filter (-64/+64 under it) already reach past the edges: done. Singleton_NetworkMembersList._chatBackdrop (Main UI, 'Chat Peer Bac"
     }
    ]
   },
@@ -5663,5 +5668,5 @@
    "notes": []
   }
  ],
- "source_revision": "c1b6899b54e36a68335582dea52baf3e795a24a0"
+ "source_revision": "441c0f1591d550a66664f3523662785324c04533"
 }
