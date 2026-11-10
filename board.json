@@ -5304,11 +5304,6 @@
    "notes": [
     {
      "by": "CLOUD_LOAD_TIME",
-     "at": "2026-11-10T16:39Z",
-     "text": "Loading screen 3 s wait removed (quiz, 2026-11-10: \"no, don't wait\"); it opens as soon as the Station is up. Uncompiled."
-    },
-    {
-     "by": "CLOUD_LOAD_TIME",
      "at": "2026-11-10T16:42Z",
      "text": "Main UI split into later scenes: see the task added after this one."
     },
@@ -5316,6 +5311,11 @@
      "by": "CLOUD_LOAD_TIME",
      "at": "2026-11-10T17:04Z",
      "text": "quiz, 2026-11-10: no loading screen; the map shows at once, the bar covers core scenes and layers, sounds load on demand (task 288, Bootstrap AGENTS 'The loading plan'). Effect here: the reveal moment is now the Map camera's frame, so start"
+    },
+    {
+     "by": "CLOUD_LOAD_TIME",
+     "at": "2026-11-10T17:04Z",
+     "text": "Correction: the sounds / no-loading-screen task is 300, not 288."
     }
    ]
   },
@@ -5512,5 +5512,5 @@
    "notes": []
   }
  ],
- "source_revision": "a60a0a4920d88ef9ab4bdcca3e90a0063395a93d"
+ "source_revision": "ec1bb12130e4a940ab07ebd5b1e8e7865d781885"
 }
