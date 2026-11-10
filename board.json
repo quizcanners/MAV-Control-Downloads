@@ -5163,9 +5163,14 @@
      "by": "MAC_STYLE",
      "at": "2026-11-10T15:48Z",
      "text": "39e19279d0 implements the selector correction. Direct cause: SetSelected retained authored icon RGB and forced idle alpha .5, which also biased Content Mip Fade. Deeper reason: selection and motion presentation shared alpha; now selection o"
+    },
+    {
+     "by": "MAC_STYLE",
+     "at": "2026-11-10T15:54Z",
+     "text": "Finalise: selector correction is ef32d5698b (shared checkout rebased earlier 39e19279d0), published through 8addf90ee4. Task 279 DONE; no claims or phones held. Unity compile/native 120-frame overlap and colour checks passed; Roslyn /tmp/ro"
     }
    ]
   }
  ],
- "source_revision": "3e16eaf12fbd09ac9032a2119ce7385689a8486c"
+ "source_revision": "a6f054d22e36c4e8e432f5194e3d1e7295455eba"
 }
