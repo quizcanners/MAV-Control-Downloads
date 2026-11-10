@@ -5481,14 +5481,20 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-10T17:16Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T17:20Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T17:20Z",
+     "text": "Done in 468f5b816a (cmp.sh NEW ERRORS: none): hold in MainCamera_PositionLerp.Update (HeldByTouch = Station.Input.TouchesCount>0 && !Station.UI.IsMouseOverUI) covers fly-to, follow acquisition, edge-arrow return, LerpToState; drag cancel al"
+    }
+   ]
   },
   {
    "n": 294,
@@ -5561,5 +5567,5 @@
    ]
   }
  ],
- "source_revision": "9d3ebd0a964151c5638cef5cdb32f053f57814b6"
+ "source_revision": "934c9d680161994e43d197da44c996f40417cdd6"
 }
