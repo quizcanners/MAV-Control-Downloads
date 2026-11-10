@@ -4980,6 +4980,11 @@
      "by": "cloud-mapfocus",
      "at": "2026-11-10T14:47Z",
      "text": "quiz 2026-11-10 (verbatim in Main View SPEC, Map focus): 'this mode should also show a multi-compile that removes any light, min brightness, and Elements overlay. basically if MapFocus Mode is On return sample Texture;'"
+    },
+    {
+     "by": "cloud-mapfocus",
+     "at": "2026-11-10T14:48Z",
+     "text": "Cloud wrote the _MAP_FOCUS multi_compile_fragment in the 4 Planet shaders, the early return in PlanetSurface.hlsl, the keyword flip and Low/no-lights draw in PlanetRendererSession_Presentation, and stripper pairs. Uncompiled; shader-fragmen"
     }
    ]
   },
@@ -4992,5 +4997,5 @@
    "notes": []
   }
  ],
- "source_revision": "87cbff95a4e9e731a56293fbc41d3c065f810da5"
+ "source_revision": "8160131c8e8f88be2435be7ffe46ef3de93adcde"
 }
