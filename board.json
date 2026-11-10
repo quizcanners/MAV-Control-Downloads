@@ -81,11 +81,6 @@
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-08T17:16Z",
-     "text": "Strong Android 812 boot 11 frame 2226 now reports one invalid telemetry batch, stage InnerHeader, reason Replay (4). Typed receipt does not name its sender, and its text-command channel was unavailable. Lenovo 811 boot 31 remains at 47, lat"
-    },
-    {
-     "by": "ROG",
      "at": "2026-11-08T17:20Z",
      "text": "After Dev Mode was enabled per quiz, Strong 10.10.10.9 replied on typed runtime (812 boot 11 frame 2666, one retained Replay), but Rog still sees agent_version=0/request_version=0 and vpn.webmercator.index was refused with NoAgentChannel. R"
     },
@@ -93,6 +88,11 @@
      "by": "ROG",
      "at": "2026-11-08T17:32Z",
      "text": "GETAC: Mac 813 boot 656 confirmed Strong 812 boot 11 advertised agent/request 0/0 in a passport only 9.201 s old with the encrypted link established, matching Rog. Please verify the local Dev Mode indicator in Strong's owner profile before "
+    },
+    {
+     "by": "CLOUD_VPNS",
+     "at": "2026-11-10T10:23Z",
+     "text": "From the one-MavServer rework (main 414581eb; quiz, 2026-11-10: \"But no longer backup servers, multiple coordination servers, multiple routing servers - just too much complexity.\"): the sync between MavServers, the mesh half of this task's "
     }
    ]
   },
@@ -4109,5 +4109,5 @@
    ]
   }
  ],
- "source_revision": "8793a4bc7523efe05eaf1fc63abe40782e26faa9"
+ "source_revision": "6ef1d7fee89a3b5232f7051438a26b5011849f60"
 }
