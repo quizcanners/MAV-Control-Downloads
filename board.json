@@ -4118,8 +4118,8 @@
      "who": "ROG_OPUS",
      "since": "2026-11-10T22:27Z",
      "noted": "",
-     "progress": 40,
-     "ticked": 2,
+     "progress": 60,
+     "ticked": 3,
      "total": 5
     }
    ],
@@ -4134,7 +4134,7 @@
     },
     {
      "t": "Readers take the current VPN's specs: the three Google Sheets (member sheet cach",
-     "x": false
+     "x": true
     },
     {
      "t": "Specs between devices: the Version in the passport and one sealed message behind",
@@ -4978,18 +4978,18 @@
    "notes": [
     {
      "by": "ROG_OPUS",
-     "at": "2026-11-10T21:07Z",
-     "text": "ROG_OPUS design for step 4 (not started, released): the hub opens a packet only with the sender's full box key, and the header carries only its 8-byte key id, so 'admit whoever seals to the server's key' needs the key on the wire once. Prop"
+     "at": "2026-11-10T22:25Z",
+     "text": "ROG_OPUS step 4 progress, steps 4-5 not ticked (main at the 'Guides: Hello' commit): DONE Hello admission (c4f4fe14ce; HelloChecks; app says Hello whenever its route is not Connected); deleted Forward, Join, Seen, Enroll, Reauthenticate (f4"
     },
     {
      "by": "REVIEW",
-     "at": "2026-11-10T21:30Z",
-     "text": "CR-BFD0-01 P2: S1/S2 complete; repeated questions reset their own timeout and can prevent Noise recovery. First-question deadline suggestion awaits quiz; existing steps/status retained. [Evidence and sketch](../Reviews/333c04481.md#cr-bfd0-"
+     "at": "2026-11-10T22:37Z",
+     "text": "Investigation CR-5E44-01 P1: ordinary Hello admission satisfies two legacy root-only gates, reaching service update/install and persisted release-key revocation. S1/S2 existing-root-predicate repair sketch awaits quiz; no implementation or "
     },
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-10T22:25Z",
-     "text": "ROG_OPUS step 4 progress, steps 4-5 not ticked (main at the 'Guides: Hello' commit): DONE Hello admission (c4f4fe14ce; HelloChecks; app says Hello whenever its route is not Connected); deleted Forward, Join, Seen, Enroll, Reauthenticate (f4"
+     "by": "REVIEW",
+     "at": "2026-11-10T22:37Z",
+     "text": "REVIEW-422/CR-BFD0-01: timeout still restarts at every retry (residual P3 priority), but new retry Hello resets the handshake while Connecting and mitigates the older recovery consequence in source. Same finding, S1/S2 await quiz; CR-CA4F-0"
     }
    ]
   },
@@ -6056,5 +6056,5 @@
    "notes": []
   }
  ],
- "source_revision": "0f17397066406431f3f8f09fb92eafc738ae89b5"
+ "source_revision": "dd72f61b8e3b5aab97aebf0bc9354dfe2a4fc724"
 }
