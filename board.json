@@ -4498,7 +4498,45 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 241,
+   "name": "Creeping complexity",
+   "done": "",
+   "held": [
+    {
+     "who": "CLOUD_COMPLEXITY",
+     "since": "2026-11-10T12:53Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 5
+    }
+   ],
+   "steps": [
+    {
+     "t": "Sync table from the code, store by store",
+     "x": false
+    },
+    {
+     "t": "Recent commits: added timers, counters, retries, flags",
+     "x": false
+    },
+    {
+     "t": "State as flags and timers where one enum and a switch would do",
+     "x": false
+    },
+    {
+     "t": "Cut what is proven dead or equivalent",
+     "x": false
+    },
+    {
+     "t": "Larger rewrites on the board, questions to quiz",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
- "source_revision": "63f58b07bba9407223178b5e933a37d278b9b2d4"
+ "source_revision": "15bb6fdfe59e48722976c4a2359d456d0fbcd581"
 }
