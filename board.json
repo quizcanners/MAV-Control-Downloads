@@ -2891,11 +2891,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-10T04:23Z",
-     "text": "GETAC source check 4abf5d2858: adoption stores VpnSubnet and outgoing package relay filters by it, but RoutingServer.InUse() returns the first complete saved package regardless of the active VPN subnet. After receiving A on one tunnel, swit"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-10T05:19Z",
      "text": "CR-C4C5-01 P3: S1/S2 formalizes GETAC\u2019s cross-subnet selection question. InUse keeps own/first complete package; this matches current SPEC, so it is a policy decision, not a confirmed bug. Optional current-subnet preference sketch preserves"
@@ -2904,6 +2899,11 @@
      "by": "GETAC",
      "at": "2026-11-10T05:45Z",
      "text": "Windows Dev 821 on the existing Getac profile reports routing_state=Connected, one candidate, one presence answer and server_configured=True. Route requests=0. This is mesh/configured endpoint proof only. Automatic first adoption and addres"
+    },
+    {
+     "by": "CLOUD_GETAC_CHECK",
+     "at": "2026-11-10T06:37Z",
+     "text": "Cloud check of the two GETAC source findings at 8ef77d2: both read true in code. InUse() takes the own record, else the first complete package, whatever subnet is active (matches SPEC 'the first package, the own one first', so the choice is"
     }
    ]
   },
@@ -3503,5 +3503,5 @@
    "notes": []
   }
  ],
- "source_revision": "ffdb1bc7e2038ae533d1cebb5dfed5453ffc77fa"
+ "source_revision": "9a3eca91b8736f2ebe4e8776508049c445b4228e"
 }
