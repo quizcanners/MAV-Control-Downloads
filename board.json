@@ -2872,47 +2872,6 @@
    ]
   },
   {
-   "n": 150,
-   "name": "Server access package",
-   "done": "",
-   "held": [],
-   "steps": [
-    {
-     "t": "Packet kind and handler on both sides",
-     "x": true
-    },
-    {
-     "t": "Subnet trust rule",
-     "x": true
-    },
-    {
-     "t": "Admin grants Deploy VPN",
-     "x": true
-    },
-    {
-     "t": "Two-device check",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "REVIEW",
-     "at": "2026-11-10T08:11Z",
-     "text": "REVIEW-409 / CR-CA4F-01 P2 extension: the new tunnel-key report also treats local UDP send as delivered; one lost report stays suppressed while connected. S1/S2 existing-presence refresh sketch awaits quiz; no reply-triggered resend loop or"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-10T08:11Z",
-     "text": "REVIEW-409 / CR-C4C5-01: quiz's subnet-selection decision is recorded and source-implemented by 90a46c7ab. Native A-B-A/restart/Valhalla acceptance remains unrun; same-key address relocation stays a separate open request. [Reconciliation](."
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-10T10:17Z",
-     "text": "REVIEW-411 / CR-6B2C-01: b51acbe6b removes the old permission-edit trigger and prevents a derived server Admin from becoming a stored table grant. Legacy A flags are still read; historical duplicate-grant normalization is not proved, and in"
-    }
-   ]
-  },
-  {
    "n": 151,
    "name": "Device check (iPhone/Android/Edi",
    "done": "2026-11-10T07:50Z",
@@ -4019,8 +3978,41 @@
    "name": "ServerSpecs per VPN on the devic",
    "done": "",
    "held": [],
-   "steps": [],
-   "notes": []
+   "steps": [
+    {
+     "t": "Packet kind and handler on both sides",
+     "x": true
+    },
+    {
+     "t": "Subnet trust rule",
+     "x": true
+    },
+    {
+     "t": "Admin grants Deploy VPN",
+     "x": true
+    },
+    {
+     "t": "Two-device check",
+     "x": false
+    }
+   ],
+   "notes": [
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T08:11Z",
+     "text": "REVIEW-409 / CR-CA4F-01 P2 extension: the new tunnel-key report also treats local UDP send as delivered; one lost report stays suppressed while connected. S1/S2 existing-presence refresh sketch awaits quiz; no reply-triggered resend loop or"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T08:11Z",
+     "text": "REVIEW-409 / CR-C4C5-01: quiz's subnet-selection decision is recorded and source-implemented by 90a46c7ab. Native A-B-A/restart/Valhalla acceptance remains unrun; same-key address relocation stays a separate open request. [Reconciliation](."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T10:17Z",
+     "text": "REVIEW-411 / CR-6B2C-01: b51acbe6b removes the old permission-edit trigger and prevents a derived server Admin from becoming a stored table grant. Legacy A flags are still read; historical duplicate-grant normalization is not proved, and in"
+    }
+   ]
   },
   {
    "n": 214,
@@ -4039,5 +4031,5 @@
    "notes": []
   }
  ],
- "source_revision": "22ac93e64205523d6591a9bd4a41b95d4d374652"
+ "source_revision": "ad1fafa8bf7a00772ce6875afd8776d43fa06959"
 }
