@@ -260,11 +260,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_GETAC_CHECK",
-     "at": "2026-11-10T06:37Z",
-     "text": "8ef77d2 (cloud, uncompiled): Windows link pipe no longer uses PipeOptions.CurrentUserOnly. Server.CreatePipe calls CreateNamedPipe with a protected DACL naming only the effective user SID (first instance only, local clients only) and wraps "
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-10T08:03Z",
      "text": "FAIL Windows Dev 821 b0cd37abdc on Getac. Same-profile built helper returned NoListener, PID 0, while player PID 32652 had reached the map; no deep_link receipt. Native startup now logs NotSupportedException after the WindowsIdentity fix. G"
@@ -273,6 +268,11 @@
      "by": "REVIEW",
      "at": "2026-11-10T08:11Z",
      "text": "REVIEW-409 / CR-59CE-01: identity-path source repair at 8ef77d2c2 is insufficient: GETAC later records native NotSupportedException and NoListener on b0cd37abdc. Existing P2 stays open; S1 reconciliation/S2 conditional handle-mode investiga"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T08:40Z",
+     "text": "GETAC diagnosis only, Windows Dev 821 b0cd37abdc. WindowsLinkTransport.Server.CreatePipe wraps the native handle in NamedPipeServerStream with isAsync=true. Generated System.Core calls PipeStream.InitializeHandle > InitializeAsyncHandle > T"
     }
    ]
   },
@@ -948,11 +948,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-09T11:36Z",
-     "text": "Roslyn NEW ERRORS: none, including Editor, Android, standalone and asmdef modes, against the Dev 817 source baseline. Fixed the .NET 8 drill-priority host harness to run the production pass predicate (d8b8d5acc7); it passes. Device verifica"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-09T11:54Z",
      "text": "Windows Unity 6000.6.8f1 isolated EditMode: WebMercatorFinestTiles (includes DrillDecisions) 281/281, IndexPaging 73/73, MemoryLedger 5/5. Standalone test_map_drill_priority.py on .NET 8 passes after harness fix d8b8d5acc7. Current-build pa"
     },
@@ -960,6 +955,11 @@
      "by": "CODEX_UI_OWNER",
      "at": "2026-11-09T13:56Z",
      "text": "Mac Editor b47481540d: cmp.sh NEW ERRORS none; DrillDecisions 17/17, MemoryLedger 5/5, IndexPaging 71 passed and two Windows-only skipped. test_map_drill_priority.py passed (dotnet 8)."
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T08:40Z",
+     "text": "Pending on GETAC. ADB lists Strong only. Lenovo idle, touch wake and globe traversal plus matched long-frame CPU/fault evidence were unavailable."
     }
    ]
   },
@@ -1077,11 +1077,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-10T06:50Z",
-     "text": "Strong Dev 821 startup frame 65, 593.952 ms wall, VPN Chat 347.951 ms, Processing Messages 300.995 ms, Confirmation 170.170 ms across two calls; one GC collection. Startup only, so do not compare to the idle mean. Isolate the confirmation c"
-    },
-    {
      "by": "CLOUD_PERF_AUDIT",
      "at": "2026-11-08T20:50Z",
      "text": "Cloud audit (2026-11-08): the per-frame jump is the idle cadence (see note on task 54): the MapBake pool grows to 50 ms a frame at 2 FPS, and Lenovo is 90 ms/s (810) against 127 ms/s (812), Strong 61 against 26. Code read: Orthophoto.Manage"
@@ -1090,6 +1085,11 @@
      "by": "performance-review",
      "at": "2026-11-09T00:52Z",
      "text": "Build 814 rows (07bcf48b71) have no matched idle owner snapshot, so VPN Chat and Map Editing Before Camera are unchecked there. Next idle read must capture the top 5 idle owners, and Phone_Timings.md Owners gets them."
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T08:40Z",
+     "text": "Strong Dev 821 unattended KSP with live traffic, 30.032 s / 225 updates. VPN Chat 11.584 ms/update. Leading measured stages Session Maintenance 3.334, Payload Splitter Managed Update 3.150, Processing Messages 2.798, Direct USB 1.844 ms/upd"
     }
    ]
   },
@@ -1146,11 +1146,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-08T20:08Z",
-     "text": "Strong Test 814 (07bcf48b71) cold process, owner profile, USB charging, map visually ready 11.25\u201315.26 s. PSS 962.7 MiB at first usable screenshot, 1246.0 MiB after 2 min untouched (+283.3); 812 was 830.8 to 999.2 (+168.4), with later first"
-    },
-    {
      "by": "CLOUD_PERF_AUDIT",
      "at": "2026-11-08T20:50Z",
      "text": "Cloud audit (2026-11-08): read of existing numbers, no new capture. Strong 811 samples (RAM.md) show file RSS flat near 600 MB and anonymous RSS 845 to 862 MB, so the idle growth is anonymous, not mapped tile pages; the SQLite shard stores "
@@ -1159,6 +1154,11 @@
      "by": "CLAUDE_REVIEW",
      "at": "2026-11-09T20:48Z",
      "text": "Source review (plausible for the level, not the idle growth): WebMercator_SqliteTileStore.cs:413-421 sets mmap_size=256 MiB on each of 8 readers, main plus up to 4 attached segments, on Android; touched file-backed pages count in PSS. The n"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T08:40Z",
+     "text": "Strong Dev 821 same PID and pose, PSS 1837.1 to 1860.8 MiB in 120 s (+23.7); Unity tracked allocations +3990 bytes, managed +0.77 MiB, anonymous RSS +17.23 MiB. The older +168 MiB idle rise did not recur in this warm session and the owner r"
     }
    ]
   },
@@ -1211,6 +1211,11 @@
      "by": "CLAUDE_REVIEW",
      "at": "2026-11-09T20:48Z",
      "text": "Source review: Singleton_SituationEntities.cs:325-334 holds the first bake until all five variants of the Situation collection are warmed on GLES, while Metal already skips the warm-up ('Ordinary draws work'); same pattern in Singleton_Cont"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T08:40Z",
+     "text": "Pending on GETAC. ADB lists Strong only. Lenovo GLES cold/warm prewarm and first visible Situation draw were unavailable."
     }
    ]
   },
@@ -1373,7 +1378,13 @@
    "done": "",
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T08:40Z",
+     "text": "Reproduced on Strong Dev 821 via checklist.automation.start. Run 6f42528abd584443a619529301aabf23 reached Passed with 57 records, delivery Unsupported and storage_acknowledged=False. A second start returned the same ID and record count. Cur"
+    }
+   ]
   },
   {
    "n": 72,
@@ -1381,7 +1392,13 @@
    "done": "",
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T08:40Z",
+     "text": "Reproduced on Strong Dev 821 through the actual Android DevMode > Utilities > AI Sandbox entry. Typed selftest all, tapped Run command, opened Debug with physical-equivalent Android input. Debug displayed err readout_busy; the Inspector is "
+    }
+   ]
   },
   {
    "n": 73,
@@ -1947,11 +1964,6 @@
    "notes": [
     {
      "by": "CLAUDE_REVIEW",
-     "at": "2026-11-09T20:46Z",
-     "text": "Source review (plausible, depends on peer state): Peers_Peer_MessageProcessing.cs:300-325 stores the wire HeartbeatFlags, then the local SharesGPS / AllowsVideoRestream overrides flip a bit back through the indexer (Version++ and ProfileCha"
-    },
-    {
-     "by": "CLAUDE_REVIEW",
      "at": "2026-11-09T21:16Z",
      "text": "78a6bc26a8: heartbeat overrides (SharesGPS, AllowsVideoRestream) write the flag word directly and the profile is marked changed only when the resolved flags differ from before the heartbeat, so a peer whose wire bit disagrees with the accep"
     },
@@ -1959,6 +1971,11 @@
      "by": "CLOUD_VPN_CPU",
      "at": "2026-11-09T08:02Z",
      "text": "Read every call of OnMAV_Control_Heartbeat (cloud, 2026-11-09): each is a few field copies, so the 41 ms is not in code that reading finds. Capture the sub-stage per task 99 step 1."
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T08:40Z",
+     "text": "Lenovo absent from ADB. Supplemental Strong Dev 821 sample in Performance Baseline/CPU.md ranks five message owners per second. Incoming Heartbeat 15.307 ms across 168 calls, SendHeartbeat 9.471 ms across six. The Lenovo 120 s/2 FPS and pai"
     }
    ]
   },
@@ -3818,5 +3835,5 @@
    "notes": []
   }
  ],
- "source_revision": "f52f216f5dc05a3a8fb7589c2570f38472789807"
+ "source_revision": "fa460e07b31d4b24db52df2be2cb9e72bdd5ec53"
 }
