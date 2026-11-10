@@ -3715,8 +3715,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-10T08:25Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T08:42Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -3727,6 +3727,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T07:52Z",
      "text": "Current Search Tab action points to UI_MainScreenSuggestion.ToggleSearch, which explicitly returns for a selected object. Reparenting alone would keep the reported failure. Move the action to UI_TopRightButtons, bind its layout beside Share"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T08:42Z",
+     "text": "aee0d0dc83 moved Search beside Share, removed its old Suggestions control and updated the authored layout and visual bindings. Search, suggestion layout, main UI and MavChat native fixtures pass; Roslyn NEW ERRORS: none. Page checks bumped."
     }
    ]
   },
@@ -3835,5 +3840,5 @@
    "notes": []
   }
  ],
- "source_revision": "fa460e07b31d4b24db52df2be2cb9e72bdd5ec53"
+ "source_revision": "e26ac1f417f92f77ec0025677697afc3b3e5234c"
 }
