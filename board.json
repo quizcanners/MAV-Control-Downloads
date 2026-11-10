@@ -1672,11 +1672,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-10T06:50Z",
-     "text": "Strong Android Dev 821 (4abf5d2858), installed in place with matched signed APK, UID and profile. Native pinch SurfaceFlinger peak during/first second after: zoom-out 180.248/250.010 ms, zoom-in 265.909/167.868 ms. Dev 819 had 166.802/166.5"
-    },
-    {
      "by": "CLOUD_PATCH_PREP",
      "at": "2026-11-10T07:13Z",
      "text": "531fa88 (cloud, uncompiled, by reading): the 237 ms Mask Demand frames fit PlanetDisplayMasks.Compose, a 256x256 Ocean+paint union rebuilt on the main thread for every donor pair in the frame an Ocean page or paint view changes; it is displ"
@@ -1685,6 +1680,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-10T10:05Z",
      "text": "ROG_FABLE 2026-11-10, retest not run: it needs the Strong on USB with Getac's native two-finger replay and SurfaceFlinger capture, and a signed Dev 822 or later. From Rog the Strong answers ping over the VPN (10.10.10.9) but TCP ADB 5555 is"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-10T11:47Z",
+     "text": "ROG_FABLE 2026-11-10, Strong Dev 821 at rest over the VPN: one retained frame over 200 ms, boot 17 frame 114, 1034.954 ms wall, largest child 'Unmeasured / frame wait' 1005.7 ms = Rendering 998.6 (URP render on the main thread 1003.1, rende"
     }
    ]
   },
@@ -4267,5 +4267,5 @@
    "notes": []
   }
  ],
- "source_revision": "dc440bc2bcb5aad6507e98cc5203784474c41769"
+ "source_revision": "01d13dae0080189483d11ee4f9af1e697ae3b99f"
 }
