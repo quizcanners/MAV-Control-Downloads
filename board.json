@@ -4402,9 +4402,22 @@
    "name": "Hide the bottom zoom scroller wh",
    "done": "",
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Add 'no DJI aircraft connected' to the zoom scroller decision in the Bootstrap S",
+     "x": false
+    },
+    {
+     "t": "Move ShouldShowZoomButtons' conditions there; UI_PeerCrosshairSharing reads it t",
+     "x": false
+    },
+    {
+     "t": "Run cmp.sh (NEW ERRORS: none), merge to main",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
- "source_revision": "ac667c711f01e72b2196a8aba64e7d3831651254"
+ "source_revision": "90223a6c28a426b48746e4cf0d877de11feb47ea"
 }
