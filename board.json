@@ -2530,11 +2530,6 @@
    "notes": [
     {
      "by": "CLOUD",
-     "at": "2026-11-10T10:16Z",
-     "text": "Prepared 98d5018c: target is in Situation Entities SPEC, section 3D models for Alive entities; guide in its AGENTS.md. Nothing built yet. Code steps can be pushed uncompiled by cloud; step 3 needs the Editor. Start in SituationGroupedIconSy"
-    },
-    {
-     "by": "CLOUD",
      "at": "2026-11-10T10:20Z",
      "text": "quiz, 2026-11-10: \"They will get models in the future. This is not a limitation. But we don't want to reuse the same model for different ones.\" So enemy-only and ungrouped-only in the brief describe the models that exist today, not a rule. "
     },
@@ -2542,6 +2537,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-10T17:39Z",
      "text": "Code steps done in a18354b85a: SituationEntityModels table (type, affiliation, single) -> Enemy Unit/Vehicle/Cannon for Alive enemy single units, others keep icons; Group.Model from the bake; SituationGroupedIconSystem.Prepare moves wired-m"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T18:53Z",
+     "text": "Investigation CC-A183-01, P3 complexity: model batches search for Entity.Null twice while appending and again per camera submission, though the append already knows their occupied count. S1 mutation/lifetime trace and Python count control c"
     }
    ]
   },
@@ -4594,7 +4594,16 @@
    "n": 238,
    "name": "Restream route in H.264 on every",
    "done": "",
-   "held": [],
+   "held": [
+    {
+     "who": "LOCAL_MAC",
+     "since": "2026-11-10T18:56Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -5634,5 +5643,5 @@
    "notes": []
   }
  ],
- "source_revision": "2f804f7fdbccf14be5de73362f566e5c01260303"
+ "source_revision": "d948f82067e0d9efc5f3142a1b08afb3c1119218"
 }
