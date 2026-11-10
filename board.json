@@ -3248,19 +3248,19 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLAUDE_REVIEW",
-     "at": "2026-11-09T20:44Z",
-     "text": "277d8cb97a applies items 6 (water branch) and 8 (normalize only under _PLANET_SPACE) and drops the unread _PLANET_LOW_QUALITY axis from PlanetTerrain.shader and PlanetImageryArray.shader. Left: 1-5, 7, 10, 12, 13, 15, 17, 20, 22. Item 5 is "
+     "by": "REVIEW",
+     "at": "2026-11-09T23:38Z",
+     "text": "CR-0CC1-01 P3 source filtering mismatch: moving UVs retain sampled direction but gradients omit its change. Mipmapped motion mask and arithmetic control traced. Suggest restoring actual per-tap gradients or sharing direction gradients. S1/S"
     },
     {
-     "by": "CLAUDE_REVIEW",
-     "at": "2026-11-09T21:16Z",
-     "text": "78a6bc26a8: item 20 (WiFi early return) done; _PLANET_LOW_QUALITY set through a GlobalKeyword. Item 5 deliberately not applied: besides the edge change, ungating adds a mask read per High pixel in Day/Night where the branch is uniformly not"
+     "by": "REVIEW",
+     "at": "2026-11-09T23:38Z",
+     "text": "CR-0CC1-02 P3 binding mismatch: shader reads channel floats/coarse-road floor while PlanetSurfaceKeywords.Bind and render fixtures still publish only old bits. Production draw packets are updated. Suggest updating the existing binding owner"
     },
     {
-     "by": "CLOUD_SHADER_BASELINE",
-     "at": "2026-11-09T22:21Z",
-     "text": "0cc1f523 on main applies items 1 (_PLANET_LIGHTS variant, Session.Draw flips it with _PLANET_LOW_QUALITY, PlanetVariantStripper drops Low x raised/flat top and lights x Thermal: 144 built of 256 declared per Imagery shader), 2 (bump read is"
+     "by": "REVIEW",
+     "at": "2026-11-09T23:38Z",
+     "text": "CR-0CC1-03 P3 integration: control-zone/wind Low readers depend on the Planet-only global publisher; online/no-session startup can use High despite saved Low. Suggest moving existing keyword publication to the common BaseMap/shader owner. S"
     }
    ]
   },
@@ -3446,7 +3446,24 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 185,
+   "name": "Refactoring pass",
+   "done": "",
+   "held": [
+    {
+     "who": "refactor-6h",
+     "since": "2026-11-10T00:44Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
- "source_revision": "10a450c3cbf34f29c589774b239312424bf30dca"
+ "source_revision": "557bd215c8fb5cb06dfc2888288ef0f12a739fba"
 }
