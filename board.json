@@ -260,11 +260,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-09T04:57Z",
-     "text": "Lenovo 814 to signed 816 in-place upgrade: Android rejected INSTALL_FAILED_INSUFFICIENT_STORAGE with 869 MB free. App Updates retained 982,529,318 bytes for the same 811 download: raw APK, .previous backup, and sealed copy. I archived each "
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-09T05:35Z",
      "text": "CR-31F7-01 (P2 storage), extends GETAC cache note 31f745d3b. S1 investigation complete: cached preparations always Unseal and AdmitUnsealed renames an existing plaintext to another .previous-GUID, with no retirement; repeated identical prep"
@@ -273,6 +268,11 @@
      "by": "GETAC",
      "at": "2026-11-09T08:30Z",
      "text": "GETAC clean install passed on DJI RC Plus 2. Removed MAV Control 777 and the standalone WireGuard app without retaining app data. In Windows Test 817, Settings > Windows > Install on another device, selected Test, DJI, and the assigned peer"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T05:45Z",
+     "text": "Windows Dev 821 Getac native IL2CPP startup logs Windows link activation is unavailable (ArgumentException), and the previous Getac Windows player log also contains the warning. Station_DeepLinks_Windows catches listener setup; WindowsLinkT"
     }
    ]
   },
@@ -1727,11 +1727,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-09T09:00Z",
-     "text": "GETAC Strong Android Dev 817 (2400e9b752): same-pose native pinch A/B, pages off/on max zoom-in presents 350/433 ms; valid second pages-on capture reproduced 366 ms. Frozen frame 1800: wall 420.148 ms; Render Planet 256.336, Patch Preparati"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-09T22:32Z",
      "text": "Strong Android Dev 819 (6f45cbc6bc): native pinch reproduced SurfaceFlinger presentation gaps of 166.802 ms zoom-out and 299.974 ms zoom-in; first second after each gesture 166.562/133.102 ms. Half-resolution route reported render_scale_tar"
     },
@@ -1739,6 +1734,11 @@
      "by": "GETAC",
      "at": "2026-11-09T22:33Z",
      "text": "GETAC finalise Android 819 (6f45cbc6bc). Built and signed, with evidence pushed in 977a68815e. Strong returned in 1969229f6f, no held work from this run. Map 3.744 s, smoke 48 pass/0 fail/3 skips, pinch gaps 300/167 ms and separate 773 ms t"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T05:45Z",
+     "text": "GETAC batch finalise. Android and Windows Dev 821 pinned to 4abf5d2858; signed APK receipt 01df669abb. Windows map 2.785 s, Ready 3.190 s, smoke Incomplete with zero failed and three hidden-workflow skips. Windows wheel in/out commands acce"
     }
    ]
   },
@@ -2891,19 +2891,19 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-09T22:39Z",
-     "text": "CR-CA4F-01 P2: S1/S2 investigation and brief complete. Admin role query runs once on capability discovery; later refresh is inside the Admin-only page. Losing the first reply or promotion push can leave the page hidden indefinitely. Suggest"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-09T22:39Z",
-     "text": "CR-C9E5-01 P3: investigation/brief complete. ServerAccessPackages=819 admits the recorded Android 819 source 6f45cbc6b, which has no Crypto_ServerAccess reader. Suggest floor 820 and a reader-containing-build handoff, using the existing gat"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-10T04:23Z",
      "text": "GETAC source check 4abf5d2858: adoption stores VpnSubnet and outgoing package relay filters by it, but RoutingServer.InUse() returns the first complete saved package regardless of the active VPN subnet. After receiving A on one tunnel, swit"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T05:19Z",
+     "text": "CR-C4C5-01 P3: S1/S2 formalizes GETAC\u2019s cross-subnet selection question. InUse keeps own/first complete package; this matches current SPEC, so it is a policy decision, not a confirmed bug. Optional current-subnet preference sketch preserves"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T05:45Z",
+     "text": "Windows Dev 821 on the existing Getac profile reports routing_state=Connected, one candidate, one presence answer and server_configured=True. Route requests=0. This is mesh/configured endpoint proof only. Automatic first adoption and addres"
     }
    ]
   },
@@ -3479,7 +3479,23 @@
      "text": "REVIEW-406: inspected c16099164 (one coordination-only review-publication commit; no implementation changes or new findings). CR-7673-01 and all earlier proposals/claims/statuses remain; full-runner/native checks unrun. [Inspected range and"
     }
    ]
+  },
+  {
+   "n": 186,
+   "name": "Windows Dev 821 Getac",
+   "done": "",
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 187,
+   "name": "Windows Dev 821 Getac",
+   "done": "",
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
- "source_revision": "01df669abbc99b7bd51b8ef110c0c285e236c8c8"
+ "source_revision": "7472c0d67b2a4490f60324eca9137f1c51401883"
 }
