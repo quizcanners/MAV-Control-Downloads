@@ -3976,8 +3976,8 @@
     {
      "who": "codex-ui-style",
      "since": "2026-11-10T10:20Z",
-     "noted": "2026-11-10T10:27Z",
-     "progress": 25,
+     "noted": "2026-11-10T10:37Z",
+     "progress": 40,
      "ticked": 0,
      "total": 0
     }
@@ -3988,6 +3988,11 @@
      "by": "codex-ui-style",
      "at": "2026-11-10T10:27Z",
      "text": "PREFAB-EDIT-TOOL obstacle: could edit existing prefabs but could not create a new UI root. Adding explicit create:true with native transactional save and opt-in/rollback/nested-reference fixture. Style recipe contains 12 reusable parts nest"
+    },
+    {
+     "by": "codex-ui-style",
+     "at": "2026-11-10T10:37Z",
+     "text": "Native save complete: 13 prefabs, 13 nested instances, zero missing scripts, zero raycast-enabled passive graphics. Shared create:true tool is exercised by real saves; focused NUnit fixture was refused by disposable-data namespace admission"
     }
    ]
   },
@@ -4119,5 +4124,5 @@
    "notes": []
   }
  ],
- "source_revision": "259815668216e5c4741f1b312943290f0617a52c"
+ "source_revision": "bef1e0807b16dc4c021f75534ee01ad2f701da5e"
 }
