@@ -261,11 +261,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-09T08:30Z",
-     "text": "GETAC clean install passed on DJI RC Plus 2. Removed MAV Control 777 and the standalone WireGuard app without retaining app data. In Windows Test 817, Settings > Windows > Install on another device, selected Test, DJI, and the assigned peer"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-10T05:45Z",
      "text": "Windows Dev 821 Getac native IL2CPP startup logs Windows link activation is unavailable (ArgumentException), and the previous Getac Windows player log also contains the warning. Station_DeepLinks_Windows catches listener setup; WindowsLinkT"
     },
@@ -273,6 +268,11 @@
      "by": "GETAC",
      "at": "2026-11-10T05:47Z",
      "text": "Native follow-up on Windows Dev 821, 4abf5d2858: called the built MavControlLink.exe assembly Client.TryDeliver against its same-user, same-profile endpoint while player PID 29140 was ready. A benign coordinate link returned NoListener and "
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T05:51Z",
+     "text": "Root cause confirmed in the built 821 IL2CPP code. CreatePipe passes Asynchronous | CurrentUserOnly. Generated System.Core__4.cpp enters WindowsIdentity.GetCurrent().Owner. Unity 6000.6.8f1 libil2cpp WindowsIdentity.cpp returns a zero curre"
     }
    ]
   },
@@ -3497,5 +3497,5 @@
    "notes": []
   }
  ],
- "source_revision": "bf2aa460404479ffc8d44c31d4ce61fff3dfb800"
+ "source_revision": "59cebc8bca156d824c679c6f9b1a9f975e897cde"
 }
