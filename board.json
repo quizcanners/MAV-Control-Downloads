@@ -727,11 +727,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-08T18:09Z",
-     "text": "Code read: Android has no Swappy and vsync 0, so the 2 FPS cap is Unity's sleep limiter and its wait is booked to IdleFrameCap, not Rendering. Rendering (FrameTime.cs SplitPreviousFrame) = FinishFrameRendering + camera render contexts, so 0"
-    },
-    {
      "by": "ROG_FABLE",
      "at": "2026-11-10T10:04Z",
      "text": "ROG_FABLE 2026-11-10, not read: Rog has no station that can ask the server without the Editor. server.diagnostics.read runs only through a local bridge (Editor in Play, a development player, or Android over ADB); the installed Windows playe"
@@ -740,6 +735,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-10T10:23Z",
      "text": "ROG_FABLE 2026-11-10 (quiz: 'Editor in Play'): still no owner named, for a new reason. With the Rog Editor in Play as the station: (1) the route to the MavServer never connected, 247 presences in 30 s and 0 answers; cause and fix in b9c5113"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-10T10:44Z",
+     "text": "57f3b686a7 closes the gap named above (board 216): once the deployer's device and the Strong run a build with it, the Strong's LongFrame records reach the server and any device can read them. Until then read them on the deployer's device. N"
     }
    ]
   },
@@ -4142,5 +4142,5 @@
    "notes": []
   }
  ],
- "source_revision": "b075cf3e3aaec43f2e2020c00418a165bd6bd4ab"
+ "source_revision": "46b1691df63f7ece8e0679cdb5cb1f997d5215b7"
 }
