@@ -4880,7 +4880,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-10T19:01Z",
-     "noted": "",
+     "noted": "2026-11-10T19:02Z",
      "progress": 40,
      "ticked": 2,
      "total": 5
@@ -4910,11 +4910,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-10T14:00Z",
-     "text": "In plain words (asked by quiz, 2026-11-10: 'Are you talking about WireGuard? Isn't tunnel is already a certificate? Forwarding what? And what certificate? Admin certificate?'): not WireGuard, there the tunnel key is the pass. This is the se"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-10T17:31Z",
      "text": "Thread CLOUD_COMPLEXITY stopped at its usage limit (16:45Z) while writing step 3 (no 'I am here' beat: app route switch Idle/Connecting/Connected/Unreachable, Admin list, diagnostics, task list, release key, Deploy and Servers pages, status"
@@ -4923,6 +4918,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-10T18:22Z",
      "text": "LOCAL_MAC read step 3 (no change): in Network_DirectRoute.Update the presence beat (SendPresence every ConnectedPresenceSeconds/ReconnectPresenceSeconds, line ~220) is also what sets Current Connected/Connecting/Unreachable (_lastReplyAt vs"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T19:02Z",
+     "text": "LOCAL_MAC design for step 3 (not started, released): (1) DirectRoute: delete SendPresence/_lastPresenceSentAt/_firstPresenceSentAt and the Kind.Presence answer; on a binding change send the Capabilities question once; an AskIfStale(now) (ra"
     }
    ]
   },
@@ -5649,5 +5649,5 @@
    "notes": []
   }
  ],
- "source_revision": "36bee86a83b63edf833aa8b81ce9b010fb5c82be"
+ "source_revision": "770116db161035ae486626a4bef9bf8400f0e7fa"
 }
