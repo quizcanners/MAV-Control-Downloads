@@ -3305,8 +3305,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-10T08:24Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T08:29Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -3317,6 +3317,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T07:52Z",
      "text": "Read the floating panel and Navigator specs and traced Layout. Content is a fixed-height moving root and extends below the physical screen when folded. Start with a separate inset background child plus a mask for List Host, and derive the v"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T08:29Z",
+     "text": "918d6230b0 wired the floating panel and List Host RectMask2D in Unity. Bottom inset follows the moving Content root, and divider and panel bindings are retained. Unity author transaction succeeded and Roslyn NEW ERRORS: none. Visual look is"
     }
    ]
   },
@@ -3748,5 +3753,5 @@
    "notes": []
   }
  ],
- "source_revision": "ba72cd89d75a12476646e8dbe7515580583454f3"
+ "source_revision": "8a9f25c2234ca2a6091c83475a7ac19f4d27a9a0"
 }
