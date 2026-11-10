@@ -2891,11 +2891,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-09T22:32Z",
-     "text": "Strong Android Dev 819 (6f45cbc6bc) reached the map on its existing profile. vpn.routing reports NoServer with zero candidates and zero presence; navigator.route.status reports server_configured=False and requests=0. Automatic routing disco"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-09T22:39Z",
      "text": "CR-CA4F-01 P2: S1/S2 investigation and brief complete. Admin role query runs once on capability discovery; later refresh is inside the Admin-only page. Losing the first reply or promotion push can leave the page hidden indefinitely. Suggest"
@@ -2904,6 +2899,11 @@
      "by": "REVIEW",
      "at": "2026-11-09T22:39Z",
      "text": "CR-C9E5-01 P3: investigation/brief complete. ServerAccessPackages=819 admits the recorded Android 819 source 6f45cbc6b, which has no Crypto_ServerAccess reader. Suggest floor 820 and a reader-containing-build handoff, using the existing gat"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T04:23Z",
+     "text": "GETAC source check 4abf5d2858: adoption stores VpnSubnet and outgoing package relay filters by it, but RoutingServer.InUse() returns the first complete saved package regardless of the active VPN subnet. After receiving A on one tunnel, swit"
     }
    ]
   },
@@ -3462,8 +3462,24 @@
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T02:29Z",
+     "text": "REVIEW-404: inspected d80048fa0 (one coordination-only review-publication commit; no implementation changes or new findings). CR-7673-01 and prior proposals/statuses/claims remain; native/full-runner checks unrun. [Inspected range and limit"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T03:37Z",
+     "text": "REVIEW-405: inspected c390a2157 (one coordination-only review-publication commit; no implementation changes or new findings). CR-7673-01 and all earlier proposals/claims/statuses remain; full-runner/native checks unrun. [Inspected range and"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T04:18Z",
+     "text": "REVIEW-406: inspected c16099164 (one coordination-only review-publication commit; no implementation changes or new findings). CR-7673-01 and all earlier proposals/claims/statuses remain; full-runner/native checks unrun. [Inspected range and"
+    }
+   ]
   }
  ],
- "source_revision": "557bd215c8fb5cb06dfc2888288ef0f12a739fba"
+ "source_revision": "c4c58b506f1a6efc8ad370e3e24c3826667205a7"
 }
