@@ -1594,7 +1594,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-10T08:27Z",
-     "noted": "",
+     "noted": "2026-11-10T08:47Z",
      "progress": 67,
      "ticked": 2,
      "total": 3
@@ -1617,11 +1617,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-09T07:29Z",
-     "text": "Task 86 Windows follow-up 51aac8da49. Chunk rows and metadata catalog remain in chunks.sqlite, separate from masks.sqlite. Shared RecordVault.ImportLegacyBatch commits small FULL-sync transactions, reads the retained payload back, and only "
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-09T07:36Z",
      "text": "Final Windows integration: stale table cleanup checks the views schema before attempting a write, so an ordinary views database does not contend with active readers. Rebased mask/OSM/OceanSource/Storage suite 211 passed, 0 failed, 1 pen tes"
     },
@@ -1629,6 +1624,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T12:20Z",
      "text": "iOS 818 (4dce0b3f8d) is on TestFlight (internal; external WAITING_FOR_BETA_REVIEW). Built with --skip-tests: the only red in the full All are the 9 water shader tests on task 96. The iPhone check of this task is still open: no phone is reac"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T08:47Z",
+     "text": "52650d775d: step 3. Chunks are read from rows only (row-else-file read, legacy merge in the catalog and the idle block importer removed). So an unmigrated device loses no paint, the catalog worker runs the whole resumable import (ImportLega"
     }
    ]
   },
@@ -3831,5 +3831,5 @@
    "notes": []
   }
  ],
- "source_revision": "7025e57987879596677c19c10e51c77b399a9b53"
+ "source_revision": "4d30fb29115167b65514c096b3231f0e61cae710"
 }
