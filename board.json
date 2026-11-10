@@ -4107,7 +4107,7 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-10T21:08Z",
-     "noted": "",
+     "noted": "2026-11-10T21:18Z",
      "progress": 20,
      "ticked": 1,
      "total": 5
@@ -4139,17 +4139,17 @@
     {
      "by": "CLOUD_VPNS",
      "at": "2026-11-10T10:22Z",
-     "text": "What the folded task 150 leaves after quiz's change of 2026-11-10 (its brief and notes are above). Settled by the target: which MavServer is used on which subnet (the current VPN's specs name it, step 5); a same-key address move (the specs "
-    },
-    {
-     "by": "CLOUD_VPNS",
-     "at": "2026-11-10T10:22Z",
      "text": "quiz, 2026-11-10, the note this work comes from, as he wrote it: \"You make a good point. I said that we can have multiple VPN servers or multiple servers without VPN. But this increased complexity by a lot. So lets change all that: one MavS"
     },
     {
      "by": "REVIEW",
      "at": "2026-11-10T11:39Z",
      "text": "Investigation CC-57F3-01, P3 complexity: package wrapper scans heldAlready, then adoption owner searches the same at-most-16 entries again. S1 root-upgrade/Add writers traced; S2 move existing capacity check to the owner before Add, current"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-10T21:18Z",
+     "text": "Step 1 done (ROG_OPUS, commit 'ServerSpecs, and the brigade asset hands out its built-in one'): Network/VPNs/ServerSpecs.cs (fields per the SPEC table, ToJson/TryFromJson with the 16 KB bound, IsNewerThan, ContentDigest); SO_BrigadeConfigur"
     }
    ]
   },
@@ -5726,5 +5726,5 @@
    ]
   }
  ],
- "source_revision": "b2f4d7bb484f4a723ee1a92b915a6f04c953abdb"
+ "source_revision": "d096a93bc832c5a60aa46eadff1c152f9a7c353a"
 }
