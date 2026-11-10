@@ -3825,7 +3825,24 @@
    "name": "MavChat notification square (Por",
    "done": "",
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Bootstrap expression: square shown = Portrait MavChat has notices column closed",
+     "x": false
+    },
+    {
+     "t": "UI_NotificationSquare reads it through a gate, press shrinks at once",
+     "x": false
+    },
+    {
+     "t": "Swipe up moves the column under the finger, flick folds and receives",
+     "x": false
+    },
+    {
+     "t": "Prefab placement and capsule (existing steps 1 and 3)",
+     "x": false
+    }
+   ],
    "notes": [
     {
      "by": "HEAVY",
@@ -4660,5 +4677,5 @@
    "notes": []
   }
  ],
- "source_revision": "62d061f9e369dda92c131f0fb9038a6864429767"
+ "source_revision": "df45b777da2feb0b2cd172af49f20b23d6d7614e"
 }
