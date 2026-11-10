@@ -4581,8 +4581,8 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-10T16:37Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T16:43Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -4593,6 +4593,11 @@
      "by": "CLOUD_LIST_DOUBLETAP",
      "at": "2026-11-10T16:01Z",
      "text": "quiz chose 2026-11-10: selection never pans, Search points keep flying. BaseMap SPEC line 74 replaced (pushed). Code left: ApplySelectionInclude stops calling Operator.BringIntoView (keep the Search focus request), update BringIntoViewTests"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-10T16:43Z",
+     "text": "Done in e0a5a30458: ApplySelectionInclude no longer calls Operator.BringIntoView; only the Search row's RequestFocusOnNextSelection focuses. Camera test replaced by MainCameraTouchInputTests.SelectionNeverMovesTheCameraAndASearchPickStillFo"
     }
    ]
   },
@@ -5398,5 +5403,5 @@
    "notes": []
   }
  ],
- "source_revision": "3294723a377b5b4e7cd95c5e4ddd04c702029e00"
+ "source_revision": "3c9b89a678ba04bf2cfe2ffbe0d64f21e8e5f9c9"
 }
