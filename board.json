@@ -4449,19 +4449,14 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-10T22:57Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T23:05Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "CLOUD",
-     "at": "2026-11-10T11:42Z",
-     "text": "Asked quiz 2026-11-10 (card in the thread 'single-decision UI state'): when should the top-left tabs switch from the strip to the column. Today it follows the tabs on screen (UI SPEC, Left List Tabs), so on 16:9 the sixth tab swaps the layo"
-    },
     {
      "by": "CLOUD",
      "at": "2026-11-10T12:07Z",
@@ -4471,6 +4466,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-10T21:02Z",
      "text": "First step on main (ecb8cf39f6): Station.UI.GetCurrentOverlay() is one gated expression; the five returns above the gate and the two below it are inside DecideOverlay(), same order, kept for the frame. Next, one group per commit: the 34 pro"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-10T23:05Z",
+     "text": "ROG_OPUS: the gate writers are done. No production code un-defines Station.UI.s_overlayCheckGate any more: one commit each for the video server grid (2), Extended layers (1), peer camera feed (1), Settings window (5) and Station_Utils_UI.cs"
     }
    ]
   },
@@ -6056,5 +6056,5 @@
    "notes": []
   }
  ],
- "source_revision": "516e720090a9a76b574980fdf2047fa761661d31"
+ "source_revision": "b79f276b9cde3f271bc14893b5438c685f3da61d"
 }
