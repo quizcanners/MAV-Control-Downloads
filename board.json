@@ -4244,14 +4244,20 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-10T12:30Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T13:25Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T13:25Z",
+     "text": "fefef7f05c: an emptied chunk keeps no row; deletions are a list of 512 with horizon in one row (key -1) of chunks.sqlite; old empty rows converted once; horizon is a local refusal, no TooOldNotice. Known limit: more than 512 chunks emptied "
+    }
+   ]
   },
   {
    "n": 222,
@@ -4657,5 +4663,5 @@
    "notes": []
   }
  ],
- "source_revision": "79bbee7ef807d66a6a8c7298da1011654aafcf4b"
+ "source_revision": "c56e7adf6b4f82c05de80e846818edc2f4facf0f"
 }
