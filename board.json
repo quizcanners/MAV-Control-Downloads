@@ -4785,7 +4785,45 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 260,
+   "name": "MavServer relays nothing between",
+   "done": "",
+   "held": [
+    {
+     "who": "CLOUD_COMPLEXITY",
+     "since": "2026-11-10T14:15Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 5
+    }
+   ],
+   "steps": [
+    {
+     "t": "App: a peer is reached over the tunnel or not at all; the relay, its switch and ",
+     "x": false
+    },
+    {
+     "t": "Build keys only from a peer over the VPN; the MavServer keeps none",
+     "x": false
+    },
+    {
+     "t": "No 'I am here' beat: the app asks the MavServer when it needs something; server ",
+     "x": false
+    },
+    {
+     "t": "MavServer lets a device in by the server access package; certificate records, th",
+     "x": false
+    },
+    {
+     "t": "Guides say what is in the tree; the refactor file lists what went",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
- "source_revision": "24b056c340aa12e10919ba6b3f7a98a3a82af091"
+ "source_revision": "f63bcfa2e985caf0b1f00a25b44bac34820b8b6b"
 }
