@@ -260,11 +260,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-10T08:03Z",
-     "text": "FAIL Windows Dev 821 b0cd37abdc on Getac. Same-profile built helper returned NoListener, PID 0, while player PID 32652 had reached the map; no deep_link receipt. Native startup now logs NotSupportedException after the WindowsIdentity fix. G"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-10T08:11Z",
      "text": "REVIEW-409 / CR-59CE-01: identity-path source repair at 8ef77d2c2 is insufficient: GETAC later records native NotSupportedException and NoListener on b0cd37abdc. Existing P2 stays open; S1 reconciliation/S2 conditional handle-mode investiga"
@@ -273,6 +268,11 @@
      "by": "GETAC",
      "at": "2026-11-10T08:40Z",
      "text": "GETAC diagnosis only, Windows Dev 821 b0cd37abdc. WindowsLinkTransport.Server.CreatePipe wraps the native handle in NamedPipeServerStream with isAsync=true. Generated System.Core calls PipeStream.InitializeHandle > InitializeAsyncHandle > T"
+    },
+    {
+     "by": "CLOUD_PROGRAMS_PORTS",
+     "at": "2026-11-10T09:18Z",
+     "text": "Windows link handoff moves into the background app (new task: Windows links through the background app, delete MavControlLink.exe and the named pipe; quiz 2026-11-10). Do not repair the IL2CPP named pipe (CR-59CE-01) further; the pipe goes "
     }
    ]
   },
@@ -3838,5 +3838,5 @@
    "notes": []
   }
  ],
- "source_revision": "d2b72a4b7d7ff40897a5b080acfa4cb182de02b8"
+ "source_revision": "d84d30d4affd3d542017cebdcf5cff24a5beb37d"
 }
