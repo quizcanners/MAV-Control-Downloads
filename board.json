@@ -4303,19 +4303,14 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-10T12:32Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T13:27Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T11:23Z",
-     "text": "quiz, 2026-11-10: 'Yes, that default': every existing Delete control is the erase-for-everyone one and says so where it has a label; each data set gets a separate local Erase with no tombstone (Record Vault SPEC, 'An erase is local...', par"
-    },
     {
      "by": "LOCAL_MAC",
      "at": "2026-11-10T11:31Z",
@@ -4325,6 +4320,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-10T12:20Z",
      "text": "9fe9d55566 (LOCAL_MAC; subagents without Unity, cmp.sh NEW ERRORS: none, tests updated, none run). Street View: photo cap and photo tombstones removed, explicit send overrides (background sync stays newer-wins). Destinations: Station.Persis"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T13:27Z",
+     "text": "fefef7f05c: Situation (DeleteObservationForEveryone / DeleteAllSituationData), Place Labels (DeleteForEveryone / new EraseAll, now called by TryDeleteSave), WiFi (CleanUpMeasurementsInCurrentViewForEveryone / DeleteMeasurementData), Geometr"
     }
    ]
   },
@@ -4668,5 +4668,5 @@
    "notes": []
   }
  ],
- "source_revision": "65d58b33eb1b94a31036155483e73a8628dccc12"
+ "source_revision": "021c0eb74e1e2b62101728d796430f49e503e864"
 }
