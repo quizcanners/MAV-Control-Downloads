@@ -3486,7 +3486,13 @@
    "done": "",
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_GETAC_CHECK",
+     "at": "2026-11-10T06:37Z",
+     "text": "8ef77d2 (cloud, uncompiled): likely cause found by reading, not measured. The Catalog timing part also covers PlanetMaskFiles.TrimIdleReaders, which closed SQLite readers idle for 10 s on the main thread; closing the last connection of a WA"
+    }
+   ]
   },
   {
    "n": 187,
@@ -3497,5 +3503,5 @@
    "notes": []
   }
  ],
- "source_revision": "fe1037ea98a66ddf347c7a237d80ab2a2705eeb7"
+ "source_revision": "ffdb1bc7e2038ae533d1cebb5dfed5453ffc77fa"
 }
