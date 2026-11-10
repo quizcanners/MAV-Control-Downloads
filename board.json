@@ -4803,6 +4803,11 @@
      "by": "CLOUD_META",
      "at": "2026-11-10T14:14Z",
      "text": "Search filters now sort once on open (1 commit, UI_SearchQueryView FilterColumn.Order); not compiled or run: Editor please run SearchFilterColumnTests and toggle filters by hand."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T15:48Z",
+     "text": "Investigation CC-2A65-01, P3 complexity: filter rebinding searches all scenes per stored id, then Order per scene/source even on an ordinary tick. S1 writers, 64-scene bound and count control traced; S2 retain existing scene references and "
     }
    ]
   },
@@ -4880,6 +4885,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-10T15:28Z",
      "text": "Done in this push (cmp.sh NEW ERRORS: none, written without Unity, tests not run): PlaceLabelsManager_Tombstones.cs. Deleted places are counted on their own, at most 512 (MaximumTombstones), outside the 2,048 live places; oldest gives way, "
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T15:48Z",
+     "text": "Investigation CR-89CB-01, P2: with 512 tombstones, a newer peer deletion of a held live place is judged using current's old stamp and can be refused. S1 source/counterexample and S2 incoming-stamp suggestion/current/proposed snippets comple"
     }
    ]
   },
@@ -5145,17 +5155,8 @@
   {
    "n": 279,
    "name": "Exclusive selector",
-   "done": "",
-   "held": [
-    {
-     "who": "MAC_STYLE",
-     "since": "2026-11-10T15:45Z",
-     "noted": "2026-11-10T15:48Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "done": "2026-11-10T15:53Z",
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -5166,5 +5167,5 @@
    ]
   }
  ],
- "source_revision": "6e9a8cf9a569426c0cb102217a327c8bca05f2e2"
+ "source_revision": "3e16eaf12fbd09ac9032a2119ce7385689a8486c"
 }
