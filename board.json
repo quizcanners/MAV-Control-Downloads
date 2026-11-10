@@ -4880,7 +4880,7 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-10T19:55Z",
-     "noted": "",
+     "noted": "2026-11-10T20:16Z",
      "progress": 40,
      "ticked": 2,
      "total": 5
@@ -4910,11 +4910,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-10T17:31Z",
-     "text": "Thread CLOUD_COMPLEXITY stopped at its usage limit (16:45Z) while writing step 3 (no 'I am here' beat: app route switch Idle/Connecting/Connected/Unreachable, Admin list, diagnostics, task list, release key, Deploy and Servers pages, status"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-10T18:22Z",
      "text": "LOCAL_MAC read step 3 (no change): in Network_DirectRoute.Update the presence beat (SendPresence every ConnectedPresenceSeconds/ReconnectPresenceSeconds, line ~220) is also what sets Current Connected/Connecting/Unreachable (_lastReplyAt vs"
@@ -4923,6 +4918,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-10T19:02Z",
      "text": "LOCAL_MAC design for step 3 (not started, released): (1) DirectRoute: delete SendPresence/_lastPresenceSentAt/_firstPresenceSentAt and the Kind.Presence answer; on a binding change send the Capabilities question once; an AskIfStale(now) (ra"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-10T20:16Z",
+     "text": "Step 3 done in bfd04037c2: the app sends no presence; DirectRouteManager.AskIfStale asks the Capabilities question when something needs the server (diagnostics with records, task list, Admins page, Servers/Deploy pages shown, waiting for a "
     }
    ]
   },
@@ -5659,5 +5659,5 @@
    "notes": []
   }
  ],
- "source_revision": "36ea5415773d64c26d5cf64afd38a1c7ced32516"
+ "source_revision": "46035830cb1fece9a5bd0bcd759b99d6a7ef4fb5"
 }
