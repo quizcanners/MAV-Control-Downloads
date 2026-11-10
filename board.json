@@ -3969,8 +3969,8 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-10T21:03Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T21:06Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -3986,6 +3986,11 @@
      "by": "CLOUD_VPNS",
      "at": "2026-11-10T10:23Z",
      "text": "From the one-MavServer rework (tasks 213 to 215): no program reads Main or Backup any more. What is left of the words is the NixOS switch that turns Caddy and Ports 80 and 443 on: `main ? false` and the host names mav-main and mav-backup in"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-10T21:06Z",
+     "text": "Answer: no. The install page cannot read the sealed installer from the GitHub release. Checked with an Origin header on a public MAV-Control-Downloads asset: github.com/.../releases/download/... 302 has no Access-Control-Allow-Origin; api.g"
     }
    ]
   },
@@ -5718,5 +5723,5 @@
    "notes": []
   }
  ],
- "source_revision": "cf4fe051a4c79f61c97ce83a72bcda1685b0ba56"
+ "source_revision": "ceb6f95387051f68e35e2679dc73d61497bd7e08"
 }
