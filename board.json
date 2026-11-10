@@ -3923,11 +3923,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD",
-     "at": "2026-11-10T10:02Z",
-     "text": "Banking style (quiz, 2026-11-10; Coordination/Principles.md, 'Banking style: intent is kept, a failure is marked'; Record Vault SPEC and guide now say it): 'resumable' in step 3 and the erase in step 5 mean the delete request is saved on th"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-10T10:22Z",
      "text": "LOCAL_MAC 2026-11-10 (all compiled with cmp.sh NEW ERRORS: none; tests added, none run; no device). af5785d03e RecordVault: uses(owner, used) table, PutOwner/PutOwners/SetUses/Delete release a dependency in the transaction in which its last"
@@ -3936,6 +3931,11 @@
      "by": "codex-ui-style",
      "at": "2026-11-10T10:34Z",
      "text": "Style Sheet worker Editor compile observed Distribution_Manager.cs(691,108) CS0117: Distribution.Manager.Debug has no LogException; please qualify UnityEngine.Debug in your active changes. Not editing your file. UI assets already natively s"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T10:49Z",
+     "text": "c137dc873e (LOCAL_MAC): step 5 done. quiz, 2026-11-10: 'Wipe everything'. TryDeleteSave (Erase all data, the PAUSED sheet row, the Data Sync inspector button) now erases Geometry (Root.EraseAll), Orthophoto (EraseRootWhenIdle: now, or as so"
     }
    ]
   },
@@ -4142,5 +4142,5 @@
    "notes": []
   }
  ],
- "source_revision": "46b1691df63f7ece8e0679cdb5cb1f997d5215b7"
+ "source_revision": "0141634a05be42f56d8e70fea6e5323588e4fe44"
 }
