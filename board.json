@@ -3666,11 +3666,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-10T07:52Z",
-     "text": "Windows finalise: 766db902b0 and e5a29c547b landed with selector, zoom and D3D11 evidence."
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-10T08:53Z",
      "text": "Windows finalise: 176, 194 and 195 landed and closed; 874df5b01d carries orientation assets and Map Camera backing."
     },
@@ -3678,6 +3673,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T10:09Z",
      "text": "Pulled main and ran Roslyn; NEW ERRORS: none. / 203 Seen reset pushed as 887db5312e; Windows notification EditMode 17/17; Main/Notifications bumped as a7e23decf7. / 143 author trial saved 528 with 184-unit rows; 1440x900 fit capped the card"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T16:52Z",
+     "text": "Published 681d83f196 (video shader coverage), 00713bbd1b (27 Done tick-marks), dabd0ce147 (Main/Notifications bump) and 5966bf305f (Planet Map focus variants)."
     }
    ]
   },
@@ -3882,23 +3882,9 @@
    "n": 203,
    "name": "Note from CLOUD",
    "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T16:35Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-10T10:09Z",
-     "text": "887db5312e resets Seen only when ObserveSource admits a new binding. Unity NotificationRendererBindingTests passed 17/17, including unchanged A, folded replacement B unseen without pinning, and B becoming seen after display. Main/Notificati"
-    },
     {
      "by": "REVIEW",
      "at": "2026-11-10T10:17Z",
@@ -3908,6 +3894,11 @@
      "by": "CLOUD",
      "at": "2026-11-10T10:43Z",
      "text": "quiz, 2026-11-10 (Notifications SPEC 'Received, not agreed'): tick-mark = received, + only after a full read in MavChat; red/blue = not received/received. Code changed: Seen now means received, set by tick-mark or body tap, no longer by bei"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T16:51Z",
+     "text": "Current received semantics passed NotificationRendererBindingTests 17/17. The fixture exercises unchanged binding, replacement on the same source, display alone remaining unread, and MarkReceived marking it received. No code change to Seen "
     }
    ]
   },
@@ -4228,16 +4219,7 @@
    "n": 217,
    "name": "Notifications",
    "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T16:35Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4249,6 +4231,11 @@
      "by": "REVIEW",
      "at": "2026-11-10T11:39Z",
      "text": "REVIEW-412 / notification semantics: 18bffc2d2 changes Seen to received, so earlier 17/17 display-means-seen receipt is not verification of the new fixture assertions. Quiz already answered Alert tick sends Alert received (368ddf4d0 / curre"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T16:51Z",
+     "text": "00713bbd1b replaces all 27 Collapse notification plus captions with the passive Done sprite across 20 prefabs. The tested click owners and Alert received behavior remain intact. Notification, ScreenCorner and related fixtures passed. Main/N"
     }
    ]
   },
@@ -4983,19 +4970,16 @@
   {
    "n": 265,
    "name": "Editor",
-   "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T16:29Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "done": "2026-11-10T16:52Z",
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T16:51Z",
+     "text": "681d83f196 extends the existing native ShaderPassCompilationTests to Projection Pseudo Decal, FullscreenVideo, Pilot View and RawImagePreserveAspect, including MAV_VIDEO_CONTRAST. Windows D3D11 passed 108 passes, zero errors. The MotionConf"
+    }
+   ]
   },
   {
    "n": 266,
@@ -5024,17 +5008,8 @@
   {
    "n": 267,
    "name": "MavChat Tools Painting stays in ",
-   "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T16:34Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "done": "2026-11-10T16:52Z",
+   "held": [],
    "steps": [
     {
      "t": "ScreenDrawing joins IsMavChatPortraitView",
@@ -5059,6 +5034,11 @@
      "by": "CLOUD_PREPARE",
      "at": "2026-11-10T14:30Z",
      "text": "Code done, uncompiled, 3939fd1a: ScreenDrawing in IsMavChatPortraitView, RefreshDrawingColorFromUser in StartToolsPainting, OrientationLandscapeViewsTests updated, SPEC list line updated. Left: Editor runs cmp.sh and OrientationLandscapeVie"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T16:52Z",
+     "text": "Windows OrientationLandscapeViewsTests passed 5/5, including the ScreenDrawing Portrait allow-list. Tools Painting on a phone and the X returning to the Tools panel remain the device check."
     }
    ]
   },
@@ -5066,16 +5046,7 @@
    "n": 268,
    "name": "Editor",
    "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T16:34Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 2
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Colour line with current colour and Edit button",
@@ -5086,22 +5057,19 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T16:52Z",
+     "text": "My details remains open. ChatPrefabAuthor builds the Own Icon preview and a separate Choose Icon button in My Data View/My Details. Resume there with a full-preview ChooseIcon hit target, Edit drawn over the icon, and a colour line bound to"
+    }
+   ]
   },
   {
    "n": 269,
    "name": "Map focus (spec",
    "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T16:33Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Clock.prefab: plaque button to OnPlaqueTapped",
@@ -5130,6 +5098,11 @@
      "by": "cloud-mapfocus",
      "at": "2026-11-10T14:48Z",
      "text": "Cloud wrote the _MAP_FOCUS multi_compile_fragment in the 4 Planet shaders, the early return in PlanetSurface.hlsl, the keyword flip and Low/no-lights draw in PlanetRendererSession_Presentation, and stripper pairs. Uncompiled; shader-fragmen"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T16:52Z",
+     "text": "5966bf305f adds all four Planet _MAP_FOCUS shaders to ShaderPassCompilationTests and the source budget. The expanded D3D11 fixture passed 148 passes, zero errors. Clock.prefab still needs the plaque Button, black selected backing and Plug s"
     }
    ]
   },
@@ -5181,22 +5154,18 @@
    "n": 274,
    "name": "Paint button (bottom-left",
    "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T16:34Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "cloud-paint-quiet",
      "at": "2026-11-10T15:00Z",
      "text": "quiz, 2026-11-10, word for word: \"Paint button at the bottom left also need non-interacting variant.\" Prepared: SPEC (UI + Main View) and Visuals AGENTS updated. Needs the Editor (prefab Control entry); no Code."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T16:52Z",
+     "text": "No prefab change. The wired StartPainting owner found is B_Drawing under Tools options in Processes and Timings.prefab, whereas BUTTONS Bottom no longer owns a Painting action and Drawing Paint in BUTTONS Right is an in-overlay toolbar acti"
     }
    ]
   },
@@ -5508,7 +5477,15 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 299,
+   "name": "Chat and Notifications",
+   "done": "",
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
- "source_revision": "a223bd0c2cf88fb8f5be960a18ffaee22ecf5856"
+ "source_revision": "8cfc1d3e369fa252ab5b7565a6849fa13783863c"
 }
