@@ -1124,11 +1124,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_PERF_AUDIT",
-     "at": "2026-11-08T20:50Z",
-     "text": "Cloud audit (2026-11-08): this growth is the idle cadence, not new work. Per second the rows match: VPN Chat Strong 3.26 ms x 7.5 fps = 24 ms/s (810) against 13.24 x 2.0 = 26 ms/s (812); Lenovo 14.63 x 6.9 = 101 against 50.66 x 2.0 = 100. A"
-    },
-    {
      "by": "CLOUD_VPN_CPU",
      "at": "2026-11-09T08:02Z",
      "text": "Cloud pass landed on main 32a11503; leads and ms estimates in Research/VPN_Messaging_CPU_2026-11-09.md. Heartbeat 41 ms each under map sync is the biggest lead; it is task 99 step 1."
@@ -1137,6 +1132,11 @@
      "by": "CLAUDE_REVIEW",
      "at": "2026-11-09T20:46Z",
      "text": "Source review: the one visible idle poll is Network_Manager.cs:490, TrySendPerSessionCryptoHandshakes at 4 Hz over Peers.AllByIp (ShouldBeRetransmittedTo, GetPeerPublicKey, 32-byte compare per peer) even when every link is established; the "
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T06:50Z",
+     "text": "Strong Dev 821 startup frame 65, 593.952 ms wall, VPN Chat 347.951 ms, Processing Messages 300.995 ms, Confirmation 170.170 ms across two calls; one GC collection. Startup only, so do not compare to the idle mean. Isolate the confirmation c"
     }
    ]
   },
@@ -1727,11 +1727,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-09T22:32Z",
-     "text": "Strong Android Dev 819 (6f45cbc6bc): native pinch reproduced SurfaceFlinger presentation gaps of 166.802 ms zoom-out and 299.974 ms zoom-in; first second after each gesture 166.562/133.102 ms. Half-resolution route reported render_scale_tar"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-09T22:33Z",
      "text": "GETAC finalise Android 819 (6f45cbc6bc). Built and signed, with evidence pushed in 977a68815e. Strong returned in 1969229f6f, no held work from this run. Map 3.744 s, smoke 48 pass/0 fail/3 skips, pinch gaps 300/167 ms and separate 773 ms t"
     },
@@ -1739,6 +1734,11 @@
      "by": "GETAC",
      "at": "2026-11-10T05:45Z",
      "text": "GETAC batch finalise. Android and Windows Dev 821 pinned to 4abf5d2858; signed APK receipt 01df669abb. Windows map 2.785 s, Ready 3.190 s, smoke Incomplete with zero failed and three hidden-workflow skips. Windows wheel in/out commands acce"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T06:50Z",
+     "text": "Strong Android Dev 821 (4abf5d2858), installed in place with matched signed APK, UID and profile. Native pinch SurfaceFlinger peak during/first second after: zoom-out 180.248/250.010 ms, zoom-in 265.909/167.868 ms. Dev 819 had 166.802/166.5"
     }
    ]
   },
@@ -2891,11 +2891,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-10T05:19Z",
-     "text": "CR-C4C5-01 P3: S1/S2 formalizes GETAC\u2019s cross-subnet selection question. InUse keeps own/first complete package; this matches current SPEC, so it is a policy decision, not a confirmed bug. Optional current-subnet preference sketch preserves"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-10T05:45Z",
      "text": "Windows Dev 821 on the existing Getac profile reports routing_state=Connected, one candidate, one presence answer and server_configured=True. Route requests=0. This is mesh/configured endpoint proof only. Automatic first adoption and addres"
@@ -2904,6 +2899,11 @@
      "by": "CLOUD_GETAC_CHECK",
      "at": "2026-11-10T06:37Z",
      "text": "Cloud check of the two GETAC source findings at 8ef77d2: both read true in code. InUse() takes the own record, else the first complete package, whatever subnet is active (matches SPEC 'the first package, the own one first', so the choice is"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T06:50Z",
+     "text": "Strong Dev 821 on its preserved profile has server_configured=True (Dev 819 was False), while VPN routing reports NoServer with zero candidates and zero presence. No HTTP route request was issued. Presence and usable endpoint adoption still"
     }
    ]
   },
@@ -3519,20 +3519,17 @@
   {
    "n": 189,
    "name": "using Strong for Android Dev 821",
-   "done": "",
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-10T06:46Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "done": "2026-11-10T06:50Z",
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T06:50Z",
+     "text": "Strong Dev 821 installed and reached the map at 3.947 s, Ready at 5.573 s. Smoke 48 passed, zero failed, three policy skips. Findings on 54, 88 and 150. Windows Dev remained deployed. Lenovo absent from ADB. Strong left on map and released."
+    }
+   ]
   }
  ],
- "source_revision": "e2fe45987dff9e25ae1c6a182bcf9e8fd0032c12"
+ "source_revision": "2e957f73fbe339582cb9184cf6c778862bdc01c4"
 }
