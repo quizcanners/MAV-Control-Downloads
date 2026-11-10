@@ -261,18 +261,18 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-10T05:45Z",
-     "text": "Windows Dev 821 Getac native IL2CPP startup logs Windows link activation is unavailable (ArgumentException), and the previous Getac Windows player log also contains the warning. Station_DeepLinks_Windows catches listener setup; WindowsLinkT"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-10T05:47Z",
-     "text": "Native follow-up on Windows Dev 821, 4abf5d2858: called the built MavControlLink.exe assembly Client.TryDeliver against its same-user, same-profile endpoint while player PID 29140 was ready. A benign coordinate link returned NoListener and "
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-10T05:51Z",
      "text": "Root cause confirmed in the built 821 IL2CPP code. CreatePipe passes Asynchronous | CurrentUserOnly. Generated System.Core__4.cpp enters WindowsIdentity.GetCurrent().Owner. Unity 6000.6.8f1 libil2cpp WindowsIdentity.cpp returns a zero curre"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T06:18Z",
+     "text": "CR-59CE-01 P2: S1 source investigation and S2 repair brief extend GETAC's recorded Windows Dev821 listener failure; preserve effective-SID pipe restriction and helper peer checks. Proposal awaits quiz before implementation; native warm/cold"
+    },
+    {
+     "by": "CLOUD_GETAC_CHECK",
+     "at": "2026-11-10T06:37Z",
+     "text": "8ef77d2 (cloud, uncompiled): Windows link pipe no longer uses PipeOptions.CurrentUserOnly. Server.CreatePipe calls CreateNamedPipe with a protected DACL naming only the effective user SID (first instance only, local clients only) and wraps "
     }
    ]
   },
@@ -3497,5 +3497,5 @@
    "notes": []
   }
  ],
- "source_revision": "59cebc8bca156d824c679c6f9b1a9f975e897cde"
+ "source_revision": "fe1037ea98a66ddf347c7a237d80ab2a2705eeb7"
 }
