@@ -4272,14 +4272,20 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-10T12:32Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T13:26Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T13:26Z",
+     "text": "fefef7f05c: one row per item in logistics.sqlite, weeks and tallies hold events only, pictures owned by their item rows; old weeks converted once; manifest gains an 'items' entry (protocol stays 10: an older build shows Invalid against this"
+    }
+   ]
   },
   {
    "n": 224,
@@ -4654,5 +4660,5 @@
    "notes": []
   }
  ],
- "source_revision": "745409ed6c1c88c763ba613a32ffdfbd22d601d7"
+ "source_revision": "62d061f9e369dda92c131f0fb9038a6864429767"
 }
