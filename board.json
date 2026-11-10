@@ -3895,9 +3895,30 @@
    "name": "Banking style",
    "done": "",
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Erase all data: saved erase request, resumed at start, failures marked",
+     "x": false
+    },
+    {
+     "t": "Situation erase: failed delete marked failed and still owed",
+     "x": false
+    },
+    {
+     "t": "Orthophoto square delete: queued mark saved, resumed at start",
+     "x": false
+    },
+    {
+     "t": "Peer Clear survives a restart",
+     "x": false
+    },
+    {
+     "t": "GeoTIFF import states written down and merged",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
- "source_revision": "d962b8704ab1b7dede0a4f48cbf4e175941222f0"
+ "source_revision": "92b28d1896e98e920c165c366bdbeda592891343"
 }
