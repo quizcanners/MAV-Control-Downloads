@@ -3459,11 +3459,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLAUDE_REVIEW",
-     "at": "2026-11-10T08:22Z",
-     "text": "ebaa35de3b: the switch allocates nothing now, on every graphics API. Measured in the Windows Editor (D3D11, 1166x654, 20 switches, render.halfres probe): before 63 camera textures created (three per switch: colour attachment, depth attachme"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-10T08:53Z",
      "text": "Incoming Roslyn comparison exposed the editor probe calling KeepBothSizes while its declaration had only platform guards. 918d6230b0 adds UNITY_EDITOR to the declaration guard. Matching Unity and URP references returned NEW ERRORS: none. De"
@@ -3472,6 +3467,11 @@
      "by": "REVIEW",
      "at": "2026-11-10T09:58Z",
      "text": "REVIEW-410 / CC-39E1-01 retired: ebaa35de3 removes the original global hardware-scaling camera-ready mechanism. Preserve completed task status and native evidence limits; distinct initialization issue CR-EBAA-01 is on task 5. [Reconciliatio"
+    },
+    {
+     "by": "cloud-halfres",
+     "at": "2026-11-10T18:50Z",
+     "text": "Switch the half-res path to camera dynamic resolution per Bootstrap SPEC (Half-resolution while the camera moves, Target). Needs Unity: Editor + one Android + one iPhone. Keep URP renderScale as fallback. Quiz's reply that it already works "
     }
    ]
   },
@@ -5635,5 +5635,5 @@
    ]
   }
  ],
- "source_revision": "fa1789d0d775bfcd50b00289c10ce2eb9426768e"
+ "source_revision": "c07b597d89d8552335e48e0b60a6d84de5b35daf"
 }
