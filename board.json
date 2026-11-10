@@ -1800,17 +1800,8 @@
   {
    "n": 94,
    "name": "UI",
-   "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T07:39Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "done": "2026-11-10T07:52Z",
+   "held": [],
    "steps": [
     {
      "t": "Control and author script merged",
@@ -1822,7 +1813,7 @@
     },
     {
      "t": "Editor: cmp.sh and run MAV/UI/Author capsule selectors",
-     "x": false
+     "x": true
     },
     {
      "t": "Device: look at both selectors on a phone",
@@ -1830,11 +1821,6 @@
     }
    ],
    "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T12:22Z",
-     "text": "iOS 818 (4dce0b3f8d) is on TestFlight (internal; external WAITING_FOR_BETA_REVIEW). Built with --skip-tests: the only red in the full All are the 9 water shader tests on task 96. The iPhone check of this task is still open: no phone is reac"
-    },
     {
      "by": "cloud-capsule-white",
      "at": "2026-11-09T15:41Z",
@@ -1844,6 +1830,11 @@
      "by": "CLOUD_MAVCHAT_UI",
      "at": "2026-11-10T07:28Z",
      "text": "Answer to quiz (cloud, 2026-11-10): the selector code (6d9d542a, thumb tint f38fed5b) landed on main on 2026-11-09 06:12Z and 15:41Z, before both 821 sources (iOS 990529ba21, Android/Windows Dev 4abf5d2858, both contain it). The design was "
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T07:52Z",
+     "text": "766db902b0 ran CapsuleSelectorAuthor and hid the ten non-raycast legacy body/overlay Images, keeping the hit roots and actions. Windows Play Map Source shows both tracks and a bright thumb; a real tap moves Element Quality High to Low. Caps"
     }
    ]
   },
@@ -3118,22 +3109,18 @@
    "n": 166,
    "name": "Editor",
    "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T07:40Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
      "at": "2026-11-09T19:52Z",
      "text": "Windows 6000.6.8f1 compiled and ran focused trench traversal, DeepState reader, shape grounding, Search and UI edge tests. On cc080686ff, 90 passed, zero failed, one skipped. Fixed old-world queued/completed raycast answers being consumed a"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T07:52Z",
+     "text": "Windows main b0cd37abdc compiled. Disposable D3D11 run: trench traversal 9/9, DeepState 8/8, shape ground 6/7 with 1 skipped, Search 57/57. MapOnly Play booted and rendered the globe/Situation lines. Earlier coordinate tap and origin regres"
     }
    ]
   },
@@ -3141,23 +3128,9 @@
    "n": 167,
    "name": "UI prefab pass",
    "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T07:41Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "UIEdges",
-     "at": "2026-11-09T19:32Z",
-     "text": "MavChat MGRS element at the left screen edge (Mav Chat Sheet.prefab, MavChat MGRS Left.mat): tick Left in Screen edges (quiz, 2026-11-09). Also in Handoffs/Prefab_Edge_Pass_Prompt.md"
-    },
     {
      "by": "HEAVY",
      "at": "2026-11-09T19:52Z",
@@ -3167,6 +3140,11 @@
      "by": "CLOUD_MAVCHAT_UI",
      "at": "2026-11-10T07:28Z",
      "text": "MavChat capsule and Search now set their screen-edge sides at runtime (UI_MavChatSheet.Layout) so their outer ends go black like the MGRS field (quiz, 2026-11-10: 'MavChat still doesn't show black merge next to screen edges, only the MGRS o"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T07:52Z",
+     "text": "Windows portrait Play still shows black at the MGRS physical left edge. SelectedControlEdgeFadeTests 10/10. The full Prefab_Edge_Pass_Prompt inventory, neighbor separators and removal of transitional attach-flag darkening remain open. Do no"
     }
    ]
   },
@@ -3197,6 +3175,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T19:49Z",
      "text": "3bc67c1dca: _monochromePanel_Optional = Monochrome Panel.mat on MessageGlass/TopGlass/BottomGlass in Chat Window, Chat Window Portrait, Chat Single MGRS Message; body Images have no sprite. ChatMessageLayoutTests press test rewritten for th"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T07:52Z",
+     "text": "Windows native ChatMessageLayoutTests 36/36 on b0cd37abdc. Existing panel prefab bindings and closure stand. Own/theirs pressed pixel evidence remains on device verification 178."
     }
    ]
   },
@@ -3204,22 +3187,18 @@
    "n": 171,
    "name": "Editor (Windows)",
    "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T07:41Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
      "at": "2026-11-09T19:53Z",
      "text": "8e9864d5cc records all 13 requested D3D11 fragment variants with FXC instructions, texture ops and temp registers in Assets/_PROJECT/Shaders/BASELINE.md. Native compile log and raw DXBC/assembly are in C:/MavControlEvidence/WorkCritical/win"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T07:52Z",
+     "text": "e5a29c547b refreshes all requested Windows D3D11 FXC counts at b0cd37abdc in Shaders/BASELINE.md. Per-draw timings and Mali Vulkan/GLES3 estimates remain open. The local Editor captures are visual evidence only. Use a D3D11 player with Rend"
     }
    ]
   },
@@ -3308,18 +3287,15 @@
    "n": 176,
    "name": "MavChat floating panel",
    "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T07:40Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T07:52Z",
+     "text": "Read the floating panel and Navigator specs and traced Layout. Content is a fixed-height moving root and extends below the physical screen when folded. Start with a separate inset background child plus a mask for List Host, and derive the v"
+    }
+   ]
   },
   {
    "n": 177,
@@ -3329,11 +3305,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T20:26Z",
-     "text": "a0a858545b: I: App Library Icon cloned under B_Workflows/Scale Root/Content (before I: Workflow Icon, same material, App Library sprite) and bound to UI_ShowWorkflows._libraryIcon (Tools/PrefabEdits/workflow-library-icon.json). SymbolicIcon"
-    },
-    {
      "by": "cloud",
      "at": "2026-11-09T21:43Z",
      "text": "Changed 2026-11-09: no second Image and no prefab wiring needed. The code now puts the fixed AppLibrary sprite on the existing 'I: Workflow Icon' image. Editor/phone only: run SymbolicIconTests, check in Play that the Menu's workflow tab sh"
@@ -3342,6 +3313,11 @@
      "by": "REVIEW",
      "at": "2026-11-09T22:02Z",
      "text": "CR-1EAA-01 P3: S1/S2 investigation and brief complete. The new one-icon controller leaves the old second app-library Image active in BUTTONS Bottom.prefab; both grid Graphics share the same bounds. Suggest retiring the former layer through "
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T07:52Z",
+     "text": "Windows SymbolicIconTests 2/2. Landscape Ukrainian Play Menu shows the workflow grid in the bottom rail. Existing wiring closure stands. English/portrait and phone checks remain verification."
     }
    ]
   },
@@ -3427,18 +3403,15 @@
    "n": 183,
    "name": "Editor (Windows)",
    "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T07:40Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T07:52Z",
+     "text": "e5a29c547b records 19 native D3D11 variant counts, including all requested light/quality variants. Disposable tests: ElementLighting 12/25, PlanetSurface 33/52, DrawPatchReuse 26/27, ShaderPassCompilation 20/22. Skybox parity exceeded 0.000"
+    }
+   ]
   },
   {
    "n": 184,
@@ -3558,18 +3531,15 @@
    "n": 190,
    "name": "Look at water on the map (Cesium",
    "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T07:41Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T07:52Z",
+     "text": "Native SpaceWaterAndLandShowNoSunOrMoonSpecular passed on D3D11. Play screenshots include Planet from space; close Planet samples did not show a populated water mask and the Cesium near-water pose lacked a ground sample at the requested coo"
+    }
+   ]
   },
   {
    "n": 191,
@@ -3601,59 +3571,55 @@
      "by": "HEAVY",
      "at": "2026-11-10T07:30Z",
      "text": "Final sync also brought in b6b018e388. Windows Unity 6000.6.8f1 compiled with exit 0, and cmp.sh against 74986545be returned NEW ERRORS: none in all four configurations. No new HEAVY claim or phone use."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T07:52Z",
+     "text": "Windows finalise: 766db902b0 and e5a29c547b landed with selector, zoom and D3D11 evidence."
     }
    ]
   },
   {
    "n": 193,
    "name": "MavChat UI revisions batch",
-   "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T07:39Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "done": "2026-11-10T07:52Z",
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T07:52Z",
+     "text": "e5a29c547b removed both Zoom scroller step objects and cleared their serialized fields. Notification Square has Rect and CountText wired at 112x112. Portrait Play found the badge extending beyond the physical edge, so the count now anchors "
+    }
+   ]
   },
   {
    "n": 194,
    "name": "Left lists swipe away",
    "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T07:40Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T07:52Z",
+     "text": "Current UI_LeftListSwipeAway builds its backing and handle at runtime and has no _backingMaterial_Optional slot. Row-origin drags are currently owned by the inner ScrollRect. Finish at the panel/scroll owner: route only horizontal intent to"
+    }
+   ]
   },
   {
    "n": 195,
    "name": "Move the Search button out of RI",
    "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T07:40Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T07:52Z",
+     "text": "Current Search Tab action points to UI_MainScreenSuggestion.ToggleSearch, which explicitly returns for a selected object. Reparenting alone would keep the reported failure. Move the action to UI_TopRightButtons, bind its layout beside Share"
+    }
+   ]
   },
   {
    "n": 196,
@@ -3668,7 +3634,15 @@
      "text": "693f2d0abd ships the muted non-interacting palette."
     }
    ]
+  },
+  {
+   "n": 197,
+   "name": "Notifications",
+   "done": "",
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
- "source_revision": "269c4f3e0d26bbc1002cf1e19394dc47c989e185"
+ "source_revision": "427da85987c5e1eed1ef0904205deda15135833f"
 }
