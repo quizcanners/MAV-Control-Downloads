@@ -221,11 +221,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-08T18:30Z",
-     "text": "Green: first complete Windows All 8527/0/8 on 029b3a2a7c after cloud and Mac fixes, compass/background fixture and saved _EdgeDarkening default. Exact Android 814 source 07bcf48b71 then passed 8528/0/8 and cmp.sh NEW ERRORS: none. Provenanc"
-    },
-    {
      "by": "CODEX_FLOW_REPAIR",
      "at": "2026-11-09T04:19Z",
      "text": "Final handoff CODEX_FLOW_REPAIR: published 3ef8b27451 and 3b563f4c82; current main also includes 3382aa5249 and a25d464b5c from other workers."
@@ -234,6 +229,11 @@
      "by": "REVIEW",
      "at": "2026-11-09T10:00Z",
      "text": "Investigation CR-0203-01: P2 confirmed cleanup defect: the new 24-hour profile sweep uses shallow mtimes and can delete a live nested profile; the exact helper did so with a fresh held-open fixture file on Linux. S1 complete; S2 existing-ru"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T19:28Z",
+     "text": "GETAC Android Test retry at 797f8e8f3e. DailyAll refused before launch because retained run ba5b4e68ed3b4cc3abfa0e72bd09ca3f still says Running/owned_live=true. PID 22400 is absent, but the evidence has progress files and no completed XML o"
     }
    ]
   },
@@ -5654,5 +5654,5 @@
    "notes": []
   }
  ],
- "source_revision": "797f8e8f3e94f48f26f99ecda0b07a3c47506f18"
+ "source_revision": "1c997f91ce606ab7431eca290731ae604a3be6d2"
 }
