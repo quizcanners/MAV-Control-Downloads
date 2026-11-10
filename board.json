@@ -3127,8 +3127,8 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-10T15:14Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T15:22Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -3139,6 +3139,11 @@
      "by": "CLAUDE_REVIEW",
      "at": "2026-11-09T20:47Z",
      "text": "Source review: not implemented yet. Singleton_ScreenSpaceCrosshair.cs:113-117 computes PortraitVisual(...).Blur and drops it; _SdfProgress is set only in UI_FollowCenterBrackets. Give the portrait crosshair a material instance of Monochrome"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-10T15:22Z",
+     "text": "Done in 2d158d9e63 (cmp.sh NEW ERRORS: none). MavChat Crosshair_Portrait.prefab back on MavChat Crosshair SDF.png + .mat (Monochrome UI SDF, authored ea3c78d6b4; e081887f59 had switched it to mip blur with no quiz reason recorded); Singleto"
     }
    ]
   },
@@ -5097,5 +5102,5 @@
    "notes": []
   }
  ],
- "source_revision": "a31484e0fa4f04dd1e13b91f09456f6b9350a44e"
+ "source_revision": "9e959244d7da5ab58552624c832a08f5cc8d1616"
 }
