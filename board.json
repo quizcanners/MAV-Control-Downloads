@@ -4244,11 +4244,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-10T13:36Z",
-     "text": "From the creeping complexity hunt (Coordination/Refactoring/creeping-complexity.md, place 10): the usual list of 512 with the horizon is now a copy per store. Situation, Enemy Logistics and Planet masks each carry MaximumTombstones, Tombsto"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-10T13:38Z",
      "text": "quiz, 2026-11-10, correction that replaces the tile horizon: 'we could have \"Deletion timestamp plug\". Meaning if we have deleted some tiles (and we can't delete a single tile, only 2 by 2 groups) we plug the parent with the deletion timest"
@@ -4257,6 +4252,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-10T13:40Z",
      "text": "LOCAL_MAC: deletion timestamp plug for Web Mercator NOT built; premise check stopped it. Only the Tile Eraser deletes whole 2 by 2 groups under a surviving parent (WebMercator_TileEraser.cs:362-379). 'Clear on all devices' does not (WebMerc"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T13:43Z",
+     "text": "LOCAL_MAC: deletion plug for Web Mercator still NOT built; it needs an agent with the Editor. quiz, 2026-11-10: 'Yes, snap it' (Clear on all devices snaps to whole 2 by 2 groups and loses 'To zoom') and 'Tile X: Children deleted last friday"
     }
    ]
   },
@@ -4725,5 +4725,5 @@
    "notes": []
   }
  ],
- "source_revision": "49cbccb9b05c9b8f6bce30e2f0d4d1774cc814db"
+ "source_revision": "c693a0c968764cb3c6617adea88a8dab4003720b"
 }
