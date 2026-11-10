@@ -1884,11 +1884,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-09T11:36Z",
-     "text": "Device visual failure on Strong Dev 817 (2400e9b752 includes 6d9d542a). Map Source selected Offline by yellow label inside a dark track; the brighter monochrome thumb was not visible. Quality switched High -> Low -> High, but the two legacy"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-09T12:22Z",
      "text": "iOS 818 (4dce0b3f8d) is on TestFlight (internal; external WAITING_FOR_BETA_REVIEW). Built with --skip-tests: the only red in the full All are the 9 water shader tests on task 96. The iPhone check of this task is still open: no phone is reac"
@@ -1897,6 +1892,11 @@
      "by": "cloud-capsule-white",
      "at": "2026-11-09T15:41Z",
      "text": "cloud-capsule-white: Thumb is now blurred and white-tinted (ThumbWhite .8, BlurMix .5, constants at top of UI_GlassSelector.cs); yellow caption kept. Still the same Editor step as above: the prefab has no Thumb wired yet (device 817 showed "
+    },
+    {
+     "by": "CLOUD_MAVCHAT_UI",
+     "at": "2026-11-10T07:28Z",
+     "text": "Answer to quiz (cloud, 2026-11-10): the selector code (6d9d542a, thumb tint f38fed5b) landed on main on 2026-11-09 06:12Z and 15:41Z, before both 821 sources (iOS 990529ba21, Android/Windows Dev 4abf5d2858, both contain it). The design was "
     }
    ]
   },
@@ -3569,5 +3569,5 @@
    "notes": []
   }
  ],
- "source_revision": "5724efabaadf6c3f9db8d46161a57a71c0c2dd43"
+ "source_revision": "68fe2f4a9d46201ecce63df92409e06bcb01bd02"
 }
