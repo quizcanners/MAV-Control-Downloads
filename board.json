@@ -3266,11 +3266,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-09T19:53Z",
-     "text": "8e9864d5cc records all 13 requested D3D11 fragment variants with FXC instructions, texture ops and temp registers in Assets/_PROJECT/Shaders/BASELINE.md. Native compile log and raw DXBC/assembly are in C:/MavControlEvidence/WorkCritical/win"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-10T07:52Z",
      "text": "e5a29c547b refreshes all requested Windows D3D11 FXC counts at b0cd37abdc in Shaders/BASELINE.md. Per-draw timings and Mali Vulkan/GLES3 estimates remain open. The local Editor captures are visual evidence only. Use a D3D11 player with Rend"
     },
@@ -3278,6 +3273,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T22:28Z",
      "text": "RenderDoc 1.47 measured six RTX 5070 D3D11 Map frames (1280x720, 10/3/1 km, High and Low). Ground totals High 0.140/0.123/0.086 ms; Low 0.140/0.124/0.085 ms. Draw counts, ranges, visible texture groups and retained blur consumer costs are i"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T22:32Z",
+     "text": "Follow-up 791777b73e: all six Map settings now have both blur producer draws timed. The matched camera refresh captures bind the camera color attachment to the horizontal pass, then the horizontal scratch texture to the vertical pass writin"
     }
    ]
   },
@@ -6048,5 +6048,5 @@
    "notes": []
   }
  ],
- "source_revision": "0e137a545011ef6a9eb7b072d126bb1d5540ca1d"
+ "source_revision": "fcf9c9c6d80da47b9350b8083cf32455b3792e88"
 }
