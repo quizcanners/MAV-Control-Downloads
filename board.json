@@ -1413,6 +1413,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-10T16:59Z",
      "text": "Code done in b8db9c5472: the DevMode Inspector's Run command only queues (AISandboxManager.QueueInspectorCommand); Singleton_GroundStation.UpdateFrameServices runs it in the SafeDiagnostics frame service (RunQueuedInspectorCommand), every b"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-10T18:01Z",
+     "text": "Update: the button-path test is in the suite now (8b2707208a): Tests/AISandbox/AISandboxInspectorRunTests + AISandboxInspectorHarnessWindow compile clean with Unity 6000.6.5 refs. Left: an Editor machine runs AISandboxInspectorRunTests and "
     }
    ]
   },
@@ -5578,5 +5583,5 @@
    "notes": []
   }
  ],
- "source_revision": "c78c860de958b6c8542f59048bbed6e35e6286bb"
+ "source_revision": "f9a0d23f969ad4153eb6ff6eed4177afcc435df4"
 }
