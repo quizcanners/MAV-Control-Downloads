@@ -3498,19 +3498,14 @@
     {
      "who": "refactor-6h",
      "since": "2026-11-10T00:44Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T12:44Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "REVIEW",
-     "at": "2026-11-10T03:37Z",
-     "text": "REVIEW-405: inspected c390a2157 (one coordination-only review-publication commit; no implementation changes or new findings). CR-7673-01 and all earlier proposals/claims/statuses remain; full-runner/native checks unrun. [Inspected range and"
-    },
     {
      "by": "REVIEW",
      "at": "2026-11-10T04:18Z",
@@ -3520,6 +3515,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-10T07:43Z",
      "text": "Mac at 08a9fbbc56: cmp.sh NEW ERRORS: none (23 assemblies). Covers the UI_ChatWindow forwarder removal; CR-7673-01 (portable runner still extracts ForwardPhoto) is outside the compile and still awaits quiz."
+    },
+    {
+     "by": "refactor-6h",
+     "at": "2026-11-10T12:44Z",
+     "text": "Station.Math forwarders removed (277 to 273), uncompiled: needs cmp.sh on a machine with dotnet. Task file has the Left list."
     }
    ]
   },
@@ -4476,5 +4476,5 @@
    "notes": []
   }
  ],
- "source_revision": "2ce8e068ddeaae1dbc63d1e0135a90d4636e8c58"
+ "source_revision": "a2b8b9ac6c30f238ea69fe52fa7dd3f83bfaf407"
 }
