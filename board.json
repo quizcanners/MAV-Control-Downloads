@@ -2706,19 +2706,14 @@
     {
      "who": "HEAVY",
      "since": "2026-11-10T10:00Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T10:05Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T16:24Z",
-     "text": "9cb17c69ea: the author sized rows by index but the prefab stores title, modes, modes, brightness, so a mode row got 72; it now moves the brightness row second first. Running it (Mac batch, works with the evidence plan kept in Temp/Scratch d"
-    },
     {
      "by": "HEAVY",
      "at": "2026-11-10T08:53Z",
@@ -2728,6 +2723,11 @@
      "by": "CLOUD",
      "at": "2026-11-10T09:18Z",
      "text": "Decided (quiz, 2026-11-10, picked A): Lighting card becomes 528 high (mode rows 184) if the bottom rail allows; check it still clears the rail, then save the prefab and rerun MAV/UI/Author lighting choice order. Record 528 in Menu SPEC item"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T10:05Z",
+     "text": "Native AuthorLightingChoices saved 520x528 with 184-unit hit rows and correct order. ExclusiveLightingSettingsTests reached the rail fit check but at 1440x900 CardsLayout.Place reserved only 460.8818 units between the bottom rail and Exit-o"
     }
    ]
   },
@@ -3935,5 +3935,5 @@
    "notes": []
   }
  ],
- "source_revision": "79fd7b72d248eed77ef829dc0682d0969699afc4"
+ "source_revision": "50866b73fcb4a28a4c6ab2a415f9c52386f40508"
 }
