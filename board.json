@@ -221,11 +221,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-09T10:00Z",
-     "text": "Investigation CR-0203-01: P2 confirmed cleanup defect: the new 24-hour profile sweep uses shallow mtimes and can delete a live nested profile; the exact helper did so with a fresh held-open fixture file on Linux. S1 complete; S2 existing-ru"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-10T19:28Z",
      "text": "GETAC Android Test retry at 797f8e8f3e. DailyAll refused before launch because retained run ba5b4e68ed3b4cc3abfa0e72bd09ca3f still says Running/owned_live=true. PID 22400 is absent, but the evidence has progress files and no completed XML o"
@@ -234,6 +229,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-10T19:58Z",
      "text": "Checked main for Getac's block: no real C# errors from today's changes (cmp.sh against the parent of 863cb3cd6c, no Unity references in the cloud, so only missing-assembly noise); the block is the held owner ba5b4e68ed3b, not a code break. "
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T21:49Z",
+     "text": "GETAC reconciled interrupted DailyAll ba5b4e68ed3b by archiving both owner pointers after checking the later OS boot and absent native/launcher processes. Original outcome remains unknown and original receipts are intact. Fresh isolated Edi"
     }
    ]
   },
@@ -5765,5 +5765,5 @@
    "notes": []
   }
  ],
- "source_revision": "76ad76b6dfabc5b4f17d9b62983884817a7e468e"
+ "source_revision": "9abe0941dc00252bcb0a80bacb6ef4c3552f7d3f"
 }
