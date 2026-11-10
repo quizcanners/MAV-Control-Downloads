@@ -5372,14 +5372,20 @@
     {
      "who": "CLOUD",
      "since": "2026-11-10T16:47Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T16:53Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD",
+     "at": "2026-11-10T16:53Z",
+     "text": "Code done (f2bec59b..., uncompiled): border tiles are in StreamingAssets/Ukraine Borders.sqlite (cut by Tools/cut_border_tiles.py, altitudes included), UkraineBorderTiles reads them on a worker, TrailPolyline_LODs.UpdateTiles feeds the ribb"
+    }
+   ]
   },
   {
    "n": 286,
@@ -5449,5 +5455,5 @@
    "notes": []
   }
  ],
- "source_revision": "f9bda49c39776c26328f8ae7d1e1df1b51e159d5"
+ "source_revision": "dcb1bf1c33550b34aa6f6a3cb4fcf0bfb2dfbdbb"
 }
