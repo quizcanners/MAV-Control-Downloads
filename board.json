@@ -1400,8 +1400,8 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-10T16:46Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T16:59Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -1412,6 +1412,11 @@
      "by": "GETAC",
      "at": "2026-11-10T08:40Z",
      "text": "Reproduced on Strong Dev 821 through the actual Android DevMode > Utilities > AI Sandbox entry. Typed selftest all, tapped Run command, opened Debug with physical-equivalent Android input. Debug displayed err readout_busy; the Inspector is "
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-10T16:59Z",
+     "text": "Code done in b8db9c5472: the DevMode Inspector's Run command only queues (AISandboxManager.QueueInspectorCommand); Singleton_GroundStation.UpdateFrameServices runs it in the SafeDiagnostics frame service (RunQueuedInspectorCommand), every b"
     }
    ]
   },
@@ -5493,5 +5498,5 @@
    "notes": []
   }
  ],
- "source_revision": "eea4de75a826c15dfb41fe730388b0f4754a131d"
+ "source_revision": "0b3a24fe8628439f1840375b16cad85797e6b9ee"
 }
