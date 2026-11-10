@@ -4012,7 +4012,7 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-10T15:29Z",
-     "noted": "",
+     "noted": "2026-11-10T15:40Z",
      "progress": 40,
      "ticked": 2,
      "total": 5
@@ -4040,7 +4040,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-10T15:40Z",
+     "text": "Step 1 done in 020a24f561 (cmp.sh NEW ERRORS: none, not run): TryDeleteSave writes erase-all.owed before the checkpoint delete, each store erase in its own try (one throwing no longer skips the rest), failures named in DeleteSaveFailures, m"
+    }
+   ]
   },
   {
    "n": 212,
@@ -5137,5 +5143,5 @@
    "notes": []
   }
  ],
- "source_revision": "e46da620f4b607e08a49231a1c0543b3fb73598e"
+ "source_revision": "a10fc6ac37b3d867131abe6a31ad2a732e22a033"
 }
