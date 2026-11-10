@@ -3800,7 +3800,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-10T22:07Z",
-     "noted": "",
+     "noted": "2026-11-10T22:09Z",
      "progress": 0,
      "ticked": 0,
      "total": 4
@@ -3827,11 +3827,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-10T08:53Z",
-     "text": "Main Menu content is instantiated by UI_ExtendedMenuContent from BUTTONS Bottom.prefab; the current two labels and PerformanceReadouts still live in TOP_RIGHT. Move both labels into the instantiated Menu prefab and bind its performance head"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-10T10:09Z",
      "text": "No prefab change this pass. Resume by moving build info and own identity into the Main Menu instance sourced from BUTTONS Bottom by UI_ExtendedMenuContent, then bind the performance header and remove the Extended-menu gate in UI_TopRightBut"
     },
@@ -3839,6 +3834,11 @@
      "by": "cloud-thread",
      "at": "2026-11-10T13:23Z",
      "text": "quiz, 2026-11-10 (on build 822, de2c96ec68): \"And it has all the Data like build number outside of Menu prefab.\" Prepared per root AGENTS.md: this is task 199 as written (both labels, not only the version); UI SPEC Right Exit Priority alrea"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T22:09Z",
+     "text": "LOCAL_MAC looked, no change. Neither Menu prefab can hold the labels authored under the X: BUTTONS Bottom.prefab (the instance UI_ExtendedMenuContent in BUTTONS Right creates) has a 223-high bottom-stretched root with a HorizontalLayoutGrou"
     }
    ]
   },
@@ -5995,5 +5995,5 @@
    "notes": []
   }
  ],
- "source_revision": "ac2927bfd3625fbfa2a47721d406f9d7d4d74c27"
+ "source_revision": "0b1ed33b8e2acc8f714d247db750f4b6af75066a"
 }
