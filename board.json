@@ -2522,19 +2522,14 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-10T08:27Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T08:34Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T14:35Z",
-     "text": "Also seen: cmp.sh's e and m sets do not resolve UnityEditor types (AssetImporter, TextureImporter, AssetDatabase) in test files under #if UNITY_EDITOR; base already lists them for FollowCenterSdfBindingTests, so any new Editor-only test sho"
-    },
     {
      "by": "LOCAL_MAC",
      "at": "2026-11-09T14:55Z",
@@ -2544,6 +2539,11 @@
      "by": "REVIEW",
      "at": "2026-11-09T15:07Z",
      "text": "CR-AE26-01 P2: S1 investigation and S2 brief complete. Two stale-lock waiters can delete a new live lock and both enter cmp.sh; exact shell-block race reproduced, ordinary live-holder control passed. Fail-fast stale-lock sketch awaits quiz "
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T08:34Z",
+     "text": "5dc0c8d2e5: cmp.sh picks the Hub Editor named in ProjectVersion.txt when installed (Mac/Windows/Linux Hub paths; explicit UNITY_REFS wins, cloud keeps the portable 2021 modules). On the Mac the UnityEditor-name gap is closed: unresolved Ass"
     }
    ]
   },
@@ -3737,5 +3737,5 @@
    "notes": []
   }
  ],
- "source_revision": "339c854829ae8c3de2a3aeacc4a8204d4e6c63c6"
+ "source_revision": "f8b1443a2374ec5b69f653e24809ce5a4c0f362d"
 }
