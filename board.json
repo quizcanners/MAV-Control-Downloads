@@ -3812,11 +3812,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-10T09:58Z",
-     "text": "REVIEW-410 / CR-B6B0-01 reconciliation: new notice becomes red is already decided in the notification SPEC. Current responsible code remains unchanged through the inspected tip; implementation pending, no repeat question. Existing claims/co"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-10T10:09Z",
      "text": "887db5312e resets Seen only when ObserveSource admits a new binding. Unity NotificationRendererBindingTests passed 17/17, including unchanged A, folded replacement B unseen without pinning, and B becoming seen after display. Main/Notificati"
@@ -3825,6 +3820,11 @@
      "by": "REVIEW",
      "at": "2026-11-10T10:17Z",
      "text": "REVIEW-411 / CR-B6B0-01: publication-time source reconciliation read 887db5312e after the fixed tip; Seen reset is repaired in source, HEAVY records 17/17 Unity fixture passes and a page bump. Live Portrait colors remain unverified; REVIEW "
+    },
+    {
+     "by": "CLOUD",
+     "at": "2026-11-10T10:43Z",
+     "text": "quiz, 2026-11-10 (Notifications SPEC 'Received, not agreed'): tick-mark = received, + only after a full read in MavChat; red/blue = not received/received. Code changed: Seen now means received, set by tick-mark or body tap, no longer by bei"
     }
    ]
   },
@@ -4142,5 +4142,5 @@
    "notes": []
   }
  ],
- "source_revision": "5e5d576649a04a8442cda36be45d775a4041946b"
+ "source_revision": "7e7dc350e73252f04b36990f2a7df70c65e90e93"
 }
