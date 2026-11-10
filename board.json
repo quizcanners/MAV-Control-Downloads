@@ -260,11 +260,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-09T05:35Z",
-     "text": "CR-31F7-01 (P2 storage), extends GETAC cache note 31f745d3b. S1 investigation complete: cached preparations always Unseal and AdmitUnsealed renames an existing plaintext to another .previous-GUID, with no retirement; repeated identical prep"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-09T08:30Z",
      "text": "GETAC clean install passed on DJI RC Plus 2. Removed MAV Control 777 and the standalone WireGuard app without retaining app data. In Windows Test 817, Settings > Windows > Install on another device, selected Test, DJI, and the assigned peer"
@@ -273,6 +268,11 @@
      "by": "GETAC",
      "at": "2026-11-10T05:45Z",
      "text": "Windows Dev 821 Getac native IL2CPP startup logs Windows link activation is unavailable (ArgumentException), and the previous Getac Windows player log also contains the warning. Station_DeepLinks_Windows catches listener setup; WindowsLinkT"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T05:47Z",
+     "text": "Native follow-up on Windows Dev 821, 4abf5d2858: called the built MavControlLink.exe assembly Client.TryDeliver against its same-user, same-profile endpoint while player PID 29140 was ready. A benign coordinate link returned NoListener and "
     }
    ]
   },
@@ -3497,5 +3497,5 @@
    "notes": []
   }
  ],
- "source_revision": "7472c0d67b2a4490f60324eca9137f1c51401883"
+ "source_revision": "bf2aa460404479ffc8d44c31d4ce61fff3dfb800"
 }
