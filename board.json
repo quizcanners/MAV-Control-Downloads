@@ -221,11 +221,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-10T19:58Z",
-     "text": "Checked main for Getac's block: no real C# errors from today's changes (cmp.sh against the parent of 863cb3cd6c, no Unity references in the cloud, so only missing-assembly noise); the block is the held owner ba5b4e68ed3b, not a code break. "
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-10T21:49Z",
      "text": "GETAC reconciled interrupted DailyAll ba5b4e68ed3b by archiving both owner pointers after checking the later OS boot and absent native/launcher processes. Original outcome remains unknown and original receipts are intact. Fresh isolated Edi"
@@ -234,6 +229,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T21:57Z",
      "text": "Fresh Windows EditMode All at 76ad76b6df: 8,764 passed, 82 failed, 1 inconclusive, 10 skipped. November 8: 8,755 passed, 13 failed, 11 skipped. Still failing: GroupPhotoCheckpointPlayModeTests, PlanetDrawPatchReuseTests, PlanetSurfaceShader"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T21:58Z",
+     "text": "Getac EditMode All at 260324620e: 8,512 passed, 67 failed, 8 skipped. The pushed report lists all 67 NUnit cases, assertions and source links: Coordination/Verification/Getac-EditMode-260324620e.md (ce48e70c26). Start with PlanetSurfaceShad"
     }
    ]
   },
@@ -5973,5 +5973,5 @@
    "notes": []
   }
  ],
- "source_revision": "40fade63e2283177401921e9a3f36f5b63c1d160"
+ "source_revision": "2bdc91f16565c0a1bb16f5fd57301a5e4e2cbe39"
 }
