@@ -4963,15 +4963,19 @@
    "held": [],
    "steps": [
     {
-     "t": "Clock.prefab wiring: plaque button, selected black, Plug sprite",
+     "t": "Clock.prefab: plaque button to OnPlaqueTapped",
      "x": false
     },
     {
-     "t": "Shader _MAP_FOCUS keyword + variant stripper",
+     "t": "Clock.prefab: black selected backing and Plug sprite",
      "x": false
     },
     {
-     "t": "cmp.sh compile fix",
+     "t": "Compile with cmp.sh and fix errors",
+     "x": false
+    },
+    {
+     "t": "Compile _MAP_FOCUS shader variants, refresh BASELINE.md",
      "x": false
     }
    ],
@@ -4997,5 +5001,5 @@
    "notes": []
   }
  ],
- "source_revision": "8160131c8e8f88be2435be7ffe46ef3de93adcde"
+ "source_revision": "890ff23a834513574ead2f5184565dd474b452ad"
 }
