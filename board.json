@@ -4245,11 +4245,6 @@
    "notes": [
     {
      "by": "LOCAL_MAC",
-     "at": "2026-11-10T13:43Z",
-     "text": "LOCAL_MAC: deletion plug for Web Mercator still NOT built; it needs an agent with the Editor. quiz, 2026-11-10: 'Yes, snap it' (Clear on all devices snaps to whole 2 by 2 groups and loses 'To zoom') and 'Tile X: Children deleted last friday"
-    },
-    {
-     "by": "LOCAL_MAC",
      "at": "2026-11-10T13:44Z",
      "text": "LOCAL_MAC, trickle-down design read from source (not built): the explicit plug sits on the surviving parent's branch; each existing tile below that arrived after T carries a trickled copy on its own record (so the copy exists exactly when t"
     },
@@ -4257,6 +4252,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-10T13:47Z",
      "text": "quiz, 2026-11-10, how the tile tombstone is applied (Record Vault SPEC, same section): 'Tombstone is basically \"Children of this tile was purged on Date D\". This will prevent it from allowing children who are older then that. And it will be"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T13:51Z",
+     "text": "Guides updated (6574dc323b): root AGENTS.md terms (Tombstone, Dirty tombstone, Ripper drill), Data Sync AGENTS.md 'Tombstones and the Ripper drill' (the general rule with quiz's words), Web Mercator AGENTS.md and SPEC, Orthophoto SPEC, Reco"
     }
    ]
   },
@@ -4725,5 +4725,5 @@
    "notes": []
   }
  ],
- "source_revision": "0f659bd54bafd1cf923c65f2e57dc1994dabbab3"
+ "source_revision": "b0454da65f0a553194ff87daec6f0a76a4d66e33"
 }
