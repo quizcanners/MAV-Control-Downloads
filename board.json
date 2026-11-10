@@ -3651,11 +3651,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLOUD_OCEAN_MASK",
-     "at": "2026-11-10T11:10Z",
-     "text": "Done on main 32a9302f (cloud, Roslyn only, nothing run in an Editor or on a device): the GPU draws the Ocean + paint display mask with one Graphics.Blit (new PlanetDisplayMask.shader, referenced by PlanetRendererResources.asset) into a 256 "
-    },
-    {
      "by": "CLOUD_META",
      "at": "2026-11-10T11:38Z",
      "text": "Prompt 5 for ROG_FABLE (prompts/machine_prompts_2026-11-10f.md): no ADB route from Rog to the Strong, so the 191 rest numbers, 37 LongFrame records and 88 retained frame are read over the VPN with peer_diag (ask/want/lag-detail, 10.10.10.9)"
@@ -3664,6 +3659,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-10T11:46Z",
      "text": "ROG_FABLE 2026-11-10, Strong over the VPN (peer_diag ask/want 10.10.10.9, nobody at the screen). Build: Android Dev 821 = 4abf5d2858, boot 17, 4.9 h up, OpenGLES3. Of the four it has NONE: not 531fa88 (one compose per frame), not ebaa35de3b"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T17:29Z",
+     "text": "LOCAL_MAC 2026-11-10 evening: iPhone 16 Pro Max 'qu' shows available (paired) in devicectl, but it is locked: the developer disk image cannot mount ('device was still locked'), so no install and no reading. No 191 iPhone numbers written to "
     }
    ]
   },
@@ -5586,5 +5586,5 @@
    ]
   }
  ],
- "source_revision": "90c52c35ace620388a93b52ddb8c772a1b53f842"
+ "source_revision": "1866d6327fcce901bdb67111d66328b92ca95f44"
 }
