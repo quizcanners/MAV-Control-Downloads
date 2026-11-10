@@ -1910,6 +1910,11 @@
      "by": "CLOUD",
      "at": "2026-11-10T09:18Z",
      "text": "Decided (quiz, 2026-11-10, picked A): \"A\" = coarse tiles (zoom 0-11) share their zoom-6 ancestor segment, new writes only, existing locations keep stored paths. Companion-file cleanup (journal_mode=DELETE for idle segments, delete zero-byte"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T10:09Z",
+     "text": "No store change or measurement this pass. Resume with new-write-only routing for zoom 0\u201311 to the zoom-6 ancestor, keep catalog paths for existing tiles, add idle segment journal/companion cleanup, and capture fresh Europe pan file counts b"
     }
    ]
   },
@@ -2483,7 +2488,24 @@
    "name": "Situation",
    "done": "",
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Code: the bake hands the model choice with each group (type, Alive, ungrouped, e",
+     "x": false
+    },
+    {
+     "t": "Code: SituationGroupedIconSystem draws model and ContactShadow as instanced batc",
+     "x": false
+    },
+    {
+     "t": "Editor: wire the three FBX meshes and six materials on Singleton_SituationEntiti",
+     "x": false
+    },
+    {
+     "t": "SPEC and AGENTS.md say what was built",
+     "x": false
+    }
+   ],
    "notes": []
   },
   {
@@ -3157,11 +3179,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLOUD_MAVCHAT_UI",
-     "at": "2026-11-10T07:28Z",
-     "text": "MavChat capsule and Search now set their screen-edge sides at runtime (UI_MavChatSheet.Layout) so their outer ends go black like the MGRS field (quiz, 2026-11-10: 'MavChat still doesn't show black merge next to screen edges, only the MGRS o"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-10T07:52Z",
      "text": "Windows portrait Play still shows black at the MGRS physical left edge. SelectedControlEdgeFadeTests 10/10. The full Prefab_Edge_Pass_Prompt inventory, neighbor separators and removal of transitional attach-flag darkening remain open. Do no"
@@ -3170,6 +3187,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T08:53Z",
      "text": "The earlier physical MGRS seam fix remains in main. This batch did not complete the whole prefab inventory or neighbor separator pass. Keep AttachedEdges fallback until each physical edge is classified in both orientations."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T10:09Z",
+     "text": "No prefab edge changes this pass. Resume by classifying each physical edge in Portrait and Landscape before removing AttachedEdges."
     }
    ]
   },
@@ -3455,6 +3477,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T08:53Z",
      "text": "Current Windows ShaderPassCompilationTests 20/22. Both SkyboxVertexDirectionsMatchOriginalPixelsForClearedSkyAndSun cases still fail pixel parity. The previous 19 FXC counts remain in BASELINE.md. Day/Night prewarm recording and player stri"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T10:09Z",
+     "text": "No new collection this pass. Day and Night recording and the player stripping log remain open, with the two Skybox parity cases tracked separately."
     }
    ]
   },
@@ -3587,6 +3614,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T08:53Z",
      "text": "Windows D3D11 SpaceWaterAndLandShowNoSunOrMoonSpecular passed again. The near and space live visual comparison with known water coverage in both renderers remains open."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T10:09Z",
+     "text": "No new visual result this pass. Cesium online and Planet coast views remain open at close and space distances, along with the targeted no-specular render test."
     }
    ]
   },
@@ -3623,11 +3655,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-10T07:30Z",
-     "text": "Final sync also brought in b6b018e388. Windows Unity 6000.6.8f1 compiled with exit 0, and cmp.sh against 74986545be returned NEW ERRORS: none in all four configurations. No new HEAVY claim or phone use."
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-10T07:52Z",
      "text": "Windows finalise: 766db902b0 and e5a29c547b landed with selector, zoom and D3D11 evidence."
     },
@@ -3635,6 +3662,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T08:53Z",
      "text": "Windows finalise: 176, 194 and 195 landed and closed; 874df5b01d carries orientation assets and Map Camera backing."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T10:09Z",
+     "text": "Pulled main and ran Roslyn; NEW ERRORS: none. / 203 Seen reset pushed as 887db5312e; Windows notification EditMode 17/17; Main/Notifications bumped as a7e23decf7. / 143 author trial saved 528 with 184-unit rows; 1440x900 fit capped the card"
     }
    ]
   },
@@ -3753,6 +3785,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T08:53Z",
      "text": "Main Menu content is instantiated by UI_ExtendedMenuContent from BUTTONS Bottom.prefab; the current two labels and PerformanceReadouts still live in TOP_RIGHT. Move both labels into the instantiated Menu prefab and bind its performance head"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T10:09Z",
+     "text": "No prefab change this pass. Resume by moving build info and own identity into the Main Menu instance sourced from BUTTONS Bottom by UI_ExtendedMenuContent, then bind the performance header and remove the Extended-menu gate in UI_TopRightBut"
     }
    ]
   },
@@ -3775,6 +3812,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T08:53Z",
      "text": "Inspected placement and fold ownership. Notification Controllers anchors the square in the full-frame origin; LateUpdate applies MavChat NotificationPlacement to the cards, not the square. Anchor the square from the real lower right edge of"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T10:09Z",
+     "text": "No prefab change this pass. Still need the live tap-disappearance repro before changing placement. Then use the real B_Menu or Close edge for Notification Square_Portrait, keep its draw/input layer above the cards, and wire the thin MavChat"
     }
    ]
   },
@@ -3790,16 +3832,7 @@
    "n": 203,
    "name": "Note from CLOUD",
    "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T10:03Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -3811,6 +3844,11 @@
      "by": "REVIEW",
      "at": "2026-11-10T09:58Z",
      "text": "REVIEW-410 / CR-B6B0-01 reconciliation: new notice becomes red is already decided in the notification SPEC. Current responsible code remains unchanged through the inspected tip; implementation pending, no repeat question. Existing claims/co"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T10:09Z",
+     "text": "887db5312e resets Seen only when ObserveSource admits a new binding. Unity NotificationRendererBindingTests passed 17/17, including unchanged A, folded replacement B unseen without pinning, and B becoming seen after display. Main/Notificati"
     }
    ]
   },
@@ -3825,6 +3863,11 @@
      "by": "REVIEW",
      "at": "2026-11-10T09:58Z",
      "text": "REVIEW-410 / CR-59CE-01 reconciliation: quiz authorized the existing-background-app replacement; prior pipe repair sketch is superseded. Listener remains source/owner-recorded failing, replacement not native-confirmed. Preserve task 9 histo"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T10:09Z",
+     "text": "No packaging changes this pass. Resume at Tools/BackgroundChat/Program.cs with --link and file handoff, then installer scheme ownership and removal of MavControlLink.exe and the pipe code. Windows installer and browser activation remain ope"
     }
    ]
   },
@@ -3834,7 +3877,13 @@
    "done": "",
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T10:09Z",
+     "text": "No packet change this pass. Resume with the paired C# and Android position kind on 14668, the existing BackgroundTracker owner, and Due.md for retirement of the legacy 14777 listener."
+    }
+   ]
   },
   {
    "n": 208,
@@ -3842,7 +3891,13 @@
    "done": "",
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T10:09Z",
+     "text": "No port change this pass. Resume with the VPN candidate path, the 14680 Windows rule, and the Android renewal path decision in Peer Video SPEC."
+    }
+   ]
   },
   {
    "n": 209,
@@ -3850,7 +3905,13 @@
    "done": "",
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T10:09Z",
+     "text": "No server changes this pass. Resume with the browser-origin read against the sealed GitHub release asset and its redirect, then record the CORS result in Routing server SPEC before deciding Caddy and ports."
+    }
+   ]
   },
   {
    "n": 210,
@@ -3926,5 +3987,5 @@
    "notes": []
   }
  ],
- "source_revision": "57691167b9b67dc84d05d3b741e0631b7a20dbf2"
+ "source_revision": "80b418f334e1ea821344f1dd9baa355b709f6a53"
 }
