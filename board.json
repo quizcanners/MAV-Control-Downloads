@@ -4023,7 +4023,28 @@
    "name": "VPNs list with switching and the",
    "done": "",
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Settings > VPN network > VPNs: one row per joined VPN (name, subnet, MavServer o",
+     "x": false
+    },
+    {
+     "t": "Switch by tapping a row: the Android built-in tunnel brings up that VPN's saved ",
+     "x": false
+    },
+    {
+     "t": "An Admin edits the VPN's ServerSpecs on its row; the app stamps a new Version an",
+     "x": false
+    },
+    {
+     "t": "WireGuard > People, Add device: a name only; the Admin's app makes the new devic",
+     "x": false
+    },
+    {
+     "t": "Admin or not in three states: no answer reads as can't reach the server and is a",
+     "x": false
+    }
+   ],
    "notes": []
   },
   {
@@ -4035,5 +4056,5 @@
    "notes": []
   }
  ],
- "source_revision": "8682967276e57a2e6869477db17790185171360b"
+ "source_revision": "57bfdf1bb23569fb4ba93fcc96aaa34f561d8d98"
 }
