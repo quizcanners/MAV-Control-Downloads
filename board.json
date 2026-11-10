@@ -3776,7 +3776,24 @@
    "name": "Move the build info label (briga",
    "done": "",
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Move build info label into the Main Menu prefab",
+     "x": false
+    },
+    {
+     "t": "Move own identity label (name, VPN IP, altitude) into it",
+     "x": false
+    },
+    {
+     "t": "Bind the Performance header to them in the Menu instance",
+     "x": false
+    },
+    {
+     "t": "Remove the Extended-menu gate and PerformanceReadouts from UI_TopRightButtons",
+     "x": false
+    }
+   ],
    "notes": [
     {
      "by": "HEAVY",
@@ -3787,6 +3804,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T10:09Z",
      "text": "No prefab change this pass. Resume by moving build info and own identity into the Main Menu instance sourced from BUTTONS Bottom by UI_ExtendedMenuContent, then bind the performance header and remove the Extended-menu gate in UI_TopRightBut"
+    },
+    {
+     "by": "cloud-thread",
+     "at": "2026-11-10T13:23Z",
+     "text": "quiz, 2026-11-10 (on build 822, de2c96ec68): \"And it has all the Data like build number outside of Menu prefab.\" Prepared per root AGENTS.md: this is task 199 as written (both labels, not only the version); UI SPEC Right Exit Priority alrea"
     }
    ]
   },
@@ -4239,14 +4261,20 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-10T12:31Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T13:24Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T13:24Z",
+     "text": "fefef7f05c (LOCAL_MAC; subagent without Unity, cmp.sh NEW ERRORS: none, tests updated, none run): receipts removed; a differing branch is tried once per pass and plugged (PeerSync.TriedPass; a pass is one coverage of the tree per peer, the "
+    }
+   ]
   },
   {
    "n": 223,
@@ -4620,7 +4648,15 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 251,
+   "name": "Editor",
+   "done": "",
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
- "source_revision": "2de43f38e2c31b3daa34e2b0d092c8103b3aff54"
+ "source_revision": "012602519628f524f0b03633feb565a744582e42"
 }
