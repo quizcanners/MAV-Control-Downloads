@@ -5375,8 +5375,8 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-10T17:24Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T17:26Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -5392,6 +5392,11 @@
      "by": "CLOUD_LOAD_TIME",
      "at": "2026-11-10T17:04Z",
      "text": "quiz, 2026-11-10: no loading screen; the map shows at once, the bar covers core scenes and layers, sounds load on demand (task 288, Bootstrap AGENTS 'The loading plan'). Effect here: the reveal moment is now the Map camera's frame, so start"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T17:26Z",
+     "text": "LOCAL_MAC, read Map.unity (no change pushed). Map.unity has 3 roots: Planet, Directional Light, '!decalLightmaps'; everything the task moves is a child of Planet (CesiumGeoreference). Of Planet's 26 children 18 carry Cesium components: Cesi"
     }
    ]
   },
@@ -5584,5 +5589,5 @@
    ]
   }
  ],
- "source_revision": "76e93f8b32ad2a1ad12e1f1c8c746606e391e380"
+ "source_revision": "98df9c8c25888aced116b336d8c17a5f25123021"
 }
