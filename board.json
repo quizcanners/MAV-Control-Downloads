@@ -727,11 +727,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-08T17:46Z",
-     "text": "Lenovo TB-8506X signed 812, 7990df8019, frame 64 at 13.5 s: 1508.732 ms wall, Rendering 750.022 ms under Unmeasured / frame wait, 595.660 ms measured managed, native timing unavailable, 2 FPS target."
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-08T18:09Z",
      "text": "Code read: Android has no Swappy and vsync 0, so the 2 FPS cap is Unity's sleep limiter and its wait is booked to IdleFrameCap, not Rendering. Rendering (FrameTime.cs SplitPreviousFrame) = FinishFrameRendering + camera render contexts, so 0"
@@ -740,6 +735,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-10T10:04Z",
      "text": "ROG_FABLE 2026-11-10, not read: Rog has no station that can ask the server without the Editor. server.diagnostics.read runs only through a local bridge (Editor in Play, a development player, or Android over ADB); the installed Windows playe"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-10T10:23Z",
+     "text": "ROG_FABLE 2026-11-10 (quiz: 'Editor in Play'): still no owner named, for a new reason. With the Rog Editor in Play as the station: (1) the route to the MavServer never connected, 247 presences in 30 s and 0 answers; cause and fix in b9c5113"
     }
    ]
   },
@@ -4100,5 +4100,5 @@
    ]
   }
  ],
- "source_revision": "474e59bbed23e0fc29b45e0fa44bb0ad98458066"
+ "source_revision": "74caa8528af28e5ae3b2ab056d543007d6438811"
 }
