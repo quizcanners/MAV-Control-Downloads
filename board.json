@@ -4003,11 +4003,6 @@
    "notes": [
     {
      "by": "REVIEW",
-     "at": "2026-11-10T08:11Z",
-     "text": "REVIEW-409 / CR-C4C5-01: quiz's subnet-selection decision is recorded and source-implemented by 90a46c7ab. Native A-B-A/restart/Valhalla acceptance remains unrun; same-key address relocation stays a separate open request. [Reconciliation](."
-    },
-    {
-     "by": "REVIEW",
      "at": "2026-11-10T10:17Z",
      "text": "REVIEW-411 / CR-6B2C-01: b51acbe6b removes the old permission-edit trigger and prevents a derived server Admin from becoming a stored table grant. Legacy A flags are still read; historical duplicate-grant normalization is not proved, and in"
     },
@@ -4015,6 +4010,11 @@
      "by": "CLOUD_VPNS",
      "at": "2026-11-10T10:22Z",
      "text": "What the folded task 150 leaves after quiz's change of 2026-11-10 (its brief and notes are above). Settled by the target: which MavServer is used on which subnet (the current VPN's specs name it, step 5); a same-key address move (the specs "
+    },
+    {
+     "by": "CLOUD_VPNS",
+     "at": "2026-11-10T10:22Z",
+     "text": "quiz, 2026-11-10, the note this work comes from, as he wrote it: \"You make a good point. I said that we can have multiple VPN servers or multiple servers without VPN. But this increased complexity by a lot. So lets change all that: one MavS"
     }
    ]
   },
@@ -4081,5 +4081,5 @@
    "notes": []
   }
  ],
- "source_revision": "5f64ca9d93c3783cf9015875f64fcf1a0b76d427"
+ "source_revision": "05297d11c1e27b174ff14bdcab164d21a9bc91a2"
 }
