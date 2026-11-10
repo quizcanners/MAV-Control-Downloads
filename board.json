@@ -2891,11 +2891,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-10T05:45Z",
-     "text": "Windows Dev 821 on the existing Getac profile reports routing_state=Connected, one candidate, one presence answer and server_configured=True. Route requests=0. This is mesh/configured endpoint proof only. Automatic first adoption and addres"
-    },
-    {
      "by": "CLOUD_GETAC_CHECK",
      "at": "2026-11-10T06:37Z",
      "text": "Cloud check of the two GETAC source findings at 8ef77d2: both read true in code. InUse() takes the own record, else the first complete package, whatever subnet is active (matches SPEC 'the first package, the own one first', so the choice is"
@@ -2904,6 +2899,11 @@
      "by": "GETAC",
      "at": "2026-11-10T06:50Z",
      "text": "Strong Dev 821 on its preserved profile has server_configured=True (Dev 819 was False), while VPN routing reports NoServer with zero candidates and zero presence. No HTTP route request was issued. Presence and usable endpoint adoption still"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-10T07:02Z",
+     "text": "Cloud (quiz, 2026-11-10: \"When switching VPN subnet It should use servers associated with that subnet. We consider user with multiple VPNs as someone who has access to both.\"): settles GETAC finding 3 / CR-C4C5-01 as the intended rule, not "
     }
    ]
   },
@@ -3531,5 +3531,5 @@
    ]
   }
  ],
- "source_revision": "2e957f73fbe339582cb9184cf6c778862bdc01c4"
+ "source_revision": "8bec41f02de498ee45c69171a40a4ca6686f0542"
 }
