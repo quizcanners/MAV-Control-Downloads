@@ -4701,19 +4701,16 @@
   {
    "n": 247,
    "name": "Editor",
-   "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T16:29Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "done": "2026-11-10T16:33Z",
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T16:33Z",
+     "text": "Unity reimported BlurredWorld.shader on D3D11, with zero Console errors. Regenerated the source budget; the existing World blur rows already match at 11/9 texture reads and 60/43 arithmetic operations for horizontal/vertical. No baseline di"
+    }
+   ]
   },
   {
    "n": 248,
@@ -4759,18 +4756,15 @@
    "n": 253,
    "name": "Editor + device check",
    "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T16:30Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T16:33Z",
+     "text": "Unity imported Pilot Track.shader on Windows without a shader error. Still open: recorded-track playback at 1/3/10 km and the map ribbon at distant zoom. No visual distance result claimed."
+    }
+   ]
   },
   {
    "n": 255,
@@ -4926,18 +4920,15 @@
    "n": 262,
    "name": "Drawing fade (120 s) and thicker",
    "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T16:29Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T16:33Z",
+     "text": "Unity imported AnnotationStroke.shader with zero shader errors and compiled it in EditedShaderPassesCompileWithDefaultAndDeclaredLocalStates on D3D11. The 120 s fade and shadow appearance still need the phone page check."
+    }
+   ]
   },
   {
    "n": 263,
@@ -5055,7 +5046,16 @@
    "n": 269,
    "name": "Map focus (spec",
    "done": "",
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-10T16:33Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Clock.prefab: plaque button to OnPlaqueTapped",
@@ -5120,19 +5120,16 @@
   {
    "n": 273,
    "name": "Compile UI_MavChatSheet.cs (map ",
-   "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T16:28Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "done": "2026-11-10T16:33Z",
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T16:33Z",
+     "text": "Unity Windows EditMode MavChatSheetTests: 94 passed, no failures, one inconclusive. ASlowTwitchSelectsNoNeighborAndAFastShortFlickDoes needs 30 dp over the 24 px slop, but this Editor maps it to 18 px. The fixture compiled and the other cas"
+    }
+   ]
   },
   {
    "n": 274,
@@ -5204,18 +5201,15 @@
    "n": 278,
    "name": "Look at chat rows in the Editor",
    "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T16:28Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T16:33Z",
+     "text": "Unity ChatMessageLayoutTests passed 36/36 on Windows. Native prefab fixtures assert MetaGrey for incoming and reused outgoing footer time and both tick colors. A rendered chat screenshot remains open."
+    }
+   ]
   },
   {
    "n": 279,
@@ -5304,5 +5298,5 @@
    "notes": []
   }
  ],
- "source_revision": "1b82a47124a33eaedda8125ff4317a5ab4b9fa3d"
+ "source_revision": "395cbc61a576744f26b0f2cad17a0a193a3001fd"
 }
