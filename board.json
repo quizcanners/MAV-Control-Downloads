@@ -4117,7 +4117,7 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-10T22:27Z",
-     "noted": "",
+     "noted": "2026-11-10T22:56Z",
      "progress": 100,
      "ticked": 5,
      "total": 5
@@ -4147,11 +4147,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_VPNS",
-     "at": "2026-11-10T10:22Z",
-     "text": "quiz, 2026-11-10, the note this work comes from, as he wrote it: \"You make a good point. I said that we can have multiple VPN servers or multiple servers without VPN. But this increased complexity by a lot. So lets change all that: one MavS"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-10T11:39Z",
      "text": "Investigation CC-57F3-01, P3 complexity: package wrapper scans heldAlready, then adoption owner searches the same at-most-16 entries again. S1 root-upgrade/Add writers traced; S2 move existing capacity check to the owner before Add, current"
@@ -4160,6 +4155,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-10T21:18Z",
      "text": "Step 1 done (ROG_OPUS, commit 'ServerSpecs, and the brigade asset hands out its built-in one'): Network/VPNs/ServerSpecs.cs (fields per the SPEC table, ToJson/TryFromJson with the 16 KB bound, IsNewerThan, ContentDigest); SO_BrigadeConfigur"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-10T22:56Z",
+     "text": "ROG_OPUS: steps 2-5 done and ticked (2: JoinedVpns + tunnel-address switch; 3: Station.Vpn.Current/AllBlindSpots once per frame, readers moved; 4: passport VpnSpecsVersion + Crypto_ServerSpecs behind PeerBuilds.ServerSpecs 823, take rule Ta"
     }
    ]
   },
@@ -6056,5 +6056,5 @@
    "notes": []
   }
  ],
- "source_revision": "364f4fe14a5bb81b5615f6788cb2990ec5b2ef23"
+ "source_revision": "6252bb6055fc39b4e5cb362eb4e2fc31f4fc9c81"
 }
