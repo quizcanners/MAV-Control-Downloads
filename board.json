@@ -260,11 +260,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-10T06:18Z",
-     "text": "CR-59CE-01 P2: S1 source investigation and S2 repair brief extend GETAC's recorded Windows Dev821 listener failure; preserve effective-SID pipe restriction and helper peer checks. Proposal awaits quiz before implementation; native warm/cold"
-    },
-    {
      "by": "CLOUD_GETAC_CHECK",
      "at": "2026-11-10T06:37Z",
      "text": "8ef77d2 (cloud, uncompiled): Windows link pipe no longer uses PipeOptions.CurrentUserOnly. Server.CreatePipe calls CreateNamedPipe with a protected DACL naming only the effective user SID (first instance only, local clients only) and wraps "
@@ -273,6 +268,11 @@
      "by": "GETAC",
      "at": "2026-11-10T08:03Z",
      "text": "FAIL Windows Dev 821 b0cd37abdc on Getac. Same-profile built helper returned NoListener, PID 0, while player PID 32652 had reached the map; no deep_link receipt. Native startup now logs NotSupportedException after the WindowsIdentity fix. G"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T08:11Z",
+     "text": "REVIEW-409 / CR-59CE-01: identity-path source repair at 8ef77d2c2 is insufficient: GETAC later records native NotSupportedException and NoListener on b0cd37abdc. Existing P2 stays open; S1 reconciliation/S2 conditional handle-mode investiga"
     }
    ]
   },
@@ -2820,19 +2820,19 @@
    ],
    "notes": [
     {
-     "by": "CLAUDE_REVIEW",
-     "at": "2026-11-10T07:30Z",
-     "text": "6b2c7bedc2: one Admin list (quiz, 2026-11-10: 'Yes, join them'). A named Admin's app reports its WireGuard public key (AdminOp.Tunnel, saved in admins.txt); the people table treats that key as an Admin through TunnelGrants.IsServerAdminKey_"
+     "by": "REVIEW",
+     "at": "2026-11-10T08:11Z",
+     "text": "CR-6B2C-01 P2: S1/S2 complete; a People permission edit writes effective Admin back as a stored legacy grant, so server-role removal can leave table Admin rights. Proposal awaits quiz before implementation; native/service checks unrun, exis"
     },
     {
-     "by": "GETAC",
-     "at": "2026-11-10T07:45Z",
-     "text": "GETAC b0cd37abdc source check: InUse uses RecordedVpnSubnet, which reads saved UdpReciever.MyGCSSubnet. Bootstrap fills it from BrigadeConfiguration only for a missing checkpoint; the production editor for an existing save is the VPN Users "
+     "by": "REVIEW",
+     "at": "2026-11-10T08:11Z",
+     "text": "REVIEW-409 / CR-CA4F-01 P2 extension: the new tunnel-key report also treats local UDP send as delivered; one lost report stays suppressed while connected. S1/S2 existing-presence refresh sketch awaits quiz; no reply-triggered resend loop or"
     },
     {
-     "by": "GETAC",
-     "at": "2026-11-10T08:03Z",
-     "text": "PARTIAL Windows Dev 821 b0cd37abdc. DevMode > Servers > VPN Server > Configuration > WireGuard reported WireGuard absent on Galera; Deploy WireGuard displayed Copy the command and instructed execution as root at the verified Galera address."
+     "by": "REVIEW",
+     "at": "2026-11-10T08:11Z",
+     "text": "REVIEW-409 / CR-C4C5-01: quiz's subnet-selection decision is recorded and source-implemented by 90a46c7ab. Native A-B-A/restart/Valhalla acceptance remains unrun; same-key address relocation stays a separate open request. [Reconciliation](."
     }
    ]
   },
@@ -3534,11 +3534,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLOUD_PATCH_PREP",
-     "at": "2026-11-10T07:13Z",
-     "text": "The commit on main is 531fa88 (478f8c5 was its hash before the rebase)."
-    },
-    {
      "by": "CLOUD_BOARD",
      "at": "2026-11-10T07:50Z",
      "text": "Main compiles: Mac cmp.sh at 08a9fbbc56 NEW ERRORS none (covers 531fa88); Windows Unity 6000.6.8f1 exit 0 at 74986545be. Compile step is done. Left: Editor runs PlanetDisplayMasksTests and PlanetMaskViewsTests; then the Strong/iPhone number"
@@ -3547,6 +3542,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-10T08:00Z",
      "text": "Mac de2c96ec68: cmp.sh NEW ERRORS: none (531fa88 compiles). iOS 822 with this change is on TestFlight. iPhone timings not taken: the phone is unreachable from the Mac (devicectl unavailable), so no Patch Preparation / Mask Demand / Record A"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T08:11Z",
+     "text": "REVIEW-409 / compose: inspected 531fa882f. New Ocean donor pairs can display paint without Ocean Water until their compose turn; existing pairs retain prior texels. Visible-delay versus same-current-coverage options retained for quiz; no me"
     }
    ]
   },
@@ -3594,6 +3594,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T07:52Z",
      "text": "Current UI_LeftListSwipeAway builds its backing and handle at runtime and has no _backingMaterial_Optional slot. Row-origin drags are currently owned by the inner ScrollRect. Finish at the panel/scroll owner: route only horizontal intent to"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T08:11Z",
+     "text": "CC-B0CD-01 P3 complexity: S1/S2 compare runtime construction/searches for fixed list backing/handle, notification badge and capsule pieces with existing prefab binding. One-time/small-cache constraints retained; no measured hitch or confirm"
     }
    ]
   },
@@ -3631,7 +3636,13 @@
    "done": "",
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T08:11Z",
+     "text": "CR-B6B0-01 P3: S1/S2 complete; a still-active notification binding can become New while retaining the previous notice's Seen flag. Reset-at-admission sketch awaits quiz; no Editor/device checks run by REVIEW, earlier batch-193 completion/cu"
+    }
+   ]
   },
   {
    "n": 198,
@@ -3652,7 +3663,7 @@
   {
    "n": 200,
    "name": "Note from LOCAL_MAC",
-   "done": "",
+   "done": "2026-11-10T08:19Z",
    "held": [],
    "steps": [],
    "notes": []
@@ -3674,5 +3685,5 @@
    "notes": []
   }
  ],
- "source_revision": "2933cd37f61aeb69e227215640a54f5598b154d4"
+ "source_revision": "bd989f641f08d7adfc6e3b8a768d8885d5bcb4b0"
 }
