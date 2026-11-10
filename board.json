@@ -301,11 +301,11 @@
    "steps": [
     {
      "t": "Full-screen message view with Reply",
-     "x": false
+     "x": true
     },
     {
      "t": "Preview shortening",
-     "x": false
+     "x": true
     },
     {
      "t": "Long-press deletion",
@@ -543,7 +543,7 @@
   {
    "n": 29,
    "name": "Phone check of idle 2 FPS (after",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -782,7 +782,7 @@
   {
    "n": 39,
    "name": "Note from cloud-camera-follow",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -865,7 +865,7 @@
   {
    "n": 42,
    "name": "Mask MavChat capsule label and f",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [
     {
@@ -886,49 +886,6 @@
      "by": "CODEX_UI_OWNER",
      "at": "2026-11-08T17:42Z",
      "text": "Implemented capsule-local shared blur cover for folded layout, caption and status changes; callback applies latest sheet state and yields to full-screen transitions. Pushed 1d8059b758; Unity compile and 114 focused EditMode tests pass. Port"
-    }
-   ]
-  },
-  {
-   "n": 43,
-   "name": "Lenovo Android 812 frame 95",
-   "done": "",
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-08T17:57Z",
-     "text": "Same verdict as task 44 (see its note): Geometry Manager and Payload Splitter Other work at ~4 s each in one frame, no lock in either, points to a process-level stall (GC or memory pressure), not loops. 1484b0634b adds main-thread CPU/major"
-    },
-    {
-     "by": "CLOUD_THREAD_FREEZE",
-     "at": "2026-11-08T18:00Z",
-     "text": "Cloud read (Payload Splitter ManagedUpdate, Geometry Manager, Sync drill): no loop, lock or I/O can spend ~4 s, and two unrelated scopes each losing ~4 s inside one 7.75 s frame points at the whole process stalling twice, not at work to spr"
-    }
-   ]
-  },
-  {
-   "n": 44,
-   "name": "Lenovo Android 812 frame 271",
-   "done": "",
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-09T11:36Z",
-     "text": "Roslyn NEW ERRORS: none, including Editor, Android, standalone and asmdef modes, against the Dev 817 source baseline. Fixed the .NET 8 drill-priority host harness to run the production pass predicate (d8b8d5acc7); it passes. Device verifica"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-09T11:54Z",
-     "text": "Windows Unity 6000.6.8f1 isolated EditMode: WebMercatorFinestTiles (includes DrillDecisions) 281/281, IndexPaging 73/73, MemoryLedger 5/5. Standalone test_map_drill_priority.py on .NET 8 passes after harness fix d8b8d5acc7. Current-build pa"
-    },
-    {
-     "by": "CODEX_UI_OWNER",
-     "at": "2026-11-09T13:56Z",
-     "text": "Mac Editor b47481540d: cmp.sh NEW ERRORS none; DrillDecisions 17/17, MemoryLedger 5/5, IndexPaging 71 passed and two Windows-only skipped. test_map_drill_priority.py passed (dotnet 8)."
     }
    ]
   },
@@ -954,7 +911,7 @@
   {
    "n": 46,
    "name": "Two EditMode reds still need the",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -978,7 +935,7 @@
   {
    "n": 47,
    "name": "Note from GETAC",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": []
@@ -986,7 +943,7 @@
   {
    "n": 48,
    "name": "Note from LOCAL_MAC",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": []
@@ -997,12 +954,28 @@
    "done": "",
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T11:36Z",
+     "text": "Roslyn NEW ERRORS: none, including Editor, Android, standalone and asmdef modes, against the Dev 817 source baseline. Fixed the .NET 8 drill-priority host harness to run the production pass predicate (d8b8d5acc7); it passes. Device verifica"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-09T11:54Z",
+     "text": "Windows Unity 6000.6.8f1 isolated EditMode: WebMercatorFinestTiles (includes DrillDecisions) 281/281, IndexPaging 73/73, MemoryLedger 5/5. Standalone test_map_drill_priority.py on .NET 8 passes after harness fix d8b8d5acc7. Current-build pa"
+    },
+    {
+     "by": "CODEX_UI_OWNER",
+     "at": "2026-11-09T13:56Z",
+     "text": "Mac Editor b47481540d: cmp.sh NEW ERRORS none; DrillDecisions 17/17, MemoryLedger 5/5, IndexPaging 71 passed and two Windows-only skipped. test_map_drill_priority.py passed (dotnet 8)."
+    }
+   ]
   },
   {
    "n": 50,
    "name": "Note from LOCAL_MAC",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": []
@@ -1065,46 +1038,6 @@
    "notes": []
   },
   {
-   "n": 53,
-   "name": "Idle map work grew on Lenovo",
-   "done": "",
-   "held": [],
-   "steps": [
-    {
-     "t": "Read the Map Editing Before Camera scope in the Performance menu on Lenovo, buil",
-     "x": false
-    },
-    {
-     "t": "Find what it does per idle frame with nothing edited",
-     "x": false
-    },
-    {
-     "t": "Skip it while no edit is open, behind the existing idle policy",
-     "x": false
-    },
-    {
-     "t": "Install on Lenovo, repeat the 2 min idle read",
-     "x": false
-    },
-    {
-     "t": "Add the new row to Phone_Timings.md and compare with 64.17 ms",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_PERF_AUDIT",
-     "at": "2026-11-08T20:50Z",
-     "text": "Cloud audit (2026-11-08): the per-frame jump is the idle cadence (see note on task 54): the MapBake pool grows to 50 ms a frame at 2 FPS, and Lenovo is 90 ms/s (810) against 127 ms/s (812), Strong 61 against 26. Code read: Orthophoto.Manage"
-    },
-    {
-     "by": "performance-review",
-     "at": "2026-11-09T00:52Z",
-     "text": "Build 814 rows (07bcf48b71) have no matched idle owner snapshot, so VPN Chat and Map Editing Before Camera are unchecked there. Next idle read must capture the top 5 idle owners, and Phone_Timings.md Owners gets them."
-    }
-   ]
-  },
-  {
    "n": 54,
    "name": "Idle chat/network work grew",
    "done": "",
@@ -1129,23 +1062,43 @@
     {
      "t": "Compare with 13.24 ms Strong and 50.66 ms Lenovo in Phone_Timings.md",
      "x": false
+    },
+    {
+     "t": "Read the Map Editing Before Camera scope in the Performance menu on Lenovo, buil",
+     "x": false
+    },
+    {
+     "t": "Find what it does per idle frame with nothing edited",
+     "x": false
+    },
+    {
+     "t": "Skip it while no edit is open, behind the existing idle policy",
+     "x": false
+    },
+    {
+     "t": "Install on Lenovo, repeat the 2 min idle read",
+     "x": false
+    },
+    {
+     "t": "Add the new row to Phone_Timings.md and compare with 64.17 ms",
+     "x": false
     }
    ],
    "notes": [
     {
-     "by": "CLOUD_VPN_CPU",
-     "at": "2026-11-09T08:02Z",
-     "text": "Cloud pass landed on main 32a11503; leads and ms estimates in Research/VPN_Messaging_CPU_2026-11-09.md. Heartbeat 41 ms each under map sync is the biggest lead; it is task 99 step 1."
-    },
-    {
-     "by": "CLAUDE_REVIEW",
-     "at": "2026-11-09T20:46Z",
-     "text": "Source review: the one visible idle poll is Network_Manager.cs:490, TrySendPerSessionCryptoHandshakes at 4 Hz over Peers.AllByIp (ShouldBeRetransmittedTo, GetPeerPublicKey, 32-byte compare per peer) even when every link is established; the "
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-10T06:50Z",
      "text": "Strong Dev 821 startup frame 65, 593.952 ms wall, VPN Chat 347.951 ms, Processing Messages 300.995 ms, Confirmation 170.170 ms across two calls; one GC collection. Startup only, so do not compare to the idle mean. Isolate the confirmation c"
+    },
+    {
+     "by": "CLOUD_PERF_AUDIT",
+     "at": "2026-11-08T20:50Z",
+     "text": "Cloud audit (2026-11-08): the per-frame jump is the idle cadence (see note on task 54): the MapBake pool grows to 50 ms a frame at 2 FPS, and Lenovo is 90 ms/s (810) against 127 ms/s (812), Strong 61 against 26. Code read: Orthophoto.Manage"
+    },
+    {
+     "by": "performance-review",
+     "at": "2026-11-09T00:52Z",
+     "text": "Build 814 rows (07bcf48b71) have no matched idle owner snapshot, so VPN Chat and Map Editing Before Camera are unchecked there. Next idle read must capture the top 5 idle owners, and Phone_Timings.md Owners gets them."
     }
    ]
   },
@@ -1174,6 +1127,30 @@
     {
      "t": "Repeat the 2 min read and add the RAM change to Phone_Timings.md Owners",
      "x": false
+    },
+    {
+     "t": "Install 812 (7990df8019) and 814 (07bcf48b71) on Strong and read PSS at the same",
+     "x": false
+    },
+    {
+     "t": "Repeat on Lenovo, off the first cold launch after upgrade",
+     "x": false
+    },
+    {
+     "t": "List commits between 812 and 814 touching textures, caches, buffers or modules l",
+     "x": false
+    },
+    {
+     "t": "Install the half-way build, read PSS, narrow to one commit",
+     "x": false
+    },
+    {
+     "t": "Name the owner holding the extra MiB and fix or free it when Activity is Idle",
+     "x": false
+    },
+    {
+     "t": "Add the new rows to Phone_Timings.md",
+     "x": false
     }
    ],
    "notes": [
@@ -1186,6 +1163,11 @@
      "by": "CLOUD_PERF_AUDIT",
      "at": "2026-11-08T20:50Z",
      "text": "Cloud audit (2026-11-08): read of existing numbers, no new capture. Strong 811 samples (RAM.md) show file RSS flat near 600 MB and anonymous RSS 845 to 862 MB, so the idle growth is anonymous, not mapped tile pages; the SQLite shard stores "
+    },
+    {
+     "by": "CLAUDE_REVIEW",
+     "at": "2026-11-09T20:48Z",
+     "text": "Source review (plausible for the level, not the idle growth): WebMercator_SqliteTileStore.cs:413-421 sets mmap_size=256 MiB on each of 8 readers, main plus up to 4 attached segments, on Android; touched file-backed pages count in PSS. The n"
     }
    ]
   },
@@ -1244,7 +1226,7 @@
   {
    "n": 61,
    "name": "Note from GETAC",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": []
@@ -1308,7 +1290,7 @@
   {
    "n": 65,
    "name": "Slow MavChat divider settling ba",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [
     {
@@ -1365,7 +1347,7 @@
   {
    "n": 69,
    "name": "Hide vertical tab backdrop when ",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [
     {
@@ -1403,20 +1385,6 @@
    "notes": []
   },
   {
-   "n": 71,
-   "name": "Investigate Lenovo VPN heartbeat",
-   "done": "",
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_VPN_CPU",
-     "at": "2026-11-09T08:02Z",
-     "text": "Read every call of OnMAV_Control_Heartbeat (cloud, 2026-11-09): each is a few field copies, so the 41 ms is not in code that reading finds. Capture the sub-stage per task 99 step 1."
-    }
-   ]
-  },
-  {
    "n": 72,
    "name": "AI Sandbox Run command cannot ex",
    "done": "",
@@ -1427,49 +1395,10 @@
   {
    "n": 73,
    "name": "Note from GETAC",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": []
-  },
-  {
-   "n": 74,
-   "name": "RAM level rose on both phones fr",
-   "done": "",
-   "held": [],
-   "steps": [
-    {
-     "t": "Install 812 (7990df8019) and 814 (07bcf48b71) on Strong and read PSS at the same",
-     "x": false
-    },
-    {
-     "t": "Repeat on Lenovo, off the first cold launch after upgrade",
-     "x": false
-    },
-    {
-     "t": "List commits between 812 and 814 touching textures, caches, buffers or modules l",
-     "x": false
-    },
-    {
-     "t": "Install the half-way build, read PSS, narrow to one commit",
-     "x": false
-    },
-    {
-     "t": "Name the owner holding the extra MiB and fix or free it when Activity is Idle",
-     "x": false
-    },
-    {
-     "t": "Add the new rows to Phone_Timings.md",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLAUDE_REVIEW",
-     "at": "2026-11-09T20:48Z",
-     "text": "Source review (plausible for the level, not the idle growth): WebMercator_SqliteTileStore.cs:413-421 sets mmap_size=256 MiB on each of 8 readers, main plus up to 4 attached segments, on Android; touched file-backed pages count in PSS. The n"
-    }
-   ]
   },
   {
    "n": 75,
@@ -1490,7 +1419,7 @@
   {
    "n": 77,
    "name": "Note from CODEX_UI_OWNER",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": []
@@ -1498,7 +1427,7 @@
   {
    "n": 78,
    "name": "Note from codex-map-advanced",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": []
@@ -1514,7 +1443,7 @@
   {
    "n": 80,
    "name": "Note from LOCAL_MAC",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": []
@@ -1522,7 +1451,7 @@
   {
    "n": 81,
    "name": "Diagnostics timing tree is hardc",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [
     {
@@ -1567,7 +1496,7 @@
   {
    "n": 82,
    "name": "Planet Renderer",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [
     {
@@ -1612,7 +1541,7 @@
   {
    "n": 83,
    "name": "Note from LOCAL_MAC",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": []
@@ -1620,7 +1549,7 @@
   {
    "n": 84,
    "name": "Phone check of the Coding scene ",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -1754,7 +1683,7 @@
   {
    "n": 89,
    "name": "Run bash Tools/RoslynCompileDiff",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -1773,7 +1702,7 @@
   {
    "n": 90,
    "name": "Note from cloud-idle-broadcast",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -1787,7 +1716,7 @@
   {
    "n": 91,
    "name": "Planet Renderer Low quality",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -1811,7 +1740,7 @@
   {
    "n": 92,
    "name": "Compass Dev-mode FPS (UI_Compass",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -1921,7 +1850,7 @@
   {
    "n": 95,
    "name": "Drag haptic",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -1945,7 +1874,7 @@
   {
    "n": 96,
    "name": "Planet water cloud texture (code",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -1977,7 +1906,7 @@
   {
    "n": 98,
    "name": "Skybox cubemaps cost 42 MB in th",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -2017,11 +1946,6 @@
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T12:19Z",
-     "text": "iOS 818 (4dce0b3f8d) is on TestFlight (internal; external WAITING_FOR_BETA_REVIEW). Built with --skip-tests: the only red in the full All are the 9 water shader tests on task 96. The iPhone check of this task is still open: no phone is reac"
-    },
-    {
      "by": "CLAUDE_REVIEW",
      "at": "2026-11-09T20:46Z",
      "text": "Source review (plausible, depends on peer state): Peers_Peer_MessageProcessing.cs:300-325 stores the wire HeartbeatFlags, then the local SharesGPS / AllowsVideoRestream overrides flip a bit back through the indexer (Version++ and ProfileCha"
@@ -2030,6 +1954,11 @@
      "by": "CLAUDE_REVIEW",
      "at": "2026-11-09T21:16Z",
      "text": "78a6bc26a8: heartbeat overrides (SharesGPS, AllowsVideoRestream) write the flag word directly and the profile is marked changed only when the resolved flags differ from before the heartbeat, so a peer whose wire bit disagrees with the accep"
+    },
+    {
+     "by": "CLOUD_VPN_CPU",
+     "at": "2026-11-09T08:02Z",
+     "text": "Read every call of OnMAV_Control_Heartbeat (cloud, 2026-11-09): each is a few field copies, so the 41 ms is not in code that reading finds. Capture the sub-stage per task 99 step 1."
     }
    ]
   },
@@ -2072,7 +2001,7 @@
   {
    "n": 103,
    "name": "Note from LOCAL_MAC",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": []
@@ -2080,7 +2009,7 @@
   {
    "n": 104,
    "name": "Web Mercator black squares",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -2104,7 +2033,7 @@
   {
    "n": 105,
    "name": "Planet raised overlay tile order",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [
     {
@@ -2189,7 +2118,7 @@
   {
    "n": 108,
    "name": "Note from LOCAL_MAC",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": []
@@ -2245,7 +2174,7 @@
   {
    "n": 111,
    "name": "WiFi signal map point receiver (",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -2278,7 +2207,7 @@
   {
    "n": 113,
    "name": "Two-finger zoom jerky on iPhone ",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [
     {
@@ -2363,7 +2292,7 @@
   {
    "n": 118,
    "name": "Hunt premature frame budgeting",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -2448,7 +2377,7 @@
   {
    "n": 123,
    "name": "Note from CLOUD_TIMELINE_DEFAULT",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": []
@@ -2456,7 +2385,7 @@
   {
    "n": 124,
    "name": "On a device without GPS fix",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -2475,7 +2404,7 @@
   {
    "n": 125,
    "name": "Note from cloud-mavchat-blur",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -2494,7 +2423,7 @@
   {
    "n": 126,
    "name": "Device check",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -2518,7 +2447,7 @@
   {
    "n": 127,
    "name": "Notification tongue icons and pr",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -2550,7 +2479,7 @@
   {
    "n": 129,
    "name": "Phone swipe feel",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -2574,7 +2503,7 @@
   {
    "n": 130,
    "name": "Note from mavchat-grabber",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -2612,7 +2541,7 @@
   {
    "n": 132,
    "name": "Notification square prefab (quiz",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -2626,7 +2555,7 @@
   {
    "n": 133,
    "name": "Note from cloud-chat-gap",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": []
@@ -2634,7 +2563,7 @@
   {
    "n": 134,
    "name": "Note from CLOUD_MAVCHAT_TAP",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": []
@@ -2661,7 +2590,7 @@
   {
    "n": 136,
    "name": "MavChat bubble tint on device",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": []
@@ -2669,7 +2598,7 @@
   {
    "n": 137,
    "name": "Device check",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": []
@@ -2677,7 +2606,7 @@
   {
    "n": 138,
    "name": "Device check",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -2696,7 +2625,7 @@
   {
    "n": 139,
    "name": "Water cloud reflection (PlanetSu",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -2710,7 +2639,7 @@
   {
    "n": 140,
    "name": "Device check (quiz",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -2804,7 +2733,7 @@
   {
    "n": 146,
    "name": "Swipe-up close on notification c",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -2937,7 +2866,7 @@
   {
    "n": 151,
    "name": "Device check (iPhone/Android/Edi",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -3042,7 +2971,7 @@
   {
    "n": 156,
    "name": "Device",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": []
@@ -3172,7 +3101,7 @@
   {
    "n": 164,
    "name": "Device check (MavChat)",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": []
@@ -3180,7 +3109,7 @@
   {
    "n": 165,
    "name": "Device follow-up for 161",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": []
@@ -3244,7 +3173,7 @@
   {
    "n": 168,
    "name": "Phone follow-up for 153",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": []
@@ -3252,7 +3181,7 @@
   {
    "n": 169,
    "name": "Device follow-up for 157 and 158",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": []
@@ -3321,7 +3250,7 @@
   {
    "n": 173,
    "name": "Phone check",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -3354,7 +3283,7 @@
   {
    "n": 175,
    "name": "Phone check MavChat fold",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -3419,7 +3348,7 @@
   {
    "n": 178,
    "name": "Android device check for 167/170",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": []
@@ -3427,7 +3356,7 @@
   {
    "n": 179,
    "name": "Menu button picture and bluish X",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -3451,7 +3380,7 @@
   {
    "n": 180,
    "name": "Phone check",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -3465,7 +3394,7 @@
   {
    "n": 181,
    "name": "Phone check (Android + iPhone) o",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -3653,13 +3582,18 @@
      "by": "CLOUD_PATCH_PREP",
      "at": "2026-11-10T07:13Z",
      "text": "The commit on main is 531fa88 (478f8c5 was its hash before the rebase)."
+    },
+    {
+     "by": "CLOUD_BOARD",
+     "at": "2026-11-10T07:50Z",
+     "text": "Main compiles: Mac cmp.sh at 08a9fbbc56 NEW ERRORS none (covers 531fa88); Windows Unity 6000.6.8f1 exit 0 at 74986545be. Compile step is done. Left: Editor runs PlanetDisplayMasksTests and PlanetMaskViewsTests; then the Strong/iPhone number"
     }
    ]
   },
   {
    "n": 192,
    "name": "Note from HEAVY",
-   "done": "",
+   "done": "2026-11-10T07:50Z",
    "held": [],
    "steps": [],
    "notes": [
@@ -3729,15 +3663,21 @@
     {
      "who": "mac-quiet-palette",
      "since": "2026-11-10T07:46Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T07:50Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "mac-quiet-palette",
+     "at": "2026-11-10T07:50Z",
+     "text": "693f2d0abd ships the muted non-interacting palette."
+    }
+   ]
   }
  ],
- "source_revision": "432353634c14122f87d58440b1bce6a23c2a3b60"
+ "source_revision": "2db641a92b4ebcfc26d1287c5c11066302f63f6d"
 }
