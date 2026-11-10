@@ -5150,15 +5150,21 @@
     {
      "who": "MAC_STYLE",
      "since": "2026-11-10T15:45Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T15:48Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_STYLE",
+     "at": "2026-11-10T15:48Z",
+     "text": "39e19279d0 implements the selector correction. Direct cause: SetSelected retained authored icon RGB and forced idle alpha .5, which also biased Content Mip Fade. Deeper reason: selection and motion presentation shared alpha; now selection o"
+    }
+   ]
   }
  ],
- "source_revision": "642ba4e26e7db138910eff0bb13a3a54f9f08eef"
+ "source_revision": "6e9a8cf9a569426c0cb102217a327c8bca05f2e2"
 }
