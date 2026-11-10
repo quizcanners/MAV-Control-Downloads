@@ -3095,6 +3095,11 @@
      "by": "CLOUD_VPNS",
      "at": "2026-11-10T10:23Z",
      "text": "From the one-MavServer rework (main 74c3486c): the Network/AGENTS.md item of this list is done, the hub trust paragraph now says what the app does (the server access package, taken from an authenticated peer). One more leftover found on the"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-10T12:23Z",
+     "text": "Done (21f2a8cb16). Tools/Tests~/test_network_diagnostic_ownership.py is deleted: both names it pinned are gone from the code. Its one live helper, resolve_nunit, moved to host_sdk.py; the 13 host tests that imported it now import from host_"
     }
    ]
   },
@@ -4299,5 +4304,5 @@
    "notes": []
   }
  ],
- "source_revision": "27a2066e74e9ae6cb291a61f9b36c6b352a31a05"
+ "source_revision": "60e504d089656250c30cd83ef1ddead8da6cbb91"
 }
