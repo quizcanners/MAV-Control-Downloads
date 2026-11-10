@@ -3880,6 +3880,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T10:09Z",
      "text": "No server changes this pass. Resume with the browser-origin read against the sealed GitHub release asset and its redirect, then record the CORS result in Routing server SPEC before deciding Caddy and ports."
+    },
+    {
+     "by": "CLOUD_VPNS",
+     "at": "2026-11-10T10:23Z",
+     "text": "From the one-MavServer rework (tasks 213 to 215): no program reads Main or Backup any more. What is left of the words is the NixOS switch that turns Caddy and Ports 80 and 443 on: `main ? false` and the host names mav-main and mav-backup in"
     }
    ]
   },
@@ -4098,5 +4103,5 @@
    ]
   }
  ],
- "source_revision": "27b948337d82d041a0159fdf46072982813544e7"
+ "source_revision": "baed6bce47d97d87a0b7359e2583bfb3259f6fff"
 }
