@@ -4155,15 +4155,21 @@
     {
      "who": "codex-ui-style",
      "since": "2026-11-10T10:58Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T11:10Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "codex-ui-style",
+     "at": "2026-11-10T11:10Z",
+     "text": "Direct cause: sample interaction overlays were opaque white. Verified UI Configurations normal glass overlay is black alpha 1. Deeper reason: generic Unity Button samples bypassed the existing UI_CustomButton/ClickBlockerBase event and pale"
+    }
+   ]
   }
  ],
- "source_revision": "24c1b938ab1b1628d4588bc2feaf09a4dd1683da"
+ "source_revision": "ba64df9e571e134abb09a14600373a0fab15d87c"
 }
