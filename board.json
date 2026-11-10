@@ -728,11 +728,6 @@
    "notes": [
     {
      "by": "ROG_FABLE",
-     "at": "2026-11-10T10:04Z",
-     "text": "ROG_FABLE 2026-11-10, not read: Rog has no station that can ask the server without the Editor. server.diagnostics.read runs only through a local bridge (Editor in Play, a development player, or Android over ADB); the installed Windows playe"
-    },
-    {
-     "by": "ROG_FABLE",
      "at": "2026-11-10T10:23Z",
      "text": "ROG_FABLE 2026-11-10 (quiz: 'Editor in Play'): still no owner named, for a new reason. With the Rog Editor in Play as the station: (1) the route to the MavServer never connected, 247 presences in 30 s and 0 answers; cause and fix in b9c5113"
     },
@@ -740,6 +735,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-10T10:44Z",
      "text": "57f3b686a7 closes the gap named above (board 216): once the deployer's device and the Strong run a build with it, the Strong's LongFrame records reach the server and any device can read them. Until then read them on the deployer's device. N"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-10T11:47Z",
+     "text": "ROG_FABLE 2026-11-10, Strong over the VPN: server.diagnostics on the Strong says supported=False pending=60 retained=60 local_checkpoint_issue=AwaitingIdentity, and vpn.routing says Connecting with 125,862 presences sent and 1 answered. The"
     }
    ]
   },
@@ -4267,5 +4267,5 @@
    "notes": []
   }
  ],
- "source_revision": "286e41d04c2608115407fda15ee07da7b00e08e9"
+ "source_revision": "dc440bc2bcb5aad6507e98cc5203784474c41769"
 }
