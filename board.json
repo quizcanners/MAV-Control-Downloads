@@ -3912,8 +3912,8 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-10T20:18Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T20:35Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -3929,6 +3929,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T10:09Z",
      "text": "No packaging changes this pass. Resume at Tools/BackgroundChat/Program.cs with --link and file handoff, then installer scheme ownership and removal of MavControlLink.exe and the pipe code. Windows installer and browser activation remain ope"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-10T20:35Z",
+     "text": "Done in a9f8529d02: the background exe takes clicked links (--player <exe> --link <uri>, writes link.<id>.txt, starts the app when instance.lock is free) and registers the scheme (--register/--unregister-loaded-users, LinkRegistration moved"
     }
    ]
   },
@@ -5701,5 +5706,5 @@
    "notes": []
   }
  ],
- "source_revision": "df37040afed9b069edc625298d88a51824116b79"
+ "source_revision": "9ec8044405af9a2753891b5a42af679cbfa0e322"
 }
