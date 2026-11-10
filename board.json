@@ -4021,7 +4021,7 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-10T16:09Z",
-     "noted": "",
+     "noted": "2026-11-10T16:36Z",
      "progress": 100,
      "ticked": 5,
      "total": 5
@@ -4059,6 +4059,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-10T16:00Z",
      "text": "Step 4 DONE in c5871b010b (not ticked: --tick only ticks the next box, which is step 3): drag Clear saves meta.Listing.Cleared; RestoreKnownPeers skips cleared peers; GetOrCreatePeer's cold-start 'active <5 min' heartbeat skips them; the pe"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-10T16:36Z",
+     "text": "Steps 3 and 5 done, 4 ticked (c5871b010b by ROG_FABLE). 58c9808941: Orthophoto square delete saves a tile_deletions_owed row before the first tile goes (store's own lane, delete waits for it), removes it when the square is gone, LegacyImpor"
     }
    ]
   },
@@ -5343,5 +5348,5 @@
    "notes": []
   }
  ],
- "source_revision": "9ec141f5e064d27bec08413fcb9abb95d17064e7"
+ "source_revision": "a65db6f40f7dd821431ee13cb005ad0274af1767"
 }
