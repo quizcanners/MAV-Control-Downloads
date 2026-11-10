@@ -3384,11 +3384,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-10T07:52Z",
-     "text": "Windows SymbolicIconTests 2/2. Landscape Ukrainian Play Menu shows the workflow grid in the bottom rail. Existing wiring closure stands. English/portrait and phone checks remain verification."
-    },
-    {
      "by": "cloud",
      "at": "2026-11-10T08:28Z",
      "text": "Changed 2026-11-10 (quiz: 'Current overlapping the grid'): two icons again. Code restored (UI_ShowWorkflows._libraryIcon, grid up-left, workflow icon down-right on top); prefab already has I: App Library Icon bound, so no prefab edit. Edito"
@@ -3397,6 +3392,11 @@
      "by": "REVIEW",
      "at": "2026-11-10T09:58Z",
      "text": "REVIEW-410 / CR-1EAA-01 retired as superseded: revised quiz request and 0d0f08b3c intentionally use grid plus workflow icons. Keep both requested graphics and existing task status. [Reconciliation](../Reviews/24ef724c3.md#reconciliation-of-"
+    },
+    {
+     "by": "cloud",
+     "at": "2026-11-10T18:50Z",
+     "text": "Changed 2026-11-10 (quiz: 'Grid and current'): two icons again. Prefab wiring is needed again. Editor: in BUTTONS Bottom.prefab under B_Workflows, duplicate 'I: Workflow Icon' as sibling 'I: App Library Icon' (same material), assign to UI_S"
     }
    ]
   },
@@ -5635,5 +5635,5 @@
    ]
   }
  ],
- "source_revision": "e50a599e89770e22fa149187962e89f4b83ae76c"
+ "source_revision": "fa1789d0d775bfcd50b00289c10ce2eb9426768e"
 }
