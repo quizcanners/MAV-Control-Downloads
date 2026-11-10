@@ -4271,6 +4271,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-10T13:25Z",
      "text": "fefef7f05c: an emptied chunk keeps no row; deletions are a list of 512 with horizon in one row (key -1) of chunks.sqlite; old empty rows converted once; horizon is a local refusal, no TooOldNotice. Known limit: more than 512 chunks emptied "
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T14:18Z",
+     "text": "Investigation CR-FEFE-01, P2: a mask repaint removes its deletion from the runtime list before its paint row commits; any save can publish that whole list, so a stop/failure before the repaint is saved loses the durable deletion and admits "
     }
    ]
   },
@@ -4299,6 +4304,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-10T13:26Z",
      "text": "fefef7f05c: one row per item in logistics.sqlite, weeks and tallies hold events only, pictures owned by their item rows; old weeks converted once; manifest gains an 'items' entry (protocol stays 10: an older build shows Invalid against this"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T14:18Z",
+     "text": "Investigation CC-FEFE-01, P3 complexity: SaveCache scans every Items value against _savedItems to rediscover replacements; AcceptItems and Capture already identify them. S1 writers and completion/retry/load constraints traced; count control"
     }
    ]
   },
@@ -4825,7 +4835,15 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 262,
+   "name": "Drawing fade (120 s) and thicker",
+   "done": "",
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
- "source_revision": "7525a6ab9f41ecc68dd543bb5d8f0efbfb5d8f85"
+ "source_revision": "f737e72f169a057a1096a6370b394382773a2baf"
 }
