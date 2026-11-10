@@ -5371,7 +5371,16 @@
    "n": 286,
    "name": "Overlays scene (quiz",
    "done": "",
-   "held": [],
+   "held": [
+    {
+     "who": "LOCAL_MAC",
+     "since": "2026-11-10T17:24Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -5547,7 +5556,13 @@
    "done": "",
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_LOAD_TIME",
+     "at": "2026-11-10T17:24Z",
+     "text": "quiz, 2026-11-10: \"Volume 0 == sound off. Also of system is muted. Just delete them silently.\" Sound is off at notification volume 0 or system (media stream) muted; then Sounds.unity is never requested, and sounds asked for while off or bef"
+    }
+   ]
   },
   {
    "n": 301,
@@ -5564,5 +5579,5 @@
    ]
   }
  ],
- "source_revision": "a76704bf2adc16b044d0ffb834008f5f2267461c"
+ "source_revision": "92c056357e91413c6042cc31a31a0f38f6610ed9"
 }
