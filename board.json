@@ -4239,6 +4239,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-10T10:42Z",
      "text": "57f3b686a7: done in code. The package and Crypto_ServerAccess carry the server's root signing public key (the deployer sends its own; holders pass it on; a held package without it takes it from a later offer and is offered again; a held roo"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-10T22:26Z",
+     "text": "ROG_OPUS after 260 step 4: settled, nothing to fix. The root key half was done in 57f3b686a7 (the package carries the server's root signing key, DirectRoute scopes diagnostics with it). The other half was that a package holder was never a m"
     }
    ]
   },
@@ -6029,5 +6034,5 @@
    "notes": []
   }
  ],
- "source_revision": "325558c4b000f89a129c99413614ce7d16601e0d"
+ "source_revision": "cb0f71d438f8fb9cd6830b19d28773a367f0051a"
 }
