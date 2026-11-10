@@ -2700,45 +2700,37 @@
    "n": 143,
    "name": "Menu map source",
    "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T08:38Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "LOCAL_MAC",
      "at": "2026-11-09T16:24Z",
      "text": "9cb17c69ea: the author sized rows by index but the prefab stores title, modes, modes, brightness, so a mode row got 72; it now moves the brightness row second first. Running it (Mac batch, works with the evidence plan kept in Temp/Scratch d"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T08:53Z",
+     "text": "Ran native AuthorLightingChoices with a reviewed evidence manifest. ExclusiveLightingSettingsTests measured 160-unit mode hit targets against its existing 176-unit minimum. Restored the preserved 144-only prefab; 143 remains open. Reconcile"
     }
    ]
   },
   {
    "n": 144,
    "name": "Menu / Map source",
-   "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T08:38Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "done": "2026-11-10T08:53Z",
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "cloud-menu-spec",
      "at": "2026-11-09T15:50Z",
      "text": "Spec written: Menu/SPEC.md 'Map source tab: four cards' item 2 is the target; the toggles are on the board as this task. Guide: root AGENTS.md 'A visual change goes to the spec first'."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T08:53Z",
+     "text": "874df5b01d uses native PrefabEdit to place the dark rounded backing first in Map camera controls. It stretches across the card and keeps both toggles above it. Main/MapSource is bumped for the wider visual audit."
     }
    ]
   },
@@ -3154,23 +3146,9 @@
    "n": 167,
    "name": "UI prefab pass",
    "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T08:38Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-09T19:52Z",
-     "text": "cc080686ff adds left-only darkening to the two directly assigned LiquidGlassCapsule materials in Mav Chat Sheet. Map Center MGRS has Image/Button/Shadow/CanvasGroup, with no owning MergedButton_Composit field to tick. Windows Play portrait "
-    },
     {
      "by": "CLOUD_MAVCHAT_UI",
      "at": "2026-11-10T07:28Z",
@@ -3180,6 +3158,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T07:52Z",
      "text": "Windows portrait Play still shows black at the MGRS physical left edge. SelectedControlEdgeFadeTests 10/10. The full Prefab_Edge_Pass_Prompt inventory, neighbor separators and removal of transitional attach-flag darkening remain open. Do no"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T08:53Z",
+     "text": "The earlier physical MGRS seam fix remains in main. This batch did not complete the whole prefab inventory or neighbor separator pass. Keep AttachedEdges fallback until each physical edge is classified in both orientations."
     }
    ]
   },
@@ -3426,11 +3409,6 @@
    "notes": [
     {
      "by": "LOCAL_MAC",
-     "at": "2026-11-09T23:03Z",
-     "text": "iOS 821 (990529ba21) uploaded to TestFlight 2026-11-10 01:01 (internal; processing). Contains this task's code. iPhone check not run: the iPhone 16 Pro Max is not reachable from the Mac (devicectl: unavailable) and the check needs hands on "
-    },
-    {
-     "by": "LOCAL_MAC",
      "at": "2026-11-10T07:57Z",
      "text": "iOS 822 (de2c96ec68) is on TestFlight 2026-11-10 09:57 (internal available; external WAITING_FOR_BETA_REVIEW); contains this task's code. iPhone part not run, nothing seen: the iPhone 16 Pro Max is still 'unavailable' to the Mac in devicect"
     },
@@ -3438,6 +3416,11 @@
      "by": "CLAUDE_REVIEW",
      "at": "2026-11-10T08:22Z",
      "text": "ebaa35de3b: the switch allocates nothing now, on every graphics API. Measured in the Windows Editor (D3D11, 1166x654, 20 switches, render.halfres probe): before 63 camera textures created (three per switch: colour attachment, depth attachme"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T08:53Z",
+     "text": "Incoming Roslyn comparison exposed the editor probe calling KeepBothSizes while its declaration had only platform guards. 918d6230b0 adds UNITY_EDITOR to the declaration guard. Matching Unity and URP references returned NEW ERRORS: none. De"
     }
    ]
   },
@@ -3453,22 +3436,18 @@
    "n": 183,
    "name": "Editor (Windows)",
    "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T08:39Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
      "at": "2026-11-10T07:52Z",
      "text": "e5a29c547b records 19 native D3D11 variant counts, including all requested light/quality variants. Disposable tests: ElementLighting 12/25, PlanetSurface 33/52, DrawPatchReuse 26/27, ShaderPassCompilation 20/22. Skybox parity exceeded 0.000"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T08:53Z",
+     "text": "Current Windows ShaderPassCompilationTests 20/22. Both SkyboxVertexDirectionsMatchOriginalPixelsForClearedSkyAndSun cases still fail pixel parity. The previous 19 FXC counts remain in BASELINE.md. Day/Night prewarm recording and player stri"
     }
    ]
   },
@@ -3589,22 +3568,18 @@
    "n": 190,
    "name": "Look at water on the map (Cesium",
    "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T08:39Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
      "at": "2026-11-10T07:52Z",
      "text": "Native SpaceWaterAndLandShowNoSunOrMoonSpecular passed on D3D11. Play screenshots include Planet from space; close Planet samples did not show a populated water mask and the Cesium near-water pose lacked a ground sample at the requested coo"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T08:53Z",
+     "text": "Windows D3D11 SpaceWaterAndLandShowNoSunOrMoonSpecular passed again. The near and space live visual comparison with known water coverage in both renderers remains open."
     }
    ]
   },
@@ -3612,23 +3587,9 @@
    "n": 191,
    "name": "Patch Preparation after the comp",
    "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T08:38Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T08:00Z",
-     "text": "Mac de2c96ec68: cmp.sh NEW ERRORS: none (531fa88 compiles). iOS 822 with this change is on TestFlight. iPhone timings not taken: the phone is unreachable from the Mac (devicectl unavailable), so no Patch Preparation / Mask Demand / Record A"
-    },
     {
      "by": "REVIEW",
      "at": "2026-11-10T08:11Z",
@@ -3638,6 +3599,11 @@
      "by": "CLAUDE_REVIEW",
      "at": "2026-11-10T08:23Z",
      "text": "ebaa35de3b: Windows Editor (Mono, D3D11), Offline map near 51.04N 27.35E, Elements on, performance.top 100-frame averages, 59 patches drawn / 121 visited, mask_answers_reused=58 queried=0: at rest Patch Preparation 0.26 ms = Mask Demand 0.0"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T08:53Z",
+     "text": "Windows Unity tests on the pulled task 86 revision: PlanetDisplayMasksTests 2/2, PlanetMaskViewsTests 67/67 and PlanetMaskStoreTests 23/23. Roslyn NEW ERRORS: none. The Strong/iPhone coastal timing and 100-frame observations remain open. No"
     }
    ]
   },
@@ -3657,6 +3623,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T07:52Z",
      "text": "Windows finalise: 766db902b0 and e5a29c547b landed with selector, zoom and D3D11 evidence."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T08:53Z",
+     "text": "Windows finalise: 176, 194 and 195 landed and closed; 874df5b01d carries orientation assets and Map Camera backing."
     }
    ]
   },
@@ -3734,59 +3705,49 @@
   {
    "n": 197,
    "name": "Notifications",
-   "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T08:37Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "done": "2026-11-10T08:53Z",
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "REVIEW",
      "at": "2026-11-10T08:11Z",
      "text": "CR-B6B0-01 P3: S1/S2 complete; a still-active notification binding can become New while retaining the previous notice's Seen flag. Reset-at-admission sketch awaits quiz; no Editor/device checks run by REVIEW, earlier batch-193 completion/cu"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T08:53Z",
+     "text": "Verified Notification Controllers still references the renamed Portrait square by GUID. Windows notification fixtures now drive explicit portrait and landscape orientation. The focused native notification suite passed 17/17. Portrait and la"
     }
    ]
   },
   {
    "n": 198,
    "name": "Editor",
-   "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T08:38Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "done": "2026-11-10T08:53Z",
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T08:53Z",
+     "text": "874df5b01d moved seven portrait/landscape prefabs and their .meta files as exact Git renames, and updated path references. Native Chat Window, QR, typed holder and MavChat import fixtures passed. Relevant page looks are bumped."
+    }
+   ]
   },
   {
    "n": 199,
    "name": "Move the build info label (briga",
    "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T08:37Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T08:53Z",
+     "text": "Main Menu content is instantiated by UI_ExtendedMenuContent from BUTTONS Bottom.prefab; the current two labels and PerformanceReadouts still live in TOP_RIGHT. Move both labels into the instantiated Menu prefab and bind its performance head"
+    }
+   ]
   },
   {
    "n": 200,
@@ -3800,18 +3761,15 @@
    "n": 201,
    "name": "MavChat notification square (Por",
    "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-10T08:37Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T08:53Z",
+     "text": "Inspected placement and fold ownership. Notification Controllers anchors the square in the full-frame origin; LateUpdate applies MavChat NotificationPlacement to the cards, not the square. Anchor the square from the real lower right edge of"
+    }
+   ]
   },
   {
    "n": 202,
@@ -3820,7 +3778,15 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 203,
+   "name": "Note from CLOUD",
+   "done": "",
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
- "source_revision": "e624e0d28effde6b5996949c7a099c7dd1d9a445"
+ "source_revision": "c71899d126d0ce3ff4dd4577a6f3393982a353e7"
 }
