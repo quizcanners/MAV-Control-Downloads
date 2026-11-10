@@ -3924,11 +3924,6 @@
    "notes": [
     {
      "by": "LOCAL_MAC",
-     "at": "2026-11-10T10:49Z",
-     "text": "c137dc873e (LOCAL_MAC): step 5 done. quiz, 2026-11-10: 'Wipe everything'. TryDeleteSave (Erase all data, the PAUSED sheet row, the Data Sync inspector button) now erases Geometry (Root.EraseAll), Orthophoto (EraseRootWhenIdle: now, or as so"
-    },
-    {
-     "by": "LOCAL_MAC",
      "at": "2026-11-10T11:08Z",
      "text": "quiz, 2026-11-10 (targets in Record Vault SPEC, 'Deletions kept as the usual list: 512 with a horizon' and 'An erase is local; only erase for everyone makes a tombstone'): (1) an emptied Geometry cell keeps nothing: delete the row on an emp"
     },
@@ -3936,6 +3931,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-10T11:14Z",
      "text": "66c7517316 (LOCAL_MAC): an emptied Geometry cell keeps nothing (empty save deletes the row, receipt for a cell holding nothing reports saved; test replaced, not run). The mask tombstone list and the Web Mercator/Orthophoto 512 list with hor"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T11:20Z",
+     "text": "LOCAL_MAC: c361ba9f6c Orthophoto erase now also forgets PeerVersions (peers resend). Audit result: no bulk erase creates a tombstone. Follow-ups are their own board lines: Geometry sync without receipts, Logistics items stored once, tombsto"
     }
    ]
   },
@@ -4211,5 +4211,5 @@
    "notes": []
   }
  ],
- "source_revision": "60f797c12c14347d37ebbe2c934a7c229d57a5f4"
+ "source_revision": "a5f3a42dd6ccc251fa41f23f04a59a1e03c7ca3d"
 }
