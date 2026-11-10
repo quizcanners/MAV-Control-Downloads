@@ -3891,7 +3891,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-10T09:49Z",
-     "noted": "",
+     "noted": "2026-11-10T10:22Z",
      "progress": 60,
      "ticked": 3,
      "total": 5
@@ -3924,6 +3924,11 @@
      "by": "CLOUD",
      "at": "2026-11-10T10:02Z",
      "text": "Banking style (quiz, 2026-11-10; Coordination/Principles.md, 'Banking style: intent is kept, a failure is marked'; Record Vault SPEC and guide now say it): 'resumable' in step 3 and the erase in step 5 mean the delete request is saved on th"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T10:22Z",
+     "text": "LOCAL_MAC 2026-11-10 (all compiled with cmp.sh NEW ERRORS: none; tests added, none run; no device). af5785d03e RecordVault: uses(owner, used) table, PutOwner/PutOwners/SetUses/Delete release a dependency in the transaction in which its last"
     }
    ]
   },
@@ -4093,5 +4098,5 @@
    ]
   }
  ],
- "source_revision": "3b633e05b3fe6fd7295d1af95abcf6c8291534fb"
+ "source_revision": "27b948337d82d041a0159fdf46072982813544e7"
 }
