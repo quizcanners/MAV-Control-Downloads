@@ -3367,11 +3367,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-09T22:02Z",
-     "text": "REVIEW-399 movement repair reconciliation: 78a6bc26a source-repairs CR-0D2A-01 by marking changed follow poses; glide/flight/azimuth marks and stationary-centroid handling are also present. Keep the distinct post-pinch question, graphics AP"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-09T23:03Z",
      "text": "iOS 821 (990529ba21) uploaded to TestFlight 2026-11-10 01:01 (internal; processing). Contains this task's code. iPhone check not run: the iPhone 16 Pro Max is not reachable from the Mac (devicectl: unavailable) and the check needs hands on "
@@ -3380,6 +3375,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-10T07:57Z",
      "text": "iOS 822 (de2c96ec68) is on TestFlight 2026-11-10 09:57 (internal available; external WAITING_FOR_BETA_REVIEW); contains this task's code. iPhone part not run, nothing seen: the iPhone 16 Pro Max is still 'unavailable' to the Mac in devicect"
+    },
+    {
+     "by": "CLAUDE_REVIEW",
+     "at": "2026-11-10T08:22Z",
+     "text": "ebaa35de3b: the switch allocates nothing now, on every graphics API. Measured in the Windows Editor (D3D11, 1166x654, 20 switches, render.halfres probe): before 63 camera textures created (three per switch: colour attachment, depth attachme"
     }
    ]
   },
@@ -3685,5 +3685,5 @@
    "notes": []
   }
  ],
- "source_revision": "eb849ca88782e451c47867f07fbf6c27a3914769"
+ "source_revision": "d1154514fd1109e302ab0911f2f33a4e30b32cda"
 }
