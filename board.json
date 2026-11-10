@@ -4427,6 +4427,11 @@
      "by": "CLOUD",
      "at": "2026-11-10T12:07Z",
      "text": "Answered 2026-11-10: quiz chose 'By the tabs on screen now' on the card. The strip or the column keeps following the tabs on screen; Station.UI.LeftLists.TabsVertical stays as it is. Written into UI SPEC Left List Tabs and the Lists guide ("
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-10T21:02Z",
+     "text": "First step on main (ecb8cf39f6): Station.UI.GetCurrentOverlay() is one gated expression; the five returns above the gate and the two below it are inside DecideOverlay(), same order, kept for the frame. Next, one group per commit: the 34 pro"
     }
    ]
   },
@@ -5704,5 +5709,5 @@
    "notes": []
   }
  ],
- "source_revision": "7a5c03831c1c7e0469a8097e49c41f683131e88f"
+ "source_revision": "ca3b7ce4e12b600c8d158925e557d3f234c7d440"
 }
