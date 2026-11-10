@@ -3980,19 +3980,23 @@
    "held": [],
    "steps": [
     {
-     "t": "Packet kind and handler on both sides",
-     "x": true
+     "t": "ServerSpecs class; SO_BrigadeConfiguration keeps its fields and hands them out a",
+     "x": false
     },
     {
-     "t": "Subnet trust rule",
-     "x": true
+     "t": "Joined VPNs saved in Persistent Data keyed by subnet (at most 16); the tunnel's ",
+     "x": false
     },
     {
-     "t": "Admin grants Deploy VPN",
-     "x": true
+     "t": "Readers take the current VPN's specs: the three Google Sheets (member sheet cach",
+     "x": false
     },
     {
-     "t": "Two-device check",
+     "t": "Specs between devices: the Version in the passport and one sealed message behind",
+     "x": false
+    },
+    {
+     "t": "RoutingServer.InUse() reads the current VPN's specs; builds 819 to 822 still get",
      "x": false
     }
    ],
@@ -4031,5 +4035,5 @@
    "notes": []
   }
  ],
- "source_revision": "ad1fafa8bf7a00772ce6875afd8776d43fa06959"
+ "source_revision": "8682967276e57a2e6869477db17790185171360b"
 }
