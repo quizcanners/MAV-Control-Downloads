@@ -4003,11 +4003,6 @@
    "notes": [
     {
      "by": "LOCAL_MAC",
-     "at": "2026-11-10T11:14Z",
-     "text": "66c7517316 (LOCAL_MAC): an emptied Geometry cell keeps nothing (empty save deletes the row, receipt for a cell holding nothing reports saved; test replaced, not run). The mask tombstone list and the Web Mercator/Orthophoto 512 list with hor"
-    },
-    {
-     "by": "LOCAL_MAC",
      "at": "2026-11-10T11:20Z",
      "text": "LOCAL_MAC: c361ba9f6c Orthophoto erase now also forgets PeerVersions (peers resend). Audit result: no bulk erase creates a tombstone. Follow-ups are their own board lines: Geometry sync without receipts, Logistics items stored once, tombsto"
     },
@@ -4015,6 +4010,11 @@
      "by": "REVIEW",
      "at": "2026-11-10T11:39Z",
      "text": "Investigation CC-857A-01, P3 complexity: PutOwners stages every icon use, then ApplyUses deletes/reinserts each complete owner set. S1 changed-file writers and SQL traced; host count: 32 unchanged refs cause 64 membership-row mutations. S2 "
+    },
+    {
+     "by": "CLOUD_MAC_BATCH",
+     "at": "2026-11-10T17:00Z",
+     "text": "Checked for the Mac batch 12 (rule 12): step 4 branch disposal and emptied-cell rows are committed (66c7517316, c361ba9f6c); the tombstone rest lives on 220, 221 and 224. Step 5 was committed c137dc873e (Erase all data erases every store). "
     }
    ]
   },
@@ -5498,5 +5498,5 @@
    "notes": []
   }
  ],
- "source_revision": "73bcdb4c4e6fc481229b44c538996e5a2eb43963"
+ "source_revision": "62073d963bff8bfacb61971d3be62aa13dfce2ed"
 }
