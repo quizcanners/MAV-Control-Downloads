@@ -1905,7 +1905,13 @@
    "done": "",
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD",
+     "at": "2026-11-10T09:18Z",
+     "text": "Decided (quiz, 2026-11-10, picked A): \"A\" = coarse tiles (zoom 0-11) share their zoom-6 ancestor segment, new writes only, existing locations keep stored paths. Companion-file cleanup (journal_mode=DELETE for idle segments, delete zero-byte"
+    }
+   ]
   },
   {
    "n": 98,
@@ -3838,5 +3844,5 @@
    "notes": []
   }
  ],
- "source_revision": "d84d30d4affd3d542017cebdcf5cff24a5beb37d"
+ "source_revision": "ca2d3beb910c62a9e392e042a350e015598227e3"
 }
