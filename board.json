@@ -2106,19 +2106,14 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-10T17:40Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T17:56Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T10:35Z",
-     "text": "Mac batch Unity at 589f1a9386: cmp.sh NEW ERRORS: none; FlatMessageReaderTests + CryptoEnvelopeReaderTests 21/21 passed. Getac's compile/test step is covered. Not taken: the main-thread Activator in TryReadCryptoEnvelope (new T() compiles t"
-    },
     {
      "by": "GETAC",
      "at": "2026-11-09T11:54Z",
@@ -2128,6 +2123,11 @@
      "by": "CODEX_UI_OWNER",
      "at": "2026-11-09T13:56Z",
      "text": "Mac Editor b47481540d: cmp.sh NEW ERRORS none; FlatMessageReaderTests 8/8, CryptoEnvelopeReaderTests 14/14 passed in isolated EditMode."
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-10T17:56Z",
+     "text": "Done in ffe5c92b70: hand-written readers for PassportVersions (drones, video advertisements, name time stamp; Motorola profile object -> Newtonsoft), Crypto_TextMsg.TextMessage body (DeserializeMessageBytes, plain fields-only contract only;"
     }
    ]
   },
@@ -4048,19 +4048,19 @@
    ],
    "notes": [
     {
-     "by": "ROG_FABLE",
-     "at": "2026-11-10T15:40Z",
-     "text": "Step 1 done in 020a24f561 (cmp.sh NEW ERRORS: none, not run): TryDeleteSave writes erase-all.owed before the checkpoint delete, each store erase in its own try (one throwing no longer skips the rest), failures named in DeleteSaveFailures, m"
-    },
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-10T16:00Z",
-     "text": "Step 4 DONE in c5871b010b (not ticked: --tick only ticks the next box, which is step 3): drag Clear saves meta.Listing.Cleared; RestoreKnownPeers skips cleared peers; GetOrCreatePeer's cold-start 'active <5 min' heartbeat skips them; the pe"
-    },
-    {
      "by": "ROG_OPUS",
      "at": "2026-11-10T16:36Z",
      "text": "Steps 3 and 5 done, 4 ticked (c5871b010b by ROG_FABLE). 58c9808941: Orthophoto square delete saves a tile_deletions_owed row before the first tile goes (store's own lane, delete waits for it), removes it when the square is gone, LegacyImpor"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T17:51Z",
+     "text": "Investigation CR-020A-01, P2: the first erase-all.owed write can throw before a marker exists, yet TryDeleteSave logs and continues deleting; a stop before later stores leaves their intent unsaved. S1 source/fault-order control and S2 faile"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T17:51Z",
+     "text": "Investigation CC-58C9-01, P3 complexity: a deleting Orthophoto Branch repeatedly searches queued keys to learn whether its own intent was saved; the existing main-thread completion already knows the write. S1 writers/retry/lifetime/superses"
     }
    ]
   },
@@ -5587,5 +5587,5 @@
    "notes": []
   }
  ],
- "source_revision": "39dc61436ccfecd783c438331031afe1ac3d3867"
+ "source_revision": "692853614448fdd3af63fe8ac6dcc71c247f3e47"
 }
