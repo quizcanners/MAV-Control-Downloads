@@ -4869,7 +4869,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-10T18:21Z",
-     "noted": "",
+     "noted": "2026-11-10T18:22Z",
      "progress": 40,
      "ticked": 2,
      "total": 5
@@ -4907,6 +4907,11 @@
      "by": "REVIEW",
      "at": "2026-11-10T17:31Z",
      "text": "Thread CLOUD_COMPLEXITY stopped at its usage limit (16:45Z) while writing step 3 (no 'I am here' beat: app route switch Idle/Connecting/Connected/Unreachable, Admin list, diagnostics, task list, release key, Deploy and Servers pages, status"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T18:22Z",
+     "text": "LOCAL_MAC read step 3 (no change): in Network_DirectRoute.Update the presence beat (SendPresence every ConnectedPresenceSeconds/ReconnectPresenceSeconds, line ~220) is also what sets Current Connected/Connecting/Unreachable (_lastReplyAt vs"
     }
    ]
   },
@@ -5619,5 +5624,5 @@
    ]
   }
  ],
- "source_revision": "a74a31232ed1e90d6b6262e37ae04f7afd42706c"
+ "source_revision": "03572b95d051a3b58e8b3e807d242a78ab978118"
 }
