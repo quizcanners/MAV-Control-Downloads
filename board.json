@@ -2565,11 +2565,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T14:55Z",
-     "text": "ae26ba3e3b: cmp.sh takes a lock beside BASE (/tmp/roslyn-base.lock with pid), so overlapping runs (two agents on one Mac) no longer move each other's baseline worktree or rebuild sem.dll mid-run; tested with two runs 3 s apart (second waite"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-09T15:07Z",
      "text": "CR-AE26-01 P2: S1 investigation and S2 brief complete. Two stale-lock waiters can delete a new live lock and both enter cmp.sh; exact shell-block race reproduced, ordinary live-holder control passed. Fail-fast stale-lock sketch awaits quiz "
@@ -2578,6 +2573,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-10T08:34Z",
      "text": "5dc0c8d2e5: cmp.sh picks the Hub Editor named in ProjectVersion.txt when installed (Mac/Windows/Linux Hub paths; explicit UNITY_REFS wins, cloud keeps the portable 2021 modules). On the Mac the UnityEditor-name gap is closed: unresolved Ass"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T10:49Z",
+     "text": "LOCAL_MAC 2026-11-10: cmp.sh flake seen again with identical trees (HEAD == origin/main 46aff44c23, clean): NEW ERRORS: 2 in the p set only (UI_AltitudeScroll.cs CS0246 IPointerDownHandler / IPointerUpHandler), a rerun gave none. So the Edi"
     }
    ]
   },
@@ -4142,5 +4142,5 @@
    "notes": []
   }
  ],
- "source_revision": "0141634a05be42f56d8e70fea6e5323588e4fe44"
+ "source_revision": "b0c29854c53a07437ee4b639e810244c065ff07f"
 }
