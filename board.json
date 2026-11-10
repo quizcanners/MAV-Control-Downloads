@@ -3924,11 +3924,6 @@
    "notes": [
     {
      "by": "LOCAL_MAC",
-     "at": "2026-11-10T11:08Z",
-     "text": "quiz, 2026-11-10 (targets in Record Vault SPEC, 'Deletions kept as the usual list: 512 with a horizon' and 'An erase is local; only erase for everyone makes a tombstone'): (1) an emptied Geometry cell keeps nothing: delete the row on an emp"
-    },
-    {
-     "by": "LOCAL_MAC",
      "at": "2026-11-10T11:14Z",
      "text": "66c7517316 (LOCAL_MAC): an emptied Geometry cell keeps nothing (empty save deletes the row, receipt for a cell holding nothing reports saved; test replaced, not run). The mask tombstone list and the Web Mercator/Orthophoto 512 list with hor"
     },
@@ -3936,6 +3931,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-10T11:20Z",
      "text": "LOCAL_MAC: c361ba9f6c Orthophoto erase now also forgets PeerVersions (peers resend). Audit result: no bulk erase creates a tombstone. Follow-ups are their own board lines: Geometry sync without receipts, Logistics items stored once, tombsto"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T11:39Z",
+     "text": "Investigation CC-857A-01, P3 complexity: PutOwners stages every icon use, then ApplyUses deletes/reinserts each complete owner set. S1 changed-file writers and SQL traced; host count: 32 unchanged refs cause 64 membership-row mutations. S2 "
     }
    ]
   },
@@ -4021,11 +4021,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-10T10:17Z",
-     "text": "REVIEW-411 / CR-6B2C-01: b51acbe6b removes the old permission-edit trigger and prevents a derived server Admin from becoming a stored table grant. Legacy A flags are still read; historical duplicate-grant normalization is not proved, and in"
-    },
-    {
      "by": "CLOUD_VPNS",
      "at": "2026-11-10T10:22Z",
      "text": "What the folded task 150 leaves after quiz's change of 2026-11-10 (its brief and notes are above). Settled by the target: which MavServer is used on which subnet (the current VPN's specs name it, step 5); a same-key address move (the specs "
@@ -4034,6 +4029,11 @@
      "by": "CLOUD_VPNS",
      "at": "2026-11-10T10:22Z",
      "text": "quiz, 2026-11-10, the note this work comes from, as he wrote it: \"You make a good point. I said that we can have multiple VPN servers or multiple servers without VPN. But this increased complexity by a lot. So lets change all that: one MavS"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T11:39Z",
+     "text": "Investigation CC-57F3-01, P3 complexity: package wrapper scans heldAlready, then adoption owner searches the same at-most-16 entries again. S1 root-upgrade/Add writers traced; S2 move existing capacity check to the owner before Add, current"
     }
    ]
   },
@@ -4136,6 +4136,11 @@
      "by": "CLOUD",
      "at": "2026-11-10T11:09Z",
      "text": "quiz, 2026-11-10: Alert tick sends 'Alert received'; keep current behaviour, the open question above is closed."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T11:39Z",
+     "text": "REVIEW-412 / notification semantics: 18bffc2d2 changes Seen to received, so earlier 17/17 display-means-seen receipt is not verification of the new fixture assertions. Quiz already answered Alert tick sends Alert received (368ddf4d0 / curre"
     }
    ]
   },
@@ -4155,8 +4160,8 @@
     {
      "who": "codex-ui-style",
      "since": "2026-11-10T10:58Z",
-     "noted": "2026-11-10T11:10Z",
-     "progress": 25,
+     "noted": "2026-11-10T11:39Z",
+     "progress": 40,
      "ticked": 0,
      "total": 0
     }
@@ -4167,6 +4172,11 @@
      "by": "codex-ui-style",
      "at": "2026-11-10T11:10Z",
      "text": "Direct cause: sample interaction overlays were opaque white. Verified UI Configurations normal glass overlay is black alpha 1. Deeper reason: generic Unity Button samples bypassed the existing UI_CustomButton/ClickBlockerBase event and pale"
+    },
+    {
+     "by": "codex-ui-style",
+     "at": "2026-11-10T11:39Z",
+     "text": "Done: f0984f9462 and a2de4d4382 published through e48cfe7758; corrected style Parts, native reference PNG and the general UI SPEC/guide."
     }
    ]
   },
@@ -4252,5 +4262,5 @@
    "notes": []
   }
  ],
- "source_revision": "89cb27e0176dc959804bb4e55082970baff12e39"
+ "source_revision": "38948afefa3c1a4c76586e8b66be753abfb5062c"
 }
