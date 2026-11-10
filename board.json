@@ -3923,11 +3923,6 @@
    ],
    "notes": [
     {
-     "by": "codex-ui-style",
-     "at": "2026-11-10T10:34Z",
-     "text": "Style Sheet worker Editor compile observed Distribution_Manager.cs(691,108) CS0117: Distribution.Manager.Debug has no LogException; please qualify UnityEngine.Debug in your active changes. Not editing your file. UI assets already natively s"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-10T10:49Z",
      "text": "c137dc873e (LOCAL_MAC): step 5 done. quiz, 2026-11-10: 'Wipe everything'. TryDeleteSave (Erase all data, the PAUSED sheet row, the Data Sync inspector button) now erases Geometry (Root.EraseAll), Orthophoto (EraseRootWhenIdle: now, or as so"
@@ -3936,6 +3931,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-10T11:08Z",
      "text": "quiz, 2026-11-10 (targets in Record Vault SPEC, 'Deletions kept as the usual list: 512 with a horizon' and 'An erase is local; only erase for everyone makes a tombstone'): (1) an emptied Geometry cell keeps nothing: delete the row on an emp"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T11:14Z",
+     "text": "66c7517316 (LOCAL_MAC): an emptied Geometry cell keeps nothing (empty save deletes the row, receipt for a cell holding nothing reports saved; test replaced, not run). The mask tombstone list and the Web Mercator/Orthophoto 512 list with hor"
     }
    ]
   },
@@ -4187,5 +4187,5 @@
    "notes": []
   }
  ],
- "source_revision": "927fda400172b0ed386c8559c0a51eaae1091b46"
+ "source_revision": "0472b9cd5125c3c9d37fca7c5f5cb22b25f78f62"
 }
