@@ -3606,11 +3606,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "ROG_FABLE",
-     "at": "2026-11-10T10:06Z",
-     "text": "ROG_FABLE 2026-11-10: the Strong half is not measured (same reason as the 88 note: no ADB route to the Strong from Rog and no Dev 822 here). The Windows Editor numbers of ebaa35de3b stand: 0.26 ms rest, 0.29 ms moving, Mask Demand 0.08 ms f"
-    },
-    {
      "by": "CLOUD_OCEAN_MASK",
      "at": "2026-11-10T11:10Z",
      "text": "Done on main 32a9302f (cloud, Roslyn only, nothing run in an Editor or on a device): the GPU draws the Ocean + paint display mask with one Graphics.Blit (new PlanetDisplayMask.shader, referenced by PlanetRendererResources.asset) into a 256 "
@@ -3619,6 +3614,11 @@
      "by": "CLOUD_META",
      "at": "2026-11-10T11:38Z",
      "text": "Prompt 5 for ROG_FABLE (prompts/machine_prompts_2026-11-10f.md): no ADB route from Rog to the Strong, so the 191 rest numbers, 37 LongFrame records and 88 retained frame are read over the VPN with peer_diag (ask/want/lag-detail, 10.10.10.9)"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-10T11:46Z",
+     "text": "ROG_FABLE 2026-11-10, Strong over the VPN (peer_diag ask/want 10.10.10.9, nobody at the screen). Build: Android Dev 821 = 4abf5d2858, boot 17, 4.9 h up, OpenGLES3. Of the four it has NONE: not 531fa88 (one compose per frame), not ebaa35de3b"
     }
    ]
   },
@@ -4259,5 +4259,5 @@
    ]
   }
  ],
- "source_revision": "c4dbd2c52ed367800e066ff5e123121d69de6e2e"
+ "source_revision": "4f8ef544efd1369c94840f04419e7600108d6da4"
 }
