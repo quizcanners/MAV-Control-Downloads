@@ -3653,11 +3653,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-10T07:52Z",
-     "text": "Current UI_LeftListSwipeAway builds its backing and handle at runtime and has no _backingMaterial_Optional slot. Row-origin drags are currently owned by the inner ScrollRect. Finish at the panel/scroll owner: route only horizontal intent to"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-10T08:11Z",
      "text": "CC-B0CD-01 P3 complexity: S1/S2 compare runtime construction/searches for fixed list backing/handle, notification badge and capsule pieces with existing prefab binding. One-time/small-cache constraints retained; no measured hitch or confirm"
@@ -3666,6 +3661,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T08:33Z",
      "text": "f6585cf2ea wired all nine list roots and ScrollRects in Unity. Horizontal intent uses a pointer-owned panel drag and the existing left Offset transition; vertical and portrait-pager drags keep their original route. Native compile and Roslyn"
+    },
+    {
+     "by": "CLOUD",
+     "at": "2026-11-10T09:15Z",
+     "text": "Decided by guide, no question to quiz: fixed hierarchy and references belong in prefabs (UI Prefabs guide); author the notification square's arrow/badge/progress, the left-list swipe handle/backing and the MavChat grab bar there and delete "
     }
    ]
   },
@@ -3788,5 +3788,5 @@
    "notes": []
   }
  ],
- "source_revision": "c71899d126d0ce3ff4dd4577a6f3393982a353e7"
+ "source_revision": "547c9e9b64ae6c7e11ef6d47ab26bb64023394c5"
 }
