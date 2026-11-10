@@ -3534,11 +3534,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLOUD_BOARD",
-     "at": "2026-11-10T07:50Z",
-     "text": "Main compiles: Mac cmp.sh at 08a9fbbc56 NEW ERRORS none (covers 531fa88); Windows Unity 6000.6.8f1 exit 0 at 74986545be. Compile step is done. Left: Editor runs PlanetDisplayMasksTests and PlanetMaskViewsTests; then the Strong/iPhone number"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-10T08:00Z",
      "text": "Mac de2c96ec68: cmp.sh NEW ERRORS: none (531fa88 compiles). iOS 822 with this change is on TestFlight. iPhone timings not taken: the phone is unreachable from the Mac (devicectl unavailable), so no Patch Preparation / Mask Demand / Record A"
@@ -3547,6 +3542,11 @@
      "by": "REVIEW",
      "at": "2026-11-10T08:11Z",
      "text": "REVIEW-409 / compose: inspected 531fa882f. New Ocean donor pairs can display paint without Ocean Water until their compose turn; existing pairs retain prior texels. Visible-delay versus same-current-coverage options retained for quiz; no me"
+    },
+    {
+     "by": "CLAUDE_REVIEW",
+     "at": "2026-11-10T08:23Z",
+     "text": "ebaa35de3b: Windows Editor (Mono, D3D11), Offline map near 51.04N 27.35E, Elements on, performance.top 100-frame averages, 59 patches drawn / 121 visited, mask_answers_reused=58 queried=0: at rest Patch Preparation 0.26 ms = Mask Demand 0.0"
     }
    ]
   },
@@ -3685,5 +3685,5 @@
    "notes": []
   }
  ],
- "source_revision": "d1154514fd1109e302ab0911f2f33a4e30b32cda"
+ "source_revision": "ec936f9ea22e73e7c71222279d456f24fe0d4713"
 }
