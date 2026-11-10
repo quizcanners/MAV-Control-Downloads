@@ -3445,14 +3445,20 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-10T08:26Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T08:30Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T08:30Z",
+     "text": "7f8a7cdec3: build_test_gate.green_xml and daily_native.summarize no longer count Inconclusive as red (still listed in the summary); failed>0 or a Failed run result still stops the build. Verify runner and prepared-candidate flows keep their"
+    }
+   ]
   },
   {
    "n": 185,
@@ -3744,5 +3750,5 @@
    "notes": []
   }
  ],
- "source_revision": "8fbe421a9fb5b32cdff7dd99ad69cf3b98acf1dc"
+ "source_revision": "fbc326666dcb00794961c674fb0e3af459fa14e5"
 }
