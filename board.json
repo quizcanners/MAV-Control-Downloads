@@ -235,16 +235,7 @@
    "n": 9,
    "name": "Distribution",
    "done": "",
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-10T07:41Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 5
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Protected HTTPS installer route live",
@@ -269,11 +260,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-10T05:51Z",
-     "text": "Root cause confirmed in the built 821 IL2CPP code. CreatePipe passes Asynchronous | CurrentUserOnly. Generated System.Core__4.cpp enters WindowsIdentity.GetCurrent().Owner. Unity 6000.6.8f1 libil2cpp WindowsIdentity.cpp returns a zero curre"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-10T06:18Z",
      "text": "CR-59CE-01 P2: S1 source investigation and S2 repair brief extend GETAC's recorded Windows Dev821 listener failure; preserve effective-SID pipe restriction and helper peer checks. Proposal awaits quiz before implementation; native warm/cold"
@@ -282,6 +268,11 @@
      "by": "CLOUD_GETAC_CHECK",
      "at": "2026-11-10T06:37Z",
      "text": "8ef77d2 (cloud, uncompiled): Windows link pipe no longer uses PipeOptions.CurrentUserOnly. Server.CreatePipe calls CreateNamedPipe with a protected DACL naming only the effective user SID (first instance only, local clients only) and wraps "
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T08:03Z",
+     "text": "FAIL Windows Dev 821 b0cd37abdc on Getac. Same-profile built helper returned NoListener, PID 0, while player PID 32652 had reached the map; no deep_link receipt. Native startup now logs NotSupportedException after the WindowsIdentity fix. G"
     }
    ]
   },
@@ -2808,16 +2799,7 @@
    "n": 150,
    "name": "Server access package",
    "done": "",
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-10T07:43Z",
-     "noted": "2026-11-10T07:45Z",
-     "progress": 75,
-     "ticked": 3,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Packet kind and handler on both sides",
@@ -2838,11 +2820,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-10T07:02Z",
-     "text": "Cloud (quiz, 2026-11-10: \"When switching VPN subnet It should use servers associated with that subnet. We consider user with multiple VPNs as someone who has access to both.\"): settles GETAC finding 3 / CR-C4C5-01 as the intended rule, not "
-    },
-    {
      "by": "CLAUDE_REVIEW",
      "at": "2026-11-10T07:30Z",
      "text": "6b2c7bedc2: one Admin list (quiz, 2026-11-10: 'Yes, join them'). A named Admin's app reports its WireGuard public key (AdminOp.Tunnel, saved in admins.txt); the people table treats that key as an Admin through TunnelGrants.IsServerAdminKey_"
@@ -2851,6 +2828,11 @@
      "by": "GETAC",
      "at": "2026-11-10T07:45Z",
      "text": "GETAC b0cd37abdc source check: InUse uses RecordedVpnSubnet, which reads saved UdpReciever.MyGCSSubnet. Bootstrap fills it from BrigadeConfiguration only for a missing checkpoint; the production editor for an existing save is the VPN Users "
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T08:03Z",
+     "text": "PARTIAL Windows Dev 821 b0cd37abdc. DevMode > Servers > VPN Server > Configuration > WireGuard reported WireGuard absent on Galera; Deploy WireGuard displayed Copy the command and instructed execution as root at the verified Galera address."
     }
    ]
   },
@@ -3467,42 +3449,35 @@
   {
    "n": 186,
    "name": "Windows Dev 821 Getac",
-   "done": "",
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-10T07:42Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "done": "2026-11-10T08:03Z",
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CLOUD_GETAC_CHECK",
      "at": "2026-11-10T06:37Z",
      "text": "8ef77d2 (cloud, uncompiled): likely cause found by reading, not measured. The Catalog timing part also covers PlanetMaskFiles.TrimIdleReaders, which closed SQLite readers idle for 10 s on the main thread; closing the last connection of a WA"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T08:03Z",
+     "text": "PASS Windows Dev 821 b0cd37abdc on Getac. At least 40 seconds idle on a populated map, 23,078 catalog chunks, catalog Ready with zero failures and 70 mask reads. Catalog peak 33.5 ms, longest retained idle frame 157.535 ms. Former 1241.668 "
     }
    ]
   },
   {
    "n": 187,
    "name": "Windows Dev 821 Getac",
-   "done": "",
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-10T07:42Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "done": "2026-11-10T08:03Z",
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-10T08:03Z",
+     "text": "PASS Windows Dev 821 b0cd37abdc on Getac. Startup and 40-second idle retained peak 157.535 ms, first smoke and warm replay held no new frame over 249.056 ms (first-tour Cesium source switch). Same two steps as original: baseline peaks 20.92"
+    }
+   ]
   },
   {
    "n": 188,
@@ -3683,5 +3658,5 @@
    "notes": []
   }
  ],
- "source_revision": "a36c2e75f510c3f6a0c10db46b3e91548865512f"
+ "source_revision": "33cef29ffc4c3529bfd126a383b79bcf9ea6d146"
 }
