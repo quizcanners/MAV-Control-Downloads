@@ -4489,14 +4489,20 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-10T21:07Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-10T21:11Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T21:11Z",
+     "text": "4df1ac67f4: the row prefab was wired right (batch probe: body gets 'Selected body 0', keyword on); the capsule shader's body pass ignored _SELECTED_BODY, so it kept blurred glass. Body now returns solid black under the keyword (no runtime b"
+    }
+   ]
   },
   {
    "n": 231,
@@ -5729,5 +5735,5 @@
    ]
   }
  ],
- "source_revision": "333c04481c159fa053c73263fad8dd4a6a9417aa"
+ "source_revision": "a08782017a1971ea7b68f8c5c82dc2dd5d322b26"
 }
