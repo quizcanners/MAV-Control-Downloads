@@ -3497,11 +3497,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-10T07:52Z",
-     "text": "e5a29c547b records 19 native D3D11 variant counts, including all requested light/quality variants. Disposable tests: ElementLighting 12/25, PlanetSurface 33/52, DrawPatchReuse 26/27, ShaderPassCompilation 20/22. Skybox parity exceeded 0.000"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-10T08:53Z",
      "text": "Current Windows ShaderPassCompilationTests 20/22. Both SkyboxVertexDirectionsMatchOriginalPixelsForClearedSkyAndSun cases still fail pixel parity. The previous 19 FXC counts remain in BASELINE.md. Day/Night prewarm recording and player stri"
     },
@@ -3509,6 +3504,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T10:09Z",
      "text": "No new collection this pass. Day and Night recording and the player stripping log remain open, with the two Skybox parity cases tracked separately."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T22:19Z",
+     "text": "Pushed 5864895133: three tracked Day globe variants and Day/Night space skybox variants in PlanetGlobeVariants. Night rendered with its mode published, but Unity's tracker omitted the reused skybox program; exact _PLANET_SPACE _SKY_TEXTURE_"
     }
    ]
   },
@@ -6009,5 +6009,5 @@
    "notes": []
   }
  ],
- "source_revision": "990952b90a2221e3bd9f77f7c14d2edcb027867e"
+ "source_revision": "de669222aaa3f05459471c1b5e489345e57ad1ae"
 }
