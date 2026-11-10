@@ -4052,9 +4052,34 @@
    "name": "MavServer keeps the VPN's Server",
    "done": "",
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "A revoked or paused member leaves the Admin list (admins.txt) at once, so their ",
+     "x": false
+    },
+    {
+     "t": "Publish a MavServer release from main and update the running MavServer: no sync ",
+     "x": false
+    },
+    {
+     "t": "Specs folder inside the routing server on Port 14669: an Admin writes the VPN's ",
+     "x": false
+    },
+    {
+     "t": "The app reads the specs when the Version in a presence answer went up; an Admin'",
+     "x": false
+    },
+    {
+     "t": "Deploy WireGuard takes a subnet that none of the device's VPNs uses, in place of",
+     "x": false
+    },
+    {
+     "t": "Publish the release with the Specs folder and the subnet choice, and update the ",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
- "source_revision": "57bfdf1bb23569fb4ba93fcc96aaa34f561d8d98"
+ "source_revision": "55606981076560aa34532fd199f740aff95072a3"
 }
