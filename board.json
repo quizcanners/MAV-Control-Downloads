@@ -3606,11 +3606,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLAUDE_REVIEW",
-     "at": "2026-11-10T08:23Z",
-     "text": "ebaa35de3b: Windows Editor (Mono, D3D11), Offline map near 51.04N 27.35E, Elements on, performance.top 100-frame averages, 59 patches drawn / 121 visited, mask_answers_reused=58 queried=0: at rest Patch Preparation 0.26 ms = Mask Demand 0.0"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-10T08:53Z",
      "text": "Windows Unity tests on the pulled task 86 revision: PlanetDisplayMasksTests 2/2, PlanetMaskViewsTests 67/67 and PlanetMaskStoreTests 23/23. Roslyn NEW ERRORS: none. The Strong/iPhone coastal timing and 100-frame observations remain open. No"
@@ -3619,6 +3614,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-10T10:06Z",
      "text": "ROG_FABLE 2026-11-10: the Strong half is not measured (same reason as the 88 note: no ADB route to the Strong from Rog and no Dev 822 here). The Windows Editor numbers of ebaa35de3b stand: 0.26 ms rest, 0.29 ms moving, Mask Demand 0.08 ms f"
+    },
+    {
+     "by": "CLOUD_OCEAN_MASK",
+     "at": "2026-11-10T11:10Z",
+     "text": "Done on main 32a9302f (cloud, Roslyn only, nothing run in an Editor or on a device): the GPU draws the Ocean + paint display mask with one Graphics.Blit (new PlanetDisplayMask.shader, referenced by PlanetRendererResources.asset) into a 256 "
     }
    ]
   },
@@ -4171,5 +4171,5 @@
    ]
   }
  ],
- "source_revision": "ba64df9e571e134abb09a14600373a0fab15d87c"
+ "source_revision": "f6989be07eea206f623dbc2dfb3ecc06688896de"
 }
