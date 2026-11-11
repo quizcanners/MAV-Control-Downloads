@@ -6398,19 +6398,14 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T12:11Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T14:39Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "CLOUD_LOAD_TIME",
-     "at": "2026-11-10T17:24Z",
-     "text": "quiz, 2026-11-10: \"Volume 0 == sound off. Also of system is muted. Just delete them silently.\" Sound is off at notification volume 0 or system (media stream) muted; then Sounds.unity is never requested, and sounds asked for while off or bef"
-    },
     {
      "by": "CLOUD_LOAD_TIME",
      "at": "2026-11-10T17:25Z",
@@ -6420,6 +6415,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-11T11:18Z",
      "text": "ROG_OPUS: C# part done in ae1febc7fd. Station.SoundWanted (Station_Enums.cs, beside Play): WantSounds && NotificationVolume > 0 && Android media stream not muted (ReadSystemSound via AudioManager.getStreamVolume(STREAM_MUSIC), called from S"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T14:39Z",
+     "text": "81f083ca9a: Sounds.unity holds 'Sounds MGMT' (moved out of MGMT-Station in Bootstrap.unity, no references crossed), _sounds_Scene set, in build settings; Play: Sounds loads right after Main UI with sound on, no exceptions. Loading bar NOT m"
     }
    ]
   },
@@ -8667,5 +8667,5 @@
    ]
   }
  ],
- "source_revision": "7fc55e30fc9b7e305477f9fe4dcfa8e681996f2b"
+ "source_revision": "452e8cf69dea7237d91f179c49f6ee97dc2db2ad"
 }
