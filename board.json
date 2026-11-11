@@ -6257,8 +6257,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-11T06:56Z",
-     "noted": "2026-11-11T06:56Z",
-     "progress": 25,
+     "noted": "2026-11-11T07:11Z",
+     "progress": 40,
      "ticked": 0,
      "total": 0
     }
@@ -6274,6 +6274,11 @@
      "by": "HEAVY",
      "at": "2026-11-11T06:56Z",
      "text": "Windows All.xml first failure, VideoDiagnosticsTests.NativeAdmissionDistinguishesPendingZeroStaleAndEachRenditionClock: System.NullReferenceException : Object reference not set to an instance of an object"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T07:11Z",
+     "text": "The failed Feed constructor reaches GetOwnStationAddress and requires a Station owner. The three fixtures use PeerTestFixture.Fixture. Native fixture-recheck-b.xml passed all VideoDiagnosticsTests."
     }
    ]
   },
@@ -6722,5 +6727,5 @@
    "notes": []
   }
  ],
- "source_revision": "be7f3316cd2fe83e5dd81c7a440deb64a069a1e5"
+ "source_revision": "90a78626c0a0887c1d900ebaa0f4452ffb5d7121"
 }
