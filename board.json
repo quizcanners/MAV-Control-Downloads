@@ -7192,11 +7192,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_GOAL",
-     "at": "2026-11-11T09:07Z",
-     "text": "quiz, 2026-11-11: \"Another goal is render when moving one. The tasks that reduce fps and renders a static image - all can be combined into this goal.\" Folded: 359 (render mode state machine, 4 modes, 3 s double-res still, _GlobalLiquidGlass"
-    },
-    {
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T10:27Z",
      "text": "Missing step (thread, 2026-11-11): full resolution must return on the very frame the finger lifts. What delays it now: (1) Station.FullScreen.SetCameraMoving holds half for MovingSettleSeconds = 0.3 s after the last move (Station_Inspect.cs"
@@ -7205,6 +7200,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T10:33Z",
      "text": "quiz, 2026-11-11: fullscreen video without a position is its own render mode: only the video over plain black, 'No map, no UI, nothing should be rendered'. Added to this goal as Mode.VideoOnBlack (steps 3-4); guide: _Bootstrap AGENTS 'Map r"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T11:15Z",
+     "text": "bdcf62b0dd: Station.MapRender.Step once per frame from Singleton_GroundStation.StepMapRenderMode (LateUpdate). Interacting = finger/key/mouse within 30 s; moving = finger down and camera moving, so half drops the frame the finger lifts (0.3"
     }
    ]
   },
@@ -8072,5 +8072,5 @@
    "notes": []
   }
  ],
- "source_revision": "0992e17aae5fd82c280097ab63e0bf00b19c55a1"
+ "source_revision": "573ed69ea9b5d035e96e48afa9d656f2cd074c74"
 }
