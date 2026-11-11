@@ -7911,11 +7911,6 @@
    "notes": [
     {
      "by": "LOCAL_MAC",
-     "at": "2026-11-11T16:40Z",
-     "text": "64fdd3f508: iOS half of SEARCH-NATIVE-TEXT-SESSION. MavControlTextSession.mm (production, not behind the prototype macro) swaps Unity's own keyboard responder (UITextField/UITextView inside the Unity view) inputView for an empty view and ba"
-    },
-    {
-     "by": "LOCAL_MAC",
      "at": "2026-11-11T17:53Z",
      "text": "a24b3577fe: Android half. MavTextSession.java (Assets/Plugins/Android): zero-size EditText in the content view, setShowSoftInputOnFocus(false), committed text (never mid-composition) queued for take(), Backspace '\\b', Enter '\\n'; show(true/"
     },
@@ -7923,6 +7918,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T18:00Z",
      "text": "LOCAL_MAC: javac (Unity's OpenJDK, android-37 android.jar) compiles Assets/Plugins/Android/MavTextSession.java with no errors; macOS Editor compile and Unity iOS build of main b11e50eed3: 0 errors."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T18:11Z",
+     "text": "REVIEW-440-CR-64FD-01: P3 failure handling: Search advances its applied hide gate before calling native and discards refusal. S1/S2 success-accounting/owner-issue sketch awaits quiz; real refusal frequency/device behavior unrun; later Andro"
     }
    ]
   },
@@ -8220,11 +8220,6 @@
    "notes": [
     {
      "by": "LOCAL_MAC",
-     "at": "2026-11-11T15:54Z",
-     "text": "02118b1ef5: ConnectionLoop (Assets/_PROJECT/Network, reusable): Idle / Connecting / Stabilizing / Connected; Connected only after HealthySeconds = 20 s up; Stabilizing when two drops fall within LoopWindowSeconds = 120 s; while Stabilizing "
-    },
-    {
-     "by": "LOCAL_MAC",
      "at": "2026-11-11T16:17Z",
      "text": "4b76678abc VPN peer link (PeerDelivery: success = connected, failure = drop, backoff through Loop.RetrySeconds, figures in the peer's delivery status) and 6414778261 hotspot (Connected/not transitions in GetStatus, figures in the phone insp"
     },
@@ -8232,6 +8227,11 @@
      "by": "REVIEW",
      "at": "2026-11-11T16:43Z",
      "text": "REVIEW-439-CR-0211-01: P3: Inspector status read clears loop history, changing the next retry delay. S1/S2 pure-query/lifecycle-writer sketch complete; awaits quiz; completion and later owner work retained. [Evidence, brief and limits](../R"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T18:11Z",
+     "text": "REVIEW-440-CR-0211-01: existing P3 now traced through the new VPN PeerDelivery and hotspot callers; Current still mutates history on reads. Original S1/S2 awaits quiz; completion and native limits retained. [Current reconciliation](../Revie"
     }
    ]
   },
@@ -8519,19 +8519,19 @@
    "steps": [],
    "notes": [
     {
-     "by": "claude-thread",
-     "at": "2026-11-11T14:45Z",
-     "text": "claude-thread 2026-11-11 round 2, on main: look and spacing 0 now also on Cars, Scenes groups (Waypoint Groups), Action History, drone Boards (own height kept), Logistics Distribution Window list (own height kept), Situation Entity Editing "
-    },
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T15:27Z",
-     "text": "ROG_OPUS 2026-11-11: StandardRowHeight ticked on List_Watpoints, List_VPN Peers, List_Photos, List_Photo Folders (506ed8fcfe 0c03e7c0c5 f2fe33d101 7c6cc52b74), so the list gives these rows 96. Glass frosting overlay (_transparentOne) delete"
-    },
-    {
      "by": "ROG_OPUS",
      "at": "2026-11-11T17:29Z",
      "text": "ROG_OPUS 2026-11-11 batch 18: rest done. VPN Groups: UI_VPNgroupElement owns RowAppearance (MergedButton_Composit), Singleton_VPNgroupsList standardises every new row (FitRoot + StandardiseRow: monochrome panel, 96, 1 px line) a9857801eb; p"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T18:11Z",
+     "text": "REVIEW-440-CR-D2FC-01: P2: the VPN group prefab clears _imageToColor but Fill still writes its .color; source-confirmed null dereference. S1/S2 retire-obsolete-port sketch awaits quiz; 411 completion retained. [Investigation, brief and limi"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T18:11Z",
+     "text": "REVIEW-440-CC-48D3-01: P3 adjacent pre-existing complexity: UnspawnRow searches dictionary values for a key already known at row binding/registration. S1/S2 direct-key/staging sketch and binding constraints await quiz; distinct from CC-5B6B"
     }
    ]
   },
@@ -8842,11 +8842,6 @@
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T07:29Z",
-     "text": "LOCAL_MAC batch 13: not started (no time left this pass)."
-    },
-    {
      "by": "MAC_SQLITE_SPEC",
      "at": "2026-11-11T17:01Z",
      "text": "DONE: SPEC and guide alignment published in ffb970edc3 (documentation only): Web Mercator SPEC, SQLite database layout: ultimate design and our scope, with Google/Mapbox/MapLibre/SQLite sources, explicit simplifications, and preserved quiz "
@@ -8855,6 +8850,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T18:09Z",
      "text": "LOCAL_MAC: first slice (one logical map database with an indexed, batched write path, Web Mercator SPEC 'SQLite database layout') not started; read only. It rewrites SqliteTileStore's writer and needs its own pass."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T18:11Z",
+     "text": "REVIEW-440-CC-D4AC-01: P3 complexity: the new legacy segment merge opens/closes the same source per metadata row and per seed (32 opens for 16 tiles). S1/S2 bounded-handle reuse versus planned consolidation awaits quiz; folded 97/426 eviden"
     }
    ]
   },
@@ -8932,6 +8932,20 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 434,
+   "name": "Note from LOCAL_MAC",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -8980,5 +8994,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4756b0243927ce534886675526f521f9633730ed"
+ "source_revision": "2fc360d3efe0f65f3c1d0a47f0c59ec811bb5218"
 }
