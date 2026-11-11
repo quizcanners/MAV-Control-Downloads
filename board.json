@@ -7174,11 +7174,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-09T11:36Z",
-     "text": "Partial on Strong Dev 817 (2400e9b752 includes e4cc71b7). USB powered, idle enabled, after 34 s with menus closed: IdleReduced with target 8, 91 presented frames at 7.52 FPS (median 133.25 ms, max 199.78 ms). An open Performance menu switch"
-    },
-    {
      "by": "CLOUD",
      "at": "2026-11-10T09:16Z",
      "text": "Decided: quiz's 2026-11-08 lines stay as written; his 2026-11-09 line already says what holds now. Nothing to ask; 'Ask quiz: reword' closed."
@@ -7187,6 +7182,11 @@
      "by": "CLOUD_GOAL",
      "at": "2026-11-11T09:07Z",
      "text": "quiz, 2026-11-11: \"Another goal is render when moving one. The tasks that reduce fps and renders a static image - all can be combined into this goal.\" Folded: 359 (render mode state machine, 4 modes, 3 s double-res still, _GlobalLiquidGlass"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-11T10:27Z",
+     "text": "Missing step (thread, 2026-11-11): full resolution must return on the very frame the finger lifts. What delays it now: (1) Station.FullScreen.SetCameraMoving holds half for MovingSettleSeconds = 0.3 s after the last move (Station_Inspect.cs"
     }
    ]
   },
@@ -7976,5 +7976,5 @@
    "notes": []
   }
  ],
- "source_revision": "6023741b575432d517b60bb57560243fbce0088d"
+ "source_revision": "046be7ebecfaece4e77465e278698bd0fb9474db"
 }
