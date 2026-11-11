@@ -6257,8 +6257,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-11T06:57Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T06:57Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -6269,6 +6269,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-11T06:28Z",
      "text": "ROG_OPUS triage by reading (no fix): VideoLatencySuspectsTests.cs had no commit between Nov 8 and run 76ad76b6df; SenderLatencyUsesEveryQueueAndTheViewersCurrentNativeOwner(0) depends on the streamer/native owner code. Without the task 7 XM"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T06:57Z",
+     "text": "Windows All.xml first failure, VideoLatencySuspectsTests.SenderLatencyUsesEveryQueueAndTheViewersCurrentNativeOwner(0): System.NullReferenceException : Object reference not set to an instance of an object"
     }
    ]
   },
@@ -6706,5 +6711,5 @@
    "notes": []
   }
  ],
- "source_revision": "8ecaf42a2450d3011d1635d741cab26160352f5d"
+ "source_revision": "a587133cf367b4168cb142c908375d49bffad058"
 }
