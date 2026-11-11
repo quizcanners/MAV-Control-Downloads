@@ -907,8 +907,8 @@
     {
      "who": "CLOUD_DOABLE",
      "since": "2026-11-11T18:42Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T18:43Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -924,6 +924,11 @@
      "by": "GETAC",
      "at": "2026-11-10T08:40Z",
      "text": "Pending on GETAC. ADB lists Strong only. Lenovo GLES cold/warm prewarm and first visible Situation draw were unavailable."
+    },
+    {
+     "by": "CLOUD_DOABLE",
+     "at": "2026-11-11T18:43Z",
+     "text": "CLOUD_DOABLE 2026-11-11, uncompiled. Singleton_SituationEntities.cs: the synchronous WarmUpProgressively(1) is skipped on OpenGLES2/3 like Metal (draws build the pipeline on first use). Same call remains in Singleton_ControlZonePainter.cs:2"
     }
    ]
   },
@@ -8965,5 +8970,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4690b1cbb5c3776fee83925120c1254574cc18c2"
+ "source_revision": "6279f42ca0d2b2bcd1ea511b359e09d1d60ee5ac"
 }
