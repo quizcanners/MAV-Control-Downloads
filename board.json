@@ -607,39 +607,6 @@
    ]
   },
   {
-   "n": 33,
-   "name": "Share screen center toggle",
-   "done": "2026-11-08T15:57Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Wire shared shader as the toggle owner",
-     "x": true
-    },
-    {
-     "t": "Verify on and off pointer drag and bounds in Editor",
-     "x": true
-    },
-    {
-     "t": "Publish and record result",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_UI_OWNER",
-     "at": "2026-11-08T15:54Z",
-     "text": "Main 032097c972: the existing procedural toggle remains visible in both states and owns the pointer drag; legacy offset roots are unbound. Off/on rendered Editor checks and live extreme-drag shader positions 0/1 passed; isolated Unity EditM"
-    }
-   ]
-  },
-  {
    "n": 34,
    "name": "Repair task-board publishing so ",
    "done": "2026-11-08T16:08Z",
@@ -10190,6 +10157,20 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 415,
+   "name": "Note from LOCAL_MAC",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -10238,5 +10219,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d2905c84b3522d04deff98d07ab3876fe67eaf4c"
+ "source_revision": "2684df62528a1557f50c67797723bee5dd20793f"
 }
