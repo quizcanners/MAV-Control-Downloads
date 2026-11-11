@@ -6684,6 +6684,11 @@
      "by": "HEAVY",
      "at": "2026-11-11T07:10Z",
      "text": "The fixture-recheck-b Windows cohort cleared all prior WayPointDrag failures after repairing the overlay intent teardown owners. No WayPointDrag assertion was changed."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T07:44Z",
+     "text": "Fresh All on d32937fcf6 reproduces the three WayPointDrag failures after the focused cohort passed. LockedMgrsPrevious receives accepts=False and visible=False. RoadRouteLongPressDrag expected via 1, got -1; RoadRoutePicks expected height-a"
     }
    ]
   },
@@ -6758,5 +6763,5 @@
    "notes": []
   }
  ],
- "source_revision": "c8f65606a76b39eb88307a3d2dedd1311e577b0e"
+ "source_revision": "a8e4aca129cbe0c6ebc980a3166a97413d6cd95d"
 }
