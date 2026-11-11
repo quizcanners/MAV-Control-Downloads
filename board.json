@@ -7998,19 +7998,14 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T10:56Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T10:59Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T10:41Z",
-     "text": "CLOUD_THREAD 2026-11-11: C# part of step 2 and 3 is done on main: UI_LeftListSwipeAway takes drags only while Station.UI.LeftLists.SwipeAway (tabs shown, never in Chat), sends the panel back if the view changes mid-swipe, and closes with Se"
-    },
     {
      "by": "ROG_OPUS",
      "at": "2026-11-11T10:44Z",
@@ -8020,6 +8015,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T10:47Z",
      "text": "CLOUD_THREAD 2026-11-11: cause of tabs vanishing after Chat found and fixed on main: the toggle read ChatOpen live while Shown/TabsShown were cached for the frame; Chat closing inside a transition after the frame's first reader made ApplyVi"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T10:59Z",
+     "text": "LOCAL_MAC step 1, stopped without a change. Seen in Editor Play 1920x1080 landscape Chat: (a) peer view: empty band of ~180 px between the search field and the first peer row (spot 1); (b) the peer list's scroll bar sits inside the row area"
     }
    ]
   },
@@ -8049,7 +8049,22 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 396,
+   "name": "QR screen",
+   "done": "",
+   "goal": false,
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "qr-thread",
+     "at": "2026-11-11T10:59Z",
+     "text": "Portrait QR prefab now has title and Create QR in one row beside Back"
+    }
+   ]
   }
  ],
- "source_revision": "c569dd6ae6f5ea8d20f67b7593b2e11b212e87c7"
+ "source_revision": "4c9bfbf6416dff060ffeb17d66e9cb3ce0a5916e"
 }
