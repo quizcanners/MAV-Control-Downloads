@@ -6966,11 +6966,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-11T07:10Z",
-     "text": "The fixture-recheck-b Windows cohort cleared all prior WayPointDrag failures after repairing the overlay intent teardown owners. No WayPointDrag assertion was changed."
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-11T07:44Z",
      "text": "Fresh All on d32937fcf6 reproduces the three WayPointDrag failures after the focused cohort passed. LockedMgrsPrevious receives accepts=False and visible=False. RoadRouteLongPressDrag expected via 1, got -1; RoadRoutePicks expected height-a"
     },
@@ -6978,6 +6973,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T09:15Z",
      "text": "LOCAL_MAC: green on the Mac at bfc2e9f2ec with graphics (VideoServerGridTests + WayPointDragTests 59/59, 1 ignored). Not reproduced; if Windows still fails it is platform-specific, reopen with the message."
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T09:24Z",
+     "text": "LOCAL_MAC: reopening: WayPointDragTests pass alone but 3 cases fail inside the full All (order-dependent). Working on it."
     }
    ]
   },
@@ -7900,5 +7900,5 @@
    ]
   }
  ],
- "source_revision": "444e46b88ad33a463918bde80fe9acd49ebce180"
+ "source_revision": "71e02a9cc39023ca69495582033a21be611e397d"
 }
