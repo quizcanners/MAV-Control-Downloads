@@ -8542,7 +8542,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T18:44Z",
-     "noted": "",
+     "noted": "2026-11-11T18:51Z",
      "progress": 100,
      "ticked": 4,
      "total": 4
@@ -8577,11 +8577,6 @@
    "notes": [
     {
      "by": "LOCAL_MAC",
-     "at": "2026-11-11T17:43Z",
-     "text": "Views 2-5 done: 1e20686be1 Chat QR window picks words from AppUpdateManager.ShareStatus; e8773b6ed0 Restream firewall RelayFirewallState (worker error only as hint); 788b65f5fa Street View TIFF words from GeoTiffBakeMetadata.State moved int"
-    },
-    {
-     "by": "LOCAL_MAC",
      "at": "2026-11-11T17:47Z",
      "text": "Hash correction (LOCAL_MAC): views 2-5 are on main as 110c86dad1 (Chat QR), a0697b8e7c (Restream firewall), 09c00cfd6d (Street View TIFF), 59ca062492 (Post Store Problem); the update notice is bbe5208cf0. The hashes in my earlier notes (1e2"
     },
@@ -8589,6 +8584,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T18:07Z",
      "text": "Views 6-7 on main: f46e48f94e Android USB / QR install inspectors take package words from AppUpdateManager.PackageWords (Phase); a0fdde4906 DJI training RC input: InputState enum set in one place, Words() in both views, keys dji.rcInput.* i"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T18:51Z",
+     "text": "View 8 done, 3495bcfd45: the MavLink trouble message names unhealthy sensors with MavLink.DroneState SensorNames (19 reported sensors, keys mavlink.sensor.* in English and Ukrainian, same index) instead of MAV_SYS_STATUS_SENSOR flag names; "
     }
    ]
   },
@@ -8992,5 +8992,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "13fb89b882cccf56c2e17739186b7301f7878c40"
+ "source_revision": "ef6980b40ee16b1d43d184acdab41b04742376a8"
 }
