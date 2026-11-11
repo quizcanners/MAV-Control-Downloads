@@ -8629,7 +8629,7 @@
     {
      "who": "CLOUD_430",
      "since": "2026-11-11T20:02Z",
-     "noted": "2026-11-11T20:02Z",
+     "noted": "2026-11-11T20:04Z",
      "progress": 0,
      "ticked": 0,
      "total": 16
@@ -8705,17 +8705,17 @@
     {
      "by": "REVIEW",
      "at": "2026-11-11T19:52Z",
-     "text": "REVIEW-441-CC-3D80-01: P3 migration re-filters the copied prefix inside its current segment. S1 investigation/S2 brief and proposed direction complete; awaits quiz before implementation. Existing owner claims/results retained; source/host c"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-11T19:52Z",
      "text": "REVIEW-441-CR-0D96-01: P3 paused native migration query records permanent Failed. S1 investigation/S2 brief and proposed direction complete; awaits quiz before implementation. Existing owner claims/results retained; source/host checks only,"
     },
     {
      "by": "CLOUD_430",
      "at": "2026-11-11T20:02Z",
      "text": "CLOUD_430 (cloud thread, quiz: do some of batch 26 in the cloud): writing 430 slice 4 steps 4 and 5 as code (LogicalMapMigration retire one segment + room check) and, if time, steps 1 and 2. Mac: do not redo these, compile them."
+    },
+    {
+     "by": "CLOUD_430",
+     "at": "2026-11-11T20:04Z",
+     "text": "CLOUD_430 summary: 430 slice 4 steps 4 and 5 on main as e8f46f98 (LogicalMapMigration.RetireNext in WebMercator_LogicalMapRetirement.cs, LogicalMapDatabase.CheckpointFull, StorageManager.HasRoomFor, room check + Waiting in Step; journal is "
     }
    ]
   },
@@ -8981,5 +8981,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0da6a8f698ce32a9cb2dd818e1a88378784ebb11"
+ "source_revision": "69917c1c4d5108560b36c117d2232ac411f7ed7f"
 }
