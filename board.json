@@ -8834,7 +8834,7 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-11T18:59Z",
-     "noted": "",
+     "noted": "2026-11-11T19:08Z",
      "progress": 0,
      "ticked": 0,
      "total": 4
@@ -8860,11 +8860,6 @@
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T18:57Z",
-     "text": "LOCAL_MAC, why (read from source, no change): the route's source codec is VideoServer.SourceVideoCodecs = StreamerManager.CodecCache.AvailableEncoderCodecs (Station_Streamer_VideoCodecs.cs:199), i.e. what Unity WebRTC's encoder factory offe"
-    },
-    {
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T15:21Z",
      "text": "CLOUD_THREAD 2026-11-11: dropped the picker's own Edit (UI_ListPicker RestreamDestination middle action); links are edited from the Restream tab's Edit button, so Back returns to the picker. Uncompiled. Video bumped for verify."
@@ -8873,6 +8868,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T16:06Z",
      "text": "LOCAL_MAC batch 19: Unity batch compile of main 14b5ba7cd9 has no errors (Tasks screen rebuild, orthophoto write state, Disk full, 403 picker, 243, 56 all compile); nothing points at the dropped RestreamDestination Edit (UI_ListPicker comme"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T19:08Z",
+     "text": "ROG_OPUS 2026-11-11 batch 19, (was 238) Restream route H.264: took compromise (b1), the smallest slice of (b). SPEC section 'H.264 on every Windows GPU' written under Link codec: ultimate design (Media Foundation hardware MFT through the OS"
     }
    ]
   },
@@ -9035,5 +9035,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "2eafb6957788a6648b8861dec6fba01a4d7ab872"
+ "source_revision": "9f2709e35747649f93ee21f13df5587e4417c070"
 }
