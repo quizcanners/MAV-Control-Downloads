@@ -6759,8 +6759,8 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T08:55Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T09:00Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -6776,6 +6776,11 @@
      "by": "cloud-thread",
      "at": "2026-11-11T08:22Z",
      "text": "Addition from quiz: global texture _GlobalLiquidGlass read only by squircle/capsule shaders; = blurred screen normally, = the sharp 2x grab in FrozenDouble (visible debug sign). quiz, 2026-11-11: \"I would also want to use that texture for L"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T09:00Z",
+     "text": "3068a802ce (on main): Station.MapRender.Decide (the four exclusive modes from the guide), FrozenRefreshDue (entry, then every 3 s), MapRenderModeTests; _GlobalLiquidGlass published with _BlurredScreen by BlurManager and read by LiquidGlassC"
     }
    ]
   },
@@ -6802,5 +6807,5 @@
    "notes": []
   }
  ],
- "source_revision": "25d6475a5bb8d1d18264c0291b06668d8de47d38"
+ "source_revision": "49573023eda8d396ef6d4b5a60142f85f6143dfb"
 }
