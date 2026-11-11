@@ -1498,11 +1498,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-08T21:59Z",
-     "text": "Investigation CR-CE1B-01 (P2 persistence): S1 source trace and S2 brief complete. ce1b7e3d7 gates periodic TrySave on SyncActive, but the explicit Inspector Save still calls it; loaded dirty data is not written when layer/recording are off."
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-09T05:50Z",
      "text": "Windows Unity compiled Enemy Logistics and EnemyLogisticsRetentionTests passed in the 522/0/0 batch. Phone Save Enemy Logistics Lags measurement still pending."
@@ -1511,6 +1506,11 @@
      "by": "GETAC",
      "at": "2026-11-09T11:36Z",
      "text": "Partial on Strong Dev 817 (2400e9b752). No Save Enemy Logistics entry in the retained startup owners or top 150 managed timing nodes; no 774 ms event reproduced. The existing Save Enemy Logistics stage calls EnemyLogistics.TrySave during ch"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T15:19Z",
+     "text": "8f41492393: Inspector Save now calls Flush (REVIEW CR-CE1B-01 suggestion), so an explicit Save writes with the layer off; periodic TrySave still skips. Left: find the 774 ms row on a phone (device capture)."
     }
    ]
   },
@@ -10246,5 +10246,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1cca872c56792a80e194427748091666e0d0c3ad"
+ "source_revision": "7f92aa7abb91c13e07558c1d2f4973e57a64a066"
 }
