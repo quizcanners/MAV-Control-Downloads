@@ -8149,7 +8149,7 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-11T21:09Z",
-     "noted": "",
+     "noted": "2026-11-11T21:41Z",
      "progress": 0,
      "ticked": 0,
      "total": 16
@@ -8224,18 +8224,18 @@
    "notes": [
     {
      "by": "REVIEW",
-     "at": "2026-11-11T20:20Z",
-     "text": "REVIEW-442-CC-E8F4-01: P3 retirement repeats the same pending-segment search for every tile. S1/S2 investigation, current/proposed snippets and simpler direction complete; awaits quiz before implementation. Migration still uncalled; source/"
+     "at": "2026-11-11T21:37Z",
+     "text": "REVIEW-443-CR-5025-01: P2 before enabling the flip: swallowed logical write failure leaves an older logical row hiding a newer accepted segment row. S1/S2 current/proposed snippets attach this failure evidence to the existing logical-only w"
     },
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T20:43Z",
-     "text": "Batch 27: no code after a14ec45a5b, so no compile pass needed; 5025e294e6 (Unity macOS compile 0 errors): step 1 gated, Writer.StartLogicalAuthority flips store.schema_version to 3 (user_version kept so older builds refuse with the typed er"
+     "by": "REVIEW",
+     "at": "2026-11-11T21:37Z",
+     "text": "REVIEW-443-RECONCILIATION: 5025e294e source-repairs CR-E8F4-01 (cursor pair after room admission) and CC-E8F4-01 (DISTINCT segment discovery); earlier notes/receipts retained. CC-3D80-01, CR-0D96-01 and CC-D4AC-01 keep their scopes; compile"
     },
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T21:13Z",
-     "text": "Batches 28/29: compile of main with Rog's 431 b2 (cccad1cb, 05b9334b, 3c0fde30) and 443: macOS Editor 0 errors, iOS build Succeeded 0 errors. Step 2 part 1 b4acd468aa: each Reader attaches tiles.sqlite as lg on a flipped master and asks it "
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T21:41Z",
+     "text": "ROG_OPUS 2026-11-11 Windows compile: C# since 3c0fde30 (b4acd468, 5025e294 and the rest) compiles; Unity Editor imported and recompiled with no error CS line; cmp.sh against 3c0fde30 and origin/main NEW ERRORS none. Roslyn first named XxHas"
     }
    ]
   },
@@ -8648,5 +8648,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ad35589358ed142cc5ade6c0dc1d66358f4781f5"
+ "source_revision": "2ad873ab08534911700b64ba150449c9422c53f2"
 }
