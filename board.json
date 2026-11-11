@@ -60,11 +60,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-11T06:54Z",
-     "text": "GETAC SV07 Bluetooth comparison: Windows first showed an unexpected PAN error. Its initial ping was Ethernet. After disconnecting Strong PAN and resetting the Windows PAN entry, Windows got a fresh DHCP lease 192.168.11.2 from 192.168.11.1."
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-11T07:09Z",
      "text": "46beacd8f0 puts Motorola Bluetooth recovery in Settings (SPEC: Connection method), in English and Ukrainian. PAN missing, PAN without usable IPv4, and unconfirmed Radio ID each have their own next step. Windows no longer selects a Bluetooth"
     },
@@ -72,6 +67,11 @@
      "by": "GETAC",
      "at": "2026-11-11T07:16Z",
      "text": "58ce49e269 adds read-only PAN interface state, selectable IPv4 count, and adapter sample generation to motorola.connection. Unity Editor C# and Android Java compiled. No new device build or reconnect was run. For the next SV07 test capture "
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-11T10:28Z",
+     "text": "GETAC built Brigade 68 Android Dev 823 from 46a76c0d3f for local Strong testing. Unity 6000.6.8f1 build exit 0 after correcting the Windows process PATH. Local APK and build report: D:/MAV_Work/Verification/Strong-Android-Dev-46a76c0d3f-202"
     }
    ]
   },
@@ -7972,7 +7972,7 @@
   },
   {
    "n": 393,
-   "name": "MavChat workflow not offered on ",
+   "name": "MavChat only on touchscreen smar",
    "done": "",
    "goal": false,
    "held": [],
@@ -7980,5 +7980,5 @@
    "notes": []
   }
  ],
- "source_revision": "e094bb0d9fb8cafc7b828995a0b9983df877be46"
+ "source_revision": "2671cd4cc2166a8aead7380b8afe4878742087db"
 }
