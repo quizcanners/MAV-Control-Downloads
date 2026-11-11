@@ -7242,7 +7242,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T12:11Z",
-     "noted": "",
+     "noted": "2026-11-11T13:47Z",
      "progress": 0,
      "ticked": 0,
      "total": 4
@@ -7268,11 +7268,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T10:33Z",
-     "text": "quiz, 2026-11-11: fullscreen video without a position is its own render mode: only the video over plain black, 'No map, no UI, nothing should be rendered'. Added to this goal as Mode.VideoOnBlack (steps 3-4); guide: _Bootstrap AGENTS 'Map r"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-11T11:15Z",
      "text": "bdcf62b0dd: Station.MapRender.Step once per frame from Singleton_GroundStation.StepMapRenderMode (LateUpdate). Interacting = finger/key/mouse within 30 s; moving = finger down and camera moving, so half drops the frame the finger lifts (0.3"
@@ -7281,6 +7276,11 @@
      "by": "REVIEW",
      "at": "2026-11-11T11:45Z",
      "text": "Investigation CC-BDCF-01, P3 resource reuse: the sharp idle grab is destroyed on leaving FrozenDouble and recreated on the next quiet entry while its option stays on. S1/S2 exact writers, existing-target retention sketch and phone-memory tr"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T13:47Z",
+     "text": "3f0b79a7d8: UI_MapBlockingBars and its strips removed from Fullscreen Video.prefab, script and its two ChatWindowLayoutTests deleted. ba20bdc168: Mode.VideoOnBlack decided first from Singleton_UI_VideoFeed.IsShown (raw view; first person of"
     }
    ]
   },
@@ -8247,5 +8247,5 @@
    "notes": []
   }
  ],
- "source_revision": "bdbf343883c4fe23564191630302186cd842f1cc"
+ "source_revision": "126c49372c8508de9bb0e90594a76f71c4153d57"
 }
