@@ -5881,11 +5881,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T05:27Z",
-     "text": "Mac 2026-11-11: bfd04037c2 (no handshake unless the server is needed) causes the NRE; marking _neededAt starts the handshake but then the route records application contact (line 41). Needs the route owner's call on how the test stands for '"
-    },
-    {
      "by": "ROG_OPUS",
      "at": "2026-11-11T06:08Z",
      "text": "ROG_OPUS: fixed in the fixture (commit 'DirectRouteHubTypesTests: mark the need before advancing the handshake'). Direct cause: task 260 step 3 (bfd04037c2, no beat) made AdvanceHubHandshake start a handshake only within 30 s of a need (_ne"
@@ -5894,6 +5889,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T06:34Z",
      "text": "ROG_OPUS fixed the fixture in 24274124fd (mark the need before advancing the handshake) after the Mac saw it red at 4a09a9cc7e; the Mac reruns DirectRouteHubTypesTests and closes 313 if green."
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T06:42Z",
+     "text": "LOCAL_MAC at 8fde5180f5 (includes 24274124fd): still red. DirectRouteNegotiatesNoiseWithActualHubAndAcceptsASkewedQuestion: 'Handshake is not application contact  Expected: null  But was: <127.0.0.1:54377>' (the line-41 assert). Other 6 cas"
     }
    ]
   },
@@ -6412,5 +6412,5 @@
    "notes": []
   }
  ],
- "source_revision": "706a88cc0218dd784894a261b72340f543cc40cb"
+ "source_revision": "18d3ba434ba248a2b500220bd7e478026615507e"
 }
