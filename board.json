@@ -5853,6 +5853,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-10T22:25Z",
      "text": "LOCAL_MAC started, no change: DirectRouteNegotiatesNoiseWithActualHubAndAcceptsASkewedQuestion throws NullReferenceException at DirectRouteHubTypesTests.cs:38 on the Mac too (current main). Start from that line."
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T05:27Z",
+     "text": "Mac 2026-11-11: bfd04037c2 (no handshake unless the server is needed) causes the NRE; marking _neededAt starts the handshake but then the route records application contact (line 41). Needs the route owner's call on how the test stands for '"
     }
    ]
   },
@@ -6168,5 +6173,5 @@
    "notes": []
   }
  ],
- "source_revision": "fb196eea3c391d4e97acc7adfdd8be461972d9d9"
+ "source_revision": "dcf5aa6bf8b63f806e37cb21f75472ad3114d0c7"
 }
