@@ -7147,11 +7147,6 @@
    "notes": [
     {
      "by": "LOCAL_MAC",
-     "at": "2026-11-11T07:28Z",
-     "text": "LOCAL_MAC batch 13: not started (needs Play with startup_measure_map_present_at_s before/after); stage-2 attempt of 2026-11-10 was reverted for the CesiumGlobeAnchor warning."
-    },
-    {
-     "by": "LOCAL_MAC",
      "at": "2026-11-11T11:41Z",
      "text": "54fb8213ec stage 2: wind, Pano360, Zoomed out, screen centre crosshair, altitude visualization, WiFi signal map moved to Overlays.unity under 'Overlays Georeference' (copy of Planet's CesiumGeoreference), AdoptOverlaysOnce hands the childre"
     },
@@ -7159,6 +7154,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T14:13Z",
      "text": "Startup with stage 2 on main (ffca071735, Mac Editor Play, project identity, two runs): startup_measure_map_present_at_s 3.987 / 2.965, ready 4.077 / 3.043, main_ui_load_s 0.090 / 0.078. The last numbers before stage 2 were 3.76 / 3.07 (202"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T15:45Z",
+     "text": "cbe8f0ee63: Station.MousePointed and VideoToMap_Utils.Decals use TryGet; MousePointed calls are ?.; every method reading Decals returns at once until Tiles Editing is there (no warning, no queue). 429b819c62: MGMT-Mouse Pointed Area and MGM"
     }
    ]
   },
@@ -10273,5 +10273,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "fa80c2819ea21ee670b9e486772b21d85cb24b08"
+ "source_revision": "c9aa88d3b71bb7c08b67c0162cabee5d20c00e36"
 }
