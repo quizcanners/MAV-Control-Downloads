@@ -3871,11 +3871,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-10T07:52Z",
-     "text": "Windows portrait Play still shows black at the MGRS physical left edge. SelectedControlEdgeFadeTests 10/10. The full Prefab_Edge_Pass_Prompt inventory, neighbor separators and removal of transitional attach-flag darkening remain open. Do no"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-10T08:53Z",
      "text": "The earlier physical MGRS seam fix remains in main. This batch did not complete the whole prefab inventory or neighbor separator pass. Keep AttachedEdges fallback until each physical edge is classified in both orientations."
     },
@@ -3883,6 +3878,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T10:09Z",
      "text": "No prefab edge changes this pass. Resume by classifying each physical edge in Portrait and Landscape before removing AttachedEdges."
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T16:40Z",
+     "text": "ROG_OPUS 2026-11-11: not reached in batch 17 (Editor time went to 411, 398, 201, 404, 405 part 1); nothing changed. Released from ROG for the next Windows Editor worker."
     }
    ]
   },
@@ -10268,5 +10268,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "6123296202b16d7a7a1fb5ac71f5ee0f90a92950"
+ "source_revision": "4e16dc74054e13e74ef85164b0b26eb6461f2f85"
 }
