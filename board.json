@@ -6568,8 +6568,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-11T06:52Z",
-     "noted": "2026-11-11T06:53Z",
-     "progress": 25,
+     "noted": "2026-11-11T07:01Z",
+     "progress": 40,
      "ticked": 0,
      "total": 0
     }
@@ -6580,6 +6580,11 @@
      "by": "HEAVY",
      "at": "2026-11-11T06:53Z",
      "text": "Windows All.xml first failure, PhysicalMouseInputTests.TouchRestoresZoomAfterMouseAndMouseInputHidesItAgain: Touch owns the scroller even with a connected mouse. Expected: True But was: False"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T07:01Z",
+     "text": "Prior failed cases pass in the Windows cohort after restoring the leaked Station.UI overlay owners (369b1fdddd, 726cd3e131, 2e670b8af7). PhysicalMouseInputTests 11 passed. XML in C:/MavControlEvidence/WorkCritical/verify-night-20261111b."
     }
    ]
   },
@@ -6707,5 +6712,5 @@
    "notes": []
   }
  ],
- "source_revision": "b869b057d0a59257c7d370382b0b9689dce90fb9"
+ "source_revision": "1dd3e530a17f7264f82c69c9249899f2f7b29199"
 }
