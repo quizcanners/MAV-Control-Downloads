@@ -3800,11 +3800,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-10T07:52Z",
-     "text": "Native SpaceWaterAndLandShowNoSunOrMoonSpecular passed on D3D11. Play screenshots include Planet from space; close Planet samples did not show a populated water mask and the Cesium near-water pose lacked a ground sample at the requested coo"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-10T08:53Z",
      "text": "Windows D3D11 SpaceWaterAndLandShowNoSunOrMoonSpecular passed again. The near and space live visual comparison with known water coverage in both renderers remains open."
     },
@@ -3812,6 +3807,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T10:09Z",
      "text": "No new visual result this pass. Cesium online and Planet coast views remain open at close and space distances, along with the targeted no-specular render test."
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-11T13:53Z",
+     "text": "Closed as verify-only (quiz, 2026-11-11: a check is a Page_Checks bump, not a task). Its look moved to page(s) Map/Planet; open leftovers, if any, are in the notes above."
     }
    ]
   },
@@ -8261,5 +8261,5 @@
    "notes": []
   }
  ],
- "source_revision": "be7c373252ff5bff20bd848ee1eb1c8dc003fdbf"
+ "source_revision": "487fcb5571e6ee14ded91a8f439df563dc9fe2ab"
 }
