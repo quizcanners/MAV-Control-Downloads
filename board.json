@@ -5765,36 +5765,6 @@
    ]
   },
   {
-   "n": 300,
-   "name": "No loading screen",
-   "done": "",
-   "goal": false,
-   "under": 362,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T11:18Z",
-     "text": "ROG_OPUS: C# part done in ae1febc7fd. Station.SoundWanted (Station_Enums.cs, beside Play): WantSounds && NotificationVolume > 0 && Android media stream not muted (ReadSystemSound via AudioManager.getStreamVolume(STREAM_MUSIC), called from S"
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T14:39Z",
-     "text": "81f083ca9a: Sounds.unity holds 'Sounds MGMT' (moved out of MGMT-Station in Bootstrap.unity, no references crossed), _sounds_Scene set, in build settings; Play: Sounds loads right after Main UI with sound on, no exceptions. Loading bar NOT m"
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T15:38Z",
-     "text": "f1db0525aa: the loading bar now lives in Bootstrap.unity under 'Loading Bar Canvas' (overlay, sort 0, below Main UI's 1/4, UI_MAIN's CanvasScaler), so it exists before Main UI; UI_MapLoadingProgressHome drives it once the Station is up; Sin"
-    }
-   ]
-  },
-  {
    "n": 301,
    "name": "MavChat reference",
    "done": "2026-11-10T17:40Z",
@@ -7023,19 +6993,19 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_LOAD_TIME",
-     "at": "2026-11-10T16:42Z",
-     "text": "Main UI split into later scenes: see the task added after this one."
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T11:18Z",
+     "text": "ROG_OPUS: C# part done in ae1febc7fd. Station.SoundWanted (Station_Enums.cs, beside Play): WantSounds && NotificationVolume > 0 && Android media stream not muted (ReadSystemSound via AudioManager.getStreamVolume(STREAM_MUSIC), called from S"
     },
     {
-     "by": "CLOUD_LOAD_TIME",
-     "at": "2026-11-10T17:04Z",
-     "text": "quiz, 2026-11-10: no loading screen; the map shows at once, the bar covers core scenes and layers, sounds load on demand (task 288, Bootstrap AGENTS 'The loading plan'). Effect here: the reveal moment is now the Map camera's frame, so start"
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T14:39Z",
+     "text": "81f083ca9a: Sounds.unity holds 'Sounds MGMT' (moved out of MGMT-Station in Bootstrap.unity, no references crossed), _sounds_Scene set, in build settings; Play: Sounds loads right after Main UI with sound on, no exceptions. Loading bar NOT m"
     },
     {
-     "by": "CLOUD_LOAD_TIME",
-     "at": "2026-11-10T17:04Z",
-     "text": "Correction: the sounds / no-loading-screen task is 300, not 288."
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T15:38Z",
+     "text": "f1db0525aa: the loading bar now lives in Bootstrap.unity under 'Loading Bar Canvas' (overlay, sort 0, below Main UI's 1/4, UI_MAIN's CanvasScaler), so it exists before Main UI; UI_MapLoadingProgressHome drives it once the Station is up; Sin"
     }
    ]
   },
@@ -8912,5 +8882,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "971d0341291f295c67ef8fcc8049991731fc0f47"
+ "source_revision": "53e5478e6f41d354573ad5c26fceaf2b286248be"
 }
