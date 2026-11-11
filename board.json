@@ -6530,8 +6530,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-11T06:52Z",
-     "noted": "2026-11-11T06:52Z",
-     "progress": 25,
+     "noted": "2026-11-11T07:01Z",
+     "progress": 40,
      "ticked": 0,
      "total": 0
     }
@@ -6542,6 +6542,11 @@
      "by": "HEAVY",
      "at": "2026-11-11T06:52Z",
      "text": "Windows All.xml first failure, PhotoEditingProjectionTests.AuthoredStopPhotoClickRechecksCurrentLocalBroadcastWithoutErasingSources: Prepare an actual selected-object photo context. Expected: True But was: False"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T07:01Z",
+     "text": "Prior failed cases pass in the Windows cohort after restoring the leaked Station.UI overlay owners (369b1fdddd, 726cd3e131, 2e670b8af7). PhotoEditingProjectionTests 19 passed. XML in C:/MavControlEvidence/WorkCritical/verify-night-20261111b"
     }
    ]
   },
@@ -6711,5 +6716,5 @@
    "notes": []
   }
  ],
- "source_revision": "6233607ef04b27960e09eac5b0438db372832b46"
+ "source_revision": "dca9e81b3936d18af7c8fab5392e037c72da8b4d"
 }
