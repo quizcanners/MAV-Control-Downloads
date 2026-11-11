@@ -5648,11 +5648,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "cloud",
-     "at": "2026-11-11T07:10Z",
-     "text": "cloud, 2026-11-11: quiz answered the _chatBackdrop question: 'For Mav Chat - ignore the Notches. But have it have padding, like Apple Maps. ... We now have UI elements guides. Use those.' So do not give _chatBackdrop a full-screen parent or"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-11T07:13Z",
      "text": "LOCAL_MAC 2026-11-11. Done: BUTTONS Bottom bar background reaches 64 past left/right/bottom (c17d314946; its chain is full-screen since 292, 510301617f); UI_TOP_MOST root stretches 0..1 (ebdd2cdf57). Left, needs quiz: (1) Singleton_NetworkM"
@@ -5661,6 +5656,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T08:26Z",
      "text": "Rule 12 review of the Mac batch 13, read on the Mac checkout (main 05f3dacd32): 292 = 510301617f, 295 = f687cd6bb0 + a5df235337, 298 = 8cfe952a0c + bfb3a12336, 294 part = 4763802527 (bottom bar) + 5d85b94257 (UI_TOP_MOST), 341 steps 1/3/4 ="
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-11T08:37Z",
+     "text": "quiz, 2026-11-11: \"Gap is ok\" (answer to the spawned-windows question): windows under Notch Offset keep their -64/+64 backdrops, no sibling backdrop roots; past a notch the gap is accepted. Recorded in UI SPEC and UI Prefabs guide. Remainin"
     }
    ]
   },
@@ -6769,5 +6769,5 @@
    "notes": []
   }
  ],
- "source_revision": "58d64c2d2d8d55de866cf44478923be7049afb93"
+ "source_revision": "30e94e051ddf9d9797e34e67dfced1f7cddee4f1"
 }
