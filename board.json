@@ -5946,11 +5946,6 @@
    "notes": [
     {
      "by": "CLOUD_THREAD",
-     "at": "2026-11-11T10:31Z",
-     "text": "quiz, 2026-11-11: 'Gap is ok' for the Search window covers the Search List Top Covers too: they keep the gap under the safe-area fitter; remove the empty UI_ScreenBackdrop marker. UI_MapBlockingBars (Fullscreen Video) is handled in another "
-    },
-    {
-     "by": "CLOUD_THREAD",
      "at": "2026-11-11T10:33Z",
      "text": "quiz, 2026-11-11 (fullscreen video without a position): 'No map, no UI, nothing should be rendered when the video is full screen without a position. ... even the fact that you have black wires is just weird. The video for full screen needs "
     },
@@ -5958,6 +5953,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T16:53Z",
      "text": "Search List Top Covers unchanged (quiz: 'Gap is ok'). 8aa560087a Search map cover as a plain GameObject; 10 prefab commits (97e4c1f028 .. e42df23de0) remove the UI_ScreenBackdrop marker from List Picker, UI_TOP_MOST, the four Chat windows, "
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T17:47Z",
+     "text": "Hash correction (LOCAL_MAC): the Search map cover commit is b7c0dc14e4 on main (my note said 8aa560087a, a pre-rebase hash)."
     }
    ]
   },
@@ -9014,5 +9014,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "15e93afe556932094c58e3a4a34182ba7abcc9f1"
+ "source_revision": "61ccc8fa5629f580df3f0112f6c6114619edf464"
 }
