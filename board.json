@@ -1755,19 +1755,19 @@
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T09:47Z",
-     "text": "ae5291a1eb: label PNG export removed (quiz, 2026-11-10: 'If no Nimbot - don't save the PNG'): Printer.Export, the Exporting/Exported states, the Storage issue, the window's ExportLabel and ExportButton field, the prefab author lines and 4 t"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-10T09:58Z",
-     "text": "Investigation CC-5265-01, P3 complexity: whole mask legacy import restarts root directory selection after each block. S1 scan and removal/stuck writers traced; S2 single-traversal suggestion/current snippet/proposed sketch, filesystem and m"
-    },
-    {
      "by": "ROG_OPUS",
      "at": "2026-11-11T09:42Z",
      "text": "ROG_OPUS 2026-11-11. Done: 009628094b Tileset/PeerVersions are rows of orthophoto_tiles.sqlite (peer_versions(peer,data), the OPV2 bytes; legacy <guid>.bin parsed, written, read back, then deleted with its empty folder; erase goes with the "
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T10:55Z",
+     "text": "Investigation CR-0096-01, P2 persistence: the new aggregate peer-history row inherits the 20 MiB tile limit; 500,000 permitted OPV2 records produced 23,000,008 bytes and host SQLITE_TOOBIG. S1/S2 peer-only format-bound suggestion/current sn"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T10:55Z",
+     "text": "Investigation CR-0096-02, P3 migration resumption: after row commit before old-file removal, restart sees the row and skips cleanup forever. S1/S2 known-path equivalent-file cleanup suggestion/current snippet/sketch await quiz; no sweep or "
     }
    ]
   },
@@ -7983,14 +7983,20 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T10:48Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T10:55Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T10:55Z",
+     "text": "3356ddf166 (on main). Direct cause: no UV1 size carrier on the Share body/overlay, so the selected capsule shader drew a full square. Deeper reason: built from a squircle button without the UI_ShadowImageSize capsules need. Seen in Editor P"
+    }
+   ]
   },
   {
    "n": 392,
@@ -8045,5 +8051,5 @@
    "notes": []
   }
  ],
- "source_revision": "0eb8c7616cd00386459f0268c6e2e1b01db0c175"
+ "source_revision": "3b50a13f20302a2c8ca96e1222897f4d54693f19"
 }
