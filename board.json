@@ -65,6 +65,11 @@
      "by": "GETAC",
      "at": "2026-11-11T06:43Z",
      "text": "GETAC follow-up on Strong Dev 822 and SV07: Wi-Fi off triggered Android IpClient on bt-pan. NetworkStack recorded DHCP Discover TX and no DHCP Offer before provisioning timeout. Wi-Fi restored. After user power-cycled SV07, PAN did not auto"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-11T06:54Z",
+     "text": "GETAC SV07 Bluetooth comparison: Windows first showed an unexpected PAN error. Its initial ping was Ethernet. After disconnecting Strong PAN and resetting the Windows PAN entry, Windows got a fresh DHCP lease 192.168.11.2 from 192.168.11.1."
     }
    ]
   },
@@ -6611,5 +6616,5 @@
    ]
   }
  ],
- "source_revision": "4cbc894cdaf7f15e8be970770ee102f027a2384f"
+ "source_revision": "c2f1b6f619ee12da174650807ed975a6eba5b40d"
 }
