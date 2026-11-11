@@ -4988,7 +4988,7 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-11T06:33Z",
-     "noted": "",
+     "noted": "2026-11-11T07:15Z",
      "progress": 100,
      "ticked": 5,
      "total": 5
@@ -5020,17 +5020,17 @@
     {
      "by": "REVIEW",
      "at": "2026-11-10T22:37Z",
-     "text": "Investigation CR-5E44-01 P1: ordinary Hello admission satisfies two legacy root-only gates, reaching service update/install and persisted release-key revocation. S1/S2 existing-root-predicate repair sketch awaits quiz; no implementation or "
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-10T22:37Z",
      "text": "REVIEW-422/CR-BFD0-01: timeout still restarts at every retry (residual P3 priority), but new retry Hello resets the handshake while Connecting and mitigates the older recovery consequence in source. Same finding, S1/S2 await quiz; CR-CA4F-0"
     },
     {
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T05:29Z",
      "text": "quiz, 2026-11-11, asked whether to delete the old Directory/Revocation/roots code and re-anchor diagnostic delegation on the root signing key (and close CR-5E44-01, plain Hello reaching root-only update and release-key revocation): \"Very co"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T07:15Z",
+     "text": "ROG_OPUS: steps 4-5 done. 38479e63df diagnostic delegation anchored on the root signing key (only the root delegates; proof signed by root.pub). 4d8d76ebc0 deleted Directory, DirectoryRemove, Revocation, RevocationReceipt (wire 3/4/8/10 ref"
     }
    ]
   },
@@ -6730,5 +6730,5 @@
    "notes": []
   }
  ],
- "source_revision": "88716258cd9f56b27b3b05961edc80841d4751cd"
+ "source_revision": "6d44d6cafb682c4b508dd82fcc7fde640db407c2"
 }
