@@ -1982,8 +1982,8 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-11T09:17Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T09:25Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -1999,6 +1999,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T10:09Z",
      "text": "No store change or measurement this pass. Resume with new-write-only routing for zoom 0\u201311 to the zoom-6 ancestor, keep catalog paths for existing tiles, add idle segment journal/companion cleanup, and capture fresh Europe pan file counts b"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T09:25Z",
+     "text": "ROG_OPUS: code done in 46a76c0d3f. ShardKey.TryForTile: zoom 6-11 key the cell of the zoom-6 ancestor, zoom 0-5 the world tile's cell (31N/AA/6_0); zoom 12+ unchanged; stored tiles keep their catalog path (reads never recompute). SqliteTile"
     }
    ]
   },
@@ -7900,5 +7905,5 @@
    ]
   }
  ],
- "source_revision": "71e02a9cc39023ca69495582033a21be611e397d"
+ "source_revision": "9ca943523e346e29657c3b1066a8b421a105558b"
 }
