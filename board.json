@@ -7922,7 +7922,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T11:00Z",
-     "noted": "",
+     "noted": "2026-11-11T11:05Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -7947,6 +7947,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T09:21Z",
      "text": "quiz, 2026-11-11, verbatim: \"The Planet Renderer shader variant for selected point / line - it makes forests/parallax increase distance - good. Have roads decrease it. Meaning forests will be less lit the flat lands, roads - more lit. This "
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T11:05Z",
+     "text": "Done 7f399adf1e. Factor: distance *= (1 + parallax01) * (1 - 0.5 * road01), a full road reads at half the distance (full Parallax and full road cancel). Same factor in the line lower-bound reject. road01 = roadBody on the ground layer, no n"
     }
    ]
   },
@@ -8075,5 +8080,5 @@
    "notes": []
   }
  ],
- "source_revision": "a36dc29baab1c10440a0c72453062f021d7c1269"
+ "source_revision": "d1a20bdd0868d196b6a2a62d01b2373920476700"
 }
