@@ -1882,48 +1882,6 @@
    ]
   },
   {
-   "n": 93,
-   "name": "Idle option holds 8 fps whenever",
-   "done": "",
-   "goal": false,
-   "held": [],
-   "steps": [
-    {
-     "t": "Remove the exceptions in code",
-     "x": true
-    },
-    {
-     "t": "cmp.sh ends NEW ERRORS: none",
-     "x": true
-    },
-    {
-     "t": "Device: option on, hands off 30 s, Diagnostics and compass FPS read 8 on charger",
-     "x": false
-    },
-    {
-     "t": "Ask quiz: reword older 2026-11-08 lines (2 fps, telemetry)",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_IDLE_FPS",
-     "at": "2026-11-09T06:05Z",
-     "text": "quiz, 2026-11-09: \"It shows target fps as 8, but diagnostics tab as 15-22. And in non-interacting mode it seems far above 8 fps. There might have been exceptions to the rule, but lets make it simple - if that option is on, we switch to 8fps"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-09T11:36Z",
-     "text": "Partial on Strong Dev 817 (2400e9b752 includes e4cc71b7). USB powered, idle enabled, after 34 s with menus closed: IdleReduced with target 8, 91 presented frames at 7.52 FPS (median 133.25 ms, max 199.78 ms). An open Performance menu switch"
-    },
-    {
-     "by": "CLOUD",
-     "at": "2026-11-10T09:16Z",
-     "text": "Decided: quiz's 2026-11-08 lines stay as written; his 2026-11-09 line already says what holds now. Nothing to ask; 'Ask quiz: reword' closed."
-    }
-   ]
-  },
-  {
    "n": 94,
    "name": "UI",
    "done": "2026-11-10T07:52Z",
@@ -7161,9 +7119,9 @@
      "who": "CLOUD_GOAL",
      "since": "2026-11-11T09:06Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 6
+     "progress": 20,
+     "ticked": 2,
+     "total": 10
     }
    ],
    "steps": [
@@ -7190,26 +7148,42 @@
     {
      "t": "iPhone check of half resolution while the camera moves: no flicker, no hitch on ",
      "x": false
+    },
+    {
+     "t": "Remove the exceptions in code",
+     "x": true
+    },
+    {
+     "t": "cmp.sh ends NEW ERRORS: none",
+     "x": true
+    },
+    {
+     "t": "Device: option on, hands off 30 s, Diagnostics and compass FPS read 8 on charger",
+     "x": false
+    },
+    {
+     "t": "Ask quiz: reword older 2026-11-08 lines (2 fps, telemetry)",
+     "x": false
     }
    ],
    "notes": [
     {
-     "by": "cloud-thread",
-     "at": "2026-11-11T08:18Z",
-     "text": "quiz settled the number: 3 seconds for the double-resolution still frame (quiz, 2026-11-11: \"3 seconds\"). Ignore the 2 s / 0.3 fps conflict in the brief; guide updated."
+     "by": "CLOUD_IDLE_FPS",
+     "at": "2026-11-09T06:05Z",
+     "text": "quiz, 2026-11-09: \"It shows target fps as 8, but diagnostics tab as 15-22. And in non-interacting mode it seems far above 8 fps. There might have been exceptions to the rule, but lets make it simple - if that option is on, we switch to 8fps"
     },
     {
-     "by": "cloud-thread",
-     "at": "2026-11-11T08:22Z",
-     "text": "Addition from quiz: global texture _GlobalLiquidGlass read only by squircle/capsule shaders; = blurred screen normally, = the sharp 2x grab in FrozenDouble (visible debug sign). quiz, 2026-11-11: \"I would also want to use that texture for L"
+     "by": "GETAC",
+     "at": "2026-11-09T11:36Z",
+     "text": "Partial on Strong Dev 817 (2400e9b752 includes e4cc71b7). USB powered, idle enabled, after 34 s with menus closed: IdleReduced with target 8, 91 presented frames at 7.52 FPS (median 133.25 ms, max 199.78 ms). An open Performance menu switch"
     },
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T09:00Z",
-     "text": "3068a802ce (on main): Station.MapRender.Decide (the four exclusive modes from the guide), FrozenRefreshDue (entry, then every 3 s), MapRenderModeTests; _GlobalLiquidGlass published with _BlurredScreen by BlurManager and read by LiquidGlassC"
+     "by": "CLOUD",
+     "at": "2026-11-10T09:16Z",
+     "text": "Decided: quiz's 2026-11-08 lines stay as written; his 2026-11-09 line already says what holds now. Nothing to ask; 'Ask quiz: reword' closed."
     }
    ]
   }
  ],
- "source_revision": "073134e187bc9dab222884b635a594112f973165"
+ "source_revision": "53a9fd389b98ce48027dd6b3aae494805aa3783d"
 }
