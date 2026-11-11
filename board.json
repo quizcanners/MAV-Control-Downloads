@@ -6017,8 +6017,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-11T06:56Z",
-     "noted": "2026-11-11T06:56Z",
-     "progress": 25,
+     "noted": "2026-11-11T07:11Z",
+     "progress": 40,
      "ticked": 0,
      "total": 0
     }
@@ -6034,6 +6034,11 @@
      "by": "HEAVY",
      "at": "2026-11-11T06:56Z",
      "text": "Windows All.xml first failure, LogisticsDistributionTests.IconsAre128PixelsAndTheirHashIsPublishedOnlyWithADurableEdit: TearDown : System.IO.IOException : The process cannot access the file 'logistics.sqlite' because it is being used by ano"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T07:11Z",
+     "text": "Windows reproduction still held logistics.sqlite after CloseReaders. Path.GetDirectoryName normalized the slash spelling while Vault indexed the original string. The same canonical folder now owns both open and close. Logistics and Record V"
     }
    ]
   },
@@ -6726,5 +6731,5 @@
    "notes": []
   }
  ],
- "source_revision": "00951102465f6c6c640cf681ee860e7cd0b0403a"
+ "source_revision": "1dbe67413aca48e46d70104134ce6f0d7d32039f"
 }
