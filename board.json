@@ -6511,8 +6511,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-11T06:51Z",
-     "noted": "2026-11-11T06:51Z",
-     "progress": 25,
+     "noted": "2026-11-11T07:01Z",
+     "progress": 40,
      "ticked": 0,
      "total": 0
     }
@@ -6523,6 +6523,11 @@
      "by": "HEAVY",
      "at": "2026-11-11T06:51Z",
      "text": "Windows All.xml first failure, PersistenceRotationPinTests.QuarantinedPointingKeepsSearchLookupButRefusesWorldInput: Expected: True But was: False"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T07:01Z",
+     "text": "Prior failed cases pass in the Windows cohort after restoring the leaked Station.UI overlay owners (369b1fdddd, 726cd3e131, 2e670b8af7). PersistenceRotationPinTests 105 passed. XML in C:/MavControlEvidence/WorkCritical/verify-night-20261111"
     }
    ]
   },
@@ -6715,5 +6720,5 @@
    "notes": []
   }
  ],
- "source_revision": "0196eaa588ad2abd339fd118250edcdd49b36eec"
+ "source_revision": "b885d2c1cf35865aab08ce7686864eccf9a70dde"
 }
