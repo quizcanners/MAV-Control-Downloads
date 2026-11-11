@@ -7175,7 +7175,50 @@
      "text": "quiz, 2026-11-11: \"This means that on first launch user should see map as fast as possible. UI and overlays load up in parallel.\" Also: \"load map only\" is a goal (quiz, 2026-11-11, see Coordination/Tasks/README.md Goals). Guides: Bootstrap "
     }
    ]
+  },
+  {
+   "n": 363,
+   "name": "GOAL",
+   "done": "",
+   "goal": true,
+   "held": [
+    {
+     "who": "CLOUD_GOAL",
+     "since": "2026-11-11T09:06Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 6
+    }
+   ],
+   "steps": [
+    {
+     "t": "Feed the live inputs (interacting, camera/pointer/situation/paint/appearance cha",
+     "x": false
+    },
+    {
+     "t": "Draw the 2x frame into a kept render texture, downscale blit to native, set MapR",
+     "x": false
+    },
+    {
+     "t": "Hold the world blur to the frozen refresh, never faster than every 3 s (task 359",
+     "x": false
+    },
+    {
+     "t": "Phone check of FrozenDouble: ms per refresh, MB of the kept target, glass turns ",
+     "x": false
+    },
+    {
+     "t": "Device: idle option on, hands off 30 s, Diagnostics and compass FPS read 8 on ch",
+     "x": false
+    },
+    {
+     "t": "iPhone check of half resolution while the camera moves: no flicker, no hitch on ",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
- "source_revision": "e027a391ad7b92836a60518001fdcac04df85d51"
+ "source_revision": "8c49f02c289743d8ac26b9302ccab39fe7b57ef3"
 }
