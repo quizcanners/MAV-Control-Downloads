@@ -3965,11 +3965,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-10T10:09Z",
-     "text": "No port change this pass. Resume with the VPN candidate path, the 14680 Windows rule, and the Android renewal path decision in Peer Video SPEC."
-    },
-    {
      "by": "ROG_OPUS",
      "at": "2026-11-10T23:13Z",
      "text": "ROG_OPUS part 1 done (commit 'Video relay on one Port, 14680'): VPN peers use host candidates only on the shared 14680 socket; a service publication's STUN sockets take system ports outbound; VideoRelayMedia_UDP = 14680 replaces the range i"
@@ -3978,6 +3973,11 @@
      "by": "REVIEW",
      "at": "2026-11-11T00:26Z",
      "text": "REVIEW-424 source review through f4a189492: relay host mux, one-port callers and old/new firewall-rule coverage inspected; no new actionable finding or complexity proposal. Static controls passed; Go/C#/Unity, real ICE/STUN/WHIP and Windows"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-11T05:29Z",
+     "text": "quiz, 2026-11-11, asked where the Android screen-share renewals ride: \"Sure\" to the Chat socket. Go: ScreenRenewal kind on the background Chat socket 14668 (C# Chat_BackgroundPacket + Java together, handed to the screen service by Binder), "
     }
    ]
   },
@@ -6173,5 +6173,5 @@
    "notes": []
   }
  ],
- "source_revision": "aedc9568a913f95beebe793ea292a020359fbebe"
+ "source_revision": "e1ebc98e3ca71aaa06b457bd27c1a4b6e3b83742"
 }
