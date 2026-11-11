@@ -555,77 +555,6 @@
    "notes": []
   },
   {
-   "n": 54,
-   "name": "Idle chat/network work grew",
-   "done": "",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Open the VPN Chat scope in the Performance menu on Lenovo, build 812",
-     "x": false
-    },
-    {
-     "t": "Find the per-frame work with no message arriving",
-     "x": false
-    },
-    {
-     "t": "Move it to message arrival or a timer slower than the 2 FPS cadence",
-     "x": false
-    },
-    {
-     "t": "Install on both phones, repeat the idle read",
-     "x": false
-    },
-    {
-     "t": "Compare with 13.24 ms Strong and 50.66 ms Lenovo in Phone_Timings.md",
-     "x": false
-    },
-    {
-     "t": "Read the Map Editing Before Camera scope in the Performance menu on Lenovo, buil",
-     "x": false
-    },
-    {
-     "t": "Find what it does per idle frame with nothing edited",
-     "x": false
-    },
-    {
-     "t": "Skip it while no edit is open, behind the existing idle policy",
-     "x": false
-    },
-    {
-     "t": "Install on Lenovo, repeat the 2 min idle read",
-     "x": false
-    },
-    {
-     "t": "Add the new row to Phone_Timings.md and compare with 64.17 ms",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "performance-review",
-     "at": "2026-11-09T00:52Z",
-     "text": "Build 814 rows (07bcf48b71) have no matched idle owner snapshot, so VPN Chat and Map Editing Before Camera are unchecked there. Next idle read must capture the top 5 idle owners, and Phone_Timings.md Owners gets them."
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-10T08:40Z",
-     "text": "Strong Dev 821 unattended KSP with live traffic, 30.032 s / 225 updates. VPN Chat 11.584 ms/update. Leading measured stages Session Maintenance 3.334, Payload Splitter Managed Update 3.150, Processing Messages 2.798, Direct USB 1.844 ms/upd"
-    },
-    {
-     "by": "CLOUD_DOABLE",
-     "at": "2026-11-11T18:43Z",
-     "text": "CLOUD_DOABLE 2026-11-11, uncompiled. Network_Manager.cs: the 4 Hz TrySendPerSessionCryptoHandshakes now runs only while some eligible peer link has no session key yet (_cryptoHandshakePending); the 5 s round recomputes it and backstops new "
-    }
-   ]
-  },
-  {
    "n": 56,
    "name": "MavChat Chat peers list",
    "done": "2026-11-11T15:25Z",
@@ -8376,23 +8305,63 @@
     {
      "t": "(was 88) Fix map pinch stalls on Android, including release (Getac Strong Test 8",
      "x": false
+    },
+    {
+     "t": "Open the VPN Chat scope in the Performance menu on Lenovo, build 812",
+     "x": false
+    },
+    {
+     "t": "Find the per-frame work with no message arriving",
+     "x": false
+    },
+    {
+     "t": "Move it to message arrival or a timer slower than the 2 FPS cadence",
+     "x": false
+    },
+    {
+     "t": "Install on both phones, repeat the idle read",
+     "x": false
+    },
+    {
+     "t": "Compare with 13.24 ms Strong and 50.66 ms Lenovo in Phone_Timings.md",
+     "x": false
+    },
+    {
+     "t": "Read the Map Editing Before Camera scope in the Performance menu on Lenovo, buil",
+     "x": false
+    },
+    {
+     "t": "Find what it does per idle frame with nothing edited",
+     "x": false
+    },
+    {
+     "t": "Skip it while no edit is open, behind the existing idle policy",
+     "x": false
+    },
+    {
+     "t": "Install on Lenovo, repeat the 2 min idle read",
+     "x": false
+    },
+    {
+     "t": "Add the new row to Phone_Timings.md and compare with 64.17 ms",
+     "x": false
     }
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-09T11:54Z",
-     "text": "Windows Unity 6000.6.8f1 isolated EditMode: WebMercatorFinestTiles (includes DrillDecisions) 281/281, IndexPaging 73/73, MemoryLedger 5/5. Standalone test_map_drill_priority.py on .NET 8 passes after harness fix d8b8d5acc7. Current-build pa"
-    },
-    {
-     "by": "CODEX_UI_OWNER",
-     "at": "2026-11-09T13:56Z",
-     "text": "Mac Editor b47481540d: cmp.sh NEW ERRORS none; DrillDecisions 17/17, MemoryLedger 5/5, IndexPaging 71 passed and two Windows-only skipped. test_map_drill_priority.py passed (dotnet 8)."
+     "by": "performance-review",
+     "at": "2026-11-09T00:52Z",
+     "text": "Build 814 rows (07bcf48b71) have no matched idle owner snapshot, so VPN Chat and Map Editing Before Camera are unchecked there. Next idle read must capture the top 5 idle owners, and Phone_Timings.md Owners gets them."
     },
     {
      "by": "GETAC",
      "at": "2026-11-10T08:40Z",
-     "text": "Pending on GETAC. ADB lists Strong only. Lenovo idle, touch wake and globe traversal plus matched long-frame CPU/fault evidence were unavailable."
+     "text": "Strong Dev 821 unattended KSP with live traffic, 30.032 s / 225 updates. VPN Chat 11.584 ms/update. Leading measured stages Session Maintenance 3.334, Payload Splitter Managed Update 3.150, Processing Messages 2.798, Direct USB 1.844 ms/upd"
+    },
+    {
+     "by": "CLOUD_DOABLE",
+     "at": "2026-11-11T18:43Z",
+     "text": "CLOUD_DOABLE 2026-11-11, uncompiled. Network_Manager.cs: the 4 Hz TrySendPerSessionCryptoHandshakes now runs only while some eligible peer link has no session key yet (_cryptoHandshakePending); the 5 s round recomputes it and backstops new "
     }
    ]
   },
@@ -8762,5 +8731,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3728be3d0d1a357f24740736e1a2ea33e97a9bde"
+ "source_revision": "fbb505d1efa254afa12e6979718960ba148e27ac"
 }
