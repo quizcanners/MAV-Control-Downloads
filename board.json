@@ -7864,14 +7864,20 @@
     {
      "who": "CLOUD_THREAD",
      "since": "2026-11-11T09:14Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T09:26Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-11T09:26Z",
+     "text": "Done 3235b321: WeeklyLedger.PendingItems staged at AcceptItems and Capture; load clears it after reading rows; SaveCache writes exactly them; FinishSave removes an entry only if still the written record; _savedItems removed. cmp.sh NEW ERRO"
+    }
+   ]
   },
   {
    "n": 387,
@@ -7902,5 +7908,5 @@
    ]
   }
  ],
- "source_revision": "4fba1735e893b1e601cab68a2f95e02a7777a100"
+ "source_revision": "cb3dfafbc639ae96de1f3510d3c6f7251758a31d"
 }
