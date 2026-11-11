@@ -5757,7 +5757,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T12:11Z",
-     "noted": "",
+     "noted": "2026-11-11T14:43Z",
      "progress": 0,
      "ticked": 0,
      "total": 4
@@ -5784,11 +5784,6 @@
    "notes": [
     {
      "by": "cloud-mapfocus",
-     "at": "2026-11-10T14:47Z",
-     "text": "quiz 2026-11-10 (verbatim in Main View SPEC, Map focus): 'this mode should also show a multi-compile that removes any light, min brightness, and Elements overlay. basically if MapFocus Mode is On return sample Texture;'"
-    },
-    {
-     "by": "cloud-mapfocus",
      "at": "2026-11-10T14:48Z",
      "text": "Cloud wrote the _MAP_FOCUS multi_compile_fragment in the 4 Planet shaders, the early return in PlanetSurface.hlsl, the keyword flip and Low/no-lights draw in PlanetRendererSession_Presentation, and stripper pairs. Uncompiled; shader-fragmen"
     },
@@ -5796,6 +5791,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T16:52Z",
      "text": "5966bf305f adds all four Planet _MAP_FOCUS shaders to ShaderPassCompilationTests and the source budget. The expanded D3D11 fixture passed 148 passes, zero errors. Clock.prefab still needs the plaque Button, black selected backing and Plug s"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T14:43Z",
+     "text": "Order checked, as HEAVY feared: with focus on, the plaque press ended it in MapFocus.Refresh (wasPressedThisFrame) and the release then called UI_Clock.OnPlaqueTapped -> Toggle, which started it again. Fixed in code (070027ad4b): the press "
     }
    ]
   },
@@ -8658,5 +8658,5 @@
    ]
   }
  ],
- "source_revision": "0c56ca9d9facb908e7f4e4a3c4290aaff6ce373a"
+ "source_revision": "7d19c2720d6dd640afa4dffe69e5348138d328e3"
 }
