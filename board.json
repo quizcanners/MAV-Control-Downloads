@@ -8376,11 +8376,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T14:16Z",
-     "text": "CLOUD_THREAD 2026-11-11: part (2) is written as Tools/PrefabEdits/vertical-tab-lines-above-below.json (18 Line rects: left-edge lines become top edge, right-edge lines bottom edge, 15 units tall); an Editor agent applies it with assets.pref"
-    },
-    {
      "by": "ROG_OPUS",
      "at": "2026-11-11T14:52Z",
      "text": "ROG_OPUS: both parts on main. (2) 6f61a23253 Vertical List Tabs lines above/below (edit file applied and deleted). (1) the move after LISTS Left was not possible: LISTS Left is adopted at runtime from Lists UI.unity into UI/UI_MAIN/Notch Of"
@@ -8389,6 +8384,11 @@
      "by": "CLOUD_META",
      "at": "2026-11-11T18:41Z",
      "text": "CLOUD_META batch 19 check (rule 12): steps (was 248), (was 397) and (was 406) are done on main (8304cff27f, 686a4b5fed..045bed2418, 6f61a23253 and the Telemetry Strip Paint canvas order) per the notes above; missing list now holds only the "
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-11T18:57Z",
+     "text": "CLOUD_THREAD 2026-11-11: left list tongue now joined to the root's right edge (flat panel side, rounded outer side, panel tint, left arrow); tap tongue, swipe root, tap open tab all hide the list, tabs stay (UI_LeftListSwipeAway; UI SPEC Le"
     }
    ]
   },
@@ -8998,5 +8998,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "db76b2ec558dd843ddb538946cbfef9d639165ff"
+ "source_revision": "3d7034f7e450756de156b7359607cfe5d7a3bead"
 }
