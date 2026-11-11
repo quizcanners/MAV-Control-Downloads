@@ -237,11 +237,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-11T05:44Z",
-     "text": "GETAC isolated EditMode All on 898ee64a66 finished with Unity exit 1. 8,518 passed, 61 failed, 8 skipped. Compared with 260324620e, 15 prior failures now pass (including all 9 trail spill cases and the Logistics SQLite case), 52 recur, and "
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-11T06:41Z",
      "text": "Fresh Windows Unity 6000.6.8f1 EditMode All at 1f8133a04b: 8,778 passed, 66 failed, 1 inconclusive, 10 skipped. All.xml SHA-256 5b54055ee703cf766a4ba5d74ce1c290095195a02ea6209ab30aa07f445728c7, C:/MavControlEvidence/WorkCritical/verify-nigh"
@@ -250,6 +245,11 @@
      "by": "HEAVY",
      "at": "2026-11-11T07:44Z",
      "text": "Fresh Windows Unity 6000.6.8f1 EditMode All at d32937fcf6: 8,838 passed, 7 failed, 1 inconclusive, 10 skipped. All.xml SHA-256 df6bb224a7c5f511150211386723dec40dd406842a7bb1b1edadb7d2332cf90a, C:/MavControlEvidence/WorkCritical/verify-night"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T08:38Z",
+     "text": "REVIEW-432: inspected 6b4fdea34..58d64c2d2, twelve documentation/coordination commits; no implementation changes, merges or new findings. Prior proposals, repairs, claims and native failures retained; source/metadata controls passed, native"
     }
    ]
   },
@@ -5950,7 +5950,16 @@
    "n": 313,
    "name": "Windows EditMode All 76ad76b6df",
    "done": "",
-   "held": [],
+   "held": [
+    {
+     "who": "LOCAL_MAC",
+     "since": "2026-11-11T08:38Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -6769,5 +6778,5 @@
    "notes": []
   }
  ],
- "source_revision": "30e94e051ddf9d9797e34e67dfced1f7cddee4f1"
+ "source_revision": "1614cd5aec1a84ebcd91c3a5ec6ce9ac26c97dba"
 }
