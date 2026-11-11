@@ -4978,11 +4978,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-10T22:25Z",
-     "text": "ROG_OPUS step 4 progress, steps 4-5 not ticked (main at the 'Guides: Hello' commit): DONE Hello admission (c4f4fe14ce; HelloChecks; app says Hello whenever its route is not Connected); deleted Forward, Join, Seen, Enroll, Reauthenticate (f4"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-10T22:37Z",
      "text": "Investigation CR-5E44-01 P1: ordinary Hello admission satisfies two legacy root-only gates, reaching service update/install and persisted release-key revocation. S1/S2 existing-root-predicate repair sketch awaits quiz; no implementation or "
@@ -4991,6 +4986,11 @@
      "by": "REVIEW",
      "at": "2026-11-10T22:37Z",
      "text": "REVIEW-422/CR-BFD0-01: timeout still restarts at every retry (residual P3 priority), but new retry Hello resets the handshake while Connecting and mitigates the older recovery consequence in source. Same finding, S1/S2 await quiz; CR-CA4F-0"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-11T05:29Z",
+     "text": "quiz, 2026-11-11, asked whether to delete the old Directory/Revocation/roots code and re-anchor diagnostic delegation on the root signing key (and close CR-5E44-01, plain Hello reaching root-only update and release-key revocation): \"Very co"
     }
    ]
   },
@@ -6173,5 +6173,5 @@
    "notes": []
   }
  ],
- "source_revision": "dcf5aa6bf8b63f806e37cb21f75472ad3114d0c7"
+ "source_revision": "aedc9568a913f95beebe793ea292a020359fbebe"
 }
