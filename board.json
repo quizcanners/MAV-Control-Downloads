@@ -357,57 +357,6 @@
    "notes": []
   },
   {
-   "n": 15,
-   "name": "Chat message detail",
-   "done": "",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Full-screen message view with Reply",
-     "x": true
-    },
-    {
-     "t": "Preview shortening",
-     "x": true
-    },
-    {
-     "t": "Long-press deletion",
-     "x": false
-    },
-    {
-     "t": "Deletion reaches every device incl. offline",
-     "x": false
-    },
-    {
-     "t": "Landscape Chat and MavChat looked at",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_UI_OWNER",
-     "at": "2026-11-08T15:18Z",
-     "text": "Reader/reply increment landed 0a7c2065fe: full-message reader with scroll and reply cue in both layouts, compact long-message preview; Unity compile, reader clipping screenshot, saved prefab bindings, cue cancellation, actual VPN serializer"
-    },
-    {
-     "by": "CODEX_UI_OWNER",
-     "at": "2026-11-08T15:30Z",
-     "text": "Focused isolated Unity EditMode run: 45 passed, 0 failed, 0 skipped (source d68e3d09b0, same Chat/test files as main 307a16913c; private identity 189f0e98b3). Original run 44/45 found an overly broad history mask assertion; 307a16913c scope"
-    },
-    {
-     "by": "CODEX_UI_OWNER",
-     "at": "2026-11-08T16:28Z",
-     "text": "Reader correction 5a9805c455 removes the ordinary Chat RectMask2D and uses existing blurred fade covers; scroll endpoints stay readable. Isolated Unity EditMode: 73 passed, 0 failed/skipped including ChatWindowLayoutTests; Roslyn no new err"
-    }
-   ]
-  },
-  {
    "n": 18,
    "name": "Investigation CC-14FA-01",
    "done": "",
@@ -1002,81 +951,6 @@
    ]
   },
   {
-   "n": 55,
-   "name": "Strong RAM grows in idle",
-   "done": "",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Sample PSS on Strong at boot, 30 s, 60 s and 120 s idle",
-     "x": false
-    },
-    {
-     "t": "Read per-owner memory (textures, tile cache, buffers) at the 120 s point",
-     "x": false
-    },
-    {
-     "t": "Name the owner holding the extra 168 MiB",
-     "x": false
-    },
-    {
-     "t": "Cap it or free it when Activity is Idle",
-     "x": false
-    },
-    {
-     "t": "Repeat the 2 min read and add the RAM change to Phone_Timings.md Owners",
-     "x": false
-    },
-    {
-     "t": "Install 812 (7990df8019) and 814 (07bcf48b71) on Strong and read PSS at the same",
-     "x": false
-    },
-    {
-     "t": "Repeat on Lenovo, off the first cold launch after upgrade",
-     "x": false
-    },
-    {
-     "t": "List commits between 812 and 814 touching textures, caches, buffers or modules l",
-     "x": false
-    },
-    {
-     "t": "Install the half-way build, read PSS, narrow to one commit",
-     "x": false
-    },
-    {
-     "t": "Name the owner holding the extra MiB and fix or free it when Activity is Idle",
-     "x": false
-    },
-    {
-     "t": "Add the new rows to Phone_Timings.md",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-10T08:40Z",
-     "text": "Strong Dev 821 same PID and pose, PSS 1837.1 to 1860.8 MiB in 120 s (+23.7); Unity tracked allocations +3990 bytes, managed +0.77 MiB, anonymous RSS +17.23 MiB. The older +168 MiB idle rise did not recur in this warm session and the owner r"
-    },
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-10T12:23Z",
-     "text": "Source read, no code change (d2f7c0fb27). WebMercator_SqliteTileStore.cs ApplyReaderMmap: '#if UNITY_EDITOR_WIN || UNITY_STANDALONE_WIN  PRAGMA mmap_size=0  #else  PRAGMA mmap_size=ReaderMmapBytes' with 'ReaderMmapBytes = 256L * 1024 * 1024"
-    },
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T17:17Z",
-     "text": "ROG_OPUS 2026-11-11: compiled on Rog after pull (main 86343846bb): Roslyn cmp.sh against 9358375a NEW ERRORS none (EXTRA_REF_DIR UnityEngine.UI, Unity.TextMeshPro, Unity.InputSystem), and the Unity Editor recompiled and reloaded with no err"
-    }
-   ]
-  },
-  {
    "n": 56,
    "name": "MavChat Chat peers list",
    "done": "2026-11-11T15:25Z",
@@ -1237,36 +1111,6 @@
    "held": [],
    "steps": [],
    "notes": []
-  },
-  {
-   "n": 64,
-   "name": "Enemy Logistics costs 774 ms and",
-   "done": "",
-   "goal": false,
-   "under": 362,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-09T11:36Z",
-     "text": "Partial on Strong Dev 817 (2400e9b752). No Save Enemy Logistics entry in the retained startup owners or top 150 managed timing nodes; no 774 ms event reproduced. The existing Save Enemy Logistics stage calls EnemyLogistics.TrySave during ch"
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T15:19Z",
-     "text": "8f41492393: Inspector Save now calls Flush (REVIEW CR-CE1B-01 suggestion), so an explicit Save writes with the layer off; periodic TrySave still skips. Left: find the 774 ms row on a phone (device capture)."
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-11T16:43Z",
-     "text": "REVIEW-439-CR-CE1B-01: Source repair reconciled: 8f4149239 explicit Save calls Flush while periodic TrySave gate stays. Actual app save/reload and identifying the 774ms phone row unrun by REVIEW; owner evidence retained. [Evidence, brief an"
-    }
-   ]
   },
   {
    "n": 65,
@@ -1517,20 +1361,6 @@
    "notes": []
   },
   {
-   "n": 79,
-   "name": "Idea",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 80,
    "name": "Note from LOCAL_MAC",
    "done": "2026-11-10T07:50Z",
@@ -1750,83 +1580,6 @@
    ]
   },
   {
-   "n": 87,
-   "name": "Under 100 files",
-   "done": "",
-   "goal": false,
-   "under": 366,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "RecordVault helper",
-     "x": true
-    },
-    {
-     "t": "OSM, trails, icons, waypoints adapters",
-     "x": true
-    },
-    {
-     "t": "Geometry, logistics, convergence, peer versions",
-     "x": false
-    },
-    {
-     "t": "Caps and Storage page file count",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T09:42Z",
-     "text": "ROG_OPUS 2026-11-11. Done: 009628094b Tileset/PeerVersions are rows of orthophoto_tiles.sqlite (peer_versions(peer,data), the OPV2 bytes; legacy <guid>.bin parsed, written, read back, then deleted with its empty folder; erase goes with the "
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-11T10:55Z",
-     "text": "Investigation CR-0096-01, P2 persistence: the new aggregate peer-history row inherits the 20 MiB tile limit; 500,000 permitted OPV2 records produced 23,000,008 bytes and host SQLITE_TOOBIG. S1/S2 peer-only format-bound suggestion/current sn"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-11T10:55Z",
-     "text": "Investigation CR-0096-02, P3 migration resumption: after row commit before old-file removal, restart sees the row and skips cleanup forever. S1/S2 known-path equivalent-file cleanup suggestion/current snippet/sketch await quiz; no sweep or "
-    }
-   ]
-  },
-  {
-   "n": 88,
-   "name": "Fix map pinch stalls on Android",
-   "done": "",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_PATCH_PREP",
-     "at": "2026-11-10T07:13Z",
-     "text": "531fa88 (cloud, uncompiled, by reading): the 237 ms Mask Demand frames fit PlanetDisplayMasks.Compose, a 256x256 Ocean+paint union rebuilt on the main thread for every donor pair in the frame an Ocean page or paint view changes; it is displ"
-    },
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-10T10:05Z",
-     "text": "ROG_FABLE 2026-11-10, retest not run: it needs the Strong on USB with Getac's native two-finger replay and SurfaceFlinger capture, and a signed Dev 822 or later. From Rog the Strong answers ping over the VPN (10.10.10.9) but TCP ADB 5555 is"
-    },
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-10T11:47Z",
-     "text": "ROG_FABLE 2026-11-10, Strong Dev 821 at rest over the VPN: one retained frame over 200 ms, boot 17 frame 114, 1034.954 ms wall, largest child 'Unmeasured / frame wait' 1005.7 ms = Rendering 998.6 (URP render on the main thread 1003.1, rende"
-    }
-   ]
-  },
-  {
    "n": 89,
    "name": "Run bash Tools/RoslynCompileDiff",
    "done": "2026-11-10T07:50Z",
@@ -2039,36 +1792,6 @@
    ]
   },
   {
-   "n": 97,
-   "name": "Web Mercator payload files",
-   "done": "",
-   "goal": false,
-   "under": 366,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "cloud-5_6",
-     "at": "2026-11-11T16:42Z",
-     "text": "Web Mercator payload segments: Choose now tries the cell's 8 newest segments before making a new file; MergeSmallSegment pours <32 MiB segments into existing ones once per writer session; store open turns empty -wal + 32 KiB -shm back to jo"
-    },
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T17:17Z",
-     "text": "ROG_OPUS 2026-11-11: compiled on Rog after pull (main 86343846bb): Roslyn cmp.sh against 9358375a NEW ERRORS none (EXTRA_REF_DIR UnityEngine.UI, Unity.TextMeshPro, Unity.InputSystem), and the Unity Editor recompiled and reloaded with no err"
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T17:24Z",
-     "text": "LOCAL_MAC: Unity 6000.6.8f1 batch compile of main 01ce5a7181 for the macOS Editor and a Unity iOS build to a folder: both 0 errors. 9114f391, c115f0ba (Storage System), d4acdf73 (Web Mercator segments/merge/journal), 1de661ee (Planet cache "
-    }
-   ]
-  },
-  {
    "n": 98,
    "name": "Skybox cubemaps cost 42 MB in th",
    "done": "2026-11-10T07:50Z",
@@ -2085,57 +1808,6 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T14:35Z",
      "text": "190ac4e046: iOS and Android override both skyboxes at 512/face, ASTC 6x6 (iOS) / ETC2 RGB (Android); SkyboxImportTests pins it (Unity 2/2). Expected build cost ~1-2 MB each instead of 18+24 MB. Left: a look of the sky (Day, Night) on a phon"
-    }
-   ]
-  },
-  {
-   "n": 99,
-   "name": "VPN messaging CPU",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Getac: cmp.sh, Lenovo idle 120 s per-type message ms/s and Heartbeat sub-stage",
-     "x": false
-    },
-    {
-     "t": "Fix the heartbeat cost the capture names",
-     "x": false
-    },
-    {
-     "t": "Check Profiles.LastCaptured is 0 on the second routine save with peers connected",
-     "x": false
-    },
-    {
-     "t": "Wire changes behind a PeerBuilds gate: one datagram per sealed message, envelope",
-     "x": false
-    },
-    {
-     "t": "Seal on the sender thread",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLAUDE_REVIEW",
-     "at": "2026-11-09T21:16Z",
-     "text": "78a6bc26a8: heartbeat overrides (SharesGPS, AllowsVideoRestream) write the flag word directly and the profile is marked changed only when the resolved flags differ from before the heartbeat, so a peer whose wire bit disagrees with the accep"
-    },
-    {
-     "by": "CLOUD_VPN_CPU",
-     "at": "2026-11-09T08:02Z",
-     "text": "Read every call of OnMAV_Control_Heartbeat (cloud, 2026-11-09): each is a few field copies, so the 41 ms is not in code that reading finds. Capture the sub-stage per task 99 step 1."
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-10T08:40Z",
-     "text": "Lenovo absent from ADB. Supplemental Strong Dev 821 sample in Performance Baseline/CPU.md ranks five message owners per second. Incoming Heartbeat 15.307 ms across 168 calls, SendHeartbeat 9.471 ms across six. The Lenovo 120 s/2 FPS and pai"
     }
    ]
   },
@@ -3123,36 +2795,6 @@
    ]
   },
   {
-   "n": 141,
-   "name": "Publish the Linux player to the ",
-   "done": "",
-   "goal": false,
-   "under": 374,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T09:10Z",
-     "text": "ROG_OPUS, 2026-11-11: Rog cannot build Linux. Installed editors C:/Unity/6000.6.0f1, 6000.6.5f1, 6000.6.8f1 (the project is on 6000.6.8f1); PlaybackEngines of 6000.6.5f1 and 6000.6.8f1 hold only AndroidPlayer and windowsstandalonesupport, n"
-    },
-    {
-     "by": "CLOUD",
-     "at": "2026-11-11T14:12Z",
-     "text": "CLOUD: the Linux build now makes its publisher key before Unity runs, as Windows and Android do: MavBuildReleaseKeys treats StandaloneLinux64 as required, and Build-Linux-Nightly.ps1 checks and creates <clone parent>/ReleaseKeys and sets th"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-11T15:17Z",
-     "text": "REVIEW-438-141: CR-4066-01 reconciled: d7adbf49a supplies Linux pre-build key preparation; gzip-tar verification still takes the existing rejection branch. Retain the original proposal awaiting quiz and native/module handoff; no build or pu"
-    }
-   ]
-  },
-  {
    "n": 142,
    "name": "Compact the Map source download ",
    "done": "2026-11-09T16:40Z",
@@ -3169,36 +2811,6 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T16:40Z",
      "text": "f0b03d895d: Vector data row 192->80 (switch left, label left-aligned beside it); Download.png icon 48 before Textures/Elevation/OSM via new CardsLayout.Row.LeadIn=56 on the Textures row (cells 141 wide). MapSourceRowOrderTests, UiRenderingT"
-    }
-   ]
-  },
-  {
-   "n": 143,
-   "name": "Menu map source",
-   "done": "",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-10T08:53Z",
-     "text": "Ran native AuthorLightingChoices with a reviewed evidence manifest. ExclusiveLightingSettingsTests measured 160-unit mode hit targets against its existing 176-unit minimum. Restored the preserved 144-only prefab; 143 remains open. Reconcile"
-    },
-    {
-     "by": "CLOUD",
-     "at": "2026-11-10T09:18Z",
-     "text": "Decided (quiz, 2026-11-10, picked A): Lighting card becomes 528 high (mode rows 184) if the bottom rail allows; check it still clears the rail, then save the prefab and rerun MAV/UI/Author lighting choice order. Record 528 in Menu SPEC item"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-10T10:05Z",
-     "text": "Native AuthorLightingChoices saved 520x528 with 184-unit hit rows and correct order. ExclusiveLightingSettingsTests reached the rail fit check but at 1440x900 CardsLayout.Place reserved only 460.8818 units between the bottom rail and Exit-o"
     }
    ]
   },
@@ -3224,31 +2836,6 @@
      "by": "HEAVY",
      "at": "2026-11-10T08:53Z",
      "text": "874df5b01d uses native PrefabEdit to place the dark rounded backing first in Map camera controls. It stretches across the card and keeps both toggles above it. Main/MapSource is bumped for the wider visual audit."
-    }
-   ]
-  },
-  {
-   "n": 145,
-   "name": "Video diagnostics",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_UI_OWNER",
-     "at": "2026-11-09T15:59Z",
-     "text": "quiz clarified: keep diagnostics, Inspector and short state representations with their child owners; the parent manager may inspect child states to select the scenario, then compose only the relevant owned representations. Guides clarified "
-    },
-    {
-     "by": "cloud-video-diag",
-     "at": "2026-11-10T12:41Z",
-     "text": "Video diagnostics now render in the Video source tab (task 235); this task keeps the presentation design only."
     }
    ]
   },
@@ -3571,26 +3158,6 @@
    ]
   },
   {
-   "n": 159,
-   "name": "Batched raycast leftovers (Coord",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-09T19:23Z",
-     "text": "Windows native stationary probe showed the shared batch and no exact Physics.Raycast/Linecast marker in exported samples. Source still retains the camera lerp getter, synchronous camera clearance, shape gizmo rebuild and other synchronous g"
-    }
-   ]
-  },
-  {
    "n": 160,
    "name": "Refactoring",
    "done": "2026-11-09T18:46Z",
@@ -3756,36 +3323,6 @@
    ]
   },
   {
-   "n": 167,
-   "name": "UI prefab pass",
-   "done": "",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-10T08:53Z",
-     "text": "The earlier physical MGRS seam fix remains in main. This batch did not complete the whole prefab inventory or neighbor separator pass. Keep AttachedEdges fallback until each physical edge is classified in both orientations."
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-10T10:09Z",
-     "text": "No prefab edge changes this pass. Resume by classifying each physical edge in Portrait and Landscape before removing AttachedEdges."
-    },
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T16:40Z",
-     "text": "ROG_OPUS 2026-11-11: not reached in batch 17 (Editor time went to 411, 398, 201, 404, 405 part 1); nothing changed. Released from ROG for the next Windows Editor worker."
-    }
-   ]
-  },
-  {
    "n": 168,
    "name": "Phone follow-up for 153",
    "done": "2026-11-10T07:50Z",
@@ -3835,66 +3372,6 @@
      "by": "HEAVY",
      "at": "2026-11-10T07:52Z",
      "text": "Windows native ChatMessageLayoutTests 36/36 on b0cd37abdc. Existing panel prefab bindings and closure stand. Own/theirs pressed pixel evidence remains on device verification 178."
-    }
-   ]
-  },
-  {
-   "n": 171,
-   "name": "Editor (Windows)",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-10T22:28Z",
-     "text": "RenderDoc 1.47 measured six RTX 5070 D3D11 Map frames (1280x720, 10/3/1 km, High and Low). Ground totals High 0.140/0.123/0.086 ms; Low 0.140/0.124/0.085 ms. Draw counts, ranges, visible texture groups and retained blur consumer costs are i"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-10T22:32Z",
-     "text": "Follow-up 791777b73e: all six Map settings now have both blur producer draws timed. The matched camera refresh captures bind the camera color attachment to the horizontal pass, then the horizontal scratch texture to the vertical pass writin"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T07:32Z",
-     "text": "Relaunched the retained D3D11 profiling player under RenderDoc 1.47. Planet Ready reported zero mask chunks, zero masked draws, zero raised draws; this profile detected live VPN peers. Closed the player before writing paint or overlay test "
-    }
-   ]
-  },
-  {
-   "n": 172,
-   "name": "Code",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "REVIEW",
-     "at": "2026-11-09T23:38Z",
-     "text": "CR-0CC1-02 P3 binding mismatch: shader reads channel floats/coarse-road floor while PlanetSurfaceKeywords.Bind and render fixtures still publish only old bits. Production draw packets are updated. Suggest updating the existing binding owner"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-09T23:38Z",
-     "text": "CR-0CC1-03 P3 integration: control-zone/wind Low readers depend on the Planet-only global publisher; online/no-session startup can use High despite saved Low. Suggest moving existing keyword publication to the common BaseMap/shader owner. S"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-11T08:06Z",
-     "text": "REVIEW-431-T172: CR-0CC1-02 source-repaired by 93dd60f4a and page-fixture 7275fc342; other shader findings and original evidence retained. Source/arithmetic checks passed; owner render receipts read, native rendering unrun by REVIEW. [Repai"
     }
    ]
   },
@@ -4214,36 +3691,6 @@
    ]
   },
   {
-   "n": 185,
-   "name": "Refactoring pass",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "REVIEW",
-     "at": "2026-11-11T04:38Z",
-     "text": "REVIEW-428: inspected 898ee64a6 (one coordination-only review-publication commit); no implementation changes, merges or new findings. Prior Board/index evidence and CR-7673-01 retained; earlier compile/native limits remain unrun. [Range and"
-    },
-    {
-     "by": "CLOUD_REFACTOR_6H",
-     "at": "2026-11-11T06:44Z",
-     "text": "Forwarders 273 to 270 (UI.ClearSelection, UI.GetHeatColor01, Distribution.Incoming); cmp.sh not run (no dotnet), Editor compile check still open"
-    },
-    {
-     "by": "CLOUD_REFACTOR_6H",
-     "at": "2026-11-11T12:45Z",
-     "text": "Forwarders 271 to 270 (GCSid.TryGetOperatorState); cmp.sh not run (no dotnet), Editor compile check still open"
-    }
-   ]
-  },
-  {
    "n": 186,
    "name": "Windows Dev 821 Getac",
    "done": "2026-11-10T08:03Z",
@@ -4362,36 +3809,6 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T13:53Z",
      "text": "Closed as verify-only (quiz, 2026-11-11: a check is a Page_Checks bump, not a task). Its look moved to page(s) Map/Planet; open leftovers, if any, are in the notes above."
-    }
-   ]
-  },
-  {
-   "n": 191,
-   "name": "Patch Preparation after the comp",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T17:29Z",
-     "text": "LOCAL_MAC 2026-11-10 evening: iPhone 16 Pro Max 'qu' shows available (paired) in devicectl, but it is locked: the developer disk image cannot mount ('device was still locked'), so no install and no reading. No 191 iPhone numbers written to "
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T17:37Z",
-     "text": "LOCAL_MAC: iPhone unlocked, has 822 (no 32a9302f GPU display mask). quiz, 2026-11-10: 'We will build over night'. Next: after the overnight iOS build (Due: build-ios), install it and take the iPhone readings (rest, pan, pinch over a coast);"
-    },
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T17:19Z",
-     "text": "ROG_OPUS 2026-11-11: compiled on Rog after pull (main 86343846bb): Roslyn cmp.sh against 9358375a NEW ERRORS none (EXTRA_REF_DIR UnityEngine.UI, Unity.TextMeshPro, Unity.InputSystem), and the Unity Editor recompiled and reloaded with no err"
     }
    ]
   },
@@ -4566,53 +3983,6 @@
    ]
   },
   {
-   "n": 199,
-   "name": "Move the build info label (briga",
-   "done": "",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Move build info label into the Main Menu prefab",
-     "x": false
-    },
-    {
-     "t": "Move own identity label (name, VPN IP, altitude) into it",
-     "x": false
-    },
-    {
-     "t": "Bind the Performance header to them in the Menu instance",
-     "x": false
-    },
-    {
-     "t": "Remove the Extended-menu gate and PerformanceReadouts from UI_TopRightButtons",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-10T10:09Z",
-     "text": "No prefab change this pass. Resume by moving build info and own identity into the Main Menu instance sourced from BUTTONS Bottom by UI_ExtendedMenuContent, then bind the performance header and remove the Extended-menu gate in UI_TopRightBut"
-    },
-    {
-     "by": "cloud-thread",
-     "at": "2026-11-10T13:23Z",
-     "text": "quiz, 2026-11-10 (on build 822, de2c96ec68): \"And it has all the Data like build number outside of Menu prefab.\" Prepared per root AGENTS.md: this is task 199 as written (both labels, not only the version); UI SPEC Right Exit Priority alrea"
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T22:09Z",
-     "text": "LOCAL_MAC looked, no change. Neither Menu prefab can hold the labels authored under the X: BUTTONS Bottom.prefab (the instance UI_ExtendedMenuContent in BUTTONS Right creates) has a 223-high bottom-stretched root with a HorizontalLayoutGrou"
-    }
-   ]
-  },
-  {
    "n": 200,
    "name": "Note from LOCAL_MAC",
    "done": "2026-11-10T08:19Z",
@@ -4774,36 +4144,6 @@
      "by": "ROG_OPUS",
      "at": "2026-11-10T20:54Z",
      "text": "Done in 94d7c14fe7 (+ Java check 1 commit after): background Chat packet kind Position (3) in Chat_BackgroundPacket.cs and MavControlBackgroundChatPacket.java; body = the tracker JSON of the ST packet, sealed with the peer's Chat keys, no i"
-    }
-   ]
-  },
-  {
-   "n": 208,
-   "name": "Video Ports (part of the video i",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "REVIEW",
-     "at": "2026-11-11T00:26Z",
-     "text": "REVIEW-424 source review through f4a189492: relay host mux, one-port callers and old/new firewall-rule coverage inspected; no new actionable finding or complexity proposal. Static controls passed; Go/C#/Unity, real ICE/STUN/WHIP and Windows"
-    },
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T05:29Z",
-     "text": "quiz, 2026-11-11, asked where the Android screen-share renewals ride: \"Sure\" to the Chat socket. Go: ScreenRenewal kind on the background Chat socket 14668 (C# Chat_BackgroundPacket + Java together, handed to the screen service by Binder), "
-    },
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T06:36Z",
-     "text": "ROG_OPUS, part 2 not built this session; design read from the code. Correction to my earlier note: MavControlScreenSharingService runs in the app's main process (AndroidManifest: no android:process), the background Chat socket 14668 lives i"
     }
    ]
   },
@@ -5021,112 +4361,6 @@
    ]
   },
   {
-   "n": 214,
-   "name": "VPNs list with switching and the",
-   "done": "",
-   "goal": false,
-   "under": 370,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Settings > VPN network > VPNs: one row per joined VPN (name, subnet, MavServer o",
-     "x": false
-    },
-    {
-     "t": "Switch by tapping a row: the Android built-in tunnel brings up that VPN's saved ",
-     "x": false
-    },
-    {
-     "t": "An Admin edits the VPN's ServerSpecs on its row; the app stamps a new Version an",
-     "x": false
-    },
-    {
-     "t": "WireGuard > People, Add device: a name only; the Admin's app makes the new devic",
-     "x": false
-    },
-    {
-     "t": "Admin or not in three states: no answer reads as can't reach the server and is a",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "REVIEW",
-     "at": "2026-11-10T21:30Z",
-     "text": "REVIEW-421/CR-CA4F-01 P2: existing Admin-discovery S1/S2 gains first-capability-before-Connected evidence; the first request can be suppressed. Owner-local unknown-Admins suggestion awaits quiz; retain 150/260 history and current work. [Ext"
-    },
-    {
-     "by": "CLOUD",
-     "at": "2026-11-11T15:00Z",
-     "text": "CLOUD: step 5 built. DirectRoute.Standing (CantReach / NotAdmin / Admin); the Admins menu hides only on NotAdmin, and CantReach shows one line and asks again every 15 s while the page is open (there is no presence beat in code any more: Net"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-11T16:43Z",
-     "text": "REVIEW-439-CR-CA4F-01: Reconciliation: three-state Admin standing/open-page retries source-repair hidden-page and first-answer traps. Original tunnel-key send-versus-delivery S1/S2 remains awaiting quiz; owner work retained. [Evidence, brie"
-    }
-   ]
-  },
-  {
-   "n": 215,
-   "name": "MavServer keeps the VPN's Server",
-   "done": "",
-   "goal": false,
-   "under": 370,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "A revoked or paused member stops being an Admin at once: their tunnel key is no ",
-     "x": true
-    },
-    {
-     "t": "Publish a MavServer release from main and update the running MavServer: no sync ",
-     "x": false
-    },
-    {
-     "t": "Specs folder inside the routing server on Port 14669: an Admin writes the VPN's ",
-     "x": false
-    },
-    {
-     "t": "The app reads the specs when the Version in a presence answer went up; an Admin'",
-     "x": false
-    },
-    {
-     "t": "Deploy WireGuard takes a subnet that none of the device's VPNs uses, in place of",
-     "x": false
-    },
-    {
-     "t": "Publish the release with the Specs folder and the subnet choice, and update the ",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T07:13Z",
-     "text": "ROG_OPUS, from 260 (2026-11-11): main's MavServer has no revocations or pauses any more (4d8d76ebc0), so step 1's 'a revoked member' now means a member removed from the WireGuard people table (Kick) or paused on the member sheet. With this "
-    },
-    {
-     "by": "CLOUD",
-     "at": "2026-11-11T14:43Z",
-     "text": "CLOUD: step 1 built. TunnelGrants.Kick tells HubRole (Removed_Optional -> HubRole.TunnelPersonRemoved, queued from the HTTP thread, applied in Hub.Tick); a kicked Admin leaves Admins and admins.txt at the next tick. RoutingServer.Tests admi"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-11T16:43Z",
-     "text": "REVIEW-439-CR-FB49-01: P2: Kick removes only the first Admin when several report the same tunnel key. S1/S2 with bounded all-match removal sketch complete; awaits quiz; step 1 and owner result retained. [Evidence, brief and limits](../Revie"
-    }
-   ]
-  },
-  {
    "n": 216,
    "name": "Diagnostics need the server's ro",
    "done": "2026-11-10T10:44Z",
@@ -5182,20 +4416,6 @@
    ]
   },
   {
-   "n": 218,
-   "name": "Note from cloud-scene-share",
-   "done": "",
-   "goal": false,
-   "under": 373,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 219,
    "name": "UI Style Sheet",
    "done": "2026-11-10T11:40Z",
@@ -5222,36 +4442,6 @@
      "by": "REVIEW",
      "at": "2026-11-10T12:24Z",
      "text": "REVIEW-413 / bounded source review: 34 commits through 48ef513e3 inspected, including custom Style Sheet source/assets, direct control visibility and the exact automatic merge. No new finding; task completion retained. Source/Git controls p"
-    }
-   ]
-  },
-  {
-   "n": 220,
-   "name": "Web Mercator and Orthophoto tile",
-   "done": "",
-   "goal": false,
-   "under": 366,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T13:47Z",
-     "text": "quiz, 2026-11-10, how the tile tombstone is applied (Record Vault SPEC, same section): 'Tombstone is basically \"Children of this tile was purged on Date D\". This will prevent it from allowing children who are older then that. And it will be"
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T13:51Z",
-     "text": "Guides updated (6574dc323b): root AGENTS.md terms (Tombstone, Dirty tombstone, Ripper drill), Data Sync AGENTS.md 'Tombstones and the Ripper drill' (the general rule with quiz's words), Web Mercator AGENTS.md and SPEC, Orthophoto SPEC, Reco"
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T07:29Z",
-     "text": "LOCAL_MAC batch 13: not started (no time left this pass)."
     }
    ]
   },
@@ -5406,66 +4596,6 @@
    ]
   },
   {
-   "n": 227,
-   "name": "One decision",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-10T21:02Z",
-     "text": "First step on main (ecb8cf39f6): Station.UI.GetCurrentOverlay() is one gated expression; the five returns above the gate and the two below it are inside DecideOverlay(), same order, kept for the frame. Next, one group per commit: the 34 pro"
-    },
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-10T23:05Z",
-     "text": "ROG_OPUS: the gate writers are done. No production code un-defines Station.UI.s_overlayCheckGate any more: one commit each for the video server grid (2), Extended layers (1), peer camera feed (1), Settings window (5) and Station_Utils_UI.cs"
-    },
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T06:23Z",
-     "text": "ROG_OPUS: the four prefab reads of DecideOverlay are gone, one commit each (Workflow selector -> Station.UI.WorkflowSelectorOpen/WorkflowSelectorShown; fullscreen video -> Station.UI.FullscreenVideoOpen via Singleton_UI_VideoFeed.Requested;"
-    }
-   ]
-  },
-  {
-   "n": 228,
-   "name": "Build offer",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_META",
-     "at": "2026-11-10T11:55Z",
-     "text": "Prompt 6 for ROG_FABLE (prompts/machine_prompts_2026-11-10g.md). quiz, 2026-11-10: the Getac has a Strong tablet, so installing this build and the hands-on readings (pan, pinch, Half-resolution on/off for 88 and 191) are the Getac's; Rog on"
-    },
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-10T12:24Z",
-     "text": "ROG_FABLE 2026-11-10: Strong 10.10.10.9 answers ping over the VPN (about 133 ms) but its build could not be read from Rog: peer_diag.py ask needs a local station (Editor in Play or a dev player) and this batch forbids the Editor on Rog, so "
-    },
-    {
-     "by": "CLOUD_META",
-     "at": "2026-11-10T13:58Z",
-     "text": "CLOUD_META 2026-11-10: batch 7 checked. Rog's notes 231 and 236 show peer_diag ask/want need a running station on the same machine, so Rog cannot read the Strong or Lenovo; the Capability_Register row said it could, now corrected. The 228 r"
-    }
-   ]
-  },
-  {
    "n": 229,
    "name": "Editor look at the Menu bottom t",
    "done": "2026-11-11T07:21Z",
@@ -5511,20 +4641,6 @@
      "text": "4df1ac67f4: the row prefab was wired right (batch probe: body gets 'Selected body 0', keyword on); the capsule shader's body pass ignored _SELECTED_BODY, so it kept blurred glass. Body now returns solid black under the keyword (no runtime b"
     }
    ]
-  },
-  {
-   "n": 231,
-   "name": "Note from ROG_FABLE",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
   },
   {
    "n": 232,
@@ -5651,20 +4767,6 @@
    ]
   },
   {
-   "n": 236,
-   "name": "Note from ROG_FABLE",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 237,
    "name": "Selecting from a list (a Drone",
    "done": "2026-11-10T16:44Z",
@@ -5688,40 +4790,6 @@
      "text": "Done in e0a5a30458: ApplySelectionInclude no longer calls Operator.BringIntoView; only the Search row's RequestFocusOnNextSelection focuses. Camera test replaced by MainCameraTouchInputTests.SelectionNeverMovesTheCameraAndASearchPickStillFo"
     }
    ]
-  },
-  {
-   "n": 238,
-   "name": "Restream route in H.264 on every",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T18:57Z",
-     "text": "LOCAL_MAC, why (read from source, no change): the route's source codec is VideoServer.SourceVideoCodecs = StreamerManager.CodecCache.AvailableEncoderCodecs (Station_Streamer_VideoCodecs.cs:199), i.e. what Unity WebRTC's encoder factory offe"
-    }
-   ]
-  },
-  {
-   "n": 239,
-   "name": "Note from LOCAL_MAC",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
   },
   {
    "n": 240,
@@ -5780,19 +4848,19 @@
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T18:50Z",
-     "text": "LOCAL_MAC: place 13 finished: Android USB invitation flow cut (AndroidJoin, InstallAndAuthenticate, InvitationOpened, name toggle), cmp.sh NEW ERRORS: none. Remaining in 241 per the file: state-in-flags outside Street View (place 7), Google"
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T06:23Z",
+     "text": "ROG_OPUS: the four prefab reads of DecideOverlay are gone, one commit each (Workflow selector -> Station.UI.WorkflowSelectorOpen/WorkflowSelectorShown; fullscreen video -> Station.UI.FullscreenVideoOpen via Singleton_UI_VideoFeed.Requested;"
     },
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T09:29Z",
-     "text": "ROG_OPUS read the three places (commit 'creeping-complexity: places 14...'). Two questions for quiz, nothing cut: (14) the diagnostics handoff to the Windows background app (~1,750 shared lines + ~3,900 in the background app, app and checks"
+     "by": "CLOUD",
+     "at": "2026-11-10T16:55Z",
+     "text": "CLOUD looked, did not start: 244 matches in 46 UI files, but about half sit in Editor Author scripts (verification and authoring blocks) and the rest are fallbacks like 'if (!group) AddComponent<CanvasGroup>()' (UI_LeftListSwipeAway, Single"
     },
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T11:29Z",
-     "text": "ROG_OPUS batch 15: place 16 read (video session flags). Cut 6a8d382af7 (three receive stats fields nothing read; WebRTC stats host check same 47 PASS). Written up, not cut (12573edc66): sender negotiation as flags; DjiDirectH264SendSession "
+     "by": "CLOUD",
+     "at": "2026-11-11T14:03Z",
+     "text": "CLOUD re-grepped: what is left in the view scripts is procedural row builders (new GameObject(...typeof(Image)) then GetComponent<Image>, UI_NotificationTongueSummary, UI_NotificationSquare, UI_LeftListSwipeAway, UI_ExpandMenu) that need a "
     }
    ]
   },
@@ -5929,40 +4997,6 @@
    ]
   },
   {
-   "n": 248,
-   "name": "Street View photo list",
-   "done": "",
-   "goal": false,
-   "under": 408,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T14:49Z",
-     "text": "8304cff27f: 'Street View Toggles' container in LISTS Left.prefab with a card backing cloned from 'Lighting black panel' (RoundedGraphic) and the two toggles as 100-high rows (VerticalLayoutGroup + ContentSizeFitter), Procedural Switch at th"
-    }
-   ]
-  },
-  {
-   "n": 249,
-   "name": "Note from codex-ui-style",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 250,
    "name": "Editor check",
    "done": "2026-11-11T13:54Z",
@@ -6074,39 +5108,6 @@
    ]
   },
   {
-   "n": 255,
-   "name": "MavChat messages show a black sq",
-   "done": "",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Read what _BlurredScreen holds under a message row in the unfolded sheet",
-     "x": false
-    },
-    {
-     "t": "Make the row show green tinted glass over the map blur per Chat SPEC",
-     "x": false
-    },
-    {
-     "t": "Bump the Chat page in Page checks",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-10T15:09Z",
-     "text": "ROG_FABLE, source read, no change (no Editor to see the rows). Findings: (1) _BlurredScreen is the world camera only (BlurManager: overlay UI is drawn after the camera, Mav Chat Sheet has no canvas of its own, it sits under the overlay Main"
-    }
-   ]
-  },
-  {
    "n": 256,
    "name": "MavChat capsule Editor look chec",
    "done": "2026-11-11T13:55Z",
@@ -6130,20 +5131,6 @@
      "text": "Closed as verify-only (quiz, 2026-11-11: a check is a Page_Checks bump, not a task). Its look moved to page(s) Chat/Routes; open leftovers, if any, are in the notes above."
     }
    ]
-  },
-  {
-   "n": 257,
-   "name": "Note from ROG_FABLE",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
   },
   {
    "n": 258,
@@ -6275,36 +5262,6 @@
      "by": "REVIEW",
      "at": "2026-11-10T15:48Z",
      "text": "Investigation CR-89CB-01, P2: with 512 tombstones, a newer peer deletion of a held live place is judged using current's old stamp and can be refused. S1 source/counterexample and S2 incoming-stamp suggestion/current/proposed snippets comple"
-    }
-   ]
-  },
-  {
-   "n": 262,
-   "name": "Drawing fade (120 s) and thicker",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-10T16:33Z",
-     "text": "Unity imported AnnotationStroke.shader with zero shader errors and compiled it in EditedShaderPassesCompileWithDefaultAndDeclaredLocalStates on D3D11. The 120 s fade and shadow appearance still need the phone page check."
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T20:24Z",
-     "text": "LOCAL_MAC Mac Unity 6000.6.8f1 at 5c02a40df6: every shader changed in the last 16 h force-reimported, ShaderUtil.ShaderHasError false and 0 messages (incl. AnnotationStroke, Pilot Track, PlanetImagery/Array/Pages/Terrain, BlurredWorld, Proj"
-    },
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T17:18Z",
-     "text": "ROG_OPUS 2026-11-11: compiled on Rog after pull (main 86343846bb): Roslyn cmp.sh against 9358375a NEW ERRORS none (EXTRA_REF_DIR UnityEngine.UI, Unity.TextMeshPro, Unity.InputSystem), and the Unity Editor recompiled and reloaded with no err"
     }
    ]
   },
@@ -6530,20 +5487,6 @@
    ]
   },
   {
-   "n": 270,
-   "name": "Note from ROG_FABLE",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 271,
    "name": "Style Sheet",
    "done": "2026-11-10T14:57Z",
@@ -6594,31 +5537,6 @@
      "by": "HEAVY",
      "at": "2026-11-10T16:33Z",
      "text": "Unity Windows EditMode MavChatSheetTests: 94 passed, no failures, one inconclusive. ASlowTwitchSelectsNoNeighborAndAFastShortFlickDoes needs 30 dp over the 24 px slop, but this Editor maps it to 18 px. The fixture compiled and the other cas"
-    }
-   ]
-  },
-  {
-   "n": 274,
-   "name": "Paint button (bottom-left",
-   "done": "",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "cloud-paint-quiet",
-     "at": "2026-11-10T15:00Z",
-     "text": "quiz, 2026-11-10, word for word: \"Paint button at the bottom left also need non-interacting variant.\" Prepared: SPEC (UI + Main View) and Visuals AGENTS updated. Needs the Editor (prefab Control entry); no Code."
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-10T16:52Z",
-     "text": "No prefab change. The wired StartPainting owner found is B_Drawing under Tools options in Processes and Timings.prefab, whereas BUTTONS Bottom no longer owns a Painting action and Drawing Paint in BUTTONS Right is an in-overlay toolbar acti"
     }
    ]
   },
@@ -6763,20 +5681,6 @@
      "text": "Done 6d209e5f01: Dark Panel opts into material colouring RGB .5 plus UI Image tint, with neutral/pointed-blue/selected-yellow reference states sharing one material. UI_PanelTint carries tint alpha separately so CanvasGroup still fades opaci"
     }
    ]
-  },
-  {
-   "n": 281,
-   "name": "Note from ROG_FABLE",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
   },
   {
    "n": 282,
@@ -6971,31 +5875,6 @@
    ]
   },
   {
-   "n": 289,
-   "name": "UI",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD",
-     "at": "2026-11-10T16:55Z",
-     "text": "CLOUD looked, did not start: 244 matches in 46 UI files, but about half sit in Editor Author scripts (verification and authoring blocks) and the rest are fallbacks like 'if (!group) AddComponent<CanvasGroup>()' (UI_LeftListSwipeAway, Single"
-    },
-    {
-     "by": "CLOUD",
-     "at": "2026-11-11T14:03Z",
-     "text": "CLOUD re-grepped: what is left in the view scripts is procedural row builders (new GameObject(...typeof(Image)) then GetComponent<Image>, UI_NotificationTongueSummary, UI_NotificationSquare, UI_LeftListSwipeAway, UI_ExpandMenu) that need a "
-    }
-   ]
-  },
-  {
    "n": 290,
    "name": "Half resolution pixel scale",
    "done": "2026-11-10T17:24Z",
@@ -7156,26 +6035,6 @@
    ]
   },
   {
-   "n": 297,
-   "name": "Editor (from 863cb3cd6c)",
-   "done": "",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T07:15Z",
-     "text": "LOCAL_MAC census (no prefab change yet): of 700 composites, 153 had an attach flag that darkened a side and no _screenEdges, so 863cb3cd6c took their dark edge away. Work list per prefab/object/side: Coordination/Handoffs/Edge_Pass_Census_2"
-    }
-   ]
-  },
-  {
    "n": 298,
    "name": "Editor (from 863cb3cd6c)",
    "done": "2026-11-11T06:59Z",
@@ -7276,34 +6135,6 @@
    ]
   },
   {
-   "n": 302,
-   "name": "Note from LOCAL_MAC",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 303,
-   "name": "Note from ROG_OPUS",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 304,
    "name": "MavChat reference",
    "done": "2026-11-10T18:15Z",
@@ -7364,40 +6195,6 @@
      "text": "Closed as verify-only (quiz, 2026-11-11: a check is a Page_Checks bump, not a task). Its look moved to page(s) Map/Planet; open leftovers, if any, are in the notes above."
     }
    ]
-  },
-  {
-   "n": 306,
-   "name": "Note from LOCAL_MAC",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T21:06Z",
-     "text": "Mac full EditMode run at b1e2c2f0e3 triaged. Fixed (mine/today): ChatComposerTests catch-up + now alert-only (fefb2406d3); DrawingStrokeTests 6 cases scaled to the 120 s fade; SelectedControlEdgeFadeTests readout count after 244. Still red,"
-    }
-   ]
-  },
-  {
-   "n": 307,
-   "name": "Note from ROG_OPUS",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
   },
   {
    "n": 308,
@@ -8082,34 +6879,6 @@
    "notes": []
   },
   {
-   "n": 337,
-   "name": "Note from LOCAL_MAC",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 338,
-   "name": "Note from HEAVY",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 340,
    "name": "Fullscreen video processing colu",
    "done": "2026-11-11T06:33Z",
@@ -8200,57 +6969,6 @@
      "by": "REVIEW",
      "at": "2026-11-11T08:06Z",
      "text": "REVIEW-431-T341: shared row/slider accordion and moved Telemetry GUID reconciled with requested design; completion/claims retained. Source/serialized controls passed; native/live ingestion unrun by REVIEW. Focused receipts do not close reop"
-    }
-   ]
-  },
-  {
-   "n": 342,
-   "name": "Built-in WireGuard on Windows (q",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Code: WindowsBridge behind IBridge on the packaged wireguard-nt driver",
-     "x": false
-    },
-    {
-     "t": "Code: one admin consent in Install here, tunnel service owned so it survives res",
-     "x": false
-    },
-    {
-     "t": "Code: Windows installer ships the driver; states shown truthfully",
-     "x": false
-    },
-    {
-     "t": "Spec and AGENTS: Windows paragraph rewritten from open to done",
-     "x": false
-    },
-    {
-     "t": "Windows PC: no WireGuard app, receive file, Install here, handshake, ping, unins",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T07:32Z",
-     "text": "Steps 1-3 remain open: connect the verified native inputs to an installed WindowsBridge, service with a protected fixed executable/config path and one explicit elevation, and report SCM plus actual driver handshake status. The current code "
-    },
-    {
-     "by": "CLOUD",
-     "at": "2026-11-11T14:02Z",
-     "text": "CLOUD read it for steps 1-2: the managed WindowsBridge needs a service host executable that calls tunnel.dll WireGuardTunnelService, an installer layout and an elevated install step, none of which exist in the repo; writing it blind would b"
-    },
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T16:40Z",
-     "text": "ROG_OPUS 2026-11-11: build part not reached in batch 17; nothing installed, no adapter touched. Starting point stands as HEAVY's 07:27Z note (verified wireguard.dll and tunnel.dll hashes) and CLOUD's 14:02Z note: a small service host exe ca"
     }
    ]
   },
@@ -8465,20 +7183,6 @@
    ]
   },
   {
-   "n": 352,
-   "name": "Note from HEAVY",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 353,
    "name": "Windows EditMode All 1f8133a04b ",
    "done": "2026-11-11T07:00Z",
@@ -8555,64 +7259,6 @@
      "by": "CLOUD",
      "at": "2026-11-11T14:04Z",
      "text": "CLOUD: four more lines as facts with cause and solution, EN+UA+code fallback, keys kept (updatesStopped, openFullscreen, placementFailed, nasaDate). Remaining Loc hits are Waiting/state lines, hints during a pick, or button captions; nothin"
-    }
-   ]
-  },
-  {
-   "n": 356,
-   "name": "Note from ROG_OPUS",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 358,
-   "name": "Note from HEAVY",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 360,
-   "name": "MavChat floating panel follow-up",
-   "done": "",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T08:46Z",
-     "text": "e33d035879 (on main): Frame fitted to the physical screen, panel padding 3% of the width on left, right and bottom (code, UI_MavChatSheet.Layout; no prefab change needed). Seen in Editor Play, portrait 996x2160 (Home, no conversation): even"
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T11:43Z",
-     "text": "LOCAL_MAC batch 15, no change: the panel's top corners ARE rounded (Floating Panel shader rounds all four, radius ~37 px at 996 wide), but at the divider line each corner sits under a side circle (pin on the left, target on the right, both "
-    },
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T13:45Z",
-     "text": "ROG_OPUS 2026-11-11, no prefab change needed, so no Page_Checks bump: (1) message bubbles already keep the monochrome blur: MessageGlass._monochromePanel_Optional is bound (guid 40aa905a) in both Chat Window_Landscape and _Portrait, which t"
     }
    ]
   },
@@ -8752,9 +7398,19 @@
     {
      "t": "first-person projection vs accumulated Orthophoto numbers (PILOT-DJI-FIRST-PERSO",
      "x": false
+    },
+    {
+     "t": "(was 405) Editor prefab pass (quiz, 2026-11-11), Drone Control: (1) Positioning ",
+     "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T16:37Z",
+     "text": "ROG_OPUS 2026-11-11: part (1) done, 68072f5d3d: the menu authored B_Button Synthetic Drone Type (inactive until the panel shows it) and it now shares 'Synthetic Drone Row' (HorizontalLayoutGroup, spacing 0, 88.65 high) with the Synthetic Dr"
+    }
+   ]
   },
   {
    "n": 365,
@@ -8853,9 +7509,61 @@
     {
      "t": "label and side circles fade while the capsule scrolls: look check (board task 25",
      "x": false
+    },
+    {
+     "t": "(was 15) Long-press deletion",
+     "x": false
+    },
+    {
+     "t": "(was 15) Deletion reaches every device incl. offline",
+     "x": false
+    },
+    {
+     "t": "(was 15) Landscape Chat and MavChat looked at",
+     "x": false
+    },
+    {
+     "t": "(was 255) Read what _BlurredScreen holds under a message row in the unfolded she",
+     "x": false
+    },
+    {
+     "t": "(was 255) Make the row show green tinted glass over the map blur per Chat SPEC",
+     "x": false
+    },
+    {
+     "t": "(was 255) Bump the Chat page in Page checks",
+     "x": false
+    },
+    {
+     "t": "(was 360) MavChat floating panel follow-up to 176 (quiz, 2026-11-11: 'For Mav Ch",
+     "x": false
+    },
+    {
+     "t": "(was 392) Chat screen and left-list swipe: (1) Landscape Chat home spacing per C",
+     "x": false
+    },
+    {
+     "t": "(was 393) Mav Chat is a device-exclusive workflow: portrait touchscreen smartpho",
+     "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-11T10:47Z",
+     "text": "CLOUD_THREAD 2026-11-11: cause of tabs vanishing after Chat found and fixed on main: the toggle read ChatOpen live while Shown/TabsShown were cached for the frame; Chat closing inside a transition after the frame's first reader made ApplyVi"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T10:59Z",
+     "text": "LOCAL_MAC step 1, stopped without a change. Seen in Editor Play 1920x1080 landscape Chat: (a) peer view: empty band of ~180 px between the search field and the first peer row (spot 1); (b) the peer list's scroll bar sits inside the row area"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T13:56Z",
+     "text": "6ea242e8e2 (RIGHT Suggestions.prefab: landscape MavChat Set my position + centre Set destination/Set my position buttons and their action-array and Sizes entries removed) and 8bc2e77aa3: Station.IsWorkflowAvailable offers Navigation only wh"
+    }
+   ]
   },
   {
    "n": 368,
@@ -8917,7 +7625,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T21:06Z",
+     "text": "Mac full EditMode run at b1e2c2f0e3 triaged. Fixed (mine/today): ChatComposerTests catch-up + now alert-only (fefb2406d3); DrawingStrokeTests 6 cases scaled to the 120 s fade; SelectedControlEdgeFadeTests readout count after 244. Still red,"
+    }
+   ]
   },
   {
    "n": 370,
@@ -8942,9 +7656,65 @@
     {
      "t": "apply a change with nixos-rebuild switch, roll back once, retire deploy.sh and i",
      "x": false
+    },
+    {
+     "t": "(was 214) Settings > VPN network > VPNs: one row per joined VPN (name, subnet, M",
+     "x": false
+    },
+    {
+     "t": "(was 214) Switch by tapping a row: the Android built-in tunnel brings up that VP",
+     "x": false
+    },
+    {
+     "t": "(was 214) An Admin edits the VPN's ServerSpecs on its row; the app stamps a new ",
+     "x": false
+    },
+    {
+     "t": "(was 214) WireGuard > People, Add device: a name only; the Admin's app makes the",
+     "x": false
+    },
+    {
+     "t": "(was 214) Admin or not in three states: no answer reads as can't reach the serve",
+     "x": false
+    },
+    {
+     "t": "(was 215) Publish a MavServer release from main and update the running MavServer",
+     "x": false
+    },
+    {
+     "t": "(was 215) Specs folder inside the routing server on Port 14669: an Admin writes ",
+     "x": false
+    },
+    {
+     "t": "(was 215) The app reads the specs when the Version in a presence answer went up;",
+     "x": false
+    },
+    {
+     "t": "(was 215) Deploy WireGuard takes a subnet that none of the device's VPNs uses, i",
+     "x": false
+    },
+    {
+     "t": "(was 215) Publish the release with the Specs folder and the subnet choice, and u",
+     "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T07:13Z",
+     "text": "ROG_OPUS, from 260 (2026-11-11): main's MavServer has no revocations or pauses any more (4d8d76ebc0), so step 1's 'a revoked member' now means a member removed from the WireGuard people table (Kick) or paused on the member sheet. With this "
+    },
+    {
+     "by": "CLOUD",
+     "at": "2026-11-11T14:43Z",
+     "text": "CLOUD: step 1 built. TunnelGrants.Kick tells HubRole (Removed_Optional -> HubRole.TunnelPersonRemoved, queued from the HTTP thread, applied in Hub.Tick); a kicked Admin leaves Admins and admins.txt at the next tick. RoutingServer.Tests admi"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T16:43Z",
+     "text": "REVIEW-439-CR-FB49-01: P2: Kick removes only the first Admin when several report the same tunnel key. S1/S2 with bounded all-match removal sketch complete; awaits quiz; step 1 and owner result retained. [Evidence, brief and limits](../Revie"
+    }
+   ]
   },
   {
    "n": 371,
@@ -8961,9 +7731,45 @@
     {
      "t": "device run, two builds 804 or newer: udp_plain_sends_over_vpn rises, receiver re",
      "x": false
+    },
+    {
+     "t": "(was 342) Code: WindowsBridge behind IBridge on the packaged wireguard-nt driver",
+     "x": false
+    },
+    {
+     "t": "(was 342) Code: one admin consent in Install here, tunnel service owned so it su",
+     "x": false
+    },
+    {
+     "t": "(was 342) Code: Windows installer ships the driver; states shown truthfully",
+     "x": false
+    },
+    {
+     "t": "(was 342) Spec and AGENTS: Windows paragraph rewritten from open to done",
+     "x": false
+    },
+    {
+     "t": "(was 342) Windows PC: no WireGuard app, receive file, Install here, handshake, p",
+     "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T07:32Z",
+     "text": "Steps 1-3 remain open: connect the verified native inputs to an installed WindowsBridge, service with a protected fixed executable/config path and one explicit elevation, and report SCM plus actual driver handshake status. The current code "
+    },
+    {
+     "by": "CLOUD",
+     "at": "2026-11-11T14:02Z",
+     "text": "CLOUD read it for steps 1-2: the managed WindowsBridge needs a service host executable that calls tunnel.dll WireGuardTunnelService, an installer layout and an elevated install step, none of which exist in the repo; writing it blind would b"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T16:40Z",
+     "text": "ROG_OPUS 2026-11-11: build part not reached in batch 17; nothing installed, no adapter touched. Starting point stands as HEAVY's 07:27Z note (verified wireguard.dll and tunnel.dll hashes) and CLOUD's 14:02Z note: a small service host exe ca"
+    }
+   ]
   },
   {
    "n": 372,
@@ -9021,9 +7827,24 @@
     {
      "t": "share a Coding scene to the affected Android on a fixed build",
      "x": false
+    },
+    {
+     "t": "(was 394) Fix Strong Android Dev 823 startup NullReferenceException in...",
+     "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD",
+     "at": "2026-11-11T14:00Z",
+     "text": "Polyline rebuild no longer reads the anchor when GetOrCreateAnchor returns null (spawner not there yet) or the anchor is gone; it keeps the rebuild request and retries next frame (Shape_Utils_Polyline.cs). cmp.sh NEW ERRORS: none. Needs the"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T15:17Z",
+     "text": "REVIEW-438-CC-7240-01 P3 complexity/performance investigation: absent-anchor retries repeat the full point alignment/conversion scan before the existing owner check. Early owner admission keeps the same request; no registry or measured hitc"
+    }
+   ]
   },
   {
    "n": 374,
@@ -9048,9 +7869,33 @@
     {
      "t": "chunked update downloads a fraction on two devices, then flip publish.py default",
      "x": false
+    },
+    {
+     "t": "(was 141) Publish the Linux player to the downloads catalog: Build-Linux-Nightly",
+     "x": false
+    },
+    {
+     "t": "(was 228) Build offer, Getac: signed Android Dev build from current main for the",
+     "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_META",
+     "at": "2026-11-10T11:55Z",
+     "text": "Prompt 6 for ROG_FABLE (prompts/machine_prompts_2026-11-10g.md). quiz, 2026-11-10: the Getac has a Strong tablet, so installing this build and the hands-on readings (pan, pinch, Half-resolution on/off for 88 and 191) are the Getac's; Rog on"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-10T12:24Z",
+     "text": "ROG_FABLE 2026-11-10: Strong 10.10.10.9 answers ping over the VPN (about 133 ms) but its build could not be read from Rog: peer_diag.py ask needs a local station (Editor in Play or a dev player) and this batch forbids the Editor on Rog, so "
+    },
+    {
+     "by": "CLOUD_META",
+     "at": "2026-11-10T13:58Z",
+     "text": "CLOUD_META 2026-11-10: batch 7 checked. Rog's notes 231 and 236 show peer_diag ask/want need a running station on the same machine, so Rog cannot read the Strong or Lenovo; the Capability_Register row said it could, now corrected. The 228 r"
+    }
+   ]
   },
   {
    "n": 375,
@@ -9306,20 +8151,6 @@
    "notes": []
   },
   {
-   "n": 384,
-   "name": "Note from LOCAL_MAC",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 385,
    "name": "Situation model batches",
    "done": "2026-11-11T09:26Z",
@@ -9408,34 +8239,6 @@
    ]
   },
   {
-   "n": 388,
-   "name": "Note from ROG_OPUS",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 389,
-   "name": "Note from LOCAL_MAC",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 390,
    "name": "UI",
    "done": "2026-11-11T10:48Z",
@@ -9472,81 +8275,6 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T10:55Z",
      "text": "3356ddf166 (on main). Direct cause: no UV1 size carrier on the Share body/overlay, so the selected capsule shader drew a full square. Deeper reason: built from a squircle button without the UI_ShadowImageSize capsules need. Seen in Editor P"
-    }
-   ]
-  },
-  {
-   "n": 392,
-   "name": "Chat screen and left-list swipe",
-   "done": "",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T10:44Z",
-     "text": "ROG_OPUS: steps 2-3 were already on main from a cloud thread (de27488115: LeftLists.SwipeAway gates the drag, Main view only), so per batch 15 I dropped my parallel commit. One difference left, if quiz wants one route: the tab tap closes wi"
-    },
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T10:47Z",
-     "text": "CLOUD_THREAD 2026-11-11: cause of tabs vanishing after Chat found and fixed on main: the toggle read ChatOpen live while Shown/TabsShown were cached for the frame; Chat closing inside a transition after the frame's first reader made ApplyVi"
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T10:59Z",
-     "text": "LOCAL_MAC step 1, stopped without a change. Seen in Editor Play 1920x1080 landscape Chat: (a) peer view: empty band of ~180 px between the search field and the first peer row (spot 1); (b) the peer list's scroll bar sits inside the row area"
-    }
-   ]
-  },
-  {
-   "n": 393,
-   "name": "Mav Chat is a device-exclusive w",
-   "done": "",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T13:56Z",
-     "text": "6ea242e8e2 (RIGHT Suggestions.prefab: landscape MavChat Set my position + centre Set destination/Set my position buttons and their action-array and Sizes entries removed) and 8bc2e77aa3: Station.IsWorkflowAvailable offers Navigation only wh"
-    }
-   ]
-  },
-  {
-   "n": 394,
-   "name": "Fix Strong Android Dev 823 start",
-   "done": "",
-   "goal": false,
-   "under": 362,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD",
-     "at": "2026-11-11T14:00Z",
-     "text": "Polyline rebuild no longer reads the anchor when GetOrCreateAnchor returns null (spawner not there yet) or the anchor is gone; it keeps the rebuild request and retries next frame (Shape_Utils_Polyline.cs). cmp.sh NEW ERRORS: none. Needs the"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-11T15:17Z",
-     "text": "REVIEW-438-CC-7240-01 P3 complexity/performance investigation: absent-anchor retries repeat the full point alignment/conversion scan before the existing owner check. Early owner admission keeps the same request; no registry or measured hitc"
     }
    ]
   },
@@ -9606,36 +8334,6 @@
    ]
   },
   {
-   "n": 397,
-   "name": "Left lists",
-   "done": "",
-   "goal": false,
-   "under": 408,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T13:42Z",
-     "text": "ROG_OPUS 2026-11-11, read and planned, not built this batch (left for the next Editor pass, nothing changed): (1) the nine lists sit in LISTS Left.prefab (6 nested List_* instances + 5 Deferred roots for Photos, Photo Folders, Waypoint Grou"
-    },
-    {
-     "by": "claude-thread",
-     "at": "2026-11-11T14:29Z",
-     "text": "List rows: code is on main (StandardRows flag on the list instancer, UI_ListRows.RowHeight 96, divider made in code). 397 and 398 should tick StandardRows on their lists in the same Editor pass; Search rows keep the row-body material as Mer"
-    },
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T15:06Z",
-     "text": "ROG_OPUS: on main. C# root mode in UI_LeftListSwipeAway (_view None = whichever list is open; hidden and raycast-off while none). Nine list prefabs (one commit each, ending 045bed2418): swipe component removed, inner canvas (and Boards' roo"
-    }
-   ]
-  },
-  {
    "n": 398,
    "name": "Search view",
    "done": "2026-11-11T15:37Z",
@@ -9666,20 +8364,6 @@
    ]
   },
   {
-   "n": 399,
-   "name": "Note from ROG_OPUS",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 400,
    "name": "Water is one tiled blue sky text",
    "done": "",
@@ -9705,59 +8389,6 @@
    ]
   },
   {
-   "n": 401,
-   "name": "Note from LOCAL_MAC",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 402,
-   "name": "Note from ROG_OPUS",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 403,
-   "name": "Restream subtab picker",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T15:21Z",
-     "text": "CLOUD_THREAD 2026-11-11: dropped the picker's own Edit (UI_ListPicker RestreamDestination middle action); links are edited from the Restream tab's Edit button, so Back returns to the picker. Uncompiled. Video bumped for verify."
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T16:06Z",
-     "text": "LOCAL_MAC batch 19: Unity batch compile of main 14b5ba7cd9 has no errors (Tasks screen rebuild, orthophoto write state, Disk full, 403 picker, 243, 56 all compile); nothing points at the dropped RestreamDestination Edit (UI_ListPicker comme"
-    }
-   ]
-  },
-  {
    "n": 404,
    "name": "Pilot workflow only",
    "done": "2026-11-11T16:34Z",
@@ -9778,51 +8409,6 @@
    ]
   },
   {
-   "n": 405,
-   "name": "Editor prefab pass (quiz",
-   "done": "",
-   "goal": false,
-   "under": 364,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T16:37Z",
-     "text": "ROG_OPUS 2026-11-11: part (1) done, 68072f5d3d: the menu authored B_Button Synthetic Drone Type (inactive until the panel shows it) and it now shares 'Synthetic Drone Row' (HorizontalLayoutGroup, spacing 0, 88.65 high) with the Synthetic Dr"
-    }
-   ]
-  },
-  {
-   "n": 406,
-   "name": "Left list tabs",
-   "done": "",
-   "goal": false,
-   "under": 408,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T14:16Z",
-     "text": "CLOUD_THREAD 2026-11-11: part (2) is written as Tools/PrefabEdits/vertical-tab-lines-above-below.json (18 Line rects: left-edge lines become top edge, right-edge lines bottom edge, 15 units tall); an Editor agent applies it with assets.pref"
-    },
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T14:52Z",
-     "text": "ROG_OPUS: both parts on main. (2) 6f61a23253 Vertical List Tabs lines above/below (edit file applied and deleted). (1) the move after LISTS Left was not possible: LISTS Left is adopted at runtime from Lists UI.unity into UI/UI_MAIN/Notch Of"
-    }
-   ]
-  },
-  {
    "n": 407,
    "name": "Main View: the map and its controls look and behave as Asset",
    "done": "",
@@ -9837,9 +8423,61 @@
     {
      "t": "every task filed under this goal is done",
      "x": false
+    },
+    {
+     "t": "(was 143) Menu map source, Lighting card: Editor runs MAV/UI/Author lighting cho",
+     "x": false
+    },
+    {
+     "t": "(was 167) UI prefab pass: dark merge only where an element touches the screen ed",
+     "x": false
+    },
+    {
+     "t": "(was 199) Move build info label into the Main Menu prefab",
+     "x": false
+    },
+    {
+     "t": "(was 199) Move own identity label (name, VPN IP, altitude) into it",
+     "x": false
+    },
+    {
+     "t": "(was 199) Bind the Performance header to them in the Menu instance",
+     "x": false
+    },
+    {
+     "t": "(was 199) Remove the Extended-menu gate and PerformanceReadouts from UI_TopRight",
+     "x": false
+    },
+    {
+     "t": "(was 274) Paint button (bottom-left, MainScreen): add its non-interacting varian",
+     "x": false
+    },
+    {
+     "t": "(was 297) Editor (from 863cb3cd6c): mark _screenEdges on every merged control th",
+     "x": false
+    },
+    {
+     "t": "(was 262) Drawing fade (120 s) and thicker shadow (8/18.5 px) pushed uncompiled ",
+     "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-10T16:33Z",
+     "text": "Unity imported AnnotationStroke.shader with zero shader errors and compiled it in EditedShaderPassesCompileWithDefaultAndDeclaredLocalStates on D3D11. The 120 s fade and shadow appearance still need the phone page check."
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T20:24Z",
+     "text": "LOCAL_MAC Mac Unity 6000.6.8f1 at 5c02a40df6: every shader changed in the last 16 h force-reimported, ShaderUtil.ShaderHasError false and 0 messages (incl. AnnotationStroke, Pilot Track, PlanetImagery/Array/Pages/Terrain, BlurredWorld, Proj"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T17:18Z",
+     "text": "ROG_OPUS 2026-11-11: compiled on Rog after pull (main 86343846bb): Roslyn cmp.sh against 9358375a NEW ERRORS none (EXTRA_REF_DIR UnityEngine.UI, Unity.TextMeshPro, Unity.InputSystem), and the Unity Editor recompiled and reloaded with no err"
+    }
+   ]
   },
   {
    "n": 408,
@@ -9856,9 +8494,37 @@
     {
      "t": "every task filed under this goal is done",
      "x": false
+    },
+    {
+     "t": "(was 248) Street View photo list: put the Autoshow and Obstacles toggles on one ",
+     "x": false
+    },
+    {
+     "t": "(was 397) Left lists, Editor part: one swipeable root for all left lists (tabs s",
+     "x": false
+    },
+    {
+     "t": "(was 406) Left list tabs, Editor part: (1) in Main UI, the Paint button (bottom-",
+     "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T15:06Z",
+     "text": "ROG_OPUS: on main. C# root mode in UI_LeftListSwipeAway (_view None = whichever list is open; hidden and raycast-off while none). Nine list prefabs (one commit each, ending 045bed2418): swipe component removed, inner canvas (and Boards' roo"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-11T14:16Z",
+     "text": "CLOUD_THREAD 2026-11-11: part (2) is written as Tools/PrefabEdits/vertical-tab-lines-above-below.json (18 Line rects: left-edge lines become top edge, right-edge lines bottom edge, 15 units tall); an Editor agent applies it with assets.pref"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T14:52Z",
+     "text": "ROG_OPUS: both parts on main. (2) 6f61a23253 Vertical List Tabs lines above/below (edit file applied and deleted). (1) the move after LISTS Left was not possible: LISTS Left is adopted at runtime from Lists UI.unity into UI/UI_MAIN/Notch Of"
+    }
+   ]
   },
   {
    "n": 409,
@@ -9879,9 +8545,19 @@
     {
      "t": "tasks for it are written when quiz names what is missing",
      "x": false
+    },
+    {
+     "t": "(was 420) Foldouts are not up to spec (UI Layout guide, 'A foldout or progress b",
+     "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T16:55Z",
+     "text": "LOCAL_MAC, no change pushed. Settings Inspector pages (goal 409) are PEGi/IMGUI: the Enter row (PlayerAndEditorGui_EnterExit IsEntered, joined BlurButton) already gives its label the free width, the progress bar uses ExpandWidth(true) (Play"
+    }
+   ]
   },
   {
    "n": 410,
@@ -9956,6 +8632,10 @@
     {
      "t": "In-app priority, Set for review, Park and Verified write back to the board",
      "x": false
+    },
+    {
+     "t": "(was 422) Tasks screen offline state is up to spec on main (cached board, one 'O",
+     "x": false
     }
    ],
    "notes": [
@@ -9965,34 +8645,6 @@
      "text": "ffb970edc3: 'Server tasks status shows the real state' done. BoardTasks.ReadState (NotRead, Reading, Answered, NoReply, BadAnswer) set by the board fetch; the Retry row prints 'No reply for N s' (from the last answer or first ask), 'Server "
     }
    ]
-  },
-  {
-   "n": 414,
-   "name": "Note from LOCAL_MAC",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 415,
-   "name": "Note from LOCAL_MAC",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
   },
   {
    "n": 416,
@@ -10013,20 +8665,6 @@
      "text": "REVIEW-439-CR-C115-01: P2: direct map replies still send to full recipients; new exclusions instead filter suppliers. S1/S2 with existing admission sketch complete; awaits quiz; storage completion retained. [Evidence, brief and limits](../R"
     }
    ]
-  },
-  {
-   "n": 417,
-   "name": "Note from LOCAL_MAC",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
   },
   {
    "n": 418,
@@ -10091,26 +8729,6 @@
    "notes": []
   },
   {
-   "n": 420,
-   "name": "Foldouts are not up to spec (UI ",
-   "done": "",
-   "goal": false,
-   "under": 409,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T16:55Z",
-     "text": "LOCAL_MAC, no change pushed. Settings Inspector pages (goal 409) are PEGi/IMGUI: the Enter row (PlayerAndEditorGui_EnterExit IsEntered, joined BlurButton) already gives its label the free width, the progress bar uses ExpandWidth(true) (Play"
-    }
-   ]
-  },
-  {
    "n": 421,
    "name": "Lists are not up to spec (UI Lay",
    "done": "",
@@ -10134,34 +8752,6 @@
    "notes": []
   },
   {
-   "n": 422,
-   "name": "Tasks screen offline state is up",
-   "done": "",
-   "goal": false,
-   "under": 412,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 423,
-   "name": "Flagged tasks are not up to spec",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 424,
    "name": "Rewrite the open tasks as gaps b",
    "done": "",
@@ -10176,32 +8766,172 @@
    "notes": []
   },
   {
-   "n": 425,
-   "name": "Note from ROG_OPUS",
+   "n": 429,
+   "name": "Performance: every device spends the least GPU, CPU, RAM and",
    "done": "",
-   "goal": false,
+   "goal": true,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
-   "notes": []
+   "steps": [
+    {
+     "t": "(was 79) Idea, no word from quiz yet (quiz, 2026-11-09: \"Not sure. Not yet proba",
+     "x": false
+    },
+    {
+     "t": "(was 99) Getac: cmp.sh, Lenovo idle 120 s per-type message ms/s and Heartbeat su",
+     "x": false
+    },
+    {
+     "t": "(was 99) Fix the heartbeat cost the capture names",
+     "x": false
+    },
+    {
+     "t": "(was 99) Check Profiles.LastCaptured is 0 on the second routine save with peers ",
+     "x": false
+    },
+    {
+     "t": "(was 99) Wire changes behind a PeerBuilds gate: one datagram per sealed message,",
+     "x": false
+    },
+    {
+     "t": "(was 99) Seal on the sender thread",
+     "x": false
+    },
+    {
+     "t": "(was 159) Batched raycast leftovers (Coordination/Refactoring/batched-raycasts.m",
+     "x": false
+    },
+    {
+     "t": "(was 171) Editor (Windows): compiled counts for the fragment baseline...",
+     "x": false
+    },
+    {
+     "t": "(was 172) Code: apply the same-picture moves from Assets/_PROJECT/Shaders/BASELI",
+     "x": false
+    },
+    {
+     "t": "(was 191) Patch Preparation after the compose allowance (478f8c5, cloud, uncompi",
+     "x": false
+    },
+    {
+     "t": "(was 64) Enemy Logistics costs 774 ms and quiz does not use it (quiz, 2026-11-08",
+     "x": false
+    },
+    {
+     "t": "(was 88) Fix map pinch stalls on Android, including release (Getac Strong Test 8",
+     "x": false
+    }
+   ],
+   "notes": [
+    {
+     "by": "CLOUD_PATCH_PREP",
+     "at": "2026-11-10T07:13Z",
+     "text": "531fa88 (cloud, uncompiled, by reading): the 237 ms Mask Demand frames fit PlanetDisplayMasks.Compose, a 256x256 Ocean+paint union rebuilt on the main thread for every donor pair in the frame an Ocean page or paint view changes; it is displ"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-10T10:05Z",
+     "text": "ROG_FABLE 2026-11-10, retest not run: it needs the Strong on USB with Getac's native two-finger replay and SurfaceFlinger capture, and a signed Dev 822 or later. From Rog the Strong answers ping over the VPN (10.10.10.9) but TCP ADB 5555 is"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-10T11:47Z",
+     "text": "ROG_FABLE 2026-11-10, Strong Dev 821 at rest over the VPN: one retained frame over 200 ms, boot 17 frame 114, 1034.954 ms wall, largest child 'Unmeasured / frame wait' 1005.7 ms = Rendering 998.6 (URP render on the main thread 1003.1, rende"
+    }
+   ]
   },
   {
-   "n": 426,
-   "name": "Web Mercator SQLite storage is n",
+   "n": 430,
+   "name": "Storage and memory stay flat: file count and RAM never grow ",
    "done": "",
-   "goal": false,
-   "under": 366,
+   "goal": true,
+   "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "(was 55) Sample PSS on Strong at boot, 30 s, 60 s and 120 s idle",
+     "x": false
+    },
+    {
+     "t": "(was 55) Read per-owner memory (textures, tile cache, buffers) at the 120 s poin",
+     "x": false
+    },
+    {
+     "t": "(was 55) Name the owner holding the extra 168 MiB",
+     "x": false
+    },
+    {
+     "t": "(was 55) Cap it or free it when Activity is Idle",
+     "x": false
+    },
+    {
+     "t": "(was 55) Repeat the 2 min read and add the RAM change to Phone_Timings.md Owners",
+     "x": false
+    },
+    {
+     "t": "(was 55) Install 812 (7990df8019) and 814 (07bcf48b71) on Strong and read PSS at",
+     "x": false
+    },
+    {
+     "t": "(was 55) Repeat on Lenovo, off the first cold launch after upgrade",
+     "x": false
+    },
+    {
+     "t": "(was 55) List commits between 812 and 814 touching textures, caches, buffers or ",
+     "x": false
+    },
+    {
+     "t": "(was 55) Install the half-way build, read PSS, narrow to one commit",
+     "x": false
+    },
+    {
+     "t": "(was 55) Name the owner holding the extra MiB and fix or free it when Activity i",
+     "x": false
+    },
+    {
+     "t": "(was 55) Add the new rows to Phone_Timings.md",
+     "x": false
+    },
+    {
+     "t": "(was 87) Geometry, logistics, convergence, peer versions",
+     "x": false
+    },
+    {
+     "t": "(was 87) Caps and Storage page file count",
+     "x": false
+    },
+    {
+     "t": "(was 97) Web Mercator payload files: 75,658 files in the Mac Editor's tiles_sumy",
+     "x": false
+    },
+    {
+     "t": "(was 220) Web Mercator and Orthophoto tile tombstones become the usual list: 512",
+     "x": false
+    },
+    {
+     "t": "(was 426) Web Mercator SQLite storage is not up to SPEC: many small geographic p",
+     "x": false
+    }
+   ],
    "notes": [
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T13:51Z",
+     "text": "Guides updated (6574dc323b): root AGENTS.md terms (Tombstone, Dirty tombstone, Ripper drill), Data Sync AGENTS.md 'Tombstones and the Ripper drill' (the general rule with quiz's words), Web Mercator AGENTS.md and SPEC, Orthophoto SPEC, Reco"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T07:29Z",
+     "text": "LOCAL_MAC batch 13: not started (no time left this pass)."
+    },
     {
      "by": "MAC_SQLITE_SPEC",
      "at": "2026-11-11T17:01Z",
@@ -10210,32 +8940,51 @@
    ]
   },
   {
-   "n": 427,
-   "name": "Note from LOCAL_MAC",
+   "n": 431,
+   "name": "Video: a drone, peer screen or camera feed shows on any peer",
    "done": "",
-   "goal": false,
+   "goal": true,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 428,
-   "name": "Note from CLOUD_META",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
+   "steps": [
+    {
+     "t": "(was 145) Video diagnostics: replace the repeated MAV Control screen/source/stat",
+     "x": false
+    },
+    {
+     "t": "(was 208) Video Ports (part of the video integration, Peer Video AGENTS): (1) Vi",
+     "x": false
+    },
+    {
+     "t": "(was 238) Restream route in H.264 on every Windows GPU (Video Restreaming SPEC, ",
+     "x": false
+    },
+    {
+     "t": "(was 403) Restream subtab picker: its own Edit (UI_ListPicker.MiddleAction) repl",
+     "x": false
+    }
+   ],
+   "notes": [
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-10T18:57Z",
+     "text": "LOCAL_MAC, why (read from source, no change): the route's source codec is VideoServer.SourceVideoCodecs = StreamerManager.CodecCache.AvailableEncoderCodecs (Station_Streamer_VideoCodecs.cs:199), i.e. what Unity WebRTC's encoder factory offe"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-11T15:21Z",
+     "text": "CLOUD_THREAD 2026-11-11: dropped the picker's own Edit (UI_ListPicker RestreamDestination middle action); links are edited from the Restream tab's Edit button, so Back returns to the picker. Uncompiled. Video bumped for verify."
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T16:06Z",
+     "text": "LOCAL_MAC batch 19: Unity batch compile of main 14b5ba7cd9 has no errors (Tasks screen rebuild, orthophoto write state, Disk full, 403 picker, 243, 56 all compile); nothing points at the dropped RestreamDestination Edit (UI_ListPicker comme"
+    }
+   ]
   }
  ],
  "verify": [
@@ -10284,5 +9033,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "87162336eab20469eb2557cdfbaf0af9c48c437d"
+ "source_revision": "bb9a99a24657150fa7f16b7f2b39da9f74532dc6"
 }
