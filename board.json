@@ -5975,8 +5975,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-11T06:55Z",
-     "noted": "2026-11-11T06:55Z",
-     "progress": 25,
+     "noted": "2026-11-11T07:10Z",
+     "progress": 40,
      "ticked": 0,
      "total": 0
     }
@@ -5987,6 +5987,11 @@
      "by": "HEAVY",
      "at": "2026-11-11T06:55Z",
      "text": "Windows All.xml first failure, GroupPhotoCheckpointPlayModeTests.CreatedPhotoSurvivesCheckpointFailureRetryAndFreshOwnerReload: SetUp : Preserve unsaved operator scene work. Expected: False But was: True"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T07:10Z",
+     "text": "The isolated Windows native fixture passed 1/1. Prior All failed before entering Play on the unsaved-scene guard. Recheck that admission in the containing All before closing."
     }
    ]
   },
@@ -6725,5 +6730,5 @@
    "notes": []
   }
  ],
- "source_revision": "745ff8004e17af379286a9ed74585b1ae30337f3"
+ "source_revision": "a69305bed9cf64ae9a9033224b88f94d38a439f0"
 }
