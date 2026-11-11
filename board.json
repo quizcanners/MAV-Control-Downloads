@@ -5511,11 +5511,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T20:00Z",
-     "text": "LOCAL_MAC with the Editor: 69ba252a00 Overlays.unity built (Build Settings after Map, set on Bootstrap's Singleton_SubScenes) with the 7 Planet children that carry no Cesium component (GEOMETRY, Geometry Boxes Grid, Drone Models, Peer Cross"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-10T20:02Z",
      "text": "REVIEW-419: source review through 69ba252a0 found no new finding; seven-root scene/reference checks passed. Existing task status and native follow-up retained. [Coverage and verification limits](../Reviews/69ba252a0.md)."
@@ -5524,6 +5519,11 @@
      "by": "REVIEW",
      "at": "2026-11-10T20:14Z",
      "text": "REVIEW-420: nine commits inspected through b84fc07a2; no new finding. Six existing decal calls change only missing-service logging. Existing status and native follow-up retained. [Evidence and limits](../Reviews/b84fc07a2.md)."
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T07:28Z",
+     "text": "LOCAL_MAC batch 13: not started (needs Play with startup_measure_map_present_at_s before/after); stage-2 attempt of 2026-11-10 was reverted for the CesiumGlobeAnchor warning."
     }
    ]
   },
@@ -6749,5 +6749,5 @@
    "notes": []
   }
  ],
- "source_revision": "e241230e8712c10ed8f820012b655d17ce2bd87a"
+ "source_revision": "91c49851149770af3f70299482a4e88f590c88f4"
 }
