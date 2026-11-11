@@ -7573,7 +7573,42 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 377,
+   "name": "GOAL",
+   "done": "",
+   "goal": true,
+   "held": [
+    {
+     "who": "CLOUD_GOALS",
+     "since": "2026-11-11T09:08Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
+   "steps": [
+    {
+     "t": "altitude.status shows fine=True state=Ready",
+     "x": false
+    },
+    {
+     "t": "line, contours and visibility prediction keep their shape, only finer",
+     "x": false
+    },
+    {
+     "t": "hide the view 6 s and show: Released, Deriving, Uploading, Ready with no spike",
+     "x": false
+    },
+    {
+     "t": "retest altitude-line curves and radio-horizon/skirt cases",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
- "source_revision": "4f8816f3594ca6dc66baaec432ca3b83fbfea55d"
+ "source_revision": "2a421cb2528c2064219a9c648468852ebc874118"
 }
