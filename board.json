@@ -607,36 +607,6 @@
    ]
   },
   {
-   "n": 35,
-   "name": "Menu > Diagnostics page for the ",
-   "done": "2026-11-08T16:48Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "heavy",
-     "at": "2026-11-08T17:17Z",
-     "text": "608eaa453a adds the routing-server row beside power values in Menu > Diagnostics > Lags > Device power. Uses VPN hub ICMP only while this page is visible, last successful ms and existing diagnostics queue PendingCount. Green tick requires a"
-    },
-    {
-     "by": "heavy",
-     "at": "2026-11-08T17:44Z",
-     "text": "Heavy follow batch on 0ba1362903: cmp.sh NEW ERRORS: none (e/a/p/m). Windows EditMode All 8515 passed, 10 failed, 8 skipped; XML SHA-256 E7DDC750DA9DD7115BE88F810DBB6A21F1F4609C2B7188AA272CB6D07CB75821 at C:/MavControlEvidence/WorkCritical/"
-    },
-    {
-     "by": "heavy",
-     "at": "2026-11-08T17:57Z",
-     "text": "PL-007 WireGuard has saved peer25 but it stayed inactive after activation, with no tunnel interface and 0/2 hub ping replies. The Editor bridge refused the connection before a command was sent. No live ping or pending-queue readout was veri"
-    }
-   ]
-  },
-  {
    "n": 37,
    "name": "Android 812 Strong idle long fra",
    "done": "",
@@ -7195,19 +7165,14 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T16:41Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T16:53Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T08:48Z",
-     "text": "LOCAL_MAC batch 14, no change: (1) UI_MapBlockingBars._content in Fullscreen Video.prefab has 0 offsets, but the prefab sits under Video UI.unity's own 'Notch Offset' (UI_SafeAreaFitter) and its root Canvas is nested, so -64/+64 there reach"
-    },
     {
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T10:31Z",
@@ -7217,6 +7182,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T10:33Z",
      "text": "quiz, 2026-11-11 (fullscreen video without a position): 'No map, no UI, nothing should be rendered when the video is full screen without a position. ... even the fact that you have black wires is just weird. The video for full screen needs "
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T16:53Z",
+     "text": "Search List Top Covers unchanged (quiz: 'Gap is ok'). 8aa560087a Search map cover as a plain GameObject; 10 prefab commits (97e4c1f028 .. e42df23de0) remove the UI_ScreenBackdrop marker from List Picker, UI_TOP_MOST, the four Chat windows, "
     }
    ]
   },
@@ -10308,5 +10278,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e4075df56dbc0a8a58c9a4c0bd00c27dd7ffbbbe"
+ "source_revision": "ed3f5d11164f6cde24b9acff3fce7371dacdb40f"
 }
