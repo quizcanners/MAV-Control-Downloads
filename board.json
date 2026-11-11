@@ -9862,19 +9862,14 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-11T15:28Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T15:36Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "claude-thread",
-     "at": "2026-11-11T11:23Z",
-     "text": "Editor step for a machine batch: in Search Query Choice.prefab (and Search Source Filter.prefab), swap the row body background to the fixed-corner-radius one (candidate: Floating Panel.mat, MAV/UI/Floating Panel; quiz: not a squircle) via t"
-    },
     {
      "by": "REVIEW",
      "at": "2026-11-11T11:45Z",
@@ -9884,6 +9879,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-11T13:08Z",
      "text": "ROG_OPUS (Editor, Play, screenshots before/after): the Floating Panel swap on 'root/Button Dark Opaque block' of both Search row prefabs changes nothing on screen, so it was reverted (not committed). Cause: that Image is the row's MergedBut"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T15:36Z",
+     "text": "ROG_OPUS 2026-11-11: Search rows on the standard row look: UI_SearchQueryView.Awake runs UseStandardRow(fixedHeight:false) on the history/suggestion rows and on every filter row it creates (03ee7f7b83); the glass frosting overlay is deleted"
     }
    ]
   },
@@ -10273,5 +10273,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "62aed2b768d6c059939f3e8d2b9959364bc69ee0"
+ "source_revision": "7d48f77358da00c7ab5f5204f32507b7d4f58523"
 }
