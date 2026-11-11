@@ -8237,6 +8237,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-11T13:42Z",
      "text": "ROG_OPUS 2026-11-11, read and planned, not built this batch (left for the next Editor pass, nothing changed): (1) the nine lists sit in LISTS Left.prefab (6 nested List_* instances + 5 Deferred roots for Photos, Photo Folders, Waypoint Grou"
+    },
+    {
+     "by": "claude-thread",
+     "at": "2026-11-11T14:29Z",
+     "text": "List rows: code is on main (StandardRows flag on the list instancer, UI_ListRows.RowHeight 96, divider made in code). 397 and 398 should tick StandardRows on their lists in the same Editor pass; Search rows keep the row-body material as Mer"
     }
    ]
   },
@@ -8460,5 +8465,5 @@
    "notes": []
   }
  ],
- "source_revision": "64536cb730f6bc0d142f26ffacd77b8d44a172ba"
+ "source_revision": "5fd8d50124ed0b2490dd09c708cde4d9284c3698"
 }
