@@ -420,36 +420,6 @@
    ]
   },
   {
-   "n": 37,
-   "name": "Android 812 Strong idle long fra",
-   "done": "",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-10T10:23Z",
-     "text": "ROG_FABLE 2026-11-10 (quiz: 'Editor in Play'): still no owner named, for a new reason. With the Rog Editor in Play as the station: (1) the route to the MavServer never connected, 247 presences in 30 s and 0 answers; cause and fix in b9c5113"
-    },
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-10T10:44Z",
-     "text": "57f3b686a7 closes the gap named above (board 216): once the deployer's device and the Strong run a build with it, the Strong's LongFrame records reach the server and any device can read them. Until then read them on the deployer's device. N"
-    },
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-10T11:47Z",
-     "text": "ROG_FABLE 2026-11-10, Strong over the VPN: server.diagnostics on the Strong says supported=False pending=60 retained=60 local_checkpoint_issue=AwaitingIdentity, and vpn.routing says Connecting with 125,862 presences sent and 1 answered. The"
-    }
-   ]
-  },
-  {
    "n": 39,
    "name": "Note from cloud-camera-follow",
    "done": "2026-11-10T07:50Z",
@@ -8382,7 +8352,7 @@
    "name": "Performance: every device spends the least GPU, CPU, RAM and",
    "done": "",
    "goal": true,
-   "under": 0,
+   "under": 363,
    "ticks": [],
    "priority": "normal",
    "parked": false,
@@ -8440,19 +8410,19 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_PATCH_PREP",
-     "at": "2026-11-10T07:13Z",
-     "text": "531fa88 (cloud, uncompiled, by reading): the 237 ms Mask Demand frames fit PlanetDisplayMasks.Compose, a 256x256 Ocean+paint union rebuilt on the main thread for every donor pair in the frame an Ocean page or paint view changes; it is displ"
+     "by": "ROG_FABLE",
+     "at": "2026-11-10T10:23Z",
+     "text": "ROG_FABLE 2026-11-10 (quiz: 'Editor in Play'): still no owner named, for a new reason. With the Rog Editor in Play as the station: (1) the route to the MavServer never connected, 247 presences in 30 s and 0 answers; cause and fix in b9c5113"
     },
     {
      "by": "ROG_FABLE",
-     "at": "2026-11-10T10:05Z",
-     "text": "ROG_FABLE 2026-11-10, retest not run: it needs the Strong on USB with Getac's native two-finger replay and SurfaceFlinger capture, and a signed Dev 822 or later. From Rog the Strong answers ping over the VPN (10.10.10.9) but TCP ADB 5555 is"
+     "at": "2026-11-10T10:44Z",
+     "text": "57f3b686a7 closes the gap named above (board 216): once the deployer's device and the Strong run a build with it, the Strong's LongFrame records reach the server and any device can read them. Until then read them on the deployer's device. N"
     },
     {
      "by": "ROG_FABLE",
      "at": "2026-11-10T11:47Z",
-     "text": "ROG_FABLE 2026-11-10, Strong Dev 821 at rest over the VPN: one retained frame over 200 ms, boot 17 frame 114, 1034.954 ms wall, largest child 'Unmeasured / frame wait' 1005.7 ms = Rendering 998.6 (URP render on the main thread 1003.1, rende"
+     "text": "ROG_FABLE 2026-11-10, Strong over the VPN: server.diagnostics on the Strong says supported=False pending=60 retained=60 local_checkpoint_issue=AwaitingIdentity, and vpn.routing says Connecting with 125,862 presences sent and 1 answered. The"
     }
    ]
   },
@@ -8822,5 +8792,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "72c94c0783e51da905feac66b7f91f89e154081a"
+ "source_revision": "76c1c6d35b05c83acb3c3f09e82e53eaac889223"
 }
