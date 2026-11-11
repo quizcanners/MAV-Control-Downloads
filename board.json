@@ -7096,6 +7096,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T08:46Z",
      "text": "e33d035879 (on main): Frame fitted to the physical screen, panel padding 3% of the width on left, right and bottom (code, UI_MavChatSheet.Layout; no prefab change needed). Seen in Editor Play, portrait 996x2160 (Home, no conversation): even"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T11:43Z",
+     "text": "LOCAL_MAC batch 15, no change: the panel's top corners ARE rounded (Floating Panel shader rounds all four, radius ~37 px at 996 wide), but at the divider line each corner sits under a side circle (pin on the left, target on the right, both "
     }
    ]
   },
@@ -8054,7 +8059,16 @@
    "name": "Left lists",
    "done": "",
    "goal": false,
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-11T11:43Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -8092,5 +8106,5 @@
    "notes": []
   }
  ],
- "source_revision": "028bc5e5f8a5c62d92476f92975316f1031eac64"
+ "source_revision": "da103c87c1dc489c52048108ac748bca299f38b3"
 }
