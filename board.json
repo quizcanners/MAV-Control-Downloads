@@ -7471,11 +7471,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLOUD_LOAD_TIME",
-     "at": "2026-11-10T17:25Z",
-     "text": "Correction: quiz's line \"Just delete them silently\" answered a question about unreadable map tiles, not sound. For sound only \"Volume 0 == sound off. Also of system is muted.\" applies; a sound asked for while off or before the scene is ther"
-    },
-    {
      "by": "ROG_OPUS",
      "at": "2026-11-11T11:18Z",
      "text": "ROG_OPUS: C# part done in ae1febc7fd. Station.SoundWanted (Station_Enums.cs, beside Play): WantSounds && NotificationVolume > 0 && Android media stream not muted (ReadSystemSound via AudioManager.getStreamVolume(STREAM_MUSIC), called from S"
@@ -7484,6 +7479,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T14:39Z",
      "text": "81f083ca9a: Sounds.unity holds 'Sounds MGMT' (moved out of MGMT-Station in Bootstrap.unity, no references crossed), _sounds_Scene set, in build settings; Play: Sounds loads right after Main UI with sound on, no exceptions. Loading bar NOT m"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T15:38Z",
+     "text": "f1db0525aa: the loading bar now lives in Bootstrap.unity under 'Loading Bar Canvas' (overlay, sort 0, below Main UI's 1/4, UI_MAIN's CanvasScaler), so it exists before Main UI; UI_MapLoadingProgressHome drives it once the Station is up; Sin"
     }
    ]
   },
@@ -10273,5 +10273,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5d68bee63f7afae88b2172225b496db82a989872"
+ "source_revision": "fa80c2819ea21ee670b9e486772b21d85cb24b08"
 }
