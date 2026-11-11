@@ -5624,19 +5624,14 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T07:07Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T07:13Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T17:28Z",
-     "text": "LOCAL_MAC, Unity batch report of every UI_ScreenBackdrop (no change): 13 backdrops in Chat QR Window L/P, Chat Window L/P, Search Query L/P, Selected Name Overlay, List Picker, Distribution Window (2), UI_TOP_MOST (Hex Transition, Red Filte"
-    },
     {
      "by": "LOCAL_MAC",
      "at": "2026-11-10T20:06Z",
@@ -5646,6 +5641,11 @@
      "by": "cloud",
      "at": "2026-11-11T07:10Z",
      "text": "cloud, 2026-11-11: quiz answered the _chatBackdrop question: 'For Mav Chat - ignore the Notches. But have it have padding, like Apple Maps. ... We now have UI elements guides. Use those.' So do not give _chatBackdrop a full-screen parent or"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T07:13Z",
+     "text": "LOCAL_MAC 2026-11-11. Done: BUTTONS Bottom bar background reaches 64 past left/right/bottom (c17d314946; its chain is full-screen since 292, 510301617f); UI_TOP_MOST root stretches 0..1 (ebdd2cdf57). Left, needs quiz: (1) Singleton_NetworkM"
     }
    ]
   },
@@ -6719,5 +6719,5 @@
    "notes": []
   }
  ],
- "source_revision": "7dde41f1a64653ae21f61cc42a2492ef9161d399"
+ "source_revision": "b5ca2598e9ec702681a5838bce7edb39a184578e"
 }
