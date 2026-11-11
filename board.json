@@ -3980,19 +3980,14 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-11T06:35Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T06:36Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-10T23:13Z",
-     "text": "ROG_OPUS part 1 done (commit 'Video relay on one Port, 14680'): VPN peers use host candidates only on the shared 14680 socket; a service publication's STUN sockets take system ports outbound; VideoRelayMedia_UDP = 14680 replaces the range i"
-    },
     {
      "by": "REVIEW",
      "at": "2026-11-11T00:26Z",
@@ -4002,6 +3997,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T05:29Z",
      "text": "quiz, 2026-11-11, asked where the Android screen-share renewals ride: \"Sure\" to the Chat socket. Go: ScreenRenewal kind on the background Chat socket 14668 (C# Chat_BackgroundPacket + Java together, handed to the screen service by Binder), "
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T06:36Z",
+     "text": "ROG_OPUS, part 2 not built this session; design read from the code. Correction to my earlier note: MavControlScreenSharingService runs in the app's main process (AndroidManifest: no android:process), the background Chat socket 14668 lives i"
     }
    ]
   },
@@ -6366,5 +6366,5 @@
    "notes": []
   }
  ],
- "source_revision": "faf50f8c9cb5e51d9da383e5ecd5ea9cf347241f"
+ "source_revision": "8869c1a2135b58201eba7cce8fe8e10ea470d5e5"
 }
