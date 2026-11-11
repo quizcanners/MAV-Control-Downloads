@@ -2112,19 +2112,14 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T21:03Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T21:08Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "REVIEW",
-     "at": "2026-11-09T15:07Z",
-     "text": "CR-AE26-01 P2: S1 investigation and S2 brief complete. Two stale-lock waiters can delete a new live lock and both enter cmp.sh; exact shell-block race reproduced, ordinary live-holder control passed. Fail-fast stale-lock sketch awaits quiz "
-    },
     {
      "by": "LOCAL_MAC",
      "at": "2026-11-10T08:34Z",
@@ -2134,6 +2129,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-10T10:49Z",
      "text": "LOCAL_MAC 2026-11-10: cmp.sh flake seen again with identical trees (HEAD == origin/main 46aff44c23, clean): NEW ERRORS: 2 in the p set only (UI_AltitudeScroll.cs CS0246 IPointerDownHandler / IPointerUpHandler), a rerun gave none. So the Edi"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T21:08Z",
+     "text": "1db3ae0585: cmp.sh compiles a configuration once more when it reports new errors and reports the second answer (phantom errors seen once never repeated on rerun; a real error shows both times); a checker run that exits nonzero (the 'Abort t"
     }
    ]
   },
@@ -8652,5 +8652,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "7b98ec87f601dc12be2c2f33b10d252f85a59e48"
+ "source_revision": "e1466a746bb63b85b6cf00873fd1349c38b4cc88"
 }
