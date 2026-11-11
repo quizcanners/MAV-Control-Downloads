@@ -5899,11 +5899,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T08:37Z",
-     "text": "quiz, 2026-11-11: \"Gap is ok\" (answer to the spawned-windows question): windows under Notch Offset keep their -64/+64 backdrops, no sibling backdrop roots; past a notch the gap is accepted. Recorded in UI SPEC and UI Prefabs guide. Remainin"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-11T08:48Z",
      "text": "LOCAL_MAC batch 14, no change: (1) UI_MapBlockingBars._content in Fullscreen Video.prefab has 0 offsets, but the prefab sits under Video UI.unity's own 'Notch Offset' (UI_SafeAreaFitter) and its root Canvas is nested, so -64/+64 there reach"
@@ -5912,6 +5907,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T10:31Z",
      "text": "quiz, 2026-11-11: 'Gap is ok' for the Search window covers the Search List Top Covers too: they keep the gap under the safe-area fitter; remove the empty UI_ScreenBackdrop marker. UI_MapBlockingBars (Fullscreen Video) is handled in another "
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-11T10:33Z",
+     "text": "quiz, 2026-11-11 (fullscreen video without a position): 'No map, no UI, nothing should be rendered when the video is full screen without a position. ... even the fact that you have black wires is just weird. The video for full screen needs "
     }
    ]
   },
@@ -7980,5 +7980,5 @@
    "notes": []
   }
  ],
- "source_revision": "a3cebe8d8591102e63700d1de88e5dac479309a3"
+ "source_revision": "1d98d16e7b4f101eec9e359d471608a670678411"
 }
