@@ -7186,11 +7186,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD",
-     "at": "2026-11-10T09:16Z",
-     "text": "Decided: quiz's 2026-11-08 lines stay as written; his 2026-11-09 line already says what holds now. Nothing to ask; 'Ask quiz: reword' closed."
-    },
-    {
      "by": "CLOUD_GOAL",
      "at": "2026-11-11T09:07Z",
      "text": "quiz, 2026-11-11: \"Another goal is render when moving one. The tasks that reduce fps and renders a static image - all can be combined into this goal.\" Folded: 359 (render mode state machine, 4 modes, 3 s double-res still, _GlobalLiquidGlass"
@@ -7199,6 +7194,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T10:27Z",
      "text": "Missing step (thread, 2026-11-11): full resolution must return on the very frame the finger lifts. What delays it now: (1) Station.FullScreen.SetCameraMoving holds half for MovingSettleSeconds = 0.3 s after the last move (Station_Inspect.cs"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-11T10:33Z",
+     "text": "quiz, 2026-11-11: fullscreen video without a position is its own render mode: only the video over plain black, 'No map, no UI, nothing should be rendered'. Added to this goal as Mode.VideoOnBlack (steps 3-4); guide: _Bootstrap AGENTS 'Map r"
     }
    ]
   },
@@ -7988,5 +7988,5 @@
    "notes": []
   }
  ],
- "source_revision": "ee15608a1537af8227e677401326a37c45d4a012"
+ "source_revision": "68c84dd23cea6735581a4765f108883cb2a1076a"
 }
