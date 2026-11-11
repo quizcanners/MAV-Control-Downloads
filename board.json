@@ -4406,7 +4406,16 @@
    "name": "MavServer keeps the VPN's Server",
    "done": "",
    "goal": false,
-   "held": [],
+   "held": [
+    {
+     "who": "CLOUD",
+     "since": "2026-11-11T14:13Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 6
+    }
+   ],
    "steps": [
     {
      "t": "A revoked or paused member stops being an Admin at once: their tunnel key is no ",
@@ -8331,5 +8340,5 @@
    "notes": []
   }
  ],
- "source_revision": "787dfc3d01a416e8ff41246ec0eff5c8b10490b8"
+ "source_revision": "b0b96317f6e0f865ca9542b02f0e3479926c56e8"
 }
