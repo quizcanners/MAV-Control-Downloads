@@ -8031,7 +8031,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T23:27Z",
-     "noted": "",
+     "noted": "2026-11-11T23:28Z",
      "progress": 0,
      "ticked": 0,
      "total": 22
@@ -8129,11 +8129,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_DOABLE",
-     "at": "2026-11-11T18:43Z",
-     "text": "CLOUD_DOABLE 2026-11-11, uncompiled. Singleton_SituationEntities.cs: the synchronous WarmUpProgressively(1) is skipped on OpenGLES2/3 like Metal (draws build the pipeline on first use). Same call remains in Singleton_ControlZonePainter.cs:2"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-11T23:05Z",
      "text": "6daa25ad04 (code read, no device): in Map Editing Before Camera, Orthophoto TextureSaveUnloadUpdate revisited every loaded on-screen branch and its parents every frame, because a texture whose unload was blocked only by visibility returned "
@@ -8142,6 +8137,11 @@
      "by": "REVIEW",
      "at": "2026-11-11T23:17Z",
      "text": "REVIEW-445-CC-6DAA-01: P3 complexity/performance: ordinary Orthophoto-off reaches three whole-tree work-mark walks (setter hide, imagery gate, presentation gate). S1/S2 input writers, exact callers, current/proposed single transition-owned "
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T23:28Z",
+     "text": "VPN Chat idle item, code read (no device): DirectUsb.ManagedUpdate (1.84 ms/update on Strong 821) has no avoidable idle work in the code: TransportFailures returns on an empty queue, GeoTIFF send on an empty queue, Hotspot.UpdatePermission "
     }
    ]
   },
@@ -8668,5 +8668,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "8a7b1318756dc136aa6a85c0036362dce185e1d4"
+ "source_revision": "1f578305ca88984584f369c486f535728d33e54d"
 }
