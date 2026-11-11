@@ -6431,7 +6431,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-11T07:00Z",
-     "noted": "",
+     "noted": "2026-11-11T07:36Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -6461,11 +6461,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T05:58Z",
-     "text": "Added ask (4): Contrast boost darkens the image; also lift dark areas by remapping up where the local average from the mask is dark, in VideoContrast.hlsl ApplyVideoContrast (Video Processing SPEC, 'Contrast boost lifts dark areas'). Quote "
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-11T06:44Z",
      "text": ": steps 1 (non-linear hash22 jitter + 4-phase Seed), 4 (dark-area lift from the mask average) and 3 (edge noise _NoiseStart .12, _Strength .15) done in code; video and shader fixtures green. Not looked at live with a feed on the Mac: Video/"
@@ -6474,6 +6469,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T06:46Z",
      "text": "340 is done (HEAVY 243b23b5f6, Rog released it 05:52Z), so Singleton_UI_VideoFeed and Fullscreen Video.prefab are free: step 2 (accordion, one row prefab, sliders built in code, Temporal Denoise Controls.prefab retired) can be taken additiv"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T07:36Z",
+     "text": "HEAVY c1fab5883a and c07939beb6: Fullscreen Video now builds its Motion, Temporal denoise and Contrast accordion from one shared mode row and one slider prefab. Removed _denoiseLayoutOffset. The legacy denoise row asset moved with its GUID "
     }
    ]
   },
@@ -6753,5 +6753,5 @@
    "notes": []
   }
  ],
- "source_revision": "449c5ef844ebba872664fdeea19da16937bc2cbd"
+ "source_revision": "0160e0d775c8b38b0df7421d13568e6340c0b297"
 }
