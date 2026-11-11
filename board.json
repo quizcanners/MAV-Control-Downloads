@@ -637,39 +637,6 @@
    ]
   },
   {
-   "n": 38,
-   "name": "Use standard SIDC symbols for en",
-   "done": "2026-11-08T16:59Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Trace entity types and direction grouping",
-     "x": false
-    },
-    {
-     "t": "Use standard undirected enemy symbols consistently",
-     "x": false
-    },
-    {
-     "t": "Verify atlas, renderer and existing directed symbols",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_UI_OWNER",
-     "at": "2026-11-08T16:59Z",
-     "text": "Static-only hostile SIDC atlas and lookup published through f5480855a8. Shelter, antenna, minefield, warehouse and sensor use upright static artwork; mobile and friendly cells preserved (RGBA comparison: zero changes to original 46 cells). "
-    }
-   ]
-  },
-  {
    "n": 39,
    "name": "Note from cloud-camera-follow",
    "done": "2026-11-10T07:50Z",
@@ -10007,34 +9974,14 @@
      "who": "LOCAL_MAC",
      "since": "2026-11-11T16:56Z",
      "noted": "",
-     "progress": 67,
-     "ticked": 4,
-     "total": 6
+     "progress": 0,
+     "ticked": 0,
+     "total": 1
     }
    ],
    "steps": [
     {
-     "t": "Workers root with daily tick count and Tasks, Goals, Completed submenus",
-     "x": true
-    },
-    {
-     "t": "Merged bar buttons with state icons, goals show their titles",
-     "x": true
-    },
-    {
-     "t": "Board flags: --needs-attention, --review, --park, --priority",
-     "x": true
-    },
-    {
-     "t": "Verify submenu with a Verified button",
-     "x": true
-    },
-    {
      "t": "In-app priority, Set for review, Park and Verified write back to the board",
-     "x": false
-    },
-    {
-     "t": "Server tasks status shows the real state",
      "x": false
     }
    ],
@@ -10307,5 +10254,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "aba12ee5ca8c4360df885381af5aa9547b81cc15"
+ "source_revision": "25b95a9f47405fc21be19e21ae3386eadfa82ac0"
 }
