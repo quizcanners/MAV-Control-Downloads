@@ -8649,7 +8649,7 @@
     {
      "who": "CLOUD_430",
      "since": "2026-11-11T20:02Z",
-     "noted": "",
+     "noted": "2026-11-11T20:02Z",
      "progress": 0,
      "ticked": 0,
      "total": 16
@@ -8723,11 +8723,6 @@
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T19:32Z",
-     "text": "Batch 25: slice 4 retirement order designed in the Web Mercator SPEC (ec8cbf9e43): flip authority first (schema_version 3, the writer commits only to tiles.sqlite, segments read-only, no double imagery), readers look in tiles.sqlite first w"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-11T19:52Z",
      "text": "REVIEW-441-CC-3D80-01: P3 migration re-filters the copied prefix inside its current segment. S1 investigation/S2 brief and proposed direction complete; awaits quiz before implementation. Existing owner claims/results retained; source/host c"
@@ -8736,6 +8731,11 @@
      "by": "REVIEW",
      "at": "2026-11-11T19:52Z",
      "text": "REVIEW-441-CR-0D96-01: P3 paused native migration query records permanent Failed. S1 investigation/S2 brief and proposed direction complete; awaits quiz before implementation. Existing owner claims/results retained; source/host checks only,"
+    },
+    {
+     "by": "CLOUD_430",
+     "at": "2026-11-11T20:02Z",
+     "text": "CLOUD_430 (cloud thread, quiz: do some of batch 26 in the cloud): writing 430 slice 4 steps 4 and 5 as code (LogicalMapMigration retire one segment + room check) and, if time, steps 1 and 2. Mac: do not redo these, compile them."
     }
    ]
   },
@@ -9057,5 +9057,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "6c68d44cb51a4505a00372446a33446e2c8c4be3"
+ "source_revision": "5ddbfc9be53609469480e836606a6e5a3416ccd2"
 }
