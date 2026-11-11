@@ -6680,8 +6680,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-11T06:50Z",
-     "noted": "2026-11-11T06:50Z",
-     "progress": 25,
+     "noted": "2026-11-11T07:00Z",
+     "progress": 40,
      "ticked": 0,
      "total": 0
     }
@@ -6692,6 +6692,11 @@
      "by": "HEAVY",
      "at": "2026-11-11T06:50Z",
      "text": "Windows All.xml first failures: NavigatorPathTests.NavigatorIslandCountIncludesOnlyExpandableRowsAcrossExpiryAndWorkflowChanges: Expected: (2, True) But was: (2, False). SearchQuerySuggestionTests.AFocusAttemptIsSingleShotEvenBeforeNativeFo"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T07:00Z",
+     "text": "The Windows cohort reproduced Navigator after the Compass and Settings fixtures, which had leaked Settings intent after task 227. 726cd3e131 and 2e670b8af7 restore the state. Search was green after the earlier fullscreen owner fix. Navigato"
     }
    ]
   },
@@ -6723,5 +6728,5 @@
    "notes": []
   }
  ],
- "source_revision": "d344d3ef8b6b992b9cb6c54ae9b242aaf2f051ca"
+ "source_revision": "4d795113ca852b990a1e40a2c13b2b471c534e02"
 }
