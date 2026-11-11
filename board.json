@@ -1336,6 +1336,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T15:22Z",
      "text": "CLOUD_THREAD 2026-11-11: best guess (the scroll indicator is UI_LeftListScrollLight): its x is now the list's left edge, not the prefab-authored x, so it no longer sits mid-screen beside a list that is not at the screen edge. Uncompiled."
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T15:24Z",
+     "text": "Closed by LOCAL_MAC: already done in 1bb53fc2d9: UI_LeftListScrollLight places the light on the scrolling list's own left edge (viewport corner), so the Chat peers list keeps it beside the list, not mid-screen. The portrait look is verifica"
     }
    ]
   },
@@ -10255,5 +10260,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "48b54295c570a66e3d467d25b14fd0f09e679cfd"
+ "source_revision": "310cc1ebf77bbfd72b31a4a531a2a9caf95a0ad1"
 }
