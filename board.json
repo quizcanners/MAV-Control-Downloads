@@ -8843,11 +8843,6 @@
    "notes": [
     {
      "by": "LOCAL_MAC",
-     "at": "2026-11-10T13:51Z",
-     "text": "Guides updated (6574dc323b): root AGENTS.md terms (Tombstone, Dirty tombstone, Ripper drill), Data Sync AGENTS.md 'Tombstones and the Ripper drill' (the general rule with quiz's words), Web Mercator AGENTS.md and SPEC, Orthophoto SPEC, Reco"
-    },
-    {
-     "by": "LOCAL_MAC",
      "at": "2026-11-11T07:29Z",
      "text": "LOCAL_MAC batch 13: not started (no time left this pass)."
     },
@@ -8855,6 +8850,11 @@
      "by": "MAC_SQLITE_SPEC",
      "at": "2026-11-11T17:01Z",
      "text": "DONE: SPEC and guide alignment published in ffb970edc3 (documentation only): Web Mercator SPEC, SQLite database layout: ultimate design and our scope, with Google/Mapbox/MapLibre/SQLite sources, explicit simplifications, and preserved quiz "
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T18:09Z",
+     "text": "LOCAL_MAC: first slice (one logical map database with an indexed, batched write path, Web Mercator SPEC 'SQLite database layout') not started; read only. It rewrites SqliteTileStore's writer and needs its own pass."
     }
    ]
   },
@@ -8980,5 +8980,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d0d9f276df123e6bf0f57f4231f0a1fad4ba931d"
+ "source_revision": "4756b0243927ce534886675526f521f9633730ed"
 }
