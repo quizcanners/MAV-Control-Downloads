@@ -5485,36 +5485,6 @@
    ]
   },
   {
-   "n": 287,
-   "name": "Main UI sheds what the reveal do",
-   "done": "",
-   "goal": false,
-   "under": 362,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_LOAD_TIME",
-     "at": "2026-11-10T17:04Z",
-     "text": "quiz, 2026-11-10: no loading screen; the map shows at once, the bar covers core scenes and layers, sounds load on demand (task 288, Bootstrap AGENTS 'The loading plan'). Effect here: the reveal moment is now the Map camera's frame, so start"
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T14:39Z",
-     "text": "Editor part, Mac Editor Play with the project identity. 65b70c5ede Lists UI.unity (LISTS Left), 736c64e5b6 Playback into Lists UI too (it is the map's selected-peer panel UI_VoiceChatPlaque, not Chat-only, so not Chat UI as the table says),"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-11T15:17Z",
-     "text": "REVIEW-438-CR-7BD3-01 P2: S1 investigation and S2 brief/current snippet/existing-view admission sketch complete; Compass Open file silently drops a picked path before Late UI is ready. Awaits quiz before implementation. [Evidence and unrun "
-    }
-   ]
-  },
-  {
    "n": 288,
    "name": "Editor",
    "done": "2026-11-10T17:15Z",
@@ -6963,19 +6933,19 @@
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T11:41Z",
-     "text": "54fb8213ec stage 2: wind, Pano360, Zoomed out, screen centre crosshair, altitude visualization, WiFi signal map moved to Overlays.unity under 'Overlays Georeference' (copy of Planet's CesiumGeoreference), AdoptOverlaysOnce hands the childre"
+     "by": "CLOUD_LOAD_TIME",
+     "at": "2026-11-10T17:04Z",
+     "text": "quiz, 2026-11-10: no loading screen; the map shows at once, the bar covers core scenes and layers, sounds load on demand (task 288, Bootstrap AGENTS 'The loading plan'). Effect here: the reveal moment is now the Map camera's frame, so start"
     },
     {
      "by": "LOCAL_MAC",
-     "at": "2026-11-11T14:13Z",
-     "text": "Startup with stage 2 on main (ffca071735, Mac Editor Play, project identity, two runs): startup_measure_map_present_at_s 3.987 / 2.965, ready 4.077 / 3.043, main_ui_load_s 0.090 / 0.078. The last numbers before stage 2 were 3.76 / 3.07 (202"
+     "at": "2026-11-11T14:39Z",
+     "text": "Editor part, Mac Editor Play with the project identity. 65b70c5ede Lists UI.unity (LISTS Left), 736c64e5b6 Playback into Lists UI too (it is the map's selected-peer panel UI_VoiceChatPlaque, not Chat-only, so not Chat UI as the table says),"
     },
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T15:45Z",
-     "text": "cbe8f0ee63: Station.MousePointed and VideoToMap_Utils.Decals use TryGet; MousePointed calls are ?.; every method reading Decals returns at once until Tiles Editing is there (no warning, no queue). 429b819c62: MGMT-Mouse Pointed Area and MGM"
+     "by": "REVIEW",
+     "at": "2026-11-11T15:17Z",
+     "text": "REVIEW-438-CR-7BD3-01 P2: S1 investigation and S2 brief/current snippet/existing-view admission sketch complete; Compass Open file silently drops a picked path before Late UI is ready. Awaits quiz before implementation. [Evidence and unrun "
     }
    ]
   },
@@ -8852,5 +8822,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "42a77223627d680648675fa73609a29393168c14"
+ "source_revision": "72c94c0783e51da905feac66b7f91f89e154081a"
 }
