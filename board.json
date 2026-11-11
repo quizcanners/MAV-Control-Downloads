@@ -5926,6 +5926,11 @@
      "by": "CLOUD",
      "at": "2026-11-10T16:55Z",
      "text": "CLOUD looked, did not start: 244 matches in 46 UI files, but about half sit in Editor Author scripts (verification and authoring blocks) and the rest are fallbacks like 'if (!group) AddComponent<CanvasGroup>()' (UI_LeftListSwipeAway, Single"
+    },
+    {
+     "by": "CLOUD",
+     "at": "2026-11-11T14:03Z",
+     "text": "CLOUD re-grepped: what is left in the view scripts is procedural row builders (new GameObject(...typeof(Image)) then GetComponent<Image>, UI_NotificationTongueSummary, UI_NotificationSquare, UI_LeftListSwipeAway, UI_ExpandMenu) that need a "
     }
    ]
   },
@@ -8317,5 +8322,5 @@
    "notes": []
   }
  ],
- "source_revision": "e45afcc20c04313061be8e44876484f8e09450a5"
+ "source_revision": "b8cc02d764360c04369b1e17995d83efff42d3fe"
 }
