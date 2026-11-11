@@ -425,43 +425,6 @@
    "notes": []
   },
   {
-   "n": 19,
-   "name": "Note from cloud-thread",
-   "done": "2026-11-08T14:57Z",
-   "goal": false,
-   "under": 0,
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Compile the Supply icon loader and save-timer gates",
-     "x": true
-    },
-    {
-     "t": "Look at Supply idle and the timing tree",
-     "x": true
-    },
-    {
-     "t": "Untimed work in Distribution.ManagedUpdate isolated",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-08T13:13Z",
-     "text": "HEAVY: 47dff14f compiled in Windows Unity. Idle timing predicate test passed at 99/100 idle frames and on resumed work. In live Editor, Supply Me was open and idle with no visible rows, draft, outbox or in-flight request, yet Distribution O"
-    },
-    {
-     "by": "heavy",
-     "at": "2026-11-08T14:56Z",
-     "text": "Windows Editor source 0c240c2e8b compiled and reproduced a ready idle Supply Me view with an empty outbox and no in-flight request. Temporary child timings isolated the largest steady Distribution cost to the calendar rollover/reload guard,"
-    }
-   ]
-  },
-  {
    "n": 24,
    "name": "Copernicus globe relief build",
    "done": "2026-11-09T05:00Z",
@@ -9874,7 +9837,7 @@
     },
     {
      "t": "Verify submenu with a Verified button",
-     "x": false
+     "x": true
     },
     {
      "t": "In-app priority, Set for review, Park and Verified write back to the board",
@@ -9901,5 +9864,51 @@
    "notes": []
   }
  ],
- "source_revision": "c6bb5ad7d9dac209eae76ac3d26048ee764053d6"
+ "verify": [
+  {
+   "screen": "Chat",
+   "since": "2026-11-07T13:38Z"
+  },
+  {
+   "screen": "Console-Diagnostics",
+   "since": "2026-10-30T19:33Z"
+  },
+  {
+   "screen": "Drone-Control",
+   "since": "2026-10-30T19:33Z"
+  },
+  {
+   "screen": "General",
+   "since": "2026-10-30T19:33Z"
+  },
+  {
+   "screen": "Install-Update",
+   "since": "2026-10-30T19:33Z"
+  },
+  {
+   "screen": "Map",
+   "since": "2026-10-31T02:04Z"
+  },
+  {
+   "screen": "Network",
+   "since": "2026-10-30T19:33Z"
+  },
+  {
+   "screen": "Search",
+   "since": "2026-11-07T12:40Z"
+  },
+  {
+   "screen": "Settings",
+   "since": "2026-10-31T06:13Z"
+  },
+  {
+   "screen": "Store-Posts",
+   "since": "2026-11-06T15:46Z"
+  },
+  {
+   "screen": "Video",
+   "since": "2026-10-30T19:33Z"
+  }
+ ],
+ "source_revision": "e7379451b6cdb0ed46ac4043b3b4d39a16a25d82"
 }
