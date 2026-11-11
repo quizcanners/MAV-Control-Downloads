@@ -4883,7 +4883,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T15:25Z",
-     "noted": "",
+     "noted": "2026-11-11T15:27Z",
      "progress": 50,
      "ticked": 2,
      "total": 4
@@ -4910,11 +4910,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-10T08:53Z",
-     "text": "Inspected placement and fold ownership. Notification Controllers anchors the square in the full-frame origin; LateUpdate applies MavChat NotificationPlacement to the cards, not the square. Anchor the square from the real lower right edge of"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-10T10:09Z",
      "text": "No prefab change this pass. Still need the live tap-disappearance repro before changing placement. Then use the real B_Menu or Close edge for Notification Square_Portrait, keep its draw/input layer above the cards, and wire the thin MavChat"
     },
@@ -4922,6 +4917,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-11T13:44Z",
      "text": "ROG_OPUS 2026-11-11: not reached in this batch (Editor time went to 400, 398, 268 and the 397 read); nothing changed. Released from ROG so the next Editor worker can take it."
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T15:27Z",
+     "text": "ab59d73bfc: square shown = has notices && portrait square && column not expanded, one expression per frame in Singleton_NotificationsController (kept in the controller: its inputs, counts and Island, live there). Left: authored position und"
     }
    ]
   },
@@ -10268,5 +10268,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "edd23b2826d636e0c1f5d4dfdebba3d0cd48a22c"
+ "source_revision": "69d1223058104857b3c7393ade4a02a198bc30b7"
 }
