@@ -2153,11 +2153,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLOUD",
-     "at": "2026-11-10T09:18Z",
-     "text": "Decided (quiz, 2026-11-10, picked A): \"A\" = coarse tiles (zoom 0-11) share their zoom-6 ancestor segment, new writes only, existing locations keep stored paths. Companion-file cleanup (journal_mode=DELETE for idle segments, delete zero-byte"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-10T10:09Z",
      "text": "No store change or measurement this pass. Resume with new-write-only routing for zoom 0\u201311 to the zoom-6 ancestor, keep catalog paths for existing tiles, add idle segment journal/companion cleanup, and capture fresh Europe pan file counts b"
@@ -2166,6 +2161,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-11T09:25Z",
      "text": "ROG_OPUS: code done in 46a76c0d3f. ShardKey.TryForTile: zoom 6-11 key the cell of the zoom-6 ancestor, zoom 0-5 the world tile's cell (31N/AA/6_0); zoom 12+ unchanged; stored tiles keep their catalog path (reads never recompute). SqliteTile"
+    },
+    {
+     "by": "cloud-5_6",
+     "at": "2026-11-11T16:42Z",
+     "text": "Web Mercator payload segments: Choose now tries the cell's 8 newest segments before making a new file; MergeSmallSegment pours <32 MiB segments into existing ones once per writer session; store open turns empty -wal + 32 KiB -shm back to jo"
     }
    ]
   },
@@ -10283,5 +10283,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "6d7cc5330f61c806fa06ea5075e8cb5b83e2efb9"
+ "source_revision": "a64b350809ed7b92d5bdc01347545f512325684f"
 }
