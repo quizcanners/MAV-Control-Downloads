@@ -5854,19 +5854,14 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T12:11Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T14:13Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "REVIEW",
-     "at": "2026-11-10T20:14Z",
-     "text": "REVIEW-420: nine commits inspected through b84fc07a2; no new finding. Six existing decal calls change only missing-service logging. Existing status and native follow-up retained. [Evidence and limits](../Reviews/b84fc07a2.md)."
-    },
     {
      "by": "LOCAL_MAC",
      "at": "2026-11-11T07:28Z",
@@ -5876,6 +5871,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T11:41Z",
      "text": "54fb8213ec stage 2: wind, Pano360, Zoomed out, screen centre crosshair, altitude visualization, WiFi signal map moved to Overlays.unity under 'Overlays Georeference' (copy of Planet's CesiumGeoreference), AdoptOverlaysOnce hands the childre"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T14:13Z",
+     "text": "Startup with stage 2 on main (ffca071735, Mac Editor Play, project identity, two runs): startup_measure_map_present_at_s 3.987 / 2.965, ready 4.077 / 3.043, main_ui_load_s 0.090 / 0.078. The last numbers before stage 2 were 3.76 / 3.07 (202"
     }
    ]
   },
@@ -8340,5 +8340,5 @@
    "notes": []
   }
  ],
- "source_revision": "b0b96317f6e0f865ca9542b02f0e3479926c56e8"
+ "source_revision": "fafbe435e160b71b83955c68393bb4756853d24b"
 }
