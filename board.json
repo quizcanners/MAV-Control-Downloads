@@ -8229,7 +8229,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T20:00Z",
-     "noted": "",
+     "noted": "2026-11-11T20:12Z",
      "progress": 0,
      "ticked": 0,
      "total": 16
@@ -8303,11 +8303,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-11T19:52Z",
-     "text": "REVIEW-441-CR-0D96-01: P3 paused native migration query records permanent Failed. S1 investigation/S2 brief and proposed direction complete; awaits quiz before implementation. Existing owner claims/results retained; source/host checks only,"
-    },
-    {
      "by": "CLOUD_430",
      "at": "2026-11-11T20:02Z",
      "text": "CLOUD_430 (cloud thread, quiz: do some of batch 26 in the cloud): writing 430 slice 4 steps 4 and 5 as code (LogicalMapMigration retire one segment + room check) and, if time, steps 1 and 2. Mac: do not redo these, compile them."
@@ -8316,6 +8311,11 @@
      "by": "CLOUD_430",
      "at": "2026-11-11T20:04Z",
      "text": "CLOUD_430 summary: 430 slice 4 steps 4 and 5 on main as e8f46f98 (LogicalMapMigration.RetireNext in WebMercator_LogicalMapRetirement.cs, LogicalMapDatabase.CheckpointFull, StorageManager.HasRoomFor, room check + Waiting in Step; journal is "
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T20:12Z",
+     "text": "Batch 26: macOS Editor compile and iOS build of main 0 errors (Device Stats de6b07ca, MavChat notch/camera ce910a84, Mav Chat sheet commits all compile). Steps 4-5: cloud's e8f46f98b2 compiled clean; fixed in a14ec45a5b: RetireNext refuses "
     }
    ]
   },
@@ -8581,5 +8581,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "df033719fa381c95aab6d25d93e0cc05eb7ef2a6"
+ "source_revision": "9687fe298d8ce12550d54a673d1408863a40bac8"
 }
