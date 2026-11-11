@@ -6228,8 +6228,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-11T06:55Z",
-     "noted": "2026-11-11T06:56Z",
-     "progress": 25,
+     "noted": "2026-11-11T07:11Z",
+     "progress": 40,
      "ticked": 0,
      "total": 0
     }
@@ -6240,6 +6240,11 @@
      "by": "HEAVY",
      "at": "2026-11-11T06:56Z",
      "text": "Windows All.xml first failure, SpoutDiscoveryPlayModeTests.ObsInput_ReceivesWhiteFrame: Expected: True But was: False"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T07:11Z",
+     "text": "Focused Windows run reproduced ObsInput_ReceivesWhiteFrame. The case is Explicit and requires an external OBS Spout source sending an opaque white frame. No OBS process or standard OBS installation is present here. The native discovery case"
     }
    ]
   },
@@ -6730,5 +6735,5 @@
    "notes": []
   }
  ],
- "source_revision": "a69305bed9cf64ae9a9033224b88f94d38a439f0"
+ "source_revision": "d82454f13acfb736b7e8adc591eda4a95608ba8a"
 }
