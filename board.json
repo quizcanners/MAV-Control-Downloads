@@ -6492,8 +6492,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-11T06:51Z",
-     "noted": "2026-11-11T06:51Z",
-     "progress": 25,
+     "noted": "2026-11-11T07:00Z",
+     "progress": 40,
      "ticked": 0,
      "total": 0
     }
@@ -6504,6 +6504,11 @@
      "by": "HEAVY",
      "at": "2026-11-11T06:51Z",
      "text": "Windows All.xml first failure, MainCameraTouchFollowTests.AreaArrowDoubleTapReturnsToTheConfiguredAreaAtOverviewScale: The fixture must present the actual arrow. Expected: True But was: False"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T07:00Z",
+     "text": "Prior failed cases pass in the Windows cohort after restoring the leaked Station.UI overlay owners (369b1fdddd, 726cd3e131, 2e670b8af7). MainCameraTouchFollowTests 57 passed. XML in C:/MavControlEvidence/WorkCritical/verify-night-20261111b."
     }
    ]
   },
@@ -6719,5 +6724,5 @@
    "notes": []
   }
  ],
- "source_revision": "81a55539832e75956ba1e4e48658316351cb8dd7"
+ "source_revision": "cdc8cd4b2dd4f1f79f44a1758464d0117ff0bbaf"
 }
