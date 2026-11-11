@@ -7547,11 +7547,6 @@
    "notes": [
     {
      "by": "ROG_OPUS",
-     "at": "2026-11-11T16:40Z",
-     "text": "ROG_OPUS 2026-11-11: build part not reached in batch 17; nothing installed, no adapter touched. Starting point stands as HEAVY's 07:27Z note (verified wireguard.dll and tunnel.dll hashes) and CLOUD's 14:02Z note: a small service host exe ca"
-    },
-    {
-     "by": "ROG_OPUS",
      "at": "2026-11-11T18:14Z",
      "text": "ROG_OPUS 2026-11-11 batch 18, (was 342) code steps done, nothing installed on Rog and no adapter touched. The background app is the tunnel service host (Few programs rule): MavControlBackgroundChat.exe --tunnel-service <conf> runs tunnel.dl"
     },
@@ -7559,6 +7554,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-11T18:59Z",
      "text": "ROG_OPUS 2026-11-11 batch 19: Windows compile at main 947d141b70: Roslyn cmp.sh against 86343846bb NEW ERRORS none, Unity Editor imported and recompiled with no error CS line, dotnet build Tools/BackgroundChat 0 errors (tunnel host included"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T19:52Z",
+     "text": "REVIEW-441-CR-D7C6-01: P2 Windows Forget drops its input before uninstall consent succeeds. S1 investigation/S2 brief and proposed direction complete; awaits quiz before implementation. Existing owner claims/results retained; source/host ch"
     }
    ]
   },
@@ -7786,19 +7786,19 @@
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T17:53Z",
-     "text": "a24b3577fe: Android half. MavTextSession.java (Assets/Plugins/Android): zero-size EditText in the content view, setShowSoftInputOnFocus(false), committed text (never mid-composition) queued for take(), Backspace '\\b', Enter '\\n'; show(true/"
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T18:00Z",
-     "text": "LOCAL_MAC: javac (Unity's OpenJDK, android-37 android.jar) compiles Assets/Plugins/Android/MavTextSession.java with no errors; macOS Editor compile and Unity iOS build of main b11e50eed3: 0 errors."
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-11T18:11Z",
      "text": "REVIEW-440-CR-64FD-01: P3 failure handling: Search advances its applied hide gate before calling native and discards refusal. S1/S2 success-accounting/owner-issue sketch awaits quiz; real refusal frequency/device behavior unrun; later Andro"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T19:52Z",
+     "text": "REVIEW-441-CR-A24B-01: P2 Android Search Backspace splits a supplementary Unicode character. S1 investigation/S2 brief and proposed direction complete; awaits quiz before implementation. Existing owner claims/results retained; source/host c"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T19:52Z",
+     "text": "REVIEW-441-CC-A24B-01: P3 committed native text is rebuilt per character. S1 investigation/S2 brief and proposed direction complete; awaits quiz before implementation. Existing owner claims/results retained; source/host checks only, native/"
     }
    ]
   },
@@ -8485,11 +8485,6 @@
    "notes": [
     {
      "by": "LOCAL_MAC",
-     "at": "2026-11-11T18:07Z",
-     "text": "Views 6-7 on main: f46e48f94e Android USB / QR install inspectors take package words from AppUpdateManager.PackageWords (Phase); a0fdde4906 DJI training RC input: InputState enum set in one place, Words() in both views, keys dji.rcInput.* i"
-    },
-    {
-     "by": "LOCAL_MAC",
      "at": "2026-11-11T18:51Z",
      "text": "View 8 done, 3495bcfd45: the MavLink trouble message names unhealthy sensors with MavLink.DroneState SensorNames (19 reported sensors, keys mavlink.sensor.* in English and Ukrainian, same index) instead of MAV_SYS_STATUS_SENSOR flag names; "
     },
@@ -8497,6 +8492,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-11T18:57Z",
      "text": "ROG_OPUS 2026-11-11 batch 19: Windows compile at main 947d141b70: Roslyn cmp.sh against 86343846bb NEW ERRORS none, Unity Editor imported and recompiled with no error CS line, dotnet build Tools/BackgroundChat 0 errors (tunnel host included"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T19:52Z",
+     "text": "REVIEW-441-CR-A0FD-01: P2 new DJI state words are unreachable in root language tables. S1 investigation/S2 brief and proposed direction complete; awaits quiz before implementation. Existing owner claims/results retained; source/host checks "
     }
    ]
   },
@@ -8707,18 +8707,18 @@
    "notes": [
     {
      "by": "LOCAL_MAC",
-     "at": "2026-11-11T19:11Z",
-     "text": "Slice 2 landed, 973511762b: WebMercator_SqliteTileStore_LogicalMirror.cs. Writer.Commit captures each candidate's payload reference, runs CommitLocal/CommitSharded unchanged, then writes the reported presence changes into LogicalMapDatabase"
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T19:22Z",
-     "text": "Slice 3 landed 0d9665eefe (code only, nothing calls it, no migration run, no tile folder touched): LogicalMapMigration.Step copies committed rows after a cursor kept in tiles.sqlite's migration row (phase/cursor/copied/failure), committed w"
-    },
-    {
-     "by": "LOCAL_MAC",
      "at": "2026-11-11T19:32Z",
      "text": "Batch 25: slice 4 retirement order designed in the Web Mercator SPEC (ec8cbf9e43): flip authority first (schema_version 3, the writer commits only to tiles.sqlite, segments read-only, no double imagery), readers look in tiles.sqlite first w"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T19:52Z",
+     "text": "REVIEW-441-CC-3D80-01: P3 migration re-filters the copied prefix inside its current segment. S1 investigation/S2 brief and proposed direction complete; awaits quiz before implementation. Existing owner claims/results retained; source/host c"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T19:52Z",
+     "text": "REVIEW-441-CR-0D96-01: P3 paused native migration query records permanent Failed. S1 investigation/S2 brief and proposed direction complete; awaits quiz before implementation. Existing owner claims/results retained; source/host checks only,"
     }
    ]
   },
@@ -8978,6 +8978,20 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 447,
+   "name": "Note from CLOUD_META",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -9026,5 +9040,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c9f3419b953a763f987a41de49cc9490fce67c35"
+ "source_revision": "03b46f1812f31cc2a754b03d34a9c77b81cf8644"
 }
