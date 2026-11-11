@@ -192,53 +192,6 @@
    ]
   },
   {
-   "n": 6,
-   "name": "Map storage",
-   "done": "2026-11-08T18:18Z",
-   "goal": false,
-   "under": 366,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Presence array released for the view-window read",
-     "x": true
-    },
-    {
-     "t": "TrailSpill enabled",
-     "x": true
-    },
-    {
-     "t": "TrailSpill wired into save and send",
-     "x": true
-    },
-    {
-     "t": "Two-device trail drill passes",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-08T14:54Z",
-     "text": "GETAC Strong solo trail run on 810 (426f9739f1), disposable offline guest. Created one friendly Situation observation and ran 131 long-press moves after a verified move witness. Final endpoint and Changed just now were visible. Let the norm"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-08T17:02Z",
-     "text": "GETAC Strong 812 (7990df8019), offline ephemeral user 13. Created one Alpha Situation observation and visibly confirmed a position change. Ran 131 additional alternating long-press move attempts, but camera drift means gestures are not proo"
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-08T18:18Z",
-     "text": "849a6263fc: playback (TryGetPosition_Playback, used by Situation rebake, grid caching and waypoint lock) now reads the spilled trail through a versioned per-observation Cache; this is the cause of GETAC's 'scrubbing back hid the observation"
-    }
-   ]
-  },
-  {
    "n": 7,
    "name": "Verify",
    "done": "",
@@ -8934,6 +8887,20 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 435,
+   "name": "Note from ROG_OPUS",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -8982,5 +8949,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "620e15e7a8afc288df1df2f773f404a5b9c6aa44"
+ "source_revision": "aefed67987d6d01a4cd456664e9ace886ad970c2"
 }
