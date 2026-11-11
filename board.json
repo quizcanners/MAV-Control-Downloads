@@ -7118,7 +7118,7 @@
     {
      "who": "CLOUD_GOAL",
      "since": "2026-11-11T09:06Z",
-     "noted": "",
+     "noted": "2026-11-11T09:07Z",
      "progress": 20,
      "ticked": 2,
      "total": 10
@@ -7168,11 +7168,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_IDLE_FPS",
-     "at": "2026-11-09T06:05Z",
-     "text": "quiz, 2026-11-09: \"It shows target fps as 8, but diagnostics tab as 15-22. And in non-interacting mode it seems far above 8 fps. There might have been exceptions to the rule, but lets make it simple - if that option is on, we switch to 8fps"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-09T11:36Z",
      "text": "Partial on Strong Dev 817 (2400e9b752 includes e4cc71b7). USB powered, idle enabled, after 34 s with menus closed: IdleReduced with target 8, 91 presented frames at 7.52 FPS (median 133.25 ms, max 199.78 ms). An open Performance menu switch"
@@ -7181,9 +7176,14 @@
      "by": "CLOUD",
      "at": "2026-11-10T09:16Z",
      "text": "Decided: quiz's 2026-11-08 lines stay as written; his 2026-11-09 line already says what holds now. Nothing to ask; 'Ask quiz: reword' closed."
+    },
+    {
+     "by": "CLOUD_GOAL",
+     "at": "2026-11-11T09:07Z",
+     "text": "quiz, 2026-11-11: \"Another goal is render when moving one. The tasks that reduce fps and renders a static image - all can be combined into this goal.\" Folded: 359 (render mode state machine, 4 modes, 3 s double-res still, _GlobalLiquidGlass"
     }
    ]
   }
  ],
- "source_revision": "53a9fd389b98ce48027dd6b3aae494805aa3783d"
+ "source_revision": "a5e788d9640f89c9d9382c026e771f7f6ddfd15c"
 }
