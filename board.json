@@ -2614,11 +2614,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD",
-     "at": "2026-11-10T10:20Z",
-     "text": "quiz, 2026-11-10: \"They will get models in the future. This is not a limitation. But we don't want to reuse the same model for different ones.\" So enemy-only and ungrouped-only in the brief describe the models that exist today, not a rule. "
-    },
-    {
      "by": "ROG_OPUS",
      "at": "2026-11-10T17:39Z",
      "text": "Code steps done in a18354b85a: SituationEntityModels table (type, affiliation, single) -> Enemy Unit/Vehicle/Cannon for Alive enemy single units, others keep icons; Group.Model from the bake; SituationGroupedIconSystem.Prepare moves wired-m"
@@ -2627,6 +2622,11 @@
      "by": "REVIEW",
      "at": "2026-11-10T18:53Z",
      "text": "Investigation CC-A183-01, P3 complexity: model batches search for Entity.Null twice while appending and again per camera submission, though the append already knows their occupied count. S1 mutation/lifetime trace and Python count control c"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T09:13Z",
+     "text": "APPROVED-A183-FEFE-CC-A183-01: quiz approved the simplification; implementation is open on follow-up 385. Existing work, claims, completion and handoff remain intact. [Approval and brief](../Reviews/0af1f4396.md#quiz-decision--approved-foll"
     }
    ]
   },
@@ -4578,6 +4578,11 @@
      "by": "REVIEW",
      "at": "2026-11-10T14:18Z",
      "text": "Investigation CC-FEFE-01, P3 complexity: SaveCache scans every Items value against _savedItems to rediscover replacements; AcceptItems and Capture already identify them. S1 writers and completion/retry/load constraints traced; count control"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T09:13Z",
+     "text": "APPROVED-A183-FEFE-CC-FEFE-01: quiz approved the simplification; implementation is open on follow-up 386. Existing work, claims, completion and handoff remain intact. [Approval and brief](../Reviews/b0454da65.md#quiz-decision--approved-foll"
     }
    ]
   },
@@ -6956,7 +6961,16 @@
    "name": "Windows EditMode All 1f8133a04b",
    "done": "",
    "goal": false,
-   "held": [],
+   "held": [
+    {
+     "who": "LOCAL_MAC",
+     "since": "2026-11-11T09:13Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -7833,7 +7847,25 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 385,
+   "name": "Situation model batches",
+   "done": "",
+   "goal": false,
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 386,
+   "name": "Logistics item saves",
+   "done": "",
+   "goal": false,
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
- "source_revision": "635d25f0cd48c2100ae12a9aa3cec6f826894cdf"
+ "source_revision": "4d72b113b5ef3f990927c988cf005c37c54844da"
 }
