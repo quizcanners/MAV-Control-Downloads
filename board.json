@@ -2933,7 +2933,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T16:35Z",
-     "noted": "",
+     "noted": "2026-11-11T16:39Z",
      "progress": 100,
      "ticked": 4,
      "total": 4
@@ -2959,11 +2959,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-10T17:39Z",
-     "text": "Code steps done in a18354b85a: SituationEntityModels table (type, affiliation, single) -> Enemy Unit/Vehicle/Cannon for Alive enemy single units, others keep icons; Group.Model from the bake; SituationGroupedIconSystem.Prepare moves wired-m"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-10T18:53Z",
      "text": "Investigation CC-A183-01, P3 complexity: model batches search for Entity.Null twice while appending and again per camera submission, though the append already knows their occupied count. S1 mutation/lifetime trace and Python count control c"
@@ -2972,6 +2967,11 @@
      "by": "REVIEW",
      "at": "2026-11-11T09:13Z",
      "text": "APPROVED-A183-FEFE-CC-A183-01: quiz approved the simplification; implementation is open on follow-up 385. Existing work, claims, completion and handoff remain intact. [Approval and brief](../Reviews/0af1f4396.md#quiz-decision--approved-foll"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T16:39Z",
+     "text": "3bc54d3adf: three _entityModels rows on Singleton_SituationEntities in Map.unity (Enemy Unit, Vehicle, Cannon: FBX solid + _Shadow mesh, VertexColored + ContactShadow, CellsTall 1.5), instancing on for the six materials, their INSTANCING_ON"
     }
    ]
   },
@@ -10277,5 +10277,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "cad6ae559d4470d6ec464b1f8fcb7cbc1956b205"
+ "source_revision": "ffac07859d8ed44525c89053d03705571e387c59"
 }
