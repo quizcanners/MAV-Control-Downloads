@@ -5954,11 +5954,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T06:08Z",
-     "text": "ROG_OPUS: fixed in the fixture (commit 'DirectRouteHubTypesTests: mark the need before advancing the handshake'). Direct cause: task 260 step 3 (bfd04037c2, no beat) made AdvanceHubHandshake start a handshake only within 30 s of a need (_ne"
-    },
-    {
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T06:34Z",
      "text": "ROG_OPUS fixed the fixture in 24274124fd (mark the need before advancing the handshake) after the Mac saw it red at 4a09a9cc7e; the Mac reruns DirectRouteHubTypesTests and closes 313 if green."
@@ -5967,6 +5962,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T06:42Z",
      "text": "LOCAL_MAC at 8fde5180f5 (includes 24274124fd): still red. DirectRouteNegotiatesNoiseWithActualHubAndAcceptsASkewedQuestion: 'Handshake is not application contact  Expected: null  But was: <127.0.0.1:54377>' (the line-41 assert). Other 6 cas"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-11T07:48Z",
+     "text": "GETAC Unity 6000.6.8f1 at f9735bf165 compiled and ran EditMode with disposable data. Initial headless All: 8339 passed, 67 failed, 448 skipped, 1 inconclusive. Direct3D 11 rerun of all 67: 65 passed and 2 reproduced. DirectRouteNegotiatesNo"
     }
    ]
   },
@@ -6758,5 +6758,5 @@
    "notes": []
   }
  ],
- "source_revision": "a3fa567c0f61de37218222593134aa1b15377742"
+ "source_revision": "6b4fdea349fbe0c83ef733b78a62b89a74e992ee"
 }
