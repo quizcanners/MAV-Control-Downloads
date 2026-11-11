@@ -580,38 +580,6 @@
    ]
   },
   {
-   "n": 57,
-   "name": "using Strong",
-   "done": "2026-11-08T20:13Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "vague"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 58,
-   "name": "using Lenovo",
-   "done": "2026-11-08T20:23Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "vague"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 61,
    "name": "Note from GETAC",
    "done": "2026-11-10T07:50Z",
@@ -8294,19 +8262,19 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_430",
-     "at": "2026-11-11T20:02Z",
-     "text": "CLOUD_430 (cloud thread, quiz: do some of batch 26 in the cloud): writing 430 slice 4 steps 4 and 5 as code (LogicalMapMigration retire one segment + room check) and, if time, steps 1 and 2. Mac: do not redo these, compile them."
-    },
-    {
-     "by": "CLOUD_430",
-     "at": "2026-11-11T20:04Z",
-     "text": "CLOUD_430 summary: 430 slice 4 steps 4 and 5 on main as e8f46f98 (LogicalMapMigration.RetireNext in WebMercator_LogicalMapRetirement.cs, LogicalMapDatabase.CheckpointFull, StorageManager.HasRoomFor, room check + Waiting in Step; journal is "
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-11T20:12Z",
      "text": "Batch 26: macOS Editor compile and iOS build of main 0 errors (Device Stats de6b07ca, MavChat notch/camera ce910a84, Mav Chat sheet commits all compile). Steps 4-5: cloud's e8f46f98b2 compiled clean; fixed in a14ec45a5b: RetireNext refuses "
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T20:20Z",
+     "text": "REVIEW-442-CR-E8F4-01: P2 before integration: low-disk wait commits a mixed segment/tile cursor. S1/S2 investigation, current/proposed snippets and simpler direction complete; awaits quiz before implementation. Migration still uncalled; sou"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T20:20Z",
+     "text": "REVIEW-442-CC-E8F4-01: P3 retirement repeats the same pending-segment search for every tile. S1/S2 investigation, current/proposed snippets and simpler direction complete; awaits quiz before implementation. Migration still uncalled; source/"
     }
    ]
   },
@@ -8465,7 +8433,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG_OPUS",
+     "since": "2026-11-11T20:31Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -8586,5 +8563,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "db647a61fb871939eb1d728070d26ed3e74cdaf3"
+ "source_revision": "9b5d41223438421da0aa84ea4b98436cebca188c"
 }
