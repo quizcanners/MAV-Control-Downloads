@@ -388,57 +388,6 @@
    ]
   },
   {
-   "n": 26,
-   "name": "Boot cost",
-   "done": "",
-   "goal": false,
-   "under": 362,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Compile Windows and Android builds (RemoteSense lifecycle in Station_RemoteSense",
-     "x": true
-    },
-    {
-     "t": "Boot an Android build with no remote sensors; read the RemoteSense owner ms from",
-     "x": false
-    },
-    {
-     "t": "Open the Remote sensors workflow: map shows saved sensors, connection works; lea",
-     "x": false
-    },
-    {
-     "t": "Read the per-owner list that boot already records: Diagnostics > Boot work (ever",
-     "x": false
-    },
-    {
-     "t": "Input ms after the FPV map left boot (C# pushed uncompiled 2026-11-08; before: 2",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_CODING_BOOT",
-     "at": "2026-11-09T05:39Z",
-     "text": "CodingSceneReady 44 ms cut (cloud, uncompiled, pushed to main): the read worker now validates and hashes every record while parsing (HashOnWorker, CodingScene_Files.cs); EnableScene keeps the hash. Area guide and STARTUP.md updated."
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-09T06:48Z",
-     "text": "CC-E195-01 (P3 complexity/performance): S1 investigation complete. HashOnWorker validates each default record and sets its hash; EnableScene then calls TryValidate on the same untouched loaded records again, including point walks and two un"
-    },
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T17:19Z",
-     "text": "ROG_OPUS 2026-11-11: compiled on Rog after pull (main 86343846bb): Roslyn cmp.sh against 9358375a NEW ERRORS none (EXTRA_REF_DIR UnityEngine.UI, Unity.TextMeshPro, Unity.InputSystem), and the Unity Editor recompiled and reloaded with no err"
-    }
-   ]
-  },
-  {
    "n": 29,
    "name": "Phone check of idle 2 FPS (after",
    "done": "2026-11-10T07:50Z",
@@ -7058,7 +7007,7 @@
    "name": "Load map only: on first launch the user sees the map as fast",
    "done": "",
    "goal": true,
-   "under": 0,
+   "under": 362,
    "ticks": [],
    "priority": "normal",
    "parked": false,
@@ -7080,23 +7029,43 @@
     {
      "t": "Confirm on a phone that the map shows at once and UI and overlays fill in withou",
      "x": false
+    },
+    {
+     "t": "Compile Windows and Android builds (RemoteSense lifecycle in Station_RemoteSense",
+     "x": true
+    },
+    {
+     "t": "Boot an Android build with no remote sensors; read the RemoteSense owner ms from",
+     "x": false
+    },
+    {
+     "t": "Open the Remote sensors workflow: map shows saved sensors, connection works; lea",
+     "x": false
+    },
+    {
+     "t": "Read the per-owner list that boot already records: Diagnostics > Boot work (ever",
+     "x": false
+    },
+    {
+     "t": "Input ms after the FPV map left boot (C# pushed uncompiled 2026-11-08; before: 2",
+     "x": false
     }
    ],
    "notes": [
     {
-     "by": "CLOUD_GOAL",
-     "at": "2026-11-11T09:04Z",
-     "text": "quiz, 2026-11-11: \"This means that on first launch user should see map as fast as possible. UI and overlays load up in parallel.\" Also: \"load map only\" is a goal (quiz, 2026-11-11, see Coordination/Tasks/README.md Goals). Guides: Bootstrap "
+     "by": "CLOUD_CODING_BOOT",
+     "at": "2026-11-09T05:39Z",
+     "text": "CodingSceneReady 44 ms cut (cloud, uncompiled, pushed to main): the read worker now validates and hashes every record while parsing (HashOnWorker, CodingScene_Files.cs); EnableScene keeps the hash. Area guide and STARTUP.md updated."
     },
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T14:40Z",
-     "text": "LOCAL_MAC batch 16: Overlays stage 2, Lists UI (LISTS Left + Playback), Late UI, Map Editor UI into Workflow UI, Sounds.unity all on main and loading after the map in Mac Editor Play. Mac Editor numbers before/after: map_present 3.99/2.97 -"
+     "by": "REVIEW",
+     "at": "2026-11-09T06:48Z",
+     "text": "CC-E195-01 (P3 complexity/performance): S1 investigation complete. HashOnWorker validates each default record and sets its hash; EnableScene then calls TryValidate on the same untouched loaded records again, including point walks and two un"
     },
     {
      "by": "ROG_OPUS",
-     "at": "2026-11-11T18:58Z",
-     "text": "ROG_OPUS 2026-11-11 batch 19: Windows compile at main 947d141b70: Roslyn cmp.sh against 86343846bb NEW ERRORS none, Unity Editor imported and recompiled with no error CS line, dotnet build Tools/BackgroundChat 0 errors (tunnel host included"
+     "at": "2026-11-11T17:19Z",
+     "text": "ROG_OPUS 2026-11-11: compiled on Rog after pull (main 86343846bb): Roslyn cmp.sh against 9358375a NEW ERRORS none (EXTRA_REF_DIR UnityEngine.UI, Unity.TextMeshPro, Unity.InputSystem), and the Unity Editor recompiled and reloaded with no err"
     }
    ]
   },
@@ -8973,5 +8942,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "38d115a3ea00fd55834ed80c0a761bf716d1ea40"
+ "source_revision": "285b46121d8e18f9bcf41216d1531128a6a7cfac"
 }
