@@ -10040,7 +10040,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "LOCAL_MAC",
+     "since": "2026-11-11T17:24Z",
+     "noted": "",
+     "progress": 25,
+     "ticked": 1,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Find views that print a status word their writer produced (full, failed, unreach",
@@ -10275,5 +10284,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "41ba18c0dddd31f8a4e6a206d0df344352902366"
+ "source_revision": "87162336eab20469eb2557cdfbaf0af9c48c437d"
 }
