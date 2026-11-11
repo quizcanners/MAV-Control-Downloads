@@ -58,11 +58,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-11T06:43Z",
-     "text": "GETAC follow-up on Strong Dev 822 and SV07: Wi-Fi off triggered Android IpClient on bt-pan. NetworkStack recorded DHCP Discover TX and no DHCP Offer before provisioning timeout. Wi-Fi restored. After user power-cycled SV07, PAN did not auto"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-11T06:54Z",
      "text": "GETAC SV07 Bluetooth comparison: Windows first showed an unexpected PAN error. Its initial ping was Ethernet. After disconnecting Strong PAN and resetting the Windows PAN entry, Windows got a fresh DHCP lease 192.168.11.2 from 192.168.11.1."
     },
@@ -70,6 +65,11 @@
      "by": "GETAC",
      "at": "2026-11-11T07:09Z",
      "text": "46beacd8f0 puts Motorola Bluetooth recovery in Settings (SPEC: Connection method), in English and Ukrainian. PAN missing, PAN without usable IPv4, and unconfirmed Radio ID each have their own next step. Windows no longer selects a Bluetooth"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-11T07:16Z",
+     "text": "58ce49e269 adds read-only PAN interface state, selectable IPv4 count, and adapter sample generation to motorola.connection. Unity Editor C# and Android Java compiled. No new device build or reconnect was run. For the next SV07 test capture "
     }
    ]
   },
@@ -6721,5 +6721,5 @@
    "notes": []
   }
  ],
- "source_revision": "d5020c4491c677c07394b7e18d8297df7d0c9c6e"
+ "source_revision": "4c829f91ab85093f9c45ff6d75f7d3d732fc7ee6"
 }
