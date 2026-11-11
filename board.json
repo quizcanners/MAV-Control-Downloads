@@ -7092,31 +7092,6 @@
    "notes": []
   },
   {
-   "n": 359,
-   "name": "Map render mode state machine (a",
-   "done": "",
-   "goal": false,
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "cloud-thread",
-     "at": "2026-11-11T08:18Z",
-     "text": "quiz settled the number: 3 seconds for the double-resolution still frame (quiz, 2026-11-11: \"3 seconds\"). Ignore the 2 s / 0.3 fps conflict in the brief; guide updated."
-    },
-    {
-     "by": "cloud-thread",
-     "at": "2026-11-11T08:22Z",
-     "text": "Addition from quiz: global texture _GlobalLiquidGlass read only by squircle/capsule shaders; = blurred screen normally, = the sharp 2x grab in FrozenDouble (visible debug sign). quiz, 2026-11-11: \"I would also want to use that texture for L"
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T09:00Z",
-     "text": "3068a802ce (on main): Station.MapRender.Decide (the four exclusive modes from the guide), FrozenRefreshDue (entry, then every 3 s), MapRenderModeTests; _GlobalLiquidGlass published with _BlurredScreen by BlurManager and read by LiquidGlassC"
-    }
-   ]
-  },
-  {
    "n": 360,
    "name": "MavChat floating panel follow-up",
    "done": "",
@@ -7217,8 +7192,24 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "cloud-thread",
+     "at": "2026-11-11T08:18Z",
+     "text": "quiz settled the number: 3 seconds for the double-resolution still frame (quiz, 2026-11-11: \"3 seconds\"). Ignore the 2 s / 0.3 fps conflict in the brief; guide updated."
+    },
+    {
+     "by": "cloud-thread",
+     "at": "2026-11-11T08:22Z",
+     "text": "Addition from quiz: global texture _GlobalLiquidGlass read only by squircle/capsule shaders; = blurred screen normally, = the sharp 2x grab in FrozenDouble (visible debug sign). quiz, 2026-11-11: \"I would also want to use that texture for L"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T09:00Z",
+     "text": "3068a802ce (on main): Station.MapRender.Decide (the four exclusive modes from the guide), FrozenRefreshDue (entry, then every 3 s), MapRenderModeTests; _GlobalLiquidGlass published with _BlurredScreen by BlurManager and read by LiquidGlassC"
+    }
+   ]
   }
  ],
- "source_revision": "8c49f02c289743d8ac26b9302ccab39fe7b57ef3"
+ "source_revision": "073134e187bc9dab222884b635a594112f973165"
 }
