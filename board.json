@@ -6109,31 +6109,6 @@
    ]
   },
   {
-   "n": 330,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T06:56Z",
-     "text": "Windows All.xml first failure, SpoutDiscoveryPlayModeTests.ObsInput_ReceivesWhiteFrame: Expected: True But was: False"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T07:11Z",
-     "text": "Focused Windows run reproduced ObsInput_ReceivesWhiteFrame. The case is Explicit and requires an external OBS Spout source sending an opaque white frame. No OBS process or standard OBS installation is present here. The native discovery case"
-    }
-   ]
-  },
-  {
    "n": 331,
    "name": "Windows EditMode All 76ad76b6df",
    "done": "2026-11-11T05:26Z",
@@ -7069,18 +7044,18 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-11T06:55Z",
-     "text": "Windows All.xml first failure, GroupPhotoCheckpointPlayModeTests.CreatedPhotoSurvivesCheckpointFailureRetryAndFreshOwnerReload: SetUp : Preserve unsaved operator scene work. Expected: False But was: True"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T07:10Z",
-     "text": "The isolated Windows native fixture passed 1/1. Prior All failed before entering Play on the unsaved-scene guard. Recheck that admission in the containing All before closing."
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-11T07:44Z",
      "text": "Fresh All d32937fcf6 reproduced the isolated-pass/full-run failure: CreatedPhotoSurvivesCheckpointFailureRetryAndFreshOwnerReload rejects an already dirty open scene in SetUp (Preserve unsaved operator scene work). The persistence assertion"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T06:56Z",
+     "text": "Windows All.xml first failure, SpoutDiscoveryPlayModeTests.ObsInput_ReceivesWhiteFrame: Expected: True But was: False"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T07:11Z",
+     "text": "Focused Windows run reproduced ObsInput_ReceivesWhiteFrame. The case is Explicit and requires an external OBS Spout source sending an opaque white frame. No OBS process or standard OBS installation is present here. The native discovery case"
     }
    ]
   },
@@ -8681,5 +8656,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "60e5dfdd5f51ab8afbfaa736a5a8c04f4d967451"
+ "source_revision": "f58c12247df8fdd61d809236775898f68dcc2ce6"
 }
