@@ -5485,36 +5485,6 @@
    ]
   },
   {
-   "n": 286,
-   "name": "Overlays scene (quiz",
-   "done": "",
-   "goal": false,
-   "under": 362,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T11:41Z",
-     "text": "54fb8213ec stage 2: wind, Pano360, Zoomed out, screen centre crosshair, altitude visualization, WiFi signal map moved to Overlays.unity under 'Overlays Georeference' (copy of Planet's CesiumGeoreference), AdoptOverlaysOnce hands the childre"
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T14:13Z",
-     "text": "Startup with stage 2 on main (ffca071735, Mac Editor Play, project identity, two runs): startup_measure_map_present_at_s 3.987 / 2.965, ready 4.077 / 3.043, main_ui_load_s 0.090 / 0.078. The last numbers before stage 2 were 3.76 / 3.07 (202"
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T15:45Z",
-     "text": "cbe8f0ee63: Station.MousePointed and VideoToMap_Utils.Decals use TryGet; MousePointed calls are ?.; every method reading Decals returns at once until Tiles Editing is there (no warning, no queue). 429b819c62: MGMT-Mouse Pointed Area and MGM"
-    }
-   ]
-  },
-  {
    "n": 287,
    "name": "Main UI sheds what the reveal do",
    "done": "",
@@ -6993,19 +6963,19 @@
    ],
    "notes": [
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T11:18Z",
-     "text": "ROG_OPUS: C# part done in ae1febc7fd. Station.SoundWanted (Station_Enums.cs, beside Play): WantSounds && NotificationVolume > 0 && Android media stream not muted (ReadSystemSound via AudioManager.getStreamVolume(STREAM_MUSIC), called from S"
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T11:41Z",
+     "text": "54fb8213ec stage 2: wind, Pano360, Zoomed out, screen centre crosshair, altitude visualization, WiFi signal map moved to Overlays.unity under 'Overlays Georeference' (copy of Planet's CesiumGeoreference), AdoptOverlaysOnce hands the childre"
     },
     {
      "by": "LOCAL_MAC",
-     "at": "2026-11-11T14:39Z",
-     "text": "81f083ca9a: Sounds.unity holds 'Sounds MGMT' (moved out of MGMT-Station in Bootstrap.unity, no references crossed), _sounds_Scene set, in build settings; Play: Sounds loads right after Main UI with sound on, no exceptions. Loading bar NOT m"
+     "at": "2026-11-11T14:13Z",
+     "text": "Startup with stage 2 on main (ffca071735, Mac Editor Play, project identity, two runs): startup_measure_map_present_at_s 3.987 / 2.965, ready 4.077 / 3.043, main_ui_load_s 0.090 / 0.078. The last numbers before stage 2 were 3.76 / 3.07 (202"
     },
     {
      "by": "LOCAL_MAC",
-     "at": "2026-11-11T15:38Z",
-     "text": "f1db0525aa: the loading bar now lives in Bootstrap.unity under 'Loading Bar Canvas' (overlay, sort 0, below Main UI's 1/4, UI_MAIN's CanvasScaler), so it exists before Main UI; UI_MapLoadingProgressHome drives it once the Station is up; Sin"
+     "at": "2026-11-11T15:45Z",
+     "text": "cbe8f0ee63: Station.MousePointed and VideoToMap_Utils.Decals use TryGet; MousePointed calls are ?.; every method reading Decals returns at once until Tiles Editing is there (no warning, no queue). 429b819c62: MGMT-Mouse Pointed Area and MGM"
     }
    ]
   },
@@ -8882,5 +8852,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "53e5478e6f41d354573ad5c26fceaf2b286248be"
+ "source_revision": "42a77223627d680648675fa73609a29393168c14"
 }
