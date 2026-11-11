@@ -520,11 +520,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_PERF_AUDIT",
-     "at": "2026-11-08T20:50Z",
-     "text": "Cloud audit (2026-11-08): NamesCache (24-53 ms) and the Keystore unlocks under CodingFiles, chat pages and labels: every encrypted Load outside a HoldMasterKey scope is its own Android Keystore (StrongBox) unwrap. Startup now holds the mast"
-    },
-    {
      "by": "CLOUD_CODING_BOOT",
      "at": "2026-11-09T05:39Z",
      "text": "CodingSceneReady 44 ms cut (cloud, uncompiled, pushed to main): the read worker now validates and hashes every record while parsing (HashOnWorker, CodingScene_Files.cs); EnableScene keeps the hash. Area guide and STARTUP.md updated."
@@ -533,6 +528,11 @@
      "by": "REVIEW",
      "at": "2026-11-09T06:48Z",
      "text": "CC-E195-01 (P3 complexity/performance): S1 investigation complete. HashOnWorker validates each default record and sets its hash; EnableScene then calls TryValidate on the same untouched loaded records again, including point walks and two un"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T17:19Z",
+     "text": "ROG_OPUS 2026-11-11: compiled on Rog after pull (main 86343846bb): Roslyn cmp.sh against 9358375a NEW ERRORS none (EXTRA_REF_DIR UnityEngine.UI, Unity.TextMeshPro, Unity.InputSystem), and the Unity Editor recompiled and reloaded with no err"
     }
    ]
   },
@@ -10270,5 +10270,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "7499864a2c97fac1c49d23ce196539073ba981d2"
+ "source_revision": "1ddffc84ff2ea38137c8e8c98bfb65b285fbb9a7"
 }
