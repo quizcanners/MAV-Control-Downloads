@@ -4920,7 +4920,7 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-11T11:19Z",
-     "noted": "",
+     "noted": "2026-11-11T11:29Z",
      "progress": 100,
      "ticked": 5,
      "total": 5
@@ -4951,11 +4951,6 @@
    "notes": [
     {
      "by": "LOCAL_MAC",
-     "at": "2026-11-10T18:40Z",
-     "text": "LOCAL_MAC 3b6635d4c9 (cmp.sh NEW ERRORS: none, tests not run): place 13 cut: Network_Join.cs and all readers (QR window, chat window, personal actions, deep links, personal info issue, USB inspector line), Persistent.AssignedVpnAddress with"
-    },
-    {
-     "by": "LOCAL_MAC",
      "at": "2026-11-10T18:50Z",
      "text": "LOCAL_MAC: place 13 finished: Android USB invitation flow cut (AndroidJoin, InstallAndAuthenticate, InvitationOpened, name toggle), cmp.sh NEW ERRORS: none. Remaining in 241 per the file: state-in-flags outside Street View (place 7), Google"
     },
@@ -4963,6 +4958,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-11T09:29Z",
      "text": "ROG_OPUS read the three places (commit 'creeping-complexity: places 14...'). Two questions for quiz, nothing cut: (14) the diagnostics handoff to the Windows background app (~1,750 shared lines + ~3,900 in the background app, app and checks"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T11:29Z",
+     "text": "ROG_OPUS batch 15: place 16 read (video session flags). Cut 6a8d382af7 (three receive stats fields nothing read; WebRTC stats host check same 47 PASS). Written up, not cut (12573edc66): sender negotiation as flags; DjiDirectH264SendSession "
     }
    ]
   },
@@ -8083,5 +8083,5 @@
    ]
   }
  ],
- "source_revision": "fe102caabf88834bd0520535c4bdb5186652126d"
+ "source_revision": "a85189cbd9683c7007e64ef46f604f9ce7ec1f50"
 }
