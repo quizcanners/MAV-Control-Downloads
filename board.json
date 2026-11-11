@@ -612,36 +612,6 @@
    "notes": []
   },
   {
-   "n": 60,
-   "name": "Eliminate Lenovo Android GLES Si",
-   "done": "",
-   "goal": false,
-   "under": 362,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_REVIEW",
-     "at": "2026-11-09T20:48Z",
-     "text": "Source review: Singleton_SituationEntities.cs:325-334 holds the first bake until all five variants of the Situation collection are warmed on GLES, while Metal already skips the warm-up ('Ordinary draws work'); same pattern in Singleton_Cont"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-10T08:40Z",
-     "text": "Pending on GETAC. ADB lists Strong only. Lenovo GLES cold/warm prewarm and first visible Situation draw were unavailable."
-    },
-    {
-     "by": "CLOUD_DOABLE",
-     "at": "2026-11-11T18:43Z",
-     "text": "CLOUD_DOABLE 2026-11-11, uncompiled. Singleton_SituationEntities.cs: the synchronous WarmUpProgressively(1) is skipped on OpenGLES2/3 like Metal (draws build the pipeline on first use). Same call remains in Singleton_ControlZonePainter.cs:2"
-    }
-   ]
-  },
-  {
    "n": 61,
    "name": "Note from GETAC",
    "done": "2026-11-10T07:50Z",
@@ -8349,19 +8319,19 @@
    ],
    "notes": [
     {
-     "by": "performance-review",
-     "at": "2026-11-09T00:52Z",
-     "text": "Build 814 rows (07bcf48b71) have no matched idle owner snapshot, so VPN Chat and Map Editing Before Camera are unchecked there. Next idle read must capture the top 5 idle owners, and Phone_Timings.md Owners gets them."
+     "by": "CLAUDE_REVIEW",
+     "at": "2026-11-09T20:48Z",
+     "text": "Source review: Singleton_SituationEntities.cs:325-334 holds the first bake until all five variants of the Situation collection are warmed on GLES, while Metal already skips the warm-up ('Ordinary draws work'); same pattern in Singleton_Cont"
     },
     {
      "by": "GETAC",
      "at": "2026-11-10T08:40Z",
-     "text": "Strong Dev 821 unattended KSP with live traffic, 30.032 s / 225 updates. VPN Chat 11.584 ms/update. Leading measured stages Session Maintenance 3.334, Payload Splitter Managed Update 3.150, Processing Messages 2.798, Direct USB 1.844 ms/upd"
+     "text": "Pending on GETAC. ADB lists Strong only. Lenovo GLES cold/warm prewarm and first visible Situation draw were unavailable."
     },
     {
      "by": "CLOUD_DOABLE",
      "at": "2026-11-11T18:43Z",
-     "text": "CLOUD_DOABLE 2026-11-11, uncompiled. Network_Manager.cs: the 4 Hz TrySendPerSessionCryptoHandshakes now runs only while some eligible peer link has no session key yet (_cryptoHandshakePending); the 5 s round recomputes it and backstops new "
+     "text": "CLOUD_DOABLE 2026-11-11, uncompiled. Singleton_SituationEntities.cs: the synchronous WarmUpProgressively(1) is skipped on OpenGLES2/3 like Metal (draws build the pipeline on first use). Same call remains in Singleton_ControlZonePainter.cs:2"
     }
    ]
   },
@@ -8731,5 +8701,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "fbb505d1efa254afa12e6979718960ba148e27ac"
+ "source_revision": "a3ad43d05e4067829024d26c5e96e4d76a0bfb7a"
 }
