@@ -5759,19 +5759,14 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T11:41Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T11:41Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "REVIEW",
-     "at": "2026-11-10T20:02Z",
-     "text": "REVIEW-419: source review through 69ba252a0 found no new finding; seven-root scene/reference checks passed. Existing task status and native follow-up retained. [Coverage and verification limits](../Reviews/69ba252a0.md)."
-    },
     {
      "by": "REVIEW",
      "at": "2026-11-10T20:14Z",
@@ -5781,6 +5776,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T07:28Z",
      "text": "LOCAL_MAC batch 13: not started (needs Play with startup_measure_map_present_at_s before/after); stage-2 attempt of 2026-11-10 was reverted for the CesiumGlobeAnchor warning."
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T11:41Z",
+     "text": "54fb8213ec stage 2: wind, Pano360, Zoomed out, screen centre crosshair, altitude visualization, WiFi signal map moved to Overlays.unity under 'Overlays Georeference' (copy of Planet's CesiumGeoreference), AdoptOverlaysOnce hands the childre"
     }
    ]
   },
@@ -8101,5 +8101,5 @@
    "notes": []
   }
  ],
- "source_revision": "dd52edce89ac78545822f004bd8b0e104134465d"
+ "source_revision": "8e2c0fbbad9d7c29de5a5f737256211f265751a5"
 }
