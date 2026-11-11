@@ -6060,19 +6060,14 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T15:21Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T15:23Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "cloud-thread",
-     "at": "2026-11-10T12:55Z",
-     "text": "Also move the video visibility button from the right Pilot column to the left (Copilot SPEC updated; prefab move needs the Editor). quiz, 2026-11-10: \"I think hide video button needs to be on the left\""
-    },
     {
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T09:26Z",
@@ -6082,6 +6077,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T15:22Z",
      "text": "CLOUD_THREAD 2026-11-11: Pilot Video Visibility moved from MAV Control Actions - Right to DJI Actions - Left in Pilot UI.prefab (YAML edit, father + children lists + pivot). Fold-strip icon not touched. Not seen."
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T15:23Z",
+     "text": "29a1ac11de: Pilot Video Visibility moved from 'MAV Control Actions - Right' to the head of 'DJI Actions - Left' (both UI_MergedStrip element lists updated); hidden outside Pilot in code. Labels were already done in b53ac4c8. Not done: its f"
     }
    ]
   },
@@ -10264,5 +10264,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "dd2be391a0c9866e581dd5909e2d496f9320a85b"
+ "source_revision": "a18856cd9d21c991a71aee9bcd604f1c54f5bc49"
 }
