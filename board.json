@@ -4459,19 +4459,14 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-11T05:53Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T06:23Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "CLOUD",
-     "at": "2026-11-10T12:07Z",
-     "text": "Answered 2026-11-10: quiz chose 'By the tabs on screen now' on the card. The strip or the column keeps following the tabs on screen; Station.UI.LeftLists.TabsVertical stays as it is. Written into UI SPEC Left List Tabs and the Lists guide ("
-    },
     {
      "by": "ROG_OPUS",
      "at": "2026-11-10T21:02Z",
@@ -4481,6 +4476,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-10T23:05Z",
      "text": "ROG_OPUS: the gate writers are done. No production code un-defines Station.UI.s_overlayCheckGate any more: one commit each for the video server grid (2), Extended layers (1), peer camera feed (1), Settings window (5) and Station_Utils_UI.cs"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T06:23Z",
+     "text": "ROG_OPUS: the four prefab reads of DecideOverlay are gone, one commit each (Workflow selector -> Station.UI.WorkflowSelectorOpen/WorkflowSelectorShown; fullscreen video -> Station.UI.FullscreenVideoOpen via Singleton_UI_VideoFeed.Requested;"
     }
    ]
   },
@@ -6304,5 +6304,5 @@
    ]
   }
  ],
- "source_revision": "1d6a5627024f4e78e6b5ca7698ae2af0fead487f"
+ "source_revision": "150103b715ce836946f11be0014de619c2136496"
 }
