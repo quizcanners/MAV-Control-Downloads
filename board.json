@@ -2844,19 +2844,14 @@
     {
      "who": "CLOUD",
      "since": "2026-11-11T14:05Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T14:12Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-10T22:03Z",
-     "text": "Ran Build-Linux-Nightly.ps1 once on Windows Unity 6000.6.8f1 at 76ad76b6df. Linux x64 Mono built and packaged 194836093 bytes, SHA-256 0bd0f3b1f8fe40d3834ac9cb94d97d0ca1e2c642d2f416eb206a470c0f85c59c. Publish line: Publication stopped: The "
-    },
     {
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T07:12Z",
@@ -2866,6 +2861,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-11T09:10Z",
      "text": "ROG_OPUS, 2026-11-11: Rog cannot build Linux. Installed editors C:/Unity/6000.6.0f1, 6000.6.5f1, 6000.6.8f1 (the project is on 6000.6.8f1); PlaybackEngines of 6000.6.5f1 and 6000.6.8f1 hold only AndroidPlayer and windowsstandalonesupport, n"
+    },
+    {
+     "by": "CLOUD",
+     "at": "2026-11-11T14:12Z",
+     "text": "CLOUD: the Linux build now makes its publisher key before Unity runs, as Windows and Android do: MavBuildReleaseKeys treats StandaloneLinux64 as required, and Build-Linux-Nightly.ps1 checks and creates <clone parent>/ReleaseKeys and sets th"
     }
    ]
   },
@@ -7322,11 +7322,6 @@
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T11:15Z",
-     "text": "bdcf62b0dd: Station.MapRender.Step once per frame from Singleton_GroundStation.StepMapRenderMode (LateUpdate). Interacting = finger/key/mouse within 30 s; moving = finger down and camera moving, so half drops the frame the finger lifts (0.3"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-11T11:45Z",
      "text": "Investigation CC-BDCF-01, P3 resource reuse: the sharp idle grab is destroyed on leaving FrozenDouble and recreated on the next quiet entry while its option stays on. S1/S2 exact writers, existing-target retention sketch and phone-memory tr"
@@ -7335,6 +7330,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T13:47Z",
      "text": "3f0b79a7d8: UI_MapBlockingBars and its strips removed from Fullscreen Video.prefab, script and its two ChatWindowLayoutTests deleted. ba20bdc168: Mode.VideoOnBlack decided first from Singleton_UI_VideoFeed.IsShown (raw view; first person of"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T14:12Z",
+     "text": "Investigation CR-BA20-01, P3: a first shared peer pointer is placed before the new movement delta is measured, so its arrival can leave FrozenDouble unchanged until the 3 s refresh. S1 source/branch control and S2 existing-MovedFrame assign"
     }
    ]
   },
@@ -8340,5 +8340,5 @@
    "notes": []
   }
  ],
- "source_revision": "7eca1961dd1d925f635b1f2221652bb46d0a7d6a"
+ "source_revision": "c96dda8c18cda326e77106c5ceda22c159b98751"
 }
