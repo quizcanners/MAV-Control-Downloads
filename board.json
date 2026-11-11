@@ -6081,6 +6081,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T05:27Z",
      "text": "Mac 2026-11-11: case 0 fixed (fixture binds _TOD_SkyUp, 93dd60f4ad); case 1 (Sun) differs 0.31 because the Sun glow moved from acos to the chord (task 172 item 22); waits for quiz to accept the chord or revert it."
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T06:19Z",
+     "text": "2ed8276852: quiz accepted the new look (2026-11-11); fixture updated, green on the Mac."
     }
    ]
   },
@@ -6251,7 +6256,15 @@
      "text": "Added ask (4): Contrast boost darkens the image; also lift dark areas by remapping up where the local average from the mask is dark, in VideoContrast.hlsl ApplyVideoContrast (Video Processing SPEC, 'Contrast boost lifts dark areas'). Quote "
     }
    ]
+  },
+  {
+   "n": 342,
+   "name": "Built-in WireGuard on Windows (q",
+   "done": "",
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
- "source_revision": "a0b0c87a4af0191c0a390e7b1eeb8e8a16cb6740"
+ "source_revision": "e34afec78cb317bb9ef765d6bc40e338fae22f9a"
 }
