@@ -6305,8 +6305,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-11T06:57Z",
-     "noted": "2026-11-11T06:57Z",
-     "progress": 25,
+     "noted": "2026-11-11T07:12Z",
+     "progress": 40,
      "ticked": 0,
      "total": 0
     }
@@ -6322,6 +6322,11 @@
      "by": "HEAVY",
      "at": "2026-11-11T06:57Z",
      "text": "Windows All.xml first failure, VpnTunnelTests.ConsentIsAskedFirstAndTheApplyFollowsTheGrant: System.NullReferenceException : Object reference not set to an instance of an object"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T07:12Z",
+     "text": "The fake tunnel bridge read and wrote served-tunnel state through the default Station-backed callback. The fixture owns that state in memory now. All VpnTunnelTests pass in fixture-recheck-b.xml."
     }
    ]
   },
@@ -6723,5 +6728,5 @@
    "notes": []
   }
  ],
- "source_revision": "0c360468db7221769899cb22f3dd0aa4c3d29b78"
+ "source_revision": "8bcad1cdcffabc533a46e04167aae8957b97d617"
 }
