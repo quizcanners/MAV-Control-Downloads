@@ -7881,7 +7881,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T22:27Z",
-     "noted": "",
+     "noted": "2026-11-11T22:28Z",
      "progress": 0,
      "ticked": 0,
      "total": 1
@@ -7898,6 +7898,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T17:01Z",
      "text": "ffb970edc3: 'Server tasks status shows the real state' done. BoardTasks.ReadState (NotRead, Reading, Answered, NoReply, BadAnswer) set by the board fetch; the Retry row prints 'No reply for N s' (from the last answer or first ask), 'Server "
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T22:28Z",
+     "text": "Missing list rewritten: the (was 422) offline-state item left it, its own fold note says 'Gap left: none' (cached board, one Offline row, backoff, loading bar on main). Only the write-back remains, waiting on quiz's route pick."
     }
    ]
   },
@@ -8663,5 +8668,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a324ce3bf5e9c54ef0de76201115c8122c56c90a"
+ "source_revision": "5eff16b4ce5ced5ea675a6813fca8603f48e0b29"
 }
