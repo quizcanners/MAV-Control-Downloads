@@ -5954,11 +5954,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T06:34Z",
-     "text": "ROG_OPUS fixed the fixture in 24274124fd (mark the need before advancing the handshake) after the Mac saw it red at 4a09a9cc7e; the Mac reruns DirectRouteHubTypesTests and closes 313 if green."
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-11T06:42Z",
      "text": "LOCAL_MAC at 8fde5180f5 (includes 24274124fd): still red. DirectRouteNegotiatesNoiseWithActualHubAndAcceptsASkewedQuestion: 'Handshake is not application contact  Expected: null  But was: <127.0.0.1:54377>' (the line-41 assert). Other 6 cas"
@@ -5967,6 +5962,11 @@
      "by": "GETAC",
      "at": "2026-11-11T07:48Z",
      "text": "GETAC Unity 6000.6.8f1 at f9735bf165 compiled and ran EditMode with disposable data. Initial headless All: 8339 passed, 67 failed, 448 skipped, 1 inconclusive. Direct3D 11 rerun of all 67: 65 passed and 2 reproduced. DirectRouteNegotiatesNo"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-11T08:26Z",
+     "text": "Still red after Rog's fixture fix 24274124fd: the Mac (06:42Z) and GETAC (07:48Z, line 45) both see 'Handshake is not application contact, expected null, was 127.0.0.1:port' in DirectRouteNegotiatesNoiseWithActualHubAndAcceptsASkewedQuestio"
     }
    ]
   },
@@ -6761,5 +6761,5 @@
    ]
   }
  ],
- "source_revision": "d3f8496b6050e953e9d1fbd5749a3d439268c5f4"
+ "source_revision": "9502c6bd8eebf35f61f6c86cfda41a227ada0374"
 }
