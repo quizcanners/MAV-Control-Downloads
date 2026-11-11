@@ -8657,7 +8657,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T19:26Z",
-     "noted": "",
+     "noted": "2026-11-11T19:32Z",
      "progress": 0,
      "ticked": 0,
      "total": 16
@@ -8732,11 +8732,6 @@
    "notes": [
     {
      "by": "LOCAL_MAC",
-     "at": "2026-11-11T18:55Z",
-     "text": "Slice 1 landed, 4f5d991fea: WebMercator.LogicalMapDatabase (tiles.sqlite per map beside the segments; tiles table keyed by the packed z/x/y key, JPEG BLOB + revision/stamp/state, WAL/NORMAL/incremental vacuum, layout 3; bounded batch of 16 "
-    },
-    {
-     "by": "LOCAL_MAC",
      "at": "2026-11-11T19:11Z",
      "text": "Slice 2 landed, 973511762b: WebMercator_SqliteTileStore_LogicalMirror.cs. Writer.Commit captures each candidate's payload reference, runs CommitLocal/CommitSharded unchanged, then writes the reported presence changes into LogicalMapDatabase"
     },
@@ -8744,6 +8739,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T19:22Z",
      "text": "Slice 3 landed 0d9665eefe (code only, nothing calls it, no migration run, no tile folder touched): LogicalMapMigration.Step copies committed rows after a cursor kept in tiles.sqlite's migration row (phase/cursor/copied/failure), committed w"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T19:32Z",
+     "text": "Batch 25: slice 4 retirement order designed in the Web Mercator SPEC (ec8cbf9e43): flip authority first (schema_version 3, the writer commits only to tiles.sqlite, segments read-only, no double imagery), readers look in tiles.sqlite first w"
     }
    ]
   },
@@ -9037,5 +9037,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "7ec342c9b49f84a5f67a0f72ca144b62d3488755"
+ "source_revision": "8881114862b6a344c126be1df3cbecf1770881b8"
 }
