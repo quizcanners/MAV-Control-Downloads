@@ -276,11 +276,6 @@
    "notes": [
     {
      "by": "REVIEW",
-     "at": "2026-11-11T08:38Z",
-     "text": "REVIEW-432: inspected 6b4fdea34..58d64c2d2, twelve documentation/coordination commits; no implementation changes, merges or new findings. Prior proposals, repairs, claims and native failures retained; source/metadata controls passed, native"
-    },
-    {
-     "by": "REVIEW",
      "at": "2026-11-11T09:54Z",
      "text": "REVIEW-433-T7: CR-A5B7-01 P3 source/host-confirmed: all 22 goals serialize Tasks-tab name as GOAL. Prefix-aware export sketch, current code and falsifiers await quiz; no implementation. Existing claims/native failures retained. [S1/S2 and c"
     },
@@ -288,6 +283,11 @@
      "by": "REVIEW",
      "at": "2026-11-11T12:48Z",
      "text": "Investigation CR-CE3B-01, P3: new assets.prefab-edit extracts its file from the fully lowercased command, so the tracked Tools/PrefabEdits path cannot open on a case-sensitive filesystem. S1 source/file-open control and S2 existing-normaliz"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T15:17Z",
+     "text": "REVIEW-438-7: CR-A5B7-01 source/host repair reconciled in later 3361183a3, outside the inspected cursor: actual live_json at c6bb5ad7d exports all 27 goal titles correctly. Native Tasks-screen look unrun by REVIEW; other task 7 findings/cla"
     }
    ]
   },
@@ -3379,11 +3379,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T07:12Z",
-     "text": "Moved from HEAVY to Rog (quiz, 2026-11-11: \"Rog Can do Linux Build\"). The stop was not a missing machine key: the publisher key is a random per-build file in <clone parent>/ReleaseKeys that the Windows/Android build step creates BEFORE the "
-    },
-    {
      "by": "ROG_OPUS",
      "at": "2026-11-11T09:10Z",
      "text": "ROG_OPUS, 2026-11-11: Rog cannot build Linux. Installed editors C:/Unity/6000.6.0f1, 6000.6.5f1, 6000.6.8f1 (the project is on 6000.6.8f1); PlaybackEngines of 6000.6.5f1 and 6000.6.8f1 hold only AndroidPlayer and windowsstandalonesupport, n"
@@ -3392,6 +3387,11 @@
      "by": "CLOUD",
      "at": "2026-11-11T14:12Z",
      "text": "CLOUD: the Linux build now makes its publisher key before Unity runs, as Windows and Android do: MavBuildReleaseKeys treats StandaloneLinux64 as required, and Build-Linux-Nightly.ps1 checks and creates <clone parent>/ReleaseKeys and sets th"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T15:17Z",
+     "text": "REVIEW-438-141: CR-4066-01 reconciled: d7adbf49a supplies Linux pre-build key preparation; gzip-tar verification still takes the existing rejection branch. Retain the original proposal awaiting quiz and native/module handoff; no build or pu"
     }
    ]
   },
@@ -4944,11 +4944,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-10T10:17Z",
-     "text": "REVIEW-411 / CR-B6B0-01: publication-time source reconciliation read 887db5312e after the fixed tip; Seen reset is repaired in source, HEAVY records 17/17 Unity fixture passes and a page bump. Live Portrait colors remain unverified; REVIEW "
-    },
-    {
      "by": "CLOUD",
      "at": "2026-11-10T10:43Z",
      "text": "quiz, 2026-11-10 (Notifications SPEC 'Received, not agreed'): tick-mark = received, + only after a full read in MavChat; red/blue = not received/received. Code changed: Seen now means received, set by tick-mark or body tap, no longer by bei"
@@ -4957,6 +4952,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T16:51Z",
      "text": "Current received semantics passed NotificationRendererBindingTests 17/17. The fixture exercises unchanged binding, replacement on the same source, display alone remaining unread, and MarkReceived marking it received. No code change to Seen "
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T15:18Z",
+     "text": "Closed by LOCAL_MAC: the code is done (887db5312e, then received semantics), NotificationRendererBindingTests 17/17 on HEAVY; what is left is the live red/blue look, which is verification (page Main/Notifications already bumped), not work."
     }
    ]
   },
@@ -7151,11 +7151,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLOUD",
-     "at": "2026-11-10T16:54Z",
-     "text": "Code done (uncompiled), shared with 286: _listsUI_Scene, _navigationUI_Scene, _lateUI_Scene fields, RequestListsUI()/RequestNavigationUI()/RequestLateUI(), admitted one after another after the reveal. Left for the Editor: create Lists UI.un"
-    },
-    {
      "by": "CLOUD_LOAD_TIME",
      "at": "2026-11-10T17:04Z",
      "text": "quiz, 2026-11-10: no loading screen; the map shows at once, the bar covers core scenes and layers, sounds load on demand (task 288, Bootstrap AGENTS 'The loading plan'). Effect here: the reveal moment is now the Map camera's frame, so start"
@@ -7164,6 +7159,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T14:39Z",
      "text": "Editor part, Mac Editor Play with the project identity. 65b70c5ede Lists UI.unity (LISTS Left), 736c64e5b6 Playback into Lists UI too (it is the map's selected-peer panel UI_VoiceChatPlaque, not Chat-only, so not Chat UI as the table says),"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T15:17Z",
+     "text": "REVIEW-438-CR-7BD3-01 P2: S1 investigation and S2 brief/current snippet/existing-view admission sketch complete; Compass Open file silently drops a picked path before Late UI is ready. Awaits quiz before implementation. [Evidence and unrun "
     }
    ]
   },
@@ -9755,6 +9755,11 @@
      "by": "CLOUD",
      "at": "2026-11-11T14:00Z",
      "text": "Polyline rebuild no longer reads the anchor when GetOrCreateAnchor returns null (spawner not there yet) or the anchor is gone; it keeps the rebuild request and retries next frame (Shape_Utils_Polyline.cs). cmp.sh NEW ERRORS: none. Needs the"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T15:17Z",
+     "text": "REVIEW-438-CC-7240-01 P3 complexity/performance investigation: absent-anchor retries repeat the full point alignment/conversion scan before the existing owner check. Early owner admission keeps the same request; no registry or measured hitc"
     }
    ]
   },
@@ -10241,5 +10246,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f4099c61284e28f827aa25ebd6bfa376d4046366"
+ "source_revision": "848d50f2cf4456b01a64f3416fd3d7a153d60794"
 }
