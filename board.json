@@ -6004,8 +6004,8 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-11T11:12Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T11:18Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -6021,6 +6021,11 @@
      "by": "CLOUD_LOAD_TIME",
      "at": "2026-11-10T17:25Z",
      "text": "Correction: quiz's line \"Just delete them silently\" answered a question about unreadable map tiles, not sound. For sound only \"Volume 0 == sound off. Also of system is muted.\" applies; a sound asked for while off or before the scene is ther"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T11:18Z",
+     "text": "ROG_OPUS: C# part done in ae1febc7fd. Station.SoundWanted (Station_Enums.cs, beside Play): WantSounds && NotificationVolume > 0 && Android media stream not muted (ReadSystemSound via AudioManager.getStreamVolume(STREAM_MUSIC), called from S"
     }
    ]
   },
@@ -8072,5 +8077,5 @@
    "notes": []
   }
  ],
- "source_revision": "bdc5cfe1c8098ce9f83081edf4aaa941884a8266"
+ "source_revision": "8aaeb97d2f937dd311dcc9557497a7eff68f5a58"
 }
