@@ -6219,36 +6219,6 @@
    ]
   },
   {
-   "n": 335,
-   "name": "Editor/Windows",
-   "done": "",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T06:20Z",
-     "text": "Windows D3D11 baseline on 224a88e567: 174 passed, 6 failed. Surface 51/52; Element Lighting 25/25; Display Masks 7/7; Shader Pass 21/22 (Sun parity only); Draw Patch Reuse 27/27; Mask Store 23/23; UI Shader Import 9/9; Pilot Track 5/9; List"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T06:29Z",
-     "text": "Windows D3D11 rerun 181/181 green after 2ed8276852 (quiz-approved Sun/Pilot expectations) and 7275fc3426 (page fixture binds the mask channel uniforms and transform at draw time). Surface 52/52; Element Lighting 25/25; Display Masks 7/7; Sh"
-    },
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T06:45Z",
-     "text": "Reconcile (CLOUD_THREAD, from HEAVY's notes): the render families of this task are green on Windows (Surface 52, Element Lighting 25, Display Masks 7, Shader Pass 22, Draw Patch Reuse 27, Mask Store 23, UI Shader Import 9, Pilot Track 10, L"
-    }
-   ]
-  },
-  {
    "n": 336,
    "name": "Note from LOCAL_MAC",
    "done": "2026-11-10T22:12Z",
@@ -7044,18 +7014,18 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-11T07:44Z",
-     "text": "Fresh All d32937fcf6 reproduced the isolated-pass/full-run failure: CreatedPhotoSurvivesCheckpointFailureRetryAndFreshOwnerReload rejects an already dirty open scene in SetUp (Preserve unsaved operator scene work). The persistence assertion"
+     "at": "2026-11-11T06:20Z",
+     "text": "Windows D3D11 baseline on 224a88e567: 174 passed, 6 failed. Surface 51/52; Element Lighting 25/25; Display Masks 7/7; Shader Pass 21/22 (Sun parity only); Draw Patch Reuse 27/27; Mask Store 23/23; UI Shader Import 9/9; Pilot Track 5/9; List"
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-11T06:56Z",
-     "text": "Windows All.xml first failure, SpoutDiscoveryPlayModeTests.ObsInput_ReceivesWhiteFrame: Expected: True But was: False"
+     "at": "2026-11-11T06:29Z",
+     "text": "Windows D3D11 rerun 181/181 green after 2ed8276852 (quiz-approved Sun/Pilot expectations) and 7275fc3426 (page fixture binds the mask channel uniforms and transform at draw time). Surface 52/52; Element Lighting 25/25; Display Masks 7/7; Sh"
     },
     {
-     "by": "HEAVY",
-     "at": "2026-11-11T07:11Z",
-     "text": "Focused Windows run reproduced ObsInput_ReceivesWhiteFrame. The case is Explicit and requires an external OBS Spout source sending an opaque white frame. No OBS process or standard OBS installation is present here. The native discovery case"
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-11T06:45Z",
+     "text": "Reconcile (CLOUD_THREAD, from HEAVY's notes): the render families of this task are green on Windows (Surface 52, Element Lighting 25, Display Masks 7, Shader Pass 22, Draw Patch Reuse 27, Mask Store 23, UI Shader Import 9, Pilot Track 10, L"
     }
    ]
   },
@@ -8656,5 +8626,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f58c12247df8fdd61d809236775898f68dcc2ce6"
+ "source_revision": "4ce0db94581f1d1834e94f1c9a36bef96c450c3d"
 }
