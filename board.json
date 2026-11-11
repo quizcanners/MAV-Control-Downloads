@@ -60,6 +60,11 @@
      "by": "GETAC",
      "at": "2026-11-11T06:32Z",
      "text": "GETAC Strong Android 13, Dev 822, SV07 Bluetooth. Android Settings showed the device connected with Internet access enabled after a targeted Connect. bt-pan was UP/LOWER_UP with only link-local IPv6 and no IPv4, PAN route or ConnectivityMan"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-11T06:43Z",
+     "text": "GETAC follow-up on Strong Dev 822 and SV07: Wi-Fi off triggered Android IpClient on bt-pan. NetworkStack recorded DHCP Discover TX and no DHCP Offer before provisioning timeout. Wi-Fi restored. After user power-cycled SV07, PAN did not auto"
     }
    ]
   },
@@ -6438,5 +6443,5 @@
    "notes": []
   }
  ],
- "source_revision": "f38a6a29e30cfd6cb16dcedf7a3d733b9ba0a831"
+ "source_revision": "e10f5ca1548068451ac0e9510f898f04c344ce6d"
 }
