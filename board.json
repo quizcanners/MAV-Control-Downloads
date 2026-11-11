@@ -666,61 +666,6 @@
    "notes": []
   },
   {
-   "n": 51,
-   "name": "Build the Pilot side camera prev",
-   "done": "2026-11-08T19:15Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Three-state side-view button (off, small preview, main) and the top-right swap b",
-     "x": true
-    },
-    {
-     "t": "VisionAssist preview-direction demand (wins over auto peek, turns Vision Assist ",
-     "x": true
-    },
-    {
-     "t": "Swipe handler on the window: Front/Right/Back/Left steps, vertical to Down/Up an",
-     "x": true
-    },
-    {
-     "t": "Bottom-right window in Pilot UI.prefab reusing the Peek Inset frame, dimmed whil",
-     "x": true
-    },
-    {
-     "t": "Compass mark in Navigation.prefab at the camera bearing relative to the nose",
-     "x": true
-    },
-    {
-     "t": "Delete the side-view arrows and their handlers and tests",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_SPEC",
-     "at": "2026-11-08T19:24Z",
-     "text": "SWIPE RULE CHANGED (quiz, Copilot SPEC, Side camera preview): swipes always steer the side cameras, never the colour camera. Colour is main: a swipe turns only the side camera direction; main view and projection stay put. Side cameras are m"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-08T19:54Z",
-     "text": "Investigation CR-EB89-01 (P2 main-view integration): S1 source trace and S2 brief complete. Latest 12061800b SPEC keeps small-preview main view/projection unchanged, but eb89f4181 broadens IsSideViewActive and existing main-camera/projectio"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-08T19:54Z",
-     "text": "Investigation CR-EB89-02 (P3 gesture feedback): S1 source trace and S2 brief complete. SPEC says picture follows finger; new OnDrag is empty and commits direction only at release. Suggest moving the existing picture under its owned pointer "
-    }
-   ]
-  },
-  {
    "n": 52,
    "name": "using Strong",
    "done": "2026-11-08T19:37Z",
@@ -8708,7 +8653,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "LOCAL_MAC",
+     "since": "2026-11-11T19:16Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 16
+    }
+   ],
    "steps": [
     {
      "t": "(was 55) Sample PSS on Strong at boot, 30 s, 60 s and 120 s idle",
@@ -9013,5 +8967,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "100d7d9f155e2aa5e4e5001876e22f05421df673"
+ "source_revision": "c4b56113acec7c0313c0f2ee4f0c23537ccc4fb5"
 }
