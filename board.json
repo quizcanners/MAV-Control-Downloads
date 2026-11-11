@@ -3307,17 +3307,17 @@
     {
      "by": "REVIEW",
      "at": "2026-11-09T23:38Z",
-     "text": "CR-0CC1-01 P3 source filtering mismatch: moving UVs retain sampled direction but gradients omit its change. Mipmapped motion mask and arithmetic control traced. Suggest restoring actual per-tap gradients or sharing direction gradients. S1/S"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-09T23:38Z",
      "text": "CR-0CC1-02 P3 binding mismatch: shader reads channel floats/coarse-road floor while PlanetSurfaceKeywords.Bind and render fixtures still publish only old bits. Production draw packets are updated. Suggest updating the existing binding owner"
     },
     {
      "by": "REVIEW",
      "at": "2026-11-09T23:38Z",
      "text": "CR-0CC1-03 P3 integration: control-zone/wind Low readers depend on the Planet-only global publisher; online/no-session startup can use High despite saved Low. Suggest moving existing keyword publication to the common BaseMap/shader owner. S"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T08:06Z",
+     "text": "REVIEW-431-T172: CR-0CC1-02 source-repaired by 93dd60f4a and page-fixture 7275fc342; other shader findings and original evidence retained. Source/arithmetic checks passed; owner render receipts read, native rendering unrun by REVIEW. [Repai"
     }
    ]
   },
@@ -5037,11 +5037,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-10T22:37Z",
-     "text": "REVIEW-422/CR-BFD0-01: timeout still restarts at every retry (residual P3 priority), but new retry Hello resets the handshake while Connecting and mitigates the older recovery consequence in source. Same finding, S1/S2 await quiz; CR-CA4F-0"
-    },
-    {
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T05:29Z",
      "text": "quiz, 2026-11-11, asked whether to delete the old Directory/Revocation/roots code and re-anchor diagnostic delegation on the root signing key (and close CR-5E44-01, plain Hello reaching root-only update and release-key revocation): \"Very co"
@@ -5050,6 +5045,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-11T07:15Z",
      "text": "ROG_OPUS: steps 4-5 done. 38479e63df diagnostic delegation anchored on the root signing key (only the root delegates; proof signed by root.pub). 4d8d76ebc0 deleted Directory, DirectoryRemove, Revocation, RevocationReceipt (wire 3/4/8/10 ref"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T08:06Z",
+     "text": "REVIEW-431-T260: CC-4D8D-01 P3 investigation/brief complete; single-root diagnostic sessions still use a parent-count scan. Direct existing Count sketch, writers and bounded/replay constraints await quiz; no implementation. CR-5E44-01 sourc"
     }
    ]
   },
@@ -6448,11 +6448,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T06:46Z",
-     "text": "340 is done (HEAVY 243b23b5f6, Rog released it 05:52Z), so Singleton_UI_VideoFeed and Fullscreen Video.prefab are free: step 2 (accordion, one row prefab, sliders built in code, Temporal Denoise Controls.prefab retired) can be taken additiv"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-11T07:36Z",
      "text": "HEAVY c1fab5883a and c07939beb6: Fullscreen Video now builds its Motion, Temporal denoise and Contrast accordion from one shared mode row and one slider prefab. Removed _denoiseLayoutOffset. The legacy denoise row asset moved with its GUID "
@@ -6461,6 +6456,11 @@
      "by": "HEAVY",
      "at": "2026-11-11T07:37Z",
      "text": "Windows Unity D3D11 rendered the actual Seed/Accumulate, Fullscreen Video and Edge Noise shaders over a 30-frame synthetic fog sequence. Frame 1 had mild local grain and no regular diagonal bands. With Strength 65%, normalized center graysc"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T08:06Z",
+     "text": "REVIEW-431-T341: shared row/slider accordion and moved Telemetry GUID reconciled with requested design; completion/claims retained. Source/serialized controls passed; native/live ingestion unrun by REVIEW. Focused receipts do not close reop"
     }
    ]
   },
@@ -6756,7 +6756,15 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 359,
+   "name": "Map render mode state machine (a",
+   "done": "",
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
- "source_revision": "6b4fdea349fbe0c83ef733b78a62b89a74e992ee"
+ "source_revision": "85e26a5d042538272c3457d82fc6cdfec82cd023"
 }
