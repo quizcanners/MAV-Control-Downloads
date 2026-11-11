@@ -8027,7 +8027,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "LOCAL_MAC",
+     "since": "2026-11-11T23:27Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 22
+    }
+   ],
    "steps": [
     {
      "t": "(was 79) Idea, no word from quiz yet (quiz, 2026-11-09: \"Not sure. Not yet proba",
@@ -8120,11 +8129,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-10T08:40Z",
-     "text": "Pending on GETAC. ADB lists Strong only. Lenovo GLES cold/warm prewarm and first visible Situation draw were unavailable."
-    },
-    {
      "by": "CLOUD_DOABLE",
      "at": "2026-11-11T18:43Z",
      "text": "CLOUD_DOABLE 2026-11-11, uncompiled. Singleton_SituationEntities.cs: the synchronous WarmUpProgressively(1) is skipped on OpenGLES2/3 like Metal (draws build the pipeline on first use). Same call remains in Singleton_ControlZonePainter.cs:2"
@@ -8133,6 +8137,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T23:05Z",
      "text": "6daa25ad04 (code read, no device): in Map Editing Before Camera, Orthophoto TextureSaveUnloadUpdate revisited every loaded on-screen branch and its parents every frame, because a texture whose unload was blocked only by visibility returned "
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T23:17Z",
+     "text": "REVIEW-445-CC-6DAA-01: P3 complexity/performance: ordinary Orthophoto-off reaches three whole-tree work-mark walks (setter hide, imagery gate, presentation gate). S1/S2 input writers, exact callers, current/proposed single transition-owned "
     }
    ]
   },
@@ -8659,5 +8668,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0ff9d49ddbe4908e5b5ba3bbdfcf78072d86ceec"
+ "source_revision": "8a7b1318756dc136aa6a85c0036362dce185e1d4"
 }
