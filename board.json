@@ -6282,7 +6282,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T06:43Z",
-     "noted": "",
+     "noted": "2026-11-11T06:44Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -6315,6 +6315,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T05:58Z",
      "text": "Added ask (4): Contrast boost darkens the image; also lift dark areas by remapping up where the local average from the mask is dark, in VideoContrast.hlsl ApplyVideoContrast (Video Processing SPEC, 'Contrast boost lifts dark areas'). Quote "
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T06:44Z",
+     "text": ": steps 1 (non-linear hash22 jitter + 4-phase Seed), 4 (dark-area lift from the mask average) and 3 (edge noise _NoiseStart .12, _Strength .15) done in code; video and shader fixtures green. Not looked at live with a feed on the Mac: Video/"
     }
    ]
   },
@@ -6434,5 +6439,5 @@
    "notes": []
   }
  ],
- "source_revision": "26620f46b1a61e5de5221979559b3f45fff57ee7"
+ "source_revision": "9ecf20e787188dc8085b3c8fc04f51d34dbd7415"
 }
