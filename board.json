@@ -637,39 +637,6 @@
    ]
   },
   {
-   "n": 36,
-   "name": "Make MavChat MGRS copy confirmat",
-   "done": "2026-11-08T16:38Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Trace copy and feedback timing",
-     "x": false
-    },
-    {
-     "t": "Fix immediate presentation without losing other results",
-     "x": false
-    },
-    {
-     "t": "Verify and publish",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_UI_OWNER",
-     "at": "2026-11-08T16:38Z",
-     "text": "Copy feedback fix 1552455014: immediate copy preempts and later resumes another result, repeat copies refresh, first visible frame scale 0.55, current blur-out yields; held cards keep their gesture. Isolated Unity EditMode 24/24 passed, Ros"
-    }
-   ]
-  },
-  {
    "n": 37,
    "name": "Android 812 Strong idle long fra",
    "done": "",
@@ -2955,7 +2922,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-11T16:38Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -2964,8 +2933,8 @@
      "who": "LOCAL_MAC",
      "since": "2026-11-11T16:35Z",
      "noted": "",
-     "progress": 50,
-     "ticked": 2,
+     "progress": 75,
+     "ticked": 3,
      "total": 4
     }
    ],
@@ -2980,7 +2949,7 @@
     },
     {
      "t": "Editor: wire the three FBX meshes and six materials on Singleton_SituationEntiti",
-     "x": false
+     "x": true
     },
     {
      "t": "SPEC and AGENTS.md say what was built",
@@ -10307,5 +10276,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "35fcc4f849558f7d0d4075583ce64b278632c7c1"
+ "source_revision": "f60884bd7f0a309998fa9db35d9a2262cfd0623e"
 }
