@@ -3539,19 +3539,14 @@
     {
      "who": "refactor-6h",
      "since": "2026-11-11T00:43Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T00:43Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "REVIEW",
-     "at": "2026-11-10T04:18Z",
-     "text": "REVIEW-406: inspected c16099164 (one coordination-only review-publication commit; no implementation changes or new findings). CR-7673-01 and all earlier proposals/claims/statuses remain; full-runner/native checks unrun. [Inspected range and"
-    },
     {
      "by": "LOCAL_MAC",
      "at": "2026-11-10T07:43Z",
@@ -3561,6 +3556,11 @@
      "by": "refactor-6h",
      "at": "2026-11-10T12:44Z",
      "text": "Station.Math forwarders removed (277 to 273), uncompiled: needs cmp.sh on a machine with dotnet. Task file has the Left list."
+    },
+    {
+     "by": "refactor-6h",
+     "at": "2026-11-11T00:43Z",
+     "text": "Forwarders 274 to 273: TryGetRadioOwner removed, uncompiled, needs cmp.sh on a machine with dotnet. Task file has the Left list."
     }
    ]
   },
@@ -6074,5 +6074,5 @@
    "notes": []
   }
  ],
- "source_revision": "94d1fcebaea90a22e0aabbfe0daaf0ea77515fc0"
+ "source_revision": "056b43370f7a421e16d60daf9abb68fe38beb2c5"
 }
