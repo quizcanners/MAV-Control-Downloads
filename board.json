@@ -6660,6 +6660,11 @@
      "by": "HEAVY",
      "at": "2026-11-11T07:02Z",
      "text": "The grid failed because PeerCameraViewTests left Station.UI.FullscreenVideoOpen set. Restoring it in 369b1fdddd cleared this case in the combined native run. VideoServerGridTests 8 passed. XML in C:/MavControlEvidence/WorkCritical/verify-ni"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T07:43Z",
+     "text": "Fresh All on d32937fcf6 still fails SelectedSidebarRetainsRestreamPressOwnershipAndRejectsRebinding: expected VideoServerGrid, got FullScreenVideoFeed. The focused cohort passed. Reopened this line; resume with the full-suite fixture order "
     }
    ]
   },
@@ -6753,5 +6758,5 @@
    "notes": []
   }
  ],
- "source_revision": "cf42a832ec7a2f7de301e07061a6c845da87a903"
+ "source_revision": "c8f65606a76b39eb88307a3d2dedd1311e577b0e"
 }
