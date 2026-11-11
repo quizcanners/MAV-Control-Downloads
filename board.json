@@ -3281,19 +3281,14 @@
     {
      "who": "HEAVY",
      "since": "2026-11-11T07:28Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T07:32Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-10T07:52Z",
-     "text": "e5a29c547b refreshes all requested Windows D3D11 FXC counts at b0cd37abdc in Shaders/BASELINE.md. Per-draw timings and Mali Vulkan/GLES3 estimates remain open. The local Editor captures are visual evidence only. Use a D3D11 player with Rend"
-    },
     {
      "by": "HEAVY",
      "at": "2026-11-10T22:28Z",
@@ -3303,6 +3298,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T22:32Z",
      "text": "Follow-up 791777b73e: all six Map settings now have both blur producer draws timed. The matched camera refresh captures bind the camera color attachment to the horizontal pass, then the horizontal scratch texture to the vertical pass writin"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T07:32Z",
+     "text": "Relaunched the retained D3D11 profiling player under RenderDoc 1.47. Planet Ready reported zero mask chunks, zero masked draws, zero raised draws; this profile detected live VPN peers. Closed the player before writing paint or overlay test "
     }
    ]
   },
@@ -6766,5 +6766,5 @@
    "notes": []
   }
  ],
- "source_revision": "3742ce0e93566f1733a64545c0b3d44bd9ac0b64"
+ "source_revision": "5dd34313ff397e8f575ef9f06f75e31352fa4037"
 }
