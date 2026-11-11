@@ -7968,14 +7968,20 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T10:38Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T10:48Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T10:48Z",
+     "text": "64c035d334 (on main). Direct cause: 863cb3cd6c deleted the scene overrides that anchored/pivoted the compass root bottom-right (size 2485x1080) without moving them into Navigation.prefab; the root's 0.6 scale then pulled the compass ~20% to"
+    }
+   ]
   },
   {
    "n": 391,
@@ -8039,5 +8045,5 @@
    "notes": []
   }
  ],
- "source_revision": "31cae1f15e3073ae4c1c9c7034350283abbd7183"
+ "source_revision": "a43f7b15e52bc78c2054a6dd8c47fa457623a1ba"
 }
