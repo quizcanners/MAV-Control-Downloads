@@ -5804,36 +5804,6 @@
    ]
   },
   {
-   "n": 315,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T06:55Z",
-     "text": "Windows All.xml first failure, GroupPhotoCheckpointPlayModeTests.CreatedPhotoSurvivesCheckpointFailureRetryAndFreshOwnerReload: SetUp : Preserve unsaved operator scene work. Expected: False But was: True"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T07:10Z",
-     "text": "The isolated Windows native fixture passed 1/1. Prior All failed before entering Play on the unsaved-scene guard. Recheck that admission in the containing All before closing."
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T07:44Z",
-     "text": "Fresh All d32937fcf6 reproduced the isolated-pass/full-run failure: CreatedPhotoSurvivesCheckpointFailureRetryAndFreshOwnerReload rejects an already dirty open scene in SetUp (Preserve unsaved operator scene work). The persistence assertion"
-    }
-   ]
-  },
-  {
    "n": 316,
    "name": "Windows EditMode All 76ad76b6df",
    "done": "2026-11-10T22:16Z",
@@ -7072,7 +7042,7 @@
    "name": "The Editor automation bridge, the containing All and the des",
    "done": "",
    "goal": true,
-   "under": 0,
+   "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
@@ -7098,9 +7068,19 @@
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T21:06Z",
-     "text": "Mac full EditMode run at b1e2c2f0e3 triaged. Fixed (mine/today): ChatComposerTests catch-up + now alert-only (fefb2406d3); DrawingStrokeTests 6 cases scaled to the 120 s fade; SelectedControlEdgeFadeTests readout count after 244. Still red,"
+     "by": "HEAVY",
+     "at": "2026-11-11T06:55Z",
+     "text": "Windows All.xml first failure, GroupPhotoCheckpointPlayModeTests.CreatedPhotoSurvivesCheckpointFailureRetryAndFreshOwnerReload: SetUp : Preserve unsaved operator scene work. Expected: False But was: True"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T07:10Z",
+     "text": "The isolated Windows native fixture passed 1/1. Prior All failed before entering Play on the unsaved-scene guard. Recheck that admission in the containing All before closing."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T07:44Z",
+     "text": "Fresh All d32937fcf6 reproduced the isolated-pass/full-run failure: CreatedPhotoSurvivesCheckpointFailureRetryAndFreshOwnerReload rejects an already dirty open scene in SetUp (Preserve unsaved operator scene work). The persistence assertion"
     }
    ]
   },
@@ -8701,5 +8681,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a3ad43d05e4067829024d26c5e96e4d76a0bfb7a"
+ "source_revision": "60e5dfdd5f51ab8afbfaa736a5a8c04f4d967451"
 }
