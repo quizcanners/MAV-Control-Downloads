@@ -7376,7 +7376,38 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 370,
+   "name": "GOAL",
+   "done": "",
+   "goal": true,
+   "held": [
+    {
+     "who": "CLOUD_GOALS",
+     "since": "2026-11-11T09:07Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "boot a fresh Hetzner server from the declaration, then from a snapshot (token ho",
+     "x": false
+    },
+    {
+     "t": "app Deploy page creates the server from the snapshot id (Code, after 1)",
+     "x": false
+    },
+    {
+     "t": "apply a change with nixos-rebuild switch, roll back once, retire deploy.sh and i",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
- "source_revision": "303bc7a3dbab3a280dec3e97803ac587af883692"
+ "source_revision": "1058579cf06399674d1b5af01be957bdcc25876f"
 }
