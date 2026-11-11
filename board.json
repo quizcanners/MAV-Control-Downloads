@@ -6956,19 +6956,14 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T09:13Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T09:15Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T06:54Z",
-     "text": "Windows All.xml first failure, WayPointDragTests.LockedMgrsPrevious_ReturnsToCurrentBeforeOlderHistory: Before Previous: accepts=False, visible=False, typing=False, field=None; after: selected=LockedCoordinates, currentRetained=True Expecte"
-    },
     {
      "by": "HEAVY",
      "at": "2026-11-11T07:10Z",
@@ -6978,6 +6973,11 @@
      "by": "HEAVY",
      "at": "2026-11-11T07:44Z",
      "text": "Fresh All on d32937fcf6 reproduces the three WayPointDrag failures after the focused cohort passed. LockedMgrsPrevious receives accepts=False and visible=False. RoadRouteLongPressDrag expected via 1, got -1; RoadRoutePicks expected height-a"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T09:15Z",
+     "text": "LOCAL_MAC: green on the Mac at bfc2e9f2ec with graphics (VideoServerGridTests + WayPointDragTests 59/59, 1 ignored). Not reproduced; if Windows still fails it is platform-specific, reopen with the message."
     }
    ]
   },
@@ -7876,5 +7876,5 @@
    "notes": []
   }
  ],
- "source_revision": "903503e068c7074aabff3e85155789d95ce6deb5"
+ "source_revision": "d404bba3d0b3981998c4e1cb3eb801a18760eab0"
 }
