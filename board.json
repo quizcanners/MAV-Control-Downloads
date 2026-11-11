@@ -4872,7 +4872,9 @@
    "done": "",
    "goal": false,
    "under": 410,
-   "ticks": [],
+   "ticks": [
+    "2026-11-11T15:26Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -4881,15 +4883,15 @@
      "who": "LOCAL_MAC",
      "since": "2026-11-11T15:25Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 25,
+     "ticked": 1,
      "total": 4
     }
    ],
    "steps": [
     {
      "t": "Bootstrap expression: square shown = Portrait MavChat has notices column closed",
-     "x": false
+     "x": true
     },
     {
      "t": "UI_NotificationSquare reads it through a gate, press shrinks at once",
@@ -10269,5 +10271,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a29d77c767c8a418412aad9423abbcaa0b8e06a4"
+ "source_revision": "9e529888289160975e26733008f1b0e8d8e3d941"
 }
