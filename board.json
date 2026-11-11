@@ -276,11 +276,6 @@
    "notes": [
     {
      "by": "REVIEW",
-     "at": "2026-11-11T09:54Z",
-     "text": "REVIEW-433-T7: CR-A5B7-01 P3 source/host-confirmed: all 22 goals serialize Tasks-tab name as GOAL. Prefix-aware export sketch, current code and falsifiers await quiz; no implementation. Existing claims/native failures retained. [S1/S2 and c"
-    },
-    {
-     "by": "REVIEW",
      "at": "2026-11-11T12:48Z",
      "text": "Investigation CR-CE3B-01, P3: new assets.prefab-edit extracts its file from the fully lowercased command, so the tracked Tools/PrefabEdits path cannot open on a case-sensitive filesystem. S1 source/file-open control and S2 existing-normaliz"
     },
@@ -288,6 +283,11 @@
      "by": "REVIEW",
      "at": "2026-11-11T15:17Z",
      "text": "REVIEW-438-7: CR-A5B7-01 source/host repair reconciled in later 3361183a3, outside the inspected cursor: actual live_json at c6bb5ad7d exports all 27 goal titles correctly. Native Tasks-screen look unrun by REVIEW; other task 7 findings/cla"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T16:43Z",
+     "text": "REVIEW-439-CC-B794-01: P3 complexity extension: Tasks DrawRoot now allocates five collections and rebuilds worker facts; DrawList partitions/sorts again. Current S1/S2 identify LoadCache and Poll staging, live clock constraints; awaits quiz"
     }
    ]
   },
@@ -1353,11 +1353,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-09T05:50Z",
-     "text": "Windows Unity compiled Enemy Logistics and EnemyLogisticsRetentionTests passed in the 522/0/0 batch. Phone Save Enemy Logistics Lags measurement still pending."
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-09T11:36Z",
      "text": "Partial on Strong Dev 817 (2400e9b752). No Save Enemy Logistics entry in the retained startup owners or top 150 managed timing nodes; no 774 ms event reproduced. The existing Save Enemy Logistics stage calls EnemyLogistics.TrySave during ch"
@@ -1366,6 +1361,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T15:19Z",
      "text": "8f41492393: Inspector Save now calls Flush (REVIEW CR-CE1B-01 suggestion), so an explicit Save writes with the layer off; periodic TrySave still skips. Left: find the 774 ms row on a phone (device capture)."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T16:43Z",
+     "text": "REVIEW-439-CR-CE1B-01: Source repair reconciled: 8f4149239 explicit Save calls Flush while periodic TrySave gate stays. Actual app save/reload and identifying the 774ms phone row unrun by REVIEW; owner evidence retained. [Evidence, brief an"
     }
    ]
   },
@@ -5156,11 +5156,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_VPNS",
-     "at": "2026-11-10T10:22Z",
-     "text": "quiz, 2026-11-10, as he wrote it: \"The button should be \"Take admin rights\". If yes, he can't add anyone anymore. He can't request more WireGuard QR codes. The trust pyramid I requested earlier - that is deprecated design. Right now - super"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-10T21:30Z",
      "text": "REVIEW-421/CR-CA4F-01 P2: existing Admin-discovery S1/S2 gains first-capability-before-Connected evidence; the first request can be suppressed. Owner-local unknown-Admins suggestion awaits quiz; retain 150/260 history and current work. [Ext"
@@ -5169,6 +5164,11 @@
      "by": "CLOUD",
      "at": "2026-11-11T15:00Z",
      "text": "CLOUD: step 5 built. DirectRoute.Standing (CantReach / NotAdmin / Admin); the Admins menu hides only on NotAdmin, and CantReach shows one line and asks again every 15 s while the page is open (there is no presence beat in code any more: Net"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T16:43Z",
+     "text": "REVIEW-439-CR-CA4F-01: Reconciliation: three-state Admin standing/open-page retries source-repair hidden-page and first-answer traps. Original tunnel-key send-versus-delivery S1/S2 remains awaiting quiz; owner work retained. [Evidence, brie"
     }
    ]
   },
@@ -5211,11 +5211,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_VPNS",
-     "at": "2026-11-10T10:22Z",
-     "text": "quiz, 2026-11-10, from his note on task 213: \"So lets change all that: one MavServer.\" \"But no longer backup servers, multiple coordination servers, multiple routing servers - just too much complexity.\" \"So multiple tunnels, some may or may"
-    },
-    {
      "by": "ROG_OPUS",
      "at": "2026-11-11T07:13Z",
      "text": "ROG_OPUS, from 260 (2026-11-11): main's MavServer has no revocations or pauses any more (4d8d76ebc0), so step 1's 'a revoked member' now means a member removed from the WireGuard people table (Kick) or paused on the member sheet. With this "
@@ -5224,6 +5219,11 @@
      "by": "CLOUD",
      "at": "2026-11-11T14:43Z",
      "text": "CLOUD: step 1 built. TunnelGrants.Kick tells HubRole (Removed_Optional -> HubRole.TunnelPersonRemoved, queued from the HTTP thread, applied in Hub.Tick); a kicked Admin leaves Admins and admins.txt at the next tick. RoutingServer.Tests admi"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T16:43Z",
+     "text": "REVIEW-439-CR-FB49-01: P2: Kick removes only the first Admin when several report the same tunnel key. S1/S2 with bounded all-match removal sketch complete; awaits quiz; step 1 and owner result retained. [Evidence, brief and limits](../Revie"
     }
    ]
   },
@@ -6338,11 +6338,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T07:15Z",
-     "text": "ROG_OPUS: steps 4-5 done. 38479e63df diagnostic delegation anchored on the root signing key (only the root delegates; proof signed by root.pub). 4d8d76ebc0 deleted Directory, DirectoryRemove, Revocation, RevocationReceipt (wire 3/4/8/10 ref"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-11T08:06Z",
      "text": "REVIEW-431-T260: CC-4D8D-01 P3 investigation/brief complete; single-root diagnostic sessions still use a parent-count scan. Direct existing Count sketch, writers and bounded/replay constraints await quiz; no implementation. CR-5E44-01 sourc"
@@ -6351,6 +6346,11 @@
      "by": "REVIEW",
      "at": "2026-11-11T08:42Z",
      "text": "APPROVED-CC-4D8D-01: quiz approved the direct Count simplification; implementation is open on follow-up 361. Task 260 completion, prior claims and evidence stay intact. [Decision and brief](../Reviews/6b4fdea34.md#quiz-decision--approved-fo"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T16:43Z",
+     "text": "REVIEW-439-CR-BFD0-01: Existing residual P3 timeout gains stale Connected evidence: 19 unanswered retries through 200s never time out; Hello retry still mitigates restart recovery. Original S1/S2 deadline sketch retained, awaits quiz. [Evid"
     }
    ]
   },
@@ -9671,6 +9671,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T16:17Z",
      "text": "4b76678abc VPN peer link (PeerDelivery: success = connected, failure = drop, backoff through Loop.RetrySeconds, figures in the peer's delivery status) and 6414778261 hotspot (Connected/not transitions in GetStatus, figures in the phone insp"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T16:43Z",
+     "text": "REVIEW-439-CR-0211-01: P3: Inspector status read clears loop history, changing the next retry delay. S1/S2 pure-query/lifecycle-writer sketch complete; awaits quiz; completion and later owner work retained. [Evidence, brief and limits](../R"
     }
    ]
   },
@@ -10105,7 +10110,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T16:43Z",
+     "text": "REVIEW-439-CR-C115-01: P2: direct map replies still send to full recipients; new exclusions instead filter suppliers. S1/S2 with existing admission sketch complete; awaits quiz; storage completion retained. [Evidence, brief and limits](../R"
+    }
+   ]
   },
   {
    "n": 417,
@@ -10235,6 +10246,20 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 425,
+   "name": "Note from ROG_OPUS",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -10283,5 +10308,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a64b350809ed7b92d5bdc01347545f512325684f"
+ "source_revision": "e4075df56dbc0a8a58c9a4c0bd00c27dd7ffbbbe"
 }
