@@ -4819,7 +4819,7 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-11T15:37Z",
-     "noted": "",
+     "noted": "2026-11-11T16:01Z",
      "progress": 100,
      "ticked": 4,
      "total": 4
@@ -4845,11 +4845,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-10T10:09Z",
-     "text": "No prefab change this pass. Still need the live tap-disappearance repro before changing placement. Then use the real B_Menu or Close edge for Notification Square_Portrait, keep its draw/input layer above the cards, and wire the thin MavChat"
-    },
-    {
      "by": "ROG_OPUS",
      "at": "2026-11-11T13:44Z",
      "text": "ROG_OPUS 2026-11-11: not reached in this batch (Editor time went to 400, 398, 268 and the 397 read); nothing changed. Released from ROG so the next Editor worker can take it."
@@ -4858,6 +4853,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T15:27Z",
      "text": "ab59d73bfc: square shown = has notices && portrait square && column not expanded, one expression per frame in Singleton_NotificationsController (kept in the controller: its inputs, counts and Island, live there). Left: authored position und"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T16:01Z",
+     "text": "ROG_OPUS 2026-11-11: swipe up follows the finger (UI_NotificationSwipeClose.Lift added to the card frame in LateUpdate; a short stack follows, a long one keeps the slow drag for scroll; flick folds at once and carries the column up, a slow "
     }
    ]
   },
@@ -10221,5 +10221,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5abbd36eace43bd696018d59f371103abc801918"
+ "source_revision": "adb6812a7818588af073dcc4dd7b2150689f963f"
 }
