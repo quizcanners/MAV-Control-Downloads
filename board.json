@@ -7221,11 +7221,6 @@
    "notes": [
     {
      "by": "CLOUD_THREAD",
-     "at": "2026-11-11T10:27Z",
-     "text": "Missing step (thread, 2026-11-11): full resolution must return on the very frame the finger lifts. What delays it now: (1) Station.FullScreen.SetCameraMoving holds half for MovingSettleSeconds = 0.3 s after the last move (Station_Inspect.cs"
-    },
-    {
-     "by": "CLOUD_THREAD",
      "at": "2026-11-11T10:33Z",
      "text": "quiz, 2026-11-11: fullscreen video without a position is its own render mode: only the video over plain black, 'No map, no UI, nothing should be rendered'. Added to this goal as Mode.VideoOnBlack (steps 3-4); guide: _Bootstrap AGENTS 'Map r"
     },
@@ -7233,6 +7228,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T11:15Z",
      "text": "bdcf62b0dd: Station.MapRender.Step once per frame from Singleton_GroundStation.StepMapRenderMode (LateUpdate). Interacting = finger/key/mouse within 30 s; moving = finger down and camera moving, so half drops the frame the finger lifts (0.3"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T11:45Z",
+     "text": "Investigation CC-BDCF-01, P3 resource reuse: the sharp idle grab is destroyed on leaving FrozenDouble and recreated on the next quiet entry while its option stays on. S1/S2 exact writers, existing-target retention sketch and phone-memory tr"
     }
    ]
   },
@@ -8129,6 +8129,11 @@
      "by": "claude-thread",
      "at": "2026-11-11T11:23Z",
      "text": "Editor step for a machine batch: in Search Query Choice.prefab (and Search Source Filter.prefab), swap the row body background to the fixed-corner-radius one (candidate: Floating Panel.mat, MAV/UI/Floating Panel; quiz: not a squircle) via t"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T11:45Z",
+     "text": "Investigation CR-56FC-01, P2: a Search row keeps _notATap after the shared pointer owner cancels its drag, then rejects the next stopped-list tap on that instance. S1/S2 existing-cancellation suggestion/current snippet/sketch await quiz; na"
     }
    ]
   },
@@ -8157,7 +8162,13 @@
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-11T11:50Z",
+     "text": "cmp.sh NEW ERRORS: none. Water tests rewritten to a flat sky colour bound as _PlanetWaterClouds (TestWaterSky); not run in the Editor, so run the Planet render tests once. CesiumWaterShaderRenderTests still binds a black cubemap and no sky "
+    }
+   ]
   },
   {
    "n": 401,
@@ -8169,5 +8180,5 @@
    "notes": []
   }
  ],
- "source_revision": "c80aba13f6b545d5c5e4205eedf0acbccf39be7b"
+ "source_revision": "6f7c4bdad653541b5ea58a90b6797b4b2239a984"
 }
