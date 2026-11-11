@@ -6720,7 +6720,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "LOCAL_MAC",
+     "since": "2026-11-11T15:29Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Clock.prefab: plaque button to OnPlaqueTapped",
@@ -10268,5 +10277,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "8629d30461b35191c0d3eba80207f1d9456a3d9d"
+ "source_revision": "ffd5ba252c3dcb78e0b93264ca49e887e7bcb6a2"
 }
