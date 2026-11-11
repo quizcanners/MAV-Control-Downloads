@@ -7604,7 +7604,7 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-11T18:46Z",
-     "noted": "",
+     "noted": "2026-11-11T18:59Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -7626,11 +7626,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD",
-     "at": "2026-11-11T14:02Z",
-     "text": "CLOUD read it for steps 1-2: the managed WindowsBridge needs a service host executable that calls tunnel.dll WireGuardTunnelService, an installer layout and an elevated install step, none of which exist in the repo; writing it blind would b"
-    },
-    {
      "by": "ROG_OPUS",
      "at": "2026-11-11T16:40Z",
      "text": "ROG_OPUS 2026-11-11: build part not reached in batch 17; nothing installed, no adapter touched. Starting point stands as HEAVY's 07:27Z note (verified wireguard.dll and tunnel.dll hashes) and CLOUD's 14:02Z note: a small service host exe ca"
@@ -7639,6 +7634,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-11T18:14Z",
      "text": "ROG_OPUS 2026-11-11 batch 18, (was 342) code steps done, nothing installed on Rog and no adapter touched. The background app is the tunnel service host (Few programs rule): MavControlBackgroundChat.exe --tunnel-service <conf> runs tunnel.dl"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T18:59Z",
+     "text": "ROG_OPUS 2026-11-11 batch 19: Windows compile at main 947d141b70: Roslyn cmp.sh against 86343846bb NEW ERRORS none, Unity Editor imported and recompiled with no error CS line, dotnet build Tools/BackgroundChat 0 errors (tunnel host included"
     }
    ]
   },
@@ -9003,5 +9003,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "9a033304ad2bea8ba6aac666c4856db3d8bc47d6"
+ "source_revision": "4444156d1288afdfc4bcc886e7dd275f4cf1e8a6"
 }
