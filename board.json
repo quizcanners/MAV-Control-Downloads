@@ -6478,14 +6478,20 @@
     {
      "who": "HEAVY",
      "since": "2026-11-11T06:52Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T06:53Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T06:53Z",
+     "text": "Windows All.xml first failure, PhysicalMouseInputTests.TouchRestoresZoomAfterMouseAndMouseInputHidesItAgain: Touch owns the scroller even with a connected mouse. Expected: True But was: False"
+    }
+   ]
   },
   {
    "n": 349,
@@ -6566,5 +6572,5 @@
    ]
   }
  ],
- "source_revision": "177d4c4466b7c4a998606972b40995f8ff4200a5"
+ "source_revision": "e2bb93cae3b70c80fa522c08b964068e74be0466"
 }
