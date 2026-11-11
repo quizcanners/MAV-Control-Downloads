@@ -9236,7 +9236,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T16:40Z",
+     "text": "64fdd3f508: iOS half of SEARCH-NATIVE-TEXT-SESSION. MavControlTextSession.mm (production, not behind the prototype macro) swaps Unity's own keyboard responder (UITextField/UITextView inside the Unity view) inputView for an empty view and ba"
+    }
+   ]
   },
   {
    "n": 379,
@@ -10268,5 +10274,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4e16dc74054e13e74ef85164b0b26eb6461f2f85"
+ "source_revision": "10076bce5996f1a699b0e16999bd0e522591cf1a"
 }
