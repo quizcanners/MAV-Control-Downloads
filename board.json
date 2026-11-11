@@ -5435,36 +5435,6 @@
    ]
   },
   {
-   "n": 283,
-   "name": "App load takes 5.7 s on Strong A",
-   "done": "",
-   "goal": false,
-   "under": 362,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_LOAD_TIME",
-     "at": "2026-11-10T16:42Z",
-     "text": "Main UI split into later scenes: see the task added after this one."
-    },
-    {
-     "by": "CLOUD_LOAD_TIME",
-     "at": "2026-11-10T17:04Z",
-     "text": "quiz, 2026-11-10: no loading screen; the map shows at once, the bar covers core scenes and layers, sounds load on demand (task 288, Bootstrap AGENTS 'The loading plan'). Effect here: the reveal moment is now the Map camera's frame, so start"
-    },
-    {
-     "by": "CLOUD_LOAD_TIME",
-     "at": "2026-11-10T17:04Z",
-     "text": "Correction: the sounds / no-loading-screen task is 300, not 288."
-    }
-   ]
-  },
-  {
    "n": 284,
    "name": "MavChat mockup",
    "done": "2026-11-10T16:45Z",
@@ -7053,19 +7023,19 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_CODING_BOOT",
-     "at": "2026-11-09T05:39Z",
-     "text": "CodingSceneReady 44 ms cut (cloud, uncompiled, pushed to main): the read worker now validates and hashes every record while parsing (HashOnWorker, CodingScene_Files.cs); EnableScene keeps the hash. Area guide and STARTUP.md updated."
+     "by": "CLOUD_LOAD_TIME",
+     "at": "2026-11-10T16:42Z",
+     "text": "Main UI split into later scenes: see the task added after this one."
     },
     {
-     "by": "REVIEW",
-     "at": "2026-11-09T06:48Z",
-     "text": "CC-E195-01 (P3 complexity/performance): S1 investigation complete. HashOnWorker validates each default record and sets its hash; EnableScene then calls TryValidate on the same untouched loaded records again, including point walks and two un"
+     "by": "CLOUD_LOAD_TIME",
+     "at": "2026-11-10T17:04Z",
+     "text": "quiz, 2026-11-10: no loading screen; the map shows at once, the bar covers core scenes and layers, sounds load on demand (task 288, Bootstrap AGENTS 'The loading plan'). Effect here: the reveal moment is now the Map camera's frame, so start"
     },
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T17:19Z",
-     "text": "ROG_OPUS 2026-11-11: compiled on Rog after pull (main 86343846bb): Roslyn cmp.sh against 9358375a NEW ERRORS none (EXTRA_REF_DIR UnityEngine.UI, Unity.TextMeshPro, Unity.InputSystem), and the Unity Editor recompiled and reloaded with no err"
+     "by": "CLOUD_LOAD_TIME",
+     "at": "2026-11-10T17:04Z",
+     "text": "Correction: the sounds / no-loading-screen task is 300, not 288."
     }
    ]
   },
@@ -8942,5 +8912,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "285b46121d8e18f9bcf41216d1531128a6a7cfac"
+ "source_revision": "971d0341291f295c67ef8fcc8049991731fc0f47"
 }
