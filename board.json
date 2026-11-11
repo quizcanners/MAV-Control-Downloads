@@ -6694,8 +6694,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-11T06:49Z",
-     "noted": "2026-11-11T06:50Z",
-     "progress": 25,
+     "noted": "2026-11-11T06:59Z",
+     "progress": 40,
      "ticked": 0,
      "total": 0
     }
@@ -6706,6 +6706,11 @@
      "by": "HEAVY",
      "at": "2026-11-11T06:50Z",
      "text": "Windows All.xml first failures: MavChatSheetTests.PendingSearchReturnYieldsToNewerSheetIntent(0): The return is waiting for the capture. Expected: 1 But was: 0. PlanetContextLightingTests.SelectedMeasurementPublishesLiveCenterAndLockedEndpo"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T06:59Z",
+     "text": "The Settings/Compass/Chat cohort reproduced the All failures. 726cd3e131 and 2e670b8af7 restore the Station.UI intents between cases. The 8 prior MavChat failures and the Planet context failure pass. MavChatSheetTests 1 inconclusive, 92 pas"
     }
    ]
   },
@@ -6718,5 +6723,5 @@
    "notes": []
   }
  ],
- "source_revision": "fdc27144a828cd701aa9a96151880c12b15cc8a8"
+ "source_revision": "59db4abde9c7b69d3a71e377870ac0fd427c8750"
 }
