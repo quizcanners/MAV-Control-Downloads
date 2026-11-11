@@ -8145,7 +8145,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "LOCAL_MAC",
+     "since": "2026-11-11T22:08Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 16
+    }
+   ],
    "steps": [
     {
      "t": "(was 55) Sample PSS on Strong at boot, 30 s, 60 s and 120 s idle",
@@ -8644,5 +8653,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "77212a83e02ebf333f2df9f70f7b38282a673ee8"
+ "source_revision": "4fe45adb3a006c523a9c8bff257eb8b6efce10fb"
 }
