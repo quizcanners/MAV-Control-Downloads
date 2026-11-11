@@ -6281,8 +6281,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-11T06:57Z",
-     "noted": "2026-11-11T06:57Z",
-     "progress": 25,
+     "noted": "2026-11-11T07:12Z",
+     "progress": 40,
      "ticked": 0,
      "total": 0
     }
@@ -6298,6 +6298,11 @@
      "by": "HEAVY",
      "at": "2026-11-11T06:57Z",
      "text": "Windows All.xml first failure, VideoLatencySuspectsTests.SenderLatencyUsesEveryQueueAndTheViewersCurrentNativeOwner(0): System.NullReferenceException : Object reference not set to an instance of an object"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T07:12Z",
+     "text": "The failed Feed constructor needs a Station owner for GetOwnStationAddress. The sender latency fixture uses PeerTestFixture.Fixture and all cases pass in fixture-recheck-b.xml."
     }
    ]
   },
@@ -6727,5 +6732,5 @@
    "notes": []
   }
  ],
- "source_revision": "e676889bedb61ef53a5604e31739690d0bfcdd44"
+ "source_revision": "0e38f766e4ac41a2ae7e23ad26f88bf785cb1e27"
 }
