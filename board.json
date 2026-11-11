@@ -667,44 +667,6 @@
    ]
   },
   {
-   "n": 40,
-   "name": "Show contrast boost in video pro",
-   "done": "2026-11-08T17:17Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Trace processing controls and shared state",
-     "x": false
-    },
-    {
-     "t": "Implement controls using project toggle",
-     "x": false
-    },
-    {
-     "t": "Verify and update Editor, publish",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_UI_OWNER",
-     "at": "2026-11-08T17:13Z",
-     "text": "Telemetry Video processing now shows Contrast boost and shared toggle rows for Orthophoto/Motion/Contrast plus supported denoise; live Editor checked English/Ukrainian, Contrast on/off and Motion -> Orthophoto -> off, all original state res"
-    },
-    {
-     "by": "CODEX_UI_OWNER",
-     "at": "2026-11-08T17:16Z",
-     "text": "Published baf00bf537. Telemetry shows shared procedural toggles for Orthophoto/Motion/Contrast, plus denoise on supported backends; contrast shares fullscreen owner, available before a frame, with English/Ukrainian label. Live Editor checks"
-    }
-   ]
-  },
-  {
    "n": 41,
    "name": "Keep compass visible on screen-c",
    "done": "2026-11-08T17:30Z",
@@ -2099,19 +2061,14 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-11T17:04Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T17:17Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-10T10:09Z",
-     "text": "No store change or measurement this pass. Resume with new-write-only routing for zoom 0\u201311 to the zoom-6 ancestor, keep catalog paths for existing tiles, add idle segment journal/companion cleanup, and capture fresh Europe pan file counts b"
-    },
     {
      "by": "ROG_OPUS",
      "at": "2026-11-11T09:25Z",
@@ -2121,6 +2078,11 @@
      "by": "cloud-5_6",
      "at": "2026-11-11T16:42Z",
      "text": "Web Mercator payload segments: Choose now tries the cell's 8 newest segments before making a new file; MergeSmallSegment pours <32 MiB segments into existing ones once per writer session; store open turns empty -wal + 32 KiB -shm back to jo"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T17:17Z",
+     "text": "ROG_OPUS 2026-11-11: compiled on Rog after pull (main 86343846bb): Roslyn cmp.sh against 9358375a NEW ERRORS none (EXTRA_REF_DIR UnityEngine.UI, Unity.TextMeshPro, Unity.InputSystem), and the Unity Editor recompiled and reloaded with no err"
     }
    ]
   },
@@ -10303,5 +10265,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f7dac2e6b941004a292a8ca9d1bc5cd52172e4e3"
+ "source_revision": "89882995c787e75d5b8089a688634b509e18269b"
 }
