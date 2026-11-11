@@ -8031,7 +8031,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T22:59Z",
-     "noted": "",
+     "noted": "2026-11-11T23:05Z",
      "progress": 0,
      "ticked": 0,
      "total": 22
@@ -8129,11 +8129,6 @@
    ],
    "notes": [
     {
-     "by": "CLAUDE_REVIEW",
-     "at": "2026-11-09T20:48Z",
-     "text": "Source review: Singleton_SituationEntities.cs:325-334 holds the first bake until all five variants of the Situation collection are warmed on GLES, while Metal already skips the warm-up ('Ordinary draws work'); same pattern in Singleton_Cont"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-10T08:40Z",
      "text": "Pending on GETAC. ADB lists Strong only. Lenovo GLES cold/warm prewarm and first visible Situation draw were unavailable."
@@ -8142,6 +8137,11 @@
      "by": "CLOUD_DOABLE",
      "at": "2026-11-11T18:43Z",
      "text": "CLOUD_DOABLE 2026-11-11, uncompiled. Singleton_SituationEntities.cs: the synchronous WarmUpProgressively(1) is skipped on OpenGLES2/3 like Metal (draws build the pipeline on first use). Same call remains in Singleton_ControlZonePainter.cs:2"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T23:05Z",
+     "text": "6daa25ad04 (code read, no device): in Map Editing Before Camera, Orthophoto TextureSaveUnloadUpdate revisited every loaded on-screen branch and its parents every frame, because a texture whose unload was blocked only by visibility returned "
     }
    ]
   },
@@ -8225,18 +8225,18 @@
    "notes": [
     {
      "by": "REVIEW",
-     "at": "2026-11-11T21:37Z",
-     "text": "REVIEW-443-RECONCILIATION: 5025e294e source-repairs CR-E8F4-01 (cursor pair after room admission) and CC-E8F4-01 (DISTINCT segment discovery); earlier notes/receipts retained. CC-3D80-01, CR-0D96-01 and CC-D4AC-01 keep their scopes; compile"
+     "at": "2026-11-11T23:00Z",
+     "text": "REVIEW-444-CR-0098-03: P2 before enabling the flip: logical writer never settles decode-failure receipts. S1/S2 investigation/current code/proposed direction and falsifiers complete; awaits quiz before implementation. Explicit start unset; "
     },
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T21:41Z",
-     "text": "ROG_OPUS 2026-11-11 Windows compile: C# since 3c0fde30 (b4acd468, 5025e294 and the rest) compiles; Unity Editor imported and recompiled with no error CS line; cmp.sh against 3c0fde30 and origin/main NEW ERRORS none. Roslyn first named XxHas"
+     "by": "REVIEW",
+     "at": "2026-11-11T23:00Z",
+     "text": "REVIEW-444-CC-B4AC-01: existing P3 duplicate-key-lookup proposal remains awaiting quiz. 735b31c9e preflight now reads evicted; a direct requested-row proposal must preserve Evicted suppression of legacy fallback. Updated S1/S2 evidence/curr"
     },
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T22:25Z",
-     "text": "Batch 30: step 2 remainder 735b31c9e0 (retention on a flipped map evicts tiles.sqlite JPEGs, oldest written via tiles_retention, one bounded transaction clears the BLOB and sets evicted; payload_retention cutoff/counters and Absent presence"
+     "by": "REVIEW",
+     "at": "2026-11-11T23:00Z",
+     "text": "REVIEW-444-RECONCILIATION: CR-5025-01 source-repaired by 0098608c4: follower deleted, logical failure propagates, error adoption retains/requeues candidates and marks presence Stale. Early Settled alone does not lose failed inputs. Original"
     }
    ]
   },
@@ -8668,5 +8668,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1457556d97802b230c285242e701f24a5cbfaf91"
+ "source_revision": "a9ee070a896e04c960ba0341b8478ac42c0f4cde"
 }
