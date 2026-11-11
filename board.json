@@ -3535,7 +3535,16 @@
    "n": 185,
    "name": "Refactoring pass",
    "done": "",
-   "held": [],
+   "held": [
+    {
+     "who": "refactor-6h",
+     "since": "2026-11-11T00:43Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -3973,6 +3982,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-10T23:13Z",
      "text": "ROG_OPUS part 1 done (commit 'Video relay on one Port, 14680'): VPN peers use host candidates only on the shared 14680 socket; a service publication's STUN sockets take system ports outbound; VideoRelayMedia_UDP = 14680 replaces the range i"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T00:26Z",
+     "text": "REVIEW-424 source review through f4a189492: relay host mux, one-port callers and old/new firewall-rule coverage inspected; no new actionable finding or complexity proposal. Static controls passed; Go/C#/Unity, real ICE/STUN/WHIP and Windows"
     }
    ]
   },
@@ -4143,19 +4157,19 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-10T11:39Z",
-     "text": "Investigation CC-57F3-01, P3 complexity: package wrapper scans heldAlready, then adoption owner searches the same at-most-16 entries again. S1 root-upgrade/Add writers traced; S2 move existing capacity check to the owner before Add, current"
-    },
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-10T21:18Z",
-     "text": "Step 1 done (ROG_OPUS, commit 'ServerSpecs, and the brigade asset hands out its built-in one'): Network/VPNs/ServerSpecs.cs (fields per the SPEC table, ToJson/TryFromJson with the 16 KB bound, IsNewerThan, ContentDigest); SO_BrigadeConfigur"
-    },
-    {
      "by": "ROG_OPUS",
      "at": "2026-11-10T22:56Z",
      "text": "ROG_OPUS: steps 2-5 done and ticked (2: JoinedVpns + tunnel-address switch; 3: Station.Vpn.Current/AllBlindSpots once per frame, readers moved; 4: passport VpnSpecsVersion + Crypto_ServerSpecs behind PeerBuilds.ServerSpecs 823, take rule Ta"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T23:19Z",
+     "text": "Investigation CR-9AF7-01 P2: rejecting the current VPN MavServer for a paused deployer falls through to its saved legacy package; versioned no-server specs also lose to fallback. S1/S2 authoritative-current-specs sketch awaits quiz; native "
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-10T23:19Z",
+     "text": "Investigation CC-DCB1-01 P3 complexity: reading Current rebuilds all joined VPN Blind Spots each frame. S1 traces Adopt/Forget/load writers; S2 change-triggered preparation or direct privacy reads awaits quiz, with frame consistency and all"
     }
    ]
   },
@@ -6060,5 +6074,5 @@
    "notes": []
   }
  ],
- "source_revision": "6def263a5113446f9f8a4d0a51eb1329fbc2659c"
+ "source_revision": "94d1fcebaea90a22e0aabbfe0daaf0ea77515fc0"
 }
