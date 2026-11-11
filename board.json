@@ -6001,8 +6001,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-11T06:55Z",
-     "noted": "2026-11-11T07:10Z",
-     "progress": 40,
+     "noted": "2026-11-11T07:44Z",
+     "progress": 50,
      "ticked": 0,
      "total": 0
     }
@@ -6018,6 +6018,11 @@
      "by": "HEAVY",
      "at": "2026-11-11T07:10Z",
      "text": "The isolated Windows native fixture passed 1/1. Prior All failed before entering Play on the unsaved-scene guard. Recheck that admission in the containing All before closing."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T07:44Z",
+     "text": "Fresh All d32937fcf6 reproduced the isolated-pass/full-run failure: CreatedPhotoSurvivesCheckpointFailureRetryAndFreshOwnerReload rejects an already dirty open scene in SetUp (Preserve unsaved operator scene work). The persistence assertion"
     }
    ]
   },
@@ -6763,5 +6768,5 @@
    "notes": []
   }
  ],
- "source_revision": "a8e4aca129cbe0c6ebc980a3166a97413d6cd95d"
+ "source_revision": "cb5679c60a7ca65c7ec97b573990ed9c847c7fa6"
 }
