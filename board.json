@@ -2593,36 +2593,6 @@
    ]
   },
   {
-   "n": 154,
-   "name": "Single-pass convergence rewrite",
-   "done": "",
-   "goal": false,
-   "under": 366,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_REFACTOR",
-     "at": "2026-11-09T18:57Z",
-     "text": "quiz answered: keep the 3-pass park for Situation, Geometry, Planet. Candidates 2-4 settled; 5 and 9 unread."
-    },
-    {
-     "by": "CLOUD_REFACTOR_2",
-     "at": "2026-11-09T19:02Z",
-     "text": "Single-pass 5 and 9 read, neither needs a rewrite (see Coordination/Refactoring/single-pass-convergence.md). Forwarder scan no longer counts Volatile/Interlocked/BCL pass-throughs or no-arg void prefab buttons: 285 left."
-    },
-    {
-     "by": "CLOUD_REFACTOR",
-     "at": "2026-11-11T18:43Z",
-     "text": "CLOUD_REFACTOR: forwarders 279 to 278 (GetSourceGuid); see forwarders-and-long-signatures.md. Need for verify: compile."
-    }
-   ]
-  },
-  {
    "n": 155,
    "name": "Editor",
    "done": "2026-11-09T18:10Z",
@@ -6820,7 +6790,7 @@
    "name": "Two peers converge on one map quickly, on one SQLite build o",
    "done": "",
    "goal": true,
-   "under": 0,
+   "under": 366,
    "ticks": [],
    "priority": "normal",
    "parked": false,
@@ -6862,9 +6832,19 @@
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T17:54Z",
-     "text": "426 first slice (one logical map database with an indexed, batched write path before anything is removed; Web Mercator SPEC 'SQLite database layout: ultimate design and our scope'): not started this pass, read only. Next agent starts there;"
+     "by": "CLOUD_REFACTOR",
+     "at": "2026-11-09T18:57Z",
+     "text": "quiz answered: keep the 3-pass park for Situation, Geometry, Planet. Candidates 2-4 settled; 5 and 9 unread."
+    },
+    {
+     "by": "CLOUD_REFACTOR_2",
+     "at": "2026-11-09T19:02Z",
+     "text": "Single-pass 5 and 9 read, neither needs a rewrite (see Coordination/Refactoring/single-pass-convergence.md). Forwarder scan no longer counts Volatile/Interlocked/BCL pass-throughs or no-arg void prefab buttons: 285 left."
+    },
+    {
+     "by": "CLOUD_REFACTOR",
+     "at": "2026-11-11T18:43Z",
+     "text": "CLOUD_REFACTOR: forwarders 279 to 278 (GetSourceGuid); see forwarders-and-long-signatures.md. Need for verify: compile."
     }
    ]
   },
@@ -8601,5 +8581,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "7c4322bb00909e6fe553bb6941f877e4f1036145"
+ "source_revision": "df033719fa381c95aab6d25d93e0cc05eb7ef2a6"
 }
