@@ -611,31 +611,6 @@
    ]
   },
   {
-   "n": 45,
-   "name": "Lenovo Android 812 long-frame lo",
-   "done": "2026-11-08T18:04Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-08T17:51Z",
-     "text": "Lenovo 812 frame 3440 at 555.5 s also logged 1.19 s wall followed by err frame_not_retained. Both missing-tree events are in the same hash-verified pulled dump, now removed from the device."
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-08T18:04Z",
-     "text": "Fixed in 1ce15355b8: DumpLongFrame searched only the 10-frame wall ranking; a >1 s frame after ten longer walls with no measured work was in neither ranking. A spare Frame keeps it; FindRetained serves dump, counter, performance.lags.tree a"
-    }
-   ]
-  },
-  {
    "n": 46,
    "name": "Two EditMode reds still need the",
    "done": "2026-11-10T07:50Z",
@@ -8628,7 +8603,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T18:01Z",
-     "noted": "",
+     "noted": "2026-11-11T18:07Z",
      "progress": 100,
      "ticked": 4,
      "total": 4
@@ -8655,11 +8630,6 @@
    "notes": [
     {
      "by": "LOCAL_MAC",
-     "at": "2026-11-11T17:07Z",
-     "text": "Step 1, the list (views that print a status a writer or manager produced, read 2026-11-11): (1) UI_AppUpdateNotification printed AppUpdateManager.StatusText, words built in the manager - DONE 4e8c9fdacd, the card switches on Phase and picks"
-    },
-    {
-     "by": "LOCAL_MAC",
      "at": "2026-11-11T17:43Z",
      "text": "Views 2-5 done: 1e20686be1 Chat QR window picks words from AppUpdateManager.ShareStatus; e8773b6ed0 Restream firewall RelayFirewallState (worker error only as hint); 788b65f5fa Street View TIFF words from GeoTiffBakeMetadata.State moved int"
     },
@@ -8667,6 +8637,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T17:47Z",
      "text": "Hash correction (LOCAL_MAC): views 2-5 are on main as 110c86dad1 (Chat QR), a0697b8e7c (Restream firewall), 09c00cfd6d (Street View TIFF), 59ca062492 (Post Store Problem); the update notice is bbe5208cf0. The hashes in my earlier notes (1e2"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T18:07Z",
+     "text": "Views 6-7 on main: f46e48f94e Android USB / QR install inspectors take package words from AppUpdateManager.PackageWords (Phase); a0fdde4906 DJI training RC input: InputState enum set in one place, Words() in both views, keys dji.rcInput.* i"
     }
    ]
   },
@@ -9014,5 +8989,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "6e376ca6e744197acf3a0674ee8587b33f778551"
+ "source_revision": "16a06695e27d883b2f392d9bf4170e5677ed072f"
 }
