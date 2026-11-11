@@ -399,48 +399,6 @@
    ]
   },
   {
-   "n": 17,
-   "name": "BOOT-COST-NEXT",
-   "done": "2026-11-08T14:53Z",
-   "goal": false,
-   "under": 362,
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "WarStationInput out of FromJson",
-     "x": true
-    },
-    {
-     "t": "Dji, Input, MavLink, Motorola owner ms re-read on a device",
-     "x": true
-    },
-    {
-     "t": "Rows written into STARTUP.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-08T13:13Z",
-     "text": "HEAVY: Windows Editor 809 Bootstrap at b760ea1253 completed with startup owner work DJI 0.000 ms, Input 3.797 ms, MavLink 3.972 ms and Motorola 0.000 ms. The C# input constructor no longer calls FromJson and WarStationInput.inputactions.met"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-08T13:56Z",
-     "text": "GETAC device result, Lenovo TB-8506X Android 810 at 426f9739f1. Without a DJI aircraft/controller or Motorola attached, retained Boot work was 210.88 ms excluding waits. Input 21.38 ms, MavLink 5.75 ms, Dji 0.00 ms and Motorola 0.00 ms (UI "
-    },
-    {
-     "by": "heavy",
-     "at": "2026-11-08T14:52Z",
-     "text": "Verified checklist against existing source-matched evidence. Android Test 810 source 426f9739f1 contains the handwritten WarStationInput constructor from 852d69519c without FromJson. Getac measured Input 21.38 ms, MavLink 5.75 ms, DJI 0.00 "
-    }
-   ]
-  },
-  {
    "n": 18,
    "name": "Investigation CC-14FA-01",
    "done": "",
@@ -5166,7 +5124,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLOUD",
+     "since": "2026-11-11T14:53Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 5
+    }
+   ],
    "steps": [
     {
      "t": "Settings > VPN network > VPNs: one row per joined VPN (name, subnet, MavServer o",
@@ -9925,5 +9892,5 @@
    "notes": []
   }
  ],
- "source_revision": "9b788c8f765ce2617f5ffc583c8713d088cfcef6"
+ "source_revision": "67dbd225cac6940b804cb3e4fba6df477856f402"
 }
