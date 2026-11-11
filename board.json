@@ -7996,11 +7996,6 @@
    "notes": [
     {
      "by": "CLOUD_THREAD",
-     "at": "2026-11-11T10:27Z",
-     "text": "Batch 15 split: ROG does steps 2 and 3 (C#, claims); LOCAL_MAC does step 1 (landscape prefab spacing, joins with --additive). Prompts: prompts/machine_prompts_2026-11-11g.md, 11h."
-    },
-    {
-     "by": "CLOUD_THREAD",
      "at": "2026-11-11T10:41Z",
      "text": "CLOUD_THREAD 2026-11-11: C# part of step 2 and 3 is done on main: UI_LeftListSwipeAway takes drags only while Station.UI.LeftLists.SwipeAway (tabs shown, never in Chat), sends the panel back if the view changes mid-swipe, and closes with Se"
     },
@@ -8008,6 +8003,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-11T10:44Z",
      "text": "ROG_OPUS: steps 2-3 were already on main from a cloud thread (de27488115: LeftLists.SwipeAway gates the drag, Main view only), so per batch 15 I dropped my parallel commit. One difference left, if quiz wants one route: the tab tap closes wi"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-11T10:47Z",
+     "text": "CLOUD_THREAD 2026-11-11: cause of tabs vanishing after Chat found and fixed on main: the toggle read ChatOpen live while Shown/TabsShown were cached for the frame; Chat closing inside a transition after the frame's first reader made ApplyVi"
     }
    ]
   },
@@ -8039,5 +8039,5 @@
    "notes": []
   }
  ],
- "source_revision": "65c88d342ca78a1d390c9053aba70f09a4ae3162"
+ "source_revision": "31cae1f15e3073ae4c1c9c7034350283abbd7183"
 }
