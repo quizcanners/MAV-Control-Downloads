@@ -175,19 +175,19 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-10T09:58Z",
-     "text": "Investigation CR-EBAA-01, P3: enabling map half resolution while still can leave runtime pipeline creation to the first move. S1 source path confirmed; S2 small initialization-order suggestion, current snippet, proposed sketch and player/Ed"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-10T21:53Z",
-     "text": "HEAVY checked the completed full-resolution cache: 26,450 of 26,450 GLO-30 tiles, zero errors. The 4096x2048 merge preserved 5,529,193 negative NOAA cells. Commit 2dfa940d67 already points at the merged 16,777,232-byte LFS object; fetched i"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-10T22:17Z",
      "text": "Fresh Windows Play at the task 183 source 159a61ae82 also reached globe=Ready at camera height 1,000,000 m. Receipts: task183-globe-pose.txt and task183-globe-ready.txt in the HEAVY windows-board-20261110-next evidence folder."
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-11T11:50Z",
+     "text": "cmp.sh NEW ERRORS: none. Water tests rewritten to a flat sky colour bound as _PlanetWaterClouds (TestWaterSky); not run in the Editor, so run the Planet render tests once. CesiumWaterShaderRenderTests still binds a black cubemap and no sky "
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T12:43Z",
+     "text": "ROG_OPUS: Editor part done (0f29b05c5e). Rog Editor 6000.6.8f1 under a verification identity: shaders compiled with no error in Editor.log; PlanetSurfaceShaderRenderTests 52/52, CesiumWaterShaderRenderTests 4/4 as the cloud left them; Plane"
     }
    ]
   },
@@ -7760,31 +7760,6 @@
    ]
   },
   {
-   "n": 400,
-   "name": "Water is one tiled blue sky text",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T11:50Z",
-     "text": "cmp.sh NEW ERRORS: none. Water tests rewritten to a flat sky colour bound as _PlanetWaterClouds (TestWaterSky); not run in the Editor, so run the Planet render tests once. CesiumWaterShaderRenderTests still binds a black cubemap and no sky "
-    },
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T12:43Z",
-     "text": "ROG_OPUS: Editor part done (0f29b05c5e). Rog Editor 6000.6.8f1 under a verification identity: shaders compiled with no error in Editor.log; PlanetSurfaceShaderRenderTests 52/52, CesiumWaterShaderRenderTests 4/4 as the cloud left them; Plane"
-    }
-   ]
-  },
-  {
    "n": 404,
    "name": "Pilot workflow only",
    "done": "2026-11-11T16:34Z",
@@ -8626,5 +8601,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4ce0db94581f1d1834e94f1c9a36bef96c450c3d"
+ "source_revision": "7c4322bb00909e6fe553bb6941f877e4f1036145"
 }
