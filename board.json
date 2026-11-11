@@ -1331,7 +1331,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-11T15:22Z",
+     "text": "CLOUD_THREAD 2026-11-11: best guess (the scroll indicator is UI_LeftListScrollLight): its x is now the list's left edge, not the prefab-authored x, so it no longer sits mid-screen beside a list that is not at the screen edge. Uncompiled."
+    }
+   ]
   },
   {
    "n": 57,
@@ -10253,5 +10259,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a3b18df20519d6255852b3598fa68752d1d544f3"
+ "source_revision": "2427ad8846230d9ad1743e8b6473088831f19a08"
 }
