@@ -7645,7 +7645,7 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-11T18:13Z",
-     "noted": "",
+     "noted": "2026-11-11T18:14Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -7667,11 +7667,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-11T07:32Z",
-     "text": "Steps 1-3 remain open: connect the verified native inputs to an installed WindowsBridge, service with a protected fixed executable/config path and one explicit elevation, and report SCM plus actual driver handshake status. The current code "
-    },
-    {
      "by": "CLOUD",
      "at": "2026-11-11T14:02Z",
      "text": "CLOUD read it for steps 1-2: the managed WindowsBridge needs a service host executable that calls tunnel.dll WireGuardTunnelService, an installer layout and an elevated install step, none of which exist in the repo; writing it blind would b"
@@ -7680,6 +7675,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-11T16:40Z",
      "text": "ROG_OPUS 2026-11-11: build part not reached in batch 17; nothing installed, no adapter touched. Starting point stands as HEAVY's 07:27Z note (verified wireguard.dll and tunnel.dll hashes) and CLOUD's 14:02Z note: a small service host exe ca"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T18:14Z",
+     "text": "ROG_OPUS 2026-11-11 batch 18, (was 342) code steps done, nothing installed on Rog and no adapter touched. The background app is the tunnel service host (Few programs rule): MavControlBackgroundChat.exe --tunnel-service <conf> runs tunnel.dl"
     }
    ]
   },
@@ -8991,5 +8991,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b2377ffd3f2e2aad08a43e11a8bc7e7d2886cd9b"
+ "source_revision": "600f1c87ac6e4ea6a6294250a2b99b4fe8cd22d6"
 }
