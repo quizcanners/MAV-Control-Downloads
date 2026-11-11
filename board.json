@@ -8167,14 +8167,20 @@
     {
      "who": "CLOUD",
      "since": "2026-11-11T13:52Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T14:00Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD",
+     "at": "2026-11-11T14:00Z",
+     "text": "Polyline rebuild no longer reads the anchor when GetOrCreateAnchor returns null (spawner not there yet) or the anchor is gone; it keeps the rebuild request and retries next frame (Shape_Utils_Polyline.cs). cmp.sh NEW ERRORS: none. Needs the"
+    }
+   ]
   },
   {
    "n": 395,
@@ -8311,5 +8317,5 @@
    "notes": []
   }
  ],
- "source_revision": "04753eb2df2d8059e979921f43a92acc632cc75b"
+ "source_revision": "4aacd41122fda50828b097ea39e64932ee26a3b7"
 }
