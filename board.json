@@ -6229,8 +6229,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-11T06:56Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T06:56Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -6241,6 +6241,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-11T06:27Z",
      "text": "ROG_OPUS triage by reading (no fix): VideoDiagnosticsTests.cs and the video diagnostics owners had no commit between Nov 8 and run 76ad76b6df, so the cause is in production code the cases drive (peer video, streamer native admission). Witho"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T06:56Z",
+     "text": "Windows All.xml first failure, VideoDiagnosticsTests.NativeAdmissionDistinguishesPendingZeroStaleAndEachRenditionClock: System.NullReferenceException : Object reference not set to an instance of an object"
     }
    ]
   },
@@ -6692,5 +6697,5 @@
    "notes": []
   }
  ],
- "source_revision": "2606c1bceaf858cc7f27f786ad0d5e155fb300b0"
+ "source_revision": "f31b6fb5c73aa78b113aef87f285b4fee6a43d83"
 }
