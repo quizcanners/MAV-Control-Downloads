@@ -5037,11 +5037,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T05:29Z",
-     "text": "quiz, 2026-11-11, asked whether to delete the old Directory/Revocation/roots code and re-anchor diagnostic delegation on the root signing key (and close CR-5E44-01, plain Hello reaching root-only update and release-key revocation): \"Very co"
-    },
-    {
      "by": "ROG_OPUS",
      "at": "2026-11-11T07:15Z",
      "text": "ROG_OPUS: steps 4-5 done. 38479e63df diagnostic delegation anchored on the root signing key (only the root delegates; proof signed by root.pub). 4d8d76ebc0 deleted Directory, DirectoryRemove, Revocation, RevocationReceipt (wire 3/4/8/10 ref"
@@ -5050,6 +5045,11 @@
      "by": "REVIEW",
      "at": "2026-11-11T08:06Z",
      "text": "REVIEW-431-T260: CC-4D8D-01 P3 investigation/brief complete; single-root diagnostic sessions still use a parent-count scan. Direct existing Count sketch, writers and bounded/replay constraints await quiz; no implementation. CR-5E44-01 sourc"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T08:42Z",
+     "text": "APPROVED-CC-4D8D-01: quiz approved the direct Count simplification; implementation is open on follow-up 361. Task 260 completion, prior claims and evidence stay intact. [Decision and brief](../Reviews/6b4fdea34.md#quiz-decision--approved-fo"
     }
    ]
   },
@@ -6768,15 +6768,29 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T08:42Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T08:46Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
+   "notes": [
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T08:46Z",
+     "text": "e33d035879 (on main): Frame fitted to the physical screen, panel padding 3% of the width on left, right and bottom (code, UI_MavChatSheet.Layout; no prefab change needed). Seen in Editor Play, portrait 996x2160 (Home, no conversation): even"
+    }
+   ]
+  },
+  {
+   "n": 361,
+   "name": "MavServer diagnostics",
+   "done": "",
+   "held": [],
+   "steps": [],
    "notes": []
   }
  ],
- "source_revision": "f08f6508a0c1358b88938e7982769fd9c195b8e1"
+ "source_revision": "44b98718d2796c35b0634460156e9c3a2101da54"
 }
