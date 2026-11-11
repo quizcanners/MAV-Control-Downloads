@@ -8542,7 +8542,7 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-11T18:45Z",
-     "noted": "",
+     "noted": "2026-11-11T18:57Z",
      "progress": 100,
      "ticked": 4,
      "total": 4
@@ -8569,11 +8569,6 @@
    "notes": [
     {
      "by": "LOCAL_MAC",
-     "at": "2026-11-11T17:47Z",
-     "text": "Hash correction (LOCAL_MAC): views 2-5 are on main as 110c86dad1 (Chat QR), a0697b8e7c (Restream firewall), 09c00cfd6d (Street View TIFF), 59ca062492 (Post Store Problem); the update notice is bbe5208cf0. The hashes in my earlier notes (1e2"
-    },
-    {
-     "by": "LOCAL_MAC",
      "at": "2026-11-11T18:07Z",
      "text": "Views 6-7 on main: f46e48f94e Android USB / QR install inspectors take package words from AppUpdateManager.PackageWords (Phase); a0fdde4906 DJI training RC input: InputState enum set in one place, Words() in both views, keys dji.rcInput.* i"
     },
@@ -8581,6 +8576,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T18:51Z",
      "text": "View 8 done, 3495bcfd45: the MavLink trouble message names unhealthy sensors with MavLink.DroneState SensorNames (19 reported sensors, keys mavlink.sensor.* in English and Ukrainian, same index) instead of MAV_SYS_STATUS_SENSOR flag names; "
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T18:57Z",
+     "text": "ROG_OPUS 2026-11-11 batch 19: Windows compile at main 947d141b70: Roslyn cmp.sh against 86343846bb NEW ERRORS none, Unity Editor imported and recompiled with no error CS line, dotnet build Tools/BackgroundChat 0 errors (tunnel host included"
     }
    ]
   },
@@ -8998,5 +8998,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3d7034f7e450756de156b7359607cfe5d7a3bead"
+ "source_revision": "ff1c5b41678d1cb4827a2f58f73b4fe4c68f914b"
 }
