@@ -8149,7 +8149,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T22:08Z",
-     "noted": "",
+     "noted": "2026-11-11T22:25Z",
      "progress": 0,
      "ticked": 0,
      "total": 16
@@ -8225,17 +8225,17 @@
     {
      "by": "REVIEW",
      "at": "2026-11-11T21:37Z",
-     "text": "REVIEW-443-CR-5025-01: P2 before enabling the flip: swallowed logical write failure leaves an older logical row hiding a newer accepted segment row. S1/S2 current/proposed snippets attach this failure evidence to the existing logical-only w"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-11T21:37Z",
      "text": "REVIEW-443-RECONCILIATION: 5025e294e source-repairs CR-E8F4-01 (cursor pair after room admission) and CC-E8F4-01 (DISTINCT segment discovery); earlier notes/receipts retained. CC-3D80-01, CR-0D96-01 and CC-D4AC-01 keep their scopes; compile"
     },
     {
      "by": "ROG_OPUS",
      "at": "2026-11-11T21:41Z",
      "text": "ROG_OPUS 2026-11-11 Windows compile: C# since 3c0fde30 (b4acd468, 5025e294 and the rest) compiles; Unity Editor imported and recompiled with no error CS line; cmp.sh against 3c0fde30 and origin/main NEW ERRORS none. Roslyn first named XxHas"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T22:25Z",
+     "text": "Batch 30: step 2 remainder 735b31c9e0 (retention on a flipped map evicts tiles.sqlite JPEGs, oldest written via tiles_retention, one bounded transaction clears the BLOB and sets evicted; payload_retention cutoff/counters and Absent presence"
     }
    ]
   },
@@ -8653,5 +8653,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "7a04cf2d867884ba8d58dd926af1c5dc6e24512c"
+ "source_revision": "851c53f8892e874c29f373e7655ffce1064a072b"
 }
