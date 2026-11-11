@@ -5954,19 +5954,14 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T08:38Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T08:41Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T06:42Z",
-     "text": "LOCAL_MAC at 8fde5180f5 (includes 24274124fd): still red. DirectRouteNegotiatesNoiseWithActualHubAndAcceptsASkewedQuestion: 'Handshake is not application contact  Expected: null  But was: <127.0.0.1:54377>' (the line-41 assert). Other 6 cas"
-    },
     {
      "by": "GETAC",
      "at": "2026-11-11T07:48Z",
@@ -5976,6 +5971,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T08:26Z",
      "text": "Still red after Rog's fixture fix 24274124fd: the Mac (06:42Z) and GETAC (07:48Z, line 45) both see 'Handshake is not application contact, expected null, was 127.0.0.1:port' in DirectRouteNegotiatesNoiseWithActualHubAndAcceptsASkewedQuestio"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T08:41Z",
+     "text": "f822499d12 (on main): the guide says handshake frames never make contact; the hub keeps that (LastEndpoint null through both Noise frames, logged). Contact came from the route's own Capabilities question and Admins request after the session"
     }
    ]
   },
@@ -6778,5 +6778,5 @@
    "notes": []
   }
  ],
- "source_revision": "1614cd5aec1a84ebcd91c3a5ec6ce9ac26c97dba"
+ "source_revision": "d485ba890be01b6d924f125c69d2d72b61656abd"
 }
