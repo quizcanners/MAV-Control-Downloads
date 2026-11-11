@@ -7986,8 +7986,8 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-11T10:37Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T10:44Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -8003,6 +8003,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T10:41Z",
      "text": "CLOUD_THREAD 2026-11-11: C# part of step 2 and 3 is done on main: UI_LeftListSwipeAway takes drags only while Station.UI.LeftLists.SwipeAway (tabs shown, never in Chat), sends the panel back if the view changes mid-swipe, and closes with Se"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T10:44Z",
+     "text": "ROG_OPUS: steps 2-3 were already on main from a cloud thread (de27488115: LeftLists.SwipeAway gates the drag, Main view only), so per batch 15 I dropped my parallel commit. One difference left, if quiz wants one route: the tab tap closes wi"
     }
    ]
   },
@@ -8025,5 +8030,5 @@
    "notes": []
   }
  ],
- "source_revision": "15c716500c6040676f150ff57c1606c2af1dc2ea"
+ "source_revision": "723a6d7dd9065b3b08e8470933ea0bc3b4c6f75d"
 }
