@@ -7162,14 +7162,6 @@
    "held": [],
    "steps": [
     {
-     "t": "Full resolution on the very frame the finger lifts: remove the 0.3 s MovingSettl",
-     "x": false
-    },
-    {
-     "t": "Feed the live inputs (interacting, camera/pointer/situation/paint/appearance cha",
-     "x": false
-    },
-    {
      "t": "Code: add Mode.VideoOnBlack to Station.MapRender, decided first and excluding th",
      "x": false
     },
@@ -7178,23 +7170,23 @@
      "x": false
     },
     {
-     "t": "Draw the 2x frame into a kept render texture, downscale blit to native, set MapR",
+     "t": "Code: count a peer's screen-centre pointer move and a peer's Situation entity ed",
      "x": false
     },
     {
-     "t": "Hold the world blur to the frozen refresh, never faster than every 3 s (task 359",
+     "t": "Localization: add settings.doubleResolutionStill ('Sharp still frame when idle')",
      "x": false
     },
     {
-     "t": "Phone check of FrozenDouble: ms per refresh, MB of the kept target, glass turns ",
+     "t": "Phone check of FrozenDouble: ms per refresh, MB of the 2x targets and the grab, ",
+     "x": false
+    },
+    {
+     "t": "Phone check: full resolution on the frame the finger lifts, glide at full, no hi",
      "x": false
     },
     {
      "t": "Device: idle option on, hands off 30 s, Diagnostics and compass FPS read 8 on ch",
-     "x": false
-    },
-    {
-     "t": "iPhone check of half resolution while the camera moves: no flicker, no hitch on ",
      "x": false
     }
    ],
@@ -8080,5 +8072,5 @@
    "notes": []
   }
  ],
- "source_revision": "db8ffde9f3c712e2922b62d4586229a22b692dbb"
+ "source_revision": "0992e17aae5fd82c280097ab63e0bf00b19c55a1"
 }
