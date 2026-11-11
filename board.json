@@ -8276,7 +8276,7 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-11T20:53Z",
-     "noted": "",
+     "noted": "2026-11-11T20:53Z",
      "progress": 0,
      "ticked": 0,
      "total": 4
@@ -8302,11 +8302,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T15:21Z",
-     "text": "CLOUD_THREAD 2026-11-11: dropped the picker's own Edit (UI_ListPicker RestreamDestination middle action); links are edited from the Restream tab's Edit button, so Back returns to the picker. Uncompiled. Video bumped for verify."
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-11T16:06Z",
      "text": "LOCAL_MAC batch 19: Unity batch compile of main 14b5ba7cd9 has no errors (Tasks screen rebuild, orthophoto write state, Disk full, 403 picker, 243, 56 all compile); nothing points at the dropped RestreamDestination Edit (UI_ListPicker comme"
@@ -8315,6 +8310,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-11T19:08Z",
      "text": "ROG_OPUS 2026-11-11 batch 19, (was 238) Restream route H.264: took compromise (b1), the smallest slice of (b). SPEC section 'H.264 on every Windows GPU' written under Link codec: ultimate design (Media Foundation hardware MFT through the OS"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T20:53Z",
+     "text": "ROG_OPUS 2026-11-11 batch 20 (worked from note 445; the prompt file is not reachable from Rog): b2 landed. Passport field WebRtcEncoderCodecs (what the sender's Unity WebRTC encodes, only once it has read it; older readers skip the key) 354"
     }
    ]
   },
@@ -8601,5 +8601,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f0b6b7af7801f8cbc58d51c9b62d52029afa82e0"
+ "source_revision": "ec77d22d547974e55fd5363d47007f4d7c2374f2"
 }
