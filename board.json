@@ -8657,7 +8657,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T19:16Z",
-     "noted": "",
+     "noted": "2026-11-11T19:22Z",
      "progress": 0,
      "ticked": 0,
      "total": 16
@@ -8731,11 +8731,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-11T18:11Z",
-     "text": "REVIEW-440-CC-D4AC-01: P3 complexity: the new legacy segment merge opens/closes the same source per metadata row and per seed (32 opens for 16 tiles). S1/S2 bounded-handle reuse versus planned consolidation awaits quiz; folded 97/426 eviden"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-11T18:55Z",
      "text": "Slice 1 landed, 4f5d991fea: WebMercator.LogicalMapDatabase (tiles.sqlite per map beside the segments; tiles table keyed by the packed z/x/y key, JPEG BLOB + revision/stamp/state, WAL/NORMAL/incremental vacuum, layout 3; bounded batch of 16 "
@@ -8744,6 +8739,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T19:11Z",
      "text": "Slice 2 landed, 973511762b: WebMercator_SqliteTileStore_LogicalMirror.cs. Writer.Commit captures each candidate's payload reference, runs CommitLocal/CommitSharded unchanged, then writes the reported presence changes into LogicalMapDatabase"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T19:22Z",
+     "text": "Slice 3 landed 0d9665eefe (code only, nothing calls it, no migration run, no tile folder touched): LogicalMapMigration.Step copies committed rows after a cursor kept in tiles.sqlite's migration row (phase/cursor/copied/failure), committed w"
     }
    ]
   },
@@ -9009,5 +9009,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "bbb44bc657a19706303ca720a5f762f0ddded27c"
+ "source_revision": "a1160aa026bfbe9845da0752e9fb826ad511fcec"
 }
