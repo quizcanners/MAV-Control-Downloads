@@ -8181,7 +8181,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T21:02Z",
-     "noted": "",
+     "noted": "2026-11-11T21:13Z",
      "progress": 0,
      "ticked": 0,
      "total": 16
@@ -8265,17 +8265,17 @@
     {
      "by": "REVIEW",
      "at": "2026-11-11T20:20Z",
-     "text": "REVIEW-442-CR-E8F4-01: P2 before integration: low-disk wait commits a mixed segment/tile cursor. S1/S2 investigation, current/proposed snippets and simpler direction complete; awaits quiz before implementation. Migration still uncalled; sou"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-11T20:20Z",
      "text": "REVIEW-442-CC-E8F4-01: P3 retirement repeats the same pending-segment search for every tile. S1/S2 investigation, current/proposed snippets and simpler direction complete; awaits quiz before implementation. Migration still uncalled; source/"
     },
     {
      "by": "LOCAL_MAC",
      "at": "2026-11-11T20:43Z",
      "text": "Batch 27: no code after a14ec45a5b, so no compile pass needed; 5025e294e6 (Unity macOS compile 0 errors): step 1 gated, Writer.StartLogicalAuthority flips store.schema_version to 3 (user_version kept so older builds refuse with the typed er"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T21:13Z",
+     "text": "Batches 28/29: compile of main with Rog's 431 b2 (cccad1cb, 05b9334b, 3c0fde30) and 443: macOS Editor 0 errors, iOS build Succeeded 0 errors. Step 2 part 1 b4acd468aa: each Reader attaches tiles.sqlite as lg on a flipped master and asks it "
     }
    ]
   },
@@ -8651,5 +8651,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "bbf7ae7912c36171a3365edef26c7dee9e80b3a7"
+ "source_revision": "c30bd3ea4914978a0778c50a10de918d27f6841f"
 }
