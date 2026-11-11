@@ -5865,8 +5865,8 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-11T06:03Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T06:08Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -5882,6 +5882,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T05:27Z",
      "text": "Mac 2026-11-11: bfd04037c2 (no handshake unless the server is needed) causes the NRE; marking _neededAt starts the handshake but then the route records application contact (line 41). Needs the route owner's call on how the test stands for '"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T06:08Z",
+     "text": "ROG_OPUS: fixed in the fixture (commit 'DirectRouteHubTypesTests: mark the need before advancing the handshake'). Direct cause: task 260 step 3 (bfd04037c2, no beat) made AdvanceHubHandshake start a handshake only within 30 s of a need (_ne"
     }
    ]
   },
@@ -6243,5 +6248,5 @@
    ]
   }
  ],
- "source_revision": "f4d3cf6d0fdee9b0961d86954cfbc181445d4b3f"
+ "source_revision": "fb6a6da5001655ef7ca507b1372f493d7be1f40f"
 }
