@@ -3392,11 +3392,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-10T07:52Z",
-     "text": "Read the floating panel and Navigator specs and traced Layout. Content is a fixed-height moving root and extends below the physical screen when folded. Start with a separate inset background child plus a mask for List Host, and derive the v"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-10T08:29Z",
      "text": "918d6230b0 wired the floating panel and List Host RectMask2D in Unity. Bottom inset follows the moving Content root, and divider and panel bindings are retained. Unity author transaction succeeded and Roslyn NEW ERRORS: none. Visual look is"
     },
@@ -3404,6 +3399,11 @@
      "by": "cloud",
      "at": "2026-11-11T07:10Z",
      "text": "cloud, 2026-11-11: quiz's padding for MavChat (physical edges, notches ignored, Apple Maps look) is now in Navigator SPEC 'Floating panel placement'; apply the inset from the physical edges, not the safe area. Same answer as on 294."
+    },
+    {
+     "by": "cloud",
+     "at": "2026-11-11T07:10Z",
+     "text": "cloud, 2026-11-11: quiz, same day: 'Don't take Mockup too seriously, we still want monochrome blur for those text bubble, and Liquid glass for input. Also Circle for search and X/Menu.' The mockup is for layout and padding only; Search and "
     }
    ]
   },
@@ -6654,17 +6654,8 @@
   {
    "n": 351,
    "name": "Windows EditMode All 1f8133a04b",
-   "done": "",
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-11T06:54Z",
-     "noted": "2026-11-11T07:10Z",
-     "progress": 40,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "done": "2026-11-11T07:10Z",
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -6734,5 +6725,5 @@
    "notes": []
   }
  ],
- "source_revision": "16a880938184b88267efec7b78c92fdf5889b57e"
+ "source_revision": "745ff8004e17af379286a9ed74585b1ae30337f3"
 }
