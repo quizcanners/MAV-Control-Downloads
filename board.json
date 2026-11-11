@@ -6587,8 +6587,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-11T06:53Z",
-     "noted": "2026-11-11T06:53Z",
-     "progress": 25,
+     "noted": "2026-11-11T07:02Z",
+     "progress": 40,
      "ticked": 0,
      "total": 0
     }
@@ -6599,6 +6599,11 @@
      "by": "HEAVY",
      "at": "2026-11-11T06:53Z",
      "text": "Windows All.xml first failure, SituationEntityClassificationTests.ExistingEntityEditor_RefreshesCaptionsOnLanguageAlone: Expected: True But was: False"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T07:02Z",
+     "text": "Prior failed cases pass in the Windows cohort after restoring the leaked Station.UI overlay owners (369b1fdddd, 726cd3e131, 2e670b8af7). SituationEntityClassificationTests 32 passed. XML in C:/MavControlEvidence/WorkCritical/verify-night-20"
     }
    ]
   },
@@ -6703,5 +6708,5 @@
    "notes": []
   }
  ],
- "source_revision": "76034d0d29e910e4010dda581533b4a6f7f06f52"
+ "source_revision": "711c413d50156c0643842a3de2411bf2be81fd8c"
 }
