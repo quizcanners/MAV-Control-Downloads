@@ -5900,11 +5900,6 @@
    "notes": [
     {
      "by": "CLOUD_THREAD",
-     "at": "2026-11-11T08:26Z",
-     "text": "Rule 12 review of the Mac batch 13, read on the Mac checkout (main 05f3dacd32): 292 = 510301617f, 295 = f687cd6bb0 + a5df235337, 298 = 8cfe952a0c + bfb3a12336, 294 part = 4763802527 (bottom bar) + 5d85b94257 (UI_TOP_MOST), 341 steps 1/3/4 ="
-    },
-    {
-     "by": "CLOUD_THREAD",
      "at": "2026-11-11T08:37Z",
      "text": "quiz, 2026-11-11: \"Gap is ok\" (answer to the spawned-windows question): windows under Notch Offset keep their -64/+64 backdrops, no sibling backdrop roots; past a notch the gap is accepted. Recorded in UI SPEC and UI Prefabs guide. Remainin"
     },
@@ -5912,6 +5907,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T08:48Z",
      "text": "LOCAL_MAC batch 14, no change: (1) UI_MapBlockingBars._content in Fullscreen Video.prefab has 0 offsets, but the prefab sits under Video UI.unity's own 'Notch Offset' (UI_SafeAreaFitter) and its root Canvas is nested, so -64/+64 there reach"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-11T10:31Z",
+     "text": "quiz, 2026-11-11: 'Gap is ok' for the Search window covers the Search List Top Covers too: they keep the gap under the safe-area fitter; remove the empty UI_ScreenBackdrop marker. UI_MapBlockingBars (Fullscreen Video) is handled in another "
     }
    ]
   },
@@ -7972,7 +7972,7 @@
   },
   {
    "n": 393,
-   "name": "MavChat only on touchscreen smar",
+   "name": "Mav Chat is a device-exclusive w",
    "done": "",
    "goal": false,
    "held": [],
@@ -7980,5 +7980,5 @@
    "notes": []
   }
  ],
- "source_revision": "2671cd4cc2166a8aead7380b8afe4878742087db"
+ "source_revision": "a3cebe8d8591102e63700d1de88e5dac479309a3"
 }
