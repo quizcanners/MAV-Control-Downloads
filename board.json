@@ -607,39 +607,6 @@
    ]
   },
   {
-   "n": 32,
-   "name": "MavChat capsule selector",
-   "done": "2026-11-08T15:46Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Reverse drag and release together",
-     "x": true
-    },
-    {
-     "t": "Verify quick, held and cyclic swipes in Unity",
-     "x": true
-    },
-    {
-     "t": "Publish and record result",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_UI_OWNER",
-     "at": "2026-11-08T15:42Z",
-     "text": "Selector committed to main 9884b1286a. In both directions the centered icon follows the finger; quick swipe commits exactly one left/right neighbor, held drag preserves displacement, hysteresis and wrap. Isolated Unity EditMode 98/98 passed"
-    }
-   ]
-  },
-  {
    "n": 33,
    "name": "Share screen center toggle",
    "done": "2026-11-08T15:57Z",
@@ -9790,7 +9757,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "LOCAL_MAC",
+     "since": "2026-11-11T15:46Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -10265,5 +10241,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0f9443073f0a1d0fd148cc735f7f32190b74641e"
+ "source_revision": "fcde3a4002e5e2724b0c554eb0a01320d8104dc9"
 }
