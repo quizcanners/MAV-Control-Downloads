@@ -666,22 +666,6 @@
    "notes": []
   },
   {
-   "n": 52,
-   "name": "using Strong",
-   "done": "2026-11-08T19:37Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "vague"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 54,
    "name": "Idle chat/network work grew",
    "done": "",
@@ -7368,11 +7352,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T10:47Z",
-     "text": "CLOUD_THREAD 2026-11-11: cause of tabs vanishing after Chat found and fixed on main: the toggle read ChatOpen live while Shown/TabsShown were cached for the frame; Chat closing inside a transition after the frame's first reader made ApplyVi"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-11T10:59Z",
      "text": "LOCAL_MAC step 1, stopped without a change. Seen in Editor Play 1920x1080 landscape Chat: (a) peer view: empty band of ~180 px between the search field and the first peer row (spot 1); (b) the peer list's scroll bar sits inside the row area"
@@ -7381,6 +7360,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T13:56Z",
      "text": "6ea242e8e2 (RIGHT Suggestions.prefab: landscape MavChat Set my position + centre Set destination/Set my position buttons and their action-array and Sizes entries removed) and 8bc2e77aa3: Station.IsWorkflowAvailable offers Navigation only wh"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-11T19:38Z",
+     "text": "MavChat notch pushes Search, MGRS and capsule down (X stays); portrait mode camera alignment: focus is its own world position changed only by map drag, viewport recalculated after panel drag ends and eased by speed, camera holds focus at vi"
     }
    ]
   },
@@ -9042,5 +9026,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "8882337a056b9a542ec39ce9bfb13c13720b29c1"
+ "source_revision": "c9f3419b953a763f987a41de49cc9490fce67c35"
 }
