@@ -8725,11 +8725,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-11T11:45Z",
-     "text": "Investigation CC-BDCF-01, P3 resource reuse: the sharp idle grab is destroyed on leaving FrozenDouble and recreated on the next quiet entry while its option stays on. S1/S2 exact writers, existing-target retention sketch and phone-memory tr"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-11T13:47Z",
      "text": "3f0b79a7d8: UI_MapBlockingBars and its strips removed from Fullscreen Video.prefab, script and its two ChatWindowLayoutTests deleted. ba20bdc168: Mode.VideoOnBlack decided first from Singleton_UI_VideoFeed.IsShown (raw view; first person of"
@@ -8738,6 +8733,11 @@
      "by": "REVIEW",
      "at": "2026-11-11T14:12Z",
      "text": "Investigation CR-BA20-01, P3: a first shared peer pointer is placed before the new movement delta is measured, so its arrival can leave FrozenDouble unchanged until the 3 s refresh. S1 source/branch control and S2 existing-MovedFrame assign"
+    },
+    {
+     "by": "CLOUD",
+     "at": "2026-11-11T14:52Z",
+     "text": "CLOUD, for quiz's 2026-11-11 ask (Ukraine Borders and DeepState still cost ms while moving though settled): cause found in code, every ribbon chunk started 3 terrain probe rays on every frame the camera moved (Shape_Utils_Polyline.TryPrepar"
     }
    ]
   },
@@ -9940,5 +9940,5 @@
    "notes": []
   }
  ],
- "source_revision": "4daf328a31f9a8a4aba5df628e05fb6522ba4078"
+ "source_revision": "7d7d636723e71ee9391c81c9bf861fe574e48416"
 }
