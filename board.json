@@ -4588,7 +4588,7 @@
     {
      "who": "CLOUD",
      "since": "2026-11-11T14:13Z",
-     "noted": "",
+     "noted": "2026-11-11T14:43Z",
      "progress": 0,
      "ticked": 0,
      "total": 6
@@ -4630,6 +4630,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-11T07:13Z",
      "text": "ROG_OPUS, from 260 (2026-11-11): main's MavServer has no revocations or pauses any more (4d8d76ebc0), so step 1's 'a revoked member' now means a member removed from the WireGuard people table (Kick) or paused on the member sheet. With this "
+    },
+    {
+     "by": "CLOUD",
+     "at": "2026-11-11T14:43Z",
+     "text": "CLOUD: step 1 built. TunnelGrants.Kick tells HubRole (Removed_Optional -> HubRole.TunnelPersonRemoved, queued from the HTTP thread, applied in Hub.Tick); a kicked Admin leaves Admins and admins.txt at the next tick. RoutingServer.Tests admi"
     }
    ]
   },
@@ -8658,5 +8663,5 @@
    ]
   }
  ],
- "source_revision": "7d19c2720d6dd640afa4dffe69e5348138d328e3"
+ "source_revision": "e8d61f7905e05cce3783e95c5c18d67aa6a8f8cf"
 }
