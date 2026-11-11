@@ -6182,8 +6182,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-11T06:17Z",
-     "noted": "2026-11-11T06:20Z",
-     "progress": 25,
+     "noted": "2026-11-11T06:29Z",
+     "progress": 40,
      "ticked": 0,
      "total": 0
     }
@@ -6194,6 +6194,11 @@
      "by": "HEAVY",
      "at": "2026-11-11T06:20Z",
      "text": "Windows D3D11 baseline on 224a88e567: 174 passed, 6 failed. Surface 51/52; Element Lighting 25/25; Display Masks 7/7; Shader Pass 21/22 (Sun parity only); Draw Patch Reuse 27/27; Mask Store 23/23; UI Shader Import 9/9; Pilot Track 5/9; List"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T06:29Z",
+     "text": "Windows D3D11 rerun 181/181 green after 2ed8276852 (quiz-approved Sun/Pilot expectations) and 7275fc3426 (page fixture binds the mask channel uniforms and transform at draw time). Surface 52/52; Element Lighting 25/25; Display Masks 7/7; Sh"
     }
    ]
   },
@@ -6333,5 +6338,5 @@
    ]
   }
  ],
- "source_revision": "06df36de0ff2c282f3d099614ca2011c36a01b42"
+ "source_revision": "31f3626f5a8a018f87464e384a8ed55e0df5721e"
 }
