@@ -607,49 +607,6 @@
    ]
   },
   {
-   "n": 34,
-   "name": "Repair task-board publishing so ",
-   "done": "2026-11-08T16:08Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Use bounded isolated filtered fetch",
-     "x": true
-    },
-    {
-     "t": "Test preservation and concurrent update retry",
-     "x": true
-    },
-    {
-     "t": "Publish and verify public board",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "heavy",
-     "at": "2026-11-08T16:42Z",
-     "text": "Cloud compile pass at 2ad59dec37 against 0cf4c025ec: cmp.sh NEW ERRORS: none with installed Unity package refs; isolated Unity 6000.6.8f1 EditMode All 8507 passed, 9 failed, 8 skipped. No source compile fixes. XML SHA-256 FD40BB5C07F93FA7DC"
-    },
-    {
-     "by": "heavy",
-     "at": "2026-11-08T17:07Z",
-     "text": "Heavy batch 404be53092, cmp.sh NEW ERRORS: none. Windows EditMode All 8509 passed, 9 failed, 8 skipped; same nine red cases as prior cloud compile. XML C:/MavControlEvidence/WorkCritical/heavy-batch-20261108/All.xml. Closed historical 22 is"
-    },
-    {
-     "by": "heavy",
-     "at": "2026-11-08T17:44Z",
-     "text": "Heavy follow batch on 0ba1362903: cmp.sh NEW ERRORS: none (e/a/p/m). Windows EditMode All 8515 passed, 10 failed, 8 skipped; XML SHA-256 E7DDC750DA9DD7115BE88F810DBB6A21F1F4609C2B7188AA272CB6D07CB75821 at C:/MavControlEvidence/WorkCritical/"
-    }
-   ]
-  },
-  {
    "n": 35,
    "name": "Menu > Diagnostics page for the ",
    "done": "2026-11-08T16:48Z",
@@ -9721,8 +9678,8 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T16:07Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T16:17Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -9733,6 +9690,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T15:54Z",
      "text": "02118b1ef5: ConnectionLoop (Assets/_PROJECT/Network, reusable): Idle / Connecting / Stabilizing / Connected; Connected only after HealthySeconds = 20 s up; Stabilizing when two drops fall within LoopWindowSeconds = 120 s; while Stabilizing "
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T16:17Z",
+     "text": "4b76678abc VPN peer link (PeerDelivery: success = connected, failure = drop, backoff through Loop.RetrySeconds, figures in the peer's delivery status) and 6414778261 hotspot (Connected/not transitions in GetStatus, figures in the phone insp"
     }
    ]
   },
@@ -10178,6 +10140,20 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 416,
+   "name": "Storage System",
+   "done": "2026-11-11T16:08Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -10226,5 +10202,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d37207abc2a83076c898496a38f7bb9b3494b07c"
+ "source_revision": "85a507efccdbb4bb5fe6fc5c846438785a0b10b3"
 }
