@@ -7956,7 +7956,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T17:49Z",
-     "noted": "",
+     "noted": "2026-11-11T17:53Z",
      "progress": 0,
      "ticked": 0,
      "total": 2
@@ -7977,6 +7977,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T16:40Z",
      "text": "64fdd3f508: iOS half of SEARCH-NATIVE-TEXT-SESSION. MavControlTextSession.mm (production, not behind the prototype macro) swaps Unity's own keyboard responder (UITextField/UITextView inside the Unity view) inputView for an empty view and ba"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T17:53Z",
+     "text": "a24b3577fe: Android half. MavTextSession.java (Assets/Plugins/Android): zero-size EditText in the content view, setShowSoftInputOnFocus(false), committed text (never mid-composition) queued for take(), Backspace '\\b', Enter '\\n'; show(true/"
     }
    ]
   },
@@ -9006,5 +9011,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "83190e4dd098f5323cea19a7f89b9bd56d80e145"
+ "source_revision": "174975539cda12a7366c3552861e9a91d6803606"
 }
