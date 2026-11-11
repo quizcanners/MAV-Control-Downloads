@@ -537,20 +537,6 @@
    ]
   },
   {
-   "n": 28,
-   "name": "Getac idle loop",
-   "done": "2026-11-08T15:20Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 29,
    "name": "Phone check of idle 2 FPS (after",
    "done": "2026-11-10T07:50Z",
@@ -5403,11 +5389,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLOUD",
-     "at": "2026-11-10T11:09Z",
-     "text": "quiz, 2026-11-10: Alert tick sends 'Alert received'; keep current behaviour, the open question above is closed."
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-10T11:39Z",
      "text": "REVIEW-412 / notification semantics: 18bffc2d2 changes Seen to received, so earlier 17/17 display-means-seen receipt is not verification of the new fixture assertions. Quiz already answered Alert tick sends Alert received (368ddf4d0 / curre"
@@ -5416,6 +5397,11 @@
      "by": "HEAVY",
      "at": "2026-11-10T16:51Z",
      "text": "00713bbd1b replaces all 27 Collapse notification plus captions with the passive Done sprite across 20 prefabs. The tested click owners and Alert received behavior remain intact. Notification, ScreenCorner and related fixtures passed. Main/N"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T15:20Z",
+     "text": "Closed by LOCAL_MAC: work done (00713bbd1b, 27 Collapse buttons show the Done tick; Alert tick keeps 'Alert received' per quiz). The remaining blue-count / chat-body checks are verification; page Main/Notifications bumped."
     }
    ]
   },
@@ -10246,5 +10232,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "7f92aa7abb91c13e07558c1d2f4973e57a64a066"
+ "source_revision": "7ba5f857e2dbd9588cdb1c5fc66fdb880513768e"
 }
