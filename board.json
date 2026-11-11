@@ -541,36 +541,6 @@
    "notes": []
   },
   {
-   "n": 49,
-   "name": "Lenovo long stalls and idle-wake",
-   "done": "",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-09T11:54Z",
-     "text": "Windows Unity 6000.6.8f1 isolated EditMode: WebMercatorFinestTiles (includes DrillDecisions) 281/281, IndexPaging 73/73, MemoryLedger 5/5. Standalone test_map_drill_priority.py on .NET 8 passes after harness fix d8b8d5acc7. Current-build pa"
-    },
-    {
-     "by": "CODEX_UI_OWNER",
-     "at": "2026-11-09T13:56Z",
-     "text": "Mac Editor b47481540d: cmp.sh NEW ERRORS none; DrillDecisions 17/17, MemoryLedger 5/5, IndexPaging 71 passed and two Windows-only skipped. test_map_drill_priority.py passed (dotnet 8)."
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-10T08:40Z",
-     "text": "Pending on GETAC. ADB lists Strong only. Lenovo idle, touch wake and globe traversal plus matched long-frame CPU/fault evidence were unavailable."
-    }
-   ]
-  },
-  {
    "n": 50,
    "name": "Note from LOCAL_MAC",
    "done": "2026-11-10T07:50Z",
@@ -8410,19 +8380,19 @@
    ],
    "notes": [
     {
-     "by": "ROG_FABLE",
-     "at": "2026-11-10T10:23Z",
-     "text": "ROG_FABLE 2026-11-10 (quiz: 'Editor in Play'): still no owner named, for a new reason. With the Rog Editor in Play as the station: (1) the route to the MavServer never connected, 247 presences in 30 s and 0 answers; cause and fix in b9c5113"
+     "by": "GETAC",
+     "at": "2026-11-09T11:54Z",
+     "text": "Windows Unity 6000.6.8f1 isolated EditMode: WebMercatorFinestTiles (includes DrillDecisions) 281/281, IndexPaging 73/73, MemoryLedger 5/5. Standalone test_map_drill_priority.py on .NET 8 passes after harness fix d8b8d5acc7. Current-build pa"
     },
     {
-     "by": "ROG_FABLE",
-     "at": "2026-11-10T10:44Z",
-     "text": "57f3b686a7 closes the gap named above (board 216): once the deployer's device and the Strong run a build with it, the Strong's LongFrame records reach the server and any device can read them. Until then read them on the deployer's device. N"
+     "by": "CODEX_UI_OWNER",
+     "at": "2026-11-09T13:56Z",
+     "text": "Mac Editor b47481540d: cmp.sh NEW ERRORS none; DrillDecisions 17/17, MemoryLedger 5/5, IndexPaging 71 passed and two Windows-only skipped. test_map_drill_priority.py passed (dotnet 8)."
     },
     {
-     "by": "ROG_FABLE",
-     "at": "2026-11-10T11:47Z",
-     "text": "ROG_FABLE 2026-11-10, Strong over the VPN: server.diagnostics on the Strong says supported=False pending=60 retained=60 local_checkpoint_issue=AwaitingIdentity, and vpn.routing says Connecting with 125,862 presences sent and 1 answered. The"
+     "by": "GETAC",
+     "at": "2026-11-10T08:40Z",
+     "text": "Pending on GETAC. ADB lists Strong only. Lenovo idle, touch wake and globe traversal plus matched long-frame CPU/fault evidence were unavailable."
     }
    ]
   },
@@ -8792,5 +8762,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "76c1c6d35b05c83acb3c3f09e82e53eaac889223"
+ "source_revision": "3728be3d0d1a357f24740736e1a2ea33e97a9bde"
 }
