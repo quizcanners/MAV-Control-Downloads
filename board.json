@@ -6975,11 +6975,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-11T07:44Z",
-     "text": "Fresh All on d32937fcf6 reproduces the three WayPointDrag failures after the focused cohort passed. LockedMgrsPrevious receives accepts=False and visible=False. RoadRouteLongPressDrag expected via 1, got -1; RoadRoutePicks expected height-a"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-11T09:15Z",
      "text": "LOCAL_MAC: green on the Mac at bfc2e9f2ec with graphics (VideoServerGridTests + WayPointDragTests 59/59, 1 ignored). Not reproduced; if Windows still fails it is platform-specific, reopen with the message."
@@ -6988,6 +6983,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T09:24Z",
      "text": "LOCAL_MAC: reopening: WayPointDragTests pass alone but 3 cases fail inside the full All (order-dependent). Working on it."
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T09:34Z",
+     "text": "5fccb47c7b: order leak found: an earlier video fixture leaves Station.UI.FullscreenVideoOpen true, so inside the full All the view is FullScreenVideoFeed and the MGRS input/road-route hit tests are hidden. WayPointDragTests now owns that in"
     }
    ]
   },
@@ -7904,5 +7904,5 @@
    ]
   }
  ],
- "source_revision": "8b26186af56e2c210b801a5c2dfce6c30adab2e8"
+ "source_revision": "4d56652757b35089b9b1d8dab243c6e1a7132ca8"
 }
