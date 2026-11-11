@@ -6931,19 +6931,14 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-11T09:13Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T09:14Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T06:53Z",
-     "text": "Windows All.xml first failure, VideoServerGridTests.SelectedSidebarRetainsRestreamPressOwnershipAndRejectsRebinding: Expected: VideoServerGrid But was: FullScreenVideoFeed"
-    },
     {
      "by": "HEAVY",
      "at": "2026-11-11T07:02Z",
@@ -6953,6 +6948,11 @@
      "by": "HEAVY",
      "at": "2026-11-11T07:43Z",
      "text": "Fresh All on d32937fcf6 still fails SelectedSidebarRetainsRestreamPressOwnershipAndRejectsRebinding: expected VideoServerGrid, got FullScreenVideoFeed. The focused cohort passed. Reopened this line; resume with the full-suite fixture order "
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-11T09:14Z",
+     "text": "LOCAL_MAC: green on the Mac at bfc2e9f2ec with graphics (VideoServerGridTests + WayPointDragTests 59/59, 1 ignored). Not reproduced; if Windows still fails it is platform-specific, reopen with the message."
     }
    ]
   },
@@ -7885,5 +7885,5 @@
    "notes": []
   }
  ],
- "source_revision": "4bab323fb95ec5b29d83edb598814057dfc7ba76"
+ "source_revision": "954732d952652a88baad16506b3947692f89106e"
 }
