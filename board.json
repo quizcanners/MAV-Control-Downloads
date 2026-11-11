@@ -5981,8 +5981,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-11T06:56Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-11T06:56Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -5993,6 +5993,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-11T06:26Z",
      "text": "ROG_OPUS triage by reading (no fix): IconsAre128PixelsAndTheirHashIsPublishedOnlyWithADurableEdit ends with 'A database write that fails publishes nothing': it makes the save fail by creating the directory <ledger path>.pending, which block"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-11T06:56Z",
+     "text": "Windows All.xml first failure, LogisticsDistributionTests.IconsAre128PixelsAndTheirHashIsPublishedOnlyWithADurableEdit: TearDown : System.IO.IOException : The process cannot access the file 'logistics.sqlite' because it is being used by ano"
     }
    ]
   },
@@ -6678,5 +6683,5 @@
    "notes": []
   }
  ],
- "source_revision": "9e4996a45fa586778d670b54c187b76a5adc7e9a"
+ "source_revision": "970f35d0f639df6c82f6c5722587a3e9dcc8db54"
 }
