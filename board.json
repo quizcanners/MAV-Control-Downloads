@@ -243,11 +243,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-11T07:44Z",
-     "text": "Fresh Windows Unity 6000.6.8f1 EditMode All at d32937fcf6: 8,838 passed, 7 failed, 1 inconclusive, 10 skipped. All.xml SHA-256 df6bb224a7c5f511150211386723dec40dd406842a7bb1b1edadb7d2332cf90a, C:/MavControlEvidence/WorkCritical/verify-night"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-11T08:38Z",
      "text": "REVIEW-432: inspected 6b4fdea34..58d64c2d2, twelve documentation/coordination commits; no implementation changes, merges or new findings. Prior proposals, repairs, claims and native failures retained; source/metadata controls passed, native"
@@ -256,6 +251,11 @@
      "by": "REVIEW",
      "at": "2026-11-11T09:54Z",
      "text": "REVIEW-433-T7: CR-A5B7-01 P3 source/host-confirmed: all 22 goals serialize Tasks-tab name as GOAL. Prefix-aware export sketch, current code and falsifiers await quiz; no implementation. Existing claims/native failures retained. [S1/S2 and c"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-11T12:48Z",
+     "text": "Investigation CR-CE3B-01, P3: new assets.prefab-edit extracts its file from the fully lowercased command, so the tracked Tools/PrefabEdits path cannot open on a case-sensitive filesystem. S1 source/file-open control and S2 existing-normaliz"
     }
    ]
   },
@@ -8217,14 +8217,6 @@
    "goal": false,
    "held": [
     {
-     "who": "ROG",
-     "since": "2026-11-11T11:43Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    },
-    {
      "who": "ROG_OPUS",
      "since": "2026-11-11T12:48Z",
      "noted": "",
@@ -8286,5 +8278,5 @@
    "notes": []
   }
  ],
- "source_revision": "eea6862a36a4ec2c18bfaf1a03406a0ff2b0c5e6"
+ "source_revision": "e294cc0c22d06928f8d726a67be46799186efade"
 }
