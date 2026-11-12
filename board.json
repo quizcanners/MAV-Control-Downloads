@@ -5960,11 +5960,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA_BOOT",
-     "at": "2026-11-12T09:54Z",
-     "text": "PASIKA_BOOT 2026-11-12, third pass. 1) Done: 2082a4164c the startup owners run in a written order (StartupRunOrder; StartupRunsBefore replaces every < > + 1 on the enum; StartupOwnerIsActive is one rule, the cursor is past the owner; no own"
-    },
-    {
      "by": "PASIKA",
      "at": "2026-11-12T09:56Z",
      "text": "PASIKA cold Play of 2082a4164c + a5f560d5ca (main 8994ae019a, Unity 6000.6.8f1, PL-007): compiles 0 errors; map present 5.201 s (6.488 s on the previous run), layers present 8.040 s; startup_cost MavLink 0.51 ms / Vpn 3.43 ms / Geoid 0.49 m"
@@ -5973,6 +5968,11 @@
      "by": "GETAC",
      "at": "2026-11-12T10:50Z",
      "text": "GETAC 2026-11-12, Strong Dev 826 at f03247d1be, three cold starts (force-stop, launch, charging), runs 1/2/3 in s after process start: startup_started_at_s 2.817/2.818/2.803; startup_measure_map_present_at_s 3.618/3.617/3.613; startup_revea"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-12T12:10Z",
+     "text": "GETAC 2026-11-12, Strong Dev 826 at f03247d1be, per-owner boot list from the three cold starts (startup_cost, 62 owners, zero failures; ms, runs 1/2/3), now in Performance Baseline/STARTUP.md. Total owner work 924.9/607.6/699.6. AgentChanne"
     }
    ]
   },
@@ -8860,5 +8860,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "15a199cfbc8b0d01c0a33c37b3e5a7f871ae8433"
+ "source_revision": "6f0d028d02fbe12928f1e748a6e6578df54b15c6"
 }
