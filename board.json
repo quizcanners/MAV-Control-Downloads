@@ -4525,11 +4525,6 @@
    "notes": [
     {
      "by": "REVIEW",
-     "at": "2026-11-11T08:06Z",
-     "text": "REVIEW-431-T260: CC-4D8D-01 P3 investigation/brief complete; single-root diagnostic sessions still use a parent-count scan. Direct existing Count sketch, writers and bounded/replay constraints await quiz; no implementation. CR-5E44-01 sourc"
-    },
-    {
-     "by": "REVIEW",
      "at": "2026-11-11T08:42Z",
      "text": "APPROVED-CC-4D8D-01: quiz approved the direct Count simplification; implementation is open on follow-up 361. Task 260 completion, prior claims and evidence stay intact. [Decision and brief](../Reviews/6b4fdea34.md#quiz-decision--approved-fo"
     },
@@ -4537,6 +4532,11 @@
      "by": "REVIEW",
      "at": "2026-11-11T16:43Z",
      "text": "REVIEW-439-CR-BFD0-01: Existing residual P3 timeout gains stale Connected evidence: 19 unanswered retries through 200s never time out; Hello retry still mitigates restart recovery. Original S1/S2 deadline sketch retained, awaits quiz. [Evid"
+    },
+    {
+     "by": "CLOUD_H",
+     "at": "2026-11-12T08:29Z",
+     "text": "CLOUD_H 2026-11-12 a6d85c779d... see 370; 4fd... CR-BFD0-01 source-repaired: _firstQuestionAt on the route holds the first unanswered question, the 30 s timeout counts from it, _askedAt only spaces retries; reset on binding. Uncompiled."
     }
    ]
   },
@@ -8906,5 +8906,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f9670e85c01b950ac6338b740273e480c33de496"
+ "source_revision": "c6f97de6d27f8d26ff56ea2c123bbdb6f2e31ad5"
 }
