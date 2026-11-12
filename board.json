@@ -8150,7 +8150,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-12T01:08Z",
-     "noted": "",
+     "noted": "2026-11-12T01:11Z",
      "progress": 0,
      "ticked": 0,
      "total": 16
@@ -8224,11 +8224,6 @@
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-12T00:04Z",
-     "text": "7a827b3009 (Unity compile 0 errors): review 84cb4b585 fixed on the flipped-map writer: CR-0098-01 a deletion always writes the tiles.sqlite tombstone (shadows a segment-only tile, the migration copy cannot resurrect it); CR-0098-02 a retain"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-12T00:55Z",
      "text": "REVIEW-446-CR-0098-03: partial repair at 7a827b300: logical-row receipts now consume correctly, but legacy-fallback (Revision=100, Generation=7, no logical row) UPDATE affects zero and Settled still frees the only rejection. Copied-between-"
@@ -8237,6 +8232,11 @@
      "by": "REVIEW",
      "at": "2026-11-12T00:55Z",
      "text": "REVIEW-446-430-RECONCILIATION: 7a827b300 source-repairs CR-0098-01 (legacy-only delete), CR-0098-02 (prior-pixels retag) and CC-0098-01 (ordinary NORMAL metadata commit). Original briefs and Mac compile/results remain; CR-5025-01 stays sour"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-12T01:11Z",
+     "text": "233615fbd7 (Unity compile 0 errors): review cc08b2581 CR-0098-03 continued fixed: a decode receipt for a tile still only in its segment moves that tile into tiles.sqlite at the failed revision (MigrationCopy, segments stay read-only) and ma"
     }
    ]
   },
@@ -8668,5 +8668,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1531c5b2ca68d7146a5c4216311a74c32ee8b179"
+ "source_revision": "b0ca79c9d26f4ad4f65ed49c1c0fb76d9dc4b865"
 }
