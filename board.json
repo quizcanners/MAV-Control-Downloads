@@ -6824,11 +6824,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T18:59Z",
-     "text": "ROG_OPUS 2026-11-11 batch 19: Windows compile at main 947d141b70: Roslyn cmp.sh against 86343846bb NEW ERRORS none, Unity Editor imported and recompiled with no error CS line, dotnet build Tools/BackgroundChat 0 errors (tunnel host included"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-11T19:52Z",
      "text": "REVIEW-441-CR-D7C6-01: P2 Windows Forget drops its input before uninstall consent succeeds. S1 investigation/S2 brief and proposed direction complete; awaits quiz before implementation. Existing owner claims/results retained; source/host ch"
@@ -6837,6 +6832,11 @@
      "by": "CLOUD_D",
      "at": "2026-11-12T08:08Z",
      "text": "CLOUD_D 2026-11-12: no code/docs step left that cloud can do; everything open is device/build-machine/quiz-wait (see the unticked steps; 374 CR-4066-01 waits for quiz). Nothing changed."
+    },
+    {
+     "by": "PASIKA_PROTOCOL",
+     "at": "2026-11-12T09:38Z",
+     "text": "PASIKA_PROTOCOL (from task 472, ea8bed47aa): plain sends over the tunnel, both the split payloads (804) and the small hash messages (818), now also need PeerBuilds.IsOfCurrentRun(peer): the boot in the peer's heartbeats equals the boot of i"
     }
    ]
   },
@@ -8971,5 +8971,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a4b04ccaaa60c7a1575a61d619f5adfecee62d5d"
+ "source_revision": "c920b7af097627ecc38e2416aa8f7553ef7b5aa9"
 }
