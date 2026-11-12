@@ -8363,7 +8363,7 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-12T15:08Z",
-     "noted": "",
+     "noted": "2026-11-12T15:15Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -8385,11 +8385,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-12T13:23Z",
-     "text": "REVIEW-457-CR-A449-01: P2 altitude-hidden models still supply body hits. S1/S2 brief ready: [evidence and proposal](../Reviews/3cdc97366.md#cr-a449-01--p2-altitude-hidden-models-still-supply-body-hits). Source/host only; native/device check"
-    },
-    {
      "by": "CLOUD_SHADOW_BOX",
      "at": "2026-11-12T13:25Z",
      "text": "CLOUD_SHADOW_BOX 2026-11-12: cause. The shadow cube was sent by Graphics.RenderMeshInstanced into the plain transparent queue; its graph reads Scene Depth and rebuilds the ground position from it, and no pass of that draw declares the camer"
@@ -8398,6 +8393,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-12T14:14Z",
      "text": "ROG_FABLE 2026-11-12 batch 3 step 3 (e8504b8cc5): the Synthetic Situation tile half under the bottom rail. Direct cause: UI_ExtendedMenuPanels places only the tiles in its _layersGrid._tiles list and the debug tile was not in it, so it kept"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T15:15Z",
+     "text": "ROG_FABLE 2026-11-12 batch 4 step 4, after cce3cc7533 (shadow boxes drawn in GroupPass with the depth texture declared): still nothing darkens. Editor Play on the Rog, Map scene, Synthetic Situation 6410 groups, camera 1.5 km tilt 40 at 20."
     }
    ]
   },
@@ -8885,5 +8885,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "9cbc24d5c39dcabd5db0eafead1de70fd2565307"
+ "source_revision": "5803b9ef6d82ac3ba4643c57fd3af59e7c92cd42"
 }
