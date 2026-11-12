@@ -898,7 +898,7 @@
     {
      "who": "PASIKA",
      "since": "2026-11-12T17:10Z",
-     "noted": "2026-11-12T17:12Z",
+     "noted": "2026-11-12T17:18Z",
      "progress": 0,
      "ticked": 0,
      "total": 8
@@ -940,11 +940,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-12T16:29Z",
-     "text": "Getac Debug Mode verified on Windows 817: own ID 6087565 confirmed, USB socket pin requested/readback 19, 192.168.10.2:41001. DJI still absent from ADB and agent route refused NoMavControlHeartbeat. Ran one directed test to operator-provide"
-    },
-    {
      "by": "PASIKA",
      "at": "2026-11-12T17:12Z",
      "text": "PASIKA 17:12Z (quiz: 'You and Getac have radios, they should hear each other'): PASIKA Editor station has Motorola On, method USB, own ID entered 6089031 (unconfirmed), CAI 12, port 41001. But Windows on PASIKA enumerates NO Motorola USB de"
@@ -953,6 +948,11 @@
      "by": "GETAC",
      "at": "2026-11-12T17:12Z",
      "text": "GETAC Windows 817 SV07 Bluetooth: Windows PAN joined on second attempt, IPv4 192.168.11.2, gateway 192.168.11.1 replied 3/3 before and after. MAV Control bound UDP 41001 on adapter 15 with verified socket pin. Blank-ID discovery and a 12-ca"
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-12T17:18Z",
+     "text": "PASIKA: quiz 2026-11-12 'Radios need update' - paused until the radios are updated; PASIKA side state as in the 17:12Z note."
     }
    ]
   },
@@ -2200,5 +2200,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "26f89664ead2eca3245b312d9b75d7db568ab40b"
+ "source_revision": "a8ce69cbf0959649306b7fbd8910be3212347c04"
 }
