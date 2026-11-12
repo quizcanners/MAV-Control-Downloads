@@ -5876,11 +5876,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-12T10:50Z",
-     "text": "GETAC 2026-11-12, Strong Dev 826 at f03247d1be, three cold starts (force-stop, launch, charging), runs 1/2/3 in s after process start: startup_started_at_s 2.817/2.818/2.803; startup_measure_map_present_at_s 3.618/3.617/3.613; startup_revea"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-12T12:10Z",
      "text": "GETAC 2026-11-12, Strong Dev 826 at f03247d1be, per-owner boot list from the three cold starts (startup_cost, 62 owners, zero failures; ms, runs 1/2/3), now in Performance Baseline/STARTUP.md. Total owner work 924.9/607.6/699.6. AgentChanne"
     },
@@ -5888,6 +5883,11 @@
      "by": "PASIKA_STARTTEST",
      "at": "2026-11-12T12:53Z",
      "text": "PASIKA_STARTTEST 2026-11-12: EditMode cases for the 362 commits on main, f792e07130 and 280a745cbc (cmp.sh: only new errors are LogAssert, the checker's missing TestRunner reference that every LogAssert file shows at base). For Verification"
+    },
+    {
+     "by": "PASIKA_REVIEW",
+     "at": "2026-11-12T13:21Z",
+     "text": "PASIKA review (Coordination/Reviews/919f3e73e.md): CR-A5F5-01 fixed in 6791eebe73, compiled, not run. Since the VPN owner runs after the first map frame, the VPN update stages ran before Network.ManagedOnEnable on a save that does not take "
     }
    ]
   },
@@ -8904,5 +8904,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "fa667431486f9699dca6f2729c4456bcada73d39"
+ "source_revision": "0d9f17a1653d6e89c9e78591978b52e32336250c"
 }
