@@ -1155,11 +1155,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_FABLE",
-     "at": "2026-11-12T15:24Z",
-     "text": "ROG_FABLE 2026-11-12 batch 4 step 6, part 1 done: the deleted line material link cleared on every UI_OnePixelLine component, 208 links in 36 prefabs, one commit per prefab (the Distribution Window, Pilot Status Strip, Chat windows, notifica"
-    },
-    {
      "by": "PASIKA_RELOAD",
      "at": "2026-11-12T16:03Z",
      "text": "PASIKA_RELOAD: Menu / Map source cards scrambled after a script reload during Play: cause and fix in 11646ade01 (LayoutFrame was NonSerialized, UI_MapType.Update threw before the card reflow; details on 507). Seen by the coordinator at 1024"
@@ -1168,6 +1163,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-12T16:57Z",
      "text": "ROG_FABLE 2026-11-12 batch 6 step 4: nothing left to convert. fe5594d68b (18:37, 'Pixel dividers draw one pixel again') already turned the 69 dividers in the 15 prefabs into the one-pixel line; git grep finds no prefab referencing the delet"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T17:31Z",
+     "text": "ROG_FABLE 2026-11-12: line done and dropped: the 208 UI_OnePixelLine material links cleared in batch 4 (36 prefabs, one commit each), the 69 separators converted by fe5594d68b; git grep finds no prefab on the deleted line materials."
     }
    ]
   },
@@ -2291,5 +2291,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "59dbe9858c1203434c3b4519e09d94609f28e0c5"
+ "source_revision": "33f24cc4310f8ec1219ea78e24887157740e7f4f"
 }
