@@ -6650,11 +6650,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-11T10:34Z",
-     "text": "Strong installed Android Dev 823 (46a76c0d3f) in place. APK SHA256 matched, saved settings hash matched, bootstrap ready 4.928 s, map rendered, zoom in/out and pose restore worked. 180 s startup held one PID and VPN, but four map ribbon Nul"
-    },
-    {
      "by": "CLOUD_D",
      "at": "2026-11-12T08:10Z",
      "text": "CLOUD_D 2026-11-12: no code/docs step left that cloud can do; everything open is device/build-machine/quiz-wait (see the unticked steps; 374 CR-4066-01 waits for quiz). Nothing changed."
@@ -6663,6 +6658,11 @@
      "by": "GETAC",
      "at": "2026-11-12T15:00Z",
      "text": "GETAC 2026-11-12 16:56-17:00, step 'Strong + radio: an active PAN attempt on Dev 823 or newer', on Dev 826 at fa66743148 with SV07 on and nearby (quiz). Before: SV07 bonded, PAN policy 100, not connected; the Getac's own Windows PAN adapter"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-12T15:23Z",
+     "text": "GETAC 2026-11-12 17:10, SV07 Bluetooth without CPS (quiz: 'no CPS. Check what you can'). 1) What the radio gives Windows (the Getac's saved lease, Tcpip interface {7ABF1CC6}): DHCP server 192.168.11.1, address 192.168.11.2/24, gateway 192.1"
     }
    ]
   },
@@ -8885,5 +8885,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "6a06bcff0dd2d83c7b2ee9abb11373d451044054"
+ "source_revision": "d1f6975cc8586ffaddad5afdd17865f8fff1acb5"
 }
