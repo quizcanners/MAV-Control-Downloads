@@ -6635,7 +6635,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "LOCAL_MAC",
+     "since": "2026-11-12T07:36Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 13
+    }
+   ],
    "steps": [
     {
      "t": "half-height transcript look on a phone with a real peer (MAV-CHAT-TRANSCRIPT-HAL",
@@ -6856,18 +6865,18 @@
    "notes": [
     {
      "by": "REVIEW",
-     "at": "2026-11-11T16:43Z",
-     "text": "REVIEW-439-CR-FB49-01: P2: Kick removes only the first Admin when several report the same tunnel key. S1/S2 with bounded all-match removal sketch complete; awaits quiz; step 1 and owner result retained. [Evidence, brief and limits](../Revie"
+     "at": "2026-11-12T07:23Z",
+     "text": "REVIEW-452-CR-0D78-01: P2 Add device ignores tunnel-file refusal. S1/S2 current/proposed direction and falsifiers complete; awaits quiz before implementation. Source/host only, native checks unrun; existing claims/results retained. [Brief]("
     },
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-12T06:26Z",
-     "text": "CLOUD_THREAD, 2026-11-12, uncompiled (no dotnet/Editor in cloud). Built: (a) Deploy WireGuard subnet 2c0ce12935 (HubTunnel.FreeSubnet/HubAddressOf, marker first line, install.sh WG_ADDRESS, TunnelGrants.NextAddress, HUB_ADDRESS from current"
+     "by": "REVIEW",
+     "at": "2026-11-12T07:23Z",
+     "text": "REVIEW-452-CR-0D78-02: P2 queued Add device reply binds to a different selected server. S1/S2 current/proposed direction and falsifiers complete; awaits quiz before implementation. Source/host only, native checks unrun; existing claims/resu"
     },
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-12T06:29Z",
-     "text": "CLOUD_THREAD 2026-11-12: Ukrainian text for the new lines added. For machines/others: publish MavServer release with the Specs folder and subnet choice and update the running MavServer (token holder); Admin WireGuard QR view needs the QR wi"
+     "by": "REVIEW",
+     "at": "2026-11-12T07:23Z",
+     "text": "REVIEW-452-CC-2B49-01: P3 idle pending-edit search precedes due-time gate. S1/S2 current/proposed direction and falsifiers complete; awaits quiz before implementation. Source/host only, native checks unrun; existing claims/results retained."
     }
    ]
   },
@@ -7812,11 +7821,6 @@
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T18:51Z",
-     "text": "View 8 done, 3495bcfd45: the MavLink trouble message names unhealthy sensors with MavLink.DroneState SensorNames (19 reported sensors, keys mavlink.sensor.* in English and Ukrainian, same index) instead of MAV_SYS_STATUS_SENSOR flag names; "
-    },
-    {
      "by": "ROG_OPUS",
      "at": "2026-11-11T18:57Z",
      "text": "ROG_OPUS 2026-11-11 batch 19: Windows compile at main 947d141b70: Roslyn cmp.sh against 86343846bb NEW ERRORS none, Unity Editor imported and recompiled with no error CS line, dotnet build Tools/BackgroundChat 0 errors (tunnel host included"
@@ -7825,6 +7829,11 @@
      "by": "REVIEW",
      "at": "2026-11-11T19:52Z",
      "text": "REVIEW-441-CR-A0FD-01: P2 new DJI state words are unreachable in root language tables. S1 investigation/S2 brief and proposed direction complete; awaits quiz before implementation. Existing owner claims/results retained; source/host checks "
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T07:23Z",
+     "text": "REVIEW-452-CR-A0FD-01: source-repaired by 91a6f97d3: 13 DJI keys/values are in both dji. groups at identical indices, absent from roots; four asset key/value counts passed host parsing. Original brief/results retained; native localization/R"
     }
    ]
   },
@@ -8122,18 +8131,18 @@
    "notes": [
     {
      "by": "CLOUD_THREAD",
-     "at": "2026-11-12T06:21Z",
-     "text": "CLOUD_THREAD 2026-11-12: 431 case (d) peer feed is already route-facts only (AppendIncomingVideoSummary; local lines skipped for incoming peers). CR-D360-01 fixed: local resolver now reports LocalFailed when the local source is Stopped with"
-    },
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-12T06:24Z",
-     "text": "CLOUD_THREAD 2026-11-12: (was 208) part 2 built, uncompiled: Android screen-share renewals now ride the background Chat socket 14668, UDP 17698 removed. Commits b5ee8d9493 (C# BackgroundPacket kinds ScreenRenewal=4/ScreenRenewalReply=5 with"
-    },
-    {
-     "by": "CLOUD_THREAD",
      "at": "2026-11-12T06:28Z",
      "text": "CLOUD_THREAD 2026-11-12: native codec lists built (passport NativeEncoderCodecs/NativeDecoderCodecs, readout line, SPEC); Ukrainian text for the new 370 lines and routingServer.admins.cantReach added to the main Linguist assets (parity chec"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T07:23Z",
+     "text": "REVIEW-452-CR-B5EE-01: P2 screen-share renewal receiver closes in foreground. S1/S2 current/proposed direction and falsifiers complete; awaits quiz before implementation. Source/host only, native checks unrun; existing claims/results retain"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T07:23Z",
+     "text": "REVIEW-452-431-REPAIRS: 83f8f0bc6 source-repairs CR-D360-01 blocked-screen case; CC-8FDF-01 old unreachable premise is retired, remaining UI classification question stays for quiz. Owner result and original identities/briefs retained; no na"
     }
    ]
   },
@@ -8616,5 +8625,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "54af71a178bbd38a43899226c8344b2eeaea2a1b"
+ "source_revision": "d232085cde05c5b695fe05657da4aa1015e019b3"
 }
