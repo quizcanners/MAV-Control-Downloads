@@ -7966,7 +7966,7 @@
     {
      "who": "PASIKA_PERF",
      "since": "2026-11-12T08:15Z",
-     "noted": "",
+     "noted": "2026-11-12T08:57Z",
      "progress": 0,
      "ticked": 0,
      "total": 23
@@ -8068,11 +8068,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-12T05:07Z",
-     "text": "Batch 31 prompt could not be opened by the Mac (it lived in cloud project files). Now at Coordination/Prompts/machine_prompts_2026-11-12.md; AGENTS.md says prompts are committed there. Not seen from the prompt: step 3 (first pure-code item "
-    },
-    {
      "by": "CLOUD_A",
      "at": "2026-11-12T08:08Z",
      "text": "CLOUD_A 2026-11-12: code part done. 55dbede20d: mask answers re-asked per frame are budgeted to about 4 ms (patches past it replay their last answer and re-ask next frame), aimed at the 237 ms Mask Demand pinch frames; uncompiled, PlanetRen"
@@ -8081,6 +8076,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-12T08:18Z",
      "text": "Batch 32 step 3, read from the coordination server (Mac Editor in Play; the MavServer route is live via the direct route since 053fc426c5, while the Mac's 10.10.10.x WireGuard adapter is still absent, vpn.handshake NoVpn). server.diagnostic"
+    },
+    {
+     "by": "PASIKA_PERF",
+     "at": "2026-11-12T08:57Z",
+     "text": "PASIKA_PERF 2026-11-12, code pass on a Windows PC with no Editor and no device; Roslyn cmp.sh NEW ERRORS: none before each C# push. Done: 1f9e7188d7 subnet parse without allocations (Station.Vpn.Decide, every frame); 42cb278c12 four per-fra"
     }
    ]
   },
@@ -8839,5 +8839,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1b3b25b5c69c17253eb968fdf695ae02dbc98a31"
+ "source_revision": "19e536a32aa482da42f7ad8cffc5e3c76722907e"
 }
