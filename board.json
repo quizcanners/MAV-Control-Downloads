@@ -4089,7 +4089,7 @@
     {
      "who": "PASIKA_BOARD",
      "since": "2026-11-12T08:23Z",
-     "noted": "",
+     "noted": "2026-11-12T09:07Z",
      "progress": 100,
      "ticked": 5,
      "total": 5
@@ -4120,11 +4120,6 @@
    "notes": [
     {
      "by": "CLOUD",
-     "at": "2026-11-10T16:55Z",
-     "text": "CLOUD looked, did not start: 244 matches in 46 UI files, but about half sit in Editor Author scripts (verification and authoring blocks) and the rest are fallbacks like 'if (!group) AddComponent<CanvasGroup>()' (UI_LeftListSwipeAway, Single"
-    },
-    {
-     "by": "CLOUD",
      "at": "2026-11-11T14:03Z",
      "text": "CLOUD re-grepped: what is left in the view scripts is procedural row builders (new GameObject(...typeof(Image)) then GetComponent<Image>, UI_NotificationTongueSummary, UI_NotificationSquare, UI_LeftListSwipeAway, UI_ExpandMenu) that need a "
     },
@@ -4132,6 +4127,11 @@
      "by": "CLOUD_E",
      "at": "2026-11-12T08:14Z",
      "text": "CLOUD_E: no new cut this pass; the PeerBuilds floor for server packages is now 820 (CR-C9E5-01) and the dead-code places stay as listed in creeping-complexity.md."
+    },
+    {
+     "by": "PASIKA_BOARD",
+     "at": "2026-11-12T09:07Z",
+     "text": "PASIKA_BOARD 2026-11-12 summary. Done: 702e1ee70a ten dead localization keys (EN+UK, key and value); f5c82a2b5a CapsuleSelectorAuthor (no caller, output committed); 4d9899dcdb Station_Inspect _droneBlindZoneMetersToRestore; df1cff8b4d one-p"
     }
    ]
   },
@@ -8868,5 +8868,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "da821a7f2e13530184f3999225c0427e95c82676"
+ "source_revision": "d06770cdd817aa07510846c1c1be20565260258e"
 }
