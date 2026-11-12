@@ -6936,7 +6936,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLOUD_D",
+     "since": "2026-11-12T08:05Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "device run, two builds 804 or newer: udp_plain_sends_over_vpn rises, receiver re",
@@ -8787,5 +8796,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d0c5494e0df2fb966d8374ed5c5b46ab364d737f"
+ "source_revision": "0aa28e4e9a1f3c5aee64d07afeca9fad921f53ba"
 }
