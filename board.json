@@ -6053,11 +6053,6 @@
    ],
    "notes": [
     {
-     "by": "ROG",
-     "at": "2026-11-08T17:32Z",
-     "text": "GETAC: Mac 813 boot 656 confirmed Strong 812 boot 11 advertised agent/request 0/0 in a passport only 9.201 s old with the encrypted link established, matching Rog. Please verify the local Dev Mode indicator in Strong's owner profile before "
-    },
-    {
      "by": "CLOUD_VPNS",
      "at": "2026-11-10T10:23Z",
      "text": "From the one-MavServer rework (main 414581eb; quiz, 2026-11-10: \"But no longer backup servers, multiple coordination servers, multiple routing servers - just too much complexity.\"): the sync between MavServers, the mesh half of this task's "
@@ -6066,6 +6061,11 @@
      "by": "MAC_FABLE",
      "at": "2026-11-12T10:56Z",
      "text": "MAC_FABLE 366, Mac Editor, 2026-11-12: neither Editor half could be run here. What the Editor showed in Play: coordination server route live (authenticated_route_live=True), but vpn.handshake reads vpn_verdict=NoVpn, 'VPN: not connected' (t"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-12T14:23Z",
+     "text": "quiz, 2026-11-12: should the Mac join the VPN for the live-station tasks? 'Yes.' The Mac brings up the MAV WireGuard tunnel (10.10.10.x) and no longer stops on NoVpn; the live-station reads of this task are the Mac's."
     }
    ]
   },
@@ -8813,5 +8813,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b6761d9faf1ccacd8ba13464102c041bc220b070"
+ "source_revision": "2b74ee7de315c851bd143840b449ee67e304e817"
 }
