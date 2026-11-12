@@ -1997,19 +1997,14 @@
     {
      "who": "PASIKA",
      "since": "2026-11-12T18:03Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-12T18:08Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T13:42Z",
-     "text": "MAC_FABLE batch 3, step 1. df6312f934: VPN Groups List Element.prefab (the Peer groups row, 'All people' among them) now has a Row Light overlay right after its body; RowAppearance._transparentOne and the Button's targetGraphic point at it,"
-    },
     {
      "by": "CLOUD_THREAD",
      "at": "2026-11-12T14:23Z",
@@ -2019,6 +2014,11 @@
      "by": "MAC_FABLE",
      "at": "2026-11-12T17:19Z",
      "text": "MAC_FABLE batch 7, step 3, Mac Editor Play, nothing changed (no prefab fault found; what is wrong is C# behaviour, so it is written here). Mav Chat at 590 x 1280: the group selector rows (Messages 0, Ungrouped 1) and the 'Messages' header r"
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-12T18:08Z",
+     "text": "PASIKA batch 3 step 4: reproduced the state on PASIKA at 1440x1080 (KSP workflow, ui.list connected_vpn_devices): group_list_visible=True peer_list_visible=False; with peers here the selector shows its 4 rows right of the tab column. The bl"
     }
    ]
   },
@@ -2327,5 +2327,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c8ea6e847a0bc4f2324935d4cf738941bb0fcba2"
+ "source_revision": "df596a83eb0df509a4dbe501ca5e5f143b613146"
 }
