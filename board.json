@@ -1544,11 +1544,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_BATCH",
-     "at": "2026-11-12T08:51Z",
-     "text": "quiz, 2026-11-12: 'Pasika on the copy.' PASIKA flips a copy of tiles_sumy with map.store logical in Play (not the original), then reads map.store status until Complete or stuck; write file count before/after, segment files left, time, first"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-12T17:34Z",
      "text": "REVIEW-462-RECONCILE: existing CC-2336-01 P3 decode-verdict preflight brief remains open; restoring its short intake link after the archival pass removed it. [Original S1/S2 writer/staging/current/proposed brief](../Reviews/eec8dc0cb.md#cc-"
@@ -1557,6 +1552,11 @@
      "by": "PASIKA",
      "at": "2026-11-12T17:43Z",
      "text": "PASIKA 2026-11-12, step 1 (flip tiles_sumy with map.store logical in Play), on main c. ff8608f072, Windows Editor. Copy: the untouched original is D:/MAV_Work/Copies/tiles_sumy_before_flip_20261112 on PASIKA (robocopy with Play stopped, 36,"
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-12T18:17Z",
+     "text": "PASIKA: the D:/MAV_Work/Copies tiles_sumy copy is deleted (batch 3 step 6: delete the copy afterwards); the live tiles_sumy was never flipped (still schema 2; see the 17:4xZ note for why)."
     }
    ]
   },
@@ -2305,5 +2305,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "17d88335a66836a221d8e327c9424b1f40248953"
+ "source_revision": "54729637afdd014ab3945429264c5da4f67f7063"
 }
