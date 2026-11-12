@@ -1783,19 +1783,14 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-12T17:56Z",
-     "noted": "2026-11-12T17:57Z",
-     "progress": 25,
+     "noted": "2026-11-12T18:10Z",
+     "progress": 40,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "PASIKA_TESTS",
-     "at": "2026-11-12T11:06Z",
-     "text": "PASIKA_TESTS: 482 worked from code (no run here). DONE: PilotLeftColumn x2 ec8b4a541f (load error was a duplicate child link, already fixed by b158f8ef62; real fix: task 243 moved Pilot Video Visibility to the left column with right-merge s"
-    },
     {
      "by": "PASIKA",
      "at": "2026-11-12T17:25Z",
@@ -1805,6 +1800,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-12T17:57Z",
      "text": "ROG_FABLE 2026-11-12: EditMode runs on the Rog now (e1669a8819, 'MAV/Tests/Station test identity on/off', Tests AGENTS has the line). First run, OnePixelLineTests: 8 tests, 7 passed, 1 failed: PixelCenterComesFromTheRectInsteadOfItsPivot, '"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T18:10Z",
+     "text": "ROG_FABLE 2026-11-12, EditMode on the Rog under the station test identity (e1669a8819). Green now: UiRenderingTests 52/52 (8911c0aff2: the Layers grid counts the owner-switched Synthetic Situation tile, which my batch 3 change listed; the S"
     }
    ]
   },
@@ -2318,5 +2318,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "954283faa353bcd3fb930da739463d426e87540d"
+ "source_revision": "1bf74c1216c7060705f99089a4af21f7c65dd2d3"
 }
