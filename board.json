@@ -6594,7 +6594,7 @@
     {
      "who": "PASIKA_CHAT",
      "since": "2026-11-12T09:06Z",
-     "noted": "",
+     "noted": "2026-11-12T09:23Z",
      "progress": 0,
      "ticked": 0,
      "total": 8
@@ -6636,11 +6636,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_BATCH",
-     "at": "2026-11-12T08:51Z",
-     "text": "quiz, 2026-11-12: 'Only in the capsule.' Delete the two pager dots in the MavChat capsule prefab only; Chat Window_Portrait dots stay for the plain portrait Chat."
-    },
-    {
      "by": "PASIKA_CHAT",
      "at": "2026-11-12T08:56Z",
      "text": "PASIKA_CHAT 2026-11-12 (second pass). DONE 079d684c55: group deletion (g:author|id; this device's original and member copies tombstoned, the saved retried Crypto_ChatDelete goes to every member and copy holder; receiver accepts from the aut"
@@ -6649,6 +6644,11 @@
      "by": "PASIKA_CHAT",
      "at": "2026-11-12T09:05Z",
      "text": "PASIKA_CHAT 2026-11-12 (third pass). DONE 1397b1dda5: DropContent empties text, reply quote and colours in the same change that marks a body Deleted (one save writes the tombstone without words; expiry tombstones too); a queued Background t"
+    },
+    {
+     "by": "PASIKA_CHAT",
+     "at": "2026-11-12T09:23Z",
+     "text": "PASIKA_CHAT 2026-11-12 (fourth pass, shared deletion code finished). DONE b2160f765e: a deleted or expired photo's file is queued (Peer.Meta.PhotoFilesToDelete) in the same change as the tombstone, deleted only after that change is saved, o"
     }
    ]
   },
@@ -8946,5 +8946,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f5f740f30bd2e98c52fb963f7239639b05cdb9c5"
+ "source_revision": "9e0e34dcd728a3bfa4ade23615e765c5f374c13b"
 }
