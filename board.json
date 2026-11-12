@@ -1421,7 +1421,7 @@
     {
      "who": "PASIKA",
      "since": "2026-11-12T20:31Z",
-     "noted": "",
+     "noted": "2026-11-12T20:31Z",
      "progress": 0,
      "ticked": 0,
      "total": 13
@@ -1484,11 +1484,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-12T19:57Z",
-     "text": "GETAC 2026-11-12 batch 4 step 1, Strong Dev 827 at 964c225b93 (has 3be96033c6), map at rest: smoke.run 54 steps, 0 failed, 1 skipped (workflow Navigation, brigade policy; status Incomplete for that skip). Map cache refresh rate PASSED: cach"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-12T20:11Z",
      "text": "GETAC 2026-11-12 batch 4, for the cloud line on Save Enemy Logistics: on Strong Dev 827 the first frame after a 120 s background hide reports lag 'Save Enemy Logistics' measured_ms=120132.4 in a 257.7 ms wall frame (lag_frames=1). That scop"
     },
@@ -1496,6 +1491,11 @@
      "by": "PASIKA",
      "at": "2026-11-12T20:19Z",
      "text": "PASIKA: compiled counts redone (BASELINE.md, 12 Nov section) with a new Editor tool MAV/Editor/Shader compiled counts (no Inspector clicks). Elevation -9..-11 instr after 8c872781e5, raised lights +1, skybox blur 56->49, Liquid Glass Capsul"
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-12T20:31Z",
+     "text": "PASIKA (Editor, warm Play, map at rest): performance.top managed 2.80 ms; top self row 0.175 ms (Between stages), then Frame setup gap 0.106, WM Sync child traversal 0.098, Suggestion Presentation 0.097. All below 0.5 ms: stopped per batch "
     }
    ]
   },
@@ -2455,5 +2455,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4ee852db82234199acf6fb0fe79852d1bf14fda1"
+ "source_revision": "847d6594b8f5bab6cc5577db07d4bfdd55f25e08"
 }
