@@ -7379,7 +7379,7 @@
     {
      "who": "MAC_FABLE",
      "since": "2026-11-12T09:11Z",
-     "noted": "2026-11-12T09:55Z",
+     "noted": "2026-11-12T10:16Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -7409,11 +7409,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_TABS",
-     "at": "2026-11-12T09:06Z",
-     "text": "CLOUD_TABS 2026-11-12, dc3dd991 on main (not compiled). quiz, 2026-11-12: \"We need Fable effort to make tabs right. They are complete shit, quote me on that. The background panel is above the telemetry. The width is all over the place.\" and"
-    },
-    {
      "by": "MAC_FABLE",
      "at": "2026-11-12T09:43Z",
      "text": "MAC_FABLE 408 steps a and b. (a) 03db7f6806 Tab Column.prefab: the seven Telemetry rows' LayoutElement width 340 -> 300 (they were 340, not 240); every row is already 96 = UI_ListRows.RowHeight, none kept its own height. Play 1920x1080: the"
@@ -7422,6 +7417,11 @@
      "by": "MAC_FABLE",
      "at": "2026-11-12T09:55Z",
      "text": "408 step c (afd4671139): Logistics Items.prefab holds Items Place (300 wide, anchored left, full height) as the placed root; Centered Source Panel sits in it stretched with CanvasGroup and UI_LeftListSwipeAway (view LogisticsItems, Dark Blu"
+    },
+    {
+     "by": "MAC_FABLE",
+     "at": "2026-11-12T10:16Z",
+     "text": "408 step d (b9..15f319a90a, 11 prefab commits): the Scenes, Photo folders and Boards lists now give their rows the width (ChildControlWidth and ForceExpand on, left inset 0); Photos and Action history lost their 14 unit inset, the Photos sc"
     }
    ]
   },
@@ -8753,5 +8753,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "7459dd61cd810c997a7f4893257336c0f8d05be8"
+ "source_revision": "6092ebf6f1c4a2ecacbc5c7d2aa247ece831b71c"
 }
