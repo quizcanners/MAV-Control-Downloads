@@ -127,7 +127,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-12T18:26Z",
-     "noted": "",
+     "noted": "2026-11-12T18:35Z",
      "progress": 0,
      "ticked": 0,
      "total": 2
@@ -145,11 +145,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA_PERF6",
-     "at": "2026-11-12T15:02Z",
-     "text": "PASIKA_PERF6: NamesCache moved behind the drawn map (c7c26e91ff): after RenderCallbacks, before MavLink and Vpn; companion and Edit Mode read the names in the old place through NamesCacheWithoutMap. Fixtures moved in the same commit. To rea"
-    },
-    {
      "by": "ROG_FABLE",
      "at": "2026-11-12T17:33Z",
      "text": "ROG_FABLE 2026-11-12: line dropped as dead: there is no Navigation UI.unity in the repo (Scenes: Bootstrap, Chat UI, Deferred Views, Late UI, Lists UI, Main UI, Map, Overlays, Sounds, Video UI, Workflow UI); Singleton_StationUI._routeEditHi"
@@ -158,6 +153,11 @@
      "by": "PASIKA",
      "at": "2026-11-12T18:16Z",
      "text": "PASIKA: DefaultPosition before the map 19.9 -> 9.8 ms (d53187a448, no MGRS text parsed at start); warm Editor Initializing 686 ms, map present 6.599 s. Numbers in Performance Baseline/STARTUP.md."
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-12T18:35Z",
+     "text": "GETAC 2026-11-12 batch 3 step 2, Strong Dev 826 at 1fe7cbaa6b, three cold starts (runs 1/2/3, s): started 2.862/2.815/2.818, map present 3.794/3.620/3.594, reveal 4.699/3.628/3.602, loaded 5.543/5.489/5.723, Ready 6.484/6.312/6.457, layers "
     }
    ]
   },
@@ -2370,5 +2370,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "07a32af85453a444d4d0421c157d1aef25a61196"
+ "source_revision": "8790f577528c15facd2e23ebbafcd7efdab3a2e1"
 }
