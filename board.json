@@ -4486,11 +4486,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-11T16:43Z",
-     "text": "REVIEW-439-CR-BFD0-01: Existing residual P3 timeout gains stale Connected evidence: 19 unanswered retries through 200s never time out; Hello retry still mitigates restart recovery. Original S1/S2 deadline sketch retained, awaits quiz. [Evid"
-    },
-    {
      "by": "CLOUD_H",
      "at": "2026-11-12T08:29Z",
      "text": "CLOUD_H 2026-11-12 a6d85c779d... see 370; 4fd... CR-BFD0-01 source-repaired: _firstQuestionAt on the route holds the first unanswered question, the 30 s timeout counts from it, _askedAt only spaces retries; reset on binding. Uncompiled."
@@ -4499,6 +4494,11 @@
      "by": "PASIKA_SERVER",
      "at": "2026-11-12T08:51Z",
      "text": "PASIKA_SERVER 2026-11-12: Tools/BackgroundChat.Tests did not build on main (DiagnosticTransportTests called HubRole.Load, deleted with the server's directory). 1bb258500d makes it build (the fixture lets its devices in with HubRole.Admit) a"
+    },
+    {
+     "by": "PASIKA_SERVER",
+     "at": "2026-11-12T09:26Z",
+     "text": "PASIKA_SERVER 2026-11-12: the BackgroundChat.Tests failure noted above is repaired in e78e6bee0d. The fixture delegated diagnostics from a member that is not the root, the path 38479e63df retired on quiz's word; it now delegates from the ro"
     }
    ]
   },
@@ -8933,5 +8933,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b9ed2bf710286a5a428453768110b6bf72878af3"
+ "source_revision": "4d94978a43bb93df876bc40336a7e5d9507872ec"
 }
