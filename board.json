@@ -4160,7 +4160,7 @@
     {
      "who": "CLOUD_E",
      "since": "2026-11-12T08:06Z",
-     "noted": "",
+     "noted": "2026-11-12T08:14Z",
      "progress": 100,
      "ticked": 5,
      "total": 5
@@ -4190,11 +4190,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T06:23Z",
-     "text": "ROG_OPUS: the four prefab reads of DecideOverlay are gone, one commit each (Workflow selector -> Station.UI.WorkflowSelectorOpen/WorkflowSelectorShown; fullscreen video -> Station.UI.FullscreenVideoOpen via Singleton_UI_VideoFeed.Requested;"
-    },
-    {
      "by": "CLOUD",
      "at": "2026-11-10T16:55Z",
      "text": "CLOUD looked, did not start: 244 matches in 46 UI files, but about half sit in Editor Author scripts (verification and authoring blocks) and the rest are fallbacks like 'if (!group) AddComponent<CanvasGroup>()' (UI_LeftListSwipeAway, Single"
@@ -4203,6 +4198,11 @@
      "by": "CLOUD",
      "at": "2026-11-11T14:03Z",
      "text": "CLOUD re-grepped: what is left in the view scripts is procedural row builders (new GameObject(...typeof(Image)) then GetComponent<Image>, UI_NotificationTongueSummary, UI_NotificationSquare, UI_LeftListSwipeAway, UI_ExpandMenu) that need a "
+    },
+    {
+     "by": "CLOUD_E",
+     "at": "2026-11-12T08:14Z",
+     "text": "CLOUD_E: no new cut this pass; the PeerBuilds floor for server packages is now 820 (CR-C9E5-01) and the dead-code places stay as listed in creeping-complexity.md."
     }
    ]
   },
@@ -8890,5 +8890,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "fa82f9ff81c7b261003ce1d5f6ce82c567f83ea9"
+ "source_revision": "b309fd84f70a8ff30d9cb8a6d88911b685aa986d"
 }
