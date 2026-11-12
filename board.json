@@ -8416,7 +8416,7 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-12T12:31Z",
-     "noted": "",
+     "noted": "2026-11-12T12:48Z",
      "progress": 0,
      "ticked": 0,
      "total": 4
@@ -8442,11 +8442,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_ENTITIES",
-     "at": "2026-11-12T12:00Z",
-     "text": "CLOUD_ENTITIES 2026-11-12. quiz: \"The 3D Entities are gigantic. Also they need shadow decal to contain them better, not just the floor. And they shouldn\u2019t be shaded, no directional light.\" Done, on main (b670eb0d, 947a5ac1; cmp.sh NEW ERROR"
-    },
-    {
      "by": "cloud-visibility",
      "at": "2026-11-12T12:22Z",
      "text": "Models hide above 100 km camera altitude via UI/Data/Visibility Cutoffs.asset (SO_VisibilityCutoffs; also GeometryHideAltitude). Uncompiled cloud push. Editor: compile, check asset is wired on UI Configurations, Need for verify: models vani"
@@ -8455,6 +8450,11 @@
      "by": "CLOUD_SHADOW",
      "at": "2026-11-12T12:30Z",
      "text": "quiz, 2026-11-12: \"the Shadow pseudodecal looks like it is at the very bottom of the model, lets have it be slightly above. Almost where the center of the model is.\" Shadow box centre y is now half the model height (map_marker.shadow_box, t"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T12:48Z",
+     "text": "ROG_FABLE 2026-11-12, Editor Play on the Rog (Unity 6000.6.8f1, Android target, Game view 2000x1152), Map scene with the Synthetic Situation set (6410 groups; Debug Mode by 11 compass taps, Menu > Layers ninth tile). Step 1: the cloud C# co"
     }
    ]
   },
@@ -8843,5 +8843,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3a1ffcf1bbf8374d896430e73473d0ce4874f3b5"
+ "source_revision": "d7d9b15a853a37f7b033e94d382d31a756274126"
 }
