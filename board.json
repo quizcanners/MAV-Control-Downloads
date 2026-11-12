@@ -8180,11 +8180,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLOUD_BOARD",
-     "at": "2026-11-12T10:02Z",
-     "text": "Closed: the Clock instance sits left of the compass since 53f6334619 and the Map screen is bumped; how it looks at 2000x1152 is that screen's check."
-    },
-    {
      "by": "CLOUD_COMPASS",
      "at": "2026-11-12T10:48Z",
      "text": "Clock instance in Main UI moved x -300 to -380: compass left edge is 240 from the right edge (not 150), so -300 still overlapped the wind, time and battery (quiz's iPad screenshot, 2026-11-12). SPEC Compass and clock arithmetic corrected. E"
@@ -8193,6 +8188,11 @@
      "by": "CLOUD_COMPASS",
      "at": "2026-11-12T10:54Z",
      "text": "Compass raised to y 190 (stands on top of the plaque, nothing overlapped) and Clock instance back to x -85: quiz wants the plaque UNDER the compass (Main View SPEC, iPad screenshot 2026-11-12); my x -380 note is superseded. Tap not reaching"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-12T13:24Z",
+     "text": "Time plaque divider and compass (quiz, 2026-11-12 'Pixel line and compass position is still wrong'). Causes: Clock.prefab 'line separator' was a RoundedGraphic 178x10, not a UI_OnePixelLine, so the thick bar was authored, not the GPU snap; "
     }
    ]
   },
@@ -8886,5 +8886,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1e76fb467ce98c2c34fc3db3e9aa233017c7c0cb"
+ "source_revision": "bee9be83e35e4543cf7605b2cf478369244b5d6e"
 }
