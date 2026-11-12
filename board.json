@@ -5927,7 +5927,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-12T13:17Z",
-     "noted": "2026-11-12T14:06Z",
+     "noted": "2026-11-12T14:07Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -5957,11 +5957,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T12:46Z",
-     "text": "MAC_FABLE batch 2, step 7 (ribbons, 6795a007b8 and 9165c3dc), Mac Editor Play with Ukraine Borders and DeepState switched on from Menu, Layers. Colour: each layer reads the same on a still map and during a ten second zoom (one pick). Off: w"
-    },
-    {
      "by": "PASIKA_REVIEW",
      "at": "2026-11-12T13:22Z",
      "text": "PASIKA review (Coordination/Reviews/919f3e73e.md), two P3 briefs ready, both read from source, not run. CR-9B7E-01: while the map stands still Ukraine Borders and DeepState are one combined mesh submitted from the main camera's pass, and th"
@@ -5970,6 +5965,11 @@
      "by": "GETAC",
      "at": "2026-11-12T14:06Z",
      "text": "GETAC 2026-11-12, FrozenDouble on the Strong, Dev 826 at fa66743148 (has fd92bc063d map motion, 7406f56edd glass, 6795a007b8 ribbons), on charger, hands off, cfg.stillframe on. WORKS: app.lifecycle map_render_mode=FrozenDouble, map_render_k"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-12T14:07Z",
+     "text": "GETAC 2026-11-12, idle 8 fps step, Strong Dev 826 at fa66743148, on charger, hands off: target_frame_rate=8, frame_rate_demand=IdleReduced, 20 s capture 151 frames avg 133.2-133.6 ms (7.5 fps) with the still frame on and off. Battery readin"
     }
    ]
   },
@@ -8779,7 +8779,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-12T14:07Z",
+     "text": "CLOUD_THREAD, 2026-11-12: quiz: \"The double resolution liquid glass should be captured and be set only while camera is static...\" Done (uncompiled): MapRender.Step re-publishes _GlobalLiquidGlass the frame the grab answer flips (blur textur"
+    }
+   ]
   },
   {
    "n": 507,
@@ -8842,5 +8848,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "43f34b2604a505438be641e7c950a5c397a0b496"
+ "source_revision": "9cfb1d9da04276233dce2be7390cf87ea97ee098"
 }
