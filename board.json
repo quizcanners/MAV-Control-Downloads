@@ -6582,7 +6582,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-12T16:11Z",
-     "noted": "",
+     "noted": "2026-11-12T16:23Z",
      "progress": 0,
      "ticked": 0,
      "total": 8
@@ -6625,11 +6625,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-12T15:50Z",
-     "text": "GETAC 2026-11-12 17:49, CONFIRMED the cause of the Strong's SV07 Bluetooth failure. DJI RC Plus 2 (9N9CNAV0017VKU, Android 11, Bluetooth address 0C:9A:E6:E8:66:25, even first byte), paired with SV07 by quiz: bt-pan UP with inet 192.168.11.2"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-12T15:55Z",
      "text": "GETAC 2026-11-12 17:55, Windows USB health snapshot (step 'Getac (radio on USB): Windows USB health snapshot'), radio plugged by quiz at 17:51:28: 'MOTOTRBO Radio #2' USB\\VID_0CAD&PID_1023 on root hub 4&6c40536, driver Motorola Solutions 7."
     },
@@ -6637,6 +6632,11 @@
      "by": "GETAC",
      "at": "2026-11-12T16:05Z",
      "text": "GETAC mixed USB/PAN follow-up: app-off MOTOTRBO USB gateway 192.168.10.1 from Getac 192.168.10.2 returned 12/12 at 1\u20132 ms, zero adapter errors/discards, PnP OK. Windows MAV Control PID 26488 has no visible window, no UDP listener or Debug b"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-12T16:23Z",
+     "text": "GETAC resumed. DJI RC Plus 2 Android Dev 822: SV07 bt-pan IPv4 192.168.11.2, source-bound gateway replies 3/3 (47\u201362 ms), MAV Control Bound at 192.168.11.2:41001 with bt-pan, own Radio ID still unconfirmed, one TX and zero RX in the first s"
     }
    ]
   },
@@ -8923,5 +8923,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "537e33b71fc320381e8af0ffa088e5040ee234b5"
+ "source_revision": "f981cc1220b2bf2ace27354cb4398744793c28de"
 }
