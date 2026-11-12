@@ -630,11 +630,6 @@
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T17:09Z",
-     "text": "LOCAL_MAC, not advanced: S1 needs scroll, pinch and rotate on a MacBook trackpad while input.mouse / camera.zoom trace run; this machine (Mac18,5, 1280x890 display, no one at it) gives no trackpad events an agent can produce, so no numbers "
-    },
-    {
      "by": "CLOUD_D",
      "at": "2026-11-12T08:10Z",
      "text": "CLOUD_D 2026-11-12: no code/docs step left that cloud can do; everything open is device/build-machine/quiz-wait (see the unticked steps; 374 CR-4066-01 waits for quiz). Nothing changed."
@@ -643,6 +638,11 @@
      "by": "CLOUD_D",
      "at": "2026-11-12T08:11Z",
      "text": "CLOUD_D 2026-11-12: nothing cloud can do: every open step is device, build machine or waits for quiz (374: CR-4066-01). No change."
+    },
+    {
+     "by": "MAC_FABLE",
+     "at": "2026-11-12T23:52Z",
+     "text": "MAC_FABLE batch 12: 372 S1 needs a MacBook display; this machine is a Mac mini (system_profiler 'Mac mini'), so not run here."
     }
    ]
   },
@@ -2526,5 +2526,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5d4efd9f13c0a1609db7666f238942e8effd9015"
+ "source_revision": "d5351920c57d22ac41b611ceaaae008bbf5e9967"
 }
