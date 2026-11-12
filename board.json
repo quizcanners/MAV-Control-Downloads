@@ -188,11 +188,6 @@
    "notes": [
     {
      "by": "MAC_FABLE",
-     "at": "2026-11-12T16:39Z",
-     "text": "MAC_FABLE batch 6, step 2: neither the iPhone nor the iPad is on the cable (devicectl: unavailable), so the FrozenDouble, 506, glide and 380/383 device readings were not run."
-    },
-    {
-     "by": "MAC_FABLE",
      "at": "2026-11-12T17:06Z",
      "text": "MAC_FABLE batch 7, step 1 (b9986be551 compiled clean on the Mac). Read in Editor Play at a 1920x1080 Game view with cfg.stillframe on and hands off, through a new app.lifecycle line (7a26596d7e): map_render_mode=FrozenDouble, last_grab_sour"
     },
@@ -200,6 +195,11 @@
      "by": "MAC_FABLE",
      "at": "2026-11-12T17:21Z",
      "text": "MAC_FABLE batch 7, step 4: neither the iPhone nor the iPad is on the cable (devicectl: unavailable), so the FrozenDouble, 506, glide and 380/383 device readings were not run."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T17:34Z",
+     "text": "REVIEW-462-CR-B998-01: P3 source-confirmed Editor mismatch after the first FrozenDouble capture: the second sustained-moving frame publishes screen_pixel_scale=2 although URP still draws scale 1. [S1/S2 current/proposed code, four-frame hos"
     }
    ]
   },
@@ -541,17 +541,17 @@
     {
      "by": "REVIEW",
      "at": "2026-11-12T16:51Z",
-     "text": "REVIEW-461-CR-DBF4-01: P2 Show QR on a tunnel is overwritten by the app-install URL when sharing remains active. S1/S2 brief ready; explicit-request precedence can use the existing QR owner and observed-share fields. [Source, current/propos"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-12T16:51Z",
      "text": "REVIEW-461-CR-DBF4-02: P2 dbf4492644 puts the English Show QR value inside an existing quoted translation: YAML has 4056 keys/4055 values; deserialization leaves the main English dictionary empty. Current line-helper falsely counts 4056/405"
     },
     {
      "by": "PASIKA",
      "at": "2026-11-12T17:22Z",
      "text": "PASIKA: REVIEW-461-CR-DBF4-02 fixed in 7bcaeba48c (Show QR value moved to the end of English values; linguist_check now detects a value pasted inside a quoted multi-line value)."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T17:34Z",
+     "text": "REVIEW-462-CR-DBF4-02: source-repaired after the fixed tip by ff8608f072 (task 528). Actual YAML and repaired helper read 4056/4056; helper now detects the old 4056/4055 mismatch. [Narrow reconciliation and limits](../Reviews/3d0584381.md#p"
     }
    ]
   },
@@ -1137,7 +1137,8 @@
    "goal": true,
    "under": 0,
    "ticks": [
-    "2026-11-12T10:18Z"
+    "2026-11-12T10:18Z",
+    "2026-11-12T17:34Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -1146,7 +1147,7 @@
    "steps": [
     {
      "t": "Rog (Editor): 48 prefabs still point at the line materials deleted in bb5f443806",
-     "x": false
+     "x": true
     }
    ],
    "notes": [
@@ -1275,11 +1276,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-12T14:27Z",
-     "text": "REVIEW-459-CC-4068-01: P3 adjacent pre-existing complexity: the Landscape notification tongue collects every acknowledged icon but displays only its authored prefix. S1/S2 brief ready; awaits quiz before refactoring. [Scan, state writers, e"
-    },
-    {
      "by": "CLOUD_BLACK_NOTIF",
      "at": "2026-11-12T16:08Z",
      "text": "CLOUD_BLACK_NOTIF 2026-11-12: quiz: some notification cards draw solid black. Static pass over all 21 *Notification prefabs and Notification Controllers: every card body is 'Merged glass opaque' wired as _opaqueOne, none is a plain black Im"
@@ -1288,6 +1284,11 @@
      "by": "CLOUD_BLACK_NOTIF",
      "at": "2026-11-12T16:14Z",
      "text": "CLOUD_BLACK_NOTIF 2026-11-12: quiz screenshot: the agent-command card ('\u041a\u043e\u043c\u0430\u043d\u0434\u0430 \u0430\u0433\u0435\u043d\u0442\u0430: ui.pointed (\u0449\u0435 1 \u043f\u043e\u043f\u0435\u0440\u0435\u0434\u043d\u0456\u0445 \u0441\u043f\u043e\u0432\u0456\u0449\u0435\u043d\u044c)', gear + tick) is solid black in the Editor Game view. Prefab and code equal Aircraft Health's card (same glass b"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T17:34Z",
+     "text": "REVIEW-462-CC-FD6C-01: P3 complexity: ui.status searches all scene Images by body name although the controller owns cards and each Body already exposes OpaqueImage. [S1/S2 scan, membership/body writers, existing-reference staging points, pr"
     }
    ]
   },
@@ -1557,11 +1558,6 @@
    "notes": [
     {
      "by": "LOCAL_MAC",
-     "at": "2026-11-12T07:57Z",
-     "text": "Batch 32 step 1 (map.store logical on a small map), stuck, for quiz: the Mac Editor's only map is tiles_sumy (13 GB _SqliteTileStore), which the batch says not to flip. A small map needs another brigade's folder: pointing Bootstrap.unity at"
-    },
-    {
-     "by": "LOCAL_MAC",
      "at": "2026-11-12T08:36Z",
      "text": "For PASIKA (quiz, 2026-11-12: resource-heavy work goes to PASIKA): the batch 32 flip on a real map. The Mac Editor's only map is the 13 GB tiles_sumy and cannot prepare a small bundled one (bundles live in StreamingAssets_PreBuild). On PASI"
     },
@@ -1569,6 +1565,11 @@
      "by": "CLOUD_BATCH",
      "at": "2026-11-12T08:51Z",
      "text": "quiz, 2026-11-12: 'Pasika on the copy.' PASIKA flips a copy of tiles_sumy with map.store logical in Play (not the original), then reads map.store status until Complete or stuck; write file count before/after, segment files left, time, first"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T17:34Z",
+     "text": "REVIEW-462-RECONCILE: existing CC-2336-01 P3 decode-verdict preflight brief remains open; restoring its short intake link after the archival pass removed it. [Original S1/S2 writer/staging/current/proposed brief](../Reviews/eec8dc0cb.md#cc-"
     }
    ]
   },
@@ -2297,5 +2298,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1fe7cbaa6ba4c55749bf3e8f09e09dc519dcc534"
+ "source_revision": "5bbedb8cff7d051c85ca50e9fe2b7208136886b3"
 }
