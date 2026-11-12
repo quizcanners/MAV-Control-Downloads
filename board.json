@@ -6884,7 +6884,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-12T11:26Z",
-     "noted": "",
+     "noted": "2026-11-12T11:31Z",
      "progress": 0,
      "ticked": 0,
      "total": 8
@@ -6926,11 +6926,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T11:50Z",
-     "text": "cmp.sh NEW ERRORS: none. Water tests rewritten to a flat sky colour bound as _PlanetWaterClouds (TestWaterSky); not run in the Editor, so run the Planet render tests once. CesiumWaterShaderRenderTests still binds a black cubemap and no sky "
-    },
-    {
      "by": "ROG_OPUS",
      "at": "2026-11-11T12:43Z",
      "text": "ROG_OPUS: Editor part done (0f29b05c5e). Rog Editor 6000.6.8f1 under a verification identity: shaders compiled with no error in Editor.log; PlanetSurfaceShaderRenderTests 52/52, CesiumWaterShaderRenderTests 4/4 as the cloud left them; Plane"
@@ -6939,6 +6934,11 @@
      "by": "CLOUD_A",
      "at": "2026-11-12T08:09Z",
      "text": "CLOUD_A 2026-11-12: reviewed; every open step is a device, Editor or capture check (lighting, relief, tablet altitude status, Mariupol seams, Android page batching on the tablet). No code-only step left; Android page batching default is a b"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-12T11:31Z",
+     "text": "GETAC 2026-11-12, Strong Dev 826 at f03247d1be, Mariupol coast at zoom 15 (camera at 47.07,37.56, 1.9 km altitude, map source Offline, tile store Sqlite): the tablet holds no satellite imagery there. The sea draws as one smooth blue with wh"
     }
    ]
   },
@@ -8833,5 +8833,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c56e76a17bc393866d70e674e6b9cce38e55d9f3"
+ "source_revision": "dae58a704355063a100ac4ae97b46b607bc6f385"
 }
