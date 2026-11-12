@@ -340,11 +340,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T10:56Z",
-     "text": "MAC_FABLE 366, Mac Editor, 2026-11-12: neither Editor half could be run here. What the Editor showed in Play: coordination server route live (authenticated_route_live=True), but vpn.handshake reads vpn_verdict=NoVpn, 'VPN: not connected' (t"
-    },
-    {
      "by": "CLOUD_THREAD",
      "at": "2026-11-12T14:23Z",
      "text": "quiz, 2026-11-12: should the Mac join the VPN for the live-station tasks? 'Yes.' The Mac brings up the MAV WireGuard tunnel (10.10.10.x) and no longer stops on NoVpn; the live-station reads of this task are the Mac's."
@@ -353,6 +348,11 @@
      "by": "GETAC",
      "at": "2026-11-12T14:52Z",
      "text": "GETAC 2026-11-12, quiz: 'Strong Tablet says WireGuard fails to start'. Direct cause: GETAC's own device runs. Each 'adb shell am force-stop com.shershni.mavcontrol' before a cold start (12:46:09 and 15:19:10) left the package stopped=true f"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-12T18:37Z",
+     "text": "GETAC 2026-11-12 20:20-20:40, WireGuard on the Strong went down again from GETAC's cold starts for goal 362 on Dev 826 at 1fe7cbaa6b: three am force-stop + launch, each followed by Home and reopen as the 14:52Z note said; this time the pack"
     }
    ]
   },
@@ -2361,5 +2361,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "9608fd905de1ba5291938b515ffbf4980d24ff65"
+ "source_revision": "5709231806ee658a4f87763352315e81fde314ba"
 }
