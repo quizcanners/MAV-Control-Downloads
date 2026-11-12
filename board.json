@@ -698,7 +698,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-12T19:27Z",
-     "noted": "",
+     "noted": "2026-11-12T19:48Z",
      "progress": 0,
      "ticked": 0,
      "total": 10
@@ -748,11 +748,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-12T11:22Z",
-     "text": "REVIEW-455-CR-E55A-01: P2 a mid-body transport failure retaining HTTP 206 skips retry and deletes its partial. S1/S2 brief ready: [evidence and proposal](../Reviews/d33bc98a6.md#cr-e55a-01--p2-a-dropped-range-response-is-not-retried). Sourc"
-    },
-    {
      "by": "PASIKA_REVIEW",
      "at": "2026-11-12T13:21Z",
      "text": "PASIKA review (Coordination/Reviews/919f3e73e.md): CR-E55A-01 repaired in e1ef5e58f2, compiled, not run. An app update download whose connection drops in the middle of a range, or whose 300 s range timeout passes on a slow link, now resumes"
@@ -761,6 +756,11 @@
      "by": "GETAC",
      "at": "2026-11-12T17:50Z",
      "text": "GETAC 2026-11-12 batch 3 step 0: signed Android Dev 826 from main 1fe7cbaa6b (Brigade 68, Unity 6000.6.8f1, 749 s), APK 372,743,929 B, SHA-256 8a9fee19a6e7682b4ff74d658d69fe42fdcd03840b81473a72975bbfa70b9970, v2 signature verifies; installe"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-12T19:48Z",
+     "text": "GETAC 2026-11-12 batch 4 step 0: signed Android Dev 827 from main 964c225b93 (Brigade 68, 673 s), APK 346,419,052 B, SHA-256 c6f3f8c1493ee9b3b46214394361b56224569881c362cadaf9b7c5f2d0624884, v2 signature verifies; installed in place on the "
     }
    ]
   },
@@ -2416,5 +2416,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ce1e83cb9b99db6ca5f108b20248ab94436464f8"
+ "source_revision": "bf44228326b34c278906fa50df07de3b6ed0bb94"
 }
