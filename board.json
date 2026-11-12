@@ -1862,11 +1862,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-11T09:13Z",
-     "text": "APPROVED-A183-FEFE-CC-A183-01: quiz approved the simplification; implementation is open on follow-up 385. Existing work, claims, completion and handoff remain intact. [Approval and brief](../Reviews/0af1f4396.md#quiz-decision--approved-foll"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-11T16:39Z",
      "text": "3bc54d3adf: three _entityModels rows on Singleton_SituationEntities in Map.unity (Enemy Unit, Vehicle, Cannon: FBX solid + _Shadow mesh, VertexColored + ContactShadow, CellsTall 1.5), instancing on for the six materials, their INSTANCING_ON"
@@ -1875,6 +1870,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-12T07:46Z",
      "text": "quiz, 2026-11-12: \"Checking latest build. I see 3D models. They are fine, few issues: they seem shaded, meaning I see light direction. Another thing is - they seem static, meaning I expected them to scale dynamically as I soom in and out. T"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T08:15Z",
+     "text": "Investigation CC-6677-01, P3 complexity: each model matrix is distance-scaled and copied on the CPU every submission, with a second matrix array. S1 writer/staging trace and S2 brief/current/proposed sketch await quiz; GPU/bounds/shadow/sha"
     }
    ]
   },
@@ -6398,7 +6398,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "PASIKA_BOOT",
+     "since": "2026-11-12T08:16Z",
+     "noted": "",
+     "progress": 11,
+     "ticked": 1,
+     "total": 9
+    }
+   ],
    "steps": [
     {
      "t": "Measure cold start on Strong 822 (map present, reveal, Ready), task 283",
@@ -8868,5 +8877,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3f9b289872d296a388df1896eaa69b882e876125"
+ "source_revision": "b90775660df59e991d03e92c8e904a574b968fac"
 }
