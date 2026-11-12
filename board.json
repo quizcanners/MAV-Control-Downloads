@@ -278,11 +278,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_D",
-     "at": "2026-11-12T08:10Z",
-     "text": "CLOUD_D 2026-11-12: nothing cloud can do: every open step is device, build machine or waits for quiz (374: CR-4066-01). No change."
-    },
-    {
      "by": "CLOUD_H",
      "at": "2026-11-12T08:29Z",
      "text": "CLOUD_H 2026-11-12 53d12bbb43 CR-31F7-01 source-repaired: AdmitUnsealed verifies an existing output against the new plaintext length/hash (cancellation threaded through both formats) and keeps it, deleting only the new partial; different/co"
@@ -291,6 +286,11 @@
      "by": "PASIKA_UPDATES",
      "at": "2026-11-12T08:44Z",
      "text": "PASIKA_UPDATES 2026-11-12: e55af983af (cmp.sh NEW ERRORS: none). Delivery: a package without a chunk index (MAVSEAL1, the public format until 2026-12-08) now downloads as 8 MiB HTTP ranges appended to the partial file, not one full GET (the"
+    },
+    {
+     "by": "PASIKA_UPDATES",
+     "at": "2026-11-12T08:49Z",
+     "text": "PASIKA_UPDATES 2026-11-12: e9be158e40 adds updates.retrying to the English ('retrying') and Ukrainian ('\u043f\u043e\u0432\u0442\u043e\u0440\u043d\u0430 \u0441\u043f\u0440\u043e\u0431\u0430') Linguist assets, next to updates.notice.stopping; the retry line beside download progress no longer falls back to Engl"
     }
    ]
   },
@@ -8878,5 +8878,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4afa45fa9b4fd97ff6b3ff9b2bc4a67e1b9fad64"
+ "source_revision": "b7a436851c9f545ba7fd90c42dbcbede8d3f618a"
 }
