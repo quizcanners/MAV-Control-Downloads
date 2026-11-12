@@ -6582,7 +6582,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-12T16:27Z",
-     "noted": "",
+     "noted": "2026-11-12T16:29Z",
      "progress": 0,
      "ticked": 0,
      "total": 8
@@ -6625,11 +6625,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-12T15:55Z",
-     "text": "GETAC 2026-11-12 17:55, Windows USB health snapshot (step 'Getac (radio on USB): Windows USB health snapshot'), radio plugged by quiz at 17:51:28: 'MOTOTRBO Radio #2' USB\\VID_0CAD&PID_1023 on root hub 4&6c40536, driver Motorola Solutions 7."
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-12T16:05Z",
      "text": "GETAC mixed USB/PAN follow-up: app-off MOTOTRBO USB gateway 192.168.10.1 from Getac 192.168.10.2 returned 12/12 at 1\u20132 ms, zero adapter errors/discards, PnP OK. Windows MAV Control PID 26488 has no visible window, no UDP listener or Debug b"
     },
@@ -6637,6 +6632,11 @@
      "by": "GETAC",
      "at": "2026-11-12T16:23Z",
      "text": "GETAC resumed. DJI RC Plus 2 Android Dev 822: SV07 bt-pan IPv4 192.168.11.2, source-bound gateway replies 3/3 (47\u201362 ms), MAV Control Bound at 192.168.11.2:41001 with bt-pan, own Radio ID still unconfirmed, one TX and zero RX in the first s"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-12T16:29Z",
+     "text": "Getac Debug Mode verified on Windows 817: own ID 6087565 confirmed, USB socket pin requested/readback 19, 192.168.10.2:41001. DJI still absent from ADB and agent route refused NoMavControlHeartbeat. Ran one directed test to operator-provide"
     }
    ]
   },
@@ -8965,5 +8965,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "eaafe61bba6469ccc1a7ce0e879d46c878439964"
+ "source_revision": "fd9762f1280adb0b5a2364726587f11443579cdd"
 }
