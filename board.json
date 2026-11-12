@@ -6213,7 +6213,7 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-12T13:02Z",
-     "noted": "",
+     "noted": "2026-11-12T13:02Z",
      "progress": 0,
      "ticked": 0,
      "total": 8
@@ -6255,11 +6255,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_E",
-     "at": "2026-11-12T08:13Z",
-     "text": "CLOUD_E review repairs, all uncompiled C#/tool edits (run cmp.sh): 2d8aaaa4c5 Tasks page prepares lists/worker facts once per accepted board, clock answers read at draw (CC-B794-01 + 439 extension, Station_BoardTasks.cs); prefab-edit keeps "
-    },
-    {
      "by": "ROG_OPUS",
      "at": "2026-11-12T08:54Z",
      "text": "ROG_OPUS 2026-11-12: Editor late shutdown on Rog: two normal closes today (pid 66208 at 08:41 and pid 48900 at 10:48) both ended with the leak check ('Found no leaked weakptrs', Package Manager server shut down) and no access violation; the"
@@ -6268,6 +6263,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-12T09:00Z",
      "text": "ROG_OPUS 2026-11-12: Editor late shutdown on Rog: two normal closes today (pid 66208 at 08:41, pid 48900 at 10:48) both ended with the leak check ('Found no leaked weakptrs', Package Manager server shut down) and no access violation; the ne"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T13:02Z",
+     "text": "ROG_FABLE 2026-11-12: Editor late-shutdown access violation, line dropped. The crash report cannot be read: all five report folders on the Rog (Temp/Unity/Editor/Crashes, Crash_2026-10-13 three times, 2026-10-20, 2026-10-31) are empty, no d"
     }
    ]
   },
@@ -8829,5 +8829,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "19c36371737a59e5bbdc13076411ef954f67c800"
+ "source_revision": "ae7293ed99e47eeb41ccbf3e40bd08e149cd8f9e"
 }
