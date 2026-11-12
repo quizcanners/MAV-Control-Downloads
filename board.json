@@ -2140,14 +2140,20 @@
     {
      "who": "PASIKA",
      "since": "2026-11-12T17:19Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-12T17:22Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "PASIKA",
+     "at": "2026-11-12T17:22Z",
+     "text": "PASIKA: done in 7bcaeba48c. Cause: dbf4492644 put the English 'Show QR' value inside the quoted relay text, so English.asset had 4056 keys and 4055 values and Unity dropped the whole English root table (SerializableDictionary loads nothing "
+    }
+   ]
   },
   {
    "n": 529,
@@ -2238,5 +2244,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0017d24bd601696ed9713c2d9eae28f0c154703f"
+ "source_revision": "ab7a2eb6c324a6e69e83f594d70708ee578f6805"
 }
