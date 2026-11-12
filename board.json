@@ -5850,11 +5850,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-12T14:25Z",
-     "text": "CLOUD_THREAD, 2026-11-12: quiz: \"The liquid glass doesn't seem to capture WayPoints. (The Double-resolution render)\". Cause: DoubleGrabPass ran at AfterRenderingTransparents, tied with the Shapes draw (waypoints) and enqueued before it, so "
-    },
-    {
      "by": "MAC_FABLE",
      "at": "2026-11-12T15:32Z",
      "text": "MAC_FABLE batch 4, step 6: neither the iPhone nor the iPad is on the cable (devicectl: unavailable), so FrozenDouble with the 2 s refresh, the glide and the 380/383 device readings were not run."
@@ -5863,6 +5858,11 @@
      "by": "MAC_FABLE",
      "at": "2026-11-12T16:23Z",
      "text": "MAC_FABLE batch 5, step 6: neither the iPhone nor the iPad is on the cable (devicectl: unavailable), so FrozenDouble with the 2 s refresh, the 506 finger drag, the glide and the 380/383 readings were not run."
+    },
+    {
+     "by": "MAC_FABLE",
+     "at": "2026-11-12T16:39Z",
+     "text": "MAC_FABLE batch 6, step 2: neither the iPhone nor the iPad is on the cable (devicectl: unavailable), so the FrozenDouble, 506, glide and 380/383 device readings were not run."
     }
    ]
   },
@@ -8959,5 +8959,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "599f2d06e7aa781925bfa664b64ae7badc4a155d"
+ "source_revision": "ec30da4c140e7c30afb4d630e318cb283640f24c"
 }
