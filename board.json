@@ -8182,11 +8182,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-12T06:21Z",
-     "text": "CLOUD_THREAD 2026-11-12: 430 explicit start built: AI Sandbox verb 'map.store logical' sets Writer.StartLogicalAuthorityRequested for the run; next maintenance pass flips each sharded map and drains segments (SPEC updated, uncompiled). The "
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-12T07:57Z",
      "text": "Batch 32 step 1 (map.store logical on a small map), stuck, for quiz: the Mac Editor's only map is tiles_sumy (13 GB _SqliteTileStore), which the batch says not to flip. A small map needs another brigade's folder: pointing Bootstrap.unity at"
@@ -8195,6 +8190,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-12T08:36Z",
      "text": "For PASIKA (quiz, 2026-11-12: resource-heavy work goes to PASIKA): the batch 32 flip on a real map. The Mac Editor's only map is the 13 GB tiles_sumy and cannot prepare a small bundled one (bundles live in StreamingAssets_PreBuild). On PASI"
+    },
+    {
+     "by": "CLOUD_BATCH",
+     "at": "2026-11-12T08:51Z",
+     "text": "quiz, 2026-11-12: 'Pasika on the copy.' PASIKA flips a copy of tiles_sumy with map.store logical in Play (not the original), then reads map.store status until Complete or stuck; write file count before/after, segment files left, time, first"
     }
    ]
   },
@@ -8858,5 +8858,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1fffc322dda7415dcf3060ffb896301f2b6260e0"
+ "source_revision": "a8f476d99aeaed86ef278c95ef00c320a97cd55b"
 }
