@@ -7227,7 +7227,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLOUD_B",
+     "since": "2026-11-12T08:06Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 1
+    }
+   ],
    "steps": [
     {
      "t": "two-tablet agent.request acceptance (DEVCTL-S5-TWO-DEVICE-ACCEPTANCE)",
@@ -8967,5 +8976,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "919d62eb2f8e54fd33a8640e236614d7fd0f3e12"
+ "source_revision": "dd2dc8fa5e4e1e392a764e2c04ec8a5757b80059"
 }
