@@ -1514,7 +1514,7 @@
     {
      "who": "PASIKA",
      "since": "2026-11-12T19:13Z",
-     "noted": "2026-11-12T19:18Z",
+     "noted": "2026-11-12T20:43Z",
      "progress": 0,
      "ticked": 0,
      "total": 8
@@ -1556,11 +1556,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA",
-     "at": "2026-11-12T19:18Z",
-     "text": "PASIKA batch 5 step 1, live tiles_sumy with the flip-first fix (32acacb085), safety copy D:/MAV_Work/Copies/tiles_sumy_before_flip_2 (robocopy, Play stopped). Before: 36,411 files, 36,335 segment .sqlite. 'map.store logical' 19:13:57Z -> FL"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-12T19:27Z",
      "text": "REVIEW-464-CR-7FF2-01: source-resolved by 32acacb08: requested flip/drain now precede legacy cleanup, after publication recovery. [Bounded reconciliation and limits](../Reviews/d2b034d30.md#cr-7ff2-01--source-repair-of-the-requested-map-sto"
@@ -1569,6 +1564,11 @@
      "by": "REVIEW",
      "at": "2026-11-12T20:32Z",
      "text": "REVIEW-465-CR-F070-01: P2 source-confirmed saved map-layer settings key changed by f070b8403 without old-key import. [S1/S2 current/proposed sketch, naming-vs-regrouping scope, six-setting reproduction and native limits](../Reviews/7e1dd970"
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-12T20:43Z",
+     "text": "PASIKA 22:43: drain running in Play. tiles.sqlite 8.6 GB (was ~1.9), payloads 12 GB in 34204 files left, map.sqlite 2.7 GB; no store issue, write_failures 0. Leaving it to run overnight; next read at the next tick."
     }
    ]
   },
@@ -2466,5 +2466,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0ab2907f2b1d4e695e71093589d3dcf4cea0d172"
+ "source_revision": "85b56a2cd8bd7fe3b50a5b72f447f3e50373b706"
 }
