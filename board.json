@@ -7525,11 +7525,6 @@
    "notes": [
     {
      "by": "PASIKA",
-     "at": "2026-11-12T13:59Z",
-     "text": "PASIKA: PASIKA_FIX stopped on a model usage limit after landing CR-8CE4-01 (305b9b5aad), CR-5352-01 (4628adfd91), CR-9B7E-01 (0069d0bff8), CR-13B7-01 (a21ea93020); its claims on 429/363/409 released by the coordinator. The stale host check "
-    },
-    {
-     "by": "PASIKA",
      "at": "2026-11-12T14:01Z",
      "text": "PASIKA Editor check of the four 919f3e73e fixes (main 25b44aa414, Unity 6000.6.8f1, PL-007 station): compiles 0 errors; Play: update_stage_errors 0, map present 5.58 s; inbox after restart latest_seq=541 oldest_seq=286 evicted=285 (CR-8CE4-"
     },
@@ -7537,6 +7532,11 @@
      "by": "PASIKA_INPUT",
      "at": "2026-11-12T14:18Z",
      "text": "PASIKA_INPUT: Input owner actions_build_ms=337.041 was new WarStationInput() building a C# copy (CreateInstance, 2 maps, 8 actions, 16 binding adds, each a Guid and an Editor AssetDatabase lookup via MarkAsDirtyInEditor) of WarStationInput."
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-12T14:21Z",
+     "text": "PASIKA re-measure after a839f94c4f (Input actions from the project-wide InputSystem.actions asset), PL-007 Editor station, warm Play: startup_input touch_ms=0.488 hooks_ms=0.471 actions_build_ms=0.344 (was 337.041) actions_enable_ms=0.032 d"
     }
    ]
   },
@@ -8810,5 +8810,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "021507270ec4480f33cefa28bef4cbe0bcde585a"
+ "source_revision": "0368c00322b61b4bf847f95659cf9d18717aca90"
 }
