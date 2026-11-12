@@ -1487,7 +1487,7 @@
     {
      "who": "PASIKA",
      "since": "2026-11-12T19:13Z",
-     "noted": "2026-11-12T20:43Z",
+     "noted": "2026-11-12T21:44Z",
      "progress": 0,
      "ticked": 0,
      "total": 8
@@ -1530,11 +1530,6 @@
    "notes": [
     {
      "by": "REVIEW",
-     "at": "2026-11-12T19:27Z",
-     "text": "REVIEW-464-CR-7FF2-01: source-resolved by 32acacb08: requested flip/drain now precede legacy cleanup, after publication recovery. [Bounded reconciliation and limits](../Reviews/d2b034d30.md#cr-7ff2-01--source-repair-of-the-requested-map-sto"
-    },
-    {
-     "by": "REVIEW",
      "at": "2026-11-12T20:32Z",
      "text": "REVIEW-465-CR-F070-01: P2 source-confirmed saved map-layer settings key changed by f070b8403 without old-key import. [S1/S2 current/proposed sketch, naming-vs-regrouping scope, six-setting reproduction and native limits](../Reviews/7e1dd970"
     },
@@ -1542,6 +1537,11 @@
      "by": "PASIKA",
      "at": "2026-11-12T20:43Z",
      "text": "PASIKA 22:43: drain running in Play. tiles.sqlite 8.6 GB (was ~1.9), payloads 12 GB in 34204 files left, map.sqlite 2.7 GB; no store issue, write_failures 0. Leaving it to run overnight; next read at the next tick."
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-12T21:44Z",
+     "text": "PASIKA 23:45: the drain had stopped at 23:27, migration Failed: 'Retiring payloads/36U/XB/0_8/00000404.sqlite: Tile 109661738324 is not in tiles.sqlite at revision 639300924323760000 or newer' (segment row written 15:36Z, before the 19:13Z "
     }
    ]
   },
@@ -2452,5 +2452,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b757f92a0161e36cea6326529df6d0d1fbf418f0"
+ "source_revision": "7a295d6802dc2bf02312836c58791309587ec79c"
 }
