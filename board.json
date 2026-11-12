@@ -485,11 +485,6 @@
    "notes": [
     {
      "by": "ROG_OPUS",
-     "at": "2026-11-12T08:54Z",
-     "text": "ROG_OPUS 2026-11-12: Editor late shutdown on Rog: two normal closes today (pid 66208 at 08:41 and pid 48900 at 10:48) both ended with the leak check ('Found no leaked weakptrs', Package Manager server shut down) and no access violation; the"
-    },
-    {
-     "by": "ROG_OPUS",
      "at": "2026-11-12T09:00Z",
      "text": "ROG_OPUS 2026-11-12: Editor late shutdown on Rog: two normal closes today (pid 66208 at 08:41, pid 48900 at 10:48) both ended with the leak check ('Found no leaked weakptrs', Package Manager server shut down) and no access violation; the ne"
     },
@@ -497,6 +492,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-12T13:02Z",
      "text": "ROG_FABLE 2026-11-12: Editor late-shutdown access violation, line dropped. The crash report cannot be read: all five report folders on the Rog (Temp/Unity/Editor/Crashes, Crash_2026-10-13 three times, 2026-10-20, 2026-10-31) are empty, no d"
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-12T18:03Z",
+     "text": "PASIKA batch 3 step 3: containing All not run. Tools/Nightly/README 'Preparing a separate runtime data identity' needs a closed clean candidate checkout (prepare_runtime_profile.py --project <candidate>), i.e. a second checkout with its own"
     }
    ]
   },
@@ -2318,5 +2318,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "742e704fba20a939e3a6eab83371de900542b0a2"
+ "source_revision": "5e3122dcef8b4d6fb2195f272e0acb34e1550ead"
 }
