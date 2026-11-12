@@ -63,38 +63,6 @@
    ]
   },
   {
-   "n": 29,
-   "name": "Phone check of idle 2 FPS (after",
-   "done": "2026-11-10T07:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "REVIEW",
-     "at": "2026-11-09T06:48Z",
-     "text": "CR-1B46-01 reconciliation: e4cc71b78 restores the source contract and IDLE_FRAME_RATE to 8 on every power state, so the earlier caption-versus-2-FPS concern no longer applies to that contract. Existing translated captions already said 8; re"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-09T20:55Z",
-     "text": "REVIEW-398 resolution policy reconciliation: CR-B7D2-01\u2019s older Windows telemetry/idle-input proposal is superseded by quiz\u2019s new camera-movement rule and 0d2a37a64 removing the shared Activity release path. New follow-motion marking gap CR"
-    },
-    {
-     "by": "CLOUD_H",
-     "at": "2026-11-12T08:29Z",
-     "text": "CLOUD_H 2026-11-12 CR-B7D2-01 closed as superseded by quiz's camera-movement rule (see the REVIEW-398 resolution policy note above); nothing to implement."
-    }
-   ]
-  },
-  {
    "n": 39,
    "name": "Note from cloud-camera-follow",
    "done": "2026-11-10T07:50Z",
@@ -190,34 +158,6 @@
   {
    "n": 47,
    "name": "Note from GETAC",
-   "done": "2026-11-10T07:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 48,
-   "name": "Note from LOCAL_MAC",
-   "done": "2026-11-10T07:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 50,
-   "name": "Note from LOCAL_MAC",
    "done": "2026-11-10T07:50Z",
    "goal": false,
    "under": 0,
@@ -437,20 +377,6 @@
    "notes": []
   },
   {
-   "n": 80,
-   "name": "Note from LOCAL_MAC",
-   "done": "2026-11-10T07:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 81,
    "name": "Diagnostics timing tree is hardc",
    "done": "2026-11-10T07:50Z",
@@ -565,38 +491,6 @@
    "held": [],
    "steps": [],
    "notes": []
-  },
-  {
-   "n": 84,
-   "name": "Phone check of the Coding scene ",
-   "done": "2026-11-10T07:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-09T05:50Z",
-     "text": "Windows Unity compiled e1953516 and the Coding Scene focused fixtures passed in the 522/0/0 batch. Phone boot CodingSceneReady, rendered saved scenes and point label search still pending."
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-09T11:36Z",
-     "text": "Strong Dev 817 (2400e9b752 includes e1953516) app.lifecycle retained CodingSceneReady 12.219 ms and CodingFiles 3.493 ms, one attempt each and zero failures. Baseline pushed in b48e87eedc. Earlier 44 ms report is unmatched for saved scene i"
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T12:04Z",
-     "text": "Full All on the Mac (211e7ef19, 8,522 tests): 10 red. Fixed 1: KropyvaImportTests.Search_IncludesHiddenScenes... (4dce0b3f8d): loading now keeps an existing hash, and RefreshHash also rebuilds the record's search index, so a record edited i"
-    }
-   ]
   },
   {
    "n": 86,
@@ -874,20 +768,6 @@
    ]
   },
   {
-   "n": 103,
-   "name": "Note from LOCAL_MAC",
-   "done": "2026-11-10T07:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 104,
    "name": "Web Mercator black squares",
    "done": "2026-11-10T07:50Z",
@@ -989,20 +869,6 @@
      "text": "Done in ffe5c92b70: hand-written readers for PassportVersions (drones, video advertisements, name time stamp; Motorola profile object -> Newtonsoft), Crypto_TextMsg.TextMessage body (DeserializeMessageBytes, plain fields-only contract only;"
     }
    ]
-  },
-  {
-   "n": 108,
-   "name": "Note from LOCAL_MAC",
-   "done": "2026-11-10T07:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
   },
   {
    "n": 109,
@@ -1197,38 +1063,6 @@
      "by": "REVIEW",
      "at": "2026-11-09T14:06Z",
      "text": "CR-77DB-01 P3 investigation: S1 investigation and S2 brief complete; instant notification change is global while current guide scopes the exception to MavChat; reconcile at the existing decision. Proposal awaits quiz before implementation; "
-    }
-   ]
-  },
-  {
-   "n": 126,
-   "name": "Device check",
-   "done": "2026-11-10T07:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "REVIEW",
-     "at": "2026-11-09T14:06Z",
-     "text": "CR-CCC0-01 P2: S1 investigation and S2 brief complete; screen-space t is used as world-space t for route insertion; perspective-correct fraction sketch. Proposal awaits quiz before implementation; existing claims/completions and handoffs re"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-09T17:14Z",
-     "text": "GETAC b1296a8fe0 gives Valhalla its own routing address and Check on the Routes page. Navigator and Check share it, and existing saved server addresses still work as the default. No VPN deployment or WireGuard rows on this page. Six URL and"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-09T18:42Z",
-     "text": "REVIEW-396 reconciliation for CR-CB3B-01: S1 updated with d75bbd072's extra-connected-point fixture and LOCAL_MAC's recorded two-point pause-gap edge; S2 existing explicit-flag/load-boundary proposal and snippets retained, still awaiting qu"
     }
    ]
   },
@@ -1455,49 +1289,6 @@
    "notes": []
   },
   {
-   "n": 137,
-   "name": "Device check",
-   "done": "2026-11-10T07:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 138,
-   "name": "Device check",
-   "done": "2026-11-10T07:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_REVIEW",
-     "at": "2026-11-09T20:44Z",
-     "text": "277d8cb97a (uncompiled, no Unity on this PC): the High ground's black replacement now takes the overlay's road/water cut (shadowParallax *= 1 - saturate(topCut + water)) and Water takes no Sun-offset shadow, so the opening shows the road or"
-    },
-    {
-     "by": "CLAUDE_REVIEW",
-     "at": "2026-11-09T21:29Z",
-     "text": "Unity 6000.6.8f1 batch on this PC at f439165dc9: full import and script compile clean (0 error CS, no shader import errors for PlanetSurface.hlsl or the WiFi decal). The EditMode fixtures did not run: TestAssemblySetUp refused ordinary stor"
-    }
-   ]
-  },
-  {
    "n": 139,
    "name": "Water cloud reflection (PlanetSu",
    "done": "2026-11-10T07:50Z",
@@ -1514,33 +1305,6 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-09T16:04Z",
      "text": "12edebebbb: Editor step done. Water tests rewritten to the darkened-ground water (cloud texture bound black; a Water share w leaves lit x (1 - 0.15 w)); the cut raised overlay over water is now expected; shader: regular terrain tint skips t"
-    }
-   ]
-  },
-  {
-   "n": 140,
-   "name": "Device check (quiz",
-   "done": "2026-11-10T07:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T16:41Z",
-     "text": "Mac batch Unity at f0b03d895d: OrientationLandscapeViewsTests passed (with SwipeIntentTests 7/7); the device walk is left."
-    },
-    {
-     "by": "THREAD-PORTRAIT",
-     "at": "2026-11-09T17:15Z",
-     "text": "quiz, 2026-11-09: Search, Enter MGRS and selected-point rename keep portrait; Menu and My data edit stay landscape. Also check on the phone that Enter MGRS (Search) opens in portrait and landscape with its own layout. Uncompiled from cloud."
     }
    ]
   },
@@ -1652,33 +1416,6 @@
    ]
   },
   {
-   "n": 151,
-   "name": "Device check (iPhone/Android/Edi",
-   "done": "2026-11-10T07:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_REVIEW",
-     "at": "2026-11-09T20:45Z",
-     "text": "Source review for quiz (SPEC 'Follow and zoom' prescribes the current reads, so not changed): (1) FollowTarget from UI sets Following with no focus flight; first frame takes Vector3.Distance, so a drone 20 km away with the camera 500 m up g"
-    },
-    {
-     "by": "CLAUDE_REVIEW",
-     "at": "2026-11-09T21:15Z",
-     "text": "78a6bc26a8 (cmp.sh NEW ERRORS: none; no Unity run): follow distance is taken once when the follow begins; a release after a held drag keeps it; a follow begun without a focus flight takes the camera's height over the target along the view ("
-    }
-   ]
-  },
-  {
    "n": 152,
    "name": "Remove the deprecated road mesh ",
    "done": "2026-11-09T18:24Z",
@@ -1757,20 +1494,6 @@
      "text": "898699b907: MavChatSheetTests + ChatComposerTests + FrameBudgetTests 186/186 after fixes (2 MavChat tests expected None where a still release is now Outcome.Tap). Orphaned Capsule Transition + Sender Transition removed from Mav Chat Sheet.p"
     }
    ]
-  },
-  {
-   "n": 156,
-   "name": "Device",
-   "done": "2026-11-10T07:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
   },
   {
    "n": 157,
@@ -1938,36 +1661,6 @@
    ]
   },
   {
-   "n": 164,
-   "name": "Device check (MavChat)",
-   "done": "2026-11-10T07:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 165,
-   "name": "Device follow-up for 161",
-   "done": "2026-11-10T07:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 166,
    "name": "Editor",
    "done": "2026-11-11T13:53Z",
@@ -2012,20 +1705,6 @@
    "notes": []
   },
   {
-   "n": 169,
-   "name": "Device follow-up for 157 and 158",
-   "done": "2026-11-10T07:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 170,
    "name": "Chat bubbles as monochrome panel",
    "done": "2026-11-09T19:49Z",
@@ -2047,90 +1726,6 @@
      "by": "HEAVY",
      "at": "2026-11-10T07:52Z",
      "text": "Windows native ChatMessageLayoutTests 36/36 on b0cd37abdc. Existing panel prefab bindings and closure stand. Own/theirs pressed pixel evidence remains on device verification 178."
-    }
-   ]
-  },
-  {
-   "n": 173,
-   "name": "Phone check",
-   "done": "2026-11-10T07:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T23:04Z",
-     "text": "iOS 821 (990529ba21) uploaded to TestFlight 2026-11-10 01:01 (internal; processing). Contains this task's code. iPhone check not run: the iPhone 16 Pro Max is not reachable from the Mac (devicectl: unavailable) and the check needs hands on "
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T07:58Z",
-     "text": "iOS 822 (de2c96ec68) is on TestFlight 2026-11-10 09:57 (internal available; external WAITING_FOR_BETA_REVIEW); contains this task's code. iPhone part not run, nothing seen: the iPhone 16 Pro Max is still 'unavailable' to the Mac in devicect"
-    }
-   ]
-  },
-  {
-   "n": 174,
-   "name": "Windows EditMode qualification f",
-   "done": "2026-11-09T21:44Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T21:18Z",
-     "text": "7aae981386, Mac full EditMode (8801 tests): 39 red -> 2. Fixed: 28 SetUp crashes (cc080686ff Georeference.changed += without null check; fixtures have no georeference), 9 stale tests (Timeline main workflow, UnoptimizedProcess x5, sharp Mav"
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T21:44Z",
-     "text": "quiz answered both: (1) follow focuses first -> d713d74a6e (off-centre target takes the focus distance; LiveFollowAcquisition passes); (2) download icon in a header -> 723e5f5e7f (buttons full width, captions back at 30 pt; ExclusiveLightin"
-    }
-   ]
-  },
-  {
-   "n": 175,
-   "name": "Phone check MavChat fold",
-   "done": "2026-11-10T07:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "REVIEW",
-     "at": "2026-11-09T22:39Z",
-     "text": "CC-F3FA-01 P3 complexity: S1/S2 investigation and snippets complete. ManagedUpdate searches each shown list for UI_SheetListFold every frame although it adds the component once. Suggest the existing BindForSheet / sheet-only Route OnEnable "
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T23:03Z",
-     "text": "iOS 821 (990529ba21) uploaded to TestFlight 2026-11-10 01:01 (internal; processing). Contains this task's code. iPhone check not run: the iPhone 16 Pro Max is not reachable from the Mac (devicectl: unavailable) and the check needs hands on "
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T07:58Z",
-     "text": "iOS 822 (de2c96ec68) is on TestFlight 2026-11-10 09:57 (internal available; external WAITING_FOR_BETA_REVIEW); contains this task's code. iPhone part not run, nothing seen: the iPhone 16 Pro Max is still 'unavailable' to the Mac in devicect"
     }
    ]
   },
@@ -2195,22 +1790,6 @@
    ]
   },
   {
-   "n": 178,
-   "name": "Android device check for 167/170",
-   "done": "2026-11-10T07:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 179,
    "name": "Menu button picture and bluish X",
    "done": "2026-11-10T07:50Z",
@@ -2237,65 +1816,6 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-10T07:59Z",
      "text": "iOS 822 (de2c96ec68) is on TestFlight 2026-11-10 09:57 (internal available; external WAITING_FOR_BETA_REVIEW); contains this task's code. iPhone part not run, nothing seen: the iPhone 16 Pro Max is still 'unavailable' to the Mac in devicect"
-    }
-   ]
-  },
-  {
-   "n": 180,
-   "name": "Phone check",
-   "done": "2026-11-10T07:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T23:04Z",
-     "text": "iOS 821 (990529ba21) uploaded to TestFlight 2026-11-10 01:01 (internal; processing). Contains this task's code. iPhone check not run: the iPhone 16 Pro Max is not reachable from the Mac (devicectl: unavailable) and the check needs hands on "
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T07:59Z",
-     "text": "iOS 822 (de2c96ec68) is on TestFlight 2026-11-10 09:57 (internal available; external WAITING_FOR_BETA_REVIEW); contains this task's code. iPhone part not run, nothing seen: the iPhone 16 Pro Max is still 'unavailable' to the Mac in devicect"
-    }
-   ]
-  },
-  {
-   "n": 181,
-   "name": "Phone check (Android + iPhone) o",
-   "done": "2026-11-10T07:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-10T08:53Z",
-     "text": "Incoming Roslyn comparison exposed the editor probe calling KeepBothSizes while its declaration had only platform guards. 918d6230b0 adds UNITY_EDITOR to the declaration guard. Matching Unity and URP references returned NEW ERRORS: none. De"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-10T09:58Z",
-     "text": "REVIEW-410 / CC-39E1-01 retired: ebaa35de3 removes the original global hardware-scaling camera-ready mechanism. Preserve completed task status and native evidence limits; distinct initialization issue CR-EBAA-01 is on task 5. [Reconciliatio"
-    },
-    {
-     "by": "cloud-halfres",
-     "at": "2026-11-10T18:50Z",
-     "text": "Switch the half-res path to camera dynamic resolution per Bootstrap SPEC (Half-resolution while the camera moves, Target). Needs Unity: Editor + one Android + one iPhone. Keep URP renderScale as fallback. Quiz's reply that it already works "
     }
    ]
   },
@@ -2452,38 +1972,6 @@
      "by": "GETAC",
      "at": "2026-11-10T06:50Z",
      "text": "Strong Dev 821 installed and reached the map at 3.947 s, Ready at 5.573 s. Smoke 48 passed, zero failed, three policy skips. Findings on 54, 88 and 150. Windows Dev remained deployed. Lenovo absent from ADB. Strong left on map and released."
-    }
-   ]
-  },
-  {
-   "n": 190,
-   "name": "Look at water on the map (Cesium",
-   "done": "2026-11-11T13:53Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-10T08:53Z",
-     "text": "Windows D3D11 SpaceWaterAndLandShowNoSunOrMoonSpecular passed again. The near and space live visual comparison with known water coverage in both renderers remains open."
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-10T10:09Z",
-     "text": "No new visual result this pass. Cesium online and Planet coast views remain open at close and space distances, along with the targeted no-specular render test."
-    },
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T13:53Z",
-     "text": "Closed as verify-only (quiz, 2026-11-11: a check is a Page_Checks bump, not a task). Its look moved to page(s) Map/Planet; open leftovers, if any, are in the notes above."
     }
    ]
   },
@@ -2656,20 +2144,6 @@
      "text": "874df5b01d moved seven portrait/landscape prefabs and their .meta files as exact Git renames, and updated path references. Native Chat Window, QR, typed holder and MavChat import fixtures passed. Relevant page looks are bumped."
     }
    ]
-  },
-  {
-   "n": 200,
-   "name": "Note from LOCAL_MAC",
-   "done": "2026-11-10T08:19Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
   },
   {
    "n": 201,
@@ -3112,11 +2586,6 @@
      "by": "codex-ui-style",
      "at": "2026-11-10T11:39Z",
      "text": "Done: f0984f9462 and a2de4d4382 published through e48cfe7758; corrected style Parts, native reference PNG and the general UI SPEC/guide."
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-10T12:24Z",
-     "text": "REVIEW-413 / bounded source review: 34 commits through 48ef513e3 inspected, including custom Style Sheet source/assets, direct control visibility and the exact automatic merge. No new finding; task completion retained. Source/Git controls p"
     }
    ]
   },
@@ -3267,33 +2736,6 @@
      "by": "ROG_FABLE",
      "at": "2026-11-10T12:41Z",
      "text": "Done in code (771f3744c2, Roslyn NEW ERRORS: none). At once now: search query field, texture alignment sliders, UI_ToggleSlider, action feedback bubble, dragged label, selected point name/MGRS editor (Name.cs both), Drawing button and map t"
-    }
-   ]
-  },
-  {
-   "n": 229,
-   "name": "Editor look at the Menu bottom t",
-   "done": "2026-11-11T07:21Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T07:20Z",
-     "text": "Checked in the prefab: Diagnostics (Performance tab) is joined to My Data (_leftMerged 1), but no tab wired a UI_PixelLine, so no line showed at any join. Added the 1-pixel separator on every joined tab (). Main/Menu bumped for the rendered"
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T07:22Z",
-     "text": "Correction: the tab separators are c8e9bb8d38."
     }
    ]
   },
@@ -3463,28 +2905,6 @@
      "by": "ROG_OPUS",
      "at": "2026-11-10T16:43Z",
      "text": "Done in e0a5a30458: ApplySelectionInclude no longer calls Operator.BringIntoView; only the Search row's RequestFocusOnNextSelection focuses. Camera test replaced by MainCameraTouchInputTests.SelectionNeverMovesTheCameraAndASearchPickStillFo"
-    }
-   ]
-  },
-  {
-   "n": 240,
-   "name": "Editor check",
-   "done": "2026-11-11T13:54Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T13:54Z",
-     "text": "Closed as verify-only (quiz, 2026-11-11: a check is a Page_Checks bump, not a task). Its look moved to page(s) Video/Processing; open leftovers, if any, are in the notes above."
     }
    ]
   },
@@ -3672,38 +3092,6 @@
    ]
   },
   {
-   "n": 250,
-   "name": "Editor check",
-   "done": "2026-11-11T13:54Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T08:55Z",
-     "text": "LOCAL_MAC batch 14: Editor Play is up on the Mac, but I found no backdoor to stage this look (305 needs a selected far point with a drawn line, 253 a recorded track of a few km in Pilot view - training.pilot.start recon draws none, 250 a fi"
-    },
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T10:33Z",
-     "text": "Parked, not in any batch (quiz, 2026-11-11: 'don't ask me to test anything... I test in batches'). The look is seen when quiz tests a build; no fixture is built."
-    },
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T13:54Z",
-     "text": "Closed as verify-only (quiz, 2026-11-11: a check is a Page_Checks bump, not a task). Its look moved to page(s) Chat/Peers; open leftovers, if any, are in the notes above."
-    }
-   ]
-  },
-  {
    "n": 251,
    "name": "Editor",
    "done": "2026-11-11T07:20Z",
@@ -3725,60 +3113,6 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T07:22Z",
      "text": "Correction: the Search icon change is 27edcc33d1 (not c8e9bb8d38)."
-    }
-   ]
-  },
-  {
-   "n": 252,
-   "name": "Device check for the MavChat zoo",
-   "done": "2026-11-11T13:54Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T13:54Z",
-     "text": "Closed as verify-only (quiz, 2026-11-11: a check is a Page_Checks bump, not a task). Its look moved to page(s) Main/Map; open leftovers, if any, are in the notes above."
-    }
-   ]
-  },
-  {
-   "n": 253,
-   "name": "Editor + device check",
-   "done": "2026-11-11T13:54Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T08:54Z",
-     "text": "LOCAL_MAC batch 14: Editor Play is up on the Mac, but I found no backdoor to stage this look (305 needs a selected far point with a drawn line, 253 a recorded track of a few km in Pilot view - training.pilot.start recon draws none, 250 a fi"
-    },
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T10:33Z",
-     "text": "Parked, not in any batch (quiz, 2026-11-11: 'don't ask me to test anything... I test in batches'). The look is seen when quiz tests a build; no fixture is built."
-    },
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T13:54Z",
-     "text": "Closed as verify-only (quiz, 2026-11-11: a check is a Page_Checks bump, not a task). Its look moved to page(s) Main/Map,Map/Planet; open leftovers, if any, are in the notes above."
     }
    ]
   },
@@ -3937,28 +3271,6 @@
      "by": "REVIEW",
      "at": "2026-11-10T15:48Z",
      "text": "Investigation CR-89CB-01, P2: with 512 tombstones, a newer peer deletion of a held live place is judged using current's old stamp and can be refused. S1 source/counterexample and S2 incoming-stamp suggestion/current/proposed snippets comple"
-    }
-   ]
-  },
-  {
-   "n": 263,
-   "name": "Device check",
-   "done": "2026-11-11T13:55Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T13:55Z",
-     "text": "Closed as verify-only (quiz, 2026-11-11: a check is a Page_Checks bump, not a task). Its look moved to page(s) Main/Map; open leftovers, if any, are in the notes above."
     }
    ]
   },
@@ -4286,33 +3598,6 @@
    ]
   },
   {
-   "n": 278,
-   "name": "Look at chat rows in the Editor",
-   "done": "2026-11-11T13:55Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-10T16:33Z",
-     "text": "Unity ChatMessageLayoutTests passed 36/36 on Windows. Native prefab fixtures assert MetaGrey for incoming and reused outgoing footer time and both tick colors. A rendered chat screenshot remains open."
-    },
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T13:55Z",
-     "text": "Closed as verify-only (quiz, 2026-11-11: a check is a Page_Checks bump, not a task). Its look moved to page(s) Chat/Messages; open leftovers, if any, are in the notes above."
-    }
-   ]
-  },
-  {
    "n": 279,
    "name": "Exclusive selector",
    "done": "2026-11-10T15:53Z",
@@ -4354,38 +3639,6 @@
      "by": "MAC_STYLE",
      "at": "2026-11-10T16:10Z",
      "text": "Done 6d209e5f01: Dark Panel opts into material colouring RGB .5 plus UI Image tint, with neutral/pointed-blue/selected-yellow reference states sharing one material. UI_PanelTint carries tint alpha separately so CanvasGroup still fades opaci"
-    }
-   ]
-  },
-  {
-   "n": 282,
-   "name": "Editor look",
-   "done": "2026-11-11T13:56Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_LOAD_TIME",
-     "at": "2026-11-10T17:04Z",
-     "text": "Heads-up from CLOUD_LOAD_TIME: tasks 287 and 300 will take prefabs out of Main UI.unity and add a loading bar; whoever edits Main UI.unity for the X pose should pull first and keep their change small. Nothing in 282 itself changes."
-    },
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T13:56Z",
-     "text": "Closed as verify-only (quiz, 2026-11-11: a check is a Page_Checks bump, not a task). Its look moved to page(s) Main/Map; open leftovers, if any, are in the notes above."
-    },
-    {
-     "by": "CLOUD_XMENU",
-     "at": "2026-11-12T16:21Z",
-     "text": "CLOUD_XMENU 2026-11-12: Full screen on the X (quiz, third report today). Cause: the row box (625.5) was narrower than padding 205 + Full screen + Share capsule + Search (752), so the layout group packed from the left and Full screen landed "
     }
    ]
   },
@@ -4720,38 +3973,6 @@
    ]
   },
   {
-   "n": 305,
-   "name": "Editor + device check",
-   "done": "2026-11-11T13:56Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T08:54Z",
-     "text": "LOCAL_MAC batch 14: Editor Play is up on the Mac, but I found no backdoor to stage this look (305 needs a selected far point with a drawn line, 253 a recorded track of a few km in Pilot view - training.pilot.start recon draws none, 250 a fi"
-    },
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T10:33Z",
-     "text": "Parked, not in any batch (quiz, 2026-11-11: 'don't ask me to test anything... I test in batches'). The look is seen when quiz tests a build; no fixture is built."
-    },
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T13:56Z",
-     "text": "Closed as verify-only (quiz, 2026-11-11: a check is a Page_Checks bump, not a task). Its look moved to page(s) Map/Planet; open leftovers, if any, are in the notes above."
-    }
-   ]
-  },
-  {
    "n": 308,
    "name": "Motorola IP settings page (code",
    "done": "2026-11-11T06:27Z",
@@ -4786,551 +4007,6 @@
      "by": "HEAVY",
      "at": "2026-11-11T06:27Z",
      "text": "Windows Unity 6000.6.8f1 MapOnly Play: Motorola root showed the Bluetooth/USB method bar and the single ID: [0] row while Off. Configuration showed its adapter and setup rows without the method bar. The connected stage is hidden in Off; sou"
-    }
-   ]
-  },
-  {
-   "n": 309,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "2026-11-11T05:17Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T05:16Z",
-     "text": "Fixed in 4a09a9cc7e; fixture green on the Mac with graphics (LOCAL_MAC full-run pass 2026-11-11)."
-    }
-   ]
-  },
-  {
-   "n": 310,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "2026-11-11T05:18Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T05:17Z",
-     "text": "Fixed in 52b7511053; fixture green on the Mac with graphics (LOCAL_MAC full-run pass 2026-11-11)."
-    }
-   ]
-  },
-  {
-   "n": 311,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "2026-11-11T05:18Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T05:18Z",
-     "text": "Fixed in 4a09a9cc7e; fixture green on the Mac with graphics (LOCAL_MAC full-run pass 2026-11-11)."
-    }
-   ]
-  },
-  {
-   "n": 312,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "2026-11-11T05:19Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T05:19Z",
-     "text": "Fixed in 52b7511053; fixture green on the Mac with graphics (LOCAL_MAC full-run pass 2026-11-11)."
-    }
-   ]
-  },
-  {
-   "n": 313,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "2026-11-11T08:41Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-11T07:48Z",
-     "text": "GETAC Unity 6000.6.8f1 at f9735bf165 compiled and ran EditMode with disposable data. Initial headless All: 8339 passed, 67 failed, 448 skipped, 1 inconclusive. Direct3D 11 rerun of all 67: 65 passed and 2 reproduced. DirectRouteNegotiatesNo"
-    },
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T08:26Z",
-     "text": "Still red after Rog's fixture fix 24274124fd: the Mac (06:42Z) and GETAC (07:48Z, line 45) both see 'Handshake is not application contact, expected null, was 127.0.0.1:port' in DirectRouteNegotiatesNoiseWithActualHubAndAcceptsASkewedQuestio"
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T08:41Z",
-     "text": "f822499d12 (on main): the guide says handshake frames never make contact; the hub keeps that (LastEndpoint null through both Noise frames, logged). Contact came from the route's own Capabilities question and Admins request after the session"
-    }
-   ]
-  },
-  {
-   "n": 314,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "2026-11-10T22:23Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T22:22Z",
-     "text": "Fixed by 93abca88c1 (cloud); fixture passes on the Mac at eefc74c60d (SituationTrailSpillTests, GeometryConvergenceLoopTests: 92/92 with DirectRoute aside)."
-    }
-   ]
-  },
-  {
-   "n": 316,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "2026-11-10T22:16Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T22:16Z",
-     "text": "efadb77506: the three failures were my 4df1ac67f4 (task 230: selected capsule body solid black) without the fixture update; tests now pin the black body, the frozen reference program gets the same, 6/6 with graphics."
-    }
-   ]
-  },
-  {
-   "n": 317,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "2026-11-11T07:11Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T06:26Z",
-     "text": "ROG_OPUS triage by reading (no fix): IconsAre128PixelsAndTheirHashIsPublishedOnlyWithADurableEdit ends with 'A database write that fails publishes nothing': it makes the save fail by creating the directory <ledger path>.pending, which block"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T06:56Z",
-     "text": "Windows All.xml first failure, LogisticsDistributionTests.IconsAre128PixelsAndTheirHashIsPublishedOnlyWithADurableEdit: TearDown : System.IO.IOException : The process cannot access the file 'logistics.sqlite' because it is being used by ano"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T07:11Z",
-     "text": "Windows reproduction still held logistics.sqlite after CloseReaders. Path.GetDirectoryName normalized the slash spelling while Vault indexed the original string. The same canonical folder now owns both open and close. Logistics and Record V"
-    }
-   ]
-  },
-  {
-   "n": 318,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "2026-11-11T05:20Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T05:20Z",
-     "text": "Fixed in 4a09a9cc7e; fixture green on the Mac with graphics (LOCAL_MAC full-run pass 2026-11-11)."
-    }
-   ]
-  },
-  {
-   "n": 319,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "2026-11-11T05:21Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T05:21Z",
-     "text": "Fixed in 0e0e3b2f59; fixture green on the Mac with graphics (LOCAL_MAC full-run pass 2026-11-11)."
-    }
-   ]
-  },
-  {
-   "n": 320,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "2026-11-11T06:19Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T05:27Z",
-     "text": "Mac 2026-11-11: the 4 cases differ because 1773f34e98 fades the pulse when a 60 m band covers only a few pixels; the 41 px fixture triggers it. Expected values wait until quiz accepts the look (task 253)."
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T06:18Z",
-     "text": "2ed8276852: quiz accepted the new look (2026-11-11); fixture updated, green on the Mac."
-    }
-   ]
-  },
-  {
-   "n": 321,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "2026-11-11T05:22Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T05:22Z",
-     "text": "Fixed in 4a09a9cc7e; fixture green on the Mac with graphics (LOCAL_MAC full-run pass 2026-11-11)."
-    }
-   ]
-  },
-  {
-   "n": 322,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "2026-11-11T05:23Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T05:22Z",
-     "text": "Fixed in 4a09a9cc7e; fixture green on the Mac with graphics (LOCAL_MAC full-run pass 2026-11-11)."
-    }
-   ]
-  },
-  {
-   "n": 323,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "2026-11-11T05:24Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T05:23Z",
-     "text": "Fixed in 93dd60f4ad; fixture green on the Mac with graphics (LOCAL_MAC full-run pass 2026-11-11)."
-    }
-   ]
-  },
-  {
-   "n": 324,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "2026-11-11T06:45Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T05:26Z",
-     "text": "Mac 2026-11-11: still red after 93dd60f4ad: PagesRouteMaskedGroundMatchesThePlainTextureRoute (page route differs by 15 after the channel fix; plain route passes). The other 18 PlanetSurface cases pass."
-    },
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T06:45Z",
-     "text": "Closed on HEAVY's evidence (335 notes, 06:20Z and 06:29Z): PlanetSurfaceShaderRenderTests 52/52 on Windows D3D11 after 2ed8276852 and 7275fc3426, and it is not in the still-red list of the fresh All at 1f8133a04b."
-    }
-   ]
-  },
-  {
-   "n": 325,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "2026-11-10T22:19Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T22:19Z",
-     "text": "eefc74c60d: test pinned re-sorting on a text change; Search SPEC sorts once per open (2a657965cf). Case now checks order kept within an open and re-sorted after ResortFiltersOnNextBind. 15/15."
-    }
-   ]
-  },
-  {
-   "n": 326,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "2026-11-11T05:25Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T05:24Z",
-     "text": "Fixed in 0e0e3b2f59; fixture green on the Mac with graphics (LOCAL_MAC full-run pass 2026-11-11)."
-    }
-   ]
-  },
-  {
-   "n": 327,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "2026-11-10T22:21Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T22:21Z",
-     "text": "Fixed by 93abca88c1 (cloud: package fill skipped Key(9), the deployed server's key); 5/5 on the Mac at eefc74c60d."
-    }
-   ]
-  },
-  {
-   "n": 328,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "2026-11-11T06:20Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T05:27Z",
-     "text": "Mac 2026-11-11: case 0 fixed (fixture binds _TOD_SkyUp, 93dd60f4ad); case 1 (Sun) differs 0.31 because the Sun glow moved from acos to the chord (task 172 item 22); waits for quiz to accept the chord or revert it."
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T06:19Z",
-     "text": "2ed8276852: quiz accepted the new look (2026-11-11); fixture updated, green on the Mac."
-    }
-   ]
-  },
-  {
-   "n": 329,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "2026-11-10T22:23Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-10T22:23Z",
-     "text": "Fixed by 93abca88c1 (cloud); fixture passes on the Mac at eefc74c60d (SituationTrailSpillTests, GeometryConvergenceLoopTests: 92/92 with DirectRoute aside)."
-    }
-   ]
-  },
-  {
-   "n": 331,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "2026-11-11T05:26Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T05:25Z",
-     "text": "Fixed in 93dd60f4ad; fixture green on the Mac with graphics (LOCAL_MAC full-run pass 2026-11-11)."
-    }
-   ]
-  },
-  {
-   "n": 332,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "2026-11-11T07:12Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T06:27Z",
-     "text": "ROG_OPUS triage by reading (no fix): VideoDiagnosticsTests.cs and the video diagnostics owners had no commit between Nov 8 and run 76ad76b6df, so the cause is in production code the cases drive (peer video, streamer native admission). Witho"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T06:56Z",
-     "text": "Windows All.xml first failure, VideoDiagnosticsTests.NativeAdmissionDistinguishesPendingZeroStaleAndEachRenditionClock: System.NullReferenceException : Object reference not set to an instance of an object"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T07:11Z",
-     "text": "The failed Feed constructor reaches GetOwnStationAddress and requires a Station owner. The three fixtures use PeerTestFixture.Fixture. Native fixture-recheck-b.xml passed all VideoDiagnosticsTests."
-    }
-   ]
-  },
-  {
-   "n": 333,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "2026-11-11T07:12Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T06:28Z",
-     "text": "ROG_OPUS triage by reading (no fix): VideoLatencySuspectsTests.cs had no commit between Nov 8 and run 76ad76b6df; SenderLatencyUsesEveryQueueAndTheViewersCurrentNativeOwner(0) depends on the streamer/native owner code. Without the task 7 XM"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T06:57Z",
-     "text": "Windows All.xml first failure, VideoLatencySuspectsTests.SenderLatencyUsesEveryQueueAndTheViewersCurrentNativeOwner(0): System.NullReferenceException : Object reference not set to an instance of an object"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T07:12Z",
-     "text": "The failed Feed constructor needs a Station owner for GetOwnStationAddress. The sender latency fixture uses PeerTestFixture.Fixture and all cases pass in fixture-recheck-b.xml."
-    }
-   ]
-  },
-  {
-   "n": 334,
-   "name": "Windows EditMode All 76ad76b6df",
-   "done": "2026-11-11T07:13Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T06:26Z",
-     "text": "ROG_OPUS triage by reading (no fix): the task 7 XML for run 76ad76b6df is not in the repo, only Logs/RogAndroidDaily20261030 (Oct 30), so no failure message. VpnTunnelTests drive NetworkManager.TunnelManager with FakeBridge only; nothing re"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T06:57Z",
-     "text": "Windows All.xml first failure, VpnTunnelTests.ConsentIsAskedFirstAndTheApplyFollowsTheGrant: System.NullReferenceException : Object reference not set to an instance of an object"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T07:12Z",
-     "text": "The fake tunnel bridge read and wrote served-tunnel state through the default Station-backed callback. The fixture owns that state in memory now. All VpnTunnelTests pass in fixture-recheck-b.xml."
     }
    ]
   },
@@ -5439,266 +4115,6 @@
      "by": "MAC_FABLE",
      "at": "2026-11-12T12:37Z",
      "text": "MAC_FABLE batch 2, step 4 (Contrast boost, 403d01df and 1260ca42), Mac Editor. Prefab side done by reading: no Adaptation row is left to remove. The tuning rows are built in code from SliderSpec in UI_MotionTuningPanel out of the one Video "
-    }
-   ]
-  },
-  {
-   "n": 344,
-   "name": "Windows EditMode All 1f8133a04b",
-   "done": "2026-11-11T07:00Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T06:51Z",
-     "text": "Windows All.xml first failure, MainCameraTouchFollowTests.AreaArrowDoubleTapReturnsToTheConfiguredAreaAtOverviewScale: The fixture must present the actual arrow. Expected: True But was: False"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T07:00Z",
-     "text": "Prior failed cases pass in the Windows cohort after restoring the leaked Station.UI overlay owners (369b1fdddd, 726cd3e131, 2e670b8af7). MainCameraTouchFollowTests 57 passed. XML in C:/MavControlEvidence/WorkCritical/verify-night-20261111b."
-    }
-   ]
-  },
-  {
-   "n": 345,
-   "name": "Windows EditMode All 1f8133a04b",
-   "done": "2026-11-11T07:01Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T06:51Z",
-     "text": "Windows All.xml first failure, PersistenceRotationPinTests.QuarantinedPointingKeepsSearchLookupButRefusesWorldInput: Expected: True But was: False"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T07:01Z",
-     "text": "Prior failed cases pass in the Windows cohort after restoring the leaked Station.UI overlay owners (369b1fdddd, 726cd3e131, 2e670b8af7). PersistenceRotationPinTests 105 passed. XML in C:/MavControlEvidence/WorkCritical/verify-night-20261111"
-    }
-   ]
-  },
-  {
-   "n": 346,
-   "name": "Windows EditMode All 1f8133a04b",
-   "done": "2026-11-11T07:01Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T06:52Z",
-     "text": "Windows All.xml first failure, PhotoEditingProjectionTests.AuthoredStopPhotoClickRechecksCurrentLocalBroadcastWithoutErasingSources: Prepare an actual selected-object photo context. Expected: True But was: False"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T07:01Z",
-     "text": "Prior failed cases pass in the Windows cohort after restoring the leaked Station.UI overlay owners (369b1fdddd, 726cd3e131, 2e670b8af7). PhotoEditingProjectionTests 19 passed. XML in C:/MavControlEvidence/WorkCritical/verify-night-20261111b"
-    }
-   ]
-  },
-  {
-   "n": 347,
-   "name": "Windows EditMode All 1f8133a04b",
-   "done": "2026-11-11T06:59Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T06:48Z",
-     "text": "Windows All.xml first failure, ActualFullTextureUseRestartsTimeoutWithoutChangingPixels: Expected: Standard But was: FullScreenVideoFeed."
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T06:59Z",
-     "text": "PeerCameraViewTests restored fullscreen intent in 369b1fdddd. The preceding producer and the original red fixture ran in the same Windows Editor. PhotoTextureRetentionTests 22 passed. XML in C:/MavControlEvidence/WorkCritical/verify-night-2"
-    }
-   ]
-  },
-  {
-   "n": 348,
-   "name": "Windows EditMode All 1f8133a04b",
-   "done": "2026-11-11T07:02Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T06:53Z",
-     "text": "Windows All.xml first failure, PhysicalMouseInputTests.TouchRestoresZoomAfterMouseAndMouseInputHidesItAgain: Touch owns the scroller even with a connected mouse. Expected: True But was: False"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T07:01Z",
-     "text": "Prior failed cases pass in the Windows cohort after restoring the leaked Station.UI overlay owners (369b1fdddd, 726cd3e131, 2e670b8af7). PhysicalMouseInputTests 11 passed. XML in C:/MavControlEvidence/WorkCritical/verify-night-20261111b."
-    }
-   ]
-  },
-  {
-   "n": 349,
-   "name": "Windows EditMode All 1f8133a04b",
-   "done": "2026-11-11T07:02Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T06:53Z",
-     "text": "Windows All.xml first failure, SituationEntityClassificationTests.ExistingEntityEditor_RefreshesCaptionsOnLanguageAlone: Expected: True But was: False"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T07:02Z",
-     "text": "Prior failed cases pass in the Windows cohort after restoring the leaked Station.UI overlay owners (369b1fdddd, 726cd3e131, 2e670b8af7). SituationEntityClassificationTests 32 passed. XML in C:/MavControlEvidence/WorkCritical/verify-night-20"
-    }
-   ]
-  },
-  {
-   "n": 350,
-   "name": "Windows EditMode All 1f8133a04b",
-   "done": "2026-11-11T09:14Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T07:02Z",
-     "text": "The grid failed because PeerCameraViewTests left Station.UI.FullscreenVideoOpen set. Restoring it in 369b1fdddd cleared this case in the combined native run. VideoServerGridTests 8 passed. XML in C:/MavControlEvidence/WorkCritical/verify-ni"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T07:43Z",
-     "text": "Fresh All on d32937fcf6 still fails SelectedSidebarRetainsRestreamPressOwnershipAndRejectsRebinding: expected VideoServerGrid, got FullScreenVideoFeed. The focused cohort passed. Reopened this line; resume with the full-suite fixture order "
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T09:14Z",
-     "text": "LOCAL_MAC: green on the Mac at bfc2e9f2ec with graphics (VideoServerGridTests + WayPointDragTests 59/59, 1 ignored). Not reproduced; if Windows still fails it is platform-specific, reopen with the message."
-    }
-   ]
-  },
-  {
-   "n": 351,
-   "name": "Windows EditMode All 1f8133a04b",
-   "done": "2026-11-11T09:15Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T09:15Z",
-     "text": "LOCAL_MAC: green on the Mac at bfc2e9f2ec with graphics (VideoServerGridTests + WayPointDragTests 59/59, 1 ignored). Not reproduced; if Windows still fails it is platform-specific, reopen with the message."
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T09:24Z",
-     "text": "LOCAL_MAC: reopening: WayPointDragTests pass alone but 3 cases fail inside the full All (order-dependent). Working on it."
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T09:34Z",
-     "text": "5fccb47c7b: order leak found: an earlier video fixture leaves Station.UI.FullscreenVideoOpen true, so inside the full All the view is FullScreenVideoFeed and the MGRS input/road-route hit tests are hidden. WayPointDragTests now owns that in"
-    }
-   ]
-  },
-  {
-   "n": 353,
-   "name": "Windows EditMode All 1f8133a04b ",
-   "done": "2026-11-11T07:00Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T06:50Z",
-     "text": "Windows All.xml first failures: NavigatorPathTests.NavigatorIslandCountIncludesOnlyExpandableRowsAcrossExpiryAndWorkflowChanges: Expected: (2, True) But was: (2, False). SearchQuerySuggestionTests.AFocusAttemptIsSingleShotEvenBeforeNativeFo"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T07:00Z",
-     "text": "The Windows cohort reproduced Navigator after the Compass and Settings fixtures, which had leaked Settings intent after task 227. 726cd3e131 and 2e670b8af7 restore the state. Search was green after the earlier fullscreen owner fix. Navigato"
-    }
-   ]
-  },
-  {
-   "n": 354,
-   "name": "Windows EditMode All 1f8133a04b",
-   "done": "2026-11-11T06:59Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T06:50Z",
-     "text": "Windows All.xml first failures: MavChatSheetTests.PendingSearchReturnYieldsToNewerSheetIntent(0): The return is waiting for the capture. Expected: 1 But was: 0. PlanetContextLightingTests.SelectedMeasurementPublishesLiveCenterAndLockedEndpo"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-11T06:59Z",
-     "text": "The Settings/Compass/Chat cohort reproduced the All failures. 726cd3e131 and 2e670b8af7 restore the Station.UI intents between cases. The 8 prior MavChat failures and the Planet context failure pass. MavChatSheetTests 1 inconclusive, 92 pas"
     }
    ]
   },
@@ -6542,7 +4958,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-12T17:03Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 8
+    }
+   ],
    "steps": [
     {
      "t": "Getac (radio on USB): Windows USB health snapshot and ETW trace of the gateway l",
@@ -7458,6 +5883,11 @@
    ],
    "notes": [
     {
+     "by": "PASIKA_PERF7",
+     "at": "2026-11-12T15:18Z",
+     "text": "PASIKA_PERF7: DefaultPosition read (mgrs_ms 9.608, pose_ms 14.217 after e17252024f). Done: 09b5b27868 one MGRS read no longer builds the paste parser (MGRS.Parcing type init: 13 regexes, look-alike Dictionary, tables) for 24 Cyrillic look-a"
+    },
+    {
      "by": "PASIKA",
      "at": "2026-11-12T15:20Z",
      "text": "PASIKA re-read after 09b5b27868 + 089a4617bf (main c3b7fc783f, PL-007 Editor station, warm Play): startup_default_position mgrs_ms=4.902 (was 9.608) pose_ms=13.936 (was 14.217); DefaultPosition 19.0 ms (was 24.0); map present 5.182 s; updat"
@@ -7466,11 +5896,6 @@
      "by": "CLOUD_PASIKA_GETAC_BATCH",
      "at": "2026-11-12T15:25Z",
      "text": "CLOUD_PASIKA_GETAC_BATCH 2026-11-12: batch 2 written for PASIKA (Coordination/Prompts/machine_prompts_2026-11-12_pasika2.md: 429 and 362 warm-Play reads into STARTUP.md, the 494 scale read, 430 tiles_sumy copy, compiled counts, containing A"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-12T15:33Z",
-     "text": "REVIEW-460: inspected e8504b8cc..b358b39ac, 120 commits including one metadata merge; no new finding. CR-305B-01 source repair 82b8d199f6 retains ticket availability during inbox-mark writes; original identity and results retained. [Report,"
     }
    ]
   },
@@ -7582,104 +6007,6 @@
    ]
   },
   {
-   "n": 432,
-   "name": "Note from CLOUD_META",
-   "done": "2026-11-11T20:04Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 436,
-   "name": "Note from CLOUD_META",
-   "done": "2026-11-11T20:04Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 437,
-   "name": "Note from CLOUD_META",
-   "done": "2026-11-11T20:04Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 438,
-   "name": "Note from LOCAL_MAC",
-   "done": "2026-11-12T08:06Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 439,
-   "name": "Note from CLOUD_META",
-   "done": "2026-11-11T20:04Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 440,
-   "name": "Note from LOCAL_MAC",
-   "done": "2026-11-12T08:06Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 442,
-   "name": "Note from CLOUD_META",
-   "done": "2026-11-11T20:04Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 443,
    "name": "Device tab in Menu > Diagnostics",
    "done": "2026-11-11T20:39Z",
@@ -7698,278 +6025,6 @@
      "text": "ROG_OPUS 2026-11-11 batch 20 (from note 445): Device tab authored, 67f9a1a6f0: 'Device Tab' cloned from Storage Tab in Performance Subtabs, after Storage, caption 'Device', OnClick -> UI_ProcessesInspector.ShowDevice, wired to _deviceTab an"
     }
    ]
-  },
-  {
-   "n": 444,
-   "name": "Note from LOCAL_MAC",
-   "done": "2026-11-12T08:06Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 445,
-   "name": "Note from CLOUD_META",
-   "done": "2026-11-12T08:06Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 446,
-   "name": "Note from LOCAL_MAC",
-   "done": "2026-11-12T08:07Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 447,
-   "name": "Note from CLOUD_META",
-   "done": "2026-11-12T08:07Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 448,
-   "name": "Note from LOCAL_MAC",
-   "done": "2026-11-12T08:07Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 449,
-   "name": "Note from CLOUD_META",
-   "done": "2026-11-12T08:07Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 450,
-   "name": "Note from LOCAL_MAC",
-   "done": "2026-11-12T08:07Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 451,
-   "name": "Note from CLOUD_META",
-   "done": "2026-11-12T08:07Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_META",
-     "at": "2026-11-11T20:52Z",
-     "text": "Correction to batch 28: Rog's 431 b2 code (cccad1cb, 05b9334b, 3c0fde30) landed after 5025e294e6, so step 1 is a real macOS Editor and iOS compile."
-    }
-   ]
-  },
-  {
-   "n": 452,
-   "name": "Note from ROG_OPUS",
-   "done": "2026-11-12T08:07Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 453,
-   "name": "Note from CLOUD_META",
-   "done": "2026-11-12T08:07Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 454,
-   "name": "Note from CLOUD_META",
-   "done": "2026-11-12T08:07Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 455,
-   "name": "Note from LOCAL_MAC",
-   "done": "2026-11-12T08:08Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 456,
-   "name": "Note from CLOUD_META",
-   "done": "2026-11-12T08:08Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 457,
-   "name": "Note from ROG_OPUS",
-   "done": "2026-11-12T08:08Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 458,
-   "name": "Note from LOCAL_MAC",
-   "done": "2026-11-12T08:08Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 459,
-   "name": "Note from CLOUD_META",
-   "done": "2026-11-12T08:09Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 460,
-   "name": "Note from CLOUD_META",
-   "done": "2026-11-12T08:09Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 461,
-   "name": "Note from LOCAL_MAC",
-   "done": "2026-11-12T08:09Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 462,
-   "name": "Note from ROG_OPUS",
-   "done": "2026-11-12T08:12Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
   },
   {
    "n": 463,
@@ -7992,79 +6047,9 @@
    ]
   },
   {
-   "n": 464,
-   "name": "Note from CLOUD_META",
-   "done": "2026-11-12T08:09Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 465,
-   "name": "Note from ROG_OPUS",
-   "done": "2026-11-12T08:10Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 466,
-   "name": "Note from CLOUD_META",
-   "done": "2026-11-12T08:13Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 467,
-   "name": "Note from CLOUD_META",
-   "done": "2026-11-12T08:13Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 468,
    "name": "Note from PASIKA",
    "done": "2026-11-12T08:13Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 469,
-   "name": "Note from ROG_OPUS",
-   "done": "2026-11-12T08:12Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -8145,86 +6130,6 @@
    ]
   },
   {
-   "n": 473,
-   "name": "Note from LOCAL_MAC",
-   "done": "2026-11-12T10:02Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_BOARD",
-     "at": "2026-11-12T10:02Z",
-     "text": "Closed: batch 32 summary. What it left is on goal 430 (PASIKA flips a copy of tiles_sumy) and goal 429 (the Mask Demand read needs a phone build with 509da0297d and 55dbede20d)."
-    }
-   ]
-  },
-  {
-   "n": 474,
-   "name": "Note from CLOUD_BATCH",
-   "done": "2026-11-12T10:02Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_BOARD",
-     "at": "2026-11-12T10:02Z",
-     "text": "Closed: batch record, the prompts are in Coordination/Prompts."
-    }
-   ]
-  },
-  {
-   "n": 475,
-   "name": "Note from LOCAL_MAC",
-   "done": "2026-11-12T10:02Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_BOARD",
-     "at": "2026-11-12T10:02Z",
-     "text": "Closed: batch 33 summary, nothing left for the Mac; its 382 timing check (0.002 ms) took that line off goal 382."
-    }
-   ]
-  },
-  {
-   "n": 476,
-   "name": "Note from CLOUD_TABS",
-   "done": "2026-11-12T10:02Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_BOARD",
-     "at": "2026-11-12T10:02Z",
-     "text": "Closed: batch record, MAC_FABLE holds goal 408."
-    }
-   ]
-  },
-  {
    "n": 477,
    "name": "One-pixel line split (cloud push",
    "done": "2026-11-12T10:05Z",
@@ -8251,26 +6156,6 @@
      "by": "ROG_OPUS",
      "at": "2026-11-12T10:13Z",
      "text": "ROG_OPUS 2026-11-12: 141 separator Images (RoundedGraphic on the old line materials, 25 prefabs) are now UI_OnePixelLine, material none; 8 lines lost their material ref; orphan Prototype field dropped from line components in 42 prefabs; Pro"
-    }
-   ]
-  },
-  {
-   "n": 478,
-   "name": "Note from ROG_OPUS",
-   "done": "2026-11-12T10:02Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_BOARD",
-     "at": "2026-11-12T10:02Z",
-     "text": "Closed: batch 24 summary. Its results are on goals 407 and 382; the Inspector pick it could not run is now a cloud task under 382."
     }
    ]
   },
@@ -8364,7 +6249,7 @@
   },
   {
    "n": 482,
-   "name": "EditMode All is red on main (Mac",
+   "name": "EditMode All is not green on mai",
    "done": "",
    "goal": false,
    "under": 369,
@@ -8454,7 +6339,7 @@
   },
   {
    "n": 487,
-   "name": "Two-hand iPad pass for Pencil + ",
+   "name": "Pencil keeps painting while fing",
    "done": "",
    "goal": false,
    "under": 0,
@@ -8564,7 +6449,7 @@
   },
   {
    "n": 496,
-   "name": "MavChat leftovers from 492/493",
+   "name": "MavChat landscape chat list is c",
    "done": "",
    "goal": false,
    "under": 0,
@@ -8606,20 +6491,6 @@
      "text": "ROG_FABLE 2026-11-12 (51c2e67bf2): fixed in the prefab. Direct cause: the drone list's content VerticalLayoutGroup controls child height (UI_ListRows.FitRoot) and Connected MAV's root had no LayoutElement, so every row was 0 high: the Synth"
     }
    ]
-  },
-  {
-   "n": 501,
-   "name": "One-pixel lines (left tab column",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
   },
   {
    "n": 504,
@@ -8697,36 +6568,6 @@
    ]
   },
   {
-   "n": 507,
-   "name": "Editor",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T15:31Z",
-     "text": "MAC_FABLE batch 4, step 4, 6d8ff9240b. Reproduced in Mac Editor Play: after a script reload during Play (editor scripts.reload, confirmed in the Editor log) every Telemetry tab stayed dead; ui.pointed showed the tap hitting Lists Root/Swipe"
-    },
-    {
-     "by": "PASIKA_RELOAD",
-     "at": "2026-11-12T16:03Z",
-     "text": "PASIKA_RELOAD reload sweep (11646ade01, ac49de3759, 8e9f133196; cmp.sh NEW ERRORS none). (1) Menu / Map: UI_ExtendedMenuPanels.LayoutFrame and UI_MapType.LayoutFrame were [NonSerialized], bound once at instantiate; a reload with the panel b"
-    },
-    {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T16:16Z",
-     "text": "MAC_FABLE batch 5, step 3, b256333811. The NullReferenceException at UI_NoVPNNotification.cs:84: the Editor log shows it right after 'Reloading assemblies due to reload request' and the Station's shutdown; OnApplicationFocus is a Unity call"
-    }
-   ]
-  },
-  {
    "n": 509,
    "name": "Note from CLOUD_THREAD",
    "done": "2026-11-12T16:53Z",
@@ -8770,34 +6611,6 @@
      "text": "MAC_FABLE batch 4, step 1: a9abf086ac Processes and Timings.prefab (Map layer selector and Element quality: Active Top Light copied from Tab Column into each Capsule Thumb, assigned to _selectionLight_Optional; the third selector in that pr"
     }
    ]
-  },
-  {
-   "n": 515,
-   "name": "Note from CLOUD_MAC_BATCH",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 516,
-   "name": "Note from CLOUD_ROG_BATCH",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
   },
   {
    "n": 517,
@@ -8860,76 +6673,6 @@
    ]
   },
   {
-   "n": 520,
-   "name": "Note from MAC_FABLE",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 521,
-   "name": "Note from ROG_FABLE",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 522,
-   "name": "Note from CLOUD_ROG_MAC_BATCH",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 523,
-   "name": "Note from CLOUD_THREAD",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 524,
-   "name": "Note from MAC_FABLE",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 525,
    "name": "Main view",
    "done": "",
@@ -8966,6 +6709,20 @@
   {
    "n": 527,
    "name": "Note from cloud-thread",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 528,
+   "name": "Two notices show their raw key i",
    "done": "",
    "goal": false,
    "under": 0,
@@ -9024,5 +6781,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "cd6bac89af93b58d602ebbd18c19be8a1bfb07f2"
+ "source_revision": "4b1c216a46ae04062f3fae20a82c0160a8449e07"
 }
