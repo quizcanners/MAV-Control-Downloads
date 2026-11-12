@@ -188,11 +188,6 @@
    "notes": [
     {
      "by": "MAC_FABLE",
-     "at": "2026-11-12T20:52Z",
-     "text": "MAC_FABLE batch 11 step 3, liquid glass on Metal (Mac Editor, Play at 3 km over Kyiv, tilt 55, main f5481745c3; grab 1128x906). Three cards were up (Agent command, Far from home, WireGuard address outside the MAV subnet). Nothing dismisses "
-    },
-    {
-     "by": "MAC_FABLE",
      "at": "2026-11-12T21:11Z",
      "text": "MAC_FABLE batch 11 step 5, goal 363 advance (Mac Editor, Metal, main e1a923c51e). Dev FPS label: Dev Mode on by 11 'ui compass tap' in 1.4 s; it reads '8 fps (0.4)' top-right above the compass at rest, Sharp still frame on. smoke.run: first"
     },
@@ -200,6 +195,11 @@
      "by": "MAC_FABLE",
      "at": "2026-11-12T21:18Z",
      "text": "MAC_FABLE: more on the black band around the Far from home home icon. It is the Download Update button's 'Merged glass opaque' body (UI_MergableCustomButton, Prototype caabd17f...) drawn black, with its 'Merged glass translucent' overlay in"
+    },
+    {
+     "by": "MAC_FABLE",
+     "at": "2026-11-12T22:32Z",
+     "text": "MAC_FABLE: the black frame around the Far from home home icon is fixed (cf99e68c51). e2d47a169f had inset the Download Update 'Merged glass opaque' body by -40,-40, so its full-size 'Merged glass translucent' overlay, which rests black at a"
     }
    ]
   },
@@ -1530,18 +1530,18 @@
    "notes": [
     {
      "by": "PASIKA",
-     "at": "2026-11-12T20:43Z",
-     "text": "PASIKA 22:43: drain running in Play. tiles.sqlite 8.6 GB (was ~1.9), payloads 12 GB in 34204 files left, map.sqlite 2.7 GB; no store issue, write_failures 0. Leaving it to run overnight; next read at the next tick."
-    },
-    {
-     "by": "PASIKA",
-     "at": "2026-11-12T21:44Z",
-     "text": "PASIKA 23:45: the drain had stopped at 23:27, migration Failed: 'Retiring payloads/36U/XB/0_8/00000404.sqlite: Tile 109661738324 is not in tiles.sqlite at revision 639300924323760000 or newer' (segment row written 15:36Z, before the 19:13Z "
-    },
-    {
-     "by": "PASIKA",
      "at": "2026-11-12T22:15Z",
      "text": "PASIKA 00:15: per-step walk cut (cached 15 s during the drain): 39 -> ~230 segments retired a minute; 31066 files left, about 2.3 h to empty. When it ends: remove the old allocator/catalog/merge code per the 430 note, then delete the D: saf"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T22:21Z",
+     "text": "REVIEW-467-CR-9108-01: P2 catch-up writes in 91089a28c bypass the established copy-room/Waiting path; a recorded SQLite FULL leaves Failed and does not resume when space returns. [S1/S2 source/SQL evidence, same-state repair sketch and nati"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T22:21Z",
+     "text": "REVIEW-467-CC-9108-01: P3 complexity brief for quiz: catch-up copies one newer row into a shared buffer then commits it, bypassing the existing 16-row/1 MiB migration batch. [S1/S2 exact scan/writer/staging sketch, 16-versus-1 portable SQL "
     }
    ]
   },
@@ -2452,5 +2452,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "586d3670284d420efac4459dd013d1106a6821c8"
+ "source_revision": "b92ef6ec1ce15a27759ab5e1db6cc096c6a199a1"
 }
