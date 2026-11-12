@@ -29,7 +29,7 @@
     {
      "who": "CLOUD_META_BOARD",
      "since": "2026-11-12T13:34Z",
-     "noted": "",
+     "noted": "2026-11-12T13:36Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -51,11 +51,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_E",
-     "at": "2026-11-12T08:14Z",
-     "text": "CLOUD_E prepared, not applied (waits for quiz): in Distribution_Manager.cs ~line 325 keep the seven input comparisons as the condition for { capture inputs; EnsureMyPerson(); RefreshInventoryHistory(); } and run UpdatePinnedStock() separate"
-    },
-    {
      "by": "PASIKA_NOTICE",
      "at": "2026-11-12T09:06Z",
      "text": "PASIKA_NOTICE 2026-11-12: S2 brief with current snippet and proposed sketch already exists (Coordination/Reviews/4a3bb96ed.md#cc-14fa-01--supply-stock-progress-repeats-an-unrelated-person-search) and still matches the code; only the lines m"
@@ -64,6 +59,11 @@
      "by": "CLOUD_BOARD",
      "at": "2026-11-12T10:02Z",
      "text": "No longer waits for quiz (root AGENTS, User intent is carried out, quiz 2026-11-12: a design pick between ways of reaching a clear intent is the agent's). Cloud-doable C#, per-frame logic, so careful with allocations: CLOUD_E's prepared cha"
+    },
+    {
+     "by": "CLOUD_META_BOARD",
+     "at": "2026-11-12T13:36Z",
+     "text": "CLOUD_META_BOARD 2026-11-12: Distribution_Manager.cs upkeep: EnsureMyPerson and RefreshInventoryHistory now run only when an input changed (bool inputsChanged); UpdatePinnedStock runs when inputs changed or the stock pass is unfinished, so "
     }
    ]
   },
@@ -8930,5 +8930,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "511829008b87e016fbceb007dc23cb66091da7fe"
+ "source_revision": "2f2c062cf0d5507fee3d1f1b4b44f33947f37afe"
 }
