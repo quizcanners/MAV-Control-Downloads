@@ -337,57 +337,6 @@
    "notes": []
   },
   {
-   "n": 24,
-   "name": "Copernicus globe relief build",
-   "done": "2026-11-09T05:00Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "25% of tiles built",
-     "x": true
-    },
-    {
-     "t": "50% of tiles built",
-     "x": true
-    },
-    {
-     "t": "75% of tiles built",
-     "x": true
-    },
-    {
-     "t": "100% of tiles built",
-     "x": true
-    },
-    {
-     "t": "Unity smoke test passes",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-08T19:08Z",
-     "text": "Copernicus crossed 50%: 14,780 of 26,450 committed tiles (55.88%) in a read-only SQLite count. Worker PID 29412 and launcher 33640 are live. Next milestone is 19,838 tiles."
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-09T04:55Z",
-     "text": "Full-resolution Copernicus aggregation finished at 01:14 Kyiv time with 26,450/26,450 committed tiles and zero reported errors. Raw output matches its SHA-256 manifest. Preparing the Unity smoke candidate with the existing NOAA underwater d"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-09T04:59Z",
-     "text": "Published 2dfa940d67 on main. Copernicus 26,450/26,450, with 5,529,193 negative NOAA cells verified byte-for-byte in the merged 4096x2048 grid; LFS SHA-256 b668209b374becb2218d4405f2e0ebec9c6b8f04682ffea2905fef1fc213b513. Windows Unity 6000"
-    }
-   ]
-  },
-  {
    "n": 29,
    "name": "Phone check of idle 2 FPS (after",
    "done": "2026-11-10T07:50Z",
@@ -8098,7 +8047,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG_OPUS",
+     "since": "2026-11-12T05:04Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 16
+    }
+   ],
    "steps": [
     {
      "t": "(was 55) Sample PSS on Strong at boot, 30 s, 60 s and 120 s idle",
@@ -8653,5 +8611,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "56d2763922137f537f36003fd16383c9810c0604"
+ "source_revision": "04f78a3d37fd6f51060a8f3209bc2683e732550f"
 }
