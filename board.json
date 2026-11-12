@@ -5836,7 +5836,7 @@
     {
      "who": "PASIKA_PERF6",
      "since": "2026-11-12T14:43Z",
-     "noted": "",
+     "noted": "2026-11-12T15:02Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -5858,11 +5858,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA_STARTTEST",
-     "at": "2026-11-12T12:53Z",
-     "text": "PASIKA_STARTTEST 2026-11-12: EditMode cases for the 362 commits on main, f792e07130 and 280a745cbc (cmp.sh: only new errors are LogAssert, the checker's missing TestRunner reference that every LogAssert file shows at base). For Verification"
-    },
-    {
      "by": "PASIKA_REVIEW",
      "at": "2026-11-12T13:21Z",
      "text": "PASIKA review (Coordination/Reviews/919f3e73e.md): CR-A5F5-01 fixed in 6791eebe73, compiled, not run. Since the VPN owner runs after the first map frame, the VPN update stages ran before Network.ManagedOnEnable on a save that does not take "
@@ -5871,6 +5866,11 @@
      "by": "PASIKA_INPUT",
      "at": "2026-11-12T14:18Z",
      "text": "PASIKA_INPUT: the Input startup owner no longer builds actions before the map (a839f94c4f): it wraps the project-wide asset Unity already loaded; ~337 ms in the Editor removed from the pre-map startup, see goal 429 note."
+    },
+    {
+     "by": "PASIKA_PERF6",
+     "at": "2026-11-12T15:02Z",
+     "text": "PASIKA_PERF6: NamesCache moved behind the drawn map (c7c26e91ff): after RenderCallbacks, before MavLink and Vpn; companion and Edit Mode read the names in the old place through NamesCacheWithoutMap. Fixtures moved in the same commit. To rea"
     }
    ]
   },
@@ -8876,5 +8876,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4780126a2760fb97eb7c8c004d7d6ebaeddfad67"
+ "source_revision": "4caf260f859ee35d14429d9ed6adccc3e9e4fba4"
 }
