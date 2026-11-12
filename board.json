@@ -6620,11 +6620,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-12T15:00Z",
-     "text": "GETAC 2026-11-12 16:56-17:00, step 'Strong + radio: an active PAN attempt on Dev 823 or newer', on Dev 826 at fa66743148 with SV07 on and nearby (quiz). Before: SV07 bonded, PAN policy 100, not connected; the Getac's own Windows PAN adapter"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-12T15:23Z",
      "text": "GETAC 2026-11-12 17:10, SV07 Bluetooth without CPS (quiz: 'no CPS. Check what you can'). 1) What the radio gives Windows (the Getac's saved lease, Tcpip interface {7ABF1CC6}): DHCP server 192.168.11.1, address 192.168.11.2/24, gateway 192.1"
     },
@@ -6632,6 +6627,11 @@
      "by": "GETAC",
      "at": "2026-11-12T15:33Z",
      "text": "GETAC 2026-11-12 17:30, SV07 on the Lenovo (to test the Strong's odd Bluetooth address): Lenovo TB-8506X, Android 11, Bluetooth address 08:38:E6:A2:59:F0 (even first byte, so its PAN address would equal it). On ADB its lock screen showed a "
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-12T15:50Z",
+     "text": "GETAC 2026-11-12 17:49, CONFIRMED the cause of the Strong's SV07 Bluetooth failure. DJI RC Plus 2 (9N9CNAV0017VKU, Android 11, Bluetooth address 0C:9A:E6:E8:66:25, even first byte), paired with SV07 by quiz: bt-pan UP with inet 192.168.11.2"
     }
    ]
   },
@@ -8869,5 +8869,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "419fd9b9b2401545e4c3c5eafa41489a940701c8"
+ "source_revision": "7ac21ac10b59f8ab0907bb97381157ebd4ce6d55"
 }
