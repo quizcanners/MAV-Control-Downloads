@@ -7370,7 +7370,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLOUD_C",
+     "since": "2026-11-12T08:06Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 2
+    }
+   ],
    "steps": [
     {
      "t": "Android notification lists active processes (NOTIFICATION-ACTIVE-PROCESSES)",
@@ -8940,5 +8949,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "99c12641adb78ed747d84152af6bd09e4a21a69e"
+ "source_revision": "a4de69d455c85c71adbcfdfb639a24b71831ca45"
 }
