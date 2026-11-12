@@ -6033,7 +6033,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-12T14:48Z",
-     "noted": "",
+     "noted": "2026-11-12T14:52Z",
      "progress": 0,
      "ticked": 0,
      "total": 7
@@ -6071,11 +6071,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_VPNS",
-     "at": "2026-11-10T10:23Z",
-     "text": "From the one-MavServer rework (main 414581eb; quiz, 2026-11-10: \"But no longer backup servers, multiple coordination servers, multiple routing servers - just too much complexity.\"): the sync between MavServers, the mesh half of this task's "
-    },
-    {
      "by": "MAC_FABLE",
      "at": "2026-11-12T10:56Z",
      "text": "MAC_FABLE 366, Mac Editor, 2026-11-12: neither Editor half could be run here. What the Editor showed in Play: coordination server route live (authenticated_route_live=True), but vpn.handshake reads vpn_verdict=NoVpn, 'VPN: not connected' (t"
@@ -6084,6 +6079,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-12T14:23Z",
      "text": "quiz, 2026-11-12: should the Mac join the VPN for the live-station tasks? 'Yes.' The Mac brings up the MAV WireGuard tunnel (10.10.10.x) and no longer stops on NoVpn; the live-station reads of this task are the Mac's."
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-12T14:52Z",
+     "text": "GETAC 2026-11-12, quiz: 'Strong Tablet says WireGuard fails to start'. Direct cause: GETAC's own device runs. Each 'adb shell am force-stop com.shershni.mavcontrol' before a cold start (12:46:09 and 15:19:10) left the package stopped=true f"
     }
    ]
   },
@@ -8884,5 +8884,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "cf79f0485706ab8fab68742d8e8acf92159aa486"
+ "source_revision": "d0444754981a382bd34222b0bb59733fe3e4e71e"
 }
