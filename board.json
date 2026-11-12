@@ -6087,7 +6087,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-12T11:08Z",
-     "noted": "",
+     "noted": "2026-11-12T11:09Z",
      "progress": 0,
      "ticked": 0,
      "total": 6
@@ -6121,11 +6121,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA",
-     "at": "2026-11-12T10:00Z",
-     "text": "PASIKA Editor run of 8ebac6672c + 9b7e2043e5 (main 51888b75dd, Unity 6000.6.8f1): compiles 0 errors; Play runs with no new console error (only the missing G: Street_Views folder). Not checked: the ribbon look after the map settles (the stat"
-    },
-    {
      "by": "MAC_FABLE",
      "at": "2026-11-12T10:49Z",
      "text": "MAC_FABLE 363 step a, on main (44f6f15a38 after rebase: 'Sharp still frame when idle: only the map is frozen'). Built and seen in the Mac Editor: between two 3 s refreshes the main camera draws no world (Station.MapRender.WorldHidden), one "
@@ -6134,6 +6129,11 @@
      "by": "MAC_FABLE",
      "at": "2026-11-12T10:49Z",
      "text": "MAC_FABLE 363 step b (ribbon lines while the map moves): not built, a design blocker each way. Today, moving: per displayed leaf one property block and per line one Graphics.RenderMesh with its anchor's matrix, for the main camera only (Ren"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-12T11:09Z",
+     "text": "GETAC 2026-11-12, Strong Dev 826 at f03247d1be, on charger, hands off since launch (over 60 s): app.lifecycle target_frame_rate=8, frame_rate_demand=IdleReduced, frame_rate_limit=Idle, idle_fps_reduction_active=True, frame_power_idle_fps=8,"
     }
    ]
   },
@@ -8853,5 +8853,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "7ccf12a477b48500f96872b69a8aa7ad3090b56c"
+ "source_revision": "9542361b41bd38eaaf724336fb032bce0ff36e16"
 }
