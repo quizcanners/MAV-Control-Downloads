@@ -7121,11 +7121,6 @@
    "notes": [
     {
      "by": "MAC_FABLE",
-     "at": "2026-11-12T13:39Z",
-     "text": "MAC_FABLE batch 3, step 2. (a) d1a8ab2077: the Scene row was the only list row on the List Capsule prototype, whose unmerged overlay is List Capsule Overlay.mat (LiquidGlassCapsule shader), so the pointed tint drew as a flat fill; it now us"
-    },
-    {
-     "by": "MAC_FABLE",
      "at": "2026-11-12T14:09Z",
      "text": "MAC_FABLE batch 3, step 5: neither the iPhone nor the iPad is on the cable, so the drag from a row and the flick constants are still not tuned."
     },
@@ -7133,6 +7128,11 @@
      "by": "MAC_FABLE",
      "at": "2026-11-12T15:33Z",
      "text": "MAC_FABLE batch 4, step 6: no iPhone or iPad on the cable, so the drag from a row and the flick constants are still not tuned."
+    },
+    {
+     "by": "MAC_FABLE",
+     "at": "2026-11-12T16:22Z",
+     "text": "MAC_FABLE batch 5, step 5: the scripted pointer cannot rest on an unselected Scene row. A click selects the row, and a press on the panel moved onto a row is taken as a jump that leaves the pointer outside the view (ui.pointed read 'Mouse O"
     }
    ]
   },
@@ -8923,5 +8923,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "cb3abe9c98ace054e51621cdd2b9e5979dab4fc8"
+ "source_revision": "537e33b71fc320381e8af0ffa088e5040ee234b5"
 }
