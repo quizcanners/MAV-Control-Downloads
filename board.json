@@ -8641,8 +8641,8 @@
     {
      "who": "MAC_FABLE",
      "since": "2026-11-12T16:33Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-12T16:39Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -8658,6 +8658,11 @@
      "by": "MAC_FABLE",
      "at": "2026-11-12T16:04Z",
      "text": "MAC_FABLE batch 5, step 1. Seen in Play: the flat part was not Fade Out (the strip background, already Blur Display Panel.mat) but the one list panel's own backing behind the rows, Lists Root/Swipe Backing and the Swipe Handle, which kept D"
+    },
+    {
+     "by": "MAC_FABLE",
+     "at": "2026-11-12T16:39Z",
+     "text": "MAC_FABLE batch 6, step 1. The blur of the Increase Blur path had no material setting (a fixed 0.006 tap distance in the shader). d4c267de16 adds _BlurSpread to BlurDisplay.shader with the same 0.006 default, so the 13 materials on that sha"
     }
    ]
   },
@@ -8963,5 +8968,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a85f4e8f346077e8e89d6172fafd093bc969aa12"
+ "source_revision": "0e7ff4078ed880bb32ffe401c4da3579c131858b"
 }
