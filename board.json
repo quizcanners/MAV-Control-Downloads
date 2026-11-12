@@ -6060,11 +6060,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_B",
-     "at": "2026-11-12T08:09Z",
-     "text": "CLOUD_B 2026-11-12: nothing code-only left; blind-spot recording check (tablet or Editor) and Raspberry Pi verification on the Pi are machine steps."
-    },
-    {
      "by": "PASIKA_WIFI",
      "at": "2026-11-12T12:32Z",
      "text": "EDITOR STEP for PASIKA: blind-spot recording proof in Editor Play (WIFI-BLIND-SPOT-RECORDING), backdoor only, after a recompile of 919f3e73e5: synthetic.enable on; wifi.layer on; wifi.blindspots (baseline: note zone_enabled/hiding/radius_m "
@@ -6073,6 +6068,11 @@
      "by": "PASIKA_WIFI",
      "at": "2026-11-12T12:32Z",
      "text": "PASIKA_WIFI: (1) verdict: database gate (TryAdd/TryMergeIncoming/sweep) honours the zone; live Pi path did not when the zone was not known: ClassifyBlindSpot mapped HomeUnknown/CoverageUnavailable to Outside, so readings were stored and liv"
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-12T12:35Z",
+     "text": "PASIKA: e58c5b72d4 and 919f3e73e5 are on main. The EDITOR STEP sequence was NOT run on the PL-007 Editor station on purpose: it is this PC's live VPN station, and wifi.simulation.spawn would put ~1800 simulated WiFi records into its saved e"
     }
    ]
   },
@@ -8831,5 +8831,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "252b792d05896d2704b7f1d37c2ba7485fac9c9e"
+ "source_revision": "d7a31d21baf59fdf1ce1220c9cb4f0b92787ceee"
 }
