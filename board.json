@@ -7167,7 +7167,9 @@
    "done": "",
    "goal": true,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-12T14:22Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -7175,7 +7177,7 @@
    "steps": [
     {
      "t": "Cloud: the pages under the eight Settings roots get what the roots got in b5e0c4",
-     "x": false
+     "x": true
     },
     {
      "t": "quiz's word: which rows he means by foldouts that do not take the free width; th",
@@ -7454,7 +7456,7 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-12T14:21Z",
-     "noted": "",
+     "noted": "2026-11-12T14:22Z",
      "progress": 0,
      "ticked": 0,
      "total": 15
@@ -7524,11 +7526,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA",
-     "at": "2026-11-12T14:01Z",
-     "text": "PASIKA Editor check of the four 919f3e73e fixes (main 25b44aa414, Unity 6000.6.8f1, PL-007 station): compiles 0 errors; Play: update_stage_errors 0, map present 5.58 s; inbox after restart latest_seq=541 oldest_seq=286 evicted=285 (CR-8CE4-"
-    },
-    {
      "by": "PASIKA_INPUT",
      "at": "2026-11-12T14:18Z",
      "text": "PASIKA_INPUT: Input owner actions_build_ms=337.041 was new WarStationInput() building a C# copy (CreateInstance, 2 maps, 8 actions, 16 binding adds, each a Guid and an Editor AssetDatabase lookup via MarkAsDirtyInEditor) of WarStationInput."
@@ -7537,6 +7534,11 @@
      "by": "PASIKA",
      "at": "2026-11-12T14:21Z",
      "text": "PASIKA re-measure after a839f94c4f (Input actions from the project-wide InputSystem.actions asset), PL-007 Editor station, warm Play: startup_input touch_ms=0.488 hooks_ms=0.471 actions_build_ms=0.344 (was 337.041) actions_enable_ms=0.032 d"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T14:22Z",
+     "text": "ROG_FABLE 2026-11-12, the 494 read (folded here). Editor Play on the Rog (Unity 6000.6.8f1, Android target, 2000x1152), Map scene over the Deep State area (Deep State layer on), read by a new ui.status line screen_pixel_scale (2d1b6e392a). "
     }
    ]
   },
@@ -8810,5 +8812,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0368c00322b61b4bf847f95659cf9d18717aca90"
+ "source_revision": "19cfe8bd791a87514113f5e6c139ce622ad61af9"
 }
