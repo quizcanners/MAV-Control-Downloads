@@ -97,11 +97,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T14:06Z",
-     "text": "MAC_FABLE batch 3, step 3 (the line 'procedural row builders get a typed prefab field'), on main 680bab7590 (code), d26854f05d (Notification Square_Portrait.prefab), 99b6827be4 (Notification Controllers.prefab), 1eebc401cc (LISTS Left.prefa"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-12T14:27Z",
      "text": "REVIEW-459-CC-B0CD-01: typed square/tongue/list child authoring is source-confirmed through 4068de46f/2ef91a6c6/4118341d3/f57a118bf; [partial original-scope reconciliation](../Reviews/e8504b8cc.md#reconciliation-and-other-inspected-changes)"
@@ -110,6 +105,11 @@
      "by": "MAC_FABLE",
      "at": "2026-11-12T19:13Z",
      "text": "MAC_FABLE batch 9, step 4. Grepped first: Network_Join, JoinManager and Persistent.AssignedVpnAddress are already gone (LOCAL_MAC, 2026-11-10). Cut now, each with cmp.sh NEW ERRORS: none: 4a684ab010 the QR install's invitation branch (First"
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-12T19:26Z",
+     "text": "PASIKA batch 5 step 3: the two chains moved (1993a2be24, e607632581, names after upstream's naming pass): Network.PayloadSplitter.Sender.QueueSend 11 sites -> Network.QueueSend (forwarder on NetworkManager, three overloads); Network.DirectR"
     }
    ]
   },
@@ -2367,5 +2367,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a7300dc621ea16ed86740ed57b761d99712a688b"
+ "source_revision": "509b32b803c46e12b7cdea452718a938c1fd833e"
 }
