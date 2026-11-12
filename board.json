@@ -6811,11 +6811,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T06:45Z",
-     "text": "Reconcile (CLOUD_THREAD, from HEAVY's notes): the render families of this task are green on Windows (Surface 52, Element Lighting 25, Display Masks 7, Shader Pass 22, Draw Patch Reuse 27, Mask Store 23, UI Shader Import 9, Pilot Track 10, L"
-    },
-    {
      "by": "ROG_OPUS",
      "at": "2026-11-12T07:15Z",
      "text": "ROG_OPUS 2026-11-12 batch 23: bridge step done on Rog. The Editor descriptor (Library/AI Sandbox/connection.json, protocol 2) names editor_port 17693; api.status answered on it after every script reload today: after assets.refresh recompile"
@@ -6824,6 +6819,11 @@
      "by": "CLOUD_E",
      "at": "2026-11-12T08:14Z",
      "text": "CLOUD_E: remaining steps need the fresh Windows machine (All run, native imports, desktop player). Nothing advanced from cloud; see task 7 note for the C#/tool fixes pushed meanwhile."
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-12T08:37Z",
+     "text": "For PASIKA (heavy): the full EditMode All at 83f8f0bc63 (Mac, 2026-11-12) is red, so every iOS daily build needs --skip-tests. About 22 failures, mostly UI layout tests pinned to the old shape of reworked screens: ChatWindowLayoutTests.Chat"
     }
    ]
   },
@@ -8917,5 +8917,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "70394f661bb72027a1fec4c7445c77b53181238d"
+ "source_revision": "7d92abbb4d5b78ba8226731099d022b5fc17d2b9"
 }
