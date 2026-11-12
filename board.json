@@ -8189,7 +8189,7 @@
     {
      "who": "CLOUD_A",
      "since": "2026-11-12T08:05Z",
-     "noted": "",
+     "noted": "2026-11-12T08:08Z",
      "progress": 0,
      "ticked": 0,
      "total": 22
@@ -8287,11 +8287,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-12T00:55Z",
-     "text": "REVIEW-446-CC-6DAA-01: 8b0de935d source-repairs the repeated global hide marking: OR-combined existing gates stage one mark, setter/display hide stays immediate and no longer marks. Existing code/device baseline and claim state retained; so"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-12T04:57Z",
      "text": "Batch 31 (pinch stall), 509da0297d (Unity compile 0 errors): Planet > Patch Preparation > Mask Demand now has four children in performance.top: Mask View (TryGetView + Ocean view), Parallax Cells (CaptureParallaxCells), Display Mask (Planet"
@@ -8300,6 +8295,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-12T05:07Z",
      "text": "Batch 31 prompt could not be opened by the Mac (it lived in cloud project files). Now at Coordination/Prompts/machine_prompts_2026-11-12.md; AGENTS.md says prompts are committed there. Not seen from the prompt: step 3 (first pure-code item "
+    },
+    {
+     "by": "CLOUD_A",
+     "at": "2026-11-12T08:08Z",
+     "text": "CLOUD_A 2026-11-12: code part done. 55dbede20d: mask answers re-asked per frame are budgeted to about 4 ms (patches past it replay their last answer and re-ask next frame), aimed at the 237 ms Mask Demand pinch frames; uncompiled, PlanetRen"
     }
    ]
   },
@@ -9040,5 +9040,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4e138fe955428b58f5ffa120ea198c45e704a5bc"
+ "source_revision": "b8e82822848f5fe3951ed1be88d9c3952b86f9f9"
 }
