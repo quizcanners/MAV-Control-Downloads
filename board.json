@@ -493,11 +493,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_FABLE",
-     "at": "2026-11-12T13:02Z",
-     "text": "ROG_FABLE 2026-11-12: Editor late-shutdown access violation, line dropped. The crash report cannot be read: all five report folders on the Rog (Temp/Unity/Editor/Crashes, Crash_2026-10-13 three times, 2026-10-20, 2026-10-31) are empty, no d"
-    },
-    {
      "by": "PASIKA",
      "at": "2026-11-12T18:03Z",
      "text": "PASIKA batch 3 step 3: containing All not run. Tools/Nightly/README 'Preparing a separate runtime data identity' needs a closed clean candidate checkout (prepare_runtime_profile.py --project <candidate>), i.e. a second checkout with its own"
@@ -506,6 +501,11 @@
      "by": "PASIKA",
      "at": "2026-11-12T18:37Z",
      "text": "PASIKA containing EditMode All on main 0d19274307 (candidate C:/MAV_Control/nw/2f7fd984..., GUID data identity, quiz allowed the second checkout 2026-11-12): 8587 tests, 8474 passed, 104 failed, 1 inconclusive, 8 skipped, 206 s. Not qualifi"
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-12T18:39Z",
+     "text": "PASIKA: the temporary test-run copies are deleted (C:/MAV_Control source clone and candidate, and its LocalLow MavControlVerification-54042afe... data); the PASIKA Editor station is back in Play. Per-fixture failure list kept in the agent s"
     }
    ]
   },
@@ -2384,5 +2384,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "9ea305488b40fc1b838df2c176329cd454772766"
+ "source_revision": "7005b74755cf1cc0b64672cc1451aba2dddc7086"
 }
