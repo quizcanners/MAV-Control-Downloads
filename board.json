@@ -2326,19 +2326,14 @@
     {
      "who": "MAC_FABLE",
      "since": "2026-11-12T20:35Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-12T20:52Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "CLOUD_MAC_BATCH",
-     "at": "2026-11-12T19:46Z",
-     "text": "Metal half of this is Mac Fable batch 11 step 2 (compile messages, ShaderPassCompilationTests on Metal, a decal drawn mirrored). Prompt: Coordination/Prompts/machine_prompts_2026-11-12_mac_fable11.md"
-    },
     {
      "by": "CLOUD_SHADER_CHECK",
      "at": "2026-11-12T19:49Z",
@@ -2348,6 +2343,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-12T20:15Z",
      "text": "Rog D3D11 shader compile (batch 8 step 1, 8d989294ef): added to ShaderPassCompilationTests.Paths the 11 shaders of 46a41dfa/1880dbb8 that were missing (WifiSignalMap_PseudoDecal, BlurredWorld, ControlZone_PseudoDecal, Situation Grouped Icon"
+    },
+    {
+     "by": "MAC_FABLE",
+     "at": "2026-11-12T20:52Z",
+     "text": "MAC_FABLE batch 11 step 2 (Metal, Mac Editor, main f5481745c3). After the import and two Play sessions the Console has no shader compile message for the listed shaders. The only Metal shader error this run was 'Unlit/Blur Display' undeclare"
     }
    ]
   },
@@ -2472,5 +2472,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "acf39c1740322e7ac10cf2d7069ddaf9b7de95e3"
+ "source_revision": "aa507d969ff07ed5bf7ddfb81115f378ec68f67f"
 }
