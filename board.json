@@ -906,7 +906,7 @@
     {
      "who": "PASIKA",
      "since": "2026-11-12T17:10Z",
-     "noted": "",
+     "noted": "2026-11-12T17:12Z",
      "progress": 0,
      "ticked": 0,
      "total": 8
@@ -949,11 +949,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-12T16:05Z",
-     "text": "GETAC mixed USB/PAN follow-up: app-off MOTOTRBO USB gateway 192.168.10.1 from Getac 192.168.10.2 returned 12/12 at 1\u20132 ms, zero adapter errors/discards, PnP OK. Windows MAV Control PID 26488 has no visible window, no UDP listener or Debug b"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-12T16:23Z",
      "text": "GETAC resumed. DJI RC Plus 2 Android Dev 822: SV07 bt-pan IPv4 192.168.11.2, source-bound gateway replies 3/3 (47\u201362 ms), MAV Control Bound at 192.168.11.2:41001 with bt-pan, own Radio ID still unconfirmed, one TX and zero RX in the first s"
     },
@@ -961,6 +956,11 @@
      "by": "GETAC",
      "at": "2026-11-12T16:29Z",
      "text": "Getac Debug Mode verified on Windows 817: own ID 6087565 confirmed, USB socket pin requested/readback 19, 192.168.10.2:41001. DJI still absent from ADB and agent route refused NoMavControlHeartbeat. Ran one directed test to operator-provide"
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-12T17:12Z",
+     "text": "PASIKA 17:12Z (quiz: 'You and Getac have radios, they should hear each other'): PASIKA Editor station has Motorola On, method USB, own ID entered 6089031 (unconfirmed), CAI 12, port 41001. But Windows on PASIKA enumerates NO Motorola USB de"
     }
    ]
   },
@@ -2212,5 +2212,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "002ad186b7013a7d6c6b25eba13f28871a126925"
+ "source_revision": "64615c12e876c305ae245ad21f8108d47e8cb03e"
 }
