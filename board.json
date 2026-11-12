@@ -7522,11 +7522,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-12T14:23Z",
-     "text": "quiz, 2026-11-12: should the Mac join the VPN for the live-station tasks? 'Yes.' The Mac brings up the MAV WireGuard tunnel (10.10.10.x) and no longer stops on NoVpn; the live-station reads of this task are the Mac's."
-    },
-    {
      "by": "PASIKA_REVIEW2",
      "at": "2026-11-12T14:39Z",
      "text": "PASIKA_REVIEW2: review of the PASIKA C# after the first PASIKA review (Coordination/Reviews/2d1b6e392.md). Brief CR-305B-01 P3: 305b9b5aad saves the Entry.InInbox mark through Save(), which bumps the ticket Generation, so agent.ticket.next/"
@@ -7535,6 +7530,11 @@
      "by": "PASIKA_PERF5",
      "at": "2026-11-12T14:40Z",
      "text": "PASIKA_PERF5 2026-11-12, seventh code pass (Windows PC, no Editor, no device; cmp.sh NEW ERRORS: none on each tree). 1) Done: fa33bad0f3 AndroidInsets and IosCorners run behind the drawn map, after Vpn (8-15 ms JNI before the map on the Str"
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-12T14:41Z",
+     "text": "PASIKA re-read after 429 pass 7 (fa33bad0f3, 845f568a8c, 01e831d6da) + 4c34ebd622, main 89881d69b2, PL-007 Editor station, warm Play: map present 5.46 s; startup_phase_ms Initializing=552 (was 1884 this morning, before the Input and AgentCh"
     }
    ]
   },
@@ -8848,5 +8848,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b4ac068dc51cc54e0a9607a334c354d79000f1f0"
+ "source_revision": "5e0e6eda234aef5d0459d38c0b7395dfff32e391"
 }
