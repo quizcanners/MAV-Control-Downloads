@@ -7573,11 +7573,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA",
-     "at": "2026-11-12T11:53Z",
-     "text": "PASIKA live check of 8ce4f01fc7 on the PL-007 Editor station (main 5c51f2a8af): agent.status inbox latest_seq=541 oldest_seq=286 evicted=285, no eviction_issue; agent.inbox after=0 -> skipped=285, next=286; peers and agent channel unchanged"
-    },
-    {
      "by": "CLOUD_ENTITIES",
      "at": "2026-11-12T12:00Z",
      "text": "CLOUD_ENTITIES 2026-11-12: the line folded from 171 (compiled counts for the fragment baseline) names LBZ_PseudoDecal_Explicit.shader (Situation far). That shader left the project on 2026-11-12 with the full-screen entity texture (goal 479,"
@@ -7586,6 +7581,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-12T12:16Z",
      "text": "ROG_OPUS batch 25 step 5, One Pixel Line single pass (4daafd36), Editor Play on the Rog at 2000x1152, read by the new ui.status line one_pixel_lines (3d5c36e71c; Editor and device-debug only). Enabled lines and cost of the pass per frame: m"
+    },
+    {
+     "by": "PASIKA_REVIEW",
+     "at": "2026-11-12T13:21Z",
+     "text": "PASIKA review of today's 31 perf commits (Coordination/Reviews/919f3e73e.md): no new per-frame allocation and no stale cache found. One brief ready, CR-8CE4-01 (P2, agent channel in AI Sandbox): since 8ce4f01fc7 the inbox forgets an evicted"
     }
    ]
   },
@@ -8904,5 +8904,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0d9f17a1653d6e89c9e78591978b52e32336250c"
+ "source_revision": "438e584371137d122791e3ea9b1ffa28bc192328"
 }
