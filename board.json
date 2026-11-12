@@ -1492,11 +1492,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA",
-     "at": "2026-11-12T15:20Z",
-     "text": "PASIKA re-read after 09b5b27868 + 089a4617bf (main c3b7fc783f, PL-007 Editor station, warm Play): startup_default_position mgrs_ms=4.902 (was 9.608) pose_ms=13.936 (was 14.217); DefaultPosition 19.0 ms (was 24.0); map present 5.182 s; updat"
-    },
-    {
      "by": "CLOUD_PASIKA_GETAC_BATCH",
      "at": "2026-11-12T15:25Z",
      "text": "CLOUD_PASIKA_GETAC_BATCH 2026-11-12: batch 2 written for PASIKA (Coordination/Prompts/machine_prompts_2026-11-12_pasika2.md: 429 and 362 warm-Play reads into STARTUP.md, the 494 scale read, 430 tiles_sumy copy, compiled counts, containing A"
@@ -1505,6 +1500,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-12T17:11Z",
      "text": "ROG_FABLE 2026-11-12 batch 6 step 5 (8c872781e5). Part 2 done: PlanetSourceLight returns colorB + colorAMinusB * t (was lerp(colorB, colorA, t)), TimeOfDayManager publishes _ElementLightColorAMinusB in the same update as A and B (Vector4 ma"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T17:32Z",
+     "text": "ROG_FABLE 2026-11-12: line done and dropped: skybox ground variant 6ce35e52f3 (frame compare max 1/255, fixtures paired with _PLANET_SPACE), Element light A - B from C# (batch 6), Selection Focus 1 - dim already one multiply-add so nothing "
     }
    ]
   },
@@ -2305,5 +2305,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "46438ca6092530d7d4555a59020af109cd37c138"
+ "source_revision": "4d97d14a42696776972fba5de4f7e991fd43586b"
 }
