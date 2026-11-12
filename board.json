@@ -1158,26 +1158,6 @@
    ]
   },
   {
-   "n": 102,
-   "name": "Fix Android IL2CPP geometry sync",
-   "done": "2026-11-09T09:07Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T09:07Z",
-     "text": "9f4eff15b4: [Preserve] parameterless constructors on GeometryInlineRecordsConverter and ChildHashesJson (also attribute-only, Web Mercator child hashes); JsonConverterPreserveTests enforces it for every attribute converter. Rejection semant"
-    }
-   ]
-  },
-  {
    "n": 103,
    "name": "Note from LOCAL_MAC",
    "done": "2026-11-10T07:50Z",
@@ -7227,16 +7207,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "PASIKA_NOTICE",
-     "since": "2026-11-12T09:00Z",
-     "noted": "2026-11-12T09:06Z",
-     "progress": 0,
-     "ticked": 0,
-     "total": 2
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Android notification lists active processes while they change, on an Android dev",
@@ -8897,5 +8868,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "39cc3bf2d6d3e7da394e4b0b74eb53577ea23fe7"
+ "source_revision": "da821a7f2e13530184f3999225c0427e95c82676"
 }
