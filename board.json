@@ -6629,11 +6629,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-12T15:23Z",
-     "text": "GETAC 2026-11-12 17:10, SV07 Bluetooth without CPS (quiz: 'no CPS. Check what you can'). 1) What the radio gives Windows (the Getac's saved lease, Tcpip interface {7ABF1CC6}): DHCP server 192.168.11.1, address 192.168.11.2/24, gateway 192.1"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-12T15:33Z",
      "text": "GETAC 2026-11-12 17:30, SV07 on the Lenovo (to test the Strong's odd Bluetooth address): Lenovo TB-8506X, Android 11, Bluetooth address 08:38:E6:A2:59:F0 (even first byte, so its PAN address would equal it). On ADB its lock screen showed a "
     },
@@ -6641,6 +6636,11 @@
      "by": "GETAC",
      "at": "2026-11-12T15:50Z",
      "text": "GETAC 2026-11-12 17:49, CONFIRMED the cause of the Strong's SV07 Bluetooth failure. DJI RC Plus 2 (9N9CNAV0017VKU, Android 11, Bluetooth address 0C:9A:E6:E8:66:25, even first byte), paired with SV07 by quiz: bt-pan UP with inet 192.168.11.2"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-12T15:55Z",
+     "text": "GETAC 2026-11-12 17:55, Windows USB health snapshot (step 'Getac (radio on USB): Windows USB health snapshot'), radio plugged by quiz at 17:51:28: 'MOTOTRBO Radio #2' USB\\VID_0CAD&PID_1023 on root hub 4&6c40536, driver Motorola Solutions 7."
     }
    ]
   },
@@ -8878,5 +8878,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a8fc0f00cb41cd4530e8033ab827f371be100108"
+ "source_revision": "0beade20d42123d6e317c517e52af9d91ff72851"
 }
