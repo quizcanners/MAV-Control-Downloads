@@ -7018,7 +7018,7 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-12T16:55Z",
-     "noted": "",
+     "noted": "2026-11-12T16:57Z",
      "progress": 0,
      "ticked": 0,
      "total": 1
@@ -7033,11 +7033,6 @@
    "notes": [
     {
      "by": "ROG_FABLE",
-     "at": "2026-11-12T14:24Z",
-     "text": "ROG_FABLE 2026-11-12, for the join-line walk (not reached in batch 3, stays in the next): 48 prefabs still point at the line materials deleted in bb5f443806 (Quiz cAnners_UI_Procedural_Pixel Line, its Up Right variant, UI_PixelLine Solid; g"
-    },
-    {
-     "by": "ROG_FABLE",
      "at": "2026-11-12T15:24Z",
      "text": "ROG_FABLE 2026-11-12 batch 4 step 6, part 1 done: the deleted line material link cleared on every UI_OnePixelLine component, 208 links in 36 prefabs, one commit per prefab (the Distribution Window, Pilot Status Strip, Chat windows, notifica"
     },
@@ -7045,6 +7040,11 @@
      "by": "PASIKA_RELOAD",
      "at": "2026-11-12T16:03Z",
      "text": "PASIKA_RELOAD: Menu / Map source cards scrambled after a script reload during Play: cause and fix in 11646ade01 (LayoutFrame was NonSerialized, UI_MapType.Update threw before the card reflow; details on 507). Seen by the coordinator at 1024"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T16:57Z",
+     "text": "ROG_FABLE 2026-11-12 batch 6 step 4: nothing left to convert. fe5594d68b (18:37, 'Pixel dividers draw one pixel again') already turned the 69 dividers in the 15 prefabs into the one-pixel line; git grep finds no prefab referencing the delet"
     }
    ]
   },
@@ -9010,5 +9010,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "9fc4acc2aeff71a47205a61a8138854d1c6f14c9"
+ "source_revision": "0e953dfd87801c11e52e56d075c696f05f214877"
 }
