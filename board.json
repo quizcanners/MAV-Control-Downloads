@@ -6353,7 +6353,7 @@
     {
      "who": "PASIKA_BOOT",
      "since": "2026-11-12T09:35Z",
-     "noted": "",
+     "noted": "2026-11-12T09:54Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -6376,11 +6376,6 @@
    "notes": [
     {
      "by": "PASIKA_BOOT",
-     "at": "2026-11-12T08:48Z",
-     "text": "PASIKA_BOOT 2026-11-12 summary. 1) Done (C#, cmp.sh NEW ERRORS: none on each push and after the last pull): 4a485e4648 the saved-settings read starts on its worker in OnAfterEnable and overlaps the Map scene load (was: started at the Prepar"
-    },
-    {
-     "by": "PASIKA_BOOT",
      "at": "2026-11-12T09:20Z",
      "text": "PASIKA_BOOT 2026-11-12, second pass with the Editor. 1) Done: 08b0719193 the Station starts its owners in the frame the Map camera arrives (it called its wait one frame late when its Update ran before the scenes owner's: 0.45 s in the Windo"
     },
@@ -6388,6 +6383,11 @@
      "by": "PASIKA",
      "at": "2026-11-12T09:24Z",
      "text": "PASIKA Editor run of 08b0719193 (main 843481dc8a, Unity 6000.6.8f1, cold Play from Bootstrap on PL-007): compile 0 errors incl. perf shaders dd1263e672 (PlanetSurface.hlsl, BlurredWorld.shader, no shader errors); startup_measure_map_present"
+    },
+    {
+     "by": "PASIKA_BOOT",
+     "at": "2026-11-12T09:54Z",
+     "text": "PASIKA_BOOT 2026-11-12, third pass. 1) Done: 2082a4164c the startup owners run in a written order (StartupRunOrder; StartupRunsBefore replaces every < > + 1 on the enum; StartupOwnerIsActive is one rule, the cursor is past the owner; no own"
     }
    ]
   },
@@ -8958,5 +8958,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3e0ad5aee37691cff7a9c81ab4e198473fb96423"
+ "source_revision": "982d6ca4d4afb6a555672f70f850c0cb86da4554"
 }
