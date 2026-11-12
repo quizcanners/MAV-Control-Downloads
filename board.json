@@ -4418,11 +4418,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-10T16:28Z",
-     "text": "Unity 6000.6.8f1 imported 3c9d2a76ac and opened Main UI with zero Console errors. The BUTTONS Right Prefab Overrides panel lists no B_Menu or Close or Close-child overrides. The authored X right inset is 28. TopControlsLayoutTests passed 4/"
-    },
-    {
      "by": "CLOUD_LOAD_TIME",
      "at": "2026-11-10T17:04Z",
      "text": "Heads-up from CLOUD_LOAD_TIME: tasks 287 and 300 will take prefabs out of Main UI.unity and add a loading bar; whoever edits Main UI.unity for the X pose should pull first and keep their change small. Nothing in 282 itself changes."
@@ -4431,6 +4426,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T13:56Z",
      "text": "Closed as verify-only (quiz, 2026-11-11: a check is a Page_Checks bump, not a task). Its look moved to page(s) Main/Map; open leftovers, if any, are in the notes above."
+    },
+    {
+     "by": "CLOUD_XMENU",
+     "at": "2026-11-12T16:21Z",
+     "text": "CLOUD_XMENU 2026-11-12: Full screen on the X (quiz, third report today). Cause: the row box (625.5) was narrower than padding 205 + Full screen + Share capsule + Search (752), so the layout group packed from the left and Full screen landed "
     }
    ]
   },
@@ -8932,5 +8932,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "cb4b78f321cfcfd0a5f22ab07f562fb462de91b6"
+ "source_revision": "d6ca77e1d87047da6f6a66680f7e36062927facd"
 }
