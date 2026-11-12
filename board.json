@@ -187,11 +187,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T19:15Z",
-     "text": "MAC_FABLE batch 9, step 1: f7ab178d3e applies the CR-B998-01 sketch: Station_Inspect.DrawnPixelScale(half, doubled) is the one answer for _MavScreenPixelScale, used by the pre-return publisher, the Editor branch and the player branch (Edito"
-    },
-    {
      "by": "ROG_FABLE",
      "at": "2026-11-12T19:18Z",
      "text": "Rog Editor 2x scale, Windows D3D11, main with CR-B998-01 (2af72293b5), Game view 1920x1080, cfg.stillframe on, Map scene: still map FrozenDouble, kept_picture=True, last_grab_source=3840x2160 against screen=1920x1080 (expected), map_render_"
@@ -200,6 +195,11 @@
      "by": "REVIEW",
      "at": "2026-11-12T19:27Z",
      "text": "REVIEW-464-CR-B998-01: source-resolved by 2af72293b: one actual-scale expression publishes the Editor pixel multiplier, including unchanged moving frames. [Source/Python reconciliation and native limits](../Reviews/d2b034d30.md#cr-b998-01--"
+    },
+    {
+     "by": "MAC_FABLE",
+     "at": "2026-11-12T19:36Z",
+     "text": "MAC_FABLE batch 10 stopped at step 0: main at 5725c5261d compiles clean in cmp.sh (NEW ERRORS: none: 543 naming, 544 ECEF anchor, ProjectSettings). The Mac Editor is still frozen by Shapes' 'Shapes setup checker' modal: the running Editor k"
     }
    ]
   },
@@ -2383,5 +2383,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5725c5261d13384f92d48dc7b68a0960af280e1c"
+ "source_revision": "91a853a51607b4a7b46727404069ea3973507cac"
 }
