@@ -8579,6 +8579,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-12T10:04Z",
      "text": "ROG_OPUS 2026-11-12: Editor steps done, on main up to e92da675dd. Every prefab that draws separators (65 prefabs and scenes) now links UI_OnePixelLine with no material and no Prototype field on the line; RoundedGraphic separators converted;"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-12T10:13Z",
+     "text": "ROG_OPUS 2026-11-12: 141 separator Images (RoundedGraphic on the old line materials, 25 prefabs) are now UI_OnePixelLine, material none; 8 lines lost their material ref; orphan Prototype field dropped from line components in 42 prefabs; Pro"
     }
    ]
   },
@@ -8757,5 +8762,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "8ed8261264e979f1fbb426aa72f19a0ac020fe58"
+ "source_revision": "e7b4ff42a68649f1222e5ad4466c392ea05c63d0"
 }
