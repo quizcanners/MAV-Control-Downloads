@@ -5994,11 +5994,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA_WIFI",
-     "at": "2026-11-12T12:32Z",
-     "text": "PASIKA_WIFI: (1) verdict: database gate (TryAdd/TryMergeIncoming/sweep) honours the zone; live Pi path did not when the zone was not known: ClassifyBlindSpot mapped HomeUnknown/CoverageUnavailable to Outside, so readings were stored and liv"
-    },
-    {
      "by": "PASIKA",
      "at": "2026-11-12T12:35Z",
      "text": "PASIKA: e58c5b72d4 and 919f3e73e5 are on main. The EDITOR STEP sequence was NOT run on the PL-007 Editor station on purpose: it is this PC's live VPN station, and wifi.simulation.spawn would put ~1800 simulated WiFi records into its saved e"
@@ -6007,6 +6002,11 @@
      "by": "REVIEW",
      "at": "2026-11-12T13:23Z",
      "text": "REVIEW-457-CC-919F-01: P3 the bounded count walks tiles after its answer is complete. S1/S2 brief ready: [evidence and proposal](../Reviews/3cdc97366.md#cc-919f-01--p3-the-bounded-count-walks-tiles-after-its-answer-is-complete). Awaits quiz"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-12T14:23Z",
+     "text": "quiz, 2026-11-12: is 'Debug WiFi' the Wi-Fi map layer? 'Yes.' The simulated 'Debug WiFi' network of the Raspberry Pi scanner signal map shows in the Wi-Fi layer."
     }
    ]
   },
@@ -8819,5 +8819,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3b4e222391157ce3fdbafd88830dfac27155b6d4"
+ "source_revision": "b980782a850913599f1990c0f701ed69010afb5b"
 }
