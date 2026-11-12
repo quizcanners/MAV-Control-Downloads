@@ -1455,7 +1455,7 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-12T18:59Z",
-     "noted": "",
+     "noted": "2026-11-12T18:59Z",
      "progress": 0,
      "ticked": 0,
      "total": 14
@@ -1522,11 +1522,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-12T18:25Z",
-     "text": "GETAC 2026-11-12 batch 3 step 1, Strong Dev 826 at 1fe7cbaa6b, map at rest: smoke.run Failed only on the new step 'map cache refresh rate': cache_refreshes=6 in_s=6.6 allowed=5.3 per_s=0.78 visuals_version=769 (54 steps, 85.6 s, one skip: w"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-12T18:50Z",
      "text": "GETAC 2026-11-12 batch 3 step 4, Strong Dev 826 at 1fe7cbaa6b. (a) 30 s idle capture: 19 GC collections (same as 826 f03247d1be), 7.0 MiB allocated, 31.7 KB/frame; top: VPN Chat > Payload Splitter > Send Admission > General background sends"
     },
@@ -1534,6 +1529,11 @@
      "by": "GETAC",
      "at": "2026-11-12T18:58Z",
      "text": "GETAC 2026-11-12 batch 3 summary. 1) Done: signed Dev 826 from 1fe7cbaa6b built and installed on the Strong (BUILD_HISTORY); smoke 'map cache refresh rate' failed at 0.78/s, cause found (mask views evicted between FrozenDouble's 2 s draws) "
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T18:59Z",
+     "text": "ROG_FABLE 2026-11-12 batch 7 step 2, the fixtures behind today's changes, EditMode on the Rog under the station test identity: MapRenderModeTests 6/6, PlanetMaskStoreTests 23/23 (3be96033c6), MapEditingToolJoinTests 5/5, MainCameraTouchAngl"
     }
    ]
   },
@@ -2298,5 +2298,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "51cb9f293f44e8961e39ea6005ef63f673a0669d"
+ "source_revision": "3fb8a3d6f297785dd737c5bb66dd6bf3dd764bbd"
 }
