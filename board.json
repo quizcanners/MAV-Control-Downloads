@@ -6812,7 +6812,7 @@
     {
      "who": "CLOUD_E",
      "since": "2026-11-12T08:05Z",
-     "noted": "",
+     "noted": "2026-11-12T08:14Z",
      "progress": 25,
      "ticked": 1,
      "total": 4
@@ -6838,11 +6838,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-11T06:29Z",
-     "text": "Windows D3D11 rerun 181/181 green after 2ed8276852 (quiz-approved Sun/Pilot expectations) and 7275fc3426 (page fixture binds the mask channel uniforms and transform at draw time). Surface 52/52; Element Lighting 25/25; Display Masks 7/7; Sh"
-    },
-    {
      "by": "CLOUD_THREAD",
      "at": "2026-11-11T06:45Z",
      "text": "Reconcile (CLOUD_THREAD, from HEAVY's notes): the render families of this task are green on Windows (Surface 52, Element Lighting 25, Display Masks 7, Shader Pass 22, Draw Patch Reuse 27, Mask Store 23, UI Shader Import 9, Pilot Track 10, L"
@@ -6851,6 +6846,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-12T07:15Z",
      "text": "ROG_OPUS 2026-11-12 batch 23: bridge step done on Rog. The Editor descriptor (Library/AI Sandbox/connection.json, protocol 2) names editor_port 17693; api.status answered on it after every script reload today: after assets.refresh recompile"
+    },
+    {
+     "by": "CLOUD_E",
+     "at": "2026-11-12T08:14Z",
+     "text": "CLOUD_E: remaining steps need the fresh Windows machine (All run, native imports, desktop player). Nothing advanced from cloud; see task 7 note for the C#/tool fixes pushed meanwhile."
     }
    ]
   },
@@ -8884,5 +8884,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "543baddd05b3c51d5ac02eca388ae51954868c79"
+ "source_revision": "6af8c5de136f2ec71afef3300894a3a857b3cd49"
 }
