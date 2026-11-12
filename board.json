@@ -6617,7 +6617,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-12T14:54Z",
-     "noted": "",
+     "noted": "2026-11-12T15:00Z",
      "progress": 0,
      "ticked": 0,
      "total": 8
@@ -6660,11 +6660,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-11T10:28Z",
-     "text": "GETAC built Brigade 68 Android Dev 823 from 46a76c0d3f for local Strong testing. Unity 6000.6.8f1 build exit 0 after correcting the Windows process PATH. Local APK and build report: D:/MAV_Work/Verification/Strong-Android-Dev-46a76c0d3f-202"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-11T10:34Z",
      "text": "Strong installed Android Dev 823 (46a76c0d3f) in place. APK SHA256 matched, saved settings hash matched, bootstrap ready 4.928 s, map rendered, zoom in/out and pose restore worked. 180 s startup held one PID and VPN, but four map ribbon Nul"
     },
@@ -6672,6 +6667,11 @@
      "by": "CLOUD_D",
      "at": "2026-11-12T08:10Z",
      "text": "CLOUD_D 2026-11-12: no code/docs step left that cloud can do; everything open is device/build-machine/quiz-wait (see the unticked steps; 374 CR-4066-01 waits for quiz). Nothing changed."
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-12T15:00Z",
+     "text": "GETAC 2026-11-12 16:56-17:00, step 'Strong + radio: an active PAN attempt on Dev 823 or newer', on Dev 826 at fa66743148 with SV07 on and nearby (quiz). Before: SV07 bonded, PAN policy 100, not connected; the Getac's own Windows PAN adapter"
     }
    ]
   },
@@ -8885,5 +8885,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ba6c168188f1536102045bc4a2ebefe637ccabfe"
+ "source_revision": "11ac874d4f32a3c4bba13ae23c823887756408e2"
 }
