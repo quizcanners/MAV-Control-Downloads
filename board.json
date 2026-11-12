@@ -1486,11 +1486,6 @@
    "notes": [
     {
      "by": "ROG_FABLE",
-     "at": "2026-11-12T17:11Z",
-     "text": "ROG_FABLE 2026-11-12 batch 6 step 5 (8c872781e5). Part 2 done: PlanetSourceLight returns colorB + colorAMinusB * t (was lerp(colorB, colorA, t)), TimeOfDayManager publishes _ElementLightColorAMinusB in the same update as A and B (Vector4 ma"
-    },
-    {
-     "by": "ROG_FABLE",
      "at": "2026-11-12T17:32Z",
      "text": "ROG_FABLE 2026-11-12: line done and dropped: skybox ground variant 6ce35e52f3 (frame compare max 1/255, fixtures paired with _PLANET_SPACE), Element light A - B from C# (batch 6), Selection Focus 1 - dim already one multiply-add so nothing "
     },
@@ -1498,6 +1493,11 @@
      "by": "PASIKA",
      "at": "2026-11-12T18:02Z",
      "text": "PASIKA batch 3 step 0+1 (main 1cb654df2c, Windows Editor): compile clean (Unity import no red line; cmp.sh NEW ERRORS: none), 0729b73abf compiled. smoke.run Passed 56/56 in 73.1 s; step 'map cache refresh rate' Passed: cache_refreshes=3 in_"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T18:11Z",
+     "text": "ROG_FABLE 2026-11-12: Patch Preparation line done and dropped: PlanetDisplayMasksTests 7/7 and PlanetMaskViewsTests 67/67 pass in the Rog Editor (main 16da335c69 or newer, station test identity)."
     }
    ]
   },
@@ -2309,5 +2309,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "28c83315f4541465a96035f818683af14e1cbc0b"
+ "source_revision": "409c1518b885dcb6381cf52b51a654e77a80bd63"
 }
