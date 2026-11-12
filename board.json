@@ -187,11 +187,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-12T18:58Z",
-     "text": "GETAC 2026-11-12 batch 3 step 9, Strong Dev 826 at 1fe7cbaa6b: not done on battery (the tablet stays on the USB cable; unplugging is a hands-on step) and the Ukraine Borders / DeepState performance.top read not done (no bridge switch for th"
-    },
-    {
      "by": "MAC_FABLE",
      "at": "2026-11-12T19:15Z",
      "text": "MAC_FABLE batch 9, step 1: f7ab178d3e applies the CR-B998-01 sketch: Station_Inspect.DrawnPixelScale(half, doubled) is the one answer for _MavScreenPixelScale, used by the pre-return publisher, the Editor branch and the player branch (Edito"
@@ -200,6 +195,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-12T19:18Z",
      "text": "Rog Editor 2x scale, Windows D3D11, main with CR-B998-01 (2af72293b5), Game view 1920x1080, cfg.stillframe on, Map scene: still map FrozenDouble, kept_picture=True, last_grab_source=3840x2160 against screen=1920x1080 (expected), map_render_"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T19:27Z",
+     "text": "REVIEW-464-CR-B998-01: source-resolved by 2af72293b: one actual-scale expression publishes the Editor pixel multiplier, including unchanged moving frames. [Source/Python reconciliation and native limits](../Reviews/d2b034d30.md#cr-b998-01--"
     }
    ]
   },
@@ -703,7 +703,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-12T19:27Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 10
+    }
+   ],
    "steps": [
     {
      "t": "Getac: signed Android Dev build from current main for the Strong and the Lenovo ",
@@ -1538,11 +1547,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-12T18:27Z",
-     "text": "REVIEW-463-CC-7FF2-01: P3 complexity brief for quiz: each retention turn inventories all payload files, again if maintenance changes storage. PASIKA reports about 6.5 min per pass on 36157 segment files. [S1/S2 scan, exact known-file writer"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-12T18:46Z",
      "text": "GETAC 2026-11-12 batch 3 step 3, Strong Dev 826 at 1fe7cbaa6b, 120 s untouched (sharp still frame on). NOT a cold start: 'am kill' after Home left all four processes running (the keep-alive service keeps the app out of background), so these"
@@ -1551,6 +1555,11 @@
      "by": "PASIKA",
      "at": "2026-11-12T19:18Z",
      "text": "PASIKA batch 5 step 1, live tiles_sumy with the flip-first fix (32acacb085), safety copy D:/MAV_Work/Copies/tiles_sumy_before_flip_2 (robocopy, Play stopped). Before: 36,411 files, 36,335 segment .sqlite. 'map.store logical' 19:13:57Z -> FL"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T19:27Z",
+     "text": "REVIEW-464-CR-7FF2-01: source-resolved by 32acacb08: requested flip/drain now precede legacy cleanup, after publication recovery. [Bounded reconciliation and limits](../Reviews/d2b034d30.md#cr-7ff2-01--source-repair-of-the-requested-map-sto"
     }
    ]
   },
@@ -2367,5 +2376,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "509b32b803c46e12b7cdea452718a938c1fd833e"
+ "source_revision": "21f93674afa3594ae15be52f650c727264bfdd58"
 }
