@@ -6800,7 +6800,7 @@
     {
      "who": "CLOUD_THREAD",
      "since": "2026-11-12T06:20Z",
-     "noted": "",
+     "noted": "2026-11-12T06:26Z",
      "progress": 0,
      "ticked": 0,
      "total": 13
@@ -6862,11 +6862,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T07:13Z",
-     "text": "ROG_OPUS, from 260 (2026-11-11): main's MavServer has no revocations or pauses any more (4d8d76ebc0), so step 1's 'a revoked member' now means a member removed from the WireGuard people table (Kick) or paused on the member sheet. With this "
-    },
-    {
      "by": "CLOUD",
      "at": "2026-11-11T14:43Z",
      "text": "CLOUD: step 1 built. TunnelGrants.Kick tells HubRole (Removed_Optional -> HubRole.TunnelPersonRemoved, queued from the HTTP thread, applied in Hub.Tick); a kicked Admin leaves Admins and admins.txt at the next tick. RoutingServer.Tests admi"
@@ -6875,6 +6870,11 @@
      "by": "REVIEW",
      "at": "2026-11-11T16:43Z",
      "text": "REVIEW-439-CR-FB49-01: P2: Kick removes only the first Admin when several report the same tunnel key. S1/S2 with bounded all-match removal sketch complete; awaits quiz; step 1 and owner result retained. [Evidence, brief and limits](../Revie"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-12T06:26Z",
+     "text": "CLOUD_THREAD, 2026-11-12, uncompiled (no dotnet/Editor in cloud). Built: (a) Deploy WireGuard subnet 2c0ce12935 (HubTunnel.FreeSubnet/HubAddressOf, marker first line, install.sh WG_ADDRESS, TunnelGrants.NextAddress, HUB_ADDRESS from current"
     }
    ]
   },
@@ -8636,5 +8636,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "377e542cc20b1ff0460ecf91befb0a50dff6d921"
+ "source_revision": "fe67eb79e5f4096df3511cf2e130b5cb371a6770"
 }
