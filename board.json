@@ -7098,16 +7098,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE",
-     "since": "2026-11-12T15:20Z",
-     "noted": "2026-11-12T15:24Z",
-     "progress": 0,
-     "ticked": 0,
-     "total": 1
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Rog (Editor): 48 prefabs still point at the line materials deleted in bb5f443806",
@@ -7542,11 +7533,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_FABLE",
-     "at": "2026-11-12T15:07Z",
-     "text": "ROG_FABLE 2026-11-12 batch 4 step 2, part 1 of 3 (6ce35e52f3): skybox ground variant. The variant without _PLANET_SPACE returns float4(ground, 1) and no longer builds the space colour or lerps by saturate(_MC_IsInSpace); TimeOfDayManager tu"
-    },
-    {
      "by": "PASIKA_PERF7",
      "at": "2026-11-12T15:18Z",
      "text": "PASIKA_PERF7: DefaultPosition read (mgrs_ms 9.608, pose_ms 14.217 after e17252024f). Done: 09b5b27868 one MGRS read no longer builds the paste parser (MGRS.Parcing type init: 13 regexes, look-alike Dictionary, tables) for 24 Cyrillic look-a"
@@ -7555,6 +7541,11 @@
      "by": "PASIKA",
      "at": "2026-11-12T15:20Z",
      "text": "PASIKA re-read after 09b5b27868 + 089a4617bf (main c3b7fc783f, PL-007 Editor station, warm Play): startup_default_position mgrs_ms=4.902 (was 9.608) pose_ms=13.936 (was 14.217); DefaultPosition 19.0 ms (was 24.0); map present 5.182 s; updat"
+    },
+    {
+     "by": "CLOUD_PASIKA_GETAC_BATCH",
+     "at": "2026-11-12T15:25Z",
+     "text": "CLOUD_PASIKA_GETAC_BATCH 2026-11-12: batch 2 written for PASIKA (Coordination/Prompts/machine_prompts_2026-11-12_pasika2.md: 429 and 362 warm-Play reads into STARTUP.md, the 494 scale read, 430 tiles_sumy copy, compiled counts, containing A"
     }
    ]
   },
@@ -8885,5 +8876,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3af2f758e98281899948433d4834037f600b8fa1"
+ "source_revision": "5506fdb3ce0b2728b2fe62b803fca6791caf27f0"
 }
