@@ -210,7 +210,7 @@
     {
      "who": "CLOUD_E",
      "since": "2026-11-12T08:11Z",
-     "noted": "",
+     "noted": "2026-11-12T08:13Z",
      "progress": 20,
      "ticked": 1,
      "total": 5
@@ -241,11 +241,6 @@
    "notes": [
     {
      "by": "REVIEW",
-     "at": "2026-11-11T12:48Z",
-     "text": "Investigation CR-CE3B-01, P3: new assets.prefab-edit extracts its file from the fully lowercased command, so the tracked Tools/PrefabEdits path cannot open on a case-sensitive filesystem. S1 source/file-open control and S2 existing-normaliz"
-    },
-    {
-     "by": "REVIEW",
      "at": "2026-11-11T15:17Z",
      "text": "REVIEW-438-7: CR-A5B7-01 source/host repair reconciled in later 3361183a3, outside the inspected cursor: actual live_json at c6bb5ad7d exports all 27 goal titles correctly. Native Tasks-screen look unrun by REVIEW; other task 7 findings/cla"
     },
@@ -253,6 +248,11 @@
      "by": "REVIEW",
      "at": "2026-11-11T16:43Z",
      "text": "REVIEW-439-CC-B794-01: P3 complexity extension: Tasks DrawRoot now allocates five collections and rebuilds worker facts; DrawList partitions/sorts again. Current S1/S2 identify LoadCache and Poll staging, live clock constraints; awaits quiz"
+    },
+    {
+     "by": "CLOUD_E",
+     "at": "2026-11-12T08:13Z",
+     "text": "CLOUD_E review repairs, all uncompiled C#/tool edits (run cmp.sh): 2d8aaaa4c5 Tasks page prepares lists/worker facts once per accepted board, clock answers read at draw (CC-B794-01 + 439 extension, Station_BoardTasks.cs); prefab-edit keeps "
     }
    ]
   },
@@ -8878,5 +8878,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0c6152092655959f7c95bddfcafdd03463feb71a"
+ "source_revision": "f2bd64bd7a0dd502468bb81c387628fdaea1db68"
 }
