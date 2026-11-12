@@ -1689,7 +1689,7 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-12T23:42Z",
-     "noted": "",
+     "noted": "2026-11-12T23:53Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -1712,11 +1712,6 @@
    "notes": [
     {
      "by": "ROG_FABLE",
-     "at": "2026-11-12T14:14Z",
-     "text": "ROG_FABLE 2026-11-12 batch 3 step 3 (e8504b8cc5): the Synthetic Situation tile half under the bottom rail. Direct cause: UI_ExtendedMenuPanels places only the tiles in its _layersGrid._tiles list and the debug tile was not in it, so it kept"
-    },
-    {
-     "by": "ROG_FABLE",
      "at": "2026-11-12T15:15Z",
      "text": "ROG_FABLE 2026-11-12 batch 4 step 4, after cce3cc7533 (shadow boxes drawn in GroupPass with the depth texture declared): still nothing darkens. Editor Play on the Rog, Map scene, Synthetic Situation 6410 groups, camera 1.5 km tilt 40 at 20."
     },
@@ -1724,6 +1719,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-12T16:18Z",
      "text": "ROG_FABLE 2026-11-12 batch 5 step 2, the three suspects, none is the cause; the shadow box draws nothing visible at all. A/B at one pose (Map scene, Synthetic Situation 6410 groups, 1.5 km tilt 40 at 20.9/54.6, 2000x1152, dusk): the same fr"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T23:53Z",
+     "text": "ROG_FABLE batch 9 step 1 (main with cce3cc7533, Windows Editor D3D11, Synthetic Situation 6410 groups, camera 80 m tilt 35 at 20.9/54.6, 1920x1080): the shadow box still draws nothing. (a) A/B: three rows' ShadowBoxSize set to 0 in Map.unit"
     }
    ]
   },
@@ -2526,5 +2526,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c2d59e138e427be1d1c3ea58b408bdd22927794f"
+ "source_revision": "ff3fb8319c256527c7b4797ba657c391f4a46afe"
 }
