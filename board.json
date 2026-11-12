@@ -8757,8 +8757,8 @@
     {
      "who": "PASIKA_RELOAD",
      "since": "2026-11-12T15:44Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-12T16:03Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -8769,6 +8769,11 @@
      "by": "MAC_FABLE",
      "at": "2026-11-12T15:31Z",
      "text": "MAC_FABLE batch 4, step 4, 6d8ff9240b. Reproduced in Mac Editor Play: after a script reload during Play (editor scripts.reload, confirmed in the Editor log) every Telemetry tab stayed dead; ui.pointed showed the tap hitting Lists Root/Swipe"
+    },
+    {
+     "by": "PASIKA_RELOAD",
+     "at": "2026-11-12T16:03Z",
+     "text": "PASIKA_RELOAD reload sweep (11646ade01, ac49de3759, 8e9f133196; cmp.sh NEW ERRORS none). (1) Menu / Map: UI_ExtendedMenuPanels.LayoutFrame and UI_MapType.LayoutFrame were [NonSerialized], bound once at instantiate; a reload with the panel b"
     }
    ]
   },
@@ -8887,5 +8892,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "114b2e5cee15300f4274f5711cd2f9d4de449aac"
+ "source_revision": "4313cdedffcb4e17b211c218b89517feb50ee80b"
 }
