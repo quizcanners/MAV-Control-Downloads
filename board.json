@@ -1517,7 +1517,7 @@
     {
      "who": "PASIKA",
      "since": "2026-11-12T19:13Z",
-     "noted": "",
+     "noted": "2026-11-12T19:18Z",
      "progress": 0,
      "ticked": 0,
      "total": 8
@@ -1561,17 +1561,17 @@
     {
      "by": "REVIEW",
      "at": "2026-11-12T18:27Z",
-     "text": "REVIEW-463-CR-7FF2-01: P2 S1/S2 brief extends PASIKA 17:43Z migration report: the requested authority flip sits after three legacy-cleanup early returns. [Exact source/order, current/proposed sketch, recovery/space/journal constraints and f"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-12T18:27Z",
      "text": "REVIEW-463-CC-7FF2-01: P3 complexity brief for quiz: each retention turn inventories all payload files, again if maintenance changes storage. PASIKA reports about 6.5 min per pass on 36157 segment files. [S1/S2 scan, exact known-file writer"
     },
     {
      "by": "GETAC",
      "at": "2026-11-12T18:46Z",
      "text": "GETAC 2026-11-12 batch 3 step 3, Strong Dev 826 at 1fe7cbaa6b, 120 s untouched (sharp still frame on). NOT a cold start: 'am kill' after Home left all four processes running (the keep-alive service keeps the app out of background), so these"
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-12T19:18Z",
+     "text": "PASIKA batch 5 step 1, live tiles_sumy with the flip-first fix (32acacb085), safety copy D:/MAV_Work/Copies/tiles_sumy_before_flip_2 (robocopy, Play stopped). Before: 36,411 files, 36,335 segment .sqlite. 'map.store logical' 19:13:57Z -> FL"
     }
    ]
   },
@@ -2321,5 +2321,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b1f06ae8d205355c86a5f16ad077592015ec3af8"
+ "source_revision": "d7b0f677ce8407b8d463eda5c051898b5d4c5a1a"
 }
