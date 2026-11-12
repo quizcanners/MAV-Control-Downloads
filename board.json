@@ -8293,11 +8293,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-12T07:23Z",
-     "text": "REVIEW-452-431-REPAIRS: 83f8f0bc6 source-repairs CR-D360-01 blocked-screen case; CC-8FDF-01 old unreachable premise is retired, remaining UI classification question stays for quiz. Owner result and original identities/briefs retained; no na"
-    },
-    {
      "by": "CLOUD_B",
      "at": "2026-11-12T08:09Z",
      "text": "CLOUD_B 2026-11-12: 431 steps 145 (cases a-d), 208 (part 2 built), 238 (b1/b2 + codec readouts), 403 ticked: all code is on main. 4a798e4c50 removes the unused MavControlScreenSharing.bindSocket (no C# caller); Tests~/ScreenSharing* never p"
@@ -8306,6 +8301,11 @@
      "by": "PASIKA_VIDEO",
      "at": "2026-11-12T08:20Z",
      "text": "PASIKA_VIDEO 2026-11-12. Done: (was 145) video diagnostics are one exclusive if/else per situation in UI_MavTelemetry_VideoPanel.AppendVideoLine, read from the line owner's Origin/Break: peer feed (route facts), no source (waiting), healthy"
+    },
+    {
+     "by": "CLOUD_H",
+     "at": "2026-11-12T08:29Z",
+     "text": "CLOUD_H 2026-11-12 CR-B5EE-01 (screen-share renewal receiver closes in foreground) NOT changed: the foreground receiver needs a design pick, because the renewal reply leaves through the :location chat socket that onForeground() closes, and "
     }
    ]
   },
@@ -8911,5 +8911,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ac0c744a1b7bfa0e56ef9575d711ffcaf1d847fb"
+ "source_revision": "3fdd4ceb46c9c07a8c6689385c5b038a1b01e461"
 }
