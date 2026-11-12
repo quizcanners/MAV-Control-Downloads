@@ -2,299 +2,6 @@
  "stale_hours": 3,
  "tasks": [
   {
-   "n": 1,
-   "name": "The DJI Dev Mode is not up to sp",
-   "done": "",
-   "goal": false,
-   "under": 364,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Build Android with the Dev Mode DJI rows",
-     "x": false
-    },
-    {
-     "t": "Install on the RC, aircraft grounded, props off",
-     "x": false
-    },
-    {
-     "t": "Key console and RC identity shown",
-     "x": false
-    },
-    {
-     "t": "Model name shown",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-10T13:14Z",
-     "text": "GETAC bench smoke, signed Brig68 Android Dev 822 (source 2428c8c955). Installed over USB from the Unity Editor MAV Control UI (local build button), 816 to 822. UI showed Installed/Complete and Android APK hash matched. Map 2.764 s, ready 4."
-    },
-    {
-     "by": "CLOUD_B",
-     "at": "2026-11-12T08:09Z",
-     "text": "CLOUD_B 2026-11-12: nothing code-only left; Android build with Dev Mode DJI rows, install on RC (aircraft grounded, props off), key console, RC identity and model name are machine steps (Unity Editor + DJI RC)."
-    }
-   ]
-  },
-  {
-   "n": 2,
-   "name": "Motorola is not up to spec (Syst",
-   "done": "",
-   "goal": false,
-   "under": 379,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Passive Inspector and Diagnostics looks",
-     "x": false
-    },
-    {
-     "t": "Named test gaps closed",
-     "x": false
-    },
-    {
-     "t": "Legacy rendered/native gates and CPS checklist",
-     "x": false
-    },
-    {
-     "t": "Windows USB health snapshot",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-11T10:28Z",
-     "text": "GETAC built Brigade 68 Android Dev 823 from 46a76c0d3f for local Strong testing. Unity 6000.6.8f1 build exit 0 after correcting the Windows process PATH. Local APK and build report: D:/MAV_Work/Verification/Strong-Android-Dev-46a76c0d3f-202"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-11T10:34Z",
-     "text": "Strong installed Android Dev 823 (46a76c0d3f) in place. APK SHA256 matched, saved settings hash matched, bootstrap ready 4.928 s, map rendered, zoom in/out and pose restore worked. 180 s startup held one PID and VPN, but four map ribbon Nul"
-    },
-    {
-     "by": "CLOUD_D",
-     "at": "2026-11-12T08:10Z",
-     "text": "CLOUD_D 2026-11-12: no code/docs step left that cloud can do; everything open is device/build-machine/quiz-wait (see the unticked steps; 374 CR-4066-01 waits for quiz). Nothing changed."
-    }
-   ]
-  },
-  {
-   "n": 3,
-   "name": "Network link and map sync fall s",
-   "done": "",
-   "goal": false,
-   "under": 366,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "VPN peer link and diagnostics",
-     "x": false
-    },
-    {
-     "t": "Hotspot ownership and iPhone resume readout",
-     "x": false
-    },
-    {
-     "t": "Tile streaming speed and enrollment mesh",
-     "x": false
-    },
-    {
-     "t": "Public-IP QR",
-     "x": false
-    },
-    {
-     "t": "Old Walk sync removed after the paired drill",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-08T17:20Z",
-     "text": "After Dev Mode was enabled per quiz, Strong 10.10.10.9 replied on typed runtime (812 boot 11 frame 2666, one retained Replay), but Rog still sees agent_version=0/request_version=0 and vpn.webmercator.index was refused with NoAgentChannel. R"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-08T17:32Z",
-     "text": "GETAC: Mac 813 boot 656 confirmed Strong 812 boot 11 advertised agent/request 0/0 in a passport only 9.201 s old with the encrypted link established, matching Rog. Please verify the local Dev Mode indicator in Strong's owner profile before "
-    },
-    {
-     "by": "CLOUD_VPNS",
-     "at": "2026-11-10T10:23Z",
-     "text": "From the one-MavServer rework (main 414581eb; quiz, 2026-11-10: \"But no longer backup servers, multiple coordination servers, multiple routing servers - just too much complexity.\"): the sync between MavServers, the mesh half of this task's "
-    }
-   ]
-  },
-  {
-   "n": 5,
-   "name": "The Planet Renderer is not up to",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Lighting checks",
-     "x": false
-    },
-    {
-     "t": "Space relief from the 4096x2048 slope texture",
-     "x": false
-    },
-    {
-     "t": "Raised overlay coverage and element mask transition",
-     "x": false
-    },
-    {
-     "t": "Camera pinch keeps both anchors",
-     "x": false
-    },
-    {
-     "t": "NOAA globe relief removed after Copernicus passes",
-     "x": false
-    },
-    {
-     "t": "Mask Sync stall gone: on a build with the 3 ms per-frame peer budget and one-sea",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-11T11:50Z",
-     "text": "cmp.sh NEW ERRORS: none. Water tests rewritten to a flat sky colour bound as _PlanetWaterClouds (TestWaterSky); not run in the Editor, so run the Planet render tests once. CesiumWaterShaderRenderTests still binds a black cubemap and no sky "
-    },
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T12:43Z",
-     "text": "ROG_OPUS: Editor part done (0f29b05c5e). Rog Editor 6000.6.8f1 under a verification identity: shaders compiled with no error in Editor.log; PlanetSurfaceShaderRenderTests 52/52, CesiumWaterShaderRenderTests 4/4 as the cloud left them; Plane"
-    },
-    {
-     "by": "CLOUD_A",
-     "at": "2026-11-12T08:09Z",
-     "text": "CLOUD_A 2026-11-12: reviewed; every open step is a device, Editor or capture check (lighting, relief, tablet altitude status, Mariupol seams, Android page batching on the tablet). No code-only step left; Android page batching default is a b"
-    }
-   ]
-  },
-  {
-   "n": 7,
-   "name": "The verifier",
-   "done": "",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Failed fixtures triaged",
-     "x": true
-    },
-    {
-     "t": "Native, import and render gates",
-     "x": false
-    },
-    {
-     "t": "Linux GameCI failures fixed",
-     "x": false
-    },
-    {
-     "t": "Editor late-shutdown access violation fixed",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_E",
-     "at": "2026-11-12T08:13Z",
-     "text": "CLOUD_E review repairs, all uncompiled C#/tool edits (run cmp.sh): 2d8aaaa4c5 Tasks page prepares lists/worker facts once per accepted board, clock answers read at draw (CC-B794-01 + 439 extension, Station_BoardTasks.cs); prefab-edit keeps "
-    },
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-12T08:54Z",
-     "text": "ROG_OPUS 2026-11-12: Editor late shutdown on Rog: two normal closes today (pid 66208 at 08:41 and pid 48900 at 10:48) both ended with the leak check ('Found no leaked weakptrs', Package Manager server shut down) and no access violation; the"
-    },
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-12T09:00Z",
-     "text": "ROG_OPUS 2026-11-12: Editor late shutdown on Rog: two normal closes today (pid 66208 at 08:41, pid 48900 at 10:48) both ended with the leak check ('Found no leaked weakptrs', Package Manager server shut down) and no access violation; the ne"
-    }
-   ]
-  },
-  {
-   "n": 9,
-   "name": "Distribution is not up to spec (",
-   "done": "",
-   "goal": false,
-   "under": 374,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Protected HTTPS installer route live",
-     "x": false
-    },
-    {
-     "t": "QR or USB install",
-     "x": false
-    },
-    {
-     "t": "Coordinate links open the app (assetlinks fingerprint, Apple Team ID: real value",
-     "x": false
-    },
-    {
-     "t": "Canonical build publishing",
-     "x": false
-    },
-    {
-     "t": "Android update to 807+: builds from e55af983af resume ranged; 792 itself keeps i",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_H",
-     "at": "2026-11-12T08:29Z",
-     "text": "CLOUD_H 2026-11-12 53d12bbb43 CR-31F7-01 source-repaired: AdmitUnsealed verifies an existing output against the new plaintext length/hash (cancellation threaded through both formats) and keeps it, deleting only the new partial; different/co"
-    },
-    {
-     "by": "PASIKA_UPDATES",
-     "at": "2026-11-12T08:44Z",
-     "text": "PASIKA_UPDATES 2026-11-12: e55af983af (cmp.sh NEW ERRORS: none). Delivery: a package without a chunk index (MAVSEAL1, the public format until 2026-12-08) now downloads as 8 MiB HTTP ranges appended to the partial file, not one full GET (the"
-    },
-    {
-     "by": "PASIKA_UPDATES",
-     "at": "2026-11-12T08:49Z",
-     "text": "PASIKA_UPDATES 2026-11-12: e9be158e40 adds updates.retrying to the English ('retrying') and Ukrainian ('\u043f\u043e\u0432\u0442\u043e\u0440\u043d\u0430 \u0441\u043f\u0440\u043e\u0431\u0430') Linguist assets, next to updates.notice.stopping; the retry line beside download progress no longer falls back to Engl"
-    }
-   ]
-  },
-  {
    "n": 12,
    "name": "Parked ideas and suggestions (13",
    "done": "",
@@ -321,15 +28,15 @@
    "held": [],
    "steps": [
     {
-     "t": "Changed inputs separated from unfinished stock",
+     "t": "Cloud: changed inputs separated from unfinished stock",
      "x": false
     },
     {
-     "t": "Operator-person search runs only on changed inputs",
+     "t": "Cloud: operator-person search runs only on changed inputs",
      "x": false
     },
     {
-     "t": "Quiz agrees to the refactor",
+     "t": "Cloud: Supply screen bumped for verify",
      "x": false
     }
    ],
@@ -343,6 +50,11 @@
      "by": "PASIKA_NOTICE",
      "at": "2026-11-12T09:06Z",
      "text": "PASIKA_NOTICE 2026-11-12: S2 brief with current snippet and proposed sketch already exists (Coordination/Reviews/4a3bb96ed.md#cc-14fa-01--supply-stock-progress-repeats-an-unrelated-person-search) and still matches the code; only the lines m"
+    },
+    {
+     "by": "CLOUD_BOARD",
+     "at": "2026-11-12T10:02Z",
+     "text": "No longer waits for quiz (root AGENTS, User intent is carried out, quiz 2026-11-12: a design pick between ways of reaching a clear intent is the agent's). Cloud-doable C#, per-frame logic, so careful with allocations: CLOUD_E's prepared cha"
     }
    ]
   },
@@ -4088,32 +3800,27 @@
    "held": [],
    "steps": [
     {
-     "t": "Sync table from the code, store by store",
-     "x": true
+     "t": "Cloud: PlanetOfflineImagery._pyramidFloor (also drops a parameter); VideoDiagnos",
+     "x": false
     },
     {
-     "t": "Recent commits: added timers, counters, retries, flags",
-     "x": true
+     "t": "Cloud: about 1,000 localization keys named by no file: learn the group Prefix lo",
+     "x": false
     },
     {
-     "t": "State as flags and timers where one enum and a switch would do",
-     "x": true
+     "t": "Cloud, one group of writers per commit, Rog compiles: one decision per frame, th",
+     "x": false
     },
     {
-     "t": "Cut what is proven dead or equivalent",
-     "x": true
+     "t": "Mac or Rog (Editor): procedural row builders get a typed prefab field in place o",
+     "x": false
     },
     {
-     "t": "Larger rewrites on the board, questions to quiz",
-     "x": true
+     "t": "quiz's word: places 2 to 4, 6, 9, 14 and 15 in Coordination/Refactoring/creeping",
+     "x": false
     }
    ],
    "notes": [
-    {
-     "by": "CLOUD",
-     "at": "2026-11-11T14:03Z",
-     "text": "CLOUD re-grepped: what is left in the view scripts is procedural row builders (new GameObject(...typeof(Image)) then GetComponent<Image>, UI_NotificationTongueSummary, UI_NotificationSquare, UI_LeftListSwipeAway, UI_ExpandMenu) that need a "
-    },
     {
      "by": "CLOUD_E",
      "at": "2026-11-12T08:14Z",
@@ -4123,6 +3830,11 @@
      "by": "PASIKA_BOARD",
      "at": "2026-11-12T09:07Z",
      "text": "PASIKA_BOARD 2026-11-12 summary. Done: 702e1ee70a ten dead localization keys (EN+UK, key and value); f5c82a2b5a CapsuleSelectorAuthor (no caller, output committed); 4d9899dcdb Station_Inspect _droneBlindZoneMetersToRestore; df1cff8b4d one-p"
+    },
+    {
+     "by": "CLOUD_BOARD",
+     "at": "2026-11-12T10:02Z",
+     "text": "All five steps were ticked but work is left, so the task stays open and its list is now what is left, from PASIKA_BOARD's summary of 2026-11-12T09:07Z and the lines folded from 227 and 289."
     }
    ]
   },
@@ -6344,7 +6056,7 @@
    "name": "Load map only: on first launch the user sees the map as fast",
    "done": "",
    "goal": true,
-   "under": 362,
+   "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
@@ -6352,15 +6064,15 @@
    "held": [],
    "steps": [
     {
-     "t": "Strong tablet, cold start on a build with a5f560d5ca (no device on PASIKA): writ",
+     "t": "Getac (Strong): Strong tablet, cold start on a build with a5f560d5ca (no device ",
      "x": false
     },
     {
-     "t": "Navigation UI.unity for the Compass once Singleton_StationUI._routeEditHiddenGro",
+     "t": "Mac or Rog (Editor), after task 481: Navigation UI.unity for the Compass once Si",
      "x": false
     },
     {
-     "t": "Editor: StartupBatchTimingTests cases from the Bootstrap guide 'Load map only' t",
+     "t": "Cloud writes, Rog runs: StartupBatchTimingTests cases from the Bootstrap guide '",
      "x": false
     }
    ],
@@ -6395,31 +6107,31 @@
    "held": [],
    "steps": [
     {
-     "t": "Phone check of FrozenDouble (Settings, System, Sharp still frame when idle): ms ",
+     "t": "Mac (MAC_FABLE batch): Build (Editor and a phone): the UI drawn at 8 fps over th",
      "x": false
     },
     {
-     "t": "Phone check: full resolution on the frame the finger lifts, glide at full, no hi",
+     "t": "Mac (MAC_FABLE batch): Build (Editor, shader): ribbon batching while the map mov",
      "x": false
     },
     {
-     "t": "Device: idle option on, hands off 30 s, Diagnostics and compass FPS read 8 on ch",
+     "t": "Getac (Strong) and Mac (iPhone): Phone check of FrozenDouble (Settings, System, ",
      "x": false
     },
     {
-     "t": "Device: raw fullscreen video (unpositioned drone, peer screen, video server) sho",
+     "t": "Mac (iPhone): Phone check: full resolution on the frame the finger lifts, glide ",
      "x": false
     },
     {
-     "t": "Device read with Ukraine Borders and DeepState on: performance.top while panning",
+     "t": "Getac (Strong): Device: idle option on, hands off 30 s, Diagnostics and compass ",
      "x": false
     },
     {
-     "t": "Build (Editor and a phone): the UI drawn at 8 fps over the kept still picture, s",
+     "t": "Getac (Strong): Device: raw fullscreen video (unpositioned drone, peer screen, v",
      "x": false
     },
     {
-     "t": "Build (Editor, shader): ribbon batching while the map moves: the leaf alpha in t",
+     "t": "Getac (Strong): Device read with Ukraine Borders and DeepState on: performance.t",
      "x": false
     }
    ],
@@ -6454,37 +6166,45 @@
    "held": [],
    "steps": [
     {
-     "t": "purple map tiles: planet.pixels run on the RC (DJI-PURPLE-MAP)",
+     "t": "Getac (DJI RC Plus 2 on USB): build Android from main with the Dev Mode DJI rows",
      "x": false
     },
     {
-     "t": "RC Plus 2 aircraft-linked debug run (DJI-RCPLUS2-DEBUG)",
+     "t": "Getac, on the RC: Dev Mode shows the Danger zone and Functions rows, the key con",
      "x": false
     },
     {
-     "t": "Vision Assist readout fit in both languages (DJI-VISION-STATE-READOUT-LOOK)",
+     "t": "Getac, on the RC: purple map tiles: planet.pixels run that names what paints the",
      "x": false
     },
     {
-     "t": "first-person projection vs accumulated Orthophoto numbers (PILOT-DJI-FIRST-PERSO",
+     "t": "Getac, aircraft linked: debug run; the 822 bench left camera FOV REQUEST_HANDLER",
+     "x": false
+    },
+    {
+     "t": "Getac, on the RC: Vision Assist readout fits in English and Ukrainian (DJI-VISIO",
+     "x": false
+    },
+    {
+     "t": "Getac, aircraft linked: first-person projection against the accumulated Orthopho",
      "x": false
     }
    ],
    "notes": [
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T16:37Z",
-     "text": "ROG_OPUS 2026-11-11: part (1) done, 68072f5d3d: the menu authored B_Button Synthetic Drone Type (inactive until the panel shows it) and it now shares 'Synthetic Drone Row' (HorizontalLayoutGroup, spacing 0, 88.65 high) with the Synthetic Dr"
+     "by": "CLOUD_B",
+     "at": "2026-11-12T08:09Z",
+     "text": "CLOUD_B 2026-11-12: nothing code-only left; all four steps are DJI RC runs (planet.pixels, aircraft-linked debug, readout fit, projection vs Orthophoto numbers). Left for the next DJI RC machine batch."
     },
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T17:41Z",
-     "text": "ROG_OPUS 2026-11-11 batch 18, step (was 405) part 2 done: RIGHT Suggestions has 'Move Group' (monochrome panel with arrow and drone once, then Move Synthetic And Set Speed 'x m/s' and Move Synthetic Drone, which reads '0 m/s' when both show"
+     "by": "GETAC",
+     "at": "2026-11-10T13:14Z",
+     "text": "GETAC bench smoke, signed Brig68 Android Dev 822 (source 2428c8c955). Installed over USB from the Unity Editor MAV Control UI (local build button), 816 to 822. UI showed Installed/Complete and Android APK hash matched. Map 2.764 s, ready 4."
     },
     {
      "by": "CLOUD_B",
      "at": "2026-11-12T08:09Z",
-     "text": "CLOUD_B 2026-11-12: nothing code-only left; all four steps are DJI RC runs (planet.pixels, aircraft-linked debug, readout fit, projection vs Orthophoto numbers). Left for the next DJI RC machine batch."
+     "text": "CLOUD_B 2026-11-12: nothing code-only left; Android build with Dev Mode DJI rows, install on RC (aircraft grounded, props off), key console, RC identity and model name are machine steps (Unity Editor + DJI RC)."
     }
    ]
   },
@@ -6501,11 +6221,11 @@
    "held": [],
    "steps": [
     {
-     "t": "blind-spot recording check on tablet or Editor (WIFI-BLIND-SPOT-RECORDING)",
+     "t": "Rog or Mac (Editor), or Getac (Strong): blind-spot recording honours its zone (W",
      "x": false
     },
     {
-     "t": "Raspberry Pi verifies current main: route, identity, telemetry counters (WIFI-PI",
+     "t": "The machine on the Raspberry Pi's network (none registered; starts when quiz say",
      "x": false
     }
    ],
@@ -6522,7 +6242,7 @@
    "name": "Two peers converge on one map quickly, on one SQLite build o",
    "done": "",
    "goal": true,
-   "under": 366,
+   "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
@@ -6530,49 +6250,49 @@
    "held": [],
    "steps": [
     {
-     "t": "Mac imagery recovery and Android reserve check (LOW-DISK-RETENTION)",
+     "t": "Mac or Rog (Editor): dirty parent always leads to work, Editor half (WM-PARENT-D",
      "x": false
     },
     {
-     "t": "drills spawn from spare time budget on two peers (WM-DRILL-SPAWN-BY-BUDGET)",
+     "t": "Mac or Rog (Editor): WMPAGE4 direct encode and decode, Editor half (WMPAGE-4-DIR",
      "x": false
     },
     {
-     "t": "plugs live in the branch, two VPN peers (WM-PEER-PASS-LIST)",
+     "t": "Getac (Strong): the tablet halves of those two, and SQLite readers that do not r",
      "x": false
     },
     {
-     "t": "paired drill acceptance before Walk removal (SYNC-WALK-REMOVAL)",
+     "t": "PASIKA + Getac (two VPN peers): drills spawn from the spare time budget (WM-DRIL",
      "x": false
     },
     {
-     "t": "dirty parent always leads to work: Editor, then tablet (WM-PARENT-DRILL-SIMPLE)",
+     "t": "PASIKA + Getac (two VPN peers): tile streaming speed between them, number writte",
      "x": false
     },
     {
-     "t": "WMPAGE4 direct encode/decode: Editor, then two devices (WMPAGE-4-DIRECT-SERIALIZ",
+     "t": "PASIKA + Getac: paired drill acceptance; then Cloud removes the old Walk sync (S",
      "x": false
     },
     {
-     "t": "SQLite readers do not reopen per cell: one pan on tablet (SQLITE-READER-ATTACH-S",
+     "t": "Mac: imagery recovery after low disk; Getac: Android reserve (LOW-DISK-RETENTION",
      "x": false
     }
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-12T01:12Z",
-     "text": "LOCAL_MAC: cloud refactor cc08b25816 (GCSState.TrySetName forwarders dropped) compiles in the macOS Unity Editor, 0 errors."
+     "by": "ROG",
+     "at": "2026-11-08T17:20Z",
+     "text": "After Dev Mode was enabled per quiz, Strong 10.10.10.9 replied on typed runtime (812 boot 11 frame 2666, one retained Replay), but Rog still sees agent_version=0/request_version=0 and vpn.webmercator.index was refused with NoAgentChannel. R"
     },
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-12T08:04Z",
-     "text": "fff632dd65: SQLITE-ONE-BUILD done on the Mac Editor: selftest sqlite pass=3 fail=0 (native_library, open, write_read) in Play on tiles_sumy; libmavsqlite.dylib 3.53.4 with THREADSAFE=1, DEFAULT_MEMSTATUS=0, OMIT_LOAD_EXTENSION, TEMP_STORE=2"
+     "by": "ROG",
+     "at": "2026-11-08T17:32Z",
+     "text": "GETAC: Mac 813 boot 656 confirmed Strong 812 boot 11 advertised agent/request 0/0 in a passport only 9.201 s old with the encrypted link established, matching Rog. Please verify the local Dev Mode indicator in Strong's owner profile before "
     },
     {
-     "by": "PASIKA_PROTOCOL",
-     "at": "2026-11-12T09:38Z",
-     "text": "PASIKA_PROTOCOL, for LOCAL_MAC, nothing to do in your code (from task 472): the undeserializable Crypto_WebMercatorConvergenceHashBatch and Crypto_MapRecordHashRequest in PASIKA's Player.log were not a change of the hash data. The receiver "
+     "by": "CLOUD_VPNS",
+     "at": "2026-11-10T10:23Z",
+     "text": "From the one-MavServer rework (main 414581eb; quiz, 2026-11-10: \"But no longer backup servers, multiple coordination servers, multiple routing servers - just too much complexity.\"): the sync between MavServers, the mesh half of this task's "
     }
    ]
   },
@@ -6589,35 +6309,23 @@
    "held": [],
    "steps": [
     {
-     "t": "half-height transcript look on a phone with a real peer (MAV-CHAT-TRANSCRIPT-HAL",
+     "t": "Mac or Rog (Editor): read what _BlurredScreen holds under a message row in the u",
      "x": false
     },
     {
-     "t": "label and side circles fade while the capsule scrolls: look check (board task 25",
+     "t": "Mac or Rog (Editor): Mav Chat Sheet.prefab floating panel: inset about 3% of the",
      "x": false
     },
     {
-     "t": "(was 15) Landscape Chat and MavChat looked at",
+     "t": "Mac or Rog (Editor): Landscape Chat home spacing per Chat/SPEC.md, 'Landscape Ch",
      "x": false
     },
     {
-     "t": "(was 255) Read what _BlurredScreen holds under a message row in the unfolded she",
+     "t": "Cloud: task 481, what is left of MavChat Landscape in code (was 393)",
      "x": false
     },
     {
-     "t": "(was 255) Make the row show green tinted glass over the map blur per Chat SPEC",
-     "x": false
-    },
-    {
-     "t": "(was 360) MavChat floating panel follow-up to 176 (quiz, 2026-11-11: 'For Mav Ch",
-     "x": false
-    },
-    {
-     "t": "(was 392) Chat screen and left-list swipe: (1) Landscape Chat home spacing per C",
-     "x": false
-    },
-    {
-     "t": "(was 393) Mav Chat is a device-exclusive workflow: portrait touchscreen smartpho",
+     "t": "Phone (iPhone at the Mac, Lenovo at the Getac) with a real peer: half-height tra",
      "x": false
     }
    ],
@@ -6652,19 +6360,19 @@
    "held": [],
    "steps": [
     {
-     "t": "incoming transactions on the first page, paired check (STORE-POST-INCOMING-REVIE",
+     "t": "Getac + Mac (two trusted peers): Store images and give/take between them",
      "x": false
     },
     {
-     "t": "Inventory Search/Add keyboard on the iPad",
+     "t": "Getac + Mac: incoming transactions on the first page (STORE-POST-INCOMING-REVIEW",
      "x": false
     },
     {
-     "t": "Store images and give/take between two peers",
+     "t": "Getac + Mac: Store Post chat notices (STORE-POST-EVENT-CHAT-NOTIFY)",
      "x": false
     },
     {
-     "t": "Store Post chat notices, two trusted devices (STORE-POST-EVENT-CHAT-NOTIFY)",
+     "t": "Mac (iPad): Inventory Search/Add keyboard",
      "x": false
     }
    ],
@@ -6678,10 +6386,10 @@
   },
   {
    "n": 369,
-   "name": "The Editor automation bridge, the containing All and the des",
+   "name": "The full test run is green on fresh Windows source: the Edit",
    "done": "",
    "goal": true,
-   "under": 369,
+   "under": 0,
    "ticks": [
     "2026-11-12T07:14Z"
    ],
@@ -6691,37 +6399,53 @@
    "held": [],
    "steps": [
     {
-     "t": "bridge: api.status answers on 17693 after a script reload (Rog)",
-     "x": true
-    },
-    {
-     "t": "one containing All in a fresh prepared Windows candidate",
+     "t": "Cloud: the task filed under this goal: EditMode All is red on main with about 22",
      "x": false
     },
     {
-     "t": "native imports and looks: Search overlay, FBX, motion smoothing, Planet Renderer",
+     "t": "PASIKA: one containing All in a fresh prepared Windows candidate, each member re",
      "x": false
     },
     {
-     "t": "desktop gate: Windows player with Debug Mode on/off",
+     "t": "PASIKA: native, import and render gates: Search overlay, FBX, motion smoothing, ",
+     "x": false
+    },
+    {
+     "t": "Cloud reads the Actions logs, PASIKA runs: the nine Linux GameCI failures (was t",
+     "x": false
+    },
+    {
+     "t": "Getac: the Windows verifier smoke launch gets AccessDenied on the scheduled veri",
+     "x": false
+    },
+    {
+     "t": "Rog: Editor late-shutdown access violation: not seen on two closes on 2026-11-12",
+     "x": false
+    },
+    {
+     "t": "PASIKA: desktop gate: Windows player with Debug Mode on and off",
+     "x": false
+    },
+    {
+     "t": "Rog: official Unity and Codex integration after the build (UNITY-CODEX-OFFICIAL-",
      "x": false
     }
    ],
    "notes": [
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-12T07:15Z",
-     "text": "ROG_OPUS 2026-11-12 batch 23: bridge step done on Rog. The Editor descriptor (Library/AI Sandbox/connection.json, protocol 2) names editor_port 17693; api.status answered on it after every script reload today: after assets.refresh recompile"
-    },
-    {
      "by": "CLOUD_E",
-     "at": "2026-11-12T08:14Z",
-     "text": "CLOUD_E: remaining steps need the fresh Windows machine (All run, native imports, desktop player). Nothing advanced from cloud; see task 7 note for the C#/tool fixes pushed meanwhile."
+     "at": "2026-11-12T08:13Z",
+     "text": "CLOUD_E review repairs, all uncompiled C#/tool edits (run cmp.sh): 2d8aaaa4c5 Tasks page prepares lists/worker facts once per accepted board, clock answers read at draw (CC-B794-01 + 439 extension, Station_BoardTasks.cs); prefab-edit keeps "
     },
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-12T08:37Z",
-     "text": "For PASIKA (heavy): the full EditMode All at 83f8f0bc63 (Mac, 2026-11-12) is red, so every iOS daily build needs --skip-tests. About 22 failures, mostly UI layout tests pinned to the old shape of reworked screens: ChatWindowLayoutTests.Chat"
+     "by": "ROG_OPUS",
+     "at": "2026-11-12T08:54Z",
+     "text": "ROG_OPUS 2026-11-12: Editor late shutdown on Rog: two normal closes today (pid 66208 at 08:41 and pid 48900 at 10:48) both ended with the leak check ('Found no leaked weakptrs', Package Manager server shut down) and no access violation; the"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-12T09:00Z",
+     "text": "ROG_OPUS 2026-11-12: Editor late shutdown on Rog: two normal closes today (pid 66208 at 08:41, pid 48900 at 10:48) both ended with the leak check ('Found no leaked weakptrs', Package Manager server shut down) and no access violation; the ne"
     }
    ]
   },
@@ -6738,31 +6462,31 @@
    "held": [],
    "steps": [
     {
-     "t": "Declaration changes of 2026-11-12 were written without Nix: evaluate them on a m",
+     "t": "PASIKA (needs Nix): evaluate the declaration changes of 2026-11-12, written with",
      "x": false
     },
     {
-     "t": "(token holder) A fresh Hetzner server from the declaration, made a clean copy so",
+     "t": "Mac or Rog (Editor): WireGuard QR view of a new device's tunnel file in the QR w",
      "x": false
     },
     {
-     "t": "(token holder) Two servers from the snapshot id by the app's Deploy page, Deploy",
+     "t": "Token holder (quiz's Hetzner token): a fresh Hetzner server from the declaration",
      "x": false
     },
     {
-     "t": "(token holder) Apply a change and roll back once on purpose (README run 3); then",
+     "t": "Token holder: two servers from the snapshot id by the app's Deploy page, Deploy ",
      "x": false
     },
     {
-     "t": "(on quiz's word; PASIKA can build it, linux-x64 publish works here) Publish one ",
+     "t": "Token holder: apply a change and roll back once on purpose (README run 3); then ",
      "x": false
     },
     {
-     "t": "After that release is pinned in the app: Deploy stops writing directory.json (Ro",
+     "t": "PASIKA, on quiz's word (linux-x64 publish works there): publish one MavServer re",
      "x": false
     },
     {
-     "t": "(Editor) WireGuard QR view of a new device's tunnel file in the QR window, for P",
+     "t": "Cloud, after that release is pinned in the app: Deploy stops writing directory.j",
      "x": false
     }
    ],
@@ -6786,7 +6510,7 @@
   },
   {
    "n": 371,
-   "name": "Peers on the VPN tunnel send plain split payloads between bu",
+   "name": "VPN tunnel: Windows runs WireGuard inside the app as Android",
    "done": "",
    "goal": true,
    "under": 0,
@@ -6797,15 +6521,19 @@
    "held": [],
    "steps": [
     {
-     "t": "device run, two builds 804 or newer: udp_plain_sends_over_vpn rises, receiver re",
+     "t": "PASIKA: read the receiving side while PL-007 sends plain: peer_diag want 10.10.1",
      "x": false
     },
     {
-     "t": "(was 342) Windows PC: no WireGuard app, receive file, Install here, handshake, p",
+     "t": "PASIKA (build drive): put tunnel.dll (f7b82f67...781a7f) and wireguard.dll (b1b8",
      "x": false
     },
     {
-     "t": "(was 342) build drive: put tunnel.dll (f7b82f67...781a7f, built on HEAVY) and wi",
+     "t": "PASIKA or Rog (a Windows PC with no WireGuard app): receive the tunnel file, Ins",
+     "x": false
+    },
+    {
+     "t": "Cloud: read Network/SPEC.md against the code for the public-IP QR and for enroll",
      "x": false
     }
    ],
@@ -6840,15 +6568,15 @@
    "held": [],
    "steps": [
     {
-     "t": "MacBook runs the S1 capture (input.mouse, camera.zoom trace, screen.status, scre",
+     "t": "Mac (MacBook display): S1 capture: input.mouse, camera.zoom trace, screen.status",
      "x": false
     },
     {
-     "t": "Code writes S2 from those numbers",
+     "t": "Cloud: write S2 from those numbers",
      "x": false
     },
     {
-     "t": "S3 macOS NSEvent plugin, packaged-build evidence",
+     "t": "Mac: S3 macOS NSEvent plugin in a packaged build",
      "x": false
     }
    ],
@@ -6872,7 +6600,7 @@
   },
   {
    "n": 373,
-   "name": "No Android receive null reference, and a Coding scene shares",
+   "name": "Android never throws on receive or at startup, and a Coding ",
    "done": "",
    "goal": true,
    "under": 0,
@@ -6883,19 +6611,19 @@
    "held": [],
    "steps": [
     {
-     "t": "capture vpn.handshake latest_message_processing_failure_point on a recurrence (V",
+     "t": "Getac: Android Dev build from main (has fd1f72291e) on the Strong; the four star",
      "x": false
     },
     {
-     "t": "repair the named throw site with a regression",
+     "t": "Getac: on a recurrence of the receive null reference, capture vpn.handshake late",
      "x": false
     },
     {
-     "t": "share a Coding scene to the affected Android on a fixed build",
+     "t": "Cloud: repair the throw site that capture names, with a regression test",
      "x": false
     },
     {
-     "t": "(was 394) Fix Strong Android Dev 823 startup NullReferenceException in...",
+     "t": "Getac + a second peer: share a Coding scene to the affected Android on the fixed",
      "x": false
     }
    ],
@@ -6930,47 +6658,67 @@
    "held": [],
    "steps": [
     {
-     "t": "Windows sealed installer to ReadyToInstall on a second player, one consumer pick",
+     "t": "Getac: signed Android Dev build from current main for the Strong and the Lenovo ",
      "x": false
     },
     {
-     "t": "macOS, iOS and Linux follow as builds come",
+     "t": "Cloud: CR-4066-01, the Linux tar publication is rejected by the packaged-bootstr",
      "x": false
     },
     {
-     "t": "chunked update downloads a fraction on two devices, then flip publish.py default",
+     "t": "Cloud edits, PASIKA runs: Build-Linux-Nightly.ps1 calls Tools/Distribution/publi",
      "x": false
     },
     {
-     "t": "(was 141) Publish the Linux player to the downloads catalog: Build-Linux-Nightly",
+     "t": "PASIKA: Windows sealed installer reaches ReadyToInstall on a second player, one ",
      "x": false
     },
     {
-     "t": "(was 228) Build offer, Getac: signed Android Dev build from current main for the",
+     "t": "Getac + a second device: a chunked update downloads a fraction on both; then Clo",
+     "x": false
+    },
+    {
+     "t": "Mac: macOS and iOS (TestFlight fastlane) follow as builds come; Linux after the ",
+     "x": false
+    },
+    {
+     "t": "PASIKA (MavServer): protected HTTPS installer route live (was task 9)",
+     "x": false
+    },
+    {
+     "t": "Getac: QR or Windows USB install, the VPN authorizes; this is also the only way ",
+     "x": false
+    },
+    {
+     "t": "quiz's values (assetlinks fingerprint, Apple Team ID: real values, not code), th",
+     "x": false
+    },
+    {
+     "t": "PASIKA: canonical build publishing: Windows installer and the Android signing ga",
      "x": false
     }
    ],
    "notes": [
     {
-     "by": "CLOUD_META",
-     "at": "2026-11-10T13:58Z",
-     "text": "CLOUD_META 2026-11-10: batch 7 checked. Rog's notes 231 and 236 show peer_diag ask/want need a running station on the same machine, so Rog cannot read the Strong or Lenovo; the Capability_Register row said it could, now corrected. The 228 r"
-    },
-    {
-     "by": "CLOUD_D",
-     "at": "2026-11-12T08:10Z",
-     "text": "CLOUD_D 2026-11-12: nothing cloud can do: every open step is device, build machine or waits for quiz (374: CR-4066-01). No change."
+     "by": "CLOUD_H",
+     "at": "2026-11-12T08:29Z",
+     "text": "CLOUD_H 2026-11-12 53d12bbb43 CR-31F7-01 source-repaired: AdmitUnsealed verifies an existing output against the new plaintext length/hash (cancellation threaded through both formats) and keeps it, deleting only the new partial; different/co"
     },
     {
      "by": "PASIKA_UPDATES",
-     "at": "2026-11-12T08:45Z",
-     "text": "PASIKA_UPDATES 2026-11-12: done e55af983af (task 9: MAVSEAL1 whole-file downloads resume in 8 MiB ranges with 2/4/8/16 s retries; failed download keeps its card with the real HTTP failure + host). Held: nothing. Numbers: none measured (no d"
+     "at": "2026-11-12T08:44Z",
+     "text": "PASIKA_UPDATES 2026-11-12: e55af983af (cmp.sh NEW ERRORS: none). Delivery: a package without a chunk index (MAVSEAL1, the public format until 2026-12-08) now downloads as 8 MiB HTTP ranges appended to the partial file, not one full GET (the"
+    },
+    {
+     "by": "PASIKA_UPDATES",
+     "at": "2026-11-12T08:49Z",
+     "text": "PASIKA_UPDATES 2026-11-12: e9be158e40 adds updates.retrying to the English ('retrying') and Ukrainian ('\u043f\u043e\u0432\u0442\u043e\u0440\u043d\u0430 \u0441\u043f\u0440\u043e\u0431\u0430') Linguist assets, next to updates.notice.stopping; the retry line beside download progress no longer falls back to Engl"
     }
    ]
   },
   {
    "n": 375,
-   "name": "Direct USB survival while folded is measured, and the daily ",
+   "name": "Test rig: one agent drives two release tablets, a folded tab",
    "done": "",
    "goal": true,
    "under": 0,
@@ -6981,11 +6729,15 @@
    "held": [],
    "steps": [
     {
-     "t": "Direct USB folded measurement on a tablet and desktop (DIRECT-USB-GROUP)",
+     "t": "PASIKA or Rog: Windows daily runner registered and a matching run picked up (CI-",
      "x": false
     },
     {
-     "t": "Windows daily runner registered and a matching run picked up (CI-LIGHT-RUNNER-SE",
+     "t": "Getac (tablet + desktop): Direct USB survival while folded, the minutes written ",
+     "x": false
+    },
+    {
+     "t": "Getac (two release tablets): two-tablet agent.request acceptance, and Dev Mode o",
      "x": false
     }
    ],
@@ -6994,27 +6746,7 @@
      "by": "CLOUD_B",
      "at": "2026-11-12T08:10Z",
      "text": "CLOUD_B 2026-11-12: nothing code-only left; Direct USB folded measurement (tablet + desktop) and Windows daily runner registration are machine steps."
-    }
-   ]
-  },
-  {
-   "n": 376,
-   "name": "One agent drives two release tablets, and Dev Mode off refus",
-   "done": "",
-   "goal": true,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "two-tablet agent.request acceptance (DEVCTL-S5-TWO-DEVICE-ACCEPTANCE)",
-     "x": false
-    }
-   ],
-   "notes": [
+    },
     {
      "by": "CLOUD_B",
      "at": "2026-11-12T08:10Z",
@@ -7035,19 +6767,19 @@
    "held": [],
    "steps": [
     {
-     "t": "altitude.status shows fine=True state=Ready",
+     "t": "Getac (Strong): altitude.status shows fine=True state=Ready",
      "x": false
     },
     {
-     "t": "line, contours and visibility prediction keep their shape, only finer",
+     "t": "Getac (Strong): line, contours and visibility prediction keep their shape, only ",
      "x": false
     },
     {
-     "t": "hide the view 6 s and show: Released, Deriving, Uploading, Ready with no spike",
+     "t": "Getac (Strong): hide the view 6 s and show: Released, Deriving, Uploading, Ready",
      "x": false
     },
     {
-     "t": "retest altitude-line curves and radio-horizon/skirt cases",
+     "t": "Getac (Strong): altitude-line curves and the radio-horizon and skirt cases again",
      "x": false
     }
    ],
@@ -7074,11 +6806,7 @@
    "held": [],
    "steps": [
     {
-     "t": "native text session adapters: Android EditText, iOS responder (SEARCH-NATIVE-TEX",
-     "x": true
-    },
-    {
-     "t": "device acceptance: hotplug, resume, Ukrainian/IME, caret, paste, Enter, Esc on A",
+     "t": "Getac (Android + hardware keyboard) and Mac (iPad + keyboard): hotplug, resume, ",
      "x": false
     }
    ],
@@ -7113,39 +6841,53 @@
    "held": [],
    "steps": [
     {
-     "t": "Windows USB health and ETW trace (MOTOROLA-WINDOWS-USB-GATEWAY-LOSS, MOTOROLA-RN",
+     "t": "Getac (radio on USB): Windows USB health snapshot and ETW trace of the gateway l",
      "x": false
     },
     {
-     "t": "paired test both directions (MOTOROLA-TWO-PC-RADIO-20261020)",
+     "t": "Getac (Strong + radio): an active PAN attempt on Dev 823 or newer: connection an",
      "x": false
     },
     {
-     "t": "10 minutes sharing with the airtime floor",
+     "t": "Getac + a second radio host: paired test in both directions (MOTOROLA-TWO-PC-RAD",
      "x": false
     },
     {
-     "t": "R7 ARS and LRRP position to a station with the peer app off",
+     "t": "Getac + a second radio host: 10 minutes sharing with the airtime floor",
      "x": false
     },
     {
-     "t": "Settings On/Off toggle",
+     "t": "Getac: R7 ARS and LRRP position to a station with the peer app off",
      "x": false
     },
     {
-     "t": "tablet USB power-cycle hint",
+     "t": "Getac: Settings On/Off toggle; tablet USB power-cycle hint; Inspector and Diagno",
      "x": false
     },
     {
-     "t": "design ambiguity rulings (S11, S14, S15, S18, S19)",
+     "t": "Getac: legacy rendered and native gates, the CPS checklist and the test gaps the",
+     "x": false
+    },
+    {
+     "t": "quiz's word: design ambiguity rulings S11, S14, S15, S18, S19",
      "x": false
     }
    ],
    "notes": [
     {
+     "by": "GETAC",
+     "at": "2026-11-11T10:28Z",
+     "text": "GETAC built Brigade 68 Android Dev 823 from 46a76c0d3f for local Strong testing. Unity 6000.6.8f1 build exit 0 after correcting the Windows process PATH. Local APK and build report: D:/MAV_Work/Verification/Strong-Android-Dev-46a76c0d3f-202"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-11T10:34Z",
+     "text": "Strong installed Android Dev 823 (46a76c0d3f) in place. APK SHA256 matched, saved settings hash matched, bootstrap ready 4.928 s, map rendered, zoom in/out and pose restore worked. 180 s startup held one PID and VPN, but four map ribbon Nul"
+    },
+    {
      "by": "CLOUD_D",
-     "at": "2026-11-12T08:11Z",
-     "text": "CLOUD_D 2026-11-12: nothing cloud can do: every open step is device, build machine or waits for quiz (374: CR-4066-01). No change."
+     "at": "2026-11-12T08:10Z",
+     "text": "CLOUD_D 2026-11-12: no code/docs step left that cloud can do; everything open is device/build-machine/quiz-wait (see the unticked steps; 374 CR-4066-01 waits for quiz). Nothing changed."
     }
    ]
   },
@@ -7162,11 +6904,11 @@
    "held": [],
    "steps": [
     {
-     "t": "Android notification lists active processes while they change, on an Android dev",
+     "t": "Getac (Android): the notification lists active processes while they change (NOTI",
      "x": false
     },
     {
-     "t": "iPhone still for 3 min off screen stays online with a growing position age, on a",
+     "t": "Mac (iPhone): still for 3 min with the screen off, it stays online with a growin",
      "x": false
     }
    ],
@@ -7190,7 +6932,7 @@
   },
   {
    "n": 381,
-   "name": "Close zoom tiles show their own imagery and water, never a c",
+   "name": "The planet draws to its SPEC: close zoom tiles show their ow",
    "done": "",
    "goal": true,
    "under": 0,
@@ -7201,25 +6943,59 @@
    "held": [],
    "steps": [
     {
-     "t": "Mariupol coast and satellite seams at village zoom vs the 775 photo (PLANET-TILE",
+     "t": "Getac: Android build with GLES page batching back on by default, on the Strong",
      "x": false
     },
     {
-     "t": "restore Android GLES page batching by default, build and verify on the tablet",
+     "t": "Getac (Strong): Mariupol coast and satellite seams at village zoom against the 7",
+     "x": false
+    },
+    {
+     "t": "Getac (Strong + a paired peer): Mask Sync stall gone: on a build with the 3 ms p",
+     "x": false
+    },
+    {
+     "t": "Getac (Strong): two-finger pan, pinch and twist keep both finger anchors; the co",
+     "x": false
+    },
+    {
+     "t": "Getac idle loop (quiz, 2026-11-08: \"2. Getac's idle loop\"): lighting; water blue",
+     "x": false
+    },
+    {
+     "t": "PASIKA: Space relief from the 4096x2048 slope texture: the full-resolution GLO-3",
+     "x": false
+    },
+    {
+     "t": "Cloud, after Copernicus passes: NOAA globe relief removed",
+     "x": false
+    },
+    {
+     "t": "Mac or Rog (Editor): raised overlay coverage and the element mask fallback trans",
      "x": false
     }
    ],
    "notes": [
     {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-11T11:50Z",
+     "text": "cmp.sh NEW ERRORS: none. Water tests rewritten to a flat sky colour bound as _PlanetWaterClouds (TestWaterSky); not run in the Editor, so run the Planet render tests once. CesiumWaterShaderRenderTests still binds a black cubemap and no sky "
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-11T12:43Z",
+     "text": "ROG_OPUS: Editor part done (0f29b05c5e). Rog Editor 6000.6.8f1 under a verification identity: shaders compiled with no error in Editor.log; PlanetSurfaceShaderRenderTests 52/52, CesiumWaterShaderRenderTests 4/4 as the cloud left them; Plane"
+    },
+    {
      "by": "CLOUD_A",
-     "at": "2026-11-12T08:10Z",
+     "at": "2026-11-12T08:09Z",
      "text": "CLOUD_A 2026-11-12: reviewed; every open step is a device, Editor or capture check (lighting, relief, tablet altitude status, Mariupol seams, Android page batching on the tablet). No code-only step left; Android page batching default is a b"
     }
    ]
   },
   {
    "n": 382,
-   "name": "The Bootstrap isolation family is proven in the Editor and o",
+   "name": "Bootstrap isolation: one part failing is marked failed and t",
    "done": "",
    "goal": true,
    "under": 0,
@@ -7230,23 +7006,19 @@
    "held": [],
    "steps": [
     {
-     "t": "containing All on current main, record each member with --result",
+     "t": "Cloud: the task filed under this goal: a backdoor command for the Inspector pick",
      "x": false
     },
     {
-     "t": "Editor Play session: lifecycle, scene loads, Chat/Store returns, Inspector pick",
+     "t": "PASIKA: containing All on current main, each member recorded with --result (the ",
      "x": false
     },
     {
-     "t": "corrected Android build on a DJI controller shows UI advancing through a failure",
+     "t": "PASIKA runs All including WaypointCheckpointTests; Cloud audits the writers of t",
      "x": false
     },
     {
-     "t": "Mac timing check of Frame setup / Timing tree reset",
-     "x": false
-    },
-    {
-     "t": "ROOT-SETTINGS-DIRTY-ADMISSION: All incl. WaypointCheckpointTests, writer audit o",
+     "t": "Getac (DJI controller): the corrected Android build keeps the UI advancing throu",
      "x": false
     }
    ],
@@ -7281,15 +7053,23 @@
    "held": [],
    "steps": [
     {
-     "t": "iPhone peer visibility and shared position vs Getac (IPHONE-PEER-POSITION-ASYMME",
+     "t": "Getac (Strong) + Mac (iPhone): each sees the other and its shared position (IPHO",
      "x": false
     },
     {
-     "t": "retain the actual iPhone VPN resume failure (IPHONE-RESUME-FAILURE-DEVICE-EVIDEN",
+     "t": "Mac (iPhone): keep the actual iPhone VPN resume failure and show it in the resum",
      "x": false
     },
     {
-     "t": "peers by IP on devices: old saved data repopulates, radio gateway and IP station",
+     "t": "Getac: Android local hotspot ownership (ANDROID-LOCAL-HOTSPOT-NATIVE-OWNERSHIP, ",
+     "x": false
+    },
+    {
+     "t": "Getac + PASIKA: VPN peer link and its diagnostics per Network/SPEC.md (was task ",
+     "x": false
+    },
+    {
+     "t": "Getac (radio gateway) + an IP station: peers by IP: old saved data repopulates, ",
      "x": false
     }
    ],
@@ -7546,28 +7326,19 @@
    "held": [],
    "steps": [
     {
-     "t": "every task filed under this goal is done",
+     "t": "Rog (has task 477): the one-pixel line split imports and compiles; prefabs keep ",
      "x": false
     },
     {
-     "t": "(was 167/297) join sides: quiz picks a/b/c (LOCAL_MAC note 2026-11-11T18:08Z), t",
+     "t": "Mac or Rog (Editor): join sides, option (a) of the LOCAL_MAC note of 2026-11-11T",
      "x": false
     },
     {
-     "t": "(was 167/297) uncertain screen-edge rows from the prefab layout: Video Panel Den",
-     "x": false
-    },
-    {
-     "t": "(was 167) composites split per UI/COMPOSITES_PLAN.md steps 2-5",
+     "t": "Mac or Rog (Editor): composites split per UI/COMPOSITES_PLAN.md steps 2 to 5 (wa",
      "x": false
     }
    ],
    "notes": [
-    {
-     "by": "CLOUD_BRIGHTNESS",
-     "at": "2026-11-12T08:19Z",
-     "text": "CLOUD_BRIGHTNESS: quiz 2026-11-12: 'The brightness slider is still unusable. The word brightness should be above, and the slider should take entire width of the panel.' Prefab (Processes and Timings, Map lighting brightness: label 28 high o"
-    },
     {
      "by": "PASIKA_VIEW",
      "at": "2026-11-12T08:26Z",
@@ -7577,6 +7348,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-12T09:08Z",
      "text": "ROG_OPUS 2026-11-12 batch 24, the uncertain screen-edge rows, decided from the layout: (1) Video Panel Denoise switch: Left is a screen side, it stretches the Denoise Rows container (anchors x 0..1, zero offset), which sits in Video Panel's"
+    },
+    {
+     "by": "CLOUD_BOARD",
+     "at": "2026-11-12T10:02Z",
+     "text": "Join sides: option (a) taken without asking (root AGENTS, User intent is carried out): keep the merge flag on join sides, add only the line. The five uncertain screen-edge rows left the list: ROG_OPUS decided them on 2026-11-12 (6138a500ce,"
     }
    ]
   },
@@ -7653,15 +7429,11 @@
    "held": [],
    "steps": [
     {
-     "t": "every task filed under this goal is done",
+     "t": "Cloud: the pages under the eight Settings roots get what the roots got in b5e0c4",
      "x": false
     },
     {
-     "t": "tasks for it are written when quiz names what is missing",
-     "x": false
-    },
-    {
-     "t": "(was 420) Foldouts take the free width: which prefab rows quiz means (a screen n",
+     "t": "quiz's word: which rows he means by foldouts that do not take the free width; th",
      "x": false
     }
    ],
@@ -7696,7 +7468,11 @@
    "held": [],
    "steps": [
     {
-     "t": "every task filed under this goal is done",
+     "t": "Cloud: read every notification card type in code against UI/Guides/Notifications",
+     "x": false
+    },
+    {
+     "t": "Cloud, then Mac or Rog for prefab parts: bring those cards to the one rule, one ",
      "x": false
     }
    ],
@@ -7761,7 +7537,7 @@
    "held": [],
    "steps": [
     {
-     "t": "In-app priority, Set for review, Park and Verified write back to the board (wait",
+     "t": "quiz's pick of the route by which the app writes to the board (the app reads boa",
      "x": false
     }
    ],
@@ -7811,7 +7587,7 @@
   {
    "n": 418,
    "name": "Manager decides the state, views pick the words: every statu",
-   "done": "",
+   "done": "2026-11-12T10:02Z",
    "goal": true,
    "under": 0,
    "ticks": [
@@ -7844,11 +7620,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-12T07:23Z",
-     "text": "REVIEW-452-CR-A0FD-01: source-repaired by 91a6f97d3: 13 DJI keys/values are in both dji. groups at identical indices, absent from roots; four asset key/value counts passed host parsing. Original brief/results retained; native localization/R"
-    },
-    {
      "by": "CLOUD_E",
      "at": "2026-11-12T08:14Z",
      "text": "CLOUD_E: re-read all eight listed views, all through. Remaining writer-text prints found by grep, not yet given an enum: Remote Sensors connection error text (RemoteSense_ConnectionInspector.GetLastConnectionErrorText, Singleton_RemoteSenso"
@@ -7857,6 +7628,11 @@
      "by": "CLOUD_G",
      "at": "2026-11-12T08:20Z",
      "text": "CLOUD_G: 418 last two views on main d3b0a50146: MavLink comm link blocked port is enum MAV.COMM_Links.SocketFault (None/ListenerException/PortInUse) set by the listeners, SocketFaultWords picks the English/Ukrainian text in the three views "
+    },
+    {
+     "by": "CLOUD_BOARD",
+     "at": "2026-11-12T10:02Z",
+     "text": "Closed: nothing missing. The last two views (MavLink comm link SocketFault, Remote Sensors ConnectionFailureKind) are on main d3b0a50146."
     }
    ]
   },
@@ -7924,7 +7700,7 @@
    "name": "Performance: every device spends the least GPU, CPU, RAM and",
    "done": "",
    "goal": true,
-   "under": 363,
+   "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
@@ -7936,113 +7712,72 @@
      "noted": "",
      "progress": 0,
      "ticked": 0,
-     "total": 24
+     "total": 15
     }
    ],
    "steps": [
     {
-     "t": "(was 79) Idea, no word from quiz yet (quiz, 2026-11-09: \"Not sure. Not yet proba",
+     "t": "Cloud: six pointing owners still pass a new delegate on every pointing pass (Mav",
      "x": false
     },
     {
-     "t": "(was 99) Getac: cmp.sh, Lenovo idle 120 s per-type message ms/s and Heartbeat su",
+     "t": "Cloud: VPN messaging wire changes behind a PeerBuilds gate: one datagram per sea",
      "x": false
     },
     {
-     "t": "(was 99) Fix the heartbeat cost the capture names",
+     "t": "Cloud: Map Editing Before Camera works every idle frame with nothing edited (64.",
      "x": false
     },
     {
-     "t": "(was 99) Check Profiles.LastCaptured is 0 on the second routine save with peers ",
+     "t": "Rog (Editor beside the code): three same-picture shader moves (Performance Basel",
      "x": false
     },
     {
-     "t": "(was 99) Wire changes behind a PeerBuilds gate: one datagram per sealed message,",
+     "t": "Rog (Editor): Patch Preparation after the compose allowance (478f8c5): PlanetDis",
      "x": false
     },
     {
-     "t": "(was 99) Seal on the sender thread",
+     "t": "PASIKA: compiled counts for the fragment baseline: D3D11 fxc and the Mali Offlin",
      "x": false
     },
     {
-     "t": "(was 159) Batched raycast leftovers (Coordination/Refactoring/batched-raycasts.m",
+     "t": "Getac: signed Android build from main on the Strong and the Lenovo, 2 min idle r",
      "x": false
     },
     {
-     "t": "(was 171) Editor (Windows): compiled counts for the fragment baseline...",
+     "t": "Getac (Strong): map pinch stalls including release (was 88): Planet > Patch Prep",
      "x": false
     },
     {
-     "t": "(was 172) Code: apply the same-picture moves from Assets/_PROJECT/Shaders/BASELI",
+     "t": "Getac (Lenovo): idle 120 s, per-type message ms per second and the Heartbeat sub",
      "x": false
     },
     {
-     "t": "Code with the Editor at hand: three same-picture shader moves left (Performance ",
+     "t": "Getac (Lenovo): the VPN Chat scope and the Map Editing Before Camera scope in th",
      "x": false
     },
     {
-     "t": "(was 191) Patch Preparation after the compose allowance (478f8c5, cloud, uncompi",
+     "t": "Getac (Strong): profile one Shapes label for Draw Destinations (4.6 ms): three R",
      "x": false
     },
     {
-     "t": "(was 64) Enemy Logistics costs 774 ms and quiz does not use it (quiz, 2026-11-08",
+     "t": "Getac (Android device): TunnelManager.Step still reads the status file through J",
      "x": false
     },
     {
-     "t": "(was 88) Fix map pinch stalls on Android, including release (Getac Strong Test 8",
+     "t": "Getac (phone): Enemy Logistics 774 ms: find the row that shows it (Diagnostics >",
      "x": false
     },
     {
-     "t": "Open the VPN Chat scope in the Performance menu on Lenovo, build 812",
+     "t": "Cloud, when a frame profile shows them: batched raycast leftovers (Coordination/",
      "x": false
     },
     {
-     "t": "Android built-in tunnel: TunnelManager.Step still makes its Java calls and reads",
-     "x": false
-    },
-    {
-     "t": "Draw Destinations (4.6 ms on the Strong): profile one Shapes label on the Strong",
-     "x": false
-    },
-    {
-     "t": "Code, read and left on 2026-11-12 (Performance Baseline/CPU.md History, third pa",
-     "x": false
-    },
-    {
-     "t": "Install on both phones, repeat the idle read",
-     "x": false
-    },
-    {
-     "t": "Compare with 13.24 ms Strong and 50.66 ms Lenovo in Phone_Timings.md",
-     "x": false
-    },
-    {
-     "t": "Read the Map Editing Before Camera scope in the Performance menu on Lenovo, buil",
-     "x": false
-    },
-    {
-     "t": "Find what it does per idle frame with nothing edited",
-     "x": false
-    },
-    {
-     "t": "Skip it while no edit is open, behind the existing idle policy",
-     "x": false
-    },
-    {
-     "t": "Install on Lenovo, repeat the 2 min idle read",
-     "x": false
-    },
-    {
-     "t": "Add the new row to Phone_Timings.md and compare with 64.17 ms",
+     "t": "quiz's word (quiz, 2026-11-09: \"Not sure. Not yet probably.\"): record which feat",
      "x": false
     }
    ],
    "notes": [
-    {
-     "by": "PASIKA_PERF",
-     "at": "2026-11-12T09:31Z",
-     "text": "PASIKA_PERF 2026-11-12, second code pass (no Editor, no device; Roslyn cmp.sh NEW ERRORS: none against main before the push). Done: f240a1e9ac Store Post notices are not walked every frame once settled (no notice comes later than before); 8"
-    },
     {
      "by": "PASIKA",
      "at": "2026-11-12T09:33Z",
@@ -8052,6 +7787,11 @@
      "by": "PASIKA_PERF",
      "at": "2026-11-12T09:53Z",
      "text": "PASIKA_PERF 2026-11-12, third code pass (no Editor, no device; Roslyn cmp.sh NEW ERRORS: none against main before the push). Done: a0d57d4505 map text renderer reads Time.frameCount once per pass instead of once per marker and label slot (u"
+    },
+    {
+     "by": "CLOUD_BOARD",
+     "at": "2026-11-12T10:02Z",
+     "text": "Missing list regrouped by machine and put in order, nothing dropped: Cloud lines first (pointing delegates, VPN wire changes, Map Editing Before Camera), then Rog, PASIKA and the Getac reads. The stray goal lines that filed this goal under "
     }
    ]
   },
@@ -8068,67 +7808,35 @@
    "held": [],
    "steps": [
     {
-     "t": "(was 55) Sample PSS on Strong at boot, 30 s, 60 s and 120 s idle",
+     "t": "PASIKA: flip a copy of tiles_sumy with map.store logical in Play (quiz, 2026-11-",
      "x": false
     },
     {
-     "t": "(was 55) Read per-owner memory (textures, tile cache, buffers) at the 120 s poin",
+     "t": "Cloud, from that result: Web Mercator SQLite storage to the SPEC layout: one aut",
      "x": false
     },
     {
-     "t": "(was 55) Name the owner holding the extra 168 MiB",
+     "t": "Cloud: Web Mercator and Orthophoto tile tombstones become the usual list, 512 wi",
      "x": false
     },
     {
-     "t": "(was 55) Cap it or free it when Activity is Idle",
+     "t": "Cloud: Under 100 files, step 2: Geometry, Logistics, convergence months and Tile",
      "x": false
     },
     {
-     "t": "(was 55) Repeat the 2 min read and add the RAM change to Phone_Timings.md Owners",
+     "t": "Getac (Strong): RAM grows in idle (+168 MiB in 2 min on 812): PSS at boot, 30 s,",
      "x": false
     },
     {
-     "t": "(was 55) Install 812 (7990df8019) and 814 (07bcf48b71) on Strong and read PSS at",
+     "t": "Getac (Strong, then Lenovo off the first cold launch): 812 (7990df8019) against ",
      "x": false
     },
     {
-     "t": "(was 55) Repeat on Lenovo, off the first cold launch after upgrade",
+     "t": "Cloud: cap the named owner or free it when Activity is Idle (was 55)",
      "x": false
     },
     {
-     "t": "(was 55) List commits between 812 and 814 touching textures, caches, buffers or ",
-     "x": false
-    },
-    {
-     "t": "(was 55) Install the half-way build, read PSS, narrow to one commit",
-     "x": false
-    },
-    {
-     "t": "(was 55) Name the owner holding the extra MiB and fix or free it when Activity i",
-     "x": false
-    },
-    {
-     "t": "(was 55) Add the new rows to Phone_Timings.md",
-     "x": false
-    },
-    {
-     "t": "(was 87) Geometry, logistics, convergence, peer versions",
-     "x": false
-    },
-    {
-     "t": "(was 87) Caps and Storage page file count",
-     "x": false
-    },
-    {
-     "t": "(was 97) Web Mercator payload files: 75,658 files in the Mac Editor's tiles_sumy",
-     "x": false
-    },
-    {
-     "t": "(was 220) Web Mercator and Orthophoto tile tombstones become the usual list: 512",
-     "x": false
-    },
-    {
-     "t": "(was 426) Web Mercator SQLite storage is not up to SPEC: many small geographic p",
+     "t": "Getac: repeat the 2 min read and add the RAM rows to Coordination/Phone_Timings.",
      "x": false
     }
    ],
@@ -8168,11 +7876,11 @@
    "held": [],
    "steps": [
     {
-     "t": "Screen-share renewal over Chat 14668 (was 208 part 2): the foreground receiver o",
+     "t": "PASIKA compiles the Java, Getac (Android) runs: a viewer renews a screen share t",
      "x": false
     },
     {
-     "t": "Restream H.264 (was 238): ultimate is one Media Foundation encoder for WebRTC an",
+     "t": "Cloud, then PASIKA (Windows GPU): Restream H.264 (was 238): ultimate is one Medi",
      "x": false
     }
    ],
@@ -8685,7 +8393,7 @@
   {
    "n": 470,
    "name": "Separate the Clock/status plaque",
-   "done": "",
+   "done": "2026-11-12T10:02Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -8704,6 +8412,11 @@
      "by": "PASIKA_VIEW",
      "at": "2026-11-12T08:25Z",
      "text": "PASIKA_VIEW 2026-11-12: CLOUD_C's 53f6334619 (Clock instance x -300, left of the compass) landed first; my alternative (Navigation.prefab root back at its pre-863cb3cd6c position 24.99,96.34, compass above the plaque) was dropped, not pushe"
+    },
+    {
+     "by": "CLOUD_BOARD",
+     "at": "2026-11-12T10:02Z",
+     "text": "Closed: the Clock instance sits left of the compass since 53f6334619 and the Map screen is bumped; how it looks at 2000x1152 is that screen's check."
     }
    ]
   },
@@ -8724,7 +8437,7 @@
   {
    "n": 472,
    "name": "Note from PASIKA",
-   "done": "",
+   "done": "2026-11-12T10:02Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -8738,13 +8451,18 @@
      "by": "PASIKA_PROTOCOL",
      "at": "2026-11-12T09:38Z",
      "text": "PASIKA_PROTOCOL, Player.log findings of this task, on main (a2309f66b5, c8f5a32c07, ea8bed47aa, 803df400f7, 50c1990f44; Roslyn NEW ERRORS: none; not run in Play or on devices). The log is of the installed 817 (Windows Test, f15d27acc4), so "
+    },
+    {
+     "by": "CLOUD_BOARD",
+     "at": "2026-11-12T10:02Z",
+     "text": "Closed: every Player.log finding is repaired on main (a2309f66b5, c8f5a32c07, ea8bed47aa, 803df400f7, 50c1990f44); an installed 817 keeps logging until it is updated."
     }
    ]
   },
   {
    "n": 473,
    "name": "Note from LOCAL_MAC",
-   "done": "",
+   "done": "2026-11-12T10:02Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -8753,12 +8471,18 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_BOARD",
+     "at": "2026-11-12T10:02Z",
+     "text": "Closed: batch 32 summary. What it left is on goal 430 (PASIKA flips a copy of tiles_sumy) and goal 429 (the Mask Demand read needs a phone build with 509da0297d and 55dbede20d)."
+    }
+   ]
   },
   {
    "n": 474,
    "name": "Note from CLOUD_BATCH",
-   "done": "",
+   "done": "2026-11-12T10:02Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -8767,12 +8491,18 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_BOARD",
+     "at": "2026-11-12T10:02Z",
+     "text": "Closed: batch record, the prompts are in Coordination/Prompts."
+    }
+   ]
   },
   {
    "n": 475,
    "name": "Note from LOCAL_MAC",
-   "done": "",
+   "done": "2026-11-12T10:02Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -8781,12 +8511,18 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_BOARD",
+     "at": "2026-11-12T10:02Z",
+     "text": "Closed: batch 33 summary, nothing left for the Mac; its 382 timing check (0.002 ms) took that line off goal 382."
+    }
+   ]
   },
   {
    "n": 476,
    "name": "Note from CLOUD_TABS",
-   "done": "",
+   "done": "2026-11-12T10:02Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -8795,14 +8531,20 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_BOARD",
+     "at": "2026-11-12T10:02Z",
+     "text": "Closed: batch record, MAC_FABLE holds goal 408."
+    }
+   ]
   },
   {
    "n": 477,
    "name": "One-pixel line split (cloud push",
    "done": "",
    "goal": false,
-   "under": 0,
+   "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
@@ -8829,7 +8571,7 @@
   {
    "n": 478,
    "name": "Note from ROG_OPUS",
-   "done": "",
+   "done": "2026-11-12T10:02Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -8838,7 +8580,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_BOARD",
+     "at": "2026-11-12T10:02Z",
+     "text": "Closed: batch 24 summary. Its results are on goals 407 and 382; the Inspector pick it could not run is now a cloud task under 382."
+    }
+   ]
   },
   {
    "n": 479,
@@ -8899,7 +8647,7 @@
    "name": "Cut what is left of MavChat Land",
    "done": "",
    "goal": false,
-   "under": 0,
+   "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
@@ -8907,6 +8655,46 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 482,
+   "name": "EditMode All is red on main (Mac",
+   "done": "",
+   "goal": false,
+   "under": 369,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CLOUD_BOARD",
+     "at": "2026-11-12T10:02Z",
+     "text": "Cloud-doable C#, found while organising the board; pushed uncompiled is fine, the next local compile pass catches errors."
+    }
+   ]
+  },
+  {
+   "n": 483,
+   "name": "The Editor Play session of Boots",
+   "done": "",
+   "goal": false,
+   "under": 382,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CLOUD_BOARD",
+     "at": "2026-11-12T10:02Z",
+     "text": "Cloud-doable C#, found while organising the board; pushed uncompiled is fine, the next local compile pass catches errors."
+    }
+   ]
   }
  ],
  "verify": [
@@ -8955,5 +8743,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e716544a6358f6018d7a7f46d889caa885c3d93b"
+ "source_revision": "eb432c60a3468cf579a831a043dacd9394811390"
 }
