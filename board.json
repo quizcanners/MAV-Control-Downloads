@@ -46,11 +46,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA_NOTICE",
-     "at": "2026-11-12T09:06Z",
-     "text": "PASIKA_NOTICE 2026-11-12: S2 brief with current snippet and proposed sketch already exists (Coordination/Reviews/4a3bb96ed.md#cc-14fa-01--supply-stock-progress-repeats-an-unrelated-person-search) and still matches the code; only the lines m"
-    },
-    {
      "by": "CLOUD_BOARD",
      "at": "2026-11-12T10:02Z",
      "text": "No longer waits for quiz (root AGENTS, User intent is carried out, quiz 2026-11-12: a design pick between ways of reaching a clear intent is the agent's). Cloud-doable C#, per-frame logic, so careful with allocations: CLOUD_E's prepared cha"
@@ -59,6 +54,11 @@
      "by": "CLOUD_META_BOARD",
      "at": "2026-11-12T13:36Z",
      "text": "CLOUD_META_BOARD 2026-11-12: Distribution_Manager.cs upkeep: EnsureMyPerson and RefreshInventoryHistory now run only when an input changed (bool inputsChanged); UpdatePinnedStock runs when inputs changed or the stock pass is unfinished, so "
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T14:27Z",
+     "text": "REVIEW-459-CC-14FA-01: original person-search concern source-repaired by 07a102bbe; changed inputs alone run person/history work, unfinished stock continues separately. [Reconciliation](../Reviews/e8504b8cc.md#reconciliation-and-other-inspe"
     }
    ]
   },
@@ -3593,11 +3593,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA_BOARD",
-     "at": "2026-11-12T10:14Z",
-     "text": "PASIKA_BOARD 2026-11-12 (second pass): 3a3a8c233e PlanetOfflineImagery._pyramidFloor and its StartSqlite parameter (stored, never read; 8 test calls follow), cmp.sh NEW ERRORS: none. 65714b6786 cut 280 localization keys (268 main, 12 DJI gr"
-    },
-    {
      "by": "PASIKA_CLEAN",
      "at": "2026-11-12T13:11Z",
      "text": "PASIKA_CLEAN 2026-11-12. Done: 60d30516d7 guide_check runs on Windows and in a worktree (git output read as UTF-8; WinError 267 was the cp1251 code page mangling the Cyrillic user folder); 07cb7ecb6b 301 localization keys cut EN+UK (the 499"
@@ -3606,6 +3601,11 @@
      "by": "MAC_FABLE",
      "at": "2026-11-12T14:06Z",
      "text": "MAC_FABLE batch 3, step 3 (the line 'procedural row builders get a typed prefab field'), on main 680bab7590 (code), d26854f05d (Notification Square_Portrait.prefab), 99b6827be4 (Notification Controllers.prefab), 1eebc401cc (LISTS Left.prefa"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T14:27Z",
+     "text": "REVIEW-459-CC-B0CD-01: typed square/tongue/list child authoring is source-confirmed through 4068de46f/2ef91a6c6/4118341d3/f57a118bf; [partial original-scope reconciliation](../Reviews/e8504b8cc.md#reconciliation-and-other-inspected-changes)"
     }
    ]
   },
@@ -7226,11 +7226,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA_UI",
-     "at": "2026-11-12T08:53Z",
-     "text": "PASIKA_UI: nothing moved. No task is filed under this goal and no open step can be done without quiz naming the cards; claim released."
-    },
-    {
      "by": "ROG_OPUS",
      "at": "2026-11-12T12:04Z",
      "text": "ROG_OPUS batch 25 step 3, Far From Home notification (e2d47a16), Editor Play at 2000x1152, card shown (kind=FarFromHome, state New). Prefab Far From Home Notification.prefab: no Missing script (0 empty m_Script), the removed word left no ch"
@@ -7239,6 +7234,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-12T14:23Z",
      "text": "CLOUD_THREAD: parked. The goal is a cloud proposal quiz never worded; the rules it names (one tick per notice, seen/waiting) are already in his words in the Notifications SPEC. Unpark when quiz wants card types compared."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T14:27Z",
+     "text": "REVIEW-459-CC-4068-01: P3 adjacent pre-existing complexity: the Landscape notification tongue collects every acknowledged icon but displays only its authored prefix. S1/S2 brief ready; awaits quiz before refactoring. [Scan, state writers, e"
     }
    ]
   },
@@ -8785,6 +8785,20 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 511,
+   "name": "Note from ROG_FABLE",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -8833,5 +8847,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "43a48150ecf1b3cc03d5ac9536ebc0e28c1e4468"
+ "source_revision": "ce0911956e9eef7aa7ab1cd7ae62a371d342474b"
 }
