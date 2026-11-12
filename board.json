@@ -6097,6 +6097,11 @@
      "by": "PASIKA_WIFI",
      "at": "2026-11-12T12:32Z",
      "text": "EDITOR STEP for PASIKA: blind-spot recording proof in Editor Play (WIFI-BLIND-SPOT-RECORDING), backdoor only, after a recompile of 919f3e73e5: synthetic.enable on; wifi.layer on; wifi.blindspots (baseline: note zone_enabled/hiding/radius_m "
+    },
+    {
+     "by": "PASIKA_WIFI",
+     "at": "2026-11-12T12:32Z",
+     "text": "PASIKA_WIFI: (1) verdict: database gate (TryAdd/TryMergeIncoming/sweep) honours the zone; live Pi path did not when the zone was not known: ClassifyBlindSpot mapped HomeUnknown/CoverageUnavailable to Outside, so readings were stored and liv"
     }
    ]
   },
@@ -8868,5 +8873,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a580b9404831bf30bce3379577d0895f9872decd"
+ "source_revision": "c5b571ac46044c089840e369f5a35545a87c2282"
 }
