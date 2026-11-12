@@ -8120,11 +8120,6 @@
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T23:05Z",
-     "text": "6daa25ad04 (code read, no device): in Map Editing Before Camera, Orthophoto TextureSaveUnloadUpdate revisited every loaded on-screen branch and its parents every frame, because a texture whose unload was blocked only by visibility returned "
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-11T23:17Z",
      "text": "REVIEW-445-CC-6DAA-01: P3 complexity/performance: ordinary Orthophoto-off reaches three whole-tree work-mark walks (setter hide, imagery gate, presentation gate). S1/S2 input writers, exact callers, current/proposed single transition-owned "
@@ -8133,6 +8128,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T23:28Z",
      "text": "VPN Chat idle item, code read (no device): DirectUsb.ManagedUpdate (1.84 ms/update on Strong 821) has no avoidable idle work in the code: TransportFailures returns on an empty queue, GeoTIFF send on an empty queue, Hotspot.UpdatePermission "
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T00:55Z",
+     "text": "REVIEW-446-CC-6DAA-01: 8b0de935d source-repairs the repeated global hide marking: OR-combined existing gates stage one mark, setter/display hide stays immediate and no longer marks. Existing code/device baseline and claim state retained; so"
     }
    ]
   },
@@ -8146,7 +8146,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "LOCAL_MAC",
+     "since": "2026-11-12T01:08Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 16
+    }
+   ],
    "steps": [
     {
      "t": "(was 55) Sample PSS on Strong at boot, 30 s, 60 s and 120 s idle",
@@ -8215,19 +8224,19 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-11T23:00Z",
-     "text": "REVIEW-444-CC-B4AC-01: existing P3 duplicate-key-lookup proposal remains awaiting quiz. 735b31c9e preflight now reads evicted; a direct requested-row proposal must preserve Evicted suppression of legacy fallback. Updated S1/S2 evidence/curr"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-11T23:00Z",
-     "text": "REVIEW-444-RECONCILIATION: CR-5025-01 source-repaired by 0098608c4: follower deleted, logical failure propagates, error adoption retains/requeues candidates and marks presence Stale. Early Settled alone does not lose failed inputs. Original"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-12T00:04Z",
      "text": "7a827b3009 (Unity compile 0 errors): review 84cb4b585 fixed on the flipped-map writer: CR-0098-01 a deletion always writes the tiles.sqlite tombstone (shadows a segment-only tile, the migration copy cannot resurrect it); CR-0098-02 a retain"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T00:55Z",
+     "text": "REVIEW-446-CR-0098-03: partial repair at 7a827b300: logical-row receipts now consume correctly, but legacy-fallback (Revision=100, Generation=7, no logical row) UPDATE affects zero and Settled still frees the only rejection. Copied-between-"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T00:55Z",
+     "text": "REVIEW-446-430-RECONCILIATION: 7a827b300 source-repairs CR-0098-01 (legacy-only delete), CR-0098-02 (prior-pixels retag) and CC-0098-01 (ordinary NORMAL metadata commit). Original briefs and Mac compile/results remain; CR-5025-01 stays sour"
     }
    ]
   },
@@ -8659,5 +8668,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "198e1d0318503716ef80d09e42adb17336e67215"
+ "source_revision": "1531c5b2ca68d7146a5c4216311a74c32ee8b179"
 }
