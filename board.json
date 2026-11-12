@@ -7937,7 +7937,7 @@
     {
      "who": "PASIKA_PERF",
      "since": "2026-11-12T09:00Z",
-     "noted": "",
+     "noted": "2026-11-12T09:31Z",
      "progress": 0,
      "ticked": 0,
      "total": 24
@@ -8043,11 +8043,6 @@
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-12T08:18Z",
-     "text": "Batch 32 step 3, read from the coordination server (Mac Editor in Play; the MavServer route is live via the direct route since 053fc426c5, while the Mac's 10.10.10.x WireGuard adapter is still absent, vpn.handshake NoVpn). server.diagnostic"
-    },
-    {
      "by": "PASIKA_PERF",
      "at": "2026-11-12T08:57Z",
      "text": "PASIKA_PERF 2026-11-12, code pass on a Windows PC with no Editor and no device; Roslyn cmp.sh NEW ERRORS: none before each C# push. Done: 1f9e7188d7 subnet parse without allocations (Station.Vpn.Decide, every frame); 42cb278c12 four per-fra"
@@ -8056,6 +8051,11 @@
      "by": "REVIEW",
      "at": "2026-11-12T09:14Z",
      "text": "REVIEW-454-CR-55DB-01: P2 mask refresh can keep querying the same prefix while store revisions keep arriving, leaving tail answers stale beyond the budget. S1 revision-writer/progress trace and S2 current/proposed sketch with coarse-invalid"
+    },
+    {
+     "by": "PASIKA_PERF",
+     "at": "2026-11-12T09:31Z",
+     "text": "PASIKA_PERF 2026-11-12, second code pass (no Editor, no device; Roslyn cmp.sh NEW ERRORS: none against main before the push). Done: f240a1e9ac Store Post notices are not walked every frame once settled (no notice comes later than before); 8"
     }
    ]
   },
@@ -8956,5 +8956,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "003e2c6eac302bcffee58d614281764b69962752"
+ "source_revision": "c3eb645683225dcdd53c1cac1e56fd9228ada741"
 }
