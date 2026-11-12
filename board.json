@@ -7831,11 +7831,6 @@
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T22:28Z",
-     "text": "Missing list rewritten: the (was 422) offline-state item left it, its own fold note says 'Gap left: none' (cached board, one Offline row, backoff, loading bar on main). Only the write-back remains, waiting on quiz's route pick."
-    },
-    {
      "by": "CLOUD_C",
      "at": "2026-11-12T08:12Z",
      "text": "CLOUD_C 2026-11-12: nothing code-doable left here; every open step is Editor authoring, a device or look check, or waits on quiz. Write-back (priority, review, park, verified) waits on quiz's route pick."
@@ -7843,6 +7838,11 @@
     {
      "by": "PASIKA_UI",
      "at": "2026-11-12T08:39Z",
+     "text": "PASIKA_UI: nothing moved. The only missing item (in-app priority/review/park/verified write-back) still waits on quiz's route pick; claim released."
+    },
+    {
+     "by": "PASIKA_UI",
+     "at": "2026-11-12T08:54Z",
      "text": "PASIKA_UI: nothing moved. The only missing item (in-app priority/review/park/verified write-back) still waits on quiz's route pick; claim released."
     }
    ]
@@ -8870,5 +8870,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ee88ce5d794c752b0cfcfb1445ec283ef353d421"
+ "source_revision": "fb7b851b9d9cb3936b2f4be2863cdc9d06435495"
 }
