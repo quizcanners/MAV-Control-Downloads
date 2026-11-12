@@ -8129,7 +8129,7 @@
     {
      "who": "CLOUD_THREAD",
      "since": "2026-11-12T06:20Z",
-     "noted": "",
+     "noted": "2026-11-12T06:21Z",
      "progress": 0,
      "ticked": 0,
      "total": 4
@@ -8155,11 +8155,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-12T05:25Z",
-     "text": "ROG_OPUS 2026-11-12 batch 22. (1) Decoder list: passport WebRtcDecoderCodecs (written and read like the encoder field, older readers skip it) c37bba91f7; Restream > Diagnostics shows one row per device 'name: encodes H.264, VP8 \u00b7 decodes H."
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-12T06:01Z",
      "text": "REVIEW-451-CR-D360-01: P2 source regression: new waiting filter hides a known stopped/error local capture record because own-video resolver emits only None/LocalNoFrame. S1/S2 owner-state repair direction and falsifiers await quiz; no app/n"
@@ -8168,6 +8163,11 @@
      "by": "REVIEW",
      "at": "2026-11-12T06:01Z",
      "text": "REVIEW-451-CC-8FDF-01: P3 complexity: thirteen-state failure allowlist in VideoPanel has zero overlap with current Local/Obs producers; local-failure branch unreachable. S1/S2 writers/staging point, current/proposed owner composition and co"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-12T06:21Z",
+     "text": "CLOUD_THREAD 2026-11-12: 431 case (d) peer feed is already route-facts only (AppendIncomingVideoSummary; local lines skipped for incoming peers). CR-D360-01 fixed: local resolver now reports LocalFailed when the local source is Stopped with"
     }
    ]
   },
@@ -8636,5 +8636,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a6d7715e5a2526395de4c8fc444de35cfb54e382"
+ "source_revision": "4ea538dd795b4405997df001539edd2934fb1ab5"
 }
