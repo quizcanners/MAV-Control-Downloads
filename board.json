@@ -1768,11 +1768,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "PASIKA",
-     "at": "2026-11-12T20:58Z",
-     "text": "PASIKA: 4 more reds handled (85f08e0db5, then MavChat commit): VideoProcessingSource counts Contrast's one slider; VideoServerGrid test clears a leaked FullscreenVideoOpen; MavChat flick case past the 32 px threshold; MavChat caption test o"
-    },
-    {
      "by": "ROG_FABLE",
      "at": "2026-11-12T21:04Z",
      "text": "ROG_FABLE: ExclusiveLighting finished and green here (15/15, MapCornerLayout 5/5, run on D3D11): 67572424c9 left the test pinning the shrunken card (520x456 and a 900-high frame) and the retired status heading, and the brightness label spil"
@@ -1781,6 +1776,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-12T21:10Z",
      "text": "ROG_FABLE: PASIKA fixed the same ChatWindowLayout x2 in parallel (3af47c5a92, kept; my duplicate dropped). Leaving 482 to PASIKA to avoid more double work. On the last red, ChatMessageLayout.FoldedChatRetainsTheReaderAndOlderRows (reader mo"
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-12T21:13Z",
+     "text": "PASIKA: all 13 reds of run 3 have a fix on main (67572424c9, 85f08e0db5, 86539d7b19, 85c7bc87ef, 3af47c5a92 + chat fold). Real app change: lighting card rows 184 per Menu SPEC. The rest were tests behind today's code (rows/thresholds/static"
     }
    ]
   },
@@ -2436,5 +2436,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "cf0aa3b8f6a967e287500e72e5333001c95e3d5b"
+ "source_revision": "e97cec376f2f4234a46ccad03b3a0bfeb9d0d03f"
 }
