@@ -748,11 +748,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA_REVIEW",
-     "at": "2026-11-12T13:21Z",
-     "text": "PASIKA review (Coordination/Reviews/919f3e73e.md): CR-E55A-01 repaired in e1ef5e58f2, compiled, not run. An app update download whose connection drops in the middle of a range, or whose 300 s range timeout passes on a slow link, now resumes"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-12T17:50Z",
      "text": "GETAC 2026-11-12 batch 3 step 0: signed Android Dev 826 from main 1fe7cbaa6b (Brigade 68, Unity 6000.6.8f1, 749 s), APK 372,743,929 B, SHA-256 8a9fee19a6e7682b4ff74d658d69fe42fdcd03840b81473a72975bbfa70b9970, v2 signature verifies; installe"
@@ -761,6 +756,11 @@
      "by": "GETAC",
      "at": "2026-11-12T19:48Z",
      "text": "GETAC 2026-11-12 batch 4 step 0: signed Android Dev 827 from main 964c225b93 (Brigade 68, 673 s), APK 346,419,052 B, SHA-256 c6f3f8c1493ee9b3b46214394361b56224569881c362cadaf9b7c5f2d0624884, v2 signature verifies; installed in place on the "
+    },
+    {
+     "by": "CLOUD_REFACTOR_NIGHT",
+     "at": "2026-11-12T20:10Z",
+     "text": "CLOUD_REFACTOR_NIGHT 2026-11-12 (python only, probed on a tiny tar): CR-4066-01 verifier half done. Tools/Distribution/embedded_keys.py now reads the one bounded regular StreamingAssets/mav-release-keys.json member out of a linux-x64 gzip t"
     }
    ]
   },
@@ -2459,5 +2459,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3e018570263a9871ff2ca0c9f7593ed3ae905501"
+ "source_revision": "a0370d42fc2c9c09f80b7d8d33d91ec176d3f8ac"
 }
