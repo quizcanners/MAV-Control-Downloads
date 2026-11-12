@@ -6370,11 +6370,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_A",
-     "at": "2026-11-12T08:09Z",
-     "text": "CLOUD_A 2026-11-12: border tiles from SQLite are already on main (5f13aaf8f5: Config holds only the material, tiles read from StreamingAssets/Ukraine Borders.sqlite); step 'Border tiles' is done in code, no more to do. Left: Strong measure "
-    },
-    {
      "by": "PASIKA_BOOT",
      "at": "2026-11-12T08:48Z",
      "text": "PASIKA_BOOT 2026-11-12 summary. 1) Done (C#, cmp.sh NEW ERRORS: none on each push and after the last pull): 4a485e4648 the saved-settings read starts on its worker in OnAfterEnable and overlaps the Map scene load (was: started at the Prepar"
@@ -6383,6 +6378,11 @@
      "by": "PASIKA_BOOT",
      "at": "2026-11-12T09:20Z",
      "text": "PASIKA_BOOT 2026-11-12, second pass with the Editor. 1) Done: 08b0719193 the Station starts its owners in the frame the Map camera arrives (it called its wait one frame late when its Update ran before the scenes owner's: 0.45 s in the Windo"
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-12T09:24Z",
+     "text": "PASIKA Editor run of 08b0719193 (main 843481dc8a, Unity 6000.6.8f1, cold Play from Bootstrap on PL-007): compile 0 errors incl. perf shaders dd1263e672 (PlanetSurface.hlsl, BlurredWorld.shader, no shader errors); startup_measure_map_present"
     }
    ]
   },
@@ -8937,5 +8937,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "86ac32ea82e6aec867eb150f44001cd1ea46317f"
+ "source_revision": "ca950e3f9a2af525158d9367aa8b15a97c438124"
 }
