@@ -140,11 +140,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA_REVIEW",
-     "at": "2026-11-12T13:21Z",
-     "text": "PASIKA review (Coordination/Reviews/919f3e73e.md): CR-A5F5-01 fixed in 6791eebe73, compiled, not run. Since the VPN owner runs after the first map frame, the VPN update stages ran before Network.ManagedOnEnable on a save that does not take "
-    },
-    {
      "by": "PASIKA_INPUT",
      "at": "2026-11-12T14:18Z",
      "text": "PASIKA_INPUT: the Input startup owner no longer builds actions before the map (a839f94c4f): it wraps the project-wide asset Unity already loaded; ~337 ms in the Editor removed from the pre-map startup, see goal 429 note."
@@ -153,6 +148,11 @@
      "by": "PASIKA_PERF6",
      "at": "2026-11-12T15:02Z",
      "text": "PASIKA_PERF6: NamesCache moved behind the drawn map (c7c26e91ff): after RenderCallbacks, before MavLink and Vpn; companion and Edit Mode read the names in the old place through NamesCacheWithoutMap. Fixtures moved in the same commit. To rea"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T17:33Z",
+     "text": "ROG_FABLE 2026-11-12: line dropped as dead: there is no Navigation UI.unity in the repo (Scenes: Bootstrap, Chat UI, Deferred Views, Late UI, Lists UI, Main UI, Map, Overlays, Sounds, Video UI, Workflow UI); Singleton_StationUI._routeEditHi"
     }
    ]
   },
@@ -2301,5 +2301,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "675df15e06e6646527ecfbd56c329de4a787ed15"
+ "source_revision": "5fb568f7e62b449c07188bc6ee242a1d29afbbce"
 }
