@@ -7201,7 +7201,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLOUD_A",
+     "since": "2026-11-12T08:05Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "altitude.status shows fine=True state=Ready",
@@ -8850,5 +8859,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0f6f4087342e2313acff9a7d5d503c7adf65bbf1"
+ "source_revision": "7a10324b4fd833fd78219761738e5e1f993efd27"
 }
