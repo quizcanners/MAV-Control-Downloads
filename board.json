@@ -7459,7 +7459,7 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-12T14:56Z",
-     "noted": "",
+     "noted": "2026-11-12T15:07Z",
      "progress": 0,
      "ticked": 0,
      "total": 16
@@ -7533,11 +7533,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA",
-     "at": "2026-11-12T14:41Z",
-     "text": "PASIKA re-read after 429 pass 7 (fa33bad0f3, 845f568a8c, 01e831d6da) + 4c34ebd622, main 89881d69b2, PL-007 Editor station, warm Play: map present 5.46 s; startup_phase_ms Initializing=552 (was 1884 this morning, before the Input and AgentCh"
-    },
-    {
      "by": "PASIKA_PERF6",
      "at": "2026-11-12T15:01Z",
      "text": "PASIKA_PERF6 2026-11-12 (Windows PC, no Editor; cmp.sh NEW ERRORS: none). 1) Done: e17252024f DefaultPosition: the camera starts itself one frame after enable (OnAfterEnable coroutine), so its whole start ran inside the DefaultPosition owne"
@@ -7546,6 +7541,11 @@
      "by": "PASIKA",
      "at": "2026-11-12T15:04Z",
      "text": "PASIKA re-read after e17252024f / c7c26e91ff / 82b8d199f6 (main 6a70ef7b11, PL-007 Editor station, warm Play): DefaultPosition 24.0 ms (was 26.99); startup_default_position mgrs_ms=9.608 pose_ms=14.217 started_camera=True -> what is left is"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T15:07Z",
+     "text": "ROG_FABLE 2026-11-12 batch 4 step 2, part 1 of 3 (6ce35e52f3): skybox ground variant. The variant without _PLANET_SPACE returns float4(ground, 1) and no longer builds the space colour or lerps by saturate(_MC_IsInSpace); TimeOfDayManager tu"
     }
    ]
   },
@@ -8859,5 +8859,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "14a0f7de1b838507e56f611bbe0fff56567796a3"
+ "source_revision": "2167c5f91ab736a529db7cdab1969e2f5cf6d4f3"
 }
