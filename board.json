@@ -1277,11 +1277,6 @@
    "notes": [
     {
      "by": "CLOUD_BLACK_NOTIF",
-     "at": "2026-11-12T16:08Z",
-     "text": "CLOUD_BLACK_NOTIF 2026-11-12: quiz: some notification cards draw solid black. Static pass over all 21 *Notification prefabs and Notification Controllers: every card body is 'Merged glass opaque' wired as _opaqueOne, none is a plain black Im"
-    },
-    {
-     "by": "CLOUD_BLACK_NOTIF",
      "at": "2026-11-12T16:14Z",
      "text": "CLOUD_BLACK_NOTIF 2026-11-12: quiz screenshot: the agent-command card ('\u041a\u043e\u043c\u0430\u043d\u0434\u0430 \u0430\u0433\u0435\u043d\u0442\u0430: ui.pointed (\u0449\u0435 1 \u043f\u043e\u043f\u0435\u0440\u0435\u0434\u043d\u0456\u0445 \u0441\u043f\u043e\u0432\u0456\u0449\u0435\u043d\u044c)', gear + tick) is solid black in the Editor Game view. Prefab and code equal Aircraft Health's card (same glass b"
     },
@@ -1289,6 +1284,11 @@
      "by": "REVIEW",
      "at": "2026-11-12T17:34Z",
      "text": "REVIEW-462-CC-FD6C-01: P3 complexity: ui.status searches all scene Images by body name although the controller owns cards and each Body already exposes OpaqueImage. [S1/S2 scan, membership/body writers, existing-reference staging points, pr"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T17:38Z",
+     "text": "ROG_FABLE 2026-11-12, on REVIEW-462-CC-FD6C-01 (ui.status searches all scene Images by body name): resolved by removal (f5fb4e8d2b). The card_glass line was a diagnostic for task 518, which is fixed and closed (the first card drew the inver"
     }
    ]
   },
@@ -2298,5 +2298,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5bbedb8cff7d051c85ca50e9fe2b7208136886b3"
+ "source_revision": "dfdf9602afaaaea3af642bc111ee875de5354fe4"
 }
