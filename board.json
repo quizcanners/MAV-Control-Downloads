@@ -7282,7 +7282,7 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-12T11:00Z",
-     "noted": "",
+     "noted": "2026-11-12T11:13Z",
      "progress": 33,
      "ticked": 1,
      "total": 3
@@ -7304,11 +7304,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-12T09:08Z",
-     "text": "ROG_OPUS 2026-11-12 batch 24, the uncertain screen-edge rows, decided from the layout: (1) Video Panel Denoise switch: Left is a screen side, it stretches the Denoise Rows container (anchors x 0..1, zero offset), which sits in Video Panel's"
-    },
-    {
      "by": "CLOUD_BOARD",
      "at": "2026-11-12T10:02Z",
      "text": "Join sides: option (a) taken without asking (root AGENTS, User intent is carried out): keep the merge flag on join sides, add only the line. The five uncertain screen-edge rows left the list: ROG_OPUS decided them on 2026-11-12 (6138a500ce,"
@@ -7317,6 +7312,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-12T10:17Z",
      "text": "ROG_OPUS 2026-11-12, join sides: census of composites with a join flag on Left or Top, no _pixelLine_Optional and no separator content = 32 controls. Done: Map zoom scroller (Transmit Map Center Button.prefab) got Previous Separator on its "
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-12T11:13Z",
+     "text": "ROG_OPUS 2026-11-12, composites split step 2 done (e17ae4f5e8): MergeComposite (MergedButtons/Scripts/MergeComposite.cs) is the base class of MergedButton_Composit and holds the join flags, _screenEdges, separator, pixel line and shadow fie"
     }
    ]
   },
@@ -8813,5 +8813,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "8b2a2147ad5ed5235a4df93abaca8151c28e939e"
+ "source_revision": "e4c340250a9b70715558a2e558cf9864a4adf4af"
 }
