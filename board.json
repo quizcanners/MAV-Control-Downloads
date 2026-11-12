@@ -7291,7 +7291,7 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-12T14:42Z",
-     "noted": "",
+     "noted": "2026-11-12T14:54Z",
      "progress": 0,
      "ticked": 0,
      "total": 2
@@ -7309,11 +7309,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA_UI",
-     "at": "2026-11-12T08:54Z",
-     "text": "PASIKA_UI: nothing moved. The only missing item (in-app priority/review/park/verified write-back) still waits on quiz's route pick; claim released."
-    },
-    {
      "by": "MAC_FABLE",
      "at": "2026-11-12T12:40Z",
      "text": "MAC_FABLE batch 2, step 5 (Dev Mode page headers): stuck, nothing changed. There is no back-header prefab: Settings is the Inspector window, and every page's header (green back arrow, yellow section name, thin rule) is drawn by one code pat"
@@ -7322,6 +7317,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-12T14:22Z",
      "text": "quiz, 2026-11-12: may an agent edit the shared Inspector file that draws Dev Mode headers? 'Obviously can.' So PlayerAndEditorGui_EnterExitContext.cs (ExitClick) may be edited. Every Dev Mode page header is drawn by that one ExitClick, so p"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T14:54Z",
+     "text": "ROG_FABLE 2026-11-12 batch 4 step 1 (1715ac2020). Where the header Back arrow is drawn: not in EnterExitContext.ExitClick (that only records the exit) but by pegi.Click(Sprite) in PlayerAndEditorGui_Click.cs, reached from Icon.Exit.ClickUnF"
     }
    ]
   },
@@ -8875,5 +8875,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "2a92a887ba8c4548b8a666709bbbb20dd577eae6"
+ "source_revision": "24b356acb97bd85859c24c36476451e2f6469fe7"
 }
