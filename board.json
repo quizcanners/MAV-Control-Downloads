@@ -7603,7 +7603,7 @@
     {
      "who": "MAC_FABLE",
      "since": "2026-11-12T09:11Z",
-     "noted": "2026-11-12T09:43Z",
+     "noted": "2026-11-12T09:55Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -7633,11 +7633,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA_VIEW",
-     "at": "2026-11-12T08:24Z",
-     "text": "PASIKA_VIEW 2026-11-12: c05712d6e2 UI_LeftListSwipeAway: the tongue's chevron pointed RIGHT (tip x=24 in the middle row), now points left as the SPEC says; the tongue now shows only while Station.UI.LeftLists.SwipeAway (it stood in Chat on "
-    },
-    {
      "by": "CLOUD_TABS",
      "at": "2026-11-12T09:06Z",
      "text": "CLOUD_TABS 2026-11-12, dc3dd991 on main (not compiled). quiz, 2026-11-12: \"We need Fable effort to make tabs right. They are complete shit, quote me on that. The background panel is above the telemetry. The width is all over the place.\" and"
@@ -7646,6 +7641,11 @@
      "by": "MAC_FABLE",
      "at": "2026-11-12T09:43Z",
      "text": "MAC_FABLE 408 steps a and b. (a) 03db7f6806 Tab Column.prefab: the seven Telemetry rows' LayoutElement width 340 -> 300 (they were 340, not 240); every row is already 96 = UI_ListRows.RowHeight, none kept its own height. Play 1920x1080: the"
+    },
+    {
+     "by": "MAC_FABLE",
+     "at": "2026-11-12T09:55Z",
+     "text": "408 step c (afd4671139): Logistics Items.prefab holds Items Place (300 wide, anchored left, full height) as the placed root; Centered Source Panel sits in it stretched with CanvasGroup and UI_LeftListSwipeAway (view LogisticsItems, Dark Blu"
     }
    ]
   },
@@ -8949,5 +8949,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "122216aa00ff095c49f92f400f5580f3e7928931"
+ "source_revision": "8994ae019abe121b303cd4bd40088dfbc9fc1a31"
 }
