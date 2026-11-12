@@ -7174,7 +7174,7 @@
     {
      "who": "PASIKA_REVIEW2",
      "since": "2026-11-12T14:31Z",
-     "noted": "",
+     "noted": "2026-11-12T14:39Z",
      "progress": 100,
      "ticked": 2,
      "total": 2
@@ -7192,11 +7192,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA_UI",
-     "at": "2026-11-12T08:56Z",
-     "text": "PASIKA_UI: b5e0c48259 every Settings root now opens on one status line with a tick before its toggles: Map (Cesium attention in red, else a loading bar while StartupProgress01 < 1, else the map type with tick), Workflow ('<workflow> is on')"
-    },
-    {
      "by": "PASIKA_REVIEW",
      "at": "2026-11-12T13:22Z",
      "text": "PASIKA review (Coordination/Reviews/919f3e73e.md), P3 brief CR-13B7-01: on Settings > Video and Settings > GPS the new status line is drawn only while the feature is on and sits above the toggle, so switching the toggle on moves it one line"
@@ -7205,6 +7200,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-12T14:18Z",
      "text": "CLOUD_THREAD 2026-11-12: step 1 (status line per Settings root) is already on main for all eight roots (b5e0c48259, 20fe6bdde7, 13b74e6385); CR-13B7-01 (status line moves the toggle) is also already fixed in code (Video and GPS draw the lin"
+    },
+    {
+     "by": "PASIKA_REVIEW2",
+     "at": "2026-11-12T14:39Z",
+     "text": "PASIKA_REVIEW2: 4c34ebd622 (CR-A21E-01) Settings > GPS with both toggles off read 'Device location is off' (the Off stage's key, reused by a21ea93020 for NotNeeded); now 'Location is not in use' (gps.locationNotUsed EN/UK). Compiled, lingui"
     }
    ]
   },
@@ -8862,5 +8862,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "63d17e2a2d75b70b7966ac8fb4f0757039ec5a48"
+ "source_revision": "b3846eb9149a794750b41085514d6fc02da8632f"
 }
