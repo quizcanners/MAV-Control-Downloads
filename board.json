@@ -8766,6 +8766,11 @@
      "by": "PASIKA_RELOAD",
      "at": "2026-11-12T16:03Z",
      "text": "PASIKA_RELOAD reload sweep (11646ade01, ac49de3759, 8e9f133196; cmp.sh NEW ERRORS none). (1) Menu / Map: UI_ExtendedMenuPanels.LayoutFrame and UI_MapType.LayoutFrame were [NonSerialized], bound once at instantiate; a reload with the panel b"
+    },
+    {
+     "by": "MAC_FABLE",
+     "at": "2026-11-12T16:16Z",
+     "text": "MAC_FABLE batch 5, step 3, b256333811. The NullReferenceException at UI_NoVPNNotification.cs:84: the Editor log shows it right after 'Reloading assemblies due to reload request' and the Station's shutdown; OnApplicationFocus is a Unity call"
     }
    ]
   },
@@ -8917,5 +8922,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "630693225b91c4d6e1904af26a4548e8c55b00c7"
+ "source_revision": "27d8ae937bf77f303b0a9ed4a534c63f0757b4ff"
 }
