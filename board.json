@@ -7379,7 +7379,7 @@
     {
      "who": "MAC_FABLE",
      "since": "2026-11-12T09:11Z",
-     "noted": "2026-11-12T10:16Z",
+     "noted": "2026-11-12T10:17Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -7410,11 +7410,6 @@
    "notes": [
     {
      "by": "MAC_FABLE",
-     "at": "2026-11-12T09:43Z",
-     "text": "MAC_FABLE 408 steps a and b. (a) 03db7f6806 Tab Column.prefab: the seven Telemetry rows' LayoutElement width 340 -> 300 (they were 340, not 240); every row is already 96 = UI_ListRows.RowHeight, none kept its own height. Play 1920x1080: the"
-    },
-    {
-     "by": "MAC_FABLE",
      "at": "2026-11-12T09:55Z",
      "text": "408 step c (afd4671139): Logistics Items.prefab holds Items Place (300 wide, anchored left, full height) as the placed root; Centered Source Panel sits in it stretched with CanvasGroup and UI_LeftListSwipeAway (view LogisticsItems, Dark Blu"
     },
@@ -7422,6 +7417,11 @@
      "by": "MAC_FABLE",
      "at": "2026-11-12T10:16Z",
      "text": "408 step d (b9..15f319a90a, 11 prefab commits): the Scenes, Photo folders and Boards lists now give their rows the width (ChildControlWidth and ForceExpand on, left inset 0); Photos and Action history lost their 14 unit inset, the Photos sc"
+    },
+    {
+     "by": "MAC_FABLE",
+     "at": "2026-11-12T10:17Z",
+     "text": "408 step e: prefab part done. Scene, Photo folder, Photo, Action history, Car, Peer and Waypoint rows each got a Row Light child (Button Frosting With Highlight Click, stretched, right after the body); the row's _transparentOne and its Butt"
     }
    ]
   },
@@ -8753,5 +8753,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ec25a9447b84bd1bbca2096ae101584a9c12fc50"
+ "source_revision": "0ca2e6ce541a7b7ce9e0b9b8553debbedb717f62"
 }
