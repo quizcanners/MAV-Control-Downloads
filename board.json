@@ -7715,11 +7715,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-12T11:12Z",
-     "text": "GETAC 2026-11-12 CORRECTION to my 429 step (a) note: the location of the zoom capture is not confirmed as the Mariupol coast. After camera.goto 47.085,37.56 a touch drag released the camera to Normal at 271 km altitude, and the later camera"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-12T11:30Z",
      "text": "GETAC 2026-11-12, Strong Dev 826 at f03247d1be, 429 step (a) redone at a confirmed coast position. camera.goto 47.085,37.56 (Mariupol coast), position read back as 47.07-47.08,37.56 before and after; zoom driven by real taps on the on-scree"
     },
@@ -7727,6 +7722,11 @@
      "by": "PASIKA_PERF3",
      "at": "2026-11-12T11:30Z",
      "text": "PASIKA_PERF3 2026-11-12, fifth code pass (Windows PC, no Editor, no device; Roslyn cmp.sh NEW ERRORS: none on each tree, with Unity.InputSystem.dll and UnityEngine.UI.dll given to the checker, so those lines were compiled). Done: 9cd781b241"
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-12T11:34Z",
+     "text": "PASIKA re-measure after 429 pass 5 (main d8cb3540a1, Unity 6000.6.8f1, PL-007 Editor station, warm second Play): startup_cost AgentChannel 258.5 ms -> 0.57 ms (d44fec2ac8: inbox/mailbox open at the first agent command); Input 228.0 -> 181.4"
     }
    ]
   },
@@ -8807,5 +8807,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d8cb3540a11232e840e5c1f64fd997bd0dd82abf"
+ "source_revision": "bbc816a9c3d5def87993578e7fac557aa4f0d449"
 }
