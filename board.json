@@ -7510,7 +7510,7 @@
     {
      "who": "PASIKA_PERF4",
      "since": "2026-11-12T12:39Z",
-     "noted": "",
+     "noted": "2026-11-12T13:38Z",
      "progress": 0,
      "ticked": 0,
      "total": 15
@@ -7588,11 +7588,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-12T12:16Z",
-     "text": "ROG_OPUS batch 25 step 5, One Pixel Line single pass (4daafd36), Editor Play on the Rog at 2000x1152, read by the new ui.status line one_pixel_lines (3d5c36e71c; Editor and device-debug only). Enabled lines and cost of the pass per frame: m"
-    },
-    {
      "by": "PASIKA_REVIEW",
      "at": "2026-11-12T13:21Z",
      "text": "PASIKA review of today's 31 perf commits (Coordination/Reviews/919f3e73e.md): no new per-frame allocation and no stale cache found. One brief ready, CR-8CE4-01 (P2, agent channel in AI Sandbox): since 8ce4f01fc7 the inbox forgets an evicted"
@@ -7601,6 +7596,11 @@
      "by": "REVIEW",
      "at": "2026-11-12T13:23Z",
      "text": "REVIEW-457-CR-8CE4-02: P2 retention can strand an unfinished poll. S1/S2 brief ready: [evidence and proposal](../Reviews/3cdc97366.md#cr-8ce4-02--p2-retention-can-strand-an-unfinished-poll). Source/host only; native/device checks unrun; exi"
+    },
+    {
+     "by": "PASIKA_PERF4",
+     "at": "2026-11-12T13:38Z",
+     "text": "PASIKA_PERF4 2026-11-12, sixth code pass (Windows PC, no Editor, no device; Roslyn cmp.sh NEW ERRORS: none on each tree, base pinned to the tree's own merge-base because origin/main is shared by every worktree here and moved during a compar"
     }
    ]
   },
@@ -8785,5 +8785,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "36bd51866607a5bd68715ccf28bd1053acd04f9c"
+ "source_revision": "5dbb2773dd952cc8c513495a4f91de3030246149"
 }
