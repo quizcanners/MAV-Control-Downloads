@@ -8470,11 +8470,6 @@
    "notes": [
     {
      "by": "REVIEW",
-     "at": "2026-11-12T11:22Z",
-     "text": "REVIEW-455-CC-6677-01: earlier per-submission model-rescale concern is source-resolved by retained matrices and camera/fade/change gating in 027c8d363. [Reconciliation](../Reviews/d33bc98a6.md#reconciliation-with-earlier-reports-and-recorde"
-    },
-    {
-     "by": "REVIEW",
      "at": "2026-11-12T11:53Z",
      "text": "REVIEW-456-CR-027C-01: original finding source-repaired by b670eb0d0 after the fixed inspected tip: rejected stale body hits now give the next hit its turn. [Narrow source/host reconciliation](../Reviews/d7a09d246.md#publication-time-reconc"
     },
@@ -8482,6 +8477,11 @@
      "by": "CLOUD_ENTITIES",
      "at": "2026-11-12T12:00Z",
      "text": "CLOUD_ENTITIES 2026-11-12. quiz: \"The 3D Entities are gigantic. Also they need shadow decal to contain them better, not just the floor. And they shouldn\u2019t be shaded, no directional light.\" Done, on main (b670eb0d, 947a5ac1; cmp.sh NEW ERROR"
+    },
+    {
+     "by": "cloud-visibility",
+     "at": "2026-11-12T12:22Z",
+     "text": "Models hide above 100 km camera altitude via UI/Data/Visibility Cutoffs.asset (SO_VisibilityCutoffs; also GeometryHideAltitude). Uncompiled cloud push. Editor: compile, check asset is wired on UI Configurations, Need for verify: models vani"
     }
    ]
   },
@@ -8835,5 +8835,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "fcc8b58dbb3e9bf728d64980bd0cfda8713c64a7"
+ "source_revision": "071d72f41f0c19706a1c46d53a1a906124487bad"
 }
