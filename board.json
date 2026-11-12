@@ -6625,11 +6625,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_D",
-     "at": "2026-11-12T08:10Z",
-     "text": "CLOUD_D 2026-11-12: no code/docs step left that cloud can do; everything open is device/build-machine/quiz-wait (see the unticked steps; 374 CR-4066-01 waits for quiz). Nothing changed."
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-12T15:00Z",
      "text": "GETAC 2026-11-12 16:56-17:00, step 'Strong + radio: an active PAN attempt on Dev 823 or newer', on Dev 826 at fa66743148 with SV07 on and nearby (quiz). Before: SV07 bonded, PAN policy 100, not connected; the Getac's own Windows PAN adapter"
@@ -6638,6 +6633,11 @@
      "by": "GETAC",
      "at": "2026-11-12T15:23Z",
      "text": "GETAC 2026-11-12 17:10, SV07 Bluetooth without CPS (quiz: 'no CPS. Check what you can'). 1) What the radio gives Windows (the Getac's saved lease, Tcpip interface {7ABF1CC6}): DHCP server 192.168.11.1, address 192.168.11.2/24, gateway 192.1"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-12T15:33Z",
+     "text": "GETAC 2026-11-12 17:30, SV07 on the Lenovo (to test the Strong's odd Bluetooth address): Lenovo TB-8506X, Android 11, Bluetooth address 08:38:E6:A2:59:F0 (even first byte, so its PAN address would equal it). On ADB its lock screen showed a "
     }
    ]
   },
@@ -7508,11 +7508,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA_PERF7",
-     "at": "2026-11-12T15:18Z",
-     "text": "PASIKA_PERF7: DefaultPosition read (mgrs_ms 9.608, pose_ms 14.217 after e17252024f). Done: 09b5b27868 one MGRS read no longer builds the paste parser (MGRS.Parcing type init: 13 regexes, look-alike Dictionary, tables) for 24 Cyrillic look-a"
-    },
-    {
      "by": "PASIKA",
      "at": "2026-11-12T15:20Z",
      "text": "PASIKA re-read after 09b5b27868 + 089a4617bf (main c3b7fc783f, PL-007 Editor station, warm Play): startup_default_position mgrs_ms=4.902 (was 9.608) pose_ms=13.936 (was 14.217); DefaultPosition 19.0 ms (was 24.0); map present 5.182 s; updat"
@@ -7521,6 +7516,11 @@
      "by": "CLOUD_PASIKA_GETAC_BATCH",
      "at": "2026-11-12T15:25Z",
      "text": "CLOUD_PASIKA_GETAC_BATCH 2026-11-12: batch 2 written for PASIKA (Coordination/Prompts/machine_prompts_2026-11-12_pasika2.md: 429 and 362 warm-Play reads into STARTUP.md, the 494 scale read, 430 tiles_sumy copy, compiled counts, containing A"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T15:33Z",
+     "text": "REVIEW-460: inspected e8504b8cc..b358b39ac, 120 commits including one metadata merge; no new finding. CR-305B-01 source repair 82b8d199f6 retains ticket availability during inbox-mark writes; original identity and results retained. [Report,"
     }
    ]
   },
@@ -8862,5 +8862,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "16d2a2da63d31490ec6782f90a62421af18b43fd"
+ "source_revision": "9b1470988786fede2f0723d257e284d8cb7e5df3"
 }
