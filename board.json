@@ -2258,19 +2258,14 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-12T20:17Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-12T20:37Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "CLOUD_ROG_BATCH",
-     "at": "2026-11-12T19:30Z",
-     "text": "MAVLink Process renames go to Rog Fable batch 8 step 2: rename the 18 declarations, cmp.sh lists each broken caller by file and line. Sync.Process family stays (type-aware rename, no tool in the repo handles methods)."
-    },
     {
      "by": "CLOUD_NAMING",
      "at": "2026-11-12T20:06Z",
@@ -2280,6 +2275,11 @@
      "by": "CLOUD_REFACTOR_NIGHT",
      "at": "2026-11-12T20:08Z",
      "text": "Compile check for the overnight cloud refactor chunks (cmp.sh, fix new errors in the file named): Handle* renames (Streamer AnswerVideoRequest/AnswerRelayRequest/AnswerEncodingWish/ReceiveEncodingAnswer/ReceiveVideoAnswer, DirectRoute.Recei"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T20:37Z",
+     "text": "Rog: the 18 MAVLink Process(mavlink_*_t) overloads renamed to Apply<Message> (owner in the name where a type repeats: ApplyComponentHeartbeat/ApplyGcsHeartbeat, ApplyBatteryStatus/ApplyPackBatteryStatus, ApplySysStatus/ApplyComponentSysStat"
     }
    ]
   },
@@ -2465,5 +2465,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "25c80b4b4e090caa21e896acea8c4a0e72829803"
+ "source_revision": "808e05405d45121e8dbfe95cba7011e7f6a83c81"
 }
