@@ -7955,7 +7955,7 @@
     {
      "who": "PASIKA_PERF",
      "since": "2026-11-12T09:35Z",
-     "noted": "",
+     "noted": "2026-11-12T09:53Z",
      "progress": 0,
      "ticked": 0,
      "total": 24
@@ -8061,11 +8061,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-12T09:14Z",
-     "text": "REVIEW-454-CR-55DB-01: P2 mask refresh can keep querying the same prefix while store revisions keep arriving, leaving tail answers stale beyond the budget. S1 revision-writer/progress trace and S2 current/proposed sketch with coarse-invalid"
-    },
-    {
      "by": "PASIKA_PERF",
      "at": "2026-11-12T09:31Z",
      "text": "PASIKA_PERF 2026-11-12, second code pass (no Editor, no device; Roslyn cmp.sh NEW ERRORS: none against main before the push). Done: f240a1e9ac Store Post notices are not walked every frame once settled (no notice comes later than before); 8"
@@ -8074,6 +8069,11 @@
      "by": "PASIKA",
      "at": "2026-11-12T09:33Z",
      "text": "PASIKA Editor check of 429 pass 2 (main 23913abd68, Unity 6000.6.8f1): assets refresh compiles 0 errors and no shader import error for 65934a7d92 (Selection Focus dim) and dd1263e672. SelectionFocusShaderRenderTests not run: tests.editmode "
+    },
+    {
+     "by": "PASIKA_PERF",
+     "at": "2026-11-12T09:53Z",
+     "text": "PASIKA_PERF 2026-11-12, third code pass (no Editor, no device; Roslyn cmp.sh NEW ERRORS: none against main before the push). Done: a0d57d4505 map text renderer reads Time.frameCount once per pass instead of once per marker and label slot (u"
     }
    ]
   },
@@ -8971,5 +8971,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "23263e712f3c487313fe405ed775f4c56fecdeca"
+ "source_revision": "7a2527926246d8afa699734a9b81136f6286116d"
 }
