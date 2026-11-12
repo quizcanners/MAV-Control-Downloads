@@ -97,11 +97,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-12T14:27Z",
-     "text": "REVIEW-459-CC-B0CD-01: typed square/tongue/list child authoring is source-confirmed through 4068de46f/2ef91a6c6/4118341d3/f57a118bf; [partial original-scope reconciliation](../Reviews/e8504b8cc.md#reconciliation-and-other-inspected-changes)"
-    },
-    {
      "by": "MAC_FABLE",
      "at": "2026-11-12T19:13Z",
      "text": "MAC_FABLE batch 9, step 4. Grepped first: Network_Join, JoinManager and Persistent.AssignedVpnAddress are already gone (LOCAL_MAC, 2026-11-10). Cut now, each with cmp.sh NEW ERRORS: none: 4a684ab010 the QR install's invitation branch (First"
@@ -110,6 +105,11 @@
      "by": "PASIKA",
      "at": "2026-11-12T19:26Z",
      "text": "PASIKA batch 5 step 3: the two chains moved (1993a2be24, e607632581, names after upstream's naming pass): Network.PayloadSplitter.Sender.QueueSend 11 sites -> Network.QueueSend (forwarder on NetworkManager, three overloads); Network.DirectR"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T20:32Z",
+     "text": "REVIEW-465-CC-B8F7-01: P3 complexity brief for quiz: Street View anchor GPU preparation rereads the upload list after the same writer had its coordinates in hand. [S1/S2 exact scan/writer, one-pass sketch, 32-anchor explicit-command bound a"
     }
    ]
   },
@@ -486,11 +486,6 @@
    "notes": [
     {
      "by": "PASIKA",
-     "at": "2026-11-12T18:39Z",
-     "text": "PASIKA: the temporary test-run copies are deleted (C:/MAV_Control source clone and candidate, and its LocalLow MavControlVerification-54042afe... data); the PASIKA Editor station is back in Play. Per-fixture failure list kept in the agent s"
-    },
-    {
-     "by": "PASIKA",
      "at": "2026-11-12T18:59Z",
      "text": "PASIKA: 97dee26351 committed merge-conflict markers into Assets/_PROJECT/Tests/Chat/ChatGroupTests.cs (CS8300, the test assembly did not compile); removed in f8bc22cc76. Whoever wrote 97dee26351: check git status/stash on that machine."
     },
@@ -498,6 +493,11 @@
      "by": "PASIKA",
      "at": "2026-11-12T19:10Z",
      "text": "PASIKA containing All, run 3 on main 927fc055ef (temporary candidate, quiz-allowed): 13 red of 8587 (8564 passed, 8 skipped, 1 inconclusive); run 1 on 0d19274307 had 104, run 2 on 7fe3e925be 29. Fixed and pushed tonight: stage-failure log e"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T20:32Z",
+     "text": "REVIEW-465-CR-F070-02: P3 f070b8403 changes two host-check paths to nonexistent filenames and changes the fixed historical anchor selector. [S1/S2 tree/blob evidence, minimal binding sketch and host/native limits](../Reviews/7e1dd970f.md#cr"
     }
    ]
   },
@@ -1252,16 +1252,7 @@
    "priority": "normal",
    "parked": true,
    "flags": [],
-   "held": [
-    {
-     "who": "PASIKA",
-     "since": "2026-11-12T20:32Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 2
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Cloud: read every notification card type in code against UI/Guides/Notifications",
@@ -1556,11 +1547,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-12T18:46Z",
-     "text": "GETAC 2026-11-12 batch 3 step 3, Strong Dev 826 at 1fe7cbaa6b, 120 s untouched (sharp still frame on). NOT a cold start: 'am kill' after Home left all four processes running (the keep-alive service keeps the app out of background), so these"
-    },
-    {
      "by": "PASIKA",
      "at": "2026-11-12T19:18Z",
      "text": "PASIKA batch 5 step 1, live tiles_sumy with the flip-first fix (32acacb085), safety copy D:/MAV_Work/Copies/tiles_sumy_before_flip_2 (robocopy, Play stopped). Before: 36,411 files, 36,335 segment .sqlite. 'map.store logical' 19:13:57Z -> FL"
@@ -1569,6 +1555,11 @@
      "by": "REVIEW",
      "at": "2026-11-12T19:27Z",
      "text": "REVIEW-464-CR-7FF2-01: source-resolved by 32acacb08: requested flip/drain now precede legacy cleanup, after publication recovery. [Bounded reconciliation and limits](../Reviews/d2b034d30.md#cr-7ff2-01--source-repair-of-the-requested-map-sto"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T20:32Z",
+     "text": "REVIEW-465-CR-F070-01: P2 source-confirmed saved map-layer settings key changed by f070b8403 without old-key import. [S1/S2 current/proposed sketch, naming-vs-regrouping scope, six-setting reproduction and native limits](../Reviews/7e1dd970"
     }
    ]
   },
@@ -2456,5 +2447,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e7ae2ab7671c4443a1d3c9c2ef8cf0a72611efbe"
+ "source_revision": "cc55359e1dcbc22d198a2656843dc271ca7f50f5"
 }
