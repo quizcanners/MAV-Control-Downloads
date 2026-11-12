@@ -6125,11 +6125,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA_RENDER",
-     "at": "2026-11-12T09:56Z",
-     "text": "PASIKA_RENDER second pass, 2026-11-12, on the coordinator's ask; same Windows worktree, no Editor, no device. cmp.sh NEW ERRORS: none on e, a, p, m, this time with UnityEngine.UI, TextMeshPro and URP resolved (EXTRA_REF_DIR with the four DL"
-    },
-    {
      "by": "PASIKA",
      "at": "2026-11-12T10:00Z",
      "text": "PASIKA Editor run of 8ebac6672c + 9b7e2043e5 (main 51888b75dd, Unity 6000.6.8f1): compiles 0 errors; Play runs with no new console error (only the missing G: Street_Views folder). Not checked: the ribbon look after the map settles (the stat"
@@ -6138,6 +6133,11 @@
      "by": "MAC_FABLE",
      "at": "2026-11-12T10:49Z",
      "text": "MAC_FABLE 363 step a, on main (44f6f15a38 after rebase: 'Sharp still frame when idle: only the map is frozen'). Built and seen in the Mac Editor: between two 3 s refreshes the main camera draws no world (Station.MapRender.WorldHidden), one "
+    },
+    {
+     "by": "MAC_FABLE",
+     "at": "2026-11-12T10:49Z",
+     "text": "MAC_FABLE 363 step b (ribbon lines while the map moves): not built, a design blocker each way. Today, moving: per displayed leaf one property block and per line one Graphics.RenderMesh with its anchor's matrix, for the main camera only (Ren"
     }
    ]
   },
@@ -8768,5 +8768,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d7344e68ebf57464f66984ddae41e9e9532588dd"
+ "source_revision": "93233d7895fac56ee3c2d245ffe66784e2e7e7ef"
 }
