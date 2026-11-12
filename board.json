@@ -543,11 +543,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_FABLE",
-     "at": "2026-11-12T16:05Z",
-     "text": "ROG_FABLE 2026-11-12 batch 5 step 1 (dbf4492644): the WireGuard QR view. Add device (Network_RoutingServer_WireGuard.cs, ApplyNewDevice) already builds the new device's wg-quick file and keeps it in Tunnel files; the QR window already encod"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-12T16:51Z",
      "text": "REVIEW-461-CR-DBF4-01: P2 Show QR on a tunnel is overwritten by the app-install URL when sharing remains active. S1/S2 brief ready; explicit-request precedence can use the existing QR owner and observed-share fields. [Source, current/propos"
@@ -556,6 +551,11 @@
      "by": "REVIEW",
      "at": "2026-11-12T16:51Z",
      "text": "REVIEW-461-CR-DBF4-02: P2 dbf4492644 puts the English Show QR value inside an existing quoted translation: YAML has 4056 keys/4055 values; deserialization leaves the main English dictionary empty. Current line-helper falsely counts 4056/405"
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-12T17:22Z",
+     "text": "PASIKA: REVIEW-461-CR-DBF4-02 fixed in 7bcaeba48c (Show QR value moved to the end of English values; linguist_check now detects a value pasted inside a quoted multi-line value)."
     }
    ]
   },
@@ -2235,5 +2235,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c7b6d0d8de84d449c80bc0c9bbe964359507e20f"
+ "source_revision": "9588fc6a3946c06ce6f327991857e6c8b9f677e0"
 }
