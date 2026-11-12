@@ -8150,7 +8150,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-12T00:03Z",
-     "noted": "",
+     "noted": "2026-11-12T00:04Z",
      "progress": 0,
      "ticked": 0,
      "total": 16
@@ -8226,17 +8226,17 @@
     {
      "by": "REVIEW",
      "at": "2026-11-11T23:00Z",
-     "text": "REVIEW-444-CR-0098-03: P2 before enabling the flip: logical writer never settles decode-failure receipts. S1/S2 investigation/current code/proposed direction and falsifiers complete; awaits quiz before implementation. Explicit start unset; "
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-11T23:00Z",
      "text": "REVIEW-444-CC-B4AC-01: existing P3 duplicate-key-lookup proposal remains awaiting quiz. 735b31c9e preflight now reads evicted; a direct requested-row proposal must preserve Evicted suppression of legacy fallback. Updated S1/S2 evidence/curr"
     },
     {
      "by": "REVIEW",
      "at": "2026-11-11T23:00Z",
      "text": "REVIEW-444-RECONCILIATION: CR-5025-01 source-repaired by 0098608c4: follower deleted, logical failure propagates, error adoption retains/requeues candidates and marks presence Stale. Early Settled alone does not lose failed inputs. Original"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-12T00:04Z",
+     "text": "7a827b3009 (Unity compile 0 errors): review 84cb4b585 fixed on the flipped-map writer: CR-0098-01 a deletion always writes the tiles.sqlite tombstone (shadows a segment-only tile, the migration copy cannot resurrect it); CR-0098-02 a retain"
     }
    ]
   },
@@ -8668,5 +8668,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "da4f5253e374a9452648a4cab7e17fc240c2b76d"
+ "source_revision": "32e4a8599eb1f8658750f7cb9b4e5794f193070e"
 }
