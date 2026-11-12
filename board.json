@@ -8401,11 +8401,6 @@
    ],
    "notes": [
     {
-     "by": "cloud-visibility",
-     "at": "2026-11-12T12:22Z",
-     "text": "Models hide above 100 km camera altitude via UI/Data/Visibility Cutoffs.asset (SO_VisibilityCutoffs; also GeometryHideAltitude). Uncompiled cloud push. Editor: compile, check asset is wired on UI Configurations, Need for verify: models vani"
-    },
-    {
      "by": "CLOUD_SHADOW",
      "at": "2026-11-12T12:30Z",
      "text": "quiz, 2026-11-12: \"the Shadow pseudodecal looks like it is at the very bottom of the model, lets have it be slightly above. Almost where the center of the model is.\" Shadow box centre y is now half the model height (map_marker.shadow_box, t"
@@ -8414,6 +8409,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-12T12:48Z",
      "text": "ROG_FABLE 2026-11-12, Editor Play on the Rog (Unity 6000.6.8f1, Android target, Game view 2000x1152), Map scene with the Synthetic Situation set (6410 groups; Debug Mode by 11 compass taps, Menu > Layers ninth tile). Step 1: the cloud C# co"
+    },
+    {
+     "by": "CLOUD_MODEL_SCALE",
+     "at": "2026-11-12T13:13Z",
+     "text": "quiz, 2026-11-12: \"Make 3D models for situation entities 33 % smaller. But don't make shadows smaller.\" Done: IconWidths 1 -> 0.67 on the three rows in Map.unity, shadow box sizes divided by 0.67 (Enemy 4.2/6.1/6.0, Vehicle 4.5/5.5/6.3, Can"
     }
    ]
   },
@@ -8858,5 +8858,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4e6ab2ee5b8e23d678ca05cc3730a4402f01177f"
+ "source_revision": "fe5028075bc7b482e8d40660fd1f960c9d9df2db"
 }
