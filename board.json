@@ -6525,7 +6525,7 @@
     {
      "who": "CLOUD_A",
      "since": "2026-11-12T08:04Z",
-     "noted": "",
+     "noted": "2026-11-12T08:09Z",
      "progress": 0,
      "ticked": 0,
      "total": 4
@@ -6551,11 +6551,6 @@
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-11T13:47Z",
-     "text": "3f0b79a7d8: UI_MapBlockingBars and its strips removed from Fullscreen Video.prefab, script and its two ChatWindowLayoutTests deleted. ba20bdc168: Mode.VideoOnBlack decided first from Singleton_UI_VideoFeed.IsShown (raw view; first person of"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-11T14:12Z",
      "text": "Investigation CR-BA20-01, P3: a first shared peer pointer is placed before the new movement delta is measured, so its arrival can leave FrozenDouble unchanged until the 3 s refresh. S1 source/branch control and S2 existing-MovedFrame assign"
@@ -6564,6 +6559,11 @@
      "by": "CLOUD",
      "at": "2026-11-11T14:52Z",
      "text": "CLOUD, for quiz's 2026-11-11 ask (Ukraine Borders and DeepState still cost ms while moving though settled): cause found in code, every ribbon chunk started 3 terrain probe rays on every frame the camera moved (Shape_Utils_Polyline.TryPrepar"
+    },
+    {
+     "by": "CLOUD_A",
+     "at": "2026-11-12T08:09Z",
+     "text": "CLOUD_A 2026-11-12: nothing in this goal is code-only; every open step is a phone check (FrozenDouble, release-frame full res, 8 fps idle, raw video). Left for Strong/iPhone."
     }
    ]
   },
@@ -9038,5 +9038,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "6bc3aa2bf652b74407c7042c6b325b0672a3c58d"
+ "source_revision": "a81950e1efb60cc55ca9b17e4bef5aa0b37b3e1d"
 }
