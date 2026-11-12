@@ -174,7 +174,7 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-12T18:40Z",
-     "noted": "",
+     "noted": "2026-11-12T18:41Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -204,11 +204,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-12T17:34Z",
-     "text": "REVIEW-462-CR-B998-01: P3 source-confirmed Editor mismatch after the first FrozenDouble capture: the second sustained-moving frame publishes screen_pixel_scale=2 although URP still draws scale 1. [S1/S2 current/proposed code, four-frame hos"
-    },
-    {
      "by": "MAC_FABLE",
      "at": "2026-11-12T17:59Z",
      "text": "MAC_FABLE batch 8, step 1, Mac Editor Play on main a8d608c3a8 (0729b73abf compiled clean). smoke.run (first it refused: the Synthetic drone was still on and broadcast; switched off, then it ran): state=Passed, 55 steps, 0 failed, 75.4 s. St"
@@ -217,6 +212,11 @@
      "by": "MAC_FABLE",
      "at": "2026-11-12T18:00Z",
      "text": "MAC_FABLE batch 8, step 2: neither the iPhone nor the iPad is on the cable (devicectl: unavailable), so the device steps and the phone's smoke line were not run."
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T18:41Z",
+     "text": "ROG_FABLE 2026-11-12 batch 7 step 0, Liquid Glass on D3D11 (Rog Editor, Unity 6000.6.8f1, Direct3D11): Unity compiled the 9 commits since 18:00Z (incl. 1cb654df2c, 21 notification prefabs) with no error. ShaderPassCompilationTests.EditedSha"
     }
    ]
   },
@@ -2198,6 +2198,20 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 541,
+   "name": "List-specific buttons to the bot",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -2246,5 +2260,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "19041dff0a669f3520397d82ab132c595f5430b5"
+ "source_revision": "01ff908addfb088a5e82f08748fa1f9bf449b97e"
 }
