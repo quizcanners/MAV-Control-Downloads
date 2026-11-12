@@ -2262,11 +2262,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "cloud-naming",
-     "at": "2026-11-12T19:19Z",
-     "text": "Naming pass chunk 5 pushed to main (Process overloads renamed to Receive*/Apply*, two forwarders removed). Editor/Roslyn: run bash Tools/RoslynCompileDiff/cmp.sh and fix new errors; then rename MAVLink Process(mavlink_*_t) overloads (ApplyH"
-    },
-    {
      "by": "CLOUD_ROG_BATCH",
      "at": "2026-11-12T19:30Z",
      "text": "MAVLink Process renames go to Rog Fable batch 8 step 2: rename the 18 declarations, cmp.sh lists each broken caller by file and line. Sync.Process family stays (type-aware rename, no tool in the repo handles methods)."
@@ -2275,6 +2270,11 @@
      "by": "CLOUD_NAMING",
      "at": "2026-11-12T20:06Z",
      "text": "CLOUD naming pass 3 (chunks 1-5 on main, log in Coordination/Refactoring/nested-controllers.md): Process handlers renamed (Peer, EncryptedLink, Situation, Geometry, Motorola forwarding, video), ~330 files of misspelled identifiers fixed (Pe"
+    },
+    {
+     "by": "CLOUD_REFACTOR_NIGHT",
+     "at": "2026-11-12T20:08Z",
+     "text": "Compile check for the overnight cloud refactor chunks (cmp.sh, fix new errors in the file named): Handle* renames (Streamer AnswerVideoRequest/AnswerRelayRequest/AnswerEncodingWish/ReceiveEncodingAnswer/ReceiveVideoAnswer, DirectRoute.Recei"
     }
    ]
   },
@@ -2454,5 +2454,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "bd6db45c425889077cd874e51cefa9f887b5ec54"
+ "source_revision": "13da28deceef7d05996eaeb6a7b830add652953e"
 }
