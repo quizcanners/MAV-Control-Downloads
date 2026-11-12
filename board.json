@@ -6401,14 +6401,14 @@
      "who": "PASIKA_BOOT",
      "since": "2026-11-12T08:16Z",
      "noted": "",
-     "progress": 11,
-     "ticked": 1,
-     "total": 9
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
     }
    ],
    "steps": [
     {
-     "t": "Measure cold start on Strong 822 (map present, reveal, Ready), task 283",
+     "t": "Strong tablet, cold start on a build with 4a485e4648 and 9b63ed5d08 (no device o",
      "x": false
     },
     {
@@ -6416,31 +6416,11 @@
      "x": false
     },
     {
-     "t": "Border tiles from SQLite instead of the asset (task 288 area)",
+     "t": "Owners that are not the map (MavLink, SineLink, VPN, Street View, Weather, Parci",
      "x": false
     },
     {
-     "t": "Confirm on a phone that the map shows at once and UI and overlays fill in withou",
-     "x": false
-    },
-    {
-     "t": "Compile Windows and Android builds (RemoteSense lifecycle in Station_RemoteSense",
-     "x": true
-    },
-    {
-     "t": "Boot an Android build with no remote sensors; read the RemoteSense owner ms from",
-     "x": false
-    },
-    {
-     "t": "Open the Remote sensors workflow: map shows saved sensors, connection works; lea",
-     "x": false
-    },
-    {
-     "t": "Read the per-owner list that boot already records: Diagnostics > Boot work (ever",
-     "x": false
-    },
-    {
-     "t": "Input ms after the FPV map left boot (C# pushed uncompiled 2026-11-08; before: 2",
+     "t": "Editor: StartupBatchTimingTests cases from the Bootstrap guide 'Load map only': ",
      "x": false
     }
    ],
@@ -8891,5 +8871,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1a69de57baa3231627ec7579013c381944c6b407"
+ "source_revision": "685d0a8ed81afc5112e673ec630670f62e0b3cab"
 }
