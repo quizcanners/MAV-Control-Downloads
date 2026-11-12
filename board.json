@@ -8146,7 +8146,7 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-12T05:14Z",
-     "noted": "",
+     "noted": "2026-11-12T05:25Z",
      "progress": 0,
      "ticked": 0,
      "total": 4
@@ -8173,11 +8173,6 @@
    "notes": [
     {
      "by": "ROG_OPUS",
-     "at": "2026-11-11T19:08Z",
-     "text": "ROG_OPUS 2026-11-11 batch 19, (was 238) Restream route H.264: took compromise (b1), the smallest slice of (b). SPEC section 'H.264 on every Windows GPU' written under Link codec: ultimate design (Media Foundation hardware MFT through the OS"
-    },
-    {
-     "by": "ROG_OPUS",
      "at": "2026-11-11T20:53Z",
      "text": "ROG_OPUS 2026-11-11 batch 20 (worked from note 445; the prompt file is not reachable from Rog): b2 landed. Passport field WebRtcEncoderCodecs (what the sender's Unity WebRTC encodes, only once it has read it; older readers skip the key) 354"
     },
@@ -8185,6 +8180,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-11T21:42Z",
      "text": "ROG_OPUS 2026-11-11: (1) codec-list readout 347cfa4af1: Restream > Diagnostics shows 'name: WebRTC encodes H.264, VP8' for this device (CodecCache) first, then every peer whose passport arrived (Peer.Passport.WebRtcEncoderCodecs); empty or "
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-12T05:25Z",
+     "text": "ROG_OPUS 2026-11-12 batch 22. (1) Decoder list: passport WebRtcDecoderCodecs (written and read like the encoder field, older readers skip it) c37bba91f7; Restream > Diagnostics shows one row per device 'name: encodes H.264, VP8 \u00b7 decodes H."
     }
    ]
   },
@@ -8611,5 +8611,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d3dd37f300ae57c06547e3782253269ca30274de"
+ "source_revision": "fc4acf4c22861c89d2472e5c99326b33ed13e34c"
 }
