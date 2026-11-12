@@ -7586,7 +7586,7 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-12T08:59Z",
-     "noted": "",
+     "noted": "2026-11-12T09:08Z",
      "progress": 0,
      "ticked": 0,
      "total": 4
@@ -7612,11 +7612,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA",
-     "at": "2026-11-12T08:02Z",
-     "text": "PASIKA 2026-11-12. (a, was 199) DONE: labels live in the Main Menu prefab. The Menu instance is Processes and Timings.prefab (UI_ExtendedMenuContent._prefab/_panelsPrefab_Optional both point there; BUTTONS Bottom is only its nested rail), s"
-    },
-    {
      "by": "CLOUD_BRIGHTNESS",
      "at": "2026-11-12T08:19Z",
      "text": "CLOUD_BRIGHTNESS: quiz 2026-11-12: 'The brightness slider is still unusable. The word brightness should be above, and the slider should take entire width of the panel.' Prefab (Processes and Timings, Map lighting brightness: label 28 high o"
@@ -7625,6 +7620,11 @@
      "by": "PASIKA_VIEW",
      "at": "2026-11-12T08:26Z",
      "text": "PASIKA_VIEW 2026-11-12 edge pass on the fixed prefabs (Visuals 'Dark only at the screen edge'), judged from the prefab layout: EDGE applied 3bd8df5880: MGMT-Map Editor UI top mode tabs (B_TGeometry Editing, B_Texture Editing, B_Photo Editin"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-12T09:08Z",
+     "text": "ROG_OPUS 2026-11-12 batch 24, the uncertain screen-edge rows, decided from the layout: (1) Video Panel Denoise switch: Left is a screen side, it stretches the Denoise Rows container (anchors x 0..1, zero offset), which sits in Video Panel's"
     }
    ]
   },
@@ -8825,6 +8825,20 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 477,
+   "name": "One-pixel line split (cloud push",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -8873,5 +8887,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "821cdcd30ec77d6f8506248c065dae80c3f4035b"
+ "source_revision": "ff8ff9501f1cad8026d14b4b33cc4c491df19b1e"
 }
