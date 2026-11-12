@@ -1441,31 +1441,6 @@
    "notes": []
   },
   {
-   "n": 135,
-   "name": "Add a Confirm (++) button to the",
-   "done": "2026-11-09T15:29Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_MAVCHAT_BACK",
-     "at": "2026-11-09T15:19Z",
-     "text": "BackIcon Image on the MavChat Divider (beside Label, back-arrow sprite of the other Back Icons), assign UI_MavChatSheet.BackIcon, delete the two Dots objects under the MavChat pager (code already hides them). Then check on device: open a co"
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T15:28Z",
-     "text": "df93887473: reader Confirm (++) button in Chat Window and Chat Window Portrait (MavChat nests the portrait prefab): Reply left half, Confirm right half, OnClick ConfirmMessage, label '++ Confirm' (chat.reader.confirm). Double-tap branch and"
-    }
-   ]
-  },
-  {
    "n": 136,
    "name": "MavChat bubble tint on device",
    "done": "2026-11-10T07:50Z",
@@ -8766,14 +8741,20 @@
     {
      "who": "MAC_FABLE",
      "since": "2026-11-12T15:17Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-12T15:31Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_FABLE",
+     "at": "2026-11-12T15:31Z",
+     "text": "MAC_FABLE batch 4, step 4, 6d8ff9240b. Reproduced in Mac Editor Play: after a script reload during Play (editor scripts.reload, confirmed in the Editor log) every Telemetry tab stayed dead; ui.pointed showed the tap hitting Lists Root/Swipe"
+    }
+   ]
   },
   {
    "n": 509,
@@ -8876,5 +8857,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5506fdb3ce0b2728b2fe62b803fca6791caf27f0"
+ "source_revision": "a3b2608498b86518fcb4dd594bbbfaf94e1dd576"
 }
