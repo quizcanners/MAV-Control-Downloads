@@ -1167,26 +1167,6 @@
    "notes": []
   },
   {
-   "n": 101,
-   "name": "Sharpen the Undo",
-   "done": "2026-11-09T08:18Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "mac-icon-sharp",
-     "at": "2026-11-09T08:17Z",
-     "text": "Published 0940bceb8f: redrew Undo, Undo History, both fullscreen states and Paste as sharp 128 px silhouettes."
-    }
-   ]
-  },
-  {
    "n": 102,
    "name": "Fix Android IL2CPP geometry sync",
    "done": "2026-11-09T09:07Z",
@@ -8064,7 +8044,7 @@
     {
      "who": "LOCAL_MAC",
      "since": "2026-11-12T08:17Z",
-     "noted": "",
+     "noted": "2026-11-12T08:18Z",
      "progress": 0,
      "ticked": 0,
      "total": 22
@@ -8162,11 +8142,6 @@
    ],
    "notes": [
     {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-12T04:57Z",
-     "text": "Batch 31 (pinch stall), 509da0297d (Unity compile 0 errors): Planet > Patch Preparation > Mask Demand now has four children in performance.top: Mask View (TryGetView + Ocean view), Parallax Cells (CaptureParallaxCells), Display Mask (Planet"
-    },
-    {
      "by": "CLOUD_THREAD",
      "at": "2026-11-12T05:07Z",
      "text": "Batch 31 prompt could not be opened by the Mac (it lived in cloud project files). Now at Coordination/Prompts/machine_prompts_2026-11-12.md; AGENTS.md says prompts are committed there. Not seen from the prompt: step 3 (first pure-code item "
@@ -8175,6 +8150,11 @@
      "by": "CLOUD_A",
      "at": "2026-11-12T08:08Z",
      "text": "CLOUD_A 2026-11-12: code part done. 55dbede20d: mask answers re-asked per frame are budgeted to about 4 ms (patches past it replay their last answer and re-ask next frame), aimed at the 237 ms Mask Demand pinch frames; uncompiled, PlanetRen"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-12T08:18Z",
+     "text": "Batch 32 step 3, read from the coordination server (Mac Editor in Play; the MavServer route is live via the direct route since 053fc426c5, while the Mac's 10.10.10.x WireGuard adapter is still absent, vpn.handshake NoVpn). server.diagnostic"
     }
    ]
   },
@@ -8926,5 +8906,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b3ccac5eb1945e5c4dbb20404c4f308ebc123c42"
+ "source_revision": "ace125f37390ff3e683922eac9b284406f5ad96a"
 }
