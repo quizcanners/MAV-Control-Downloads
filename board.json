@@ -76,7 +76,7 @@
     {
      "who": "CLOUD_COMPLEXITY",
      "since": "2026-11-12T23:09Z",
-     "noted": "",
+     "noted": "2026-11-12T23:37Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -106,11 +106,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T19:13Z",
-     "text": "MAC_FABLE batch 9, step 4. Grepped first: Network_Join, JoinManager and Persistent.AssignedVpnAddress are already gone (LOCAL_MAC, 2026-11-10). Cut now, each with cmp.sh NEW ERRORS: none: 4a684ab010 the QR install's invitation branch (First"
-    },
-    {
      "by": "PASIKA",
      "at": "2026-11-12T19:26Z",
      "text": "PASIKA batch 5 step 3: the two chains moved (1993a2be24, e607632581, names after upstream's naming pass): Network.PayloadSplitter.Sender.QueueSend 11 sites -> Network.QueueSend (forwarder on NetworkManager, three overloads); Network.DirectR"
@@ -119,6 +114,11 @@
      "by": "REVIEW",
      "at": "2026-11-12T20:32Z",
      "text": "REVIEW-465-CC-B8F7-01: P3 complexity brief for quiz: Street View anchor GPU preparation rereads the upload list after the same writer had its coordinates in hand. [S1/S2 exact scan/writer, one-pass sketch, 32-anchor explicit-command bound a"
+    },
+    {
+     "by": "CLOUD_COMPLEXITY",
+     "at": "2026-11-12T23:37Z",
+     "text": "CLOUD_COMPLEXITY, 2026-11-12: on main ac63b0f6b0 and 6a6d8e6e3f. Done: two timers that still sent to the MavServer with nobody looking are cut, both in the device's half (no MavServer release needed, none published). 1) A report the server "
     }
    ]
   },
@@ -1538,19 +1538,19 @@
    ],
    "notes": [
     {
-     "by": "PASIKA",
-     "at": "2026-11-12T22:15Z",
-     "text": "PASIKA 00:15: per-step walk cut (cached 15 s during the drain): 39 -> ~230 segments retired a minute; 31066 files left, about 2.3 h to empty. When it ends: remove the old allocator/catalog/merge code per the 430 note, then delete the D: saf"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-12T22:21Z",
-     "text": "REVIEW-467-CR-9108-01: P2 catch-up writes in 91089a28c bypass the established copy-room/Waiting path; a recorded SQLite FULL leaves Failed and does not resume when space returns. [S1/S2 source/SQL evidence, same-state repair sketch and nati"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-12T22:21Z",
      "text": "REVIEW-467-CC-9108-01: P3 complexity brief for quiz: catch-up copies one newer row into a shared buffer then commits it, bypassing the existing 16-row/1 MiB migration batch. [S1/S2 exact scan/writer/staging sketch, 16-versus-1 portable SQL "
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T23:31Z",
+     "text": "REVIEW-468-CR-E7ED-01: P2 the 15 s physical census cache is reused by active Migrating samples, but Adopt clears write debt as if their total were current. [S1/S2 exact source/call flow, 19-versus-16 admission model, Ready/expiry constraint"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T23:31Z",
+     "text": "REVIEW-468-CC-7FF2-01: existing complexity brief extended, not duplicated: e7edb17ec reduces census frequency by a timer; the known-file mutation/accounting direction remains. [Current S1/S2 scan, logical-write/eviction/retirement staging p"
     }
    ]
   },
@@ -2517,5 +2517,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a4a46ce378f843f092f0e0f80dedf0cd3f959655"
+ "source_revision": "85cead3b08f6864753b2250a88504b256464957d"
 }
