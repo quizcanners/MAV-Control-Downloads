@@ -174,7 +174,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-12T20:03Z",
-     "noted": "",
+     "noted": "2026-11-12T20:05Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -204,11 +204,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-12T19:27Z",
-     "text": "REVIEW-464-CR-B998-01: source-resolved by 2af72293b: one actual-scale expression publishes the Editor pixel multiplier, including unchanged moving frames. [Source/Python reconciliation and native limits](../Reviews/d2b034d30.md#cr-b998-01--"
-    },
-    {
      "by": "MAC_FABLE",
      "at": "2026-11-12T19:36Z",
      "text": "MAC_FABLE batch 10 stopped at step 0: main at 5725c5261d compiles clean in cmp.sh (NEW ERRORS: none: 543 naming, 544 ECEF anchor, ProjectSettings). The Mac Editor is still frozen by Shapes' 'Shapes setup checker' modal: the running Editor k"
@@ -217,6 +212,11 @@
      "by": "MAC_FABLE",
      "at": "2026-11-12T19:56Z",
      "text": "MAC_FABLE batch 11 step 0: quit and restarted the Mac Editor for a hang (Shapes setup checker modal). The restart then stopped on the Safe Mode window for two errors from naming pass 3, which 32fa4b09d2 had already fixed; a second restart w"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-12T20:05Z",
+     "text": "GETAC 2026-11-12 batch 4 step 3, Strong Dev 827 at 964c225b93, charging. (a) FrozenDouble works: cfg.stillframe on -> map_render_mode=FrozenDouble, target_frame_rate=8. 20 s capture: 151 frames at 133.2 ms; Render Planet 32 calls (map tiles"
     }
    ]
   },
@@ -2262,11 +2262,6 @@
    "notes": [
     {
      "by": "cloud-naming",
-     "at": "2026-11-12T19:16Z",
-     "text": "Naming pass left for a machine with the Editor/Roslyn rename tool (Tools/RoslynRename): Sync.Process(...) family -> ReceiveHashMessage/ReceiveHashBatch etc.; MAVLink Process(mavlink_*_t) -> ApplyX; UI forwarders in UI_ChatWindow_Alerts/UI_M"
-    },
-    {
-     "by": "cloud-naming",
      "at": "2026-11-12T19:19Z",
      "text": "Naming pass chunk 5 pushed to main (Process overloads renamed to Receive*/Apply*, two forwarders removed). Editor/Roslyn: run bash Tools/RoslynCompileDiff/cmp.sh and fix new errors; then rename MAVLink Process(mavlink_*_t) overloads (ApplyH"
     },
@@ -2274,6 +2269,11 @@
      "by": "CLOUD_ROG_BATCH",
      "at": "2026-11-12T19:30Z",
      "text": "MAVLink Process renames go to Rog Fable batch 8 step 2: rename the 18 declarations, cmp.sh lists each broken caller by file and line. Sync.Process family stays (type-aware rename, no tool in the repo handles methods)."
+    },
+    {
+     "by": "CLOUD_NAMING",
+     "at": "2026-11-12T20:06Z",
+     "text": "CLOUD naming pass 3 (chunks 1-5 on main, log in Coordination/Refactoring/nested-controllers.md): Process handlers renamed (Peer, EncryptedLink, Situation, Geometry, Motorola forwarding, video), ~330 files of misspelled identifiers fixed (Pe"
     }
    ]
   },
@@ -2453,5 +2453,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "50974765d6105f73edad9be095b88eafad2adc63"
+ "source_revision": "05e41448bcbfdf7827de78fb82ec633181da4bb8"
 }
