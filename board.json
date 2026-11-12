@@ -1455,7 +1455,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-12T18:25Z",
-     "noted": "2026-11-12T18:50Z",
+     "noted": "2026-11-12T18:58Z",
      "progress": 0,
      "ticked": 0,
      "total": 14
@@ -1521,11 +1521,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA",
-     "at": "2026-11-12T18:16Z",
-     "text": "PASIKA batch 3 step 5 (Windows Editor, warm Play): startup_cost Geoid 3.760, DefaultPosition 19.941 -> 9.786 ms after d53187a448 (brigade camera start kept as numbers; mgrs_ms 15.487 -> 0.396, pose_ms 4.272 / 9.235), NamesCache 0.692, Names"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-12T18:25Z",
      "text": "GETAC 2026-11-12 batch 3 step 1, Strong Dev 826 at 1fe7cbaa6b, map at rest: smoke.run Failed only on the new step 'map cache refresh rate': cache_refreshes=6 in_s=6.6 allowed=5.3 per_s=0.78 visuals_version=769 (54 steps, 85.6 s, one skip: w"
@@ -1534,6 +1529,11 @@
      "by": "GETAC",
      "at": "2026-11-12T18:50Z",
      "text": "GETAC 2026-11-12 batch 3 step 4, Strong Dev 826 at 1fe7cbaa6b. (a) 30 s idle capture: 19 GC collections (same as 826 f03247d1be), 7.0 MiB allocated, 31.7 KB/frame; top: VPN Chat > Payload Splitter > Send Admission > General background sends"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-12T18:58Z",
+     "text": "GETAC 2026-11-12 batch 3 summary. 1) Done: signed Dev 826 from 1fe7cbaa6b built and installed on the Strong (BUILD_HISTORY); smoke 'map cache refresh rate' failed at 0.78/s, cause found (mask views evicted between FrozenDouble's 2 s draws) "
     }
    ]
   },
@@ -2298,5 +2298,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3ae90a49963d1d9f518a959b92e360aaea34b3cb"
+ "source_revision": "56f309d37b059b7fef12dd62203f1dca05283e73"
 }
