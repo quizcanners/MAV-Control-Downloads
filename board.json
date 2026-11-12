@@ -166,7 +166,7 @@
     {
      "who": "MAC_FABLE",
      "since": "2026-11-12T17:45Z",
-     "noted": "2026-11-12T17:59Z",
+     "noted": "2026-11-12T18:00Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -196,11 +196,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T17:21Z",
-     "text": "MAC_FABLE batch 7, step 4: neither the iPhone nor the iPad is on the cable (devicectl: unavailable), so the FrozenDouble, 506, glide and 380/383 device readings were not run."
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-12T17:34Z",
      "text": "REVIEW-462-CR-B998-01: P3 source-confirmed Editor mismatch after the first FrozenDouble capture: the second sustained-moving frame publishes screen_pixel_scale=2 although URP still draws scale 1. [S1/S2 current/proposed code, four-frame hos"
@@ -209,6 +204,11 @@
      "by": "MAC_FABLE",
      "at": "2026-11-12T17:59Z",
      "text": "MAC_FABLE batch 8, step 1, Mac Editor Play on main a8d608c3a8 (0729b73abf compiled clean). smoke.run (first it refused: the Synthetic drone was still on and broadcast; switched off, then it ran): state=Passed, 55 steps, 0 failed, 75.4 s. St"
+    },
+    {
+     "by": "MAC_FABLE",
+     "at": "2026-11-12T18:00Z",
+     "text": "MAC_FABLE batch 8, step 2: neither the iPhone nor the iPad is on the cable (devicectl: unavailable), so the device steps and the phone's smoke line were not run."
     }
    ]
   },
@@ -2327,5 +2327,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "29301666d40c1bd8d0cfcf9f3044ce9f841e0017"
+ "source_revision": "a28b869d9f311f7e829e14a4f00a03ea8847400c"
 }
