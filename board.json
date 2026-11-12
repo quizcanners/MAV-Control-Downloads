@@ -335,7 +335,7 @@
     {
      "who": "CLOUD_E",
      "since": "2026-11-12T08:06Z",
-     "noted": "",
+     "noted": "2026-11-12T08:14Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -355,7 +355,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_E",
+     "at": "2026-11-12T08:14Z",
+     "text": "CLOUD_E prepared, not applied (waits for quiz): in Distribution_Manager.cs ~line 325 keep the seven input comparisons as the condition for { capture inputs; EnsureMyPerson(); RefreshInventoryHistory(); } and run UpdatePinnedStock() separate"
+    }
+   ]
   },
   {
    "n": 29,
@@ -8884,5 +8890,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f61e6f69be1aab40370155bc2e2a8cd7ecc7da74"
+ "source_revision": "fa82f9ff81c7b261003ce1d5f6ce82c567f83ea9"
 }
