@@ -1133,26 +1133,6 @@
    ]
   },
   {
-   "n": 114,
-   "name": "Refine Enemy Unit",
-   "done": "2026-11-09T11:24Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "codex-enemy-model",
-     "at": "2026-11-09T11:23Z",
-     "text": "Done: d12c79c02f refines Enemy Unit and updates Modeling 3D AGENTS with quiz wording and silhouette-first polygon guidance."
-    }
-   ]
-  },
-  {
    "n": 115,
    "name": "using Strong for the Getac main ",
    "done": "2026-11-09T11:46Z",
@@ -6287,18 +6267,18 @@
    "notes": [
     {
      "by": "PASIKA_CHAT",
-     "at": "2026-11-12T08:56Z",
-     "text": "PASIKA_CHAT 2026-11-12 (second pass). DONE 079d684c55: group deletion (g:author|id; this device's original and member copies tombstoned, the saved retried Crypto_ChatDelete goes to every member and copy holder; receiver accepts from the aut"
-    },
-    {
-     "by": "PASIKA_CHAT",
-     "at": "2026-11-12T09:05Z",
-     "text": "PASIKA_CHAT 2026-11-12 (third pass). DONE 1397b1dda5: DropContent empties text, reply quote and colours in the same change that marks a body Deleted (one save writes the tombstone without words; expiry tombstones too); a queued Background t"
-    },
-    {
-     "by": "PASIKA_CHAT",
      "at": "2026-11-12T09:23Z",
      "text": "PASIKA_CHAT 2026-11-12 (fourth pass, shared deletion code finished). DONE b2160f765e: a deleted or expired photo's file is queued (Peer.Meta.PhotoFilesToDelete) in the same change as the tombstone, deleted only after that change is saved, o"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T11:22Z",
+     "text": "REVIEW-455-CR-079D-01: P2 a rejected outside-sender group deletion is remembered and later applied without the requester check. S1/S2 brief ready: [evidence and proposal](../Reviews/d33bc98a6.md#cr-079d-01--p2-a-rejected-group-deletion-is-r"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T11:22Z",
+     "text": "REVIEW-455-CC-079D-01: P3 group Delete searches the roster \u00d7 known bodies to rediscover copy holders already in hand. S1/S2 brief ready: [evidence and proposal](../Reviews/d33bc98a6.md#cc-079d-01--p3-group-deletion-searches-again-for-known-"
     }
    ]
   },
@@ -6656,11 +6636,6 @@
    "notes": [
     {
      "by": "PASIKA_UPDATES",
-     "at": "2026-11-12T08:44Z",
-     "text": "PASIKA_UPDATES 2026-11-12: e55af983af (cmp.sh NEW ERRORS: none). Delivery: a package without a chunk index (MAVSEAL1, the public format until 2026-12-08) now downloads as 8 MiB HTTP ranges appended to the partial file, not one full GET (the"
-    },
-    {
-     "by": "PASIKA_UPDATES",
      "at": "2026-11-12T08:49Z",
      "text": "PASIKA_UPDATES 2026-11-12: e9be158e40 adds updates.retrying to the English ('retrying') and Ukrainian ('\u043f\u043e\u0432\u0442\u043e\u0440\u043d\u0430 \u0441\u043f\u0440\u043e\u0431\u0430') Linguist assets, next to updates.notice.stopping; the retry line beside download progress no longer falls back to Engl"
     },
@@ -6668,6 +6643,11 @@
      "by": "GETAC",
      "at": "2026-11-12T10:44Z",
      "text": "GETAC 2026-11-12 Build offer, Getac: signed Android Dev 826 from main f03247d1be (Brigade 68, Unity 6000.6.8f1, 1291 s), APK 372,720,887 B, SHA-256 dc2bc55a4bfa112b86461c7d4fe28269a77ef8a0dae7fdf732f60afe6449f39e, v2 signature verifies; ins"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T11:22Z",
+     "text": "REVIEW-455-CR-E55A-01: P2 a mid-body transport failure retaining HTTP 206 skips retry and deletes its partial. S1/S2 brief ready: [evidence and proposal](../Reviews/d33bc98a6.md#cr-e55a-01--p2-a-dropped-range-response-is-not-retried). Sourc"
     }
    ]
   },
@@ -7664,6 +7644,14 @@
      "progress": 0,
      "ticked": 0,
      "total": 15
+    },
+    {
+     "who": "GETAC",
+     "since": "2026-11-12T11:26Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 15
     }
    ],
    "steps": [
@@ -8583,6 +8571,16 @@
      "by": "PASIKA",
      "at": "2026-11-12T10:45Z",
      "text": "PASIKA: 027c8d363a did not compile in Unity 6000.6.8f1 (SituationGroupedIconSystem lines 325-327, 447: bare Time inside SystemBase is TimeData). Fixed in the next commit (UnityEngine.Time). Main compiles again."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T11:22Z",
+     "text": "REVIEW-455-CR-027C-01: P2 a stale newest model hit prevents a valid body hit underneath from being selected. S1/S2 brief ready: [evidence and proposal](../Reviews/d33bc98a6.md#cr-027c-01--p2-a-stale-model-hit-hides-a-valid-model-underneath)"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T11:22Z",
+     "text": "REVIEW-455-CC-6677-01: earlier per-submission model-rescale concern is source-resolved by retained matrices and camera/fade/change gating in 027c8d363. [Reconciliation](../Reviews/d33bc98a6.md#reconciliation-with-earlier-reports-and-recorde"
     }
    ]
   },
@@ -8813,5 +8811,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "42f9d00e58c2d217cdb213d07461dd56db698d5d"
+ "source_revision": "d7a09d246b87695863d0b0f7dffe63abf0496f1f"
 }
