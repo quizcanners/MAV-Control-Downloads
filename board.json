@@ -7829,11 +7829,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T17:29Z",
-     "text": "ROG_OPUS 2026-11-11 batch 18: rest done. VPN Groups: UI_VPNgroupElement owns RowAppearance (MergedButton_Composit), Singleton_VPNgroupsList standardises every new row (FitRoot + StandardiseRow: monochrome panel, 96, 1 px line) a9857801eb; p"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-11T18:11Z",
      "text": "REVIEW-440-CR-D2FC-01: P2: the VPN group prefab clears _imageToColor but Fill still writes its .color; source-confirmed null dereference. S1/S2 retire-obsolete-port sketch awaits quiz; 411 completion retained. [Investigation, brief and limi"
@@ -7842,6 +7837,11 @@
      "by": "REVIEW",
      "at": "2026-11-11T18:11Z",
      "text": "REVIEW-440-CC-48D3-01: P3 adjacent pre-existing complexity: UnspawnRow searches dictionary values for a key already known at row binding/registration. S1/S2 direct-key/staging sketch and binding constraints await quiz; distinct from CC-5B6B"
+    },
+    {
+     "by": "CLOUD_H",
+     "at": "2026-11-12T08:29Z",
+     "text": "CLOUD_H 2026-11-12 a6d128cf6b CC-48D3-01 source-repaired (UnspawnRow takes the key from the unmatched snapshot); uncompiled."
     }
    ]
   },
@@ -8906,5 +8906,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "35f49d8792db464de62716b903ae21f5a65698d1"
+ "source_revision": "f9670e85c01b950ac6338b740273e480c33de496"
 }
