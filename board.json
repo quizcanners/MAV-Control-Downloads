@@ -7296,7 +7296,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "LOCAL_MAC",
+     "since": "2026-11-12T08:50Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 5
+    }
+   ],
    "steps": [
     {
      "t": "containing All on current main, record each member with --result",
@@ -8858,5 +8867,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0c7827771395fe1c4f32d0bbc7b1f92f1a69ad31"
+ "source_revision": "1a0dbd35441368bfba7201961f76c3ec10fc8c18"
 }
