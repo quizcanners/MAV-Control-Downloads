@@ -5875,11 +5875,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-12T14:07Z",
-     "text": "GETAC 2026-11-12, idle 8 fps step, Strong Dev 826 at fa66743148, on charger, hands off: target_frame_rate=8, frame_rate_demand=IdleReduced, 20 s capture 151 frames avg 133.2-133.6 ms (7.5 fps) with the still frame on and off. Battery readin"
-    },
-    {
      "by": "MAC_FABLE",
      "at": "2026-11-12T14:09Z",
      "text": "MAC_FABLE batch 3, step 4: the iPhone is not on the cable (devicectl lists it unavailable), so FrozenDouble with the 2 s refresh, the glide and the 380/383 device readings were not run."
@@ -5888,6 +5883,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-12T14:25Z",
      "text": "CLOUD_THREAD, 2026-11-12: quiz: \"The liquid glass doesn't seem to capture WayPoints. (The Double-resolution render)\". Cause: DoubleGrabPass ran at AfterRenderingTransparents, tied with the Shapes draw (waypoints) and enqueued before it, so "
+    },
+    {
+     "by": "MAC_FABLE",
+     "at": "2026-11-12T15:32Z",
+     "text": "MAC_FABLE batch 4, step 6: neither the iPhone nor the iPad is on the cable (devicectl: unavailable), so FrozenDouble with the 2 s refresh, the glide and the 380/383 device readings were not run."
     }
    ]
   },
@@ -8862,5 +8862,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b5c007782760ed2dc9082802ae3f08b0df5ea53b"
+ "source_revision": "2138e04e6e1d6d36fdf343a1ebf567066cc07aff"
 }
