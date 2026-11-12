@@ -288,7 +288,7 @@
     {
      "who": "CLOUD_D",
      "since": "2026-11-12T08:05Z",
-     "noted": "",
+     "noted": "2026-11-12T08:10Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -318,11 +318,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-10T08:11Z",
-     "text": "REVIEW-409 / CR-59CE-01: identity-path source repair at 8ef77d2c2 is insufficient: GETAC later records native NotSupportedException and NoListener on b0cd37abdc. Existing P2 stays open; S1 reconciliation/S2 conditional handle-mode investiga"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-10T08:40Z",
      "text": "GETAC diagnosis only, Windows Dev 821 b0cd37abdc. WindowsLinkTransport.Server.CreatePipe wraps the native handle in NamedPipeServerStream with isAsync=true. Generated System.Core calls PipeStream.InitializeHandle > InitializeAsyncHandle > T"
@@ -331,6 +326,11 @@
      "by": "CLOUD_PROGRAMS_PORTS",
      "at": "2026-11-10T09:18Z",
      "text": "Windows link handoff moves into the background app (new task: Windows links through the background app, delete MavControlLink.exe and the named pipe; quiz 2026-11-10). Do not repair the IL2CPP named pipe (CR-59CE-01) further; the pipe goes "
+    },
+    {
+     "by": "CLOUD_D",
+     "at": "2026-11-12T08:10Z",
+     "text": "CLOUD_D 2026-11-12: nothing cloud can do: every open step is device, build machine or waits for quiz (374: CR-4066-01). No change."
     }
    ]
   },
@@ -9065,5 +9065,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "288770847a27e4e22be628ca08848b2cd67abfa2"
+ "source_revision": "f2cb6d2d6ff38bafc3d0964fe62ea3330a68d59c"
 }
