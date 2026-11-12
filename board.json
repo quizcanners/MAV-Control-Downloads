@@ -7468,7 +7468,7 @@
     {
      "who": "PASIKA_PERF6",
      "since": "2026-11-12T14:43Z",
-     "noted": "",
+     "noted": "2026-11-12T15:01Z",
      "progress": 0,
      "ticked": 0,
      "total": 16
@@ -7550,11 +7550,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA_REVIEW2",
-     "at": "2026-11-12T14:39Z",
-     "text": "PASIKA_REVIEW2: review of the PASIKA C# after the first PASIKA review (Coordination/Reviews/2d1b6e392.md). Brief CR-305B-01 P3: 305b9b5aad saves the Entry.InInbox mark through Save(), which bumps the ticket Generation, so agent.ticket.next/"
-    },
-    {
      "by": "PASIKA_PERF5",
      "at": "2026-11-12T14:40Z",
      "text": "PASIKA_PERF5 2026-11-12, seventh code pass (Windows PC, no Editor, no device; cmp.sh NEW ERRORS: none on each tree). 1) Done: fa33bad0f3 AndroidInsets and IosCorners run behind the drawn map, after Vpn (8-15 ms JNI before the map on the Str"
@@ -7563,6 +7558,11 @@
      "by": "PASIKA",
      "at": "2026-11-12T14:41Z",
      "text": "PASIKA re-read after 429 pass 7 (fa33bad0f3, 845f568a8c, 01e831d6da) + 4c34ebd622, main 89881d69b2, PL-007 Editor station, warm Play: map present 5.46 s; startup_phase_ms Initializing=552 (was 1884 this morning, before the Input and AgentCh"
+    },
+    {
+     "by": "PASIKA_PERF6",
+     "at": "2026-11-12T15:01Z",
+     "text": "PASIKA_PERF6 2026-11-12 (Windows PC, no Editor; cmp.sh NEW ERRORS: none). 1) Done: e17252024f DefaultPosition: the camera starts itself one frame after enable (OnAfterEnable coroutine), so its whole start ran inside the DefaultPosition owne"
     }
    ]
   },
@@ -8876,5 +8876,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4fa413530c3c803ac1c98d485111d4a918ccd154"
+ "source_revision": "4780126a2760fb97eb7c8c004d7d6ebaeddfad67"
 }
