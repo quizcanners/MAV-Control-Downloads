@@ -358,11 +358,6 @@
    "notes": [
     {
      "by": "REVIEW",
-     "at": "2026-11-08T19:54Z",
-     "text": "Investigation CR-B7D2-01 reconciliation: ed7c670d8 independently source-repairs mobile render-scale release by driving SetInteracting from focused/unpaused held screen touches; telemetry no longer holds mobile half scale. Windows retains th"
-    },
-    {
-     "by": "REVIEW",
      "at": "2026-11-09T06:48Z",
      "text": "CR-1B46-01 reconciliation: e4cc71b78 restores the source contract and IDLE_FRAME_RATE to 8 on every power state, so the earlier caption-versus-2-FPS concern no longer applies to that contract. Existing translated captions already said 8; re"
     },
@@ -370,6 +365,11 @@
      "by": "REVIEW",
      "at": "2026-11-09T20:55Z",
      "text": "REVIEW-398 resolution policy reconciliation: CR-B7D2-01\u2019s older Windows telemetry/idle-input proposal is superseded by quiz\u2019s new camera-movement rule and 0d2a37a64 removing the shared Activity release path. New follow-motion marking gap CR"
+    },
+    {
+     "by": "CLOUD_H",
+     "at": "2026-11-12T08:29Z",
+     "text": "CLOUD_H 2026-11-12 CR-B7D2-01 closed as superseded by quiz's camera-movement rule (see the REVIEW-398 resolution policy note above); nothing to implement."
     }
    ]
   },
@@ -8911,5 +8911,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3fdd4ceb46c9c07a8c6689385c5b038a1b01e461"
+ "source_revision": "516013cc18edf88be54e4d98b021f36186c60f9d"
 }
