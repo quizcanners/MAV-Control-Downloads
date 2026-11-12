@@ -991,36 +991,6 @@
    ]
   },
   {
-   "n": 107,
-   "name": "MavChat",
-   "done": "2026-11-09T14:14Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_UI_OWNER",
-     "at": "2026-11-09T10:08Z",
-     "text": "Handoff: source traced, no implementation changes. UI_MapZoomScroll currently assumes X for pointer deltas and tick layout; reuse its composite and camera calls in a new MavChat vertical control, not the horizontal prefab. UI_MavChatSheet o"
-    },
-    {
-     "by": "CODEX_UI_OWNER",
-     "at": "2026-11-09T13:33Z",
-     "text": "Paused before implementation at quiz request to handle Editor compile, notification square and test batch. No source edits. Continue from existing task handoff."
-    },
-    {
-     "by": "CODEX_UI_OWNER",
-     "at": "2026-11-09T14:14Z",
-     "text": "Implemented folded vertical zoom from shared zoom-control components in 3c812d4daf; drag up zooms in and down zooms out, hidden outside folded view. Unity Editor compile passed; MavChatSheet and zoom tick EditMode 91/91 passed; post-sync Ro"
-    }
-   ]
-  },
-  {
    "n": 108,
    "name": "Note from LOCAL_MAC",
    "done": "2026-11-10T07:50Z",
@@ -8387,7 +8357,7 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-12T14:05Z",
-     "noted": "",
+     "noted": "2026-11-12T14:14Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -8409,11 +8379,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_MODEL_SCALE",
-     "at": "2026-11-12T13:13Z",
-     "text": "quiz, 2026-11-12: \"Make 3D models for situation entities 33 % smaller. But don't make shadows smaller.\" Done: IconWidths 1 -> 0.67 on the three rows in Map.unity, shadow box sizes divided by 0.67 (Enemy 4.2/6.1/6.0, Vehicle 4.5/5.5/6.3, Can"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-12T13:23Z",
      "text": "REVIEW-457-CR-A449-01: P2 altitude-hidden models still supply body hits. S1/S2 brief ready: [evidence and proposal](../Reviews/3cdc97366.md#cr-a449-01--p2-altitude-hidden-models-still-supply-body-hits). Source/host only; native/device check"
@@ -8422,6 +8387,11 @@
      "by": "CLOUD_SHADOW_BOX",
      "at": "2026-11-12T13:25Z",
      "text": "CLOUD_SHADOW_BOX 2026-11-12: cause. The shadow cube was sent by Graphics.RenderMeshInstanced into the plain transparent queue; its graph reads Scene Depth and rebuilds the ground position from it, and no pass of that draw declares the camer"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T14:14Z",
+     "text": "ROG_FABLE 2026-11-12 batch 3 step 3 (e8504b8cc5): the Synthetic Situation tile half under the bottom rail. Direct cause: UI_ExtendedMenuPanels places only the tiles in its _layersGrid._tiles list and the debug tile was not in it, so it kept"
     }
    ]
   },
@@ -8858,5 +8828,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "35a80e00ca68339c728df92a431332a4844ee7af"
+ "source_revision": "ec7d284f85087d7a2c4796b476360f55923fb9a5"
 }
