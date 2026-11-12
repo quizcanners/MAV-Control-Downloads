@@ -6737,7 +6737,7 @@
     {
      "who": "CLOUD_C",
      "since": "2026-11-12T08:04Z",
-     "noted": "",
+     "noted": "2026-11-12T08:09Z",
      "progress": 0,
      "ticked": 0,
      "total": 12
@@ -6795,11 +6795,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-12T07:01Z",
-     "text": "ROG_OPUS 2026-11-12 batch 23 step 1, not done, for quiz: the two pager dots are 'Page Dots' in Chat/UI/Chat Window_Portrait.prefab (UI_ChatPortraitPager._dots), the one portrait Chat window MavChat shares. Inside MavChat the code already hi"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-12T07:37Z",
      "text": "LOCAL_MAC: 'capsule grabber drawn with the Monocolor Capsule shader' is done on main: Mav Chat Sheet.prefab line 217 sets UI_MavChatSheet.GrabberMaterial to UI/Shaders/Monocolor Capsule.mat (guid f8ceda50), and EnsureGrabber draws the 44x12"
@@ -6808,6 +6803,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-12T07:42Z",
      "text": "quiz, 2026-11-12, on the pager dots: \"Pager can stay. We can use it.\" The step 'capsule back arrow: delete the two pager dots' is dropped from this goal; Chat Window_Portrait keeps its Page Dots, MavChat keeps them hidden (UI_ChatPortraitPa"
+    },
+    {
+     "by": "CLOUD_C",
+     "at": "2026-11-12T08:09Z",
+     "text": "CLOUD_C 2026-11-12: nothing code-doable left here; every open step is Editor authoring, a device or look check, or waits on quiz. Found already on main: 393 (f3de104f7f, IsWorkflowAvailable), swipe-away only in Main view (UI_LeftListSwipeAw"
     }
    ]
   },
@@ -9049,5 +9049,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e5a713582a79551cb5b24c902ad95d1aef1c6a16"
+ "source_revision": "908b896143930d31d14325e156f718e4802fb397"
 }
