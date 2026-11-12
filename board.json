@@ -6573,11 +6573,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_REFACTOR",
-     "at": "2026-11-11T18:43Z",
-     "text": "CLOUD_REFACTOR: forwarders 279 to 278 (GetSourceGuid); see forwarders-and-long-signatures.md. Need for verify: compile."
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-12T01:12Z",
      "text": "LOCAL_MAC: cloud refactor cc08b25816 (GCSState.TrySetName forwarders dropped) compiles in the macOS Unity Editor, 0 errors."
@@ -6586,6 +6581,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-12T08:04Z",
      "text": "fff632dd65: SQLITE-ONE-BUILD done on the Mac Editor: selftest sqlite pass=3 fail=0 (native_library, open, write_read) in Play on tiles_sumy; libmavsqlite.dylib 3.53.4 with THREADSAFE=1, DEFAULT_MEMSTATUS=0, OMIT_LOAD_EXTENSION, TEMP_STORE=2"
+    },
+    {
+     "by": "PASIKA_PROTOCOL",
+     "at": "2026-11-12T09:38Z",
+     "text": "PASIKA_PROTOCOL, for LOCAL_MAC, nothing to do in your code (from task 472): the undeserializable Crypto_WebMercatorConvergenceHashBatch and Crypto_MapRecordHashRequest in PASIKA's Player.log were not a change of the hash data. The receiver "
     }
    ]
   },
@@ -8971,5 +8971,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c920b7af097627ecc38e2416aa8f7553ef7b5aa9"
+ "source_revision": "744ccbc20ecbaf458ec063bb3d47c1a432aff943"
 }
