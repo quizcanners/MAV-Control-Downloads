@@ -6800,7 +6800,7 @@
     {
      "who": "PASIKA_SERVER",
      "since": "2026-11-12T08:15Z",
-     "noted": "",
+     "noted": "2026-11-12T08:50Z",
      "progress": 0,
      "ticked": 0,
      "total": 8
@@ -6842,11 +6842,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-12T07:23Z",
-     "text": "REVIEW-452-CC-2B49-01: P3 idle pending-edit search precedes due-time gate. S1/S2 current/proposed direction and falsifiers complete; awaits quiz before implementation. Source/host only, native checks unrun; existing claims/results retained."
-    },
-    {
      "by": "CLOUD_D",
      "at": "2026-11-12T08:08Z",
      "text": "CLOUD_D 2026-11-12 (uncompiled), fd1f72291e: step 2 code: Deploy Image of digits only is a Hetzner snapshot id; cloud-init then writes keys/config only (no apt, no install.sh); RoutingServerDeployment.IsSnapshotImage; SPEC line added. Left "
@@ -6855,6 +6850,11 @@
      "by": "CLOUD_H",
      "at": "2026-11-12T08:28Z",
      "text": "CLOUD_H 2026-11-12 (uncompiled, run cmp.sh) source-repaired REVIEW findings: 8b8595f162 CR-2B49-01 (a write reply settles only the pending edit whose Version it carried; a forced readback never overwrites a newer NotDelivered edit), CC-2B49"
+    },
+    {
+     "by": "PASIKA_SERVER",
+     "at": "2026-11-12T08:50Z",
+     "text": "PASIKA_SERVER 2026-11-12 summary. 1) Done: eefb268a06 the routing port's listener did not pass /specs to the Specs folder (every GET and POST answered 400) and RoutingServer.Tests did not compile on main, both repaired, POST body read with "
     }
    ]
   },
@@ -8858,5 +8858,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "935e6cc487da9531e1c76dbb8d64ad7c8aceb832"
+ "source_revision": "0c7827771395fe1c4f32d0bbc7b1f92f1a69ad31"
 }
