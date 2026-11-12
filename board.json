@@ -6468,7 +6468,7 @@
     {
      "who": "PASIKA_REVIEW",
      "since": "2026-11-12T13:04Z",
-     "noted": "",
+     "noted": "2026-11-12T13:21Z",
      "progress": 0,
      "ticked": 0,
      "total": 10
@@ -6518,11 +6518,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA_UPDATES",
-     "at": "2026-11-12T08:49Z",
-     "text": "PASIKA_UPDATES 2026-11-12: e9be158e40 adds updates.retrying to the English ('retrying') and Ukrainian ('\u043f\u043e\u0432\u0442\u043e\u0440\u043d\u0430 \u0441\u043f\u0440\u043e\u0431\u0430') Linguist assets, next to updates.notice.stopping; the retry line beside download progress no longer falls back to Engl"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-12T10:44Z",
      "text": "GETAC 2026-11-12 Build offer, Getac: signed Android Dev 826 from main f03247d1be (Brigade 68, Unity 6000.6.8f1, 1291 s), APK 372,720,887 B, SHA-256 dc2bc55a4bfa112b86461c7d4fe28269a77ef8a0dae7fdf732f60afe6449f39e, v2 signature verifies; ins"
@@ -6531,6 +6526,11 @@
      "by": "REVIEW",
      "at": "2026-11-12T11:22Z",
      "text": "REVIEW-455-CR-E55A-01: P2 a mid-body transport failure retaining HTTP 206 skips retry and deletes its partial. S1/S2 brief ready: [evidence and proposal](../Reviews/d33bc98a6.md#cr-e55a-01--p2-a-dropped-range-response-is-not-retried). Sourc"
+    },
+    {
+     "by": "PASIKA_REVIEW",
+     "at": "2026-11-12T13:21Z",
+     "text": "PASIKA review (Coordination/Reviews/919f3e73e.md): CR-E55A-01 repaired in e1ef5e58f2, compiled, not run. An app update download whose connection drops in the middle of a range, or whose 300 s range timeout passes on a slow link, now resumes"
     }
    ]
   },
@@ -8904,5 +8904,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "33c65042f5aeb041d71b0189abbc941c3cfb6cff"
+ "source_revision": "fa667431486f9699dca6f2729c4456bcada73d39"
 }
