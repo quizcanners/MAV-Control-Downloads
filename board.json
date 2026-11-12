@@ -8250,11 +8250,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-12T05:12Z",
-     "text": "ROG_OPUS 2026-11-12 Windows compile at main 56d2763922: the C# since 5e4b308a (735b31c9, 0098608c, 7a827b30, 233615fb, 6daa25ad, 8b0de935, cc08b258, bb95d79a, 509da029) compiles; cmp.sh against 5e4b308a NEW ERRORS none; Unity Editor importe"
-    },
-    {
      "by": "CLOUD_THREAD",
      "at": "2026-11-12T06:21Z",
      "text": "CLOUD_THREAD 2026-11-12: 430 explicit start built: AI Sandbox verb 'map.store logical' sets Writer.StartLogicalAuthorityRequested for the run; next maintenance pass flips each sharded map and drains segments (SPEC updated, uncompiled). The "
@@ -8263,6 +8258,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-12T07:57Z",
      "text": "Batch 32 step 1 (map.store logical on a small map), stuck, for quiz: the Mac Editor's only map is tiles_sumy (13 GB _SqliteTileStore), which the batch says not to flip. A small map needs another brigade's folder: pointing Bootstrap.unity at"
+    },
+    {
+     "by": "LOCAL_MAC",
+     "at": "2026-11-12T08:36Z",
+     "text": "For PASIKA (quiz, 2026-11-12: resource-heavy work goes to PASIKA): the batch 32 flip on a real map. The Mac Editor's only map is the 13 GB tiles_sumy and cannot prepare a small bundled one (bundles live in StreamingAssets_PreBuild). On PASI"
     }
    ]
   },
@@ -8912,5 +8912,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "954e5f65b5f8efdd3dc59e07cd189d3fb6ef1ab0"
+ "source_revision": "77d67fa4db573bf0881a9558417a2f9d5d4c1ee0"
 }
