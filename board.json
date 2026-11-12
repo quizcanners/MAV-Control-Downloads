@@ -5836,7 +5836,7 @@
     {
      "who": "PASIKA_INPUT",
      "since": "2026-11-12T14:04Z",
-     "noted": "",
+     "noted": "2026-11-12T14:18Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -5858,11 +5858,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-12T12:10Z",
-     "text": "GETAC 2026-11-12, Strong Dev 826 at f03247d1be, per-owner boot list from the three cold starts (startup_cost, 62 owners, zero failures; ms, runs 1/2/3), now in Performance Baseline/STARTUP.md. Total owner work 924.9/607.6/699.6. AgentChanne"
-    },
-    {
      "by": "PASIKA_STARTTEST",
      "at": "2026-11-12T12:53Z",
      "text": "PASIKA_STARTTEST 2026-11-12: EditMode cases for the 362 commits on main, f792e07130 and 280a745cbc (cmp.sh: only new errors are LogAssert, the checker's missing TestRunner reference that every LogAssert file shows at base). For Verification"
@@ -5871,6 +5866,11 @@
      "by": "PASIKA_REVIEW",
      "at": "2026-11-12T13:21Z",
      "text": "PASIKA review (Coordination/Reviews/919f3e73e.md): CR-A5F5-01 fixed in 6791eebe73, compiled, not run. Since the VPN owner runs after the first map frame, the VPN update stages ran before Network.ManagedOnEnable on a save that does not take "
+    },
+    {
+     "by": "PASIKA_INPUT",
+     "at": "2026-11-12T14:18Z",
+     "text": "PASIKA_INPUT: the Input startup owner no longer builds actions before the map (a839f94c4f): it wraps the project-wide asset Unity already loaded; ~337 ms in the Editor removed from the pre-map startup, see goal 429 note."
     }
    ]
   },
@@ -8819,5 +8819,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4a49c39f975749752fbdf25a5e0adf731d67318f"
+ "source_revision": "812f2871bdfde484085ef04080e361e3649465f2"
 }
