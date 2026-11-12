@@ -223,10 +223,6 @@
     {
      "t": "Editor late-shutdown access violation fixed",
      "x": false
-    },
-    {
-     "t": "Lazy timing tree checked in Editor",
-     "x": false
     }
    ],
    "notes": [
@@ -6825,7 +6821,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "PASIKA_SERVER",
+     "since": "2026-11-12T08:15Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 13
+    }
+   ],
    "steps": [
     {
      "t": "boot a fresh Hetzner server from the declaration, then from a snapshot (token ho",
@@ -8836,5 +8841,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "51563bdb93a7fa23a80c3964be8b3ec2a8e1a9c2"
+ "source_revision": "99c44a0fefee4efe6771a5f2dd4e200fca1c40b2"
 }
