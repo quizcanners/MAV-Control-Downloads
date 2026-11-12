@@ -6156,11 +6156,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T12:49Z",
-     "text": "MAC_FABLE batch 2, step 8 (Mav Chat, looking only, dde40843), Mac Editor Play at 590 x 1280 with ui.navigator.fold. Folded (map): the panel body is hidden, only the Chat capsule with its grabber stays near the bottom; a thin white line stub"
-    },
-    {
      "by": "ROG_FABLE",
      "at": "2026-11-12T12:55Z",
      "text": "ROG_FABLE 2026-11-12 batch 2 step 2, Editor Play at 1000x2160 in the Mav Chat workflow (Unity 6000.6.8f1). (a, was 255) What a message row draws, from a screen grab of the group chat in the sheet's full window: two of our alert rows show as"
@@ -6169,6 +6164,11 @@
      "by": "PASIKA_REVIEW",
      "at": "2026-11-12T13:20Z",
      "text": "PASIKA review of today's Chat deletion code (Coordination/Reviews/919f3e73e.md). Fixed, compiled, not run: de5fdefb34 a Chat photo deleted while it was still travelling no longer shows on the other device (the photo arrival path never asked"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T13:56Z",
+     "text": "REVIEW-458-CC-CEE3-01: P3 pending Chat deletions are walked once for expiry and again for sending. S1/S2 brief ready: [evidence and proposal](../Reviews/61e5470f9.md#cc-cee3-01--p3-pending-chat-deletions-are-walked-once-for-expiry-and-again"
     }
    ]
   },
@@ -7515,16 +7515,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "PASIKA_FIX",
-     "since": "2026-11-12T13:27Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 15
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "PASIKA (live Editor): the Input startup owner read 181 to 228 ms against 5.1 ms ",
@@ -7589,19 +7580,19 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-12T13:23Z",
-     "text": "REVIEW-457-CR-8CE4-02: P2 retention can strand an unfinished poll. S1/S2 brief ready: [evidence and proposal](../Reviews/3cdc97366.md#cr-8ce4-02--p2-retention-can-strand-an-unfinished-poll). Source/host only; native/device checks unrun; exi"
-    },
-    {
-     "by": "PASIKA_PERF4",
-     "at": "2026-11-12T13:38Z",
-     "text": "PASIKA_PERF4 2026-11-12, sixth code pass (Windows PC, no Editor, no device; Roslyn cmp.sh NEW ERRORS: none on each tree, base pinned to the tree's own merge-base because origin/main is shared by every worktree here and moved during a compar"
-    },
-    {
      "by": "PASIKA",
      "at": "2026-11-12T13:52Z",
      "text": "PASIKA Play run of 429 pass 6 (main after 517c0951ae + the Station_BoardTasks System.Math fix; Unity 6000.6.8f1, PL-007 Editor station): compiles; update_stage_errors 0; Settings opens and draws through SettingsInspectorGui (page=data, 10 r"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T13:57Z",
+     "text": "REVIEW-458-CC-A9DF-01: P3 pixel snapping keeps rebuilding unchanged line meshes on the CPU. S1/S2 brief ready: [evidence and proposal](../Reviews/61e5470f9.md#cc-a9df-01--p3-pixel-snapping-keeps-rebuilding-unchanged-line-meshes-on-the-cpu)."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T13:57Z",
+     "text": "REVIEW-458-CR-8CE4-01: ticket-note re-admission is source-repaired beyond this pass tip by 305b9b5aa; [limited publication-time reconciliation](../Reviews/61e5470f9.md#publication-time-reconciliation-beyond-the-inspected-tip). Original evid"
     }
    ]
   },
@@ -8813,5 +8804,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "147be31600ff05487de574a31c82e65f4489cc59"
+ "source_revision": "a373dfb309620770b8a83d232fefa11752e4f5eb"
 }
