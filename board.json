@@ -2307,19 +2307,14 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-12T19:53Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-12T20:15Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "CLOUD_ROG_BATCH",
-     "at": "2026-11-12T19:30Z",
-     "text": "Windows D3D11 half goes to Rog Fable batch 8 step 1 (adds the shaders to ShaderPassCompilationTests Paths, runs it, Play look at decals). The compiled counts of these passes are PASIKA batch 5 step 4. Add the second pass 1880dbb8: Monochrom"
-    },
     {
      "by": "CLOUD_MAC_BATCH",
      "at": "2026-11-12T19:46Z",
@@ -2329,6 +2324,11 @@
      "by": "CLOUD_SHADER_CHECK",
      "at": "2026-11-12T19:49Z",
      "text": "Add to the compile checks (third pass, 7b521db2 .. 0288b19e): Screen Blur Internal Blur, Blur Offset, Wash, Zoom Out (Wash and Zoom Out had a const assignment), Screen Space Fill, Fill Masked, Fit, Details, Pixel Perfect, Procedural UI Scre"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T20:15Z",
+     "text": "Rog D3D11 shader compile (batch 8 step 1, 8d989294ef): added to ShaderPassCompilationTests.Paths the 11 shaders of 46a41dfa/1880dbb8 that were missing (WifiSignalMap_PseudoDecal, BlurredWorld, ControlZone_PseudoDecal, Situation Grouped Icon"
     }
    ]
   },
@@ -2447,5 +2447,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "6c52dc504b02eef9d50b2c161023d84a447ee4a2"
+ "source_revision": "39e3a3553b7f77f730d87804833d85f4777abc28"
 }
