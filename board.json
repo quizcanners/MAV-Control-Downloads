@@ -6853,11 +6853,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD",
-     "at": "2026-11-11T14:43Z",
-     "text": "CLOUD: step 1 built. TunnelGrants.Kick tells HubRole (Removed_Optional -> HubRole.TunnelPersonRemoved, queued from the HTTP thread, applied in Hub.Tick); a kicked Admin leaves Admins and admins.txt at the next tick. RoutingServer.Tests admi"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-11T16:43Z",
      "text": "REVIEW-439-CR-FB49-01: P2: Kick removes only the first Admin when several report the same tunnel key. S1/S2 with bounded all-match removal sketch complete; awaits quiz; step 1 and owner result retained. [Evidence, brief and limits](../Revie"
@@ -6866,6 +6861,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-12T06:26Z",
      "text": "CLOUD_THREAD, 2026-11-12, uncompiled (no dotnet/Editor in cloud). Built: (a) Deploy WireGuard subnet 2c0ce12935 (HubTunnel.FreeSubnet/HubAddressOf, marker first line, install.sh WG_ADDRESS, TunnelGrants.NextAddress, HUB_ADDRESS from current"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-12T06:29Z",
+     "text": "CLOUD_THREAD 2026-11-12: Ukrainian text for the new lines added. For machines/others: publish MavServer release with the Specs folder and subnet choice and update the running MavServer (token holder); Admin WireGuard QR view needs the QR wi"
     }
    ]
   },
@@ -8600,5 +8600,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a8e10c0ee844c03a7e0aa14d0f28a46949ce04e9"
+ "source_revision": "054f9886ba31deb3bc9f0eda00d1ff31453df38d"
 }
