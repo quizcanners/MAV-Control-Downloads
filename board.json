@@ -1858,11 +1858,6 @@
    "notes": [
     {
      "by": "REVIEW",
-     "at": "2026-11-10T18:53Z",
-     "text": "Investigation CC-A183-01, P3 complexity: model batches search for Entity.Null twice while appending and again per camera submission, though the append already knows their occupied count. S1 mutation/lifetime trace and Python count control c"
-    },
-    {
-     "by": "REVIEW",
      "at": "2026-11-11T09:13Z",
      "text": "APPROVED-A183-FEFE-CC-A183-01: quiz approved the simplification; implementation is open on follow-up 385. Existing work, claims, completion and handoff remain intact. [Approval and brief](../Reviews/0af1f4396.md#quiz-decision--approved-foll"
     },
@@ -1870,6 +1865,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T16:39Z",
      "text": "3bc54d3adf: three _entityModels rows on Singleton_SituationEntities in Map.unity (Enemy Unit, Vehicle, Cannon: FBX solid + _Shadow mesh, VertexColored + ContactShadow, CellsTall 1.5), instancing on for the six materials, their INSTANCING_ON"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-12T07:46Z",
+     "text": "quiz, 2026-11-12: \"Checking latest build. I see 3D models. They are fine, few issues: they seem shaded, meaning I see light direction. Another thing is - they seem static, meaning I expected them to scale dynamically as I soom in and out. T"
     }
    ]
   },
@@ -8649,5 +8649,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b1aa5fd90e640930fe0822a6a4000e6a11c69f27"
+ "source_revision": "065e51f06bed352fe58d052bc7585ed71bda09a7"
 }
