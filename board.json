@@ -1881,19 +1881,14 @@
     {
      "who": "MAC_FABLE",
      "since": "2026-11-12T23:47Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-12T23:48Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-12T18:01Z",
-     "text": "CLOUD_THREAD 2026-11-12 (uncompiled): CR-A030-01 applied in Station_InputDevices_Stylus.cs. On Android a Pen whose tip is down under a finger counts as that finger's copy (finger keeps navigating) until a non-zero tilt proves a stylus; IsPe"
-    },
     {
      "by": "MAC_FABLE",
      "at": "2026-11-12T19:16Z",
@@ -1903,6 +1898,11 @@
      "by": "MAC_FABLE",
      "at": "2026-11-12T20:54Z",
      "text": "MAC_FABLE batch 11 step 4a (Mac Editor, main f5481745c3): the Stylus inspector (Settings > Dev Mode > Interface / PEGI > Input > Stylus) cannot be opened by command. Its entries are drawn with '\"Stylus\".PL().IsEntered()', which binds no sta"
+    },
+    {
+     "by": "MAC_FABLE",
+     "at": "2026-11-12T23:48Z",
+     "text": "MAC_FABLE batch 12 step 3: 'ui open stylus' (357b2fcfd4) opens Settings > Dev Mode > Interface / PEGI > Input > Stylus; those four entries now have stable keys (dev-mode, interface, input, stylus). Read in the Mac Editor in Play with the mo"
     }
    ]
   },
@@ -2535,5 +2535,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3b3ed4b8cdb0b680ae46dc5b9278f0c7986137bc"
+ "source_revision": "8f10c762e65da6a5fccee2720823b6f59c92348f"
 }
