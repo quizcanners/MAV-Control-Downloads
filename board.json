@@ -197,11 +197,6 @@
    "notes": [
     {
      "by": "MAC_FABLE",
-     "at": "2026-11-12T21:11Z",
-     "text": "MAC_FABLE batch 11 step 5, goal 363 advance (Mac Editor, Metal, main e1a923c51e). Dev FPS label: Dev Mode on by 11 'ui compass tap' in 1.4 s; it reads '8 fps (0.4)' top-right above the compass at rest, Sharp still frame on. smoke.run: first"
-    },
-    {
-     "by": "MAC_FABLE",
      "at": "2026-11-12T21:18Z",
      "text": "MAC_FABLE: more on the black band around the Far from home home icon. It is the Download Update button's 'Merged glass opaque' body (UI_MergableCustomButton, Prototype caabd17f...) drawn black, with its 'Merged glass translucent' overlay in"
     },
@@ -209,6 +204,11 @@
      "by": "MAC_FABLE",
      "at": "2026-11-12T22:32Z",
      "text": "MAC_FABLE: the black frame around the Far from home home icon is fixed (cf99e68c51). e2d47a169f had inset the Download Update 'Merged glass opaque' body by -40,-40, so its full-size 'Merged glass translucent' overlay, which rests black at a"
+    },
+    {
+     "by": "MAC_FABLE",
+     "at": "2026-11-12T23:52Z",
+     "text": "MAC_FABLE batch 12 step 1: the iPhone 16 Pro Max and the iPad show 'unavailable' in devicectl, so the iPhone FrozenDouble read was not run. On the 1.16 GiB: the Getac's own numbers say the option does not hold it. Graphics read 1,160 MiB wi"
     }
    ]
   },
@@ -2526,5 +2526,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d5351920c57d22ac41b611ceaaae008bbf5e9967"
+ "source_revision": "c2d59e138e427be1d1c3ea58b408bdd22927794f"
 }
