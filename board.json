@@ -8346,7 +8346,7 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-12T16:08Z",
-     "noted": "",
+     "noted": "2026-11-12T16:18Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -8368,11 +8368,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_SHADOW_BOX",
-     "at": "2026-11-12T13:25Z",
-     "text": "CLOUD_SHADOW_BOX 2026-11-12: cause. The shadow cube was sent by Graphics.RenderMeshInstanced into the plain transparent queue; its graph reads Scene Depth and rebuilds the ground position from it, and no pass of that draw declares the camer"
-    },
-    {
      "by": "ROG_FABLE",
      "at": "2026-11-12T14:14Z",
      "text": "ROG_FABLE 2026-11-12 batch 3 step 3 (e8504b8cc5): the Synthetic Situation tile half under the bottom rail. Direct cause: UI_ExtendedMenuPanels places only the tiles in its _layersGrid._tiles list and the debug tile was not in it, so it kept"
@@ -8381,6 +8376,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-12T15:15Z",
      "text": "ROG_FABLE 2026-11-12 batch 4 step 4, after cce3cc7533 (shadow boxes drawn in GroupPass with the depth texture declared): still nothing darkens. Editor Play on the Rog, Map scene, Synthetic Situation 6410 groups, camera 1.5 km tilt 40 at 20."
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T16:18Z",
+     "text": "ROG_FABLE 2026-11-12 batch 5 step 2, the three suspects, none is the cause; the shadow box draws nothing visible at all. A/B at one pose (Map scene, Synthetic Situation 6410 groups, 1.5 km tilt 40 at 20.9/54.6, 2000x1152, dusk): the same fr"
     }
    ]
   },
@@ -8931,5 +8931,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c95ddd9f3b22a6a921d5cfd420d4aafc60b1d015"
+ "source_revision": "ccb40aa86ac07ee1c8183a36ab96dd7580d6eefe"
 }
