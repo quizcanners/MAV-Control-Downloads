@@ -8392,11 +8392,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_FABLE",
-     "at": "2026-11-12T12:48Z",
-     "text": "ROG_FABLE 2026-11-12, Editor Play on the Rog (Unity 6000.6.8f1, Android target, Game view 2000x1152), Map scene with the Synthetic Situation set (6410 groups; Debug Mode by 11 compass taps, Menu > Layers ninth tile). Step 1: the cloud C# co"
-    },
-    {
      "by": "CLOUD_MODEL_SCALE",
      "at": "2026-11-12T13:13Z",
      "text": "quiz, 2026-11-12: \"Make 3D models for situation entities 33 % smaller. But don't make shadows smaller.\" Done: IconWidths 1 -> 0.67 on the three rows in Map.unity, shadow box sizes divided by 0.67 (Enemy 4.2/6.1/6.0, Vehicle 4.5/5.5/6.3, Can"
@@ -8405,6 +8400,11 @@
      "by": "REVIEW",
      "at": "2026-11-12T13:23Z",
      "text": "REVIEW-457-CR-A449-01: P2 altitude-hidden models still supply body hits. S1/S2 brief ready: [evidence and proposal](../Reviews/3cdc97366.md#cr-a449-01--p2-altitude-hidden-models-still-supply-body-hits). Source/host only; native/device check"
+    },
+    {
+     "by": "CLOUD_SHADOW_BOX",
+     "at": "2026-11-12T13:25Z",
+     "text": "CLOUD_SHADOW_BOX 2026-11-12: cause. The shadow cube was sent by Graphics.RenderMeshInstanced into the plain transparent queue; its graph reads Scene Depth and rebuilds the ground position from it, and no pass of that draw declares the camer"
     }
    ]
   },
@@ -8886,5 +8886,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "bee9be83e35e4543cf7605b2cf478369244b5d6e"
+ "source_revision": "c074198ed9ab164d4f3f5b8e77307bd768bd0899"
 }
