@@ -166,7 +166,7 @@
     {
      "who": "MAC_FABLE",
      "since": "2026-11-12T19:56Z",
-     "noted": "2026-11-12T19:56Z",
+     "noted": "2026-11-12T20:35Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -197,11 +197,6 @@
    "notes": [
     {
      "by": "MAC_FABLE",
-     "at": "2026-11-12T19:36Z",
-     "text": "MAC_FABLE batch 10 stopped at step 0: main at 5725c5261d compiles clean in cmp.sh (NEW ERRORS: none: 543 naming, 544 ECEF anchor, ProjectSettings). The Mac Editor is still frozen by Shapes' 'Shapes setup checker' modal: the running Editor k"
-    },
-    {
-     "by": "MAC_FABLE",
      "at": "2026-11-12T19:56Z",
      "text": "MAC_FABLE batch 11 step 0: quit and restarted the Mac Editor for a hang (Shapes setup checker modal). The restart then stopped on the Safe Mode window for two errors from naming pass 3, which 32fa4b09d2 had already fixed; a second restart w"
     },
@@ -209,6 +204,11 @@
      "by": "GETAC",
      "at": "2026-11-12T20:05Z",
      "text": "GETAC 2026-11-12 batch 4 step 3, Strong Dev 827 at 964c225b93, charging. (a) FrozenDouble works: cfg.stillframe on -> map_render_mode=FrozenDouble, target_frame_rate=8. 20 s capture: 151 frames at 133.2 ms; Render Planet 32 calls (map tiles"
+    },
+    {
+     "by": "MAC_FABLE",
+     "at": "2026-11-12T20:35Z",
+     "text": "MAC_FABLE batch 11 step 1 (CR-B998-01, Metal, Mac Editor, Map scene, Half and Sharp still frame on; Half by the new cfg.halfres c3300ea70c). app.lifecycle now prints the shader multiplier on the same frame as the URP scale (f5481745c3), so "
     }
    ]
   },
@@ -2456,5 +2456,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "781da0bb79ad695d29040966f2808c16d582b618"
+ "source_revision": "d915f20ed5014042263e6e80e92284d8d86678c7"
 }
