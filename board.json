@@ -6391,7 +6391,7 @@
     {
      "who": "PASIKA_BOOT",
      "since": "2026-11-12T08:16Z",
-     "noted": "",
+     "noted": "2026-11-12T08:48Z",
      "progress": 0,
      "ticked": 0,
      "total": 4
@@ -6417,11 +6417,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-11T15:17Z",
-     "text": "REVIEW-438-CR-7BD3-01 P2: S1 investigation and S2 brief/current snippet/existing-view admission sketch complete; Compass Open file silently drops a picked path before Late UI is ready. Awaits quiz before implementation. [Evidence and unrun "
-    },
-    {
      "by": "ROG_OPUS",
      "at": "2026-11-11T20:54Z",
      "text": "ROG_OPUS 2026-11-11 batch 20 compile: 33ec7c47, 638afa7d, de6b07ca, 3495bcfd and the Mac's 430 slices 4f5d991f, 97351176, 0d9665ee compile on Windows (Unity Editor 0 errors; cmp.sh vs 947d141b70 NEW ERRORS none). Roslyn first reported MAV_S"
@@ -6430,6 +6425,11 @@
      "by": "CLOUD_A",
      "at": "2026-11-12T08:09Z",
      "text": "CLOUD_A 2026-11-12: border tiles from SQLite are already on main (5f13aaf8f5: Config holds only the material, tiles read from StreamingAssets/Ukraine Borders.sqlite); step 'Border tiles' is done in code, no more to do. Left: Strong measure "
+    },
+    {
+     "by": "PASIKA_BOOT",
+     "at": "2026-11-12T08:48Z",
+     "text": "PASIKA_BOOT 2026-11-12 summary. 1) Done (C#, cmp.sh NEW ERRORS: none on each push and after the last pull): 4a485e4648 the saved-settings read starts on its worker in OnAfterEnable and overlaps the Map scene load (was: started at the Prepar"
     }
    ]
   },
@@ -8859,5 +8859,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a36500a8c84d7d83f5ded0fe0778c4dd75123e80"
+ "source_revision": "9eeb262fa074a218b5e3788794dc7c767e725637"
 }
