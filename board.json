@@ -898,7 +898,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-12T17:03Z",
-     "noted": "",
+     "noted": "2026-11-12T17:12Z",
      "progress": 0,
      "ticked": 0,
      "total": 8
@@ -949,11 +949,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-12T16:23Z",
-     "text": "GETAC resumed. DJI RC Plus 2 Android Dev 822: SV07 bt-pan IPv4 192.168.11.2, source-bound gateway replies 3/3 (47\u201362 ms), MAV Control Bound at 192.168.11.2:41001 with bt-pan, own Radio ID still unconfirmed, one TX and zero RX in the first s"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-12T16:29Z",
      "text": "Getac Debug Mode verified on Windows 817: own ID 6087565 confirmed, USB socket pin requested/readback 19, 192.168.10.2:41001. DJI still absent from ADB and agent route refused NoMavControlHeartbeat. Ran one directed test to operator-provide"
     },
@@ -961,6 +956,11 @@
      "by": "PASIKA",
      "at": "2026-11-12T17:12Z",
      "text": "PASIKA 17:12Z (quiz: 'You and Getac have radios, they should hear each other'): PASIKA Editor station has Motorola On, method USB, own ID entered 6089031 (unconfirmed), CAI 12, port 41001. But Windows on PASIKA enumerates NO Motorola USB de"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-12T17:12Z",
+     "text": "GETAC Windows 817 SV07 Bluetooth: Windows PAN joined on second attempt, IPv4 192.168.11.2, gateway 192.168.11.1 replied 3/3 before and after. MAV Control bound UDP 41001 on adapter 15 with verified socket pin. Blank-ID discovery and a 12-ca"
     }
    ]
   },
@@ -2203,5 +2203,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "07efc3311403e5e2417c0ddd361b571e251cac22"
+ "source_revision": "0c009bebfd2a800c4db6baf9990a780543aabb70"
 }
