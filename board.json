@@ -6638,7 +6638,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-12T10:05Z",
-     "noted": "",
+     "noted": "2026-11-12T10:44Z",
      "progress": 0,
      "ticked": 0,
      "total": 10
@@ -6688,11 +6688,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_H",
-     "at": "2026-11-12T08:29Z",
-     "text": "CLOUD_H 2026-11-12 53d12bbb43 CR-31F7-01 source-repaired: AdmitUnsealed verifies an existing output against the new plaintext length/hash (cancellation threaded through both formats) and keeps it, deleting only the new partial; different/co"
-    },
-    {
      "by": "PASIKA_UPDATES",
      "at": "2026-11-12T08:44Z",
      "text": "PASIKA_UPDATES 2026-11-12: e55af983af (cmp.sh NEW ERRORS: none). Delivery: a package without a chunk index (MAVSEAL1, the public format until 2026-12-08) now downloads as 8 MiB HTTP ranges appended to the partial file, not one full GET (the"
@@ -6701,6 +6696,11 @@
      "by": "PASIKA_UPDATES",
      "at": "2026-11-12T08:49Z",
      "text": "PASIKA_UPDATES 2026-11-12: e9be158e40 adds updates.retrying to the English ('retrying') and Ukrainian ('\u043f\u043e\u0432\u0442\u043e\u0440\u043d\u0430 \u0441\u043f\u0440\u043e\u0431\u0430') Linguist assets, next to updates.notice.stopping; the retry line beside download progress no longer falls back to Engl"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-12T10:44Z",
+     "text": "GETAC 2026-11-12 Build offer, Getac: signed Android Dev 826 from main f03247d1be (Brigade 68, Unity 6000.6.8f1, 1291 s), APK 372,720,887 B, SHA-256 dc2bc55a4bfa112b86461c7d4fe28269a77ef8a0dae7fdf732f60afe6449f39e, v2 signature verifies; ins"
     }
    ]
   },
@@ -8751,5 +8751,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4b4667edb077c54b0235c0c5cdb6a2dff7be086a"
+ "source_revision": "55fcddc7570c0f20a515215330e469cf2a11075b"
 }
