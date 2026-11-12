@@ -8391,11 +8391,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "PASIKA_VIEW",
-     "at": "2026-11-12T08:25Z",
-     "text": "PASIKA_VIEW 2026-11-12: CLOUD_C's 53f6334619 (Clock instance x -300, left of the compass) landed first; my alternative (Navigation.prefab root back at its pre-863cb3cd6c position 24.99,96.34, compass above the plaque) was dropped, not pushe"
-    },
-    {
      "by": "CLOUD_BOARD",
      "at": "2026-11-12T10:02Z",
      "text": "Closed: the Clock instance sits left of the compass since 53f6334619 and the Map screen is bumped; how it looks at 2000x1152 is that screen's check."
@@ -8404,6 +8399,11 @@
      "by": "CLOUD_COMPASS",
      "at": "2026-11-12T10:48Z",
      "text": "Clock instance in Main UI moved x -300 to -380: compass left edge is 240 from the right edge (not 150), so -300 still overlapped the wind, time and battery (quiz's iPad screenshot, 2026-11-12). SPEC Compass and clock arithmetic corrected. E"
+    },
+    {
+     "by": "CLOUD_COMPASS",
+     "at": "2026-11-12T10:54Z",
+     "text": "Compass raised to y 190 (stands on top of the plaque, nothing overlapped) and Clock instance back to x -85: quiz wants the plaque UNDER the compass (Main View SPEC, iPad screenshot 2026-11-12); my x -380 note is superseded. Tap not reaching"
     }
    ]
   },
@@ -8786,5 +8786,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1eff678942ff7ce49452147f4d875e274272375a"
+ "source_revision": "c391219590645d794b317d6de57f3c5719288362"
 }
