@@ -2308,19 +2308,14 @@
     {
      "who": "PASIKA",
      "since": "2026-11-12T21:15Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-12T21:16Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "CLOUD_SHADER_CHECK",
-     "at": "2026-11-12T19:49Z",
-     "text": "Add to the compile checks (third pass, 7b521db2 .. 0288b19e): Screen Blur Internal Blur, Blur Offset, Wash, Zoom Out (Wash and Zoom Out had a const assignment), Screen Space Fill, Fill Masked, Fit, Details, Pixel Perfect, Procedural UI Scre"
-    },
     {
      "by": "ROG_FABLE",
      "at": "2026-11-12T20:15Z",
@@ -2330,6 +2325,11 @@
      "by": "MAC_FABLE",
      "at": "2026-11-12T20:52Z",
      "text": "MAC_FABLE batch 11 step 2 (Metal, Mac Editor, main f5481745c3). After the import and two Play sessions the Console has no shader compile message for the listed shaders. The only Metal shader error this run was 'Unlit/Blur Display' undeclare"
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-12T21:16Z",
+     "text": "PASIKA: compiled counts of the 35 edited passes in BASELINE.md (95786bd1b0), all compile on D3D11. With Rog's D3D11 fixture 22/22 and Mac's Metal compile, the work is done; the mirrored-decal look is a verify check. Open finding for cloud f"
     }
    ]
   },
@@ -2454,5 +2454,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e5ce345052e219ccdd5052b23206caa6636b52c3"
+ "source_revision": "1dedcd095e25f14a8b54371d23323aea82d2d889"
 }
