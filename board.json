@@ -1513,11 +1513,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-12T18:50Z",
-     "text": "GETAC 2026-11-12 batch 3 step 4, Strong Dev 826 at 1fe7cbaa6b. (a) 30 s idle capture: 19 GC collections (same as 826 f03247d1be), 7.0 MiB allocated, 31.7 KB/frame; top: VPN Chat > Payload Splitter > Send Admission > General background sends"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-12T18:58Z",
      "text": "GETAC 2026-11-12 batch 3 summary. 1) Done: signed Dev 826 from 1fe7cbaa6b built and installed on the Strong (BUILD_HISTORY); smoke 'map cache refresh rate' failed at 0.78/s, cause found (mask views evicted between FrozenDouble's 2 s draws) "
     },
@@ -1525,6 +1520,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-12T18:59Z",
      "text": "ROG_FABLE 2026-11-12 batch 7 step 2, the fixtures behind today's changes, EditMode on the Rog under the station test identity: MapRenderModeTests 6/6, PlanetMaskStoreTests 23/23 (3be96033c6), MapEditingToolJoinTests 5/5, MainCameraTouchAngl"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T19:01Z",
+     "text": "ROG_FABLE 2026-11-12: 97dee26351 put conflict markers into ChatGroupTests.cs: 'git pull --rebase --autostash' could not re-apply my edit over 5422f7be1b's change to the same lines, left the markers in the working file, and I committed it; f"
     }
    ]
   },
@@ -2289,5 +2289,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e48e4d177a2af75f247e6aec86c7dc3b7fc02bbc"
+ "source_revision": "ffdd094b06a932668fdaa0c922bb84e1eebcc381"
 }
