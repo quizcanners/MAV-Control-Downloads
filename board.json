@@ -6202,7 +6202,7 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-12T15:55Z",
-     "noted": "",
+     "noted": "2026-11-12T16:05Z",
      "progress": 0,
      "ticked": 0,
      "total": 7
@@ -6242,17 +6242,17 @@
     {
      "by": "REVIEW",
      "at": "2026-11-12T09:14Z",
-     "text": "REVIEW-454-CR-0D78-01: existing P2 remains partial after 8b8595f16. Refusal is reported and held, but another Add device result clears/replaces the first refused file. S1/S2 minimal single-slot admission direction is ready; no new queue pro"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-12T09:14Z",
      "text": "REVIEW-454-CR-CA4F-01: original P2 known-negative lost promotion remains after a6d85c779. Unknown-role retry and known-Admin key repeat are source-repaired; a known NotAdmin still never re-asks after a lost push. S1/S2 existing reachable-pa"
     },
     {
      "by": "PASIKA_SERVER",
      "at": "2026-11-12T09:25Z",
      "text": "PASIKA_SERVER 2026-11-12, second pass. 1) Done: e78e6bee0d BackgroundChat.Tests: the helper's delegating device is the server's root, as task 260 made it (the app already offers the handoff only on the deployer's device), whole project PASS"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T16:05Z",
+     "text": "ROG_FABLE 2026-11-12 batch 5 step 1 (dbf4492644): the WireGuard QR view. Add device (Network_RoutingServer_WireGuard.cs, ApplyNewDevice) already builds the new device's wg-quick file and keeps it in Tunnel files; the QR window already encod"
     }
    ]
   },
@@ -8888,5 +8888,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "532c52851a5f4248ce47117171adfc931df5835b"
+ "source_revision": "8e694885bed3721cce52628d01adbaf2e072a951"
 }
