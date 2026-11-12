@@ -7935,7 +7935,7 @@
     {
      "who": "CLOUD_G",
      "since": "2026-11-12T08:16Z",
-     "noted": "",
+     "noted": "2026-11-12T08:20Z",
      "progress": 100,
      "ticked": 4,
      "total": 4
@@ -7962,11 +7962,6 @@
    "notes": [
     {
      "by": "REVIEW",
-     "at": "2026-11-11T19:52Z",
-     "text": "REVIEW-441-CR-A0FD-01: P2 new DJI state words are unreachable in root language tables. S1 investigation/S2 brief and proposed direction complete; awaits quiz before implementation. Existing owner claims/results retained; source/host checks "
-    },
-    {
-     "by": "REVIEW",
      "at": "2026-11-12T07:23Z",
      "text": "REVIEW-452-CR-A0FD-01: source-repaired by 91a6f97d3: 13 DJI keys/values are in both dji. groups at identical indices, absent from roots; four asset key/value counts passed host parsing. Original brief/results retained; native localization/R"
     },
@@ -7974,6 +7969,11 @@
      "by": "CLOUD_E",
      "at": "2026-11-12T08:14Z",
      "text": "CLOUD_E: re-read all eight listed views, all through. Remaining writer-text prints found by grep, not yet given an enum: Remote Sensors connection error text (RemoteSense_ConnectionInspector.GetLastConnectionErrorText, Singleton_RemoteSenso"
+    },
+    {
+     "by": "CLOUD_G",
+     "at": "2026-11-12T08:20Z",
+     "text": "CLOUD_G: 418 last two views on main d3b0a50146: MavLink comm link blocked port is enum MAV.COMM_Links.SocketFault (None/ListenerException/PortInUse) set by the listeners, SocketFaultWords picks the English/Ukrainian text in the three views "
     }
    ]
   },
@@ -8291,7 +8291,7 @@
     {
      "who": "PASIKA_VIDEO",
      "since": "2026-11-12T08:17Z",
-     "noted": "",
+     "noted": "2026-11-12T08:20Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -8315,17 +8315,17 @@
     {
      "by": "REVIEW",
      "at": "2026-11-12T07:23Z",
-     "text": "REVIEW-452-CR-B5EE-01: P2 screen-share renewal receiver closes in foreground. S1/S2 current/proposed direction and falsifiers complete; awaits quiz before implementation. Source/host only, native checks unrun; existing claims/results retain"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-12T07:23Z",
      "text": "REVIEW-452-431-REPAIRS: 83f8f0bc6 source-repairs CR-D360-01 blocked-screen case; CC-8FDF-01 old unreachable premise is retired, remaining UI classification question stays for quiz. Owner result and original identities/briefs retained; no na"
     },
     {
      "by": "CLOUD_B",
      "at": "2026-11-12T08:09Z",
      "text": "CLOUD_B 2026-11-12: 431 steps 145 (cases a-d), 208 (part 2 built), 238 (b1/b2 + codec readouts), 403 ticked: all code is on main. 4a798e4c50 removes the unused MavControlScreenSharing.bindSocket (no C# caller); Tests~/ScreenSharing* never p"
+    },
+    {
+     "by": "PASIKA_VIDEO",
+     "at": "2026-11-12T08:20Z",
+     "text": "PASIKA_VIDEO 2026-11-12. Done: (was 145) video diagnostics are one exclusive if/else per situation in UI_MavTelemetry_VideoPanel.AppendVideoLine, read from the line owner's Origin/Break: peer feed (route facts), no source (waiting), healthy"
     }
    ]
   },
@@ -8912,5 +8912,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c9c73036a97b3c5897d08f109906fe11bbb5ddc4"
+ "source_revision": "175912494cbbd7f5b5d216555ce8d793a64ffddc"
 }
