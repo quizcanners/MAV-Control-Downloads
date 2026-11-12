@@ -6817,7 +6817,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLOUD_D",
+     "since": "2026-11-12T08:04Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 13
+    }
+   ],
    "steps": [
     {
      "t": "boot a fresh Hetzner server from the declaration, then from a snapshot (token ho",
@@ -8742,5 +8751,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "093905ceedcfd741875f2e2e2b5d6b91e8061572"
+ "source_revision": "06e969ad93f5650502b725130fea05199a2f5bb0"
 }
