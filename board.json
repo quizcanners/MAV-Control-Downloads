@@ -6148,11 +6148,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_FABLE",
-     "at": "2026-11-12T12:55Z",
-     "text": "ROG_FABLE 2026-11-12 batch 2 step 2, Editor Play at 1000x2160 in the Mav Chat workflow (Unity 6000.6.8f1). (a, was 255) What a message row draws, from a screen grab of the group chat in the sheet's full window: two of our alert rows show as"
-    },
-    {
      "by": "PASIKA_REVIEW",
      "at": "2026-11-12T13:20Z",
      "text": "PASIKA review of today's Chat deletion code (Coordination/Reviews/919f3e73e.md). Fixed, compiled, not run: de5fdefb34 a Chat photo deleted while it was still travelling no longer shows on the other device (the photo arrival path never asked"
@@ -6161,6 +6156,11 @@
      "by": "REVIEW",
      "at": "2026-11-12T13:56Z",
      "text": "REVIEW-458-CC-CEE3-01: P3 pending Chat deletions are walked once for expiry and again for sending. S1/S2 brief ready: [evidence and proposal](../Reviews/61e5470f9.md#cc-cee3-01--p3-pending-chat-deletions-are-walked-once-for-expiry-and-again"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T14:03Z",
+     "text": "ROG_FABLE 2026-11-12 batch 3 step 2, Editor Play at 1000x2160 in the Mav Chat workflow. (b) the NullReference from the rail: Rail.Separators and Rail.Buttons in Mav Chat Sheet.prefab each had an empty fifth entry; removed (bddc6dcb71). The "
     }
    ]
   },
@@ -8801,5 +8801,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a8e499651ec0f8f7ff27ca1f5c764fb38871625f"
+ "source_revision": "2926daca241d5b76d322312d495546ebf8835682"
 }
