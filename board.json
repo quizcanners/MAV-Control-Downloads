@@ -7883,7 +7883,7 @@
     {
      "who": "PASIKA_UI",
      "since": "2026-11-12T08:22Z",
-     "noted": "",
+     "noted": "2026-11-12T08:39Z",
      "progress": 0,
      "ticked": 0,
      "total": 1
@@ -7898,11 +7898,6 @@
    "notes": [
     {
      "by": "LOCAL_MAC",
-     "at": "2026-11-11T17:01Z",
-     "text": "ffb970edc3: 'Server tasks status shows the real state' done. BoardTasks.ReadState (NotRead, Reading, Answered, NoReply, BadAnswer) set by the board fetch; the Retry row prints 'No reply for N s' (from the last answer or first ask), 'Server "
-    },
-    {
-     "by": "LOCAL_MAC",
      "at": "2026-11-11T22:28Z",
      "text": "Missing list rewritten: the (was 422) offline-state item left it, its own fold note says 'Gap left: none' (cached board, one Offline row, backoff, loading bar on main). Only the write-back remains, waiting on quiz's route pick."
     },
@@ -7910,6 +7905,11 @@
      "by": "CLOUD_C",
      "at": "2026-11-12T08:12Z",
      "text": "CLOUD_C 2026-11-12: nothing code-doable left here; every open step is Editor authoring, a device or look check, or waits on quiz. Write-back (priority, review, park, verified) waits on quiz's route pick."
+    },
+    {
+     "by": "PASIKA_UI",
+     "at": "2026-11-12T08:39Z",
+     "text": "PASIKA_UI: nothing moved. The only missing item (in-app priority/review/park/verified write-back) still waits on quiz's route pick; claim released."
     }
    ]
   },
@@ -8927,5 +8927,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "535ae96a80354d7dfe30cade71fe3bc128f76c8f"
+ "source_revision": "372f841f063ae90dc8d468e7397bc0e4b8d5a68f"
 }
