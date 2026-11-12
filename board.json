@@ -8617,7 +8617,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "PASIKA",
+     "at": "2026-11-12T10:45Z",
+     "text": "PASIKA: 027c8d363a did not compile in Unity 6000.6.8f1 (SituationGroupedIconSystem lines 325-327, 447: bare Time inside SystemBase is TimeData). Fixed in the next commit (UnityEngine.Time). Main compiles again."
+    }
+   ]
   },
   {
    "n": 480,
@@ -8760,5 +8766,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "57acc219a906e08c80d4a37f231080782a41e17e"
+ "source_revision": "288fabcf0f0406e610876c38979774635345aa94"
 }
