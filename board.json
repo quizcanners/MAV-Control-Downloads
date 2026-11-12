@@ -959,7 +959,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-12T20:12Z",
-     "noted": "",
+     "noted": "2026-11-12T20:13Z",
      "progress": 0,
      "ticked": 0,
      "total": 2
@@ -977,11 +977,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA_NOTICE",
-     "at": "2026-11-12T09:06Z",
-     "text": "PASIKA_NOTICE summary. Done: 01bbad633d (ReadActiveProcesses no longer allocates a string per configuration check: 8 constant lists; SPEC compromises 1 and 2 marked taken now in code), cmp.sh NEW ERRORS: none; Console-Diagnostics bumped for"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-12T12:11Z",
      "text": "GETAC 2026-11-12, Strong Dev 826 at f03247d1be, app open in front: the Android notification reads title 'MAV Control \u0443 \u0444\u043e\u043d\u0456', text 'MAV Control \u0432\u0456\u0434\u043a\u0440\u0438\u0442\u043e \u00b7 \u0444\u043e\u043d\u043e\u0432\u0438\u0439 \u0437\u0432\u2019\u044f\u0437\u043e\u043a \u0433\u043e\u0442\u043e\u0432\u0438\u0439'; one notification, no list of processes in it. background.st"
@@ -990,6 +985,11 @@
      "by": "GETAC",
      "at": "2026-11-12T18:57Z",
      "text": "GETAC 2026-11-12 batch 3 step 9, Strong Dev 826 at 1fe7cbaa6b, app in the background 20 s with background sharing ChatOnly (position sharing off, no transfer running): one notification, title 'MAV Control \u0443 \u0444\u043e\u043d\u0456', text '\u0427\u0430\u0442 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u0438\u0439'; no l"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-12T20:13Z",
+     "text": "GETAC 2026-11-12 batch 4 step 5, Strong Dev 827 at 964c225b93: not exercised on the device. No bridge command turns position sharing on, and switching it on in the app would broadcast the Strong's GPS position to the live VPN peers (4-6 con"
     }
    ]
   },
@@ -2450,5 +2450,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f2acce098892b52ced92f1d2f7ef729e24711271"
+ "source_revision": "218451a00491beb79c45f5d65b04582d961d8bdb"
 }
