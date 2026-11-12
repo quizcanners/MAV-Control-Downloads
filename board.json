@@ -1872,11 +1872,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-09T15:28Z",
-     "text": "REVIEW-394 scope reconciliation for CR-850B-01: 83c5e15a3 disables pager swipes inside the MavChat sheet in favor of capsule Back. The existing short-flick investigation/S2 brief still applies to Pilot and any swipe-enabled pager callers; t"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-09T16:41Z",
      "text": "Mac batch Unity at f0b03d895d: SwipeIntentTests + OrientationLandscapeViewsTests 7/7 passed; Editor step done, phone feel left."
@@ -1885,6 +1880,11 @@
      "by": "REVIEW",
      "at": "2026-11-09T18:15Z",
      "text": "REVIEW-395 scope reconciliation for CR-850B-01 P2 existing finding scope extension: S1 investigation complete, then S2 brief/suggestion/current and proposed snippets: notification cards reuse the threshold-reset short-flick defect. Proposal"
+    },
+    {
+     "by": "CLOUD_H",
+     "at": "2026-11-12T08:29Z",
+     "text": "CLOUD_H 2026-11-12 16b3e4b5a1 CR-850B-01 source-repaired: SwipeIntent.Tracker takes the first timed sample as the speed (no halving against zero) and the Pager and notification-card OnEndDrag add the release position as a sample; Pilot alre"
     }
    ]
   },
@@ -8911,5 +8911,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e9e2d354fe7b28a72d65c6e7ef8d075198be9a80"
+ "source_revision": "ac0c744a1b7bfa0e56ef9575d711ffcaf1d847fb"
 }
