@@ -337,7 +337,7 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-12T19:02Z",
-     "noted": "",
+     "noted": "2026-11-12T19:04Z",
      "progress": 0,
      "ticked": 0,
      "total": 7
@@ -375,11 +375,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-12T14:23Z",
-     "text": "quiz, 2026-11-12: should the Mac join the VPN for the live-station tasks? 'Yes.' The Mac brings up the MAV WireGuard tunnel (10.10.10.x) and no longer stops on NoVpn; the live-station reads of this task are the Mac's."
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-12T14:52Z",
      "text": "GETAC 2026-11-12, quiz: 'Strong Tablet says WireGuard fails to start'. Direct cause: GETAC's own device runs. Each 'adb shell am force-stop com.shershni.mavcontrol' before a cold start (12:46:09 and 15:19:10) left the package stopped=true f"
@@ -388,6 +383,11 @@
      "by": "GETAC",
      "at": "2026-11-12T18:37Z",
      "text": "GETAC 2026-11-12 20:20-20:40, WireGuard on the Strong went down again from GETAC's cold starts for goal 362 on Dev 826 at 1fe7cbaa6b: three am force-stop + launch, each followed by Home and reopen as the 14:52Z note said; this time the pack"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T19:04Z",
+     "text": "ROG_FABLE 2026-11-12 batch 7 step 3, EditMode on the Rog under the station test identity (main 07a32af854 or newer). WM-PARENT-DRILL-SIMPLE Editor half green: WebMercatorFinestTilesTests.PartialParentWithoutBaseWaitsAndUsesLateAncestor 2/2 "
     }
    ]
   },
@@ -2307,5 +2307,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "579789b2627c81369ab2cb8425e6a35e220ef28e"
+ "source_revision": "e0ea34d7b53f89e32d6fcafd30da5b618b004baa"
 }
