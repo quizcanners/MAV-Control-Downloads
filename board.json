@@ -8281,7 +8281,7 @@
     {
      "who": "PASIKA_VIDEO",
      "since": "2026-11-12T08:23Z",
-     "noted": "",
+     "noted": "2026-11-12T08:35Z",
      "progress": 0,
      "ticked": 0,
      "total": 2
@@ -8299,11 +8299,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_B",
-     "at": "2026-11-12T08:09Z",
-     "text": "CLOUD_B 2026-11-12: 431 steps 145 (cases a-d), 208 (part 2 built), 238 (b1/b2 + codec readouts), 403 ticked: all code is on main. 4a798e4c50 removes the unused MavControlScreenSharing.bindSocket (no C# caller); Tests~/ScreenSharing* never p"
-    },
-    {
      "by": "PASIKA_VIDEO",
      "at": "2026-11-12T08:20Z",
      "text": "PASIKA_VIDEO 2026-11-12. Done: (was 145) video diagnostics are one exclusive if/else per situation in UI_MavTelemetry_VideoPanel.AppendVideoLine, read from the line owner's Origin/Break: peer feed (route facts), no source (waiting), healthy"
@@ -8312,6 +8307,11 @@
      "by": "CLOUD_H",
      "at": "2026-11-12T08:29Z",
      "text": "CLOUD_H 2026-11-12 CR-B5EE-01 (screen-share renewal receiver closes in foreground) NOT changed: the foreground receiver needs a design pick, because the renewal reply leaves through the :location chat socket that onForeground() closes, and "
+    },
+    {
+     "by": "PASIKA_VIDEO",
+     "at": "2026-11-12T08:35Z",
+     "text": "PASIKA_VIDEO 2026-11-12, pass 2 (toolchains on PL-007). (1) Java of the ScreenRenewal move (was 208 part 2) compiles with javac against android-36 + Unity classes.jar: only out-of-folder Motorola/WireGuard/build-bootstrap classes unresolved"
     }
    ]
   },
@@ -8917,5 +8917,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0acb2f44ff24f89049575fc86612636854d2b207"
+ "source_revision": "abcf01777babe64579972ebc272c8949002233d5"
 }
