@@ -6031,17 +6031,17 @@
     {
      "by": "PASIKA_WIFI",
      "at": "2026-11-12T12:32Z",
-     "text": "EDITOR STEP for PASIKA: blind-spot recording proof in Editor Play (WIFI-BLIND-SPOT-RECORDING), backdoor only, after a recompile of 919f3e73e5: synthetic.enable on; wifi.layer on; wifi.blindspots (baseline: note zone_enabled/hiding/radius_m "
-    },
-    {
-     "by": "PASIKA_WIFI",
-     "at": "2026-11-12T12:32Z",
      "text": "PASIKA_WIFI: (1) verdict: database gate (TryAdd/TryMergeIncoming/sweep) honours the zone; live Pi path did not when the zone was not known: ClassifyBlindSpot mapped HomeUnknown/CoverageUnavailable to Outside, so readings were stored and liv"
     },
     {
      "by": "PASIKA",
      "at": "2026-11-12T12:35Z",
      "text": "PASIKA: e58c5b72d4 and 919f3e73e5 are on main. The EDITOR STEP sequence was NOT run on the PL-007 Editor station on purpose: it is this PC's live VPN station, and wifi.simulation.spawn would put ~1800 simulated WiFi records into its saved e"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T13:23Z",
+     "text": "REVIEW-457-CC-919F-01: P3 the bounded count walks tiles after its answer is complete. S1/S2 brief ready: [evidence and proposal](../Reviews/3cdc97366.md#cc-919f-01--p3-the-bounded-count-walks-tiles-after-its-answer-is-complete). Awaits quiz"
     }
    ]
   },
@@ -6114,16 +6114,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "PASIKA_REVIEW",
-     "since": "2026-11-12T13:02Z",
-     "noted": "2026-11-12T13:20Z",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Editor (Frame Debugger needed): in the sheet's full window our message rows draw",
@@ -6464,16 +6455,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "PASIKA_REVIEW",
-     "since": "2026-11-12T13:04Z",
-     "noted": "2026-11-12T13:21Z",
-     "progress": 0,
-     "ticked": 0,
-     "total": 10
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Getac: signed Android Dev build from current main for the Strong and the Lenovo ",
@@ -7573,11 +7555,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_ENTITIES",
-     "at": "2026-11-12T12:00Z",
-     "text": "CLOUD_ENTITIES 2026-11-12: the line folded from 171 (compiled counts for the fragment baseline) names LBZ_PseudoDecal_Explicit.shader (Situation far). That shader left the project on 2026-11-12 with the full-screen entity texture (goal 479,"
-    },
-    {
      "by": "ROG_OPUS",
      "at": "2026-11-12T12:16Z",
      "text": "ROG_OPUS batch 25 step 5, One Pixel Line single pass (4daafd36), Editor Play on the Rog at 2000x1152, read by the new ui.status line one_pixel_lines (3d5c36e71c; Editor and device-debug only). Enabled lines and cost of the pass per frame: m"
@@ -7586,6 +7563,11 @@
      "by": "PASIKA_REVIEW",
      "at": "2026-11-12T13:21Z",
      "text": "PASIKA review of today's 31 perf commits (Coordination/Reviews/919f3e73e.md): no new per-frame allocation and no stale cache found. One brief ready, CR-8CE4-01 (P2, agent channel in AI Sandbox): since 8ce4f01fc7 the inbox forgets an evicted"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T13:23Z",
+     "text": "REVIEW-457-CR-8CE4-02: P2 retention can strand an unfinished poll. S1/S2 brief ready: [evidence and proposal](../Reviews/3cdc97366.md#cr-8ce4-02--p2-retention-can-strand-an-unfinished-poll). Source/host only; native/device checks unrun; exi"
     }
    ]
   },
@@ -8410,11 +8392,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_SHADOW",
-     "at": "2026-11-12T12:30Z",
-     "text": "quiz, 2026-11-12: \"the Shadow pseudodecal looks like it is at the very bottom of the model, lets have it be slightly above. Almost where the center of the model is.\" Shadow box centre y is now half the model height (map_marker.shadow_box, t"
-    },
-    {
      "by": "ROG_FABLE",
      "at": "2026-11-12T12:48Z",
      "text": "ROG_FABLE 2026-11-12, Editor Play on the Rog (Unity 6000.6.8f1, Android target, Game view 2000x1152), Map scene with the Synthetic Situation set (6410 groups; Debug Mode by 11 compass taps, Menu > Layers ninth tile). Step 1: the cloud C# co"
@@ -8423,6 +8400,11 @@
      "by": "CLOUD_MODEL_SCALE",
      "at": "2026-11-12T13:13Z",
      "text": "quiz, 2026-11-12: \"Make 3D models for situation entities 33 % smaller. But don't make shadows smaller.\" Done: IconWidths 1 -> 0.67 on the three rows in Map.unity, shadow box sizes divided by 0.67 (Enemy 4.2/6.1/6.0, Vehicle 4.5/5.5/6.3, Can"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T13:23Z",
+     "text": "REVIEW-457-CR-A449-01: P2 altitude-hidden models still supply body hits. S1/S2 brief ready: [evidence and proposal](../Reviews/3cdc97366.md#cr-a449-01--p2-altitude-hidden-models-still-supply-body-hits). Source/host only; native/device check"
     }
    ]
   },
@@ -8904,5 +8886,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5e2dd03eb68495131bbe2b15aa65246b813190f9"
+ "source_revision": "1e76fb467ce98c2c34fc3db3e9aa233017c7c0cb"
 }
