@@ -6421,7 +6421,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-12T13:18Z",
-     "noted": "",
+     "noted": "2026-11-12T13:20Z",
      "progress": 0,
      "ticked": 0,
      "total": 4
@@ -6447,11 +6447,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-11T15:17Z",
-     "text": "REVIEW-438-CC-7240-01 P3 complexity/performance investigation: absent-anchor retries repeat the full point alignment/conversion scan before the existing owner check. Early owner admission keeps the same request; no registry or measured hitc"
-    },
-    {
      "by": "CLOUD_D",
      "at": "2026-11-12T08:08Z",
      "text": "CLOUD_D 2026-11-12: code side of (was 394) done in fd1f72291e (Shape_Utils_Polyline.cs: Path created if null before AddPoint, on top of 72409f3531). Rest of 373 is device: capture failure point on recurrence, share Coding scene to Android o"
@@ -6460,6 +6455,11 @@
      "by": "GETAC",
      "at": "2026-11-12T12:11Z",
      "text": "GETAC 2026-11-12, Strong Dev 826 at f03247d1be: four cold starts and about an hour of use (zooms, background and return) left no NullReferenceException in the device log buffer and lifecycle_error_count=0 on every start. The Dev 823 startup"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-12T13:20Z",
+     "text": "GETAC 2026-11-12, step 'four startup NullReferenceExceptions in RegeneratePolyLine are gone from the first 14 s': Strong Dev 826 at f03247d1be (contains fd1f72291e), cold start after force-stop, logcat from launch for 20 s (2,401 lines): Nu"
     }
    ]
   },
@@ -8904,5 +8904,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "69b13ba0dbf0dea9c054e3a934b0a97f53f8d677"
+ "source_revision": "9dc1543da3c7e7b61584bd48b288d8554c4ef72f"
 }
