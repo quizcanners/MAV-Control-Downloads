@@ -8119,11 +8119,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-12T06:01Z",
-     "text": "REVIEW-451-CC-8FDF-01: P3 complexity: thirteen-state failure allowlist in VideoPanel has zero overlap with current Local/Obs producers; local-failure branch unreachable. S1/S2 writers/staging point, current/proposed owner composition and co"
-    },
-    {
      "by": "CLOUD_THREAD",
      "at": "2026-11-12T06:21Z",
      "text": "CLOUD_THREAD 2026-11-12: 431 case (d) peer feed is already route-facts only (AppendIncomingVideoSummary; local lines skipped for incoming peers). CR-D360-01 fixed: local resolver now reports LocalFailed when the local source is Stopped with"
@@ -8132,6 +8127,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-12T06:24Z",
      "text": "CLOUD_THREAD 2026-11-12: (was 208) part 2 built, uncompiled: Android screen-share renewals now ride the background Chat socket 14668, UDP 17698 removed. Commits b5ee8d9493 (C# BackgroundPacket kinds ScreenRenewal=4/ScreenRenewalReply=5 with"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-12T06:28Z",
+     "text": "CLOUD_THREAD 2026-11-12: native codec lists built (passport NativeEncoderCodecs/NativeDecoderCodecs, readout line, SPEC); Ukrainian text for the new 370 lines and routingServer.admins.cantReach added to the main Linguist assets (parity chec"
     }
    ]
   },
@@ -8600,5 +8600,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "10cff4ecb45342f442779b11db9d77a2f1027b25"
+ "source_revision": "a8e10c0ee844c03a7e0aa14d0f28a46949ce04e9"
 }
