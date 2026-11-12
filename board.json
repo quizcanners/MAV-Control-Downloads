@@ -6353,7 +6353,7 @@
     {
      "who": "PASIKA_BOOT",
      "since": "2026-11-12T08:58Z",
-     "noted": "",
+     "noted": "2026-11-12T09:20Z",
      "progress": 0,
      "ticked": 0,
      "total": 4
@@ -6379,11 +6379,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T20:54Z",
-     "text": "ROG_OPUS 2026-11-11 batch 20 compile: 33ec7c47, 638afa7d, de6b07ca, 3495bcfd and the Mac's 430 slices 4f5d991f, 97351176, 0d9665ee compile on Windows (Unity Editor 0 errors; cmp.sh vs 947d141b70 NEW ERRORS none). Roslyn first reported MAV_S"
-    },
-    {
      "by": "CLOUD_A",
      "at": "2026-11-12T08:09Z",
      "text": "CLOUD_A 2026-11-12: border tiles from SQLite are already on main (5f13aaf8f5: Config holds only the material, tiles read from StreamingAssets/Ukraine Borders.sqlite); step 'Border tiles' is done in code, no more to do. Left: Strong measure "
@@ -6392,6 +6387,11 @@
      "by": "PASIKA_BOOT",
      "at": "2026-11-12T08:48Z",
      "text": "PASIKA_BOOT 2026-11-12 summary. 1) Done (C#, cmp.sh NEW ERRORS: none on each push and after the last pull): 4a485e4648 the saved-settings read starts on its worker in OnAfterEnable and overlaps the Map scene load (was: started at the Prepar"
+    },
+    {
+     "by": "PASIKA_BOOT",
+     "at": "2026-11-12T09:20Z",
+     "text": "PASIKA_BOOT 2026-11-12, second pass with the Editor. 1) Done: 08b0719193 the Station starts its owners in the frame the Map camera arrives (it called its wait one frame late when its Update ran before the scenes owner's: 0.45 s in the Windo"
     }
    ]
   },
@@ -8910,5 +8910,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f2000752e2e9b4a9a5b3aad488ff501c3ed4b43c"
+ "source_revision": "e9c9015090d3ebbd15b0907bf6d66a03d2eb1b1a"
 }
