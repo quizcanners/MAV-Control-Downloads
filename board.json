@@ -1897,11 +1897,6 @@
    "notes": [
     {
      "by": "MAC_FABLE",
-     "at": "2026-11-12T16:40Z",
-     "text": "MAC_FABLE batch 6, step 2: the iPad is not on the cable (devicectl: unavailable), so the two-hand Pencil pass was not run."
-    },
-    {
-     "by": "MAC_FABLE",
      "at": "2026-11-12T17:21Z",
      "text": "MAC_FABLE batch 7, step 4: the iPad is not on the cable, so the two-hand Pencil pass was not run."
     },
@@ -1909,6 +1904,11 @@
      "by": "MAC_FABLE",
      "at": "2026-11-12T18:00Z",
      "text": "MAC_FABLE batch 8, step 2: the iPad is not on the cable, so the two-hand Pencil pass was not run."
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-12T18:01Z",
+     "text": "CLOUD_THREAD 2026-11-12 (uncompiled): CR-A030-01 applied in Station_InputDevices_Stylus.cs. On Android a Pen whose tip is down under a finger counts as that finger's copy (finger keeps navigating) until a non-zero tilt proves a stylus; IsPe"
     }
    ]
   },
@@ -2327,5 +2327,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b89b24a6e6fb7362272654a1820a05bce2380913"
+ "source_revision": "e863198897006afe6c645a911f5fffe036513a8c"
 }
