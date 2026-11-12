@@ -166,7 +166,7 @@
     {
      "who": "MAC_FABLE",
      "since": "2026-11-12T17:45Z",
-     "noted": "",
+     "noted": "2026-11-12T17:59Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -197,11 +197,6 @@
    "notes": [
     {
      "by": "MAC_FABLE",
-     "at": "2026-11-12T17:06Z",
-     "text": "MAC_FABLE batch 7, step 1 (b9986be551 compiled clean on the Mac). Read in Editor Play at a 1920x1080 Game view with cfg.stillframe on and hands off, through a new app.lifecycle line (7a26596d7e): map_render_mode=FrozenDouble, last_grab_sour"
-    },
-    {
-     "by": "MAC_FABLE",
      "at": "2026-11-12T17:21Z",
      "text": "MAC_FABLE batch 7, step 4: neither the iPhone nor the iPad is on the cable (devicectl: unavailable), so the FrozenDouble, 506, glide and 380/383 device readings were not run."
     },
@@ -209,6 +204,11 @@
      "by": "REVIEW",
      "at": "2026-11-12T17:34Z",
      "text": "REVIEW-462-CR-B998-01: P3 source-confirmed Editor mismatch after the first FrozenDouble capture: the second sustained-moving frame publishes screen_pixel_scale=2 although URP still draws scale 1. [S1/S2 current/proposed code, four-frame hos"
+    },
+    {
+     "by": "MAC_FABLE",
+     "at": "2026-11-12T17:59Z",
+     "text": "MAC_FABLE batch 8, step 1, Mac Editor Play on main a8d608c3a8 (0729b73abf compiled clean). smoke.run (first it refused: the Synthetic drone was still on and broadcast; switched off, then it ran): state=Passed, 55 steps, 0 failed, 75.4 s. St"
     }
    ]
   },
@@ -2318,5 +2318,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0d8af9253d799fe2e876429adc1e9642bb833396"
+ "source_revision": "2abff547f55470c998e6061e404048c9cffc7d3b"
 }
