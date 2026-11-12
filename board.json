@@ -1163,26 +1163,6 @@
    ]
   },
   {
-   "n": 120,
-   "name": "Document approved Enemy Unit mod",
-   "done": "2026-11-09T12:35Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "codex-enemy-model",
-     "at": "2026-11-09T12:34Z",
-     "text": "Done: 2279d1ebe1 documents approved low-poly modeling recipe at top of Modeling 3D/AGENTS.md; published through merge 0baa6d5ff8."
-    }
-   ]
-  },
-  {
    "n": 121,
    "name": "Enemy Unit head",
    "done": "2026-11-09T12:40Z",
@@ -6838,11 +6818,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-12T11:31Z",
-     "text": "GETAC 2026-11-12, Strong Dev 826 at f03247d1be, Mariupol coast at zoom 15 (camera at 47.07,37.56, 1.9 km altitude, map source Offline, tile store Sqlite): the tablet holds no satellite imagery there. The sea draws as one smooth blue with wh"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-12T12:10Z",
      "text": "GETAC 2026-11-12, Strong Dev 826 at f03247d1be, globe open (not a fresh install, quality as set): from 2.5 km altitude at 51.11,35.23, 14 taps on the zoom-out control to 9,200 km, then 14 taps back to 674 m. Long frames while zooming out (f"
     },
@@ -6850,6 +6825,11 @@
      "by": "PASIKA_RELIEF",
      "at": "2026-11-12T12:30Z",
      "text": "PASIKA_RELIEF 2026-11-12, Space relief step closed, nothing was rerun. (1) Done: the full-resolution GLO-30 run this step asked for had already finished on PASIKA (2026-11-08 11:49 to 2026-11-09 01:14 local, about 13 h 24 min, 26,450 of 26,"
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-12T12:35Z",
+     "text": "PASIKA Play check of the shipped GlobalAltitude.mavalt (SHA-256 b668209b...b513) on the PL-007 Editor station: camera.pose 1000000 0 -> altitude.status globe=Ready, globe relief and the border ribbon draw over Ukraine and the Black Sea coas"
     }
    ]
   },
@@ -8851,5 +8831,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "2e897577c431c2e8e28dda9a3362861fc4881f74"
+ "source_revision": "e4a6e1f2685d3ed8c1d7fe4bc5315628900db218"
 }
