@@ -6572,7 +6572,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "LOCAL_MAC",
+     "since": "2026-11-12T07:58Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 8
+    }
+   ],
    "steps": [
     {
      "t": "Mac imagery recovery and Android reserve check (LOW-DISK-RETENTION)",
@@ -8705,5 +8714,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "058004908d0383b5c884bc11b4cd3e2c8825fb9e"
+ "source_revision": "83efb4459082c52dbac97c04a0b3d6f635c8e63f"
 }
