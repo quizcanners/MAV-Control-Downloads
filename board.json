@@ -7406,6 +7406,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-11T10:48Z",
      "text": "64c035d334 (on main). Direct cause: 863cb3cd6c deleted the scene overrides that anchored/pivoted the compass root bottom-right (size 2485x1080) without moving them into Navigation.prefab; the root's 0.6 scale then pulled the compass ~20% to"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-12T07:52Z",
+     "text": "Strong Android: reproduced task 390 on Dev 823 (its source precedes 64c035d334); built and installed Dev 826 in place, source 3f52b3e138 contains the prefab fix and removes stale Android screen-admission thread references that blocked javac"
     }
    ]
   },
@@ -8691,5 +8696,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1a72013a917dfdb4d95ca524d06e6013537d97ca"
+ "source_revision": "a5210bddf5825dad8900fdb93365edd1538446ad"
 }
