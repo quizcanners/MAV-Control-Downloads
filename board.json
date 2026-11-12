@@ -6807,19 +6807,19 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_H",
-     "at": "2026-11-12T08:28Z",
-     "text": "CLOUD_H 2026-11-12 (uncompiled, run cmp.sh) source-repaired REVIEW findings: 8b8595f162 CR-2B49-01 (a write reply settles only the pending edit whose Version it carried; a forced readback never overwrites a newer NotDelivered edit), CC-2B49"
-    },
-    {
-     "by": "PASIKA_SERVER",
-     "at": "2026-11-12T08:50Z",
-     "text": "PASIKA_SERVER 2026-11-12 summary. 1) Done: eefb268a06 the routing port's listener did not pass /specs to the Specs folder (every GET and POST answered 400) and RoutingServer.Tests did not compile on main, both repaired, POST body read with "
-    },
-    {
      "by": "PASIKA_SERVER",
      "at": "2026-11-12T08:58Z",
      "text": "PASIKA_SERVER 2026-11-12, correction to the summary: cmp.sh rerun after the last pull ends NEW ERRORS: none (the CapsuleSelectorAuthor.cs errors were from a tree behind main). Also a6d748c3eb (README wording). Screen Network bumped for 370."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T09:14Z",
+     "text": "REVIEW-454-CR-0D78-01: existing P2 remains partial after 8b8595f16. Refusal is reported and held, but another Add device result clears/replaces the first refused file. S1/S2 minimal single-slot admission direction is ready; no new queue pro"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T09:14Z",
+     "text": "REVIEW-454-CR-CA4F-01: original P2 known-negative lost promotion remains after a6d85c779. Unknown-role retry and known-Admin key repeat are source-repaired; a known NotAdmin still never re-asks after a lost push. S1/S2 existing reachable-pa"
     }
    ]
   },
@@ -7270,7 +7270,7 @@
     {
      "who": "ROG_OPUS",
      "since": "2026-11-12T09:10Z",
-     "noted": "",
+     "noted": "2026-11-12T09:14Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -7300,11 +7300,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_B",
-     "at": "2026-11-12T08:10Z",
-     "text": "CLOUD_B 2026-11-12: item 5 writer audit extended (4a798e4c50, Bootstrap AGENTS): chat-icon import goes through ProfileChanged and passport/restream publication is runtime-only Peer state, so neither needs a root signal. Left: native/backgro"
-    },
-    {
      "by": "CLOUD_BATCH",
      "at": "2026-11-12T08:48Z",
      "text": "For PASIKA (resource-heavy, quiz 2026-11-12): containing All on current main with each member recorded --result, and ROOT-SETTINGS-DIRTY-ADMISSION All with WaypointCheckpointTests. The Rog gets only the Editor Play session (batch 24); the M"
@@ -7313,6 +7308,11 @@
      "by": "LOCAL_MAC",
      "at": "2026-11-12T09:00Z",
      "text": "Mac timing check (Bootstrap AGENTS item 4), Mac Editor 6000.6.8f1 in Play at 935e6cc487, tiles_sumy, nobody touching it, after a 2-minute warm (performance.top 100-frame averages, frame 1143, managed 5.14 ms, frame 126 ms at the idle cap): "
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-12T09:14Z",
+     "text": "ROG_OPUS 2026-11-12 batch 24, Editor Play session on Rog (Unity 6000.6.8f1, main 63118855, not the containing All): (1) lifecycle: Ready in 104 s wall from play.enter (app.lifecycle: map present 79.9 s, Ready 82.7 s, Main UI load 2.76 s, ma"
     }
    ]
   },
@@ -8083,11 +8083,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_A",
-     "at": "2026-11-12T08:08Z",
-     "text": "CLOUD_A 2026-11-12: code part done. 55dbede20d: mask answers re-asked per frame are budgeted to about 4 ms (patches past it replay their last answer and re-ask next frame), aimed at the 237 ms Mask Demand pinch frames; uncompiled, PlanetRen"
-    },
-    {
      "by": "LOCAL_MAC",
      "at": "2026-11-12T08:18Z",
      "text": "Batch 32 step 3, read from the coordination server (Mac Editor in Play; the MavServer route is live via the direct route since 053fc426c5, while the Mac's 10.10.10.x WireGuard adapter is still absent, vpn.handshake NoVpn). server.diagnostic"
@@ -8096,6 +8091,11 @@
      "by": "PASIKA_PERF",
      "at": "2026-11-12T08:57Z",
      "text": "PASIKA_PERF 2026-11-12, code pass on a Windows PC with no Editor and no device; Roslyn cmp.sh NEW ERRORS: none before each C# push. Done: 1f9e7188d7 subnet parse without allocations (Station.Vpn.Decide, every frame); 42cb278c12 four per-fra"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T09:14Z",
+     "text": "REVIEW-454-CR-55DB-01: P2 mask refresh can keep querying the same prefix while store revisions keep arriving, leaving tail answers stale beyond the budget. S1 revision-writer/progress trace and S2 current/proposed sketch with coarse-invalid"
     }
    ]
   },
@@ -8896,5 +8896,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4c2a802383a34464ec46de9df21378b87345824f"
+ "source_revision": "b44dac74e1e8e87c60b6f2c5dc86c74474bd4b69"
 }
