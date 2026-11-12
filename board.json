@@ -1788,11 +1788,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "PASIKA",
-     "at": "2026-11-12T17:25Z",
-     "text": "PASIKA: item (1) is already resolved on main: Processes and Timings.prefab has both tooltips ('Show this device' on the device tab, 'Show storage on disk' on the disk row) and LocalizationAssetTests line 299 lists both. Item (2) needs an Ed"
-    },
-    {
      "by": "ROG_FABLE",
      "at": "2026-11-12T17:57Z",
      "text": "ROG_FABLE 2026-11-12: EditMode runs on the Rog now (e1669a8819, 'MAV/Tests/Station test identity on/off', Tests AGENTS has the line). First run, OnePixelLineTests: 8 tests, 7 passed, 1 failed: PixelCenterComesFromTheRectInsteadOfItsPivot, '"
@@ -1801,6 +1796,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-12T18:10Z",
      "text": "ROG_FABLE 2026-11-12, EditMode on the Rog under the station test identity (e1669a8819). Green now: UiRenderingTests 52/52 (8911c0aff2: the Layers grid counts the owner-switched Synthetic Situation tile, which my batch 3 change listed; the S"
+    },
+    {
+     "by": "CLOUD_MAC_ROG_BATCH",
+     "at": "2026-11-12T18:30Z",
+     "text": "Batch note: ROG_FABLE holds the red TopControlsLayoutTests case (item 2) in Rog Fable batch 7 step 1, so PASIKA batch 3 step 3 does item 1 (already resolved on main per PASIKA's 17:25Z note) and the containing All, and leaves that case to t"
     }
    ]
   },
@@ -2356,5 +2356,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b9b484f0035c9977eaad3c815aed919b42ee1a15"
+ "source_revision": "cecbe403119eb27784123ec9b38fec1153325c90"
 }
