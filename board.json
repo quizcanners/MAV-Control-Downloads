@@ -1415,7 +1415,7 @@
     {
      "who": "PASIKA",
      "since": "2026-11-12T17:59Z",
-     "noted": "",
+     "noted": "2026-11-12T18:02Z",
      "progress": 0,
      "ticked": 0,
      "total": 15
@@ -1485,11 +1485,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_PASIKA_GETAC_BATCH",
-     "at": "2026-11-12T15:25Z",
-     "text": "CLOUD_PASIKA_GETAC_BATCH 2026-11-12: batch 2 written for PASIKA (Coordination/Prompts/machine_prompts_2026-11-12_pasika2.md: 429 and 362 warm-Play reads into STARTUP.md, the 494 scale read, 430 tiles_sumy copy, compiled counts, containing A"
-    },
-    {
      "by": "ROG_FABLE",
      "at": "2026-11-12T17:11Z",
      "text": "ROG_FABLE 2026-11-12 batch 6 step 5 (8c872781e5). Part 2 done: PlanetSourceLight returns colorB + colorAMinusB * t (was lerp(colorB, colorA, t)), TimeOfDayManager publishes _ElementLightColorAMinusB in the same update as A and B (Vector4 ma"
@@ -1498,6 +1493,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-12T17:32Z",
      "text": "ROG_FABLE 2026-11-12: line done and dropped: skybox ground variant 6ce35e52f3 (frame compare max 1/255, fixtures paired with _PLANET_SPACE), Element light A - B from C# (batch 6), Selection Focus 1 - dim already one multiply-add so nothing "
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-12T18:02Z",
+     "text": "PASIKA batch 3 step 0+1 (main 1cb654df2c, Windows Editor): compile clean (Unity import no red line; cmp.sh NEW ERRORS: none), 0729b73abf compiled. smoke.run Passed 56/56 in 73.1 s; step 'map cache refresh rate' Passed: cache_refreshes=3 in_"
     }
    ]
   },
@@ -2318,5 +2318,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a71aaa641ba58853f4be16af0ea4a4ef7f079ae9"
+ "source_revision": "742e704fba20a939e3a6eab83371de900542b0a2"
 }
