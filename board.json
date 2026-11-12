@@ -1415,7 +1415,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-12T18:25Z",
-     "noted": "",
+     "noted": "2026-11-12T18:25Z",
      "progress": 0,
      "ticked": 0,
      "total": 14
@@ -1481,11 +1481,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA",
-     "at": "2026-11-12T18:02Z",
-     "text": "PASIKA batch 3 step 0+1 (main 1cb654df2c, Windows Editor): compile clean (Unity import no red line; cmp.sh NEW ERRORS: none), 0729b73abf compiled. smoke.run Passed 56/56 in 73.1 s; step 'map cache refresh rate' Passed: cache_refreshes=3 in_"
-    },
-    {
      "by": "ROG_FABLE",
      "at": "2026-11-12T18:11Z",
      "text": "ROG_FABLE 2026-11-12: Patch Preparation line done and dropped: PlanetDisplayMasksTests 7/7 and PlanetMaskViewsTests 67/67 pass in the Rog Editor (main 16da335c69 or newer, station test identity)."
@@ -1494,6 +1489,11 @@
      "by": "PASIKA",
      "at": "2026-11-12T18:16Z",
      "text": "PASIKA batch 3 step 5 (Windows Editor, warm Play): startup_cost Geoid 3.760, DefaultPosition 19.941 -> 9.786 ms after d53187a448 (brigade camera start kept as numbers; mgrs_ms 15.487 -> 0.396, pose_ms 4.272 / 9.235), NamesCache 0.692, Names"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-12T18:25Z",
+     "text": "GETAC 2026-11-12 batch 3 step 1, Strong Dev 826 at 1fe7cbaa6b, map at rest: smoke.run Failed only on the new step 'map cache refresh rate': cache_refreshes=6 in_s=6.6 allowed=5.3 per_s=0.78 visuals_version=769 (54 steps, 85.6 s, one skip: w"
     }
    ]
   },
@@ -2319,5 +2319,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "00c2fa914cd23b330b3bedd70e799d9509fe6782"
+ "source_revision": "3399b85e55d06eb1fa8d03620b5a373a3f5df9bc"
 }
