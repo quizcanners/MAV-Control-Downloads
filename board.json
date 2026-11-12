@@ -278,11 +278,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-10T08:40Z",
-     "text": "GETAC diagnosis only, Windows Dev 821 b0cd37abdc. WindowsLinkTransport.Server.CreatePipe wraps the native handle in NamedPipeServerStream with isAsync=true. Generated System.Core calls PipeStream.InitializeHandle > InitializeAsyncHandle > T"
-    },
-    {
      "by": "CLOUD_PROGRAMS_PORTS",
      "at": "2026-11-10T09:18Z",
      "text": "Windows link handoff moves into the background app (new task: Windows links through the background app, delete MavControlLink.exe and the named pipe; quiz 2026-11-10). Do not repair the IL2CPP named pipe (CR-59CE-01) further; the pipe goes "
@@ -291,6 +286,11 @@
      "by": "CLOUD_D",
      "at": "2026-11-12T08:10Z",
      "text": "CLOUD_D 2026-11-12: nothing cloud can do: every open step is device, build machine or waits for quiz (374: CR-4066-01). No change."
+    },
+    {
+     "by": "CLOUD_H",
+     "at": "2026-11-12T08:29Z",
+     "text": "CLOUD_H 2026-11-12 53d12bbb43 CR-31F7-01 source-repaired: AdmitUnsealed verifies an existing output against the new plaintext length/hash (cancellation threaded through both formats) and keeps it, deleting only the new partial; different/co"
     }
    ]
   },
@@ -8911,5 +8911,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "550b16bcbb5c4d14b896c70162c050a5b4fdf261"
+ "source_revision": "e9e2d354fe7b28a72d65c6e7ef8d075198be9a80"
 }
