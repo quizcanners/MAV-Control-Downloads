@@ -7218,11 +7218,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-11T19:52Z",
-     "text": "REVIEW-441-CC-A24B-01: P3 committed native text is rebuilt per character. S1 investigation/S2 brief and proposed direction complete; awaits quiz before implementation. Existing owner claims/results retained; source/host checks only, native/"
-    },
-    {
      "by": "CLOUD_C",
      "at": "2026-11-12T08:11Z",
      "text": "CLOUD_C 2026-11-12: nothing code-doable left here; every open step is Editor authoring, a device or look check, or waits on quiz. Left: device acceptance on Android and iPad (hotplug, IME, paste, Enter, Esc)."
@@ -7231,6 +7226,11 @@
      "by": "CLOUD_C",
      "at": "2026-11-12T08:12Z",
      "text": "CLOUD_C 2026-11-12: nothing code-doable left here; every open step is Editor authoring, a device or look check, or waits on quiz. Left: device acceptance on Android and iPad (hotplug, IME, paste, Enter, Esc)."
+    },
+    {
+     "by": "CLOUD_H",
+     "at": "2026-11-12T08:29Z",
+     "text": "CLOUD_H 2026-11-12 0e0329abde CR-64FD-01 source-repaired: UI_SearchBarController commits the soft-hidden gate only when the native call returns 0; a refusal is asked again only when hardware keyboard, focus/composition readiness or the oper"
     }
    ]
   },
@@ -8911,5 +8911,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "46b8f7873a2f7458f088852f303c70acbd1d165e"
+ "source_revision": "550b16bcbb5c4d14b896c70162c050a5b4fdf261"
 }
