@@ -5891,7 +5891,7 @@
     {
      "who": "PASIKA_STARTTEST",
      "since": "2026-11-12T12:39Z",
-     "noted": "",
+     "noted": "2026-11-12T12:53Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -5913,11 +5913,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA",
-     "at": "2026-11-12T09:56Z",
-     "text": "PASIKA cold Play of 2082a4164c + a5f560d5ca (main 8994ae019a, Unity 6000.6.8f1, PL-007): compiles 0 errors; map present 5.201 s (6.488 s on the previous run), layers present 8.040 s; startup_cost MavLink 0.51 ms / Vpn 3.43 ms / Geoid 0.49 m"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-12T10:50Z",
      "text": "GETAC 2026-11-12, Strong Dev 826 at f03247d1be, three cold starts (force-stop, launch, charging), runs 1/2/3 in s after process start: startup_started_at_s 2.817/2.818/2.803; startup_measure_map_present_at_s 3.618/3.617/3.613; startup_revea"
@@ -5926,6 +5921,11 @@
      "by": "GETAC",
      "at": "2026-11-12T12:10Z",
      "text": "GETAC 2026-11-12, Strong Dev 826 at f03247d1be, per-owner boot list from the three cold starts (startup_cost, 62 owners, zero failures; ms, runs 1/2/3), now in Performance Baseline/STARTUP.md. Total owner work 924.9/607.6/699.6. AgentChanne"
+    },
+    {
+     "by": "PASIKA_STARTTEST",
+     "at": "2026-11-12T12:53Z",
+     "text": "PASIKA_STARTTEST 2026-11-12: EditMode cases for the 362 commits on main, f792e07130 and 280a745cbc (cmp.sh: only new errors are LogAssert, the checker's missing TestRunner reference that every LogAssert file shows at base). For Verification"
     }
    ]
   },
@@ -8853,5 +8853,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3cdc97366d1d97aedea17298872a9ef16aaddd6f"
+ "source_revision": "4dc7dcc4167398a554c6afc909b86c25a27a5c05"
 }
