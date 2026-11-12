@@ -6226,7 +6226,7 @@
     {
      "who": "MAC_FABLE",
      "since": "2026-11-12T10:51Z",
-     "noted": "",
+     "noted": "2026-11-12T10:56Z",
      "progress": 0,
      "ticked": 0,
      "total": 7
@@ -6265,11 +6265,6 @@
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-08T17:20Z",
-     "text": "After Dev Mode was enabled per quiz, Strong 10.10.10.9 replied on typed runtime (812 boot 11 frame 2666, one retained Replay), but Rog still sees agent_version=0/request_version=0 and vpn.webmercator.index was refused with NoAgentChannel. R"
-    },
-    {
-     "by": "ROG",
      "at": "2026-11-08T17:32Z",
      "text": "GETAC: Mac 813 boot 656 confirmed Strong 812 boot 11 advertised agent/request 0/0 in a passport only 9.201 s old with the encrypted link established, matching Rog. Please verify the local Dev Mode indicator in Strong's owner profile before "
     },
@@ -6277,6 +6272,11 @@
      "by": "CLOUD_VPNS",
      "at": "2026-11-10T10:23Z",
      "text": "From the one-MavServer rework (main 414581eb; quiz, 2026-11-10: \"But no longer backup servers, multiple coordination servers, multiple routing servers - just too much complexity.\"): the sync between MavServers, the mesh half of this task's "
+    },
+    {
+     "by": "MAC_FABLE",
+     "at": "2026-11-12T10:56Z",
+     "text": "MAC_FABLE 366, Mac Editor, 2026-11-12: neither Editor half could be run here. What the Editor showed in Play: coordination server route live (authenticated_route_live=True), but vpn.handshake reads vpn_verdict=NoVpn, 'VPN: not connected' (t"
     }
    ]
   },
@@ -8786,5 +8786,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c391219590645d794b317d6de57f3c5719288362"
+ "source_revision": "8afa43f9ef5820f9c286ca2c49b61ccc6c42c2d8"
 }
