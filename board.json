@@ -1546,7 +1546,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-12T18:42Z",
-     "noted": "",
+     "noted": "2026-11-12T18:46Z",
      "progress": 0,
      "ticked": 0,
      "total": 8
@@ -1588,11 +1588,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA",
-     "at": "2026-11-12T18:17Z",
-     "text": "PASIKA: the D:/MAV_Work/Copies tiles_sumy copy is deleted (batch 3 step 6: delete the copy afterwards); the live tiles_sumy was never flipped (still schema 2; see the 17:4xZ note for why)."
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-12T18:27Z",
      "text": "REVIEW-463-CR-7FF2-01: P2 S1/S2 brief extends PASIKA 17:43Z migration report: the requested authority flip sits after three legacy-cleanup early returns. [Exact source/order, current/proposed sketch, recovery/space/journal constraints and f"
@@ -1601,6 +1596,11 @@
      "by": "REVIEW",
      "at": "2026-11-12T18:27Z",
      "text": "REVIEW-463-CC-7FF2-01: P3 complexity brief for quiz: each retention turn inventories all payload files, again if maintenance changes storage. PASIKA reports about 6.5 min per pass on 36157 segment files. [S1/S2 scan, exact known-file writer"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-12T18:46Z",
+     "text": "GETAC 2026-11-12 batch 3 step 3, Strong Dev 826 at 1fe7cbaa6b, 120 s untouched (sharp still frame on). NOT a cold start: 'am kill' after Home left all four processes running (the keep-alive service keeps the app out of background), so these"
     }
    ]
   },
@@ -2310,5 +2310,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3c2eb09501563649e57b79e86c1dd71d200514a5"
+ "source_revision": "6de160ddeede14fe117f37a591995de055d08ec5"
 }
