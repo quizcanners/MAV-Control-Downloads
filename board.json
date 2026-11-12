@@ -5563,11 +5563,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-11T07:36Z",
-     "text": "HEAVY c1fab5883a and c07939beb6: Fullscreen Video now builds its Motion, Temporal denoise and Contrast accordion from one shared mode row and one slider prefab. Removed _denoiseLayoutOffset. The legacy denoise row asset moved with its GUID "
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-11T07:37Z",
      "text": "Windows Unity D3D11 rendered the actual Seed/Accumulate, Fullscreen Video and Edge Noise shaders over a 30-frame synthetic fog sequence. Frame 1 had mild local grain and no regular diagonal bands. With Strength 65%, normalized center graysc"
     },
@@ -5575,6 +5570,11 @@
      "by": "REVIEW",
      "at": "2026-11-11T08:06Z",
      "text": "REVIEW-431-T341: shared row/slider accordion and moved Telemetry GUID reconciled with requested design; completion/claims retained. Source/serialized controls passed; native/live ingestion unrun by REVIEW. Focused receipts do not close reop"
+    },
+    {
+     "by": "MAC_FABLE",
+     "at": "2026-11-12T12:37Z",
+     "text": "MAC_FABLE batch 2, step 4 (Contrast boost, 403d01df and 1260ca42), Mac Editor. Prefab side done by reading: no Adaptation row is left to remove. The tuning rows are built in code from SliderSpec in UI_MotionTuningPanel out of the one Video "
     }
    ]
   },
@@ -8831,5 +8831,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "6c1304f18cdccde3d0848757d55ed53eca04cc33"
+ "source_revision": "8be7d092e6a9623fe96143557fc8cffe352cb778"
 }
