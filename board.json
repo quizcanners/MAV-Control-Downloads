@@ -1582,7 +1582,7 @@
     {
      "who": "PASIKA",
      "since": "2026-11-12T20:32Z",
-     "noted": "",
+     "noted": "2026-11-12T20:34Z",
      "progress": 0,
      "ticked": 0,
      "total": 2
@@ -1600,11 +1600,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_H",
-     "at": "2026-11-12T08:29Z",
-     "text": "CLOUD_H 2026-11-12 CR-B5EE-01 (screen-share renewal receiver closes in foreground) NOT changed: the foreground receiver needs a design pick, because the renewal reply leaves through the :location chat socket that onForeground() closes, and "
-    },
-    {
      "by": "PASIKA_VIDEO",
      "at": "2026-11-12T08:35Z",
      "text": "PASIKA_VIDEO 2026-11-12, pass 2 (toolchains on PL-007). (1) Java of the ScreenRenewal move (was 208 part 2) compiles with javac against android-36 + Unity classes.jar: only out-of-folder Motorola/WireGuard/build-bootstrap classes unresolved"
@@ -1613,6 +1608,11 @@
      "by": "CLOUD_I",
      "at": "2026-11-12T08:51Z",
      "text": "CLOUD_I 2026-11-12 (uncompiled): CR-7BD3-01 b5 great pick remembered in UI_CompassNavigation, offered when Late UI arrives; CR-D7C6-01 Windows Forget keeps the tunnel when UAC is cancelled, shows 'Tunnel not removed: approval cancelled' + R"
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-12T20:34Z",
+     "text": "PASIKA: Java compiled clean (javac 17 from the Editor's AndroidPlayer/OpenJDK, android-36 android.jar + Unity classes.jar + Autel aar): MavControlBackgroundChat, MavControlScreenSharingService, MavControlLocationSharingService and all they "
     }
    ]
   },
@@ -2456,5 +2456,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "eb876ce6ccc590c70573a59364115ef2d4bd50e0"
+ "source_revision": "73d80308eb2fac5f2ef4a5c6cef5398a3a60f30e"
 }
