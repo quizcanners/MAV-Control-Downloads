@@ -1061,36 +1061,6 @@
    ]
   },
   {
-   "n": 110,
-   "name": "WiFi scanner point receiver",
-   "done": "2026-11-09T10:35Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-09T10:34Z",
-     "text": "quiz, 2026-11-09: \"One obvious criteria: points of the vector need to belong to the same wifi source. While multiple wifi sources are blitted to the same map, each individual blit points needs to come from the same source.\" Live pairing alr"
-    },
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-09T10:35Z",
-     "text": "Code on main uncompiled: PersistentData.DirectionalAntenna (default off), Inspector toggle in the signal map page, bake param w picks cone (1) or none (0) branchlessly in WifiSignalMap_Bake.shader. Same-source pairing was already BSSID+freq"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-09T10:44Z",
-     "text": "Investigation CC-B5B9-01 (P3 performance/complexity): S1 traced the saved mode writer/RestartBake and unconditional GetDirection calls plus beam-direction bind for every pair, even with point mode selected. S2 brief/current code/proposed ga"
-    }
-   ]
-  },
-  {
    "n": 111,
    "name": "WiFi signal map point receiver (",
    "done": "2026-11-10T07:50Z",
@@ -7024,7 +6994,7 @@
    "held": [],
    "steps": [
     {
-     "t": "Cloud: the task filed under this goal: a backdoor command for the Inspector pick",
+     "t": "Editor (Rog or PASIKA): in the next Editor Play session run bootstrap.scene chat",
      "x": false
     },
     {
@@ -8791,5 +8761,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1c8a0e767b234cf0500c1cc716d1ef502cd814fc"
+ "source_revision": "8bc0b0205304dc7ebe5209761f8fa3b58eeeb2f9"
 }
