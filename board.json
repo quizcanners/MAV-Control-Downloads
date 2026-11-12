@@ -7607,7 +7607,7 @@
     {
      "who": "MAC_FABLE",
      "since": "2026-11-12T09:11Z",
-     "noted": "",
+     "noted": "2026-11-12T09:43Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -7637,11 +7637,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_C",
-     "at": "2026-11-12T08:12Z",
-     "text": "CLOUD_C 2026-11-12: nothing code-doable left here; every open step is Editor authoring, a device or look check, or waits on quiz. Left: Editor authoring of the swipeable root, Paint order, Street View toggles panel, and the phone/tablet loo"
-    },
-    {
      "by": "PASIKA_VIEW",
      "at": "2026-11-12T08:24Z",
      "text": "PASIKA_VIEW 2026-11-12: c05712d6e2 UI_LeftListSwipeAway: the tongue's chevron pointed RIGHT (tip x=24 in the middle row), now points left as the SPEC says; the tongue now shows only while Station.UI.LeftLists.SwipeAway (it stood in Chat on "
@@ -7650,6 +7645,11 @@
      "by": "CLOUD_TABS",
      "at": "2026-11-12T09:06Z",
      "text": "CLOUD_TABS 2026-11-12, dc3dd991 on main (not compiled). quiz, 2026-11-12: \"We need Fable effort to make tabs right. They are complete shit, quote me on that. The background panel is above the telemetry. The width is all over the place.\" and"
+    },
+    {
+     "by": "MAC_FABLE",
+     "at": "2026-11-12T09:43Z",
+     "text": "MAC_FABLE 408 steps a and b. (a) 03db7f6806 Tab Column.prefab: the seven Telemetry rows' LayoutElement width 340 -> 300 (they were 340, not 240); every row is already 96 = UI_ListRows.RowHeight, none kept its own height. Play 1920x1080: the"
     }
    ]
   },
@@ -8962,5 +8962,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0a292cbbec81ecd9fa82afa947181486d03f0f5c"
+ "source_revision": "4305051807a24386b3381dfe11f841fdfcd53747"
 }
