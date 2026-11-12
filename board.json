@@ -7616,7 +7616,7 @@
     {
      "who": "PASIKA_INBOX",
      "since": "2026-11-12T11:35Z",
-     "noted": "",
+     "noted": "2026-11-12T11:51Z",
      "progress": 0,
      "ticked": 0,
      "total": 14
@@ -7682,11 +7682,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-12T11:30Z",
-     "text": "GETAC 2026-11-12, Strong Dev 826 at f03247d1be, 429 step (a) redone at a confirmed coast position. camera.goto 47.085,37.56 (Mariupol coast), position read back as 47.07-47.08,37.56 before and after; zoom driven by real taps on the on-scree"
-    },
-    {
      "by": "PASIKA_PERF3",
      "at": "2026-11-12T11:30Z",
      "text": "PASIKA_PERF3 2026-11-12, fifth code pass (Windows PC, no Editor, no device; Roslyn cmp.sh NEW ERRORS: none on each tree, with Unity.InputSystem.dll and UnityEngine.UI.dll given to the checker, so those lines were compiled). Done: 9cd781b241"
@@ -7695,6 +7690,11 @@
      "by": "PASIKA",
      "at": "2026-11-12T11:34Z",
      "text": "PASIKA re-measure after 429 pass 5 (main d8cb3540a1, Unity 6000.6.8f1, PL-007 Editor station, warm second Play): startup_cost AgentChannel 258.5 ms -> 0.57 ms (d44fec2ac8: inbox/mailbox open at the first agent command); Input 228.0 -> 181.4"
+    },
+    {
+     "by": "PASIKA_INBOX",
+     "at": "2026-11-12T11:51Z",
+     "text": "PASIKA_INBOX 2026-11-12 (Windows PC, no Editor, no device; Roslyn cmp.sh NEW ERRORS: none). Done: 8ce4f01fc7 agent channel inbox retention (No baggage): newest 256 records kept, older ones only while a poll consumer's receipt has not acknow"
     }
    ]
   },
@@ -8780,5 +8780,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d9961f85322b0781ef1cbe968dc194f2933d3d60"
+ "source_revision": "fb6fd79024b39d88cc9d8275339178681bf50e5f"
 }
