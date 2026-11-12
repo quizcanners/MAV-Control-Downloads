@@ -227,11 +227,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-11T16:43Z",
-     "text": "REVIEW-439-CC-B794-01: P3 complexity extension: Tasks DrawRoot now allocates five collections and rebuilds worker facts; DrawList partitions/sorts again. Current S1/S2 identify LoadCache and Poll staging, live clock constraints; awaits quiz"
-    },
-    {
      "by": "CLOUD_E",
      "at": "2026-11-12T08:13Z",
      "text": "CLOUD_E review repairs, all uncompiled C#/tool edits (run cmp.sh): 2d8aaaa4c5 Tasks page prepares lists/worker facts once per accepted board, clock answers read at draw (CC-B794-01 + 439 extension, Station_BoardTasks.cs); prefab-edit keeps "
@@ -240,6 +235,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-12T08:54Z",
      "text": "ROG_OPUS 2026-11-12: Editor late shutdown on Rog: two normal closes today (pid 66208 at 08:41 and pid 48900 at 10:48) both ended with the leak check ('Found no leaked weakptrs', Package Manager server shut down) and no access violation; the"
+    },
+    {
+     "by": "ROG_OPUS",
+     "at": "2026-11-12T09:00Z",
+     "text": "ROG_OPUS 2026-11-12: Editor late shutdown on Rog: two normal closes today (pid 66208 at 08:41, pid 48900 at 10:48) both ended with the leak check ('Found no leaked weakptrs', Package Manager server shut down) and no access violation; the ne"
     }
    ]
   },
@@ -8875,5 +8875,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "84eee0ae853fcfd161540e256ebb002edd189c1a"
+ "source_revision": "f5c4dbfca5c4736d8b6c57c7da896efd8c724f92"
 }
