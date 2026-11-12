@@ -7086,11 +7086,6 @@
    "notes": [
     {
      "by": "ROG_FABLE",
-     "at": "2026-11-12T13:00Z",
-     "text": "ROG_FABLE 2026-11-12 batch 2 step 3, join sides, one line per decision. (2) Pilot UI RC L1 to L3: a screen side. They are anchored on the left edge of the full-screen Pilot UI root (anchor x 0, pivot 0) and already carry _screenEdges Left b"
-    },
-    {
-     "by": "ROG_FABLE",
      "at": "2026-11-12T14:24Z",
      "text": "ROG_FABLE 2026-11-12, for the join-line walk (not reached in batch 3, stays in the next): 48 prefabs still point at the line materials deleted in bb5f443806 (Quiz cAnners_UI_Procedural_Pixel Line, its Up Right variant, UI_PixelLine Solid; g"
     },
@@ -7098,6 +7093,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-12T15:24Z",
      "text": "ROG_FABLE 2026-11-12 batch 4 step 6, part 1 done: the deleted line material link cleared on every UI_OnePixelLine component, 208 links in 36 prefabs, one commit per prefab (the Distribution Window, Pilot Status Strip, Chat windows, notifica"
+    },
+    {
+     "by": "PASIKA_RELOAD",
+     "at": "2026-11-12T16:03Z",
+     "text": "PASIKA_RELOAD: Menu / Map source cards scrambled after a script reload during Play: cause and fix in 11646ade01 (LayoutFrame was NonSerialized, UI_MapType.Update threw before the card reflow; details on 507). Seen by the coordinator at 1024"
     }
    ]
   },
@@ -8892,5 +8892,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4313cdedffcb4e17b211c218b89517feb50ee80b"
+ "source_revision": "b7fd9a47eed97ec21b7387e8338f5139bd9496e3"
 }
