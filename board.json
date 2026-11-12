@@ -6061,7 +6061,7 @@
     {
      "who": "PASIKA_CHATROW",
      "since": "2026-11-12T15:23Z",
-     "noted": "",
+     "noted": "2026-11-12T15:37Z",
      "progress": 67,
      "ticked": 2,
      "total": 3
@@ -6083,11 +6083,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-12T13:56Z",
-     "text": "REVIEW-458-CC-CEE3-01: P3 pending Chat deletions are walked once for expiry and again for sending. S1/S2 brief ready: [evidence and proposal](../Reviews/61e5470f9.md#cc-cee3-01--p3-pending-chat-deletions-are-walked-once-for-expiry-and-again"
-    },
-    {
      "by": "ROG_FABLE",
      "at": "2026-11-12T14:03Z",
      "text": "ROG_FABLE 2026-11-12 batch 3 step 2, Editor Play at 1000x2160 in the Mav Chat workflow. (b) the NullReference from the rail: Rail.Separators and Rail.Buttons in Mav Chat Sheet.prefab each had an empty fifth entry; removed (bddc6dcb71). The "
@@ -6096,6 +6091,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-12T15:18Z",
      "text": "ROG_FABLE 2026-11-12 batch 4 step 5, the message row with no body (was 255): the cause is C#, not the prefab or the material. UI_ChatMessageRow.cs:142-143 sets lite = context.Lite && (transcript || Presentation == Ordinary); line 210 then c"
+    },
+    {
+     "by": "PASIKA_CHATROW",
+     "at": "2026-11-12T15:37Z",
+     "text": "PASIKA_CHATROW 2026-11-12, the full-window rows with no body. Seen in Editor Play 1080x1920, Mav Chat, ui.chat 10.10.10.97 + fold content: sheet view=FullWindow, our row = text and a white line under it, no body. DONE 7f941d6a81. Direct cau"
     }
    ]
   },
@@ -8885,5 +8885,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1b3d33c1588a2f16adadaf257dd8bd8f3bd69ac1"
+ "source_revision": "dc167d09aba3ddb3589853eb50e02615d90e7400"
 }
