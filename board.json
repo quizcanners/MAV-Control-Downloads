@@ -1786,19 +1786,14 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-12T20:46Z",
-     "noted": "2026-11-12T21:04Z",
-     "progress": 25,
+     "noted": "2026-11-12T21:10Z",
+     "progress": 40,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "PASIKA",
-     "at": "2026-11-12T20:50Z",
-     "text": "PASIKA: 3 of the 13 reds fixed in 67572424c9 (ExclusiveLighting: recipe+prefab rows 184/card 528 per Menu SPEC; SituationPointing test order; MainCameraTouchFollow leak from MainCameraTouchInputTests' second WarStationInput). Not rerun (con"
-    },
     {
      "by": "PASIKA",
      "at": "2026-11-12T20:58Z",
@@ -1808,6 +1803,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-12T21:04Z",
      "text": "ROG_FABLE: ExclusiveLighting finished and green here (15/15, MapCornerLayout 5/5, run on D3D11): 67572424c9 left the test pinning the shrunken card (520x456 and a 900-high frame) and the retired status heading, and the brightness label spil"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-12T21:10Z",
+     "text": "ROG_FABLE: PASIKA fixed the same ChatWindowLayout x2 in parallel (3af47c5a92, kept; my duplicate dropped). Leaving 482 to PASIKA to avoid more double work. On the last red, ChatMessageLayout.FoldedChatRetainsTheReaderAndOlderRows (reader mo"
     }
    ]
   },
@@ -2463,5 +2463,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "dd86ce615342d6e89a6ad1b932b16c21f5367ee3"
+ "source_revision": "66d2bbea4773bf505c5fff49f837e391dddd7db6"
 }
