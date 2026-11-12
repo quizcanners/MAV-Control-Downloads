@@ -543,36 +543,6 @@
    "notes": []
   },
   {
-   "n": 62,
-   "name": "Web Mercator",
-   "done": "2026-11-09T05:33Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-09T05:33Z",
-     "text": "quiz 2026-11-09: no repair pass for historical black tiles. a4e0bc91ec adds Offline page > 'Invalidate tiles in view': stored direct tiles in view get stamp 2000-01-01 (pixels and pixel revision kept), so any peer copy wins and the next 'Do"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-09T05:43Z",
-     "text": "Done: signed Brigade 68 Android Test 816, exact main source 18626a5f47 and fix 875a14cc12. Build and publication record 50b60073dc; 816 is the only APK in Drive Android/Test, 814 archived; sealed GitHub Test published."
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-09T08:42Z",
-     "text": "Reopened live repro on DJI RC Plus 2, Android Test 816 (18626a5f47), clean Windows USB install with app data removed and peer 123 rejoined. Rendered screenshot shows black squares. APK tiles_sumy bundle has 6,885 live JPEGs and no zoom abov"
-    }
-   ]
-  },
-  {
    "n": 65,
    "name": "Slow MavChat divider settling ba",
    "done": "2026-11-10T07:50Z",
@@ -901,20 +871,6 @@
      "text": "Full All on the Mac (211e7ef19, 8,522 tests): 10 red. Fixed 1: KropyvaImportTests.Search_IncludesHiddenScenes... (4dce0b3f8d): loading now keeps an existing hash, and RefreshHash also rebuilds the record's search index, so a record edited i"
     }
    ]
-  },
-  {
-   "n": 85,
-   "name": "using Strong for build 816 zoom ",
-   "done": "2026-11-09T05:51Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
   },
   {
    "n": 86,
@@ -8047,7 +8003,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLOUD_THREAD",
+     "since": "2026-11-12T06:19Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 16
+    }
+   ],
    "steps": [
     {
      "t": "(was 55) Sample PSS on Strong at boot, 30 s, 60 s and 120 s idle",
@@ -8164,18 +8129,18 @@
    "notes": [
     {
      "by": "ROG_OPUS",
-     "at": "2026-11-11T20:53Z",
-     "text": "ROG_OPUS 2026-11-11 batch 20 (worked from note 445; the prompt file is not reachable from Rog): b2 landed. Passport field WebRtcEncoderCodecs (what the sender's Unity WebRTC encodes, only once it has read it; older readers skip the key) 354"
-    },
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-11T21:42Z",
-     "text": "ROG_OPUS 2026-11-11: (1) codec-list readout 347cfa4af1: Restream > Diagnostics shows 'name: WebRTC encodes H.264, VP8' for this device (CodecCache) first, then every peer whose passport arrived (Peer.Passport.WebRtcEncoderCodecs); empty or "
-    },
-    {
-     "by": "ROG_OPUS",
      "at": "2026-11-12T05:25Z",
      "text": "ROG_OPUS 2026-11-12 batch 22. (1) Decoder list: passport WebRtcDecoderCodecs (written and read like the encoder field, older readers skip it) c37bba91f7; Restream > Diagnostics shows one row per device 'name: encodes H.264, VP8 \u00b7 decodes H."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T06:01Z",
+     "text": "REVIEW-451-CR-D360-01: P2 source regression: new waiting filter hides a known stopped/error local capture record because own-video resolver emits only None/LocalNoFrame. S1/S2 owner-state repair direction and falsifiers await quiz; no app/n"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-12T06:01Z",
+     "text": "REVIEW-451-CC-8FDF-01: P3 complexity: thirteen-state failure allowlist in VideoPanel has zero overlap with current Local/Obs producers; local-failure branch unreachable. S1/S2 writers/staging point, current/proposed owner composition and co"
     }
    ]
   },
@@ -8630,5 +8595,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d3903138027d84cd6de6c144bfcb606a409f28cf"
+ "source_revision": "95a559678b2ffa8d0ec2106d09a05fb46615af95"
 }
