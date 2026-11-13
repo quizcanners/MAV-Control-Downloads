@@ -1403,7 +1403,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T13:06Z",
-     "noted": "",
+     "noted": "2026-11-13T13:08Z",
      "progress": 15,
      "ticked": 2,
      "total": 13
@@ -1466,11 +1466,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T12:26Z",
-     "text": "HEAVY 429: fixed the Windows Cesium Bing Dry Water GPU diagnostic in f375f589c6. Unity 6000.6.8f1 D3D11 reports its local connectable Editor Profiler as -1; the previous numeric sentinel rejected it. Unity compiled, CesiumWaterShaderRenderT"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T12:29Z",
      "text": "HEAVY 429: Windows GPU diagnostic follow-up at 1e77ff5928. Two temporary controls were inconclusive: unique markers with each pair awaiting delivery, and original markers with submissions spaced four Profiler frames apart, both returned 0/1"
     },
@@ -1478,6 +1473,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T12:34Z",
      "text": "HEAVY 429: completed the isolated Cesium Bing dry-water GPU timing on RTX 5070 D3D11. RenderDoc 1.47 captured all 8 alternating pairs (64 draws per arm) and a positive control. Dry mean 0.339276 ms, conservative 0.339228 ms; paired conserva"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T13:08Z",
+     "text": "HEAVY 429 954110bd90: compiled 18 D3D11 fragment variants at 61a4fe2b99 and compared three blur variants against the immediate pre-e6cdf78078 shader on the same Unity 6000.6.8f1 / FXC host. Horizontal 47 to 24 instructions, vertical 42 to 2"
     }
    ]
   },
@@ -3137,5 +3137,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c9c1774321233f770343eaeb3fc97a3d92b38606"
+ "source_revision": "8f7066a2efbfa4d09f4c2e151a14c1c785521bc1"
 }
