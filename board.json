@@ -1567,7 +1567,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T06:44Z",
-     "noted": "",
+     "noted": "2026-11-13T06:54Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -1590,11 +1590,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T06:36Z",
-     "text": "HEAVY 431: extended the local relay check to actual Radeon Media Foundation encoder output. Captured 10 H.264 Main access units at 320x180, packetized the first keyframe, sent it over local ICE/DTLS/SRTP through the Go relay, and reassemble"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T06:40Z",
      "text": "HEAVY 431: reproduced the patched Release webrtc.dll from a fresh extraction of pinned Unity source with only the tracked adapter patch, pinned libwebrtc, and staged toolchain. CMake required -T cuda=<toolkit> on this Visual Studio installa"
     },
@@ -1602,6 +1597,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T06:43Z",
      "text": "HEAVY 431: extended the clean Release native run to 450 submitted 1920x1080 D3D11 textures over about 16 s. Radeon to RTX used Media Foundation H.264, 445 encoded / 444 decoded, and passed the sustained-delivery assertion. 1080p describes t"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T06:54Z",
+     "text": "HEAVY 431: built Windows x64 IL2CPP profiling player 829 (Brigade 68, Unity 6000.6.8f1, source e6aba35cd6, 343 s) and staged the qualified native DLL pair in C:/MavControlEvidence/Video-431-20261113/qualification-player-829. Both DLL hashes"
     }
    ]
   },
@@ -2797,5 +2797,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d387111ca54687820c765a2d1af95ccd16ccfa46"
+ "source_revision": "b868773447c7d01480623c020cfe20cd9bf47926"
 }
