@@ -2300,24 +2300,29 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
-   "notes": [
+   "steps": [
     {
-     "by": "ROG_FABLE",
-     "at": "2026-11-12T20:15Z",
-     "text": "Rog D3D11 shader compile (batch 8 step 1, 8d989294ef): added to ShaderPassCompilationTests.Paths the 11 shaders of 46a41dfa/1880dbb8 that were missing (WifiSignalMap_PseudoDecal, BlurredWorld, ControlZone_PseudoDecal, Situation Grouped Icon"
+     "t": "Rog D3D11: 11 missing shaders added to ShaderPassCompilationTests Paths (8d98929",
+     "x": true
     },
     {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T20:52Z",
-     "text": "MAC_FABLE batch 11 step 2 (Metal, Mac Editor, main f5481745c3). After the import and two Play sessions the Console has no shader compile message for the listed shaders. The only Metal shader error this run was 'Unlit/Blur Display' undeclare"
+     "t": "Mac Metal (f5481745c3): no shader compile messages, 21/21 compile tests pass, Co",
+     "x": true
     },
     {
-     "by": "PASIKA",
-     "at": "2026-11-12T21:16Z",
-     "text": "PASIKA: compiled counts of the 35 edited passes in BASELINE.md (95786bd1b0), all compile on D3D11. With Rog's D3D11 fixture 22/22 and Mac's Metal compile, the work is done; the mirrored-decal look is a verify check. Open finding for cloud f"
+     "t": "PASIKA: compiled counts of the 35 edited passes in BASELINE.md (95786bd1b0), all",
+     "x": true
+    },
+    {
+     "t": "Cloud C#: ShaderPassCompilationTests SkyboxVertexDirectionsMatchOriginalPixelsFo",
+     "x": false
+    },
+    {
+     "t": "Mac/PASIKA verify look: decal not drawn mirrored on Metal or Vulkan (Wind, WiFi,",
+     "x": false
     }
-   ]
+   ],
+   "notes": []
   },
   {
    "n": 547,
@@ -3851,5 +3856,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "54d4121317279096207191fe36c5f0fb22aaaa8c"
+ "source_revision": "094615581b5b9b32b55eb10fe2af67210f28d035"
 }
