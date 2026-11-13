@@ -128,7 +128,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T12:03Z",
-     "noted": "",
+     "noted": "2026-11-13T12:04Z",
      "progress": 0,
      "ticked": 0,
      "total": 2
@@ -147,11 +147,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-12T18:35Z",
-     "text": "GETAC 2026-11-12 batch 3 step 2, Strong Dev 826 at 1fe7cbaa6b, three cold starts (runs 1/2/3, s): started 2.862/2.815/2.818, map present 3.794/3.620/3.594, reveal 4.699/3.628/3.602, loaded 5.543/5.489/5.723, Ready 6.484/6.312/6.457, layers "
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-12T20:02Z",
      "text": "GETAC 2026-11-12 batch 4 step 2, Strong Dev 827 at 964c225b93, three TRUE cold starts (swiped from Recents; :vpn and :location survive the swipe, WireGuard Healthy throughout). Runs 1/2/3 s: map present 3.652/3.667/3.588, reveal 3.659/3.674"
     },
@@ -159,6 +154,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T10:39Z",
      "text": "HEAVY 362: 736d28a548 adds the two Play-only startup cases. Station remains WaitingForMapScene before its Map camera appears and executes SceneReferences in the exact Update that first sees it. Main UI registration moves the scenes owner to"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T12:04Z",
+     "text": "HEAVY 362: closed the Play-only startup-contract step on main 34d6ab4d9a. The 736d28a548 fixture passed again in Windows Unity 6000.6.8f1 D3D11: 2/2, zero failed/skipped/inconclusive, 12.0 s. Both cases enter Play and cover same-update Map-"
     }
    ]
   },
@@ -3125,5 +3125,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "34d6ab4d9a6d375585e79bb07aa0242c5a01640e"
+ "source_revision": "bae4f92395d9d20dcec4f9568a2e4a7f00a6e7d6"
 }
