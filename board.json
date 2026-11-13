@@ -72,16 +72,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLOUD_COMPLEXITY",
-     "since": "2026-11-12T23:09Z",
-     "noted": "2026-11-13T09:58Z",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Cloud, one group of writers per commit, Rog compiles: one decision per frame, th",
@@ -284,7 +275,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T12:52Z",
-     "noted": "",
+     "noted": "2026-11-13T12:58Z",
      "progress": 0,
      "ticked": 0,
      "total": 2
@@ -302,11 +293,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T20:48Z",
-     "text": "MAC_FABLE batch 11 step 5: the wifi.blindspots Editor sequence cannot run under the station test identity. (1) Play with the identity on stopped at the loading screen 'Verification profile refused', so the runtime bridge never answered. The"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-13T12:41Z",
      "text": "Windows Unity 6000.6.8f1 at 797f797f63: 122/122 EditMode tests passed (DynamicBlindSpot 19, RaspberryPiWifiScanner 93, RaspberryPiWifiCleanupCalls 2, RaspberryPiWifiAttribution 8). XML retained under C:/MavControlEvidence/Windows-365-202611"
@@ -315,6 +301,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T12:48Z",
      "text": "HEAVY 365: isolated Windows Unity 6000.6.8f1 Play at 1a3511aa86 completed the local blind-spot sequence. A temporary Editor-only probe called the existing cleanup step before the MapOnly early return; scanner UDP listener stayed off, peer s"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T12:58Z",
+     "text": "HEAVY 365, 1ad92b6496: fixed the active RenderTexture release warning from the WiFi map cleanup. The shared texture disposer detaches a target only when that exact texture is active. Windows Unity 6000.6.8f1: UtilityTextureAllocationTests 1"
     }
    ]
   },
@@ -3164,5 +3155,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a6407db9dd317d8d4a8882764efe8da3c8cb3fc3"
+ "source_revision": "a3e78f0dc364cd207f0ebea2edd1488f34769b1a"
 }
