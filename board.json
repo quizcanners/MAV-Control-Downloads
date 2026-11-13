@@ -2172,7 +2172,7 @@
   },
   {
    "n": 541,
-   "name": "List-specific buttons to the bot",
+   "name": "List-specific buttons sit at the",
    "done": "2026-11-12T20:12Z",
    "goal": false,
    "under": 0,
@@ -2181,24 +2181,21 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
-   "notes": [
+   "steps": [
     {
-     "by": "PASIKA",
-     "at": "2026-11-12T19:44Z",
-     "text": "PASIKA: Street View Toggles moved into Lists Root at the list bottom, full list width, 128 tall, moves with the list (70e6c28a20). Seen at the strip layout and with the vertical tab column. Left: in the strip layout the bottom-left Paint bu"
+     "t": "PASIKA: Street View Toggles (Autoshow + Obstacles) moved into Lists Root at the ",
+     "x": true
     },
     {
-     "by": "PASIKA",
-     "at": "2026-11-12T20:09Z",
-     "text": "PASIKA: shared bottom fade done: RectMask2D (soft bottom 64, top/sides padded out) on every List_* Viewport. Left: other lists' own buttons (Actions, Cars, VPN, Waypoints, Folders); Paint button over \u041f\u0435\u0440\u0435\u0448\u043a\u043e\u0434\u0438 in strip layout."
+     "t": "PASIKA: RectMask2D with soft bottom 64 on every List_* Viewport",
+     "x": true
     },
     {
-     "by": "PASIKA",
-     "at": "2026-11-12T20:12Z",
-     "text": "PASIKA: done. Other lists looked through: Waypoints already has Delete all + Show/Hide in its Bottom panel with a fade; tops of Photos/Folders/Waypoints/VPN Peers hold navigation (back, change group, search, chat slot), which stays. Paint p"
+     "t": "PASIKA: other lists looked through: Waypoints already has Delete all + Show/Hide",
+     "x": true
     }
-   ]
+   ],
+   "notes": []
   },
   {
    "n": 542,
@@ -3845,5 +3842,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "518c62bf8385edf2357374e646765f22ff8344a3"
+ "source_revision": "b663623882d20affa422716b7ba9a2a39fa689c8"
 }
