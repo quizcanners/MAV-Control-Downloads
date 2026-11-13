@@ -485,11 +485,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA",
-     "at": "2026-11-12T19:10Z",
-     "text": "PASIKA containing All, run 3 on main 927fc055ef (temporary candidate, quiz-allowed): 13 red of 8587 (8564 passed, 8 skipped, 1 inconclusive); run 1 on 0d19274307 had 104, run 2 on 7fe3e925be 29. Fixed and pushed tonight: stage-failure log e"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-12T20:32Z",
      "text": "REVIEW-465-CR-F070-02: P3 f070b8403 changes two host-check paths to nonexistent filenames and changes the fixed historical anchor selector. [S1/S2 tree/blob evidence, minimal binding sketch and host/native limits](../Reviews/7e1dd970f.md#cr"
@@ -498,6 +493,11 @@
      "by": "PASIKA",
      "at": "2026-11-13T00:15Z",
      "text": "PASIKA containing All, run 4 on main 7f74389255 (temporary candidate, quiz-allowed): 8573 passed, 6 failed, 8 skipped, 1 inconclusive (run 3: 13 red; all 13 now pass). New reds: SyntheticDroneTests x2 (NRE in RelayedDroneMovingEastHalfASeco"
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-13T01:40Z",
+     "text": "PASIKA containing All, run 5 on main 2eed589211 (temporary candidate, quiz-allowed): 8579 passed, 0 failed, 8 skipped, 1 inconclusive. The inconclusive one is by design: MavChatSheetTests.ASlowTwitch... assumes 30 dp > the 32 px drag thresh"
     }
    ]
   },
@@ -2512,5 +2512,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f06163578810a6f4157526abf3662d0856b6db76"
+ "source_revision": "32b506074d9cb251f123acabc65f959538c4070a"
 }
