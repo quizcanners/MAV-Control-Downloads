@@ -1577,7 +1577,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T14:34Z",
-     "noted": "",
+     "noted": "2026-11-13T14:35Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -1600,11 +1600,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T07:01Z",
-     "text": "HEAVY 431: Windows profiling player build and launch reached startup with the staged DLL pair. Qualification stopped because isolation failed: setting the unique company in ProjectSettings and the Brigade 68 Windows profile produced the exp"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T07:09Z",
      "text": "HEAVY 431: fixed qualification isolation with a fresh Bee cache and the unique company name in both the project and Brigade 68 Windows profile. The earlier warm builds reused byte-identical globalgamemanagers; this time both app.info and se"
     },
@@ -1612,6 +1607,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T07:13Z",
      "text": "HEAVY 431: checked the isolated 829 player with a local emulated source. system.set synthetic_drone and synthetic_video succeeded; hidden player kept Emulated WaitingForFrame. With a visible 1000x650 D3D11 window the local source progressed"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T14:35Z",
+     "text": "HEAVY 431: fixed CR-1255-01 in 702fe62248. On Windows a disposable input junction reproduced the old script writing a staging directory inside the source player before Copy-Item rejected copying it onto itself. The fixed script rejects inpu"
     }
    ]
   },
@@ -3204,5 +3204,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3a369ae6018b3ee996541e94be42fbfc78bf6552"
+ "source_revision": "626e674e04f7394a325f37a332b2ba207e5306b1"
 }
