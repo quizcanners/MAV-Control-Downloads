@@ -2346,8 +2346,8 @@
     {
      "who": "CODEX_MAC_UI",
      "since": "2026-11-13T04:28Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-13T04:46Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -2363,6 +2363,11 @@
      "by": "PASIKA",
      "at": "2026-11-12T21:23Z",
      "text": "PASIKA on item 3 (Floating Panel size carrier): not cut. TEXCOORD1 already carries the UI tint (tintData, _UI_PANEL_TINT), and the corner radius is in screen pixels (_ScreenParams), so a carrier needs canvas scale written per Image plus a s"
+    },
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-13T04:46Z",
+     "text": "CODEX_MAC_UI: item 3 done in 06e3fc7341. Floating Panel receives pixels-per-UV in UV1.xy via the existing UI_ShadowImageSize with a new fwidth mode; UV1.z tint and existing shadow mode remain. Authored carrier on Mav Chat Sheet and three st"
     }
    ]
   },
@@ -2694,5 +2699,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "9b066f03c27e4559e42a53176d801ea4d46791e4"
+ "source_revision": "211749392fe995de42bc19a83eda23522b0074dc"
 }
