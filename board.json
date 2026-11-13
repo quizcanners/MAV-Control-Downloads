@@ -1665,7 +1665,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T11:09Z",
-     "noted": "",
+     "noted": "2026-11-13T11:14Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -1688,11 +1688,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T08:58Z",
-     "text": "HEAVY 479: replayed the retained RTX 5070 D3D11 capture with RenderDoc 1.47. Found shadow events 6692/6700/6706 and 33502/33510/33516 (pixel shader 14037), followed by Grouped Icons events 6732 and 33542. Whole camera color attachment hashe"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T09:03Z",
      "text": "HEAVY 479: controlled live Windows Unity D3D11 A/B at 448a39a1d6, Synthetic Situation 6410 groups, 80 m tilt 35 at 20.9 E / 54.6 N. In one Play session alternated authored ShadowBoxSize for all three rows and zero size, leaving model and ic"
     },
@@ -1700,6 +1695,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T11:08Z",
      "text": "HEAVY 479: Windows Unity 6000.6.8f1 D3D11 at 756c7c9558, live Synthetic Situation 6410 groups at 54.59954 N / 20.9 E, 61.8 m camera altitude. Alternated zero and authored sizes in all three Situation model shadow rows. Temporarily replaced "
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T11:14Z",
+     "text": "HEAVY 479: live Windows D3D11 coverage at 176c7732ee. The prior settled camera had five submitted boxes at fade=1, but all five were wholly behind or outside the viewport. The previous zero-darkening result therefore does not show that the "
     }
    ]
   },
@@ -3092,5 +3092,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "811db3d8ebab60738af4b0be5057e9a1c2227a22"
+ "source_revision": "59c3a2ccb424371ee7952700d4392e69f85b98c4"
 }
