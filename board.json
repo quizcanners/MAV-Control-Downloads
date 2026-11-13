@@ -1134,11 +1134,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA_RELOAD",
-     "at": "2026-11-12T16:03Z",
-     "text": "PASIKA_RELOAD: Menu / Map source cards scrambled after a script reload during Play: cause and fix in 11646ade01 (LayoutFrame was NonSerialized, UI_MapType.Update threw before the card reflow; details on 507). Seen by the coordinator at 1024"
-    },
-    {
      "by": "ROG_FABLE",
      "at": "2026-11-12T16:57Z",
      "text": "ROG_FABLE 2026-11-12 batch 6 step 4: nothing left to convert. fe5594d68b (18:37, 'Pixel dividers draw one pixel again') already turned the 69 dividers in the 15 prefabs into the one-pixel line; git grep finds no prefab referencing the delet"
@@ -1147,6 +1142,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-12T17:31Z",
      "text": "ROG_FABLE 2026-11-12: line done and dropped: the 208 UI_OnePixelLine material links cleared in batch 4 (36 prefabs, one commit each), the 69 separators converted by fe5594d68b; git grep finds no prefab on the deleted line materials."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-13T06:13Z",
+     "text": "REVIEW-474-CC-1347-01: P3 S1/S2 complexity brief ready for quiz: [grid joins still compute unused straight-strip neighbours](../Reviews/1f8115ab2.md#cc-1347-01--p3-grid-joins-still-compute-the-unused-straight-strip-neighbours). Exact scan/w"
     }
    ]
   },
@@ -1558,7 +1558,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T06:11Z",
-     "noted": "",
+     "noted": "2026-11-13T06:13Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -1581,11 +1581,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T06:03Z",
-     "text": "HEAVY goal 431: isolated the RTX 5070 Media Foundation failure on PL-007. Five native repetitions reproduced WEBRTC_VIDEO_CODEC_FALLBACK_SOFTWARE (-13), caused by MavVideo reporting EncoderError::Unsupported while reading the queue. With th"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T06:07Z",
      "text": "HEAVY 431: checked the actual Release webrtc.dll through UnityPluginLoad, ContextCreate and ContextGetSenderCapabilities using a minimal native Unity graphics-interface harness on PL-007 Radeon. 3/3 cases passed: matching sibling MavVideo.d"
     },
@@ -1593,6 +1588,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T06:10Z",
      "text": "HEAVY 431, 3311290faf: the prototype now preserves Unity NVENC when its factory is available, so Media Foundation Main cannot shadow an existing RTX encoder. Release webrtc.dll and native tests rebuilt. On PL-007, RTX factory test 1/1 passe"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T06:13Z",
+     "text": "HEAVY goal 431, c47f57db1b: verified that the existing RTX path actually delivers H.264 with the matching Media Foundation bridge present. RTX 5070 sender and receiver on PL-007 completed native ICE playback 3/3 times, NvCodec selected, 15 "
     }
    ]
   },
@@ -2776,5 +2776,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "01702288dc6a570939ea46d1422c0af92bafc371"
+ "source_revision": "71bb5e4c9a184f4522fd7f159f609f68ea38ddce"
 }
