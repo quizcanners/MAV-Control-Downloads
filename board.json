@@ -1246,27 +1246,27 @@
    "held": [],
    "steps": [
     {
-     "t": "Cloud: the plain status notices (Simple Status Notification: Connection Lost, Re",
+     "t": "All 20 card prefabs carry UI_NotificationCard with the Done tick on Windows/Mac ",
      "x": true
+    },
+    {
+     "t": "Black cards: code guard in BodyTintComposite.SetBodyTint ignores a near-black ti",
+     "x": true
+    },
+    {
+     "t": "Mac/Rog (Editor Play, screen verification): see the four status notices take the",
+     "x": false
+    },
+    {
+     "t": "Rog (Editor Play with an agent command up): the agent-command card was solid bla",
+     "x": false
+    },
+    {
+     "t": "Open finding REVIEW-459-CC-4068-01 (P3): Landscape notification tongue collects ",
+     "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-12T23:57Z",
-     "text": "ROG_FABLE batch 9 step 2, card comparison (the open cloud step, done from the prefabs): all 20 card prefabs (Agent Activity, Aircraft Health, App Update, Chat Message, Far From Home, Linked Browser, Map Refresh, Motion Detection, Offline Ma"
-    },
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-13T14:33Z",
-     "text": "ROG_FABLE: looked at bringing the plain status notices into the card rule. UI_NotificationCard is one card with a per-kind acknowledgement switch (Chat, MapRefresh, AgentActivity, VideoSendFailure, SineLinkBeacon, TileStorage...), so each s"
-    },
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T16:55Z",
-     "text": "61d5a5c521 completes the outstanding four-status receipt step: individual owners hold the receipt, and the existing authored cards handle tick/swipe and body receipt. Editor compiled and focused tests passed; post-rebase cmp NEW ERRORS: non"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 412,
@@ -3842,5 +3842,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b663623882d20affa422716b7ba9a2a39fa689c8"
+ "source_revision": "61771cc843d762b1005c3a8dab73495e1e12d4b1"
 }
