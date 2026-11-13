@@ -3162,14 +3162,20 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T15:06Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-13T15:18Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T15:18Z",
+     "text": "465845e7ff removes the fixed 288-unit Portrait Search header override. The header keeps the authored X reservation and wraps Paste, Clear, Copy and Search with the existing layout owner. Native prefab tests at 480, 720 and 960 passed; the l"
+    }
+   ]
   },
   {
    "n": 589,
@@ -3241,5 +3247,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5ed6a4e5e27640c21ea8cc7611a513f3ec231476"
+ "source_revision": "432fb62e334bf444511f31ce0874fde82b18dd7a"
 }
