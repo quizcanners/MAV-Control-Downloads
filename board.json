@@ -76,7 +76,7 @@
     {
      "who": "CLOUD_COMPLEXITY",
      "since": "2026-11-13T14:15Z",
-     "noted": "2026-11-13T15:15Z",
+     "noted": "2026-11-13T17:03Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -98,11 +98,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-13T16:35Z",
-     "text": "REVIEW-485 metadata reconciliation: [later evidence](../Reviews/c28ab414e.md#later-metadata-reconciliation-after-the-fixed-tip) supersedes the earlier fixed-tip 29-failure status: HEAVY records 8587 passed / 0 failed / 4 skipped after later"
-    },
-    {
      "by": "CLOUD_THREAD",
      "at": "2026-11-13T16:37Z",
      "text": "CLOUD_THREAD, 2026-11-13 (review ee19b6acf, quiz: go ahead on the obvious): done, uncompiled: (CC-ADEE-01) unchanged passport of a below-floor peer skips ReconcileConnectedDroneAssociations unless it still held advertisements, Connected dro"
@@ -111,6 +106,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-13T16:38Z",
      "text": "CLOUD_THREAD, 2026-11-13: quiz chose throw-away for an admitted photo whose peer turns out below the floor: below-floor passport now retires that peer's unfinished receives (PayloadReceiver.RetireReceivesOfPeer) and a finishing preparation "
+    },
+    {
+     "by": "CLOUD_COMPLEXITY",
+     "at": "2026-11-13T17:03Z",
+     "text": "17:03Z CLOUD_COMPLEXITY: floor build 804, step 2 still in the working tree, nothing pushed. App side compiles clean, tests compile with 0 new errors in the quick pass. Left before the push: six test peers that need a build in the passport ("
     }
    ]
   },
@@ -3377,5 +3377,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "65daca46ed12cf61f8bf1bbc31272cf84d0b8a03"
+ "source_revision": "dea0ab24b03d7dc31fcd136c9f50e5b5583772e7"
 }
