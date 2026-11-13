@@ -1421,7 +1421,7 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-13T14:34Z",
-     "noted": "",
+     "noted": "2026-11-13T14:36Z",
      "progress": 15,
      "ticked": 2,
      "total": 13
@@ -1484,11 +1484,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T14:04Z",
-     "text": "HEAVY 429 716a3ed1c3: captured Control Zone large-input propagation on Windows Unity 6000.6.8f1 at 8b3b9fe0f7, RTX 5070 D3D11, High at 1 km. The isolated map accepted 900 observations. Painter reached Displayed, direct-point false, all 40 i"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T14:14Z",
      "text": "HEAVY 429: a second 900-observation Control Zone capture loaded the observations with Battle Line off and then enabled it. Verified Displayed with direct-point false and 40/40 iterations, and exported the exact render target map: only the 4"
     },
@@ -1496,6 +1491,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T14:18Z",
      "text": "HEAVY 429 83107f9359: focused RenderDoc D3D11 counter replay matched all 43 Control Zone large-input bake draws on RTX 5070, High at 1 km, 900 observations. GPU sum across frames 11.93994 ms: seed 0.08080, 32 propagation and cleanup draws 9"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-13T14:36Z",
+     "text": "ROG_FABLE, read for the 'Save Enemy Logistics on a worker' item, no change made: the startup save is EnemyLogistics SaveLiveData -> JsonUtility.ToJson(_liveDataCached) on main, queued because GetOrLoadLiveDatabase marks the live file dirty "
     }
    ]
   },
@@ -3195,5 +3195,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4ef5a363b0159e177c8ba824fc4142b4573e0b63"
+ "source_revision": "0bbb2910cf86daf6f27230de80c917e8c08cb6bf"
 }
