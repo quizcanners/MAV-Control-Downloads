@@ -2225,7 +2225,7 @@
   },
   {
    "n": 543,
-   "name": "Note from cloud-naming",
+   "name": "Compile check and renames of the",
    "done": "",
    "goal": false,
    "under": 0,
@@ -2234,24 +2234,29 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
-   "notes": [
+   "steps": [
     {
-     "by": "CLOUD_NAMING",
-     "at": "2026-11-12T20:06Z",
-     "text": "CLOUD naming pass 3 (chunks 1-5 on main, log in Coordination/Refactoring/nested-controllers.md): Process handlers renamed (Peer, EncryptedLink, Situation, Geometry, Motorola forwarding, video), ~330 files of misspelled identifiers fixed (Pe"
+     "t": "Cloud: chunks 1-5 on main (Process handlers to Receive*/Apply*, about 330 files ",
+     "x": true
     },
     {
-     "by": "CLOUD_REFACTOR_NIGHT",
-     "at": "2026-11-12T20:08Z",
-     "text": "Compile check for the overnight cloud refactor chunks (cmp.sh, fix new errors in the file named): Handle* renames (Streamer AnswerVideoRequest/AnswerRelayRequest/AnswerEncodingWish/ReceiveEncodingAnswer/ReceiveVideoAnswer, DirectRoute.Recei"
+     "t": "Rog: 18 MAVLink Process(mavlink_*_t) overloads renamed to Apply<Message> (e7a037",
+     "x": true
     },
     {
-     "by": "ROG_FABLE",
-     "at": "2026-11-12T20:37Z",
-     "text": "Rog: the 18 MAVLink Process(mavlink_*_t) overloads renamed to Apply<Message> (owner in the name where a type repeats: ApplyComponentHeartbeat/ApplyGcsHeartbeat, ApplyBatteryStatus/ApplyPackBatteryStatus, ApplySysStatus/ApplyComponentSysStat"
+     "t": "Mac/Rog: run bash Tools/RoslynCompileDiff/cmp.sh on current main; fix new errors",
+     "x": false
+    },
+    {
+     "t": "Editor: names carried by prefabs or saved keys (UdpReciever, AllignCompass, MaxA",
+     "x": false
+    },
+    {
+     "t": "Cloud C#: Peers.Groups.Edit.Group_Optional (65 uses) and Peers.Icons.Flow.PickRe",
+     "x": false
     }
-   ]
+   ],
+   "notes": []
   },
   {
    "n": 544,
@@ -3854,5 +3859,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "dafd556125468882677b1554c255cbc89703a385"
+ "source_revision": "dc223ec3f988a1edf56c0340973b7290ef04c089"
 }
