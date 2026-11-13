@@ -330,35 +330,43 @@
    "held": [],
    "steps": [
     {
-     "t": "Rog (Editor, no Frame Debugger): in the sheet's full window our message rows dra",
+     "t": "Chat: full-screen message view with Reply, preview shortening, long-press menu w",
      "x": true
     },
     {
-     "t": "Cloud: task 481, what is left of MavChat Landscape in code (was 393)",
+     "t": "Shared deletion in code, all paths: private, group, Background/radio, seven-day ",
      "x": true
     },
     {
-     "t": "Phone (iPhone at the Mac, Lenovo at the Getac) with a real peer: half-height tra",
+     "t": "MavChat only on portrait smartphones (8bc2e77aa3, 6ea242e8e2; Station.IsWorkflow",
+     "x": true
+    },
+    {
+     "t": "Phone with a real peer (iPhone at the Mac, Lenovo at the Getac): half-height tra",
+     "x": false
+    },
+    {
+     "t": "Two phones on VPN: shared deletion end to end (text, photo, group, an offline pe",
+     "x": false
+    },
+    {
+     "t": "Rog/Mac Editor: EditMode tests for shared deletion and FullHeightRowsAreBubblesI",
+     "x": false
+    },
+    {
+     "t": "Cloud: CR-079D-02, a refused deletion tells the device that asked nothing (it re",
+     "x": false
+    },
+    {
+     "t": "Mac Editor (minor): at the folded map a thin white line stub shows at the screen",
+     "x": false
+    },
+    {
+     "t": "Quiz to answer: (1) the panel's top corners are rounded but sit under the pin an",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "REVIEW",
-     "at": "2026-11-13T16:01Z",
-     "text": "REVIEW-484 CR-7EBB-01: [P3 MavChat paste investigation and brief](../Reviews/ee19b6acf.md#cr-7ebb-01--p3-mavchat-landscape-paste-still-submits-geocoding) ready for quiz: paste skips submission only in Navigation portrait, so landscape still"
-    },
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-13T16:37Z",
-     "text": "CLOUD_THREAD, 2026-11-13 (CR-7EBB-01): MavChat paste in landscape no longer geocodes: both paste sites in UI_SearchQueryView.cs now test the Navigation workflow (MavChatWorkflow), portrait stays only for layout. Uncompiled; Need for verify "
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-13T17:55Z",
-     "text": "REVIEW-486: [CR-7EBB-01 reconciliation](../Reviews/1e23ef737.md#reconciliation-with-earlier-reports-and-recorded-results): ed336cf8a source-repairs both MavChat paste sites with Navigation workflow guards, portrait retained for layout; f463"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 368,
@@ -3789,5 +3797,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "24c61e65ebe788e95754968ea52ce14bc220e47d"
+ "source_revision": "950982526a5df6405edc83799b367e8ff36e308a"
 }
