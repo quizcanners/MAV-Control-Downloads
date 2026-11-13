@@ -32,35 +32,19 @@
    "held": [],
    "steps": [
     {
-     "t": "Cloud: changed inputs separated from unfinished stock",
+     "t": "Cloud: EnsureMyPerson and RefreshInventoryHistory run only when an input changed",
      "x": true
     },
     {
-     "t": "Cloud: operator-person search runs only on changed inputs",
+     "t": "Cloud: Supply screen bumped for verify; review reconciliation found the concern ",
      "x": true
     },
     {
-     "t": "Cloud: Supply screen bumped for verify",
-     "x": true
+     "t": "Mac/Rog: verify Supply in Play (no per-frame allocation, stock progress still co",
+     "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CLOUD_BOARD",
-     "at": "2026-11-12T10:02Z",
-     "text": "No longer waits for quiz (root AGENTS, User intent is carried out, quiz 2026-11-12: a design pick between ways of reaching a clear intent is the agent's). Cloud-doable C#, per-frame logic, so careful with allocations: CLOUD_E's prepared cha"
-    },
-    {
-     "by": "CLOUD_META_BOARD",
-     "at": "2026-11-12T13:36Z",
-     "text": "CLOUD_META_BOARD 2026-11-12: Distribution_Manager.cs upkeep: EnsureMyPerson and RefreshInventoryHistory now run only when an input changed (bool inputsChanged); UpdatePinnedStock runs when inputs changed or the stock pass is unfinished, so "
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-12T14:27Z",
-     "text": "REVIEW-459-CC-14FA-01: original person-search concern source-repaired by 07a102bbe; changed inputs alone run person/history work, unfinished stock continues separately. [Reconciliation](../Reviews/e8504b8cc.md#reconciliation-and-other-inspe"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 241,
@@ -3842,5 +3826,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "99ec4eefeee4d8710295ea242d2e88ba0f74ebe0"
+ "source_revision": "f760638839775e0f0a4adf364893640df8b8a64a"
 }
