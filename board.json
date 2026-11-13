@@ -2282,7 +2282,7 @@
   },
   {
    "n": 547,
-   "name": "Cloud",
+   "name": "Cloud shader leftovers from the ",
    "done": "2026-11-13T08:19Z",
    "goal": false,
    "under": 429,
@@ -2291,24 +2291,25 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
-   "notes": [
+   "steps": [
     {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T04:59Z",
-     "text": "CODEX_MAC_UI: item 4 done in e6cdf78078. World blur wraps package Vert and interpolates symmetric taps, retaining 11 horizontal and nine vertical reads, weights, zigzag and ping. Metal Editor procedural comparison against the preceding shad"
+     "t": "Cloud: pointer ring switch (_USE_POINTER_RING from Singleton_ClickVisualizer), t",
+     "x": true
     },
     {
-     "by": "HEAVY",
-     "at": "2026-11-13T08:13Z",
-     "text": "HEAVY 547: Fullscreen Video viewport-to-source UV affine pair on main in 45d744c444. C# combines viewport extent, aspect fit and source flip and updates the material on a change. The shader keeps the URP target-origin handling and existing "
+     "t": "Codex: Floating Panel pixels-per-UV in UV1.xy (06e3fc7341); World blur interpola",
+     "x": true
     },
     {
-     "by": "HEAVY",
-     "at": "2026-11-13T08:19Z",
-     "text": "HEAVY 547: completed FPV matrix composition in 3331a3b2c3. C# publishes world-to-clip and the world-to-view depth row for Projection Photo Transition, Video Accumulation from Reprojection, Origami UV Mesh Brush and Street View Web Mercator "
+     "t": "Heavy (Windows): Fullscreen Video UV affine pair (45d744c444); FPV matrix compos",
+     "x": true
+    },
+    {
+     "t": "Rog/Mac verify: live projection and per-draw GPU timings, not yet run",
+     "x": false
     }
-   ]
+   ],
+   "notes": []
   },
   {
    "n": 548,
@@ -3801,5 +3802,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "445f4ac46c706c3729d1b9adb2e0104e58a71719"
+ "source_revision": "95ba561da060bfb7d5cba7c3b898bbc663ed2f2f"
 }
