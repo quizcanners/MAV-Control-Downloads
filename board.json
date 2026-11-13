@@ -1985,19 +1985,14 @@
     {
      "who": "CODEX_MAC_UI",
      "since": "2026-11-13T04:22Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-13T04:26Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T17:19Z",
-     "text": "MAC_FABLE batch 7, step 3, Mac Editor Play, nothing changed (no prefab fault found; what is wrong is C# behaviour, so it is written here). Mav Chat at 590 x 1280: the group selector rows (Messages 0, Ungrouped 1) and the 'Messages' header r"
-    },
     {
      "by": "PASIKA",
      "at": "2026-11-12T18:08Z",
@@ -2007,6 +2002,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-12T21:19Z",
      "text": "ROG_FABLE (Windows Editor, D3D11, live station with 6 peers, Game view 2560x1600 = 16:10 tablet, main 3af47c5a92): landscape Chat opened on the last conversation (ui chat last). The peer column starts at the screen edge (Chat hides the tabs"
+    },
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-13T04:26Z",
+     "text": "CODEX_MAC_UI 2026-11-13: current source and prefab complete the remaining positioning: Station.UI.LeftLists.TabsShown = s_shown && !s_chat; Chat shows the peers without tab controls. When a vertical tab column is present, UI_LeftListSwipeAw"
     }
    ]
   },
@@ -2678,5 +2678,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "16463aaf2367596d6d898929e3c8df090061a3a1"
+ "source_revision": "7d462d2cfd8d63550d7912b1d40884c35b5b26d8"
 }
