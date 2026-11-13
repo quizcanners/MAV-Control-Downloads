@@ -562,7 +562,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T04:20Z",
-     "noted": "",
+     "noted": "2026-11-13T04:22Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -584,11 +584,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA_PROTOCOL",
-     "at": "2026-11-12T09:38Z",
-     "text": "PASIKA_PROTOCOL (from task 472, ea8bed47aa): plain sends over the tunnel, both the split payloads (804) and the small hash messages (818), now also need PeerBuilds.IsOfCurrentRun(peer): the boot in the peer's heartbeats equals the boot of i"
-    },
-    {
      "by": "PASIKA",
      "at": "2026-11-12T09:42Z",
      "text": "PASIKA live reading for 371 (2026-11-12, Editor station on main bfe55d0b9d incl. 472 fixes a2309f66b5/c8f5a32c07/ea8bed47aa, PL-007 10.10.10.26): vpn.udp after ~2 min in Play: udp_plain_sends_over_vpn=24; per peer: 10.10.10.9 \u0417\u0432'\u044f\u0437\u043a\u0456\u0432\u0446\u0456 (bu"
@@ -597,6 +592,11 @@
      "by": "PASIKA",
      "at": "2026-11-13T02:16Z",
      "text": "PASIKA 04:35, receiving side read: 10.10.10.9 vpn.udp (unity_frame 169942, udp_thread_version 7): no plain refusal (rejected lifetime: EmptyDatagram 2 only, 22077 s ago; every other reason 0), udp_plain_sends_over_vpn=125902 of its own (10."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T04:22Z",
+     "text": "PL-007 rebuilt official WireGuard Windows v1.1.1 outside the Unity checkout. The SDK ZIP and source tar match the prior SHA-256 receipts; the amd64 driver is Authenticode Valid and matches b1b85e07...a6461d3. The service built with the upst"
     }
    ]
   },
@@ -2678,5 +2678,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "9bec1e53cfab7e452931c84caa9a6f4cc11b0078"
+ "source_revision": "253ebd30f45150a35a6fdca3891de21cd17e17ce"
 }
