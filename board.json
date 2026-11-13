@@ -99,11 +99,6 @@
    "notes": [
     {
      "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-13T09:40Z",
-     "text": "CLOUD_COMPLEXITY 2026-11-13: place 26 is on main (5088db8914). Of the 472 host tests in Tools/Tests~, 197 had stopped at the copy of the code or at the build with nobody looking: deleted with the 125 files only they used (42,163 lines) and "
-    },
-    {
-     "by": "CLOUD_COMPLEXITY",
      "at": "2026-11-13T09:53Z",
      "text": "Place 26, second part: the 15 small Tests~ folders beside the systems are being run in a cloud container. Stopped at the build of today's code so far: 5 Planet check_*.py, the Chat reaction check, the Android capture, USB discovery, Google "
     },
@@ -111,6 +106,11 @@
      "by": "CLOUD_COMPLEXITY",
      "at": "2026-11-13T09:58Z",
      "text": "Place 26, second part, on main as f1e3dfda5d: the 15 small Tests~ folders were run; 12 checks that stop at the build of today's code are cut with the files only they used (30 files, 3,240 lines) and 11 guide passages. 31 checks pass; the re"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-13T10:05Z",
+     "text": "REVIEW-478: [bounded review through e9ae074be](../Reviews/e9ae074be.md): 101 commits inspected (eight source, 91 coordination skips, two merges with parent-tree proof), no new actionable finding. Place 26 and earlier briefs/claims reconcile"
     }
    ]
   },
@@ -1044,7 +1044,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T10:03Z",
-     "noted": "",
+     "noted": "2026-11-13T10:05Z",
      "progress": 25,
      "ticked": 1,
      "total": 4
@@ -1071,11 +1071,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T09:18Z",
-     "text": "HEAVY 382: Windows Unity 6000.6.8f1 D3D11 at a6c4ed90c8, unattended tiles_sumy at 8 FPS after a two-minute warm-up. All three 100-frame samples measured Frame setup > Timing tree reset at 0.002 ms self, matching the Mac reading. Windows Gap"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T09:35Z",
      "text": "HEAVY 382: current-main Windows Unity EditMode All at 1045cd7106: 8572 passed, 0 failed, 4 skipped, 1 screen-dependent inconclusive. Bootstrap/persistence member receipts from that XML: WaypointCheckpoint 61/61, StartupBatchTiming 19/19, Ch"
     },
@@ -1083,6 +1078,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T09:41Z",
      "text": "HEAVY 382: Windows Unity 6000.6.8f1 at 4b5f7e5352, same checkout reopened with ports 50093/50092 and confirmed MapOnly test identity before changing settings. Sharp still frame when idle went on in the disposable profile. After leaving and "
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T10:05Z",
+     "text": "HEAVY 382: full Windows Editor process restart acceptance passed in MapOnly. The prior run saved Off, its normal quit wrote the final primary and kept the routine-write hash as .previous. A new Unity 6000.6.8f1 process on 366df50a25, ports "
     }
    ]
   },
@@ -3096,5 +3096,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "9342e53d7731e77c74d16911fcba9bf685cf9ca3"
+ "source_revision": "8b49eb178502f733b6336edfa188c8800282c21d"
 }
