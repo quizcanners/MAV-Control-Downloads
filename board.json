@@ -1423,7 +1423,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-13T19:05Z",
-     "noted": "",
+     "noted": "2026-11-13T19:13Z",
      "progress": 15,
      "ticked": 2,
      "total": 13
@@ -1485,11 +1485,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_FABLE",
-     "at": "2026-11-13T14:36Z",
-     "text": "ROG_FABLE, read for the 'Save Enemy Logistics on a worker' item, no change made: the startup save is EnemyLogistics SaveLiveData -> JsonUtility.ToJson(_liveDataCached) on main, queued because GetOrLoadLiveDatabase marks the live file dirty "
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-13T14:57Z",
      "text": "HEAVY 429 af4fb8cbf2: Save Enemy Logistics captures the current route offsets, timestamps and tombstones and hands the detached revision to Runtime File Publication for worker JSON serialization and write. The existing JSON format and revis"
@@ -1498,6 +1493,11 @@
      "by": "CLOUD_META",
      "at": "2026-11-13T18:35Z",
      "text": "Done on main: budgets are suggestions, never a block, and every measured-work consumer has a floor of one small chunk per frame (fa2c2c66, 15405efe). Left: whole-loop signal tests (how each system reacts to the signals), kept small. quiz, 2"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-13T19:13Z",
+     "text": "GETAC 31e4d67723. Strong Dev 831 Web Mercator Tile UDP 2.844/3.592 ms self per frame at five minutes. Each run accepted one direct tile and counted 946/804 already-current evaluations; no direct hash bytes or queued writes at the endpoint. "
     }
    ]
   },
@@ -3811,5 +3811,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "2dac93221376a51e52d51bb0736672344499c56b"
+ "source_revision": "689638e0efef2a0ef1402f910b55e63bff8cd2f2"
 }
