@@ -1610,8 +1610,20 @@
    "held": [],
    "steps": [
     {
-     "t": "Rog (Editor): compile CLOUD_SHADOW_BOX's fix (SituationGroupedIconSystem.GroupPa",
+     "t": "Done on main: model size is IconWidths (0.67) icon widths on each row in Map.uni",
      "x": true
+    },
+    {
+     "t": "HEAVY (Windows Editor) fitted the three boxes with models moved onto terrain: En",
+     "x": true
+    },
+    {
+     "t": "ROG_FABLE (1d4adbf91b): the box draw in GroupPass now uses one DrawMesh per box ",
+     "x": true
+    },
+    {
+     "t": "Rog/Windows Editor: with the real Decal Like Shadow at 1d4adbf91b the box region",
+     "x": false
     },
     {
      "t": "Editor Play with real entities (a peer): merged groups fade out when they split,",
@@ -1620,25 +1632,17 @@
     {
      "t": "Device build: the same on a phone and a tablet, with the frame time while zoomin",
      "x": false
+    },
+    {
+     "t": "Cloud (if quiz wants it): icon fallback above the 100 km cutoff; model body hits",
+     "x": false
+    },
+    {
+     "t": "Cloud: Anchors count in the ECS manager Inspector with Synthetic Situation on (g",
+     "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-13T15:41Z",
-     "text": "ROG_FABLE 2026-11-13, retracting my earlier 'correction' (the boxes were not off-screen: the synthetic set is generated around the camera, so the 3D models are always in view). Settled with models on screen (camera goto 54.5952 20.9070 300,"
-    },
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-13T16:29Z",
-     "text": "ROG_FABLE, one detail for the Frame Debugger step: the icon shader (Situation Grouped Icons.shader) is the only material known to draw in GroupPass; its passes are '#pragma target 3.5, multi_compile_instancing, instancing_options forcemaxco"
-    },
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-13T17:39Z",
-     "text": "ROG_FABLE (1d4adbf91b), shadow boxes now draw. Found by locating the models first (the synthetic set's 5 model instances are 0.9-1.9 km from the camera at the world origin; camera goto 54.5923 20.8938 250 puts the Cannon on screen) and the "
-    }
-   ]
+   "notes": []
   },
   {
    "n": 480,
@@ -3791,5 +3795,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "82f63529121504dc94115831af2722a1324bd9a8"
+ "source_revision": "95fa222b4935a40fa6fcc16dc84c6049467a3934"
 }
