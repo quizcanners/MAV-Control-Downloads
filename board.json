@@ -1799,24 +1799,25 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
-   "notes": [
+   "steps": [
     {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T19:16Z",
-     "text": "MAC_FABLE batch 9, step 3 not reached: the Editor is held by Unity's Shapes setup checker dialog; the iPad is not on the cable."
+     "t": "CR-A030-01 applied in Station_InputDevices_Stylus.cs (CLOUD_THREAD, uncompiled):",
+     "x": true
     },
     {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T20:54Z",
-     "text": "MAC_FABLE batch 11 step 4a (Mac Editor, main f5481745c3): the Stylus inspector (Settings > Dev Mode > Interface / PEGI > Input > Stylus) cannot be opened by command. Its entries are drawn with '\"Stylus\".PL().IsEntered()', which binds no sta"
+     "t": "Cloud: compile the CR-A030-01 change (cmp.sh); finding awaits quiz (Reviews/d7a0",
+     "x": false
     },
     {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T23:48Z",
-     "text": "MAC_FABLE batch 12 step 3: 'ui open stylus' (357b2fcfd4) opens Settings > Dev Mode > Interface / PEGI > Input > Stylus; those four entries now have stable keys (dev-mode, interface, input, stylus). Read in the Mac Editor in Play with the mo"
+     "t": "Mac or Rog with the iPad on the cable (four batches found it off the cable, devi",
+     "x": false
+    },
+    {
+     "t": "Real Android stylus: one that never reports tilt would navigate instead of paint",
+     "x": false
     }
-   ]
+   ],
+   "notes": []
   },
   {
    "n": 490,
@@ -3803,5 +3804,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1b9ee3c90e6f18d1c4d1a0046465236e8dd1314a"
+ "source_revision": "2308b3f588635ba4c2fa6abe1095417f58d805cb"
 }
