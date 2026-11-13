@@ -3370,8 +3370,8 @@
     {
      "who": "CODEX_MAC_UI",
      "since": "2026-11-13T18:10Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-13T18:20Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -3382,6 +3382,11 @@
      "by": "CODEX_MAC_UI",
      "at": "2026-11-13T17:44Z",
      "text": "Investigated: Share uses List Capsule Body / LiquidGlassCapsule shader; normal glass brightens the blur with (glass + 0.02) * 1.25, unlike neighboring squircle controls. Quiet mode replaces its material via MavControlVisual, so changing the"
+    },
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-13T18:20Z",
+     "text": "1c7d02afb8 darkens only the Share screen center capsule using its scoped glass material; shared capsules retain their prior brightness and the selected black and quiet paths remain. Unity shader reports no errors, prefab bindings and select"
     }
    ]
   },
@@ -3590,5 +3595,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0560e92ec39cbe81c7f3a036a750567f1d0a32b7"
+ "source_revision": "b5685f8f25ea51cf35dd704bcd03ec63ffaad945"
 }
