@@ -899,7 +899,15 @@
    "held": [],
    "steps": [
     {
-     "t": "Getac (Android): position sharing on, then a running map transfer, app in the ba",
+     "t": "Code complete: ReadActiveProcesses allocates no string per check (01bbad633d); A",
+     "x": true
+    },
+    {
+     "t": "Getac (Strong Dev 826): app in the background with sharing off reads 'MAV Contro",
+     "x": true
+    },
+    {
+     "t": "Getac (Android, a device where location may be sent; Strong has it denied and th",
      "x": false
     },
     {
@@ -907,23 +915,7 @@
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-12T18:57Z",
-     "text": "GETAC 2026-11-12 batch 3 step 9, Strong Dev 826 at 1fe7cbaa6b, app in the background 20 s with background sharing ChatOnly (position sharing off, no transfer running): one notification, title 'MAV Control \u0443 \u0444\u043e\u043d\u0456', text '\u0427\u0430\u0442 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u0438\u0439'; no l"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-12T20:13Z",
-     "text": "GETAC 2026-11-12 batch 4 step 5, Strong Dev 827 at 964c225b93: not exercised on the device. No bridge command turns position sharing on, and switching it on in the app would broadcast the Strong's GPS position to the live VPN peers (4-6 con"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-13T04:09Z",
-     "text": "Live notification check not done (2026-11-13): operator chose to keep position sharing off. Location permission on the Strong stayed denied (fine/coarse/background granted=false), so no position was shared; Settings > GPS shows both switche"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 381,
@@ -940,43 +932,47 @@
    "held": [],
    "steps": [
     {
-     "t": "Cloud: the coast seam at Mariupol (47.076,37.56, 1.08 km, zoom 16, google layer)",
-     "x": false
-    },
-    {
-     "t": "Getac (Strong + a paired peer): Mask Sync stall gone: on a build with the 3 ms p",
-     "x": false
-    },
-    {
-     "t": "Getac (Strong): two-finger pan, pinch and twist keep both finger anchors; the co",
-     "x": false
-    },
-    {
-     "t": "Getac idle loop (quiz, 2026-11-08: \"2. Getac's idle loop\"): lighting; water blue",
-     "x": false
-    },
-    {
-     "t": "Cloud, after Copernicus passes: NOAA globe relief removed",
+     "t": "Space relief: Copernicus GLO-30 4096x2048 globe is the only relief on main (2dfa",
      "x": true
+    },
+    {
+     "t": "Code on main: High/Low Planet Element quality, shader cleanup and Situation cell",
+     "x": true
+    },
+    {
+     "t": "Cloud: coast seam at Mariupol (47.076,37.56, 1.08 km, zoom 16, google layer; Str",
+     "x": false
+    },
+    {
+     "t": "Getac (Strong + a paired peer): Mask Sync stall gone: a phone with a paired peer",
+     "x": false
+    },
+    {
+     "t": "Getac (Strong): zoom hitches. Globe open on 826: 14 zoom-out taps gave 170-260 m",
+     "x": false
+    },
+    {
+     "t": "Getac (Strong): pinch by hand: top-down and pitched pan, pinch, twist and revers",
+     "x": false
+    },
+    {
+     "t": "Getac (Strong): black square patches on Offline tiles (814, same spots across a ",
+     "x": false
+    },
+    {
+     "t": "Getac or Rog (device): lighting: water blue with white clouds on High, Low and C",
+     "x": false
+    },
+    {
+     "t": "Cloud (C#, Editor look): quiz's 2026-11-13 items: night water reflects a brighti",
+     "x": false
+    },
+    {
+     "t": "Cloud (open findings, await quiz before code): CR-F06D-01 (a full Mask Sync swee",
+     "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-13T12:21Z",
-     "text": "HEAVY 381: Windows Unity D3D11 at d13173cfaf, captured 17 unique bound _baseColorTexture images from active Google tileset MeshRenderers with GPU readback. Several 256x256 sea textures visibly contain the same stepped green-to-blue transiti"
-    },
-    {
-     "by": "CLOUD_META",
-     "at": "2026-11-13T18:35Z",
-     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [Systems/BaseMap/Subsystems/Cesium/AGENTS.md] \"During the night, the reflection in the water reflects daily blue sky. Let's make it reflect like the proper ap"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-13T18:54Z",
-     "text": "REVIEW-487 CR-CB8D-01: [P3 S1/S2 brief](../Reviews/18df70da3.md#cr-cb8d-01--p3-night-water-change-never-reads-its-new-uniform) ready for quiz. Night-water commit adds only an unused uniform; reflection still returns the day texture. Existin"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 382,
@@ -3790,5 +3786,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0625cae7c2766bd86ac4d872984fecd3e337f656"
+ "source_revision": "e98c0bab7304c38fcd19c295bb8b73ad0fb8a758"
 }
