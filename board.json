@@ -3354,14 +3354,20 @@
     {
      "who": "CODEX_MAC_UI",
      "since": "2026-11-13T17:38Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-13T17:41Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-13T17:41Z",
+     "text": "f121110d01: expanded swipe handle raycast padding by 24 on every side; visual size and existing click/drag owner unchanged. Unity prefab inspection confirms saved padding and binding; touch interaction remains for screen verification."
+    }
+   ]
   }
  ],
  "verify": [
@@ -3410,5 +3416,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b8cbfcf6f8891285fe566c19195cb0140d3021c5"
+ "source_revision": "33c3b9eea97e702f68a364773d75ab432a51db61"
 }
