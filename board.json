@@ -1558,7 +1558,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T06:24Z",
-     "noted": "2026-11-13T06:24Z",
+     "noted": "2026-11-13T06:27Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -1581,11 +1581,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T06:13Z",
-     "text": "HEAVY goal 431, c47f57db1b: verified that the existing RTX path actually delivers H.264 with the matching Media Foundation bridge present. RTX 5070 sender and receiver on PL-007 completed native ICE playback 3/3 times, NvCodec selected, 15 "
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T06:15Z",
      "text": "HEAVY 431, 1255b9ef9d: published Stage-WindowsWebRtcQualification.ps1 to stage both rebuilt DLLs in a separate Windows x64 player folder and verify the copy hashes. Tested against a copy of the installed player; installed DLL hashes matched"
     },
@@ -1593,6 +1588,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T06:24Z",
      "text": "HEAVY 431, 088dbc9680: Windows managed sender now retries Media Foundation H.264 codec preferences once with VP8 appended when M116 returns InvalidModification. The native export probe verified implementation_name=MediaFoundation in the exa"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T06:27Z",
+     "text": "HEAVY 431: rebuilt the matching MavVideo.dll from the native tree at 7c99d69f4e plus the tracked bridge patch. WindowsLoopback passed 0 failures, hardware H.264 150 encoded and decoded, 37/37 bar/orientation/color, 33.1 ms mean / 48.7 ms wo"
     }
    ]
   },
@@ -2782,5 +2782,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "7c99d69f4ed38fbb4c73c9931f47a935acf111da"
+ "source_revision": "0c6d143c2436ba1a7e3c72a02e7a87a6582df1b5"
 }
