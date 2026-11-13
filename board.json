@@ -1508,7 +1508,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-13T11:15Z",
-     "noted": "",
+     "noted": "2026-11-13T11:48Z",
      "progress": 0,
      "ticked": 0,
      "total": 7
@@ -1547,11 +1547,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-13T09:31Z",
-     "text": "GETAC Strong Dev 829 at 71ba10b5c7 with 79520b801e, tiles_sumy. Twelve Home trials: SQLite 0.027\u20131.885 ms, median 1.019 ms, all drains completed, Retention active before 9/12. Prior 2365.606 ms pause not reproduced. Separate vpn.webmercator"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-13T11:02Z",
      "text": "GETAC switched Strong to the requested Android Test 830 build (ad8378ca21). Installed in place and reached the map. The earlier index publication timing experiment did not run. Next on Strong with authenticated diagnostics, allow a natural "
     },
@@ -1559,6 +1554,11 @@
      "by": "GETAC",
      "at": "2026-11-13T11:13Z",
      "text": "GETAC Strong Test 830 ad8378ca21, cold process with camera untouched and VPN active: PSS 1102 to 1904 to 2755 MiB at 32/151/300 s, Graphics 302 to 914 to 1728 MiB, 86 percent of five-minute rise. Baseline and Phone_Timings pushed in 7a59840"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-13T11:48Z",
+     "text": "GETAC graphics attribution narrowed to Sharp still frame cold run, about 1035 MiB more Android Graphics at five minutes with it on. See task 363 and Performance Baseline/RAM.md 588b0e0703. No Web Mercator index publication sample in either "
     }
    ]
   },
@@ -3140,5 +3140,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "244e3311ad8bcd0f3ec9c4ee2c08f3edb6caf4c0"
+ "source_revision": "14663e7cab7aa115b2c3b08d63d2e4d157bb7e74"
 }
