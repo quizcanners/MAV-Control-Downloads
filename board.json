@@ -532,19 +532,19 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-12T17:34Z",
-     "text": "REVIEW-462-CR-DBF4-02: source-repaired after the fixed tip by ff8608f072 (task 528). Actual YAML and repaired helper read 4056/4056; helper now detects the old 4056/4055 mismatch. [Narrow reconciliation and limits](../Reviews/3d0584381.md#p"
-    },
-    {
-     "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-13T02:19Z",
-     "text": "CLOUD_COMPLEXITY 2026-11-13 (board task 241), 07613219ba, cmp.sh NEW ERRORS: none, not run in the Editor or against a MavServer. The VPN's specs waited silently behind a route without a connection: AdvanceSpecs (Network_DirectRoute_Specs.cs"
-    },
-    {
      "by": "CLOUD_COMPLEXITY",
      "at": "2026-11-13T04:04Z",
      "text": "Moved (CLOUD_COMPLEXITY): task 557 is done, c7192fe3ba. Where the MavServer keeps a VPN's specs, an Admin's edit it has not taken is shown and handed to nobody, who keeps the specs is one answer (NetworkManager.CurrentSpecsKeeper), and a pe"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-13T04:52Z",
+     "text": "REVIEW-473-CR-C719-01: P3 S1/S2 brief ready: [same-Version server readback remains hidden](../Reviews/b1a8f0aa9.md#cr-c719-01--p3-a-same-version-server-copy-remains-hidden-as-an-untaken-local-edit). Refuse adopts different server content un"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-13T04:52Z",
+     "text": "REVIEW-473-CC-C719-01: P3 investigation and brief ready for quiz: [newer specs observation: scan, writer, staging and constraints](../Reviews/b1a8f0aa9.md#cc-c719-01--p3-stage-a-newer-specs-observation-where-the-passport-value-is-written). "
     }
    ]
   },
@@ -1494,7 +1494,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-13T04:30Z",
-     "noted": "",
+     "noted": "2026-11-13T04:54Z",
      "progress": 0,
      "ticked": 0,
      "total": 7
@@ -1534,17 +1534,17 @@
     {
      "by": "REVIEW",
      "at": "2026-11-12T23:31Z",
-     "text": "REVIEW-468-CR-E7ED-01: P2 the 15 s physical census cache is reused by active Migrating samples, but Adopt clears write debt as if their total were current. [S1/S2 exact source/call flow, 19-versus-16 admission model, Ready/expiry constraint"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-12T23:31Z",
      "text": "REVIEW-468-CC-7FF2-01: existing complexity brief extended, not duplicated: e7edb17ec reduces census frequency by a timer; the known-file mutation/accounting direction remains. [Current S1/S2 scan, logical-write/eviction/retirement staging p"
     },
     {
      "by": "PASIKA",
      "at": "2026-11-13T00:03Z",
      "text": "PASIKA 02:05: tiles_sumy drain DONE. Before (19:13Z flip): 36,411 files, 36,335 segment .sqlite, ~24.3 GB of tiles. After: payloads/ empty (0 files), payload_* tables empty, tiles.sqlite 498,287 tiles 8.9 GB + map.sqlite 2.6 GB. Time: flip "
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-13T04:54Z",
+     "text": "GETAC Strong Android Dev 828 (built 44c1b3cae8, diagnostic source on main b241d9a73d, evidence b112120806). Signed APK installed in place, map 3.644 s, Ready 7.089 s, cmp.sh NEW ERRORS: none."
     }
    ]
   },
@@ -2699,5 +2699,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "6d4ab0f6d4216ec91fb4fe1eb3e831b4987e7ef2"
+ "source_revision": "5e401aa8d699726d5ce80bde43073b59ee0f943f"
 }
