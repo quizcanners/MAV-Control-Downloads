@@ -2762,14 +2762,20 @@
     {
      "who": "CODEX_MAC_UI",
      "since": "2026-11-13T07:17Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-13T07:23Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-13T07:23Z",
+     "text": "16cc9b4d91 fixes the invisible X: UI_ExpandMenu used RGB-only lerping, and UI_ButtonMultitarget separately reset the same icons to half alpha. The X controller now lerps RGBA and exclusively owns those icons; background retains button feedb"
+    }
+   ]
   },
   {
    "n": 569,
@@ -2838,5 +2844,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "fc4af2257dc64ccdf759b03e04fe2a7f3a16b35b"
+ "source_revision": "3552acbf9f31665b0f77c4c06770a5bf5ec09090"
 }
