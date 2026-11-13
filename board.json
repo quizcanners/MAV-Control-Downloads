@@ -1319,39 +1319,19 @@
    "held": [],
    "steps": [
     {
-     "t": "Find views that print a status word their writer produced (full, failed, unreach",
+     "t": "All listed views now read a manager enum and pick their own words and icon: App ",
      "x": true
     },
     {
-     "t": "Give each a manager enum built from the user's intent plus the other conditions,",
+     "t": "Windows compile clean (main 947d141b70); DJI words made reachable in root tables",
      "x": true
     },
     {
-     "t": "Views read only the enum and pick their own text and icon per value",
-     "x": true
-    },
-    {
-     "t": "Name the enum in the system's SPEC beside its views",
-     "x": true
+     "t": "Cloud (leftover review items, none blocks the goal): CC-58C9-01 and CC-6DAA-01 (",
+     "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CLOUD_E",
-     "at": "2026-11-12T08:14Z",
-     "text": "CLOUD_E: re-read all eight listed views, all through. Remaining writer-text prints found by grep, not yet given an enum: Remote Sensors connection error text (RemoteSense_ConnectionInspector.GetLastConnectionErrorText, Singleton_RemoteSenso"
-    },
-    {
-     "by": "CLOUD_G",
-     "at": "2026-11-12T08:20Z",
-     "text": "CLOUD_G: 418 last two views on main d3b0a50146: MavLink comm link blocked port is enum MAV.COMM_Links.SocketFault (None/ListenerException/PortInUse) set by the listeners, SocketFaultWords picks the English/Ukrainian text in the three views "
-    },
-    {
-     "by": "CLOUD_BOARD",
-     "at": "2026-11-12T10:02Z",
-     "text": "Closed: nothing missing. The last two views (MavLink comm link SocketFault, Remote Sensors ConnectionFailureKind) are on main d3b0a50146."
-    }
-   ]
+   "notes": []
   },
   {
    "n": 424,
@@ -3856,5 +3836,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "094615581b5b9b32b55eb10fe2af67210f28d035"
+ "source_revision": "a840282ee81cb19c6bfd47317e349479810e6e72"
 }
