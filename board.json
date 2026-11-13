@@ -1421,7 +1421,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T12:22Z",
-     "noted": "",
+     "noted": "2026-11-13T12:26Z",
      "progress": 15,
      "ticked": 2,
      "total": 13
@@ -1484,11 +1484,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T10:17Z",
-     "text": "HEAVY 429: Windows Unity 6000.6.8f1 D3D11 offline tiles_sumy at 900 m, 39.4 degrees, 8 FPS, dfca6763b6. The rolling Power Lines draw CPU row rose 0.063 to 0.282 ms while 60 to 235 chunks were visited on preparation frames and 145 to 775 lif"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T10:23Z",
      "text": "HEAVY 429: settled Windows Power Lines replay at 900 m, 39.4 degrees, 8 FPS on offline tiles_sumy, Unity D3D11 c730c222aa. Loading peak rolling draw CPU 0.346 ms, sampled 333 chunks visited to submit eight segments. 97-frame loading capture"
     },
@@ -1496,6 +1491,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T11:22Z",
      "text": "HEAVY 429: finished the two Windows startup-baseline rows. STARTUP.md already contains the PASIKA Input re-read (2.01 ms and 0.344 ms action build) and the post-change warm Play at 94c01f5271 (DefaultPosition 4.344 ms, MGRS 0.427 ms, pose 3"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T12:26Z",
+     "text": "HEAVY 429: fixed the Windows Cesium Bing Dry Water GPU diagnostic in f375f589c6. Unity 6000.6.8f1 D3D11 reports its local connectable Editor Profiler as -1; the previous numeric sentinel rejected it. Unity compiled, CesiumWaterShaderRenderT"
     }
    ]
   },
@@ -3150,5 +3150,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "192e23d61620953672648edb5269afcce40f08d1"
+ "source_revision": "b01f375f672fb2d9a2fa90b8f39012aaf8d40f0b"
 }
