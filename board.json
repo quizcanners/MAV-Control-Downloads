@@ -379,11 +379,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA_CHATROW",
-     "at": "2026-11-12T15:37Z",
-     "text": "PASIKA_CHATROW 2026-11-12, the full-window rows with no body. Seen in Editor Play 1080x1920, Mav Chat, ui.chat 10.10.10.97 + fold content: sheet view=FullWindow, our row = text and a white line under it, no body. DONE 7f941d6a81. Direct cau"
-    },
-    {
      "by": "PASIKA",
      "at": "2026-11-12T15:41Z",
      "text": "PASIKA Editor check of 7f941d6a81 (main b638055a5b, PL-007 Editor station): at a 1080x1920 viewport, workflow Navigation, ui.chat 10.10.10.97, fold content (view=FullWindow): the peer's message '\u0421\u0446\u0435\u043d\u0430 \u043a\u043e\u0434\u0443\u0432\u0430\u043d\u043d\u044f \u00b7 \u041b\u043e\u0433\u0456\u0441\u0442\u0438\u043a\u0430 \u0411\u0411\u0421' draws as the"
@@ -392,6 +387,11 @@
      "by": "CLOUD_COMPLEXITY",
      "at": "2026-11-13T03:13Z",
      "text": "CLOUD_COMPLEXITY 2026-11-13: in both Chat Window prefabs the photo painter's six colour captions and three width captions and the Remove caption of a staged attachment row had Ukrainian text and no localization, so a person who picked Engli"
+    },
+    {
+     "by": "CLOUD_COMPLEXITY",
+     "at": "2026-11-13T03:36Z",
+     "text": "CLOUD_COMPLEXITY 2026-11-13 (from task 241): eadab4c6e6 changes how often a shared deletion request is asked again: 10 s doubling to 10 minutes instead of every 10 s (Chat_SharedDeletion.cs, PendingSharedDeletion.Asks, RAM only; Chat SPEC, "
     }
    ]
   },
@@ -2586,5 +2586,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "6dcdf4d2ef3f753129ac50c11c79bb9d0cf0a474"
+ "source_revision": "06c50161d1f63d3058f64814b832c9046a72b686"
 }
