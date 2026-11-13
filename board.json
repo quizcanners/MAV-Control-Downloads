@@ -491,11 +491,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T16:28Z",
-     "text": "HEAVY Windows finalise, build 804 fixture repair"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T16:56Z",
      "text": "HEAVY 369 Windows All follow-up"
     },
@@ -503,6 +498,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T17:05Z",
      "text": "HEAVY Windows finalise, goal 369"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-13T18:54Z",
+     "text": "REVIEW-487 CR-F070-02: [S1/S2 owner-move extension](../Reviews/18df70da3.md#cr-f070-02--p3-existing-host-binding-finding-gains-owner-move-evidence) ready: memory-report/proc-memory hosts retain removed nested Diagnostics bindings; first als"
     }
    ]
   },
@@ -1037,11 +1037,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T12:14Z",
-     "text": "HEAVY 381: Windows Unity D3D11 on 99f8416425, same Google Cesium camera as the prior A/B (47.06812 N, 37.56000 E, 1049.7 m above ground, pitch 50.60). Temporarily wired the existing baseColorTexture sample directly into Cesium Google BaseCo"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T12:21Z",
      "text": "HEAVY 381: Windows Unity D3D11 at d13173cfaf, captured 17 unique bound _baseColorTexture images from active Google tileset MeshRenderers with GPU readback. Several 256x256 sea textures visibly contain the same stepped green-to-blue transiti"
     },
@@ -1049,6 +1044,11 @@
      "by": "CLOUD_META",
      "at": "2026-11-13T18:35Z",
      "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [Systems/BaseMap/Subsystems/Cesium/AGENTS.md] \"During the night, the reflection in the water reflects daily blue sky. Let's make it reflect like the proper ap"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-13T18:54Z",
+     "text": "REVIEW-487 CR-CB8D-01: [P3 S1/S2 brief](../Reviews/18df70da3.md#cr-cb8d-01--p3-night-water-change-never-reads-its-new-uniform) ready for quiz. Night-water commit adds only an unused uniform; reflection still returns the day texture. Existin"
     }
    ]
   },
@@ -1160,11 +1160,6 @@
    "notes": [
     {
      "by": "ROG_FABLE",
-     "at": "2026-11-12T16:57Z",
-     "text": "ROG_FABLE 2026-11-12 batch 6 step 4: nothing left to convert. fe5594d68b (18:37, 'Pixel dividers draw one pixel again') already turned the 69 dividers in the 15 prefabs into the one-pixel line; git grep finds no prefab referencing the delet"
-    },
-    {
-     "by": "ROG_FABLE",
      "at": "2026-11-12T17:31Z",
      "text": "ROG_FABLE 2026-11-12: line done and dropped: the 208 UI_OnePixelLine material links cleared in batch 4 (36 prefabs, one commit each), the 69 separators converted by fe5594d68b; git grep finds no prefab on the deleted line materials."
     },
@@ -1172,6 +1167,11 @@
      "by": "REVIEW",
      "at": "2026-11-13T06:13Z",
      "text": "REVIEW-474-CC-1347-01: P3 S1/S2 complexity brief ready for quiz: [grid joins still compute unused straight-strip neighbours](../Reviews/1f8115ab2.md#cc-1347-01--p3-grid-joins-still-compute-the-unused-straight-strip-neighbours). Exact scan/w"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-13T18:54Z",
+     "text": "REVIEW-487 CR-18DF-01: [P2 S1/S2 brief](../Reviews/18df70da3.md#cr-18df-01--p2-native-screen-callbacks-lost-in-the-station-split) ready for quiz. Station split deleted both preserved native screen receivers; Android/iOS senders and GameObje"
     }
    ]
   },
@@ -3667,7 +3667,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-13T18:55Z",
+     "text": "ROG_FABLE: main compiles again in the Unity Editor (Editor and test assemblies) after the Singleton_GroundStation/Station split: 197eb306a2 (fields put back in Singleton_GroundStation, Roadmap messages back in VPN_Messages, moved classes qu"
+    }
+   ]
   },
   {
    "n": 609,
@@ -3790,5 +3796,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c21d6359313f69a171caaa6cd56180298d2a7cbc"
+ "source_revision": "e8372e12cd60dcc41b9195b026acf09f646c320f"
 }
