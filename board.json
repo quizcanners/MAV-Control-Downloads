@@ -695,7 +695,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T10:52Z",
-     "noted": "",
+     "noted": "2026-11-13T10:54Z",
      "progress": 0,
      "ticked": 0,
      "total": 10
@@ -745,11 +745,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-12T21:55Z",
-     "text": "REVIEW-466-CR-4066-01: original Linux tar rejection source-resolved by 8b211eee2; valid synthetic tar passes and duplicate/oversize/nonregular/identity/JSON controls reject. Existing d7adbf49a callback already prepares Linux keys and includ"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-13T10:46Z",
      "text": "HEAVY 374: Brigade 68 Windows 830 non-development IL2CPP built at 51543b8145 on Unity 6000.6.8f1 in 96 s (BuildPlayer 89 s). Initial run lacked the release-key directory. Retry used normal embedded-key preparation with a private local direc"
@@ -758,6 +753,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T10:50Z",
      "text": "HEAVY 374: published Brigade 68 Windows 830 portable to GitHub Test using MAVSEAL1 and the exact 51543b8145 build key. Packaged bootstrap verified before mutation; publisher downloaded all uploaded bytes and checked SHA-256 before promotion"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T10:54Z",
+     "text": "HEAVY 374: Brigade 68 Windows Test Drive folder still lists the 817 installer. The 830 portable ZIP upload stopped before transfer at the connector 100 MiB limit (271801740 bytes), and no Drive mount is present. Recovered original Config_68"
     }
    ]
   },
@@ -3096,5 +3096,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "54b76a12430bbaf02c4e8a645b218137b5e16602"
+ "source_revision": "fb742a1abf00d82c9a37296db230988f92c5a9cc"
 }
