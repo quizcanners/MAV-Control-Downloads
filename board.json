@@ -76,7 +76,7 @@
     {
      "who": "CLOUD_COMPLEXITY",
      "since": "2026-11-12T23:09Z",
-     "noted": "2026-11-13T05:51Z",
+     "noted": "2026-11-13T06:05Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -99,11 +99,6 @@
    "notes": [
     {
      "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-13T05:04Z",
-     "text": "On main: e136bc0099 (a peer's saved profile is no longer marked for a rewrite by a shared position, a background app's 10 s presence, a flipped live heartbeat bit or the hourly names sheet; Meta.SetBattery is the one writer of the battery; "
-    },
-    {
-     "by": "CLOUD_COMPLEXITY",
      "at": "2026-11-13T05:16Z",
      "text": "quiz answered the two waiting questions at 2026-11-13 05:14Z with one line: \"a) Delete it\". Read as a for both: delete the diagnostics hand-over through files (refactor file place 14) and the MavServer's task list in the app (place 9); the "
     },
@@ -111,6 +106,11 @@
      "by": "CLOUD_COMPLEXITY",
      "at": "2026-11-13T05:51Z",
      "text": "Deletion 1 of 2 is on main (quiz, 2026-11-13: 'a) Delete it'): the hand-over of error reports to the Windows background app, 6,967 lines of C#; cmp.sh no new errors, RoutingServer.Tests and BackgroundChat.Tests pass on Linux; no MavServer r"
+    },
+    {
+     "by": "CLOUD_COMPLEXITY",
+     "at": "2026-11-13T06:05Z",
+     "text": "Deletion 2 of 2 is on main (ed9abb8172; quiz, 2026-11-13: 'a) Delete it'): the MavServer's task list is gone from the app (Server tasks row and page, the route's task client, eight tasks.* backdoor verbs), from the server source (Network_Hu"
     }
    ]
   },
@@ -2776,5 +2776,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "15f4dac4cbed13a76519eb52d716b2f42f21584d"
+ "source_revision": "16e84efd9c54c12845d3f3c1ca2923f9ccd3b624"
 }
