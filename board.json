@@ -1558,7 +1558,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T06:37Z",
-     "noted": "",
+     "noted": "2026-11-13T06:40Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -1580,11 +1580,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-13T06:32Z",
-     "text": "REVIEW-475-CR-1255-01: P3 S1/S2 brief ready for quiz: [qualification staging via an input junction](../Reviews/2b9477c2b.md#cr-1255-01--p3-an-input-junction-can-admit-staging-inside-the-input-player). Conditional path concern with source/ho"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-13T06:33Z",
      "text": "HEAVY goal 431, 5543a0a108: added H.264 Main fan-out coverage to the Windows video relay suite. The fixture uses the Radeon offer fmtp (4d0029, packetization mode 1, MediaFoundation) and sends synthetic RTP over local ICE/DTLS/SRTP through "
@@ -1593,6 +1588,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T06:36Z",
      "text": "HEAVY 431: extended the local relay check to actual Radeon Media Foundation encoder output. Captured 10 H.264 Main access units at 320x180, packetized the first keyframe, sent it over local ICE/DTLS/SRTP through the Go relay, and reassemble"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T06:40Z",
+     "text": "HEAVY 431: reproduced the patched Release webrtc.dll from a fresh extraction of pinned Unity source with only the tracked adapter patch, pinned libwebrtc, and staged toolchain. CMake required -T cuda=<toolkit> on this Visual Studio installa"
     }
    ]
   },
@@ -2779,5 +2779,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d7224bb34304f1b3af2a23ed74a20c191b0b6ae5"
+ "source_revision": "97c466382249e042059f21d24248212616f3daab"
 }
