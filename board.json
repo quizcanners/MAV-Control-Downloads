@@ -1558,7 +1558,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T04:59Z",
-     "noted": "",
+     "noted": "2026-11-13T05:43Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -1581,11 +1581,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T04:44Z",
-     "text": "HEAVY: Media Foundation WebRTC prototype pushed in cad041915c as two apply-checked patches plus build instructions under Assets/_PROJECT/Systems/Peer Video/Native~/WebRTC. Both DLLs build; MavVideo WindowsLoopback on PL-007 passed with zero"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T04:46Z",
      "text": "HEAVY 431 follow-up a241d338a7: extended the native Unity WebRTC factory test to submit D3D11 frames through VideoEncoder::Encode and receive its EncodedImage callbacks on PL-007. Passed 1/1 (927 ms), 10 H.264 access units, Main SPS present"
     },
@@ -1593,6 +1588,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T04:58Z",
      "text": "HEAVY 431, 726be501a7: native WebRTC Context peers now exchange active H.264 Main offers and answers. Windows fixture 2/2 passed (1.26 s), including D3D11 delivery with ten Main access units. An additional live transport attempt stopped in "
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T05:43Z",
+     "text": "HEAVY goal 431: 2846da05cb adds a connected native WebRTC test. Release built and both factory tests passed twice on PL-007. The same-host D3D11 peer pairs negotiated H.264 Main over ICE; Media Foundation encoded 21 and 22 frames, and the r"
     }
    ]
   },
@@ -2734,5 +2734,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f0ddd18ff001d4bff3717a496ee5cb41be4a7a3d"
+ "source_revision": "9fb75f3692717e7bd054bc1a060cb0b58964eea3"
 }
