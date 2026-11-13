@@ -169,7 +169,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-13T16:58Z",
-     "noted": "",
+     "noted": "2026-11-13T17:33Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -200,11 +200,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-13T16:12Z",
-     "text": "GETAC 94632e7ee0: same signed Dev 831 APK 064cbe64b6 on Strong, current/previous keep-alive gave 731.9/1095.9 MiB Graphics at five minutes. Both had 143 masks and 4000x2304 grabs with depth Auto. Current kept three 2x camera texture IDs thr"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-13T16:27Z",
      "text": "GETAC 0c09690b56. Strong Dev 831 Perfetto reproduced the remaining growth: 614.0 to 755.6 MiB GPU Memory at 150-210 s. Sixteen roughly 9 MiB steps account for 141.8 MiB. The 2x camera IDs stayed stable; all three 1x camera objects repeatedl"
     },
@@ -212,6 +207,11 @@
      "by": "GETAC",
      "at": "2026-11-13T16:49Z",
      "text": "GETAC 47a7ea6cda keeps recorded full-size color/depth/depth-copy descriptors through sharp refreshes and frozen UI frames that draw straight to the back buffer. The 1x objects were repeatedly retired in the 0c09690b56 Strong trace. Descript"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-13T17:33Z",
+     "text": "GETAC f911883ade. Strong same Dev APK 65daca46ed verified 1x retention: 532.2 versus 759.5 MiB Graphics at 300 s, with depth Auto and 143 masks on both. All three 1x IDs persisted with retention; the 2x-only control repeatedly replaced them"
     }
    ]
   },
@@ -3405,5 +3405,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c30d2aceb36b52e0f9e106e02eec4d9e6091b2ef"
+ "source_revision": "5b31c4d589de3b676f499055d5d6a1cb2ee10bc2"
 }
