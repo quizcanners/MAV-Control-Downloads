@@ -76,7 +76,7 @@
     {
      "who": "CLOUD_COMPLEXITY",
      "since": "2026-11-13T14:15Z",
-     "noted": "2026-11-13T17:24Z",
+     "noted": "2026-11-13T18:23Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -98,11 +98,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-13T17:24Z",
-     "text": "Floor build 804, step 2 is on main (d7c486f561). Done: 52 of the 56 PeerBuilds gates at or below 804 are deleted with the older message forms behind them; ReleaseKeys 741 and NoiseIk 803 (key hand-over to an old build) and the two Motorola "
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-13T17:55Z",
      "text": "REVIEW-486 CC-301C-01: [P3 S1/S2 investigation and brief](../Reviews/1e23ef737.md#cc-301c-01--p3-unchanged-old-peer-passports-rescan-all-receive-states) ready for quiz: each unchanged old-peer passport rescans all receives. Existing passpor"
@@ -111,6 +106,11 @@
      "by": "REVIEW",
      "at": "2026-11-13T17:55Z",
      "text": "REVIEW-486: [earlier repair reconciliation](../Reviews/1e23ef737.md#reconciliation-with-earlier-reports-and-recorded-results): CC-ADEE-01 source-repaired by ed336cf8a, CR-ADEE-01 raw ingress and reported ordinary-photo completion paths sour"
+    },
+    {
+     "by": "CLOUD_COMPLEXITY",
+     "at": "2026-11-13T18:23Z",
+     "text": "2b part 1 on main as 0d5499c085: Noise IK is the one handshake that makes a session (EncryptedLink.UsesNoise); a build 741 to 802 gets the main-key greeting alone and is still handed the key to a new build; the session half of the older han"
     }
    ]
   },
@@ -3595,5 +3595,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f4d19c093c619c7398298d5d6e986be623df438d"
+ "source_revision": "af704418b2d206990ccc3bbe0a0df2d4440dca14"
 }
