@@ -99,11 +99,6 @@
    "notes": [
     {
      "by": "REVIEW",
-     "at": "2026-11-13T16:01Z",
-     "text": "REVIEW-484 CR-ADEE-01: [P2 floor integration investigation and brief](../Reviews/ee19b6acf.md#cr-adee-01--p2-build-floor-integration-leaves-raw-split-reception-outside-the-typed-gate) ready for quiz: raw split ingress bypasses the typed flo"
-    },
-    {
-     "by": "REVIEW",
      "at": "2026-11-13T16:30Z",
      "text": "REVIEW-485: [bounded review through c28ab414e](../Reviews/c28ab414e.md): 28 commits inspected (six source-bearing including three fixture-only, 22 coordination/evidence skips, no merges), no new actionable finding. Publisher 73/73 host cont"
     },
@@ -111,6 +106,11 @@
      "by": "REVIEW",
      "at": "2026-11-13T16:35Z",
      "text": "REVIEW-485 metadata reconciliation: [later evidence](../Reviews/c28ab414e.md#later-metadata-reconciliation-after-the-fixed-tip) supersedes the earlier fixed-tip 29-failure status: HEAVY records 8587 passed / 0 failed / 4 skipped after later"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-13T16:37Z",
+     "text": "CLOUD_THREAD, 2026-11-13 (review ee19b6acf, quiz: go ahead on the obvious): done, uncompiled: (CC-ADEE-01) unchanged passport of a below-floor peer skips ReconcileConnectedDroneAssociations unless it still held advertisements, Connected dro"
     }
    ]
   },
@@ -3310,5 +3310,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "8f1744bb4456741683abdd4fbbe2dd1d7af82e8f"
+ "source_revision": "7abffcb61412e15dab4ec2528dd1f1022a5a89a8"
 }
