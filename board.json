@@ -100,17 +100,17 @@
     {
      "by": "REVIEW",
      "at": "2026-11-13T17:55Z",
-     "text": "REVIEW-486 CC-301C-01: [P3 S1/S2 investigation and brief](../Reviews/1e23ef737.md#cc-301c-01--p3-unchanged-old-peer-passports-rescan-all-receive-states) ready for quiz: each unchanged old-peer passport rescans all receives. Existing passpor"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-13T17:55Z",
      "text": "REVIEW-486: [earlier repair reconciliation](../Reviews/1e23ef737.md#reconciliation-with-earlier-reports-and-recorded-results): CC-ADEE-01 source-repaired by ed336cf8a, CR-ADEE-01 raw ingress and reported ordinary-photo completion paths sour"
     },
     {
      "by": "CLOUD_COMPLEXITY",
      "at": "2026-11-13T18:23Z",
      "text": "2b part 1 on main as 0d5499c085: Noise IK is the one handshake that makes a session (EncryptedLink.UsesNoise); a build 741 to 802 gets the main-key greeting alone and is still handed the key to a new build; the session half of the older han"
+    },
+    {
+     "by": "CLOUD_META",
+     "at": "2026-11-13T18:35Z",
+     "text": "Done on main: one floor build 804 for old peers, Noise IK alone as the one handshake (0d5499c0), error-report hand-over and MavServer task list deleted. Left: the rest of the seal decision 2) b (map and sync data plain, simpler seal), per c"
     }
    ]
   },
@@ -200,11 +200,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-13T16:49Z",
-     "text": "GETAC 47a7ea6cda keeps recorded full-size color/depth/depth-copy descriptors through sharp refreshes and frozen UI frames that draw straight to the back buffer. The 1x objects were repeatedly retired in the 0c09690b56 Strong trace. Descript"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-13T17:33Z",
      "text": "GETAC f911883ade. Strong same Dev APK 65daca46ed verified 1x retention: 532.2 versus 759.5 MiB Graphics at 300 s, with depth Auto and 143 masks on both. All three 1x IDs persisted with retention; the 2x-only control repeatedly replaced them"
     },
@@ -212,6 +207,11 @@
      "by": "GETAC",
      "at": "2026-11-13T17:56Z",
      "text": "GETAC 1044df1680: reanalysis of the Strong trace found twelve +2.254 MiB GPU steps and repeated 0.5x color/depth ID turnover while depth-copy and 1x/2x IDs stayed stable. Patch keeps half-size attachments from the recorded full-size descrip"
+    },
+    {
+     "by": "CLOUD_META",
+     "at": "2026-11-13T18:35Z",
+     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [_Bootstrap/AGENTS.md] \"Turning Altitude visualisation on and off should also dirty the map visual (meaning liquid glass should update).\" 2) [_Bootstrap/AGENT"
     }
    ]
   },
@@ -1037,11 +1037,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T12:11Z",
-     "text": "HEAVY 381: isolated the Windows coast band further on 65eeec70b8. In a settled Cesium Google view of Mariupol near 1.07 km above ground, the stepped sea band persisted with Map Overlay hidden, PseudoDecals hidden, a black camera clear, and "
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T12:14Z",
      "text": "HEAVY 381: Windows Unity D3D11 on 99f8416425, same Google Cesium camera as the prior A/B (47.06812 N, 37.56000 E, 1049.7 m above ground, pitch 50.60). Temporarily wired the existing baseColorTexture sample directly into Cesium Google BaseCo"
     },
@@ -1049,6 +1044,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T12:21Z",
      "text": "HEAVY 381: Windows Unity D3D11 at d13173cfaf, captured 17 unique bound _baseColorTexture images from active Google tileset MeshRenderers with GPU readback. Several 256x256 sea textures visibly contain the same stepped green-to-blue transiti"
+    },
+    {
+     "by": "CLOUD_META",
+     "at": "2026-11-13T18:35Z",
+     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [Systems/BaseMap/Subsystems/Cesium/AGENTS.md] \"During the night, the reflection in the water reflects daily blue sky. Let's make it reflect like the proper ap"
     }
    ]
   },
@@ -1485,11 +1485,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-13T14:18Z",
-     "text": "HEAVY 429 83107f9359: focused RenderDoc D3D11 counter replay matched all 43 Control Zone large-input bake draws on RTX 5070, High at 1 km, 900 observations. GPU sum across frames 11.93994 ms: seed 0.08080, 32 propagation and cleanup draws 9"
-    },
-    {
      "by": "ROG_FABLE",
      "at": "2026-11-13T14:36Z",
      "text": "ROG_FABLE, read for the 'Save Enemy Logistics on a worker' item, no change made: the startup save is EnemyLogistics SaveLiveData -> JsonUtility.ToJson(_liveDataCached) on main, queued because GetOrLoadLiveDatabase marks the live file dirty "
@@ -1498,6 +1493,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T14:57Z",
      "text": "HEAVY 429 af4fb8cbf2: Save Enemy Logistics captures the current route offsets, timestamps and tombstones and hands the detached revision to Runtime File Publication for worker JSON serialization and write. The existing JSON format and revis"
+    },
+    {
+     "by": "CLOUD_META",
+     "at": "2026-11-13T18:35Z",
+     "text": "Done on main: budgets are suggestions, never a block, and every measured-work consumer has a floor of one small chunk per frame (fa2c2c66, 15405efe). Left: whole-loop signal tests (how each system reacts to the signals), kept small. quiz, 2"
     }
    ]
   },
@@ -2522,6 +2522,11 @@
      "by": "CLOUD_COMPLEXITY",
      "at": "2026-11-13T02:43Z",
      "text": "CLOUD_COMPLEXITY 2026-11-13: review finding CC-554A-01 (REVIEW-471, the folder walk searched the folder's dictionary from the start for every child folder) is source-repaired by 76ffbd46ca: the walk keeps its last child folder and steps to "
+    },
+    {
+     "by": "CLOUD_META",
+     "at": "2026-11-13T18:35Z",
+     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [Systems/Street View/AGENTS.md] \"Old peer gets nothing in, and we free space RAM and save nothing.\""
     }
    ]
   },
@@ -2661,6 +2666,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-13T07:18Z",
      "text": "ROG_FABLE: the grid landed from another worker in 133b9ba700 (prefab, UI_MergedStrip, UI_MavTelemetryView, tests) while I authored the same; I dropped my duplicate before it reached main. Checked on the Windows Editor (D3D11, 1920x1080, pee"
+    },
+    {
+     "by": "CLOUD_META",
+     "at": "2026-11-13T18:35Z",
+     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [Drone Control/UI/AGENTS.md] \"Telemetry bottom strip needs to be telemetry grid.\" 2) [Drone Control/UI/SPEC.md] \"Telemetry bottom strip needs to be telemetry "
     }
    ]
   },
@@ -2686,6 +2696,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-13T16:40Z",
      "text": "Found (CLOUD_THREAD): the pair is the MGRS field's history buttons, Entered MGRS History Undo (previous) and Redo (next) in MGRS Coordinate Entry.prefab. Their composites have _screenEdges 0, _alwaysDarkenEdges 0, no _pixelLine_Optional and"
+    },
+    {
+     "by": "CLOUD_META",
+     "at": "2026-11-13T18:35Z",
+     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [UI/Guides/Layout/AGENTS.md] \"We have exit button, we have only one of those. Across all the UI, we have one exit button. There is explicit UI guide about exi"
     }
    ]
   },
@@ -2711,6 +2726,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-13T06:55Z",
      "text": "ROG_FABLE: fixed in a89540d62e. Direct cause: a9df6c1a35 (2026-11-12) made OnPopulateMesh send uv2 = rect.center in the line's own space; the canvas batches vertex positions into the canvas's space and leaves UVs alone, so the shader's snap"
+    },
+    {
+     "by": "CLOUD_META",
+     "at": "2026-11-13T18:35Z",
+     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [Main View SPEC] \"Suggestion buttons seems to have list their one pixel dividers.\""
     }
    ]
   },
@@ -2728,11 +2748,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-13T05:40Z",
-     "text": "No goal fits: a one-off UI shadow rule, written in Assets/_PROJECT/UI/SPEC.md Button Shadow."
-    },
-    {
      "by": "ROG_FABLE",
      "at": "2026-11-13T06:00Z",
      "text": "ROG_FABLE: done. 88ec78793a Clock.prefab: MAV/Editor/Author plaque shadows ran ('Plaque shadow: added to Clock'). 4352b2596a MGRS Coordinate Entry.prefab: the bar control's NormalOnly no longer lists 'UI BG Shadow', so the shadow stays when"
@@ -2741,6 +2756,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-13T06:03Z",
      "text": "ROG_FABLE: the share button done too (092de64cd3 5cafa40abf ): Transmit Map Center Button's shadow left NormalOnly, ScreenCoverLifetimeTests now asserts it stays while quiet (52/52)."
+    },
+    {
+     "by": "CLOUD_META",
+     "at": "2026-11-13T18:35Z",
+     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [UI/SPEC.md] \"The time plaque also needs the shadow now. I think all Non-Interacting variants of the button need shadows.\""
     }
    ]
   },
@@ -2775,6 +2795,11 @@
      "by": "CODEX_MAC_UI",
      "at": "2026-11-13T07:23Z",
      "text": "16cc9b4d91 fixes the invisible X: UI_ExpandMenu used RGB-only lerping, and UI_ButtonMultitarget separately reset the same icons to half alpha. The X controller now lerps RGBA and exclusively owns those icons; background retains button feedb"
+    },
+    {
+     "by": "CLOUD_META",
+     "at": "2026-11-13T18:35Z",
+     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [UI/Guides/Inspectors/AGENTS.md] \"inspector needs some padding from the top, not to overlay X\" 2) [UI/Guides/Layout/AGENTS.md] \"The X is still hard to see. Ne"
     }
    ]
   },
@@ -2874,11 +2899,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T07:33Z",
-     "text": "Windows Unity 6000.6.8f1 compiled ea44a27ede. Focused EditMode 12/12: EcefAnchorGridCountTests 1/1 (500 instances in one 10 km cell share one anchor and release it), EcsTrainingSimulationSourceTests 7/7, SituationEffectsTests 4/4. XML: C:/M"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T15:55Z",
      "text": "HEAVY ECS finalise"
     },
@@ -2886,6 +2906,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T16:56Z",
      "text": "HEAVY 572 finalise"
+    },
+    {
+     "by": "CLOUD_META",
+     "at": "2026-11-13T18:35Z",
+     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [Systems/ECS/SPEC.md] \"We have ECS for Remote Sensors. Are we reusing our existing tech for Situation Entities? Lets make sure we have a comprehensive reusabl"
     }
    ]
   },
@@ -2946,6 +2971,11 @@
      "by": "CODEX_MAC_UI",
      "at": "2026-11-13T08:08Z",
      "text": "e608b6ece7: the final notification no longer treats the narrower foldout tongue as a full-width lower card; card-to-card joins remain. Editor Play with two visible cards and a temporarily acknowledged local Far From Home card showed the ton"
+    },
+    {
+     "by": "CLOUD_META",
+     "at": "2026-11-13T18:35Z",
+     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [UI/Guides/Notifications/SPEC.md] \"Bottom notification is merged down, corners should be rounded.\""
     }
    ]
   },
@@ -3010,6 +3040,11 @@
      "by": "CODEX_MAC_UI",
      "at": "2026-11-13T09:22Z",
      "text": "1fd0f8cff2: selected Me now enters the shared map-center ruler path and draws the same outlined selection ring as a peer. Folded MavChat uses Sheet.IsFolded as ContentHidden, disabling Route/GPS/Tools/Chat regions at the displayed lowest st"
+    },
+    {
+     "by": "CLOUD_META",
+     "at": "2026-11-13T18:35Z",
+     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [Chat/SPEC.md] \"\u201cAdditionally, when panel is folded, it should get disabled. Only Capsule should stay.\u201d\" 2) [Workflows/Navigator/SPEC.md] \"Additionally, when "
     }
    ]
   },
@@ -3164,6 +3199,11 @@
      "by": "CODEX_MAC_UI",
      "at": "2026-11-13T14:14Z",
      "text": "9611b5f76c: MGRS non-MGRS paste uses the compass paste channel; Google links including coordinate-free long links resolve in Search, and pasted links finish while Search is closed. cmp.sh NEW ERRORS: none; Editor compiled before final Yande"
+    },
+    {
+     "by": "CLOUD_META",
+     "at": "2026-11-13T18:35Z",
+     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [Systems/Search/SPEC.md] \"Just to reiterate something, the paste and logic we need to be unified, because we have a lot of places where we can paste it. First"
     }
    ]
   },
@@ -3271,6 +3311,11 @@
      "by": "CODEX_MAC_UI",
      "at": "2026-11-13T18:08Z",
      "text": "a309a0f323: link entries persist locally with paste and URL drop, selected stream playback/restart and browser-link actions, preview, undo and private-transfer guards. Current main merged; Unity compiled; focused EditMode 4/4, macOS native "
+    },
+    {
+     "by": "CLOUD_META",
+     "at": "2026-11-13T18:35Z",
+     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [Systems/Street View/AGENTS.md] \"Also about our street views. I remember wanting something that would allow me to use not only photos but also links to stream"
     }
    ]
   },
@@ -3320,7 +3365,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_META",
+     "at": "2026-11-13T18:35Z",
+     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [UI/SPEC.md] \"if you flick any notification or just in general over that area\" 2) [Notifications AGENTS] \"Flick or swipe to hide notifications doesn't really "
+    }
+   ]
   },
   {
    "n": 597,
@@ -3334,7 +3385,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_META",
+     "at": "2026-11-13T18:35Z",
+     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [UI/SPEC.md] \"I do remember asking for the tint for the selected element to be yellow. That was a bad idea. Let's make it like dark, halfway dark. And the pan"
+    }
+   ]
   },
   {
    "n": 598,
@@ -3392,8 +3449,27 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
-   "notes": []
+   "steps": [
+    {
+     "t": "Move the AI Sandbox dispatcher commands to their owners",
+     "x": false
+    },
+    {
+     "t": "Move what is left in Singleton_GroundStation and Station to the systems that own",
+     "x": false
+    },
+    {
+     "t": "Early breaks at the right depth",
+     "x": false
+    }
+   ],
+   "notes": [
+    {
+     "by": "CLOUD_META",
+     "at": "2026-11-13T18:35Z",
+     "text": "Done on main: early break for VPN down in Peer.CanUseSyncConnection (a1614a81); Diagnostics, Startup, Persistence, FrameRate, Scheduler moved out of Singleton_GroundStation (e2b75667); Station split with systems in their own classes and fol"
+    }
+   ]
   },
   {
    "n": 601,
@@ -3545,8 +3621,62 @@
      "by": "CLOUD_META",
      "at": "2026-11-13T18:14Z",
      "text": "Rule (quiz, 2026-11-13: \"preserve them only for tasks. The spec lists and agent files, actually spec lists especially needs to have very clean and nice, understandable, organized formulation. But the task can preserve the quotes for the lif"
+    },
+    {
+     "by": "CLOUD_META",
+     "at": "2026-11-13T18:35Z",
+     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [AGENTS.md] \"preserve them only for tasks. The spec lists and agent files, actually spec lists especially needs to have very clean and nice, understandable, o"
     }
    ]
+  },
+  {
+   "n": 607,
+   "name": "Every SPEC and agent file that h",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [
+    "2026-11-13T18:35Z"
+   ],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "SPECs carry the section",
+     "x": true
+    },
+    {
+     "t": "Agent files that hold a design carry it or point to the SPEC",
+     "x": false
+    },
+    {
+     "t": "quiz works the compromise lists",
+     "x": false
+    }
+   ],
+   "notes": [
+    {
+     "by": "CLOUD_META",
+     "at": "2026-11-13T18:35Z",
+     "text": "Done: every SPEC has an Ultimate design and compromises section (bbe6348c1); the rule is in Coordination/Principles.md. Left: agent files that hold a design carry it or point to the SPEC; quiz works the compromise lists. quiz, 2026-11-13, m"
+    }
+   ]
+  },
+  {
+   "n": 608,
+   "name": "Note from ROG_FABLE",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -3595,5 +3725,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "af704418b2d206990ccc3bbe0a0df2d4440dca14"
+ "source_revision": "1cf217a6ec720aad5e34393cce6fe679cff2a492"
 }
