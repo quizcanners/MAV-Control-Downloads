@@ -1068,11 +1068,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-12T09:14Z",
-     "text": "ROG_OPUS 2026-11-12 batch 24, Editor Play session on Rog (Unity 6000.6.8f1, main 63118855, not the containing All): (1) lifecycle: Ready in 104 s wall from play.enter (app.lifecycle: map present 79.9 s, Ready 82.7 s, Main UI load 2.76 s, ma"
-    },
-    {
      "by": "PASIKA",
      "at": "2026-11-12T10:43Z",
      "text": "PASIKA ran 483's commands on the live Editor station (main 5101c38f30, Unity 6000.6.8f1, Play): 'bootstrap.scene chat' -> path/asset 'Assets/_PROJECT/Scenes/Chat UI.unity' in_step=true loaded=false; 'bootstrap.scene chat clear' -> path=\"\" a"
@@ -1081,6 +1076,11 @@
      "by": "ROG_OPUS",
      "at": "2026-11-12T10:48Z",
      "text": "ROG_OPUS 2026-11-12: Inspector-pick part of item 2 ran by backdoor in an Editor Play session on the Rog (Unity 6000.6.8f1, main 5101c38f30): app.lifecycle startup Ready (map present 20.0 s, Ready 23.0 s, lifecycle_error_count=0); bootstrap."
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-13T01:40Z",
+     "text": "PASIKA containing All, run 5 on main 2eed589211 (temporary candidate, quiz-allowed): 8579 passed, 0 failed, 8 skipped, 1 inconclusive. The inconclusive one is by design: MavChatSheetTests.ASlowTwitch... assumes 30 dp > the 32 px drag thresh"
     }
    ]
   },
@@ -2512,5 +2512,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "32b506074d9cb251f123acabc65f959538c4070a"
+ "source_revision": "cc7abcb8455e258a023de2e4d78c638a86f4c803"
 }
