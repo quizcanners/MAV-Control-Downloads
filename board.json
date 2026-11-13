@@ -1558,7 +1558,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T06:17Z",
-     "noted": "",
+     "noted": "2026-11-13T06:24Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -1581,11 +1581,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T06:10Z",
-     "text": "HEAVY 431, 3311290faf: the prototype now preserves Unity NVENC when its factory is available, so Media Foundation Main cannot shadow an existing RTX encoder. Release webrtc.dll and native tests rebuilt. On PL-007, RTX factory test 1/1 passe"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T06:13Z",
      "text": "HEAVY goal 431, c47f57db1b: verified that the existing RTX path actually delivers H.264 with the matching Media Foundation bridge present. RTX 5070 sender and receiver on PL-007 completed native ICE playback 3/3 times, NvCodec selected, 15 "
     },
@@ -1593,6 +1588,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T06:15Z",
      "text": "HEAVY 431, 1255b9ef9d: published Stage-WindowsWebRtcQualification.ps1 to stage both rebuilt DLLs in a separate Windows x64 player folder and verify the copy hashes. Tested against a copy of the installed player; installed DLL hashes matched"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T06:24Z",
+     "text": "HEAVY 431, 088dbc9680: Windows managed sender now retries Media Foundation H.264 codec preferences once with VP8 appended when M116 returns InvalidModification. The native export probe verified implementation_name=MediaFoundation in the exa"
     }
    ]
   },
@@ -2782,5 +2782,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c65048edcb26d022b456b9b59bd2d34e47f24bd0"
+ "source_revision": "fe3a3bd44889b3d76c1cd39383d3e36606f5ac8b"
 }
