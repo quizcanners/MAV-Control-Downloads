@@ -2694,6 +2694,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-13T06:33Z",
      "text": "ROG_FABLE 2026-11-13 (Windows Editor D3D11, 1920x1080, peer 10.10.10.9 selected, main at 79dbcc23f5): the dividers are not a colour problem, the one-pixel line draws nothing at all. (1) Active: with the peer selected only the Chat button's "
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-13T06:55Z",
+     "text": "ROG_FABLE: fixed in a89540d62e. Direct cause: a9df6c1a35 (2026-11-12) made OnPopulateMesh send uv2 = rect.center in the line's own space; the canvas batches vertex positions into the canvas's space and leaves UVs alone, so the shader's snap"
     }
    ]
   },
@@ -2797,5 +2802,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c4dda29cf9eaeac1567a9e1d44a977e0207812fd"
+ "source_revision": "021a2d02f37a0e13d543a19dde592f6b36a15d31"
 }
