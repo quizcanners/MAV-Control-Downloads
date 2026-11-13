@@ -1674,7 +1674,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T08:37Z",
-     "noted": "",
+     "noted": "2026-11-13T08:42Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -1697,11 +1697,6 @@
    "notes": [
     {
      "by": "ROG_FABLE",
-     "at": "2026-11-12T23:53Z",
-     "text": "ROG_FABLE batch 9 step 1 (main with cce3cc7533, Windows Editor D3D11, Synthetic Situation 6410 groups, camera 80 m tilt 35 at 20.9/54.6, 1920x1080): the shadow box still draws nothing. (a) A/B: three rows' ShadowBoxSize set to 0 in Map.unit"
-    },
-    {
-     "by": "ROG_FABLE",
      "at": "2026-11-13T04:27Z",
      "text": "ROG_FABLE 2026-11-13 (main, Windows Editor D3D11, Synthetic Situation, 80 m tilt 35 at 20.9/54.6), narrowing 'shadow box draws nothing', all edits temporary and reverted: (1) A temporary Debug.Log in GroupPass's render function: owner._shad"
     },
@@ -1709,6 +1704,11 @@
      "by": "CLOUD_ECS_UNIFY",
      "at": "2026-11-13T07:28Z",
      "text": "CLOUD_ECS_UNIFY 2026-11-13, quiz asked whether Situation Entities reuse the Remote Sensors ECS: only the World and anchor grid; the rest is parallel. Done on main (uncompiled): Situation took the manager's 10 km cell size instead of its own"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T08:42Z",
+     "text": "HEAVY 479: Windows Unity 6000.6.8f1 D3D11 at d678537f53, Synthetic Situation 6410 groups, 80 m / tilt 35 / 20.9 E 54.6 N. Native Frame Debugger retained 183 events with 28 valid details. Event 22 writes the 756x481 _CameraDepthTexture (URP "
     }
    ]
   },
@@ -2979,5 +2979,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "bd22e0e50bfa2d86a8b9052a55af73935bdfe8bf"
+ "source_revision": "5d986d5d8eb2928722cf9c09ca194aaf8d61b962"
 }
