@@ -2523,7 +2523,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_COMPLEXITY",
+     "at": "2026-11-13T03:41Z",
+     "text": "CLOUD_COMPLEXITY 2026-11-13, read for the app-only step and not built. (1) The people table answer (GET /tunnel/people) is address, name, flags: no keys, so a device cannot learn its row's key from it. (2) Deriving the key from the tunnel f"
+    }
+   ]
   },
   {
    "n": 559,
@@ -2586,5 +2592,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "06c50161d1f63d3058f64814b832c9046a72b686"
+ "source_revision": "9ddba63b1a21cba1fd8a574dd8180095393946a8"
 }
