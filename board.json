@@ -98,19 +98,19 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-13T16:38Z",
-     "text": "CLOUD_THREAD, 2026-11-13: quiz chose throw-away for an admitted photo whose peer turns out below the floor: below-floor passport now retires that peer's unfinished receives (PayloadReceiver.RetireReceivesOfPeer) and a finishing preparation "
-    },
-    {
-     "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-13T17:03Z",
-     "text": "17:03Z CLOUD_COMPLEXITY: floor build 804, step 2 still in the working tree, nothing pushed. App side compiles clean, tests compile with 0 new errors in the quick pass. Left before the push: six test peers that need a build in the passport ("
-    },
-    {
      "by": "CLOUD_COMPLEXITY",
      "at": "2026-11-13T17:24Z",
      "text": "Floor build 804, step 2 is on main (d7c486f561). Done: 52 of the 56 PeerBuilds gates at or below 804 are deleted with the older message forms behind them; ReleaseKeys 741 and NoiseIk 803 (key hand-over to an old build) and the two Motorola "
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-13T17:55Z",
+     "text": "REVIEW-486 CC-301C-01: [P3 S1/S2 investigation and brief](../Reviews/1e23ef737.md#cc-301c-01--p3-unchanged-old-peer-passports-rescan-all-receive-states) ready for quiz: each unchanged old-peer passport rescans all receives. Existing passpor"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-13T17:55Z",
+     "text": "REVIEW-486: [earlier repair reconciliation](../Reviews/1e23ef737.md#reconciliation-with-earlier-reports-and-recorded-results): CC-ADEE-01 source-repaired by ed336cf8a, CR-ADEE-01 raw ingress and reported ordinary-photo completion paths sour"
     }
    ]
   },
@@ -169,7 +169,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-13T17:35Z",
-     "noted": "",
+     "noted": "2026-11-13T17:56Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -200,11 +200,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-13T16:27Z",
-     "text": "GETAC 0c09690b56. Strong Dev 831 Perfetto reproduced the remaining growth: 614.0 to 755.6 MiB GPU Memory at 150-210 s. Sixteen roughly 9 MiB steps account for 141.8 MiB. The 2x camera IDs stayed stable; all three 1x camera objects repeatedl"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-13T16:49Z",
      "text": "GETAC 47a7ea6cda keeps recorded full-size color/depth/depth-copy descriptors through sharp refreshes and frozen UI frames that draw straight to the back buffer. The 1x objects were repeatedly retired in the 0c09690b56 Strong trace. Descript"
     },
@@ -212,6 +207,11 @@
      "by": "GETAC",
      "at": "2026-11-13T17:33Z",
      "text": "GETAC f911883ade. Strong same Dev APK 65daca46ed verified 1x retention: 532.2 versus 759.5 MiB Graphics at 300 s, with depth Auto and 143 masks on both. All three 1x IDs persisted with retention; the 2x-only control repeatedly replaced them"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-13T17:56Z",
+     "text": "GETAC 1044df1680: reanalysis of the Strong trace found twelve +2.254 MiB GPU steps and repeated 0.5x color/depth ID turnover while depth-copy and 1x/2x IDs stayed stable. Patch keeps half-size attachments from the recorded full-size descrip"
     }
    ]
   },
@@ -390,11 +390,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-13T15:28Z",
-     "text": "HEAVY Windows Search follow-up"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-13T16:01Z",
      "text": "REVIEW-484 CR-7EBB-01: [P3 MavChat paste investigation and brief](../Reviews/ee19b6acf.md#cr-7ebb-01--p3-mavchat-landscape-paste-still-submits-geocoding) ready for quiz: paste skips submission only in Navigation portrait, so landscape still"
@@ -403,6 +398,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-13T16:37Z",
      "text": "CLOUD_THREAD, 2026-11-13 (CR-7EBB-01): MavChat paste in landscape no longer geocodes: both paste sites in UI_SearchQueryView.cs now test the Navigation workflow (MavChatWorkflow), portrait stays only for layout. Uncompiled; Need for verify "
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-13T17:55Z",
+     "text": "REVIEW-486: [CR-7EBB-01 reconciliation](../Reviews/1e23ef737.md#reconciliation-with-earlier-reports-and-recorded-results): ed336cf8a source-repairs both MavChat paste sites with Navigation workflow guards, portrait retained for layout; f463"
     }
    ]
   },
@@ -3504,5 +3504,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c9344d10f99a555e2e435b9af10636c17f386428"
+ "source_revision": "cc77127c38184e7aae7aa039dafb57b643596370"
 }
