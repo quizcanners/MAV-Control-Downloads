@@ -1761,11 +1761,6 @@
    "notes": [
     {
      "by": "PASIKA",
-     "at": "2026-11-13T00:15Z",
-     "text": "PASIKA containing All, run 4 on main 7f74389255 (temporary candidate, quiz-allowed): 8573 passed, 6 failed, 8 skipped, 1 inconclusive (run 3: 13 red; all 13 now pass). New reds: SyntheticDroneTests x2 (NRE in RelayedDroneMovingEastHalfASeco"
-    },
-    {
-     "by": "PASIKA",
      "at": "2026-11-13T00:45Z",
      "text": "PASIKA after run 4: SyntheticDrone x2 and DirectRouteHubTypes fixed (d5bdc115b7, tests used pre-rename member names); TrenchShaderRender fixed (37d2f9fca2, capture sets _ScaledScreenParams/_ScaleBiasRt, 15/15 in a fixture run). Open: HoldWa"
     },
@@ -1773,6 +1768,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-13T01:07Z",
      "text": "ROG_FABLE (main f12a82c49b, Windows Editor D3D11): after the shader-test commits 67a5f86ff6/3ccd2edb2a/37d2f9fca2, TrenchShaderRender 14/14, PowerLineGeometry 59/59, VoiceMessageRecordingFeedback 6/6 pass. Order leak for the containing All:"
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-13T01:11Z",
+     "text": "PASIKA: HoldWaveDepthDemand fixed (LongPressWave pixel UV back on ComputeScreenPos, one flip convention with its centre); HoldWaveDepthDemand + TrenchShaderRender fixture run green 16/16. All 6 reds of run 4 now have fixes on main; only the"
     }
    ]
   },
@@ -2512,5 +2512,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0864e7d4ff6d0f808b0da4040d54f8225e994fab"
+ "source_revision": "6b4f7e5892fe6de061b6a312da1295997c32deb5"
 }
