@@ -1686,7 +1686,7 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-13T14:07Z",
-     "noted": "",
+     "noted": "2026-11-13T14:29Z",
      "progress": 33,
      "ticked": 1,
      "total": 3
@@ -1709,11 +1709,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T11:08Z",
-     "text": "HEAVY 479: Windows Unity 6000.6.8f1 D3D11 at 756c7c9558, live Synthetic Situation 6410 groups at 54.59954 N / 20.9 E, 61.8 m camera altitude. Alternated zero and authored sizes in all three Situation model shadow rows. Temporarily replaced "
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T11:14Z",
      "text": "HEAVY 479: live Windows D3D11 coverage at 176c7732ee. The prior settled camera had five submitted boxes at fade=1, but all five were wholly behind or outside the viewport. The previous zero-darkening result therefore does not show that the "
     },
@@ -1721,6 +1716,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T11:18Z",
      "text": "HEAVY 479: completed the Windows Editor shadow fitting step. Temporarily positioned one live instanced model from each authored row at three verified in-frustum terrain hits, leaving the normal solid and ContactShadow_DecalLike draws in use"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-13T14:29Z",
+     "text": "ROG_FABLE 2026-11-13, CORRECTION to my two notes of 2026-11-12/13 ('the box draw produces no pixel'): that conclusion is not proven. The debug log shows the 5 shadow boxes (the only 3D model instances in the synthetic set) at world x 440-47"
     }
    ]
   },
@@ -3198,5 +3198,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d7a0dc418b3244a97f23a0ca119f531fb569059c"
+ "source_revision": "f51fa1ad0163d2e6915efa1447f9ed5ede98c0d0"
 }
