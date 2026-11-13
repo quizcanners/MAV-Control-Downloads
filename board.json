@@ -1683,7 +1683,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T08:43Z",
-     "noted": "",
+     "noted": "2026-11-13T08:51Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -1705,11 +1705,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_FABLE",
-     "at": "2026-11-13T04:27Z",
-     "text": "ROG_FABLE 2026-11-13 (main, Windows Editor D3D11, Synthetic Situation, 80 m tilt 35 at 20.9/54.6), narrowing 'shadow box draws nothing', all edits temporary and reverted: (1) A temporary Debug.Log in GroupPass's render function: owner._shad"
-    },
-    {
      "by": "CLOUD_ECS_UNIFY",
      "at": "2026-11-13T07:28Z",
      "text": "CLOUD_ECS_UNIFY 2026-11-13, quiz asked whether Situation Entities reuse the Remote Sensors ECS: only the World and anchor grid; the rest is parallel. Done on main (uncompiled): Situation took the manager's 10 km cell size instead of its own"
@@ -1718,6 +1713,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T08:42Z",
      "text": "HEAVY 479: Windows Unity 6000.6.8f1 D3D11 at d678537f53, Synthetic Situation 6410 groups, 80 m / tilt 35 / 20.9 E 54.6 N. Native Frame Debugger retained 183 events with 28 valid details. Event 22 writes the 756x481 _CameraDepthTexture (URP "
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T08:51Z",
+     "text": "HEAVY 479: captured the Synthetic Situation D3D11 frame with official RenderDoc 1.47 at 80 m, 35 deg, 20.9 E 54.6 N, 6410 groups. RenderDoc XML proves SRV 21271 points to camera depth resource 21268 (_CameraDepthTexture_756x481_R32_SFloat_T"
     }
    ]
   },
@@ -3011,5 +3011,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "66090fd239ce6345b70722b4929bc86469147f44"
+ "source_revision": "148372b835ca93687b93658c214ca15bf721d414"
 }
