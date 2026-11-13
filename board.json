@@ -169,7 +169,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-13T18:52Z",
-     "noted": "",
+     "noted": "2026-11-13T19:03Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -199,11 +199,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-13T17:56Z",
-     "text": "GETAC 1044df1680: reanalysis of the Strong trace found twelve +2.254 MiB GPU steps and repeated 0.5x color/depth ID turnover while depth-copy and 1x/2x IDs stayed stable. Patch keeps half-size attachments from the recorded full-size descrip"
-    },
-    {
      "by": "CLOUD_META",
      "at": "2026-11-13T18:35Z",
      "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [_Bootstrap/AGENTS.md] \"Turning Altitude visualisation on and off should also dirty the map visual (meaning liquid glass should update).\" 2) [_Bootstrap/AGENT"
@@ -212,6 +207,11 @@
      "by": "GETAC",
      "at": "2026-11-13T18:50Z",
      "text": "GETAC 8cab4ef029: Strong Dev 831 fa2c2c66b7 with half-size retention kept all three 1000x576 IDs through 90-300 s. The prior 2.254 MiB Perfetto steps did not recur; max 1.020 MiB. Five-minute Graphics 507.9 versus 532.2 MiB on the prior bui"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-13T19:03Z",
+     "text": "GETAC 84c5fc4563 and 287fdd840c: same Dev APK on Strong. Mask loading 60-90 s grew GPU Memory 97.0 MiB off / 101.9 MiB on; first sharp refresh's three 35-36 MiB steps were absent off. At 300 s 391.2 MiB off / 517.8 MiB on. Smaller 1.020 MiB"
     }
    ]
   },
@@ -3812,5 +3812,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3f33551e5f386698ef540af957d85d494b947d6d"
+ "source_revision": "df3e93f25388a20dc1d58ac76571c5845e6ca63f"
 }
