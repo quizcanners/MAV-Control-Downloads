@@ -1046,7 +1046,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T11:32Z",
-     "noted": "",
+     "noted": "2026-11-13T11:36Z",
      "progress": 25,
      "ticked": 1,
      "total": 4
@@ -1073,11 +1073,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T09:35Z",
-     "text": "HEAVY 382: current-main Windows Unity EditMode All at 1045cd7106: 8572 passed, 0 failed, 4 skipped, 1 screen-dependent inconclusive. Bootstrap/persistence member receipts from that XML: WaypointCheckpoint 61/61, StartupBatchTiming 19/19, Ch"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T09:41Z",
      "text": "HEAVY 382: Windows Unity 6000.6.8f1 at 4b5f7e5352, same checkout reopened with ports 50093/50092 and confirmed MapOnly test identity before changing settings. Sharp still frame when idle went on in the disposable profile. After leaving and "
     },
@@ -1085,6 +1080,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T10:05Z",
      "text": "HEAVY 382: full Windows Editor process restart acceptance passed in MapOnly. The prior run saved Off, its normal quit wrote the final primary and kept the routine-write hash as .previous. A new Unity 6000.6.8f1 process on 366df50a25, ports "
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T11:36Z",
+     "text": "HEAVY 382/369: Windows Unity 6000.6.8f1 D3D11 live Editor EditMode All at cf5ea29805 under the disposable Station test identity: 8568 passed, 5 failed, 4 skipped, 0 inconclusive, 218.6 s. Bootstrap members all passed: WaypointCheckpointTest"
     }
    ]
   },
@@ -3131,5 +3131,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "cf5ea2980502ca28acc78e5ade8907b196e7a731"
+ "source_revision": "b0d38383d1b8924c09967610c76880b0d887c325"
 }
