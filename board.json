@@ -2346,19 +2346,14 @@
     {
      "who": "CODEX_MAC_UI",
      "since": "2026-11-13T04:49Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-13T04:59Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "CLOUD_SHADER_CHECK",
-     "at": "2026-11-12T19:49Z",
-     "text": "Second and third passes pushed (7b521db2 .. 0288b19e): Pointer ring switch done (_USE_POINTER_RING from Singleton_ClickVisualizer, item 5), touch feedback reciprocals done (item 6), Energy Cube per-cell motion in C# done (item 1; UI_EnergyC"
-    },
     {
      "by": "PASIKA",
      "at": "2026-11-12T21:23Z",
@@ -2368,6 +2363,11 @@
      "by": "CODEX_MAC_UI",
      "at": "2026-11-13T04:46Z",
      "text": "CODEX_MAC_UI: item 3 done in 06e3fc7341. Floating Panel receives pixels-per-UV in UV1.xy via the existing UI_ShadowImageSize with a new fwidth mode; UV1.z tint and existing shadow mode remain. Authored carrier on Mav Chat Sheet and three st"
+    },
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-13T04:59Z",
+     "text": "CODEX_MAC_UI: item 4 done in e6cdf78078. World blur wraps package Vert and interpolates symmetric taps, retaining 11 horizontal and nine vertical reads, weights, zigzag and ping. Metal Editor procedural comparison against the preceding shad"
     }
    ]
   },
@@ -2690,5 +2690,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e8b359e81e44dd3d24c6c69b9d92a17ff7cbac9f"
+ "source_revision": "e13b29cfc30d6259d8c66ba956075c4bbc469592"
 }
