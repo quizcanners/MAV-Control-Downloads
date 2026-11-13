@@ -2328,19 +2328,14 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T08:14Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-13T08:19Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T04:46Z",
-     "text": "CODEX_MAC_UI: item 3 done in 06e3fc7341. Floating Panel receives pixels-per-UV in UV1.xy via the existing UI_ShadowImageSize with a new fwidth mode; UV1.z tint and existing shadow mode remain. Authored carrier on Mav Chat Sheet and three st"
-    },
     {
      "by": "CODEX_MAC_UI",
      "at": "2026-11-13T04:59Z",
@@ -2350,6 +2345,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T08:13Z",
      "text": "HEAVY 547: Fullscreen Video viewport-to-source UV affine pair on main in 45d744c444. C# combines viewport extent, aspect fit and source flip and updates the material on a change. The shader keeps the URP target-origin handling and existing "
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T08:19Z",
+     "text": "HEAVY 547: completed FPV matrix composition in 3331a3b2c3. C# publishes world-to-clip and the world-to-view depth row for Projection Photo Transition, Video Accumulation from Reprojection, Origami UV Mesh Brush and Street View Web Mercator "
     }
    ]
   },
@@ -2988,5 +2988,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d5c81c266b7316724258055aaf1e9355274cc211"
+ "source_revision": "0792dd417a13b4441cb6b14ba89610b88ce73d1b"
 }
