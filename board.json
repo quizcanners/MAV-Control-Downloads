@@ -188,11 +188,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T23:52Z",
-     "text": "MAC_FABLE batch 12 step 1: the iPhone 16 Pro Max and the iPad show 'unavailable' in devicectl, so the iPhone FrozenDouble read was not run. On the 1.16 GiB: the Getac's own numbers say the option does not hold it. Graphics read 1,160 MiB wi"
-    },
-    {
      "by": "CLOUD_THREAD",
      "at": "2026-11-13T05:27Z",
      "text": "CLOUD_THREAD 2026-11-13: quiz: \"Lets delay liquid glass by 1 second after interaction. There are some animetions that still need some time in normal resolution. So new plan: Interacting with map - max FPS, half resolution. Any changes, like"
@@ -201,6 +196,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-13T05:32Z",
      "text": "CLOUD_THREAD 2026-11-13: quiz: \"Liquid glass updates still need investigation. I see synthetic drone on the screen, yet it shows liquid glass. I aslo just moved syncthetic drone, who for some reason was using name DJI - which is another use"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-13T05:37Z",
+     "text": "CLOUD_THREAD 2026-11-13: quiz: \"Turning Altitude visualisation on and off should also dirty the map visual (meaning liquid glass should update).\" DONE (uncompiled): root fix, every Station.SetSetting/SetSettingNow marks the map changed (Map"
     }
    ]
   },
@@ -2714,5 +2714,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "24977db3ce4ac622e58d7f76cde7ec21b0ce5629"
+ "source_revision": "c94e12a4b497b8d57c51559660714abcffffa5ae"
 }
