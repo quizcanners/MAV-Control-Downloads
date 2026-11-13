@@ -920,9 +920,9 @@
   },
   {
    "n": 382,
-   "name": "Bootstrap isolation: one part failing is marked failed and t",
+   "name": "",
    "done": "",
-   "goal": true,
+   "goal": false,
    "under": 0,
    "ticks": [
     "2026-11-12T10:49Z",
@@ -930,43 +930,12 @@
    ],
    "priority": "normal",
    "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Editor (Rog or PASIKA): in the next Editor Play session run bootstrap.scene chat",
-     "x": true
-    },
-    {
-     "t": "PASIKA: containing All on current main, each member recorded with --result (the ",
-     "x": true
-    },
-    {
-     "t": "PASIKA runs All including WaypointCheckpointTests; Cloud audits the writers of t",
-     "x": false
-    },
-    {
-     "t": "Getac (DJI controller): the corrected Android build keeps the UI advancing throu",
-     "x": false
-    }
+   "flags": [
+    "vague"
    ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-13T11:59Z",
-     "text": "HEAVY: prepared Windows All passed, including WaypointCheckpoint 61/61, StartupBatchTiming 19/19, CheckpointFilePublication 7/7 and PersistenceRotationPin 106/106. Qualification, XML hash, source and skips are on goal 369. Remaining Cloud w"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-13T12:37Z",
-     "text": "HEAVY 382: after the Windows GPU capture, compared the local Loading Screen prefab to main by Unity object ID. All object IDs and references matched; only YAML order, whitespace and two TextMeshPro serialization fields changed. Restored mai"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-13T13:05Z",
-     "text": "HEAVY 382 ROOT-SETTINGS-DIRTY-ADMISSION Windows run at 9cf81eb190: Unity 6000.6.8f1 EditMode All finished with 8,581 passed, 0 failed, 4 skipped, 0 inconclusive. WaypointCheckpointTests 61/61, CheckpointFilePublicationTests 7/7, Persistence"
-    }
-   ]
+   "held": [],
+   "steps": [],
+   "notes": []
   },
   {
    "n": 383,
@@ -3751,5 +3720,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3bb38716ab20a080541bdb12d9b78403d3d30684"
+ "source_revision": "2c791e87726f7f0ab6becee293f949042e5dae7e"
 }
