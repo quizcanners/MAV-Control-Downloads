@@ -448,7 +448,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T08:24Z",
-     "noted": "",
+     "noted": "2026-11-13T08:30Z",
      "progress": 0,
      "ticked": 0,
      "total": 7
@@ -487,11 +487,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T07:40Z",
-     "text": "HEAVY 369: live Windows Unity 6000.6.8f1, main a5d783509a (after prefab Author cleanup). Editor refresh reported no script compile failure and the lifecycle bridge completed EditMode All: 8,569 passed, 0 failed, 4 skipped, 1 inconclusive, 1"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T08:04Z",
      "text": "HEAVY 369: fixed the two Windows render fixtures reported on 429. fc93a7c87b requires both strong beyond-page attenuation and the specified linear RGB (.035,.055,.09) for the Real Sun shadow, replacing the stale 15% ratio. b26a7be6b6 select"
     },
@@ -499,6 +494,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-13T08:11Z",
      "text": "ROG_FABLE: for the Windows player gate. cmp.sh's player set (UNITY_STANDALONE_WIN) reports CS0103 'RTCErrorType does not exist' in Workflows/Streamer/Station_Streamer_DjiWebRtcSender.cs, inside '#if UNITY_STANDALONE_WIN || UNITY_EDITOR_WIN'"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T08:30Z",
+     "text": "HEAVY 369: Windows x64 production player 829 (Brigade 68) built from de57403a29749f41de8fe2abb2d87e89a94f5176 in Unity 6000.6.8f1. Exit 0, BuildPlayer 214 s, development=False, BackgroundChat staged. Native Unity compile did not reproduce t"
     }
    ]
   },
@@ -2988,5 +2988,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c7e858ed2607017108d104164208ed86a9aabc6c"
+ "source_revision": "1efb55e3e6491792dfa9624f675ab47136e18354"
 }
