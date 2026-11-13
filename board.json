@@ -56,47 +56,42 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLOUD_COMPLEXITY",
-     "since": "2026-11-13T14:15Z",
-     "noted": "2026-11-13T18:23Z",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
-     "t": "Cloud, one group of writers per commit, Rog compiles: one decision per frame, th",
+     "t": "Cut on main (details in the refactor file): dead Editor Authors and PrefabEdits,",
+     "x": true
+    },
+    {
+     "t": "quiz's answers done: the Windows error-report hand-over (6,967 lines) and the Ma",
+     "x": true
+    },
+    {
+     "t": "One decision per frame: the current view (Station.UI.GetCurrentOverlay) is one g",
+     "x": true
+    },
+    {
+     "t": "Cloud: seal decision 2b part 2, one set of keys: one link state, the sender pick",
      "x": false
     },
     {
-     "t": "Mac or Rog (Editor): UI_ExpandMenu's own-picture builder still makes its picture",
+     "t": "Cloud, one group of writers per commit, Rog or Mac compiles: remaining one-decis",
      "x": false
     },
     {
-     "t": "quiz's word: places 2, 3, 9 and 14 in Coordination/Refactoring/creeping-complexi",
+     "t": "Cloud, next reads: each store tells a peer its hash with its own message and tim",
+     "x": false
+    },
+    {
+     "t": "Mac or Rog (Editor): run the EditMode tests of this task's cuts (overlay tests, ",
+     "x": false
+    },
+    {
+     "t": "quiz's word: UI_ExpandMenu's picture builder (new GameObject, GetComponent) sits",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "REVIEW",
-     "at": "2026-11-13T17:55Z",
-     "text": "REVIEW-486: [earlier repair reconciliation](../Reviews/1e23ef737.md#reconciliation-with-earlier-reports-and-recorded-results): CC-ADEE-01 source-repaired by ed336cf8a, CR-ADEE-01 raw ingress and reported ordinary-photo completion paths sour"
-    },
-    {
-     "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-13T18:23Z",
-     "text": "2b part 1 on main as 0d5499c085: Noise IK is the one handshake that makes a session (EncryptedLink.UsesNoise); a build 741 to 802 gets the main-key greeting alone and is still handed the key to a new build; the session half of the older han"
-    },
-    {
-     "by": "CLOUD_META",
-     "at": "2026-11-13T18:35Z",
-     "text": "Done on main: one floor build 804 for old peers, Noise IK alone as the one handshake (0d5499c0), error-report hand-over and MavServer task list deleted. Left: the rest of the seal decision 2) b (map and sync data plain, simpler seal), per c"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 362,
@@ -3836,5 +3831,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a840282ee81cb19c6bfd47317e349479810e6e72"
+ "source_revision": "a40685d0d5cb911084bbf1ef6250cdb674b20098"
 }
