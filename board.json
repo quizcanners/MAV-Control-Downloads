@@ -478,11 +478,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T07:29Z",
-     "text": "HEAVY 369: WindowsPlayer.Checks host harness on 1e50cd5f71 passed 43 desktop owner/TCP/protocol controls, 9 Debug Mode gate controls and 17 request-isolation controls. Used Unity bundled .NET 8.0.21 to run the compiled net8.0 harness becaus"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T07:40Z",
      "text": "HEAVY 369: live Windows Unity 6000.6.8f1, main a5d783509a (after prefab Author cleanup). Editor refresh reported no script compile failure and the lifecycle bridge completed EditMode All: 8,569 passed, 0 failed, 4 skipped, 1 inconclusive, 1"
     },
@@ -490,6 +485,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T08:04Z",
      "text": "HEAVY 369: fixed the two Windows render fixtures reported on 429. fc93a7c87b requires both strong beyond-page attenuation and the specified linear RGB (.035,.055,.09) for the Real Sun shadow, replacing the stale 15% ratio. b26a7be6b6 select"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-13T08:11Z",
+     "text": "ROG_FABLE: for the Windows player gate. cmp.sh's player set (UNITY_STANDALONE_WIN) reports CS0103 'RTCErrorType does not exist' in Workflows/Streamer/Station_Streamer_DjiWebRtcSender.cs, inside '#if UNITY_STANDALONE_WIN || UNITY_EDITOR_WIN'"
     }
    ]
   },
@@ -2988,5 +2988,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "11fddaa7f463925c1383eee25044a9d0d6aede9c"
+ "source_revision": "360f670bfd798bbc6a97e4b471ac6eaf83a123a8"
 }
