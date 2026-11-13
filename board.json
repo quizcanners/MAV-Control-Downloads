@@ -448,7 +448,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T11:37Z",
-     "noted": "2026-11-13T11:37Z",
+     "noted": "2026-11-13T11:45Z",
      "progress": 0,
      "ticked": 0,
      "total": 7
@@ -487,11 +487,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T10:13Z",
-     "text": "HEAVY 369: removed the screen-dependent inconclusive in fe770e21c2. The existing MavChat short twitch/fast flick test supplies 1.5 px/dp to the same release decision; a 30 dp move clears 32 px selector slop without crossing the icon step. T"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T10:27Z",
      "text": "HEAVY 369/581: the eight Windows host scripts previously stopped by missing .NET 8 all pass at f080bf790f. Five passed with DOTNET_ROOT_X64 pointing to Unity NetCoreRuntime. BuildInfo, DJI Function Settings and MavChat Divider invoke dotnet"
     },
@@ -499,6 +494,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T11:37Z",
      "text": "HEAVY: current-main live Windows EditMode All found five failures. See goal 382 for exact assertions and the retained XML. The prepared Windows candidate remains open."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T11:45Z",
+     "text": "HEAVY: e9238c9435 isolates prior Workflow selection and process-wide clock history in the three reproducible fixtures. The original assertions and runtime code are unchanged. Each targeted case passed after its fixture repair. Chat encrypti"
     }
    ]
   },
@@ -3131,5 +3131,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "552541a28116b335f6e8760caba5d7240a496f59"
+ "source_revision": "7cf741fcef04c735c0255bb41cbef457c607b003"
 }
