@@ -448,7 +448,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T10:25Z",
-     "noted": "",
+     "noted": "2026-11-13T10:27Z",
      "progress": 0,
      "ticked": 0,
      "total": 7
@@ -487,11 +487,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T09:29Z",
-     "text": "HEAVY 369: Windows Unity 6000.6.8f1 D3D11, 04cce13cdc, station test identity. SpoutDiscoveryPlayModeTests.NativeDiscovery_SurvivesDisableAndReenable passed 1/1 in 6.4 s, with no failures/skips/inconclusives. Native discovery survives disabl"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T09:35Z",
      "text": "HEAVY 369: current-main Windows Unity 6000.6.8f1 D3D11 EditMode All at 1045cd7106: 8,572 passed, 0 failed, 4 skipped, 1 inconclusive in 231.46 s NUnit wall. MavChatSheetTests 93 passed, 1 inconclusive (30 dp was 22.5 px versus the required "
     },
@@ -499,6 +494,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T10:13Z",
      "text": "HEAVY 369: removed the screen-dependent inconclusive in fe770e21c2. The existing MavChat short twitch/fast flick test supplies 1.5 px/dp to the same release decision; a 30 dp move clears 32 px selector slop without crossing the icon step. T"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T10:27Z",
+     "text": "HEAVY 369/581: the eight Windows host scripts previously stopped by missing .NET 8 all pass at f080bf790f. Five passed with DOTNET_ROOT_X64 pointing to Unity NetCoreRuntime. BuildInfo, DJI Function Settings and MavChat Divider invoke dotnet"
     }
    ]
   },
@@ -3096,5 +3096,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0d3a36d970bd2d1871e05761df971cbfc6eb495d"
+ "source_revision": "b374c1ba15f0d5090802e369c1c3d9bf6b022814"
 }
