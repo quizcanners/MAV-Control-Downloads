@@ -3485,8 +3485,8 @@
     {
      "who": "CODEX_MAC_UI",
      "since": "2026-11-13T19:14Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-13T19:20Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -3497,6 +3497,11 @@
      "by": "CODEX_MAC_UI",
      "at": "2026-11-13T17:50Z",
      "text": "7d8d2d26cb: removed CanvasGroup alpha fade, so plaque hides and shows instantly; no localized blur cover was added. Unity recompiled; Roslyn comparison to checkout HEAD NEW ERRORS: none; comparison to current main reports unrelated differen"
+    },
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-13T19:20Z",
+     "text": "64e15627b0: plaque hides beneath a small non-interactive shared blur cover; quick re-show invalidates pending hide. Unity compile and Roslyn NEW ERRORS: none. Editor confirms cover inherits alpha 1 with plaque hidden and does not raycast. M"
     }
    ]
   },
@@ -3843,5 +3848,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0ba4126f49b150097607f596860afd906e4a2952"
+ "source_revision": "c87e83588b21293b773d671a61fe6afc1c8da997"
 }
