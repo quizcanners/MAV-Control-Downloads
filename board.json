@@ -90,11 +90,6 @@
    "notes": [
     {
      "by": "REVIEW",
-     "at": "2026-11-13T10:47Z",
-     "text": "REVIEW-479: [bounded review through da382d1bb](../Reviews/da382d1bb.md): 29 commits inspected (three source, 26 coordination skips, no merges), no new actionable finding. Stale-host retirements, deterministic DPI fixture and Power Lines sam"
-    },
-    {
-     "by": "REVIEW",
      "at": "2026-11-13T11:53Z",
      "text": "REVIEW-480: [bounded review through 552541a28](../Reviews/552541a28.md): 53 commits inspected (one Editor-only PlayMode fixture, 52 coordination/evidence skips, no merges), no new actionable finding. Startup admission/cleanup, recorded nati"
     },
@@ -102,6 +97,11 @@
      "by": "REVIEW",
      "at": "2026-11-13T12:52Z",
      "text": "REVIEW-481: [bounded review through 797f797f6](../Reviews/797f797f6.md): 57 commits inspected (four source, 53 coordination/evidence skips, no merges), no new actionable finding. Target lifetime/policy, fixture isolation and Profiler-ID rep"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-13T13:25Z",
+     "text": "REVIEW-482-CC-1AD9-01: P3 S1/S2 complexity brief ready for quiz: [buffer cleanup searches the allocation list twice](../Reviews/21cdab688.md#cc-1ad9-01--p3-buffer-cleanup-searches-the-allocation-list-twice). Pre-existing owner Remove then c"
     }
    ]
   },
@@ -1403,7 +1403,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T13:24Z",
-     "noted": "",
+     "noted": "2026-11-13T13:28Z",
      "progress": 15,
      "ticked": 2,
      "total": 13
@@ -1466,11 +1466,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T13:08Z",
-     "text": "HEAVY 429 954110bd90: compiled 18 D3D11 fragment variants at 61a4fe2b99 and compared three blur variants against the immediate pre-e6cdf78078 shader on the same Unity 6000.6.8f1 / FXC host. Horizontal 47 to 24 instructions, vertical 42 to 2"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T13:17Z",
      "text": "HEAVY 429 00eca8e1af: Windows RTX 5070 D3D11 RenderDoc captured a painted Forests stroke with one masked ground draw in High and Low at 1/3/10 km, and one raised Elements draw in High only. High masked 0.01110-0.01427 / 0.00845 / 0.00675 ms"
     },
@@ -1478,6 +1473,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T13:23Z",
      "text": "HEAVY 429 58673f49a2: Windows RTX 5070 D3D11 RenderDoc at 84d55a4243 measured the current Situation grouped ECS pass with 6,410 displayed synthetic groups, 756x481. At 1 km, 26 icon draws total 0.11210 ms, 26 modifier draws 0.10467 ms and t"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T13:28Z",
+     "text": "HEAVY 429 cf5379746f: RTX 5070 D3D11 RenderDoc 1.47, isolated Offline map e83d193ba2 with a fixed 7 m/s sample through Wind Direction. At 300 m High/Low GPU draws took 0.01213/0.00992 ms; at 1 km 0.00867/0.00717 ms. All draws bound depth, c"
     }
    ]
   },
@@ -3160,5 +3160,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e83d193ba2beed44da551374b5beded271079065"
+ "source_revision": "68e9e90aafdbe11921839da3aedf03ad10365719"
 }
