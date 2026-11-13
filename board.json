@@ -1760,11 +1760,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "PASIKA",
-     "at": "2026-11-12T21:13Z",
-     "text": "PASIKA: all 13 reds of run 3 have a fix on main (67572424c9, 85f08e0db5, 86539d7b19, 85c7bc87ef, 3af47c5a92 + chat fold). Real app change: lighting card rows 184 per Menu SPEC. The rest were tests behind today's code (rows/thresholds/static"
-    },
-    {
      "by": "ROG_FABLE",
      "at": "2026-11-13T00:11Z",
      "text": "ROG_FABLE batch 9 step 3 (main d620f23ae4, Windows Editor D3D11, station test identity): every fixture on PASIKA's red list now passes run alone: ChatMessageLayout 36/36, ChatWindowLayout 36/36, ExclusiveLightingSettings 15/15, MainCameraTo"
@@ -1773,6 +1768,11 @@
      "by": "PASIKA",
      "at": "2026-11-13T00:15Z",
      "text": "PASIKA containing All, run 4 on main 7f74389255 (temporary candidate, quiz-allowed): 8573 passed, 6 failed, 8 skipped, 1 inconclusive (run 3: 13 red; all 13 now pass). New reds: SyntheticDroneTests x2 (NRE in RelayedDroneMovingEastHalfASeco"
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-13T00:45Z",
+     "text": "PASIKA after run 4: SyntheticDrone x2 and DirectRouteHubTypes fixed (d5bdc115b7, tests used pre-rename member names); TrenchShaderRender fixed (37d2f9fca2, capture sets _ScaledScreenParams/_ScaleBiasRt, 15/15 in a fixture run). Open: HoldWa"
     }
    ]
   },
@@ -2512,5 +2512,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "721a00c7b7489ed8dbe0fa325f6ae6eaaa2f8f46"
+ "source_revision": "ffacfbe4932d3c6e6d3a01af015cc32562387418"
 }
