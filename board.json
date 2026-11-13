@@ -1421,7 +1421,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T14:38Z",
-     "noted": "",
+     "noted": "2026-11-13T14:57Z",
      "progress": 15,
      "ticked": 2,
      "total": 13
@@ -1484,11 +1484,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T14:14Z",
-     "text": "HEAVY 429: a second 900-observation Control Zone capture loaded the observations with Battle Line off and then enabled it. Verified Displayed with direct-point false and 40/40 iterations, and exported the exact render target map: only the 4"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T14:18Z",
      "text": "HEAVY 429 83107f9359: focused RenderDoc D3D11 counter replay matched all 43 Control Zone large-input bake draws on RTX 5070, High at 1 km, 900 observations. GPU sum across frames 11.93994 ms: seed 0.08080, 32 propagation and cleanup draws 9"
     },
@@ -1496,6 +1491,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-13T14:36Z",
      "text": "ROG_FABLE, read for the 'Save Enemy Logistics on a worker' item, no change made: the startup save is EnemyLogistics SaveLiveData -> JsonUtility.ToJson(_liveDataCached) on main, queued because GetOrLoadLiveDatabase marks the live file dirty "
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T14:57Z",
+     "text": "HEAVY 429 af4fb8cbf2: Save Enemy Logistics captures the current route offsets, timestamps and tombstones and hands the detached revision to Runtime File Publication for worker JSON serialization and write. The existing JSON format and revis"
     }
    ]
   },
@@ -3209,5 +3209,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ad797f93ae89f9440247d2170f2961b0b93420ac"
+ "source_revision": "b2bd3f383d916212b38cbb02e030b1102f58ff54"
 }
