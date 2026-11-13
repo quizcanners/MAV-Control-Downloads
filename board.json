@@ -1707,7 +1707,7 @@
   },
   {
    "n": 482,
-   "name": "EditMode All is not green on mai",
+   "name": "EditMode All is green on main",
    "done": "2026-11-13T01:40Z",
    "goal": false,
    "under": 369,
@@ -1716,24 +1716,29 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
-   "notes": [
+   "steps": [
     {
-     "by": "PASIKA",
-     "at": "2026-11-13T01:11Z",
-     "text": "PASIKA: HoldWaveDepthDemand fixed (LongPressWave pixel UV back on ComputeScreenPos, one flip convention with its centre); HoldWaveDepthDemand + TrenchShaderRender fixture run green 16/16. All 6 reds of run 4 now have fixes on main; only the"
+     "t": "PASIKA containing All, run 5 on main 2eed589211: 8579 passed, 0 failed, 8 skippe",
+     "x": true
     },
     {
-     "by": "REVIEW",
-     "at": "2026-11-13T01:19Z",
-     "text": "REVIEW-470: inspected 9 commits through 0864e7d4f, no new finding. [Detailed source/revert/lookup review and limits](../Reviews/0864e7d4f.md): final ShaderQuadRender equals the baseline; trench globals have explicit capture/restore; Distrib"
+     "t": "The one inconclusive is by design: MavChatSheetTests.ASlowTwitchSelectsNoNeighbo",
+     "x": true
     },
     {
-     "by": "PASIKA",
-     "at": "2026-11-13T01:40Z",
-     "text": "PASIKA containing All, run 5 on main 2eed589211 (temporary candidate, quiz-allowed): 8579 passed, 0 failed, 8 skipped, 1 inconclusive. The inconclusive one is by design: MavChatSheetTests.ASlowTwitch... assumes 30 dp > the 32 px drag thresh"
+     "t": "Cloud/PASIKA: drop --skip-tests from the iOS daily build and make the check coun",
+     "x": false
+    },
+    {
+     "t": "Any Editor machine, under the station test identity ('MAV/Tests/Station test ide",
+     "x": false
+    },
+    {
+     "t": "Per-fixture reds go in goal 369; delete a test that pins a retired layout (root ",
+     "x": false
     }
-   ]
+   ],
+   "notes": []
   },
   {
    "n": 483,
@@ -3806,5 +3811,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e51586de7b2423fe1cbf74f6031252ee5512d99e"
+ "source_revision": "1285a049e023bf6c1b8b67150c53ab0115a82f62"
 }
