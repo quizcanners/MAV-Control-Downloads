@@ -1075,27 +1075,47 @@
    "held": [],
    "steps": [
     {
-     "t": "Rog (Editor): 48 prefabs still point at the line materials deleted in bb5f443806",
+     "t": "Edge and join pass done: screen-edge ticks on every fixed prefab (last 6138a500c",
      "x": true
+    },
+    {
+     "t": "Composites split done in three layers, no prefab change (11158241ec..8587caccf5;",
+     "x": true
+    },
+    {
+     "t": "Build info and own identity live in the Main Menu prefab (Processes and Timings.",
+     "x": true
+    },
+    {
+     "t": "Mac/phone: look check of the Lighting card: '\u042f\u0441\u043a\u0440\u0430\u0432\u0456\u0441\u0442\u044c NN%' on one line, full-w",
+     "x": false
+    },
+    {
+     "t": "Phone: Paint goes blue after five idle seconds and any touch restores it; Drawin",
+     "x": false
+    },
+    {
+     "t": "Windows (standalone, Full screen button shows): the gap between the X and Full s",
+     "x": false
+    },
+    {
+     "t": "Cloud: Singleton_HintsController.cs draws the 'Share screen center' hint during ",
+     "x": false
+    },
+    {
+     "t": "Rog/Mac (minor, seen at 1024x1024): the bottom rail's Settings gear overlaps the",
+     "x": false
+    },
+    {
+     "t": "Optional Editor pass: 29 objects in 11 prefabs use plain UI_MergableListElementB",
+     "x": false
+    },
+    {
+     "t": "Awaiting quiz (briefs ready, no work until he reads): [REVIEW-487 CR-18DF-01 P2,",
+     "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-12T17:31Z",
-     "text": "ROG_FABLE 2026-11-12: line done and dropped: the 208 UI_OnePixelLine material links cleared in batch 4 (36 prefabs, one commit each), the 69 separators converted by fe5594d68b; git grep finds no prefab on the deleted line materials."
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-13T06:13Z",
-     "text": "REVIEW-474-CC-1347-01: P3 S1/S2 complexity brief ready for quiz: [grid joins still compute unused straight-strip neighbours](../Reviews/1f8115ab2.md#cc-1347-01--p3-grid-joins-still-compute-the-unused-straight-strip-neighbours). Exact scan/w"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-13T18:54Z",
-     "text": "REVIEW-487 CR-18DF-01: [P2 S1/S2 brief](../Reviews/18df70da3.md#cr-18df-01--p2-native-screen-callbacks-lost-in-the-station-split) ready for quiz. Station split deleted both preserved native screen receivers; Android/iOS senders and GameObje"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 408,
@@ -3786,5 +3806,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "62e406e1d4611f2c10173b74d289908674d663dd"
+ "source_revision": "e51586de7b2423fe1cbf74f6031252ee5512d99e"
 }
