@@ -1558,7 +1558,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T06:05Z",
-     "noted": "",
+     "noted": "2026-11-13T06:07Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -1581,11 +1581,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T05:56Z",
-     "text": "HEAVY 431, 29b278b07b: reproduced the current MAV Control sender preference path before packaging. Radeon advertised Main 4d0029 but SetCodecPreferences(H.264 only) rejected it because local receive capabilities contain no H.264. RTX accept"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T05:59Z",
      "text": "HEAVY goal 431, 28f8e745ee: fixed packaged native bridge resolution. The WebRTC factory can load a matching MavVideo.dll beside its own module by absolute path before MAV Control first touches PeerVideoNative. Rebuilt the actual Release web"
     },
@@ -1593,6 +1588,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T06:03Z",
      "text": "HEAVY goal 431: isolated the RTX 5070 Media Foundation failure on PL-007. Five native repetitions reproduced WEBRTC_VIDEO_CODEC_FALLBACK_SOFTWARE (-13), caused by MavVideo reporting EncoderError::Unsupported while reading the queue. With th"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T06:07Z",
+     "text": "HEAVY 431: checked the actual Release webrtc.dll through UnityPluginLoad, ContextCreate and ContextGetSenderCapabilities using a minimal native Unity graphics-interface harness on PL-007 Radeon. 3/3 cases passed: matching sibling MavVideo.d"
     }
    ]
   },
@@ -2776,5 +2776,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "16e84efd9c54c12845d3f3c1ca2923f9ccd3b624"
+ "source_revision": "973c003cc66ff36259cd5f30fa3dde15462ee35c"
 }
