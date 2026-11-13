@@ -200,11 +200,6 @@
    "notes": [
     {
      "by": "CLOUD_THREAD",
-     "at": "2026-11-13T05:37Z",
-     "text": "CLOUD_THREAD 2026-11-13: quiz: \"Turning Altitude visualisation on and off should also dirty the map visual (meaning liquid glass should update).\" DONE (uncompiled): root fix, every Station.SetSetting/SetSettingNow marks the map changed (Map"
-    },
-    {
-     "by": "CLOUD_THREAD",
      "at": "2026-11-13T06:54Z",
      "text": "CLOUD_THREAD 2026-11-13: quiz: \"The half-resolution behaviour. Lets make it a default. User would beed to turn it off in settings.\" \"The double resolution freeze frame liquid glass - that one lets keep an option.\" Code already matched: Disp"
     },
@@ -212,6 +207,11 @@
      "by": "GETAC",
      "at": "2026-11-13T11:48Z",
      "text": "GETAC controlled Strong Dev 830 GLES cold launches, same pose, five minutes: Sharp still frame on/off Android Graphics 1407/372 MiB, PSS 2502/1448 MiB. Planet texture pages off in both, 143 masks in both, Unity Texture census gap only one 8"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-13T12:28Z",
+     "text": "ROG_FABLE, Windows Editor D3D11 read after d0133e1e6b (sharp still camera targets kept between refreshes), 1920x1080, cfg.stillframe on, hands off: after about 45 s map_motion=MapStatic, map_render_mode=FrozenDouble, kept_picture=True, last"
     }
    ]
   },
@@ -3150,5 +3150,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1e77ff5928e9829696ee708efea6b11d1b83574c"
+ "source_revision": "bacacb589556e1a7e2c86a8356f8631119cb7b4b"
 }
