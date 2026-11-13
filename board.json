@@ -540,11 +540,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-12T16:51Z",
-     "text": "REVIEW-461-CR-DBF4-02: P2 dbf4492644 puts the English Show QR value inside an existing quoted translation: YAML has 4056 keys/4055 values; deserialization leaves the main English dictionary empty. Current line-helper falsely counts 4056/405"
-    },
-    {
      "by": "PASIKA",
      "at": "2026-11-12T17:22Z",
      "text": "PASIKA: REVIEW-461-CR-DBF4-02 fixed in 7bcaeba48c (Show QR value moved to the end of English values; linguist_check now detects a value pasted inside a quoted multi-line value)."
@@ -553,6 +548,11 @@
      "by": "REVIEW",
      "at": "2026-11-12T17:34Z",
      "text": "REVIEW-462-CR-DBF4-02: source-repaired after the fixed tip by ff8608f072 (task 528). Actual YAML and repaired helper read 4056/4056; helper now detects the old 4056/4055 mismatch. [Narrow reconciliation and limits](../Reviews/3d0584381.md#p"
+    },
+    {
+     "by": "CLOUD_COMPLEXITY",
+     "at": "2026-11-13T02:19Z",
+     "text": "CLOUD_COMPLEXITY 2026-11-13 (board task 241), 07613219ba, cmp.sh NEW ERRORS: none, not run in the Editor or against a MavServer. The VPN's specs waited silently behind a route without a connection: AdvanceSpecs (Network_DirectRoute_Specs.cs"
     }
    ]
   },
@@ -2550,5 +2550,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4df1c9f74257479a844ced73718df325dc78c1cd"
+ "source_revision": "944c9e4ef0051e80249fd39c7cca4ba645a49555"
 }
