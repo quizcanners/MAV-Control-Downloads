@@ -3747,14 +3747,20 @@
     {
      "who": "CODEX_MAC_UI",
      "since": "2026-11-13T19:00Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-13T19:06Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-13T19:06Z",
+     "text": "9f46bca259: edge-arrow canvas yields raycasts within visible Suggestions bounds, keeping its own hit outside. Editor at 564x453: overlapping point now hits Select Point; outside point still hits Area Hit Area. Scripted mouse drag on Select "
+    }
+   ]
   }
  ],
  "verify": [
@@ -3803,5 +3809,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3e09417ffbee58afcbf0e76e722c2e5b40434875"
+ "source_revision": "97bb4487396b1a2cdb9d968a1c1e267ac3b49928"
 }
