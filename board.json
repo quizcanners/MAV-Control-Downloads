@@ -1156,31 +1156,23 @@
    "held": [],
    "steps": [
     {
-     "t": "Cloud: the pages under the eight Settings roots get what the roots got in b5e0c4",
+     "t": "All eight Settings roots open on one status line with a tick before the toggles:",
      "x": true
     },
     {
-     "t": "quiz's word: which rows he means by foldouts that do not take the free width; th",
-     "x": true
+     "t": "Cloud: the pages below the eight roots (sub-pages) get the same treatment, one r",
+     "x": false
+    },
+    {
+     "t": "quiz: name the screen whose foldout does not take the free width of its row (was",
+     "x": false
+    },
+    {
+     "t": "Mac or PASIKA (Editor look check): glance at each Settings root, status and tick",
+     "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "PASIKA_REVIEW",
-     "at": "2026-11-12T13:22Z",
-     "text": "PASIKA review (Coordination/Reviews/919f3e73e.md), P3 brief CR-13B7-01: on Settings > Video and Settings > GPS the new status line is drawn only while the feature is on and sits above the toggle, so switching the toggle on moves it one line"
-    },
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-12T14:18Z",
-     "text": "CLOUD_THREAD 2026-11-12: step 1 (status line per Settings root) is already on main for all eight roots (b5e0c48259, 20fe6bdde7, 13b74e6385); CR-13B7-01 (status line moves the toggle) is also already fixed in code (Video and GPS draw the lin"
-    },
-    {
-     "by": "PASIKA_REVIEW2",
-     "at": "2026-11-12T14:39Z",
-     "text": "PASIKA_REVIEW2: 4c34ebd622 (CR-A21E-01) Settings > GPS with both toggles off read 'Device location is off' (the Off stage's key, reused by a21ea93020 for NotNeeded); now 'Location is not in use' (gps.locationNotUsed EN/UK). Compiled, lingui"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 410,
@@ -3797,5 +3789,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "84a046afbfb5f2a0028bdcff05d2c2b702f7183c"
+ "source_revision": "24c61e65ebe788e95754968ea52ce14bc220e47d"
 }
