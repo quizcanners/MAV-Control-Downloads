@@ -2946,14 +2946,20 @@
     {
      "who": "CODEX_MAC_UI",
      "since": "2026-11-13T08:49Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-13T09:04Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-13T09:04Z",
+     "text": "223de4e530 removes a real MavChat selector hang risk: per-step while loops could run indefinitely on non-finite/extreme touch coordinates; panel-step updates are now constant time with the same 60/40 thresholds, and invalid/out-of-range con"
+    }
+   ]
   }
  ],
  "verify": [
@@ -3002,5 +3008,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "bef85b47bf9d4d0f87245694c8f5693558aaf4b7"
+ "source_revision": "19fae5627f15a1d3dcbabd2cc1fe21727c0e50e1"
 }
