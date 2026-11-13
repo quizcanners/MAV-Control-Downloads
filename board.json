@@ -1060,7 +1060,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T12:36Z",
-     "noted": "",
+     "noted": "2026-11-13T12:37Z",
      "progress": 50,
      "ticked": 2,
      "total": 4
@@ -1087,11 +1087,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T10:05Z",
-     "text": "HEAVY 382: full Windows Editor process restart acceptance passed in MapOnly. The prior run saved Off, its normal quit wrote the final primary and kept the routine-write hash as .previous. A new Unity 6000.6.8f1 process on 366df50a25, ports "
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T11:36Z",
      "text": "HEAVY 382/369: Windows Unity 6000.6.8f1 D3D11 live Editor EditMode All at cf5ea29805 under the disposable Station test identity: 8568 passed, 5 failed, 4 skipped, 0 inconclusive, 218.6 s. Bootstrap members all passed: WaypointCheckpointTest"
     },
@@ -1099,6 +1094,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T11:59Z",
      "text": "HEAVY: prepared Windows All passed, including WaypointCheckpoint 61/61, StartupBatchTiming 19/19, CheckpointFilePublication 7/7 and PersistenceRotationPin 106/106. Qualification, XML hash, source and skips are on goal 369. Remaining Cloud w"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T12:37Z",
+     "text": "HEAVY 382: after the Windows GPU capture, compared the local Loading Screen prefab to main by Unity object ID. All object IDs and references matched; only YAML order, whitespace and two TextMeshPro serialization fields changed. Restored mai"
     }
    ]
   },
@@ -3150,5 +3150,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "8944eb815d50a7ab933a16d7453e9a12027a114f"
+ "source_revision": "2318ffb527c480ce5a83af639f93d6c067156477"
 }
