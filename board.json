@@ -598,8 +598,8 @@
    "held": [],
    "steps": [
     {
-     "t": "Getac: Android Dev build from main (has fd1f72291e) on the Strong; the four star",
-     "x": false
+     "t": "Startup: polyline rebuild no longer reads a missing anchor and creates its Path ",
+     "x": true
     },
     {
      "t": "Getac: on a recurrence of the receive null reference, capture vpn.handshake late",
@@ -610,27 +610,15 @@
      "x": false
     },
     {
-     "t": "Getac + a second peer: share a Coding scene to the affected Android on the fixed",
+     "t": "Getac + a second peer (Lenovo, not on the cable last time): share a Coding scene",
+     "x": false
+    },
+    {
+     "t": "Open finding REVIEW-438-CC-7240-01 (P3): absent-anchor retries repeat the full p",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CLOUD_D",
-     "at": "2026-11-12T08:08Z",
-     "text": "CLOUD_D 2026-11-12: code side of (was 394) done in fd1f72291e (Shape_Utils_Polyline.cs: Path created if null before AddPoint, on top of 72409f3531). Rest of 373 is device: capture failure point on recurrence, share Coding scene to Android o"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-12T12:11Z",
-     "text": "GETAC 2026-11-12, Strong Dev 826 at f03247d1be: four cold starts and about an hour of use (zooms, background and return) left no NullReferenceException in the device log buffer and lifecycle_error_count=0 on every start. The Dev 823 startup"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-12T13:20Z",
-     "text": "GETAC 2026-11-12, step 'four startup NullReferenceExceptions in RegeneratePolyLine are gone from the first 14 s': Strong Dev 826 at f03247d1be (contains fd1f72291e), cold start after force-stop, logcat from launch for 20 s (2,401 lines): Nu"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 374,
@@ -3795,5 +3783,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "95fa222b4935a40fa6fcc16dc84c6049467a3934"
+ "source_revision": "aecc042c348b88092103631d103c5f820487e702"
 }
