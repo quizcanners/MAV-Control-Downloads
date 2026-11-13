@@ -1558,7 +1558,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T06:28Z",
-     "noted": "",
+     "noted": "2026-11-13T06:29Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -1581,11 +1581,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T06:15Z",
-     "text": "HEAVY 431, 1255b9ef9d: published Stage-WindowsWebRtcQualification.ps1 to stage both rebuilt DLLs in a separate Windows x64 player folder and verify the copy hashes. Tested against a copy of the installed player; installed DLL hashes matched"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T06:24Z",
      "text": "HEAVY 431, 088dbc9680: Windows managed sender now retries Media Foundation H.264 codec preferences once with VP8 appended when M116 returns InvalidModification. The native export probe verified implementation_name=MediaFoundation in the exa"
     },
@@ -1593,6 +1588,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T06:27Z",
      "text": "HEAVY 431: rebuilt the matching MavVideo.dll from the native tree at 7c99d69f4e plus the tracked bridge patch. WindowsLoopback passed 0 failures, hardware H.264 150 encoded and decoded, 37/37 bar/orientation/color, 33.1 ms mean / 48.7 ms wo"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T06:29Z",
+     "text": "HEAVY 431: Windows relay signaling check passed. Captured a test-only Radeon offer from the native sender with SetCodecPreferences(Main, VP8), then passed it through the current Go video relay open/offer path on PL-007. Pion answered video "
     }
    ]
   },
@@ -2782,5 +2782,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c6477f5a25c325e30eb3daffa2648a22b4eabaed"
+ "source_revision": "95cb1b9259120d2438b0c7ba33aa6b066e371141"
 }
