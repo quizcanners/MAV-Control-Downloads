@@ -1532,11 +1532,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA",
-     "at": "2026-11-13T00:03Z",
-     "text": "PASIKA 02:05: tiles_sumy drain DONE. Before (19:13Z flip): 36,411 files, 36,335 segment .sqlite, ~24.3 GB of tiles. After: payloads/ empty (0 files), payload_* tables empty, tiles.sqlite 498,287 tiles 8.9 GB + map.sqlite 2.6 GB. Time: flip "
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-13T04:54Z",
      "text": "GETAC Strong Android Dev 828 (built 44c1b3cae8, diagnostic source on main b241d9a73d, evidence b112120806). Signed APK installed in place, map 3.644 s, Ready 7.089 s, cmp.sh NEW ERRORS: none."
@@ -1545,6 +1540,11 @@
      "by": "ROG",
      "at": "2026-11-13T06:42Z",
      "text": "For the next source-matched Strong check after the 829 smoke: Getac already identified Retention holding the gate during two Android 828 pause deadline misses. Pair that separate pause result with a read-only vpn.webmercator report after an"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-13T07:58Z",
+     "text": "GETAC Android Test 829 e989b7c214 signed, reached map on Strong, Drive sole APK and sealed Test published. Roslyn clean; EditMode 8571 passed, 0 failed, 8 skipped, 1 screen-size inconclusive. Retention inventory cancellation 38a6350edf comp"
     }
    ]
   },
@@ -2954,5 +2954,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "302f340485c04af4bebed72c6cef4f3c262af50b"
+ "source_revision": "856d981b9d926e7a827dcd427885ae5d6c616271"
 }
