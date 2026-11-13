@@ -189,11 +189,6 @@
    "notes": [
     {
      "by": "CLOUD_THREAD",
-     "at": "2026-11-13T05:27Z",
-     "text": "CLOUD_THREAD 2026-11-13: quiz: \"Lets delay liquid glass by 1 second after interaction. There are some animetions that still need some time in normal resolution. So new plan: Interacting with map - max FPS, half resolution. Any changes, like"
-    },
-    {
-     "by": "CLOUD_THREAD",
      "at": "2026-11-13T05:32Z",
      "text": "CLOUD_THREAD 2026-11-13: quiz: \"Liquid glass updates still need investigation. I see synthetic drone on the screen, yet it shows liquid glass. I aslo just moved syncthetic drone, who for some reason was using name DJI - which is another use"
     },
@@ -201,6 +196,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-13T05:37Z",
      "text": "CLOUD_THREAD 2026-11-13: quiz: \"Turning Altitude visualisation on and off should also dirty the map visual (meaning liquid glass should update).\" DONE (uncompiled): root fix, every Station.SetSetting/SetSettingNow marks the map changed (Map"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-13T06:54Z",
+     "text": "CLOUD_THREAD 2026-11-13: quiz: \"The half-resolution behaviour. Lets make it a default. User would beed to turn it off in settings.\" \"The double resolution freeze frame liquid glass - that one lets keep an option.\" Code already matched: Disp"
     }
    ]
   },
@@ -2788,5 +2788,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "8381a5d7a3d9211d48f108ff85b3f9dd2759a315"
+ "source_revision": "ae4f341acf33e530cabc9cafebc82bd9f9441024"
 }
