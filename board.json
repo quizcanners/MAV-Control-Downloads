@@ -1006,7 +1006,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T12:09Z",
-     "noted": "",
+     "noted": "2026-11-13T12:11Z",
      "progress": 20,
      "ticked": 1,
      "total": 5
@@ -1036,11 +1036,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-12T18:55Z",
-     "text": "GETAC 2026-11-12 batch 3 step 8, Strong Dev 826 at 1fe7cbaa6b, Mariupol with online imagery (map layer google, restored to Offline after): at 47.076,37.56, 1.08 km above ground, zoom 16, the sea is one even water colour with no repeated coa"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-13T11:28Z",
      "text": "HEAVY 381: confirmed the completed NOAA cleanup against current main 862aa6809f and Windows Unity 6000.6.8f1 D3D11. Only GlobalAltitude.mavalt is shipped, LFS SHA-256 b668209b374becb2218d4405f2e0ebec9c6b8f04682ffea2905fef1fc213b513, 16,777,"
@@ -1049,6 +1044,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T12:08Z",
      "text": "HEAVY 381: reproduced a coast rendering artifact in Windows Unity 6000.6.8f1 D3D11 on a65bd0640d. Google selected, target 47.076 N 37.56 E, measured 1,066.3 m above ground and 39.4 degrees from nadir. The 756x481 capture shows a stepped blu"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T12:11Z",
+     "text": "HEAVY 381: isolated the Windows coast band further on 65eeec70b8. In a settled Cesium Google view of Mariupol near 1.07 km above ground, the stepped sea band persisted with Map Overlay hidden, PseudoDecals hidden, a black camera clear, and "
     }
    ]
   },
@@ -3127,5 +3127,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "65eeec70b801cfe8f7b9cfa8c08c6cabf1a03994"
+ "source_revision": "04675a9e0e3c6f189a439bda5d9505ba5e864eaf"
 }
