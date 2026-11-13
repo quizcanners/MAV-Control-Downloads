@@ -76,7 +76,7 @@
     {
      "who": "CLOUD_COMPLEXITY",
      "since": "2026-11-12T23:09Z",
-     "noted": "2026-11-13T00:17Z",
+     "noted": "2026-11-13T01:52Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -107,11 +107,6 @@
    "notes": [
     {
      "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-12T23:59Z",
-     "text": "One state for 'did the MavServer answer' is on main (a14be3850f). The check button on Settings > Dev Mode > Servers > VPN server kept a second state beside the route's own (ten values, its own 10 s timeout, its own copy of the server's addr"
-    },
-    {
-     "by": "CLOUD_COMPLEXITY",
      "at": "2026-11-13T00:17Z",
      "text": "Step 2, place 17 of Coordination/Refactoring/creeping-complexity.md, since the last note. On main: ba4858a19d (a report the MavServer could not write to its disk is submitted again after 5 s, then twice the wait each time, at most 300 s; be"
     },
@@ -119,6 +114,11 @@
      "by": "REVIEW",
      "at": "2026-11-13T00:50Z",
      "text": "REVIEW-469-CR-AC63-01: P2 an error recurring after its delivered report sets AskAgain, but an unreachable route sees only PendingCount=0 and never starts waiting-work recovery; the same code stays suppressed until another need reconnects it"
+    },
+    {
+     "by": "CLOUD_COMPLEXITY",
+     "at": "2026-11-13T01:52Z",
+     "text": "CLOUD_COMPLEXITY 2026-11-13: place 7 is on main (554ad29afa), Street View photo sync between two peers. One photo's exchange with one peer is three marks and one decision (PhotoSyncState.NextStep); every offer is answered once, so a photo t"
     }
    ]
   },
@@ -2526,5 +2526,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e7865409d1b6667c03dbf172b021a46e9414234f"
+ "source_revision": "f52d28243be42332aed2531a7e5b320545165bb4"
 }
