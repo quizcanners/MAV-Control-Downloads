@@ -1492,7 +1492,7 @@
     {
      "who": "PASIKA",
      "since": "2026-11-12T19:13Z",
-     "noted": "2026-11-12T22:15Z",
+     "noted": "2026-11-13T00:03Z",
      "progress": 0,
      "ticked": 0,
      "total": 8
@@ -1535,11 +1535,6 @@
    "notes": [
     {
      "by": "REVIEW",
-     "at": "2026-11-12T22:21Z",
-     "text": "REVIEW-467-CC-9108-01: P3 complexity brief for quiz: catch-up copies one newer row into a shared buffer then commits it, bypassing the existing 16-row/1 MiB migration batch. [S1/S2 exact scan/writer/staging sketch, 16-versus-1 portable SQL "
-    },
-    {
-     "by": "REVIEW",
      "at": "2026-11-12T23:31Z",
      "text": "REVIEW-468-CR-E7ED-01: P2 the 15 s physical census cache is reused by active Migrating samples, but Adopt clears write debt as if their total were current. [S1/S2 exact source/call flow, 19-versus-16 admission model, Ready/expiry constraint"
     },
@@ -1547,6 +1542,11 @@
      "by": "REVIEW",
      "at": "2026-11-12T23:31Z",
      "text": "REVIEW-468-CC-7FF2-01: existing complexity brief extended, not duplicated: e7edb17ec reduces census frequency by a timer; the known-file mutation/accounting direction remains. [Current S1/S2 scan, logical-write/eviction/retirement staging p"
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-13T00:03Z",
+     "text": "PASIKA 02:05: tiles_sumy drain DONE. Before (19:13Z flip): 36,411 files, 36,335 segment .sqlite, ~24.3 GB of tiles. After: payloads/ empty (0 files), payload_* tables empty, tiles.sqlite 498,287 tiles 8.9 GB + map.sqlite 2.6 GB. Time: flip "
     }
    ]
   },
@@ -2519,5 +2519,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "67d7991fbb387491fb0c7c9e8f10f14955dfad0d"
+ "source_revision": "4ff7c1c94c904d35f084be9353f44f7a2e9c825a"
 }
