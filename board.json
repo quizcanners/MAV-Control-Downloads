@@ -1499,16 +1499,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-13T04:55Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 7
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Cloud, from that result: Web Mercator SQLite storage to the SPEC layout: one aut",
@@ -2910,14 +2901,20 @@
     {
      "who": "CODEX_MAC_UI",
      "since": "2026-11-13T07:49Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-13T07:57Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-13T07:57Z",
+     "text": "a135dcd692: GPS blind-zone Inspector now distinguishes PositionUnknown, HomeUnknown and CoverageUnavailable; the latter two previously fell through to Outside, incorrectly reporting the position outside active zones. Removed duplicate missi"
+    }
+   ]
   }
  ],
  "verify": [
@@ -2966,5 +2963,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "53e9f2e2bfb864024f83d38063ef8f01e8fb1e96"
+ "source_revision": "1359f8a31b4ee6e499c3021b83707ba545b1dfc5"
 }
