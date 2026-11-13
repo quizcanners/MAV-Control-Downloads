@@ -1563,7 +1563,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-13T07:02Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Getac (Android) runs: a viewer renews a screen share through :location over Chat",
@@ -2765,6 +2774,29 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 569,
+   "name": "Settings > Video > Video Capture",
+   "done": "",
+   "goal": false,
+   "under": 409,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MAC_UI",
+     "since": "2026-11-13T07:06Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -2813,5 +2845,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0853c609850b8ec1182c117e742673bd68012a00"
+ "source_revision": "087a4a33218a993056c6d0dbc5ed25bea6ba551b"
 }
