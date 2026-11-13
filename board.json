@@ -1403,7 +1403,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T13:19Z",
-     "noted": "",
+     "noted": "2026-11-13T13:23Z",
      "progress": 15,
      "ticked": 2,
      "total": 13
@@ -1466,11 +1466,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T12:34Z",
-     "text": "HEAVY 429: completed the isolated Cesium Bing dry-water GPU timing on RTX 5070 D3D11. RenderDoc 1.47 captured all 8 alternating pairs (64 draws per arm) and a positive control. Dry mean 0.339276 ms, conservative 0.339228 ms; paired conserva"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T13:08Z",
      "text": "HEAVY 429 954110bd90: compiled 18 D3D11 fragment variants at 61a4fe2b99 and compared three blur variants against the immediate pre-e6cdf78078 shader on the same Unity 6000.6.8f1 / FXC host. Horizontal 47 to 24 instructions, vertical 42 to 2"
     },
@@ -1478,6 +1473,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T13:17Z",
      "text": "HEAVY 429 00eca8e1af: Windows RTX 5070 D3D11 RenderDoc captured a painted Forests stroke with one masked ground draw in High and Low at 1/3/10 km, and one raised Elements draw in High only. High masked 0.01110-0.01427 / 0.00845 / 0.00675 ms"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T13:23Z",
+     "text": "HEAVY 429 58673f49a2: Windows RTX 5070 D3D11 RenderDoc at 84d55a4243 measured the current Situation grouped ECS pass with 6,410 displayed synthetic groups, 756x481. At 1 km, 26 icon draws total 0.11210 ms, 26 modifier draws 0.10467 ms and t"
     }
    ]
   },
@@ -3160,5 +3160,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "84d55a42437161e7cb1911be19cfdeb4cc30e872"
+ "source_revision": "1d0c6a45df12f6e85925a937c08faf9092f199d4"
 }
