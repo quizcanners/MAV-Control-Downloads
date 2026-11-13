@@ -920,9 +920,9 @@
   },
   {
    "n": 382,
-   "name": "",
+   "name": "Bootstrap isolation: one part failing is marked failed and t",
    "done": "",
-   "goal": false,
+   "goal": true,
    "under": 0,
    "ticks": [
     "2026-11-12T10:49Z",
@@ -930,11 +930,26 @@
    ],
    "priority": "normal",
    "parked": false,
-   "flags": [
-    "vague"
-   ],
+   "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Inspector scene pick of the Bootstrap family works by backdoor (bootstrap.scene ",
+     "x": true
+    },
+    {
+     "t": "Windows EditMode All with Bootstrap members passing (WaypointCheckpoint 61/61, S",
+     "x": true
+    },
+    {
+     "t": "Cloud: audit the remaining root writers (native/background import and other Peer",
+     "x": false
+    },
+    {
+     "t": "Getac (DJI controller): the corrected Android build keeps the UI advancing throu",
+     "x": false
+    }
+   ],
    "notes": []
   },
   {
@@ -3672,6 +3687,29 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 617,
+   "name": "using Strong for Android Test 83",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-13T19:49Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -3720,5 +3758,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "2c791e87726f7f0ab6becee293f949042e5dae7e"
+ "source_revision": "62eccb018942ac8f09f7193cdcc49e195488f8d1"
 }
