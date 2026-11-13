@@ -128,7 +128,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T10:29Z",
-     "noted": "",
+     "noted": "2026-11-13T10:39Z",
      "progress": 0,
      "ticked": 0,
      "total": 2
@@ -146,11 +146,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA",
-     "at": "2026-11-12T18:16Z",
-     "text": "PASIKA: DefaultPosition before the map 19.9 -> 9.8 ms (d53187a448, no MGRS text parsed at start); warm Editor Initializing 686 ms, map present 6.599 s. Numbers in Performance Baseline/STARTUP.md."
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-12T18:35Z",
      "text": "GETAC 2026-11-12 batch 3 step 2, Strong Dev 826 at 1fe7cbaa6b, three cold starts (runs 1/2/3, s): started 2.862/2.815/2.818, map present 3.794/3.620/3.594, reveal 4.699/3.628/3.602, loaded 5.543/5.489/5.723, Ready 6.484/6.312/6.457, layers "
@@ -159,6 +154,11 @@
      "by": "GETAC",
      "at": "2026-11-12T20:02Z",
      "text": "GETAC 2026-11-12 batch 4 step 2, Strong Dev 827 at 964c225b93, three TRUE cold starts (swiped from Recents; :vpn and :location survive the swipe, WireGuard Healthy throughout). Runs 1/2/3 s: map present 3.652/3.667/3.588, reveal 3.659/3.674"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T10:39Z",
+     "text": "HEAVY 362: 736d28a548 adds the two Play-only startup cases. Station remains WaitingForMapScene before its Map camera appears and executes SceneReferences in the exact Update that first sees it. Main UI registration moves the scenes owner to"
     }
    ]
   },
@@ -3096,5 +3096,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "da382d1bbb53dd26c042b44ac8e698e5e626b68c"
+ "source_revision": "e2f845e899e1e7209574e961b2612e35a1b68c84"
 }
