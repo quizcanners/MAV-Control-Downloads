@@ -698,14 +698,18 @@
      "who": "HEAVY",
      "since": "2026-11-13T17:12Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
+     "progress": 20,
+     "ticked": 1,
+     "total": 5
     }
    ],
    "steps": [
     {
-     "t": "PASIKA or Rog: Windows daily runner registered and a matching run picked up (CI-",
+     "t": "Windows runner host harness restored (27f57e05ab); configured Unity light host 2",
+     "x": true
+    },
+    {
+     "t": "PASIKA or Rog (dedicated build host): GitHub has no matching Windows daily runne",
      "x": false
     },
     {
@@ -715,25 +719,13 @@
     {
      "t": "Getac (two release tablets): two-tablet agent.request acceptance, and Dev Mode o",
      "x": false
+    },
+    {
+     "t": "Cloud (Tools/Nightly, not done): a daily build takes its commit at start and wri",
+     "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CLOUD_B",
-     "at": "2026-11-12T08:10Z",
-     "text": "CLOUD_B 2026-11-12: nothing code-only left; two-tablet agent.request acceptance needs two release tablets."
-    },
-    {
-     "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-13T02:19Z",
-     "text": "CLOUD_COMPLEXITY 2026-11-13, for whoever touches the daily build scripts (Tools/Nightly): a daily build takes its commit when it starts and writes its number to main when it ends. The iOS daily 828 was made from 4c0516f1f6 (01:20Z) and its "
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-13T17:11Z",
-     "text": "HEAVY Windows runner host checks"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 377,
@@ -3775,5 +3767,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "dc9e7de3ab1f68db5c86333c6fd1b3bfc194e371"
+ "source_revision": "3234cacc982223eb003eca4f72798633a2e7d019"
 }
