@@ -2837,7 +2837,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-13T16:36Z",
+     "noted": "",
+     "progress": 17,
+     "ticked": 1,
+     "total": 6
+    }
+   ],
    "steps": [
     {
      "t": "EntityIdentityTable<TKey> (added, kept, removed, no garbage) in Systems/ECS and ",
@@ -3301,5 +3310,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "14f433e0235fc239a18d3af9ab2ac2199a57168a"
+ "source_revision": "8f1744bb4456741683abdd4fbbe2dd1d7af82e8f"
 }
