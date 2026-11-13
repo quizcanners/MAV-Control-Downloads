@@ -1402,7 +1402,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-13T04:16Z",
-     "noted": "",
+     "noted": "2026-11-13T04:27Z",
      "progress": 0,
      "ticked": 0,
      "total": 13
@@ -1465,11 +1465,6 @@
    "notes": [
     {
      "by": "PASIKA",
-     "at": "2026-11-12T20:19Z",
-     "text": "PASIKA: compiled counts redone (BASELINE.md, 12 Nov section) with a new Editor tool MAV/Editor/Shader compiled counts (no Inspector clicks). Elevation -9..-11 instr after 8c872781e5, raised lights +1, skybox blur 56->49, Liquid Glass Capsul"
-    },
-    {
-     "by": "PASIKA",
      "at": "2026-11-12T20:31Z",
      "text": "PASIKA (Editor, warm Play, map at rest): performance.top managed 2.80 ms; top self row 0.175 ms (Between stages), then Frame setup gap 0.106, WM Sync child traversal 0.098, Suggestion Presentation 0.097. All below 0.5 ms: stopped per batch "
     },
@@ -1477,6 +1472,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T04:24Z",
      "text": "HEAVY took only the Mali Offline Compiler part (Getac retains the device work). Arm's official Performance Studio Windows MSI for 2026.6 and 2026.5 and Linux 2026.6 archive return HTTP 403; the response explicitly says the publisher's Cloud"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-13T04:27Z",
+     "text": "GETAC performance pass, Strong Dev 827 (964c225b93). Timed pause hit 3,005 ms after Home and SQLite writer was the only unfinished drain. 394b801bd9 splits SQLite from Video in app.lifecycle; cmp.sh NEW ERRORS: none, device read of new keys"
     }
    ]
   },
@@ -2669,5 +2669,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d2565a1a9fc7ba6777485be8383ff412c5e4194c"
+ "source_revision": "76c427aefc32be49630c813a2f3c832f5005bb2e"
 }
