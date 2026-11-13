@@ -1421,7 +1421,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T14:17Z",
-     "noted": "",
+     "noted": "2026-11-13T14:18Z",
      "progress": 15,
      "ticked": 2,
      "total": 13
@@ -1484,11 +1484,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T13:44Z",
-     "text": "HEAVY 429 93189adc9c: Windows RTX 5070 D3D11 RenderDoc Control Zone matched display pairs, 756x481, six isolated friendly and hostile observations. High/Low GPU draw ms at 1 km 0.02115/0.01104, 3 km 0.02371/0.01075-0.01261, 10 km 0.02240/0."
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T14:04Z",
      "text": "HEAVY 429 716a3ed1c3: captured Control Zone large-input propagation on Windows Unity 6000.6.8f1 at 8b3b9fe0f7, RTX 5070 D3D11, High at 1 km. The isolated map accepted 900 observations. Painter reached Displayed, direct-point false, all 40 i"
     },
@@ -1496,6 +1491,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T14:14Z",
      "text": "HEAVY 429: a second 900-observation Control Zone capture loaded the observations with Battle Line off and then enabled it. Verified Displayed with direct-point false and 40/40 iterations, and exported the exact render target map: only the 4"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T14:18Z",
+     "text": "HEAVY 429 83107f9359: focused RenderDoc D3D11 counter replay matched all 43 Control Zone large-input bake draws on RTX 5070, High at 1 km, 900 observations. GPU sum across frames 11.93994 ms: seed 0.08080, 32 propagation and cleanup draws 9"
     }
    ]
   },
@@ -3207,5 +3207,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "25d1af508e600d467dbdae1261b0189a921407f6"
+ "source_revision": "2a42286b5c95e97efb3e88974ce0e4001e38c412"
 }
