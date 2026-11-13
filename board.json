@@ -76,7 +76,7 @@
     {
      "who": "CLOUD_COMPLEXITY",
      "since": "2026-11-12T23:09Z",
-     "noted": "2026-11-13T02:10Z",
+     "noted": "2026-11-13T02:34Z",
      "progress": 0,
      "ticked": 0,
      "total": 4
@@ -102,11 +102,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-13T00:50Z",
-     "text": "REVIEW-469-CR-AC63-01: P2 an error recurring after its delivered report sets AskAgain, but an unreachable route sees only PendingCount=0 and never starts waiting-work recovery; the same code stays suppressed until another need reconnects it"
-    },
-    {
      "by": "CLOUD_COMPLEXITY",
      "at": "2026-11-13T01:52Z",
      "text": "CLOUD_COMPLEXITY 2026-11-13: place 7 is on main (554ad29afa), Street View photo sync between two peers. One photo's exchange with one peer is three marks and one decision (PhotoSyncState.NextStep); every offer is answered once, so a photo t"
@@ -115,6 +110,11 @@
      "by": "CLOUD_COMPLEXITY",
      "at": "2026-11-13T02:10Z",
      "text": "CLOUD_COMPLEXITY 2026-11-13 02:15Z. (1) Review finding CR-AC63-01 is repaired on main, 97d295f361: a route without a connection reads HubDiagnostics.Client.NeedsServer (a report the server has not stored and this device may send, a delivere"
+    },
+    {
+     "by": "CLOUD_COMPLEXITY",
+     "at": "2026-11-13T02:34Z",
+     "text": "CLOUD_COMPLEXITY 2026-11-13, later. On main: 07613219ba the VPN's specs make a route without a connection ask its MavServer (a read that is due, an Admin's edit not delivered); 34757ae79a the device's request for its own tunnel is one ask p"
     }
    ]
   },
@@ -2571,5 +2571,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4a57175a0c8026f7d2dcd9b35a24a42fc010eaec"
+ "source_revision": "71f23a8ddf58c575740067f278bc68d94f056eff"
 }
