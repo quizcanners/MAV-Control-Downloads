@@ -1234,31 +1234,23 @@
    "held": [],
    "steps": [
     {
-     "t": "Editor machine: widen the Back arrow tap rectangle of Dev Mode headers in Player",
+     "t": "Tasks screen on main: cached board, one 'Offline \u00b7 last updated hh:mm \u00b7 Retry' r",
      "x": true
     },
     {
-     "t": "quiz's pick of the route by which the app writes to the board (the app reads boa",
+     "t": "Dev Mode header Back arrow: tap strip widened to 44 units in PlayerAndEditorGui_",
+     "x": true
+    },
+    {
+     "t": "quiz: pick the route by which the app writes to the board (the app reads the pub",
+     "x": false
+    },
+    {
+     "t": "Cloud, after that: in-app priority, Set for review, Park and Verified write back",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T12:40Z",
-     "text": "MAC_FABLE batch 2, step 5 (Dev Mode page headers): stuck, nothing changed. There is no back-header prefab: Settings is the Inspector window, and every page's header (green back arrow, yellow section name, thin rule) is drawn by one code pat"
-    },
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-12T14:22Z",
-     "text": "quiz, 2026-11-12: may an agent edit the shared Inspector file that draws Dev Mode headers? 'Obviously can.' So PlayerAndEditorGui_EnterExitContext.cs (ExitClick) may be edited. Every Dev Mode page header is drawn by that one ExitClick, so p"
-    },
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-12T14:54Z",
-     "text": "ROG_FABLE 2026-11-12 batch 4 step 1 (1715ac2020). Where the header Back arrow is drawn: not in EnterExitContext.ExitClick (that only records the exit) but by pegi.Click(Sprite) in PlayerAndEditorGui_Click.cs, reached from Icon.Exit.ClickUnF"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 418,
@@ -3799,5 +3791,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "20a00ed947a88f3b46253e86bfb9e40e0b944380"
+ "source_revision": "82f63529121504dc94115831af2722a1324bd9a8"
 }
