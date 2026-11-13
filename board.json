@@ -2328,19 +2328,14 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T08:05Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-13T08:13Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "PASIKA",
-     "at": "2026-11-12T21:23Z",
-     "text": "PASIKA on item 3 (Floating Panel size carrier): not cut. TEXCOORD1 already carries the UI tint (tintData, _UI_PANEL_TINT), and the corner radius is in screen pixels (_ScreenParams), so a carrier needs canvas scale written per Image plus a s"
-    },
     {
      "by": "CODEX_MAC_UI",
      "at": "2026-11-13T04:46Z",
@@ -2350,6 +2345,11 @@
      "by": "CODEX_MAC_UI",
      "at": "2026-11-13T04:59Z",
      "text": "CODEX_MAC_UI: item 4 done in e6cdf78078. World blur wraps package Vert and interpolates symmetric taps, retaining 11 horizontal and nine vertical reads, weights, zigzag and ping. Metal Editor procedural comparison against the preceding shad"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T08:13Z",
+     "text": "HEAVY 547: Fullscreen Video viewport-to-source UV affine pair on main in 45d744c444. C# combines viewport extent, aspect fit and source flip and updates the material on a change. The shader keeps the URP target-origin handling and existing "
     }
    ]
   },
@@ -2988,5 +2988,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "360f670bfd798bbc6a97e4b471ac6eaf83a123a8"
+ "source_revision": "a3511304a86daa3840be40a21cec79b0965913b2"
 }
