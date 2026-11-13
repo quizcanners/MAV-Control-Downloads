@@ -944,6 +944,11 @@
      "by": "CODEX_MAC_UI",
      "at": "2026-11-13T22:02Z",
      "text": "Discarded a proposed Diagnostics navigation change after the Editor showed it did not remove the ancestor header; current behavior remains at fd5c831d06. The extra Map header remains an Inspector navigation issue, not proven to be caused by"
+    },
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-13T22:09Z",
+     "text": "Follow-up to my 22:02 note: the extra Map header was traced to empty unkeyed Inspector navigation keys and fixed in 327028dc58. Lighting was seen with only its own header; PegiNavigationTests passed 9/9. Planet Diagnostics itself still need"
     }
    ]
   },
@@ -3894,5 +3899,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e81e66b3d9f1f0c3a0e838cde7511cd507e3bed1"
+ "source_revision": "c7d3a0bcb68a4f06d5b883d72d33a12fdac5e278"
 }
