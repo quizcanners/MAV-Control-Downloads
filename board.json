@@ -3374,14 +3374,20 @@
     {
      "who": "CODEX_MAC_UI",
      "since": "2026-11-13T17:42Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-13T17:44Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-13T17:44Z",
+     "text": "Investigated: Share uses List Capsule Body / LiquidGlassCapsule shader; normal glass brightens the blur with (glass + 0.02) * 1.25, unlike neighboring squircle controls. Quiet mode replaces its material via MavControlVisual, so changing the"
+    }
+   ]
   },
   {
    "n": 600,
@@ -3444,5 +3450,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "97d97f8d2c626cceb652130720fe69382ca4454e"
+ "source_revision": "f52b0984f6e96f0559840e076a9c0dfef196dff1"
 }
