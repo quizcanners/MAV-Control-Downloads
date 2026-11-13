@@ -1558,7 +1558,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T06:08Z",
-     "noted": "",
+     "noted": "2026-11-13T06:10Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -1581,11 +1581,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T05:59Z",
-     "text": "HEAVY goal 431, 28f8e745ee: fixed packaged native bridge resolution. The WebRTC factory can load a matching MavVideo.dll beside its own module by absolute path before MAV Control first touches PeerVideoNative. Rebuilt the actual Release web"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T06:03Z",
      "text": "HEAVY goal 431: isolated the RTX 5070 Media Foundation failure on PL-007. Five native repetitions reproduced WEBRTC_VIDEO_CODEC_FALLBACK_SOFTWARE (-13), caused by MavVideo reporting EncoderError::Unsupported while reading the queue. With th"
     },
@@ -1593,6 +1588,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T06:07Z",
      "text": "HEAVY 431: checked the actual Release webrtc.dll through UnityPluginLoad, ContextCreate and ContextGetSenderCapabilities using a minimal native Unity graphics-interface harness on PL-007 Radeon. 3/3 cases passed: matching sibling MavVideo.d"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T06:10Z",
+     "text": "HEAVY 431, 3311290faf: the prototype now preserves Unity NVENC when its factory is available, so Media Foundation Main cannot shadow an existing RTX encoder. Release webrtc.dll and native tests rebuilt. On PL-007, RTX factory test 1/1 passe"
     }
    ]
   },
@@ -2776,5 +2776,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "88d9479b9ee87e7a63b081e696b69c5c12543525"
+ "source_revision": "e9f205490cbd2a6c53da12c40e5d32361a40ddbc"
 }
