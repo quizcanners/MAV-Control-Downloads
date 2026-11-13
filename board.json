@@ -817,27 +817,23 @@
    "held": [],
    "steps": [
     {
+     "t": "iOS half: MavControlTextSession.mm swaps the Unity keyboard responder's inputVie",
+     "x": true
+    },
+    {
+     "t": "Android half: Assets/Plugins/Android/MavTextSession.java (zero-size EditText, co",
+     "x": true
+    },
+    {
      "t": "Getac (Android + hardware keyboard) and Mac (iPad + keyboard): hotplug, resume, ",
+     "x": false
+    },
+    {
+     "t": "Cloud: compile 0e0329abde (cmp.sh); open findings awaiting quiz: CR-A24B-01 (P2,",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CLOUD_C",
-     "at": "2026-11-12T08:11Z",
-     "text": "CLOUD_C 2026-11-12: nothing code-doable left here; every open step is Editor authoring, a device or look check, or waits on quiz. Left: device acceptance on Android and iPad (hotplug, IME, paste, Enter, Esc)."
-    },
-    {
-     "by": "CLOUD_C",
-     "at": "2026-11-12T08:12Z",
-     "text": "CLOUD_C 2026-11-12: nothing code-doable left here; every open step is Editor authoring, a device or look check, or waits on quiz. Left: device acceptance on Android and iPad (hotplug, IME, paste, Enter, Esc)."
-    },
-    {
-     "by": "CLOUD_H",
-     "at": "2026-11-12T08:29Z",
-     "text": "CLOUD_H 2026-11-12 0e0329abde CR-64FD-01 source-repaired: UI_SearchBarController commits the soft-hidden gate only when the native call returns 0; a refusal is asked again only when hardware keyboard, focus/composition readiness or the oper"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 379,
@@ -3815,5 +3811,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a762d1381192e77c9235d43116c5102b23c76eec"
+ "source_revision": "b2a75c8781d7f6c4512a3827e5c1687f8352dc5c"
 }
