@@ -1558,7 +1558,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T05:57Z",
-     "noted": "",
+     "noted": "2026-11-13T05:59Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -1581,11 +1581,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T05:48Z",
-     "text": "HEAVY goal 431, deaee3a43f: native tests now select explicit DXGI adapters. Both fixtures passed on an RTX 5070 sender (10de:2f04) and a Radeon sender (1002:13c0) with an RTX receiver. Media Foundation H.264 Main encoded/decoded 21/20 and 2"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T05:51Z",
      "text": "HEAVY goal 431, 12d39fc48d: verified native negotiated VP8 fallback on PL-007. The Radeon sender offered H.264 Main first, the Radeon receiver advertised no H.264 decoder and answered with VP8, and libvpx encoded and decoded 15/15 frames in"
     },
@@ -1593,6 +1588,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T05:56Z",
      "text": "HEAVY 431, 29b278b07b: reproduced the current MAV Control sender preference path before packaging. Radeon advertised Main 4d0029 but SetCodecPreferences(H.264 only) rejected it because local receive capabilities contain no H.264. RTX accept"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T05:59Z",
+     "text": "HEAVY goal 431, 28f8e745ee: fixed packaged native bridge resolution. The WebRTC factory can load a matching MavVideo.dll beside its own module by absolute path before MAV Control first touches PeerVideoNative. Rebuilt the actual Release web"
     }
    ]
   },
@@ -2766,5 +2766,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "9484f7dddc186928aa3b0ed2480c065de755b7ef"
+ "source_revision": "4235342c34db18a22da31765f62676ab5726f8b9"
 }
