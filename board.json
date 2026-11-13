@@ -1683,7 +1683,7 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-13T04:10Z",
-     "noted": "",
+     "noted": "2026-11-13T04:27Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -1706,11 +1706,6 @@
    "notes": [
     {
      "by": "ROG_FABLE",
-     "at": "2026-11-12T15:15Z",
-     "text": "ROG_FABLE 2026-11-12 batch 4 step 4, after cce3cc7533 (shadow boxes drawn in GroupPass with the depth texture declared): still nothing darkens. Editor Play on the Rog, Map scene, Synthetic Situation 6410 groups, camera 1.5 km tilt 40 at 20."
-    },
-    {
-     "by": "ROG_FABLE",
      "at": "2026-11-12T16:18Z",
      "text": "ROG_FABLE 2026-11-12 batch 5 step 2, the three suspects, none is the cause; the shadow box draws nothing visible at all. A/B at one pose (Map scene, Synthetic Situation 6410 groups, 1.5 km tilt 40 at 20.9/54.6, 2000x1152, dusk): the same fr"
     },
@@ -1718,6 +1713,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-12T23:53Z",
      "text": "ROG_FABLE batch 9 step 1 (main with cce3cc7533, Windows Editor D3D11, Synthetic Situation 6410 groups, camera 80 m tilt 35 at 20.9/54.6, 1920x1080): the shadow box still draws nothing. (a) A/B: three rows' ShadowBoxSize set to 0 in Map.unit"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-13T04:27Z",
+     "text": "ROG_FABLE 2026-11-13 (main, Windows Editor D3D11, Synthetic Situation, 80 m tilt 35 at 20.9/54.6), narrowing 'shadow box draws nothing', all edits temporary and reverted: (1) A temporary Debug.Log in GroupPass's render function: owner._shad"
     }
    ]
   },
@@ -2669,5 +2669,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e49211409019a00a8ef82da833230d8d1d10f457"
+ "source_revision": "d2565a1a9fc7ba6777485be8383ff412c5e4194c"
 }
