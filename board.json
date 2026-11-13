@@ -169,7 +169,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-13T16:14Z",
-     "noted": "",
+     "noted": "2026-11-13T16:27Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -200,11 +200,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-13T14:52Z",
-     "text": "GETAC: da6b730694 records actual URP 2x color, depth and depth-copy descriptors and keeps their pool keys without inherited clears. The keep-alive pass was able to select a different depth-copy format on a UI-only frame, and URP can issue a"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-13T15:30Z",
      "text": "GETAC 676917400a. Strong Dev 831 with da6b730694 reached 759.1 MiB Graphics at five minutes versus 1151.0 MiB on prior Dev 830. Both had 143 display masks, a 4000x2304 grab and 10 screen/camera buffers. Graphics still rose 178 MiB from 150 "
     },
@@ -212,6 +207,11 @@
      "by": "GETAC",
      "at": "2026-11-13T16:12Z",
      "text": "GETAC 94632e7ee0: same signed Dev 831 APK 064cbe64b6 on Strong, current/previous keep-alive gave 731.9/1095.9 MiB Graphics at five minutes. Both had 143 masks and 4000x2304 grabs with depth Auto. Current kept three 2x camera texture IDs thr"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-13T16:27Z",
+     "text": "GETAC 0c09690b56. Strong Dev 831 Perfetto reproduced the remaining growth: 614.0 to 755.6 MiB GPU Memory at 150-210 s. Sixteen roughly 9 MiB steps account for 141.8 MiB. The 2x camera IDs stayed stable; all three 1x camera objects repeatedl"
     }
    ]
   },
@@ -3273,5 +3273,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c28ab414ea04aa1b5c3ea805b4ecee04cbc1eaac"
+ "source_revision": "11c2735ed93de38ebdffeeb6ca387024d2b81e27"
 }
