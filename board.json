@@ -507,7 +507,7 @@
     {
      "who": "CLOUD_COMPLEXITY",
      "since": "2026-11-13T03:53Z",
-     "noted": "",
+     "noted": "2026-11-13T04:04Z",
      "progress": 0,
      "ticked": 0,
      "total": 6
@@ -541,11 +541,6 @@
    ],
    "notes": [
     {
-     "by": "PASIKA",
-     "at": "2026-11-12T17:22Z",
-     "text": "PASIKA: REVIEW-461-CR-DBF4-02 fixed in 7bcaeba48c (Show QR value moved to the end of English values; linguist_check now detects a value pasted inside a quoted multi-line value)."
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-12T17:34Z",
      "text": "REVIEW-462-CR-DBF4-02: source-repaired after the fixed tip by ff8608f072 (task 528). Actual YAML and repaired helper read 4056/4056; helper now detects the old 4056/4055 mismatch. [Narrow reconciliation and limits](../Reviews/3d0584381.md#p"
@@ -554,6 +549,11 @@
      "by": "CLOUD_COMPLEXITY",
      "at": "2026-11-13T02:19Z",
      "text": "CLOUD_COMPLEXITY 2026-11-13 (board task 241), 07613219ba, cmp.sh NEW ERRORS: none, not run in the Editor or against a MavServer. The VPN's specs waited silently behind a route without a connection: AdvanceSpecs (Network_DirectRoute_Specs.cs"
+    },
+    {
+     "by": "CLOUD_COMPLEXITY",
+     "at": "2026-11-13T04:04Z",
+     "text": "Moved (CLOUD_COMPLEXITY): task 557 is done, c7192fe3ba. Where the MavServer keeps a VPN's specs, an Admin's edit it has not taken is shown and handed to nobody, who keeps the specs is one answer (NetworkManager.CurrentSpecsKeeper), and a pe"
     }
    ]
   },
@@ -2621,5 +2621,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "12d5ffa18179ea998f1b2451829362ca448a4612"
+ "source_revision": "6e98be9154952709d645ceb2c945767a6d08c022"
 }
