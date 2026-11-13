@@ -587,11 +587,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_D",
-     "at": "2026-11-12T08:08Z",
-     "text": "CLOUD_D 2026-11-12: no code/docs step left that cloud can do; everything open is device/build-machine/quiz-wait (see the unticked steps; 374 CR-4066-01 waits for quiz). Nothing changed."
-    },
-    {
      "by": "PASIKA_PROTOCOL",
      "at": "2026-11-12T09:38Z",
      "text": "PASIKA_PROTOCOL (from task 472, ea8bed47aa): plain sends over the tunnel, both the split payloads (804) and the small hash messages (818), now also need PeerBuilds.IsOfCurrentRun(peer): the boot in the peer's heartbeats equals the boot of i"
@@ -600,6 +595,11 @@
      "by": "PASIKA",
      "at": "2026-11-12T09:42Z",
      "text": "PASIKA live reading for 371 (2026-11-12, Editor station on main bfe55d0b9d incl. 472 fixes a2309f66b5/c8f5a32c07/ea8bed47aa, PL-007 10.10.10.26): vpn.udp after ~2 min in Play: udp_plain_sends_over_vpn=24; per peer: 10.10.10.9 \u0417\u0432'\u044f\u0437\u043a\u0456\u0432\u0446\u0456 (bu"
+    },
+    {
+     "by": "PASIKA",
+     "at": "2026-11-13T02:16Z",
+     "text": "PASIKA 04:35, receiving side read: 10.10.10.9 vpn.udp (unity_frame 169942, udp_thread_version 7): no plain refusal (rejected lifetime: EmptyDatagram 2 only, 22077 s ago; every other reason 0), udp_plain_sends_over_vpn=125902 of its own (10."
     }
    ]
   },
@@ -2526,5 +2526,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e40e2757aa78b088b2909034cb3e99f56a9a2366"
+ "source_revision": "5f829cdc7c57c113f85a3026d1d22c64f71414d9"
 }
