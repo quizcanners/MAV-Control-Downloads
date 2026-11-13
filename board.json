@@ -275,7 +275,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T12:44Z",
-     "noted": "",
+     "noted": "2026-11-13T12:48Z",
      "progress": 0,
      "ticked": 0,
      "total": 2
@@ -293,11 +293,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_FABLE",
-     "at": "2026-11-12T16:59Z",
-     "text": "ROG_FABLE 2026-11-12 batch 6 step 6: not run on the Rog. This Editor is a live station: in Play it joins the VPN as 'Rog Ally' 10.10.10.21 with peers (Members x5, Linguist iPad and others in the lists) and peer sync on, so the ~1800 simulat"
-    },
-    {
      "by": "MAC_FABLE",
      "at": "2026-11-12T20:48Z",
      "text": "MAC_FABLE batch 11 step 5: the wifi.blindspots Editor sequence cannot run under the station test identity. (1) Play with the identity on stopped at the loading screen 'Verification profile refused', so the runtime bridge never answered. The"
@@ -306,6 +301,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T12:41Z",
      "text": "Windows Unity 6000.6.8f1 at 797f797f63: 122/122 EditMode tests passed (DynamicBlindSpot 19, RaspberryPiWifiScanner 93, RaspberryPiWifiCleanupCalls 2, RaspberryPiWifiAttribution 8). XML retained under C:/MavControlEvidence/Windows-365-202611"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T12:48Z",
+     "text": "HEAVY 365: isolated Windows Unity 6000.6.8f1 Play at 1a3511aa86 completed the local blind-spot sequence. A temporary Editor-only probe called the existing cleanup step before the MapOnly early return; scanner UDP listener stayed off, peer s"
     }
    ]
   },
@@ -3132,5 +3132,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ba697d29a4596a6ba26143e465b4dcc0efd373a2"
+ "source_revision": "ab123adc6a1a86df7b8fc0b0fcdaa7469f59e963"
 }
