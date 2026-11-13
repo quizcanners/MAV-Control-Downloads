@@ -1661,7 +1661,7 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-13T22:04Z",
-     "noted": "",
+     "noted": "2026-11-13T22:04Z",
      "progress": 38,
      "ticked": 3,
      "total": 8
@@ -1706,6 +1706,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-13T20:14Z",
      "text": "ROG_FABLE 479, decal half: scene depth and UNITY_MATRIX_I_VP are right inside GroupPass, so that suspect is out. Debug shader on Decal Like Shadow.mat (same Universal Forward slot, Cull Front, ZTest Always) rebuilt the world point exactly a"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-13T22:04Z",
+     "text": "ROG_FABLE 479, decal half closed: the real Decal Like Shadow darkens the model and the ground around it in GroupPass on the Rog (Windows Editor D3D11, main f27305bfdc with 1d4adbf91b's per-box DrawMesh, nothing changed in the shadow). How: "
     }
    ]
   },
@@ -3894,5 +3899,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "2bff3b6025a7f9f5622c50694196cc289bcbf20c"
+ "source_revision": "6ebd0b360866934bd06d363fade6633dd4d35063"
 }
