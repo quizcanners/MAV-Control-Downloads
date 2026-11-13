@@ -160,7 +160,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-13T12:49Z",
-     "noted": "",
+     "noted": "2026-11-13T13:06Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -190,11 +190,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-13T11:48Z",
-     "text": "GETAC controlled Strong Dev 830 GLES cold launches, same pose, five minutes: Sharp still frame on/off Android Graphics 1407/372 MiB, PSS 2502/1448 MiB. Planet texture pages off in both, 143 masks in both, Unity Texture census gap only one 8"
-    },
-    {
      "by": "ROG_FABLE",
      "at": "2026-11-13T12:28Z",
      "text": "ROG_FABLE, Windows Editor D3D11 read after d0133e1e6b (sharp still camera targets kept between refreshes), 1920x1080, cfg.stillframe on, hands off: after about 45 s map_motion=MapStatic, map_render_mode=FrozenDouble, kept_picture=True, last"
@@ -203,6 +198,11 @@
      "by": "GETAC",
      "at": "2026-11-13T12:47Z",
      "text": "GETAC kept the 2x camera targets between Sharp still frame refreshes in d0133e1e6b and 18203401a8. Dev 830 3129309d60 Strong at five minutes: 1151 MiB Graphics vs prior 1407 with the option on, 372 with it off. Census gained three camera te"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-13T13:06Z",
+     "text": "GETAC same Dev 830 APK 3129309d60, same pose, Sharp still on: Android Graphics at 300s was 1151 MiB normal depth, 676 with both depth request paths skipped, 1313 with emulated-camera depth alone skipped. Operator depth remained active in th"
     }
    ]
   },
@@ -3146,5 +3146,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1fd93adf095d8e838a76d41cd56c13967e4d3a54"
+ "source_revision": "c520121439bd59c17414cefc974e4eb04436d118"
 }
