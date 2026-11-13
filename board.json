@@ -2671,7 +2671,7 @@
   },
   {
    "n": 566,
-   "name": "Editor",
+   "name": "Non-interacting (quiet) plaques ",
    "done": "2026-11-13T06:01Z",
    "goal": false,
    "under": 0,
@@ -2680,24 +2680,21 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
-   "notes": [
+   "steps": [
     {
-     "by": "ROG_FABLE",
-     "at": "2026-11-13T06:00Z",
-     "text": "ROG_FABLE: done. 88ec78793a Clock.prefab: MAV/Editor/Author plaque shadows ran ('Plaque shadow: added to Clock'). 4352b2596a MGRS Coordinate Entry.prefab: the bar control's NormalOnly no longer lists 'UI BG Shadow', so the shadow stays when"
+     "t": "Rog: Clock.prefab got the plaque shadow (88ec78793a); MGRS Coordinate Entry.pref",
+     "x": true
     },
     {
-     "by": "ROG_FABLE",
-     "at": "2026-11-13T06:03Z",
-     "text": "ROG_FABLE: the share button done too (092de64cd3 5cafa40abf ): Transmit Map Center Button's shadow left NormalOnly, ScreenCoverLifetimeTests now asserts it stays while quiet (52/52)."
+     "t": "Rog: Transmit Map Center Button shadow left NormalOnly, ScreenCoverLifetimeTests",
+     "x": true
     },
     {
-     "by": "CLOUD_META",
-     "at": "2026-11-13T18:35Z",
-     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [UI/SPEC.md] \"The time plaque also needs the shadow now. I think all Non-Interacting variants of the button need shadows.\""
+     "t": "Cloud: any other quiet plaque with no shadow object gets one the same way",
+     "x": false
     }
-   ]
+   ],
+   "notes": []
   },
   {
    "n": 567,
@@ -3804,5 +3801,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "2308b3f588635ba4c2fa6abe1095417f58d805cb"
+ "source_revision": "2ab1d1db5eec64f26de801295bb352899921ca3c"
 }
