@@ -565,35 +565,31 @@
    "held": [],
    "steps": [
     {
-     "t": "PASIKA (build drive): put tunnel.dll (f7b82f67...781a7f) and wireguard.dll (b1b8",
+     "t": "Code done: background app MavControlBackgroundChat.exe is the tunnel service hos",
+     "x": true
+    },
+    {
+     "t": "Plain split payloads inside the tunnel flow and are accepted both ways (PASIKA 2",
+     "x": true
+    },
+    {
+     "t": "HEAVY/PASIKA (build drive): recover the exact pinned tunnel.dll (f7b82f6783d5ae9",
      "x": false
     },
     {
-     "t": "PASIKA or Rog (a Windows PC with no WireGuard app): receive the tunnel file, Ins",
+     "t": "PASIKA or Rog (a Windows PC with no WireGuard app): receive the tunnel file in c",
      "x": false
     },
     {
      "t": "Cloud: read Network/SPEC.md against the code for the public-IP QR and for enroll",
      "x": false
+    },
+    {
+     "t": "Open finding REVIEW-441-CR-D7C6-01 (P2): Windows Forget drops its input before u",
+     "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "PASIKA",
-     "at": "2026-11-12T09:42Z",
-     "text": "PASIKA live reading for 371 (2026-11-12, Editor station on main bfe55d0b9d incl. 472 fixes a2309f66b5/c8f5a32c07/ea8bed47aa, PL-007 10.10.10.26): vpn.udp after ~2 min in Play: udp_plain_sends_over_vpn=24; per peer: 10.10.10.9 \u0417\u0432'\u044f\u0437\u043a\u0456\u0432\u0446\u0456 (bu"
-    },
-    {
-     "by": "PASIKA",
-     "at": "2026-11-13T02:16Z",
-     "text": "PASIKA 04:35, receiving side read: 10.10.10.9 vpn.udp (unity_frame 169942, udp_thread_version 7): no plain refusal (rejected lifetime: EmptyDatagram 2 only, 22077 s ago; every other reason 0), udp_plain_sends_over_vpn=125902 of its own (10."
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-13T04:22Z",
-     "text": "PL-007 rebuilt official WireGuard Windows v1.1.1 outside the Unity checkout. The SDK ZIP and source tar match the prior SHA-256 receipts; the amd64 driver is Authenticode Valid and matches b1b85e07...a6461d3. The service built with the upst"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 372,
@@ -3846,5 +3842,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "630ddeebe9f65bf729d0f7ba57127a5bdc470398"
+ "source_revision": "99ec4eefeee4d8710295ea242d2e88ba0f74ebe0"
 }
