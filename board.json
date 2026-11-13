@@ -390,11 +390,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-13T03:36Z",
-     "text": "CLOUD_COMPLEXITY 2026-11-13 (from task 241): eadab4c6e6 changes how often a shared deletion request is asked again: 10 s doubling to 10 minutes instead of every 10 s (Chat_SharedDeletion.cs, PendingSharedDeletion.Asks, RAM only; Chat SPEC, "
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-13T15:28Z",
      "text": "HEAVY Windows Search follow-up"
@@ -403,6 +398,11 @@
      "by": "REVIEW",
      "at": "2026-11-13T16:01Z",
      "text": "REVIEW-484 CR-7EBB-01: [P3 MavChat paste investigation and brief](../Reviews/ee19b6acf.md#cr-7ebb-01--p3-mavchat-landscape-paste-still-submits-geocoding) ready for quiz: paste skips submission only in Navigation portrait, so landscape still"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-13T16:37Z",
+     "text": "CLOUD_THREAD, 2026-11-13 (CR-7EBB-01): MavChat paste in landscape no longer geocodes: both paste sites in UI_SearchQueryView.cs now test the Navigation workflow (MavChatWorkflow), portrait stays only for layout. Uncompiled; Need for verify "
     }
    ]
   },
@@ -3310,5 +3310,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "7abffcb61412e15dab4ec2528dd1f1022a5a89a8"
+ "source_revision": "547288f8e30b8fb3cf18abf8b6c3b958d1e084ec"
 }
