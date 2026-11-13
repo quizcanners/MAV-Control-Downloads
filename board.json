@@ -3505,8 +3505,8 @@
     {
      "who": "CODEX_MAC_UI",
      "since": "2026-11-13T18:21Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-13T18:57Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -3517,6 +3517,11 @@
      "by": "CODEX_MAC_UI",
      "at": "2026-11-13T17:52Z",
      "text": "The existing Suggestions Backing and action rows share RIGHT Suggestions.prefab. Left list flick is UI_LeftListSwipeAway; screen-center intent is Station.UI.RequestedSuggestionTab, but MavChatCenterDefault forces ScreenCenter in Navigation "
+    },
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-13T18:57Z",
+     "text": "bd615c6be1: Suggestions follows rightward drag/flick, clears selection and dismisses the screen-center tab; MavChat landscape can reopen its default center. Unity compiled, 59 Search/Suggestions tests and 2 swipe/prefab tests passed; Roslyn"
     }
    ]
   },
@@ -3796,5 +3801,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e8372e12cd60dcc41b9195b026acf09f646c320f"
+ "source_revision": "9831cfd39028a8a313f351d8428a3156f3612078"
 }
