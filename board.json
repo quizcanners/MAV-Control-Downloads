@@ -1690,11 +1690,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-13T11:18Z",
-     "text": "HEAVY 479: completed the Windows Editor shadow fitting step. Temporarily positioned one live instanced model from each authored row at three verified in-frustum terrain hits, leaving the normal solid and ContactShadow_DecalLike draws in use"
-    },
-    {
      "by": "ROG_FABLE",
      "at": "2026-11-13T14:29Z",
      "text": "ROG_FABLE 2026-11-13, CORRECTION to my two notes of 2026-11-12/13 ('the box draw produces no pixel'): that conclusion is not proven. The debug log shows the 5 shadow boxes (the only 3D model instances in the synthetic set) at world x 440-47"
@@ -1703,6 +1698,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-13T15:41Z",
      "text": "ROG_FABLE 2026-11-13, retracting my earlier 'correction' (the boxes were not off-screen: the synthetic set is generated around the camera, so the 3D models are always in view). Settled with models on screen (camera goto 54.5952 20.9070 300,"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-13T16:29Z",
+     "text": "ROG_FABLE, one detail for the Frame Debugger step: the icon shader (Situation Grouped Icons.shader) is the only material known to draw in GroupPass; its passes are '#pragma target 3.5, multi_compile_instancing, instancing_options forcemaxco"
     }
    ]
   },
@@ -3246,5 +3246,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a9addcb4912fc4fd3768c9a53838855d0134fa55"
+ "source_revision": "6968792c757242e7534238bd7cb282c4ed9e5611"
 }
