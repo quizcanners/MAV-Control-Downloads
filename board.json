@@ -2824,6 +2824,45 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 572,
+   "name": "One reusable entity system: Remote Sensors, Training, Situat",
+   "done": "",
+   "goal": true,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "EntityIdentityTable<TKey> (added, kept, removed, no garbage) in Systems/ECS and ",
+     "x": false
+    },
+    {
+     "t": "Situation joins shared pointing: PointableType.Situation and a TryPoint, then Tr",
+     "x": false
+    },
+    {
+     "t": "One ground system: Remote Sensors NeedsGroundAlignment and Situation BeginGround",
+     "x": false
+    },
+    {
+     "t": "Fade as one component (wanted, shown) used by Situation, event smoke and Trainin",
+     "x": false
+    },
+    {
+     "t": "Editor: compile, then Play with Remote Sensors, Training and the Synthetic Situa",
+     "x": false
+    },
+    {
+     "t": "Shared draw loop lifted from SituationGroupedIconSystem for Remote Sensors model",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -2872,5 +2911,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0bcc894a4c0d4c72e39ec4e7dcea69a5c741f5c5"
+ "source_revision": "1e50cd5f713394ed487fbdc71c875131b598a0a1"
 }
