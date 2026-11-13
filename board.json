@@ -1567,7 +1567,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T04:45Z",
-     "noted": "",
+     "noted": "2026-11-13T04:46Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -1590,11 +1590,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T04:29Z",
-     "text": "HEAVY goal 431 native Windows slice: rebuilt and ran WindowsLoopback on PL-007 without Unity. PASSED 0 failures; hardware H.264 150 submitted / 150 encoded / 150 decoded, 37/37 color/orientation/bar checks, zero damaged, mean pipeline 33.1 "
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T04:34Z",
      "text": "HEAVY goal 431: resolved the local Vulkan/CUDA dependency gap and linked Unity WebRTC 3.0.0 (13da9f51, official M116-20250805 libs) Release on PL-007 outside Unity. Vulkan-Headers/Loader v1.4.313 plus x64 import library from the official .d"
     },
@@ -1602,6 +1597,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T04:44Z",
      "text": "HEAVY: Media Foundation WebRTC prototype pushed in cad041915c as two apply-checked patches plus build instructions under Assets/_PROJECT/Systems/Peer Video/Native~/WebRTC. Both DLLs build; MavVideo WindowsLoopback on PL-007 passed with zero"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T04:46Z",
+     "text": "HEAVY 431 follow-up a241d338a7: extended the native Unity WebRTC factory test to submit D3D11 frames through VideoEncoder::Encode and receive its EncodedImage callbacks on PL-007. Passed 1/1 (927 ms), 10 H.264 access units, Main SPS present"
     }
    ]
   },
@@ -2699,5 +2699,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "211749392fe995de42bc19a83eda23522b0074dc"
+ "source_revision": "c2248ef9920bbaf9ec8da8437aa449ea644f3f00"
 }
