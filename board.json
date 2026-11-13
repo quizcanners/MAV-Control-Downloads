@@ -1051,7 +1051,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T13:00Z",
-     "noted": "",
+     "noted": "2026-11-13T13:05Z",
      "progress": 50,
      "ticked": 2,
      "total": 4
@@ -1078,11 +1078,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T11:36Z",
-     "text": "HEAVY 382/369: Windows Unity 6000.6.8f1 D3D11 live Editor EditMode All at cf5ea29805 under the disposable Station test identity: 8568 passed, 5 failed, 4 skipped, 0 inconclusive, 218.6 s. Bootstrap members all passed: WaypointCheckpointTest"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T11:59Z",
      "text": "HEAVY: prepared Windows All passed, including WaypointCheckpoint 61/61, StartupBatchTiming 19/19, CheckpointFilePublication 7/7 and PersistenceRotationPin 106/106. Qualification, XML hash, source and skips are on goal 369. Remaining Cloud w"
     },
@@ -1090,6 +1085,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T12:37Z",
      "text": "HEAVY 382: after the Windows GPU capture, compared the local Loading Screen prefab to main by Unity object ID. All object IDs and references matched; only YAML order, whitespace and two TextMeshPro serialization fields changed. Restored mai"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T13:05Z",
+     "text": "HEAVY 382 ROOT-SETTINGS-DIRTY-ADMISSION Windows run at 9cf81eb190: Unity 6000.6.8f1 EditMode All finished with 8,581 passed, 0 failed, 4 skipped, 0 inconclusive. WaypointCheckpointTests 61/61, CheckpointFilePublicationTests 7/7, Persistence"
     }
    ]
   },
@@ -3155,5 +3155,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "9cf81eb1909f0b1a3a6bb4f749c03916feffb6b9"
+ "source_revision": "5fb1fc634eff0d22803f2da11e8ed86f57d8e34d"
 }
