@@ -245,31 +245,23 @@
    "held": [],
    "steps": [
     {
-     "t": "Rog or Mac (Editor), or PASIKA (Editor): run the wifi.blindspots Editor Play seq",
+     "t": "Windows Editor (HEAVY): 122/122 EditMode tests pass; isolated MapOnly Play prove",
+     "x": true
+    },
+    {
+     "t": "Android tablet with a peer: restart mid-cleanup resumes, and peer sync does not ",
      "x": false
     },
     {
      "t": "The machine on the Raspberry Pi's network (none registered; starts when quiz say",
      "x": false
+    },
+    {
+     "t": "Rog or Mac, only if the live Editor sequence is still wanted: needs a disposable",
+     "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-13T12:41Z",
-     "text": "Windows Unity 6000.6.8f1 at 797f797f63: 122/122 EditMode tests passed (DynamicBlindSpot 19, RaspberryPiWifiScanner 93, RaspberryPiWifiCleanupCalls 2, RaspberryPiWifiAttribution 8). XML retained under C:/MavControlEvidence/Windows-365-202611"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-13T12:48Z",
-     "text": "HEAVY 365: isolated Windows Unity 6000.6.8f1 Play at 1a3511aa86 completed the local blind-spot sequence. A temporary Editor-only probe called the existing cleanup step before the MapOnly early return; scanner UDP listener stayed off, peer s"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-13T12:58Z",
-     "text": "HEAVY 365, 1ad92b6496: fixed the active RenderTexture release warning from the WiFi map cleanup. The shared texture disposer detaches a target only when that exact texture is active. Windows Unity 6000.6.8f1: UtilityTextureAllocationTests 1"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 366,
@@ -856,19 +848,23 @@
    "held": [],
    "steps": [
     {
-     "t": "Getac (radio on USB): Windows USB health snapshot and ETW trace of the gateway l",
+     "t": "Strong (Android 13) over SV07 Bluetooth cannot work: its Bluetooth address 39:23",
+     "x": true
+    },
+    {
+     "t": "Windows USB health snapshot (radio on USB, MOTOTRBO Radio #2 VID_0CAD&PID_1023, ",
+     "x": true
+    },
+    {
+     "t": "Getac (radio on USB): ETW trace of the next gateway loss (MOTOROLA-WINDOWS-USB-G",
      "x": false
     },
     {
-     "t": "Getac (Strong + radio): an active PAN attempt on Dev 823 or newer: connection an",
+     "t": "Getac + a second radio host (needs quiz's radio update first): paired test in bo",
      "x": false
     },
     {
-     "t": "Getac + a second radio host: paired test in both directions (MOTOROLA-TWO-PC-RAD",
-     "x": false
-    },
-    {
-     "t": "Getac + a second radio host: 10 minutes sharing with the airtime floor",
+     "t": "Getac + a second radio host: 10 minutes sharing with the airtime floor (MOTOROLA",
      "x": false
     },
     {
@@ -884,27 +880,11 @@
      "x": false
     },
     {
-     "t": "quiz's word: design ambiguity rulings S11, S14, S15, S18, S19",
+     "t": "quiz's word: design ambiguity rulings S11, S14, S15, S18, S19; CR-4066-01 (task ",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "PASIKA",
-     "at": "2026-11-12T17:12Z",
-     "text": "PASIKA 17:12Z (quiz: 'You and Getac have radios, they should hear each other'): PASIKA Editor station has Motorola On, method USB, own ID entered 6089031 (unconfirmed), CAI 12, port 41001. But Windows on PASIKA enumerates NO Motorola USB de"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-12T17:12Z",
-     "text": "GETAC Windows 817 SV07 Bluetooth: Windows PAN joined on second attempt, IPv4 192.168.11.2, gateway 192.168.11.1 replied 3/3 before and after. MAV Control bound UDP 41001 on adapter 15 with verified socket pin. Blank-ID discovery and a 12-ca"
-    },
-    {
-     "by": "PASIKA",
-     "at": "2026-11-12T17:18Z",
-     "text": "PASIKA: quiz 2026-11-12 'Radios need update' - paused until the radios are updated; PASIKA side state as in the 17:12Z note."
-    }
-   ]
+   "notes": []
   },
   {
    "n": 380,
@@ -3810,5 +3790,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1be8fa01fb865a54df1c6b2ab49670955dc84b75"
+ "source_revision": "0625cae7c2766bd86ac4d872984fecd3e337f656"
 }
