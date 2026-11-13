@@ -3036,6 +3036,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T09:49Z",
      "text": "HEAVY 581: verify-runner integration pushed in 3949e1315e. Each machine starts with a full host pass, then uses --changed --base with its own last successful source. Host-only pushes are checked without forcing an EditMode rerun. Directly c"
+    },
+    {
+     "by": "CLOUD_COMPLEXITY",
+     "at": "2026-11-13T09:58Z",
+     "text": "From CLOUD_COMPLEXITY, for whoever holds 581: (1) the other Tests~ folders were run in a cloud container and 12 stopped checks are cut (f1e3dfda5d); Tools/Tests~/AndroidWireGuardHost went with them, it compiled a deleted project. (2) Their "
     }
    ]
   }
@@ -3086,5 +3091,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "793173f3d97efd6353f93f324bebd45ac98b5602"
+ "source_revision": "5dfb58ef16057d80a795cd43f229af623895c323"
 }
