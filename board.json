@@ -98,19 +98,19 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-13T14:27Z",
-     "text": "REVIEW-483: [bounded review through e4835a412](../Reviews/e4835a412.md): 35 commits inspected (one release-preparation source commit, 33 coordination/evidence skips, one merge with parent/base tree proof), no new actionable finding. All 24 "
-    },
-    {
-     "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-13T14:27Z",
-     "text": "CLOUD_COMPLEXITY 2026-11-13 14:55Z. Place 27 is on main, 3669289b99: on a Windows PC, OS > Install on another device has one way to put the tunnel on an Android over the cable (into MAV Control's own tunnel), and its pick is a row of the sa"
-    },
-    {
      "by": "CLOUD_COMPLEXITY",
      "at": "2026-11-13T15:15Z",
      "text": "15:15Z floor build 804 (quiz: \"1) Old builds - A\"), step 1 on main as adee059e0cb, compiled (NEW ERRORS: none), not run in the Editor: PeerBuilds.Floor/IsBelowFloor/CrossesFloor/Exchanges asked in NetworkManager.Process and Send_Internal, S"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-13T16:01Z",
+     "text": "REVIEW-484 CC-ADEE-01: [P3 investigation and brief](../Reviews/ee19b6acf.md#cc-adee-01--p3-unchanged-old-peer-passports-rebuild-every-peers-drone-associations) ready for quiz: an unchanged below-floor passport triggers the global drone asso"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-13T16:01Z",
+     "text": "REVIEW-484 CR-ADEE-01: [P2 floor integration investigation and brief](../Reviews/ee19b6acf.md#cr-adee-01--p2-build-floor-integration-leaves-raw-split-reception-outside-the-typed-gate) ready for quiz: raw split ingress bypasses the typed flo"
     }
    ]
   },
@@ -169,7 +169,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-13T15:32Z",
-     "noted": "",
+     "noted": "2026-11-13T16:12Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -200,11 +200,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-13T13:06Z",
-     "text": "GETAC same Dev 830 APK 3129309d60, same pose, Sharp still on: Android Graphics at 300s was 1151 MiB normal depth, 676 with both depth request paths skipped, 1313 with emulated-camera depth alone skipped. Operator depth remained active in th"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-13T14:52Z",
      "text": "GETAC: da6b730694 records actual URP 2x color, depth and depth-copy descriptors and keeps their pool keys without inherited clears. The keep-alive pass was able to select a different depth-copy format on a UI-only frame, and URP can issue a"
     },
@@ -212,6 +207,11 @@
      "by": "GETAC",
      "at": "2026-11-13T15:30Z",
      "text": "GETAC 676917400a. Strong Dev 831 with da6b730694 reached 759.1 MiB Graphics at five minutes versus 1151.0 MiB on prior Dev 830. Both had 143 display masks, a 4000x2304 grab and 10 screen/camera buffers. Graphics still rose 178 MiB from 150 "
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-13T16:12Z",
+     "text": "GETAC 94632e7ee0: same signed Dev 831 APK 064cbe64b6 on Strong, current/previous keep-alive gave 731.9/1095.9 MiB Graphics at five minutes. Both had 143 masks and 4000x2304 grabs with depth Auto. Current kept three 2x camera texture IDs thr"
     }
    ]
   },
@@ -391,11 +391,6 @@
    "notes": [
     {
      "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-13T03:13Z",
-     "text": "CLOUD_COMPLEXITY 2026-11-13: in both Chat Window prefabs the photo painter's six colour captions and three width captions and the Remove caption of a staged attachment row had Ukrainian text and no localization, so a person who picked Engli"
-    },
-    {
-     "by": "CLOUD_COMPLEXITY",
      "at": "2026-11-13T03:36Z",
      "text": "CLOUD_COMPLEXITY 2026-11-13 (from task 241): eadab4c6e6 changes how often a shared deletion request is asked again: 10 s doubling to 10 minutes instead of every 10 s (Chat_SharedDeletion.cs, PendingSharedDeletion.Asks, RAM only; Chat SPEC, "
     },
@@ -403,6 +398,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T15:28Z",
      "text": "HEAVY Windows Search follow-up"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-13T16:01Z",
+     "text": "REVIEW-484 CR-7EBB-01: [P3 MavChat paste investigation and brief](../Reviews/ee19b6acf.md#cr-7ebb-01--p3-mavchat-landscape-paste-still-submits-geocoding) ready for quiz: paste skips submission only in Navigation portrait, so landscape still"
     }
    ]
   },
@@ -3259,5 +3259,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "135b64fd5715a06c8e008768763bf236c3436297"
+ "source_revision": "d0869b51c7bf61842c11f8591d6a415c1dc517f3"
 }
