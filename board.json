@@ -1006,7 +1006,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T12:15Z",
-     "noted": "",
+     "noted": "2026-11-13T12:21Z",
      "progress": 20,
      "ticked": 1,
      "total": 5
@@ -1037,11 +1037,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T12:08Z",
-     "text": "HEAVY 381: reproduced a coast rendering artifact in Windows Unity 6000.6.8f1 D3D11 on a65bd0640d. Google selected, target 47.076 N 37.56 E, measured 1,066.3 m above ground and 39.4 degrees from nadir. The 756x481 capture shows a stepped blu"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T12:11Z",
      "text": "HEAVY 381: isolated the Windows coast band further on 65eeec70b8. In a settled Cesium Google view of Mariupol near 1.07 km above ground, the stepped sea band persisted with Map Overlay hidden, PseudoDecals hidden, a black camera clear, and "
     },
@@ -1049,6 +1044,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T12:14Z",
      "text": "HEAVY 381: Windows Unity D3D11 on 99f8416425, same Google Cesium camera as the prior A/B (47.06812 N, 37.56000 E, 1049.7 m above ground, pitch 50.60). Temporarily wired the existing baseColorTexture sample directly into Cesium Google BaseCo"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T12:21Z",
+     "text": "HEAVY 381: Windows Unity D3D11 at d13173cfaf, captured 17 unique bound _baseColorTexture images from active Google tileset MeshRenderers with GPU readback. Several 256x256 sea textures visibly contain the same stepped green-to-blue transiti"
     }
    ]
   },
@@ -3150,5 +3150,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "25bc25cba5eb144e0b8483cf8fa444b872b805b4"
+ "source_revision": "ce47fb49c1cbd7f1c788d5146402b710695da0c2"
 }
