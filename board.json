@@ -3288,14 +3288,20 @@
     {
      "who": "CODEX_MAC_UI",
      "since": "2026-11-13T16:46Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-13T16:53Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-13T16:53Z",
+     "text": "61d5a5c521: each of the four simple status owners keeps its own SimpleStatusReceipt; card Seen reads and updates that receipt, preserving receipt when a card is recreated and resetting it for a changed or returning issue. Existing per-sourc"
+    }
+   ]
   }
  ],
  "verify": [
@@ -3344,5 +3350,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a7a3d8e82f728418c3e3c778d930a361c43c305a"
+ "source_revision": "bb8f35f56517951d2f2a7847aca1a1de5a186460"
 }
