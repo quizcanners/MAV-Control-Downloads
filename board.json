@@ -699,7 +699,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T14:23Z",
-     "noted": "",
+     "noted": "2026-11-13T14:30Z",
      "progress": 0,
      "ticked": 0,
      "total": 10
@@ -750,11 +750,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T10:46Z",
-     "text": "HEAVY 374: Brigade 68 Windows 830 non-development IL2CPP built at 51543b8145 on Unity 6000.6.8f1 in 96 s (BuildPlayer 89 s). Initial run lacked the release-key directory. Retry used normal embedded-key preparation with a private local direc"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T10:50Z",
      "text": "HEAVY 374: published Brigade 68 Windows 830 portable to GitHub Test using MAVSEAL1 and the exact 51543b8145 build key. Packaged bootstrap verified before mutation; publisher downloaded all uploaded bytes and checked SHA-256 before promotion"
     },
@@ -762,6 +757,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T10:54Z",
      "text": "HEAVY 374: Brigade 68 Windows Test Drive folder still lists the 817 installer. The 830 portable ZIP upload stopped before transfer at the connector 100 MiB limit (271801740 bytes), and no Drive mount is present. Recovered original Config_68"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T14:30Z",
+     "text": "Windows 831 Brigade 68 portable published to GitHub Test from 7ed82324aa. Unity IL2CPP 105 s (BuildPlayer 98 s); ZIP CRC and native output hashes passed. Publisher verified packaged bootstrap and full remote readback before promotion. Catal"
     }
    ]
   },
@@ -3198,5 +3198,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f51fa1ad0163d2e6915efa1447f9ed5ede98c0d0"
+ "source_revision": "7c3cad7c5a44a451afe6b491afca271896217aa0"
 }
