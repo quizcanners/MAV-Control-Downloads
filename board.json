@@ -448,7 +448,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T10:07Z",
-     "noted": "",
+     "noted": "2026-11-13T10:13Z",
      "progress": 0,
      "ticked": 0,
      "total": 7
@@ -487,11 +487,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T09:22Z",
-     "text": "HEAVY 369: Windows Unity 6000.6.8f1 D3D11 native import and render members at bea7616292. Synchronous reimport passed for all four known Search/notification prefabs; Search Query Landscape input, text and placeholder resolve. Live Search op"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T09:29Z",
      "text": "HEAVY 369: Windows Unity 6000.6.8f1 D3D11, 04cce13cdc, station test identity. SpoutDiscoveryPlayModeTests.NativeDiscovery_SurvivesDisableAndReenable passed 1/1 in 6.4 s, with no failures/skips/inconclusives. Native discovery survives disabl"
     },
@@ -499,6 +494,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T09:35Z",
      "text": "HEAVY 369: current-main Windows Unity 6000.6.8f1 D3D11 EditMode All at 1045cd7106: 8,572 passed, 0 failed, 4 skipped, 1 inconclusive in 231.46 s NUnit wall. MavChatSheetTests 93 passed, 1 inconclusive (30 dp was 22.5 px versus the required "
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T10:13Z",
+     "text": "HEAVY 369: removed the screen-dependent inconclusive in fe770e21c2. The existing MavChat short twitch/fast flick test supplies 1.5 px/dp to the same release decision; a 30 dp move clears 32 px selector slop without crossing the icon step. T"
     }
    ]
   },
@@ -3096,5 +3096,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "9fdb3a335b37035694c6ede30067e99b6b064ed2"
+ "source_revision": "c2b87bb76ff10ad04526faa13cb1a8d66b9ccf16"
 }
