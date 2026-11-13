@@ -169,7 +169,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-13T14:33Z",
-     "noted": "",
+     "noted": "2026-11-13T14:52Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -199,11 +199,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_FABLE",
-     "at": "2026-11-13T12:28Z",
-     "text": "ROG_FABLE, Windows Editor D3D11 read after d0133e1e6b (sharp still camera targets kept between refreshes), 1920x1080, cfg.stillframe on, hands off: after about 45 s map_motion=MapStatic, map_render_mode=FrozenDouble, kept_picture=True, last"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-13T12:47Z",
      "text": "GETAC kept the 2x camera targets between Sharp still frame refreshes in d0133e1e6b and 18203401a8. Dev 830 3129309d60 Strong at five minutes: 1151 MiB Graphics vs prior 1407 with the option on, 372 with it off. Census gained three camera te"
@@ -212,6 +207,11 @@
      "by": "GETAC",
      "at": "2026-11-13T13:06Z",
      "text": "GETAC same Dev 830 APK 3129309d60, same pose, Sharp still on: Android Graphics at 300s was 1151 MiB normal depth, 676 with both depth request paths skipped, 1313 with emulated-camera depth alone skipped. Operator depth remained active in th"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-13T14:52Z",
+     "text": "GETAC: da6b730694 records actual URP 2x color, depth and depth-copy descriptors and keeps their pool keys without inherited clears. The keep-alive pass was able to select a different depth-copy format on a UI-only frame, and URP can issue a"
     }
    ]
   },
@@ -3204,5 +3204,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f61987bd246cc75ff0b233117bdf3c4d917f5658"
+ "source_revision": "1220fdb17b222c818c88a0a7f2006c9edb795d3a"
 }
