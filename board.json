@@ -2825,14 +2825,20 @@
     {
      "who": "CODEX_MAC_UI",
      "since": "2026-11-13T07:26Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-13T07:39Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-13T07:39Z",
+     "text": "30b19ff296 fixes joined Inspector Enter captions: the layout already reserves the arrow, but a second clip against the recovered group rect cut labels short. Removed that extra clip and its obsolete test; updated Inspector SPEC. In Editor P"
+    }
+   ]
   },
   {
    "n": 572,
@@ -2926,5 +2932,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "672221435bc24fed5afc80b46bae04115e945c4d"
+ "source_revision": "31f4bd27a8c500a1f23cb45d5ec5b86932a720e3"
 }
