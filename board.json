@@ -169,7 +169,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-13T11:51Z",
-     "noted": "",
+     "noted": "2026-11-13T12:47Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -199,11 +199,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-13T06:54Z",
-     "text": "CLOUD_THREAD 2026-11-13: quiz: \"The half-resolution behaviour. Lets make it a default. User would beed to turn it off in settings.\" \"The double resolution freeze frame liquid glass - that one lets keep an option.\" Code already matched: Disp"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-13T11:48Z",
      "text": "GETAC controlled Strong Dev 830 GLES cold launches, same pose, five minutes: Sharp still frame on/off Android Graphics 1407/372 MiB, PSS 2502/1448 MiB. Planet texture pages off in both, 143 masks in both, Unity Texture census gap only one 8"
@@ -212,6 +207,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-13T12:28Z",
      "text": "ROG_FABLE, Windows Editor D3D11 read after d0133e1e6b (sharp still camera targets kept between refreshes), 1920x1080, cfg.stillframe on, hands off: after about 45 s map_motion=MapStatic, map_render_mode=FrozenDouble, kept_picture=True, last"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-13T12:47Z",
+     "text": "GETAC kept the 2x camera targets between Sharp still frame refreshes in d0133e1e6b and 18203401a8. Dev 830 3129309d60 Strong at five minutes: 1151 MiB Graphics vs prior 1407 with the option on, 372 with it off. Census gained three camera te"
     }
    ]
   },
@@ -3150,5 +3150,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1a3511aa867863a5c4b3dd46fff7a77c5a6b921f"
+ "source_revision": "52b9f3d92676911ef2c23c84f6dcda0443133ffd"
 }
