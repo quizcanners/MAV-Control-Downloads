@@ -169,7 +169,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-13T15:02Z",
-     "noted": "",
+     "noted": "2026-11-13T15:30Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -200,11 +200,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-13T12:47Z",
-     "text": "GETAC kept the 2x camera targets between Sharp still frame refreshes in d0133e1e6b and 18203401a8. Dev 830 3129309d60 Strong at five minutes: 1151 MiB Graphics vs prior 1407 with the option on, 372 with it off. Census gained three camera te"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-13T13:06Z",
      "text": "GETAC same Dev 830 APK 3129309d60, same pose, Sharp still on: Android Graphics at 300s was 1151 MiB normal depth, 676 with both depth request paths skipped, 1313 with emulated-camera depth alone skipped. Operator depth remained active in th"
     },
@@ -212,6 +207,11 @@
      "by": "GETAC",
      "at": "2026-11-13T14:52Z",
      "text": "GETAC: da6b730694 records actual URP 2x color, depth and depth-copy descriptors and keeps their pool keys without inherited clears. The keep-alive pass was able to select a different depth-copy format on a UI-only frame, and URP can issue a"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-13T15:30Z",
+     "text": "GETAC 676917400a. Strong Dev 831 with da6b730694 reached 759.1 MiB Graphics at five minutes versus 1151.0 MiB on prior Dev 830. Both had 143 display masks, a 4000x2304 grab and 10 screen/camera buffers. Graphics still rose 178 MiB from 150 "
     }
    ]
   },
@@ -3247,5 +3247,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e17575dd181f4514277f7c1b5b022076f8a38684"
+ "source_revision": "021c12c8f4d1d2b2b56cfdb753b7576f4bd8df1f"
 }
