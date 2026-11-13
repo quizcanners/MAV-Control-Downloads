@@ -458,7 +458,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T12:00Z",
-     "noted": "",
+     "noted": "2026-11-13T12:02Z",
      "progress": 14,
      "ticked": 1,
      "total": 7
@@ -497,11 +497,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T11:37Z",
-     "text": "HEAVY: current-main live Windows EditMode All found five failures. See goal 382 for exact assertions and the retained XML. The prepared Windows candidate remains open."
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T11:45Z",
      "text": "HEAVY: e9238c9435 isolates prior Workflow selection and process-wide clock history in the three reproducible fixtures. The original assertions and runtime code are unchanged. Each targeted case passed after its fixture repair. Chat encrypti"
     },
@@ -509,6 +504,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T11:59Z",
      "text": "HEAVY 369/382: completed and qualified the Windows prepared containing All on production base 0fcecd93ba97b63d5cb796210b999e4732f00481, private identity-only 1e2b6c582430669935d8790909a324263021b08c. Unity 6000.6.8f1 D3D11 native PID 55624 "
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T12:02Z",
+     "text": "HEAVY 369: Windows Editor 830 on 8b1b018379 answered api.status protocol 2 after a witnessed ordinary domain reload (native log markers 3 -> 4, compilation false and no compile failure). Bridge session ID stays process-scoped across reload;"
     }
    ]
   },
@@ -3124,5 +3124,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "8b1b018379650cb1765b1ef7d6a0d6fa41d9ba79"
+ "source_revision": "d76b3fde25d2698bf8cca5cb54d9630fdcb78a2b"
 }
