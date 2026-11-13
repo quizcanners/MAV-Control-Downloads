@@ -1949,7 +1949,7 @@
   },
   {
    "n": 496,
-   "name": "MavChat landscape chat list is c",
+   "name": "MavChat landscape chat list",
    "done": "2026-11-13T04:27Z",
    "goal": false,
    "under": 0,
@@ -1958,24 +1958,29 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
-   "notes": [
+   "steps": [
     {
-     "by": "PASIKA",
-     "at": "2026-11-12T18:08Z",
-     "text": "PASIKA batch 3 step 4: reproduced the state on PASIKA at 1440x1080 (KSP workflow, ui.list connected_vpn_devices): group_list_visible=True peer_list_visible=False; with peers here the selector shows its 4 rows right of the tab column. The bl"
+     "t": "Mac: 'All people' row has the Row Light overlay, old strip lines deleted (df6312",
+     "x": true
     },
     {
-     "by": "ROG_FABLE",
-     "at": "2026-11-12T21:19Z",
-     "text": "ROG_FABLE (Windows Editor, D3D11, live station with 6 peers, Game view 2560x1600 = 16:10 tablet, main 3af47c5a92): landscape Chat opened on the last conversation (ui chat last). The peer column starts at the screen edge (Chat hides the tabs"
+     "t": "PASIKA: blank Peers panel with no peers fixed, All people stays at 0 like Messag",
+     "x": true
     },
     {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T04:26Z",
-     "text": "CODEX_MAC_UI 2026-11-13: current source and prefab complete the remaining positioning: Station.UI.LeftLists.TabsShown = s_shown && !s_chat; Chat shows the peers without tab controls. When a vertical tab column is present, UI_LeftListSwipeAw"
+     "t": "Rog (Windows, 2560x1600): Chat hides tabs, no row cut, peer rows standard dark b",
+     "x": true
+    },
+    {
+     "t": "Source: TabsShown = s_shown && !s_chat; UI_LeftListSwipeAway.PlaceRect offsets L",
+     "x": true
+    },
+    {
+     "t": "Cloud C# (optional, seen in passing): about 260 px empty space between search li",
+     "x": false
     }
-   ]
+   ],
+   "notes": []
   },
   {
    "n": 500,
@@ -3826,5 +3831,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f760638839775e0f0a4adf364893640df8b8a64a"
+ "source_revision": "ba31de772a16960c3e214536cb8bb32468eacd1f"
 }
