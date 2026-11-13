@@ -1256,7 +1256,7 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-13T14:32Z",
-     "noted": "",
+     "noted": "2026-11-13T14:33Z",
      "progress": 0,
      "ticked": 0,
      "total": 1
@@ -1270,11 +1270,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_FABLE",
-     "at": "2026-11-12T17:38Z",
-     "text": "ROG_FABLE 2026-11-12, on REVIEW-462-CC-FD6C-01 (ui.status searches all scene Images by body name): resolved by removal (f5fb4e8d2b). The card_glass line was a diagnostic for task 518, which is fixed and closed (the first card drew the inver"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-12T18:27Z",
      "text": "REVIEW-463-CC-FD6C-01: source-resolved by f5fb4e8d2 removing the temporary card_glass diagnostic and its only call after 518 was fixed. [Reconciliation](../Reviews/409c1518b.md#reconciliation-and-other-inspected-changes); original brief and"
@@ -1283,6 +1278,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-12T23:57Z",
      "text": "ROG_FABLE batch 9 step 2, card comparison (the open cloud step, done from the prefabs): all 20 card prefabs (Agent Activity, Aircraft Health, App Update, Chat Message, Far From Home, Linked Browser, Map Refresh, Motion Detection, Offline Ma"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-13T14:33Z",
+     "text": "ROG_FABLE: looked at bringing the plain status notices into the card rule. UI_NotificationCard is one card with a per-kind acknowledgement switch (Chat, MapRefresh, AgentActivity, VideoSendFailure, SineLinkBeacon, TileStorage...), so each s"
     }
    ]
   },
@@ -3186,5 +3186,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1263bb26a12029a1e0e1ee0964817bad97c3e6c0"
+ "source_revision": "3b93410153cba141bd4896dbe0234146f2cfae77"
 }
