@@ -1558,7 +1558,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T05:43Z",
-     "noted": "2026-11-13T05:43Z",
+     "noted": "2026-11-13T05:48Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -1581,11 +1581,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T04:46Z",
-     "text": "HEAVY 431 follow-up a241d338a7: extended the native Unity WebRTC factory test to submit D3D11 frames through VideoEncoder::Encode and receive its EncodedImage callbacks on PL-007. Passed 1/1 (927 ms), 10 H.264 access units, Main SPS present"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T04:58Z",
      "text": "HEAVY 431, 726be501a7: native WebRTC Context peers now exchange active H.264 Main offers and answers. Windows fixture 2/2 passed (1.26 s), including D3D11 delivery with ten Main access units. An additional live transport attempt stopped in "
     },
@@ -1593,6 +1588,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T05:43Z",
      "text": "HEAVY goal 431: 2846da05cb adds a connected native WebRTC test. Release built and both factory tests passed twice on PL-007. The same-host D3D11 peer pairs negotiated H.264 Main over ICE; Media Foundation encoded 21 and 22 frames, and the r"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T05:48Z",
+     "text": "HEAVY goal 431, deaee3a43f: native tests now select explicit DXGI adapters. Both fixtures passed on an RTX 5070 sender (10de:2f04) and a Radeon sender (1002:13c0) with an RTX receiver. Media Foundation H.264 Main encoded/decoded 21/20 and 2"
     }
    ]
   },
@@ -2734,5 +2734,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c0798488203027cda93664bd8eec3d71da723b3f"
+ "source_revision": "3e1f34b82d5ec59d8bf6653e45816914d5c0d542"
 }
