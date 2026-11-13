@@ -2808,47 +2808,39 @@
    "held": [],
    "steps": [
     {
-     "t": "EntityIdentityTable<TKey> (added, kept, removed, no garbage) in Systems/ECS and ",
+     "t": "EntityIdentityTable<TKey> in Systems/ECS; Situation Entities publication uses it",
      "x": true
     },
     {
-     "t": "Situation joins shared pointing: PointableType.Situation and a TryPoint, then Tr",
+     "t": "Windows: anchors one per 10 km cell (EcefAnchorGridCountTests 1/1), RemoteSenseA",
+     "x": true
+    },
+    {
+     "t": "Cloud C#: Training uses the identity table",
      "x": false
     },
     {
-     "t": "One ground system: Remote Sensors NeedsGroundAlignment and Situation BeginGround",
+     "t": "Cloud C#: Situation joins shared pointing: PointableType.Situation and a TryPoin",
      "x": false
     },
     {
-     "t": "Fade as one component (wanted, shown) used by Situation, event smoke and Trainin",
+     "t": "Cloud C#: one ground system: Remote Sensors NeedsGroundAlignment and Situation B",
      "x": false
     },
     {
-     "t": "Editor: compile, then Play with Remote Sensors, Training and the Synthetic Situa",
+     "t": "Cloud C#: fade as one component (wanted, shown) for Situation, event smoke and T",
      "x": false
     },
     {
-     "t": "Shared draw loop lifted from SituationGroupedIconSystem for Remote Sensors model",
+     "t": "Cloud C#: shared draw loop lifted from SituationGroupedIconSystem for Remote Sen",
+     "x": false
+    },
+    {
+     "t": "Cloud/Editor: reconcile the Training and Remote Sensors render gates (different ",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-13T15:55Z",
-     "text": "HEAVY ECS finalise"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-13T16:56Z",
-     "text": "HEAVY 572 finalise"
-    },
-    {
-     "by": "CLOUD_META",
-     "at": "2026-11-13T18:35Z",
-     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [Systems/ECS/SPEC.md] \"We have ECS for Remote Sensors. Are we reusing our existing tech for Situation Entities? Lets make sure we have a comprehensive reusabl"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 573,
@@ -3805,5 +3797,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c645cfad0a690966900fe7660e43b054edfa5947"
+ "source_revision": "84a046afbfb5f2a0028bdcff05d2c2b702f7183c"
 }
