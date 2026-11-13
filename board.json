@@ -1558,7 +1558,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T06:00Z",
-     "noted": "",
+     "noted": "2026-11-13T06:03Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -1581,11 +1581,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T05:51Z",
-     "text": "HEAVY goal 431, 12d39fc48d: verified native negotiated VP8 fallback on PL-007. The Radeon sender offered H.264 Main first, the Radeon receiver advertised no H.264 decoder and answered with VP8, and libvpx encoded and decoded 15/15 frames in"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T05:56Z",
      "text": "HEAVY 431, 29b278b07b: reproduced the current MAV Control sender preference path before packaging. Radeon advertised Main 4d0029 but SetCodecPreferences(H.264 only) rejected it because local receive capabilities contain no H.264. RTX accept"
     },
@@ -1593,6 +1588,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T05:59Z",
      "text": "HEAVY goal 431, 28f8e745ee: fixed packaged native bridge resolution. The WebRTC factory can load a matching MavVideo.dll beside its own module by absolute path before MAV Control first touches PeerVideoNative. Rebuilt the actual Release web"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T06:03Z",
+     "text": "HEAVY goal 431: isolated the RTX 5070 Media Foundation failure on PL-007. Five native repetitions reproduced WEBRTC_VIDEO_CODEC_FALLBACK_SOFTWARE (-13), caused by MavVideo reporting EncoderError::Unsupported while reading the queue. With th"
     }
    ]
   },
@@ -2767,5 +2767,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "458bebd9b6dbe218fb237c0dc39bd771fbc167cd"
+ "source_revision": "23e7842559dcea0c915946feb28ca1b67fec6c05"
 }
