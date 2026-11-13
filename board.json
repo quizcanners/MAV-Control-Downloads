@@ -1333,11 +1333,15 @@
    "held": [],
    "steps": [
     {
-     "t": "PASIKA (live Editor), one warm Play: the Input re-read of 14:21Z (Input 2.01 ms,",
+     "t": "Cloud, on main: startup cuts (Input, AgentChannel, DefaultPosition, Geoid, inset",
      "x": true
     },
     {
-     "t": "PASIKA (live Editor), one warm Play after e17252024f and c7c26e91ff: startup_cos",
+     "t": "PASIKA/Heavy, Windows Editor: startup baseline in Performance Baseline/STARTUP.m",
+     "x": true
+    },
+    {
+     "t": "Heavy: Save Enemy Logistics JSON is built from a detached snapshot and written o",
      "x": true
     },
     {
@@ -1345,35 +1349,11 @@
      "x": false
     },
     {
-     "t": "PASIKA: compiled counts for the fragment baseline: D3D11 fxc and the Mali Offlin",
+     "t": "Cloud: whole-loop signal tests (how each system reacts to the signals), kept sma",
      "x": false
     },
     {
-     "t": "Getac (Lenovo, if on ADB): 2 min idle read on a current signed build, row in Coo",
-     "x": false
-    },
-    {
-     "t": "Getac (Lenovo): the GC count of a 30 s idle capture against 19 on the Strong; th",
-     "x": false
-    },
-    {
-     "t": "Getac (Strong): the coast pinch with Half-resolution off and a real two-finger g",
-     "x": false
-    },
-    {
-     "t": "Getac (Lenovo): idle 120 s, per-type message ms per second and the Heartbeat sub",
-     "x": false
-    },
-    {
-     "t": "Getac (Lenovo): the VPN Chat scope and the Map Editing Before Camera scope in th",
-     "x": false
-    },
-    {
-     "t": "Getac (Strong): profile one Shapes label for Draw Destinations (4.6 ms): three R",
-     "x": false
-    },
-    {
-     "t": "Cloud: Save Enemy Logistics (JsonUtility.ToJson of the whole live routes file on",
+     "t": "Cloud: decide the synchronous WarmUpProgressively(1) left in Singleton_ControlZo",
      "x": false
     },
     {
@@ -1381,27 +1361,59 @@
      "x": false
     },
     {
-     "t": "quiz's word (quiz, 2026-11-09: \"Not sure. Not yet probably.\"): record which feat",
+     "t": "Cloud: review briefs that wait for quiz before any change, in Coordination/Revie",
+     "x": false
+    },
+    {
+     "t": "Heavy/PASIKA: Mali Offline Compiler estimates (Vulkan, GLES3) for BASELINE.md: n",
+     "x": false
+    },
+    {
+     "t": "Heavy: Power Lines GPU per draw and the Mac comparison (Performance Baseline/GPU",
+     "x": false
+    },
+    {
+     "t": "Getac (Strong): Save Enemy Logistics startup timing against the 115 ms observati",
+     "x": false
+    },
+    {
+     "t": "Getac (Strong): on a build with 394b801bd9 read pause_sqlite_ms with map.store s",
+     "x": false
+    },
+    {
+     "t": "Getac (Strong): real two-finger coast pinch with Half-resolution off, Mask Deman",
+     "x": false
+    },
+    {
+     "t": "Getac (Strong): profile one Shapes label for Draw Destinations (4.6 ms): three R",
+     "x": false
+    },
+    {
+     "t": "Getac (Strong): Web Mercator Tile UDP receiver (Dev 831, 3122 already-satisfied ",
+     "x": false
+    },
+    {
+     "t": "Mac: install the overnight iOS build on the iPhone (paired, unlock it) and read ",
+     "x": false
+    },
+    {
+     "t": "Getac (Lenovo, needs ADB; it was off ADB on every attempt): on a current signed ",
+     "x": false
+    },
+    {
+     "t": "Getac (Lenovo): build with 1484b0634b or later, idle 2 min, tap to wake, zoom th",
+     "x": false
+    },
+    {
+     "t": "Getac (Lenovo): cold start with the GLES prewarm skipped: usable map against 39-",
+     "x": false
+    },
+    {
+     "t": "quiz's word needed first: record which features and layers are On or Off beside ",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CLOUD_META",
-     "at": "2026-11-13T18:35Z",
-     "text": "Done on main: budgets are suggestions, never a block, and every measured-work consumer has a floor of one small chunk per frame (fa2c2c66, 15405efe). Left: whole-loop signal tests (how each system reacts to the signals), kept small. quiz, 2"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-13T19:13Z",
-     "text": "GETAC 31e4d67723. Strong Dev 831 Web Mercator Tile UDP 2.844/3.592 ms self per frame at five minutes. Each run accepted one direct tile and counted 946/804 already-current evaluations; no direct hash bytes or queued writes at the endpoint. "
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-13T19:23Z",
-     "text": "GETAC 88dbc79dc9: Strong 30 s shared receive pass 891752832383. Split_SendWebMercatorTile metadata 2672 calls, 577.252 ms total, max 30.373 ms with GC. Envelope decode 4.178 ms nested; completed payload handler 44.086 ms, owner apply 25.646"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 430,
@@ -3793,5 +3805,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1b9f5857ea02db0b4638c60c8245e1ed69f0b5af"
+ "source_revision": "c645cfad0a690966900fe7660e43b054edfa5947"
 }
