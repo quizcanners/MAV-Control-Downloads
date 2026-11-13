@@ -1125,7 +1125,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MAC_UI",
+     "since": "2026-11-13T06:41Z",
+     "noted": "",
+     "progress": 100,
+     "ticked": 1,
+     "total": 1
+    }
+   ],
    "steps": [
     {
      "t": "Rog (Editor): 48 prefabs still point at the line materials deleted in bb5f443806",
@@ -2779,5 +2788,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f30d6b7a495f59b5398deb007b5701f3f203f756"
+ "source_revision": "6e7855f56fd9d885dfbff68fd2cfad7b09169ee0"
 }
