@@ -99,11 +99,6 @@
    "notes": [
     {
      "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-13T09:53Z",
-     "text": "Place 26, second part: the 15 small Tests~ folders beside the systems are being run in a cloud container. Stopped at the build of today's code so far: 5 Planet check_*.py, the Chat reaction check, the Android capture, USB discovery, Google "
-    },
-    {
-     "by": "CLOUD_COMPLEXITY",
      "at": "2026-11-13T09:58Z",
      "text": "Place 26, second part, on main as f1e3dfda5d: the 15 small Tests~ folders were run; 12 checks that stop at the build of today's code are cut with the files only they used (30 files, 3,240 lines) and 11 guide passages. 31 checks pass; the re"
     },
@@ -111,6 +106,11 @@
      "by": "REVIEW",
      "at": "2026-11-13T10:05Z",
      "text": "REVIEW-478: [bounded review through e9ae074be](../Reviews/e9ae074be.md): 101 commits inspected (eight source, 91 coordination skips, two merges with parent-tree proof), no new actionable finding. Place 26 and earlier briefs/claims reconcile"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-13T10:47Z",
+     "text": "REVIEW-479: [bounded review through da382d1bb](../Reviews/da382d1bb.md): 29 commits inspected (three source, 26 coordination skips, no merges), no new actionable finding. Stale-host retirements, deterministic DPI fixture and Power Lines sam"
     }
    ]
   },
@@ -695,7 +695,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T10:47Z",
-     "noted": "",
+     "noted": "2026-11-13T10:50Z",
      "progress": 0,
      "ticked": 0,
      "total": 10
@@ -747,17 +747,17 @@
     {
      "by": "REVIEW",
      "at": "2026-11-12T21:55Z",
-     "text": "REVIEW-466-CC-8B21-01: P3 complexity brief for quiz: CLI verify reads the Linux gzip tar twice for one bundle proof. [S1/S2 exact scan/writer/staging sketch, actual two-walk Python probe and constraints](../Reviews/b757f92a0.md#cc-8b21-01--"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-12T21:55Z",
      "text": "REVIEW-466-CR-4066-01: original Linux tar rejection source-resolved by 8b211eee2; valid synthetic tar passes and duplicate/oversize/nonregular/identity/JSON controls reject. Existing d7adbf49a callback already prepares Linux keys and includ"
     },
     {
      "by": "HEAVY",
      "at": "2026-11-13T10:46Z",
      "text": "HEAVY 374: Brigade 68 Windows 830 non-development IL2CPP built at 51543b8145 on Unity 6000.6.8f1 in 96 s (BuildPlayer 89 s). Initial run lacked the release-key directory. Retry used normal embedded-key preparation with a private local direc"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T10:50Z",
+     "text": "HEAVY 374: published Brigade 68 Windows 830 portable to GitHub Test using MAVSEAL1 and the exact 51543b8145 build key. Packaged bootstrap verified before mutation; publisher downloaded all uploaded bytes and checked SHA-256 before promotion"
     }
    ]
   },
@@ -3096,5 +3096,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ba9dd07ae67d0f3db781bade35f56c6e0aa9a91a"
+ "source_revision": "bb7dd7d99691f0afae81cb1a1ed4444bff23684c"
 }
