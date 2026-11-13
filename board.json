@@ -98,11 +98,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-13T15:15Z",
-     "text": "15:15Z floor build 804 (quiz: \"1) Old builds - A\"), step 1 on main as adee059e0cb, compiled (NEW ERRORS: none), not run in the Editor: PeerBuilds.Floor/IsBelowFloor/CrossesFloor/Exchanges asked in NetworkManager.Process and Send_Internal, S"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-13T16:01Z",
      "text": "REVIEW-484 CC-ADEE-01: [P3 investigation and brief](../Reviews/ee19b6acf.md#cc-adee-01--p3-unchanged-old-peer-passports-rebuild-every-peers-drone-associations) ready for quiz: an unchanged below-floor passport triggers the global drone asso"
@@ -111,6 +106,11 @@
      "by": "REVIEW",
      "at": "2026-11-13T16:01Z",
      "text": "REVIEW-484 CR-ADEE-01: [P2 floor integration investigation and brief](../Reviews/ee19b6acf.md#cr-adee-01--p2-build-floor-integration-leaves-raw-split-reception-outside-the-typed-gate) ready for quiz: raw split ingress bypasses the typed flo"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-13T16:30Z",
+     "text": "REVIEW-485: [bounded review through c28ab414e](../Reviews/c28ab414e.md): 28 commits inspected (six source-bearing including three fixture-only, 22 coordination/evidence skips, no merges), no new actionable finding. Publisher 73/73 host cont"
     }
    ]
   },
@@ -708,7 +708,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T16:29Z",
-     "noted": "",
+     "noted": "2026-11-13T16:34Z",
      "progress": 0,
      "ticked": 0,
      "total": 10
@@ -759,11 +759,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T14:30Z",
-     "text": "Windows 831 Brigade 68 portable published to GitHub Test from 7ed82324aa. Unity IL2CPP 105 s (BuildPlayer 98 s); ZIP CRC and native output hashes passed. Publisher verified packaged bootstrap and full remote readback before promotion. Catal"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T15:38Z",
      "text": "HEAVY Linux 831 delivery"
     },
@@ -771,6 +766,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T15:42Z",
      "text": "HEAVY 374 bacf9a8294: Windows and Linux 831 both needed a second publisher invocation after GitHub created a draft that did not appear in its immediate lookup. After a successful create the publisher now waits up to three bounded read-only "
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T16:34Z",
+     "text": "HEAVY Windows 831 installer finalise"
     }
    ]
   },
@@ -3264,5 +3264,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ae3fc290c695dd0eb7d6c9a5531be76f67c01dd5"
+ "source_revision": "2bfbea528a206be3ace5cacbeac36f1160f6d007"
 }
