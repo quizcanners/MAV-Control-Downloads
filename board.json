@@ -1558,7 +1558,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T06:55Z",
-     "noted": "",
+     "noted": "2026-11-13T07:01Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -1581,11 +1581,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T06:40Z",
-     "text": "HEAVY 431: reproduced the patched Release webrtc.dll from a fresh extraction of pinned Unity source with only the tracked adapter patch, pinned libwebrtc, and staged toolchain. CMake required -T cuda=<toolkit> on this Visual Studio installa"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T06:43Z",
      "text": "HEAVY 431: extended the clean Release native run to 450 submitted 1920x1080 D3D11 textures over about 16 s. Radeon to RTX used Media Foundation H.264, 445 encoded / 444 decoded, and passed the sustained-delivery assertion. 1080p describes t"
     },
@@ -1593,6 +1588,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T06:54Z",
      "text": "HEAVY 431: built Windows x64 IL2CPP profiling player 829 (Brigade 68, Unity 6000.6.8f1, source e6aba35cd6, 343 s) and staged the qualified native DLL pair in C:/MavControlEvidence/Video-431-20261113/qualification-player-829. Both DLL hashes"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T07:01Z",
+     "text": "HEAVY 431: Windows profiling player build and launch reached startup with the staged DLL pair. Qualification stopped because isolation failed: setting the unique company in ProjectSettings and the Brigade 68 Windows profile produced the exp"
     }
    ]
   },
@@ -2813,5 +2813,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "8dd875ccd4cdc59e7fadcb22937f024a756bb959"
+ "source_revision": "406a8a13fec5dbebd30888968f42b4f2b933228d"
 }
