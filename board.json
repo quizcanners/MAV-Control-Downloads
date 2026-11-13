@@ -1532,11 +1532,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-12T23:31Z",
-     "text": "REVIEW-468-CC-7FF2-01: existing complexity brief extended, not duplicated: e7edb17ec reduces census frequency by a timer; the known-file mutation/accounting direction remains. [Current S1/S2 scan, logical-write/eviction/retirement staging p"
-    },
-    {
      "by": "PASIKA",
      "at": "2026-11-13T00:03Z",
      "text": "PASIKA 02:05: tiles_sumy drain DONE. Before (19:13Z flip): 36,411 files, 36,335 segment .sqlite, ~24.3 GB of tiles. After: payloads/ empty (0 files), payload_* tables empty, tiles.sqlite 498,287 tiles 8.9 GB + map.sqlite 2.6 GB. Time: flip "
@@ -1545,6 +1540,11 @@
      "by": "GETAC",
      "at": "2026-11-13T04:54Z",
      "text": "GETAC Strong Android Dev 828 (built 44c1b3cae8, diagnostic source on main b241d9a73d, evidence b112120806). Signed APK installed in place, map 3.644 s, Ready 7.089 s, cmp.sh NEW ERRORS: none."
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-13T06:42Z",
+     "text": "For the next source-matched Strong check after the 829 smoke: Getac already identified Retention holding the gate during two Android 828 pause deadline misses. Pair that separate pause result with a read-only vpn.webmercator report after an"
     }
    ]
   },
@@ -2797,5 +2797,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3b0f447775a74dd3339508dd9173bb8a28924c77"
+ "source_revision": "951c1e8ad132381c1fa1dd5cdb58b385d1008199"
 }
