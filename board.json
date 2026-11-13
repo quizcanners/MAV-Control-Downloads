@@ -1130,35 +1130,35 @@
    "held": [],
    "steps": [
     {
-     "t": "Drag from a row moves the whole panel with its rows and the row is not tapped, o",
+     "t": "One swipeable root on main: Lists Root (300 wide, pivot x 0, left, under the tab",
+     "x": true
+    },
+    {
+     "t": "Paint (B_Painting, own Canvas order 2) draws above lists and tabs; vertical tab ",
+     "x": true
+    },
+    {
+     "t": "Flick code on main (532aa7fd): panel follows the finger from the press; speed ov",
+     "x": true
+    },
+    {
+     "t": "Mac with a finger on a device (iPhone or iPad on the cable, or a hand on the mou",
      "x": false
     },
     {
-     "t": "One panel with the lists the Mac has no data for: Peer groups with peers, Cars, ",
+     "t": "Mac or PASIKA with data: one panel with the lists the Mac has no data for (Peer ",
      "x": false
     },
     {
-     "t": "Pointed state seen on an unselected Scene row with the pointer resting on it (pr",
+     "t": "Mac, by hand: pointed state on an unselected Scene row with the pointer resting ",
+     "x": false
+    },
+    {
+     "t": "Cloud/quiz: REVIEW-456-CR-532A-01 P2, a keep-open release keeps the previous clo",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T14:09Z",
-     "text": "MAC_FABLE batch 3, step 5: neither the iPhone nor the iPad is on the cable, so the drag from a row and the flick constants are still not tuned."
-    },
-    {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T15:33Z",
-     "text": "MAC_FABLE batch 4, step 6: no iPhone or iPad on the cable, so the drag from a row and the flick constants are still not tuned."
-    },
-    {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T16:22Z",
-     "text": "MAC_FABLE batch 5, step 5: the scripted pointer cannot rest on an unselected Scene row. A click selects the row, and a press on the panel moved onto a row is taken as a jump that leaves the pointer outside the view (ui.pointed read 'Mouse O"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 409,
@@ -3815,5 +3815,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ceaf853550304aa8cee15fd302e314cae3014772"
+ "source_revision": "a762d1381192e77c9235d43116c5102b23c76eec"
 }
