@@ -457,7 +457,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T09:04Z",
-     "noted": "",
+     "noted": "2026-11-13T09:09Z",
      "progress": 0,
      "ticked": 0,
      "total": 7
@@ -495,11 +495,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_FABLE",
-     "at": "2026-11-13T08:11Z",
-     "text": "ROG_FABLE: for the Windows player gate. cmp.sh's player set (UNITY_STANDALONE_WIN) reports CS0103 'RTCErrorType does not exist' in Workflows/Streamer/Station_Streamer_DjiWebRtcSender.cs, inside '#if UNITY_STANDALONE_WIN || UNITY_EDITOR_WIN'"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-13T08:30Z",
      "text": "HEAVY 369: Windows x64 production player 829 (Brigade 68) built from de57403a29749f41de8fe2abb2d87e89a94f5176 in Unity 6000.6.8f1. Exit 0, BuildPlayer 214 s, development=False, BackgroundChat staged. Native Unity compile did not reproduce t"
@@ -508,6 +503,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T08:36Z",
      "text": "HEAVY 369: private Windows x64 non-development 829 runtime gate passed in D3D11. Built from 40069346cb plus a temporary company-name-only identity override in the Windows profile and PlayerSettings to isolate Unity data. At initial map view"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T09:09Z",
+     "text": "HEAVY 369: live Windows Unity 6000.6.8f1 EditMode All after MavChat selector 223de4e530, tested bef85b47bf: 8572 passed, 0 failed, 4 skipped, 1 inconclusive, 214.1 s. Roslyn NEW ERRORS: none. XML C:/MavControlEvidence/Windows-369-20261113/m"
     }
    ]
   },
@@ -3054,5 +3054,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "6577a7378b0e73ced3c20ab0bd08df6bf8d9febe"
+ "source_revision": "a512522ddfebb8fed5d2a562fe04215477b20e1d"
 }
