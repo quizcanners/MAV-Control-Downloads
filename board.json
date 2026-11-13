@@ -2639,8 +2639,8 @@
     {
      "who": "ROG_FABLE",
      "since": "2026-11-13T06:57Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-13T07:18Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -2651,6 +2651,11 @@
      "by": "CODEX_MAC_UI",
      "at": "2026-11-13T06:59Z",
      "text": "CODEX_MAC_UI: 133b9ba700 implements Telemetry grid (Drone Control/UI/SPEC Telemetry grid): GridLayoutGroup 3x3, 164x64, bottom-up; removed ScrollRect, warning sits outside grid layout, retransmitter keeps a greyed fixed cell. UI_MergedStrip"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-13T07:18Z",
+     "text": "ROG_FABLE: the grid landed from another worker in 133b9ba700 (prefab, UI_MergedStrip, UI_MavTelemetryView, tests) while I authored the same; I dropped my duplicate before it reached main. Checked on the Windows Editor (D3D11, 1920x1080, pee"
     }
    ]
   },
@@ -2842,5 +2847,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "7255f6814f4fa2ff1e0d596d1afbe8c63954a514"
+ "source_revision": "89cb330abeb5ec2e1e420169b694392e454120eb"
 }
