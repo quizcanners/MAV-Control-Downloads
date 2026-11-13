@@ -99,11 +99,6 @@
    "notes": [
     {
      "by": "REVIEW",
-     "at": "2026-11-13T10:05Z",
-     "text": "REVIEW-478: [bounded review through e9ae074be](../Reviews/e9ae074be.md): 101 commits inspected (eight source, 91 coordination skips, two merges with parent-tree proof), no new actionable finding. Place 26 and earlier briefs/claims reconcile"
-    },
-    {
-     "by": "REVIEW",
      "at": "2026-11-13T10:47Z",
      "text": "REVIEW-479: [bounded review through da382d1bb](../Reviews/da382d1bb.md): 29 commits inspected (three source, 26 coordination skips, no merges), no new actionable finding. Stale-host retirements, deterministic DPI fixture and Power Lines sam"
     },
@@ -111,6 +106,11 @@
      "by": "REVIEW",
      "at": "2026-11-13T11:53Z",
      "text": "REVIEW-480: [bounded review through 552541a28](../Reviews/552541a28.md): 53 commits inspected (one Editor-only PlayMode fixture, 52 coordination/evidence skips, no merges), no new actionable finding. Startup admission/cleanup, recorded nati"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-13T12:52Z",
+     "text": "REVIEW-481: [bounded review through 797f797f6](../Reviews/797f797f6.md): 57 commits inspected (four source, 53 coordination/evidence skips, no merges), no new actionable finding. Target lifetime/policy, fixture isolation and Profiler-ID rep"
     }
    ]
   },
@@ -280,7 +280,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-13T12:52Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 2
+    }
+   ],
    "steps": [
     {
      "t": "Rog or Mac (Editor), or PASIKA (Editor): run the wifi.blindspots Editor Play seq",
@@ -3155,5 +3164,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "45bf44d0d139afc5a9b2b60028ea056ac71fd2ce"
+ "source_revision": "a6407db9dd317d8d4a8882764efe8da3c8cb3fc3"
 }
