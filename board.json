@@ -1267,7 +1267,7 @@
     {
      "who": "CODEX_MAC_UI",
      "since": "2026-11-13T16:34Z",
-     "noted": "",
+     "noted": "2026-11-13T16:55Z",
      "progress": 100,
      "ticked": 1,
      "total": 1
@@ -1281,11 +1281,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-12T18:27Z",
-     "text": "REVIEW-463-CC-FD6C-01: source-resolved by f5fb4e8d2 removing the temporary card_glass diagnostic and its only call after 518 was fixed. [Reconciliation](../Reviews/409c1518b.md#reconciliation-and-other-inspected-changes); original brief and"
-    },
-    {
      "by": "ROG_FABLE",
      "at": "2026-11-12T23:57Z",
      "text": "ROG_FABLE batch 9 step 2, card comparison (the open cloud step, done from the prefabs): all 20 card prefabs (Agent Activity, Aircraft Health, App Update, Chat Message, Far From Home, Linked Browser, Map Refresh, Motion Detection, Offline Ma"
@@ -1294,6 +1289,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-13T14:33Z",
      "text": "ROG_FABLE: looked at bringing the plain status notices into the card rule. UI_NotificationCard is one card with a per-kind acknowledgement switch (Chat, MapRefresh, AgentActivity, VideoSendFailure, SineLinkBeacon, TileStorage...), so each s"
+    },
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-13T16:55Z",
+     "text": "61d5a5c521 completes the outstanding four-status receipt step: individual owners hold the receipt, and the existing authored cards handle tick/swipe and body receipt. Editor compiled and focused tests passed; post-rebase cmp NEW ERRORS: non"
     }
    ]
   },
@@ -3352,5 +3352,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "6b8ab744683066d62f968ed775712b84a31648b8"
+ "source_revision": "bcecb482e79b5fb976274f2a41cc2ab2892285db"
 }
