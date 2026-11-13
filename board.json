@@ -1044,7 +1044,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T09:35Z",
-     "noted": "",
+     "noted": "2026-11-13T09:35Z",
      "progress": 25,
      "ticked": 1,
      "total": 4
@@ -1070,11 +1070,6 @@
    ],
    "notes": [
     {
-     "by": "ROG_OPUS",
-     "at": "2026-11-12T10:48Z",
-     "text": "ROG_OPUS 2026-11-12: Inspector-pick part of item 2 ran by backdoor in an Editor Play session on the Rog (Unity 6000.6.8f1, main 5101c38f30): app.lifecycle startup Ready (map present 20.0 s, Ready 23.0 s, lifecycle_error_count=0); bootstrap."
-    },
-    {
      "by": "PASIKA",
      "at": "2026-11-13T01:40Z",
      "text": "PASIKA containing All, run 5 on main 2eed589211 (temporary candidate, quiz-allowed): 8579 passed, 0 failed, 8 skipped, 1 inconclusive. The inconclusive one is by design: MavChatSheetTests.ASlowTwitch... assumes 30 dp > the 32 px drag thresh"
@@ -1083,6 +1078,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T09:18Z",
      "text": "HEAVY 382: Windows Unity 6000.6.8f1 D3D11 at a6c4ed90c8, unattended tiles_sumy at 8 FPS after a two-minute warm-up. All three 100-frame samples measured Frame setup > Timing tree reset at 0.002 ms self, matching the Mac reading. Windows Gap"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T09:35Z",
+     "text": "HEAVY 382: current-main Windows Unity EditMode All at 1045cd7106: 8572 passed, 0 failed, 4 skipped, 1 screen-dependent inconclusive. Bootstrap/persistence member receipts from that XML: WaypointCheckpoint 61/61, StartupBatchTiming 19/19, Ch"
     }
    ]
   },
@@ -3066,5 +3066,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a497f2547f1832290eaa291e15a46392739864aa"
+ "source_revision": "f4cadc532be3280b3f30ca68ddad6d8ec2947d13"
 }
