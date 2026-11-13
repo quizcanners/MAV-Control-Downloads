@@ -1411,7 +1411,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T07:44Z",
-     "noted": "",
+     "noted": "2026-11-13T07:52Z",
      "progress": 0,
      "ticked": 0,
      "total": 13
@@ -1474,11 +1474,6 @@
    "notes": [
     {
      "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T04:46Z",
-     "text": "CODEX_MAC_UI: 06e3fc7341 moves Floating Panel pixel-size derivative to its UI mesh carrier, preserving panel tint and shadow sizing; no GPU timing measured. Editor compiled, four prefab bindings read and shader import reports no errors. See"
-    },
-    {
-     "by": "CODEX_MAC_UI",
      "at": "2026-11-13T04:59Z",
      "text": "CODEX_MAC_UI: e6cdf78078 removes per-pixel world-blur tap-offset arithmetic; Metal output matched the previous shader in both passes with and without ping (0/255 worst). Details and remaining work: 547 and GPU baseline."
     },
@@ -1486,6 +1481,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-13T05:02Z",
      "text": "ROG_FABLE: Floating Panel.shader (06e3fc7341, pixel size out of the fragment) added to ShaderPassCompilationTests.Paths (30bb4b5861); the fixture is 22/22 on D3D11 with it, and ShadowImageSizeTests 4/4."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T07:52Z",
+     "text": "HEAVY goal 429: warm Windows Editor 6000.6.8f1 Play at 94c01f5271, ordinary Station, map 5.163 s, Ready 6.425 s, Initializing 661 ms, zero lifecycle errors. DefaultPosition 4.344 ms (MGRS 0.427, pose 3.745), Input 6.179, Geoid 0.586, NamesC"
     }
    ]
   },
@@ -2966,5 +2966,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "06001ae236f0d1b0b92b62deb281b8ed27d439ab"
+ "source_revision": "508fc14fdae18ef60d54e7e2fa619ffd054b837c"
 }
