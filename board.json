@@ -1558,7 +1558,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T06:14Z",
-     "noted": "",
+     "noted": "2026-11-13T06:15Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -1581,11 +1581,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T06:07Z",
-     "text": "HEAVY 431: checked the actual Release webrtc.dll through UnityPluginLoad, ContextCreate and ContextGetSenderCapabilities using a minimal native Unity graphics-interface harness on PL-007 Radeon. 3/3 cases passed: matching sibling MavVideo.d"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T06:10Z",
      "text": "HEAVY 431, 3311290faf: the prototype now preserves Unity NVENC when its factory is available, so Media Foundation Main cannot shadow an existing RTX encoder. Release webrtc.dll and native tests rebuilt. On PL-007, RTX factory test 1/1 passe"
     },
@@ -1593,6 +1588,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T06:13Z",
      "text": "HEAVY goal 431, c47f57db1b: verified that the existing RTX path actually delivers H.264 with the matching Media Foundation bridge present. RTX 5070 sender and receiver on PL-007 completed native ICE playback 3/3 times, NvCodec selected, 15 "
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T06:15Z",
+     "text": "HEAVY 431, 1255b9ef9d: published Stage-WindowsWebRtcQualification.ps1 to stage both rebuilt DLLs in a separate Windows x64 player folder and verify the copy hashes. Tested against a copy of the installed player; installed DLL hashes matched"
     }
    ]
   },
@@ -2776,5 +2776,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b391bac5f7b6cb0440e79c954a87bfa48182d8b0"
+ "source_revision": "62a77b1502861d41f22888e6fea6432e77039330"
 }
