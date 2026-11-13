@@ -1567,7 +1567,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T07:10Z",
-     "noted": "",
+     "noted": "2026-11-13T07:13Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -1590,11 +1590,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T06:54Z",
-     "text": "HEAVY 431: built Windows x64 IL2CPP profiling player 829 (Brigade 68, Unity 6000.6.8f1, source e6aba35cd6, 343 s) and staged the qualified native DLL pair in C:/MavControlEvidence/Video-431-20261113/qualification-player-829. Both DLL hashes"
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T07:01Z",
      "text": "HEAVY 431: Windows profiling player build and launch reached startup with the staged DLL pair. Qualification stopped because isolation failed: setting the unique company in ProjectSettings and the Brigade 68 Windows profile produced the exp"
     },
@@ -1602,6 +1597,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T07:09Z",
      "text": "HEAVY 431: fixed qualification isolation with a fresh Bee cache and the unique company name in both the project and Brigade 68 Windows profile. The earlier warm builds reused byte-identical globalgamemanagers; this time both app.info and se"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T07:13Z",
+     "text": "HEAVY 431: checked the isolated 829 player with a local emulated source. system.set synthetic_drone and synthetic_video succeeded; hidden player kept Emulated WaitingForFrame. With a visible 1000x650 D3D11 window the local source progressed"
     }
    ]
   },
@@ -2845,5 +2845,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "acdb2033b264b2c106321bb2fc2fe75c3bb292a4"
+ "source_revision": "0d1513d945bc55a590fcb8be540e299ec0611224"
 }
