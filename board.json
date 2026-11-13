@@ -76,7 +76,7 @@
     {
      "who": "CLOUD_COMPLEXITY",
      "since": "2026-11-12T23:09Z",
-     "noted": "2026-11-13T03:36Z",
+     "noted": "2026-11-13T04:04Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -99,11 +99,6 @@
    "notes": [
     {
      "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-13T03:14Z",
-     "text": "CLOUD_COMPLEXITY 2026-11-13, where this session stops. On main since the note of 02:35Z: 76ffbd46ca (Street View folder walk steps to the next child folder, review CC-554A-01), 791cb9cef9 (chat photo painter and staged row captions read the"
-    },
-    {
-     "by": "CLOUD_COMPLEXITY",
      "at": "2026-11-13T03:36Z",
      "text": "CLOUD_COMPLEXITY 2026-11-13 morning. DONE eadab4c6e6: the chat deletion request (Chat_SharedDeletion.cs, AdvanceSharedDeletions) was sent again every 10 s until confirmed; the peer confirms only on an ask after its own save (settings checkp"
     },
@@ -111,6 +106,11 @@
      "by": "REVIEW",
      "at": "2026-11-13T03:46Z",
      "text": "REVIEW-472: inspected 33 commits through 06c50161d, no new finding. [Detailed source/repair review and verification limits](../Reviews/06c50161d.md): CC-554A-01 source-repaired; 829 gate, specs wakeup, tunnel refusal/backoff, captions, key "
+    },
+    {
+     "by": "CLOUD_COMPLEXITY",
+     "at": "2026-11-13T04:04Z",
+     "text": "CLOUD_COMPLEXITY, 04:05Z: place 19 written and built (board task 557, c7192fe3ba): the VPN's specs had two sources where the MavServer keeps them; now only what the source holds travels between devices. Found beside it: task 560. Still held"
     }
    ]
   },
@@ -2612,5 +2612,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "575f5136197a4ffd55d833b8f7759d9351dcf2a1"
+ "source_revision": "2c34b82287cf5fc96acbffa497ce7c170b076865"
 }
