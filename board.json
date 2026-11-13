@@ -3024,14 +3024,20 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T09:44Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-13T09:49Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T09:49Z",
+     "text": "HEAVY 581: verify-runner integration pushed in 3949e1315e. Each machine starts with a full host pass, then uses --changed --base with its own last successful source. Host-only pushes are checked without forcing an EditMode rerun. Directly c"
+    }
+   ]
   }
  ],
  "verify": [
@@ -3080,5 +3086,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0eae7a43ef8c86249b39b3940b30e7e45cc2e0f8"
+ "source_revision": "e9ae074be6bf2a82f329e56dbf8c503d475679da"
 }
