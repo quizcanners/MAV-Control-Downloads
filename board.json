@@ -748,35 +748,27 @@
    "held": [],
    "steps": [
     {
-     "t": "Getac (Strong): line, contours and visibility prediction keep their shape, only ",
-     "x": false
+     "t": "Strong Dev 826/827: fine grid stays state=Ready, missing_texels=0 through hides ",
+     "x": true
     },
     {
-     "t": "Getac (Strong): hide the view 30 s and 120 s (a 9 s hide kept state=Ready, Relea",
+     "t": "Getac (Strong): line, contours and visibility prediction keep their shape, only ",
      "x": false
     },
     {
      "t": "Getac (Strong): altitude-line curves and the radio-horizon and skirt cases again",
      "x": false
+    },
+    {
+     "t": "Getac (Strong): a hide long enough to see Released, Deriving, Uploading then Rea",
+     "x": false
+    },
+    {
+     "t": "Mali and additional overlay draws remain open from the RenderDoc pass (goal 171)",
+     "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-12T11:07Z",
-     "text": "GETAC 2026-11-12, Strong Dev 826 at f03247d1be: altitude.status fine=True state=Ready cells=4 missing_texels=0 unavailable_texels=0 fallback_texels=0 display_source=fine gpu=height+bump bump_zone=1 cpu_mib=8. App sent to the background (Hom"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-12T18:52Z",
-     "text": "GETAC 2026-11-12 batch 3 step 7 (377 part), Strong Dev 826 at 1fe7cbaa6b, camera at 51.129,35.226, 3 km: altitude.status before: fine=True state=Ready cells=4 missing_texels=0. App to Home for about 9 s (6 s intended; the bridge read while "
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-12T20:11Z",
-     "text": "GETAC 2026-11-12 batch 4 step 4, Strong Dev 827 at 964c225b93, camera at 51.129,35.226: altitude.status before each hide fine=True state=Ready cells=4 missing_texels=0. App in the background 30 s, then 120 s; after each return 25 and 26 rea"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 378,
@@ -3783,5 +3775,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ebcda20d45ef2fed520e6755010ba589d5b0182e"
+ "source_revision": "dc9e7de3ab1f68db5c86333c6fd1b3bfc194e371"
 }
