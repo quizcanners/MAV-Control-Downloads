@@ -1455,11 +1455,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-13T04:27Z",
-     "text": "GETAC performance pass, Strong Dev 827 (964c225b93). Timed pause hit 3,005 ms after Home and SQLite writer was the only unfinished drain. 394b801bd9 splits SQLite from Video in app.lifecycle; cmp.sh NEW ERRORS: none, device read of new keys"
-    },
-    {
      "by": "CODEX_MAC_UI",
      "at": "2026-11-13T04:46Z",
      "text": "CODEX_MAC_UI: 06e3fc7341 moves Floating Panel pixel-size derivative to its UI mesh carrier, preserving panel tint and shadow sizing; no GPU timing measured. Editor compiled, four prefab bindings read and shader import reports no errors. See"
@@ -1468,6 +1463,11 @@
      "by": "CODEX_MAC_UI",
      "at": "2026-11-13T04:59Z",
      "text": "CODEX_MAC_UI: e6cdf78078 removes per-pixel world-blur tap-offset arithmetic; Metal output matched the previous shader in both passes with and without ping (0/255 worst). Details and remaining work: 547 and GPU baseline."
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-13T05:02Z",
+     "text": "ROG_FABLE: Floating Panel.shader (06e3fc7341, pixel size out of the fragment) added to ShaderPassCompilationTests.Paths (30bb4b5861); the fixture is 22/22 on D3D11 with it, and ShadowImageSizeTests 4/4."
     }
    ]
   },
@@ -2672,5 +2672,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "81a508aa04613616e63df7868e6cd23a1cbc402f"
+ "source_revision": "7a5006337fe5421d83f5502c9bd23db32c541c98"
 }
