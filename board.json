@@ -558,7 +558,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-13T04:20Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "PASIKA (build drive): put tunnel.dll (f7b82f67...781a7f) and wireguard.dll (b1b8",
@@ -2660,5 +2669,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5e173f661f4ede2478ce6346feae11a0bd11ff64"
+ "source_revision": "48592286bdad75434fc57feb106bf72cf4d72076"
 }
