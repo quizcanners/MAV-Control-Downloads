@@ -3513,6 +3513,11 @@
      "by": "CODEX_MAC_UI",
      "at": "2026-11-13T18:57Z",
      "text": "bd615c6be1: Suggestions follows rightward drag/flick, clears selection and dismisses the screen-center tab; MavChat landscape can reopen its default center. Unity compiled, 59 Search/Suggestions tests and 2 swipe/prefab tests passed; Roslyn"
+    },
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-13T19:06Z",
+     "text": "Follow-up 9f46bca259 removed the edge-arrow obstruction: in the live Editor, a scripted mouse drag on the Suggestions action row dismissed screen center without firing the action; the arrow remained hittable outside the panel. Touch-device "
     }
    ]
   },
@@ -3800,5 +3805,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "077d8e7b06f669a693d51c527ee21fc12c353d49"
+ "source_revision": "434a7b7f4d70cc5ec9f5d3b6f9e9d690680addbe"
 }
