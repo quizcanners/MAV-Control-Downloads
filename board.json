@@ -1567,7 +1567,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-13T06:41Z",
-     "noted": "",
+     "noted": "2026-11-13T06:43Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -1590,11 +1590,6 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-13T06:33Z",
-     "text": "HEAVY goal 431, 5543a0a108: added H.264 Main fan-out coverage to the Windows video relay suite. The fixture uses the Radeon offer fmtp (4d0029, packetization mode 1, MediaFoundation) and sends synthetic RTP over local ICE/DTLS/SRTP through "
-    },
-    {
-     "by": "HEAVY",
      "at": "2026-11-13T06:36Z",
      "text": "HEAVY 431: extended the local relay check to actual Radeon Media Foundation encoder output. Captured 10 H.264 Main access units at 320x180, packetized the first keyframe, sent it over local ICE/DTLS/SRTP through the Go relay, and reassemble"
     },
@@ -1602,6 +1597,11 @@
      "by": "HEAVY",
      "at": "2026-11-13T06:40Z",
      "text": "HEAVY 431: reproduced the patched Release webrtc.dll from a fresh extraction of pinned Unity source with only the tracked adapter patch, pinned libwebrtc, and staged toolchain. CMake required -T cuda=<toolkit> on this Visual Studio installa"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-13T06:43Z",
+     "text": "HEAVY 431: extended the clean Release native run to 450 submitted 1920x1080 D3D11 textures over about 16 s. Radeon to RTX used Media Foundation H.264, 445 encoded / 444 decoded, and passed the sustained-delivery assertion. 1080p describes t"
     }
    ]
   },
@@ -2797,5 +2797,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "951c1e8ad132381c1fa1dd5cdb58b385d1008199"
+ "source_revision": "1c17740e347d84ddaf5a01055f6673fd4a803838"
 }
