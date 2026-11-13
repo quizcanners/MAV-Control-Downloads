@@ -76,7 +76,7 @@
     {
      "who": "CLOUD_COMPLEXITY",
      "since": "2026-11-12T23:09Z",
-     "noted": "2026-11-12T23:59Z",
+     "noted": "2026-11-13T00:17Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -106,11 +106,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-12T20:32Z",
-     "text": "REVIEW-465-CC-B8F7-01: P3 complexity brief for quiz: Street View anchor GPU preparation rereads the upload list after the same writer had its coordinates in hand. [S1/S2 exact scan/writer, one-pass sketch, 32-anchor explicit-command bound a"
-    },
-    {
      "by": "CLOUD_COMPLEXITY",
      "at": "2026-11-12T23:37Z",
      "text": "CLOUD_COMPLEXITY, 2026-11-12: on main ac63b0f6b0 and 6a6d8e6e3f. Done: two timers that still sent to the MavServer with nobody looking are cut, both in the device's half (no MavServer release needed, none published). 1) A report the server "
@@ -119,6 +114,11 @@
      "by": "CLOUD_COMPLEXITY",
      "at": "2026-11-12T23:59Z",
      "text": "One state for 'did the MavServer answer' is on main (a14be3850f). The check button on Settings > Dev Mode > Servers > VPN server kept a second state beside the route's own (ten values, its own 10 s timeout, its own copy of the server's addr"
+    },
+    {
+     "by": "CLOUD_COMPLEXITY",
+     "at": "2026-11-13T00:17Z",
+     "text": "Step 2, place 17 of Coordination/Refactoring/creeping-complexity.md, since the last note. On main: ba4858a19d (a report the MavServer could not write to its disk is submitted again after 5 s, then twice the wait each time, at most 300 s; be"
     }
    ]
   },
@@ -2512,5 +2512,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "80b10bcf4c1503f76a870b3cdfde6ee4e65ea270"
+ "source_revision": "721a00c7b7489ed8dbe0fa325f6ae6eaaa2f8f46"
 }
