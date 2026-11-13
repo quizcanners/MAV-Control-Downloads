@@ -108,31 +108,39 @@
    "held": [],
    "steps": [
     {
-     "t": "Getac (Strong): a true cold start: swipe the app from Recents, never force-stop ",
+     "t": "Code on main: the Map scene is the only request until its camera exists; Main UI",
+     "x": true
+    },
+    {
+     "t": "Startup owners run in a written order (StartupRunOrder, 2082a4164c, a5f560d5ca):",
+     "x": true
+    },
+    {
+     "t": "Two Play-only startup cases pass on Windows (736d28a548, main 34d6ab4d9a); EditM",
+     "x": true
+    },
+    {
+     "t": "Getac (Strong 827, true cold starts, 964c225b93): map present 3.6 s, Ready 6.6-6",
+     "x": true
+    },
+    {
+     "t": "PASIKA (Editor): profile the long boot frames between map present and Ready (the",
      "x": false
     },
     {
-     "t": "Cloud or Editor: PlayMode cases for the two Play-only contracts (AdvanceCoreScen",
-     "x": true
+     "t": "Getac (Strong): after a cut, three true cold starts (swipe from Recents, never f",
+     "x": false
+    },
+    {
+     "t": "Getac or Mac: by hand, press a list and Chat early (before layers are present) a",
+     "x": false
+    },
+    {
+     "t": "quiz: two proposals wait on an answer before any refactor: default Coding record",
+     "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-12T20:02Z",
-     "text": "GETAC 2026-11-12 batch 4 step 2, Strong Dev 827 at 964c225b93, three TRUE cold starts (swiped from Recents; :vpn and :location survive the swipe, WireGuard Healthy throughout). Runs 1/2/3 s: map present 3.652/3.667/3.588, reveal 3.659/3.674"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-13T10:39Z",
-     "text": "HEAVY 362: 736d28a548 adds the two Play-only startup cases. Station remains WaitingForMapScene before its Map camera appears and executes SceneReferences in the exact Update that first sees it. Main UI registration moves the scenes owner to"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-13T12:04Z",
-     "text": "HEAVY 362: closed the Play-only startup-contract step on main 34d6ab4d9a. The 736d28a548 fixture passed again in Windows Unity 6000.6.8f1 D3D11: 2/2, zero failed/skipped/inconclusive, 12.0 s. Both cases enter Play and cover same-update Map-"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 363,
@@ -1428,51 +1436,47 @@
    "held": [],
    "steps": [
     {
-     "t": "Cloud, from that result: Web Mercator SQLite storage to the SPEC layout: one aut",
+     "t": "Under 100 files, step 2 mostly landed (all RecordVault adapters, Mac/Windows com",
+     "x": true
+    },
+    {
+     "t": "Web Mercator: the one tiles.sqlite per map (LogicalMapDatabase, migration, retir",
+     "x": true
+    },
+    {
+     "t": "Tombstone bound: at most 512 Web Mercator cleanup scopes and 512 Orthophoto tomb",
+     "x": true
+    },
+    {
+     "t": "Cloud: retire the old segment allocator, catalog, merge and publication code (SP",
      "x": false
     },
     {
-     "t": "Cloud: Web Mercator and Orthophoto tile tombstones become the usual list, 512 wi",
+     "t": "Cloud, before more maps flip: CR-9108-01 (P2: catch-up writes bypass the low-dis",
      "x": false
     },
     {
-     "t": "Cloud: Under 100 files, step 2: Geometry, Logistics, convergence months and Tile",
+     "t": "Cloud: Web Mercator tile tombstones as the Ripper drill (SPEC, Record Vault 'Til",
      "x": false
     },
     {
-     "t": "Getac (Strong): RAM grows in idle (+168 MiB in 2 min on 812): PSS at boot, 30 s,",
+     "t": "Cloud: rest of Under 100 files: caps for video and Copernicus cells, Geometry st",
      "x": false
     },
     {
-     "t": "Getac (Strong, then Lenovo off the first cold launch): 812 (7990df8019) against ",
+     "t": "Getac: on a device check the file count and migration, photo eviction (disposabl",
      "x": false
     },
     {
-     "t": "Cloud: cap the named owner or free it when Activity is Idle (was 55)",
+     "t": "Cloud, from that result: cap or free the named RAM owner when Activity is Idle; ",
      "x": false
     },
     {
-     "t": "Getac: repeat the 2 min read and add the RAM rows to Coordination/Phone_Timings.",
+     "t": "Getac (Strong, Dev bridge): during a natural Web Mercator index publication read",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-13T11:02Z",
-     "text": "GETAC switched Strong to the requested Android Test 830 build (ad8378ca21). Installed in place and reached the map. The earlier index publication timing experiment did not run. Next on Strong with authenticated diagnostics, allow a natural "
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-13T11:13Z",
-     "text": "GETAC Strong Test 830 ad8378ca21, cold process with camera untouched and VPN active: PSS 1102 to 1904 to 2755 MiB at 32/151/300 s, Graphics 302 to 914 to 1728 MiB, 86 percent of five-minute rise. Baseline and Phone_Timings pushed in 7a59840"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-13T11:48Z",
-     "text": "GETAC graphics attribution narrowed to Sharp still frame cold run, about 1035 MiB more Android Graphics at five minutes with it on. See task 363 and Performance Baseline/RAM.md 588b0e0703. No Web Mercator index publication sample in either "
-    }
-   ]
+   "notes": []
   },
   {
    "n": 431,
@@ -3797,5 +3801,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "950982526a5df6405edc83799b367e8ff36e308a"
+ "source_revision": "445f4ac46c706c3729d1b9adb2e0104e58a71719"
 }
