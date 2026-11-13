@@ -169,7 +169,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-13T18:07Z",
-     "noted": "",
+     "noted": "2026-11-13T18:50Z",
      "progress": 0,
      "ticked": 0,
      "total": 5
@@ -200,11 +200,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-13T17:33Z",
-     "text": "GETAC f911883ade. Strong same Dev APK 65daca46ed verified 1x retention: 532.2 versus 759.5 MiB Graphics at 300 s, with depth Auto and 143 masks on both. All three 1x IDs persisted with retention; the 2x-only control repeatedly replaced them"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-13T17:56Z",
      "text": "GETAC 1044df1680: reanalysis of the Strong trace found twelve +2.254 MiB GPU steps and repeated 0.5x color/depth ID turnover while depth-copy and 1x/2x IDs stayed stable. Patch keeps half-size attachments from the recorded full-size descrip"
     },
@@ -212,6 +207,11 @@
      "by": "CLOUD_META",
      "at": "2026-11-13T18:35Z",
      "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [_Bootstrap/AGENTS.md] \"Turning Altitude visualisation on and off should also dirty the map visual (meaning liquid glass should update).\" 2) [_Bootstrap/AGENT"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-13T18:50Z",
+     "text": "GETAC 8cab4ef029: Strong Dev 831 fa2c2c66b7 with half-size retention kept all three 1000x576 IDs through 90-300 s. The prior 2.254 MiB Perfetto steps did not recur; max 1.020 MiB. Five-minute Graphics 507.9 versus 532.2 MiB on the prior bui"
     }
    ]
   },
@@ -3776,5 +3776,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5d1dc3985c8f23f9ce5ce6e2821b04da972d171e"
+ "source_revision": "86a04059b0894179121ad2150d66fbf84226ef34"
 }
