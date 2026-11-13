@@ -1494,7 +1494,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-13T09:08Z",
-     "noted": "",
+     "noted": "2026-11-13T09:31Z",
      "progress": 0,
      "ticked": 0,
      "total": 7
@@ -1533,11 +1533,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-13T07:58Z",
-     "text": "GETAC Android Test 829 e989b7c214 signed, reached map on Strong, Drive sole APK and sealed Test published. Roslyn clean; EditMode 8571 passed, 0 failed, 8 skipped, 1 screen-size inconclusive. Retention inventory cancellation 38a6350edf comp"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-13T08:32Z",
      "text": "GETAC Strong Dev 829 d4cc60e224: seven of eight SQLite pauses <=2.475 ms; one 2365.606 ms. Eight successful drains vs two timeouts in four on Dev 828. Same tiles_sumy about 20.73 GB; Retention worker active in all seven pre-pause samples af"
     },
@@ -1545,6 +1540,11 @@
      "by": "GETAC",
      "at": "2026-11-13T09:06Z",
      "text": "GETAC 79520b801e makes the post-maintenance and post-eviction tile-size recount pause-cancellable. Committed eviction result is still adopted, unknown size holds write admission until a fresh sample. Roslyn NEW ERRORS: none, isolated WebMer"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-13T09:31Z",
+     "text": "GETAC Strong Dev 829 at 71ba10b5c7 with 79520b801e, tiles_sumy. Twelve Home trials: SQLite 0.027\u20131.885 ms, median 1.019 ms, all drains completed, Retention active before 9/12. Prior 2365.606 ms pause not reproduced. Separate vpn.webmercator"
     }
    ]
   },
@@ -3052,5 +3052,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "34baf631a32b39e0cab0afd451349d6cec8853b8"
+ "source_revision": "95af69071bf89b35e21fdcde0c218386a6a644f0"
 }
