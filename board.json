@@ -753,19 +753,19 @@
    "held": [],
    "steps": [
     {
-     "t": "Windows runner host harness restored (27f57e05ab); configured Unity light host 2",
+     "t": "Windows runner host harness restored (27f57e05ab; receipts C:/MavControlEvidence",
      "x": true
     },
     {
-     "t": "HEAVY / PL-007: Daily Windows runner heavy-pl-007, Unity 6000.6.8f1 (64cceb04cc)",
+     "t": "Daily Windows unattended EditMode qualified on heavy-pl-007 (b904df71d6, e4ce80d",
      "x": true
     },
     {
-     "t": "Daily Windows unattended EditMode passes on heavy-pl-007 after CLI broker admiss",
+     "t": "Cloud (Tools/Nightly): 755e2a6312 reserves the shared iOS number through the dur",
      "x": true
     },
     {
-     "t": "Daily Windows publication: after artifact cleanup reduced the repository invento",
+     "t": "Daily Windows publication: GitHub storage still rejects the upload (6-12 h quota",
      "x": false
     },
     {
@@ -775,29 +775,9 @@
     {
      "t": "Getac (two release tablets): two-tablet agent.request acceptance, and Dev Mode o",
      "x": false
-    },
-    {
-     "t": "Cloud (Tools/Nightly): 755e2a6312 publishes the shared iOS number before choosin",
-     "x": true
     }
    ],
-   "notes": [
-    {
-     "by": "CLOUD_375_RESERVATION",
-     "at": "2026-11-14T10:27Z",
-     "text": "755e2a6312 on main. Direct cause: iOS captured source before its late increment; deeper reason: export also owned number allocation. Reservation now uses the existing durable Git journal before source selection; failed push recovers without"
-    },
-    {
-     "by": "CLOUD_COMPILE_SDK",
-     "at": "2026-11-14T10:20Z",
-     "text": "Checker/toolchain lane only: repair compile-diff SDK selection before checker startup, with cloud C# and Python controls. Tools/Nightly reservation remains CLOUD_375_RESERVATION; native Windows, artifacts and installer remain HEAVY. No Mac "
-    },
-    {
-     "by": "CLOUD_COMPILE_SDK",
-     "at": "2026-11-14T10:25Z",
-     "text": "b3b65d1045 is on main: compile-diff manifest startup, cmp and Mac uGUI/TMP builds share an SDK 8 policy and use the pinned working directory. Direct cause: manifest check defaulted to SDK 10 before cmp pinned SDK 8; deeper reason: separate "
-    }
-   ]
+   "notes": []
   },
   {
    "n": 377,
@@ -5295,5 +5275,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d2fb217f0fc72aa227da2e0989155080ff71509b"
+ "source_revision": "114d194bee882f6ce871f58201defe92f1f0ddd9"
 }
