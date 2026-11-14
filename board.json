@@ -297,7 +297,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-14T09:49Z",
+     "noted": "",
+     "progress": 33,
+     "ticked": 2,
+     "total": 6
+    }
+   ],
    "steps": [
     {
      "t": "One SQLite build on every platform (SQLITE-ONE-BUILD, fff632dd65): Windows and M",
@@ -4551,14 +4560,20 @@
     {
      "who": "CODEX_MAC_UI",
      "since": "2026-11-14T09:46Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-14T09:48Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-14T09:48Z",
+     "text": "639b026ad5: Clock plaque shadow uses the capsule material, at its matching 1.5 scale. Editor prefab inspection and capsule shadow render check passed; device appearance remains for later."
+    }
+   ]
   }
  ],
  "verify": [
@@ -4607,5 +4622,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e7a2fe3f515e3575df01d258b1a810faf9d82752"
+ "source_revision": "776a0fc5092e28b398f0e5881ce967cc9e888329"
 }
