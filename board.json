@@ -4261,7 +4261,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "REVIEW",
+     "at": "2026-11-14T09:55Z",
+     "text": "REVIEW-502 CC-7D64-01: [P3 S1/S2 complexity brief](../Reviews/cba77839b.md#cc-7d64-01--p3-camera-failures-rediscover-devices-on-every-update) ready for quiz before refactoring. A blocked camera attempt re-enters device enumeration/capture s"
+    }
+   ]
   },
   {
    "n": 631,
@@ -4640,6 +4646,20 @@
      "text": "Overlay objects deleted from the 3 chat message prefabs (not hidden); author and row code no longer reference them. Mav Chat Sheet has none on bubbles (its Glass Light objects are button lights). Chat Message Notification prefab keeps a pla"
     }
    ]
+  },
+  {
+   "n": 647,
+   "name": "MavChat sheet",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -4688,5 +4708,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "fcb324952c5d755dfc60a0dd3db75d5ec12d1c5d"
+ "source_revision": "0b886dc328e679a74230056cc202d9ba354e29ac"
 }
