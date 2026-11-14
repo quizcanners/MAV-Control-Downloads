@@ -2990,24 +2990,21 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
-   "notes": [
+   "steps": [
     {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T09:04Z",
-     "text": "223de4e530 removes a real MavChat selector hang risk: per-step while loops could run indefinitely on non-finite/extreme touch coordinates; panel-step updates are now constant time with the same 60/40 thresholds, and invalid/out-of-range con"
+     "t": "223de4e530 removes a real hang risk: per-step while loops could run indefinitely",
+     "x": true
     },
     {
-     "by": "HEAVY",
-     "at": "2026-11-13T09:10Z",
-     "text": "Windows evidence for 223de4e530 on bef85b47bf: Unity 6000.6.8f1 EditMode All 8572 passed, zero failed, 4 skipped, 1 inconclusive. Selector fixture cases passed. Divider host regression actual plus three falsifiers passed. The host needed a "
+     "t": "Windows (HEAVY): EditMode All at bef85b47bf 8572 passed, 0 failed; live Editor a",
+     "x": true
     },
     {
-     "by": "HEAVY",
-     "at": "2026-11-13T09:13Z",
-     "text": "HEAVY 577: Windows Unity 6000.6.8f1 live Editor ac2f42eb65, 600x900 Navigator portrait at split. Sixteen scripted mouse swipes through the Input System, alternating direction with different step sizes and durations, all acquired the divider"
+     "t": "Not proof of the reported freeze: hub records 571-650 held no matching report; g",
+     "x": false
     }
-   ]
+   ],
+   "notes": []
   },
   {
    "n": 578,
@@ -5125,5 +5122,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0928636e7f6664d6809b3e0d79026668af885e0e"
+ "source_revision": "e2a11efb44ed064b659cc2ceafaa08e854b1ae26"
 }
