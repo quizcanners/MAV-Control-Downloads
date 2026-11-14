@@ -4540,7 +4540,20 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "ShaderProperty MarksMapDirty + MapGlobalVersion, flagged on the Cesium TimeOfDay",
+     "x": true
+    },
+    {
+     "t": "Late owner order: Framerate (map step) after Shaders, Gyroscope, ThermalMode; Bo",
+     "x": true
+    },
+    {
+     "t": "Editor: flag any other colour or light global the map is drawn with (MarksMapDir",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
@@ -4590,5 +4603,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e4ad9f831b3ae279897c47bdb2cb3179fbaba3b0"
+ "source_revision": "5dabd6b345b346eb4210aa03e5eea2e5dd93d825"
 }
