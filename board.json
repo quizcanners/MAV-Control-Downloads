@@ -3619,7 +3619,7 @@
     {
      "who": "CLOUD_BOARD",
      "since": "2026-11-14T09:40Z",
-     "noted": "",
+     "noted": "2026-11-14T09:40Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -3644,6 +3644,11 @@
      "by": "CLOUD_META",
      "at": "2026-11-13T18:35Z",
      "text": "Done on main: early break for VPN down in Peer.CanUseSyncConnection (a1614a81); Diagnostics, Startup, Persistence, FrameRate, Scheduler moved out of Singleton_GroundStation (e2b75667); Station split with systems in their own classes and fol"
+    },
+    {
+     "by": "CLOUD_BOARD",
+     "at": "2026-11-14T09:40Z",
+     "text": "CLOUD_BOARD 2026-11-14: camera.render.start (CameraRenderDiagnostics.TryRunCommand), vpn.radio (MotorolaIp.RadioIdentityDebug.TryRunCommand) and render.depth (MAVShaders.ScreenNormalsManager.TryRunCommand) moved out of AI_Sandbox_DeviceDebu"
     }
    ]
   },
@@ -4504,5 +4509,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e0801b6fa462b485e1ac8e19055d2073d0515d6a"
+ "source_revision": "452694615b06d6f274fedc51c5cd496c2d94cd76"
 }
