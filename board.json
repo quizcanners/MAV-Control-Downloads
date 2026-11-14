@@ -770,14 +770,6 @@
      "progress": 43,
      "ticked": 3,
      "total": 7
-    },
-    {
-     "who": "CLOUD_COMPILE_SDK",
-     "since": "2026-11-14T10:20Z",
-     "noted": "2026-11-14T10:20Z",
-     "progress": 43,
-     "ticked": 3,
-     "total": 7
     }
    ],
    "steps": [
@@ -812,11 +804,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-14T08:42Z",
-     "text": "REVIEW-501 CR-C88B-02: [P2 S1/S2 brief](../Reviews/1672e965b.md#cr-c88b-02--p2-a-skipped-ci-run-deletes-the-previous-result-without-uploading-a-replacement) ready for quiz. Always cleanup deletes prior CI artifacts when the guarded/output-d"
-    },
-    {
      "by": "CLOUD_375_RESERVATION",
      "at": "2026-11-14T10:18Z",
      "text": "Cloud source lane only: reserve daily build numbers on main before choosing the immutable build source in Tools/Nightly; focused host controls. Windows runner, artifact cleanup, installer and publication remain with HEAVY. No build dispatch"
@@ -825,6 +812,11 @@
      "by": "CLOUD_COMPILE_SDK",
      "at": "2026-11-14T10:20Z",
      "text": "Checker/toolchain lane only: repair compile-diff SDK selection before checker startup, with cloud C# and Python controls. Tools/Nightly reservation remains CLOUD_375_RESERVATION; native Windows, artifacts and installer remain HEAVY. No Mac "
+    },
+    {
+     "by": "CLOUD_COMPILE_SDK",
+     "at": "2026-11-14T10:25Z",
+     "text": "b3b65d1045 is on main: compile-diff manifest startup, cmp and Mac uGUI/TMP builds share an SDK 8 policy and use the pinned working directory. Direct cause: manifest check defaulted to SDK 10 before cmp pinned SDK 8; deeper reason: separate "
     }
    ]
   },
@@ -4843,7 +4835,7 @@
   },
   {
    "n": 654,
-   "name": "Group Station root files into sy",
+   "name": "Station root regroup finished (c",
    "done": "",
    "goal": false,
    "under": 0,
@@ -4902,5 +4894,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3aa6d9f32e2c1f2c2ae4ec9ee7ddf9404ee07f8a"
+ "source_revision": "0bf3767746c18b22174194670ca59552f3c3c46e"
 }
