@@ -4010,7 +4010,7 @@
   },
   {
    "n": 623,
-   "name": "building iOS TestFlight on the M",
+   "name": "Build and publish the iPad TestF",
    "done": "",
    "goal": false,
    "under": 0,
@@ -4023,19 +4023,22 @@
      "who": "CODEX_MAC_UI",
      "since": "2026-11-14T07:40Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
+     "progress": 50,
+     "ticked": 1,
+     "total": 2
     }
    ],
-   "steps": [],
-   "notes": [
+   "steps": [
     {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-14T07:37Z",
-     "text": "iOS build stopped before export: full All refused the current checkout because existing untracked WorkCritical is present. The older iOS checkout has unjournaled release 829 changes; preserved. Waiting for quiz on skipping the full suite; n"
+     "t": "Selected-tab fix 198bf06cbf and TestFlight notes / WorkCritical admission fix ea",
+     "x": true
+    },
+    {
+     "t": "Full All and build stopped before export: the ordinary Mac project retains Temp/",
+     "x": false
     }
-   ]
+   ],
+   "notes": []
   },
   {
    "n": 624,
@@ -4098,5 +4101,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "bab9349c7c5e9252c35a2692b437f84d4f4ced8b"
+ "source_revision": "bf7144a37452ee8cf14e25648e1cd8acf06007d0"
 }
