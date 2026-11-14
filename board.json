@@ -6189,23 +6189,14 @@
   {
    "n": 731,
    "name": "Street View from a link",
-   "done": "",
+   "done": "2026-11-14T18:14Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-14T18:10Z",
-     "noted": "2026-11-14T18:14Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -6286,7 +6277,24 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupSce",
+     "x": true
+    },
+    {
+     "t": "Rule and ultimate/compromises written in Bootstrap SPEC, Shutdown",
+     "x": true
+    },
+    {
+     "t": "Audit static caches and event subscriptions per system against the rule; add the",
+     "x": false
+    },
+    {
+     "t": "Editor: play, force a script recompile, confirm nothing from the first run is le",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
@@ -6336,5 +6344,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a472ba8ca780de8101dd0b2b1f7ea6e82e51061e"
+ "source_revision": "791a2a4446ce52ac0fc0ff5330fbde4515a8659b"
 }
