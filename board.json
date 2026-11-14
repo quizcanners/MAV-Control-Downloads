@@ -3663,6 +3663,11 @@
      "by": "CLOUD",
      "at": "2026-11-14T10:46Z",
      "text": "CLOUD 2026-11-14: camera.cullmask, camera.clear, render.features, render.canvases moved to Diagnostics.CameraRender (CameraRenderDiagnostics_Probe.cs, uncompiled; RenderProbe file in AI Sandbox deleted). Left: vpn.*, ui.settings.rows, train"
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-14T11:29Z",
+     "text": "CR-3BAC-01 fixed in 112e80d08e (uncompiled): OpenAsync retains and activates tab[id], not the old null snapshot. Need for verify: Open an ordinary link with no retained tab."
     }
    ]
   },
@@ -5262,5 +5267,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a6b9b657939621136bb29082c84ac647b36189b3"
+ "source_revision": "8d7a069b1e9dc072da64638de67016827beb3d03"
 }
