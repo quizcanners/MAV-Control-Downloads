@@ -160,7 +160,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T09:04Z",
-     "noted": "",
+     "noted": "2026-11-14T09:18Z",
      "progress": 56,
      "ticked": 5,
      "total": 9
@@ -204,7 +204,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-14T09:18Z",
+     "text": "Windows RenderDoc evidence at 90bd5e122b: before 0fd51631c6, two kept frames each had one stored-map blit, UI draws, and zero live world Shapes passes. A temporary positive control proved refresh submission only; its presence in stored pixe"
+    }
+   ]
   },
   {
    "n": 364,
@@ -4268,5 +4274,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "efcfe1cb90f43f72737da2ef2cd747a3739b8c02"
+ "source_revision": "d6c6b06ed61ad620626a6323b05aa3ab23352ff8"
 }
