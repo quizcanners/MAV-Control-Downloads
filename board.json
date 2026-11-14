@@ -668,7 +668,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T08:39Z",
-     "noted": "",
+     "noted": "2026-11-14T08:42Z",
      "progress": 25,
      "ticked": 3,
      "total": 12
@@ -734,6 +734,11 @@
      "by": "HEAVY",
      "at": "2026-11-14T08:38Z",
      "text": "HEAVY deleted 13 old downloads releases and their tags (2,094,535,990 bytes of listed assets). Only Brigade 68 Android Test 834 and routing-2570988631 remain. Downloads catalog commit 7e510c9d6d0879afa620768651c4427513d2f34d removes retired"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-14T08:42Z",
+     "text": "HEAVY refreshed the protected Galera catalog to qualified Brigade 68 Android Test 834. Backed up 808 catalog, restarted only mavcontrol-routing and moved the hash-matched unowned 808 staged payload outside staging after it caused HTTP 503. "
     }
    ]
   },
@@ -4183,5 +4188,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4a5c262fc8c8fce371cf776b5ae44b0d0dac9b39"
+ "source_revision": "b5c7157975495181974e6ee499681d8335878ba3"
 }
