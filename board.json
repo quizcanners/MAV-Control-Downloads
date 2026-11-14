@@ -6959,14 +6959,20 @@
     {
      "who": "ROG",
      "since": "2026-11-14T23:22Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-14T23:26Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-14T23:26Z",
+     "text": "158db4c216 removes Noise IK calls from the periodic and immediate Destination Sync paths; VPN Chat Session Maintenance keeps its retry and rotation cadence. Windows Unity compiled, 92/92: DestinationValue, VpnSessionRekey, VpnPayloadDeliver"
+    }
+   ]
   },
   {
    "n": 766,
@@ -7061,5 +7067,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e0f36d964c0a8c317d112f80805be3b946c1b404"
+ "source_revision": "3c6d07206f108a2dba026d98d98958f1ff08c833"
 }
