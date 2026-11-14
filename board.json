@@ -6963,14 +6963,20 @@
     {
      "who": "CODEX_GRAPHICS",
      "since": "2026-11-14T23:06Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-14T23:16Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_GRAPHICS",
+     "at": "2026-11-14T23:16Z",
+     "text": "Published 0a89e118c4: Wind Direction presents its cached sample before MapRender and reports only visible shader motion. Direct cause: no wake report; deeper reason: independent LateUpdate plus the unchanged-sample return bypassed frame dem"
+    }
+   ]
   },
   {
    "n": 765,
@@ -7033,5 +7039,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "25dd85211b0eacda1bf983e06bf5257e539138f2"
+ "source_revision": "6fab4ca80e7e59cf104374726e3c99ffb8c72295"
 }
