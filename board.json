@@ -160,7 +160,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-14T17:12Z",
-     "noted": "",
+     "noted": "2026-11-14T17:34Z",
      "progress": 56,
      "ticked": 5,
      "total": 9
@@ -214,11 +214,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-14T12:50Z",
-     "text": "DJI Pilot 834 had 7.5 FPS and 835 measured 47.77 FPS, median 16.68 ms and worst 33.54 ms over 125 SurfaceFlinger presents with live video. Tablet dynamic resolution and battery checks remain on this goal."
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-14T14:20Z",
      "text": "Windows 839 started after 838 exited, but its production Debug Mode backdoor did not open. Isolated Windows Unity MapOnly with WakeRegister held 8 FPS/FrozenDouble in 72 samples and returned after scripted wheel zoom; 63/63 focused tests on"
@@ -227,6 +222,11 @@
      "by": "CODEX_GRAPHICS",
      "at": "2026-11-14T17:20Z",
      "text": "Done: requested iOS 842 from d1c7953c02; delivery record 173dd7a3a9."
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T17:34Z",
+     "text": "Strong Dev 840 reproduced half scale after release twice with held_input=False during glide. fc4fbe8579 feeds held input to MapRender and its gate, so release selects native resolution even while the camera moves. 18 host-side production de"
     }
    ]
   },
@@ -6139,5 +6139,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "7f9de5e2e640b74b662b3aa819a39a1380c60246"
+ "source_revision": "bdba9e683d172595fccbe84f3e23cdd6683fdb39"
 }
