@@ -7014,8 +7014,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T23:41Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-14T23:53Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -7024,8 +7024,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-14T23:40Z",
-     "text": "086bb193b3 fixes the zero-height Planet preview mismatch. Windows Unity 32/32; all 47 spans at 4.1 km Planet and 46 Cesium spans within 1 m. At 620 m all 96 vertices grounded, but one span still +7.58 m. Continue with the close-angle span a"
+     "at": "2026-11-14T23:53Z",
+     "text": "aa08746283 fixes terrace crossings after 086bb193b3 corrected the preview height. Planet strips crossed terrain steps because seam refinement was Cesium-only. At 620 m, 96 vertices grounded and 89 of 89 spans within 1 m, with the largest ri"
     }
    ]
   },
@@ -7119,5 +7119,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3e0fb54426935bb40769f57045087f37694fd394"
+ "source_revision": "22c4bfc67f08ea6f8410c5c055000bf2c8117557"
 }
