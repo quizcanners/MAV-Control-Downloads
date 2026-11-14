@@ -2729,7 +2729,7 @@
     {
      "who": "ROG",
      "since": "2026-11-14T21:12Z",
-     "noted": "",
+     "noted": "2026-11-14T21:16Z",
      "progress": 50,
      "ticked": 1,
      "total": 2
@@ -2750,6 +2750,11 @@
      "by": "HEAVY",
      "at": "2026-11-14T16:41Z",
      "text": "04be079a12 adds three regressions for JoinedVpns.Adopt: blank/different incoming server retains held address, both keys and deployer while taking newer metadata; an initially missing server is supplied. Three passed using production C# in a"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-14T21:16Z",
+     "text": "b9e51cdb53 closes a bypass: saving an Admin draft and restoring server specs after refusal now preserve the same held address, keys and deployer as normal adoption. Refusal still restores the server version and metadata. Windows Unity nativ"
     }
    ]
   },
@@ -6764,5 +6769,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ad9eb0988e7c8f6e4f0ac61fdbf553bc5d94a323"
+ "source_revision": "6f6a8e74674efb49b175a19ee54b1c273d76ecea"
 }
