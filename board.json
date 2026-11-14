@@ -2316,9 +2316,9 @@
     {
      "who": "ROG",
      "since": "2026-11-14T21:06Z",
-     "noted": "",
-     "progress": 60,
-     "ticked": 3,
+     "noted": "2026-11-14T21:10Z",
+     "progress": 80,
+     "ticked": 4,
      "total": 5
     }
    ],
@@ -2340,8 +2340,8 @@
      "x": false
     },
     {
-     "t": "Cloud C#: Peers.Groups.Edit.Group_Optional (65 uses) and Peers.Icons.Flow.PickRe",
-     "x": false
+     "t": "Peers: group selection and icon picker revision live on their owning controllers",
+     "x": true
     }
    ],
    "notes": [
@@ -2354,6 +2354,11 @@
      "by": "HEAVY",
      "at": "2026-11-14T20:28Z",
      "text": "9ff5a6caab renames UdpReceiver in callers and saved settings, preserves UdpReciever through Unity serialization and a checkpoint migration, and adds coverage for mixed keys and round-trip. Unity compiled and the existing checkpoint booted w"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-14T21:10Z",
+     "text": "bdf0a584f6 moves chat group selection to Groups.SelectedGroup_Optional and the icon picker revision to Icons.PickRevision. Windows Unity compiled; ChatPeerListTests 10/10 and ChatIconPersistenceTests 23/23. Guide check 0 errors. Prefab-boun"
     }
    ]
   },
@@ -6733,5 +6738,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b39c6876b997398ba00286f303468f7b1cecc73d"
+ "source_revision": "e77c5d232a292f0d2b5e71557328041a09bc5231"
 }
