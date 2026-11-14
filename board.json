@@ -4154,27 +4154,42 @@
   },
   {
    "n": 630,
-   "name": "placeholder",
+   "name": "Device camera as a video source",
    "done": "",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
-   "flags": [
-    "vague"
-   ],
+   "flags": [],
    "held": [
     {
      "who": "cloud-camera",
      "since": "2026-11-14T09:15Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
+     "progress": 25,
+     "ticked": 1,
+     "total": 4
     }
    ],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Code: scope, source kind, picker row, WebCamTexture into one RenderTexture, perm",
+     "x": true
+    },
+    {
+     "t": "Editor: compile (cmp.sh), add `streamer.screen.deviceCamera`, `streamer.screen.c",
+     "x": false
+    },
+    {
+     "t": "Android and iPhone build: camera permission dialog appears once, frames reach pe",
+     "x": false
+    },
+    {
+     "t": "Later, if the numbers ask for it: native Camera2 / AVFoundation capture into the",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
@@ -4224,5 +4239,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "7792b315f60b3a768b70d88720ec5ad525f7d33c"
+ "source_revision": "63fc5377b2660de2dc221a83e9c211bd733e9224"
 }
