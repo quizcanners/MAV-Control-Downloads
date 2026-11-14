@@ -713,25 +713,17 @@
     {
      "t": "Decisions waiting for quiz: CC-4C37-01 (USB inspector rebuilds labels each draw)",
      "x": false
+    },
+    {
+     "t": "Existing worker evidence and remaining checks retained in the [review report](..",
+     "x": false
+    },
+    {
+     "t": "REVIEW-501 CR-C88B-01: [P2 S1/S2 brief](../Reviews/1672e965b.md#cr-c88b-01--p2-r",
+     "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T07:27Z",
-     "text": "HEAVY Windows self-contained RoutingServer.Tests reproduced an intermittent sealed installer relay failure: the first bytes=0-0 request after a successful full GET received HTTP 429, empty body, Issue.Capacity (SealedInstallerChecks.cs:81; "
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T08:38Z",
-     "text": "HEAVY deleted 13 old downloads releases and their tags (2,094,535,990 bytes of listed assets). Only Brigade 68 Android Test 834 and routing-2570988631 remain. Downloads catalog commit 7e510c9d6d0879afa620768651c4427513d2f34d removes retired"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T08:42Z",
-     "text": "HEAVY refreshed the protected Galera catalog to qualified Brigade 68 Android Test 834. Backed up 808 catalog, restarted only mavcontrol-routing and moved the hash-matched unowned 808 staged payload outside staging after it caused HTTP 503. "
-    }
-   ]
+   "notes": []
   },
   {
    "n": 375,
@@ -776,7 +768,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "REVIEW",
+     "at": "2026-11-14T08:42Z",
+     "text": "REVIEW-501 CR-C88B-02: [P2 S1/S2 brief](../Reviews/1672e965b.md#cr-c88b-02--p2-a-skipped-ci-run-deletes-the-previous-result-without-uploading-a-replacement) ready for quiz. Always cleanup deletes prior CI artifacts when the guarded/output-d"
+    }
+   ]
   },
   {
    "n": 377,
@@ -1424,7 +1422,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-14T08:43Z",
+     "noted": "",
+     "progress": 14,
+     "ticked": 3,
+     "total": 22
+    }
+   ],
    "steps": [
     {
      "t": "Cloud, on main: startup cuts (Input, AgentChannel, DefaultPosition, Geoid, inset",
@@ -4179,5 +4186,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5164869fd5e8ba33c4ba3a97dafbd21ced57f5d2"
+ "source_revision": "126667c01bf1e5ed35cf1c116303efe1134609dc"
 }
