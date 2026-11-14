@@ -6682,14 +6682,20 @@
     {
      "who": "GETAC",
      "since": "2026-11-14T20:51Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-14T21:10Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T21:10Z",
+     "text": "4b23b0e71e adds timing rows for Destination Sync index/cleanup/hash and Noise IK decode/authorization/exchange/install/send. Roslyn no new errors on checked heads; 89 existing native-sodium host checks passed. Strong Dev 842 is the before-s"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6738,5 +6744,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e77c5d232a292f0d2b5e71557328041a09bc5231"
+ "source_revision": "05f25e324c195c61e661512e8194115abccb9fa1"
 }
