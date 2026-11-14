@@ -1194,7 +1194,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-14T11:29Z",
+     "text": "CR-1DEF-01 fixed in 112e80d08e (uncompiled): UpdateDrawingRenderOrder grows DrawingRenderOrder to _drawingStrokes.Count before the rebuild. Need for verify: draw 257+ dots from one author."
+    }
+   ]
   },
   {
    "n": 408,
@@ -5256,5 +5262,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0e8beec79fd1b9ba586909ab2ca3828336293ac1"
+ "source_revision": "a6b9b657939621136bb29082c84ac647b36189b3"
 }
