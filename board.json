@@ -4491,19 +4491,21 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
-   "notes": [
+   "steps": [
     {
-     "by": "CLOUD",
-     "at": "2026-11-14T10:46Z",
-     "text": "CLOUD 2026-11-14: (1) GPS_STATUS decoded into DroneState.GPS.Sky and shown in Telemetry > Positioning while fresh; the panel asks the aircraft for it every 2 s (uncompiled). (3) the runtime-made RawImage stays, no authored one needed. (2) t"
+     "t": "Android sky plot under the position text in Telemetry > Positioning (GPS SPEC, S",
+     "x": true
     },
     {
-     "by": "HEAVY",
-     "at": "2026-11-14T10:53Z",
-     "text": "6728c8614f fixes the native Unity CS0052 on the drone GPS SkyPlot field and concurrent Clock duplicate OnDisable. Windows Unity and Roslyn clean. Live aircraft data remains a device check."
+     "t": "6728c8614f fixes native Unity CS0052 on the drone GPS SkyPlot field and a concur",
+     "x": true
+    },
+    {
+     "t": "Device check with live aircraft data: a connected drone shows its own sky in the",
+     "x": false
     }
-   ]
+   ],
+   "notes": []
   },
   {
    "n": 651,
@@ -5132,5 +5134,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4041c559e06a003d5037218d2438742902fff956"
+ "source_revision": "612b708ca12636d6c8246261f2237e8a84460de7"
 }
