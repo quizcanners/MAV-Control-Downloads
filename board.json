@@ -160,7 +160,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T14:06Z",
-     "noted": "",
+     "noted": "2026-11-14T14:20Z",
      "progress": 56,
      "ticked": 5,
      "total": 9
@@ -211,14 +211,14 @@
      "text": "DJI Pilot 834 had 7.5 FPS and 835 measured 47.77 FPS, median 16.68 ms and worst 33.54 ms over 125 SurfaceFlinger presents with live video. Tablet dynamic resolution and battery checks remain on this goal."
     },
     {
-     "by": "HEAVY",
-     "at": "2026-11-14T14:05Z",
-     "text": "Windows production 839 from 2060cba719 includes 0d55b2e0ef. Verified 95-entry portable ZIP, BUILD_HISTORY aafac7aedb, C:/MavControlEvidence/Windows-363-839-20261114/. Existing 838 is still using the normal Windows profile. Once replaced in "
-    },
-    {
      "by": "CODEX_GRAPHICS",
      "at": "2026-11-14T14:18Z",
      "text": "Delivered iOS 839 from acdef44a49: Apple VALID, internal IN_BETA_TESTING, external review pending; record 27e0c6b906. Full All could not start (unfinished cached candidate). Newer main compile errors fixed upstream; 0bdfde31d5 keeps numeric"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-14T14:20Z",
+     "text": "Windows 839 started after 838 exited, but its production Debug Mode backdoor did not open. Isolated Windows Unity MapOnly with WakeRegister held 8 FPS/FrozenDouble in 72 samples and returned after scripted wheel zoom; 63/63 focused tests on"
     }
    ]
   },
@@ -5737,5 +5737,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "952d7ac6acd2d1eb26a9af5a544e1ad3bbcf6c58"
+ "source_revision": "7f468e439322b7b6706fe039cc303921d58559a1"
 }
