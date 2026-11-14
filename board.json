@@ -4576,7 +4576,7 @@
   },
   {
    "n": 651,
-   "name": "Compass star shows the Sun using",
+   "name": "Compass star shows the Sun direc",
    "done": "2026-11-14T10:40Z",
    "goal": false,
    "under": 407,
@@ -4587,15 +4587,11 @@
    "held": [],
    "steps": [
     {
-     "t": "5932d97618: both Navigation compass Images use Compass Star Sun, with opaque mat",
+     "t": "5932d97618: both Navigation compass Images use Compass Star Sun (UV1.xy local UV",
      "x": true
     },
     {
-     "t": "Sun variant uses three reads: sprite alpha, existing normal and shared blur. Rem",
-     "x": true
-    },
-    {
-     "t": "Native C# compile and Metal generic/Sun/pointer-ring shader variants pass. Five ",
+     "t": "2026-11-14: replaced the bump-texture variant of BlurDisplay Bumped (which read ",
      "x": true
     }
    ],
@@ -5645,5 +5641,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "af9069671be5db6acd2172c0be237f6882c7c39b"
+ "source_revision": "e523b73586802d3f96b03f96521aa61cb351c593"
 }
