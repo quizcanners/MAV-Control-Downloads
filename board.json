@@ -467,7 +467,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T11:17Z",
-     "noted": "2026-11-14T11:20Z",
+     "noted": "2026-11-14T11:44Z",
      "progress": 29,
      "ticked": 2,
      "total": 7
@@ -506,11 +506,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-14T02:12Z",
-     "text": "Android 833 (8a926446a6) complete failing-case roster, 20 red: BackgroundChatCheckpointTests.CanceledAndReadoptedSameTokenSurvivesAnOlderRootCompletion; BackgroundChatCheckpointTests.DetachedCapturedOwnerKeepsDirtyHistoryAndNativeAdmissions"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-14T06:16Z",
      "text": "GETAC Android Test handoff: signed Brigade 68 APK 834 from 9e4cb78c55, production ARM64 and exact Roslyn clean. Fixture repairs 2230c90d27, bed2e5490e and 3c99b4ecdd are on main. Native EditMode All at 3c99b4ecdd: 8534 passed, 0 failed, 8 s"
     },
@@ -518,6 +513,11 @@
      "by": "HEAVY",
      "at": "2026-11-14T11:20Z",
      "text": "HEAVY started fresh Windows Unity 6000.6.8f1 EditMode All on production source 1d1654e7fd (private candidate a68ce9e506134836bd9ad09c47bbac59). Native PID 31340 is importing. Roslyn NEW ERRORS: none. Monitor this run and retain XML/qualific"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-14T11:44Z",
+     "text": "Windows Unity 6000.6.8f1: initial EditMode All on 1d1654e7fd 8517 passed, 9 failed, 9 skipped (XML SHA256 414ABE8A0C6A499AEA1B83CE1C843B076A4C09FF1A6295908E79603667DC8E1E; candidate refused on generated metadata/material). R2 5a10876b6b: 85"
     }
    ]
   },
@@ -5297,5 +5297,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f6f5d5549a724f3bb0ff815fe7c5ada1689a79ee"
+ "source_revision": "2de6a5f36014d95c731e1b90f4116d6a072e8c5d"
 }
