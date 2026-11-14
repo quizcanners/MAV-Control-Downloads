@@ -4802,7 +4802,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-14T11:14Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 2
+    }
+   ],
    "steps": [
     {
      "t": "Editor machine: close Unity, delete Library/BurstCache (and Library/Bee if it pe",
@@ -5068,5 +5077,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "8bcc1e5aa624e82e6c68a9d9cdffe76ea8e03307"
+ "source_revision": "32a1ab52e28e9ded55836851008eb56ad75c62a7"
 }
