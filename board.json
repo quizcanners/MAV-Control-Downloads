@@ -463,7 +463,7 @@
     {
      "who": "CODEX_GRAPHICS",
      "since": "2026-11-14T14:25Z",
-     "noted": "",
+     "noted": "2026-11-14T14:49Z",
      "progress": 43,
      "ticked": 3,
      "total": 7
@@ -501,14 +501,14 @@
    ],
    "notes": [
     {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T13:16Z",
-     "text": "After iOS 838 delivery, the Mac Editor reopened at current main and Pipeline is ready; native C# and four Roslyn sets pass. Fresh Editor Console reports Unity.WebRTC EntryPointNotFoundException: RegisterDebugLog from WebRTC.InitializeIntern"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-14T14:43Z",
      "text": "Windows native EditMode All on 0a497df6ba: 8,548 passed, 0 failed, 9 skipped. Updated the stale updater catalog-error assertion (494a281451) and capsule face/edge pixel assertion (0a497df6ba). Roslyn NEW ERRORS: none. XML SHA-256 275FADA55B"
+    },
+    {
+     "by": "CODEX_GRAPHICS",
+     "at": "2026-11-14T14:49Z",
+     "text": "Published dbc1a92fae: fixed iOS-targeted Mac Editor WebRTC native binding; fresh launch, reload and Mac context checks pass. Four Roslyn configurations: NEW ERRORS: none (checker retried one internal exception). iOS 839 delivered separately"
     }
    ]
   },
@@ -5734,5 +5734,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "12c0bb09f7e74ce6e5733fffeb3c084b50573c1d"
+ "source_revision": "0c355c4cb3a1d3dc31fd58d65a06ce60f22f5b67"
 }
