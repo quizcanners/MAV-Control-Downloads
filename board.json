@@ -5262,12 +5262,25 @@
      "who": "cloud-thread",
      "since": "2026-11-14T12:59Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
+     "progress": 100,
+     "ticked": 3,
+     "total": 3
     }
    ],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Entered row shows ID and Name fields; edit saves and publishes to the catalog",
+     "x": true
+    },
+    {
+     "t": "Delete this radio (confirm) drops the saved record and its link",
+     "x": true
+    },
+    {
+     "t": "Area SPEC updated; page bumped for verify",
+     "x": true
+    }
+   ],
    "notes": []
   }
  ],
@@ -5317,5 +5330,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "fc900cbb1dc8ac6f2b46cfc931768b5483221f9b"
+ "source_revision": "679babde9d523df9e451ad7f11e2b9ec7b44bbf9"
 }
