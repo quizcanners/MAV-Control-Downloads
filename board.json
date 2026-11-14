@@ -160,7 +160,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T13:40Z",
-     "noted": "",
+     "noted": "2026-11-14T13:54Z",
      "progress": 56,
      "ticked": 5,
      "total": 9
@@ -211,14 +211,14 @@
      "text": "DJI Pilot 834 had 7.5 FPS and 835 measured 47.77 FPS, median 16.68 ms and worst 33.54 ms over 125 SurfaceFlinger presents with live video. Tablet dynamic resolution and battery checks remain on this goal."
     },
     {
-     "by": "HEAVY",
-     "at": "2026-11-14T13:36Z",
-     "text": "Windows production 838 built from a6d982d37c including ba5dd27e98. Live wheel input on the map: HalfMoving/URP 0.5 while moving, then Unscaled/URP 1.0 when motion stopped. Each return was seen at the next sample (~0.19 s polling). Private v"
-    },
-    {
      "by": "CODEX_GRAPHICS",
      "at": "2026-11-14T13:39Z",
      "text": "Done: 687 skips kept-picture decal setup; 688 skips repeated photo focus (0240e0cb5f, guide 1bfe735fd9; PR92 merge 6148872fc1)."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-14T13:54Z",
+     "text": "Windows build 838 input timer reset while map was static; focus also changed during the trace. 0d55b2e0ef filters tiny hover and adds NonInteracting, held input, last wake source/revision and focus counts to app.lifecycle. Windows focused E"
     }
    ]
   },
@@ -5654,5 +5654,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ba7ee5e0df48eb9f98b08913e0c3ca10e22b1e50"
+ "source_revision": "ec15b80e9a4cf25adec2b407b9d4e770d824a6cb"
 }
