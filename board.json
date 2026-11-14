@@ -882,14 +882,6 @@
    "flags": [],
    "held": [
     {
-     "who": "GETAC",
-     "since": "2026-11-14T13:07Z",
-     "noted": "",
-     "progress": 22,
-     "ticked": 2,
-     "total": 9
-    },
-    {
      "who": "HEAVY",
      "since": "2026-11-14T13:10Z",
      "noted": "2026-11-14T13:12Z",
@@ -938,14 +930,14 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-14T12:50Z",
-     "text": "GETAC after reconnect: Bluetooth PAN 192.168.11.2 reached its own gateway 192.168.11.1 on 3/3 source-bound echoes; MAV Control Windows 817 bound CAI 12 / UDP 41001 on interface 15. The explicit 13-candidate own-ID sweep returned NoEcho, ID "
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-14T13:12Z",
      "text": "VPN restored and Getac answered authenticated backdoor. Simultaneous listeners: HEAVY USB 7087565 confirmed, GETAC Bluetooth entered 7089031 still NoEcho; CAI 12/UDP 41001 and interface pins match. Fresh motorola.test each way: NoReply and "
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T13:20Z",
+     "text": "Paired over the authenticated MAV Control backdoor once VPN recovered. PASIKA USB confirmed its own 7087565 by a 2 ms echo. GETAC Bluetooth 7089031 was entered from the handset and its own-ID loopback returned NoEcho. Both used CAI 12/UDP 4"
     }
    ]
   },
@@ -5271,7 +5263,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T13:20Z",
+     "text": "The entered Known radios row supports editing ID and name and confirmed deletion. Follow-up 1163d50def remembers locally deleted IDs so catalog/VPN refresh and automatic discovery cannot resurrect old entries. Explicitly adding an ID restor"
+    }
+   ]
   },
   {
    "n": 685,
@@ -5361,5 +5359,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "be6a52a9e597e24591dad3582e1671c96d3c9361"
+ "source_revision": "13a1b60fd1cef42d8945b4c811153b21d4313217"
 }
