@@ -6365,8 +6365,8 @@
     },
     {
      "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T21:18Z",
-     "text": "CODEX_GRAPHICS holds task 753 under goal 363: Remote Sensors ground-request iteration in Alarm/Runtime/RemoteSenseRenderingSystem.cs. The same pass will cancel its owned ray ticket on coordinate replacement/removal/shutdown; current code ov"
+     "at": "2026-11-14T21:32Z",
+     "text": "Remote Sensors ticket teardown is published in 258abaf71c (task 753 done): coordinate replacement, removal, render-asset rebuild and shutdown cancel owned batched-ray tickets. Native 21/21 covers queued, in-flight and completed answers plus"
     }
    ]
   },
@@ -6786,5 +6786,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "024e9aff4b33ed99a8e8fa178308374ab84ec237"
+ "source_revision": "6cd1bc7619d6f66a2560ef4f0070215daa411bb6"
 }
