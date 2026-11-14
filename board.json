@@ -960,9 +960,9 @@
      "who": "CODEX_GRAPHICS",
      "since": "2026-11-14T09:01Z",
      "noted": "",
-     "progress": 20,
-     "ticked": 2,
-     "total": 10
+     "progress": 33,
+     "ticked": 4,
+     "total": 12
     }
    ],
    "steps": [
@@ -972,6 +972,14 @@
     },
     {
      "t": "Code on main: High/Low Planet Element quality, shader cleanup and Situation cell",
+     "x": true
+    },
+    {
+     "t": "CODEX_GRAPHICS d0f21a3474: water sky follows Day/Night in the existing texture f",
+     "x": true
+    },
+    {
+     "t": "Planet Diagnostics summary/details and snapshot refresh are on main (f27305bfdc,",
      "x": true
     },
     {
@@ -999,7 +1007,7 @@
      "x": false
     },
     {
-     "t": "Cloud (C#, Editor look): quiz's 2026-11-13 items: night water reflects a brighti",
+     "t": "Cloud (C#, Editor look): quiz's 2026-11-13 items: the three-buttons hint in Spac",
      "x": false
     },
     {
@@ -1007,23 +1015,7 @@
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T21:51Z",
-     "text": "Planet Renderer Diagnostics now leads with current renderer/terrain condition and actionable errors; technical controls are under Technical details, and Copy report retains raw mask, imagery and SQLite details (f27305bfdc). Technical measur"
-    },
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T22:02Z",
-     "text": "Discarded a proposed Diagnostics navigation change after the Editor showed it did not remove the ancestor header; current behavior remains at fd5c831d06. The extra Map header remains an Inspector navigation issue, not proven to be caused by"
-    },
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T22:09Z",
-     "text": "Follow-up to my 22:02 note: the extra Map header was traced to empty unkeyed Inspector navigation keys and fixed in 327028dc58. Lighting was seen with only its own header; PegiNavigationTests passed 9/9. Planet Diagnostics itself still need"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 382,
@@ -4194,5 +4186,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "9c3875227f8e321d51df6126ca09d395bf6c98f8"
+ "source_revision": "c0334ad9776e09e26d8ea33f446e6097ecd57aa3"
 }
