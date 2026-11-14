@@ -1385,10 +1385,10 @@
     {
      "who": "GETAC",
      "since": "2026-11-13T23:06Z",
-     "noted": "",
-     "progress": 15,
+     "noted": "2026-11-14T00:36Z",
+     "progress": 14,
      "ticked": 3,
-     "total": 20
+     "total": 22
     }
    ],
    "steps": [
@@ -1471,13 +1471,21 @@
     {
      "t": "quiz's word needed first: record which features and layers are On or Off beside ",
      "x": false
+    },
+    {
+     "t": "REVIEW-492 CC-4F1B-01: [P3 S1/S2 brief](../Reviews/841498f7b.md#cc-4f1b-01--p3-p",
+     "x": false
+    },
+    {
+     "t": "Getac: the sender source now traces view revision/demand (197fa9e623) and retain",
+     "x": false
     }
    ],
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-13T23:04Z",
-     "text": "GETAC 197fa9e623, Windows 817 sender: 479 new previews across two streams during a 30 s snapshot wait, 125 index pages read and 141 released, neither stream finished another scan. Source and the existing test confirm page release discards o"
+     "at": "2026-11-14T00:36Z",
+     "text": "GETAC: fixed Web Mercator index release dropping the live branch of an unserved outbound read (4f1bd5d903). Windows 817 measured 1,123 preview offers and 219 reads / 213 releases in a 60 s sample. Focused native EditMode passed 143/143 on t"
     }
    ]
   },
@@ -3920,5 +3928,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "841498f7bc5b09ce264ca157c11537f73720ade2"
+ "source_revision": "4f4aa7040a6798ba78c14ea755183d0920f93d83"
 }
