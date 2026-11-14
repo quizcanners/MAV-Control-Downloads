@@ -2329,7 +2329,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T20:20Z",
-     "noted": "",
+     "noted": "2026-11-14T20:28Z",
      "progress": 60,
      "ticked": 3,
      "total": 5
@@ -2359,14 +2359,14 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-14T17:15Z",
-     "text": "6a03269ec7 renames Texture Alignment Sliders with its .meta, fixes the Map Editor prefab class identifier and preserves the serialized slider reference with FormerlySerializedAs. Windows Roslyn clean. Compass and ground tilt changes are alr"
-    },
-    {
      "by": "CLOUD_REFACTOR",
      "at": "2026-11-14T18:45Z",
      "text": "CLOUD_REFACTOR 2026-11-14: SubmitError chain shortened in 3 files; compile unchecked, needs cmp.sh"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-14T20:28Z",
+     "text": "9ff5a6caab renames UdpReceiver in callers and saved settings, preserves UdpReciever through Unity serialization and a checkpoint migration, and adds coverage for mixed keys and round-trip. Unity compiled and the existing checkpoint booted w"
     }
    ]
   },
@@ -6657,5 +6657,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e63a0f1670801cdf97f7f56cf973af1ea922056b"
+ "source_revision": "8e14f401219b187cc65a855d11073ab713b21c80"
 }
