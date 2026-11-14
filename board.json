@@ -2681,7 +2681,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T16:33Z",
-     "noted": "",
+     "noted": "2026-11-14T16:41Z",
      "progress": 50,
      "ticked": 1,
      "total": 2
@@ -2697,7 +2697,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-14T16:41Z",
+     "text": "04be079a12 adds three regressions for JoinedVpns.Adopt: blank/different incoming server retains held address, both keys and deployer while taking newer metadata; an initially missing server is supplied. Three passed using production C# in a"
+    }
+   ]
   },
   {
    "n": 561,
@@ -5977,5 +5983,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5f51435ab66870d21b815c1f8012d74478e3fa9c"
+ "source_revision": "fe40d19db653902b57e8acb2735ed60eb1436196"
 }
