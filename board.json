@@ -1240,7 +1240,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T21:16Z",
-     "noted": "",
+     "noted": "2026-11-14T21:21Z",
      "progress": 57,
      "ticked": 4,
      "total": 7
@@ -1276,7 +1276,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-14T21:21Z",
+     "text": "c078abd909 fixes the Left Lists exception when Main UI is disabled after Bootstrap: teardown restores the presentation without reading layout and releases the last scope's cached controls. Windows Play script reload and exit had no recurren"
+    }
+   ]
   },
   {
    "n": 409,
@@ -6783,5 +6789,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "536fc2b65361b9b8b6b415c56e4ef1d556501c8d"
+ "source_revision": "4b744c3b7275fa05076af4b68daf2299beb6f2c7"
 }
