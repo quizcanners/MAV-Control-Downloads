@@ -1471,7 +1471,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-14T17:59Z",
-     "noted": "",
+     "noted": "2026-11-14T18:04Z",
      "progress": 22,
      "ticked": 2,
      "total": 9
@@ -1522,14 +1522,14 @@
      "text": "Done: d9770f2629 Long Press Wave; 89fdd37b69 Training bullet core and sky. Tasks 710/712 complete."
     },
     {
-     "by": "GETAC",
-     "at": "2026-11-14T17:53Z",
-     "text": "Strong Dev 840: three 116 ms zoom gaps each crossed three script updates (longest 21.3 ms, at least 98.5% on-core). Android present fences 106-108 ms and buffer queue/dequeue calls under 0.7 ms."
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-14T17:55Z",
      "text": "Windows Play on source containing 45450060da: Shared Text Preparation reads Place Labels 0.011 ms self, Text End 0.003 ms, Visibility 0.002 ms (rolling managed tree). At 8 FPS with 85 visible labels, 12/12 idle samples reported zero layouts"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T18:04Z",
+     "text": "Strong 840: 3 zoom gaps of 116-117 ms split into 71-74 ms before ready and 42-47 ms after ready. Two ~100 ms gaps had only 2-6 ms after ready."
     }
    ]
   },
@@ -6276,5 +6276,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "dd4464e678eb8eb8d778e42301b6d72881f2752b"
+ "source_revision": "41564a015b82ee0590750d7a0fea6460ccf463d8"
 }
