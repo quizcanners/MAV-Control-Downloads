@@ -1150,23 +1150,23 @@
    "held": [],
    "steps": [
     {
-     "t": "One swipeable root on main: Lists Root (300 wide, pivot x 0, left, under the tab",
+     "t": "One swipeable root on main: Lists Root (300 wide, pivot x 0) holds the lists wit",
      "x": true
     },
     {
-     "t": "Paint (B_Painting, own Canvas order 2) draws above lists and tabs; vertical tab ",
+     "t": "Paint (B_Painting, Canvas order 2) draws above lists and tabs (6f61a23253); all ",
      "x": true
     },
     {
-     "t": "Flick code on main (532aa7fd): panel follows the finger from the press; speed ov",
+     "t": "Flick (532aa7fd): leftward 500 units/s closes, else place plus 0.15 s travel pas",
      "x": true
     },
     {
-     "t": "Swipe and tongue close use the open tab's sound and haptic; duplicate close requ",
+     "t": "Tabs: selected uses the list panel tint and side lines, unselected untinted blur",
      "x": true
     },
     {
-     "t": "Mac with a finger on a device (iPhone or iPad on the cable, or a hand on the mou",
+     "t": "Mac with a finger on a device (iPhone/iPad on the cable, or a hand on the mouse)",
      "x": false
     },
     {
@@ -1174,39 +1174,11 @@
      "x": false
     },
     {
-     "t": "Mac, by hand: pointed state on an unselected Scene row with the pointer resting ",
-     "x": false
-    },
-    {
      "t": "Cloud/quiz: REVIEW-456-CR-532A-01 P2, a keep-open release keeps the previous clo",
      "x": false
-    },
-    {
-     "t": "Interacting tabs: selected uses the list panel tint and side lines; unselected u",
-     "x": true
-    },
-    {
-     "t": "Vertical tabs: light shared blur, unselected backgrounds hidden during interacti",
-     "x": true
     }
    ],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-14T09:33Z",
-     "text": "f06ee84fb0: left-list tongue has an expanded invisible touch area, tap/drag routing, and stays above lists attached later. Editor raycasts hit the handle across center and edges; fixture invoked in Editor passed; Roslyn NEW ERRORS: none. Te"
-    },
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-14T09:44Z",
-     "text": "99bafac7fe: left list keeps full opacity throughout drag, flick, slide-in and slide-out; it is hidden only when off-screen. Unity compilation and Roslyn NEW ERRORS: none; device appearance not checked."
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-14T10:26Z",
-     "text": "317c3056f2: selected Left List tab hides its text in Non-Interacting; icon, colour, badge, layout and hit area still apply. Interaction restores the caption. Focused EditMode passed; Roslyn NEW ERRORS: none. Main/Map visual check queued."
-    }
-   ]
+   "notes": []
   },
   {
    "n": 409,
@@ -5275,5 +5247,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "114d194bee882f6ce871f58201defe92f1f0ddd9"
+ "source_revision": "3d1ef0bbe9c0708f8cb71b2a7f909746c0979365"
 }
