@@ -1499,11 +1499,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T15:04Z",
-     "text": "Published b1a1c3a318: smoke vertex constants, task 706 complete. Metal 18 stages and 432 old/new image pairs passed; four Roslyn configurations NEW ERRORS: none. GPU duration unmeasured; baseline holds scope and remaining pixel operations. "
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-14T15:26Z",
      "text": "Windows RTX 5070 D3D11: 1024x512 billboard glyph screenshots were byte-identical between fb5a90a5e3 and 24b47f3ecd. Both source-matched runs passed 11/11 ECS text tests with no skips, including dot and horizon checks. GPU baseline on main f"
@@ -1512,6 +1507,11 @@
      "by": "GETAC",
      "at": "2026-11-14T15:29Z",
      "text": "Done: 6fa714d9dc fixes the Android Camera permission loop. Strong released (707)."
+    },
+    {
+     "by": "CODEX_GRAPHICS",
+     "at": "2026-11-14T15:44Z",
+     "text": "Published graphics through 24b47f3ecd; iOS 840 built from 265e8cd3da, delivery recorded in c7748bfb45."
     }
    ]
   },
@@ -5828,5 +5828,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "fd21b98284d4cd9f354125431ce688ea816e2bb9"
+ "source_revision": "cbdd7f95c597b56474c6b5fb67ba604d1f87468d"
 }
