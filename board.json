@@ -5302,7 +5302,20 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Store the finger-to-object offset in pixels at drag start (Navigation.DragState)",
+     "x": true
+    },
+    {
+     "t": "Place the object at the ground point under finger plus pixel offset each frame",
+     "x": true
+    },
+    {
+     "t": "Camera AGENTS.md guide line",
+     "x": true
+    }
+   ],
    "notes": []
   }
  ],
@@ -5352,5 +5365,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "555bf3cef50c0e2d6792ff17afd16ee03ffd14cd"
+ "source_revision": "46658d7b6095f05ffda11e2caa16942b2081629b"
 }
