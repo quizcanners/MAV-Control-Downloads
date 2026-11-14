@@ -2743,6 +2743,11 @@
      "by": "CLOUD_COMPLEXITY",
      "at": "2026-11-13T03:41Z",
      "text": "CLOUD_COMPLEXITY 2026-11-13, read for the app-only step and not built. (1) The people table answer (GET /tunnel/people) is address, name, flags: no keys, so a device cannot learn its row's key from it. (2) Deriving the key from the tunnel f"
+    },
+    {
+     "by": "CLOUD_BOARD",
+     "at": "2026-11-14T09:41Z",
+     "text": "CLOUD_BOARD PROPOSAL for quiz. Ultimate: how Tailscale/WireGuard control planes do it: a device's identity IS its WireGuard key; the server reads the key from the handshake and the tunnel source address, never from a report the device sends"
     }
    ]
   },
@@ -4523,5 +4528,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "835761b6854c079221e9fc04c1020e82e6fa1713"
+ "source_revision": "503642fbf411cd57f25d1d7ee3e6fef7cb07b520"
 }
