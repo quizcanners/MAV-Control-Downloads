@@ -1645,19 +1645,11 @@
    "held": [],
    "steps": [
     {
-     "t": "Done on main: model size is IconWidths (0.67) icon widths on each row in Map.uni",
+     "t": "On main: model size is IconWidths (0.67) on each row in Map.unity, flat one-colo",
      "x": true
     },
     {
-     "t": "HEAVY (Windows Editor) fitted the three boxes with models moved onto terrain: En",
-     "x": true
-    },
-    {
-     "t": "ROG_FABLE (1d4adbf91b): the box draw in GroupPass now uses one DrawMesh per box ",
-     "x": true
-    },
-    {
-     "t": "Rog/Windows Editor: with the real Decal Like Shadow at 1d4adbf91b the box region",
+     "t": "Shadow decal proven: per-box DrawMesh in GroupPass (1d4adbf91b); on the Rog (mai",
      "x": true
     },
     {
@@ -1665,30 +1657,15 @@
      "x": false
     },
     {
-     "t": "Device build: the same on a phone and a tablet, with the frame time while zoomin",
+     "t": "Device build: the same on a phone and a tablet, with frame time while zooming (R",
      "x": false
     },
     {
      "t": "Cloud (if quiz wants it): icon fallback above the 100 km cutoff; model body hits",
      "x": false
-    },
-    {
-     "t": "Cloud: Anchors count in the ECS manager Inspector with Synthetic Situation on (g",
-     "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-13T20:14Z",
-     "text": "ROG_FABLE 479, decal half: scene depth and UNITY_MATRIX_I_VP are right inside GroupPass, so that suspect is out. Debug shader on Decal Like Shadow.mat (same Universal Forward slot, Cull Front, ZTest Always) rebuilt the world point exactly a"
-    },
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-13T22:04Z",
-     "text": "ROG_FABLE 479, decal half closed: the real Decal Like Shadow darkens the model and the ground around it in GroupPass on the Rog (Windows Editor D3D11, main f27305bfdc with 1d4adbf91b's per-box DrawMesh, nothing changed in the shadow). How: "
-    }
-   ]
+   "notes": []
   },
   {
    "n": 480,
@@ -5142,5 +5119,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f721fa8ed4f2160befc58406f18c589e9f6ece8d"
+ "source_revision": "15cdbdcb9b1d27a1da9ec0991311b01cedae5bab"
 }
