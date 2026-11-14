@@ -1183,7 +1183,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MAC_UI",
+     "since": "2026-11-14T09:37Z",
+     "noted": "",
+     "progress": 60,
+     "ticked": 6,
+     "total": 10
+    }
+   ],
    "steps": [
     {
      "t": "One swipeable root on main: Lists Root (300 wide, pivot x 0, left, under the tab",
@@ -2754,6 +2763,11 @@
      "by": "CLOUD_BOARD",
      "at": "2026-11-14T09:36Z",
      "text": "CLOUD_BOARD 2026-11-14: first step of the one tombstone rule landed uncompiled: Systems/Data Sync/TombstoneRule.cs holds the cap 512, horizon (Extent), HorizonApplies, TooOldBefore, IsNewerThanAllHeld and KnowledgeFromAfterGap; Situation (S"
+    },
+    {
+     "by": "CLOUD_BOARD",
+     "at": "2026-11-14T09:38Z",
+     "text": "CLOUD_BOARD 2026-11-14: Planet masks and Place Labels now call TombstoneRule (Planet masks' gap rule is the newest held deletion, no longer 'now'; Place Labels still has no saved knowledge-from); the one rule is in Data Sync SPEC (Horizon a"
     }
    ]
   },
@@ -4487,5 +4501,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "7cb65cd8dc5767e5f09d799ea4b831e8ec9c92ed"
+ "source_revision": "6030ef5b1fd75b261f01703b00049ed3546d89a1"
 }
