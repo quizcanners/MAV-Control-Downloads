@@ -2536,19 +2536,25 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
-   "notes": [
+   "steps": [
     {
-     "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-13T03:41Z",
-     "text": "CLOUD_COMPLEXITY 2026-11-13, read for the app-only step and not built. (1) The people table answer (GET /tunnel/people) is address, name, flags: no keys, so a device cannot learn its row's key from it. (2) Deriving the key from the tunnel f"
+     "t": "Cause read in code (CLOUD_COMPLEXITY, not run on devices): a named Admin's app r",
+     "x": true
     },
     {
-     "by": "CLOUD_BOARD",
-     "at": "2026-11-14T09:41Z",
-     "text": "CLOUD_BOARD PROPOSAL for quiz. Ultimate: how Tailscale/WireGuard control planes do it: a device's identity IS its WireGuard key; the server reads the key from the handshake and the tunnel source address, never from a report the device sends"
+     "t": "CLOUD_BOARD proposal (Tailscale/WireGuard style: identity is the WireGuard key r",
+     "x": true
+    },
+    {
+     "t": "quiz: A or B?",
+     "x": false
+    },
+    {
+     "t": "Cloud C#: build the chosen one (server half and MavServer release); app-only ste",
+     "x": false
     }
-   ]
+   ],
+   "notes": []
   },
   {
    "n": 559,
@@ -5119,5 +5125,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "15cdbdcb9b1d27a1da9ec0991311b01cedae5bab"
+ "source_revision": "0928636e7f6664d6809b3e0d79026668af885e0e"
 }
