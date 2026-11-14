@@ -5446,18 +5446,25 @@
   },
   {
    "n": 694,
-   "name": "x",
+   "name": "Settings > Screen > View groups ",
    "done": "",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
-   "flags": [
-    "vague"
-   ],
+   "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Move the three toggles under View",
+     "x": true
+    },
+    {
+     "t": "UI SPEC line updated",
+     "x": true
+    }
+   ],
    "notes": []
   }
  ],
@@ -5507,5 +5514,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "9d4e190fb996dd5b282404328f3a170f3a00e075"
+ "source_revision": "3d76f3b4aefbafdec9e2dd57469969481f1b5dcd"
 }
