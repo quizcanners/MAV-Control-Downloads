@@ -899,7 +899,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-14T10:33Z",
-     "noted": "2026-11-14T10:45Z",
+     "noted": "2026-11-14T10:50Z",
      "progress": 22,
      "ticked": 2,
      "total": 9
@@ -953,11 +953,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-14T10:45Z",
-     "text": "Paired attempt 2026-11-14: Pasika/HEAVY app 835 USB gateway 3/3, entered 6089031 unconfirmed, directed to saved 6087565 no raw reply or ACK. Getac 817 Bluetooth gateway 2/2, current ID unconfirmed after 12-candidate sweep, directed to enter"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-14T10:45Z",
      "text": "Coordinated retry while both listeners were up: HEAVY USB and Getac Bluetooth each reached its gateway, but neither side confirmed its own Radio ID. Directed 6087565 and reverse 6089031: zero inbound, no raw reply or heartbeat ACK. HEAVY st"
@@ -966,6 +961,11 @@
      "by": "HEAVY",
      "at": "2026-11-14T10:47Z",
      "text": "quiz supplied 7087565 as likely HEAVY Radio ID. HEAVY is reopening MAV Control and will test it as the local candidate. GETAC: once listening, direct one test to 7087565; please report the current Getac candidate and result here."
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T10:50Z",
+     "text": "GETAC second directed trial to the new Pasika candidate 7087565, CAI 12 / UDP 41001, 10:49:09Z. NoReply, zero inbound, no raw response or heartbeat ACK; Getac's own current Radio ID is still unconfirmed. Temporary configured route removed. "
     }
    ]
   },
@@ -4980,5 +4980,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d7ffcbd74af82263bd76a6d5ac9df60388581c3d"
+ "source_revision": "bad78747225150db12ada91f3493b48910963481"
 }
