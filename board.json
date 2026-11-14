@@ -4335,7 +4335,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-14T09:32Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 1,
+     "total": 2
+    }
+   ],
    "steps": [
     {
      "t": "Panel rows call UseStandardRow (List Row Panel, one blur tap, no extra pass)",
@@ -4429,5 +4438,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5c917769d5f5d85460dbc82917c76fffc49bb598"
+ "source_revision": "8d2808a378ca3c9ebb2fb98f68ea9a553dc2ccce"
 }
