@@ -5855,14 +5855,20 @@
     {
      "who": "CODEX_GRAPHICS",
      "since": "2026-11-14T15:54Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-14T16:09Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_GRAPHICS",
+     "at": "2026-11-14T16:09Z",
+     "text": "Published 89fdd37b69: BulletDimensions.w supplies inverse core width; retained Metal depth branch skips reconstruction and both terrain distances on sky. Training SPEC and shader/GPU baselines updated. Metal/GLES 12 stages and 432 native re"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5911,5 +5917,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b0bbddeb3a78d36568aa10a91e11ef60fefd6921"
+ "source_revision": "3d729deefb7d2d06b1ddf3f497075b0caf4ae110"
 }
