@@ -6507,14 +6507,20 @@
     {
      "who": "GETAC",
      "since": "2026-11-14T19:11Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-14T19:20Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T19:20Z",
+     "text": "94538e3338 adds allocation-free-after-first-use GPU result history by source frame. Host controls cover 256-sample eviction, delayed/out-of-order completion, output bound, no per-result allocation and disposal; cmp.sh NEW ERRORS: none. Andr"
+    }
+   ]
   },
   {
    "n": 745,
@@ -6586,5 +6592,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "053754df88fe4fa24984d1ed56d1cf7eba17f1de"
+ "source_revision": "9a49ae3f9e59459d9c180ab7558ccf362b62ce7a"
 }
