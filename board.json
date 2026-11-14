@@ -6941,14 +6941,20 @@
     {
      "who": "CODEX_GRAPHICS",
      "since": "2026-11-14T22:53Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-14T23:02Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_GRAPHICS",
+     "at": "2026-11-14T23:02Z",
+     "text": "Published drone rotation wake fix: the camera now exposes authored world-layer intent while FrozenDouble temporarily draws only UI. Direct cause was testing that temporary mask; deeper reason was conflating draw culling with motion visibili"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6997,5 +7003,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b89b2e269e06667f74d8924288ff2151298515e6"
+ "source_revision": "a66801c32635501a9b8dbdbd7587305bb67a2bb7"
 }
