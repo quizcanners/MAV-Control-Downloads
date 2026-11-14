@@ -4358,7 +4358,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T09:32Z",
-     "noted": "",
+     "noted": "2026-11-14T09:38Z",
      "progress": 50,
      "ticked": 1,
      "total": 2
@@ -4392,6 +4392,11 @@
      "by": "CODEX_GRAPHICS",
      "at": "2026-11-14T09:37Z",
      "text": "CODEX_GRAPHICS is fixing the merged-source CS1061 in UI_MergedReadout: UseStandardPanel belongs on BodyTintComposite, where readouts and notification bodies own their material. No prefab changes; HEAVY retains the telemetry asset work. Nati"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-14T09:38Z",
+     "text": "The UI_MergedReadout CS1061 is fixed on main (7837f78a1a): shared panel selection belongs to BodyTintComposite. Unity opened and Roslyn passed. Video tab was unavailable in this Editor session, so Strip and old overlay visual checks stay wi"
     }
    ]
   },
@@ -4498,5 +4503,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "94c812c3be9181ff9a58b91cb0a33b48ae4cd651"
+ "source_revision": "62d11cba6c3fbb84725150d0cde77a60bdaf99b2"
 }
