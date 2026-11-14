@@ -105,7 +105,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-14T08:19Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 4,
+     "total": 8
+    }
+   ],
    "steps": [
     {
      "t": "Code on main: the Map scene is the only request until its camera exists; Main UI",
@@ -4165,5 +4174,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c0214afc41fd1b940b6c4696918ba45e1f62c233"
+ "source_revision": "4d9aebc55c361afccbdc3aec39bc15ab86497861"
 }
