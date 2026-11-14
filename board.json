@@ -762,7 +762,24 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLOUD_375_RESERVATION",
+     "since": "2026-11-14T10:18Z",
+     "noted": "2026-11-14T10:18Z",
+     "progress": 43,
+     "ticked": 3,
+     "total": 7
+    },
+    {
+     "who": "CLOUD_COMPILE_SDK",
+     "since": "2026-11-14T10:20Z",
+     "noted": "",
+     "progress": 43,
+     "ticked": 3,
+     "total": 7
+    }
+   ],
    "steps": [
     {
      "t": "Windows runner host harness restored (27f57e05ab); configured Unity light host 2",
@@ -798,6 +815,11 @@
      "by": "REVIEW",
      "at": "2026-11-14T08:42Z",
      "text": "REVIEW-501 CR-C88B-02: [P2 S1/S2 brief](../Reviews/1672e965b.md#cr-c88b-02--p2-a-skipped-ci-run-deletes-the-previous-result-without-uploading-a-replacement) ready for quiz. Always cleanup deletes prior CI artifacts when the guarded/output-d"
+    },
+    {
+     "by": "CLOUD_375_RESERVATION",
+     "at": "2026-11-14T10:18Z",
+     "text": "Cloud source lane only: reserve daily build numbers on main before choosing the immutable build source in Tools/Nightly; focused host controls. Windows runner, artifact cleanup, installer and publication remain with HEAVY. No build dispatch"
     }
    ]
   },
@@ -4785,6 +4807,34 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 652,
+   "name": "Segmented selector thumb",
+   "done": "2026-11-14T10:17Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 653,
+   "name": "Waypoint groups list",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -4833,5 +4883,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "aed191a1af949b94957b5cf5f985a422c473dfce"
+ "source_revision": "38ce850bf8c6d917f446556df54cdad9cdce2430"
 }
