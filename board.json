@@ -202,14 +202,14 @@
      "text": "DJI Pilot 834 had 7.5 FPS and 835 measured 47.77 FPS, median 16.68 ms and worst 33.54 ms over 125 SurfaceFlinger presents with live video. Tablet dynamic resolution and battery checks remain on this goal."
     },
     {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T13:39Z",
-     "text": "Done: 687 skips kept-picture decal setup; 688 skips repeated photo focus (0240e0cb5f, guide 1bfe735fd9; PR92 merge 6148872fc1)."
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-14T13:54Z",
      "text": "Windows build 838 input timer reset while map was static; focus also changed during the trace. 0d55b2e0ef filters tiny hover and adds NonInteracting, held input, last wake source/revision and focus counts to app.lifecycle. Windows focused E"
+    },
+    {
+     "by": "CODEX_GRAPHICS",
+     "at": "2026-11-14T13:55Z",
+     "text": "Mac disposable MapOnly run: 8 FPS idle, 2x capture 5012x3140, FrozenDouble resumed after 1.22-1.25 s following Sun changes, refresh 2.00-2.125 s. Evidence Builds/PerformanceEvidence/MapRender-363-20261114-Live. Synthetic/settings checks unf"
     }
    ]
   },
@@ -5641,5 +5641,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e523b73586802d3f96b03f96521aa61cb351c593"
+ "source_revision": "f0d3df09cd0aceb62b9c24979d195d55b9ee44ea"
 }
