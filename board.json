@@ -4854,14 +4854,20 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T11:12Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-14T11:14Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-14T11:14Z",
+     "text": "Reviewed the shared Exclusive Selector prefab and Settings host. App updates is drawn inside a PEGI scroll view; there is no uGUI slot to wire. The host needs to reserve the row on Layout, position and clip a selector instance from the row "
+    }
+   ]
   },
   {
    "n": 659,
@@ -5000,6 +5006,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 665,
+   "name": "Main view zoom scroller",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-14T11:13Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5048,5 +5077,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1e0ef394b87ae27419c53e655961cc98d6abe606"
+ "source_revision": "864a86d41e5a4cfbbd003d26bfc20ec19c8aa842"
 }
