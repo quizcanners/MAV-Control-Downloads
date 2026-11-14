@@ -1213,7 +1213,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-14T10:11Z",
-     "noted": "",
+     "noted": "2026-11-14T10:26Z",
      "progress": 60,
      "ticked": 6,
      "total": 10
@@ -1271,6 +1271,11 @@
      "by": "CODEX_MAC_UI",
      "at": "2026-11-14T09:44Z",
      "text": "99bafac7fe: left list keeps full opacity throughout drag, flick, slide-in and slide-out; it is hidden only when off-screen. Unity compilation and Roslyn NEW ERRORS: none; device appearance not checked."
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T10:26Z",
+     "text": "317c3056f2: selected Left List tab hides its text in Non-Interacting; icon, colour, badge, layout and hit area still apply. Interaction restores the caption. Focused EditMode passed; Roslyn NEW ERRORS: none. Main/Map visual check queued."
     }
    ]
   },
@@ -4894,5 +4899,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0bf3767746c18b22174194670ca59552f3c3c46e"
+ "source_revision": "d00c10c77a20f59a3b639134972a779c7e55a2fc"
 }
