@@ -5774,14 +5774,20 @@
     {
      "who": "CODEX_GRAPHICS",
      "since": "2026-11-14T15:08Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-14T15:17Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_GRAPHICS",
+     "at": "2026-11-14T15:17Z",
+     "text": "Published 24b47f3ecd: ECS text underlay UV is prepared at vertices, removing six scalar pixel operations in exchange for two interpolated UV components. Samples/branches retained. Metal 450 comparison pairs passed below one byte step, dots "
+    }
+   ]
   }
  ],
  "verify": [
@@ -5830,5 +5836,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "efb325c2d3662398ba607ab8ed9a1a7643789bff"
+ "source_revision": "671e3e810a6c34962a95b39c3ef151ddd98e44ba"
 }
