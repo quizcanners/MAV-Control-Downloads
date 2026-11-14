@@ -160,7 +160,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T13:56Z",
-     "noted": "",
+     "noted": "2026-11-14T14:05Z",
      "progress": 56,
      "ticked": 5,
      "total": 9
@@ -211,14 +211,14 @@
      "text": "DJI Pilot 834 had 7.5 FPS and 835 measured 47.77 FPS, median 16.68 ms and worst 33.54 ms over 125 SurfaceFlinger presents with live video. Tablet dynamic resolution and battery checks remain on this goal."
     },
     {
-     "by": "HEAVY",
-     "at": "2026-11-14T13:54Z",
-     "text": "Windows build 838 input timer reset while map was static; focus also changed during the trace. 0d55b2e0ef filters tiny hover and adds NonInteracting, held input, last wake source/revision and focus counts to app.lifecycle. Windows focused E"
-    },
-    {
      "by": "CODEX_GRAPHICS",
      "at": "2026-11-14T13:55Z",
      "text": "Mac disposable MapOnly run: 8 FPS idle, 2x capture 5012x3140, FrozenDouble resumed after 1.22-1.25 s following Sun changes, refresh 2.00-2.125 s. Evidence Builds/PerformanceEvidence/MapRender-363-20261114-Live. Synthetic/settings checks unf"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-14T14:05Z",
+     "text": "Windows production 839 from 2060cba719 includes 0d55b2e0ef. Verified 95-entry portable ZIP, BUILD_HISTORY aafac7aedb, C:/MavControlEvidence/Windows-363-839-20261114/. Existing 838 is still using the normal Windows profile. Once replaced in "
     }
    ]
   },
@@ -5677,5 +5677,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b2b6906c652e5f095d30f3f5c46d3ac6a46f1a13"
+ "source_revision": "c7c552b2bfb6c27e6223197362fb4ad0f990be8d"
 }
