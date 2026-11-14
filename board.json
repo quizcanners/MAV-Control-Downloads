@@ -301,7 +301,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T09:43Z",
-     "noted": "",
+     "noted": "2026-11-14T09:48Z",
      "progress": 33,
      "ticked": 2,
      "total": 6
@@ -333,7 +333,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-14T09:48Z",
+     "text": "Windows compile caught PlanetMaskStore.cs:1116 CS0103 after task 559. fe25524f05 uses the shared held extent for the same strict timestamp comparison. Unity compiled and entered Play, Roslyn NEW ERRORS: none. Tombstone fixture rerun remains"
+    }
+   ]
   },
   {
    "n": 367,
@@ -4610,5 +4616,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "50be7e66bea806daaf3a56b738c3cb94f1f14767"
+ "source_revision": "9e59bc33cb825b79cb8da36761c2b13307e9e337"
 }
