@@ -3532,7 +3532,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-14T16:06Z",
+     "noted": "",
+     "progress": 25,
+     "ticked": 1,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "On main: early break for VPN down in Peer.CanUseSyncConnection (a1614a81); Diagn",
@@ -5902,5 +5911,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ab4cc473f3fd1e8adddb36e17e86d5b44301dbb4"
+ "source_revision": "b0bbddeb3a78d36568aa10a91e11ef60fefd6921"
 }
