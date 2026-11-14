@@ -4798,7 +4798,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-14T11:16Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -4807,15 +4809,15 @@
      "who": "HEAVY",
      "since": "2026-11-14T11:14Z",
      "noted": "2026-11-14T11:16Z",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 50,
+     "ticked": 1,
      "total": 2
     }
    ],
    "steps": [
     {
      "t": "Editor machine: close Unity, delete Library/BurstCache (and Library/Bee if it pe",
-     "x": false
+     "x": true
     },
     {
      "t": "If the warning still shows after that, note it here with the Unity and Burst pac",
@@ -5129,5 +5131,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a31b78440fcc73aabf959206413c81e95a886123"
+ "source_revision": "26e55c2ff7625a93d5c2c2bb3219a1205aaed60b"
 }
