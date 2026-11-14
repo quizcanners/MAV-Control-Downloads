@@ -895,7 +895,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-14T16:56Z",
-     "noted": "",
+     "noted": "2026-11-14T17:01Z",
      "progress": 22,
      "ticked": 2,
      "total": 9
@@ -952,8 +952,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-14T14:53Z",
-     "text": "Strong Android Test 839 (356e477056) installed and reached the map. Android registered MAV Control Bluetooth NetworkRequest; bt-pan DHCP sent Discover, logged no Offer and timed out without IPv4. Reproduced with independent diagnostic APK. "
+     "at": "2026-11-14T17:01Z",
+     "text": "Main e1a3e6fe71 fixes the Android half-lease request to unicast with ciaddr and no selection options. Scripted USB lost the first reply, accepted a retry ACK and sent through original expiry on the same handle. USB packet/layout/ECM/network"
     }
    ]
   },
@@ -6028,5 +6028,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "859753144f3d3ea0ecaaf0a48d00fee6d03f1a1c"
+ "source_revision": "429d222fe14f37f32918784f9efc4d1058d829ee"
 }
