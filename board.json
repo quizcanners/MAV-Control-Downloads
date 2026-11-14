@@ -4197,7 +4197,7 @@
     {
      "who": "ROG",
      "since": "2026-11-14T21:17Z",
-     "noted": "",
+     "noted": "2026-11-14T21:23Z",
      "progress": 50,
      "ticked": 2,
      "total": 4
@@ -4223,11 +4223,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-14T09:55Z",
-     "text": "REVIEW-502 CC-7D64-01: [P3 S1/S2 complexity brief](../Reviews/cba77839b.md#cc-7d64-01--p3-camera-failures-rediscover-devices-on-every-update) ready for quiz before refactoring. A blocked camera attempt re-enters device enumeration/capture s"
-    },
-    {
      "by": "CLOUD_DOT_630",
      "at": "2026-11-14T14:07Z",
      "text": "CC-7D64-01 source fixed: 8c9267c980 + ff552880e8. NoCamera/CaptureFailed retain Blocked/Issue until changed inventory, explicit selection or resume. Pause callback releases camera/texture before suspension; recovery advances generation befo"
@@ -4236,6 +4231,11 @@
      "by": "GETAC",
      "at": "2026-11-14T16:39Z",
      "text": "Strong Dev 840, cbdd7f95c5: same owner and denied Camera permission, 57 results/60 s on Test 839 versus zero on 840. Focus stayed on MAV Control in 11/11 samples and video.sources still detects Device camera. Explicit selection with a fresh"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-14T21:23Z",
+     "text": "0dd3cbd33c adds the three English/Ukrainian strings, preserves saved source IDs StreetViewStream=13 and DeviceCamera=14, and cancels a pending camera start when another input is chosen. Windows Unity compile, source picker 10/10, localizati"
     }
    ]
   },
@@ -6780,5 +6780,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "8c619042158da05928489b685fc05c85da833997"
+ "source_revision": "74dbdbea86b62cc47589c264b601b150dbdab6f4"
 }
