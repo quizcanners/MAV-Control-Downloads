@@ -4109,7 +4109,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-14T15:10Z",
-     "noted": "",
+     "noted": "2026-11-14T15:28Z",
      "progress": 25,
      "ticked": 1,
      "total": 4
@@ -4143,6 +4143,11 @@
      "by": "CLOUD_DOT_630",
      "at": "2026-11-14T14:07Z",
      "text": "CC-7D64-01 source fixed: 8c9267c980 + ff552880e8. NoCamera/CaptureFailed retain Blocked/Issue until changed inventory, explicit selection or resume. Pause callback releases camera/texture before suspension; recovery advances generation befo"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T15:28Z",
+     "text": "6fa714d9dc: Strong Test 839 reproduced 50 Camera permission results in 54 s on the untouched map. Passive Video source scans now read Android camera capability once. The explicit path still owns consent and inventory. Focused controls 10 An"
     }
    ]
   },
@@ -5831,5 +5836,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "08663e1887cc32a4147b8637355bd614fced31f9"
+ "source_revision": "2457eb3ba8809f5d674106f77604648a652a0c68"
 }
