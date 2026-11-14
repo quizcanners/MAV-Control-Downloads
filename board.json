@@ -4355,7 +4355,7 @@
     {
      "who": "CODEX_GRAPHICS",
      "since": "2026-11-14T09:36Z",
-     "noted": "",
+     "noted": "2026-11-14T09:37Z",
      "progress": 50,
      "ticked": 1,
      "total": 2
@@ -4376,6 +4376,11 @@
      "by": "cloud-thread",
      "at": "2026-11-14T09:30Z",
      "text": "Strip readouts now use the standard panel in code (UseStandardPanel). Editor left: MavLink telemetry.prefab 'Opaque Panel Background' and Telemetry Strip glass overlay objects still glass."
+    },
+    {
+     "by": "CODEX_GRAPHICS",
+     "at": "2026-11-14T09:37Z",
+     "text": "CODEX_GRAPHICS is fixing the merged-source CS1061 in UI_MergedReadout: UseStandardPanel belongs on BodyTintComposite, where readouts and notification bodies own their material. No prefab changes; HEAVY retains the telemetry asset work. Nati"
     }
    ]
   },
@@ -4482,5 +4487,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3abb00c3f813ef1dfc7c90a414143c0c4d09048a"
+ "source_revision": "7cb65cd8dc5767e5f09d799ea4b831e8ec9c92ed"
 }
