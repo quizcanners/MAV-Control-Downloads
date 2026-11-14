@@ -6916,14 +6916,20 @@
     {
      "who": "ROG",
      "since": "2026-11-14T22:44Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-14T22:47Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-14T22:47Z",
+     "text": "a1116ac121 makes deleting a supply-sheet link cancel/discard the old loader, clear the cached state and checkpoint the cleared link. Invalid pasted URLs leave the current loader and saved source alone. Unity compiled; LogisticsMessageImport"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6972,5 +6978,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4e4a00cb7a2a12d733166d8616360328fb261347"
+ "source_revision": "6f19b2f9bc9146dedc4bf3de5569ba74a8703447"
 }
