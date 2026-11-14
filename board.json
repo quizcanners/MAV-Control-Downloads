@@ -4687,8 +4687,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T12:08Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-14T12:25Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -4697,8 +4697,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-14T11:14Z",
-     "text": "Reviewed the shared Exclusive Selector prefab and Settings host. App updates is drawn inside a PEGI scroll view; there is no uGUI slot to wire. The host needs to reserve the row on Layout, position and clip a selector instance from the row "
+     "at": "2026-11-14T12:25Z",
+     "text": "Implemented on main in c423fb507a; Settings/Updates bumped in 5b6c0d34ed. Windows Unity compile and Roslyn clean; 32/32 focused EditMode tests. Play-mode preview exercised tap, horizontal selection, vertical scroll, clipped hit surface and "
     }
    ]
   },
@@ -5239,6 +5239,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 683,
+   "name": "Street View selection",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-14T12:24Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5287,5 +5310,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "eed5ab6438155c24ee915fee7b5ce2b173d8621a"
+ "source_revision": "e2aeaa51f2e5c2289911bcb7af372e0616b419e0"
 }
