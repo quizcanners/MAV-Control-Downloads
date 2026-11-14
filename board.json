@@ -6565,7 +6565,7 @@
     {
      "who": "CODEX_GRAPHICS",
      "since": "2026-11-14T19:35Z",
-     "noted": "2026-11-14T20:07Z",
+     "noted": "2026-11-14T20:10Z",
      "progress": 25,
      "ticked": 0,
      "total": 0
@@ -6575,8 +6575,8 @@
    "notes": [
     {
      "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T20:07Z",
-     "text": "Published f48ac1e407: late drawing visibility uses current camera and prepared paths, hidden/off-screen ink is quiet, screen pings use their one-second lifetime, world pings use actual age/context. Native drawing 50/50, presentation/render "
+     "at": "2026-11-14T20:10Z",
+     "text": "Published f48ac1e407: current-camera drawing visibility omits hidden/off-screen ink wake and empty drawing passes; screen pings follow their one-second lifetime, world pings their actual age/context. Delivered source passed native drawing 5"
     }
    ]
   },
@@ -6650,5 +6650,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "00d35196364d549fa65aabb2064bec9eb23ad7ec"
+ "source_revision": "f44b4f8e42d18c2ec5f23629696bbaa75a4f7813"
 }
