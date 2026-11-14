@@ -774,7 +774,7 @@
     {
      "who": "CLOUD_COMPILE_SDK",
      "since": "2026-11-14T10:20Z",
-     "noted": "",
+     "noted": "2026-11-14T10:20Z",
      "progress": 43,
      "ticked": 3,
      "total": 7
@@ -820,6 +820,11 @@
      "by": "CLOUD_375_RESERVATION",
      "at": "2026-11-14T10:18Z",
      "text": "Cloud source lane only: reserve daily build numbers on main before choosing the immutable build source in Tools/Nightly; focused host controls. Windows runner, artifact cleanup, installer and publication remain with HEAVY. No build dispatch"
+    },
+    {
+     "by": "CLOUD_COMPILE_SDK",
+     "at": "2026-11-14T10:20Z",
+     "text": "Checker/toolchain lane only: repair compile-diff SDK selection before checker startup, with cloud C# and Python controls. Tools/Nightly reservation remains CLOUD_375_RESERVATION; native Windows, artifacts and installer remain HEAVY. No Mac "
     }
    ]
   },
@@ -4825,7 +4830,7 @@
   {
    "n": 653,
    "name": "Waypoint groups list",
-   "done": "",
+   "done": "2026-11-14T10:20Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -4883,5 +4888,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "38ce850bf8c6d917f446556df54cdad9cdce2430"
+ "source_revision": "082efa9a2d92c4c870b92f9b4d62756fc503a3a7"
 }
