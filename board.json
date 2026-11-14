@@ -6414,19 +6414,26 @@
      "who": "HEAVY",
      "since": "2026-11-14T18:59Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
+     "progress": 67,
+     "ticked": 2,
+     "total": 3
     }
    ],
-   "steps": [],
-   "notes": [
+   "steps": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-14T18:58Z",
-     "text": "Ground-aligned Shape Gizmos now use the Planet Renderer base surface for PolyLine centers and ribbon edges, with budgeted rechecks on terrain/coverage publication. Windows Unity and Roslyn passed; oblique Play capture shows ribbons render. "
+     "t": "Planet Renderer uses its published base surface for ground-aligned centers and b",
+     "x": true
+    },
+    {
+     "t": "Windows Unity compiled and Roslyn reported NEW ERRORS: none. Oblique 7.7 km Play",
+     "x": true
+    },
+    {
+     "t": "Reproduce the reported view and check Cesium as well as Planet Renderer. The pro",
+     "x": false
     }
-   ]
+   ],
+   "notes": []
   },
   {
    "n": 742,
@@ -6521,5 +6528,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "91628b197bcbff6628a9245ae4ad8c049e02ace6"
+ "source_revision": "512ff00b63dc69feed3fa073029bd37dd638249d"
 }
