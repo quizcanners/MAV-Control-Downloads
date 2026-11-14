@@ -2671,7 +2671,7 @@
   {
    "n": 555,
    "name": "Street View photos are sent once",
-   "done": "",
+   "done": "2026-11-14T10:57Z",
    "goal": false,
    "under": 366,
    "ticks": [],
@@ -2679,20 +2679,7 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [
-    {
-     "t": "Spec rewritten: photos sent once, no sync",
-     "x": true
-    },
-    {
-     "t": "Entry points cut: no pass starts, offers and answers dropped unread",
-     "x": true
-    },
-    {
-     "t": "Dead walk, offer and answer code deleted from StreetView_SyncState.cs and its te",
-     "x": false
-    }
-   ],
+   "steps": [],
    "notes": []
   },
   {
@@ -4919,6 +4906,33 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 662,
+   "name": "Scan QR",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "after the Allow tap, ask for the camera list again for 4 s; on focus return afte",
+     "x": true
+    },
+    {
+     "t": "device-camera video source keeps \"no camera\" for 1 s only",
+     "x": true
+    },
+    {
+     "t": "page closes and camera stops once the tunnel is added",
+     "x": true
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -4967,5 +4981,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "86a5b4d50851bd0f5792cdeaef78d74ee73e346b"
+ "source_revision": "3f16669d36d351e759c1c9f416ddb8f80f776de7"
 }
