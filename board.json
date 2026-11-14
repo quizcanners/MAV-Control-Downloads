@@ -4373,7 +4373,7 @@
   },
   {
    "n": 635,
-   "name": "Telemetry panels use the chat-me",
+   "name": "Telemetry panels and readouts us",
    "done": "",
    "goal": false,
    "under": 0,
@@ -4385,39 +4385,27 @@
     {
      "who": "CODEX_GRAPHICS",
      "since": "2026-11-14T09:36Z",
-     "noted": "2026-11-14T09:37Z",
-     "progress": 50,
-     "ticked": 1,
-     "total": 2
+     "noted": "",
+     "progress": 100,
+     "ticked": 3,
+     "total": 3
     }
    ],
    "steps": [
     {
-     "t": "Panel rows call UseStandardRow (List Row Panel, one blur tap, no extra pass)",
+     "t": "Panel action rows call UseStandardRow; BodyTintComposite owns UseStandardPanel (",
      "x": true
     },
     {
-     "t": "Editor: clear the old glass overlay objects from the panel prefabs if they still",
-     "x": false
+     "t": "CODEX_GRAPHICS 243cc6d4e2: ten strip readouts use List Row Panel and have no gla",
+     "x": true
+    },
+    {
+     "t": "Native saved-asset inspection passed for 20 readouts including the nested instan",
+     "x": true
     }
    ],
-   "notes": [
-    {
-     "by": "cloud-thread",
-     "at": "2026-11-14T09:30Z",
-     "text": "Strip readouts now use the standard panel in code (UseStandardPanel). Editor left: MavLink telemetry.prefab 'Opaque Panel Background' and Telemetry Strip glass overlay objects still glass."
-    },
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T09:37Z",
-     "text": "CODEX_GRAPHICS is fixing the merged-source CS1061 in UI_MergedReadout: UseStandardPanel belongs on BodyTintComposite, where readouts and notification bodies own their material. No prefab changes; HEAVY retains the telemetry asset work. Nati"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T09:38Z",
-     "text": "The UI_MergedReadout CS1061 is fixed on main (7837f78a1a): shared panel selection belongs to BodyTintComposite. Unity opened and Roslyn passed. Video tab was unavailable in this Editor session, so Strip and old overlay visual checks stay wi"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 636,
@@ -4873,6 +4861,29 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 657,
+   "name": "Tile storage warning on Windows",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "claude-cloud",
+     "since": "2026-11-14T10:37Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -4921,5 +4932,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b6ccad4d63b23da2c0c80a2d491e7faa8f29ea1a"
+ "source_revision": "e2b3248a97ef6a2aa1b3f5261417e4b086f9924a"
 }
