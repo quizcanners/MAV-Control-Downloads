@@ -4747,7 +4747,20 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Shader _SUN_LIT, Compass Star Sun.mat, _CompassSun publisher, SPEC line (cloud)",
+     "x": true
+    },
+    {
+     "t": "Assign Compass Star Sun.mat to the star Images, compile, tune",
+     "x": false
+    },
+    {
+     "t": "Mirror check of the light side vs compass sign",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
@@ -4797,5 +4810,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "575472d0083014289998ee454fb605c317357725"
+ "source_revision": "3d96a259316ecdbc47392cfbf69b8d34ae59d37d"
 }
