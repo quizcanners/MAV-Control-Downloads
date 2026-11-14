@@ -893,7 +893,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T10:32Z",
-     "noted": "",
+     "noted": "2026-11-14T10:40Z",
      "progress": 22,
      "ticked": 2,
      "total": 9
@@ -945,7 +945,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-14T10:40Z",
+     "text": "HEAVY MAV Control 835 backdoor sees the USB radio at 192.168.10.2 but the saved adapter GUID is stale. Rebinding to the one current Motorola adapter. GETAC: please put your current MAV Control VPN IPv4 and confirmed radio ID on this line so"
+    }
+   ]
   },
   {
    "n": 380,
@@ -4911,5 +4917,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "540ac4e4d229c8ee7a6e01103db8137958176106"
+ "source_revision": "3f93d9331f016cbf6f243e1d49b1c969144c7c15"
 }
