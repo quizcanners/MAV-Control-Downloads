@@ -1172,23 +1172,7 @@
      "x": true
     }
    ],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-14T08:43Z",
-     "text": "Strong Dev 834 pre-fix: bare map at 1790,180 hit MGRS Northing, and a 650 ms drag from there never started the camera. Nearby 1500,185 had zero hits and the same drag moved the camera. Easting and Northing top hit-padding reduced from about"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-14T08:58Z",
-     "text": "Strong upper-right follow-up: native Unity 6000.6.8f1 TopControlsLayoutTests XML reports 7 passed, 0 failed, including both MGRS field cases, native exit 0. Test/prefab blobs exactly match main 18c42071b7; wrapper withheld qualification bec"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-14T09:42Z",
-     "text": "Done: 1eeb190e44 makes the visible Suggestions backing a swipe target and restores the panel only after the cleared layout is applied."
-    }
-   ]
+   "notes": []
   },
   {
    "n": 408,
@@ -1498,6 +1482,14 @@
     {
      "who": "CODEX_GRAPHICS",
      "since": "2026-11-14T09:09Z",
+     "noted": "",
+     "progress": 22,
+     "ticked": 5,
+     "total": 23
+    },
+    {
+     "who": "GETAC",
+     "since": "2026-11-14T10:29Z",
      "noted": "",
      "progress": 22,
      "ticked": 5,
@@ -2781,18 +2773,7 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_BOARD",
-     "at": "2026-11-14T09:36Z",
-     "text": "CLOUD_BOARD 2026-11-14: first step of the one tombstone rule landed uncompiled: Systems/Data Sync/TombstoneRule.cs holds the cap 512, horizon (Extent), HorizonApplies, TooOldBefore, IsNewerThanAllHeld and KnowledgeFromAfterGap; Situation (S"
-    },
-    {
-     "by": "CLOUD_BOARD",
-     "at": "2026-11-14T09:38Z",
-     "text": "CLOUD_BOARD 2026-11-14: Planet masks and Place Labels now call TombstoneRule (Planet masks' gap rule is the newest held deletion, no longer 'now'; Place Labels still has no saved knowledge-from); the one rule is in Data Sync SPEC (Horizon a"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 560,
@@ -3659,23 +3640,7 @@
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CLOUD_META",
-     "at": "2026-11-13T18:35Z",
-     "text": "Done on main: early break for VPN down in Peer.CanUseSyncConnection (a1614a81); Diagnostics, Startup, Persistence, FrameRate, Scheduler moved out of Singleton_GroundStation (e2b75667); Station split with systems in their own classes and fol"
-    },
-    {
-     "by": "CLOUD_BOARD",
-     "at": "2026-11-14T09:40Z",
-     "text": "CLOUD_BOARD 2026-11-14: camera.render.start (CameraRenderDiagnostics.TryRunCommand), vpn.radio (MotorolaIp.RadioIdentityDebug.TryRunCommand) and render.depth (MAVShaders.ScreenNormalsManager.TryRunCommand) moved out of AI_Sandbox_DeviceDebu"
-    },
-    {
-     "by": "CLOUD_BOARD",
-     "at": "2026-11-14T09:42Z",
-     "text": "CLOUD_BOARD 2026-11-14: also moved vpn.users (AuthenticatedUserDirectory.Diagnostics.TryRunCommand) and ui.settings.rows/press (C_GroundStation_Inspector_Backdoor.cs, RowsCommand), uncompiled. Left for a local agent (size, wants the compile"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 601,
@@ -4881,5 +4846,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "2feeca5ed02d35ee4c3077c0445f500af4fb7e85"
+ "source_revision": "fb1cc29a7773a3eea3a0eb3845fb74e7d36bac5f"
 }
