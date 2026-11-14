@@ -762,16 +762,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLOUD_375_RESERVATION",
-     "since": "2026-11-14T10:18Z",
-     "noted": "2026-11-14T10:18Z",
-     "progress": 43,
-     "ticked": 3,
-     "total": 7
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Windows runner host harness restored (27f57e05ab); configured Unity light host 2",
@@ -798,15 +789,15 @@
      "x": false
     },
     {
-     "t": "Cloud (Tools/Nightly, not done): a daily build takes its commit at start and wri",
-     "x": false
+     "t": "Cloud (Tools/Nightly): 755e2a6312 publishes the shared iOS number before choosin",
+     "x": true
     }
    ],
    "notes": [
     {
      "by": "CLOUD_375_RESERVATION",
-     "at": "2026-11-14T10:18Z",
-     "text": "Cloud source lane only: reserve daily build numbers on main before choosing the immutable build source in Tools/Nightly; focused host controls. Windows runner, artifact cleanup, installer and publication remain with HEAVY. No build dispatch"
+     "at": "2026-11-14T10:27Z",
+     "text": "755e2a6312 on main. Direct cause: iOS captured source before its late increment; deeper reason: export also owned number allocation. Reservation now uses the existing durable Git journal before source selection; failed push recovers without"
     },
     {
      "by": "CLOUD_COMPILE_SDK",
@@ -1209,16 +1200,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-14T10:11Z",
-     "noted": "2026-11-14T10:26Z",
-     "progress": 60,
-     "ticked": 6,
-     "total": 10
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "One swipeable root on main: Lists Root (300 wide, pivot x 0, left, under the tab",
@@ -4899,5 +4881,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d00c10c77a20f59a3b639134972a779c7e55a2fc"
+ "source_revision": "2feeca5ed02d35ee4c3077c0445f500af4fb7e85"
 }
