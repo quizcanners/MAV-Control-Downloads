@@ -894,16 +894,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-14T14:08Z",
-     "noted": "",
-     "progress": 22,
-     "ticked": 2,
-     "total": 9
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Strong (Android 13) over SV07 Bluetooth cannot work: its Bluetooth address 39:23",
@@ -949,14 +940,14 @@
      "text": "Paired via MAV Control backdoor after VPN recovered. HEAVY USB 7087565 confirmed in 2 ms; Getac Bluetooth 7089031 from handset, own-ID NoEcho. Both CAI 12/UDP 41001: directed probes NoReply and no reliable heartbeat ACK both ways. HEAVY gat"
     },
     {
-     "by": "GETAC",
-     "at": "2026-11-14T13:41Z",
-     "text": "Strong 835 + SV07: bt-pan up, no IPv4 or Android Bluetooth Network. An independent APK requested a Bluetooth Network; Android IpClient started DHCP, sent five DISCOVER and received no OFFER, timed out at 18 s. App previously only listened; "
-    },
-    {
      "by": "cloud",
      "at": "2026-11-14T13:54Z",
      "text": "Report items 4 and 5 and 3 and the isolation hint are in code (uncompiled); item 8 (ARS/LRRP through the Android bridge) and the SIO_UDP_CONNRESET/ReuseAddress hygiene are not done."
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T14:10Z",
+     "text": "Strong/SV07: active Android Bluetooth request starts IpClient; in three reproduced attempts it sent five DHCP Discover each, no logged Offer, and timed out in 18 s before MAV Control could bind. c9eaa76968 adds the request. Getac 7089031/Pa"
     }
    ]
   },
@@ -5723,5 +5714,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4a3d8dd9f017a7e71673129d8ab2df42a9b3de48"
+ "source_revision": "9b8661948283ed4ced9ed306064aef4132faac0d"
 }
