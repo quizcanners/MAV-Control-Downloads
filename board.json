@@ -2670,7 +2670,7 @@
   },
   {
    "n": 555,
-   "name": "Street View photo sync between t",
+   "name": "Street View photos are sent once",
    "done": "",
    "goal": false,
    "under": 366,
@@ -2679,24 +2679,21 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
-   "notes": [
+   "steps": [
     {
-     "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-13T02:43Z",
-     "text": "CLOUD_COMPLEXITY 2026-11-13: review finding CC-554A-01 (REVIEW-471, the folder walk searched the folder's dictionary from the start for every child folder) is source-repaired by 76ffbd46ca: the walk keeps its last child folder and steps to "
+     "t": "Spec rewritten: photos sent once, no sync",
+     "x": true
     },
     {
-     "by": "CLOUD_META",
-     "at": "2026-11-13T18:35Z",
-     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [Systems/Street View/AGENTS.md] \"Old peer gets nothing in, and we free space RAM and save nothing.\""
+     "t": "Entry points cut: no pass starts, offers and answers dropped unread",
+     "x": true
     },
     {
-     "by": "CLOUD_BOARD",
-     "at": "2026-11-14T09:41Z",
-     "text": "CLOUD_BOARD PROPOSAL for quiz (ultimate, then compromise). Ultimate: how git, Dropbox and Apple Photos sync do it: each side keeps a Merkle root over its photos (key + edit times per file); peers swap one root hash on a message they already"
+     "t": "Dead walk, offer and answer code deleted from StreetView_SyncState.cs and its te",
+     "x": false
     }
-   ]
+   ],
+   "notes": []
   },
   {
    "n": 556,
@@ -2773,7 +2770,7 @@
   },
   {
    "n": 560,
-   "name": "A newer build's own ServerSpecs ",
+   "name": "A newer build",
    "done": "",
    "goal": false,
    "under": 370,
@@ -2782,14 +2779,17 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
-   "notes": [
+   "steps": [
     {
-     "by": "CLOUD_BOARD",
-     "at": "2026-11-14T09:41Z",
-     "text": "CLOUD_BOARD PROPOSAL for quiz. Ultimate: how Kubernetes/Tailscale keep deployment facts: the server address and keys are a fact about the deployment, kept per VPN beside the versioned specs, never inside what an Admin edits; every device le"
+     "t": "Held server survives every newer specs",
+     "x": true
+    },
+    {
+     "t": "Server fields moved out of ServerSpecs into a per-VPN record (only if needed)",
+     "x": false
     }
-   ]
+   ],
+   "notes": []
   },
   {
    "n": 561,
@@ -4852,7 +4852,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-14T10:55Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -4886,6 +4895,29 @@
      "x": true
     }
    ],
+   "notes": []
+  },
+  {
+   "n": 661,
+   "name": "using Strong for Web Mercator re",
+   "done": "",
+   "goal": false,
+   "under": 429,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-14T10:55Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
    "notes": []
   }
  ],
@@ -4935,5 +4967,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "8adb3892fc823e0bc40517eba5f3ac503f5aaa07"
+ "source_revision": "7a6e6f51d8241bdbfe3c71ccbd2215497ba455b4"
 }
