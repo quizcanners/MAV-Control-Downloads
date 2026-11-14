@@ -4315,6 +4315,29 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 635,
+   "name": "Telemetry panels use the chat-me",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Panel rows call UseStandardRow (List Row Panel, one blur tap, no extra pass)",
+     "x": true
+    },
+    {
+     "t": "Editor: clear the old glass overlay objects from the panel prefabs if they still",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -4363,5 +4386,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "efbf9d304e8627b17e9bb34c104bad0a7236f5e1"
+ "source_revision": "23b3fdc323081bfccd71841745a465143be83f8b"
 }
