@@ -884,7 +884,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T13:10Z",
-     "noted": "2026-11-14T13:12Z",
+     "noted": "2026-11-14T13:21Z",
      "progress": 22,
      "ticked": 2,
      "total": 9
@@ -930,14 +930,14 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-14T13:12Z",
-     "text": "VPN restored and Getac answered authenticated backdoor. Simultaneous listeners: HEAVY USB 7087565 confirmed, GETAC Bluetooth entered 7089031 still NoEcho; CAI 12/UDP 41001 and interface pins match. Fresh motorola.test each way: NoReply and "
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-14T13:20Z",
      "text": "Paired over the authenticated MAV Control backdoor once VPN recovered. PASIKA USB confirmed its own 7087565 by a 2 ms echo. GETAC Bluetooth 7089031 was entered from the handset and its own-ID loopback returned NoEcho. Both used CAI 12/UDP 4"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-14T13:21Z",
+     "text": "Paired via MAV Control backdoor after VPN recovered. HEAVY USB 7087565 confirmed in 2 ms; Getac Bluetooth 7089031 from handset, own-ID NoEcho. Both CAI 12/UDP 41001: directed probes NoReply and no reliable heartbeat ACK both ways. HEAVY gat"
     }
    ]
   },
@@ -5359,5 +5359,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "13a1b60fd1cef42d8945b4c811153b21d4313217"
+ "source_revision": "07e19056dc607951be74820a89fe16e716a5dfbd"
 }
