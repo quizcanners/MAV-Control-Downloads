@@ -6433,7 +6433,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T19:42Z",
-     "noted": "",
+     "noted": "2026-11-14T19:51Z",
      "progress": 67,
      "ticked": 2,
      "total": 3
@@ -6453,7 +6453,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-14T19:51Z",
+     "text": "950bc59f31 extends the Windows Editor polyline.ground probe to Cesium collider heights. Cesium Google at 7.7 km reproduced large errors, including +118.887 m in a repeated 9-vertex sample. A trial aligning both edges lowered the settled out"
+    }
+   ]
   },
   {
    "n": 742,
@@ -6642,5 +6648,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1844cf078dc338705d338baf8dd208ce87371a21"
+ "source_revision": "009ce5207199e9551f3b0c73477778d22ada0427"
 }
