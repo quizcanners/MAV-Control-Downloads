@@ -4740,7 +4740,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-14T16:29Z",
+     "noted": "",
+     "progress": 67,
+     "ticked": 2,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "The line now names SQLite's real reason (UI_TileStorageNotification.TrueReason)",
@@ -5978,5 +5987,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "341a6c1f68e820312556d5e23502bd50b632ac11"
+ "source_revision": "8c161cc44006a7435fee0eb7e3821cad507eddb5"
 }
