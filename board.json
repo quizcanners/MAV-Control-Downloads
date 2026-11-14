@@ -6043,8 +6043,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-14T17:34Z",
-     "text": "f03adf02c7 keeps the Layers bind flag transient and restores Battle line/Deep State callbacks in OnEnable. Situation already binds on enable. Added regression assertions for re-enable and binding flag serialization. Roslyn NEW ERRORS: none."
+     "at": "2026-11-14T17:36Z",
+     "text": "Windows Unity compiled f03adf02c7 during the open Play session. Verified Prublyda.dll metadata: Layers _bound is nonserialized and Battle line/Deep State reload via OnEnable. Evidence C:/MavControlEvidence/Windows-722-Layers/unity-assembly."
     }
    ]
   },
@@ -6118,5 +6118,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "9cc2c7aecde667cac6c87b62b963712f47a54eac"
+ "source_revision": "a36693b6137965cc1b3d93c8474aab026dd188b0"
 }
