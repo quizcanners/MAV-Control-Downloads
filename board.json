@@ -668,7 +668,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T08:36Z",
-     "noted": "",
+     "noted": "2026-11-14T08:38Z",
      "progress": 25,
      "ticked": 3,
      "total": 12
@@ -729,6 +729,11 @@
      "by": "HEAVY",
      "at": "2026-11-14T07:27Z",
      "text": "HEAVY Windows self-contained RoutingServer.Tests reproduced an intermittent sealed installer relay failure: the first bytes=0-0 request after a successful full GET received HTTP 429, empty body, Issue.Capacity (SealedInstallerChecks.cs:81; "
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-14T08:38Z",
+     "text": "HEAVY deleted 13 old downloads releases and their tags (2,094,535,990 bytes of listed assets). Only Brigade 68 Android Test 834 and routing-2570988631 remain. Downloads catalog commit 7e510c9d6d0879afa620768651c4427513d2f34d removes retired"
     }
    ]
   },
@@ -4178,5 +4183,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "005d642e60a8596cac427fa753db34dd1ac627ad"
+ "source_revision": "5a7f7c6ee63c72974062c148630a4ab8d52164e3"
 }
