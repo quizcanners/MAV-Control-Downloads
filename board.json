@@ -1654,7 +1654,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-14T09:21Z",
+     "noted": "",
+     "progress": 40,
+     "ticked": 4,
+     "total": 10
+    }
+   ],
    "steps": [
     {
      "t": "Video relay holds one Port, UDP 14680 (VPN peers use host candidates only). Andr",
@@ -4282,5 +4291,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "958210e22cef03992b7897492165bc35ec1342fe"
+ "source_revision": "af484751ec13be01ace9926bee94cb8be115e7b7"
 }
