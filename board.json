@@ -6077,14 +6077,20 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T17:29Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-14T17:34Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-14T17:34Z",
+     "text": "f03adf02c7 keeps the Layers bind flag transient and restores Battle line/Deep State callbacks in OnEnable. Situation already binds on enable. Added regression assertions for re-enable and binding flag serialization. Roslyn NEW ERRORS: none."
+    }
+   ]
   }
  ],
  "verify": [
@@ -6133,5 +6139,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "861847461ad164ad7a981b48436e6cc100dcc5cd"
+ "source_revision": "7f9de5e2e640b74b662b3aa819a39a1380c60246"
 }
