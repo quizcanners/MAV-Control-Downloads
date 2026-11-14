@@ -1456,19 +1456,15 @@
    "held": [],
    "steps": [
     {
-     "t": "Under 100 files, step 2 mostly landed (all RecordVault adapters, Mac/Windows com",
+     "t": "Under 100 files, step 2 mostly landed (all RecordVault adapters): OSM tiles and ",
      "x": true
     },
     {
-     "t": "Web Mercator: the one tiles.sqlite per map (LogicalMapDatabase, migration, retir",
+     "t": "Web Mercator one tiles.sqlite per map (LogicalMapDatabase, migration, retirement",
      "x": true
     },
     {
-     "t": "Tombstone bound: at most 512 Web Mercator cleanup scopes and 512 Orthophoto tomb",
-     "x": true
-    },
-    {
-     "t": "Cloud: retire the old segment allocator, catalog, merge and publication code (SP",
+     "t": "Cloud: reader byte accounting: Strong Dev 834 (68da9b1c5c) spent 97.7% of busies",
      "x": false
     },
     {
@@ -1476,7 +1472,7 @@
      "x": false
     },
     {
-     "t": "Cloud: Web Mercator tile tombstones as the Ripper drill (SPEC, Record Vault 'Til",
+     "t": "Cloud: Web Mercator tile tombstones as the Ripper drill (SPEC Record Vault 'Tile",
      "x": false
     },
     {
@@ -1484,30 +1480,11 @@
      "x": false
     },
     {
-     "t": "Getac: on a device check the file count and migration, photo eviction (disposabl",
-     "x": false
-    },
-    {
-     "t": "Cloud, from that result: cap or free the named RAM owner when Activity is Idle; ",
-     "x": false
-    },
-    {
-     "t": "Getac (Strong, Dev bridge): during a natural Web Mercator index publication read",
+     "t": "Getac: check file count and migration on a device, photo eviction (disposable pr",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "REVIEW",
-     "at": "2026-11-14T03:54Z",
-     "text": "REVIEW-496 CC-2230-01: [P3 S1/S2 brief](../Reviews/9e4cb78c5.md#cc-2230-01--p3-mask-reservation-keeps-unreachable-eviction-retries) ready for quiz before refactoring. Current mask wrapper keeps eviction/retry branches after Allocation.TryRe"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-14T07:52Z",
-     "text": "GETAC Strong Dev 834 68da9b1c5c: 97.7% of 217 user-mode CPU samples on the busiest sampled background worker were in Writer.MeasureTileBytes, split 67.3% initial census / 30.4% post-maintenance census. Retention active before and after. CC-"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 431,
@@ -5165,5 +5142,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "40c03b8eaeee4a2dd17ca9fed99a855335a8ec40"
+ "source_revision": "f721fa8ed4f2160befc58406f18c589e9f6ece8d"
 }
