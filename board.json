@@ -6048,14 +6048,20 @@
     {
      "who": "CODEX_GRAPHICS",
      "since": "2026-11-14T17:23Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-14T17:32Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_GRAPHICS",
+     "at": "2026-11-14T17:32Z",
+     "text": "Published e2261a61d7: current/previous Control Zone SDF reads use level zero; Low removes both derivatives (four during transition), High smoothing unchanged. Native 288 rendered pairs identical, 16 Metal/GLES stages compile; Roslyn clean. "
+    }
+   ]
   },
   {
    "n": 722,
@@ -6127,5 +6133,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f0fa308b2afe7580e8ff903e1d005f46841d5e97"
+ "source_revision": "861847461ad164ad7a981b48436e6cc100dcc5cd"
 }
