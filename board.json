@@ -156,7 +156,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-14T17:12Z",
+     "noted": "",
+     "progress": 56,
+     "ticked": 5,
+     "total": 9
+    }
+   ],
    "steps": [
     {
      "t": "On main: the state machine and every mode, 1 s settle, release-frame full resolu",
@@ -6033,5 +6042,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "13c36430256b35126d70d397b3741856b37ba5ea"
+ "source_revision": "31826a1295a30c886151ae607e097e252fb32934"
 }
