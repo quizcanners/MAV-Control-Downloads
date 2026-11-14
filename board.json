@@ -1473,7 +1473,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-14T19:26Z",
-     "noted": "",
+     "noted": "2026-11-14T19:33Z",
      "progress": 22,
      "ticked": 2,
      "total": 9
@@ -1530,8 +1530,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-14T19:22Z",
-     "text": "Done 94538e3338 and 7cc2b172a7 (CPU.md). Dev 840 long gaps >=80 ms: zoom-in 4/47 -> 1/56, zoom-out 5/47 -> 0/60 with NoPlanet; NoMasks still reaches ~117 ms each way. Host GPU history and Roslyn checks passed. Strong lock screen blocked a l"
+     "at": "2026-11-14T19:33Z",
+     "text": "94538e3338 retained GPU history, Roslyn and host controls green. CPU.md 7cc2b172a7 and GPU.md 1e6623f40a: Dev 840 after unlock, 16 coast pinches; ~9 ms lower valid median GPU interval with NoPlanet, peak presents 67 vs 50 ms. No 80 ms gap; "
     }
    ]
   },
@@ -6573,5 +6573,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "752bf30b445c62d5761822d9f3d0fc2960526f58"
+ "source_revision": "1ad20d1a30fd60137cfd5271805146694569d07c"
 }
