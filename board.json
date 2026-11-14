@@ -156,7 +156,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-14T13:40Z",
+     "noted": "",
+     "progress": 56,
+     "ticked": 5,
+     "total": 9
+    }
+   ],
    "steps": [
     {
      "t": "On main: the state machine and every mode, 1 s settle, release-frame full resolu",
@@ -5469,5 +5478,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "46e258e45a28941e7310f52570d861c446fd129e"
+ "source_revision": "1a3f16e5a9198da5f085a5f3898fe322223a67c1"
 }
