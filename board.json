@@ -996,7 +996,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_GRAPHICS",
+     "since": "2026-11-14T21:37Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 7,
+     "total": 14
+    }
+   ],
    "steps": [
     {
      "t": "Space relief: Copernicus GLO-30 4096x2048 globe is the only relief on main (2dfa",
@@ -6729,6 +6738,29 @@
      "text": "Published 258abaf71c: enabled-request ECS query replaces the settled-sensor scan; same-frame anchor staging preserves structural safety. Coordinate replacement, removal, asset rebuild and shutdown cancel owned ray tickets. Native RemoteSens"
     }
    ]
+  },
+  {
+   "n": 754,
+   "name": "Remove transient Noise IK public",
+   "done": "",
+   "goal": false,
+   "under": 429,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-14T21:36Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -6777,5 +6809,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4a901b002d542a2307fb2e598dc7e2ce3f981ee1"
+ "source_revision": "72703af6d1125d638e8cfbeaef7844b1391f4dd1"
 }
