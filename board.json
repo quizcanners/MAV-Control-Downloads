@@ -6468,7 +6468,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T21:58Z",
-     "noted": "",
+     "noted": "2026-11-14T22:13Z",
      "progress": 67,
      "ticked": 2,
      "total": 3
@@ -6491,8 +6491,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-14T21:40Z",
-     "text": "Windows tested two levels of terrain-driven ribbon subdivision against the 4.1 km oblique reproduction. Settled Cesium measured -3.384 to +2.409 m over 81 midpoints (prior -7.637 to +17.245 m over 74). Planet measured -12.537 to +12.882 m o"
+     "at": "2026-11-14T22:13Z",
+     "text": "6096195a4e drapes PolyLine spans with at most 24 additional ground queries per frame."
     }
    ]
   },
@@ -6841,6 +6841,29 @@
      "text": "9430a463cf quietly ignores the retired PointerID sheet header. Earlier Rog Play console reported one Unknown tag: POINTERID per decoded row. Native Windows Unity compiled; ChatPersonalInfoTests 12/12 confirms legacy header silence, unknown-"
     }
    ]
+  },
+  {
+   "n": 759,
+   "name": "Reuse the Planet fragment camera",
+   "done": "",
+   "goal": false,
+   "under": 381,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_GRAPHICS",
+     "since": "2026-11-14T22:13Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -6889,5 +6912,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d189b8aa331eabb46d49e2be4cabe47f65af426f"
+ "source_revision": "a4d40adbe811bb869028717ebc521b9795240607"
 }
