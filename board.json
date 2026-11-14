@@ -1471,7 +1471,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-14T17:41Z",
-     "noted": "",
+     "noted": "2026-11-14T17:53Z",
      "progress": 22,
      "ticked": 2,
      "total": 9
@@ -1528,8 +1528,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-14T17:34Z",
-     "text": "Done: Strong 840, 16 paired coast pinches at a 60 FPS target. Worst gaps about 117 ms on and off."
+     "at": "2026-11-14T17:53Z",
+     "text": "Strong Dev 840: three 116 ms zoom gaps each crossed three script updates (longest 21.3 ms, at least 98.5% on-core). Android present fences 106-108 ms and buffer queue/dequeue calls under 0.7 ms."
     }
    ]
   },
@@ -6154,14 +6154,20 @@
     {
      "who": "CODEX_PEGI",
      "since": "2026-11-14T17:49Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-14T17:53Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_PEGI",
+     "at": "2026-11-14T17:53Z",
+     "text": "Published on main in 3ea8560f6b. Shared PEGI Enter and Exit sprites now use mirrored grey round-ended chevrons. PNG integrity, dimensions, mirror and asset preview passed. Guide check: 0 errors, 5 existing warnings. Settings Home and VPNs v"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6210,5 +6216,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1055e478b017744336bb96001c90455194dffadb"
+ "source_revision": "f52b944ab0f4961b192e23136055c3e23f751231"
 }
