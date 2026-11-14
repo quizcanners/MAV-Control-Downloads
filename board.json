@@ -4850,6 +4850,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 656,
+   "name": "Editor shows a Burst warning for",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Editor machine: close Unity, delete Library/BurstCache (and Library/Bee if it pe",
+     "x": false
+    },
+    {
+     "t": "If the warning still shows after that, note it here with the Unity and Burst pac",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -4898,5 +4921,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ac61d684f8ca5b96991edcf8239e588727feb6f4"
+ "source_revision": "b6ccad4d63b23da2c0c80a2d491e7faa8f29ea1a"
 }
