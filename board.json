@@ -717,10 +717,10 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T06:58Z",
-     "noted": "2026-11-14T07:12Z",
-     "progress": 40,
+     "noted": "",
+     "progress": 33,
      "ticked": 2,
-     "total": 5
+     "total": 6
     }
    ],
    "steps": [
@@ -729,8 +729,12 @@
      "x": true
     },
     {
-     "t": "PASIKA or Rog (dedicated build host): GitHub has no matching Windows daily runne",
+     "t": "HEAVY / PL-007: Daily Windows runner heavy-pl-007, Unity 6000.6.8f1 (64cceb04cc)",
      "x": true
+    },
+    {
+     "t": "Daily Windows end-to-end: Unity on PL-007 rejected the unattended launch (no val",
+     "x": false
     },
     {
      "t": "Getac (tablet + desktop): Direct USB survival while folded, the minutes written ",
@@ -745,13 +749,7 @@
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T07:12Z",
-     "text": "HEAVY Daily Windows runner: 64cceb04cc aligns Unity 6000.6.8f1. Scheduled task now owns a single listener; PortableGit, Git LFS and standalone PowerShell are on its PATH. Run 43569741494 picked up on heavy-pl-007 and passed checkout and pre"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 377,
@@ -4008,5 +4006,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5362f1189b2ff538061434620ee64c57f2781e6f"
+ "source_revision": "f9c187513dd45397b3c00f174bd700579d48e555"
 }
