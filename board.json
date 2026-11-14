@@ -2316,7 +2316,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-14T20:20Z",
+     "noted": "",
+     "progress": 60,
+     "ticked": 3,
+     "total": 5
+    }
+   ],
    "steps": [
     {
      "t": "Cloud: chunks 1-5 on main (Process handlers to Receive*/Apply*, about 330 files ",
@@ -6641,5 +6650,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d6133fd05a7ead70f5bffa348a03723b87a97231"
+ "source_revision": "fe953748aad866746de5ec981f0047e15811280a"
 }
