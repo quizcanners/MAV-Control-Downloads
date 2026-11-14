@@ -419,16 +419,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-14T02:09Z",
-     "noted": "2026-11-14T02:12Z",
-     "progress": 29,
-     "ticked": 2,
-     "total": 7
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Windows Editor (HEAVY): bridge answered api.status after a witnessed script relo",
@@ -1044,7 +1035,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MAC_UI",
+     "since": "2026-11-14T06:15Z",
+     "noted": "",
+     "progress": 36,
+     "ticked": 4,
+     "total": 11
+    }
+   ],
    "steps": [
     {
      "t": "Edge and join pass done: screen-edge ticks on every fixed prefab (last 6138a500c",
@@ -1541,7 +1541,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "REVIEW",
+     "at": "2026-11-14T03:54Z",
+     "text": "REVIEW-496 CC-2230-01: [P3 S1/S2 brief](../Reviews/9e4cb78c5.md#cc-2230-01--p3-mask-reservation-keeps-unreachable-eviction-retries) ready for quiz before refactoring. Current mask wrapper keeps eviction/retry branches after Allocation.TryRe"
+    }
+   ]
   },
   {
    "n": 431,
@@ -3947,5 +3953,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4ce610e74736f17c376284e7c00279102c2ccb39"
+ "source_revision": "cc931d61fad1c07521a3de584ca0ddf6f603b791"
 }
