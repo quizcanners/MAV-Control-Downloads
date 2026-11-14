@@ -894,7 +894,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-14T14:08Z",
+     "noted": "",
+     "progress": 22,
+     "ticked": 2,
+     "total": 9
+    }
+   ],
    "steps": [
     {
      "t": "Strong (Android 13) over SV07 Bluetooth cannot work: its Bluetooth address 39:23",
@@ -1364,7 +1373,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLOUD_DOT_695",
+     "since": "2026-11-14T14:07Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Tasks screen on main: cached board, one 'Offline \u00b7 last updated hh:mm \u00b7 Retry' r",
@@ -4094,16 +4112,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLOUD_DOT_630",
-     "since": "2026-11-14T13:52Z",
-     "noted": "2026-11-14T13:52Z",
-     "progress": 25,
-     "ticked": 1,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Code: scope, source kind, picker row, WebCamTexture into one RenderTexture, perm",
@@ -4130,8 +4139,8 @@
     },
     {
      "by": "CLOUD_DOT_630",
-     "at": "2026-11-14T13:52Z",
-     "text": "Cloud lane: CC-7D64-01 camera terminal-failure retry, source and focused tests only. Current Tick reopens on null after NoCamera/CaptureFailed; 6ab828ad89 changes discovery timing, not that loop. Preserve permission pending/grant/denial, pa"
+     "at": "2026-11-14T14:07Z",
+     "text": "CC-7D64-01 source fixed: 8c9267c980 + ff552880e8. NoCamera/CaptureFailed retain Blocked/Issue until changed inventory, explicit selection or resume. Pause callback releases camera/texture before suspension; recovery advances generation befo"
     }
    ]
   },
@@ -5714,5 +5723,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "085926407fbabf061597c675be9557831d6116b4"
+ "source_revision": "4a3d8dd9f017a7e71673129d8ab2df42a9b3de48"
 }
