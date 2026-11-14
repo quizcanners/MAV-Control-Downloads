@@ -1408,16 +1408,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_GRAPHICS",
-     "since": "2026-11-14T12:01Z",
-     "noted": "2026-11-14T12:13Z",
-     "progress": 22,
-     "ticked": 2,
-     "total": 9
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Cloud, on main: startup cuts, Patch Preparation (32a9302f, 55dbede20d), hand-wri",
@@ -4573,7 +4564,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "REVIEW",
+     "at": "2026-11-14T12:13Z",
+     "text": "REVIEW-504 CR-3D85-01: [P2 S1/S2 brief](../Reviews/76b505f02.md#cr-3d85-01--p2-dragged-selector-never-invokes-the-custom-choice-callback) ready for quiz. Drag release sends pointer-click, while the authored choices use custom submit/manual "
+    }
+   ]
   },
   {
    "n": 653,
@@ -5221,5 +5218,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "35cff2e92ea1d59d234b15117075dc4ff9b8f3d2"
+ "source_revision": "049b99c95a57ed080c03e5bac236a2ed8cb03d32"
 }
