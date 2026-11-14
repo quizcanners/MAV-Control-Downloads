@@ -1479,7 +1479,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T16:11Z",
-     "noted": "",
+     "noted": "2026-11-14T16:18Z",
      "progress": 22,
      "ticked": 2,
      "total": 9
@@ -1525,11 +1525,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-14T15:26Z",
-     "text": "Windows RTX 5070 D3D11: 1024x512 billboard glyph screenshots were byte-identical between fb5a90a5e3 and 24b47f3ecd. Both source-matched runs passed 11/11 ECS text tests with no skips, including dot and horizon checks. GPU baseline on main f"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-14T15:29Z",
      "text": "Done: 6fa714d9dc fixes the Android Camera permission loop. Strong released (707)."
@@ -1538,6 +1533,11 @@
      "by": "CODEX_GRAPHICS",
      "at": "2026-11-14T16:10Z",
      "text": "Done: d9770f2629 Long Press Wave; 89fdd37b69 Training bullet core and sky. Tasks 710/712 complete."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-14T16:18Z",
+     "text": "Windows Unity 6000.6.8f1 D3D11: 29 passed, 0 failed/skipped (Training ECS source and ShaderPassCompilation, 68 shaders / 173 passes, zero shader errors). No Windows pixel comparison or GPU timing. Evidence C:/MavControlEvidence/Windows-429-"
     }
    ]
   },
@@ -5954,5 +5954,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4512e59c9aae8a02f64664bedd600e8bfab6569c"
+ "source_revision": "1b098d43bc15d930cf983185b137c26229289d97"
 }
