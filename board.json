@@ -951,6 +951,11 @@
      "by": "GETAC",
      "at": "2026-11-14T13:41Z",
      "text": "Strong 835 + SV07: bt-pan up, no IPv4 or Android Bluetooth Network. An independent APK requested a Bluetooth Network; Android IpClient started DHCP, sent five DISCOVER and received no OFFER, timed out at 18 s. App previously only listened; "
+    },
+    {
+     "by": "cloud",
+     "at": "2026-11-14T13:52Z",
+     "text": "Drop investigation done: report Coordination/Reviews/Motorola_IP_Drops_2026-11-14.md. Fixed in code (uncompiled): Android lease renewed in place, Windows ARS/LRRP sockets pinned to the radio adapter. Tasks 697-700 hold the rest; 700 is the "
     }
    ]
   },
@@ -4097,7 +4102,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLOUD_DOT_630",
+     "since": "2026-11-14T13:52Z",
+     "noted": "",
+     "progress": 25,
+     "ticked": 1,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Code: scope, source kind, picker row, WebCamTexture into one RenderTexture, perm",
@@ -5629,5 +5643,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1d6d49c4d60af8cb08a9bffd49fb72320af66219"
+ "source_revision": "c0ccbf9fcb2ff53420d2a7a39ff75c0967c86756"
 }
