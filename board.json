@@ -3630,7 +3630,7 @@
     {
      "who": "CLOUD_BOARD",
      "since": "2026-11-14T09:41Z",
-     "noted": "",
+     "noted": "2026-11-14T09:42Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -3660,6 +3660,11 @@
      "by": "CLOUD_BOARD",
      "at": "2026-11-14T09:40Z",
      "text": "CLOUD_BOARD 2026-11-14: camera.render.start (CameraRenderDiagnostics.TryRunCommand), vpn.radio (MotorolaIp.RadioIdentityDebug.TryRunCommand) and render.depth (MAVShaders.ScreenNormalsManager.TryRunCommand) moved out of AI_Sandbox_DeviceDebu"
+    },
+    {
+     "by": "CLOUD_BOARD",
+     "at": "2026-11-14T09:42Z",
+     "text": "CLOUD_BOARD 2026-11-14: also moved vpn.users (AuthenticatedUserDirectory.Diagnostics.TryRunCommand) and ui.settings.rows/press (C_GroundStation_Inspector_Backdoor.cs, RowsCommand), uncompiled. Left for a local agent (size, wants the compile"
     }
    ]
   },
@@ -4566,5 +4571,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ab23339f1c01368b459fc0500496d87ce38dac88"
+ "source_revision": "1bfd3aafa83eb70bd016385f48ee98fba5de1317"
 }
