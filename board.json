@@ -6887,14 +6887,20 @@
     {
      "who": "CODEX_GRAPHICS",
      "since": "2026-11-14T22:41Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-14T22:47Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_GRAPHICS",
+     "at": "2026-11-14T22:47Z",
+     "text": "Published 51d1b699da. Direct cause: retained blur missed visible-world motion while camera/input stayed quiet. Shared WakeRegister.WorldMotion now supplies that decision, excluding Touch/Menu pacing. Regression fails on old source; blur 6/6"
+    }
+   ]
   },
   {
    "n": 762,
@@ -6966,5 +6972,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "eabed58435f2d3161f222c20d1535cf462330eb2"
+ "source_revision": "4e4a00cb7a2a12d733166d8616360328fb261347"
 }
