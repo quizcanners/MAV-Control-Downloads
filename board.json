@@ -4507,7 +4507,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T10:06Z",
-     "noted": "",
+     "noted": "2026-11-14T10:13Z",
      "progress": 50,
      "ticked": 1,
      "total": 2
@@ -4523,7 +4523,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-14T10:13Z",
+     "text": "c468625dc7 keeps the left altitude scroller and its labels beside video even when cached telemetry bounds are invalid. At 543x276 the live dock placed the label 35 canvas units clear of video after the change (was 441 units inside its right"
+    }
+   ]
   },
   {
    "n": 641,
@@ -4825,5 +4831,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "be25147c908bdd7af4bc1d7a51a6b7f2d61064f6"
+ "source_revision": "fb2d35f183ca97fd4f2feab52e2ee7fb03e9a9f5"
 }
