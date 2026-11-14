@@ -5880,8 +5880,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T16:58Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-14T17:05Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -5889,14 +5889,14 @@
    "steps": [],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-14T16:51Z",
-     "text": "Windows Editor 840: WindowCapture Running, shown_available=False. Across eight 1 s backdoor samples, capture generation 2 and frame version 13 stayed flat, no JPEG demand, NonInteracting remained True (input revision 30), and Video/OnScreen"
-    },
-    {
      "by": "CODEX_GRAPHICS",
      "at": "2026-11-14T16:54Z",
      "text": "Switching to the requested iOS update. Mac real-station capture: 24 samples, FrozenDouble/8 FPS with input_revision=0 and all video flags false; evidence ~/Builds/PerformanceEvidence/Video-Wake-20261114/. Windows HEAVY evidence now identifi"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-14T17:05Z",
+     "text": "5b75f7fb20 separates Windows VideoCapture.IsRunning from the map motion vote while preserving its video work budget and the live view/projection paths. Roslyn clean in all four configurations. Build 840 remains in Play for quiz; current-sou"
     }
    ]
   },
@@ -6001,5 +6001,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "267b25995941f0b570eca8bd3d82652653e55cb4"
+ "source_revision": "45f8547adb19e287a853594640c0805f7fd847c9"
 }
