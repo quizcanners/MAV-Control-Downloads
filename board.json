@@ -904,7 +904,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-14T13:04Z",
+     "noted": "",
+     "progress": 22,
+     "ticked": 2,
+     "total": 9
+    }
+   ],
    "steps": [
     {
      "t": "Strong (Android 13) over SV07 Bluetooth cannot work: its Bluetooth address 39:23",
@@ -1388,7 +1397,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "REVIEW",
+     "at": "2026-11-14T13:04Z",
+     "text": "REVIEW-505 CR-3C3D-01: [P3 S1/S2 brief](../Reviews/95c3e9a28.md#cr-3c3d-01--p3-replacing-a-multiline-task-note-leaves-its-old-body-behind) ready: replacing a multiline note removes its heading but leaves stale continuation lines, which can "
+    }
+   ]
   },
   {
    "n": 418,
@@ -5321,5 +5336,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ea73c93e9d879f1d38fcbbb218a529a0add51064"
+ "source_revision": "1e8504a9899aa16680fe1589ab7f1cd244608c61"
 }
