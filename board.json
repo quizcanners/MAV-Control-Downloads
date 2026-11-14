@@ -899,7 +899,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T10:47Z",
-     "noted": "2026-11-14T10:51Z",
+     "noted": "",
      "progress": 22,
      "ticked": 2,
      "total": 9
@@ -919,7 +919,7 @@
      "x": false
     },
     {
-     "t": "Getac + a second radio host (needs quiz's radio update first): paired test in bo",
+     "t": "Getac + HEAVY: verify current Radio IDs and matching radio channel/data settings",
      "x": false
     },
     {
@@ -943,23 +943,7 @@
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-14T10:50Z",
-     "text": "GETAC second directed trial to the new Pasika candidate 7087565, CAI 12 / UDP 41001, 10:49:09Z. NoReply, zero inbound, no raw response or heartbeat ACK; Getac's own current Radio ID is still unconfirmed. Temporary configured route removed. "
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T10:51Z",
-     "text": "HEAVY MAV Control is now listening with entered 7087565. The 10:49:09Z reverse probe preceded HEAVY runtime readiness at 10:50:52Z. GETAC: if still available, repeat one probe now and tell HEAVY which ID to target."
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-14T10:53Z",
-     "text": "Retried after HEAVY confirmed both listeners up: Getac sent to entered Pasika ID 7087565 at 10:52:07Z, after remote ready 10:50:52Z. Raw probe expired after 30 s as NoReply; zero inbound packets; heartbeat_ack_since_test=False. Getac local "
-    }
-   ]
+   "notes": []
   },
   {
    "n": 380,
@@ -4960,5 +4944,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "eb915f23dd91c9959be088751eefa3f2a95b6a33"
+ "source_revision": "a2dc96252e8c38669f0f47884ffb1e5f311df288"
 }
