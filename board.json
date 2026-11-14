@@ -156,16 +156,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-14T11:07Z",
-     "noted": "",
-     "progress": 56,
-     "ticked": 5,
-     "total": 9
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: the state machine and every mode, 1 s settle, release-frame full resolu",
@@ -209,6 +200,11 @@
      "by": "HEAVY",
      "at": "2026-11-14T09:18Z",
      "text": "Windows RenderDoc evidence at 90bd5e122b: before 0fd51631c6, two kept frames each had one stored-map blit, UI draws, and zero live world Shapes passes. A temporary positive control proved refresh submission only; its presence in stored pixe"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T12:50Z",
+     "text": "DJI Pilot 834 had 7.5 FPS and 835 measured 47.77 FPS, median 16.68 ms and worst 33.54 ms over 125 SurfaceFlinger presents with live video. Tablet dynamic resolution and battery checks remain on this goal."
     }
    ]
   },
@@ -944,6 +940,11 @@
      "by": "HEAVY",
      "at": "2026-11-14T12:47Z",
      "text": "After quiz reconnected both radios and moved IDs to 7-prefix, Windows 835 rebound Ethernet 9 USB at 192.168.10.2:41001 (interface pin matched), CAI 12. Entered 7089031 remains unconfirmed (NoEcho); bound gateway 192.168.10.1 returned 0/3. D"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T12:50Z",
+     "text": "GETAC after reconnect: Bluetooth PAN 192.168.11.2 reached its own gateway 192.168.11.1 on 3/3 source-bound echoes; MAV Control Windows 817 bound CAI 12 / UDP 41001 on interface 15. The explicit 13-candidate own-ID sweep returned NoEcho, ID "
     }
    ]
   },
@@ -4822,250 +4823,207 @@
   {
    "n": 663,
    "name": "Pilot view",
-   "done": "",
+   "done": "2026-11-14T12:50Z",
    "goal": false,
    "under": 364,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-14T11:13Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T12:50Z",
+     "text": "Pilot 835 with live DJI video measured 47.77 FPS versus 7.5 in 834. Same-view transition policy landed in 261c3a58ae."
+    }
+   ]
   },
   {
    "n": 664,
    "name": "Pilot view virtual gimbal",
-   "done": "",
+   "done": "2026-11-14T12:50Z",
    "goal": false,
    "under": 364,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-14T11:13Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T12:50Z",
+     "text": "Operator confirmed smoother rotation on 835. The follow-up uses 0.15 s for the virtual gimbal and smooths optical zoom in log focal length, 63ce33e917. Animation guide updated."
+    }
+   ]
   },
   {
    "n": 665,
    "name": "Main view zoom scroller",
-   "done": "",
+   "done": "2026-11-14T12:50Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-14T11:13Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T12:50Z",
+     "text": "Selected Peer or Drone suppresses the bottom zoom scroller in 261c3a58ae."
+    }
+   ]
   },
   {
    "n": 666,
    "name": "Pilot view camera actions",
-   "done": "",
+   "done": "2026-11-14T12:50Z",
    "goal": false,
    "under": 364,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-14T11:15Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T12:50Z",
+     "text": "Fixed-position camera controls and disabled action state landed in 261c3a58ae. An isolated camera command test remains for device verification."
+    }
+   ]
   },
   {
    "n": 667,
    "name": "Pilot telemetry grid",
-   "done": "",
+   "done": "2026-11-14T12:50Z",
    "goal": false,
    "under": 364,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-14T11:16Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
      "at": "2026-11-14T11:57Z",
      "text": "Windows EditMode All on 3445342b20: PilotTelemetryKeepsItsOrderAndOnlyItsBottomRowDarkens expected Battery Readout but saw Goal Readout. This is the one remaining failure outside the Chat layout changes. XML C:/MavControlEvidence/Windows-67"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T12:50Z",
+     "text": "Shared blur, full-width one-pixel horizontal rules, bottom-row merge and bottom safe-area alignment landed in 4bcb7240ef, a15f6bedfc and 5475f8c8bb."
     }
    ]
   },
   {
    "n": 668,
    "name": "DJI aircraft memory-card warning",
-   "done": "",
+   "done": "2026-11-14T12:50Z",
    "goal": false,
    "under": 364,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-14T11:18Z",
-     "noted": "2026-11-14T12:11Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-14T12:11Z",
-     "text": "GETAC task 668: DJI HMS 0x1C000404 is a camera memory-card detection warning (DJI Mobile-SDK-Android hms.json). 261c3a58ae supplies explanatory copy and greys Record based on SDK camera mode, selected-storage readiness and confirmed recordi"
+     "at": "2026-11-14T12:50Z",
+     "text": "DJI HMS 0x1C000404 was still present on RC build 835, with recording unavailable. Localized explanation and copyable Aircraft Health inspector landed in 63ce33e917. Hardware recovery remains unverified."
     }
    ]
   },
   {
    "n": 669,
    "name": "Main view map touches",
-   "done": "",
+   "done": "2026-11-14T12:50Z",
    "goal": false,
    "under": 410,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-14T11:19Z",
-     "noted": "2026-11-14T12:11Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-14T12:11Z",
-     "text": "GETAC 835 follow-up. Signed Android 835 from cf970722f1 includes all Pilot changes in 261c3a58ae. Roslyn clean, production packaging/identity/v2 signature pass. Strong installed and reached foreground map; centre (1020,560) and upper-right "
+     "at": "2026-11-14T12:50Z",
+     "text": "Strong on signed 835 reached the map and bare-map drags moved terrain from center (1020,560) and upper right (1510,440). Screenshots retained under D:/MAV_Work/Verification/20261114-DJI-Pilot-followup."
     }
    ]
   },
   {
    "n": 670,
    "name": "DJI camera switching",
-   "done": "",
+   "done": "2026-11-14T12:50Z",
    "goal": false,
    "under": 364,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-14T11:20Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T12:50Z",
+     "text": "The DJI camera owner retains requested lens and retries with readback; informational camera hints avoid requesting a repeated tap. Landed in 261c3a58ae."
+    }
+   ]
   },
   {
    "n": 671,
    "name": "Pilot view",
-   "done": "",
+   "done": "2026-11-14T12:50Z",
    "goal": false,
    "under": 364,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-14T11:21Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T12:50Z",
+     "text": "Independent Pilot action tongues and outward folding landed in 261c3a58ae; scroll/press component conflict corrected in 63ce33e917."
+    }
+   ]
   },
   {
    "n": 672,
    "name": "Pilot view Game camera",
-   "done": "",
+   "done": "2026-11-14T12:50Z",
    "goal": false,
    "under": 364,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-14T11:23Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T12:50Z",
+     "text": "Pilot Game camera follows the reported camera pose separate from the Operator camera offset, 261c3a58ae."
+    }
+   ]
   },
   {
    "n": 673,
@@ -5199,48 +5157,42 @@
   {
    "n": 680,
    "name": "Settings App updates",
-   "done": "",
+   "done": "2026-11-14T12:50Z",
    "goal": false,
    "under": 374,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-14T12:16Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T12:50Z",
+     "text": "App updates shows installed identity and up-to-date state and defaults to its own channel; explicit channel choice is kept. 63ce33e917 plus merged Glass Selector. Device verification pending."
+    }
+   ]
   },
   {
    "n": 681,
    "name": "Notifications",
-   "done": "",
+   "done": "2026-11-14T12:50Z",
    "goal": false,
    "under": 410,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-14T12:17Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T12:50Z",
+     "text": "Flick acknowledges only the current DJI warning types. Reordered, repeated and temporarily cleared codes do not reopen the notice; a new type shows latest warning and count. Tap opens copyable full details. Source 01731fd6d6 and 1b7d32b886."
+    }
+   ]
   },
   {
    "n": 682,
@@ -5265,29 +5217,25 @@
   {
    "n": 683,
    "name": "Street View selection",
-   "done": "",
+   "done": "2026-11-14T12:50Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-14T12:24Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
      "at": "2026-11-14T12:46Z",
      "text": "Windows native All caught CS0200 in PhotoEditingProjectionTests.cs:153. Both HEAVY's isolated retry and main dd495badd9 use Street View's selection owner; main is canonical and cmp.sh now ends NEW ERRORS: none. Native retry still running un"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T12:50Z",
+     "text": "Selected Street View stays selected in Pilot and has Main Projector priority; other sources keep Pano360 where applicable. e14843dac6. Device verification pending."
     }
    ]
   }
@@ -5338,5 +5286,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d797c642ae23641245038fd56d7e47477df530bb"
+ "source_revision": "fcd011247102ab845874f6a279dfc6b413da8d9e"
 }
