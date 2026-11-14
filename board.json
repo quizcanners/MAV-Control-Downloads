@@ -2312,16 +2312,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-14T21:06Z",
-     "noted": "2026-11-14T21:10Z",
-     "progress": 80,
-     "ticked": 4,
-     "total": 5
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Cloud: chunks 1-5 on main (Process handlers to Receive*/Apply*, about 330 files ",
@@ -6313,7 +6304,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-14T21:11Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupSce",
@@ -6744,5 +6744,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "05f25e324c195c61e661512e8194115abccb9fa1"
+ "source_revision": "457aa7d1f55d6ea0faa2db7e935baa6eaeb0a54d"
 }
