@@ -1040,9 +1040,17 @@
      "who": "CODEX_MAC_UI",
      "since": "2026-11-14T06:15Z",
      "noted": "",
-     "progress": 36,
-     "ticked": 4,
-     "total": 11
+     "progress": 50,
+     "ticked": 6,
+     "total": 12
+    },
+    {
+     "who": "CODEX_MAC_UI",
+     "since": "2026-11-14T06:15Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 6,
+     "total": 12
     }
    ],
    "steps": [
@@ -1079,8 +1087,8 @@
      "x": false
     },
     {
-     "t": "Rog/Mac (minor, seen at 1024x1024): the bottom rail's Settings gear overlaps the",
-     "x": false
+     "t": "Menu rail clears Settings and the thermal label at 1024x1024 (5894f52fa2); Layer",
+     "x": true
     },
     {
      "t": "Optional Editor pass: 29 objects in 11 prefabs use plain UI_MergableListElementB",
@@ -1089,20 +1097,13 @@
     {
      "t": "Awaiting quiz (briefs ready, no work until he reads): [REVIEW-487 CR-18DF-01 P2,",
      "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T20:53Z",
-     "text": "Compass is centered over the visible time plaque background in a283c25514; Editor measured centers 492.8412 and 492.8414 pixels, with the existing vertical gap preserved. Map screen check bumped; device appearance remains unverified."
     },
     {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T21:33Z",
-     "text": "At 1024x1024, six 180-unit tabs exceeded the rail space left by Settings; fixed-width 145-unit cells and a one-line Ukrainian Performance caption clear the gear in 5894f52fa2. Editor screenshots also show the thermal swatch clear of its lab"
+     "t": "Compass and time plaque centers aligned in the Editor (a283c25514); device appea",
+     "x": true
     }
-   ]
+   ],
+   "notes": []
   },
   {
    "n": 408,
@@ -3962,5 +3963,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "138dd0216ad88e4f689e47db5baeae181b887f1f"
+ "source_revision": "8f6bffd44e536a8927dd9398d901366e61646eb2"
 }
