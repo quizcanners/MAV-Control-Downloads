@@ -4106,7 +4106,7 @@
     {
      "who": "CLOUD_DOT_630",
      "since": "2026-11-14T13:52Z",
-     "noted": "",
+     "noted": "2026-11-14T13:52Z",
      "progress": 25,
      "ticked": 1,
      "total": 4
@@ -4135,6 +4135,11 @@
      "by": "REVIEW",
      "at": "2026-11-14T09:55Z",
      "text": "REVIEW-502 CC-7D64-01: [P3 S1/S2 complexity brief](../Reviews/cba77839b.md#cc-7d64-01--p3-camera-failures-rediscover-devices-on-every-update) ready for quiz before refactoring. A blocked camera attempt re-enters device enumeration/capture s"
+    },
+    {
+     "by": "CLOUD_DOT_630",
+     "at": "2026-11-14T13:52Z",
+     "text": "Cloud lane: CC-7D64-01 camera terminal-failure retry, source and focused tests only. Current Tick reopens on null after NoCamera/CaptureFailed; 6ab828ad89 changes discovery timing, not that loop. Preserve permission pending/grant/denial, pa"
     }
    ]
   },
@@ -5643,5 +5648,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c0ccbf9fcb2ff53420d2a7a39ff75c0967c86756"
+ "source_revision": "ed43049efa7898663827f84c26b32e73236b0694"
 }
