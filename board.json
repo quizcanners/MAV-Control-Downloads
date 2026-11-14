@@ -467,7 +467,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T11:17Z",
-     "noted": "",
+     "noted": "2026-11-14T11:20Z",
      "progress": 29,
      "ticked": 2,
      "total": 7
@@ -506,11 +506,6 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-13T22:51Z",
-     "text": "GETAC Android 833 at 8a926446a6: clean Roslyn, signed APK, Strong reached the map, reservation 618 done. Material default fix 88d9e8b4a7 cleared the integrity refusal. Native All now completed in 1,950 s with 8,510 passed, 20 failed, 8 skip"
-    },
-    {
-     "by": "GETAC",
      "at": "2026-11-14T02:12Z",
      "text": "Android 833 (8a926446a6) complete failing-case roster, 20 red: BackgroundChatCheckpointTests.CanceledAndReadoptedSameTokenSurvivesAnOlderRootCompletion; BackgroundChatCheckpointTests.DetachedCapturedOwnerKeepsDirtyHistoryAndNativeAdmissions"
     },
@@ -518,6 +513,11 @@
      "by": "GETAC",
      "at": "2026-11-14T06:16Z",
      "text": "GETAC Android Test handoff: signed Brigade 68 APK 834 from 9e4cb78c55, production ARM64 and exact Roslyn clean. Fixture repairs 2230c90d27, bed2e5490e and 3c99b4ecdd are on main. Native EditMode All at 3c99b4ecdd: 8534 passed, 0 failed, 8 s"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-14T11:20Z",
+     "text": "HEAVY started fresh Windows Unity 6000.6.8f1 EditMode All on production source 1d1654e7fd (private candidate a68ce9e506134836bd9ad09c47bbac59). Native PID 31340 is importing. Roslyn NEW ERRORS: none. Monitor this run and retain XML/qualific"
     }
    ]
   },
@@ -5134,6 +5134,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 670,
+   "name": "DJI camera switching",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-14T11:20Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5182,5 +5205,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5c65014c9166a1d95b85214e5c7541575f12465c"
+ "source_revision": "b889b7d6300becfcd52448bdfa29062a720679dc"
 }
