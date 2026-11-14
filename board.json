@@ -3446,30 +3446,23 @@
    "held": [],
    "steps": [
     {
-     "t": "Move the AI Sandbox dispatcher commands to their owners",
+     "t": "On main: early break for VPN down in Peer.CanUseSyncConnection (a1614a81); Diagn",
+     "x": true
+    },
+    {
+     "t": "Dispatcher commands left in AI_Sandbox_DeviceDebugCommands*.cs: the remaining vp",
      "x": false
     },
     {
-     "t": "Move what is left in Singleton_GroundStation and Station to the systems that own",
+     "t": "Classes still inside Singleton_GroundStation and Station (UI, Focus, Input, Enum",
      "x": false
     },
     {
-     "t": "Early breaks at the right depth",
+     "t": "Also open: Linked Browser capture from a peer click private to the viewer, pings",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CLOUD",
-     "at": "2026-11-14T10:46Z",
-     "text": "CLOUD 2026-11-14: camera.cullmask, camera.clear, render.features, render.canvases moved to Diagnostics.CameraRender (CameraRenderDiagnostics_Probe.cs, uncompiled; RenderProbe file in AI Sandbox deleted). Left: vpn.*, ui.settings.rows, train"
-    },
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-14T11:29Z",
-     "text": "CR-3BAC-01 fixed in 112e80d08e (uncompiled): OpenAsync retains and activates tab[id], not the old null snapshot. Need for verify: Open an ordinary link with no retained tab."
-    }
-   ]
+   "notes": []
   },
   {
    "n": 601,
@@ -5151,5 +5144,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a1d559dd7e74935772fd190e1e99dd14a06fe3ab"
+ "source_revision": "dc5dc8e880b1014dc25f5f27987a8a1d1ae9b6dd"
 }
