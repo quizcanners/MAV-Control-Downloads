@@ -160,7 +160,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T13:22Z",
-     "noted": "",
+     "noted": "2026-11-14T13:31Z",
      "progress": 56,
      "ticked": 5,
      "total": 9
@@ -214,11 +214,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-14T09:18Z",
-     "text": "Windows RenderDoc evidence at 90bd5e122b: before 0fd51631c6, two kept frames each had one stored-map blit, UI draws, and zero live world Shapes passes. A temporary positive control proved refresh submission only; its presence in stored pixe"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-14T12:50Z",
      "text": "DJI Pilot 834 had 7.5 FPS and 835 measured 47.77 FPS, median 16.68 ms and worst 33.54 ms over 125 SurfaceFlinger presents with live video. Tablet dynamic resolution and battery checks remain on this goal."
@@ -227,6 +222,11 @@
      "by": "CODEX_GRAPHICS",
      "at": "2026-11-14T13:28Z",
      "text": "Done: task 687, 8e9eff2630 / merge 960d4b5650; kept-map frames skip pseudo-decal scan and pass setup."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-14T13:31Z",
+     "text": "Windows wheel tail fix ba5dd27e98: MapMotion ignores changes confined to the depth row while retaining viewport, zoom and lens-shift detection. Windows 835 baseline showed URP 0.5 with camera as reason after wheel input, eventually returnin"
     }
    ]
   },
@@ -5415,5 +5415,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "fd7fb1a16c113c27e65cc34fa3d64741bfceb58f"
+ "source_revision": "3aa3ab614c5f06922e86b6318108cf78c2cc91c4"
 }
