@@ -484,7 +484,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-14T07:21Z",
+     "noted": "",
+     "progress": 25,
+     "ticked": 3,
+     "total": 12
+    }
+   ],
    "steps": [
     {
      "t": "Server declaration written without Nix: WireGuard optional with its subnet from ",
@@ -3994,5 +4003,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "76ea8a18a847dc4d368b0052ce83c3371fa5ba1b"
+ "source_revision": "bceffc3e0b7f1d628cf988fd3cdf3a3f0ee99ed8"
 }
