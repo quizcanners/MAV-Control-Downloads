@@ -6482,7 +6482,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T22:42Z",
-     "noted": "",
+     "noted": "2026-11-14T22:55Z",
      "progress": 67,
      "ticked": 2,
      "total": 3
@@ -6505,8 +6505,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-14T22:25Z",
-     "text": "68a5d11e64 deepens Planet Renderer ribbon subdivision with the same cap of 24 extra ground queries per frame."
+     "at": "2026-11-14T22:55Z",
+     "text": "1c0b2ffab9 queues changed ribbon surfaces directly under the existing Raycasts budget, cancels stale probes and waits for new terrain/camera evidence before retrying a missing source."
     }
    ]
   },
@@ -6997,5 +6997,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "9b4622e6f95627140f86a6423267c26db160211d"
+ "source_revision": "40d2891e7eb73185f56c9d90d209f0ee08233777"
 }
