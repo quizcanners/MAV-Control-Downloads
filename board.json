@@ -1416,7 +1416,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-14T08:00Z",
+     "noted": "",
+     "progress": 14,
+     "ticked": 3,
+     "total": 22
+    }
+   ],
    "steps": [
     {
      "t": "Cloud, on main: startup cuts (Input, AgentChannel, DefaultPosition, Geoid, inset",
@@ -4122,5 +4131,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ca52cb345388ebfd9110b002f2fb7a338999973c"
+ "source_revision": "153f2d3cb44623f65e4976e1c0e1c27304b2425a"
 }
