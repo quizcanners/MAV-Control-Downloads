@@ -1231,7 +1231,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T21:23Z",
-     "noted": "",
+     "noted": "2026-11-14T21:26Z",
      "progress": 57,
      "ticked": 4,
      "total": 7
@@ -1270,8 +1270,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-14T21:21Z",
-     "text": "c078abd909 fixes the Left Lists exception when Main UI is disabled after Bootstrap: teardown restores the presentation without reading layout and releases the last scope's cached controls. Windows Play script reload and exit had no recurren"
+     "at": "2026-11-14T21:26Z",
+     "text": "34ae6bf112 guards the left panel Update, swipe and handle paths when Bootstrap is gone and clears the held pointer on disable. Windows compiled, related Unity fixtures 31/31 and Roslyn no new errors. Play reload logged no swipe component er"
     }
    ]
   },
@@ -6780,5 +6780,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "83429efe6615e9dca0297092d638eeb667eb96e6"
+ "source_revision": "95df357cd1e64f35c2bc4fc5911cc8ef70228ad9"
 }
