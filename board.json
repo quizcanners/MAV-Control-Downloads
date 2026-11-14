@@ -6354,7 +6354,7 @@
     {
      "who": "ROG",
      "since": "2026-11-14T23:53Z",
-     "noted": "",
+     "noted": "2026-11-14T23:59Z",
      "progress": 50,
      "ticked": 2,
      "total": 4
@@ -6391,8 +6391,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-14T23:51Z",
-     "text": "290c6a0d12 closes Background Tracker UDP during pause/resume/shutdown and keeps both legacy and sealed position queues station-local. Windows Unity compiled, 15 targeted tests passed, including real loopback same-port rebind, worker exit, o"
+     "at": "2026-11-14T23:59Z",
+     "text": "5acc8b0a2b scopes the watchdog per shutdown and removes its CancellationTokenSource wait handle. Windows Unity 19/19 StartupBatchTimingTests. Forced recompile while in MapOnly Play completed: 9 scenes -> Bootstrap only -> 9, station ready a"
     }
    ]
   },
@@ -7151,5 +7151,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "45346bbb77dd1e2b666a2d1fa282ca646989c4c6"
+ "source_revision": "181da7d0344d2aa11fdb6a485f99ccab8d28f49c"
 }
