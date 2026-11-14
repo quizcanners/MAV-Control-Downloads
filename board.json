@@ -1240,7 +1240,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T21:43Z",
-     "noted": "",
+     "noted": "2026-11-14T21:53Z",
      "progress": 57,
      "ticked": 4,
      "total": 7
@@ -1279,8 +1279,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-14T21:30Z",
-     "text": "cbf7dfc2d9 fixes startup ui.list failures. Windows Unity compiled with zero Console errors; four Roslyn sets reported no new errors. Startup probe returned four ui_lists_not_ready replies, then 56 successful Waypoints requests and a normal "
+     "at": "2026-11-14T21:53Z",
+     "text": "92ce45a658 fixes UI_LeftListTabsLayout.OnDisable reading live visibility after camera shutdown. DeferredListViewsTests 9/9, Windows reload and Play exit at 1000x800 logged no recurrence. Device gesture/haptic work remains. Evidence C:/MavCo"
     }
    ]
   },
@@ -6829,5 +6829,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "de545d9ff0d823c1648e1d474a8aaacbda8d362f"
+ "source_revision": "13929d7d7ec481d2ae1f827e3f1b46365ae6abb7"
 }
