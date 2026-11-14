@@ -6744,14 +6744,20 @@
     {
      "who": "GETAC",
      "since": "2026-11-14T21:36Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-14T22:03Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T22:03Z",
+     "text": "3835d946cb removes the temporary 96-byte public offer allocation, avoids arrays for a zero retired key, and reuses decoded confirmation keys. Host extracted-source checks preserved wire bytes with/without a retired key and ownership; scoped"
+    }
+   ]
   },
   {
    "n": 755,
@@ -6866,5 +6872,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "61116059ee54dcbd05338ba06d5f7868495624cd"
+ "source_revision": "4993452168aef96bea5da00ceedf5fbe2fab2795"
 }
