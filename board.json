@@ -6337,7 +6337,7 @@
     {
      "who": "ROG",
      "since": "2026-11-14T21:49Z",
-     "noted": "",
+     "noted": "2026-11-14T21:52Z",
      "progress": 50,
      "ticked": 2,
      "total": 4
@@ -6363,11 +6363,6 @@
    ],
    "notes": [
     {
-     "by": "cloud-teardown",
-     "at": "2026-11-14T18:14Z",
-     "text": "Root unload + SPEC done; static-cache audit and Editor recompile run left"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-14T21:14Z",
      "text": "Windows Unity and four Roslyn configurations passed. e8f2421557 detaches camera-target keepalive, releases the runtime URP copy and restores the original asset, and restores the exact Editor asset changed. Active Sharp still frame passed Pl"
@@ -6376,6 +6371,11 @@
      "by": "CODEX_GRAPHICS",
      "at": "2026-11-14T21:32Z",
      "text": "Remote Sensors ticket teardown is published in 258abaf71c (task 753 done): coordinate replacement, removal, render-asset rebuild and shutdown cancel owned batched-ray tickets. Native 21/21 covers queued, in-flight and completed answers plus"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-14T21:52Z",
+     "text": "c78be8c970 wires a dedicated Video Processing shutdown into Bootstrap. It stops shared live contrast before clearing frame data, releasing both GPU targets and the material even without a fullscreen viewer. Windows Unity compile clean; Vide"
     }
    ]
   },
@@ -6829,5 +6829,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "bafd337f5a698eaed796e94e0f01decb0d8aac85"
+ "source_revision": "6960719e69a9389e72269e61183ab9b349f95873"
 }
