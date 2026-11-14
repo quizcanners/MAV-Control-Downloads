@@ -4669,6 +4669,29 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 648,
+   "name": "Count a view shift as camera mov",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "CountViewChangeAsMovement in Singleton_MainCamera",
+     "x": true
+    },
+    {
+     "t": "Bootstrap AGENTS.md rule",
+     "x": true
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -4717,5 +4740,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ee3ef53d843bb17715659a944092de05df9d5fd1"
+ "source_revision": "479bd68afbf065e5f97412c2d679ee7e5edf80fa"
 }
