@@ -5766,8 +5766,8 @@
     {
      "who": "ROG",
      "since": "2026-11-14T22:49Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-14T22:52Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -5778,6 +5778,11 @@
      "by": "HEAVY",
      "at": "2026-11-14T20:42Z",
      "text": "Windows D3D11 Editor, 6d1972ec0f: 90 idle backdoor samples across 78.05 s all stayed FrozenDouble/MapStatic, about 8 FPS. Four samples hit the scheduled 2x refresh rather than the retained picture; current wake reasons stayed empty, last_wa"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-14T22:52Z",
+     "text": "ed7875c531 uses the map camera pixel rectangle for shared translation wake checks, including GPS and peer crosshairs. Before fix Windows native probe reported motion at pixels x=310\u2013320 outside a camera ending at x=300. MapRenderModeTests 2"
     }
    ]
   },
@@ -6969,5 +6974,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d3d5a63bd9eeab0b5f03441c3378bf08ff41fe8c"
+ "source_revision": "1e7739e973c852bd3fd0a99974c06ef075df66c1"
 }
