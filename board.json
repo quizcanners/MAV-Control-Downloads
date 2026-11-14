@@ -3586,6 +3586,14 @@
    "held": [],
    "steps": [
     {
+     "t": "CLOUD_BOARD 2026-11-14: stripped 669 bare '(quiz, date)' tags, removed 750 paren",
+     "x": true
+    },
+    {
+     "t": "Left: ~90 inline 'quiz, date' mentions in running prose of SPEC/AGENTS files, RE",
+     "x": false
+    },
+    {
      "t": "Assets/_PROJECT/UI and UI/Guides",
      "x": false
     },
@@ -3598,31 +3606,11 @@
      "x": false
     },
     {
-     "t": "Assets/_PROJECT/Drone Control, Tests, Tools, root guides",
-     "x": false
-    },
-    {
-     "t": "Delete any remaining line marked replaced or superseded by a newer quiz word",
+     "t": "Assets/_PROJECT/Drone Control, Tests, Tools, root guides; delete any remaining l",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CLOUD_META",
-     "at": "2026-11-13T18:35Z",
-     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [AGENTS.md] \"preserve them only for tasks. The spec lists and agent files, actually spec lists especially needs to have very clean and nice, understandable, o"
-    },
-    {
-     "by": "CLOUD_BOARD",
-     "at": "2026-11-14T09:37Z",
-     "text": "CLOUD_BOARD 2026-11-14: stripped 669 bare '(quiz, date)' tags from non-heading lines in 137 SPEC.md/AGENTS.md files (guide_check 0 errors). Left: tags inside headings (anchors link to them, rename with links), tags with a quote inside the p"
-    },
-    {
-     "by": "CLOUD_BOARD",
-     "at": "2026-11-14T09:39Z",
-     "text": "CLOUD_BOARD 2026-11-14: removed 750 parenthetical quotes, 170 quote blocks, 272 heading tags (anchors and links renamed) from SPEC/AGENTS files; guide_check 0 errors. The removed quotes, as they stood, are kept in the project files at archi"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 607,
@@ -5144,5 +5132,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "dc5dc8e880b1014dc25f5f27987a8a1d1ae9b6dd"
+ "source_revision": "4041c559e06a003d5037218d2438742902fff956"
 }
