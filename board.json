@@ -5222,14 +5222,20 @@
     {
      "who": "CODEX_GRAPHICS",
      "since": "2026-11-14T12:21Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-14T12:26Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_GRAPHICS",
+     "at": "2026-11-14T12:26Z",
+     "text": "Implemented depth LOD 0 in all three Pano360 readers; texture owner explicitly keeps one mip. Native Metal four direct states compile; shared projection RGBA identical for 1-5 photos; edited-shader fixture passes and pre-merge Roslyn clean."
+    }
+   ]
   },
   {
    "n": 683,
@@ -5301,5 +5307,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "eae37fdb5fe7d89166d5880269af1cc25e829547"
+ "source_revision": "085f0ccdc31a3ddfd447da65a230d4b74b2d3fb0"
 }
