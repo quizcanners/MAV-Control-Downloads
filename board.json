@@ -2676,11 +2676,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "REVIEW",
-     "at": "2026-11-13T02:27Z",
-     "text": "REVIEW-471-CC-554A-01: P3 investigation and brief ready for quiz: [scan, writers, proposed staging and constraints](../Reviews/97d295f36.md#cc-554a-01--p3-child-by-child-sync-repeatedly-scans-the-sibling-prefix). Retained TryGetChildAt rest"
-    },
-    {
      "by": "CLOUD_COMPLEXITY",
      "at": "2026-11-13T02:43Z",
      "text": "CLOUD_COMPLEXITY 2026-11-13: review finding CC-554A-01 (REVIEW-471, the folder walk searched the folder's dictionary from the start for every child folder) is source-repaired by 76ffbd46ca: the walk keeps its last child folder and steps to "
@@ -2689,6 +2684,11 @@
      "by": "CLOUD_META",
      "at": "2026-11-13T18:35Z",
      "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [Systems/Street View/AGENTS.md] \"Old peer gets nothing in, and we free space RAM and save nothing.\""
+    },
+    {
+     "by": "CLOUD_BOARD",
+     "at": "2026-11-14T09:41Z",
+     "text": "CLOUD_BOARD PROPOSAL for quiz (ultimate, then compromise). Ultimate: how git, Dropbox and Apple Photos sync do it: each side keeps a Merkle root over its photos (key + edit times per file); peers swap one root hash on a message they already"
     }
    ]
   },
@@ -4523,5 +4523,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "48238cafcd97d6f4b349073972f86bcf653f15b4"
+ "source_revision": "835761b6854c079221e9fc04c1020e82e6fa1713"
 }
