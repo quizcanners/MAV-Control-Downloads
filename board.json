@@ -761,11 +761,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-14T10:40Z",
-     "text": "DJI RC Plus 2: 822 found, downloaded and verified Android Test 834 via the app. The first Install on this run reached AwaitingPermission and Android showed Allow from this source off for MAV Control. Enabled that app-scoped permission. On r"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-14T12:34Z",
      "text": "Brigade 68 Windows IL2CPP 835 built from 085f0ccdc3, verified 93-entry private portable, and rendered the map. In App updates, Test selected by tap and Refresh diagnostics confirmed checked Test / windows-x64 / Division_Brigade_68; no publi"
@@ -774,6 +769,11 @@
      "by": "CODEX_GRAPHICS",
      "at": "2026-11-14T12:49Z",
      "text": "iOS 837 qualification finished on 15728c8a4c: 8,491 passed, 5 failed, 31 skipped. Failed: PilotContainment capture optics (3 subcases), PendingSearchReturnYieldsToNewerSheetIntent (2), PilotTelemetryUsesOnePanelAndKeepsAllTenReadoutsInOrder"
+    },
+    {
+     "by": "CODEX_UPDATES",
+     "at": "2026-11-14T12:51Z",
+     "text": "Android 835 (cf970722f1) is signed and reached the Strong map, but EditMode All failed 4 (3 MavChat Search return, 1 Pilot telemetry order). Drive Android/Test and live sealed catalog still list only 834. The channel/default/status fix 63ce"
     }
    ]
   },
@@ -5286,5 +5286,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "fcd011247102ab845874f6a279dfc6b413da8d9e"
+ "source_revision": "12d624441a63ec8ca9645a675d795c5b49ffb7a4"
 }
