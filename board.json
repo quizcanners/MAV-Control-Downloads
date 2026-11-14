@@ -664,7 +664,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T07:23Z",
-     "noted": "",
+     "noted": "2026-11-14T07:27Z",
      "progress": 25,
      "ticked": 3,
      "total": 12
@@ -720,7 +720,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-14T07:27Z",
+     "text": "HEAVY Windows self-contained RoutingServer.Tests reproduced an intermittent sealed installer relay failure: the first bytes=0-0 request after a successful full GET received HTTP 429, empty body, Issue.Capacity (SealedInstallerChecks.cs:81; "
+    }
+   ]
   },
   {
    "n": 375,
@@ -4050,5 +4056,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4054845e12d7408276579dfdc5427b83627d18ba"
+ "source_revision": "543bdedccf3d9990773ea18be554ff362180c893"
 }
