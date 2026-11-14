@@ -168,7 +168,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-14T17:37Z",
-     "noted": "",
+     "noted": "2026-11-14T17:38Z",
      "progress": 56,
      "ticked": 5,
      "total": 9
@@ -214,11 +214,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-14T14:20Z",
-     "text": "Windows 839 started after 838 exited, but its production Debug Mode backdoor did not open. Isolated Windows Unity MapOnly with WakeRegister held 8 FPS/FrozenDouble in 72 samples and returned after scripted wheel zoom; 63/63 focused tests on"
-    },
-    {
      "by": "CODEX_GRAPHICS",
      "at": "2026-11-14T17:20Z",
      "text": "Done: requested iOS 842 from d1c7953c02; delivery record 173dd7a3a9."
@@ -227,6 +222,11 @@
      "by": "GETAC",
      "at": "2026-11-14T17:34Z",
      "text": "Strong Dev 840 reproduced half scale after release twice with held_input=False during glide. fc4fbe8579 feeds held input to MapRender and its gate, so release selects native resolution even while the camera moves. 18 host-side production de"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-14T17:38Z",
+     "text": "Windows decision-table check on fc4fbe8579: all 384 production MapRender.Decide combinations passed, including release while the camera is still moving, live video precedence and settled FrozenDouble. Host result only; no presentation timin"
     }
    ]
   },
@@ -6130,5 +6130,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d559c59dc0204b4bdde337e89218b9f5c3e75121"
+ "source_revision": "ed9df446c037f14d3365355c1f4db60f5eb6a105"
 }
