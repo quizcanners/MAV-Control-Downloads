@@ -1227,7 +1227,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-14T21:23Z",
+     "noted": "",
+     "progress": 57,
+     "ticked": 4,
+     "total": 7
+    }
+   ],
    "steps": [
     {
      "t": "One swipeable root on main: Lists Root (300 wide, pivot x 0) holds the lists wit",
@@ -4189,8 +4198,8 @@
      "who": "ROG",
      "since": "2026-11-14T21:17Z",
      "noted": "",
-     "progress": 25,
-     "ticked": 1,
+     "progress": 50,
+     "ticked": 2,
      "total": 4
     }
    ],
@@ -4200,8 +4209,8 @@
      "x": true
     },
     {
-     "t": "Editor: compile (cmp.sh), add `streamer.screen.deviceCamera`, `streamer.screen.c",
-     "x": false
+     "t": "Windows Unity compile, English and Ukrainian Linguist entries and VideoSourceSug",
+     "x": true
     },
     {
      "t": "Android and iPhone build: camera permission dialog appears once, frames reach pe",
@@ -6771,5 +6780,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c5a8bcd9d57c83a4caadab8a481119fd1c696243"
+ "source_revision": "8c619042158da05928489b685fc05c85da833997"
 }
