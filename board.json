@@ -748,7 +748,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T10:40Z",
+     "text": "DJI RC Plus 2: 822 found, downloaded and verified Android Test 834 via the app. The first Install on this run reached AwaitingPermission and Android showed Allow from this source off for MAV Control. Enabled that app-scoped permission. On r"
+    }
+   ]
   },
   {
    "n": 375,
@@ -4714,23 +4720,14 @@
   {
    "n": 651,
    "name": "Compass star shows the Sun using",
-   "done": "",
+   "done": "2026-11-14T10:40Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_GRAPHICS",
-     "since": "2026-11-14T10:13Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "5932d97618: both Navigation compass Images use Compass Star Sun, with opaque mat",
@@ -4917,5 +4914,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3f93d9331f016cbf6f243e1d49b1c969144c7c15"
+ "source_revision": "709ad62fff2bdc91d7f75d91154308fda15056f6"
 }
