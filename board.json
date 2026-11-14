@@ -705,7 +705,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-14T06:58Z",
+     "noted": "",
+     "progress": 20,
+     "ticked": 1,
+     "total": 5
+    }
+   ],
    "steps": [
     {
      "t": "Windows runner host harness restored (27f57e05ab); configured Unity light host 2",
@@ -3974,5 +3983,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f71fb656b523627e0a254157a017a5007c2d3876"
+ "source_revision": "3c249118e2efd8257a927dc09fe257a5b777a5c9"
 }
