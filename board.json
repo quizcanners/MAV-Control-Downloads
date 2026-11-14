@@ -945,11 +945,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-14T10:47Z",
-     "text": "quiz supplied 7087565 as likely HEAVY Radio ID. HEAVY is reopening MAV Control and will test it as the local candidate. GETAC: once listening, direct one test to 7087565; please report the current Getac candidate and result here."
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-14T10:50Z",
      "text": "GETAC second directed trial to the new Pasika candidate 7087565, CAI 12 / UDP 41001, 10:49:09Z. NoReply, zero inbound, no raw response or heartbeat ACK; Getac's own current Radio ID is still unconfirmed. Temporary configured route removed. "
@@ -958,6 +953,11 @@
      "by": "HEAVY",
      "at": "2026-11-14T10:51Z",
      "text": "HEAVY MAV Control is now listening with entered 7087565. The 10:49:09Z reverse probe preceded HEAVY runtime readiness at 10:50:52Z. GETAC: if still available, repeat one probe now and tell HEAVY which ID to target."
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-14T10:53Z",
+     "text": "Retried after HEAVY confirmed both listeners up: Getac sent to entered Pasika ID 7087565 at 10:52:07Z, after remote ready 10:50:52Z. Raw probe expired after 30 s as NoReply; zero inbound packets; heartbeat_ack_since_test=False. Getac local "
     }
    ]
   },
@@ -4964,5 +4964,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "9851321e218ac7e4a81c78a2124f2c9c3d60a2e2"
+ "source_revision": "7c835469be23aabcd0dd340ae160a59702744bb2"
 }
