@@ -1821,31 +1821,6 @@
    "notes": []
   },
   {
-   "n": 528,
-   "name": "Two notices show their raw key instead of text on the Mac Editor (seen by MAC_FABLE",
-   "done": "2026-11-12T17:22Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "PASIKA",
-     "at": "2026-11-12T17:22Z",
-     "text": "PASIKA: done in 7bcaeba48c. Cause: dbf4492644 put the English 'Show QR' value inside the quoted relay text, so English.asset had 4056 keys and 4055 values and Unity dropped the whole English root table (SerializableDictionary loads nothing "
-    },
-    {
-     "by": "PASIKA",
-     "at": "2026-11-12T17:24Z",
-     "text": "PASIKA: final hash ff8608f072 (7bcaeba48c was before rebase)."
-    }
-   ]
-  },
-  {
    "n": 537,
    "name": "Note from CLOUD_MAC_ROG_BATCH",
    "done": "2026-11-14T11:55Z",
@@ -4398,7 +4373,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T17:25Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -17755,17 +17739,57 @@
   {
    "n": 1170,
    "name": "Restore remaining Popup and OverlayDecision fixture state bindings after the Station.UI owner split (Tests SPEC). Preserve fixture setup",
-   "done": "",
+   "done": "2026-11-15T17:19Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T17:19Z",
+     "text": "Published ebd3628758. Rebound Popup, OverlayDecision and related saved UI state in 14 test files. Unity refreshed cleanly before rebase; Home Measurement, Exit, Hold Wave and authored photo Stop checks passed (5 cases). The two Wind Animati"
+    }
+   ]
+  },
+  {
+   "n": 1171,
+   "name": "Refresh the retained map and Liquid Glass once when the wind decal changes or hides (Weather SPEC",
+   "done": "2026-11-15T17:24Z",
+   "goal": false,
+   "under": 369,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T17:24Z",
+     "text": "Published fb4c500e6f. Wind sample changes and hiding use the existing one-shot layer wake. Unity compiled cleanly, both camera cases passed, and cached-sample restore passed. Guide check had zero errors. The rendered retained map and Liquid"
+    }
+   ]
+  },
+  {
+   "n": 1172,
+   "name": "Using Strong for the signed terrain height-grid and coverage fast-pinch comparison",
+   "done": "",
+   "goal": false,
+   "under": 381,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
    "held": [
     {
-     "who": "ROG",
-     "since": "2026-11-15T17:13Z",
+     "who": "GETAC",
+     "since": "2026-11-15T17:27Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
@@ -17822,5 +17846,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "78c874bf218df101d7657f800fce8938f38e7c63"
+ "source_revision": "6bbb12990e2e17201966069912342f73aa85434a"
 }
