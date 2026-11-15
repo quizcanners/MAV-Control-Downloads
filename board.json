@@ -8383,7 +8383,7 @@
   },
   {
    "n": 821,
-   "name": "Refactor job O",
+   "name": "Round 2 tests T1",
    "done": "",
    "goal": false,
    "under": 0,
@@ -8394,29 +8394,19 @@
    "held": [],
    "steps": [
     {
-     "t": "Skim: list the 7 largest files and the groups of near-identical tests",
+     "t": "List the 147 tests by system under test",
      "x": false
     },
     {
-     "t": "Batch same-claim tests into [Cases] in the three worst files",
+     "t": "Move them out, delete the ones pinning gone code",
      "x": false
     },
     {
-     "t": "Delete tests of removed behaviour only with the proof it is gone",
-     "x": false
-    },
-    {
-     "t": "Put the run on the board as a verify item; add a Done / Left line to Coordinatio",
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CLOUD_TESTS",
-     "at": "2026-11-15T05:33Z",
-     "text": "CLOUD_TESTS: pushed 855 repeated [TestCase] inputs in 131 files as [Cases]+CaseBatch wrappers (script). Left: 145 TestCase in 9 files with Unity setup, many near-identical tests written as separate methods, fixtures pinning gone code, giant"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 822,
@@ -9079,5 +9069,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "2256f0552e8e65418c2179fc9c874b81f0474a18"
+ "source_revision": "8050b1b9389669336db5ebeaef989d0d66fb3569"
 }
