@@ -13973,7 +13973,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "Thread1013",
+     "since": "2026-11-15T09:01Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Find which files the tests read that are gone or moved",
@@ -14359,5 +14368,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "523c6f399c9048ac6e1e30e89294fa4ce1ae0517"
+ "source_revision": "89c2817dc0f6310f07098b894e9b787ecbef053c"
 }
