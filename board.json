@@ -11414,7 +11414,7 @@
     {
      "who": "cloud-928",
      "since": "2026-11-15T07:59Z",
-     "noted": "",
+     "noted": "2026-11-15T08:05Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -11434,7 +11434,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "cloud-928",
+     "at": "2026-11-15T08:05Z",
+     "text": "Pins now read RecordReader, Sync_Diagnostics, ShardPublication, Payloads, Native, ShardCatalog, Writer files. shard_publication runs green here (dotnet host). Not runnable on cloud, need verify on Windows: retention (stops at Unity NUnit re"
+    }
+   ]
   },
   {
    "n": 929,
@@ -11897,5 +11903,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "975ad4be1dc225d9b3e6e4ee10849f9c90ccc1d2"
+ "source_revision": "2ef52bb32b288f1048949054e991817144c2d35b"
 }
