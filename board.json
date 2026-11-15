@@ -8815,7 +8815,20 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Read the 37 callers and decide where each parameter really lives",
+     "x": false
+    },
+    {
+     "t": "Cut the parameters and the two forwarding overloads, update callers",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/forwarders-and-long-signature",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
@@ -8865,5 +8878,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "8471385d31fab8dc4abb2fe377d1eef22a6c0c80"
+ "source_revision": "52345c9f920ce92373316aa18057641850a45344"
 }
