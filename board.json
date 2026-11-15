@@ -5868,7 +5868,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T21:24Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -18257,23 +18266,14 @@
   {
    "n": 1198,
    "name": "Restore Windows LogisticsInventoryTests after the Distribution Window controller split. Rebind Navigation",
-   "done": "",
+   "done": "2026-11-15T21:24Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-15T21:06Z",
-     "noted": "2026-11-15T21:23Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -18353,5 +18353,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a520eb6cdbd1a2077bcdf89dc6f9c323e2e796d2"
+ "source_revision": "8e07f5bb93dc8b6092dfad2bee95d779127d223a"
 }
