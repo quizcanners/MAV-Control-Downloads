@@ -14848,7 +14848,20 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Read the ask and list the fix chains",
+     "x": false
+    },
+    {
+     "t": "Remove dead or equivalent code, one chain per commit",
+     "x": false
+    },
+    {
+     "t": "Add a Done line with lines removed to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
    "notes": []
   },
   {
@@ -14912,5 +14925,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1baedf0c020971a0e69c1deb4fe79d7c13c23380"
+ "source_revision": "39272975384267dbf95c73ca0e230305c6569da7"
 }
