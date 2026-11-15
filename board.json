@@ -10470,6 +10470,29 @@
    "notes": []
   },
   {
+   "n": 888,
+   "name": "Using Strong for the Mask Pages fast-zoom before-and-after comparison",
+   "done": "",
+   "goal": false,
+   "under": 381,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-15T06:59Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
    "n": 889,
    "name": "Round 4 split R1",
    "done": "",
@@ -10655,7 +10678,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLOUD_R4_907",
+     "since": "2026-11-15T07:43Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
@@ -10914,25 +10946,22 @@
   {
    "n": 917,
    "name": "Restore Android player C# compilation after the Network split. Guard the Slow message report access with UNITY_EDITOR and check native Android player script compilation.",
-   "done": "",
+   "done": "2026-11-15T07:43Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T07:35Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T07:43Z",
+     "text": "Published fix 1fcdb87453. On d6e23144e4, Unity 6000.6.8f1 native Android Development player script compilation passed with MAV_DEVICE_DEBUG: 60 assemblies including Prublyda.dll in 104 s. This clears the earlier CS1061. No APK packaging or "
+    }
+   ]
   },
   {
    "n": 918,
@@ -11602,5 +11631,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "eafb100c7f326f9e253a59a23489d4910b447be9"
+ "source_revision": "ba505155c780c6363d86b171d8356373d3d77964"
 }
