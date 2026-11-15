@@ -1099,8 +1099,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-15T12:24Z",
-     "text": "Strong's Normal/fixed-30 control (CPU.md 02fc4dddf8) shows long gaps persist after release with IdleFrameCap removed. Pacing and pose restored. The exact-interval Android before build has reached Gradle. The isolated after source was staged"
+     "at": "2026-11-15T12:40Z",
+     "text": "Strong Dev 845 exact replay on main in CPU.md (4b4ce13d8b). Mask Pages dominates late after release. Sampled chunk-buffer GC repeats, with a separate saved mosaic payload and a Retention GC case. Before batches done, camera restored. Paired"
     }
    ]
   },
@@ -11856,7 +11856,7 @@
   {
    "n": 953,
    "name": "Round 5 split S10",
-   "done": "",
+   "done": "2026-11-15T12:39Z",
    "goal": false,
    "under": 0,
    "ticks": [
@@ -11867,16 +11867,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T12:37Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
@@ -11891,7 +11882,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T12:39Z",
+     "text": "Published 3d59b51ff0 with ten missing Unity meta files for the existing Motorola Inspector split. Confirmed Inspector owns its pages and IdentityDiscovery owns the candidate list. The old pacing host was retired; the ReadoutHint pin already"
+    }
+   ]
   },
   {
    "n": 954,
@@ -16880,5 +16877,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5c294219caf2f4e16073fb1b3b7b2cc568198f01"
+ "source_revision": "e15a7141a67c02d6100bf46acb3d3b470f5efadc"
 }
