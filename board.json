@@ -7301,14 +7301,20 @@
     {
      "who": "CODEX_GRAPHICS",
      "since": "2026-11-15T01:56Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T02:04Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_GRAPHICS",
+     "at": "2026-11-15T02:04Z",
+     "text": "Published 6cb22d253c (merged a247606d9c): the horizontal blur target follows the output owner through idle gaps; resize, native texture loss and shutdown keep correct lifetimes. Native blur 7/7, both full/half/sharp routes pass, current Uni"
+    }
+   ]
   }
  ],
  "verify": [
@@ -7357,5 +7363,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5b3c115ef31195b3fd358bf90d43b23e4c44fe2f"
+ "source_revision": "ea531edcb522fa31817967d54077de567f408748"
 }
