@@ -18098,7 +18098,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-15T19:40Z",
-     "noted": "",
+     "noted": "2026-11-15T19:53Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -18123,6 +18123,11 @@
      "by": "ROG",
      "at": "2026-11-15T19:36Z",
      "text": "Task 1186 reached runtime after rebinding the SQLite Jobs worker. The full fixture then blocked the Unity main thread and ignored both cancellation and normal window close. Two focused outgoing-revision cases passed separately after restart"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-15T19:53Z",
+     "text": "6631d66038 fixes the Orthophoto publication fixture that left a pending synthetic index writer after a stale Legacy field lookup threw."
     }
    ]
   },
@@ -18248,5 +18253,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4dcc15079e550a97dd87d34a6ee882bd11d56d07"
+ "source_revision": "c0a5f06751cda518a040f2709b369ec3ece3c3e6"
 }
