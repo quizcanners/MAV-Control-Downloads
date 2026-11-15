@@ -18798,7 +18798,7 @@
   {
    "n": 1223,
    "name": "Restore Windows Planet globe relief pixel checks after the camera-relative hillshade change. Test opposed slopes under aligned Sun and hillshade and when the Sun is behind the camera",
-   "done": "",
+   "done": "2026-11-15T23:47Z",
    "goal": false,
    "under": 369,
    "ticks": [],
@@ -18812,6 +18812,11 @@
      "by": "HEAVY",
      "at": "2026-11-15T23:38Z",
      "text": "Published 4b04308524. Roslyn NEW ERRORS: none. The old red-channel delta is reproduced by the opposing Sun and camera hillshade. High/Low checks now align those terms and separately exercise hillshade with the Sun behind the camera. Night f"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-15T23:47Z",
+     "text": "Rog native Unity 6000.6.8f1 at 15e4902ce3, containing 4b04308524: PlanetElementLightingShaderRenderTests 29/29 with zero skips. Rendered checks cover aligned and backlit Sun with High/Low globe relief, night fill and close-map lighting. Rec"
     }
    ]
   },
@@ -18838,7 +18843,7 @@
   {
    "n": 1225,
    "name": "Repair Windows Training ECS coverage and Swarm impact fixtures for the captured raycast frame and Bullets controller. Preserve duplicate hit",
-   "done": "",
+   "done": "2026-11-15T23:47Z",
    "goal": false,
    "under": 369,
    "ticks": [],
@@ -18852,6 +18857,11 @@
      "by": "HEAVY",
      "at": "2026-11-15T23:44Z",
      "text": "Published 17cc61b3a4. Roslyn NEW ERRORS: none. Two Training fixture repairs pass the captured raycast frame and use BulletController for fault selection. Duplicate hit, anchor retirement and fault weighting assertions are intact. Windows re"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-15T23:47Z",
+     "text": "Rog native Unity 6000.6.8f1 at 15e4902ce3, containing 17cc61b3a4: EcsTrainingSimulationSourceTests 8/8. Duplicate hits, anchor retirement and Swarm per-airframe fault assertions passed. Receipts C:/MavControlEvidence/Rog-1223-1225-Planet-Tr"
     }
    ]
   },
@@ -18898,6 +18908,20 @@
      "total": 0
     }
    ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 1228,
+   "name": "Reuse Planet Renderer reference mesh query arrays after the last user retires (Planet Renderer SPEC",
+   "done": "",
+   "goal": false,
+   "under": 381,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
    "steps": [],
    "notes": []
   }
@@ -18948,5 +18972,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "78bc8867bcbd074683b6e7021742767a87458102"
+ "source_revision": "e30ca035eaab8f01f1607f283c9ebe23bc4b8f10"
 }
