@@ -17906,37 +17906,40 @@
     {
      "who": "CLOUD",
      "since": "2026-11-15T18:43Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T18:46Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD",
+     "at": "2026-11-15T18:46Z",
+     "text": "Selection taps now return SelectionTap; 10 callers moved; not compiled (cmp.sh running). Need for verify: compile."
+    }
+   ]
   },
   {
    "n": 1180,
    "name": "Run the three MavServer Editor fixtures on current Windows source under the station test identity (goal 370",
-   "done": "",
+   "done": "2026-11-15T18:46Z",
    "goal": false,
    "under": 370,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T18:44Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T18:46Z",
+     "text": "Rog Unity 6000.6.8f1 EditMode at d968b16950: DirectRouteHubTypes 5/5, ServerSpecs 10/10, LocalizationAsset 19/19. All three named server localization keys are in English and Ukrainian and the refusal retains both placeholders. Selected lone"
+    }
+   ]
   }
  ],
  "verify": [
@@ -17985,5 +17988,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3111c893e6bf0e0d6c033a831d07ed65edfde7bb"
+ "source_revision": "d5c0bd59bbe79dbb48f22e95db4d0efebf465f0e"
 }
