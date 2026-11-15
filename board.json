@@ -14736,7 +14736,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T10:28Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -14745,15 +14747,15 @@
      "who": "cloud-1044",
      "since": "2026-11-15T10:21Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Read the ask and list the fix chains",
-     "x": false
+     "x": true
     },
     {
      "t": "Remove dead or equivalent code, one chain per commit",
@@ -16867,5 +16869,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "09314e20f3a0f12eaa0bb91a0d0f382c29ef838b"
+ "source_revision": "78d886e19c5a011d00ce8012022ead79f569a682"
 }
