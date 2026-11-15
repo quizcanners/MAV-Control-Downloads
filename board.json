@@ -12639,7 +12639,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "agent",
+     "since": "2026-11-15T08:32Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
@@ -14071,5 +14080,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "350d607f77a41184c8160f69f0b88345e2e211b9"
+ "source_revision": "eb58e2bb8df731a7bedb9ebcf1cb4c2a96fe844b"
 }
