@@ -17432,25 +17432,22 @@
   {
    "n": 1152,
    "name": "Defer terrain picking storage until a ray needs it (Planet Renderer SPEC",
-   "done": "",
+   "done": "2026-11-15T15:54Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T15:49Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T15:54Z",
+     "text": "Published 5719500b30. Page attachment updates heights and render bounds immediately; the first admitted ray builds exact vertices and sub-boxes. Resampling invalidates in place; the bounded sample pool and reference pins retain their lifeti"
+    }
+   ]
   },
   {
    "n": 1153,
@@ -17511,6 +17508,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1156,
+   "name": "Position sharing notification",
+   "done": "",
+   "goal": false,
+   "under": 410,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MAC_UI",
+     "since": "2026-11-15T15:54Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -17559,5 +17579,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4fec995336a53800e63c115fc55356021770f94b"
+ "source_revision": "261e8041b37f0a1f52d562edb012010abafec919"
 }
