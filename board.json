@@ -1569,8 +1569,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-15T12:54Z",
-     "text": "Strong Dev 845 paired APK still sampled two GC waits in Retention MeasureTileBytes and MeasureTileBytesAfterRetention while zooming. Frame 2977 independently hit stopped GC in CompactIndexPages MarkPage PageBuild.Finish. CPU.md c2e39c9df6 r"
+     "at": "2026-11-15T15:49Z",
+     "text": "Strong Dev 845 confirmed a Retention-induced GC wait in the latest fast-pinch replay. Both waker samples were in path-string allocation during MeasureTileBytesAfterRetention. The same cold Index Compaction pass completed, with separately id"
     }
    ]
   },
@@ -17539,5 +17539,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "25ea50d3ddafc045ec8f328a900abcaa30e0055e"
+ "source_revision": "091b29c1d2b32d7db7a9e13ec6b9b9456c8d6195"
 }
