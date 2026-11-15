@@ -1099,8 +1099,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-15T09:04Z",
-     "text": "Strong signed Dev 844 rapid-pinch scheduler/stack capture is on main (dc0ad35f19, f8ab101471). Pressure-eviction frames mostly slept inside Planet Renderer; another frame spent most of its time running in Planet Renderer and Render Planet. "
+     "at": "2026-11-15T09:18Z",
+     "text": "65f00c2ebf closes 1027: identical Element Mask donors and UVs keep the held result through draw-slot refresh. Eight host cases and Roslyn comparison passed. Next Strong build: rerun the same fast pinch and compare the Render Planet CPU stac"
     }
    ]
   },
@@ -14307,25 +14307,22 @@
   {
    "n": 1027,
    "name": "Keep the combined Element Mask when a refreshed draw-slot answer returns the same donors and UVs (Planet Renderer SPEC",
-   "done": "",
+   "done": "2026-11-15T09:18Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "high",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-15T09:06Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T09:18Z",
+     "text": "65f00c2ebf reuses the combined Element Mask across draw-slot refreshes with identical donors and exact UVs. Eight extracted C# host cases passed; the old unconditional clear fails the reuse case. Roslyn Editor, Android, Windows and tests re"
+    }
+   ]
   },
   {
    "n": 1028,
@@ -14731,6 +14728,20 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1044,
+   "name": "Round 6 shrink",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -14779,5 +14790,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d72fca80fc46bf1a266253b67dc02a0653c56db5"
+ "source_revision": "974d67e49d75010ab9acaf9cac79da93d4bc9f83"
 }
