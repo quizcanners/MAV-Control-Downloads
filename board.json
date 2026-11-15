@@ -11259,8 +11259,8 @@
    "notes": [
     {
      "by": "cloud-thread-922",
-     "at": "2026-11-15T07:46Z",
-     "text": "cloud: ServerRuntimeController done (Station_VideoServer_Runtime.cs), file 1521 to 1443. Left: hosted feed ends controller (~25 readers), ReceiveVideoRelay, ConvergeSourceRoute. See Refactoring/nested-controllers.md"
+     "at": "2026-11-15T07:54Z",
+     "text": "cloud: Video Server split done: Runtime, HostedEnds, SourceRoutes, RelayReceive controllers; file 1521 to 862. Left: py pins test_relay_shared_input.py + RelaySharedInputHost.cs, test_peer_video_wish_ingress.py need new files; compile."
     }
    ]
   },
@@ -11919,5 +11919,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f1a7f4ac6c1085c6d65cc6613be5055fe5649200"
+ "source_revision": "5a2ea83f5cc171954e004d6a3498684b68240508"
 }
