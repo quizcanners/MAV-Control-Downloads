@@ -1023,16 +1023,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-15T09:21Z",
-     "noted": "",
-     "progress": 53,
-     "ticked": 8,
-     "total": 15
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Space relief: Copernicus GLO-30 4096x2048 globe is the only relief on main (2dfa940d67, LFS SHA-256 b668209b...b513, 16,777,232 bytes); NOAA globe relief removed; globe=Ready at 1,000 km and Absent af",
@@ -1108,8 +1099,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-15T09:18Z",
-     "text": "65f00c2ebf closes 1027: identical Element Mask donors and UVs keep the held result through draw-slot refresh. Eight host cases and Roslyn comparison passed. Next Strong build: rerun the same fast pinch and compare the Render Planet CPU stac"
+     "at": "2026-11-15T09:48Z",
+     "text": "Published Strong isolated signed Dev 844 comparison 73de1485b5. Both APKs replayed the same 24 fast pinches. The combined Element Mask change leaves Find a major Render Planet cost and the zoom hitch remains. Next: separate new draw slots, "
     }
    ]
   },
@@ -15530,6 +15521,7 @@
    "under": 0,
    "ticks": [
     "2026-11-15T09:48Z",
+    "2026-11-15T09:48Z",
     "2026-11-15T09:48Z"
    ],
    "priority": "normal",
@@ -15540,8 +15532,8 @@
      "who": "cloud-1068",
      "since": "2026-11-15T09:44Z",
      "noted": "",
-     "progress": 67,
-     "ticked": 2,
+     "progress": 100,
+     "ticked": 3,
      "total": 3
     }
    ],
@@ -15556,7 +15548,7 @@
     },
     {
      "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": false
+     "x": true
     }
    ],
    "notes": []
@@ -15672,23 +15664,14 @@
   {
    "n": 1072,
    "name": "Using Strong for the signed Element Mask fast-pinch comparison",
-   "done": "",
+   "done": "2026-11-15T09:48Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-15T09:24Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": []
   },
@@ -16738,5 +16721,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ba8619f1df13e6317944e6fd97a9e9691fdb1d99"
+ "source_revision": "dd78cf1c6f69c6b1a0eef40f17901f56112d877a"
 }
