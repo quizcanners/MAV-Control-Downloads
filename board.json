@@ -439,16 +439,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T16:58Z",
-     "noted": "",
-     "progress": 71,
-     "ticked": 5,
-     "total": 7
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Windows Editor (HEAVY): bridge answered api.status after a witnessed script reload (8b1b018379); prepared-candidate containing All 8569 passed, 0 failed (also serves goal 382); live-Editor All 8591/0 ",
@@ -481,11 +472,6 @@
    ],
    "notes": [
     {
-     "by": "ROG",
-     "at": "2026-11-14T20:48Z",
-     "text": "Full Windows EditMode All on Rog at 577c0e7fa3: 8582 pass, 0 fail, 2 skip (706.5 s). QR, menu lighting and Settings smoke checks pass in the containing run. All-green.xml in C:/MavControlEvidence/Rog-369-20261114, SHA-256 A7FBFED82B4419B9F0"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-15T08:40Z",
      "text": "1fcdb87453 moves the Editor-only handshake diagnostic into its existing guard. Roslyn removed Android and Windows CS1061 with NEW ERRORS: none. Native Unity Android player and signed ARM64 Dev 844 packaging succeeded, and Strong reached the"
@@ -494,6 +480,11 @@
      "by": "HEAVY",
      "at": "2026-11-15T12:01Z",
      "text": "HEAVY station shutdown. Published fixture fixes e6fe8aecf7/c064f493ff/f3dffdba73 and Android access fix 3d59fd8a9d; hot reload and idle captures are on 735/704."
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-15T17:13Z",
+     "text": "Rog targeted native NUnit: task 1168 fixed List Picker (Frame Budget 42/42). 1169 fixed related fixture owners (52/52, source a6910f1abc after iOS-only rebase). Crosshair 1/1 and Linked Browser/Chat 17/17 previously at 746a8491b0. Additiona"
     }
    ]
   },
@@ -1828,31 +1819,6 @@
     }
    ],
    "notes": []
-  },
-  {
-   "n": 525,
-   "name": "Main view",
-   "done": "2026-11-12T17:15Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-12T16:49Z",
-     "text": "Nine 128 px monochrome PNG sprites with transparent alpha, mipmaps and trilinear filtering are on main in a8e0b7ce82 at Assets/_PROJECT/Data/Icons/Top List Icons/Quiet. Names match the tabs (VPN is the Peers tab). Use these as the QuietOnly"
-    },
-    {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T17:14Z",
-     "text": "MAC_FABLE batch 7, step 2. 2663f4a7c4 LISTS Left.prefab and 3b6284124d Vertical List Tabs.prefab: each of the nine tabs got a 'Quiet Icon' cloned from its icon (same rect and MavControlVisual, so it takes the quiet tint), sprite from Assets"
-    }
-   ]
   },
   {
    "n": 528,
@@ -17703,14 +17669,20 @@
     {
      "who": "GETAC",
      "since": "2026-11-15T16:54Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T17:16Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T17:16Z",
+     "text": "Published 6e9beaee7d. Terrain attachment uses the existing Height Page bound and defers exact sampling until the first eligible ray. Roslyn and extracted host geometry passed. CPU.md bd8b744d87 records the host allocation comparison. Map/Pl"
+    }
+   ]
   },
   {
    "n": 1167,
@@ -17748,6 +17720,69 @@
      "text": "Published c168cc6381. Multiline-note tests now seed a disposable Git origin and verify exact bytes after the real publish. The hook test uses Git for Windows shell, verifies its advisory exemption is limited to the single public board commi"
     }
    ]
+  },
+  {
+   "n": 1168,
+   "name": "Restore NUnit List Picker state bindings after the Station.UI.ListPicking owner split (Tests SPEC",
+   "done": "2026-11-15T17:08Z",
+   "goal": false,
+   "under": 369,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T17:08Z",
+     "text": "Published 8f75622c41: updated 35 List Picker lookup and restore sites in 23 test files. Rog Unity refreshed without compile errors. Frame Budget passed 42/42. Other sampled fixtures exposed additional failures recorded under goal 369. Rosly"
+    }
+   ]
+  },
+  {
+   "n": 1169,
+   "name": "Repair the remaining owner bindings exposed by the Windows List Picker follow-up (Tests SPEC",
+   "done": "2026-11-15T17:13Z",
+   "goal": false,
+   "under": 369,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T17:13Z",
+     "text": "Published a6910f1abc. Captured the failing stacks and restored the Popup, OverlayDecision, camera and Base Map Pointing bindings plus the fixture-owned Training and camera. Rog Unity compiled clean; Deferred List Views 9/9, Waypoint Drag 41"
+    }
+   ]
+  },
+  {
+   "n": 1170,
+   "name": "Restore remaining Popup and OverlayDecision fixture state bindings after the Station.UI owner split (Tests SPEC). Preserve fixture setup",
+   "done": "",
+   "goal": false,
+   "under": 369,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T17:13Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -17796,5 +17831,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "746a8491b00874ad54d6664ada82862ff4bf9939"
+ "source_revision": "a8c981d72f4830cd4b3f8bbc8b7ba95680a2c3c5"
 }
