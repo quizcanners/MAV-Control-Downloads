@@ -9124,7 +9124,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T11:30Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -11956,16 +11965,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "thread953",
-     "since": "2026-11-15T08:29Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
@@ -16749,37 +16749,40 @@
     {
      "who": "GETAC",
      "since": "2026-11-15T10:57Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T11:31Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T11:31Z",
+     "text": "5cbdaebbdc exports exact nested Mask Pages intervals through the existing bounded capture. Two focused Unity EditMode cases passed and Roslyn reported no new errors. CPU.md records the Retention worker running GC during a prior Mask Pages w"
+    }
+   ]
   },
   {
    "n": 1114,
    "name": "Reduce terrain surface allocations during fast zoom. Planet Renderer SPEC",
-   "done": "",
+   "done": "2026-11-15T11:29Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "high",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T11:20Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T11:29Z",
+     "text": "Published aa6035c66c and CPU baseline 24a8b6739c. Rog native compile passed. Four wheel bursts on the offline map reused grid/vertices on 60 of 200 terrain attachments; cache held at most four and center/pointer terrain picks hit. Camera an"
+    }
+   ]
   },
   {
    "n": 1115,
@@ -16851,5 +16854,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "79d1fc3e9d22e69fa034ff9e830cd90d5a013d3b"
+ "source_revision": "849db5b6a429e1a46f0f422ce2a4b94c6f0fc2dc"
 }
