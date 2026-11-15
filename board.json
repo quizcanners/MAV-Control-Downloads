@@ -444,7 +444,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-15T20:05Z",
+     "noted": "",
+     "progress": 71,
+     "ticked": 5,
+     "total": 7
+    }
+   ],
    "steps": [
     {
      "t": "Windows Editor (HEAVY): bridge answered api.status after a witnessed script reload (8b1b018379); prepared-candidate containing All 8569 passed, 0 failed (also serves goal 382); live-Editor All 8591/0 ",
@@ -18237,5 +18246,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4409f748edd55e3642f6da650cdc7146b78e92e8"
+ "source_revision": "0fb80563732c95694355fa73771ff727d26c62b9"
 }
