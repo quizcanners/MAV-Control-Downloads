@@ -4373,22 +4373,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T17:25Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-15T16:37Z",
-     "text": "Published 9b0ede7c83. Station.OS owns the iOS termination delegate, native registration and explicit-quit decision; Bootstrap owns the checkpoint itself. Windows Unity compiled and confirmed no iOS import. Host checks compiled iOS and Edito"
+     "at": "2026-11-15T17:29Z",
+     "text": "Published e709dfe94f. Station.OS owns the cold-start URL, Unity activation event and Windows/Linux argument delivery. DeepLinks retains validation and navigation. Unity compiled and DeepLinkTests passed 12/12. Stubbed startup host passed Wi"
     }
    ]
   },
@@ -6005,8 +5996,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-15T16:25Z",
-     "text": "Rog live compile/domain reload at 23f5550f96: seven scenes returned with the same local camera transform; native texture probe released, no reload leak warning. Five app.memory samples per side in RAM.md 80489cd77f: Unity allocated -100.35 "
+     "at": "2026-11-15T17:34Z",
+     "text": "Published db6831fc14. Screen Blur owns and destroys its blit material on disable; idle reuses it and the next capture makes a fresh one. Unity compiled and ScreenBlurRequestTests passed 19/19. Rog live reload remains recorded at 23f5550f96 "
     }
    ]
   },
@@ -17654,8 +17645,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-15T17:16Z",
-     "text": "Published 6e9beaee7d. Terrain attachment uses the existing Height Page bound and defers exact sampling until the first eligible ray. Roslyn and extracted host geometry passed. CPU.md bd8b744d87 records the host allocation comparison. Map/Pl"
+     "at": "2026-11-15T17:45Z",
+     "text": "Strong signed Dev 845 replay, CPU.md 8f5555deae. Across 4,913 attachments the old PrepareHeights GC went from 13 samples to zero. Exact terrain stays available when queried. The coverage flight recorded 5,355 earth rays, zero holes and no u"
     }
    ]
   },
@@ -17798,6 +17789,49 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1173,
+   "name": "Reconnect touch",
+   "done": "2026-11-15T17:40Z",
+   "goal": false,
+   "under": 369,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T17:40Z",
+     "text": "Published 9f29a7169b. Reconnected camera touch, selected Crosshair tap, geometry picking and tooltip fixtures to their current pointer owners. Rog Unity compiled twice and all five targeted cases passed. The ordinary Editor identity and pro"
+    }
+   ]
+  },
+  {
+   "n": 1174,
+   "name": "Run RoslynCompileDiff from one checkout (root AGENTS",
+   "done": "",
+   "goal": false,
+   "under": 369,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T17:42Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -17846,5 +17880,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "6bbb12990e2e17201966069912342f73aa85434a"
+ "source_revision": "0b023560c17128bfddcaaf7c23fc4d54beb1a31d"
 }
