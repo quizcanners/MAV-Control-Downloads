@@ -6059,7 +6059,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T16:04Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -17418,23 +17427,14 @@
   {
    "n": 1151,
    "name": "Settings",
-   "done": "",
+   "done": "2026-11-15T16:04Z",
    "goal": false,
    "under": 409,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_UI",
-     "since": "2026-11-15T15:41Z",
-     "noted": "2026-11-15T16:03Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -17632,5 +17632,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d61f0776b53cbe8ad3bc17d76e553e11d15bbb24"
+ "source_revision": "77fc8786ccb55a5aa8278cd0853f8a60e10cdced"
 }
