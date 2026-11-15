@@ -10561,7 +10561,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLOUD_R4_PEERS",
+     "since": "2026-11-15T07:44Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
@@ -11748,5 +11757,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "167e33b9d43bd98a9f76b0d79356034a2878e701"
+ "source_revision": "5a587980e9f65241627309a7340a7ae17e31d376"
 }
