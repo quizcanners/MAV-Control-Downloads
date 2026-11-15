@@ -7789,14 +7789,20 @@
     {
      "who": "CODEX_GRAPHICS",
      "since": "2026-11-15T04:59Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T05:16Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_GRAPHICS",
+     "at": "2026-11-15T05:16Z",
+     "text": "Published adcd8de85a: complete divider draws and takes touches above plaque, content and MGRS. Direct cause: Unity ignored sortingOrder before overrideSorting was enabled, leaving order 0. Deeper fix: prefab owns Canvas/raycaster/hit refere"
+    }
+   ]
   },
   {
    "n": 800,
@@ -7920,5 +7926,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a354a51ea3356630e58f6b2ecbe13c5d00b18e22"
+ "source_revision": "6ed747ae0bc4eb7fcf01c2ebcc174ca8b2106a5e"
 }
