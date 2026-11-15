@@ -10673,6 +10673,11 @@
      "by": "thread905",
      "at": "2026-11-15T07:47Z",
      "text": "Done: preparation fields on loader.Preparation (MapPreparation), callers and 14 test files renamed. Left: preparation methods still on loader (tests invoke 4 by reflection name); see nested-controllers.md."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-15T08:20Z",
+     "text": "Windows Editor compiled and entered KSP at 2cb6c86c90. The Android Roslyn configuration still finds four CS0122 calls in BaseMap_OfflineMapsLoader_Terrain.cs: MapPreparation.BeginPreparationWebRequest and ReleasePreparationInputs are privat"
     }
    ]
   },
@@ -11275,7 +11280,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T08:17Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
@@ -11788,6 +11802,26 @@
   {
    "n": 941,
    "name": "Restore Unity compilation after round 4 extractions",
+   "done": "2026-11-15T08:16Z",
+   "goal": false,
+   "under": 369,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T08:16Z",
+     "text": "Published 346cb79065, 56104d449f and 387a0f05a3 to fix split owner references and Training ECS access. Native Rog Unity refresh on 302333a112 returned Editor idle, script_compilation_failed=False. No player build or suite run for this compi"
+    }
+   ]
+  },
+  {
+   "n": 942,
+   "name": "Restore native compilation after the follow-up Chat and Extended Menu extraction (task 875)",
    "done": "",
    "goal": false,
    "under": 369,
@@ -11798,21 +11832,15 @@
    "held": [
     {
      "who": "ROG",
-     "since": "2026-11-15T07:55Z",
-     "noted": "2026-11-15T08:06Z",
-     "progress": 25,
+     "since": "2026-11-15T08:20Z",
+     "noted": "",
+     "progress": 0,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T08:06Z",
-     "text": "Published e2d8f58bb3, 0b1acc507b, 6a5a5007c0, bb37c271f7, 78f5e01648 and 6e4f7f81de. Unity cleared parsing, the duplicate namespace/merge block and the missing Web Mercator controller declarations. Latest Rog Editor compile after 6e4f7f81de"
-    }
-   ]
+   "notes": []
   }
  ],
  "verify": [
@@ -11861,5 +11889,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0111a882e3b866bf10134dfa8515b11518592a95"
+ "source_revision": "832916faf48a2c4fb728057a3b4e45887ef19b35"
 }
