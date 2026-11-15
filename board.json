@@ -14119,22 +14119,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T09:54Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-15T09:53Z",
-     "text": "Published 3a8427d335, 35dbe65412, 1a396d98ea and a6f91cb6dc. Cleared Planet diagnostics and mask sync, WiFi installer and telemetry, USB progress, daylight and Situation compiler errors. Fixed new checkpoint, Signal Map and Peers syntax err"
+     "at": "2026-11-15T10:01Z",
+     "text": "Published b7d7031e1f, cfd0458536, 04359a15fe, 02ab899e25 and 8f93e36d91. Cleared Peers icons, Chat, routing checkpoint and Logistics author errors, then restored Street View syntax and Enemy Logistics imports after new merges. Fresh Rog pas"
     }
    ]
   },
@@ -15565,7 +15556,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T10:01Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -15573,7 +15566,7 @@
    "steps": [
     {
      "t": "Run cs_outline and list every concern",
-     "x": false
+     "x": true
     },
     {
      "t": "Move one concern per commit into a nested controller that owns its fields",
@@ -16810,5 +16803,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1f952d84227a1c49cbc1d1061b6cfca0bcfa55eb"
+ "source_revision": "ea078738951ca39d5ce122a3f117f1c1a02f0690"
 }
