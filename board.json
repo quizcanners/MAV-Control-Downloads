@@ -13111,7 +13111,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T08:40Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -13120,15 +13122,15 @@
      "who": "refactor981-r5",
      "since": "2026-11-15T08:33Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
-     "x": false
+     "x": true
     },
     {
      "t": "Move one concern per commit into a nested controller that owns its fields",
@@ -14257,5 +14259,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "9743c7e40e1015efebabf0d6f99d121addf4e1aa"
+ "source_revision": "6779896d130e24a59333de042e84f9abf350ac5b"
 }
