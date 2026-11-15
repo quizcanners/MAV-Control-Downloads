@@ -1153,7 +1153,7 @@
     {
      "who": "CODEX_MAC_UI",
      "since": "2026-11-15T14:53Z",
-     "noted": "2026-11-15T15:29Z",
+     "noted": "2026-11-15T15:35Z",
      "progress": 50,
      "ticked": 6,
      "total": 12
@@ -1222,8 +1222,8 @@
     },
     {
      "by": "CODEX_MAC_UI",
-     "at": "2026-11-15T15:29Z",
-     "text": "Published passive-glass migration: 13820ec5a4, e6de3b9021, 91d589cf13 and 8962d22136. Editor census: 74 remaining occurrences all co-located with Buttons; no passive candidates remain. Search tests 13/13, QR 8/8, Store Post 43/43 after fixt"
+     "at": "2026-11-15T15:35Z",
+     "text": "Published passive glass on 13820ec5a4, e6de3b9021, 91d589cf13, 8962d22136. Census: 74 remaining occurrences all have Buttons; no passive candidates remain. Search 13/13, QR 8/8, Store Post 43/43 (6199c115be), Roslyn clean. MapOnly Editor at"
     }
    ]
   },
@@ -4469,22 +4469,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T15:28Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-15T12:32Z",
-     "text": "Published fc5c4c3b69. Station.OS owns desktop Fullscreen placement policy. Removed the unreachable surface resize path (scale always 1); URP render scale is byte-identical. Rog compiled; Play kept its starting window with no resize. Four ma"
+     "at": "2026-11-15T15:34Z",
+     "text": "Published e14e47a7f1. Station.OS owns managed and Android process clocks and desktop drag suppression. Five Unity CPU checks passed after repairing stale failure-controller fixture binding. Rog returned a native managed process sample; eigh"
     }
    ]
   },
@@ -17445,5 +17436,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "356deced127e405229a43b624d6fe5553f90e3a6"
+ "source_revision": "d0cd39cca47ff8370809446c04a2e8f7b12c8845"
 }
