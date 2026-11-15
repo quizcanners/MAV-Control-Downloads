@@ -8553,7 +8553,7 @@
   },
   {
    "n": 827,
-   "name": "Refactor job J2",
+   "name": "Round 2 split J14",
    "done": "",
    "goal": false,
    "under": 0,
@@ -8562,7 +8562,20 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Skim the file, list the gimbal fields and methods that belong together",
+     "x": false
+    },
+    {
+     "t": "Move them into Gimbal",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
    "notes": []
   },
   {
@@ -8996,5 +9009,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "54b385f75f0c29f01848e37e6c999fcadf8ed9b9"
+ "source_revision": "37552adb524b2062741c6592fa0a255b18d15d82"
 }
