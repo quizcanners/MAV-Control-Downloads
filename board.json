@@ -14001,7 +14001,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T09:13Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -14010,15 +14012,15 @@
      "who": "CLOUD_PINS_1014",
      "since": "2026-11-15T09:01Z",
      "noted": "2026-11-15T09:12Z",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Find which files the tests read that are gone or moved",
-     "x": false
+     "x": true
     },
     {
      "t": "Point each test at the file that holds the code today",
@@ -14389,5 +14391,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "81e7ed2d8bd7ac9a6ddcff4df96529c3185a1b51"
+ "source_revision": "f11b223210f2fe78f1344bc15ba4c11bf64cff05"
 }
