@@ -6430,7 +6430,7 @@
     {
      "who": "ROG",
      "since": "2026-11-15T05:10Z",
-     "noted": "",
+     "noted": "2026-11-15T05:12Z",
      "progress": 50,
      "ticked": 2,
      "total": 4
@@ -6467,8 +6467,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-15T05:07Z",
-     "text": "5c0248ac26 releases Chat QR artwork, camera pixel buffers and decode result ownership on disable. Windows Unity compiled, seven existing QR tests passed, and a before/after Play probe verified texture destruction, safe late decode and draft"
+     "at": "2026-11-15T05:12Z",
+     "text": "969aefb7ac cancels and detaches photo-stream reads on Streamer shutdown, checks cancellation between 64 KiB reads, and keeps ordinary retries single-worker. Unity compiled; focused checks passed for queued cancellation, late failure, next r"
     }
    ]
   },
@@ -7915,5 +7915,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "74a08542eb52aadab596f5f138417b75529c1dfd"
+ "source_revision": "4db6cbcf0e32bbe43db6173ee9e9c7221d2cea0a"
 }
