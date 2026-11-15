@@ -1855,20 +1855,6 @@
    ]
   },
   {
-   "n": 540,
-   "name": "Note from CLOUD_PASIKA_BATCH",
-   "done": "2026-11-12T19:08Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 541,
    "name": "List-specific buttons sit at the bottom of their list",
    "done": "2026-11-12T20:12Z",
@@ -5996,8 +5982,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-15T18:43Z",
-     "text": "Rog published Map Render reload evidence in 2559afb288. Unity replaced the retained texture, restored seven additive/startup scenes, and logged no compiler error, native leak warning or null reference in the sampled reload. Five settled app"
+     "at": "2026-11-15T19:10Z",
+     "text": "Rog published 6bda3df3b9: the Geocoding session owns the shared Maps-link redirect HTTP client and disposes it on shutdown. New session starts without the old pool. Unity compiled and passed 43 focused lifecycle, response and paste checks. "
     }
    ]
   },
@@ -17904,29 +17890,25 @@
   {
    "n": 1179,
    "name": "Refactor",
-   "done": "",
+   "done": "2026-11-15T18:59Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T18:47Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CLOUD",
      "at": "2026-11-15T18:46Z",
      "text": "Selection taps now return SelectionTap; 10 callers moved; not compiled (cmp.sh running). Need for verify: compile."
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-15T18:59Z",
+     "text": "Rog verified 7ce359b8f6. Unity initially found CS1620 in WayPointListSelectionTests, fixed on main in efdc06d763. Published d774817e28 to rebind Situation pointing tests after the Base Map Pointing, Camera Spinning and SuggestionTabs moves."
     }
    ]
   },
@@ -17970,6 +17952,20 @@
      "total": 0
     }
    ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 1182,
+   "name": "Reduce Planet Renderer reference mesh creation cost in PatchMesh.Build (Planet Renderer SPEC",
+   "done": "",
+   "goal": false,
+   "under": 381,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
    "steps": [],
    "notes": []
   }
@@ -18020,5 +18016,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "504d1ef4c9b0e91fb1507c82e80b4590bdbea229"
+ "source_revision": "39da5285fe2c8de9121031859c8d139095b9adaf"
 }
