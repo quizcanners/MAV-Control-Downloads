@@ -1782,7 +1782,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-15T03:51Z",
-     "noted": "",
+     "noted": "2026-11-15T03:52Z",
      "progress": 60,
      "ticked": 3,
      "total": 5
@@ -1813,8 +1813,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-15T03:38Z",
-     "text": "edf1bf12b0 resizes only dirty Situation model batches during fades. Windows Play and four Roslyn targets passed. With 2,048 models, one fade resized its model and shadow batch while seven retained their matrices. Pointing bounds stayed corr"
+     "at": "2026-11-15T03:52Z",
+     "text": "edf1bf12b0 has passed Windows Play with 2,048 models and four Roslyn targets. One fade resized one of eight batches, with correct shadow and pointing bounds; camera motion resized all eight. Full fixture launcher refused because Unity is al"
     }
    ]
   },
@@ -7564,5 +7564,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "50447f6dbbbb988238c0bba1c562af278de7f571"
+ "source_revision": "31c23c5e1ca91079c817062ad791696d1fb63103"
 }
