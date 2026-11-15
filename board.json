@@ -2852,16 +2852,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_UI",
-     "since": "2026-11-15T16:12Z",
-     "noted": "2026-11-15T16:14Z",
-     "progress": 67,
-     "ticked": 2,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "223de4e530 removes a real hang risk: per-step while loops could run indefinitely on non-finite or extreme touch coordinates; panel-step updates are constant time with the same 60/40 thresholds, invali",
@@ -17678,5 +17669,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "7be7aa2de0d55e5d0cce3c195e31281ed5388f8b"
+ "source_revision": "da3ed58744ded8265a1a8bd19497ec65c300bf7d"
 }
