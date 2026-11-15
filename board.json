@@ -16937,25 +16937,22 @@
   {
    "n": 1130,
    "name": "Replace the FullScreen.ApplyResolutionCo transition coroutine and the Drag And Drop overlay OnClick/OnFinalize actions with a state machine polled each frame. quiz",
-   "done": "",
+   "done": "2026-11-15T14:01Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T13:50Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T14:01Z",
+     "text": "Published 94deac117a. Bootstrap polls fullscreen mode, resolution and placement stages, and holds the context picker choice for the overlay to validate and apply. Stage 2 rows now hold typed operations. Rog Unity compiled. Existing fullscre"
+    }
+   ]
   },
   {
    "n": 1131,
@@ -17079,6 +17076,29 @@
      "text": "ad7470be1b keeps My Data landscape even when the frame-cached overlay still reports the map during the Menu swap. Unity OrientationLandscapeViewsTests 6/6 passed; Roslyn NEW ERRORS: none; screen checks 02fda52d29. Physical phone rotation no"
     }
    ]
+  },
+  {
+   "n": 1137,
+   "name": "Photos folder list",
+   "done": "",
+   "goal": false,
+   "under": 408,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MAC_PHOTOS",
+     "since": "2026-11-15T14:02Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -17127,5 +17147,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b7d5b236d87510d0223d7a5ad6da7b130fe3135d"
+ "source_revision": "921de71e626a596bdf390c7f7689b9495a6506e9"
 }
