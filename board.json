@@ -5779,8 +5779,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-15T09:00Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T09:03Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -5788,14 +5788,14 @@
    "steps": [],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-14T20:42Z",
-     "text": "Windows D3D11 Editor, 6d1972ec0f: 90 idle backdoor samples across 78.05 s all stayed FrozenDouble/MapStatic, about 8 FPS. Four samples hit the scheduled 2x refresh rather than the retained picture; current wake reasons stayed empty, last_wa"
-    },
-    {
      "by": "ROG",
      "at": "2026-11-14T22:52Z",
      "text": "ed7875c531 uses the map camera pixel rectangle for shared translation wake checks, including GPS and peer crosshairs. Before fix Windows native probe reported motion at pixels x=310\u2013320 outside a camera ending at x=300. MapRenderModeTests 2"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-15T09:03Z",
+     "text": "Windows Editor loaded 428d5f78a2, before RenderState. In a passive 87 s window, all 42 app.lifecycle samples were MapStatic with no current wake and idle pacing held 8 FPS. The map stayed Unscaled with no kept picture and Glass=Blur. Last M"
     }
    ]
   },
@@ -14377,5 +14377,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "902c97a85444e2b36a0fc89fe350a78ebb72f602"
+ "source_revision": "dac02101b509a3a25ce87913f1224a1f2cc06254"
 }
