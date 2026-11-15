@@ -6354,7 +6354,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T01:33Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupSce",
@@ -7192,14 +7201,20 @@
     {
      "who": "GETAC",
      "since": "2026-11-15T01:16Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T01:33Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T01:33Z",
+     "text": "Strong signed Dev 842 e4e4c07729, five-minute warm RAM and native idle CPU, same-PID 120 s Home check. Findings pushed in 5fbdd27ae6. PSS 1,414.0 to 1,414.1 MiB, SQLite pause 4.43 ms. Strong returned to Home, temporary profiler output and A"
+    }
+   ]
   },
   {
    "n": 776,
@@ -7300,5 +7315,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5c272cccf1583fed8454de805a05397971fdade5"
+ "source_revision": "83e3c5b9aa1c685b47d56e07c6a4e406ac0ce208"
 }
