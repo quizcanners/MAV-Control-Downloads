@@ -9065,7 +9065,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-15T06:15Z",
-     "noted": "",
+     "noted": "2026-11-15T06:19Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -9090,6 +9090,11 @@
      "by": "cloud-split-sync-drill",
      "at": "2026-11-15T05:53Z",
      "text": "Done: reply and report steps split out of WebMercator_Sync_Drill.cs (1539 to 1324 lines), storage/link gate fields owned. Left: request and merge steps and Drill/Frame file; see nested-controllers.md."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-15T06:19Z",
+     "text": "de43aed400 fixes the Report inspector call to use its owning ConvergenceController. Windows Unity compiled with zero errors after reload, and map bootstrap reached Play. The rest of the drill split stays on 842."
     }
    ]
   },
@@ -9417,5 +9422,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "18a91678aa20cf2a7131ca65683ef8c2a6508be9"
+ "source_revision": "94f633500b25aa48ae2f7e26300c8c8b1e9a4b0f"
 }
