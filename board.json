@@ -1023,16 +1023,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-15T10:16Z",
-     "noted": "",
-     "progress": 53,
-     "ticked": 8,
-     "total": 15
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Space relief: Copernicus GLO-30 4096x2048 globe is the only relief on main (2dfa940d67, LFS SHA-256 b668209b...b513, 16,777,232 bytes); NOAA globe relief removed; globe=Ready at 1,000 km and Absent af",
@@ -1108,8 +1099,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-15T10:14Z",
-     "text": "Strong lookup-cause capture and native stack classification on main in 8943a0f33b. The expensive per-creation Track scan is removed in 68066f8e7b (task 1110). Standalone host tests and Roslyn passed. The signed APK on Strong is the diagnost"
+     "at": "2026-11-15T10:55Z",
+     "text": "2c59a1c325 records the signed Dev 844 comparison on Strong. The texture registry CPU saving is confirmed. Zoom still hitches. Mask Pages wait attribution is 1113 and terrain allocation is 1114."
     }
    ]
   },
@@ -1710,51 +1701,6 @@
    ]
   },
   {
-   "n": 480,
-   "name": "Guides name code that is gone",
-   "done": "2026-11-12T10:42Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "PASIKA_CUT",
-     "at": "2026-11-12T10:42Z",
-     "text": "PASIKA_CUT: done 9057652e8e. Every listed name replaced with today's code name or the sentence cut where the feature went (Motorola VPN catalog pages line, Encryption routing-server bootstrap clause, Network AssignedVpnAddress, PilotPrefabB"
-    }
-   ]
-  },
-  {
-   "n": 481,
-   "name": "Cut what is left of MavChat Landscape from code (Navigator/AGENTS.md",
-   "done": "2026-11-12T10:42Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "PASIKA_CUT",
-     "at": "2026-11-12T10:42Z",
-     "text": "PASIKA_CUT: done cae5f7be73. Cut Navigator.Landscape/IsLandscape, IsMavChatLandscape + Action.NavigatorEditRoute, LandscapeRouteShown + readers, RouteEditOwnsMap (Landscape-gated, always false) + its readers in UpdateCycles/UI_ExpandMenu/Wa"
-    },
-    {
-     "by": "PASIKA_CUT2",
-     "at": "2026-11-12T11:45Z",
-     "text": "PASIKA_CUT2: done 3459ba2407 (code+tests) and 5d090cace0 (SPEC/AGENTS). Navigator.RouteEdit model had no caller but tests; its one live path was harmful (BindRoadRoute restored Editing from the saved Entry, which would hide the MavChat Rout"
-    }
-   ]
-  },
-  {
    "n": 482,
    "name": "EditMode All is green on main",
    "done": "2026-11-13T01:40Z",
@@ -1797,31 +1743,6 @@
      "by": "ROG_FABLE",
      "at": "2026-11-13T23:45Z",
      "text": "ROG_FABLE 482: the Android 833 row (ba81c415c2) records a red native EditMode All, 8,510 passed / 20 failed, evidence D:/MAV_Work/Verification/Android-Test-833-20261113, but names none of the 20. The Rog cannot reproduce the list through th"
-    }
-   ]
-  },
-  {
-   "n": 483,
-   "name": "The Editor Play session of Bootstrap isolation (_Bootstrap/SPEC.md) cannot pick a Settings Inspector by backdoor",
-   "done": "2026-11-12T10:39Z",
-   "goal": false,
-   "under": 382,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_BOARD",
-     "at": "2026-11-12T10:02Z",
-     "text": "Cloud-doable C#, found while organising the board; pushed uncompiled is fine, the next local compile pass catches errors."
-    },
-    {
-     "by": "PASIKA_BACKDOOR",
-     "at": "2026-11-12T10:38Z",
-     "text": "PASIKA_BACKDOOR: done f7ae694bce. bootstrap.scene <map|mainui|trainer|chat|workflow|video|deferred|overlays|lists|navigation|late|sounds> [clear|pick <scene name>] (Editor Play Mode, runtime endpoint) picks/clears the Bootstrap Inspector sc"
     }
    ]
   },
@@ -10430,16 +10351,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLOUD_R4_PEERS",
-     "since": "2026-11-15T07:44Z",
-     "noted": "2026-11-15T07:52Z",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
@@ -10962,10 +10874,14 @@
   {
    "n": 919,
    "name": "Round 4 split R30",
-   "done": "",
+   "done": "2026-11-15T10:57Z",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T10:57Z",
+    "2026-11-15T10:57Z",
+    "2026-11-15T10:57Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -10973,15 +10889,15 @@
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
-     "x": false
+     "x": true
     },
     {
      "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": false
+     "x": true
     },
     {
      "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": false
+     "x": true
     }
    ],
    "notes": [
@@ -10989,6 +10905,11 @@
      "by": "CLOUD_R4_919",
      "at": "2026-11-15T07:45Z",
      "text": "Split into FrameRate/Diagnostics/ (ProcessCpu, snapshots, FrameReceiptSnapshot, ledger); left: capture fields into a nested controller, two stale python pins. See nested-controllers.md"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-15T10:57Z",
+     "text": "Published 30b59e06c0. Task 1106 completed the remaining capture-controller split; Rog Editor compilation passed in 1017. The surviving receiver-stage host now runs actual progress code from both owners. 29 controls passed and the historical"
     }
    ]
   },
@@ -14055,29 +13976,20 @@
   {
    "n": 1017,
    "name": "Restore Rog Unity compilation after the round 5 Planet Mask ViewsController split (task 954)",
-   "done": "",
+   "done": "2026-11-15T10:53Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T10:32Z",
-     "noted": "2026-11-15T10:32Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-15T10:32Z",
-     "text": "Published a5a72fd196, 300dcfe72d and 6383dfb2b5. Restored Logistics inventory and needs-inspector test references. Fixed WiFi evidence, GPS and other runtime regressions from new merges, including C# 9 property patterns. Fresh Rog pass agai"
+     "at": "2026-11-15T10:53Z",
+     "text": "Published 588e73daf1, c54c81ed5e, acb1cbb7ea and acb0b5491f. Native Rog Unity refresh finished with script_compilation_failed=False and zero C# errors. Play started; reviewer capture and ui.suggestion.tabs confirmed the sole landscape Cross"
     }
    ]
   },
@@ -16774,8 +16686,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-15T10:14Z",
-     "text": "Main 68066f8e7b indexes project texture membership and keeps the ordered read-only inspector list. Ten extracted host cases pass, including retirement, duplicate registration and the bounded cleanup. Roslyn Editor, Android, Windows and test"
+     "at": "2026-11-15T10:55Z",
+     "text": "68066f8e7b indexed texture membership. Ten extracted host tests and Roslyn passed. Two signed Dev 844 APKs with only this fix between them ran 24 fast pinches each on Strong. The linear scan disappeared and draw CPU fell, while display-gap "
     }
    ]
   },
@@ -16802,23 +16714,57 @@
   {
    "n": 1112,
    "name": "Using Strong for the texture registry before-and-after replay",
-   "done": "",
+   "done": "2026-11-15T10:55Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T10:55Z",
+     "text": "Signed Dev 844 comparison finished. All 48 counted pinches restored the starting camera pose. Strong stays on the candidate. Result 2c59a1c325 and build record e094012dbb."
+    }
+   ]
+  },
+  {
+   "n": 1113,
+   "name": "Record exact Mask Pages intervals in the frame capture. Planet Renderer SPEC",
+   "done": "",
+   "goal": false,
+   "under": 381,
+   "ticks": [],
+   "priority": "high",
+   "parked": false,
+   "flags": [],
    "held": [
     {
      "who": "GETAC",
-     "since": "2026-11-15T10:34Z",
+     "since": "2026-11-15T10:57Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
      "total": 0
     }
    ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 1114,
+   "name": "Reduce terrain surface allocations during fast zoom. Planet Renderer SPEC",
+   "done": "",
+   "goal": false,
+   "under": 381,
+   "ticks": [],
+   "priority": "high",
+   "parked": false,
+   "flags": [],
+   "held": [],
    "steps": [],
    "notes": []
   }
@@ -16869,5 +16815,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "aa1f657def1950d588861eefa06b759f04559b0e"
+ "source_revision": "cd016902d5739a2acc5b85906bd72e87fc7475e6"
 }
