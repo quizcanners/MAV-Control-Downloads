@@ -5862,7 +5862,7 @@
    "held": [
     {
      "who": "ROG",
-     "since": "2026-11-15T21:24Z",
+     "since": "2026-11-15T21:34Z",
      "noted": "",
      "progress": 50,
      "ticked": 2,
@@ -5900,8 +5900,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-15T21:21Z",
-     "text": "a703ded559 retires all five Logistics CSV loaders and their shared HTTP client on shutdown. Saved links reopen on a fresh client. Rog Unity passed Personnel 5/5 and Message Import 21/21, including cancellation and disposal; Roslyn clean. No"
+     "at": "2026-11-15T21:33Z",
+     "text": "9853002c5c cancels and drains Overpass tile/place downloads before Place Labels clears its queues. Loopback proved pending HTTP cancellation, disposal and fresh ownership. Unity OSM 5/5, Place Labels 7/7, cached-area 2/2; Roslyn clean. Publ"
     }
    ]
   },
@@ -18311,14 +18311,20 @@
     {
      "who": "HEAVY",
      "since": "2026-11-15T21:26Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T21:35Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-15T21:35Z",
+     "text": "134ab7bb75 restores stored Children and Polylines keys and binds fixtures to their owners. Prepared Windows All: GeometryConvergenceLoopTests 72/72, GeometryBranchFileParseTests 3/3, PowerLineGeometryTests 57/58 (ribbon mesh case remains). "
+    }
+   ]
   }
  ],
  "verify": [
@@ -18367,5 +18373,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ff1d859fa3f3947c783d94eaf3a97a952796e3c1"
+ "source_revision": "e931cb552e297d8c57da453cc487206aa5709ed9"
 }
