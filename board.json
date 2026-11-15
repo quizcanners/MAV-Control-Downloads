@@ -4471,7 +4471,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T16:27Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -17658,14 +17667,20 @@
     {
      "who": "CODEX_MAC_UI",
      "since": "2026-11-15T16:26Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T16:30Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-15T16:30Z",
+     "text": "Published 706f3f0477: the Off state uses the same neutral outline status control and alignment as active states. Editor macOS Video Capture page visually checked; Unity compiled and Roslyn reported NEW ERRORS none."
+    }
+   ]
   }
  ],
  "verify": [
@@ -17714,5 +17729,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "68cfc9086ac270fabe15815370c454ed43d5cae3"
+ "source_revision": "87b1ac80b6d6cac79e8538f8bbdd7b0ec49a505f"
 }
