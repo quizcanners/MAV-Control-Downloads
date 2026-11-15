@@ -5982,16 +5982,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T19:48Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -6023,8 +6014,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-15T19:18Z",
-     "text": "Rog verified Geocoding fix 6bda3df3b9 in isolated Windows Editor MapOnly Play. Two real loopback HTTP redirects resolved 50N, 30E. The pending request reused the first connection, which closed 4.80 s after Play exit was requested, before it"
+     "at": "2026-11-15T19:59Z",
+     "text": "Rog pushed 464bad0456. Bootstrap shutdown drops both horizon visibility tables, the retired camera position and its version gate. The next camera starts fresh. Fixed stale Frame Budget test bindings and passed 49 focused Unity cases includi"
     }
    ]
   },
@@ -18197,14 +18188,20 @@
     {
      "who": "CODEX_MAC_UI",
      "since": "2026-11-15T19:49Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T19:59Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-15T19:59Z",
+     "text": "Main a8709ac891 keeps the shared peer columns under the hidden panel after dismissal; Chat and standalone peers immediately reclaim them. Mac Editor: regression fails on old reparenting and passes with fix; DeferredListViews 10/10, MavChatS"
+    }
+   ]
   },
   {
    "n": 1191,
@@ -18267,5 +18264,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "23b9e390d31cb977eee0570943b0cd800312d35b"
+ "source_revision": "6b884341cdb6a2e2848f80727d262e74637f2e96"
 }
