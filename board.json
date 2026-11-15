@@ -9209,7 +9209,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T05:59Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -9218,15 +9220,15 @@
      "who": "cloud-846",
      "since": "2026-11-15T05:53Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Count the forwarders per file with the scan",
-     "x": false
+     "x": true
     },
     {
      "t": "Delete them and fix callers",
@@ -9403,5 +9405,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "20b2ebb70e4667560707538263a12352426e5f6c"
+ "source_revision": "2a8534c39394520906861620e041499aec4ead01"
 }
