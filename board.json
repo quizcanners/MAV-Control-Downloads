@@ -8749,6 +8749,7 @@
    "under": 0,
    "ticks": [
     "2026-11-15T05:55Z",
+    "2026-11-15T06:00Z",
     "2026-11-15T06:00Z"
    ],
    "priority": "normal",
@@ -8759,8 +8760,8 @@
      "who": "thread831",
      "since": "2026-11-15T05:52Z",
      "noted": "",
-     "progress": 67,
-     "ticked": 2,
+     "progress": 100,
+     "ticked": 3,
      "total": 3
     }
    ],
@@ -8775,7 +8776,7 @@
     },
     {
      "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": false
+     "x": true
     }
    ],
    "notes": []
@@ -8889,7 +8890,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_836_AUDIT",
+     "at": "2026-11-15T06:00Z",
+     "text": "Stopped duplicate work: concurrent 658d9a6883 landed the same extraction while CLOUD_836 was validating. Published bodies match the originals and Popup/current-list fields plus ResetMapList are unchanged. All three Station_UI_{ViewStack,Tra"
+    }
+   ]
   },
   {
    "n": 837,
@@ -9413,5 +9420,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "cb92c605b53dff7b40b0826dbf78e94d5a5fa07e"
+ "source_revision": "04ae98327faed67b2af05dcc878ebab60a98e0ed"
 }
