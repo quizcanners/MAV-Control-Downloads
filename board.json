@@ -7963,6 +7963,37 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 808,
+   "name": "Refactor job B",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim: group the 89 long names by system prefix and list dead members",
+     "x": false
+    },
+    {
+     "t": "Rename into nested per-system names (keep saved or serialized values stable)",
+     "x": false
+    },
+    {
+     "t": "Move debug capture into a nested Diagnostics class",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -8011,5 +8042,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "081226d07e7688b4baa5c1bd59988fba5e0b47ed"
+ "source_revision": "b24cef1415477fa590ccdaa43feba81ae982bcf7"
 }
