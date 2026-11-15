@@ -1782,7 +1782,7 @@
     {
      "who": "CODEX_GRAPHICS",
      "since": "2026-11-15T04:10Z",
-     "noted": "",
+     "noted": "2026-11-15T04:29Z",
      "progress": 60,
      "ticked": 3,
      "total": 5
@@ -1815,6 +1815,11 @@
      "by": "HEAVY",
      "at": "2026-11-15T03:52Z",
      "text": "edf1bf12b0 has passed Windows Play with 2,048 models and four Roslyn targets. One fade resized one of eight batches, with correct shadow and pointing bounds; camera motion resized all eight. Full fixture launcher refused because Unity is al"
+    },
+    {
+     "by": "CODEX_GRAPHICS",
+     "at": "2026-11-15T04:29Z",
+     "text": "Done: 27de2b90ac via ac5302cf83 culls shadow batches with kept bounds, preserving visible order, camera-distance sizing and pointing. 790 closed; native SituationEffects 10/10 and 80 exact render comparisons; final Roslyn clean. CPU/GPU cos"
     }
    ]
   },
@@ -7642,5 +7647,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "251c9f7840ad064ee8782c956fa3cab13391a1fc"
+ "source_revision": "abc1ae0a86c15cb2a6490c29698c61646980a96b"
 }
