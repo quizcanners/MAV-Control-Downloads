@@ -1828,26 +1828,6 @@
    "notes": []
   },
   {
-   "n": 500,
-   "name": "Drone row in the right drone list (Connected MAV.prefab",
-   "done": "2026-11-12T13:35Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-12T13:34Z",
-     "text": "ROG_FABLE 2026-11-12 (51c2e67bf2): fixed in the prefab. Direct cause: the drone list's content VerticalLayoutGroup controls child height (UI_ListRows.FitRoot) and Connected MAV's root had no LayoutElement, so every row was 0 high: the Synth"
-    }
-   ]
-  },
-  {
    "n": 504,
    "name": "Editor",
    "done": "2026-11-12T16:53Z",
@@ -16910,23 +16890,14 @@
   {
    "n": 1125,
    "name": "Using Strong for the saved Mask Pages mosaic allocation replay and late display timing",
-   "done": "",
+   "done": "2026-11-15T13:35Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-15T13:02Z",
-     "noted": "2026-11-15T13:34Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -17139,5 +17110,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "225e10b3d43f7c450f3947298bb1ebeb587a6648"
+ "source_revision": "81bd9e17ccdb3615bb32ae3dfc82dd50b886b33c"
 }
