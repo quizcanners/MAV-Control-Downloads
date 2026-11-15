@@ -16682,7 +16682,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T10:25Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -16691,15 +16693,15 @@
      "who": "cloud-refactor-1106",
      "since": "2026-11-15T10:17Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Run cs_outline and list every concern",
-     "x": false
+     "x": true
     },
     {
      "t": "Move one concern per commit into a nested controller that owns its fields",
@@ -16893,5 +16895,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4ff602dadadcc09d1c40ad4ff0666c0e0779c3b9"
+ "source_revision": "be49d00ee01636f89a52fb829f76970b6a261a9d"
 }
