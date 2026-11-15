@@ -7456,14 +7456,20 @@
     {
      "who": "CODEX_GRAPHICS",
      "since": "2026-11-15T03:30Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T03:46Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_GRAPHICS",
+     "at": "2026-11-15T03:46Z",
+     "text": "Done: af8ae99a27, published in 398221bd48. Situation shadows submit one instanced call per kept batch, preserving depth, coverage and order. Five native cases across four draw paths matched exactly; Metal/GLES variants compiled, final Situa"
+    }
+   ]
   },
   {
    "n": 787,
@@ -7544,5 +7550,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "856bf211eced3d1670780ee5748e5cefb4bb683e"
+ "source_revision": "5cccb086a7904bbb066a6ac68f878244b133cea1"
 }
