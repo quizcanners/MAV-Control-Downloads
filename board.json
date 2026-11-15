@@ -1149,7 +1149,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MAC_UI",
+     "since": "2026-11-15T14:53Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 6,
+     "total": 12
+    }
+   ],
    "steps": [
     {
      "t": "Edge and join pass done: screen-edge ticks on every fixed prefab (last 6138a500ce, d3313d805f); join sides keep the merge flag and get only the pixel line (option a, taken by CLOUD_BOARD); dead line m",
@@ -10102,7 +10111,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T14:52Z",
+     "noted": "",
+     "progress": 100,
+     "ticked": 3,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Delete the chatter lines",
@@ -17192,25 +17210,22 @@
   {
    "n": 1141,
    "name": "Reuse bounded plain-page decode storage during Web Mercator Index Compaction (Web Mercator SPEC",
-   "done": "",
+   "done": "2026-11-15T14:51Z",
    "goal": false,
    "under": 430,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T14:43Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T14:51Z",
+     "text": "Published df34273b9d. Each sweep reuses bounded plain-page storage and stream wrappers, validates exact stored and decoded data, and releases the page before visiting child references. Eight Unity checks passed including strict decode lengt"
+    }
+   ]
   },
   {
    "n": 1142,
@@ -17279,5 +17294,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5574b97e7b9b7dd7cab034edd0aaf7e17584d861"
+ "source_revision": "3f3edcff427feb38c93bd49ac5fb1361e9276811"
 }
