@@ -13721,7 +13721,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T08:44Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -13730,15 +13732,15 @@
      "who": "cloud-1003",
      "since": "2026-11-15T08:42Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
-     "x": false
+     "x": true
     },
     {
      "t": "Move one concern per commit into a nested controller that owns its fields",
@@ -14235,5 +14237,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "2ef57134a504c302f49e14bce7ca0a68d6da8cb6"
+ "source_revision": "db2a999301ffab4ed7eadc6a39160e4e262a9744"
 }
