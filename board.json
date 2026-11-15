@@ -17429,14 +17429,20 @@
     {
      "who": "CODEX_MAC_UI",
      "since": "2026-11-15T15:41Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T16:03Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-15T16:03Z",
+     "text": "Published c28a55f605: Settings measures the shared X hit rect; Editor Data page clears it and X closes Settings. TopControlsLayoutTests 8/8; Editor compile and Roslyn NEW ERRORS none."
+    }
+   ]
   },
   {
    "n": 1152,
@@ -17461,25 +17467,22 @@
   {
    "n": 1153,
    "name": "Remove the IL2CPP DeflateStream callback allocations during Web Mercator Index Compaction (Web Mercator SPEC",
-   "done": "",
+   "done": "2026-11-15T16:01Z",
    "goal": false,
    "under": 430,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T15:55Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T16:01Z",
+     "text": "Published 46a6a39744. Cold compaction reads borrowed SQLite bytes directly into its bounded buffer, using reusable raw DEFLATE tables. Editor compiled; eight focused checks passed (both roots, digest, malformed streams, pause). .NET host: 1"
+    }
+   ]
   },
   {
    "n": 1154,
@@ -17617,5 +17620,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "36dd4935826e908bea398915818c4c81fa1b022f"
+ "source_revision": "327bacea63b80b210803caf9a128562d59948552"
 }
