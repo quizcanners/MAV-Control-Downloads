@@ -16478,7 +16478,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "cloud-1100",
+     "since": "2026-11-15T10:11Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Run cs_outline and list every concern",
@@ -16764,25 +16773,22 @@
   {
    "n": 1111,
    "name": "Using Strong to trace combined Element Mask texture lookups",
-   "done": "",
+   "done": "2026-11-15T10:11Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-15T10:07Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T10:11Z",
+     "text": "Strong published 12 fast-pinch lookup-cause traces and matching CPU stack evidence in 8943a0f33b. The probe restored the original camera view. Diagnostic Dev 844 is available for further replay."
+    }
+   ]
   }
  ],
  "verify": [
@@ -16831,5 +16837,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "091edc5702cc5ea828ef45ce36a6d3b3dbf328fc"
+ "source_revision": "fa581464e1d820220af5f6c59ef2ee52523421c9"
 }
