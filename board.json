@@ -5964,7 +5964,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T18:38Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -5996,8 +6005,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-15T18:25Z",
-     "text": "Published c3d0c9718f. Station shutdown clears cached map Settings, retained picture references, render and motion gates, and refresh counters. The next run settles independently. Unity compiled, the three-case render regression passed, and "
+     "at": "2026-11-15T18:37Z",
+     "text": "Rog paused for the Crosshair request. Unity compiled a temporary test-assembly source change during Play without errors, but the probe stopped before reading the post-reload texture and scene state. Temporary source and meta removed, Editor"
     }
    ]
   },
@@ -17889,6 +17898,20 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1178,
+   "name": "Wake Android Unity on pending map touch at the 8 FPS idle cap (Bootstrap SPEC",
+   "done": "",
+   "goal": false,
+   "under": 381,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -17937,5 +17960,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "6cddbcd499cce4f8e8fde2164e78f520650b6836"
+ "source_revision": "5807d035e611fd73e153bf2fe414bb67a0ac88cc"
 }
