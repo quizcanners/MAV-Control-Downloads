@@ -8149,6 +8149,37 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 814,
+   "name": "Refactor job H",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim: the four 11 to 13 parameter methods and the forwarder list",
+     "x": false
+    },
+    {
+     "t": "Move each long method to the owner of its data",
+     "x": false
+    },
+    {
+     "t": "Delete forwarders; replace Debug.Log in loops; PlayerPrefs to Persistent in Stat",
+     "x": false
+    },
+    {
+     "t": "Put leftovers on the board; add a Done / Left line to Coordination/Refactoring/f",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -8197,5 +8228,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ff791014ffffd8e4058c7bab87bbdafb74d67348"
+ "source_revision": "eae028129cae814e44ce75da86dd48882573bc6b"
 }
