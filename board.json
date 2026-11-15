@@ -14114,22 +14114,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T09:09Z",
-     "noted": "2026-11-15T09:09Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-15T09:09Z",
-     "text": "Published nine more repair commits through e0b10b503e, covering Chat/video/Logistics ownership, Camera, Orthophoto, DJI platform guards, Direct USB and accidental edits in two Editor utilities. Latest Rog compiler progressed into Video Stat"
+     "at": "2026-11-15T09:20Z",
+     "text": "Published ten repairs through 48ca41463d. Restored Video Status bodies from bd0d8c0310^ inside the new controllers, bound Planet Mask owners, cleared Chat prefab author access and fixed DJI and WiFi Inspector scopes. Rog native body-checkin"
     }
    ]
   },
@@ -15010,7 +15001,20 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Read the ask and list the fix chains",
+     "x": false
+    },
+    {
+     "t": "Remove dead or equivalent code, one chain per commit",
+     "x": false
+    },
+    {
+     "t": "Add a Done line with lines removed to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
@@ -15060,5 +15064,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "891cc52e117c2b4db08b0a67d68c5594baa98284"
+ "source_revision": "97397efa40c5236ba1ccae8732ebb06feb3e37ac"
 }
