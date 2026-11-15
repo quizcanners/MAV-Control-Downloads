@@ -13429,7 +13429,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "thread957",
+     "since": "2026-11-15T08:46Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
@@ -14138,25 +14147,22 @@
   {
    "n": 1019,
    "name": "Repair macOS-only build preparation with the repository-owned Git LFS pre-push hook",
-   "done": "",
+   "done": "2026-11-15T08:46Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_GRAPHICS",
-     "since": "2026-11-15T08:41Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_GRAPHICS",
+     "at": "2026-11-15T08:46Z",
+     "text": "Published 9f96342671 and 6fd70c7e56: macOS-only LFS setup preserves the repository hook; exact IL2CPP prerequisite documented. Real LFS setup preserved the hook hash; 41 daily Git tests, shell syntax and guide check passed. macOS 845 built "
+    }
+   ]
   }
  ],
  "verify": [
@@ -14205,5 +14211,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "fc3fde01fa78ab5bd59e42d60d6a9b353f6a0733"
+ "source_revision": "a9455549bd58a76109c677d7e9c56bc8e45180e2"
 }
