@@ -15957,7 +15957,20 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Run cs_outline and list every concern",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
@@ -16007,5 +16020,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "fc8dcf7baabe2ca9d2907396dc8205bd0b4e58b9"
+ "source_revision": "32f8249b28f95439950fa441123efc21bd4728be"
 }
