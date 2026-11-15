@@ -7289,8 +7289,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-15T01:49Z",
-     "text": "Strong Dev 842 e4e4c07729, CPU profile 5fbdd27ae6 and lifecycle follow-up 11862ab7b9. Index compaction was about 62% of sampled CPU. Two 15 s Home trips cancelled ReachablePages at 4.51/3.12 s with zero deletes and started a fresh pass on e"
+     "at": "2026-11-15T03:14Z",
+     "text": "Dev 842 baseline e4e4c07729 finished in 73.68 s and removed 3,368 obsolete pages. Strong Dev 842 5d274c052c includes the fix and reports decoded/reused counters, but the 598.61 s warm-up stayed NotRun. ComparingWithPeers remained after the "
     }
    ]
   },
@@ -7467,5 +7467,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "cf855ebee4e79d9604a5babf8e3be140a5aa3736"
+ "source_revision": "92bd69023e12f7c4af1c74f3188dc1db028b3c4c"
 }
