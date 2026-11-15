@@ -15166,7 +15166,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T09:39Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -15175,15 +15177,15 @@
      "who": "CLOUD_R6_X4_1057",
      "since": "2026-11-15T09:36Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Run cs_outline and list every concern",
-     "x": false
+     "x": true
     },
     {
      "t": "Move one concern per commit into a nested controller that owns its fields",
@@ -16661,5 +16663,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c45103d544e5cd4b94994f00697931190aaae607"
+ "source_revision": "428917d7c384e6dba6e7e59e71f376f59acd4e26"
 }
