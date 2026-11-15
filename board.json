@@ -5941,16 +5941,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T19:11Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -5982,8 +5973,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-15T19:10Z",
-     "text": "Rog published 6bda3df3b9: the Geocoding session owns the shared Maps-link redirect HTTP client and disposes it on shutdown. New session starts without the old pool. Unity compiled and passed 43 focused lifecycle, response and paste checks. "
+     "at": "2026-11-15T19:18Z",
+     "text": "Rog verified Geocoding fix 6bda3df3b9 in isolated Windows Editor MapOnly Play. Two real loopback HTTP redirects resolved 50N, 30E. The pending request reused the first connection, which closed 4.80 s after Play exit was requested, before it"
     }
    ]
   },
@@ -17974,6 +17965,52 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1183,
+   "name": "Clean the Main View",
+   "done": "",
+   "goal": false,
+   "under": 606,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T19:19Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 1184,
+   "name": "Fix iOS player compilation for Motorola stress diagnostics (build 846)",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MAC_UI",
+     "since": "2026-11-15T19:20Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -18022,5 +18059,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "fc7d07a98874193cdb9170cf93952c79bd2562b1"
+ "source_revision": "86dbaf3f40f160f3c8384243ec0b3bbee29f15d0"
 }
