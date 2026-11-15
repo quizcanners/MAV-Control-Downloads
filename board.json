@@ -1820,36 +1820,6 @@
    "notes": []
   },
   {
-   "n": 504,
-   "name": "Editor",
-   "done": "2026-11-12T16:53Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T15:34Z",
-     "text": "MAC_FABLE batch 4, step 5 not done: task 504 refuses a claim (flagged verify-only, waiting for a cloud worker to rephrase it), so the left lists background was not tuned."
-    },
-    {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T16:04Z",
-     "text": "MAC_FABLE batch 5, step 1. Seen in Play: the flat part was not Fade Out (the strip background, already Blur Display Panel.mat) but the one list panel's own backing behind the rows, Lists Root/Swipe Backing and the Swipe Handle, which kept D"
-    },
-    {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T16:39Z",
-     "text": "MAC_FABLE batch 6, step 1. The blur of the Increase Blur path had no material setting (a fixed 0.006 tap distance in the shader). d4c267de16 adds _BlurSpread to BlurDisplay.shader with the same 0.006 default, so the 13 materials on that sha"
-    }
-   ]
-  },
-  {
    "n": 525,
    "name": "Main view",
    "done": "2026-11-12T17:15Z",
@@ -17719,7 +17689,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-15T16:54Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -17806,5 +17785,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "84b6c3e5355978408c32886fe98b79a0590add00"
+ "source_revision": "743d39c37e610dd7905609feba8de77cc2bc96a3"
 }
