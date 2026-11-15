@@ -1371,7 +1371,16 @@
    "priority": "normal",
    "parked": true,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MAC_UI",
+     "since": "2026-11-15T15:47Z",
+     "noted": "",
+     "progress": 60,
+     "ticked": 3,
+     "total": 5
+    }
+   ],
    "steps": [
     {
      "t": "All 20 card prefabs carry UI_NotificationCard with the Done tick on Windows/Mac only and swipe up receiving on touch; the four plain status notices (Connection Lost, Remote Sensors Offline, Motorola W",
@@ -17520,5 +17529,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e812b2c4cdacccbe138cc4aea37f1779c8de85ac"
+ "source_revision": "dae8cbf6c3782be1bc6d41cf0d4a0569fc6ba90e"
 }
