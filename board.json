@@ -162,7 +162,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_GRAPHICS",
+     "since": "2026-11-15T11:19Z",
+     "noted": "",
+     "progress": 56,
+     "ticked": 5,
+     "total": 9
+    }
+   ],
    "steps": [
     {
      "t": "On main: the state machine and every mode, 1 s settle, release-frame full resolution, VideoOnBlack, kept screen-size picture, ribbons as kept renderers, Editor 2x frame read on Mac and Rog, 8 fps idle",
@@ -1743,26 +1752,6 @@
      "by": "ROG_FABLE",
      "at": "2026-11-13T23:45Z",
      "text": "ROG_FABLE 482: the Android 833 row (ba81c415c2) records a red native EditMode All, 8,510 passed / 20 failed, evidence D:/MAV_Work/Verification/Android-Test-833-20261113, but names none of the 20. The Rog cannot reproduce the list through th"
-    }
-   ]
-  },
-  {
-   "n": 484,
-   "name": "Right Suggestions panel matches Main View SPEC",
-   "done": "2026-11-12T11:05Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_SUGGESTIONS",
-     "at": "2026-11-12T11:05Z",
-     "text": "done dc495bf8: prefab numbers, tint, pair merging, '0 m/s' caption, Main View SPEC Right Suggestions with quiz's words. cmp.sh: only the known unresolved UnityEngine.UI Button of this file (+3 from the new method's use of the type), nothing"
     }
    ]
   },
@@ -5648,14 +5637,14 @@
    "steps": [],
    "notes": [
     {
-     "by": "ROG",
-     "at": "2026-11-14T22:52Z",
-     "text": "ed7875c531 uses the map camera pixel rectangle for shared translation wake checks, including GPS and peer crosshairs. Before fix Windows native probe reported motion at pixels x=310\u2013320 outside a camera ending at x=300. MapRenderModeTests 2"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-15T09:03Z",
      "text": "Windows Editor loaded 428d5f78a2, before RenderState. In a passive 87 s window, all 42 app.lifecycle samples were MapStatic with no current wake and idle pacing held 8 FPS. The map stayed Unscaled with no kept picture and Glass=Blur. Last M"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-15T11:05Z",
+     "text": "4bbc20d3fd fixes a Rog Cesium false wake. Before: 97/286 stationary samples Unscaled with MaskDirty. After: 219/219 FrozenDouble at 8 FPS while hidden mask revision rose 360 to 25185. Native compile passed; focused NUnit requires disposable"
     }
    ]
   },
@@ -9265,7 +9254,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T11:10Z",
+     "text": "Published f3483f49c9. planet.status now reports revision attribution in planet_mask_revision. Windows Editor compiled after 7735729a3b and sampled Cesium startup: all 191 coalesced bumps had Catalog and Content, 24,993 direct in-update incr"
+    }
+   ]
   },
   {
    "n": 858,
@@ -11134,7 +11129,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T11:17Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
@@ -11395,10 +11399,14 @@
   {
    "n": 934,
    "name": "Round 4 split R6",
-   "done": "",
+   "done": "2026-11-15T11:16Z",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T11:16Z",
+    "2026-11-15T11:16Z",
+    "2026-11-15T11:16Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -11406,15 +11414,15 @@
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
-     "x": false
+     "x": true
     },
     {
      "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": false
+     "x": true
     },
     {
      "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": false
+     "x": true
     }
    ],
    "notes": [
@@ -11422,6 +11430,11 @@
      "by": "CLOUD_R4_934",
      "at": "2026-11-15T07:50Z",
      "text": "Done: PeerTransport types moved beside owners, StreamerManager blocks joined (1613 to 1005). Left: nest types inside controllers, Python pins, compile. See nested-controllers.md"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-15T11:16Z",
+     "text": "Published ba8fbec63d. Publication input types now belong to PublicationController, existing Feed/Relay/Wish ownership checked, constants consolidated, pose enum alongside codec. Constants and pose wire values match the old source. Rog nativ"
     }
    ]
   },
@@ -16815,5 +16828,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "cd016902d5739a2acc5b85906bd72e87fc7475e6"
+ "source_revision": "b016c9a1d7b66ff851c13bd7cb02088ba1c5dd64"
 }
