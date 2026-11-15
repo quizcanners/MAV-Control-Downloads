@@ -6352,7 +6352,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-15T00:32Z",
-     "noted": "",
+     "noted": "2026-11-15T00:42Z",
      "progress": 50,
      "ticked": 2,
      "total": 4
@@ -6383,14 +6383,14 @@
      "text": "Remote Sensors ticket teardown is published in 258abaf71c (task 753 done): coordinate replacement, removal, render-asset rebuild and shutdown cancel owned batched-ray tickets. Native 21/21 covers queued, in-flight and completed answers plus"
     },
     {
-     "by": "HEAVY",
-     "at": "2026-11-15T00:16Z",
-     "text": "12f2fe9088 releases the native Peer Video engine after partial startup and even if final traffic diagnostics fail."
-    },
-    {
      "by": "ROG",
      "at": "2026-11-15T00:24Z",
      "text": "7d195e6523 cancels Linked Browser tab discovery and screencast, rejects retired frames, page coordinates and failure reports, and disposes cancellation only after worker exit. Windows Unity compiled and 3 targeted tests passed, including si"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-15T00:42Z",
+     "text": "Delayed local navigation reproduced six stale-color frames. Ownership fix is parked in the HEAVY 735 Linked Browser navigation ownership candidate stash; replay after switching back from the reported PolyLine issue. Evidence C:/MavControlEv"
     }
    ]
   },
@@ -7189,5 +7189,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "cfff8ca7953fdccfd96a4f82994e41a8d22f3894"
+ "source_revision": "2e31bbc61b78a10128fa8df8375443d5bbd8c23c"
 }
