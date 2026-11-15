@@ -16829,6 +16829,11 @@
      "by": "ROG",
      "at": "2026-11-15T11:54Z",
      "text": "Published c66db3a966 and baseline b94ca8aa72. Native Rog compile passed. Four offline wheel bursts: two fresh member arrays, five reuses; renderer exit had zero spares. Production-code host checked live ownership, exact-once return, reuse, "
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T11:55Z",
+     "text": "Six same-device trials confirm a second ReadChunk allocation causing stopped GC, this time in the 256 KiB full-texture raw decode buffer. CPU.md (1646488112) records both exact native call sites and a Retention file-census wait during a pin"
     }
    ]
   },
@@ -16893,5 +16898,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "07465c54f60c7e0e9ad55f1024d196214b3942be"
+ "source_revision": "f6607625235e125448f0e4d8a5966f7459f95c9c"
 }
