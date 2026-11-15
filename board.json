@@ -8366,6 +8366,37 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 821,
+   "name": "Refactor job O",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim: list the 7 largest files and the groups of near-identical tests",
+     "x": false
+    },
+    {
+     "t": "Batch same-claim tests into [Cases] in the three worst files",
+     "x": false
+    },
+    {
+     "t": "Delete tests of removed behaviour only with the proof it is gone",
+     "x": false
+    },
+    {
+     "t": "Put the run on the board as a verify item; add a Done / Left line to Coordinatio",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -8414,5 +8445,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a979cb792c5c8d529a764870c5f1f4a5258d4c33"
+ "source_revision": "0d16788b122f8a34eb9530e473be92495bcea8bd"
 }
