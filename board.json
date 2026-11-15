@@ -8242,6 +8242,37 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 817,
+   "name": "Refactor job K",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim: list files by Debug.Log count, split Editor-only from player code",
+     "x": false
+    },
+    {
+     "t": "Replace loop, receive and retry logs with ChillLogger enums; delete chatter",
+     "x": false
+    },
+    {
+     "t": "Delete the Undo Redo and Waypoints forwarders",
+     "x": false
+    },
+    {
+     "t": "Put leftovers on the board; add a Done / Left line to Coordination/Refactoring/f",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -8290,5 +8321,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f73057d22514291e771b08a00791d09a2ddd8787"
+ "source_revision": "1ca9ce586fd60c15777840d57d3c734d854c36dd"
 }
