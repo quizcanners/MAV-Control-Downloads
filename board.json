@@ -4585,13 +4585,22 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T12:23Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-15T12:15Z",
-     "text": "Published cb36c394fc: Station.OS owns iOS safe-area policy, Android DJI/Autel model checks and the hardware-overlay probe. Rog Unity compiled; 1200x720 Play with insets 11/13/17/19 reported effective 11,19,1172,688 and restored the viewport"
+     "at": "2026-11-15T12:22Z",
+     "text": "Published f6ca9670e7 and compiler fix 7ccc22ba6b. Station.OS owns power.threads /proc and Android service reads. Rog Unity compiled and the live Windows report retained registry and unavailable rows. Managed Android and Windows Editor confi"
     }
    ]
   },
@@ -16856,14 +16865,20 @@
     {
      "who": "GETAC",
      "since": "2026-11-15T12:16Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T12:23Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T12:23Z",
+     "text": "Strong completed 32 signed Dev 844 pinches under Normal and diagnostic fixed 30 FPS. Fixed 30 removed the measured IdleFrameCap wait but left the long post-release display gaps. Camera and Normal pacing restored. Measurements in CPU.md (02f"
+    }
+   ]
   }
  ],
  "verify": [
@@ -16912,5 +16927,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "00d99090713f7c8c0a8c59f03d801219edf06501"
+ "source_revision": "0ffe51ea20a33dc6c750b7d9b3c15453b6da28da"
 }
