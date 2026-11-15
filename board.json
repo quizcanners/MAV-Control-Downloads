@@ -16934,29 +16934,20 @@
   {
    "n": 1129,
    "name": "Turn the offline map loader coroutines (BaseMap_OfflineMapsLoader_Preparation",
-   "done": "",
+   "done": "2026-11-15T14:42Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T14:32Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-15T14:31Z",
-     "text": "Published d05904076f: Cesium managed update polls post-publication cleanup. Rog Unity compiled; native SQLite tests passed locked-backup retry/backoff, authority checks, pause/resume, shutdown and preparation shutdown ownership. Remaining: "
+     "at": "2026-11-15T14:42Z",
+     "text": "Published 5067dffdaf. Bootstrap BaseMap now polls preparation, optional terrain and post-publication cleanup. Rog Unity compiled, 12 focused methods and case groups passed, and live Play Mode reached ready=True with terrain Ready, cleanup C"
     }
    ]
   },
@@ -17211,6 +17202,29 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1142,
+   "name": "Position-sharing notification",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MAC_NOTIFY",
+     "since": "2026-11-15T14:43Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -17259,5 +17273,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5a9d9412abf8068ab942d33a05408c86be01262e"
+ "source_revision": "bdb486abe1a638fc1ead30393a7bd6d1062f948d"
 }
