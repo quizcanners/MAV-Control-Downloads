@@ -470,16 +470,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-15T07:24Z",
-     "noted": "",
-     "progress": 71,
-     "ticked": 5,
-     "total": 7
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Windows Editor (HEAVY): bridge answered api.status after a witnessed script reload (8b1b018379); prepared-candidate containing All 8569 passed, 0 failed (also serves goal 382); live-Editor All 8591/0 ",
@@ -512,11 +503,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T14:49Z",
-     "text": "Published dbc1a92fae: fixed iOS-targeted Mac Editor WebRTC native binding; fresh launch, reload and Mac context checks pass. Four Roslyn configurations: NEW ERRORS: none (checker retried one internal exception). iOS 839 delivered separately"
-    },
-    {
      "by": "ROG",
      "at": "2026-11-14T20:48Z",
      "text": "Full Windows EditMode All on Rog at 577c0e7fa3: 8582 pass, 0 fail, 2 skip (706.5 s). QR, menu lighting and Settings smoke checks pass in the containing run. All-green.xml in C:/MavControlEvidence/Rog-369-20261114, SHA-256 A7FBFED82B4419B9F0"
@@ -525,6 +511,11 @@
      "by": "HEAVY",
      "at": "2026-11-15T08:15Z",
      "text": "Windows All at 0f69b2611a wrote 7,909 passed, 101 failed, 10 skipped. Launcher timed out during shutdown and issued no qualification. I stopped only disposable Unity PID 52068 after saving the original terminal and verifying the XML hash. I"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T08:40Z",
+     "text": "1fcdb87453 moves the Editor-only handshake diagnostic into its existing guard. Roslyn removed Android and Windows CS1061 with NEW ERRORS: none. Native Unity Android player and signed ARM64 Dev 844 packaging succeeded, and Strong reached the"
     }
    ]
   },
@@ -1032,16 +1023,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-15T06:58Z",
-     "noted": "",
-     "progress": 53,
-     "ticked": 8,
-     "total": 15
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Space relief: Copernicus GLO-30 4096x2048 globe is the only relief on main (2dfa940d67, LFS SHA-256 b668209b...b513, 16,777,232 bytes); NOAA globe relief removed; globe=Ready at 1,000 km and Absent af",
@@ -1106,11 +1088,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-14T18:13Z",
-     "text": "Strong Dev 840 same-pose ABBA. NoPlanet confirmed zero submissions, P95 100.2 to 66.5 ms and >80 ms gaps 9/94 to 1/116, with normal tails returning. NoMasks still hit 116.7 ms in both repeats at 43 draw calls. Prioritize isolating common te"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-15T04:00Z",
      "text": "c391c14de6 records ten matched Windows D3D11 trials in Performance Baseline/GPU.md. NoRaised preserved masked ground and reduced GPU frame time; NoMasks reduced it further; NoPlanet confirmed zero submissions. Windows result covers a settle"
@@ -1119,6 +1096,11 @@
      "by": "CODEX_GRAPHICS",
      "at": "2026-11-15T06:10Z",
      "text": "Done: 211066c639 / d0ba30890c clips Country Border Ribbon at each orbital camera horizon (805)."
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T08:40Z",
+     "text": "Signed Dev 844 (1fcdb87453) installed and rendered on Strong. Matching fast-pinch replays in CPU.md (9df10d8081): Start Loads led no retained Mask Pages spike. Remaining Mask Pages stalls were Catalog, Pressure eviction and Texture release."
     }
    ]
   },
@@ -10444,23 +10426,14 @@
   {
    "n": 888,
    "name": "Using Strong for the Mask Pages fast-zoom before-and-after comparison",
-   "done": "",
+   "done": "2026-11-15T08:40Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-15T06:59Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": []
   },
@@ -12995,7 +12968,8 @@
    "goal": false,
    "under": 0,
    "ticks": [
-    "2026-11-15T08:39Z"
+    "2026-11-15T08:39Z",
+    "2026-11-15T08:40Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -13008,7 +12982,7 @@
     },
     {
      "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": false
+     "x": true
     },
     {
      "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
@@ -14254,5 +14228,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5b309e744112d9ff20a271c1cb9d5166e441ed53"
+ "source_revision": "8109e7b1c608b65d2f0d34d13c4aefb5a4858cff"
 }
