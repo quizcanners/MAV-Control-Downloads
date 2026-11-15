@@ -7471,7 +7471,9 @@
    "done": "",
    "goal": false,
    "under": 431,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T03:44Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -7480,15 +7482,15 @@
      "who": "ROG",
      "since": "2026-11-15T03:41Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 50,
+     "ticked": 1,
      "total": 2
     }
    ],
    "steps": [
     {
      "t": "Detach and cancel the pending setup during shutdown",
-     "x": false
+     "x": true
     },
     {
      "t": "Verify cancellation, disposal and late completion in the Windows Editor",
@@ -7544,5 +7546,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "80b4b9c33ebf18f9fb6d2ff2fe10dda02bcb452a"
+ "source_revision": "b53ee186b2d655b8225c0c1f67b20bcf1bac2119"
 }
