@@ -166,7 +166,7 @@
     {
      "who": "CODEX_GRAPHICS",
      "since": "2026-11-15T05:25Z",
-     "noted": "",
+     "noted": "2026-11-15T06:10Z",
      "progress": 56,
      "ticked": 5,
      "total": 9
@@ -223,8 +223,8 @@
     },
     {
      "by": "CODEX_GRAPHICS",
-     "at": "2026-11-15T03:03Z",
-     "text": "Done: 9af3bce2d4 via 030304ec9a, task 781 closed; frame-budget mask scans removed."
+     "at": "2026-11-15T06:10Z",
+     "text": "Done: 8d0fe4255a / d0ba30890c publishes Video presence optimization (806); native 7/7 and Roslyn pass."
     }
    ]
   },
@@ -8869,7 +8869,7 @@
   },
   {
    "n": 836,
-   "name": "Round 2 split J2",
+   "name": "Round 2 split J2 delivered",
    "done": "",
    "goal": false,
    "under": 0,
@@ -8881,38 +8881,31 @@
     {
      "who": "CODEX_836_META",
      "since": "2026-11-15T06:03Z",
-     "noted": "2026-11-15T06:03Z",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
+     "noted": "",
+     "progress": 100,
+     "ticked": 4,
+     "total": 4
     }
    ],
    "steps": [
     {
      "t": "Move ViewStack to its own file",
-     "x": false
+     "x": true
     },
     {
      "t": "Move Transition and ListNavigation to their own files",
-     "x": false
+     "x": true
     },
     {
      "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_836_AUDIT",
-     "at": "2026-11-15T06:00Z",
-     "text": "Stopped duplicate work: concurrent 658d9a6883 landed the same extraction while CLOUD_836 was validating. Published bodies match the originals and Popup/current-list fields plus ResetMapList are unchanged. All three Station_UI_{ViewStack,Tra"
+     "x": true
     },
     {
-     "by": "CODEX_836_META",
-     "at": "2026-11-15T06:03Z",
-     "text": "Reopened only for the three missing sibling script .meta files. Parent follow-up authorizes finishing this gap; published C# remains unchanged. No other owner or metadata assignment found."
+     "t": "Add valid unique Unity metadata for all three sibling sources",
+     "x": true
     }
-   ]
+   ],
+   "notes": []
   },
   {
    "n": 837,
@@ -9436,5 +9429,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "624da9a9f0f720fb944bbded706244f2f118cc97"
+ "source_revision": "0c11cda91b44b05c96c19bd2231c002e42f1ee73"
 }
