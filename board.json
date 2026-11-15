@@ -3031,7 +3031,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-15T02:45Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 4,
+     "total": 8
+    }
+   ],
    "steps": [
     {
      "t": "EntityIdentityTable<TKey> in Systems/ECS; Situation Entities publication uses it",
@@ -7364,5 +7373,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1ada3235e8cf3c55e43c99e8d056ecc2de95a4e9"
+ "source_revision": "14ccd393f9cdae075baf3700d736e7f04be9d548"
 }
