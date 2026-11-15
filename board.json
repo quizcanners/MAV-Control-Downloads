@@ -12491,7 +12491,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T08:36Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -12500,15 +12502,15 @@
      "who": "Thread962",
      "since": "2026-11-15T08:29Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
-     "x": false
+     "x": true
     },
     {
      "t": "Move one concern per commit into a nested controller that owns its fields",
@@ -12950,7 +12952,7 @@
   {
    "n": 975,
    "name": "Round 5 split S32",
-   "done": "",
+   "done": "2026-11-15T08:36Z",
    "goal": false,
    "under": 0,
    "ticks": [
@@ -12961,16 +12963,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "cloud975",
-     "since": "2026-11-15T08:32Z",
-     "noted": "2026-11-15T08:35Z",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
@@ -14291,5 +14284,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0425407190b643a05b82fb79d68cf792b3921063"
+ "source_revision": "ceded41b86b06ffeef1fc664394a8f54643327a7"
 }
