@@ -8802,7 +8802,7 @@
     {
      "who": "CODEX_GRAPHICS",
      "since": "2026-11-15T05:40Z",
-     "noted": "2026-11-15T05:43Z",
+     "noted": "2026-11-15T06:06Z",
      "progress": 25,
      "ticked": 0,
      "total": 0
@@ -8812,8 +8812,8 @@
    "notes": [
     {
      "by": "CODEX_GRAPHICS",
-     "at": "2026-11-15T05:43Z",
-     "text": "Repairing native Mac compile after shared refactors: Diagnostics members were nested in DeviceReport; WindowStateManager.PersistentData is inside the Windows-player guard; Network_UpdateDiagnostics lost QuizCanners.Utils. These three files "
+     "at": "2026-11-15T06:06Z",
+     "text": "Published 9094ff02d6 via d0ba30890c: restored Diagnostics ownership and moved the shared WindowState persistent schema outside the Windows-only guard. HEAVY independently supplied the Network imports. Native compilation is clean; Roslyn pas"
     }
    ]
   },
@@ -9418,5 +9418,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3e11a240ae57a4ded3f3e4d57aed98ef0644ddf3"
+ "source_revision": "31fc77bd91203fcba43e81de6cea60f41b9e327a"
 }
