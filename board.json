@@ -1299,16 +1299,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_UI",
-     "since": "2026-11-15T15:36Z",
-     "noted": "2026-11-15T16:42Z",
-     "progress": 81,
-     "ticked": 13,
-     "total": 16
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "All eight Settings roots open on one status line with a tick before the toggles: GPS 20fe6bdde7, Video and Network 13b74e6385, Map/Workflow/Drones/Data/System b5e0c48259; status line drawn in every st",
@@ -17681,25 +17672,22 @@
   {
    "n": 1164,
    "name": "Repair four Windows Linked Browser tests after the command-worker split. Keep retained navigation",
-   "done": "",
+   "done": "2026-11-15T16:42Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T16:39Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T16:42Z",
+     "text": "Published 79551e9968. Reproduced four NullReferenceExceptions in old Manager field lookups. Fixtures now use the CommandWorker and its typed queue entries, preserving retained navigation, display preparation, replay, FIFO/fallback and Chat "
+    }
+   ]
   }
  ],
  "verify": [
@@ -17748,5 +17736,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "6776cb2b2ae1f866083f7f3596608c1e6248e6a1"
+ "source_revision": "92302a35459eb234882fae1d881ff162ac324f07"
 }
