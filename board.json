@@ -5919,16 +5919,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T20:43Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -5960,8 +5951,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-15T19:59Z",
-     "text": "Rog pushed 464bad0456. Bootstrap shutdown drops both horizon visibility tables, the retired camera position and its version gate. The next camera starts fresh. Fixed stale Frame Budget test bindings and passed 49 focused Unity cases includi"
+     "at": "2026-11-15T20:49Z",
+     "text": "bdc8bf30b3 closes Google OAuth/VPN Sheets transport on station shutdown. Windows loopback control reproduced the old pending request; the fix cancelled it, closed the callback listener and sent HTTP through a fresh connection. Roslyn e/a/p/"
     }
    ]
   },
@@ -18276,6 +18267,29 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T20:49Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 1197,
+   "name": "Recover publication of the qualified Windows EditMode All result when the prepared candidate differs from public main only by its verified test identity. In verify_runner.py the no-task-results and sc",
+   "done": "",
+   "goal": false,
+   "under": 369,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
    "held": [],
    "steps": [],
    "notes": []
@@ -18327,5 +18341,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "70c5a54ba3d84071298fede89bd94889192fc05a"
+ "source_revision": "0bad569f3b3f5c8e967631091e25ea6e1f31e34b"
 }
