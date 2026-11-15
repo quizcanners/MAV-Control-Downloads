@@ -871,7 +871,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-15T05:49Z",
-     "noted": "",
+     "noted": "2026-11-15T06:11Z",
      "progress": 20,
      "ticked": 1,
      "total": 5
@@ -899,7 +899,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T06:11Z",
+     "text": "Strong Dev 844 held map demand off for 184 s. GPU textures released, 8 MiB CPU grid stayed intact, and all fine textures returned. The return has a separate rendering spike and a reproducible upload cost. Evidence eca429f674 in Performance "
+    }
+   ]
   },
   {
    "n": 378,
@@ -9420,5 +9426,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "9d67d55c144ffaa625515349781fd01655adfdae"
+ "source_revision": "11ef5ba51e7cfd98b468186c8cd2906c47156c5e"
 }
