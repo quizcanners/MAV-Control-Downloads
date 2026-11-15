@@ -1252,7 +1252,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MAC_UI",
+     "since": "2026-11-15T19:51Z",
+     "noted": "",
+     "progress": 57,
+     "ticked": 4,
+     "total": 7
+    }
+   ],
    "steps": [
     {
      "t": "One swipeable root on main: Lists Root (300 wide, pivot x 0) holds the lists with one UI_LeftListSwipeAway, one back panel with a blocker that stops map touches, one tongue shown only by LeftLists.Pan",
@@ -18233,5 +18242,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "7baaa07f51509f79cbfeb1fb7c03f4535340a1c7"
+ "source_revision": "e1f59bad870ddc7efe716efd7bc930586be9711d"
 }
