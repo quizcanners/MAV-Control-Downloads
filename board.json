@@ -8304,6 +8304,37 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 819,
+   "name": "Refactor job M",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim: forwarder list and every Find, Shader.Find, Resources.Load in these folder",
+     "x": false
+    },
+    {
+     "t": "Delete forwarders and repoint callers",
+     "x": false
+    },
+    {
+     "t": "Write the Editor tasks for serialized references on the board, one per prefab",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/scene-references.md",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -8352,5 +8383,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "519ca4e6c2c79f270aee24e3dcd95cfc4dbd84f6"
+ "source_revision": "cb79b1391c90f03c0648e31ef81275c86e7749a2"
 }
