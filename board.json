@@ -11446,7 +11446,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "cloud-thread-929",
+     "since": "2026-11-15T08:01Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
@@ -11888,5 +11897,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "861fa40a866e9e245ea48f8941c68d9897e78e74"
+ "source_revision": "1d387e1b2f2c0e6106fcf73ede4aaa472878ebd2"
 }
