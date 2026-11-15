@@ -17219,6 +17219,11 @@
      "by": "ROG",
      "at": "2026-11-15T14:51Z",
      "text": "Published df34273b9d. Each sweep reuses bounded plain-page storage and stream wrappers, validates exact stored and decoded data, and releases the page before visiting child references. Eight Unity checks passed including strict decode lengt"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T15:48Z",
+     "text": "Strong completed both cold and warm Index Compaction sweeps on signed Dev 845. The old decoded output array was absent from sampled stopped GC. Deflate callbacks, hash result and cancellation registration still allocate. CPU.md c61cd33ecb. "
     }
    ]
   },
@@ -17520,5 +17525,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "9944d47fa38997f4b84ee5535d064803bcd68df0"
+ "source_revision": "7b0a11907d88717636e1debe6ae4a77ed37284bc"
 }
