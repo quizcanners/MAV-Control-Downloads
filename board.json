@@ -9510,7 +9510,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "cloud-859",
+     "since": "2026-11-15T06:39Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
@@ -10115,7 +10124,13 @@
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T06:38Z",
+     "text": "UI_ExtendedMenuContent.Update watches visibility after Station.UI navigation has changed the view, then queues FullScreen(ApplyVisibility). Its callback changes GameObject visibility only, so the view-signature assertion trips. UI_ExpandMen"
+    }
+   ]
   },
   {
    "n": 882,
@@ -10326,5 +10341,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ff2f55bf9713e977520788fbfccce0cfcab37a19"
+ "source_revision": "a88efd2a232c4cdcac26d1f696afb2b551c0b6d9"
 }
