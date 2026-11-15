@@ -16939,7 +16939,7 @@
    "held": [
     {
      "who": "ROG",
-     "since": "2026-11-15T14:18Z",
+     "since": "2026-11-15T14:28Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
@@ -16947,7 +16947,13 @@
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T14:27Z",
+     "text": "Paused for the Crosshair request. Rog has an unpublished Cleanup-only polling draft in Git stash ROG task 1129 offline cleanup in progress. It needs the Bootstrap poll call and lifecycle test migration before it can compile. Preparation and"
+    }
+   ]
   },
   {
    "n": 1130,
@@ -17134,6 +17140,40 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1139,
+   "name": "Restore Crosshair suggestion regression checks after the Station.UI Popups controller split (Main View SPEC",
+   "done": "2026-11-15T14:27Z",
+   "goal": false,
+   "under": 407,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T14:27Z",
+     "text": "Published ecb3681286. Restored the SearchQuerySuggestion fixture to the current Popups and SuggestionTabs owners. Rog Unity 6000.6.8f1 refreshed without script errors; 17 focused test methods and case groups passed, including the lone selec"
+    }
+   ]
+  },
+  {
+   "n": 1140,
+   "name": "Bound ECS Text label-slot lookup (ECS SPEC",
+   "done": "",
+   "goal": false,
+   "under": 381,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -17182,5 +17222,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4bfcc0600cbb7b08d8a0e3ec7cfdb78e2a58e3f7"
+ "source_revision": "c3661a085b81441f81667ff2d490a8b0412260a8"
 }
