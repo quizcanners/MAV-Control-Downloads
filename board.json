@@ -8617,25 +8617,22 @@
   {
    "n": 826,
    "name": "Peers chains outside Assets/_PROJECT/Peers",
-   "done": "",
+   "done": "2026-11-15T05:58Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T05:54Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T05:58Z",
+     "text": "0429294f02: five directory lookups and thirteen picker reads now go through Peers. Exact source substitutions and git diff --check passed. Unity was closed; no Editor or device checks run."
+    }
+   ]
   },
   {
    "n": 827,
@@ -9406,5 +9403,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e95149507a8911b3ba42f4d1594c0f52fd7bcd06"
+ "source_revision": "4a64140ddeb08acc1b09cdc8c400f6afc651eedc"
 }
