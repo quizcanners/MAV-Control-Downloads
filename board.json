@@ -474,7 +474,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-15T06:54Z",
-     "noted": "2026-11-15T07:26Z",
+     "noted": "2026-11-15T07:36Z",
      "progress": 71,
      "ticked": 5,
      "total": 7
@@ -531,8 +531,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-15T07:26Z",
-     "text": "Windows All 0f69b2611a: 7,909 passed, 101 failed, 10 skipped across 19 failing fixtures. OnlineRasterScheduling (54) still reflects _onlineRaster on the old owner. VpnUdpAssembly (11) looks for PendingUdpMessages under UdpController instead"
+     "at": "2026-11-15T07:36Z",
+     "text": "Windows All 0f69b2611a: 7,909 passed, 101 failed, 10 skipped. e6fe8aecf7 repairs the fixture bindings behind 65 setup failures (Online Raster Scheduling and VPN UDP Assembly), with assertions intact. All four Roslyn configurations report NE"
     }
    ]
   },
@@ -10631,5 +10631,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "78b10a549e70f3a999f48345f546f1adab17f286"
+ "source_revision": "3caefbd5bc2a52da3e3378a623e8efd8ccf6d49b"
 }
