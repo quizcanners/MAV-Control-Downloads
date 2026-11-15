@@ -8273,6 +8273,37 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 818,
+   "name": "Refactor job L",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim: list every PlayerPrefs key in these folders and who owns its value",
+     "x": false
+    },
+    {
+     "t": "Move values into Persistent state with a one-time migration of the old keys",
+     "x": false
+    },
+    {
+     "t": "Delete save-time copies and empty hooks",
+     "x": false
+    },
+    {
+     "t": "Put leftovers on the board; add a Done / Left line to Coordination/Refactoring/n",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -8321,5 +8352,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1ca9ce586fd60c15777840d57d3c734d854c36dd"
+ "source_revision": "519ca4e6c2c79f270aee24e3dcd95cfc4dbd84f6"
 }
