@@ -16875,7 +16875,7 @@
   {
    "n": 1126,
    "name": "Replace the five Transport events (AlertReceived",
-   "done": "",
+   "done": "2026-11-15T13:41Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -16903,25 +16903,22 @@
   {
    "n": 1128,
    "name": "Replace the LoadTextureAsync(onDone) coroutine callback in Orthophoto_Sync_TextureLoad with a per-tile load state the Orthophoto sync reads every frame. quiz",
-   "done": "",
+   "done": "2026-11-15T13:40Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T13:32Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T13:40Z",
+     "text": "Published f458e0687a. Orthophoto Sync polls four read seats and adopts only the current branch load version. Rog Unity compiled; a scratch SQLite Play Mode check verified saved pixels, exact weight data, the four-seat limit, stale queued/ac"
+    }
+   ]
   },
   {
    "n": 1129,
@@ -17001,7 +16998,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T13:41Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -17075,5 +17081,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "697ea0b3c1a065e792e8213bcf48d6d7499ff9fa"
+ "source_revision": "7f7a8c59409627f34b8cc38c49d51079eba1ef08"
 }
