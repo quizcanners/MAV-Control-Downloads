@@ -6063,7 +6063,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T15:14Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -17351,6 +17360,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1148,
+   "name": "Store Post EditMode fixture",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MAC_UI",
+     "since": "2026-11-15T15:19Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -17399,5 +17431,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "8f7a565e06d7f01bd91a26f0fff2e28e6f0e27d1"
+ "source_revision": "7521c03faeb6d57c451318d76bbd286159307c57"
 }
