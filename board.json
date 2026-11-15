@@ -1023,16 +1023,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-15T08:53Z",
-     "noted": "",
-     "progress": 53,
-     "ticked": 8,
-     "total": 15
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Space relief: Copernicus GLO-30 4096x2048 globe is the only relief on main (2dfa940d67, LFS SHA-256 b668209b...b513, 16,777,232 bytes); NOAA globe relief removed; globe=Ready at 1,000 km and Absent af",
@@ -1108,8 +1099,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-15T08:40Z",
-     "text": "Signed Dev 844 (1fcdb87453) installed and rendered on Strong. Matching fast-pinch replays in CPU.md (9df10d8081): Start Loads led no retained Mask Pages spike. Remaining Mask Pages stalls were Catalog, Pressure eviction and Texture release."
+     "at": "2026-11-15T09:04Z",
+     "text": "Strong signed Dev 844 rapid-pinch scheduler/stack capture is on main (dc0ad35f19, f8ab101471). Pressure-eviction frames mostly slept inside Planet Renderer; another frame spent most of its time running in Planet Renderer and Render Planet. "
     }
    ]
   },
@@ -1557,8 +1548,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-15T06:18Z",
-     "text": "Done: 9071eb79b9, fast zoom reproduced on Strong Dev 844. Mask Pages Start Loads and Unload dominate the captured managed stalls. See Performance Baseline/CPU.md and high-priority task 853."
+     "at": "2026-11-15T09:04Z",
+     "text": "Strong signed Dev 844 scheduler and native fast-pinch traces published in CPU.md (dc0ad35f19, f8ab101471). Render Planet CPU sampled PlanetDisplayMasks.Find repeatedly while refreshing draw-slot answers. The named combined Element Mask reus"
     }
    ]
   },
@@ -13841,7 +13832,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T09:04Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -13850,15 +13843,15 @@
      "who": "cloud1009",
      "since": "2026-11-15T09:02Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Grep the sites and list them with the real counts",
-     "x": false
+     "x": true
     },
     {
      "t": "Change each site at its owner, one commit per group",
@@ -14310,23 +14303,28 @@
   {
    "n": 1026,
    "name": "Using Strong for the Android fast-pinch scheduler trace",
-   "done": "",
+   "done": "2026-11-15T09:04Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-15T08:53Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 1027,
+   "name": "Keep the combined Element Mask when a refreshed draw-slot answer returns the same donors and UVs (Planet Renderer SPEC",
+   "done": "",
+   "goal": false,
+   "under": 381,
+   "ticks": [],
+   "priority": "high",
+   "parked": false,
+   "flags": [],
+   "held": [],
    "steps": [],
    "notes": []
   }
@@ -14377,5 +14375,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "fbb9a5ce4bbf732046616d26b8a912fe655fcaaf"
+ "source_revision": "747a168502ea8accdc581e9bfbbca5830a243f72"
 }
