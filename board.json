@@ -13796,7 +13796,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T09:04Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -13805,15 +13807,15 @@
      "who": "cloud-1008",
      "since": "2026-11-15T09:02Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Grep the sites and list them with the real counts",
-     "x": false
+     "x": true
     },
     {
      "t": "Change each site at its owner, one commit per group",
@@ -14368,5 +14370,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "df7f0f5c102fbdb8cf8cd484db9029542c56dae4"
+ "source_revision": "8e182faf857c12c8b5229529ef87eeecf176f002"
 }
