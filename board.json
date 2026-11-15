@@ -18070,7 +18070,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-15T19:40Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Isolate the first case or teardown that blocks the Editor under the disposable station test identity.",
@@ -18140,5 +18149,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e4ffa3a84a526de62f411798aad565ccd1af29df"
+ "source_revision": "ef93d137f209154c688c163ae2465ba642ef56f2"
 }
