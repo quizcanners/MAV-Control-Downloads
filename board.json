@@ -8879,14 +8879,23 @@
   {
    "n": 836,
    "name": "Round 2 split J2",
-   "done": "2026-11-15T05:52Z",
+   "done": "",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_836_META",
+     "since": "2026-11-15T06:03Z",
+     "noted": "2026-11-15T06:03Z",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Move ViewStack to its own file",
@@ -8906,6 +8915,11 @@
      "by": "CODEX_836_AUDIT",
      "at": "2026-11-15T06:00Z",
      "text": "Stopped duplicate work: concurrent 658d9a6883 landed the same extraction while CLOUD_836 was validating. Published bodies match the originals and Popup/current-list fields plus ResetMapList are unchanged. All three Station_UI_{ViewStack,Tra"
+    },
+    {
+     "by": "CODEX_836_META",
+     "at": "2026-11-15T06:03Z",
+     "text": "Reopened only for the three missing sibling script .meta files. Parent follow-up authorizes finishing this gap; published C# remains unchanged. No other owner or metadata assignment found."
     }
    ]
   },
@@ -9228,16 +9242,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "cloud-846",
-     "since": "2026-11-15T05:53Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Count the forwarders per file with the scan",
@@ -9415,5 +9420,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "2c8aeae84a1d38b946a3e98407041d12e3c33796"
+ "source_revision": "72b1b159dda51f7b26a30520d6172ad866151a63"
 }
