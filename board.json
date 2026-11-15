@@ -18748,58 +18748,50 @@
   {
    "n": 1221,
    "name": "Repair Windows Photo Editing Projection and Photo Texture Retention fixture bindings to the current Street View",
-   "done": "",
+   "done": "2026-11-15T23:37Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T23:34Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
      "at": "2026-11-15T23:25Z",
      "text": "Published 30d7729bee. Roslyn NEW ERRORS: none. Photo FPV and Pano360 Slot tests call current owners; the no-selection frame copy explicitly passes unknown provenance. Four red entries targeted with assertions intact. Native rerun pending wh"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-15T23:37Z",
+     "text": "Rog native Unity 6000.6.8f1 at 5fe48fe995, containing 30d7729bee: PhotoEditingProjectionTests 21/21 and PhotoTextureRetentionTests 22/22. Targeted run covers FPV return, Pano360 precedence and frame provenance. Receipts C:/MavControlEvidenc"
     }
    ]
   },
   {
    "n": 1222,
    "name": "Repair the Windows Startup Batch Timing fixtures for Coding Scene shutdown. Exercise the registered Bootstrap shutdown owner",
-   "done": "",
+   "done": "2026-11-15T23:37Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T23:34Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
      "at": "2026-11-15T23:30Z",
      "text": "Published a552c92b18. Roslyn NEW ERRORS: none. Two Startup Batch Timing cases now run the registered Coding Scene shutdown row and assert the exact injected read error. Cleanup restores fixture ownership even after a fault. Native rerun pen"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-15T23:37Z",
+     "text": "Rog native Unity 6000.6.8f1 at 5fe48fe995, containing a552c92b18: StartupBatchTimingTests 19/19, including the registered Coding Scene shutdown checkpoint and faulted-read assertions. Receipts C:/MavControlEvidence/Rog-1221-1222-Photo-Start"
     }
    ]
   },
@@ -18817,6 +18809,35 @@
     {
      "who": "HEAVY",
      "since": "2026-11-15T23:32Z",
+     "noted": "2026-11-15T23:38Z",
+     "progress": 25,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-15T23:38Z",
+     "text": "Published 4b04308524. Roslyn NEW ERRORS: none. The old red-channel delta is reproduced by the opposing Sun and camera hillshade. High/Low checks now align those terms and separately exercise hillshade with the Sun behind the camera. Night f"
+    }
+   ]
+  },
+  {
+   "n": 1224,
+   "name": "Restore the Physical Mouse Input and Selection Focus Darkening fixture bindings to Station.UI.SuggestionTabs. Preserve the zoom",
+   "done": "",
+   "goal": false,
+   "under": 369,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T23:38Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
@@ -18873,5 +18894,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "59a7305d82edcbd28a66265502c7d311b3572c4d"
+ "source_revision": "b6fed8391c73e58cac582853340db3effdebfd80"
 }
