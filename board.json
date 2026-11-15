@@ -992,7 +992,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-15T17:55Z",
+     "noted": "",
+     "progress": 53,
+     "ticked": 8,
+     "total": 15
+    }
+   ],
    "steps": [
     {
      "t": "Space relief: Copernicus GLO-30 4096x2048 globe is the only relief on main (2dfa940d67, LFS SHA-256 b668209b...b513, 16,777,232 bytes); NOAA globe relief removed; globe=Ready at 1,000 km and Absent af",
@@ -5383,7 +5392,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T17:54Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -17801,25 +17819,42 @@
   {
    "n": 1174,
    "name": "Run RoslynCompileDiff from one checkout (root AGENTS",
-   "done": "",
+   "done": "2026-11-15T17:50Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T17:42Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T17:50Z",
+     "text": "Published efbd81cc02. cmp.sh reads pinned C# and assembly inputs from Git blobs and removes its private snapshot on exit. Rog native Roslyn e/a/p/m all ended NEW ERRORS: none. Snapshot safety and the shell control matrix passed. Verified on"
+    }
+   ]
+  },
+  {
+   "n": 1175,
+   "name": "Make the Roslyn macOS uGUI setup fixture portable to Git Bash on Windows (Tools/RoslynCompileDiff README",
+   "done": "2026-11-15T17:52Z",
+   "goal": false,
+   "under": 369,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T17:52Z",
+     "text": "Published a496bd28ac. The fake compiler uses Bash file identity for its build directory and still requires global.json. Git Bash reproduced the old failure and then passed the repaired fixture. The Windows Roslyn tooling suite passed 7 test"
+    }
+   ]
   }
  ],
  "verify": [
@@ -17868,5 +17903,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "74dbd5055b3d918035aaa5bdf2295f1f28aac8fd"
+ "source_revision": "ba2ba61c261b7936a70a44abe634001ab138b1b0"
 }
