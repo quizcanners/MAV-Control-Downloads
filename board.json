@@ -9004,7 +9004,7 @@
     {
      "who": "cloud-840",
      "since": "2026-11-15T05:52Z",
-     "noted": "",
+     "noted": "2026-11-15T05:59Z",
      "progress": 100,
      "ticked": 3,
      "total": 3
@@ -9024,7 +9024,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "cloud-840",
+     "at": "2026-11-15T05:59Z",
+     "text": "Split done on main: Native, Diagnostics, Reader, Job (+GpuWrite/Candidate) are own partial files, store 2096 to 870 lines; moved as text, uncompiled. Need for verify: Roslyn compile of WebMercator_SqliteTileStore*."
+    }
+   ]
   },
   {
    "n": 841,
@@ -9397,5 +9403,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3ea4169da472497481da93527f9f75aadd12b712"
+ "source_revision": "20b2ebb70e4667560707538263a12352426e5f6c"
 }
