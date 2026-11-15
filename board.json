@@ -12171,7 +12171,7 @@
   {
    "n": 953,
    "name": "Round 5 split S10",
-   "done": "2026-11-15T08:37Z",
+   "done": "",
    "goal": false,
    "under": 0,
    "ticks": [
@@ -12182,7 +12182,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "thread953",
+     "since": "2026-11-15T08:29Z",
+     "noted": "",
+     "progress": 100,
+     "ticked": 3,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
@@ -12897,7 +12906,7 @@
    "under": 0,
    "ticks": [
     "2026-11-15T08:37Z",
-    "2026-11-15T08:37Z"
+    "2026-11-15T08:38Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -13189,7 +13198,7 @@
     {
      "who": "Thread982",
      "since": "2026-11-15T08:33Z",
-     "noted": "2026-11-15T08:37Z",
+     "noted": "",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -13209,13 +13218,7 @@
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "Thread982",
-     "at": "2026-11-15T08:37Z",
-     "text": "split into Worker, ListenerRun, Scan, AndroidVpn, Inspector; compile unchecked"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 983,
@@ -14262,5 +14265,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "434ce19211dd383f9d919c443de65de0aff9dbc9"
+ "source_revision": "1b149f98974f6bc9aa44bf58d32d411960310ba1"
 }
