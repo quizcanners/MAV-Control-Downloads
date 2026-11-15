@@ -8525,7 +8525,7 @@
   },
   {
    "n": 824,
-   "name": "Nest frame-budget jobs into thei",
+   "name": "Round 2 rename R2",
    "done": "",
    "goal": false,
    "under": 0,
@@ -8534,7 +8534,20 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Add the 32 names under their owners and switch the callers",
+     "x": false
+    },
+    {
+     "t": "Delete the old enum values and Wording lines",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/frame-budget-job-names.md",
+     "x": false
+    }
+   ],
    "notes": []
   },
   {
@@ -8754,5 +8767,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b2110a580f735819b81ef279b4fc703dd728f564"
+ "source_revision": "3510682372c754ddc35c0bff2408746a24106682"
 }
