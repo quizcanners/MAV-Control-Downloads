@@ -10072,7 +10072,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "agent",
+     "since": "2026-11-15T08:11Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
@@ -11842,14 +11851,20 @@
     {
      "who": "ROG",
      "since": "2026-11-15T07:55Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T08:06Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T08:06Z",
+     "text": "Published e2d8f58bb3, 0b1acc507b, 6a5a5007c0, bb37c271f7, 78f5e01648 and 6e4f7f81de. Unity cleared parsing, the duplicate namespace/merge block and the missing Web Mercator controller declarations. Latest Rog Editor compile after 6e4f7f81de"
+    }
+   ]
   }
  ],
  "verify": [
@@ -11898,5 +11913,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a2bc17d4d811492ebcce4fb9128281202e18a025"
+ "source_revision": "9918358b2d3c5860c7f3e7244e397f1a35b8dba9"
 }
