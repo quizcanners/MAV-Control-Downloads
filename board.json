@@ -4510,8 +4510,8 @@
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-15T12:28Z",
-     "text": "Published 8dcacd6356. Station.OS owns app.memory Win32 and Android process reads. Rog compiled; live app.memory reported working set and private commit. Android synthetic projection and all six controls passed; Windows Editor/Android target"
+     "at": "2026-11-15T12:32Z",
+     "text": "Published fc5c4c3b69. Station.OS owns desktop Fullscreen placement policy. Removed the unreachable surface resize path (scale always 1); URP render scale is byte-identical. Rog compiled; Play kept its starting window with no resize. Four ma"
     }
    ]
   },
@@ -10232,7 +10232,7 @@
   {
    "n": 902,
    "name": "Round 4 split R14",
-   "done": "",
+   "done": "2026-11-15T12:36Z",
    "goal": false,
    "under": 0,
    "ticks": [
@@ -10263,6 +10263,11 @@
      "by": "CLOUD_R4_PEERS",
      "at": "2026-11-15T07:52Z",
      "text": "Done: Gps owns two write methods, Contact/Passport methods moved, Snapshot/PeerListScope/RadioIndicator own files; uncompiled. Need for verify."
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-15T12:36Z",
+     "text": "Published b04e1cc15a. Confirmed GPS writers, Contact methods, Passport latch, eligibility Snapshot, list scope and Radio indicator live on the split owners. Removed the final Peer-level Passport forwarding method. Rog Unity compiled; vpn.ha"
     }
    ]
   },
@@ -11862,7 +11867,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T12:37Z",
+     "noted": "",
+     "progress": 100,
+     "ticked": 3,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
@@ -16804,6 +16818,20 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1121,
+   "name": "Reuse the 256 KiB saved Mask Pages mosaic payload buffer (Planet Renderer SPEC",
+   "done": "",
+   "goal": false,
+   "under": 381,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -16852,5 +16880,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1d19430b1d903812e3379620e0d03bd3fa379557"
+ "source_revision": "5c294219caf2f4e16073fb1b3b7b2cc568198f01"
 }
