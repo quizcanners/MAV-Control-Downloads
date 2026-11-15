@@ -996,7 +996,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-15T15:54Z",
-     "noted": "",
+     "noted": "2026-11-15T16:50Z",
      "progress": 53,
      "ticked": 8,
      "total": 15
@@ -1077,8 +1077,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-15T15:50Z",
-     "text": "Strong Dev 845 ac4e09f0a0, 24 matching fast pinches per APK. ECS label scan removed from the sampled stacks. The display-gap tail remains slower in this sitting. CPU.md c61cd33ecb records terrain pool misses, Retention GC and Index Compacti"
+     "at": "2026-11-15T16:50Z",
+     "text": "CPU.md ad0d375968 records the matched pacing test. CPU.md 863554c103 records Strong Dev 845 terrain and Index Compaction, including zero holes in the coverage flight and mixed fast-pinch timing. Remaining height-grid allocation is task 1166"
     }
    ]
   },
@@ -17742,8 +17742,30 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
-   "steps": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T16:50Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Use a throwaway origin for the multiline-note fixtures",
+     "x": false
+    },
+    {
+     "t": "Run the hook with Git shell and check the board-only advisory exception",
+     "x": false
+    },
+    {
+     "t": "Pass the Windows task board test suite",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
@@ -17793,5 +17815,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b3a3935103fe8b455042eee38534a33a78dde007"
+ "source_revision": "168f6a51aa136a74d15365ffce1d8401c1ec41cd"
 }
