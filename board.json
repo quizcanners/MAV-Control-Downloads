@@ -135,7 +135,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-15T19:56Z",
-     "noted": "",
+     "noted": "2026-11-15T20:02Z",
      "progress": 56,
      "ticked": 5,
      "total": 9
@@ -186,14 +186,14 @@
      "text": "Strong Dev 840 reproduced half scale after release twice with held_input=False during glide. fc4fbe8579 feeds held input to MapRender and its gate, so release selects native resolution even while the camera moves. 18 host-side production de"
     },
     {
-     "by": "HEAVY",
-     "at": "2026-11-14T17:38Z",
-     "text": "Windows decision-table check on fc4fbe8579: all 384 production MapRender.Decide combinations passed, including release while the camera is still moving, live video precedence and settled FrozenDouble. Host result only; no presentation timin"
-    },
-    {
      "by": "CODEX_GRAPHICS",
      "at": "2026-11-15T11:22Z",
      "text": "Builds 845 delivered: iOS internal testing, external Apple submission limit; macOS internal testing, external beta review. Published fixes 9f96342671 and 6fd70c7e56, history 368cea560b. Slow-motion fix ee07fd0c43 is on main; live Synthetic "
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-15T20:02Z",
+     "text": "Windows D3D11 verified b8ccb161b9: Unity compiled 178 shader passes with zero errors. Long Press Wave tests 2/2."
     }
    ]
   },
@@ -18246,5 +18246,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b4ae79a65a023d907237856484b95a2dc83c1033"
+ "source_revision": "19053a6fdf5c74570082e373094b4f3a3bb4546d"
 }
