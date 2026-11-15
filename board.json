@@ -14128,22 +14128,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T09:34Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-15T09:33Z",
-     "text": "Published 1fd0bbc07d, 1b5b8062e0 and 1ada92028a: MavChat header, Logistics event state, SineLink protobuf readers, native DJI photo guards, Motorola profile, UDP sender and WiFi recovery bindings. Fresh Rog Unity passes reduced unique diagn"
+     "at": "2026-11-15T09:39Z",
+     "text": "Published 2eebe235b0, 3e7d459c13, 1d4adaf4cb and 886ab85c96: Camera, Search and Streamer owner fixes plus Orthophoto controller access and read-task encapsulation. Fresh Rog Unity passes reduced unique errors from 406 to 316 to 255. No diag"
     }
    ]
   },
@@ -15178,7 +15169,7 @@
     {
      "who": "CLOUD_R6_X4_1057",
      "since": "2026-11-15T09:36Z",
-     "noted": "",
+     "noted": "2026-11-15T09:39Z",
      "progress": 100,
      "ticked": 3,
      "total": 3
@@ -15198,7 +15189,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_R6_X4_1057",
+     "at": "2026-11-15T09:39Z",
+     "text": "Chat_Photos.cs 1218 to 90 lines: six nested controllers in Chat/ChatPhotosController/, callers moved. Left: Editor compile."
+    }
+   ]
   },
   {
    "n": 1058,
@@ -16665,5 +16662,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "57bee0da3c7b9dbbc3d78864cffcea246c7e5a04"
+ "source_revision": "42b0b578c32c90b7c384bf03c7c64283c3f32341"
 }
