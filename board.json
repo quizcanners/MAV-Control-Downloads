@@ -7994,6 +7994,37 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 809,
+   "name": "Refactor job C",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the six big files and the 55 partial files, list what belongs to a controll",
+     "x": false
+    },
+    {
+     "t": "Split Network_MessageProcessing and move long-named members into nested classes",
+     "x": false
+    },
+    {
+     "t": "Shorten the repeated chains by pointing callers at the owner, not by adding forw",
+     "x": false
+    },
+    {
+     "t": "Put leftovers on the board; add a Done / Left line to Coordination/Refactoring/n",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -8042,5 +8073,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b24cef1415477fa590ccdaa43feba81ae982bcf7"
+ "source_revision": "85ce40bcc80386cb3af373ac06c9846aff8b8912"
 }
