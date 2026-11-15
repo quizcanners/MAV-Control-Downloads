@@ -18125,8 +18125,8 @@
     {
      "who": "GETAC",
      "since": "2026-11-15T21:06Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T21:49Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -18135,8 +18135,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-15T21:02Z",
-     "text": "Dev receive scopes are on main in a49c6dc172. They time worker adoption, plaintext, Geometry hash requests and Direct Tile Control apply."
+     "at": "2026-11-15T21:49Z",
+     "text": "VPN timings are on main in a49c6dc172. The pinned Android build is still in ARM64 compilation; Roslyn passed. Receipts and prepared install/capture: C:/MavControlEvidence/Getac-Strong-ContainingVpn1192-20261115. Once signature verifies, rec"
     }
    ]
   },
@@ -18328,25 +18328,22 @@
   {
    "n": 1202,
    "name": "Fix the remaining PowerLineGeometryTests ribbon mesh failure in Windows EditMode. Preserve visible width",
-   "done": "",
+   "done": "2026-11-15T21:49Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T21:42Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T21:49Z",
+     "text": "992057a01a binds the ribbon fixture to SimplePolyline.RibbonSurface and disposes every chunk on failure. Rog reproduced the stale-field NullReferenceException first, then PowerLineGeometryTests passed 58/58 with point, join and edge asserti"
+    }
+   ]
   },
   {
    "n": 1203,
@@ -18418,5 +18415,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "df32e007c23d7b2b6297702e653e474cdab1d00b"
+ "source_revision": "8cdf25ffd7d22e8dd0239d648f727b97c701e85a"
 }
