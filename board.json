@@ -13464,16 +13464,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "Thread979",
-     "since": "2026-11-15T08:50Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
@@ -14093,7 +14084,7 @@
    "held": [
     {
      "who": "ROG",
-     "since": "2026-11-15T08:43Z",
+     "since": "2026-11-15T08:57Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
@@ -14104,8 +14095,8 @@
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-15T08:41Z",
-     "text": "Published d5f67b4402: renamed ten Planet Mask nested types to *Controller and kept the instance names and call sites. Native refresh on the patched tree no longer reported the original names but stopped in parsing unrelated round 5 files: U"
+     "at": "2026-11-15T08:56Z",
+     "text": "Published nine repair commits through ccfea4c262; Planet Mask changes are d5f67b4402, 6c2e627574 and 464e70dc88. The native refresh of a475ff772e plus the Video Feed repair passed declaration parsing and reported 37 remaining C# errors, sta"
     }
    ]
   },
@@ -14345,5 +14336,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "903c1fdf1f437c8520fbb0f75677208a3f236ea4"
+ "source_revision": "204e209ebfb1b65ea7206ac220aca05f9e0db8ec"
 }
