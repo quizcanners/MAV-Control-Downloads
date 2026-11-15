@@ -6361,7 +6361,7 @@
     {
      "who": "ROG",
      "since": "2026-11-15T00:20Z",
-     "noted": "",
+     "noted": "2026-11-15T00:24Z",
      "progress": 50,
      "ticked": 2,
      "total": 4
@@ -6392,14 +6392,14 @@
      "text": "Remote Sensors ticket teardown is published in 258abaf71c (task 753 done): coordinate replacement, removal, render-asset rebuild and shutdown cancel owned batched-ray tickets. Native 21/21 covers queued, in-flight and completed answers plus"
     },
     {
-     "by": "ROG",
-     "at": "2026-11-14T23:59Z",
-     "text": "5acc8b0a2b scopes the watchdog per shutdown and removes its CancellationTokenSource wait handle. Windows Unity 19/19 StartupBatchTimingTests. Forced recompile while in MapOnly Play completed: 9 scenes -> Bootstrap only -> 9, station ready a"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-15T00:16Z",
      "text": "12f2fe9088 releases the native Peer Video engine after partial startup and even if final traffic diagnostics fail."
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-15T00:24Z",
+     "text": "7d195e6523 cancels Linked Browser tab discovery and screencast, rejects retired frames, page coordinates and failure reports, and disposes cancellation only after worker exit. Windows Unity compiled and 3 targeted tests passed, including si"
     }
    ]
   },
@@ -7184,5 +7184,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b04999a3e581c02f704c383bd990c173daaefe64"
+ "source_revision": "81515eda6c448c14f5f323ce82099f77376860b3"
 }
