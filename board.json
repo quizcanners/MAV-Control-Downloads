@@ -9414,25 +9414,22 @@
   {
    "n": 855,
    "name": "Main View Settings Window stays inactive after Bootstrap in Windows Editor 844. Main UI contains the component (isActiveAndEnabled=False)",
-   "done": "",
+   "done": "2026-11-15T06:36Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T06:31Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T06:36Z",
+     "text": "4cf59a7311 restores the active Settings Window in BUTTONS Right. Focused imported prefab test passed; Windows Editor 844 booted, ui.status answered, Settings opened at root and closed, then Map Source rendered. The legacy status rows remove"
+    }
+   ]
   },
   {
    "n": 856,
@@ -10095,6 +10092,34 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 881,
+   "name": "Extended Menu",
+   "done": "",
+   "goal": false,
+   "under": 407,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 882,
+   "name": "Round 3 split R25",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -10143,5 +10168,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5f90f7deeeee8822bbe92d018ce7b9b0bfb44e1a"
+ "source_revision": "8fd4bad4d337490b599e586989cc0c4214e57759"
 }
