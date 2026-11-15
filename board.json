@@ -12264,7 +12264,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "thread-956",
+     "since": "2026-11-15T08:29Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
@@ -13957,5 +13966,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b7886fc1daa6fd73b8655e53219f4a1252206bc9"
+ "source_revision": "d99df1d215348574db122e7d35c2f3769464fd6a"
 }
