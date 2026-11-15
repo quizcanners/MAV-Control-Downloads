@@ -793,7 +793,7 @@
     {
      "who": "ROG",
      "since": "2026-11-15T03:09Z",
-     "noted": "",
+     "noted": "2026-11-15T03:15Z",
      "progress": 50,
      "ticked": 3,
      "total": 6
@@ -838,8 +838,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-15T03:07Z",
-     "text": "ROG: 9bcac0d31a prevents the Android 843 post-build delivery stop from recurring. After Unity succeeds, compare only changed BuildProfile assets and Graphics Settings with frozen source, restore proven LF/CRLF rewrites, then run the existin"
+     "at": "2026-11-15T03:15Z",
+     "text": "ROG: 0642e4f943 fixes the other Android 843 blocker. A board update during release preflight or push now merges the originally validated version commit with current main and retries without allocating another number. Changed version inputs/"
     }
    ]
   },
@@ -7467,5 +7467,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "92bd69023e12f7c4af1c74f3188dc1db028b3c4c"
+ "source_revision": "09a82ee192cad1542b5342e39238c3f7918932e0"
 }
