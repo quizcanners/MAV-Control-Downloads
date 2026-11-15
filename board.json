@@ -1099,8 +1099,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-15T11:48Z",
-     "text": "ee2f026f93 identifies ReadChunk's 16 KiB reduced member allocation in a real Strong fast-pinch GC wait. Task 1117 is the targeted Mask Pages fix. 5cbdaebbdc exports exact Mask Pages intervals and records a separate Retention worker pause fo"
+     "at": "2026-11-15T11:58Z",
+     "text": "1646488112 reanalyzed 48 Strong fast pinches and found the 256 KiB RawBytes allocation in a second ReadChunk GC wait. ROG landed the reduced-member reuse in c66db3a966. Task 1118 tracks the full-texture read seats. Private diagnostic Androi"
     }
    ]
   },
@@ -16904,5 +16904,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "964ba16ff4ab50cbb960c76ca4655b8d4d1d32f1"
+ "source_revision": "e8140fb0923315db967a9b512a34cece538afc7f"
 }
