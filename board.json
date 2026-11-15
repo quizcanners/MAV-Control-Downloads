@@ -5910,7 +5910,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T15:09Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -17287,25 +17296,22 @@
   {
    "n": 1145,
    "name": "Reuse the terrain query bounds with retired surface samples (Planet Renderer SPEC",
-   "done": "",
+   "done": "2026-11-15T15:08Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T15:03Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T15:08Z",
+     "text": "Published dce357950d. Reused Bounds and QueryBoxes with retired terrain samples. Rog Unity compiled and nine terrain/drawing checks passed. The retirement owner held four spares at the original 32 KiB combined charge, rejected extra storage"
+    }
+   ]
   },
   {
    "n": 1146,
@@ -17321,14 +17327,20 @@
     {
      "who": "CODEX_MAC_UI",
      "since": "2026-11-15T15:08Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T15:12Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-15T15:12Z",
+     "text": "Published 91d589cf13: layout joins use UI_MergedElementBase, and selected-name input uses passive glass. UiSearchQueryTests 13/13, including preserved input/action join; Editor compiled. Screen checks 82103d4f45. No device visual check."
+    }
+   ]
   }
  ],
  "verify": [
@@ -17377,5 +17389,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "476d9518a6b3cc97f7528d891a32431ebb1c9673"
+ "source_revision": "e47cee5985d37391d33e56d0148bdb7b2040bb4f"
 }
