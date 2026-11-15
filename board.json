@@ -8925,7 +8925,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T05:53Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -8934,15 +8936,15 @@
      "who": "CLOUD_838",
      "since": "2026-11-15T05:51Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Read the 37 callers and decide where each parameter really lives",
-     "x": false
+     "x": true
     },
     {
      "t": "Cut the parameters and the two forwarding overloads, update callers",
@@ -9412,5 +9414,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "03f51d4e0488a3a4857555ffefdd777dacde3f00"
+ "source_revision": "302f85c05d184511cc007208612bebe8b711af36"
 }
