@@ -162,16 +162,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_GRAPHICS",
-     "since": "2026-11-15T06:28Z",
-     "noted": "",
-     "progress": 56,
-     "ticked": 5,
-     "total": 9
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: the state machine and every mode, 1 s settle, release-frame full resolution, VideoOnBlack, kept screen-size picture, ribbons as kept renderers, Editor 2x frame read on Mac and Rog, 8 fps idle",
@@ -223,8 +214,8 @@
     },
     {
      "by": "CODEX_GRAPHICS",
-     "at": "2026-11-15T06:10Z",
-     "text": "Done: 8d0fe4255a / d0ba30890c publishes Video presence optimization (806); native 7/7 and Roslyn pass."
+     "at": "2026-11-15T06:46Z",
+     "text": "Done: 97a22405fb / 49c36c0b9b removes clock-only light and unchanged sky-binding redraws; 793 complete."
     }
    ]
   },
@@ -7633,23 +7624,14 @@
   {
    "n": 793,
    "name": "Keep the retained map and Liquid Glass steady when the mouse only hovers over UI; refresh for visible map pointing or a real light change (Bootstrap and Blurred World SPEC)",
-   "done": "",
+   "done": "2026-11-15T06:47Z",
    "goal": false,
    "under": 363,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_GRAPHICS",
-     "since": "2026-11-15T06:23Z",
-     "noted": "2026-11-15T06:39Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -9534,7 +9516,7 @@
   {
    "n": 859,
    "name": "Round 3 split R3",
-   "done": "",
+   "done": "2026-11-15T06:47Z",
    "goal": false,
    "under": 0,
    "ticks": [
@@ -10528,5 +10510,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ae0ef0ae2767d6e6968b855a955e53d24ab02be0"
+ "source_revision": "7efebe47ef802108d0605304d27d3de954eddec1"
 }
