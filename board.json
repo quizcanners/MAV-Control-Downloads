@@ -6389,7 +6389,7 @@
     {
      "who": "ROG",
      "since": "2026-11-15T02:24Z",
-     "noted": "",
+     "noted": "2026-11-15T02:28Z",
      "progress": 50,
      "ticked": 2,
      "total": 4
@@ -6426,8 +6426,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-15T02:07Z",
-     "text": "ROG: 9501102a0e fixes height-map teardown in Overlays. Before: destroying the top-down camera first threw MissingReferenceException and retained depth. After: Unity compiled and Edit Mode teardown probes 3/3 (destroyed camera, live owned ta"
+     "at": "2026-11-15T02:28Z",
+     "text": "ROG: ffdea8c4b4 frees retained and preparing Chat photo preview textures at station shutdown, drops queued demand, and discards a late decode before it can write to a replacement preview or saved photo. Windows Unity compiled; dedicated Edi"
     }
    ]
   },
@@ -7399,5 +7399,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "819dc4e9d628977d3871b5c63a7cdf930f537aaa"
+ "source_revision": "385480e9d2fa20bc3f187612fcf20877ccf13d4c"
 }
