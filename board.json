@@ -1927,31 +1927,6 @@
    ]
   },
   {
-   "n": 544,
-   "name": "Editor",
-   "done": "2026-11-12T21:20Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_FABLE",
-     "at": "2026-11-12T20:41Z",
-     "text": "MAC_FABLE batch 11 step 4b: EcefAnchorGridCountTests passed 1/1 under the station test identity (Mac Editor, main f5481745c3, XML Temp/TestResults/EditorBridge/20261112-203730-*). Play on Bootstrap with Map: training.status shared_ecef_anch"
-    },
-    {
-     "by": "PASIKA",
-     "at": "2026-11-12T21:20Z",
-     "text": "PASIKA (Windows Editor, Play, Bootstrap _anchorCellSizeMeters 10000, real Situation entities on this station): shared_ecef_anchors 80 at rest (Sumy, 340 m), 178 over Kyiv at 2 km, 213 at 50 km over central Ukraine, 79 again back at rest, so"
-    }
-   ]
-  },
-  {
    "n": 545,
    "name": "Note from CLOUD_MAC_BATCH",
    "done": "2026-11-14T11:56Z",
@@ -5893,16 +5868,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T21:15Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -5934,8 +5900,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-15T21:05Z",
-     "text": "30d0cc90e5 closes the Linked Browser DevTools HTTP client after its bounded Chrome cleanup. Windows Editor loopback proved cancellation, disposal, fresh discovery and closing only owned Street View targets (known ID and pending placeholder)"
+     "at": "2026-11-15T21:21Z",
+     "text": "a703ded559 retires all five Logistics CSV loaders and their shared HTTP client on shutdown. Saved links reopen on a fresh client. Rog Unity passed Personnel 5/5 and Message Import 21/21, including cancellation and disposal; Roslyn clean. No"
     }
    ]
   },
@@ -18302,7 +18268,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-15T21:06Z",
-     "noted": "2026-11-15T21:17Z",
+     "noted": "2026-11-15T21:23Z",
      "progress": 25,
      "ticked": 0,
      "total": 0
@@ -18312,8 +18278,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-15T21:17Z",
-     "text": "fd1a7724c6 compiled in Unity and Roslyn. Qualified Windows All reduced LogisticsInventoryTests from 36 failures to 1 (92/93). The remaining case calls the moved pending image Undo method. All: 7,822 pass, 215 fail, 10 skip. Current main mov"
+     "at": "2026-11-15T21:23Z",
+     "text": "Published fd1a7724c6 and 536a6ddafc. Windows prepared EditMode All at 536a6ddafc: LogisticsInventoryTests 93/93, formerly 36 failures. All: 7,823 passed, 214 failed, 10 skipped. Main advanced with Logistics supply teardown during the run, s"
     }
    ]
   },
@@ -18387,5 +18353,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "6787d1d31d85f69068ea633d103825cc3e82c602"
+ "source_revision": "a520eb6cdbd1a2077bcdf89dc6f9c323e2e796d2"
 }
