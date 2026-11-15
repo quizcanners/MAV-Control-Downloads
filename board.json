@@ -8580,7 +8580,7 @@
   },
   {
    "n": 828,
-   "name": "Refactor job J3",
+   "name": "Round 2 split J15",
    "done": "",
    "goal": false,
    "under": 0,
@@ -8589,7 +8589,20 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Move OfflineMapStorage out",
+     "x": false
+    },
+    {
+     "t": "Move Diagnostics out, fix PrepareAndPublish parameters",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
    "notes": []
   },
   {
@@ -9009,5 +9022,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "37552adb524b2062741c6592fa0a255b18d15d82"
+ "source_revision": "fbe813c1e6f1395912adb88b787e1539bb17ee3e"
 }
