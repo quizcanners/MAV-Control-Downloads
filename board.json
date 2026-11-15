@@ -7122,14 +7122,20 @@
     {
      "who": "CODEX_GRAPHICS",
      "since": "2026-11-15T00:12Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T00:20Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_GRAPHICS",
+     "at": "2026-11-15T00:20Z",
+     "text": "Native Metal run exposed a production mismatch: Kept still recreates targets when full scale draws to the back buffer. Expanding this fix to retain the observed half/full descriptors, including an observed empty full set, then repeat the na"
+    }
+   ]
   }
  ],
  "verify": [
@@ -7178,5 +7184,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "7b9b2a5775f1876c6f1cce2cc6d45f081fef3ca2"
+ "source_revision": "b04999a3e581c02f704c383bd990c173daaefe64"
 }
