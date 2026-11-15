@@ -4766,8 +4766,8 @@
     {
      "who": "ROG",
      "since": "2026-11-15T00:27Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T00:31Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -4776,8 +4776,8 @@
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-15T00:04Z",
-     "text": "71b79447f1 moves the Search native text-session adapter to Station.OS and preserves its Unity GUID. Search still owns focus, keyboard visibility intent and committed text. Six Roslyn platform/Editor cases compiled with the expected adapter;"
+     "at": "2026-11-15T00:31Z",
+     "text": "9968b68100 moves the macOS native trackpad bridge and Game View focus check into Station.OS. Input still owns mouse priority and zoom math. Windows Unity compiled and MainCameraWheelPointerTests passed 15/15. Isolated Roslyn builds passed f"
     }
    ]
   },
@@ -7189,5 +7189,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f4aaa6d8b4215262b31e1663fb441936ebda9306"
+ "source_revision": "25c73d3b3ed92bc9f7795df6e98e2dcc6bc4c569"
 }
