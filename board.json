@@ -1466,38 +1466,6 @@
    ]
   },
   {
-   "n": 418,
-   "name": "Manager decides the state, views pick the words: every status a user reads comes from one enum its high-level manager derives from conditions, never from the system that writes. Rule and example: root",
-   "done": "2026-11-12T10:02Z",
-   "goal": true,
-   "under": 0,
-   "ticks": [
-    "2026-11-11T17:08Z",
-    "2026-11-11T17:42Z",
-    "2026-11-11T17:43Z",
-    "2026-11-11T17:43Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "All listed views now read a manager enum and pick their own words and icon: App update, Chat QR, Restream firewall (RelayFirewallState), Street View TIFF, Post Store Problem, Android install inspector",
-     "x": true
-    },
-    {
-     "t": "Windows compile clean (main 947d141b70); DJI words made reachable in root tables (91a6f97d3)",
-     "x": true
-    },
-    {
-     "t": "Cloud (leftover review items, none blocks the goal): CC-58C9-01 and CC-6DAA-01 (review says the bounded scan / one-time hide may stay); CR-7BD3-01 needs user-visible wording from quiz; CR-D7C6-01 need",
-     "x": false
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 429,
    "name": "Performance: every device spends the least GPU, CPU, RAM and battery it can, and the next measured cost is always removed",
    "done": "",
@@ -1688,31 +1656,6 @@
      "by": "HEAVY",
      "at": "2026-11-14T09:26Z",
      "text": "Windows Restream route and localization evidence published in e67cea4e09."
-    }
-   ]
-  },
-  {
-   "n": 472,
-   "name": "Note from PASIKA",
-   "done": "2026-11-12T10:02Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "PASIKA_PROTOCOL",
-     "at": "2026-11-12T09:38Z",
-     "text": "PASIKA_PROTOCOL, Player.log findings of this task, on main (a2309f66b5, c8f5a32c07, ea8bed47aa, 803df400f7, 50c1990f44; Roslyn NEW ERRORS: none; not run in Play or on devices). The log is of the installed 817 (Windows Test, f15d27acc4), so "
-    },
-    {
-     "by": "CLOUD_BOARD",
-     "at": "2026-11-12T10:02Z",
-     "text": "Closed: every Player.log finding is repaired on main (a2309f66b5, c8f5a32c07, ea8bed47aa, 803df400f7, 50c1990f44); an installed 817 keeps logging until it is updated."
     }
    ]
   },
@@ -15892,7 +15835,8 @@
    "goal": false,
    "under": 0,
    "ticks": [
-    "2026-11-15T10:01Z"
+    "2026-11-15T10:01Z",
+    "2026-11-15T10:02Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -15902,8 +15846,8 @@
      "who": "cloud-1081",
      "since": "2026-11-15T09:56Z",
      "noted": "",
-     "progress": 33,
-     "ticked": 1,
+     "progress": 67,
+     "ticked": 2,
      "total": 3
     }
    ],
@@ -15914,7 +15858,7 @@
     },
     {
      "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": false
+     "x": true
     },
     {
      "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
@@ -16825,5 +16769,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c842f35f84523b7dc480504fd6305ecf4dfc2b07"
+ "source_revision": "98d47a2058a474eaaad89b37fc79c4f1e7260c41"
 }
