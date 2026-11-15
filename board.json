@@ -166,7 +166,7 @@
     {
      "who": "CODEX_GRAPHICS",
      "since": "2026-11-15T11:19Z",
-     "noted": "",
+     "noted": "2026-11-15T11:22Z",
      "progress": 56,
      "ticked": 5,
      "total": 9
@@ -223,8 +223,8 @@
     },
     {
      "by": "CODEX_GRAPHICS",
-     "at": "2026-11-15T06:46Z",
-     "text": "Done: 97a22405fb / 49c36c0b9b removes clock-only light and unchanged sky-binding redraws; 793 complete."
+     "at": "2026-11-15T11:22Z",
+     "text": "Builds 845 delivered: iOS internal testing, external Apple submission limit; macOS internal testing, external beta review. Published fixes 9f96342671 and 6fd70c7e56, history 368cea560b. Slow-motion fix ee07fd0c43 is on main; live Synthetic "
     }
    ]
   },
@@ -11122,35 +11122,30 @@
   {
    "n": 926,
    "name": "Round 4 split R37",
-   "done": "",
+   "done": "2026-11-15T11:19Z",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T11:19Z",
+    "2026-11-15T11:19Z",
+    "2026-11-15T11:19Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T11:17Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
-     "x": false
+     "x": true
     },
     {
      "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": false
+     "x": true
     },
     {
      "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": false
+     "x": true
     }
    ],
    "notes": [
@@ -11158,6 +11153,11 @@
      "by": "cloud-926",
      "at": "2026-11-15T07:47Z",
      "text": "Split done: LoadDiagnostics, file-state data types, PreparedBranchFile moved to Modeling 3D/Scripts/FileState/ (main file 1636 lines). Left: PreparationCleanup + Prepare/Load methods and their fields into a nested controller."
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-15T11:19Z",
+     "text": "Published e8529fa146. Preparation cleanup now belongs to Preparer alongside its existing reader state. Display-only retains incoming, hash and presentation reads; teardown still drops them. Compared moved predicate to prior source and verif"
     }
    ]
   },
@@ -16777,7 +16777,16 @@
    "priority": "high",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T11:20Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   }
@@ -16828,5 +16837,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b016c9a1d7b66ff851c13bd7cb02088ba1c5dd64"
+ "source_revision": "b8fb51b7034a45b22093acdd66a7632b086d8081"
 }
