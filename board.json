@@ -8485,7 +8485,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLOUD_TESTS",
+     "since": "2026-11-15T05:30Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Skim: list the 7 largest files and the groups of near-identical tests",
@@ -8595,5 +8604,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d34e3158da9d80b478d37b65d1b1bc86b2d8347e"
+ "source_revision": "4de5fd85390100bb422e69e4c9252a6823514e27"
 }
