@@ -5919,7 +5919,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T20:59Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -18179,14 +18188,20 @@
     {
      "who": "GETAC",
      "since": "2026-11-15T20:25Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T21:02Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T21:02Z",
+     "text": "Dev receive scopes are on main in a49c6dc172. They time worker adoption, plaintext, Geometry hash requests and Direct Tile Control apply."
+    }
+   ]
   },
   {
    "n": 1193,
@@ -18256,25 +18271,22 @@
   {
    "n": 1196,
    "name": "Investigate the seven remaining Finest Tiles parent composition and publication failures (Web Mercator SPEC",
-   "done": "",
+   "done": "2026-11-15T20:58Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T20:49Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T20:58Z",
+     "text": "1170620ffb removes an unconditional return left by the Coarser Tiles split. The caller already checks SavingCoarserTiles. The existing finalizer now retires publication holds, keeps newer dirty marks runnable and returns to Idle. Rog Unity "
+    }
+   ]
   },
   {
    "n": 1197,
@@ -18346,5 +18358,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e13efad4e4577cb128092ce010e28dd7b7fe41c5"
+ "source_revision": "f7f673341f9de1ce5bee61657b1de2806431ef3d"
 }
