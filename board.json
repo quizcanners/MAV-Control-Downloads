@@ -5903,29 +5903,25 @@
   {
    "n": 725,
    "name": "Add the small tongue to the right Suggestions panel (UI SPEC",
-   "done": "",
+   "done": "2026-11-15T15:12Z",
    "goal": false,
    "under": 363,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T15:09Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
      "at": "2026-11-14T19:13Z",
      "text": "Windows Editor 840: the mirrored Suggestions handle rendered against the selected panel backing at 1402x950. A tap on its chevron and a separate 192 px outward drag each cleared the synthetic selection through the real Input System. Restore"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-15T15:12Z",
+     "text": "Confirmed 7c732c802b on main. Rog Play Mode at 346595eee7 verified the live mirrored handle owns its center raycast, displays its chevron and uses the Suggestions backing material. Calling the live tap handler and separately sending outward"
     }
    ]
   },
@@ -17316,23 +17312,14 @@
   {
    "n": 1146,
    "name": "Selected-point name editor",
-   "done": "",
+   "done": "2026-11-15T15:12Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_UI",
-     "since": "2026-11-15T15:08Z",
-     "noted": "2026-11-15T15:12Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -17389,5 +17376,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e47cee5985d37391d33e56d0148bdb7b2040bb4f"
+ "source_revision": "f4279df639d6eb9f4ff8a4f810c47f41954e761e"
 }
