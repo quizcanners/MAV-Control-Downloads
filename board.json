@@ -5919,7 +5919,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T20:43Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -18202,14 +18211,20 @@
     {
      "who": "HEAVY",
      "since": "2026-11-15T20:32Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T20:46Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-15T20:46Z",
+     "text": "55e49af7d0 restores moved fixture owners and makes teardown restore singleton state after failures."
+    }
+   ]
   },
   {
    "n": 1194,
@@ -18312,5 +18327,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "75c1822d512d1e2bd23eda20837babef0d52c079"
+ "source_revision": "457720b2b6939bb7ee8af6ba6ca428dde843298c"
 }
