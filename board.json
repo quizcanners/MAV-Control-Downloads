@@ -3294,16 +3294,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T15:43Z",
-     "noted": "",
-     "progress": 25,
-     "ticked": 1,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: early break for VPN down in Peer.CanUseSyncConnection (a1614a81); Diagnostics, Startup, Persistence, FrameRate, Scheduler out of Singleton_GroundStation (e2b75667); Station split (18df70da); ",
@@ -3330,8 +3321,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-15T15:03Z",
-     "text": "117c1caa85 moves rendering, GPU, lag and frame capture commands to their Diagnostics owners. Rog Editor compiled; eight focused checks passed and a live half-second capture completed with report/ledger. Earlier 7df54648ce moved Wi-Fi and vi"
+     "at": "2026-11-15T15:47Z",
+     "text": "Published 09f4e9e190: the Performance inspector owns render_activity, textures, unitytextures and view. Rog Editor compiled; live render/texture/thread reports, four usage errors and owner-unavailable replies checked. 91 host performance te"
     }
    ]
   },
@@ -17206,8 +17197,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-15T15:03Z",
-     "text": "Published 9082884eaa. The exact production slot decisions matched the old scan across 64,000 mutations and all growth boundaries. Roslyn reported NEW ERRORS: none. CPU.md 1d2a2ce4a7 records the host comparison. Unity EditMode and the signed"
+     "at": "2026-11-15T15:47Z",
+     "text": "Strong signed Dev 845 ac4e09f0a0 completed 24 matched fast pinches. The label scan fell from eight samples to zero while the candidate still created labels. The three-fix batch's display tail was slower. See CPU.md c61cd33ecb."
     }
    ]
   },
@@ -17529,5 +17520,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "dae8cbf6c3782be1bc6d41cf0d4a0569fc6ba90e"
+ "source_revision": "9944d47fa38997f4b84ee5535d064803bcd68df0"
 }
