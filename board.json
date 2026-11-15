@@ -6349,7 +6349,7 @@
     {
      "who": "ROG",
      "since": "2026-11-15T01:33Z",
-     "noted": "",
+     "noted": "2026-11-15T01:40Z",
      "progress": 50,
      "ticked": 2,
      "total": 4
@@ -6380,14 +6380,14 @@
      "text": "Remote Sensors ticket teardown is published in 258abaf71c (task 753 done): coordinate replacement, removal, render-asset rebuild and shutdown cancel owned batched-ray tickets. Native 21/21 covers queued, in-flight and completed answers plus"
     },
     {
-     "by": "ROG",
-     "at": "2026-11-15T00:24Z",
-     "text": "7d195e6523 cancels Linked Browser tab discovery and screencast, rejects retired frames, page coordinates and failure reports, and disposes cancellation only after worker exit. Windows Unity compiled and 3 targeted tests passed, including si"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-15T01:30Z",
      "text": "fe792dd58e owns page-ink commands and their SVG with the Linked Browser capture."
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-15T01:40Z",
+     "text": "bef623f841 retires the globe relief reader before admitting a replacement, disposing its cancellation source on worker exit and consuming any late failure. Windows Unity 46/46 across globe relief and altitude. Isolated MapOnly forced recomp"
     }
    ]
   },
@@ -7297,5 +7297,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0bdef59942d551795faff755c7e737e240a04e64"
+ "source_revision": "a1ac61028301568d1d0460590ca0533be1d3b1c5"
 }
