@@ -14119,22 +14119,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T09:40Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-15T09:39Z",
-     "text": "Published 2eebe235b0, 3e7d459c13, 1d4adaf4cb and 886ab85c96: Camera, Search and Streamer owner fixes plus Orthophoto controller access and read-task encapsulation. Fresh Rog Unity passes reduced unique errors from 406 to 316 to 255. No diag"
+     "at": "2026-11-15T09:47Z",
+     "text": "Published six commits d2b47fa743 through 35b3aaf7ca. Cleared Orthophoto/GeoTIFF ownership and selected Planet Renderer, DJI and network diagnostics. Recovered compiler body checking after new Chat, Planet and MAVLink refactors introduced de"
     }
    ]
   },
@@ -15305,6 +15296,7 @@
    "under": 0,
    "ticks": [
     "2026-11-15T09:47Z",
+    "2026-11-15T09:47Z",
     "2026-11-15T09:47Z"
    ],
    "priority": "normal",
@@ -15315,8 +15307,8 @@
      "who": "cloud-r6-x8",
      "since": "2026-11-15T09:42Z",
      "noted": "",
-     "progress": 67,
-     "ticked": 2,
+     "progress": 100,
+     "ticked": 3,
      "total": 3
     }
    ],
@@ -15331,7 +15323,7 @@
     },
     {
      "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": false
+     "x": true
     }
    ],
    "notes": []
@@ -16736,5 +16728,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4e98a269fc6fe63d5fbd85e5545928384d14404c"
+ "source_revision": "5a51fe99512bd420ac390d7b5d99510c2927997b"
 }
