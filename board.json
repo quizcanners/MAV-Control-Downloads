@@ -6063,16 +6063,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T15:14Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -6098,14 +6089,14 @@
      "text": "City labels (Place Labels) after hot reload: ManagedOnDisable now resets draw order, view, batch, place glyph labels, id index, version gates, imported flag (cloud, 2026-11-15, uncompiled; cause not seen in Play, only by reading). Audit oth"
     },
     {
-     "by": "ROG",
-     "at": "2026-11-15T07:22Z",
-     "text": "6b95a8530c clears the EGM96 borrowed view at the end of Bootstrap shutdown and flushes URP camera references at shader shutdown. Native Unity compile and both focused probes pass: double cleanup, same Kyiv geoid height after reload, externa"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-15T08:55Z",
      "text": "Windows Editor 428d5f78a2: two KSP hot reloads. The matched pass restored all 9 scenes and a fresh Planet Renderer session with the same terrain demand. Chat UI loaded after the first sample. No compiler errors, null references or native le"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-15T15:26Z",
+     "text": "659b36e35f releases shared row artwork and joins cancelled globe-relief workers at shutdown. Five Unity checks passed. A live recompile reloaded all six admitted additive scenes; the old texture was gone, one new texture was created, and ex"
     }
    ]
   },
@@ -17380,6 +17371,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1149,
+   "name": "Using Strong for the signed terrain query bounds",
+   "done": "",
+   "goal": false,
+   "under": 381,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-15T15:27Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -17428,5 +17442,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "652c9692617bbd30063b62db03b9fec6cb1db8f3"
+ "source_revision": "c0f2d07dd0ed2fbf4cd93e28700e624b784c3dd0"
 }
