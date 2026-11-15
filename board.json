@@ -7929,14 +7929,20 @@
     {
      "who": "CODEX_GRAPHICS",
      "since": "2026-11-15T05:26Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T06:05Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_GRAPHICS",
+     "at": "2026-11-15T06:05Z",
+     "text": "Published 8d0fe4255a via d0ba30890c (PR 93). Video presence/completion stops at the first active stream; presentation retains full totals and same-frame stops remain immediate. Native ProcessMetricsTests 7/7 and Roslyn passed; CPU baseline "
+    }
+   ]
   },
   {
    "n": 807,
@@ -8843,7 +8849,7 @@
   {
    "n": 835,
    "name": "Round 2 rename R4",
-   "done": "",
+   "done": "2026-11-15T06:05Z",
    "goal": false,
    "under": 0,
    "ticks": [
@@ -8854,16 +8860,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "cloud-835",
-     "since": "2026-11-15T06:04Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Nest the class and switch the 6 files",
@@ -9421,5 +9418,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "44e54b5050d44d7667c8174880c0437a7ced3f40"
+ "source_revision": "c6497dae7259847b5972f9c516ba526795b47788"
 }
