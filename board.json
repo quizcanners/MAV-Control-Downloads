@@ -1023,16 +1023,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T11:58Z",
-     "noted": "",
-     "progress": 53,
-     "ticked": 8,
-     "total": 15
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Space relief: Copernicus GLO-30 4096x2048 globe is the only relief on main (2dfa940d67, LFS SHA-256 b668209b...b513, 16,777,232 bytes); NOAA globe relief removed; globe=Ready at 1,000 km and Absent af",
@@ -4594,7 +4585,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T12:06Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -16829,29 +16829,25 @@
   {
    "n": 1118,
    "name": "Reuse the 256 KiB full-texture Mask Pages decode buffer at ReadChunk (Planet Renderer SPEC",
-   "done": "",
+   "done": "2026-11-15T12:05Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "high",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T11:58Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
+     "by": "ROG",
+     "at": "2026-11-15T12:05Z",
+     "text": "Published b719439a26 and CPU baseline bb7e847b62. Rog Unity compiled and four offline wheel bursts confirmed bounded reuse. Actual loader host passed nine checks with Windows and Android defines, including corrupt read, stale stamp and uplo"
+    },
+    {
      "by": "GETAC",
-     "at": "2026-11-15T11:57Z",
-     "text": "Current LoadController already has exactly two TextureLoadsInFlight seats on all platforms. Keep the spare raw buffers on the main-thread seat owner: pass one to ReadChunk, return it after AdoptLoaded's upload or discard, and on retirement "
+     "at": "2026-11-15T12:07Z",
+     "text": "Independent Getac host checks of b719439a26 passed. The previous loader used 32 raw arrays across 32 reads and the fixed loader used two. Tested stale results, failed decode, upload exception and retirement with a worker blocked. Current an"
     }
    ]
   }
@@ -16902,5 +16898,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "31df1db7231b6a94032df53e97de0f381acb0743"
+ "source_revision": "13c884e0b0f4ac76ddc4bf32674cded0396de79a"
 }
