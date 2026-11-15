@@ -1528,7 +1528,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-15T05:01Z",
+     "noted": "",
+     "progress": 22,
+     "ticked": 2,
+     "total": 9
+    }
+   ],
    "steps": [
     {
      "t": "Cloud, on main: startup cuts, Patch Preparation (32a9302f, 55dbede20d), hand-wri",
@@ -7840,5 +7849,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "be51f98099ff7ee154b940b3ffc7793a38f7b171"
+ "source_revision": "0d02dcc7f47b789da1f9b61c73d6e53c6c121545"
 }
