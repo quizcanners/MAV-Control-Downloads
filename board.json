@@ -474,7 +474,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-15T06:54Z",
-     "noted": "2026-11-15T07:19Z",
+     "noted": "2026-11-15T07:26Z",
      "progress": 71,
      "ticked": 5,
      "total": 7
@@ -531,8 +531,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-15T07:19Z",
-     "text": "Windows contained All at 0f69b2611a: 7,909 passed, 101 failed, 10 skipped. 54 OnlineRasterScheduling and 11 VpnUdpAssembly failures share fixture setup errors. Raw XML SHA-256 3f967d73703844c2b9d6570070b5fa14c77974a8eaeca401164a42b59888f8e2"
+     "at": "2026-11-15T07:26Z",
+     "text": "Windows All 0f69b2611a: 7,909 passed, 101 failed, 10 skipped across 19 failing fixtures. OnlineRasterScheduling (54) still reflects _onlineRaster on the old owner. VpnUdpAssembly (11) looks for PendingUdpMessages under UdpController instead"
     }
    ]
   },
@@ -10513,5 +10513,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "69212ef20bb295af80a458bf94200e32fa58557b"
+ "source_revision": "536542f20682c027150ea047901b32a83783446f"
 }
