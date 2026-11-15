@@ -8255,7 +8255,7 @@
   },
   {
    "n": 817,
-   "name": "Refactor job K",
+   "name": "Round 2 logging J18",
    "done": "",
    "goal": false,
    "under": 0,
@@ -8266,29 +8266,19 @@
    "held": [],
    "steps": [
     {
-     "t": "Skim: list files by Debug.Log count, split Editor-only from player code",
+     "t": "Delete the chatter lines",
      "x": false
     },
     {
-     "t": "Replace loop, receive and retry logs with ChillLogger enums; delete chatter",
+     "t": "Move the real errors to ChillLogger enums",
      "x": false
     },
     {
-     "t": "Delete the Undo Redo and Waypoints forwarders",
-     "x": false
-    },
-    {
-     "t": "Put leftovers on the board; add a Done / Left line to Coordination/Refactoring/f",
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "cloud-817",
-     "at": "2026-11-15T05:31Z",
-     "text": "done: 83 error/warn logs to ChillLogger enums, 18 chatter logs deleted, OnWayPointsChanged forwarder; left: LogException calls, MGRS_LonLatAlt_Lerp.cs (non-UTF8), out/ref captures in lambdas may not compile"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 818,
@@ -9039,5 +9029,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a3bd028a89cd53d0f21d42275cf9be7da969938d"
+ "source_revision": "0af4dbd637306209c0eae197fb1bf111f75fd089"
 }
