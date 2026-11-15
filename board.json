@@ -18131,42 +18131,37 @@
   {
    "n": 1191,
    "name": "Move the five effects that still draw before the world blur to after it",
-   "done": "",
+   "done": "2026-11-15T20:34Z",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T20:34Z",
+    "2026-11-15T20:34Z",
+    "2026-11-15T20:34Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T20:22Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Route the tap-wave Shader Graph through a pass after world blur, preserving its look and depth handling.",
-     "x": false
+     "x": true
     },
     {
      "t": "Route the Altitude visualizer Shader Graph through a pass after world blur, preserving its terrain and depth checks.",
-     "x": false
+     "x": true
     },
     {
      "t": "Update Blurred World ownership rules and bump the Map page when both graphs are migrated.",
-     "x": false
+     "x": true
     }
    ],
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-15T20:18Z",
-     "text": "Rog pushed 9552361826. Remote Sensor Marker draws in AfterBlur with depth writes, and the sharp still-frame grab follows it. D3D11 compiled six marker variants and confirmed pass order 501/502/503. Unity 14/14 and Roslyn e/a/p/m passed. Scr"
+     "at": "2026-11-15T20:34Z",
+     "text": "Rog pushed 38d03c6dd2. The tap-wave and altitude graphs draw through the reserved AfterBlur renderer list. Native D3D11 pixels proved ordinary, early, late and both pass controls for untagged Unlit. Unity compiled and passed 45 focused chec"
     }
    ]
   },
@@ -18244,14 +18239,20 @@
     {
      "who": "GETAC",
      "since": "2026-11-15T20:31Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T20:36Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T20:36Z",
+     "text": "Strong Dev 845 e7f42e7fb593 completed 24 s idle and 24 s moving captures with six fast pinches. Both had complete timing and zero Map Record Hash Request, Direct Tile Control or Web Mercator hash messages. ProcessingMessages peaked at 0.396"
+    }
+   ]
   }
  ],
  "verify": [
@@ -18300,5 +18301,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b503c684f07ec27d7ee927d1abd54491ed87f5b1"
+ "source_revision": "9e1729659e8b0c1b01062237bc26538e4d4569de"
 }
