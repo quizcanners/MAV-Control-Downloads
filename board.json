@@ -1099,8 +1099,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-15T11:58Z",
-     "text": "1646488112 reanalyzed 48 Strong fast pinches and found the 256 KiB RawBytes allocation in a second ReadChunk GC wait. ROG landed the reduced-member reuse in c66db3a966. Task 1118 tracks the full-texture read seats. Private diagnostic Androi"
+     "at": "2026-11-15T12:08Z",
+     "text": "Both Mask Pages ReadChunk allocation fixes are on main (c66db3a966, b719439a26). Independent Getac host checks of the full-texture read seats, failure and retirement are in CPU.md (26ce6a979d). The exact-interval Android APK is still buildi"
     }
    ]
   },
@@ -16898,5 +16898,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "13c884e0b0f4ac76ddc4bf32674cded0396de79a"
+ "source_revision": "44b7489405e5c8601cfc08a62e5598a1b02a28e8"
 }
