@@ -15843,7 +15843,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T09:57Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -15852,15 +15854,15 @@
      "who": "thread1079",
      "since": "2026-11-15T09:54Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Run cs_outline and list every concern",
-     "x": false
+     "x": true
     },
     {
      "t": "Move one concern per commit into a nested controller that owns its fields",
@@ -16722,6 +16724,29 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 1110,
+   "name": "Index render texture allocation membership in RenderTextureBufferBase (Utils SPEC",
+   "done": "",
+   "goal": false,
+   "under": 381,
+   "ticks": [],
+   "priority": "high",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-15T09:57Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -16770,5 +16795,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "cb39c00ad84b74830d65e755fe357cf5d258a47a"
+ "source_revision": "a23171b17f26da87e1917868d559a160f6ab729c"
 }
