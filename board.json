@@ -1536,7 +1536,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T12:57Z",
+     "noted": "",
+     "progress": 29,
+     "ticked": 2,
+     "total": 7
+    }
+   ],
    "steps": [
     {
      "t": "Under 100 files, step 2 mostly landed (all RecordVault adapters): OSM tiles and ocean, trails (d288afc5b6), chat icons, Geometry cells, Logistics, Tileset/PeerVersions rows (009628094b); Storage page ",
@@ -16836,29 +16845,25 @@
   {
    "n": 1122,
    "name": "Refactoring pass 2026-11-15 evening",
-   "done": "",
+   "done": "2026-11-15T12:56Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T12:51Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "cloud-refactor",
      "at": "2026-11-15T12:45Z",
      "text": "Code merged to main (7277a4112d); needs cmp.sh compile check by a local agent."
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-15T12:56Z",
+     "text": "Verified 7277a4112d and published 774ad02057. Rog Unity compiled, Settings > Map > Advanced > Lighting showed its controls, and lighting.status and video.ice answered in Play. DJI receive teardown now releases retained frames and clears scr"
     }
    ]
   },
@@ -16868,6 +16873,29 @@
    "done": "",
    "goal": false,
    "under": 430,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T12:57Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 1124,
+   "name": "Drone rows",
+   "done": "",
+   "goal": false,
+   "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
@@ -16923,5 +16951,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "532c4afef57f817f337acb76f455b0226c415545"
+ "source_revision": "6a93083fa766ee1ed5f3769deed9df778b2af63f"
 }
