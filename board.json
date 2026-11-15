@@ -1023,16 +1023,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T12:40Z",
-     "noted": "",
-     "progress": 53,
-     "ticked": 8,
-     "total": 15
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Space relief: Copernicus GLO-30 4096x2048 globe is the only relief on main (2dfa940d67, LFS SHA-256 b668209b...b513, 16,777,232 bytes); NOAA globe relief removed; globe=Ready at 1,000 km and Absent af",
@@ -16828,25 +16819,22 @@
   {
    "n": 1121,
    "name": "Reuse the 256 KiB saved Mask Pages mosaic payload buffer (Planet Renderer SPEC",
-   "done": "",
+   "done": "2026-11-15T12:50Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T12:40Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T12:50Z",
+     "text": "Published b8641c379e and CPU baseline 3de9fac484. Rog Unity compiled. Four Offline zoom bursts exercised saved-view adoption and reuse with a four-spare cap. The production decoder and lease owner passed nine managed controls, including cor"
+    }
+   ]
   },
   {
    "n": 1122,
@@ -16858,7 +16846,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T12:51Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -16867,6 +16864,20 @@
      "text": "Code merged to main (7277a4112d); needs cmp.sh compile check by a local agent."
     }
    ]
+  },
+  {
+   "n": 1123,
+   "name": "Decode only the validated outgoing references on a cold Web Mercator index compaction read (Web Mercator SPEC",
+   "done": "",
+   "goal": false,
+   "under": 430,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -16915,5 +16926,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "9ae653f88486ddae81c389a5179ba7eab3304efe"
+ "source_revision": "f8894550dd77bb7fa3336d3086560c90c13eb9f7"
 }
