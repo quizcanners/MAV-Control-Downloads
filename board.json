@@ -11282,35 +11282,30 @@
   {
    "n": 925,
    "name": "Round 4 split R36",
-   "done": "",
+   "done": "2026-11-15T08:28Z",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T08:28Z",
+    "2026-11-15T08:28Z",
+    "2026-11-15T08:28Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T08:17Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
-     "x": false
+     "x": true
     },
     {
      "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": false
+     "x": true
     },
     {
      "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": false
+     "x": true
     }
    ],
    "notes": [
@@ -11318,6 +11313,11 @@
      "by": "cloud-thread-925",
      "at": "2026-11-15T07:46Z",
      "text": "R36 done: render pass and ground marker (nested GroundMarkerController) moved to Copilot/UI/PilotView/. Left: TopMetric/TopMetricText and ViewSurface controllers, Editor compile."
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-15T08:28Z",
+     "text": "Published e76b88848d, fe636b3012, 5de53a090c and 6f71dad856. TopStatusController owns metric/battery and signal state; SurfaceController owns visibility and folds. Existing prefab fields stay on the component. Rog Unity compiled 6f71dad856;"
     }
    ]
   },
@@ -11831,25 +11831,22 @@
   {
    "n": 942,
    "name": "Restore native compilation after the follow-up Chat and Extended Menu extraction (task 875)",
-   "done": "",
+   "done": "2026-11-15T08:28Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T08:20Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T08:28Z",
+     "text": "Published a796415ef6. Chat owns closing and return state; QR and My Details callers resolve to that owner. Rog Unity compiled 6f71dad856. Three focused checks passed: QR caller return, My Details caller return and Chat context snapshot rest"
+    }
+   ]
   },
   {
    "n": 943,
@@ -11886,6 +11883,1959 @@
    ],
    "held": [],
    "steps": [],
+   "notes": []
+  },
+  {
+   "n": 945,
+   "name": "Round 5 split S1",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "thread945",
+     "since": "2026-11-15T08:28Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 946,
+   "name": "Round 5 split S3",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 947,
+   "name": "Round 5 split S4",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 948,
+   "name": "Round 5 split S5",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 949,
+   "name": "Round 5 split S6",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 950,
+   "name": "Round 5 split S7",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 951,
+   "name": "Round 5 split S8",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 952,
+   "name": "Round 5 split S9",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 953,
+   "name": "Round 5 split S10",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 954,
+   "name": "Round 5 split S11",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 955,
+   "name": "Round 5 split S12",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 956,
+   "name": "Round 5 split S13",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 957,
+   "name": "Round 5 split S14",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 958,
+   "name": "Round 5 split S15",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 959,
+   "name": "Round 5 split S16",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 960,
+   "name": "Round 5 split S17",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 961,
+   "name": "Round 5 split S18",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 962,
+   "name": "Round 5 split S19",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 963,
+   "name": "Round 5 split S20",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 964,
+   "name": "Round 5 split S21",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 965,
+   "name": "Round 5 split S22",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 966,
+   "name": "Round 5 split S23",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 967,
+   "name": "Round 5 split S24",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 968,
+   "name": "Round 5 split S25",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 969,
+   "name": "Round 5 split S26",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 970,
+   "name": "Round 5 split S27",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 971,
+   "name": "Round 5 split S28",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 972,
+   "name": "Round 5 split S29",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 973,
+   "name": "Round 5 split S30",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 974,
+   "name": "Round 5 split S31",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 975,
+   "name": "Round 5 split S32",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 976,
+   "name": "Round 5 split S33",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 977,
+   "name": "Round 5 split S34",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 978,
+   "name": "Round 5 split S35",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 979,
+   "name": "Round 5 split S36",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 980,
+   "name": "Round 5 split S37",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 981,
+   "name": "Round 5 split S38",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 982,
+   "name": "Round 5 split S39",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 983,
+   "name": "Round 5 left L1",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 984,
+   "name": "Round 5 left L2",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 985,
+   "name": "Round 5 left L3",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 986,
+   "name": "Round 5 left L4",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 987,
+   "name": "Round 5 left L5",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 988,
+   "name": "Round 5 left L7",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 989,
+   "name": "Round 5 left L8",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 990,
+   "name": "Round 5 left L9",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 991,
+   "name": "Round 5 merge M1",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 992,
+   "name": "Round 5 merge M2",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 993,
+   "name": "Round 5 merge M3",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 994,
+   "name": "Round 5 merge M4",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 995,
+   "name": "Round 5 merge M5",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 996,
+   "name": "Round 5 merge M6",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 997,
+   "name": "Round 5 merge M7",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 998,
+   "name": "Round 5 merge M8",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 999,
+   "name": "Round 5 merge M9",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 1000,
+   "name": "Round 5 merge M10",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 1001,
+   "name": "Round 5 merge M11",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 1002,
+   "name": "Round 5 merge M12",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 1003,
+   "name": "Round 5 merge M13",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 1004,
+   "name": "Round 5 merge M14",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 1005,
+   "name": "Round 5 merge M15",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 1006,
+   "name": "Round 5 merge M16",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 1007,
+   "name": "Round 5 merge M17",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the file and list its nested types with their fields",
+     "x": false
+    },
+    {
+     "t": "Move one concern per commit into a nested controller that owns its fields",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 1008,
+   "name": "Round 5 G1",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Grep the sites and list them with the real counts",
+     "x": false
+    },
+    {
+     "t": "Change each site at its owner, one commit per group",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/forwarders-and-long-signatures.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 1009,
+   "name": "Round 5 G2",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Grep the sites and list them with the real counts",
+     "x": false
+    },
+    {
+     "t": "Change each site at its owner, one commit per group",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/forwarders-and-long-signatures.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 1010,
+   "name": "Round 5 C1",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Grep the sites and list them with the real counts",
+     "x": false
+    },
+    {
+     "t": "Change each site at its owner, one commit per group",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/forwarders-and-long-signatures.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 1011,
+   "name": "Round 5 C2",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Grep the sites and list them with the real counts",
+     "x": false
+    },
+    {
+     "t": "Change each site at its owner, one commit per group",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/forwarders-and-long-signatures.md",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 1012,
+   "name": "Round 5 pins P1",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Find which files the tests read that are gone or moved",
+     "x": false
+    },
+    {
+     "t": "Point each test at the file that holds the code today",
+     "x": false
+    },
+    {
+     "t": "Run what runs on this machine and note the rest",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 1013,
+   "name": "Round 5 pins P2",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Find which files the tests read that are gone or moved",
+     "x": false
+    },
+    {
+     "t": "Point each test at the file that holds the code today",
+     "x": false
+    },
+    {
+     "t": "Run what runs on this machine and note the rest",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 1014,
+   "name": "Round 5 pins P3",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Find which files the tests read that are gone or moved",
+     "x": false
+    },
+    {
+     "t": "Point each test at the file that holds the code today",
+     "x": false
+    },
+    {
+     "t": "Run what runs on this machine and note the rest",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 1015,
+   "name": "Round 5 pins P4",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Find which files the tests read that are gone or moved",
+     "x": false
+    },
+    {
+     "t": "Point each test at the file that holds the code today",
+     "x": false
+    },
+    {
+     "t": "Run what runs on this machine and note the rest",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 1016,
+   "name": "Round 5 pins P5",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Find which files the tests read that are gone or moved",
+     "x": false
+    },
+    {
+     "t": "Point each test at the file that holds the code today",
+     "x": false
+    },
+    {
+     "t": "Run what runs on this machine and note the rest",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
@@ -11935,5 +13885,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "428d5f78a241b4ff58cb4f3ef627408eca0436ac"
+ "source_revision": "dbbc3fdb2819c57015650431020ef2743ce46787"
 }
