@@ -6357,7 +6357,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-15T00:52Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupSce",
@@ -6993,6 +7002,11 @@
      "by": "ROG",
      "at": "2026-11-14T23:26Z",
      "text": "158db4c216 removes Noise IK calls from the periodic and immediate Destination Sync paths; VPN Chat Session Maintenance keeps its retry and rotation cadence. Windows Unity compiled, 92/92: DestinationValue, VpnSessionRekey, VpnPayloadDeliver"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T00:52Z",
+     "text": "Strong signed Dev 842 e4e4c07729: Destination Sync Noise IK calls fell from 1,469 in a 114-frame repeat baseline to zero in each of three 114-frame captures. Getac Windows Dev 833 dropped out and rejoined over VPN with a fresh installed ses"
     }
    ]
   },
@@ -7232,5 +7246,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0c10bb88e3e09476de170f2dfd44b32292d19789"
+ "source_revision": "24bc73f5a77d4fa12723edf0b86c20248ce5f523"
 }
