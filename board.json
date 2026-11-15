@@ -8808,23 +8808,14 @@
   {
    "n": 834,
    "name": "Sweep the map and panels for on-screen text quiz never asked for (readouts",
-   "done": "",
+   "done": "2026-11-15T06:29Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T06:21Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -8834,8 +8825,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-15T06:20Z",
-     "text": "faeac79e34 removed legacy Map Source and Lighting bindings. f414dbc537 clears passive rows in Pi scanner, SineLink, MAVLink Companion, SQLite, and Orthophoto. It keeps recovery guidance at warnings and disk/closure guidance at compaction co"
+     "at": "2026-11-15T06:29Z",
+     "text": "f414dbc537 completed the listed Settings text sweep. 2b3c83ec81 removes all three legacy prefab roots through Prefab Edit. Windows Unity import and four focused checks passed. Live Map Source render is queued separately: after normal Bootst"
     }
    ]
   },
@@ -9419,6 +9410,34 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 855,
+   "name": "Main View Settings Window stays inactive after Bootstrap in Windows Editor 844. Main UI contains the component (isActiveAndEnabled=False)",
+   "done": "",
+   "goal": false,
+   "under": 407,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 856,
+   "name": "Round 3 split R1",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -9467,5 +9486,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "24a453389358fb34c1e7db6eb041e661cebef139"
+ "source_revision": "7e723d3f2b991a91fa2c1732c021ebbccb037c06"
 }
