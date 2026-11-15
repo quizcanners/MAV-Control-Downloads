@@ -997,7 +997,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-15T23:02Z",
+     "noted": "",
+     "progress": 53,
+     "ticked": 8,
+     "total": 15
+    }
+   ],
    "steps": [
     {
      "t": "Space relief: Copernicus GLO-30 4096x2048 globe is the only relief on main (2dfa940d67, LFS SHA-256 b668209b...b513, 16,777,232 bytes); NOAA globe relief removed; globe=Ready at 1,000 km and Absent af",
@@ -18544,29 +18553,25 @@
   {
    "n": 1213,
    "name": "Restore Windows Raspberry Pi WiFi Scanner EditMode fixtures to the current Evidence storage and convergence owners. Preserve file failure",
-   "done": "",
+   "done": "2026-11-15T22:57Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T22:49Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
      "at": "2026-11-15T22:44Z",
      "text": "Published 05e6918025. Roslyn NEW ERRORS: none. Rebound the five failing evidence, hash parity and simulation fixture paths to EvidenceFile and Tiles; assertion logic is unchanged. Native verification remains pending because the task 1209 ca"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-15T22:57Z",
+     "text": "009b43fef7 follows 05e6918025 and seeds normalized archive IDs before the simulated field. Rog Windows Unity 6000.6.8f1 reproduced 84/85, then passed 85/85 RaspberryPiWifiScannerTests, including both simulation refinement cases. Native comp"
     }
    ]
   },
@@ -18623,7 +18628,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T22:58Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   }
@@ -18674,5 +18688,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "036b28a9d2ed35efdce19588a0244c6c3d32ae22"
+ "source_revision": "357e8ba8cd853c5c52ddda5b0fbd4b262f09c108"
 }
