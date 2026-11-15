@@ -1144,7 +1144,8 @@
    "under": 0,
    "ticks": [
     "2026-11-12T10:18Z",
-    "2026-11-12T17:34Z"
+    "2026-11-12T17:34Z",
+    "2026-11-15T15:37Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -1154,8 +1155,8 @@
      "who": "CODEX_MAC_UI",
      "since": "2026-11-15T15:36Z",
      "noted": "",
-     "progress": 50,
-     "ticked": 6,
+     "progress": 58,
+     "ticked": 7,
      "total": 12
     }
    ],
@@ -1174,7 +1175,7 @@
     },
     {
      "t": "Mac/phone: look check of the Lighting card: '\u042f\u0441\u043a\u0440\u0430\u0432\u0456\u0441\u0442\u044c NN%' on one line, full-width slider under it, mode rows unchanged; card (528 high, picked A) must clear the bottom rail at 1440x900 (an earlier ",
-     "x": false
+     "x": true
     },
     {
      "t": "Phone: Paint goes blue after five idle seconds and any touch restores it; Drawing 120 s fade and thicker shadow (AnnotationStroke) look right via Page checks.",
@@ -17397,6 +17398,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1150,
+   "name": "Repair stale PerformanceInstrumentationTests bindings after the FrameBudget capture controller split. Preserve stage",
+   "done": "",
+   "goal": false,
+   "under": 369,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T15:37Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -17445,5 +17469,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "47855c00cab63b63aaba6bc2c3f7a20aea9d9c8b"
+ "source_revision": "bb760c59e3515b06ab001117785dcfe7db26ae9e"
 }
