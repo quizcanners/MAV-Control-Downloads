@@ -444,7 +444,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-15T21:05Z",
+     "noted": "",
+     "progress": 71,
+     "ticked": 5,
+     "total": 7
+    }
+   ],
    "steps": [
     {
      "t": "Windows Editor (HEAVY): bridge answered api.status after a witnessed script reload (8b1b018379); prepared-candidate containing All 8569 passed, 0 failed (also serves goal 382); live-Editor All 8591/0 ",
@@ -5919,16 +5928,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T20:59Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -5960,8 +5960,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-15T20:49Z",
-     "text": "bdc8bf30b3 closes Google OAuth/VPN Sheets transport on station shutdown. Windows loopback control reproduced the old pending request; the fix cancelled it, closed the callback listener and sent HTTP through a fresh connection. Roslyn e/a/p/"
+     "at": "2026-11-15T21:05Z",
+     "text": "30d0cc90e5 closes the Linked Browser DevTools HTTP client after its bounded Chrome cleanup. Windows Editor loopback proved cancellation, disposal, fresh discovery and closing only owned Street View targets (known ID and pending placeholder)"
     }
    ]
   },
@@ -18346,5 +18346,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a1020df68e0d54a8a7753c994ed16a7419c353ae"
+ "source_revision": "230eed8e92e6fd7410250c5a0ecb8ba8e0f602d8"
 }
