@@ -6062,16 +6062,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T16:22Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -6103,8 +6094,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-15T16:09Z",
-     "text": "Published e83e2f8c63. Web Mercator drains clean branch textures after store close, preserving pending saves and bake inputs. Unity compiled; three focused checks passed. In a live script reload all seven scenes returned and no native probe "
+     "at": "2026-11-15T16:25Z",
+     "text": "Rog live compile/domain reload at 23f5550f96: seven scenes returned with the same local camera transform; native texture probe released, no reload leak warning. Five app.memory samples per side in RAM.md 80489cd77f: Unity allocated -100.35 "
     }
    ]
   },
@@ -17613,23 +17604,14 @@
   {
    "n": 1160,
    "name": "Settings Video root on macOS",
-   "done": "",
+   "done": "2026-11-15T16:26Z",
    "goal": false,
    "under": 409,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_UI",
-     "since": "2026-11-15T16:17Z",
-     "noted": "2026-11-15T16:25Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -17709,5 +17691,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5b006ec9b45494ff96792f05b0abc5cd4183a76e"
+ "source_revision": "aa3eb643dfad7cf8ea6f3c42453725ee518eaa7b"
 }
