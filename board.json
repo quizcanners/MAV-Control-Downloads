@@ -17806,7 +17806,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-15T23:13Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -18585,7 +18594,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T23:13Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -18605,7 +18623,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T23:13Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -18618,25 +18645,22 @@
   {
    "n": 1216,
    "name": "Skip the redundant PostTransformMatrix identity write for ECS point markers when appearance changes (ECS SPEC",
-   "done": "",
+   "done": "2026-11-15T23:12Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T22:58Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T23:12Z",
+     "text": "6806da9c0f skips the identity write for ECS markers while retaining the label reset, billboard and bounds writes. Native Rog Windows Unity 6000.6.8f1 EcsTextRenderingTests 12/12, including retained identity, changed radius and entity reuse."
+    }
+   ]
   },
   {
    "n": 1217,
@@ -18671,7 +18695,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T23:13Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -18751,5 +18784,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "145ec2badde341504db7447c3e61e6affcc2055e"
+ "source_revision": "e0ca986a79d3a44c055fd6d4373d6a35fffbe513"
 }
