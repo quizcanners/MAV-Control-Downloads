@@ -16968,7 +16968,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T13:32Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -17023,25 +17032,22 @@
   {
    "n": 1132,
    "name": "Remove the linear ordered-list search from RenderTextureBufferBase.Untrack (Utils SPEC",
-   "done": "",
+   "done": "2026-11-15T13:31Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T13:27Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T13:31Z",
+     "text": "Published abed8a1154. Untrack clears its indexed storage slot without a linear scan. The live Diagnostics list preserves order, and native release is unchanged. Rog Unity compiled. Eight fixture methods and held-view order/version checks pa"
+    }
+   ]
   }
  ],
  "verify": [
@@ -17090,5 +17096,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1ad1cbd0be90691fb5115abeca19728de1235479"
+ "source_revision": "1382052ade0c8a7d4be806a544944da83f10eafa"
 }
