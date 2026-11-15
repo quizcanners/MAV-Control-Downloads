@@ -1180,7 +1180,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MAC_UI",
+     "since": "2026-11-15T09:11Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 6,
+     "total": 12
+    }
+   ],
    "steps": [
     {
      "t": "Edge and join pass done: screen-edge ticks on every fixed prefab (last 6138a500ce, d3313d805f); join sides keep the merge flag and get only the pixel line (option a, taken by CLOUD_BOARD); dead line m",
@@ -14106,9 +14115,9 @@
    "held": [
     {
      "who": "ROG",
-     "since": "2026-11-15T08:57Z",
-     "noted": "",
-     "progress": 0,
+     "since": "2026-11-15T09:09Z",
+     "noted": "2026-11-15T09:09Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -14117,8 +14126,8 @@
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-15T08:56Z",
-     "text": "Published nine repair commits through ccfea4c262; Planet Mask changes are d5f67b4402, 6c2e627574 and 464e70dc88. The native refresh of a475ff772e plus the Video Feed repair passed declaration parsing and reported 37 remaining C# errors, sta"
+     "at": "2026-11-15T09:09Z",
+     "text": "Published nine more repair commits through e0b10b503e, covering Chat/video/Logistics ownership, Camera, Orthophoto, DJI platform guards, Direct USB and accidental edits in two Editor utilities. Latest Rog compiler progressed into Video Stat"
     }
    ]
   },
@@ -14303,7 +14312,16 @@
    "priority": "high",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-15T09:06Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   }
@@ -14354,5 +14372,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "7f3c60af59e0a9c335dbf2995fa8ed77336f6abe"
+ "source_revision": "9facd521466c5458c2cae70aa90489e5bf3aaac5"
 }
