@@ -16815,23 +16815,34 @@
   {
    "n": 1117,
    "name": "Reuse Mask Pages reduced member buffers in ReadChunk (Planet Renderer SPEC",
-   "done": "",
+   "done": "2026-11-15T11:54Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "high",
    "parked": false,
    "flags": [],
-   "held": [
+   "held": [],
+   "steps": [],
+   "notes": [
     {
-     "who": "ROG",
-     "since": "2026-11-15T11:46Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
+     "by": "ROG",
+     "at": "2026-11-15T11:54Z",
+     "text": "Published c66db3a966 and baseline b94ca8aa72. Native Rog compile passed. Four offline wheel bursts: two fresh member arrays, five reuses; renderer exit had zero spares. Production-code host checked live ownership, exact-once return, reuse, "
     }
-   ],
+   ]
+  },
+  {
+   "n": 1118,
+   "name": "Reuse the 256 KiB full-texture Mask Pages decode buffer at ReadChunk (Planet Renderer SPEC",
+   "done": "",
+   "goal": false,
+   "under": 381,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
    "steps": [],
    "notes": []
   }
@@ -16882,5 +16893,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5ae98e69f3736a922e061f4674b31f2432f26615"
+ "source_revision": "8a642f91eef54415948dd9903ab8c5702c61b24a"
 }
