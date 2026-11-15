@@ -488,8 +488,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-15T22:10Z",
-     "text": "Main Camera fixture bindings fixed in d580739eaf. Task 1205 done."
+     "at": "2026-11-15T22:20Z",
+     "text": "Orthophoto and GeoTIFF fixture bindings fixed in c2a642dbf6. Task 1207 done."
     }
    ]
   },
@@ -18451,25 +18451,22 @@
   {
    "n": 1208,
    "name": "Restore the Windows VideoDrawingCompositionTests bindings to the current video presentation",
-   "done": "",
+   "done": "2026-11-15T22:20Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T22:12Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T22:20Z",
+     "text": "f23b4a7b0a binds fullscreen material, Pilot near-home inset and Pilot video fit to their current owners. Rog reproduced three failing test entries, then passed all 32 VideoDrawingCompositionTests with the original binding, source-identity a"
+    }
+   ]
   }
  ],
  "verify": [
@@ -18518,5 +18515,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "70b16030f1b5564fa0be377a15b1a6c0ba47d040"
+ "source_revision": "a36ffe2e1ec196af4b109fd5b2936077509f8d65"
 }
