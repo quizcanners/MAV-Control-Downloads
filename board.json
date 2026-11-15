@@ -12716,7 +12716,7 @@
     {
      "who": "cloud-968",
      "since": "2026-11-15T08:32Z",
-     "noted": "",
+     "noted": "2026-11-15T08:36Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -12736,7 +12736,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "cloud-968",
+     "at": "2026-11-15T08:36Z",
+     "text": "Diagnostics, Accept, Reconcile, Send are nested controllers in Situation/Scripts/Manager/ owning their fields; callers and tests updated, not compiled. Python pins test_situation_clock_retry/reconcile_retry read the old host member names (j"
+    }
+   ]
   },
   {
    "n": 969,
@@ -14280,5 +14286,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4870964769c5ec872a1776d76f5032594381c397"
+ "source_revision": "08abcfd9b752ae379cebf97f7eeee4abbf638964"
 }
