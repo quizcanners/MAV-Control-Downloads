@@ -14119,7 +14119,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T09:48Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -15513,7 +15522,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T09:48Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -15522,15 +15533,15 @@
      "who": "cloud-1068",
      "since": "2026-11-15T09:44Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Run cs_outline and list every concern",
-     "x": false
+     "x": true
     },
     {
      "t": "Move one concern per commit into a nested controller that owns its fields",
@@ -16720,5 +16731,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f550e91803b328c029816bdf6a46b71b426fc194"
+ "source_revision": "096acec8eae6922c3fab3b0e7e473f1d004f8795"
 }
