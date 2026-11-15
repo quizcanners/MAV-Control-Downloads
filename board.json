@@ -1099,8 +1099,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-15T10:55Z",
-     "text": "2c59a1c325 records the signed Dev 844 comparison on Strong. The texture registry CPU saving is confirmed. Zoom still hitches. Mask Pages wait attribution is 1113 and terrain allocation is 1114."
+     "at": "2026-11-15T11:48Z",
+     "text": "ee2f026f93 identifies ReadChunk's 16 KiB reduced member allocation in a real Strong fast-pinch GC wait. Task 1117 is the targeted Mask Pages fix. 5cbdaebbdc exports exact Mask Pages intervals and records a separate Retention worker pause fo"
     }
    ]
   },
@@ -16825,7 +16825,16 @@
    "priority": "high",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T11:46Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   }
@@ -16876,5 +16885,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0b5128bfef789d65b1711cd5c5e1ef6e32a11df7"
+ "source_revision": "d453a28144a08c16a8e74af482622cfdc891e951"
 }
