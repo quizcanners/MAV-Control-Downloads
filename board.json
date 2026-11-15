@@ -14053,22 +14053,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T10:08Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-15T10:07Z",
-     "text": "Published 1d63cdd4dc, 83fb83fade and 153bf39049. Restored BaseMap configuration after its split, cleared the tracked MAVLink, WiFi and Web Mercator vault errors, and fixed BaseMap erase, network dispatch, Planet draw packets and Logistics v"
+     "at": "2026-11-15T10:15Z",
+     "text": "Published d7095effc4, 9eb9e62ed9, 1cf8864017 and e4aa063a45. Fixed remaining call sites across Chat, Peers, Planet, Motorola and other controllers, then repaired measurement ruler, Logistics and Web Mercator syntax plus declaration errors f"
     }
    ]
   },
@@ -16503,7 +16494,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T10:15Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -16512,15 +16505,15 @@
      "who": "cloud-1102",
      "since": "2026-11-15T10:12Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Run cs_outline and list every concern",
-     "x": false
+     "x": true
     },
     {
      "t": "Move one concern per commit into a nested controller that owns its fields",
@@ -16836,5 +16829,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "8cc5e060d2a6203c3a6f92da5f5b5cd6a9b0e143"
+ "source_revision": "9147733e680bb7d7a79394227b1cd3a6f965fdbe"
 }
