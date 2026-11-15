@@ -7829,8 +7829,8 @@
     {
      "who": "ROG",
      "since": "2026-11-15T05:15Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T05:18Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -7841,6 +7841,11 @@
      "by": "CLOUD_BORDER_FLICKER",
      "at": "2026-11-15T05:16Z",
      "text": "Zoom also vanished borders/DeepState: CanPublishRibbon now ignores ground source revision too (previous mesh stays). Need for verify: zoom in/out with Borders and DeepState on, lines never blink."
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-15T05:18Z",
+     "text": "e2bb7db5c3 is on origin/main. Rog Play exercised the real ribbon publication predicate: current and old terrain revisions draw on the same map source, while an old source or detached anchor stays hidden. 7b1485629e queues Ukraine Borders an"
     }
    ]
   },
@@ -7934,5 +7939,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "964ea451d80bb8111118c71419f74a19777e6516"
+ "source_revision": "b11d7df229fe669418294db4de79ee230b098653"
 }
