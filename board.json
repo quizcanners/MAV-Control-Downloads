@@ -16,37 +16,6 @@
    "notes": []
   },
   {
-   "n": 18,
-   "name": "Supply (Workflows/Logistics/SPEC.md)",
-   "done": "2026-11-12T13:37Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-12T13:36Z",
-    "2026-11-12T13:37Z",
-    "2026-11-12T13:37Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Cloud: EnsureMyPerson and RefreshInventoryHistory run only when an input changed (inputsChanged); UpdatePinnedStock runs when inputs changed or the stock pass is unfinished (07a102bbe)",
-     "x": true
-    },
-    {
-     "t": "Cloud: Supply screen bumped for verify; review reconciliation found the concern repaired, no timing run",
-     "x": true
-    },
-    {
-     "t": "Mac/Rog: verify Supply in Play (no per-frame allocation, stock progress still completes)",
-     "x": false
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 241,
    "name": "Creeping complexity",
    "done": "",
@@ -16810,6 +16779,11 @@
      "by": "ROG",
      "at": "2026-11-15T12:50Z",
      "text": "Published b8641c379e and CPU baseline 3de9fac484. Rog Unity compiled. Four Offline zoom bursts exercised saved-view adoption and reuse with a four-spare cap. The production decoder and lease owner passed nine managed controls, including cor"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T13:37Z",
+     "text": "Strong ran 24 settled fast pinches per signed Dev 845 variant. CPU.md fd3e28db64 records the exact saved-mosaic comparison, including the managed-ledger coverage limit. The new pool reused buffers, with substantial fresh payload allocation "
     }
    ]
   },
@@ -17101,5 +17075,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5188d613e5031240c1ae1900847db5e0fde86f46"
+ "source_revision": "697ea0b3c1a065e792e8213bcf48d6d7499ff9fa"
 }
