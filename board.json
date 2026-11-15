@@ -1536,16 +1536,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T12:57Z",
-     "noted": "",
-     "progress": 29,
-     "ticked": 2,
-     "total": 7
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Under 100 files, step 2 mostly landed (all RecordVault adapters): OSM tiles and ocean, trails (d288afc5b6), chat icons, Geometry cells, Logistics, Tileset/PeerVersions rows (009628094b); Storage page ",
@@ -16870,25 +16861,22 @@
   {
    "n": 1123,
    "name": "Decode only the validated outgoing references on a cold Web Mercator index compaction read (Web Mercator SPEC",
-   "done": "",
+   "done": "2026-11-15T13:05Z",
    "goal": false,
    "under": 430,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T12:57Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T13:05Z",
+     "text": "Published 6057c0ea83 with CPU.md evidence. Canonical v7 cold reads use shared validation on reusable rows and keep only root and outgoing reference summaries. Rog Unity compiled; 11 focused checks passed from compiled assemblies, including "
+    }
+   ]
   },
   {
    "n": 1124,
@@ -16900,7 +16888,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T13:06Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -16924,6 +16921,20 @@
      "total": 0
     }
    ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 1126,
+   "name": "Replace the five Transport events (AlertReceived",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
    "steps": [],
    "notes": []
   }
@@ -16974,5 +16985,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "086e0e50f29fc10c90c0fbbe7cc1319a3cd286d2"
+ "source_revision": "6067026efca34e7075ffd34a785b09de4bfcf04b"
 }
