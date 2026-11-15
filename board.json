@@ -7909,6 +7909,60 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 806,
+   "name": "Frame-budget Video activity chec",
+   "done": "",
+   "goal": false,
+   "under": 363,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_GRAPHICS",
+     "since": "2026-11-15T05:26Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 807,
+   "name": "Refactor job A",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim the 5 files, list the 10 worst blocks that belong to another system",
+     "x": false
+    },
+    {
+     "t": "Move them to their owners (one owner per commit)",
+     "x": false
+    },
+    {
+     "t": "Fix Station_Utils_Focus.TryPoint and the other 8+ parameter methods at the owner",
+     "x": false
+    },
+    {
+     "t": "Put leftovers needing Editor or device on the board; add a Done / Left line to C",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -7957,5 +8011,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "29c3a0cae3174b814fccc1303d70c3745622b826"
+ "source_revision": "081226d07e7688b4baa5c1bd59988fba5e0b47ed"
 }
