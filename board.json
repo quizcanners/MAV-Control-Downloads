@@ -8633,7 +8633,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T05:54Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -9039,7 +9048,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T05:54Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -9048,15 +9059,15 @@
      "who": "CLOUD_WM_SPLIT",
      "since": "2026-11-15T05:52Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Move Diagnostics and DebugView out of the main file",
-     "x": false
+     "x": true
     },
     {
      "t": "Split the Online file by what it loads",
@@ -9433,5 +9444,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "6a36b805b23f4e3f69213535c3bc355b2fa07873"
+ "source_revision": "dc33b053560e01156cda47dfa95149541bab78e6"
 }
