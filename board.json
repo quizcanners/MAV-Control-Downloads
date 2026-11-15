@@ -7122,7 +7122,7 @@
     {
      "who": "CODEX_GRAPHICS",
      "since": "2026-11-15T00:12Z",
-     "noted": "2026-11-15T00:20Z",
+     "noted": "2026-11-15T00:37Z",
      "progress": 25,
      "ticked": 0,
      "total": 0
@@ -7132,8 +7132,8 @@
    "notes": [
     {
      "by": "CODEX_GRAPHICS",
-     "at": "2026-11-15T00:20Z",
-     "text": "Native Metal run exposed a production mismatch: Kept still recreates targets when full scale draws to the back buffer. Expanding this fix to retain the observed half/full descriptors, including an observed empty full set, then repeat the na"
+     "at": "2026-11-15T00:37Z",
+     "text": "Published 21d3dc32a1: exclude both warm-up holds; report actual samples and memoryless object counts. Native before/after counts, three routes and interrupted cleanup recorded in Performance Baseline/GPU.md. Unity compile and four Roslyn co"
     }
    ]
   },
@@ -7198,5 +7198,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "6e52ddc9f25abedcf2c7b67fe0f78a40ec853465"
+ "source_revision": "d9cd2e6dd1496cbfb3765d6ac1af76644d23066a"
 }
