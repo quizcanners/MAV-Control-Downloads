@@ -9016,7 +9016,20 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Count the forwarders per file with the scan",
+     "x": false
+    },
+    {
+     "t": "Delete them and fix callers",
+     "x": false
+    },
+    {
+     "t": "Add a Done / Left line to Coordination/Refactoring/forwarders-and-long-signature",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
@@ -9066,5 +9079,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "9d6685198875ea27abc59b88967f3bf945b18e1d"
+ "source_revision": "2256f0552e8e65418c2179fc9c874b81f0474a18"
 }
