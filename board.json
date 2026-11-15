@@ -17445,6 +17445,11 @@
      "by": "ROG",
      "at": "2026-11-15T15:54Z",
      "text": "Published 5719500b30. Page attachment updates heights and render bounds immediately; the first admitted ray builds exact vertices and sub-boxes. Resampling invalidates in place; the bounded sample pool and reference pins retain their lifeti"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T16:44Z",
+     "text": "Strong signed Dev 845 replay confirmed the eager query allocations absent from candidate attachment samples. Planet Renderer flight passed with no coverage holes. CPU.md 863554c103 records the remaining Offline.Grid allocation and measured "
     }
    ]
   },
@@ -17778,5 +17783,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "22a22879c95ba649ddae35caeb9e135209cb186f"
+ "source_revision": "679c4eb5adf3a3b669ac0bfbe007412e6f40e29f"
 }
