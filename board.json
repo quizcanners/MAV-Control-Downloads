@@ -8335,6 +8335,37 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 820,
+   "name": "Refactor job N",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Read goal 367 and tasks 543, 577 notes; pick files no claimant is editing",
+     "x": false
+    },
+    {
+     "t": "Delete forwarders and repoint callers (prefab-bound ones stay)",
+     "x": false
+    },
+    {
+     "t": "Fix UI_ChatComposerInputLayout.Refresh at its owner; decide ChatPrefabAuthor",
+     "x": false
+    },
+    {
+     "t": "Put leftovers on the board; add a Done / Left line to Coordination/Refactoring/f",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -8383,5 +8414,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "cb79b1391c90f03c0648e31ef81275c86e7749a2"
+ "source_revision": "a979cb792c5c8d529a764870c5f1f4a5258d4c33"
 }
