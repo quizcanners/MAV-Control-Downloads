@@ -17797,7 +17797,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-15T22:35Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -18498,6 +18507,29 @@
      "text": "Published c7c75ca949. The metadata recovery fixture calls the typed ScanJob.Outcome controller, preserving deferred and failed result assertions. Rog Unity 6000.6.8f1 reproduced one failure among four, then passed all four; native compile a"
     }
    ]
+  },
+  {
+   "n": 1211,
+   "name": "Restore the Extended Menu smoke snapshot fixture to the current Roadmap return owner. Preserve the assertions for borrowing and restoring the Menu and its pending return.",
+   "done": "",
+   "goal": false,
+   "under": 369,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T22:32Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -18546,5 +18578,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d863ec188a4c3379e3c41129e9bc55d80e2b1a5d"
+ "source_revision": "0dc4d444d9c76b39fbbc034c33fdcf4dd04c4d16"
 }
