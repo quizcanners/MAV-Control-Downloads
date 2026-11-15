@@ -3067,7 +3067,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_GRAPHICS",
+     "since": "2026-11-15T06:54Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 4,
+     "total": 8
+    }
+   ],
    "steps": [
     {
      "t": "EntityIdentityTable<TKey> in Systems/ECS; Situation Entities publication uses it (70fe9777ec); Remote Sensors rendering uses it, removed sensors release model, shadow and anchor (d15957630e)",
@@ -10482,5 +10491,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "73f59a645d1feb2443ce1ed47a42dfb9e12667bc"
+ "source_revision": "aeaee3ce504827339fba4496f385fe08d59402c5"
 }
