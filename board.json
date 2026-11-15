@@ -448,7 +448,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-15T20:05Z",
-     "noted": "",
+     "noted": "2026-11-15T20:16Z",
      "progress": 71,
      "ticked": 5,
      "total": 7
@@ -491,14 +491,14 @@
      "text": "1fcdb87453 moves the Editor-only handshake diagnostic into its existing guard. Roslyn removed Android and Windows CS1061 with NEW ERRORS: none. Native Unity Android player and signed ARM64 Dev 844 packaging succeeded, and Strong reached the"
     },
     {
-     "by": "HEAVY",
-     "at": "2026-11-15T12:01Z",
-     "text": "HEAVY station shutdown. Published fixture fixes e6fe8aecf7/c064f493ff/f3dffdba73 and Android access fix 3d59fd8a9d; hot reload and idle captures are on 735/704."
-    },
-    {
      "by": "ROG",
      "at": "2026-11-15T17:13Z",
      "text": "Rog targeted native NUnit: task 1168 fixed List Picker (Frame Budget 42/42). 1169 fixed related fixture owners (52/52, source a6910f1abc after iOS-only rebase). Crosshair 1/1 and Linked Browser/Chat 17/17 previously at 746a8491b0. Additiona"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-15T20:16Z",
+     "text": "0d0ac76c9b adds explicit Windows native timeout exit review and is on main."
     }
    ]
   },
@@ -1867,33 +1867,6 @@
      "text": "ROG_FABLE batch 7 (machine_prompts_2026-11-12_rog_fable7) finish:"
     }
    ]
-  },
-  {
-   "n": 541,
-   "name": "List-specific buttons sit at the bottom of their list",
-   "done": "2026-11-12T20:12Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "PASIKA: Street View Toggles (Autoshow + Obstacles) moved into Lists Root at the list bottom, full width, 128 tall, moves with the list (70e6c28a20)",
-     "x": true
-    },
-    {
-     "t": "PASIKA: RectMask2D with soft bottom 64 on every List_* Viewport",
-     "x": true
-    },
-    {
-     "t": "PASIKA: other lists looked through: Waypoints already has Delete all + Show/Hide at its bottom; tops of Photos, Folders, Waypoints, VPN Peers hold navigation and stay; Paint pencil no longer overlaps ",
-     "x": true
-    }
-   ],
-   "notes": []
   },
   {
    "n": 542,
@@ -18189,7 +18162,7 @@
    "held": [
     {
      "who": "ROG",
-     "since": "2026-11-15T20:01Z",
+     "since": "2026-11-15T20:10Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
@@ -18197,7 +18170,13 @@
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T20:08Z",
+     "text": "Rog published 126d5cfe46. AfterBlur now declares its world blur read in Render Graph. Capture and reader share one handle on refresh, and retained frames import the existing texture. Unity 6000.6.8f1 compiled. World blur 8/8, hold-wave dept"
+    }
+   ]
   }
  ],
  "verify": [
@@ -18246,5 +18225,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0fb80563732c95694355fa73771ff727d26c62b9"
+ "source_revision": "3d4649d1ca96c3e0b6583d05c8684e5426d6e923"
 }
