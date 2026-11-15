@@ -17581,23 +17581,14 @@
   {
    "n": 1159,
    "name": "Publish Planet Renderer coverage once when attaching a terrain surface (Planet Renderer SPEC",
-   "done": "",
+   "done": "2026-11-15T16:49Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-15T16:11Z",
-     "noted": "2026-11-15T16:48Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -17710,25 +17701,22 @@
   {
    "n": 1165,
    "name": "Board briefs and task details stop on valid Unicode under Windows code pages. Preserve the full UTF-8 output in task_flow.py (Tasks README",
-   "done": "",
+   "done": "2026-11-15T16:48Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T16:44Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T16:48Z",
+     "text": "Published e04ed253c1. Windows CP1251 previously stopped the real brief list at 2\u00d7 text. UTF-8 CLI output printed all 56 rows and remote task details; the forced-CP1251 brief/detail regression passed. The full board suite exposed older note-"
+    }
+   ]
   },
   {
    "n": 1166,
@@ -17736,6 +17724,20 @@
    "done": "",
    "goal": false,
    "under": 381,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 1167,
+   "name": "Restore Windows task board tests to the current origin-only write and pre-push advisory contracts. Five multiline-note tests lack a throwaway origin after 406bf77c34. The hook fixture launches a POSIX",
+   "done": "",
+   "goal": false,
+   "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
@@ -17791,5 +17793,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a908c9c807226f63bec88cf55f9df27831bc7089"
+ "source_revision": "b3a3935103fe8b455042eee38534a33a78dde007"
 }
