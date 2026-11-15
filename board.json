@@ -5950,7 +5950,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T19:11Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -17946,14 +17955,20 @@
     {
      "who": "GETAC",
      "since": "2026-11-15T18:50Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T19:11Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T19:11Z",
+     "text": "Strong signed Dev 845 fcb80c5300f4. Eight recorded in/out pinches from FrozenDouble and six native repetitions. Same-Unity-frame pose and Render Planet traces in CPU.md fd353698be. Replaced one trace with packet loss. Original camera and No"
+    }
+   ]
   },
   {
    "n": 1182,
@@ -18016,5 +18031,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "39da5285fe2c8de9121031859c8d139095b9adaf"
+ "source_revision": "1aafa852cc7fbb3d2df4586cc93313749600feea"
 }
