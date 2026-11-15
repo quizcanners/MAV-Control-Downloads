@@ -1575,8 +1575,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-15T12:40Z",
-     "text": "Strong Dev 845 frame 3174: Perfetto and Simpleperf confirmed another Retention MeasureTileBytes allocation occurring during stopped GC of the Unity Main thread while it was inside Mask Pages. This time the per-file Path.GetFullPath canonica"
+     "at": "2026-11-15T12:54Z",
+     "text": "Strong Dev 845 paired APK still sampled two GC waits in Retention MeasureTileBytes and MeasureTileBytesAfterRetention while zooming. Frame 2977 independently hit stopped GC in CompactIndexPages MarkPage PageBuild.Finish. CPU.md c2e39c9df6 r"
     }
    ]
   },
@@ -16926,5 +16926,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "6e55f5ad58dfed67df037de01f29e6fdffe0aa1e"
+ "source_revision": "00731a3d538a87d3ad2227addba9cf0408e410db"
 }
