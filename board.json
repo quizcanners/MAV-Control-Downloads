@@ -4585,22 +4585,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T12:11Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-15T12:10Z",
-     "text": "Published 65e7bc0d2b: iOS input now sits under Station.OS with its existing GUID and ABI. Rog Unity compiled; focused Play confirmed the correct iOS-only response and the ready Windows mouse. Seven managed checks passed per iOS player and W"
+     "at": "2026-11-15T12:15Z",
+     "text": "Published cb36c394fc: Station.OS owns iOS safe-area policy, Android DJI/Autel model checks and the hardware-overlay probe. Rog Unity compiled; 1200x720 Play with insets 11/13/17/19 reported effective 11,19,1172,688 and restored the viewport"
     }
    ]
   },
@@ -16850,6 +16841,29 @@
      "text": "Independent Getac host checks of b719439a26 passed. The previous loader used 32 raw arrays across 32 reads and the fixed loader used two. Tested stale results, failed decode, upload exception and retirement with a worker blocked. Current an"
     }
    ]
+  },
+  {
+   "n": 1119,
+   "name": "Using Strong for session-only frame pacing comparison during fast pinches",
+   "done": "",
+   "goal": false,
+   "under": 381,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-15T12:16Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -16898,5 +16912,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0875e9b4390d93b90bb550245350c6f047efa827"
+ "source_revision": "00d99090713f7c8c0a8c59f03d801219edf06501"
 }
