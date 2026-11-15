@@ -8095,7 +8095,7 @@
   },
   {
    "n": 812,
-   "name": "Refactor job F",
+   "name": "Round 2 merge J7",
    "done": "",
    "goal": false,
    "under": 0,
@@ -8106,29 +8106,19 @@
    "held": [],
    "steps": [
     {
-     "t": "Skim the diagnostics file and the 48 partials; list which end belongs to which w",
+     "t": "List the 47 files, group them by concern into at most 10",
      "x": false
     },
     {
-     "t": "Move each end beside its writer and shrink the diagnostics file",
+     "t": "Merge group by group, one commit each",
      "x": false
     },
     {
-     "t": "Replace LINQ and long names in the WebRTC files",
-     "x": false
-    },
-    {
-     "t": "Put leftovers on the board; add a Done / Left line to Coordination/Refactoring/n",
+     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "cloud-812",
-     "at": "2026-11-15T05:33Z",
-     "text": "Done: VideoDiagnostics 2504->660 (ends in Streamer/Ends, Video Restreaming/Ends), VideoServer 2180->1521, LINQ out of WebRTC status/sender, 11 names shortened. Left: ends still in VideoDiagnostics class, not beside each writer; 48 StreamerM"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 813,
@@ -8895,5 +8885,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "8457ba41471f8e19849d9ba7c710cd09bae5d6b8"
+ "source_revision": "1625fa9724c11a544480a106f6f449e1d79bf4b3"
 }
