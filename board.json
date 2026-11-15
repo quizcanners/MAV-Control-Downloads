@@ -131,7 +131,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-15T19:56Z",
+     "noted": "",
+     "progress": 56,
+     "ticked": 5,
+     "total": 9
+    }
+   ],
    "steps": [
     {
      "t": "On main: the state machine and every mode, 1 s settle, release-frame full resolution, VideoOnBlack, kept screen-size picture, ribbons as kept renderers, Editor 2x frame read on Mac and Rog, 8 fps idle",
@@ -18267,5 +18276,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "8cd3ad6e9fbccb8d7738cf6394be606d6d3e772f"
+ "source_revision": "27e902c316f03374dea2b21e51587ce760e8db47"
 }
