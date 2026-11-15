@@ -11315,7 +11315,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLOUD_R4_NEST_SYNC",
+     "since": "2026-11-15T07:43Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
@@ -11649,5 +11658,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "422b95d26af2ba67216b39b63e1a7f00309f3709"
+ "source_revision": "5b4a93d4b1b4ca970dc9140d0a95ee2701d583a7"
 }
