@@ -9077,7 +9077,7 @@
     {
      "who": "cloud-split-sync-drill-r3",
      "since": "2026-11-15T06:41Z",
-     "noted": "",
+     "noted": "2026-11-15T06:43Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -9099,11 +9099,6 @@
    ],
    "notes": [
     {
-     "by": "cloud-split-sync-drill",
-     "at": "2026-11-15T05:53Z",
-     "text": "Done: reply and report steps split out of WebMercator_Sync_Drill.cs (1539 to 1324 lines), storage/link gate fields owned. Left: request and merge steps and Drill/Frame file; see nested-controllers.md."
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-15T06:19Z",
      "text": "de43aed400 fixes the Report inspector call to use its owning ConvergenceController. Windows Unity compiled with zero errors after reload, and map bootstrap reached Play. The rest of the drill split stays on 842."
@@ -9112,6 +9107,11 @@
      "by": "CLOUD_R3_SCOUT",
      "at": "2026-11-15T06:37Z",
      "text": "CLOUD_R3_SCOUT 2026-11-15: wc -l is now 1324; the request and merge steps are still here (StepDrill about 270 lines, ConvergenceController 251 to 1320). This is the round 3 drill job; its holder cloud-split-sync-drill reported Done / Left a"
+    },
+    {
+     "by": "cloud-split-sync-drill-r3",
+     "at": "2026-11-15T06:43Z",
+     "text": "Done: request step (RequestController), merge step (MergeController) and Drill/Frame moved out; Drill.cs 1324 to 706 lines. Left: StepDrill walk stays; Python text-pin tests need new file names. Need for verify: Unity compile of Web Mercato"
     }
    ]
   },
@@ -10552,5 +10552,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "68f56bd2265c9c7add8e14e89cdba15d978636d8"
+ "source_revision": "db36b9a4e5199d1f21ff6d7bc188ccb816452da0"
 }
