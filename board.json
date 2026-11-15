@@ -7941,7 +7941,7 @@
     {
      "who": "CLOUD_807",
      "since": "2026-11-15T05:29Z",
-     "noted": "",
+     "noted": "2026-11-15T05:30Z",
      "progress": 0,
      "ticked": 0,
      "total": 4
@@ -7965,7 +7965,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_807",
+     "at": "2026-11-15T05:30Z",
+     "text": "807: ActivityMode, activity clock and telemetry/followed-target seconds moved out of the UpdateCycles hub into FrameRate/Station_Activity.cs. Left in the hub on purpose: ScheduledGroup, InteractionStep, FramePhase, WorldPhase, FramePreparat"
+    }
+   ]
   },
   {
    "n": 808,
@@ -8624,5 +8630,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "782b08959d1a6f8d3623a4dca51e2e632c8a8119"
+ "source_revision": "b587d17cb1c6881dfb0c360309ea3e30183bb39a"
 }
