@@ -1988,7 +1988,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-15T03:06Z",
+     "noted": "",
+     "progress": 25,
+     "ticked": 1,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "CR-A030-01 applied in Station_InputDevices_Stylus.cs (CLOUD_THREAD, uncompiled):",
@@ -7453,5 +7462,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5dd8203b20633d38873938e9543e61297609052a"
+ "source_revision": "fbe65e2374afa61cdd3bd7f76c86d31232c88b85"
 }
