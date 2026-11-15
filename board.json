@@ -6059,16 +6059,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T16:04Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -6100,8 +6091,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-15T15:26Z",
-     "text": "659b36e35f releases shared row artwork and joins cancelled globe-relief workers at shutdown. Five Unity checks passed. A live recompile reloaded all six admitted additive scenes; the old texture was gone, one new texture was created, and ex"
+     "at": "2026-11-15T16:09Z",
+     "text": "Published e83e2f8c63. Web Mercator drains clean branch textures after store close, preserving pending saves and bake inputs. Unity compiled; three focused checks passed. In a live script reload all seven scenes returned and no native probe "
     }
    ]
   },
@@ -17581,14 +17572,20 @@
     {
      "who": "CODEX_MAC_UI",
      "since": "2026-11-15T16:05Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T16:10Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-15T16:10Z",
+     "text": "Published cb53781b7e: Settings power line describes external power, battery, saver, heat or unavailable data without repeating or inventing readings. DevicePowerPolicyTests 9/9; macOS view seen in Editor; Roslyn NEW ERRORS none."
+    }
+   ]
   }
  ],
  "verify": [
@@ -17637,5 +17634,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "afa42270c258269b5509ded8fd0a9f81b0a15fe0"
+ "source_revision": "279f6c7d13dc97f3a8176051fd75e855eb0cdc3f"
 }
