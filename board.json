@@ -18587,58 +18587,50 @@
   {
    "n": 1214,
    "name": "Repair Windows Situation Remote Apply and Spatial Sync fixtures to the current bounded proof cache",
-   "done": "",
+   "done": "2026-11-15T23:17Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T23:13Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
      "at": "2026-11-15T22:53Z",
      "text": "Published e8407d99fc and Roslyn reports NEW ERRORS: none. Spatial Sync fixtures now bind Interest through the real Peer constructor. Situation uses Horizon.ToldTooOld; the locked-file test isolates and restores the shared log count. Native "
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-15T23:17Z",
+     "text": "Rog native Unity 6000.6.8f1 at 2422f14244, source includes e8407d99fc: SpatialSyncTests 25/25 and SituationRemoteApplyTests 57/57, including Tombstone Horizon and unreadable month coverage. Receipts C:/MavControlEvidence/Rog-1214-1215-1218-"
     }
    ]
   },
   {
    "n": 1215,
    "name": "Restore Windows GeoTIFF Raster",
-   "done": "",
+   "done": "2026-11-15T23:17Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T23:13Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
      "at": "2026-11-15T23:02Z",
      "text": "Published c70cd71cb9. Roslyn NEW ERRORS: none. GeoTIFF tests use the Lineup and Rows owners, Mercator parity calls the camera projection directly, and Replaced Parents restores owned state even if cleanup fails. Nine prior red cases targete"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-15T23:17Z",
+     "text": "Rog native Unity 6000.6.8f1 at 2422f14244, source includes c70cd71cb9: GeoTiffRasterTests 70/70, WebMercatorMathParityTests 6/6, WebMercatorReplacedParentsTests 3/3. Receipts C:/MavControlEvidence/Rog-1214-1215-1218-Fixtures-20261116. Prepa"
     }
    ]
   },
@@ -18748,14 +18740,20 @@
     {
      "who": "HEAVY",
      "since": "2026-11-15T23:15Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T23:19Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-15T23:19Z",
+     "text": "Published 9ca83ee7fc. Roslyn NEW ERRORS: none. Index Read and Parent Rebuild use the typed page and persistence APIs. Parent Rebuild releases the snapshot before forgetting the Index Vault. Three red tests targeted with their assertions int"
+    }
+   ]
   }
  ],
  "verify": [
@@ -18804,5 +18802,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0fd0ea3f586bacf39528c15f60654c3712091d72"
+ "source_revision": "85d2c8c32b28988d61dab0424bdb51179e2427d8"
 }
