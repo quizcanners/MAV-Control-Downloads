@@ -18818,25 +18818,22 @@
   {
    "n": 1224,
    "name": "Restore the Physical Mouse Input and Selection Focus Darkening fixture bindings to Station.UI.SuggestionTabs. Preserve the zoom",
-   "done": "",
+   "done": "2026-11-15T23:45Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T23:38Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T23:45Z",
+     "text": "e33ccdb7fa binds requested Suggestion tab fixture setup and cleanup to the current owner. Rog Unity reproduced one stale-reflection failure in each fixture, then passed Selection Focus Darkening 3/3 and Physical Mouse Input 12/12. Original "
+    }
+   ]
   },
   {
    "n": 1225,
@@ -18872,6 +18869,29 @@
     {
      "who": "GETAC",
      "since": "2026-11-15T23:40Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 1227,
+   "name": "Repair Windows VPN Payload Delivery and Split Peer Delivery fixtures to use the UDP state queue",
+   "done": "",
+   "goal": false,
+   "under": 369,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-15T23:45Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
@@ -18928,5 +18948,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "fab10b4e633c2a70e58e60234fe74782918f2cb0"
+ "source_revision": "78bc8867bcbd074683b6e7021742767a87458102"
 }
