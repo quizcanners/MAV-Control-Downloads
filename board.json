@@ -18680,36 +18680,32 @@
   {
    "n": 1218,
    "name": "Repair Windows Peer Video Transport",
-   "done": "",
+   "done": "2026-11-15T23:22Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T23:13Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
      "at": "2026-11-15T23:07Z",
      "text": "Published 08294d262f. Roslyn NEW ERRORS: none. Peer Video and Restream now use an isolated Station and Video Diagnostics binds to its Capture controller. Existing assertions preserved across six red NUnit entries. Windows fixture rerun pend"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-15T23:22Z",
+     "text": "ae9408aa33 gives both relay subscription tests the isolated Station and its own Restream manager, preserving the original assertions. Rog Unity 6000.6.8f1: Peer Video Transport 23/23 and Video Diagnostics 94/94 at 2422f14244, then Restream "
     }
    ]
   },
   {
    "n": 1219,
    "name": "Repair Windows Direct USB Progress and Web Mercator cable queue fixtures to current Peer Interest and sender owners. Preserve focus round-trip",
-   "done": "",
+   "done": "2026-11-15T23:24Z",
    "goal": false,
    "under": 369,
    "ticks": [],
@@ -18723,13 +18719,18 @@
      "by": "HEAVY",
      "at": "2026-11-15T23:14Z",
      "text": "Published 9137bdab76. Roslyn NEW ERRORS: none. Direct USB focus uses initialized Peer Interest, and the map writer race and ordering fixtures use the Map controller's queue. Existing assertions retained across four red NUnit entries. Native"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-15T23:24Z",
+     "text": "Rog native Unity 6000.6.8f1 at 676371d2ba, containing 9137bdab76: DirectUsbProgressTests 18/18 and DirectUsbWebMercatorTests 23/23. The run covers focus, active-writer ownership and ordering. Receipts C:/MavControlEvidence/Rog-1219-1220-Dir"
     }
    ]
   },
   {
    "n": 1220,
    "name": "Repair Windows Web Mercator Index Read and Parent Rebuild fixtures to use the current Index Vault page owner and Persistence load API. Preserve validation allocation",
-   "done": "",
+   "done": "2026-11-15T23:24Z",
    "goal": false,
    "under": 369,
    "ticks": [],
@@ -18743,6 +18744,11 @@
      "by": "HEAVY",
      "at": "2026-11-15T23:19Z",
      "text": "Published 9ca83ee7fc. Roslyn NEW ERRORS: none. Index Read and Parent Rebuild use the typed page and persistence APIs. Parent Rebuild releases the snapshot before forgetting the Index Vault. Three red tests targeted with their assertions int"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-15T23:24Z",
+     "text": "Rog native Unity 6000.6.8f1 at 676371d2ba, containing 9ca83ee7fc: WebMercatorIndexReadTests 13/13 and WebMercatorParentRebuildTests 6/6. The run covers allocation, persisted rebuild intent and page boundaries. Receipts C:/MavControlEvidence"
     }
    ]
   },
@@ -18760,14 +18766,20 @@
     {
      "who": "HEAVY",
      "since": "2026-11-15T23:20Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T23:25Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-15T23:25Z",
+     "text": "Published 30d7729bee. Roslyn NEW ERRORS: none. Photo FPV and Pano360 Slot tests call current owners; the no-selection frame copy explicitly passes unknown provenance. Four red entries targeted with assertions intact. Native rerun pending wh"
+    }
+   ]
   }
  ],
  "verify": [
@@ -18816,5 +18828,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "85a904d3cb66f43aa6cfb6f68f08a0d632b357ba"
+ "source_revision": "4ee52f85ae2893876e472b70f3647c1e6e6006be"
 }
