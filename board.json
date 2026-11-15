@@ -8056,6 +8056,37 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 811,
+   "name": "Refactor job E",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim DJI and MavLink debug files for repeated name prefixes",
+     "x": false
+    },
+    {
+     "t": "Nest the fields and keys per concern; keep key strings stable",
+     "x": false
+    },
+    {
+     "t": "Fix StepGeographic and UI_MavTelemetryView at their owners",
+     "x": false
+    },
+    {
+     "t": "Put leftovers on the board; add a Done / Left line to Coordination/Refactoring/n",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -8104,5 +8135,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f04e948c35f7e6457f177cde9d3bbd7de5fa8148"
+ "source_revision": "8bd49b2ffd774436130c66f34f2801fd627fbb2d"
 }
