@@ -7241,14 +7241,14 @@
    "steps": [],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-15T01:32Z",
-     "text": "5fbdd27ae6 records the Strong Dev 842 profile. Exact IL2CPP symbols match the APK. CompactIndexPages took about 62% of the total sampled user CPU, mostly reachability and page parsing. A separate Retention worker reconfirmed the existing ph"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-15T01:47Z",
      "text": "e82db49eaf reuses validated v7 references after verifying stored SQLite bytes. Both roots, publication guard and cancellation are covered."
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T01:49Z",
+     "text": "Strong Dev 842 e4e4c07729, CPU profile 5fbdd27ae6 and lifecycle follow-up 11862ab7b9. Index compaction was about 62% of sampled CPU. Two 15 s Home trips cancelled ReachablePages at 4.51/3.12 s with zero deletes and started a fresh pass on e"
     }
    ]
   },
@@ -7322,5 +7322,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "51081cfae57ca02364d3e9a80cc7b966200071f5"
+ "source_revision": "3d7c1d57ded5332ec70a38087bd5f9c1f4410242"
 }
