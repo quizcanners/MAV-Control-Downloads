@@ -16849,7 +16849,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T11:57Z",
+     "text": "Current LoadController already has exactly two TextureLoadsInFlight seats on all platforms. Keep the spare raw buffers on the main-thread seat owner: pass one to ReadChunk, return it after AdoptLoaded's upload or discard, and on retirement "
+    }
+   ]
   }
  ],
  "verify": [
@@ -16898,5 +16904,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "69cfad42c524cdac6fcaf6be6ce63119df00f6bf"
+ "source_revision": "964ba16ff4ab50cbb960c76ca4655b8d4d1d32f1"
 }
