@@ -16664,7 +16664,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "thread-1107",
+     "since": "2026-11-15T10:16Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Run cs_outline and list every concern",
@@ -16822,5 +16831,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "49e5c7199bab4a421113bb47cc867aaa5ed1c253"
+ "source_revision": "57b48728ad836a01640d990893b791015ef3354f"
 }
