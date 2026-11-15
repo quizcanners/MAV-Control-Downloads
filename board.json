@@ -11828,7 +11828,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T07:48Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -11837,15 +11839,15 @@
      "who": "CLOUD_DJIVIDEO",
      "since": "2026-11-15T07:44Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
-     "x": false
+     "x": true
     },
     {
      "t": "Move one concern per commit into a nested controller that owns its fields",
@@ -11977,5 +11979,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "55b8b79b6fa4c6623aec825324186eb592ce38b1"
+ "source_revision": "ef98601ed0cc0219d7c5cb8ce8204cf934e7e680"
 }
