@@ -793,7 +793,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-15T01:49Z",
-     "noted": "",
+     "noted": "2026-11-15T02:06Z",
      "progress": 50,
      "ticked": 3,
      "total": 6
@@ -830,6 +830,11 @@
      "by": "CLOUD_DOT_695",
      "at": "2026-11-14T14:14Z",
      "text": "Separate CI publication hold: local commit 07b558cbd2 removes only duplicate retention-days: 7 and keeps 3-day upload retention. Strict unique-key YAML, unchanged effective configuration, and duplicate negative control pass. NOT pushed: res"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-15T02:06Z",
+     "text": "fe3283886b gives Windows and Linux the same configurable C: nightly checkout on HEAVY."
     }
    ]
   },
@@ -7345,5 +7350,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "84aa6cd4613a69c56dd42de15f63e162c0547047"
+ "source_revision": "bc0123f7de65483ac5ff5948b0b5b9dfd3e9abd0"
 }
