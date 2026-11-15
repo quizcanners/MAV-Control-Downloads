@@ -14065,9 +14065,9 @@
    "held": [
     {
      "who": "ROG",
-     "since": "2026-11-15T10:27Z",
-     "noted": "",
-     "progress": 0,
+     "since": "2026-11-15T10:32Z",
+     "noted": "2026-11-15T10:32Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -14076,8 +14076,8 @@
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-15T10:26Z",
-     "text": "Published bf4e34ad0a through 4c2ed1b5cc. Rog runtime assembly compiled and reached the Editor test assembly. Fixed Camera test syntax, stale video feed type, and 31 AgentChannel test diagnostics. Latest tested checkout reported 387 unique e"
+     "at": "2026-11-15T10:32Z",
+     "text": "Published a5a72fd196, 300dcfe72d and 6383dfb2b5. Restored Logistics inventory and needs-inspector test references. Fixed WiFi evidence, GPS and other runtime regressions from new merges, including C# 9 property patterns. Fresh Rog pass agai"
     }
    ]
   },
@@ -16577,7 +16577,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T10:34Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -16586,15 +16588,15 @@
      "who": "cloud-thread-1104",
      "since": "2026-11-15T10:15Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Run cs_outline and list every concern",
-     "x": false
+     "x": true
     },
     {
      "t": "Move one concern per commit into a nested controller that owns its fields",
@@ -16851,5 +16853,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5738513688bda6565ef5a2f7f346b5bb70a8e5b9"
+ "source_revision": "d993c461b3af78e3a246df72d5d60a1142c68bae"
 }
