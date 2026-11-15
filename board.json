@@ -18159,24 +18159,42 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
+   "held": [],
+   "steps": [
     {
-     "who": "ROG",
-     "since": "2026-11-15T20:10Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
+     "t": "Route the tap-wave Shader Graph through a pass after world blur, preserving its look and depth handling.",
+     "x": false
+    },
+    {
+     "t": "Route the Altitude visualizer Shader Graph through a pass after world blur, preserving its terrain and depth checks.",
+     "x": false
+    },
+    {
+     "t": "Update Blurred World ownership rules and bump the Map page when both graphs are migrated.",
+     "x": false
     }
    ],
-   "steps": [],
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-15T20:08Z",
-     "text": "Rog published 126d5cfe46. AfterBlur now declares its world blur read in Render Graph. Capture and reader share one handle on refresh, and retained frames import the existing texture. Unity 6000.6.8f1 compiled. World blur 8/8, hold-wave dept"
+     "at": "2026-11-15T20:18Z",
+     "text": "Rog pushed 9552361826. Remote Sensor Marker draws in AfterBlur with depth writes, and the sharp still-frame grab follows it. D3D11 compiled six marker variants and confirmed pass order 501/502/503. Unity 14/14 and Roslyn e/a/p/m passed. Scr"
     }
    ]
+  },
+  {
+   "n": 1192,
+   "name": "Reduce main-thread map sync receive work in VPN Chat (Network AGENTS",
+   "done": "",
+   "goal": false,
+   "under": 381,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -18225,5 +18243,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "bed904f34b7098a74d800a976845d1f86d84842e"
+ "source_revision": "c067df43784e07d7f0bbef7c79a89600e292bc92"
 }
