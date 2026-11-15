@@ -3033,7 +3033,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_GRAPHICS",
+     "since": "2026-11-15T03:23Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 4,
+     "total": 8
+    }
+   ],
    "steps": [
     {
      "t": "EntityIdentityTable<TKey> in Systems/ECS; Situation Entities publication uses it",
@@ -7440,5 +7449,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "252d3b7d91f9f335c664108a8298a7ce2567ce55"
+ "source_revision": "a14ccade0746306d3719289357c293c8323583c5"
 }
