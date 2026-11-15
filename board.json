@@ -1149,7 +1149,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MAC_UI",
+     "since": "2026-11-15T15:36Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 6,
+     "total": 12
+    }
+   ],
    "steps": [
     {
      "t": "Edge and join pass done: screen-edge ticks on every fixed prefab (last 6138a500ce, d3313d805f); join sides keep the merge flag and get only the pixel line (option a, taken by CLOUD_BOARD); dead line m",
@@ -17427,5 +17436,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0f28be424cf2cb2dd632d7c0c6fac9398180c81d"
+ "source_revision": "d990d8104d4b1c053b3df94e8071f6f928464ac5"
 }
