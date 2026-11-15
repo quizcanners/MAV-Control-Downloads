@@ -5859,16 +5859,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T21:34Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -5900,8 +5891,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-15T21:33Z",
-     "text": "9853002c5c cancels and drains Overpass tile/place downloads before Place Labels clears its queues. Loopback proved pending HTTP cancellation, disposal and fresh ownership. Unity OSM 5/5, Place Labels 7/7, cached-area 2/2; Roslyn clean. Publ"
+     "at": "2026-11-15T21:41Z",
+     "text": "a906c86dc2 retires legacy OSM import and pooled SQLite readers on shutdown; cancellation preserves source files and a fresh station reads migrated rows. Rog Unity OSM 6/6 and 2 integration controls, Roslyn clean. Live user-data erase unrun."
     }
    ]
   },
@@ -18331,6 +18322,35 @@
     {
      "who": "HEAVY",
      "since": "2026-11-15T21:37Z",
+     "noted": "2026-11-15T21:45Z",
+     "progress": 25,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-15T21:45Z",
+     "text": "c550553a0e fixes the Worker Decrypt fixture's queue-admission target. Prepared Windows All: WorkerDecryptTests 18/18, formerly 16 failures. All: 7,870 passed, 168 failed, 10 skipped. Main advanced during the run, so qualified results remain"
+    }
+   ]
+  },
+  {
+   "n": 1202,
+   "name": "Fix the remaining PowerLineGeometryTests ribbon mesh failure in Windows EditMode. Preserve visible width",
+   "done": "",
+   "goal": false,
+   "under": 369,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T21:42Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
@@ -18387,5 +18407,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3fcc1c4ff9c4da927210a6d67f2277da3ec98918"
+ "source_revision": "79dabc1d36cf4ada04153cf8aaa5f60ac89f2cb0"
 }
