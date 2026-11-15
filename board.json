@@ -9087,8 +9087,8 @@
     },
     {
      "by": "cloud-split-sync-drill-r3",
-     "at": "2026-11-15T06:43Z",
-     "text": "Done: request step (RequestController), merge step (MergeController) and Drill/Frame moved out; Drill.cs 1324 to 706 lines. Left: StepDrill walk stays; Python text-pin tests need new file names. Need for verify: Unity compile of Web Mercato"
+     "at": "2026-11-15T06:51Z",
+     "text": "Done: request and merge steps and Drill/Frame split out, Drill.cs 1324 to 706 lines (a1a8b44812). Left: StepDrill stays; Python text-pin tests need new file names. Need for verify: Unity compile of Web Mercator; drill sync between two peers"
     }
    ]
   },
@@ -10475,5 +10475,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "05260c1b955c4b33106234b9e27746e39c5b5c62"
+ "source_revision": "fd2ada96990572f800a8a0349eaef702efe6ce62"
 }
