@@ -4605,22 +4605,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T11:41Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-15T04:20Z",
-     "text": "f7614980bb moves Unity device-location API calls into Station.OS. GPS retains demand, accuracy, freshness and quality policy. Windows Unity compiled; focused Edit Mode check passed for unsupported read and stale state reset; normal Play rea"
+     "at": "2026-11-15T11:46Z",
+     "text": "Published 0b674ca5ea. Station.OS owns the Win32 cursor bridge, Mac lock policy and Android pen compatibility; Settings names the running host. Rog Unity compiled, Settings showed Windows, and a six-frame Game View drag reported native Captu"
     }
    ]
   },
@@ -16831,7 +16822,7 @@
    "goal": false,
    "under": 381,
    "ticks": [],
-   "priority": "normal",
+   "priority": "high",
    "parked": false,
    "flags": [],
    "held": [],
@@ -16885,5 +16876,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "81c232c138e6722fb9676383009bc5253490bce0"
+ "source_revision": "0b5128bfef789d65b1711cd5c5e1ef6e32a11df7"
 }
