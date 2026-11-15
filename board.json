@@ -5964,16 +5964,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T18:15Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -6005,8 +5996,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-15T17:34Z",
-     "text": "Published db6831fc14. Screen Blur owns and destroys its blit material on disable; idle reuses it and the next capture makes a fresh one. Unity compiled and ScreenBlurRequestTests passed 19/19. Rog live reload remains recorded at 23f5550f96 "
+     "at": "2026-11-15T18:25Z",
+     "text": "Published c3d0c9718f. Station shutdown clears cached map Settings, retained picture references, render and motion gates, and refresh counters. The next run settles independently. Unity compiled, the three-case render regression passed, and "
     }
    ]
   },
@@ -17875,6 +17866,29 @@
      "text": "Strong signed Dev 845 fcb80c5300f4, 32 fast pinches under Normal and NoMasks. Data and exclusions in CPU.md f9e89fbc18. Both modes retained Mask Pages work; NoMasks produced zero masked draws. All qualified traces cover the measured windows"
     }
    ]
+  },
+  {
+   "n": 1177,
+   "name": "Using Strong to measure the first visible zoom frame after Android touch dispatch",
+   "done": "",
+   "goal": false,
+   "under": 381,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-15T18:25Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -17923,5 +17937,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "866c53dd190e89ff92ca6ca248fa279b21217663"
+ "source_revision": "6cddbcd499cce4f8e8fde2164e78f520650b6836"
 }
