@@ -17199,7 +17199,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T14:43Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -17217,14 +17226,20 @@
     {
      "who": "CODEX_MAC_NOTIFY",
      "since": "2026-11-15T14:43Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T14:47Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_NOTIFY",
+     "at": "2026-11-15T14:47Z",
+     "text": "Published 0ef751cd0d: position status body merges with Pause and Stop. Unity PositionSharingNotificationTests 7/7; MapOnly Play showed the joined row and Pause changed to Resume. Notifications screen check 84cd0e86d9; device not checked."
+    }
+   ]
   }
  ],
  "verify": [
@@ -17273,5 +17288,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "bdb486abe1a638fc1ead30393a7bd6d1062f948d"
+ "source_revision": "f1a320c5007760857c2cc57a3ab5548f70699493"
 }
