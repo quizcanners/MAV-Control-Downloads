@@ -2358,7 +2358,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-15T02:08Z",
-     "noted": "",
+     "noted": "2026-11-15T02:13Z",
      "progress": 80,
      "ticked": 4,
      "total": 5
@@ -2393,14 +2393,14 @@
      "text": "CLOUD_REFACTOR 2026-11-14: SubmitError chain shortened in 3 files; compile unchecked, needs cmp.sh"
     },
     {
-     "by": "HEAVY",
-     "at": "2026-11-14T20:28Z",
-     "text": "9ff5a6caab renames UdpReceiver in callers and saved settings, preserves UdpReciever through Unity serialization and a checkpoint migration, and adds coverage for mixed keys and round-trip. Unity compiled and the existing checkpoint booted w"
-    },
-    {
      "by": "ROG",
      "at": "2026-11-14T22:56Z",
      "text": "8855cf00b9 renames the private NetworkManager receive dispatcher and updates its production caller and all reflection bindings. No protocol changes. Windows Unity compile and focused VPN suites 101/101 (payload, worker decrypt, rejection, r"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-15T02:13Z",
+     "text": "8b3c9a41a4 removes four unused UI_MavChatPanel aliases. Both Chat Window prefabs still bind to their own UI_ChatWindow methods."
     }
    ]
   },
@@ -7382,5 +7382,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "005e0a96fc82d2f30a38e54c891290b0750cc2f8"
+ "source_revision": "964eff14ca7a8b23caa2b2436a9f6d96c716f685"
 }
