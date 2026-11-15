@@ -1613,7 +1613,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-15T05:22Z",
-     "noted": "",
+     "noted": "2026-11-15T05:37Z",
      "progress": 29,
      "ticked": 2,
      "total": 7
@@ -1654,6 +1654,11 @@
      "by": "HEAVY",
      "at": "2026-11-15T02:18Z",
      "text": "6e1d0705ca records a 40,000-file Windows NTFS census baseline in Performance Baseline/CPU.md. Host compiled the production scan."
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T05:37Z",
+     "text": "Strong Dev 844 reproduced CC-7FF2-01 with index compaction inactive. See 2ca6a1b48b, Performance Baseline/CPU.md. Next code: update the writer byte count at each known file mutation, preserve WAL bytes, reserve and recovery/audit census. Th"
     }
    ]
   },
@@ -8705,5 +8710,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "6be9fe6d8e8ef50ecb20b833fce028ec28c8b2b3"
+ "source_revision": "bbab81cde697633b0c047f969e9553b7fe53d3c0"
 }
