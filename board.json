@@ -6339,7 +6339,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-15T00:06Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupSce",
@@ -7128,5 +7137,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "6fcdaa161108d063f3f6a3279dfa79304c34e109"
+ "source_revision": "347a190908a5b3494f137787a6799ed1dfe28287"
 }
