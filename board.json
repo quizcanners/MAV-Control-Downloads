@@ -1099,8 +1099,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-15T12:53Z",
-     "text": "Strong signed Dev 845 paired replay and CPU report c2e39c9df6. Both chunk buffer pools were exercised. Late Mask Pages time fell, while the early display hitch persisted. Web Mercator worker stacks recorded. Saved mosaic source fix b8641c37"
+     "at": "2026-11-15T13:33Z",
+     "text": "Strong paired native Dev 845 is published in CPU.md fd3e28db64. Saved view pool reused buffers and still allocates heavily during zoom bursts, so live admission now has a separate work item. Render texture untracking and ECS Text marker loo"
     }
    ]
   },
@@ -17110,5 +17110,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "234b8dba79a00ba036e0301c0768a9bd0b442447"
+ "source_revision": "808c77d1151f4f1260090435862eb3d589af797f"
 }
