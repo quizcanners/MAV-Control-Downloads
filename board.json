@@ -6361,7 +6361,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-15T00:06Z",
-     "noted": "",
+     "noted": "2026-11-15T00:16Z",
      "progress": 50,
      "ticked": 2,
      "total": 4
@@ -6387,11 +6387,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-14T21:14Z",
-     "text": "Windows Unity and four Roslyn configurations passed. e8f2421557 detaches camera-target keepalive, releases the runtime URP copy and restores the original asset, and restores the exact Editor asset changed. Active Sharp still frame passed Pl"
-    },
-    {
      "by": "CODEX_GRAPHICS",
      "at": "2026-11-14T21:32Z",
      "text": "Remote Sensors ticket teardown is published in 258abaf71c (task 753 done): coordinate replacement, removal, render-asset rebuild and shutdown cancel owned batched-ray tickets. Native 21/21 covers queued, in-flight and completed answers plus"
@@ -6400,6 +6395,11 @@
      "by": "ROG",
      "at": "2026-11-14T23:59Z",
      "text": "5acc8b0a2b scopes the watchdog per shutdown and removes its CancellationTokenSource wait handle. Windows Unity 19/19 StartupBatchTimingTests. Forced recompile while in MapOnly Play completed: 9 scenes -> Bootstrap only -> 9, station ready a"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-15T00:16Z",
+     "text": "12f2fe9088 releases the native Peer Video engine after partial startup and even if final traffic diagnostics fail."
     }
    ]
   },
@@ -7178,5 +7178,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3614d3223ed6a260ca58559a2c3f354f68a7fb2a"
+ "source_revision": "10ae0cbf04fd4d0a81d7136d89cd71f9904c4158"
 }
