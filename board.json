@@ -14023,7 +14023,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T09:01Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -14032,15 +14034,15 @@
      "who": "cloud-1015",
      "since": "2026-11-15T08:55Z",
      "noted": "2026-11-15T09:00Z",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Find which files the tests read that are gone or moved",
-     "x": false
+     "x": true
     },
     {
      "t": "Point each test at the file that holds the code today",
@@ -14346,5 +14348,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "472920b0714fe2cf86b9c95c5b07794b73f0f90a"
+ "source_revision": "9acb2ef4ab2003585f9799b4a789b37d1cda9373"
 }
