@@ -1303,7 +1303,7 @@
     {
      "who": "CODEX_MAC_UI",
      "since": "2026-11-15T15:36Z",
-     "noted": "2026-11-15T16:17Z",
+     "noted": "2026-11-15T16:42Z",
      "progress": 81,
      "ticked": 13,
      "total": 16
@@ -1378,8 +1378,8 @@
    "notes": [
     {
      "by": "CODEX_MAC_UI",
-     "at": "2026-11-15T16:17Z",
-     "text": "Settings roots inspected in Editor. c28a55f605 clears the shared X; cb53781b7e makes macOS power status concise. Video root has no status on macOS because the only root status is gated to Windows video server; it needs an owner-backed local"
+     "at": "2026-11-15T16:42Z",
+     "text": "Settings roots inspected in Editor; c28a55f605 clears X, cb53781b7e simplifies macOS power, 613c0b943b adds scoped Video status, 706f3f0477 aligns Capture Off, 3608076cb8 makes emulation diagnostics stable and snapshot-based. Video subpages"
     }
    ]
   },
@@ -1859,26 +1859,6 @@
      "by": "MAC_FABLE",
      "at": "2026-11-12T16:39Z",
      "text": "MAC_FABLE batch 6, step 1. The blur of the Increase Blur path had no material setting (a fixed 0.006 tap distance in the shader). d4c267de16 adds _BlurSpread to BlurDisplay.shader with the same 0.006 default, so the 13 materials on that sha"
-    }
-   ]
-  },
-  {
-   "n": 518,
-   "name": "Editor",
-   "done": "2026-11-12T16:42Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-12T16:41Z",
-     "text": "ROG_FABLE 2026-11-12 (fd6cbe1cd9). Direct cause: not the prefab and not _BlurredScreen. UI_NotificationCard.ApplyEdges called Body.SetInverted(screenTop): the card that sits first in the column, at the screen top, drew the inverted dark gla"
     }
    ]
   },
@@ -17768,5 +17748,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f3fc1cedacdfb74e46b1abcb775cede57be19adf"
+ "source_revision": "6776cb2b2ae1f866083f7f3596608c1e6248e6a1"
 }
