@@ -1078,14 +1078,14 @@
      "text": "Strong Dev 840 same-pose ABBA. NoPlanet confirmed zero submissions, P95 100.2 to 66.5 ms and >80 ms gaps 9/94 to 1/116, with normal tails returning. NoMasks still hit 116.7 ms in both repeats at 43 draw calls. Prioritize isolating common te"
     },
     {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-15T03:22Z",
-     "text": "Done: 52b8cef5f5 via b25f13f565 removes uniform terrain fade work; 783 closed. Orbital relief/highlights from 418589e9a5 remain. Native Planet/Cesium checks 106/106, Metal/GLES compilation passes, final Roslyn NEW ERRORS: none. GPU.md recor"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-15T04:00Z",
      "text": "c391c14de6 records ten matched Windows D3D11 trials in Performance Baseline/GPU.md. NoRaised preserved masked ground and reduced GPU frame time; NoMasks reduced it further; NoPlanet confirmed zero submissions. Windows result covers a settle"
+    },
+    {
+     "by": "CODEX_GRAPHICS",
+     "at": "2026-11-15T04:08Z",
+     "text": "Done: orbital relief/highlights 418589e9a5; terrain fade coefficients 52b8cef5f5 (783 closed), with 106 native checks and unchanged texture reads. iOS 844 built source b7b63c7e9, uploaded VALID; internal IN_BETA_TESTING, external WAITING_FO"
     }
    ]
   },
@@ -7592,5 +7592,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a4ee06058c5bd165c8c3d6c37c0cb294d59573da"
+ "source_revision": "5d48c835aeecd7ec77fe52fbbf283615ee5dbad0"
 }
