@@ -18015,14 +18015,20 @@
     {
      "who": "CODEX_MAC_UI",
      "since": "2026-11-15T19:20Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T19:37Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-15T19:37Z",
+     "text": "iOS 846 failed because stress packet helpers were compiled without their debug-only types. Main 4219221167 matches their platform guard; Roslyn NEW ERRORS none, and iOS 848 exported and archived successfully. Apple processed 848; external b"
+    }
+   ]
   },
   {
    "n": 1185,
@@ -18066,6 +18072,39 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1187,
+   "name": "Find and fix the full OnlineRasterScheduling EditMode hang on Windows after the SQLite Jobs fixture repair (Tests SPEC",
+   "done": "",
+   "goal": false,
+   "under": 369,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Isolate the first case or teardown that blocks the Editor under the disposable station test identity.",
+     "x": false
+    },
+    {
+     "t": "Repair the blocking fixture or owner while preserving the existing raster, SQLite admission and publication assertions.",
+     "x": false
+    },
+    {
+     "t": "Run the full OnlineRasterSchedulingTests fixture to a recorded terminal result and restore the station identity.",
+     "x": false
+    }
+   ],
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T19:36Z",
+     "text": "Task 1186 reached runtime after rebinding the SQLite Jobs worker. The full fixture then blocked the Unity main thread and ignored both cancellation and normal window close. Two focused outgoing-revision cases passed separately after restart"
+    }
+   ]
   }
  ],
  "verify": [
@@ -18114,5 +18153,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a25689090e0f416604f19380e7d936f0d805e375"
+ "source_revision": "9a18f6831b44b1f73aae2d159cb3aa89381b4bdc"
 }
