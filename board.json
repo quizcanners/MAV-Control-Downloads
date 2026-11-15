@@ -10169,7 +10169,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-15T07:56Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -10178,15 +10180,15 @@
      "who": "CLOUD_R3_NEST_MOTO",
      "since": "2026-11-15T07:53Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Skim the file and list its nested types with their fields",
-     "x": false
+     "x": true
     },
     {
      "t": "Move one concern per commit into a nested controller that owns its fields",
@@ -11905,5 +11907,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c1b9ba26389bf433ace9f618d4c5ce71fd4eb3e0"
+ "source_revision": "e77dd8d351f837eb610e7334242bbbb326612791"
 }
