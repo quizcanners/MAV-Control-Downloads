@@ -1023,16 +1023,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-15T09:52Z",
-     "noted": "",
-     "progress": 53,
-     "ticked": 8,
-     "total": 15
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Space relief: Copernicus GLO-30 4096x2048 globe is the only relief on main (2dfa940d67, LFS SHA-256 b668209b...b513, 16,777,232 bytes); NOAA globe relief removed; globe=Ready at 1,000 km and Absent af",
@@ -1108,8 +1099,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-15T09:48Z",
-     "text": "Published Strong isolated signed Dev 844 comparison 73de1485b5. Both APKs replayed the same 24 fast pinches. The combined Element Mask change leaves Find a major Render Planet cost and the zoom hitch remains. Next: separate new draw slots, "
+     "at": "2026-11-15T10:14Z",
+     "text": "Strong lookup-cause capture and native stack classification on main in 8943a0f33b. The expensive per-creation Track scan is removed in 68066f8e7b (task 1110). Standalone host tests and Roslyn passed. The signed APK on Strong is the diagnost"
     }
    ]
   },
@@ -14627,7 +14618,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "cloud-refactor-1040",
+     "since": "2026-11-15T10:15Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Run cs_outline and list every concern",
@@ -16743,25 +16743,22 @@
   {
    "n": 1110,
    "name": "Index render texture allocation membership in RenderTextureBufferBase (Utils SPEC",
-   "done": "",
+   "done": "2026-11-15T10:14Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "high",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-15T09:57Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T10:14Z",
+     "text": "Main 68066f8e7b indexes project texture membership and keeps the ordered read-only inspector list. Ten extracted host cases pass, including retirement, duplicate registration and the bounded cleanup. Roslyn Editor, Android, Windows and test"
+    }
+   ]
   },
   {
    "n": 1111,
@@ -16830,5 +16827,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "63021febfd7afbc140ade99e2d5f9486afbe9e99"
+ "source_revision": "17e20944e66020d2469146f876905a2939f4fb1c"
 }
