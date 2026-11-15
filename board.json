@@ -11131,7 +11131,7 @@
     {
      "who": "CLOUD_R4_919",
      "since": "2026-11-15T07:44Z",
-     "noted": "",
+     "noted": "2026-11-15T07:45Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -11151,7 +11151,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_R4_919",
+     "at": "2026-11-15T07:45Z",
+     "text": "Split into FrameRate/Diagnostics/ (ProcessCpu, snapshots, FrameReceiptSnapshot, ledger); left: capture fields into a nested controller, two stale python pins. See nested-controllers.md"
+    }
+   ]
   },
   {
    "n": 920,
@@ -11891,5 +11897,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f936bb9ec0a12ab30b57082d53dd065de5f7f79a"
+ "source_revision": "2bb7e3dd1b1a94fb21bcbc491d6de0b6077ef482"
 }
