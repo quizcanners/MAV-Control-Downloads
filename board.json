@@ -16944,7 +16944,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T13:50Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -16991,25 +17000,22 @@
   {
    "n": 1133,
    "name": "Bound the live 256 KiB saved Mask Pages mosaic buffers through adoption (Planet Renderer SPEC",
-   "done": "",
+   "done": "2026-11-15T13:49Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T13:41Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T13:49Z",
+     "text": "Published 515086fc56. Four saved Mask Pages reads per store cover decode, completed adoption wait and detached discard. Excess reads keep the existing priority; brush views can publish resident edits. Rog Unity compiled and six focused SQLi"
+    }
+   ]
   },
   {
    "n": 1134,
@@ -17101,5 +17107,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "db7de250451fd1188c7843c1e61ef65ec8d5043d"
+ "source_revision": "2891195bc0817328169b893c46e924aed0f1cd81"
 }
