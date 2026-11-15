@@ -4605,7 +4605,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T11:41Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -9124,18 +9133,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T11:30Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T11:40Z",
+     "text": "Published dc5ce78b77, f3bc55f4f9 and baseline e494544df4. Rog Unity compiled and published the full fine pair with zero missing texels, CPU 8 MiB. Final stage peaks: height pack 17.371 ms, bump copy 2.065 ms; height and bump Apply 0.045/0.0"
+    }
+   ]
   },
   {
    "n": 852,
@@ -16789,14 +16795,20 @@
     {
      "who": "GETAC",
      "since": "2026-11-15T11:28Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T11:41Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T11:41Z",
+     "text": "f1e6d2d02d restores Android Background Tracker delivery to the existing Chat inbox and native outbox, qualifies the DJI binding, and keeps the prepared Chat and Street View fixtures Editor-only. Roslyn removed all eight Android errors, NEW "
+    }
+   ]
   },
   {
    "n": 1116,
@@ -16868,5 +16880,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "cf593df7d2a2c76b28d2a20198caf618dc709949"
+ "source_revision": "0f54e587cf823dde2ff9eec6836ae14a66f9af2a"
 }
