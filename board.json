@@ -8025,6 +8025,37 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 810,
+   "name": "Refactor job D",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Skim Peers for methods that work on one nested class's data from outside it",
+     "x": false
+    },
+    {
+     "t": "Move those methods into the nested controllers and merge small partial files",
+     "x": false
+    },
+    {
+     "t": "Shorten the 4 repeated chains at their owner",
+     "x": false
+    },
+    {
+     "t": "Put leftovers on the board; add a Done / Left line to Coordination/Refactoring/n",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -8073,5 +8104,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "85ce40bcc80386cb3af373ac06c9846aff8b8912"
+ "source_revision": "f04e948c35f7e6457f177cde9d3bbd7de5fa8148"
 }
