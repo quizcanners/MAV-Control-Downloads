@@ -3298,16 +3298,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T14:57Z",
-     "noted": "",
-     "progress": 25,
-     "ticked": 1,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: early break for VPN down in Peer.CanUseSyncConnection (a1614a81); Diagnostics, Startup, Persistence, FrameRate, Scheduler out of Singleton_GroundStation (e2b75667); Station split (18df70da); ",
@@ -3334,8 +3325,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-15T05:00Z",
-     "text": "7df54648ce deduplicates Wi-Fi setup in scanner Diagnostics and moves video.ice to its DJI WebRTC report owner. Unity compiled; all five Wi-Fi parity tests, seven ICE routing/privacy checks and both read-only Play reply checks passed. ICE re"
+     "at": "2026-11-15T15:03Z",
+     "text": "117c1caa85 moves rendering, GPU, lag and frame capture commands to their Diagnostics owners. Rog Editor compiled; eight focused checks passed and a live half-second capture completed with report/ledger. Earlier 7df54648ce moved Wi-Fi and vi"
     }
    ]
   },
@@ -17204,14 +17195,20 @@
     {
      "who": "GETAC",
      "since": "2026-11-15T14:38Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T15:03Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T15:03Z",
+     "text": "Published 9082884eaa. The exact production slot decisions matched the old scan across 64,000 mutations and all growth boundaries. Roslyn reported NEW ERRORS: none. CPU.md 1d2a2ce4a7 records the host comparison. Unity EditMode and the signed"
+    }
+   ]
   },
   {
    "n": 1141,
@@ -17351,5 +17348,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "09e9d352527527b8d8a109cbe59d26b77f1e2db1"
+ "source_revision": "196f8e83001f685e502d3e853421c817285e97f6"
 }
