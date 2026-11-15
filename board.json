@@ -1577,8 +1577,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-15T15:49Z",
-     "text": "Strong Dev 845 confirmed a Retention-induced GC wait in the latest fast-pinch replay. Both waker samples were in path-string allocation during MeasureTileBytesAfterRetention. The same cold Index Compaction pass completed, with separately id"
+     "at": "2026-11-15T17:47Z",
+     "text": "CPU.md 8f5555deae confirms the post-Retention file census again on Strong. Worst Mask Pages frame 5205 spent 25.2 ms asleep in Start Loads. A 16.4 ms sleep woke on the Retention worker and both matching samples were stopped GC at File.GetAt"
     }
    ]
   },
@@ -17880,5 +17880,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0363a74e88ff1a0dcb72e9cc6e59f939026ee909"
+ "source_revision": "957eecca483fbe6c10fa3936e03f7776c2fd99e3"
 }
