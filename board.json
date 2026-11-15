@@ -1023,7 +1023,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-15T09:52Z",
+     "noted": "",
+     "progress": 53,
+     "ticked": 8,
+     "total": 15
+    }
+   ],
    "steps": [
     {
      "t": "Space relief: Copernicus GLO-30 4096x2048 globe is the only relief on main (2dfa940d67, LFS SHA-256 b668209b...b513, 16,777,232 bytes); NOAA globe relief removed; globe=Ready at 1,000 km and Absent af",
@@ -15616,16 +15625,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "cloud-1071",
-     "since": "2026-11-15T09:48Z",
-     "noted": "2026-11-15T09:52Z",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Run cs_outline and list every concern",
@@ -16753,5 +16753,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "352e59b90246c9b852c60338a65ecc2d5bf0b3f2"
+ "source_revision": "e80f8f56dfdcd7311dc8904dce55fa8c8e24d2f9"
 }
