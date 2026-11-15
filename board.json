@@ -1784,86 +1784,6 @@
    ]
   },
   {
-   "n": 490,
-   "name": "MavChat capsule scroller rework (quiz 2026-11-12)",
-   "done": "2026-11-12T12:28Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "cloud-mavchat",
-     "at": "2026-11-12T12:28Z",
-     "text": "515d8f64: preview alpha per icon each frame from divider state, anchored 150 above capsule, no open on vertical swipe; flick time shows only current icon"
-    }
-   ]
-  },
-  {
-   "n": 491,
-   "name": "MavChat Chat panel (quiz 2026-11-12)",
-   "done": "2026-11-12T12:28Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "cloud-mavchat",
-     "at": "2026-11-12T12:28Z",
-     "text": "515d8f64: rows clipped by RectMask2D padding, capsule shader honours clip rect; selector band square blur off for MavChat (band cause not confirmed by reading, if it persists it is another object)"
-    }
-   ]
-  },
-  {
-   "n": 492,
-   "name": "MavChat stray rectangular blur band behind the capsule at top-left beside the menu button (quiz",
-   "done": "2026-11-12T12:28Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "cloud-mavchat",
-     "at": "2026-11-12T12:28Z",
-     "text": "515d8f64: search field lifted from y -150 to -12 on portrait peers page. Not done: see leftover task"
-    }
-   ]
-  },
-  {
-   "n": 493,
-   "name": "After MavChat -> KSP workflow the landscape Chat view stays on screen (hides only when paint tool selected). Hide MavChat/Chat views outside their workflow from one per-frame check of the current work",
-   "done": "2026-11-12T12:28Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "cloud-mavchat",
-     "at": "2026-11-12T12:28Z",
-     "text": "515d8f64: ChatSheet.Shown is one per-frame decision, the sheet reads it in its own LateUpdate. The exact stuck line in KSP was not found by reading"
-    }
-   ]
-  },
-  {
    "n": 496,
    "name": "MavChat landscape chat list",
    "done": "2026-11-13T04:27Z",
@@ -4585,22 +4505,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T12:23Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-15T12:22Z",
-     "text": "Published f6ca9670e7 and compiler fix 7ccc22ba6b. Station.OS owns power.threads /proc and Android service reads. Rog Unity compiled and the live Windows report retained registry and unavailable rows. Managed Android and Windows Editor confi"
+     "at": "2026-11-15T12:28Z",
+     "text": "Published 8dcacd6356. Station.OS owns app.memory Win32 and Android process reads. Rog compiled; live app.memory reported working set and private commit. Android synthetic projection and all six controls passed; Windows Editor/Android target"
     }
    ]
   },
@@ -16870,6 +16781,29 @@
      "text": "Strong completed 32 signed Dev 844 pinches under Normal and diagnostic fixed 30 FPS. Fixed 30 removed the measured IdleFrameCap wait but left the long post-release display gaps. Camera and Normal pacing restored. Measurements in CPU.md (02f"
     }
    ]
+  },
+  {
+   "n": 1120,
+   "name": "Using Strong for the signed Mask Pages before-and-after Android replay",
+   "done": "",
+   "goal": false,
+   "under": 381,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-15T12:28Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -16918,5 +16852,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "379705c12483dc471a53748f2a5180eb252a8521"
+ "source_revision": "1d19430b1d903812e3379620e0d03bd3fa379557"
 }
