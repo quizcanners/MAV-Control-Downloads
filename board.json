@@ -5964,16 +5964,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T18:38Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -6005,8 +5996,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-15T18:37Z",
-     "text": "Rog paused for the Crosshair request. Unity compiled a temporary test-assembly source change during Play without errors, but the probe stopped before reading the post-reload texture and scene state. Temporary source and meta removed, Editor"
+     "at": "2026-11-15T18:43Z",
+     "text": "Rog published Map Render reload evidence in 2559afb288. Unity replaced the retained texture, restored seven additive/startup scenes, and logged no compiler error, native leak warning or null reference in the sampled reload. Five settled app"
     }
    ]
   },
@@ -17890,14 +17881,20 @@
     {
      "who": "GETAC",
      "since": "2026-11-15T18:25Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-15T18:43Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-15T18:43Z",
+     "text": "Strong signed Dev 845 fcb80c5300f4: 16 Unscaled fast pinches and four FrozenDouble trials. CPU.md 5fefc7f257 records physical presentation, touch and timestamped video, plus the recorder-off controls. Restored original camera and Normal pac"
+    }
+   ]
   },
   {
    "n": 1178,
@@ -17910,6 +17907,29 @@
    "parked": false,
    "flags": [],
    "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 1179,
+   "name": "Refactor",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CLOUD",
+     "since": "2026-11-15T18:43Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   }
@@ -17960,5 +17980,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5807d035e611fd73e153bf2fe414bb67a0ac88cc"
+ "source_revision": "d968b169507f27c998f2f6b1881ac5b0cfce0941"
 }
