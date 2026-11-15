@@ -508,14 +508,14 @@
      "text": "Full Windows EditMode All on Rog at 577c0e7fa3: 8582 pass, 0 fail, 2 skip (706.5 s). QR, menu lighting and Settings smoke checks pass in the containing run. All-green.xml in C:/MavControlEvidence/Rog-369-20261114, SHA-256 A7FBFED82B4419B9F0"
     },
     {
-     "by": "HEAVY",
-     "at": "2026-11-15T08:15Z",
-     "text": "Windows All at 0f69b2611a wrote 7,909 passed, 101 failed, 10 skipped. Launcher timed out during shutdown and issued no qualification. I stopped only disposable Unity PID 52068 after saving the original terminal and verifying the XML hash. I"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-15T08:40Z",
      "text": "1fcdb87453 moves the Editor-only handshake diagnostic into its existing guard. Roslyn removed Android and Windows CS1061 with NEW ERRORS: none. Native Unity Android player and signed ARM64 Dev 844 packaging succeeded, and Strong reached the"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-15T12:01Z",
+     "text": "HEAVY station shutdown. Published fixture fixes e6fe8aecf7/c064f493ff/f3dffdba73 and Android access fix 3d59fd8a9d; hot reload and idle captures are on 735/704."
     }
    ]
   },
@@ -1023,7 +1023,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T11:58Z",
+     "noted": "",
+     "progress": 53,
+     "ticked": 8,
+     "total": 15
+    }
+   ],
    "steps": [
     {
      "t": "Space relief: Copernicus GLO-30 4096x2048 globe is the only relief on main (2dfa940d67, LFS SHA-256 b668209b...b513, 16,777,232 bytes); NOAA globe relief removed; globe=Ready at 1,000 km and Absent af",
@@ -1743,26 +1752,6 @@
      "by": "ROG_FABLE",
      "at": "2026-11-13T23:45Z",
      "text": "ROG_FABLE 482: the Android 833 row (ba81c415c2) records a red native EditMode All, 8,510 passed / 20 failed, evidence D:/MAV_Work/Verification/Android-Test-833-20261113, but names none of the 20. The Rog cannot reproduce the list through th"
-    }
-   ]
-  },
-  {
-   "n": 486,
-   "name": "Editor",
-   "done": "2026-11-12T12:01Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_OPUS",
-     "at": "2026-11-12T12:00Z",
-     "text": "ROG_OPUS batch 25 step 2 (1106e511af): RIGHT Suggestions.prefab, the Shared panel of Move Group and of Home Goal Group is now a MergedButton_Composit entry on UI_MainScreenSuggestion (_moveGroupShared, _homeGoalShared: body = the Shared ima"
     }
    ]
   },
@@ -16847,7 +16836,16 @@
    "priority": "high",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-15T11:58Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -16904,5 +16902,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e8140fb0923315db967a9b512a34cece538afc7f"
+ "source_revision": "31df1db7231b6a94032df53e97de0f381acb0743"
 }
