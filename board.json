@@ -21772,7 +21772,7 @@
   {
    "n": 1392,
    "name": "3D Street View point cloud photo projection and retained keyframes",
-   "done": "",
+   "done": "2026-11-16T16:35Z",
    "goal": false,
    "under": 0,
    "ticks": [
@@ -21783,16 +21783,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-16T16:25Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Project photos across point cubes",
@@ -21807,7 +21798,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-16T16:35Z",
+     "text": "8156d56c16 on main: per-pixel Pano360 and posed-photo projection, point RGB fallback."
+    }
+   ]
   }
  ],
  "verify": [
@@ -22340,5 +22337,5 @@
    "since": "2026-11-16T13:24Z"
   }
  ],
- "source_revision": "9c64517e2746902314805df59e014ac4e11bfed2"
+ "source_revision": "b21a8bdc503a2c42d8a1e4aa9b21704e2e6c7771"
 }
