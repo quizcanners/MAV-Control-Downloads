@@ -5752,7 +5752,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-16T04:53Z",
-     "noted": "",
+     "noted": "2026-11-16T04:56Z",
      "progress": 50,
      "ticked": 2,
      "total": 4
@@ -5789,8 +5789,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-16T04:51Z",
-     "text": "Published 45049a63d8. Streamer owns its JPEG snapshot readbacks and workers, drains them on disable, and completes cancelled captures once without sending a late frame."
+     "at": "2026-11-16T04:56Z",
+     "text": "Published cfa6dc8d52. Direct USB video drains its retired readback and JPEG worker at shutdown."
     }
    ]
   },
@@ -19975,5 +19975,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "89c3fb14fc1c68240050be4a29076bb354ca8200"
+ "source_revision": "7500bb8cfc56e43ae8d751f1cb9518345c92b6de"
 }
