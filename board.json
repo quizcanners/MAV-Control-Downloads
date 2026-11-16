@@ -25,16 +25,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T01:29Z",
-     "noted": "",
-     "progress": 38,
-     "ticked": 3,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Cut on main (details in the refactor file): dead Editor Authors and PrefabEdits, ~1,000 unread localization keys, unread fields and uncalled methods, the QR join and GeometryGoogleSheet, 197 stopped h",
@@ -72,8 +63,8 @@
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-15T02:21Z",
-     "text": "ROG: 8ca457fc42 repairs the receiver-stage host check to read the current FrameRate file and the historical VPN Chat file. 29 controls passed; all seven falsifiers rejected. Removed the stale VPN host that copied the same three NUnit cases."
+     "at": "2026-11-16T01:33Z",
+     "text": "Rog Unity f77c41e55a: 200/201 targeted tests passed, one exact-pixel marker failure. Servers 14/14, peer build floor 6/6, Android USB 23/23, Roadmap 17/17, Safe diagnostics 12/12, MAVLink inbox 44/44, Street View photos 22/22, Search/Sugges"
     }
    ]
   },
@@ -1750,6 +1741,11 @@
      "by": "ROG_FABLE",
      "at": "2026-11-13T23:45Z",
      "text": "ROG_FABLE 482: the Android 833 row (ba81c415c2) records a red native EditMode All, 8,510 passed / 20 failed, evidence D:/MAV_Work/Verification/Android-Test-833-20261113, but names none of the 20. The Rog cannot reproduce the list through th"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-16T01:33Z",
+     "text": "Rog reproduced the exact URP marker pixel failure at f77c41e55a. Run sequence was IncomingStreetViewPhotoTests 22/22, SearchQuerySuggestionTests 54/54, SituationEffectsTests 8/9. The marker then passed two isolated runs and full SituationEf"
     }
    ]
   },
@@ -5872,7 +5868,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-16T01:31Z",
-     "noted": "",
+     "noted": "2026-11-16T01:34Z",
      "progress": 50,
      "ticked": 2,
      "total": 4
@@ -5909,8 +5905,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-16T01:30Z",
-     "text": "Published c7bf4dd2de. Normal Ground Station teardown now removes its low-memory event subscription through the same cleanup as startup rollback. Added StationShutdownUnsubscribesItsLowMemoryCallback. Roslyn NEW ERRORS: none. Earlier Windows"
+     "at": "2026-11-16T01:34Z",
+     "text": "Published f8f0ba00d2 for frame-gap diagnostics. Shutdown detaches six Unity/Editor callbacks and clears the labels. Twelve host controls passed with simulated events. c7bf4dd2de also removes the old Ground Station low-memory callback. Rosly"
     }
    ]
   },
@@ -19547,5 +19543,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0d471ed82ce67e7f3ef6a095037fec4092f28326"
+ "source_revision": "be58205dc68205313ff6ee84b15c0d2fc7902628"
 }
