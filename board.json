@@ -17797,7 +17797,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-16T01:20Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -19392,29 +19401,25 @@
   {
    "n": 1249,
    "name": "Windows DJI EditMode",
-   "done": "",
+   "done": "2026-11-16T01:19Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T01:12Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
      "at": "2026-11-16T01:10Z",
      "text": "Published bc508c8815. Roslyn NEW ERRORS: none. The synthetic fixtures call Zoom Lens and the Orthophoto planner through their current methods. Motor unlock stays Functions-only: the host source check accepted current source and rejected bot"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-16T01:19Z",
+     "text": "Published c1d4e2439c: seed the partial Orthophoto footprint test with a synthetic camera frustum. Rog reproduced one failing fixture on 8feb54d9c4. Native Unity: DJI coordinates 36/36, motor-unlock source placement 9/9, Orthophoto 5/5 after"
     }
    ]
   },
@@ -19448,7 +19453,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-16T01:20Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -19505,5 +19519,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "798e382d229248402ba5d2d036babc7aa8e2da60"
+ "source_revision": "13d91e06b094231f8ca3e618461eb7852358f773"
 }
