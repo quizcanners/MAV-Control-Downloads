@@ -19807,25 +19807,22 @@
   {
    "n": 1273,
    "name": "Make one claim request take an expired task atomically. Preserve fresh holders",
-   "done": "",
+   "done": "2026-11-16T04:33Z",
    "goal": false,
    "under": 412,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T04:31Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T04:33Z",
+     "text": "Published dde47755c6. Claim now expires stale holders before deciding availability in the same board change. Tests passed for one-call takeover, a recently noted holder, additive claims and competing first claims (3/3). Strict guide check p"
+    }
+   ]
   }
  ],
  "verify": [
@@ -19874,5 +19871,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "34872ac9cf30719022928328d0bf2c6dc204c7f7"
+ "source_revision": "f88503e78116482b2bcc1be5e4ea9eb14aec4f06"
 }
