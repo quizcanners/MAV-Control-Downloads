@@ -2414,20 +2414,6 @@
    ]
   },
   {
-   "n": 617,
-   "name": "using Strong for Android Test 832 smoke",
-   "done": "2026-11-13T20:02Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 618,
    "name": "using Strong for Android Test 833 smoke",
    "done": "2026-11-13T21:38Z",
@@ -21872,22 +21858,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_PREVIEW_VIEW",
-     "since": "2026-11-16T19:46Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_UI_NEXT",
      "at": "2026-11-16T19:00Z",
      "text": "Task is solely a visual/test verification of already implemented layout; no implementation change made. Current project flow keeps verification separate."
+    },
+    {
+     "by": "CODEX_PREVIEW_VIEW",
+     "at": "2026-11-16T20:03Z",
+     "text": "bf03fb831f: offline local peer now shows its file frame; MapOnly live view confirms frame above Paint/Search, row at x=0,y=0 with no seam gap. Updated stale preview-order test: 2/2; UiRenderingTests 8/8; Editor compile and Roslyn NEW ERRORS"
     }
    ]
   },
@@ -22734,5 +22716,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "25093863eac90ad25c37eee10d828de2ca90b560"
+ "source_revision": "d1c06afdd9d9ea04d27a2d2b9422bc72aed9dabc"
 }
