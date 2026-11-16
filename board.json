@@ -2166,36 +2166,6 @@
    ]
   },
   {
-   "n": 563,
-   "name": "Telemetry bottom strip is not a grid yet (Drone Control/UI/SPEC.md",
-   "done": "2026-11-13T07:20Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T06:59Z",
-     "text": "CODEX_MAC_UI: 133b9ba700 implements Telemetry grid (Drone Control/UI/SPEC Telemetry grid): GridLayoutGroup 3x3, 164x64, bottom-up; removed ScrollRect, warning sits outside grid layout, retransmitter keeps a greyed fixed cell. UI_MergedStrip"
-    },
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-13T07:18Z",
-     "text": "ROG_FABLE: the grid landed from another worker in 133b9ba700 (prefab, UI_MergedStrip, UI_MavTelemetryView, tests) while I authored the same; I dropped my duplicate before it reached main. Checked on the Windows Editor (D3D11, 1920x1080, pee"
-    },
-    {
-     "by": "CLOUD_META",
-     "at": "2026-11-13T18:35Z",
-     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [Drone Control/UI/AGENTS.md] \"Telemetry bottom strip needs to be telemetry grid.\" 2) [Drone Control/UI/SPEC.md] \"Telemetry bottom strip needs to be telemetry "
-    }
-   ]
-  },
-  {
    "n": 567,
    "name": "using Strong for Android Test 829 smoke",
    "done": "2026-11-13T07:58Z",
@@ -20307,6 +20277,20 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 1304,
+   "name": "Find what moves the Peers Exit group button down while the Peers panel is folded by swipe. Read so far",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -20355,5 +20339,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d88925a71bff6b664acf50ca620fabfe6ad5aecf"
+ "source_revision": "76c05ad7a8db4d371e2e18eb17021e2b8f2dcdd6"
 }
