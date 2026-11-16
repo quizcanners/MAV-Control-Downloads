@@ -20044,25 +20044,22 @@
   {
    "n": 1286,
    "name": "Reject misaddressed or malformed screenshot chunks in peer_diag on local and VPN reads",
-   "done": "",
+   "done": "2026-11-16T05:41Z",
    "goal": false,
    "under": 375,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T05:36Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T05:41Z",
+     "text": "Published e87dc55e37. Local and VPN reads validate capture name, requested index, size/count, stamp agreement across the transfer, Base64 and decoded chunk length. All 53 peer_diag tests passed, including a wrongly indexed VPN reply preserv"
+    }
+   ]
   }
  ],
  "verify": [
@@ -20111,5 +20108,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a81334305eaceb609c38609a59dd967369c06ec7"
+ "source_revision": "8a288f7f60eb825e967c0f06603ee2b449865590"
 }
