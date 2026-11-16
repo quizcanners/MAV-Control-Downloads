@@ -20388,6 +20388,42 @@
      "text": "Published 7eb33182fe. task_flow --release N --note saves the handoff and releases its author in one board commit. Bare-origin tests proved the note, preservation of another holder, one parent commit, input refusal and no rewrite on retry. T"
     }
    ]
+  },
+  {
+   "n": 1315,
+   "name": "Save RTX meshes as Street View entries with notification and yaw-only map placement",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-16T09:13Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Persist mesh and optional local video reference with Street View metadata",
+     "x": false
+    },
+    {
+     "t": "Wire notification Save and yaw-only repositioning",
+     "x": false
+    },
+    {
+     "t": "Verify save, reload and placement in Windows Editor",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -20436,5 +20472,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ce0d603a051e17ca32627af815b57718943814e6"
+ "source_revision": "6d6293957e5c0e1266b3bdcd31020de8f6ef1f32"
 }
