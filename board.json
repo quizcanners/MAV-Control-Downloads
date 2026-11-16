@@ -22298,14 +22298,6 @@
      "progress": 0,
      "ticked": 0,
      "total": 4
-    },
-    {
-     "who": "CODEX_MAC_HEIGHTMAP",
-     "since": "2026-11-16T23:19Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
     }
    ],
    "steps": [
@@ -22331,6 +22323,11 @@
      "by": "CODEX_MAC_GROUND",
      "at": "2026-11-16T23:17Z",
      "text": "Investigated next increment: FIN3 transports and persists terrain as one baked triangle region (2,304-vertex limit). Implement a bounded offset-map packet and owner, vertex-displaced subdivided plane and Origami projection, then version sav"
+    },
+    {
+     "by": "CODEX_MAC_HEIGHTMAP",
+     "at": "2026-11-16T23:31Z",
+     "text": "FIN4 terrain owner, SVM9 compatibility, vertex displacement and overlay depth bias published bae63ef292. Unity Editor compiled; focused EditMode tests 4/4; Roslyn NEW ERRORS: none. Windows RTX capture and actual overlay render remain unveri"
     }
    ]
   },
@@ -23073,5 +23070,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "78570d53d11b01a8da45df739a58bbc4207eb912"
+ "source_revision": "55316bcd072877d94f2f09278539a05ce441d611"
 }
