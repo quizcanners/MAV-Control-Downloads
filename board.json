@@ -20137,25 +20137,22 @@
   {
    "n": 1292,
    "name": "Stop the Direct USB GeoTIFF and Android Wi-Fi host checks from retaining disposable compiler outputs. Keep the small receipts",
-   "done": "",
+   "done": "2026-11-16T06:14Z",
    "goal": false,
    "under": 375,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T06:11Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T06:14Z",
+     "text": "Published 85912e701c. Scoped temp builds retire compiler and fixture outputs. Retained current GeoTIFF 7731 bytes and Java 77937 bytes, from 36552032 and 1297824 bytes in equivalent prior runs. GeoTIFF 14 checks and 7 controls, Java API 34 "
+    }
+   ]
   },
   {
    "n": 1293,
@@ -20227,5 +20224,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "08514ac144f8e533c05d12c32645799798e5e1a8"
+ "source_revision": "b7acda00281cbb909b5a9260f2c8db8c8a9f0837"
 }
