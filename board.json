@@ -17579,16 +17579,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T11:29Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -17597,14 +17588,14 @@
      "text": "Dev 848 confirmed mixed sync with the Windows peer. CPU.md a97ec134f8. Worker adoption was negligible. Moving peak was DirectUsb with Web Mercator hash reply sends. Next split Maps.ProcessWebMercator and its reply send path, then compare VP"
     },
     {
-     "by": "ROG",
-     "at": "2026-11-15T23:34Z",
-     "text": "9a35c6ff04 adds DirectUsb.WebMercator.Apply and cable-only vpn.update.report phases DirectUsbMapHashApply, DirectUsbMapTileApply and DirectUsbMapHashSend. HashSend measures capacity, serialization and enqueue, not write-thread I/O. Rog Unit"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-16T02:37Z",
      "text": "Published cf211d5869. Direct USB Web Mercator JSON decode and tile checksums now run on the cable reader."
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-16T11:35Z",
+     "text": "Published 86227c327e: Geometry hash requests and replies avoid cloning their DTO before synchronous wire preparation, and new Geometry zones reuse their key. Windows Unity: 72 plain payload comparisons matched after source mutation and enco"
     }
    ]
   },
@@ -21044,5 +21035,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "228331ae437a8dfa011943b9071d2005d2482695"
+ "source_revision": "42bf5fcb20315d08158a4a7a9b859ca389a4b1a5"
 }
