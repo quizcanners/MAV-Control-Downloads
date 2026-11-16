@@ -20019,25 +20019,22 @@
   {
    "n": 1284,
    "name": "Let Daily Android accept an explicit release attempt ID for another same-day build or journal recovery. Pass it as data into the existing launcher and preserve default and Force behavior.",
-   "done": "",
+   "done": "2026-11-16T05:21Z",
    "goal": false,
    "under": 375,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T05:18Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T05:21Z",
+     "text": "Published a5d944e546. Daily Android accepts an optional release_attempt dispatch field for a fresh same-day attempt or the ID of a known journal. Runner passes it as data to the validated launcher. Both workflow host tests passed, exercisin"
+    }
+   ]
   }
  ],
  "verify": [
@@ -20086,5 +20083,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "8bf3f1d4cd333b65945bd51757dc551f580428b9"
+ "source_revision": "a475712b686b8db699eea168529ebb5bb5d4173f"
 }
