@@ -20426,6 +20426,38 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1318,
+   "name": "Center 3D Street View on its mesh and start manual placement in top-down orbit",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-16T09:40Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 2
+    }
+   ],
+   "steps": [
+    {
+     "t": "Anchor existing and new entries on the mesh bounds",
+     "x": false
+    },
+    {
+     "t": "Focus placement from above and follow Screen Center plus yaw",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -20474,5 +20506,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "fb759c8a59c9c903485055c265e19b05742da50b"
+ "source_revision": "8f240f6d078889541cb1e5319da5ad3974d7e8c3"
 }
