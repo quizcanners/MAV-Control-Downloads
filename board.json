@@ -5400,16 +5400,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T09:46Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -5441,8 +5432,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-16T09:27Z",
-     "text": "Published 3779c9957b: CodingSceneReady clears its deadline when it leaves the wait or a fresh boot starts, allowing retries a fresh 20 seconds. Roslyn e/a/p/m reported no new errors; five host controls passed, including timeout and fresh ne"
+     "at": "2026-11-16T09:51Z",
+     "text": "Published 3223b7ee22: Station shutdown cancels and disowns App Update BuildKeys scans, observes retired worker faults, and starts a fresh scan after restart. Six host controls passed, including late old completion and fresh import; Roslyn e"
     }
    ]
   },
@@ -20512,5 +20503,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b0fa980af8cbf4e1a2ed99e4e73bfe6d379d76d0"
+ "source_revision": "c4295cd6038889bf744d0ee807c38abbb07c79dc"
 }
