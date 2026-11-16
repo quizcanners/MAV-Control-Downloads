@@ -2242,31 +2242,6 @@
    ]
   },
   {
-   "n": 575,
-   "name": "Notifications",
-   "done": "2026-11-13T08:08Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T08:08Z",
-     "text": "e608b6ece7: the final notification no longer treats the narrower foldout tongue as a full-width lower card; card-to-card joins remain. Editor Play with two visible cards and a temporarily acknowledged local Far From Home card showed the ton"
-    },
-    {
-     "by": "CLOUD_META",
-     "at": "2026-11-13T18:35Z",
-     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [UI/Guides/Notifications/SPEC.md] \"Bottom notification is merged down, corners should be rounded.\""
-    }
-   ]
-  },
-  {
    "n": 576,
    "name": "using Strong for SQLite pause timing",
    "done": "2026-11-13T08:32Z",
@@ -3925,8 +3900,8 @@
     {
      "who": "ROG",
      "since": "2026-11-16T07:56Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-16T08:08Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -3935,8 +3910,8 @@
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-16T01:52Z",
-     "text": "8fe3b8daba moves the Android getrusage thread sampler and its failure latch into Station.OS. Lag retains delta calculation and report formatting. Compared the Android read, ABI layout and arithmetic with the previous source. Rog Unity compi"
+     "at": "2026-11-16T08:08Z",
+     "text": "Published 76aed9d4cd. Station.OS owns Android UI/Unity dispatch and command availability. Diagnostics keeps timing, pending state and cancellation. Direct AndroidPlayer IL2CPP-reference compile and host callback-order/cancellation checks pa"
     }
    ]
   },
@@ -20431,5 +20406,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "bfcd198d30d96917ebd834a5be82d69a06b0ea4e"
+ "source_revision": "b1177cc30161a29f20e485c3ce44e2c7ddbb010d"
 }
