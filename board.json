@@ -5768,7 +5768,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-16T04:31Z",
-     "noted": "",
+     "noted": "2026-11-16T04:35Z",
      "progress": 50,
      "ticked": 2,
      "total": 4
@@ -5805,8 +5805,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-16T04:29Z",
-     "text": "Published 91505bd35f. Image Encoder cancels queued lanes and joins the active worker before shutdown returns."
+     "at": "2026-11-16T04:35Z",
+     "text": "Published 6e78515261. Image Encoder drains only its own pending GPU readbacks after render callbacks stop and before graphics teardown."
     }
    ]
   },
@@ -19894,5 +19894,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ebfe7ab79e52a677e419318a8895e2dfd0a9cbf1"
+ "source_revision": "c7af59bb826cb56b813fa963bf38b3b957b5c230"
 }
