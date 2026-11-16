@@ -2288,7 +2288,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-16T17:13Z",
+     "noted": "",
+     "progress": 33,
+     "ticked": 1,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Flick up on the bar and over the cards runs AcknowledgeAllAndFold (UI_NotificationTongue): every New notice gets Hide(), persistent ones become Acknowledged so the bar stays closed under them, an unfl",
@@ -22452,5 +22461,5 @@
    "since": "2026-11-16T13:24Z"
   }
  ],
- "source_revision": "727ca6be614053d20beb13c388cad4d5788e2ed9"
+ "source_revision": "8d34668834157d944aecf3c55b957e932de9ab2f"
 }
