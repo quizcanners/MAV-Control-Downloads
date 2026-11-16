@@ -3221,16 +3221,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T03:16Z",
-     "noted": "",
-     "progress": 17,
-     "ticked": 1,
-     "total": 6
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "CLOUD_BOARD 2026-11-14: stripped 669 bare '(quiz, date)' tags, removed 750 parenthetical quotes, 170 quote blocks and 272 heading tags (anchors and links renamed) from SPEC/AGENTS files, guide_check 0",
@@ -3260,8 +3251,8 @@
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-16T03:14Z",
-     "text": "6ddc6b69e6 aligns Network, Routing Server and VPNs guides with current code: ServerSpecs wins selection, legacy fallback remains, WireGuard owns peer traffic, Git owns tasks and MavServer owns diagnostic storage. Corrected the broken build-"
+     "at": "2026-11-16T03:20Z",
+     "text": "cca97c195d consolidates the Navigator AGENTS and SPEC for Mav Chat: portrait scope, shared fold and contact state, Peers search/back behavior, and Road Routing URL versus preview server. Mockup headings and links retained, daily user quotes"
     }
    ]
   },
@@ -19630,14 +19621,20 @@
     {
      "who": "HEAVY",
      "since": "2026-11-16T03:14Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-16T03:20Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-16T03:20Z",
+     "text": "Published e2ff1c1a35. Patch retirement now owns the lazy four-slot child Geometry arrays."
+    }
+   ]
   }
  ],
  "verify": [
@@ -19686,5 +19683,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f7af4d8b360e2c32284c6978b3c48c1f62eac099"
+ "source_revision": "c44857dc9ec32a7a1592a0f55268d35394bed24f"
 }
