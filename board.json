@@ -1534,7 +1534,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-16T02:08Z",
+     "noted": "",
+     "progress": 29,
+     "ticked": 2,
+     "total": 7
+    }
+   ],
    "steps": [
     {
      "t": "Under 100 files, step 2 mostly landed (all RecordVault adapters): OSM tiles and ocean, trails (d288afc5b6), chat icons, Geometry cells, Logistics, Tileset/PeerVersions rows (009628094b); Storage page ",
@@ -19540,5 +19549,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a1ccb888b611f314b7d9bdf974cbc6ddc9b3a4af"
+ "source_revision": "7841b43f206ee7f4d041e25ef7803a6cc3314f0f"
 }
