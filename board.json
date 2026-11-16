@@ -20084,25 +20084,22 @@
   {
    "n": 1288,
    "name": "Restore the portable Direct USB Mac ADB loopback checks after the Local Link merge. Compile current production handshake and tracker code through the host and preserve the existing assertions.",
-   "done": "",
+   "done": "2026-11-16T05:57Z",
    "goal": false,
    "under": 375,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T05:55Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T05:57Z",
+     "text": "Published bfaa65244a. The isolated host compiles the current Direct USB Local Link Mac handshake and tracker, state parser, and production DirectUsb_TCP port 17694. All loopback assertions passed on Rog with .NET SDK 10.0.103: exact transpo"
+    }
+   ]
   },
   {
    "n": 1289,
@@ -20174,5 +20171,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "439b2d5e67d66f23705fea4602b93f74ffd0be96"
+ "source_revision": "dee6569c6ce2fcbc1bbcd01d8fb440d532f99993"
 }
