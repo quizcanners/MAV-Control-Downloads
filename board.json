@@ -2287,31 +2287,6 @@
    ]
   },
   {
-   "n": 597,
-   "name": "Note from CLOUD",
-   "done": "2026-11-13T19:32Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_META",
-     "at": "2026-11-13T18:35Z",
-     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [UI/SPEC.md] \"I do remember asking for the tint for the selected element to be yellow. That was a bad idea. Let's make it like dark, halfway dark. And the pan"
-    },
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T19:32Z",
-     "text": "7d81c96219: layout-specific tab tint and visibility come from LeftLists; horizontal selected is untinted, vertical selected shares the panel tint and unselected uses 0.9. Editor compile passed; 18 tab bindings present, live vertical colors "
-    }
-   ]
-  },
-  {
    "n": 600,
    "name": "Move the rest of the AI Sandbox dispatcher commands and the Station classes to the systems that own them",
    "done": "",
@@ -22174,14 +22149,20 @@
     {
      "who": "HEAVY",
      "since": "2026-11-16T19:28Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-16T19:35Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-16T19:35Z",
+     "text": "2feb14b4ea on main. Live and saved surfaces fill small supported gaps at half confidence and retain empty rays."
+    }
+   ]
   }
  ],
  "verify": [
@@ -22726,5 +22707,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "d01d30cf2906aa097d0eaeee8d096ebfe2b587fd"
+ "source_revision": "720706c31d7cbf0855c7e60ada950d0077b4ce3a"
 }
