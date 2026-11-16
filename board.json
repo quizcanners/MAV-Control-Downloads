@@ -20347,6 +20347,42 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1311,
+   "name": "Show the RTX Visual Odometry point cloud and Synthetic drone in MAV Control from its video input",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-16T08:01Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Connect the existing video input and local RTX mapper",
+     "x": false
+    },
+    {
+     "t": "Show reconstructed points and Synthetic drone motion over the map",
+     "x": false
+    },
+    {
+     "t": "Run the demo through the Backdoor",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -20395,5 +20431,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "cd7e93404c8e9f47019c3962ee5027261532ffdf"
+ "source_revision": "bfcd198d30d96917ebd834a5be82d69a06b0ea4e"
 }
