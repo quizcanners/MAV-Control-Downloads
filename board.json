@@ -5822,16 +5822,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T01:57Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -5857,14 +5848,14 @@
      "text": "City labels (Place Labels) after hot reload: ManagedOnDisable now resets draw order, view, batch, place glyph labels, id index, version gates, imported flag (cloud, 2026-11-15, uncompiled; cause not seen in Play, only by reading). Audit oth"
     },
     {
-     "by": "ROG",
-     "at": "2026-11-15T22:10Z",
-     "text": "Rog native 6000.6.8f1 MapOnly at b104fa6478: forced script recompile during Play closed the held Overpass loopback request, reset the AppDomain marker and restored all 9 scenes. No compiler/lifecycle errors or native leak warnings in the ca"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-16T01:55Z",
      "text": "Published 2b22028e37. WakeRegister clears both pending and held reports on Station shutdown and next start. Six host controls ran the actual register and Unity math. 7aa7447152 stops Performance Capture, 3037dace35 releases FPV, f8f0ba00d2 "
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-16T02:04Z",
+     "text": "Rog Unity 6000.6.8f1 at 4a3d26abd7: MapRenderMode 17 passed and 1 Metal-only skip, PerformanceInstrumentation 43/43, StartupBatchTiming 21/21. Two Play exits preserved an AppDomain witness while GapCause unhooked and cleared all names/ticks"
     }
    ]
   },
@@ -18448,7 +18439,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-16T02:04Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -19552,5 +19552,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "fa6fbd8200f8c171a293a167f457b5e66f4256af"
+ "source_revision": "c6c5af4d54af555ab9dc0db56b662c8a68c83ace"
 }
