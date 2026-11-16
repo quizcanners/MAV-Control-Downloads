@@ -2354,31 +2354,6 @@
    ]
   },
   {
-   "n": 601,
-   "name": "Bottom-right time plaque",
-   "done": "2026-11-13T19:21Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T17:50Z",
-     "text": "7d8d2d26cb: removed CanvasGroup alpha fade, so plaque hides and shows instantly; no localized blur cover was added. Unity recompiled; Roslyn comparison to checkout HEAD NEW ERRORS: none; comparison to current main reports unrelated differen"
-    },
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T19:20Z",
-     "text": "64e15627b0: plaque hides beneath a small non-interactive shared blur cover; quick re-show invalidates pending hide. Unity compile and Roslyn NEW ERRORS: none. Editor confirms cover inherits alpha 1 with plaque hidden and does not raycast. M"
-    }
-   ]
-  },
-  {
    "n": 606,
    "name": "Every SPEC.md and AGENTS.md reads as clean, organized rules with no quiz quotes or '(quiz, date)' tags; the quotes live in board tasks only",
    "done": "",
@@ -2471,20 +2446,6 @@
      "text": "ROG_FABLE: main compiles again in the Unity Editor (Editor and test assemblies) after the Singleton_GroundStation/Station split: 197eb306a2 (fields put back in Singleton_GroundStation, Roadmap messages back in VPN_Messages, moved classes qu"
     }
    ]
-  },
-  {
-   "n": 614,
-   "name": "using Strong for Web Mercator receive phase capture",
-   "done": "2026-11-13T19:23Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
   },
   {
    "n": 615,
@@ -21804,16 +21765,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_PHOTO_VIEW",
-     "since": "2026-11-16T19:20Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -21825,6 +21777,11 @@
      "by": "CODEX_MAC_VERIFY",
      "at": "2026-11-16T18:54Z",
      "text": "Editor at current checkout: UiExtendedMenuTests 13/13 passed, including saved prefab checks; Photo tab visual appearance remains due."
+    },
+    {
+     "by": "CODEX_PHOTO_VIEW",
+     "at": "2026-11-16T19:26Z",
+     "text": "Editor MapOnly KSP Photo/Video view: Paint and Search sit together at the physical bottom-left in quiet and hovered states; Search shadow side merging (left=0,bottom=0,right=1), Paint (left=0,bottom=0,right=0) matches their joins. Play stop"
     }
    ]
   },
@@ -22737,5 +22694,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "1c3bc83f6459b9c1013dabd822e5d51ff941e20a"
+ "source_revision": "88fe8e5b7e69be6027a3211b38a1687e2c6fdc93"
 }
