@@ -21664,7 +21664,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-16T17:32Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -21997,6 +22006,20 @@
      "text": "184832cc26 on main. Synthetic Projector uses camera pitch and aircraft bearing."
     }
    ]
+  },
+  {
+   "n": 1403,
+   "name": "Notifications",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -22529,5 +22552,5 @@
    "since": "2026-11-16T13:24Z"
   }
  ],
- "source_revision": "3d34f62be54987ee80071a0328021a2471a52465"
+ "source_revision": "3ef58377a34e0267e32a396cf1038c55157ff9db"
 }
