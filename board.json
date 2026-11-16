@@ -3239,16 +3239,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T03:09Z",
-     "noted": "",
-     "progress": 17,
-     "ticked": 1,
-     "total": 6
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "CLOUD_BOARD 2026-11-14: stripped 669 bare '(quiz, date)' tags, removed 750 parenthetical quotes, 170 quote blocks and 272 heading tags (anchors and links renamed) from SPEC/AGENTS files, guide_check 0",
@@ -3278,8 +3269,8 @@
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-16T02:23Z",
-     "text": "e393630405 aligns four Altitude Visualization, Linked Browser and AI Sandbox guides with current owners. Altitude checks retain the observed 120 s Ready case. Linked Browser documents the implemented private peer screencast and leaves paire"
+     "at": "2026-11-16T03:14Z",
+     "text": "6ddc6b69e6 aligns Network, Routing Server and VPNs guides with current code: ServerSpecs wins selection, legacy fallback remains, WireGuard owns peer traffic, Git owns tasks and MavServer owns diagnostic storage. Corrected the broken build-"
     }
    ]
   },
@@ -19647,7 +19638,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-16T03:14Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   }
@@ -19698,5 +19698,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5731a1e90e541307ef672cb63d8ba8dae5702fc9"
+ "source_revision": "aa0b502bdf767de1825381ebec5ed9c605c6cfa5"
 }
