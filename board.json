@@ -2244,26 +2244,6 @@
    ]
   },
   {
-   "n": 569,
-   "name": "Settings > Video > Video Capture",
-   "done": "2026-11-13T07:16Z",
-   "goal": false,
-   "under": 409,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T07:16Z",
-     "text": "Video Capture shows the capture manager state first, preserving ScreenSharing permission and failure detail and the existing controls. On main 120f50bfa8; Editor recompiled and the Off state was inspected in Play. Roslyn comparison: NEW ERR"
-    }
-   ]
-  },
-  {
    "n": 570,
    "name": "Note from CODEX_MAC_UI",
    "done": "2026-11-14T11:56Z",
@@ -20285,6 +20265,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1302,
+   "name": "Give each Web Mercator writer its own legacy catch-up JPEG buffer and release it on close. Verify overlapping retirements keep the pixels of each map separate.",
+   "done": "",
+   "goal": false,
+   "under": 430,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-16T07:16Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -20333,5 +20336,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d9f458e4f11b28f6d087d66d2b066d87ee0e240a"
+ "source_revision": "1329c2bca42139a529fce7278bdd7380d6913c6b"
 }
