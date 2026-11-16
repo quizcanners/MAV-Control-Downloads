@@ -772,7 +772,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-16T01:56Z",
-     "noted": "",
+     "noted": "2026-11-16T02:02Z",
      "progress": 50,
      "ticked": 3,
      "total": 6
@@ -811,14 +811,14 @@
      "text": "Separate CI publication hold: local commit 07b558cbd2 removes only duplicate retention-days: 7 and keeps 3-day upload retention. Strict unique-key YAML, unchanged effective configuration, and duplicate negative control pass. NOT pushed: res"
     },
     {
-     "by": "HEAVY",
-     "at": "2026-11-15T02:06Z",
-     "text": "fe3283886b gives Windows and Linux the same configurable C: nightly checkout on HEAVY."
-    },
-    {
      "by": "ROG",
      "at": "2026-11-15T03:15Z",
      "text": "ROG: 0642e4f943 fixes the other Android 843 blocker. A board update during release preflight or push now merges the originally validated version commit with current main and retries without allocating another number. Changed version inputs/"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-16T02:02Z",
+     "text": "04:00 Kyiv nightly skipped before checkout preparation with live Unity PID 3348 (exit 10), history 20ce08210e. HEAVY restarted the previously stopped MavControlDailyWindowsRunner; Task Scheduler has one listener, PID 18776, and GitHub sessi"
     }
    ]
   },
@@ -19561,5 +19561,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "de91d3ae80340d2d1e74056ce2e94516ac41aff0"
+ "source_revision": "e942f08fa33177b6cf1a29f6a5e439b2cdf1f028"
 }
