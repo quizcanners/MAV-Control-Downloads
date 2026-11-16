@@ -21831,7 +21831,7 @@
   {
    "n": 1395,
    "name": "Synthetic drone drag and Pilot View heading with an in-progress 3D Street View",
-   "done": "",
+   "done": "2026-11-16T16:52Z",
    "goal": false,
    "under": 0,
    "ticks": [
@@ -21842,16 +21842,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-16T16:37Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Keep drag heading and speed outside capture",
@@ -21866,7 +21857,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-16T16:52Z",
+     "text": "3e49fbe7ff on main. Short map drag turns in place; Pilot View yaw turns the aircraft."
+    }
+   ]
   },
   {
    "n": 1396,
@@ -22413,5 +22410,5 @@
    "since": "2026-11-16T13:24Z"
   }
  ],
- "source_revision": "257cffee5d2a00eb76e7a32575ffe56073c78bf4"
+ "source_revision": "ebd1d32a4478a7523905d411f674bf07fedbee23"
 }
