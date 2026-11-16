@@ -22410,18 +22410,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_GEOTIFF_PERF",
-     "since": "2026-11-16T22:04Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_GEOTIFF_PERF",
+     "at": "2026-11-16T22:09Z",
+     "text": "No source edits: each center also allocates formatted MGRS strings, Angle/TMCoord objects and a TileIndex. A safe zero-allocation path needs numeric grid-letter decoding and the exact ReadStoredUtmAngles inverse/forward correction, includin"
+    }
+   ]
   }
  ],
  "verify": [
@@ -22966,5 +22963,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "6896b89ad6f71f3457a0b4e313fd00044349ce54"
+ "source_revision": "9197f34463146b0cb437ac553c3129ca96f730f1"
 }
