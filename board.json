@@ -21429,23 +21429,20 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_TICK_AUDIT",
-     "since": "2026-11-16T21:38Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 1
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Mac or Rog (Editor): Need for verify",
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_TICK_AUDIT",
+     "at": "2026-11-16T21:39Z",
+     "text": "Superseded: UI SPEC Notifications Dismissal and Notifications guide prohibit receipt ticks on every platform. UI_NotificationCard.OnEnable and PrepareLayout always deactivate _hideButton; no code reactivates it. Tick-cell corner cannot appe"
+    }
+   ]
   },
   {
    "n": 1395,
@@ -22922,5 +22919,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "62924acf0d1bf620ddb6d15ce6f8c014e4417b72"
+ "source_revision": "d346adc3a07539796cdabcb563166de958e7e3ba"
 }
