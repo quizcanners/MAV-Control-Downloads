@@ -5748,7 +5748,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-16T05:18Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -20006,6 +20015,29 @@
      "text": "Published 1780a9b044. Auto skips unchanged Android inputs before LFS, release preparation or Unity. Force bypasses the comparison and cannot rebuild a reserved version. Interrupted attempts still recover. All 11 publication host tests and b"
     }
    ]
+  },
+  {
+   "n": 1284,
+   "name": "Let Daily Android accept an explicit release attempt ID for another same-day build or journal recovery. Pass it as data into the existing launcher and preserve default and Force behavior.",
+   "done": "",
+   "goal": false,
+   "under": 375,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-16T05:18Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -20054,5 +20086,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "7814a532ac7994ae6ac74d907076f5972d430814"
+ "source_revision": "8bf3f1d4cd333b65945bd51757dc551f580428b9"
 }
