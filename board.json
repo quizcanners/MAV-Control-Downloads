@@ -20316,6 +20316,42 @@
      "text": "1e68c87616 adds RTX map replay and the relative Video Path sidecar."
     }
    ]
+  },
+  {
+   "n": 1312,
+   "name": "Mesh the RTX Visual Odometry reconstruction into 3D cells with camera-distance LODs",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-16T08:28Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Triangulate depth into independent colored cells",
+     "x": false
+    },
+    {
+     "t": "Render three LODs over the map and keep Synthetic drone playback",
+     "x": false
+    },
+    {
+     "t": "Verify construction and LOD changes in Windows Editor",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -20364,5 +20400,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "684d1f1f301c64bb4416254af6fbc9436ab0bb0f"
+ "source_revision": "71343cb77d1c37b6efa63303858a2bdde4c533ca"
 }
