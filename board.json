@@ -5831,7 +5831,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-16T01:57Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -19499,14 +19508,20 @@
     {
      "who": "GETAC",
      "since": "2026-11-16T01:53Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-16T01:58Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-16T01:58Z",
+     "text": "Strong baseline collected on signed private Dev 848 a2db6fc6b5b2. Six repeated samples showed Presence Unloaded with zero loads while the writer ran Retention in Migrating. Device free with Normal pacing and no ADB forwards. Private receipt"
+    }
+   ]
   }
  ],
  "verify": [
@@ -19555,5 +19570,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "220ccbdfd921d36ff54893f7dfa04c4e793afdb0"
+ "source_revision": "49fc3ca7ebd074f85bf1b6fea1be685df29aea96"
 }
