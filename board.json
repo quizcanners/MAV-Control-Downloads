@@ -20375,25 +20375,22 @@
   {
    "n": 1316,
    "name": "Compass Dev FPS",
-   "done": "",
+   "done": "2026-11-16T09:52Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_UI",
-     "since": "2026-11-16T09:37Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-16T09:52Z",
+     "text": "4511b62376 on main. Six compass format tests pass; native TextMeshPro reports two rendered lines with empty second line; Editor compile clean and Roslyn NEW ERRORS: none. Main/Map check bumped."
+    }
+   ]
   },
   {
    "n": 1317,
@@ -20494,5 +20491,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "9990596a838b4bffd1cb6106fc8414af1ea0afb9"
+ "source_revision": "55f2dd44d931ea911ad317cb3d4350b152c403ef"
 }
