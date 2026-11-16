@@ -2250,31 +2250,6 @@
    ]
   },
   {
-   "n": 578,
-   "name": "MavChat",
-   "done": "2026-11-13T09:23Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T09:22Z",
-     "text": "1fd0f8cff2: selected Me now enters the shared map-center ruler path and draws the same outlined selection ring as a peer. Folded MavChat uses Sheet.IsFolded as ContentHidden, disabling Route/GPS/Tools/Chat regions at the displayed lowest st"
-    },
-    {
-     "by": "CLOUD_META",
-     "at": "2026-11-13T18:35Z",
-     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [Chat/SPEC.md] \"\u201cAdditionally, when panel is folded, it should get disabled. Only Capsule should stay.\u201d\" 2) [Workflows/Navigator/SPEC.md] \"Additionally, when "
-    }
-   ]
-  },
-  {
    "n": 579,
    "name": "using Strong for Web Mercator recount verification",
    "done": "2026-11-13T09:31Z",
@@ -5448,16 +5423,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T09:20Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -5489,8 +5455,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-16T08:49Z",
-     "text": "Published 957f8c42c3. Station shutdown cancels and detaches the Kropyva export read, resets preview/input, and retains published scenes. Host held an in-flight read, observed cancellation and cleared preview, then opened a fresh encrypted e"
+     "at": "2026-11-16T09:27Z",
+     "text": "Published 3779c9957b: CodingSceneReady clears its deadline when it leaves the wait or a fresh boot starts, allowing retries a fresh 20 seconds. Roslyn e/a/p/m reported no new errors; five host controls passed, including timeout and fresh ne"
     }
    ]
   },
@@ -20478,5 +20444,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "49315fa23ed8b22ccc3b7bb7972732023bb86e03"
+ "source_revision": "14676a04a60706621dac052abe4544d6cb46450d"
 }
