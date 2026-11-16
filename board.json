@@ -4222,7 +4222,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-16T01:45Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -5817,7 +5826,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-16T01:40Z",
-     "noted": "",
+     "noted": "2026-11-16T01:48Z",
      "progress": 50,
      "ticked": 2,
      "total": 4
@@ -5854,8 +5863,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-16T01:39Z",
-     "text": "Published 3037dace35. Input shutdown disposes the runtime FPV asset and clears the wrapper. Input System retains its project-wide UI/Core asset. Added InputShutdownReleasesTheOwnedFpvAsset. f8f0ba00d2 detaches the frame-gap callbacks and cl"
+     "at": "2026-11-16T01:48Z",
+     "text": "Published 7aa7447152. Shutdown cancels waiting and recording Performance Capture without another sample. It releases the allocation recorder, mask scope subscriptions and coupled VPN receiver. Prior fixes are 3037dace35 (FPV), f8f0ba00d2 (f"
     }
    ]
   },
@@ -19500,5 +19509,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c8cc120bca77f2541af46452874a384d0e0cf71a"
+ "source_revision": "136c430a309feedcd7bc10332f36659418397252"
 }
