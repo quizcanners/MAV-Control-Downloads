@@ -4680,11 +4680,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-15T09:03Z",
-     "text": "Windows Editor loaded 428d5f78a2, before RenderState. In a passive 87 s window, all 42 app.lifecycle samples were MapStatic with no current wake and idle pacing held 8 FPS. The map stayed Unscaled with no kept picture and Glass=Blur. Last M"
-    },
-    {
      "by": "ROG",
      "at": "2026-11-15T18:05Z",
      "text": "Published 3a12cd400d. Rog Windows Editor held FrozenDouble at idle throughout the sampled window. See Performance Baseline/CPU.md and private receipt. app.lifecycle now includes the Point wake in active reasons. Unity wake regression and fo"
@@ -4693,6 +4688,11 @@
      "by": "ROG",
      "at": "2026-11-16T05:09Z",
      "text": "57a0f89b9e records four authenticated Strong Dev 848 pairs over 26 s, no tablet input. Normal, MapStatic and FrozenDouble throughout; last wake Layer. Mask revision 45,473 and all cause counts stayed fixed (f3483f49c9 instrumentation). Recu"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-16T15:05Z",
+     "text": "CPU.md 27dc64788d records Strong Dev 850 Normal pacing: Anim and target 60 in saved KSP, target 8 in nearby KSP and in Map Editing at the same pose. Repeats on return, survives Situation off, Enemy Logistics already off. Wind decal is a KSP"
     }
    ]
   },
@@ -21622,6 +21622,20 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1381,
+   "name": "Main view",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -21670,5 +21684,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5ed00661a0cca2a0157010e17f71d7cbfee001ed"
+ "source_revision": "510a75fab49d33d24e499464e8368bafbc0928de"
 }
