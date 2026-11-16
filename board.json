@@ -21138,18 +21138,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_DRONE_ROW",
-     "since": "2026-11-16T17:40Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_DRONE_ROW",
+     "at": "2026-11-16T17:46Z",
+     "text": "Published ee2c6e751a20: removed the two unused prefab objects and stale serialized references; verified removed IDs have no remaining references. Play check deferred: this checkout still has older row code than main."
+    }
+   ]
   },
   {
    "n": 1365,
@@ -22057,18 +22054,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_UI_ROWS",
-     "since": "2026-11-16T17:45Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_UI_ROWS",
+     "at": "2026-11-16T17:46Z",
+     "text": "Inspected shared peer row and its previous-separator prefab; current checkout is stale and cannot reproduce the current-main MavChat row, so no speculative asset change was made. Resume with synced Editor and the affected group row visible."
+    }
+   ]
   },
   {
    "n": 1408,
@@ -22100,6 +22094,20 @@
      "x": false
     }
    ],
+   "notes": []
+  },
+  {
+   "n": 1409,
+   "name": "Orthophoto",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
    "notes": []
   }
  ],
@@ -22631,7 +22639,19 @@
   {
    "screen": "Video preview",
    "since": "2026-11-16T13:24Z"
+  },
+  {
+   "screen": "Altitude Visualization",
+   "since": "2026-11-16T17:46Z"
+  },
+  {
+   "screen": "Right Lists",
+   "since": "2026-11-16T17:46Z"
+  },
+  {
+   "screen": "Photo",
+   "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "6736798f238c72e79f69ffe6a50772c8bb76b03b"
+ "source_revision": "39deca8fe677e82606de0fd852d96bb8a11d5ebd"
 }
