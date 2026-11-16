@@ -19715,14 +19715,20 @@
     {
      "who": "GETAC",
      "since": "2026-11-16T03:56Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-16T04:17Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-16T04:17Z",
+     "text": "Done: cbd8887315 preserves the four empty offsets at the end of the shared index buffer while leaving mask zero at zero and keeping the batched upload. Native Unity matched all 92 meshes byte for byte and one focused EditMode test passed in"
+    }
+   ]
   },
   {
    "n": 1267,
@@ -19833,5 +19839,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "36d2c075cdefce4d91346c35417afa4b7814cb5a"
+ "source_revision": "66d51c8dc259889a37fc23d99a1ea56eccb73f25"
 }
