@@ -1486,16 +1486,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-16T14:31Z",
-     "noted": "",
-     "progress": 22,
-     "ticked": 2,
-     "total": 9
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Cloud, on main: startup cuts, Patch Preparation (32a9302f, 55dbede20d), hand-written heartbeat reader, skip sealing for nine hash types (build 818), 4 Hz crypto handshake only while a peer has no key,",
@@ -1547,8 +1538,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-16T13:00Z",
-     "text": "Signed paired Dev 850 42bf5fcb20: Is Interacting and sender view-only traffic observed (NETWORK.md 95903ef381). Outside-view admissions stayed zero on both baselines; active-queue pause still needs a positive pre-drag counter. Strong native"
+     "at": "2026-11-16T14:37Z",
+     "text": "NETWORK.md df61eb59ed rechecks signed Dev 850 peer counters: every Strong sample with Lenovo interacting during input had background_sync_deferred=true. The narrowed control spent 17 of 19 samples waiting for transfer slots and sent only vi"
     }
    ]
   },
@@ -21542,25 +21533,22 @@
   {
    "n": 1377,
    "name": "Selected finished 3D Street View scale scroller and terrain floor clearance",
-   "done": "",
+   "done": "2026-11-16T14:38Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-16T14:27Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-16T14:38Z",
+     "text": "4e3ccac743 on main. Windows Unity and Roslyn clean. Backdoor confirmed the visible scroller, saved scale after drag and Play restart, the same geographic center, and terrain lift on a deliberately buried mesh fixture. Fixture removed; no cl"
+    }
+   ]
   },
   {
    "n": 1378,
@@ -21613,7 +21601,7 @@
  "verify": [
   {
    "screen": "Chat",
-   "since": "2026-11-07T13:38Z"
+   "since": "2026-11-15T05:30Z"
   },
   {
    "screen": "Console-Diagnostics",
@@ -21621,11 +21609,11 @@
   },
   {
    "screen": "Drone-Control",
-   "since": "2026-10-30T19:33Z"
+   "since": "2026-11-15T05:59Z"
   },
   {
    "screen": "General",
-   "since": "2026-10-30T19:33Z"
+   "since": "2026-11-16T10:39Z"
   },
   {
    "screen": "Install-Update",
@@ -21633,19 +21621,19 @@
   },
   {
    "screen": "Map",
-   "since": "2026-10-31T02:04Z"
+   "since": "2026-11-14T13:16Z"
   },
   {
    "screen": "Network",
-   "since": "2026-10-30T19:33Z"
+   "since": "2026-11-15T05:53Z"
   },
   {
    "screen": "Search",
-   "since": "2026-11-07T12:40Z"
+   "since": "2026-11-10T08:29Z"
   },
   {
    "screen": "Settings",
-   "since": "2026-10-31T06:13Z"
+   "since": "2026-11-14T13:48Z"
   },
   {
    "screen": "Store-Posts",
@@ -21653,8 +21641,492 @@
   },
   {
    "screen": "Video",
-   "since": "2026-10-30T19:33Z"
+   "since": "2026-11-14T14:48Z"
+  },
+  {
+   "screen": "Main/Map",
+   "since": "2026-11-10T07:58Z"
+  },
+  {
+   "screen": "Video/Processing",
+   "since": "2026-11-10T07:58Z"
+  },
+  {
+   "screen": "Chat/Home",
+   "since": "2026-11-10T07:58Z"
+  },
+  {
+   "screen": "Layers/WiFi",
+   "since": "2026-11-10T07:58Z"
+  },
+  {
+   "screen": "Chat/Messages",
+   "since": "2026-11-10T07:58Z"
+  },
+  {
+   "screen": "Map/Planet",
+   "since": "2026-11-10T07:58Z"
+  },
+  {
+   "screen": "Main/Notifications",
+   "since": "2026-11-10T08:04Z"
+  },
+  {
+   "screen": "Main/Menu",
+   "since": "2026-11-10T08:28Z"
+  },
+  {
+   "screen": "Chat/Routes",
+   "since": "2026-11-10T08:29Z"
+  },
+  {
+   "screen": "Chat/Peers",
+   "since": "2026-11-10T08:33Z"
+  },
+  {
+   "screen": "Chat/QR",
+   "since": "2026-11-10T08:53Z"
+  },
+  {
+   "screen": "Main/MapSource",
+   "since": "2026-11-10T08:53Z"
+  },
+  {
+   "screen": "Servers/People",
+   "since": "2026-11-10T10:13Z"
+  },
+  {
+   "screen": "Servers/Admins",
+   "since": "2026-11-10T10:13Z"
+  },
+  {
+   "screen": "Settings/VPNs",
+   "since": "2026-11-12T06:26Z"
+  },
+  {
+   "screen": "Main/Layers",
+   "since": "2026-11-12T13:00Z"
+  },
+  {
+   "screen": "Main/Tools",
+   "since": "2026-11-12T13:00Z"
+  },
+  {
+   "screen": "Chat/Attachments",
+   "since": "2026-11-13T03:13Z"
+  },
+  {
+   "screen": "Servers/Home",
+   "since": "2026-11-13T06:04Z"
+  },
+  {
+   "screen": "Main/Performance",
+   "since": "2026-11-13T18:58Z"
+  },
+  {
+   "screen": "Waypoints",
+   "since": "2026-11-14T09:29Z"
+  },
+  {
+   "screen": "MainScreen",
+   "since": "2026-11-14T09:32Z"
+  },
+  {
+   "screen": "Store Post/Inventory",
+   "since": "2026-11-14T09:37Z"
+  },
+  {
+   "screen": "MavChat",
+   "since": "2026-11-14T09:52Z"
+  },
+  {
+   "screen": "Positioning",
+   "since": "2026-11-14T10:07Z"
+  },
+  {
+   "screen": "Settings/DevMode/Tasks",
+   "since": "2026-11-14T12:01Z"
+  },
+  {
+   "screen": "Main/LoadingProgress",
+   "since": "2026-11-14T12:01Z"
+  },
+  {
+   "screen": "Settings/Updates",
+   "since": "2026-11-14T12:23Z"
+  },
+  {
+   "screen": "Motorola Known radios",
+   "since": "2026-11-14T13:00Z"
+  },
+  {
+   "screen": "Menu",
+   "since": "2026-11-14T13:34Z"
+  },
+  {
+   "screen": "Share Screen",
+   "since": "2026-11-14T13:39Z"
+  },
+  {
+   "screen": "LISTS Left",
+   "since": "2026-11-14T13:43Z"
+  },
+  {
+   "screen": "Main View",
+   "since": "2026-11-14T13:52Z"
+  },
+  {
+   "screen": "Navigation",
+   "since": "2026-11-14T13:55Z"
+  },
+  {
+   "screen": "Drag Context Menu",
+   "since": "2026-11-14T14:12Z"
+  },
+  {
+   "screen": "Settings/Home",
+   "since": "2026-11-14T17:51Z"
+  },
+  {
+   "screen": "Main screen swipe: left lists, Suggestions panel, top notification and Situation Entity Edit panel",
+   "since": "2026-11-15T05:30Z"
+  },
+  {
+   "screen": "Main view",
+   "since": "2026-11-15T05:14Z"
+  },
+  {
+   "screen": "Video Capture",
+   "since": "2026-11-15T05:31Z"
+  },
+  {
+   "screen": "Safeguard UA",
+   "since": "2026-11-15T05:32Z"
+  },
+  {
+   "screen": "Street View",
+   "since": "2026-11-15T05:32Z"
+  },
+  {
+   "screen": "Undo Redo",
+   "since": "2026-11-15T05:32Z"
+  },
+  {
+   "screen": "VPN Network",
+   "since": "2026-11-15T05:31Z"
+  },
+  {
+   "screen": "Diagnostics",
+   "since": "2026-11-15T05:31Z"
+  },
+  {
+   "screen": "Bootstrap hubs",
+   "since": "2026-11-15T05:33Z"
+  },
+  {
+   "screen": "Camera",
+   "since": "2026-11-15T05:33Z"
+  },
+  {
+   "screen": "BaseMap",
+   "since": "2026-11-15T05:33Z"
+  },
+  {
+   "screen": "Web Mercator",
+   "since": "2026-11-15T05:31Z"
+  },
+  {
+   "screen": "Tests",
+   "since": "2026-11-15T05:33Z"
+  },
+  {
+   "screen": "Video Server",
+   "since": "2026-11-15T05:33Z"
+  },
+  {
+   "screen": "TelemetryView",
+   "since": "2026-11-15T05:34Z"
+  },
+  {
+   "screen": "Altitude scroller",
+   "since": "2026-11-15T05:41Z"
+  },
+  {
+   "screen": "Zoom scroller",
+   "since": "2026-11-15T05:41Z"
+  },
+  {
+   "screen": "Mav Chat",
+   "since": "2026-11-15T05:43Z"
+  },
+  {
+   "screen": "Settings / DevMode / Tasks",
+   "since": "2026-11-15T05:46Z"
+  },
+  {
+   "screen": "Settings > Sync",
+   "since": "2026-11-15T05:53Z"
+  },
+  {
+   "screen": "Orthophoto",
+   "since": "2026-11-15T05:53Z"
+  },
+  {
+   "screen": "Planet Renderer",
+   "since": "2026-11-15T05:53Z"
+  },
+  {
+   "screen": "Main Camera",
+   "since": "2026-11-15T05:53Z"
+  },
+  {
+   "screen": "Settings > Extended Menu",
+   "since": "2026-11-15T05:54Z"
+  },
+  {
+   "screen": "Performance Metrics",
+   "since": "2026-11-15T05:54Z"
+  },
+  {
+   "screen": "MGRS grid",
+   "since": "2026-11-15T05:57Z"
+  },
+  {
+   "screen": "Enemy Logistics",
+   "since": "2026-11-15T05:57Z"
+  },
+  {
+   "screen": "Geometry tests",
+   "since": "2026-11-15T05:58Z"
+  },
+  {
+   "screen": "Raspberry Pi WiFi Scanner",
+   "since": "2026-11-15T05:58Z"
+  },
+  {
+   "screen": "Remote Sensor",
+   "since": "2026-11-15T05:58Z"
+  },
+  {
+   "screen": "Geometry",
+   "since": "2026-11-15T05:58Z"
+  },
+  {
+   "screen": "Pilot View",
+   "since": "2026-11-15T05:55Z"
+  },
+  {
+   "screen": "Settings Motorola IP",
+   "since": "2026-11-15T05:59Z"
+  },
+  {
+   "screen": "Settings > Dev Mode",
+   "since": "2026-11-15T06:00Z"
+  },
+  {
+   "screen": "Settings/View",
+   "since": "2026-11-15T06:01Z"
+  },
+  {
+   "screen": "Pointing",
+   "since": "2026-11-15T06:01Z"
+  },
+  {
+   "screen": "Streamer",
+   "since": "2026-11-15T06:03Z"
+  },
+  {
+   "screen": "Processes",
+   "since": "2026-11-15T06:05Z"
+  },
+  {
+   "screen": "Dev Mode",
+   "since": "2026-11-15T06:41Z"
+  },
+  {
+   "screen": "Streamer Photos",
+   "since": "2026-11-15T06:43Z"
+  },
+  {
+   "screen": "Web Mercator Orthophoto base layer",
+   "since": "2026-11-15T06:43Z"
+  },
+  {
+   "screen": "GeoTIFF import",
+   "since": "2026-11-15T06:42Z"
+  },
+  {
+   "screen": "Peers",
+   "since": "2026-11-15T06:44Z"
+  },
+  {
+   "screen": "Shape Gizmos",
+   "since": "2026-11-15T06:42Z"
+  },
+  {
+   "screen": "Video status",
+   "since": "2026-11-15T06:44Z"
+  },
+  {
+   "screen": "Settings > Network",
+   "since": "2026-11-15T06:45Z"
+  },
+  {
+   "screen": "Video Peer Transport",
+   "since": "2026-11-15T06:41Z"
+  },
+  {
+   "screen": "Settings Planet Renderer",
+   "since": "2026-11-15T06:46Z"
+  },
+  {
+   "screen": "Startup",
+   "since": "2026-11-15T06:42Z"
+  },
+  {
+   "screen": "Map Sync",
+   "since": "2026-11-15T06:44Z"
+  },
+  {
+   "screen": "VPN Chat",
+   "since": "2026-11-15T07:46Z"
+  },
+  {
+   "screen": "Bootstrap",
+   "since": "2026-11-15T07:45Z"
+  },
+  {
+   "screen": "Settings > Dev Mode > Performance capture",
+   "since": "2026-11-15T07:45Z"
+  },
+  {
+   "screen": "Video Feed",
+   "since": "2026-11-15T07:47Z"
+  },
+  {
+   "screen": "FrameBudget",
+   "since": "2026-11-15T07:46Z"
+  },
+  {
+   "screen": "Screen Sharing",
+   "since": "2026-11-15T07:45Z"
+  },
+  {
+   "screen": "Peer Video",
+   "since": "2026-11-15T07:46Z"
+  },
+  {
+   "screen": "Radio Chat",
+   "since": "2026-11-15T07:51Z"
+  },
+  {
+   "screen": "Geometry Convergence",
+   "since": "2026-11-15T07:47Z"
+  },
+  {
+   "screen": "Motorola",
+   "since": "2026-11-15T07:50Z"
+  },
+  {
+   "screen": "Motorola IP",
+   "since": "2026-11-15T07:52Z"
+  },
+  {
+   "screen": "OSM Street Data",
+   "since": "2026-11-15T07:54Z"
+  },
+  {
+   "screen": "Training",
+   "since": "2026-11-15T07:50Z"
+  },
+  {
+   "screen": "Power Lines",
+   "since": "2026-11-15T07:52Z"
+  },
+  {
+   "screen": "Map loading",
+   "since": "2026-11-15T07:46Z"
+  },
+  {
+   "screen": "Map Editing",
+   "since": "2026-11-15T07:54Z"
+  },
+  {
+   "screen": "LinkedBrowser",
+   "since": "2026-11-15T07:56Z"
+  },
+  {
+   "screen": "MavLink Settings",
+   "since": "2026-11-15T09:47Z"
+  },
+  {
+   "screen": "MGRS Entry",
+   "since": "2026-11-15T09:54Z"
+  },
+  {
+   "screen": "PayloadSplitter",
+   "since": "2026-11-15T09:55Z"
+  },
+  {
+   "screen": "Mav Chat Sheet",
+   "since": "2026-11-15T12:58Z"
+  },
+  {
+   "screen": "Mav Chat Route",
+   "since": "2026-11-15T13:01Z"
+  },
+  {
+   "screen": "Chat/Details",
+   "since": "2026-11-15T13:57Z"
+  },
+  {
+   "screen": "Notifications",
+   "since": "2026-11-15T14:46Z"
+  },
+  {
+   "screen": "iOS Background",
+   "since": "2026-11-15T15:01Z"
+  },
+  {
+   "screen": "Cars",
+   "since": "2026-11-15T17:17Z"
+  },
+  {
+   "screen": "Drone",
+   "since": "2026-11-15T17:17Z"
+  },
+  {
+   "screen": "Video Restreaming",
+   "since": "2026-11-15T19:23Z"
+  },
+  {
+   "screen": "DJI WebRTC",
+   "since": "2026-11-15T19:23Z"
+  },
+  {
+   "screen": "Web Mercator Sync",
+   "since": "2026-11-15T19:23Z"
+  },
+  {
+   "screen": "Long press wave",
+   "since": "2026-11-15T19:55Z"
+  },
+  {
+   "screen": "List Picker",
+   "since": "2026-11-16T03:08Z"
+  },
+  {
+   "screen": "SDC Ping",
+   "since": "2026-11-16T06:29Z"
+  },
+  {
+   "screen": "Settings/Windows/Install on another device",
+   "since": "2026-11-16T11:31Z"
+  },
+  {
+   "screen": "Video preview",
+   "since": "2026-11-16T13:24Z"
   }
  ],
- "source_revision": "7174a0d3b6392c79ecc43169e2d5a9668931e37c"
+ "source_revision": "090512bfb842af81af550036a5e2bac34537c4f9"
 }
