@@ -22282,16 +22282,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_GROUND",
-     "since": "2026-11-16T23:17Z",
-     "noted": "2026-11-16T23:17Z",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Route each depth point to mesh, terrain or splat by the SPEC rule",
@@ -22312,14 +22303,14 @@
    ],
    "notes": [
     {
-     "by": "CODEX_MAC_GROUND",
-     "at": "2026-11-16T23:17Z",
-     "text": "Investigated next increment: FIN3 transports and persists terrain as one baked triangle region (2,304-vertex limit). Implement a bounded offset-map packet and owner, vertex-displaced subdivided plane and Origami projection, then version sav"
-    },
-    {
      "by": "CODEX_MAC_HEIGHTMAP",
      "at": "2026-11-16T23:31Z",
      "text": "FIN4 terrain owner, SVM9 compatibility, vertex displacement and overlay depth bias published bae63ef292. Unity Editor compiled; focused EditMode tests 4/4; Roslyn NEW ERRORS: none. Windows RTX capture and actual overlay render remain unveri"
+    },
+    {
+     "by": "CODEX_MAC_GROUND",
+     "at": "2026-11-16T23:32Z",
+     "text": "Published bae63ef292: depth ground hits form bounded 0.5 m offset grid; FIN4, vertex displacement, Origami paint and SVM9 persistence, SVM8 retained. Python 9/9, isolated Unity 4/4, Editor compile and Roslyn clean. Native RTX/GPU render not"
     }
    ]
   },
@@ -23062,5 +23053,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "10c41d59f9ed26c6892d540538c1e624033595b1"
+ "source_revision": "f8f18d2ba710da9f21da3734f8a906dcd7d35efc"
 }
