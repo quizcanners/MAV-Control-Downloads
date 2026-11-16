@@ -20245,25 +20245,22 @@
   {
    "n": 1304,
    "name": "Find what moves the Peers Exit group button down while the Peers panel is folded by swipe. Read so far",
-   "done": "",
+   "done": "2026-11-16T07:35Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T07:26Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T07:35Z",
+     "text": "Published e1cb9362a9. Direct cause: the swipe placement recalculated the panel top if the rail switched. Deeper reason: the slide and rail layout shared a rectangle write, and the Peers header had a second runtime y owner. Frozen rail place"
+    }
+   ]
   },
   {
    "n": 1305,
@@ -20382,5 +20379,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ab9f1e2cac7782b27aa0811fdf37ffa7d4183412"
+ "source_revision": "cf0a7a533aa2d83071107a03354026d1a6ceef07"
 }
