@@ -3217,7 +3217,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-16T01:54Z",
+     "noted": "",
+     "progress": 17,
+     "ticked": 1,
+     "total": 6
+    }
+   ],
    "steps": [
     {
      "t": "CLOUD_BOARD 2026-11-14: stripped 669 bare '(quiz, date)' tags, removed 750 parenthetical quotes, 170 quote blocks and 272 heading tags (anchors and links renamed) from SPEC/AGENTS files, guide_check 0",
@@ -5826,7 +5835,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-16T01:50Z",
-     "noted": "",
+     "noted": "2026-11-16T01:55Z",
      "progress": 50,
      "ticked": 2,
      "total": 4
@@ -5863,8 +5872,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-16T01:48Z",
-     "text": "Published 7aa7447152. Shutdown cancels waiting and recording Performance Capture without another sample. It releases the allocation recorder, mask scope subscriptions and coupled VPN receiver. Prior fixes are 3037dace35 (FPV), f8f0ba00d2 (f"
+     "at": "2026-11-16T01:55Z",
+     "text": "Published 2b22028e37. WakeRegister clears both pending and held reports on Station shutdown and next start. Six host controls ran the actual register and Unity math. 7aa7447152 stops Performance Capture, 3037dace35 releases FPV, f8f0ba00d2 "
     }
    ]
   },
@@ -19555,5 +19564,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "73b9656d78f687f779c5e405ef34ba971a9cd061"
+ "source_revision": "e0b14c3381d693a00ace60a36cdbd9c88f0a469d"
 }
