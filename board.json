@@ -5752,7 +5752,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-16T05:07Z",
-     "noted": "",
+     "noted": "2026-11-16T05:11Z",
      "progress": 50,
      "ticked": 2,
      "total": 4
@@ -5789,8 +5789,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-16T05:06Z",
-     "text": "Published 51be820a7f. Spout retires the temporary diagnostic texture on setup failure and drains its GPU readback before receiver shutdown."
+     "at": "2026-11-16T05:11Z",
+     "text": "Published a3faf65ebc. Stream Preview drains its owned GPU readback before shutdown returns and releases its pooled target without publishing the frame."
     }
    ]
   },
@@ -20020,5 +20020,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "86b394a99b30b2afd813e7599ddc950609f785a9"
+ "source_revision": "344bfa15e5e19f8f5b41ffb0a7767c33fb20a0cf"
 }
