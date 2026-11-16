@@ -5339,16 +5339,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T11:18Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -5380,8 +5371,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-16T11:15Z",
-     "text": "Published bcf9a7a104. Station shutdown now clears UI pointer EventSystem and hover references, flick ownership, frame gates and press diagnostics. Unity compiled the runtime change. Direct in-Editor probe confirmed old EventSystem, hover an"
+     "at": "2026-11-16T11:25Z",
+     "text": "Published 418069f7c1: map pointer drops EventSystem and mouse/stylus/touch state when input stops, and clears raycast hit references after each query. Native Play probe passed UI hit, miss and teardown. Following an explicit in-Play script-"
     }
    ]
   },
@@ -21042,5 +21033,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "cd514cdfcd5b5799ae441622ed41bc785b098722"
+ "source_revision": "6c6e7c190c515553647fd86203a02123d7acdb93"
 }
