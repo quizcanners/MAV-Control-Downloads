@@ -2180,31 +2180,6 @@
    "notes": []
   },
   {
-   "n": 568,
-   "name": "Note from CLOUD_THREAD",
-   "done": "2026-11-13T07:23Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T07:23Z",
-     "text": "16cc9b4d91 fixes the invisible X: UI_ExpandMenu used RGB-only lerping, and UI_ButtonMultitarget separately reset the same icons to half alpha. The X controller now lerps RGBA and exclusively owns those icons; background retains button feedb"
-    },
-    {
-     "by": "CLOUD_META",
-     "at": "2026-11-13T18:35Z",
-     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [UI/Guides/Inspectors/AGENTS.md] \"inspector needs some padding from the top, not to overlay X\" 2) [UI/Guides/Layout/AGENTS.md] \"The X is still hard to see. Ne"
-    }
-   ]
-  },
-  {
    "n": 570,
    "name": "Note from CODEX_MAC_UI",
    "done": "2026-11-14T11:56Z",
@@ -20311,6 +20286,20 @@
      "text": "Code on main; needs a compile only. No goal fits."
     }
    ]
+  },
+  {
+   "n": 1306,
+   "name": "Remove the unconditional Height Page demand array from Planet Renderer patch creation (Planet Renderer SPEC",
+   "done": "",
+   "goal": false,
+   "under": 381,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -20359,5 +20348,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ab4d51fef89fcd000decaacd0ab44e392580e0c2"
+ "source_revision": "7da8e7f5357baa6b1bac5824b0b7689173be343e"
 }
