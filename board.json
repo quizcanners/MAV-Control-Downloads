@@ -21964,7 +21964,7 @@
   {
    "n": 1402,
    "name": "Synthetic drone projector pitch and grounded 3D Street View camera height",
-   "done": "",
+   "done": "2026-11-16T17:31Z",
    "goal": false,
    "under": 0,
    "ticks": [
@@ -21975,16 +21975,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-16T17:22Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Wire the model projector to camera pitch",
@@ -21999,7 +21990,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-16T17:31Z",
+     "text": "184832cc26 on main. Synthetic Projector uses camera pitch and aircraft bearing."
+    }
+   ]
   }
  ],
  "verify": [
@@ -22532,5 +22529,5 @@
    "since": "2026-11-16T13:24Z"
   }
  ],
- "source_revision": "0fd704671a5b88707d9f4aaf54f312e89357da1b"
+ "source_revision": "3d34f62be54987ee80071a0328021a2471a52465"
 }
