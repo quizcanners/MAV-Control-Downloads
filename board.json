@@ -19123,29 +19123,25 @@
   {
    "n": 1237,
    "name": "Repair Crypto Envelope Reader and iPhone Background Chat fixture drift on Windows. Preserve fast-read parity and assert the approved ten-second position cadence",
-   "done": "",
+   "done": "2026-11-16T00:38Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T00:27Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
      "at": "2026-11-16T00:26Z",
      "text": "Published 7da4f64e3b. Roslyn NEW ERRORS: none. Crypto envelope uses a direct Newtonsoft oracle. The iPhone fixture/SPEC match the fixed ten-second cadence and retained fix timestamp. guide_check: 0 errors. Standalone IosBackgroundWorker hos"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-16T00:38Z",
+     "text": "Rog Unity 6000.6.8f1: Crypto Envelope Reader 5/5 plus both iPhone cadence/fix tests. e2615de0a0 builds on 552e2eae6d and adds wake-deadline and GPS-stop-on-rejected-config checks while retaining authenticated Chat and explicit trust revocat"
     }
    ]
   },
@@ -19206,14 +19202,20 @@
     {
      "who": "HEAVY",
      "since": "2026-11-16T00:34Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-16T00:38Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-16T00:38Z",
+     "text": "Published 4be804f9c6. The WindowsPlayer host links the unchanged production heartbeat policy and current Agent Channel/catalog owners. 43 desktop controls and 286 mobile controls each under UNITY_ANDROID and UNITY_IOS passed. Roslyn NEW ERR"
+    }
+   ]
   }
  ],
  "verify": [
@@ -19262,5 +19264,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "65047e50052528cd4d4586f6c5d01c9797b172b6"
+ "source_revision": "41eac54902f1c747b39f59921e9c115617ce6765"
 }
