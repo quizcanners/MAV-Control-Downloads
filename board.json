@@ -2379,36 +2379,6 @@
    ]
   },
   {
-   "n": 602,
-   "name": "Suggestions panel",
-   "done": "2026-11-13T18:58Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T17:52Z",
-     "text": "The existing Suggestions Backing and action rows share RIGHT Suggestions.prefab. Left list flick is UI_LeftListSwipeAway; screen-center intent is Station.UI.RequestedSuggestionTab, but MavChatCenterDefault forces ScreenCenter in Navigation "
-    },
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T18:57Z",
-     "text": "bd615c6be1: Suggestions follows rightward drag/flick, clears selection and dismisses the screen-center tab; MavChat landscape can reopen its default center. Unity compiled, 59 Search/Suggestions tests and 2 swipe/prefab tests passed; Roslyn"
-    },
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T19:06Z",
-     "text": "Follow-up 9f46bca259 removed the edge-arrow obstruction: in the live Editor, a scripted mouse drag on the Suggestions action row dismissed screen center without firing the action; the arrow remained hittable outside the panel. Touch-device "
-    }
-   ]
-  },
-  {
    "n": 606,
    "name": "Every SPEC.md and AGENTS.md reads as clean, organized rules with no quiz quotes or '(quiz, date)' tags; the quotes live in board tasks only",
    "done": "",
@@ -2499,26 +2469,6 @@
      "by": "ROG_FABLE",
      "at": "2026-11-13T18:55Z",
      "text": "ROG_FABLE: main compiles again in the Unity Editor (Editor and test assemblies) after the Singleton_GroundStation/Station split: 197eb306a2 (fields put back in Singleton_GroundStation, Roadmap messages back in VPN_Messages, moved classes qu"
-    }
-   ]
-  },
-  {
-   "n": 609,
-   "name": "Repair Editor compile after Bootstrap and Roadmap type extraction on main; no goal fits this prerequisite.",
-   "done": "2026-11-13T18:59Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T18:59Z",
-     "text": "197eb306a2 and 1388170a97 already supplied the Bootstrap extraction compile repair and folder metadata from another worker; b9998feff3 adds non-debug test guards exposed by the platform comparison. Unity compiled; loading 6/6 and roadmap ca"
     }
    ]
   },
@@ -22062,7 +22012,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_UI_NEXT",
+     "since": "2026-11-16T18:59Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -22663,5 +22622,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "c9b2c7b10a7f04fe9f41db7f737d00af2b321efd"
+ "source_revision": "6772f0f837409c01e7d2c49f51a251b645b29bb9"
 }
