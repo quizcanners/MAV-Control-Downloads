@@ -5868,7 +5868,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-16T01:36Z",
-     "noted": "",
+     "noted": "2026-11-16T01:39Z",
      "progress": 50,
      "ticked": 2,
      "total": 4
@@ -5905,8 +5905,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-16T01:34Z",
-     "text": "Published f8f0ba00d2 for frame-gap diagnostics. Shutdown detaches six Unity/Editor callbacks and clears the labels. Twelve host controls passed with simulated events. c7bf4dd2de also removes the old Ground Station low-memory callback. Rosly"
+     "at": "2026-11-16T01:39Z",
+     "text": "Published 3037dace35. Input shutdown disposes the runtime FPV asset and clears the wrapper. Input System retains its project-wide UI/Core asset. Added InputShutdownReleasesTheOwnedFpvAsset. f8f0ba00d2 detaches the frame-gap callbacks and cl"
     }
    ]
   },
@@ -19566,5 +19566,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "aa98a8fb3b1c2a99620a4d3d66c30b99436445a3"
+ "source_revision": "8aa7880c6129305916887b35920cc07b726f893f"
 }
