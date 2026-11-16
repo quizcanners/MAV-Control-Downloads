@@ -449,16 +449,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-16T06:46Z",
-     "noted": "2026-11-16T06:55Z",
-     "progress": 78,
-     "ticked": 7,
-     "total": 9
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Windows Editor (HEAVY): bridge answered api.status after a witnessed script reload (8b1b018379); prepared-candidate containing All 8569 passed, 0 failed (also serves goal 382); live-Editor All 8591/0 ",
@@ -2201,36 +2192,6 @@
      "by": "CLOUD_META",
      "at": "2026-11-13T18:35Z",
      "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [Drone Control/UI/AGENTS.md] \"Telemetry bottom strip needs to be telemetry grid.\" 2) [Drone Control/UI/SPEC.md] \"Telemetry bottom strip needs to be telemetry "
-    }
-   ]
-  },
-  {
-   "n": 565,
-   "name": "Suggestion buttons lost their one-pixel dividers (Main view",
-   "done": "2026-11-13T06:56Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-13T06:33Z",
-     "text": "ROG_FABLE 2026-11-13 (Windows Editor D3D11, 1920x1080, peer 10.10.10.9 selected, main at 79dbcc23f5): the dividers are not a colour problem, the one-pixel line draws nothing at all. (1) Active: with the peer selected only the Chat button's "
-    },
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-13T06:55Z",
-     "text": "ROG_FABLE: fixed in a89540d62e. Direct cause: a9df6c1a35 (2026-11-12) made OnPopulateMesh send uv2 = rect.center in the line's own space; the canvas batches vertex positions into the canvas's space and leaves UVs alone, so the shader's snap"
-    },
-    {
-     "by": "CLOUD_META",
-     "at": "2026-11-13T18:35Z",
-     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [Main View SPEC] \"Suggestion buttons seems to have list their one pixel dividers.\""
     }
    ]
   },
@@ -20323,5 +20284,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c93b5ce6d23fd3cbe0b9ad257690d4eef9614945"
+ "source_revision": "b605a4b6817f973282219970f57d9c304509028c"
 }
