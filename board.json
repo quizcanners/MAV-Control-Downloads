@@ -21780,16 +21780,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAVCHAT_EDITOR",
-     "since": "2026-11-16T22:49Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -21801,6 +21792,11 @@
      "by": "CODEX_MAC_ROW",
      "at": "2026-11-16T19:04Z",
      "text": "Current main hides the peer row body in Chat and uses a separate previous-row separator; a Mac regular-Chat screenshot does not reproduce the reported MavChat portrait row. Needs affected group row on a phone/current build before selecting "
+    },
+    {
+     "by": "CODEX_MAVCHAT_EDITOR",
+     "at": "2026-11-16T22:52Z",
+     "text": "Inspected the live Editor prefab: Chat suppresses Button Dark Opaque block while Row Light and the independent Previosu Separator remain; the light also owns selection/hover, and removing it would break those states. Current source/prefab m"
     }
    ]
   },
@@ -23002,5 +22998,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "1561c3bdc5e88cb4b6643f9337c5f52a8800078c"
+ "source_revision": "ef46c88c9ed3026f6107f5e22bb88af510e66e9c"
 }
