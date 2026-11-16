@@ -2256,33 +2256,6 @@
    ]
   },
   {
-   "n": 566,
-   "name": "Non-interacting (quiet) plaques keep their shadow",
-   "done": "2026-11-13T06:01Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Rog: Clock.prefab got the plaque shadow (88ec78793a); MGRS Coordinate Entry.prefab NormalOnly no longer lists 'UI BG Shadow', Quiet Background kept (4352b2596a)",
-     "x": true
-    },
-    {
-     "t": "Rog: Transmit Map Center Button shadow left NormalOnly, ScreenCoverLifetimeTests asserts it stays while quiet (092de64cd3, 5cafa40abf), 52/52",
-     "x": true
-    },
-    {
-     "t": "Cloud: any other quiet plaque with no shadow object gets one the same way",
-     "x": false
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 567,
    "name": "using Strong for Android Test 829 smoke",
    "done": "2026-11-13T07:58Z",
@@ -20127,25 +20100,22 @@
   {
    "n": 1290,
    "name": "Restore the portable Direct USB GeoTIFF receive failure checks after the Data Sync controller merge. Run current ownership and cleanup assertions and retain the historical falsifiers.",
-   "done": "",
+   "done": "2026-11-16T06:02Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T06:00Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T06:02Z",
+     "text": "Published 40a0f04fc2. GeoTIFF host now uses current Direct USB Maps, Transport and Street View owners, pins disposal handoff through the controller, and keeps the original historical source and mutation assertions. Current .NET host passed "
+    }
+   ]
   }
  ],
  "verify": [
@@ -20194,5 +20164,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c519d4480ec61bb51bdec8a2b3481500734abce3"
+ "source_revision": "b99e54719be6ec550e46e772ab5568856a11c9a5"
 }
