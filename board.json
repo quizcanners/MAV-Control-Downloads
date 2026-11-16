@@ -20187,25 +20187,22 @@
   {
    "n": 1296,
    "name": "Using Strong to isolate masked drawing in fast zoom",
-   "done": "",
+   "done": "2026-11-16T06:45Z",
    "goal": false,
    "under": 429,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-16T06:32Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-16T06:45Z",
+     "text": "Strong signed Dev 848 433b4a7754d4. Twelve matched fast pinches with source-frame GPU timing across Normal, NoMasks and NoWater are published in GPU.md a363648bba. Original pose and Normal rendering and pacing restored. Device Health PASS a"
+    }
+   ]
   },
   {
    "n": 1297,
@@ -20297,5 +20294,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "769ab573627b60a378e153ab64750ed33e90d02b"
+ "source_revision": "04a994ed47cea45c1f9da1f56c3579089af9985d"
 }
