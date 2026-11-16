@@ -20975,29 +20975,25 @@
   {
    "n": 1345,
    "name": "Remove the Settings top gap while preserving right clearance for the X",
-   "done": "",
+   "done": "2026-11-16T11:44Z",
    "goal": false,
    "under": 409,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_UI",
-     "since": "2026-11-16T11:42Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
      "at": "2026-11-16T11:27Z",
      "text": "User redirected this request to the UI thread. No edits made here. The Settings top inset is set from the X bottom in C_GroundStation_Inspector.RefreshWindowGeometry; preserve the existing right inset."
+    },
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-16T11:44Z",
+     "text": "Already fixed on main by 084c2224be: fixed 16 px top padding and X-derived right clearance, with TopControlsLayoutTests and Settings visual check updated. Corrected contradictory layout-guide heading in 2f65d82de8. Native check remains due."
     }
    ]
   },
@@ -21091,5 +21087,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e2253ac39a8ab1cfa36273107c31135d4460c99f"
+ "source_revision": "9382ac7fe619dd08e8579eb9a3d1d341ce158088"
 }
