@@ -4779,6 +4779,11 @@
      "by": "ROG",
      "at": "2026-11-15T18:05Z",
      "text": "Published 3a12cd400d. Rog Windows Editor held FrozenDouble at idle throughout the sampled window. See Performance Baseline/CPU.md and private receipt. app.lifecycle now includes the Point wake in active reasons. Unity wake regression and fo"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-16T05:09Z",
+     "text": "57a0f89b9e records four authenticated Strong Dev 848 pairs over 26 s, no tablet input. Normal, MapStatic and FrozenDouble throughout; last wake Layer. Mask revision 45,473 and all cause counts stayed fixed (f3483f49c9 instrumentation). Recu"
     }
    ]
   },
@@ -8396,26 +8401,6 @@
     }
    ],
    "notes": []
-  },
-  {
-   "n": 857,
-   "name": "On an Android device",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T05:09Z",
-     "text": "57a0f89b9e records four authenticated Strong Dev 848 pairs over 26 s, no tablet input. Normal, MapStatic and FrozenDouble throughout; last wake Layer. Mask revision 45,473 and all cause counts stayed fixed (f3483f49c9 instrumentation). Recu"
-    }
-   ]
   },
   {
    "n": 858,
@@ -21033,5 +21018,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "6c6e7c190c515553647fd86203a02123d7acdb93"
+ "source_revision": "ea94bcee51336895a61ab023ae5c6a6662f8bac5"
 }
