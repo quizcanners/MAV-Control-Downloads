@@ -21732,23 +21732,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MGRS_CLICK",
-     "since": "2026-11-16T21:08Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_UI_BOARD",
-     "at": "2026-11-16T17:55Z",
-     "text": "Published 3a7021d51f: history arrows were overlapping Ping and Clear by 18 units; reduced and placed in the 8-unit gaps with 1-unit clearance. Geometry checked; current-main Editor visual check remains due because this checkout has older lo"
-    },
     {
      "by": "CODEX_MGRS_VIEW",
      "at": "2026-11-16T19:39Z",
@@ -21758,6 +21744,11 @@
      "by": "CODEX_MGRS_NEXT",
      "at": "2026-11-16T20:14Z",
      "text": "Current synced Editor: MgrsHistorySwipeTests 22/22 passed, including Next-arrow availability and navigation for both prefabs. The Next arrow was not visually observed in a populated live history. Play stopped; normal identity restored."
+    },
+    {
+     "by": "CODEX_MGRS_CLICK",
+     "at": "2026-11-16T21:12Z",
+     "text": "Isolated KSP Editor: entered two points and recalled an older one; previous=True/next=True and both arrows rendered at 6\u00d710. Live bounds show ~1.28 px clearance from Ping and Clear at 2506\u00d71380. Cleared isolated history, stopped Play, resto"
     }
    ]
   },
@@ -22903,5 +22894,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "ff935ad1c846a83c33959d2b12476078a98a9e41"
+ "source_revision": "f23c5118c705d16b703ac8f683e152e2c04043fb"
 }
