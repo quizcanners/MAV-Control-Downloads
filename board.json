@@ -1480,7 +1480,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_GEOTIFF_PERF",
+     "since": "2026-11-16T22:04Z",
+     "noted": "",
+     "progress": 22,
+     "ticked": 2,
+     "total": 9
+    }
+   ],
    "steps": [
     {
      "t": "Cloud, on main: startup cuts, Patch Preparation (32a9302f, 55dbede20d), hand-written heartbeat reader, skip sealing for nine hash types (build 818), 4 Hz crypto handshake only while a peer has no key,",
@@ -22957,5 +22966,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "4545d0ab122cbc7b66a0063f2e2c492868b921d2"
+ "source_revision": "c220f0de4223a076dad0a68d8aacfe891c7b4903"
 }
