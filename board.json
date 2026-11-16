@@ -1441,16 +1441,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_UI",
-     "since": "2026-11-16T12:14Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Tasks screen on main: cached board, one 'Offline \u00b7 last updated hh:mm \u00b7 Retry' row with backoff to 5 min and a loading bar; Retry row prints the real read state (ffb970edc3). The board is read from bo",
@@ -1477,8 +1468,8 @@
     },
     {
      "by": "CODEX_MAC_UI",
-     "at": "2026-11-15T16:41Z",
-     "text": "Editor MapOnly at 1253\u00d7765: actual mouse click just to the right of the visible Task Board Back arrow returned to DevMode, exercising its widened area. No in-app board writes attempted; write route still awaits quiz."
+     "at": "2026-11-16T12:25Z",
+     "text": "Task 1353 published 531490248e: task chevron and progress bar share one aligned clickable row, original width retained. Mac Editor Play confirmed chevron open/close and bar click; Roslyn NEW ERRORS: none. Settings/DevMode/Tasks visual check"
     }
    ]
   },
@@ -21199,5 +21190,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "aab2113bc1a207937c8871bbba37b6ddc8595e20"
+ "source_revision": "f4146522e709237903cc4b662a1788c12a91774f"
 }
