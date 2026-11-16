@@ -20806,22 +20806,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_CONNECTED_ROW",
-     "since": "2026-11-16T21:32Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_MAC_DRONE_ROW",
      "at": "2026-11-16T17:46Z",
      "text": "Published ee2c6e751a20: removed the two unused prefab objects and stale serialized references; verified removed IDs have no remaining references. Play check deferred: this checkout still has older row code than main."
+    },
+    {
+     "by": "CODEX_CONNECTED_ROW",
+     "at": "2026-11-16T21:36Z",
+     "text": "Isolated KSP Editor: Synthetic drone row without video rendered standard selected panel and preview_enabled=False; local test video produced a live row picture with glass and preview_enabled=True/texture bound. Stopped video and synthetic d"
     }
    ]
   },
@@ -22908,5 +22904,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "7cb7868d9fdb22267bdc3ff13bfabc38e68d6504"
+ "source_revision": "7f669bd36fd796d4078a86fe797c5ff8ab7ee835"
 }
