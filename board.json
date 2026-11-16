@@ -22282,16 +22282,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_GROUND",
-     "since": "2026-11-16T22:57Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Route each depth point to mesh, terrain or splat by the SPEC rule",
@@ -22310,7 +22301,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_GROUND",
+     "at": "2026-11-16T23:08Z",
+     "text": "Published 5825006a3b: live/save classifier shares signed Planet-ground clearance and the specified 0.15 m boundary; unknown coverage remains eligible. Focused worker tests 5/5 with numpy/scipy/OpenCV; reconstruction inference stubbed. Remai"
+    }
+   ]
   },
   {
    "n": 1431,
@@ -23022,7 +23019,11 @@
   {
    "screen": "Photo",
    "since": "2026-11-16T17:46Z"
+  },
+  {
+   "screen": "3D Street View",
+   "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "5d967e66ab3ca72207efa5b03ca42ad5c0c9ef82"
+ "source_revision": "2c6ef38f6e9f92f9f95a76ca734bf84aa399cf01"
 }
