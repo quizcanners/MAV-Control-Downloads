@@ -21706,23 +21706,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_PHOTO_FOLLOWUP",
-     "since": "2026-11-16T20:44Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_PHOTO_BOTTOM",
-     "at": "2026-11-16T18:07Z",
-     "text": "Published dd9f3a5aee: Paint/Search now anchor bottom-left independently of the top-anchored video column; updated author paths and resize regression test. Serialized hierarchy verified. Editor/test execution and final shadow appearance rema"
-    },
     {
      "by": "CODEX_MAC_VERIFY",
      "at": "2026-11-16T18:54Z",
@@ -21732,6 +21718,11 @@
      "by": "CODEX_PHOTO_VIEW",
      "at": "2026-11-16T19:27Z",
      "text": "Editor MapOnly KSP Video view: Paint/Search joined at physical bottom-left, quiet and hovered; shadow merge vectors correct. In Map Editing Photo view Search is hidden while editing tools are active, so Photo-specific Search-visible state r"
+    },
+    {
+     "by": "CODEX_PHOTO_FOLLOWUP",
+     "at": "2026-11-16T20:46Z",
+     "text": "Synced Editor: PaintSelectPreviewUnitTests 3/3 passed, including fixed bottom Paint/Search across preview changes. In Map Editing, Search is intentionally suppressed while editing tools are shown (MapPointSurfaceAvailableWithoutPopup); prio"
     }
    ]
   },
@@ -22891,5 +22882,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "ef69fe2ba360adb63ae3e3a4fe384dd3ba27742b"
+ "source_revision": "512a5d9f4a81805c765c3aa670fc5e9ba9ffdafd"
 }
