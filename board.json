@@ -3079,16 +3079,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T03:27Z",
-     "noted": "",
-     "progress": 25,
-     "ticked": 1,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: early break for VPN down in Peer.CanUseSyncConnection (a1614a81); Diagnostics, Startup, Persistence, FrameRate, Scheduler out of Singleton_GroundStation (e2b75667); Station split (18df70da); ",
@@ -3115,8 +3106,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-16T03:25Z",
-     "text": "3ba13b7d17 routes only remote.* to Remote Sensors and moves the type handler out of Station to RemoteSensorsDiagnostics, preserving command parsing, replies and checkpoint behavior. Rog Unity compiled and RemoteSensorTypeTests passed 9/9 wi"
+     "at": "2026-11-16T03:30Z",
+     "text": "3fabfa92ee moves workflow.set and workflow.reveal from the AI Sandbox switch to the workflow state owner. Replies, platform guards and the runtime readiness check remain as before. Rog compiled and WorkflowPersistenceTests passed 5/5 under "
     }
    ]
   },
@@ -5844,7 +5835,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-16T03:31Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -19715,5 +19715,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "714234206515a3bd5f8e696d441354054146aad6"
+ "source_revision": "05d68f6ef8a87cb6fe1d1bd82602ce84a9a85e4d"
 }
