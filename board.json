@@ -1441,7 +1441,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MAC_UI",
+     "since": "2026-11-16T12:14Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Tasks screen on main: cached board, one 'Offline \u00b7 last updated hh:mm \u00b7 Retry' row with backoff to 5 min and a loading bar; Retry row prints the real read state (ffb970edc3). The board is read from bo",
@@ -21196,5 +21205,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "89fed4cd9d3ea3817ae2d15cf8fc5f5c20ea2be3"
+ "source_revision": "c93475b7c48420e3cbd54b0eb4ba73cb98bc2efd"
 }
