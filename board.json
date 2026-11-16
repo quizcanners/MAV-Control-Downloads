@@ -2312,31 +2312,6 @@
    ]
   },
   {
-   "n": 599,
-   "name": "Share screen center",
-   "done": "2026-11-13T18:20Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T17:44Z",
-     "text": "Investigated: Share uses List Capsule Body / LiquidGlassCapsule shader; normal glass brightens the blur with (glass + 0.02) * 1.25, unlike neighboring squircle controls. Quiet mode replaces its material via MavControlVisual, so changing the"
-    },
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T18:20Z",
-     "text": "1c7d02afb8 darkens only the Share screen center capsule using its scoped glass material; shared capsules retain their prior brightness and the selected black and quiet paths remain. Unity shader reports no errors, prefab bindings and select"
-    }
-   ]
-  },
-  {
    "n": 600,
    "name": "Move the rest of the AI Sandbox dispatcher commands and the Station classes to the systems that own them",
    "done": "",
@@ -22097,6 +22072,20 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1411,
+   "name": "Prefab",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -22641,5 +22630,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "80e8b2f202ec77ccb4fb8f75b23e8a4f67563e6d"
+ "source_revision": "ed07f2a2c5de666457fc39b4aade4f6fce0c4b69"
 }
