@@ -2667,7 +2667,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-16T09:29Z",
+     "noted": "",
+     "progress": 25,
+     "ticked": 1,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "On main: early break for VPN down in Peer.CanUseSyncConnection (a1614a81); Diagnostics, Startup, Persistence, FrameRate, Scheduler out of Singleton_GroundStation (e2b75667); Station split (18df70da); ",
@@ -20444,5 +20453,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "14676a04a60706621dac052abe4544d6cb46450d"
+ "source_revision": "9e776fa845c882e4bcc414b851dd247d74302743"
 }
