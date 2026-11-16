@@ -2211,7 +2211,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MAC_FREEZE",
+     "since": "2026-11-16T17:56Z",
+     "noted": "",
+     "progress": 67,
+     "ticked": 2,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "223de4e530 removes a real hang risk: per-step while loops could run indefinitely on non-finite or extreme touch coordinates; panel-step updates are constant time with the same 60/40 thresholds, invali",
@@ -2455,26 +2464,6 @@
      "by": "CODEX_MAC_UI",
      "at": "2026-11-13T19:06Z",
      "text": "Follow-up 9f46bca259 removed the edge-arrow obstruction: in the live Editor, a scripted mouse drag on the Suggestions action row dismissed screen center without firing the action; the arrow remained hittable outside the panel. Touch-device "
-    }
-   ]
-  },
-  {
-   "n": 603,
-   "name": "Screen-center coordinates",
-   "done": "2026-11-13T17:57Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T17:57Z",
-     "text": "4b70da4565: screen-center MGRS value opens the existing coordinate editor; valid changed coordinates focus the camera, the separate copy button remains. Unity recompiled; Roslyn comparison to checkout HEAD NEW ERRORS: none. Camera movement "
     }
    ]
   },
@@ -21568,7 +21557,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_UI_BOARD",
+     "since": "2026-11-16T17:57Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -21991,7 +21989,7 @@
   {
    "n": 1403,
    "name": "Notifications",
-   "done": "",
+   "done": "2026-11-16T17:55Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -22174,5 +22172,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c1d3a9bb0442578fe6859a60c2b0ae2f2eafb1e0"
+ "source_revision": "4db01269fe845d357c27a38ded29c3a2081bc5bc"
 }
