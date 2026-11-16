@@ -21568,23 +21568,10 @@
      "progress": 0,
      "ticked": 0,
      "total": 0
-    },
-    {
-     "who": "CODEX_MAC_UI_TESTS",
-     "since": "2026-11-16T14:53Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_MAC_UI_TESTS",
-     "at": "2026-11-16T14:48Z",
-     "text": "Added RemoteDroneSuggestionTests for exact remote-drone eligibility, tab changes, preview and photo frame identity, stale/current photo presses, and prefab bindings. Editor tests not run by this worker; parent coordinates recipe and executi"
-    },
     {
      "by": "CODEX_REMOTE_DRONE_STATE",
      "at": "2026-11-16T14:50Z",
@@ -21594,6 +21581,11 @@
      "by": "CODEX_REMOTE_DRONE_UI",
      "at": "2026-11-16T14:58Z",
      "text": "Strict exact-drone video capture applies only to Suggestions video-tab Grab photo; other capture callers keep their prior fallback order. Queued strict remote camera requests retain and revalidate the selected peer and serial. Parent report"
+    },
+    {
+     "by": "CODEX_MAC_UI_TESTS",
+     "at": "2026-11-16T14:59Z",
+     "text": "Parent ran 15 RemoteDroneSuggestionTests successfully, including 720-high prefab geometry and strict photo fallback. Added queued peer/serial retarget test after that run; parent will run it. No Editor held."
     }
    ]
   },
@@ -21687,5 +21679,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "822e97088de7e97313cc2514e2f5d330aae8bfa0"
+ "source_revision": "3c38d2ddc1444e99188488b1e97af12f5e2c8b69"
 }
