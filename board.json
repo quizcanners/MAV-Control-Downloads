@@ -20303,7 +20303,7 @@
   {
    "n": 1312,
    "name": "Mesh the RTX Visual Odometry reconstruction into 3D cells with camera-distance LODs",
-   "done": "",
+   "done": "2026-11-16T08:40Z",
    "goal": false,
    "under": 0,
    "ticks": [
@@ -20314,16 +20314,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-16T08:28Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Triangulate depth into independent colored cells",
@@ -20338,7 +20329,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-16T08:40Z",
+     "text": "3c9b51a3bb adds depth triangulation and three LODs for independent cubic cells."
+    }
+   ]
   },
   {
    "n": 1313,
@@ -20401,5 +20398,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "57c996849983ed4ff72d70334a65db60a096b932"
+ "source_revision": "feb7e5054effd023498411ef0b0a6c9ed3311cee"
 }
