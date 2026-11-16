@@ -20226,25 +20226,22 @@
   {
    "n": 1299,
    "name": "Refresh live SQLite file sizes in each Web Mercator retention sample while a logical map drains. Reuse only the old segment census and keep the quarter-map reserve and cancellation contracts.",
-   "done": "",
+   "done": "2026-11-16T07:03Z",
    "goal": false,
    "under": 430,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T06:55Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T07:03Z",
+     "text": "Published 6abb671268. Logical drain samples the live master and tiles.sqlite files plus sidecars each turn. Only legacy segments use the 15-second census; legacy writes and writer close invalidate it. Real-file host reproduced CR-E7ED-01, 6"
+    }
+   ]
   }
  ],
  "verify": [
@@ -20293,5 +20290,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f2e9d9332a220999c328dc459f060954cd0541bd"
+ "source_revision": "3fdf3c7aac93dea3f95d4522dc9c0c1613e44697"
 }
