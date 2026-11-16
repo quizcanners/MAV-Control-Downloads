@@ -19797,14 +19797,20 @@
     {
      "who": "ROG",
      "since": "2026-11-16T04:19Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-16T04:21Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T04:21Z",
+     "text": "Published ae1bb15dee. The host tests use native absolute paths for default and custom isolated candidate roots, reject relative overrides before launch, and run the real macOS skip parser in host Bash (Git Bash on Windows). Rog passed 2/2 w"
+    }
+   ]
   }
  ],
  "verify": [
@@ -19853,5 +19859,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e7eaa4f876656c711c07924d7424732b39535621"
+ "source_revision": "7c2ee7c28efa16857d9bfcef754d63fd288fa2df"
 }
