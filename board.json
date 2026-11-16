@@ -20684,25 +20684,22 @@
   {
    "n": 1331,
    "name": "Drone selection pseudo-decal",
-   "done": "",
+   "done": "2026-11-16T10:24Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_MAPVIS",
-     "since": "2026-11-16T10:19Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_MAPVIS",
+     "at": "2026-11-16T10:24Z",
+     "text": "Published 4529f5f8fa: drone selection routes to the existing after-blur pass, and registers its depth reader. Layer filtering checked; Editor compilation succeeded; visual check pending."
+    }
+   ]
   },
   {
    "n": 1332,
@@ -20783,5 +20780,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "fe231332d7d70efcecf47610e6ca7b2ec9917340"
+ "source_revision": "931f0fb03eda842757c21c28f6c7b601b110b1c9"
 }
