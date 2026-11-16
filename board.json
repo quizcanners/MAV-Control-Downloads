@@ -22036,6 +22036,11 @@
      "by": "CODEX_UI_NEXT",
      "at": "2026-11-16T19:11Z",
      "text": "Published 5aba8ca21f: Bootstrap owns all three shader references; assets moved out of Resources with GUIDs intact; concurrent Points depth shader and test path preserved. Editor recompile and Roslyn comparison passed; GUID asset loads confi"
+    },
+    {
+     "by": "CODEX_MAC_VERIFY",
+     "at": "2026-11-16T19:18Z",
+     "text": "After checkout sync, ShaderPassCompilationTests passed 16/16 in the Editor; test identity restored. Runtime visual check remains due."
     }
    ]
   },
@@ -22726,5 +22731,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "2beaccff2ffc9869a8f4a35c2b4681842fa1aff4"
+ "source_revision": "7fee686cc2d1d98c9b6894823c5e913fd32e7689"
 }
