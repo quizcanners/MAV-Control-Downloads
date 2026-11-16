@@ -20372,25 +20372,22 @@
   {
    "n": 1314,
    "name": "Save the handoff note and release the claim in one board commit. Keep plain release",
-   "done": "",
+   "done": "2026-11-16T09:09Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T09:02Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T09:09Z",
+     "text": "Published 7eb33182fe. task_flow --release N --note saves the handoff and releases its author in one board commit. Bare-origin tests proved the note, preservation of another holder, one parent commit, input refusal and no rewrite on retry. T"
+    }
+   ]
   }
  ],
  "verify": [
@@ -20439,5 +20436,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f45643b4fc820224ad640cbd5aef5a4ae3b5b81f"
+ "source_revision": "ce0d603a051e17ca32627af815b57718943814e6"
 }
