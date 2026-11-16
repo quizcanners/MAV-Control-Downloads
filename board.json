@@ -21889,23 +21889,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_BLACK_GAME",
-     "since": "2026-11-16T19:01Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_PEER_CLIP",
-     "at": "2026-11-16T18:08Z",
-     "text": "Published 6dd22ae3d2: MavChat peer viewport toggles clipping on all 46 authored direct/nested row graphics and restores prior maskability outside the page; typed references and authoring updated. YAML references validated; stale checkout co"
-    },
     {
      "by": "CODEX_MAC_VERIFY",
      "at": "2026-11-16T18:54Z",
@@ -21915,6 +21901,11 @@
      "by": "CODEX_MAC_LIVE",
      "at": "2026-11-16T18:57Z",
      "text": "Current Editor compiled and entered Play with isolated test identity; Bootstrap, Map, and Main UI scenes loaded but Game view stayed black and runtime diagnostics bridge refused connection, so MavChat panel could not be inspected. Play stop"
+    },
+    {
+     "by": "CODEX_MAC_BLACK_GAME",
+     "at": "2026-11-16T19:05Z",
+     "text": "Black Game view was test setup: isolated profile refused default diagnostic ports (SharedDiagnosticPort). Restart with -mav-editor-port 18693 -mav-runtime-port 18692 admitted MapOnly; Bootstrap Ready 3.6 s and runtime diagnostics worked. Re"
     }
    ]
   },
@@ -22657,5 +22648,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "f264b1aea926713799cabaa428d1b2e5fe04ab47"
+ "source_revision": "214b486d779749dd1406cdab687db8854dda977e"
 }
