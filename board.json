@@ -768,7 +768,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-16T01:56Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 3,
+     "total": 6
+    }
+   ],
    "steps": [
     {
      "t": "Windows runner host harness restored (27f57e05ab; receipts C:/MavControlEvidence/Windows-375-20261113/); HEAVY / PL-007 runner heavy-pl-007 on Unity 6000.6.8f1 (64cceb04cc), Task Scheduler owns one li",
@@ -3217,16 +3226,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T01:54Z",
-     "noted": "",
-     "progress": 17,
-     "ticked": 1,
-     "total": 6
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "CLOUD_BOARD 2026-11-14: stripped 669 bare '(quiz, date)' tags, removed 750 parenthetical quotes, 170 quote blocks and 272 heading tags (anchors and links renamed) from SPEC/AGENTS files, guide_check 0",
@@ -3256,8 +3256,8 @@
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-15T01:53Z",
-     "text": "ROG pushed 79dc8bb863. Map Editing, Orthophoto, PolyLine Geometry and Web Mercator now state storage, sync and repair rules directly, including the gap between current cleanup scopes and proposed deletion behavior. guide_check: 0 errors, 5 "
+     "at": "2026-11-16T01:56Z",
+     "text": "e7af1079db states current rules directly in seven Drone Control and Tests guides. Kept test pacing, DJI near-home and health, Pi local MAC and cleanup, Telemetry cover and pending menu, and the pending silent-battery warning. Repaired two U"
     }
    ]
   },
@@ -19555,5 +19555,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "798faba48259a88ba9dd9023a89b18579f2d8cdf"
+ "source_revision": "220ccbdfd921d36ff54893f7dfa04c4e793afdb0"
 }
