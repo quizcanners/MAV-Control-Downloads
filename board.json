@@ -20205,25 +20205,22 @@
   {
    "n": 1302,
    "name": "Give each Web Mercator writer its own legacy catch-up JPEG buffer and release it on close. Verify overlapping retirements keep the pixels of each map separate.",
-   "done": "",
+   "done": "2026-11-16T07:25Z",
    "goal": false,
    "under": 430,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T07:16Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T07:25Z",
+     "text": "Published 459b10bcfe. Each Web Mercator writer owns its catch-up buffer and drops it at mirror close. A forced interleave reproduced cross-map JPEG overwrite on the baseline. Native Windows SQLite preserved both maps after the fix and passe"
+    }
+   ]
   },
   {
    "n": 1303,
@@ -20348,5 +20345,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "7da8e7f5357baa6b1bac5824b0b7689173be343e"
+ "source_revision": "b7d3471e28260a1f31167b8f96bda87b7d5fa69b"
 }
