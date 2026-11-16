@@ -2493,26 +2493,6 @@
    ]
   },
   {
-   "n": 613,
-   "name": "Edge arrow hit area can cover the right-side Suggestions actions (observed Editor 564x453",
-   "done": "2026-11-13T19:06Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T19:06Z",
-     "text": "9f46bca259: edge-arrow canvas yields raycasts within visible Suggestions bounds, keeping its own hit outside. Editor at 564x453: overlapping point now hits Select Point; outside point still hits Area Hit Area. Scripted mouse drag on Select "
-    }
-   ]
-  },
-  {
    "n": 614,
    "name": "using Strong for Web Mercator receive phase capture",
    "done": "2026-11-13T19:23Z",
@@ -22104,6 +22084,20 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1416,
+   "name": "Live map refinement 1/4",
+   "done": "",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -22648,5 +22642,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "214b486d779749dd1406cdab687db8854dda977e"
+ "source_revision": "5397baec7e7ccfcdc0d16f7f3924efb29139aeb7"
 }
