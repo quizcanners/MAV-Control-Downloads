@@ -20575,25 +20575,22 @@
   {
    "n": 1326,
    "name": "Scenes selector",
-   "done": "",
+   "done": "2026-11-16T10:29Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T10:21Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T10:29Z",
+     "text": "Published 9715ab288e. Scenes lists live Situation entities in latest-change order, then Coding scenes in saved order, then WayPoint groups. Same prefab and canonical Situation selection path. Host probe passed order, tie, filtering, rebind "
+    }
+   ]
   },
   {
    "n": 1327,
@@ -20797,5 +20794,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ac4fe6fc98e5d5950fc6d0e4072a5fa1375cfbea"
+ "source_revision": "c08dec0d0d963535de1b719ac2027c6f947f3275"
 }
