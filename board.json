@@ -2249,16 +2249,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-16T18:04Z",
-     "noted": "",
-     "progress": 33,
-     "ticked": 1,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Flick up on the bar and over the cards runs AcknowledgeAllAndFold (UI_NotificationTongue): every New notice gets Hide(), persistent ones become Acknowledged so the bar stays closed under them, an unfl",
@@ -2281,8 +2272,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-16T18:02Z",
-     "text": "530fd1f5dc: Android 13 drops pending MOVE on ACTION_CANCEL. Android delivery enabled only on down in the test card rectangle passed both 8/30 FPS trials on Strong with camera steady. Bare-map drag panned with zero requests. Wire live card a"
+     "at": "2026-11-16T19:38Z",
+     "text": "Published a7a251a9e4. Strong signed Dev 851 passed 4/4 card flicks at 8 and 30 FPS targets, including edge cancel, and the tongue at 8. Camera stayed still. Stationary cancel kept the card open; bare map panned 137.81 m. Roslyn clean, Swipe"
     }
    ]
   },
@@ -22709,5 +22700,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "ed6bdad99bcb53a45cb911c4bbad715606f38eed"
+ "source_revision": "f6e3f1a9ce2b7b3323235dd049fa634523048389"
 }
