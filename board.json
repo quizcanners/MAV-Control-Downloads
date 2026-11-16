@@ -20298,6 +20298,42 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1307,
+   "name": "Visual Odometry",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-16T07:34Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Choose a mapping method from primary sources",
+     "x": false
+    },
+    {
+     "t": "Run reconstruction on video and render a progressive drone-and-map replay",
+     "x": false
+    },
+    {
+     "t": "Record measured results and reproducible commands",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -20346,5 +20382,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "81c01382fef297638b43c34af9693a36ea9c2b99"
+ "source_revision": "ab9f1e2cac7782b27aa0811fdf37ffa7d4183412"
 }
