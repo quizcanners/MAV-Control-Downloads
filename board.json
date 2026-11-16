@@ -19702,6 +19702,11 @@
      "by": "HEAVY",
      "at": "2026-11-16T03:51Z",
      "text": "Published cf7123b5f5. Planet reference mesh submits all 16 quadrant-mask slots together, retaining the final height-expanded bounds."
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-16T03:55Z",
+     "text": "Unity 6000.6.8f1 native probe found direct SetSubMeshes(s_subMeshes, DontRecalculateBounds) changes empty masks 7, 11, 13 and 14 from indexStart=11520 to 0. Active descriptors, data and expanded bounds match. Keep mask 0 at 0 and set those "
     }
    ]
   },
@@ -19775,5 +19780,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "647fa3fbb1f35ccb5e170b1f49712c2756437acb"
+ "source_revision": "8fe3d6dfbffe8435242aebd07dc76ad82fa5db24"
 }
