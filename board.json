@@ -22055,18 +22055,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_CHAT_LAYOUT",
-     "since": "2026-11-16T17:52Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_CHAT_LAYOUT",
+     "at": "2026-11-16T17:53Z",
+     "text": "Current main already moves Scroll View below search at runtime (Singleton_NetworkMembersList.ManagedUpdate); saved -74 top alone is not the displayed layout. Its viewport has RectMask2D, but 31/35 shared peer-row graphics are authored non-m"
+    }
+   ]
   },
   {
    "n": 1407,
@@ -22180,5 +22177,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "f3d227445e53fcf38d37fa3078ed14e57757b327"
+ "source_revision": "9768278e3ec10af238e05fe53c46f873ccb7671b"
 }
