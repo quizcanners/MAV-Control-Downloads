@@ -3082,7 +3082,7 @@
    "held": [
     {
      "who": "ROG",
-     "since": "2026-11-16T03:21Z",
+     "since": "2026-11-16T03:27Z",
      "noted": "",
      "progress": 25,
      "ticked": 1,
@@ -3115,8 +3115,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-16T02:12Z",
-     "text": "aa205e10d9 moves Altitude status/toggle handlers and help entries to Altitude Visualization. Rog native Play: fine grid Ready, help listed observe/mutate, Ctrl+E action route toggled False to True to False with request restored and Crosshai"
+     "at": "2026-11-16T03:25Z",
+     "text": "3ba13b7d17 routes only remote.* to Remote Sensors and moves the type handler out of Station to RemoteSensorsDiagnostics, preserving command parsing, replies and checkpoint behavior. Rog Unity compiled and RemoteSensorTypeTests passed 9/9 wi"
     }
    ]
   },
@@ -5848,7 +5848,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-16T03:23Z",
-     "noted": "",
+     "noted": "2026-11-16T03:29Z",
      "progress": 50,
      "ticked": 2,
      "total": 4
@@ -5885,8 +5885,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-16T03:13Z",
-     "text": "Published e09a2312b7. Screen Blur covers restore authored materials and release runtime clones on scene destruction or before Editor reload."
+     "at": "2026-11-16T03:29Z",
+     "text": "Published 5d1ed3813f. MAVLink shutdown clears UDP 14552's retry clock and bind fault; the first eligible request binds on the next boot."
     }
    ]
   },
@@ -19724,5 +19724,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e1df38ef9b4cd611fd03644dea50fd3fcc08bd1e"
+ "source_revision": "fdd7b1542d7b415de9cedaa49fa6fc171e929587"
 }
