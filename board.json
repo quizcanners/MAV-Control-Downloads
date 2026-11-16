@@ -22010,18 +22010,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_SPLAT",
-     "since": "2026-11-16T23:43Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_SPLAT",
+     "at": "2026-11-16T23:46Z",
+     "text": "Investigated current main: no surface-quad producer or fixed world frame yet. Tile data belongs to WebMercator.SqliteTileStore; its sharded publication SeedPrevious copies an explicit table list, so persist quad revisions through that owner"
+    }
+   ]
   },
   {
    "n": 1417,
@@ -23062,5 +23059,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "b9b15130bf228549c8a3b215b39fbb9222d93865"
+ "source_revision": "54c28f87ca98d63e1a0eefaaf8247357252b3326"
 }
