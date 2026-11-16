@@ -20283,7 +20283,7 @@
   {
    "n": 1311,
    "name": "Show the RTX Visual Odometry point cloud and Synthetic drone in MAV Control from its video input",
-   "done": "",
+   "done": "2026-11-16T08:26Z",
    "goal": false,
    "under": 0,
    "ticks": [
@@ -20294,16 +20294,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-16T08:01Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Connect the existing video input and local RTX mapper",
@@ -20318,7 +20309,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-16T08:26Z",
+     "text": "1e68c87616 adds RTX map replay and the relative Video Path sidecar."
+    }
+   ]
   }
  ],
  "verify": [
@@ -20367,5 +20364,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "7a20930a8c69db4699abd4137c5a03235ff707bc"
+ "source_revision": "684d1f1f301c64bb4416254af6fbc9436ab0bb0f"
 }
