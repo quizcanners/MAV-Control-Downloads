@@ -19942,25 +19942,22 @@
   {
    "n": 1280,
    "name": "Make peer_diag shot stop before capture when local navigation is refused or a remote navigation command is unconfirmed. Keep existing screenshot output intact on failure.",
-   "done": "",
+   "done": "2026-11-16T05:00Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T04:57Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T05:00Z",
+     "text": "Published 40c4614d69. Refused or unconfirmed shot navigation now cancels capture and preserves the destination. All 52 host tests passed, including local and peer negative paths and both PNG assembly paths. Strict guide check passed. No liv"
+    }
+   ]
   }
  ],
  "verify": [
@@ -20009,5 +20006,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "3034115690a202f430416f5c2b211a38224bca3f"
+ "source_revision": "65cf24a631d95da667ab255d6da9f9e2f1e1383b"
 }
