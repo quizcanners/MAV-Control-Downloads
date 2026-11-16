@@ -20466,6 +20466,38 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1320,
+   "name": "Run the 3D Street View YouTube smoke and make Backdoor runs repeatable",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-16T09:55Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 2
+    }
+   ],
+   "steps": [
+    {
+     "t": "Run a public YouTube clip through RTX mesh reconstruction, placement and save",
+     "x": false
+    },
+    {
+     "t": "Add reusable Backdoor smoke runner for local video clips",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -20514,5 +20546,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "6c43cb684cc12cb2fa5c45451f0484c6ddb3e5a2"
+ "source_revision": "fb1b2620730182a1e2bac83ceceb887090439a74"
 }
