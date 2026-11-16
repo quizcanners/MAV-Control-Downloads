@@ -20219,25 +20219,22 @@
   {
    "n": 1297,
    "name": "Make VPN screenshot downloads retry a missing chunk before the overall deadline. Let later chunks finish and keep refusing stale",
-   "done": "",
+   "done": "2026-11-16T06:42Z",
    "goal": false,
    "under": 375,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T06:38Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T06:42Z",
+     "text": "Published ea8c47bc2e. A missing VPN screenshot response now uses a bounded reply window, letting later chunks finish and a single retry occur before the shared deadline. All 54 peer_diag tests passed. Scripted drops verified first-chunk rec"
+    }
+   ]
   }
  ],
  "verify": [
@@ -20286,5 +20283,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "acb996b67bd0e371efd20525c13bcd7fb6181d00"
+ "source_revision": "c4083183320851975e149bd11c94f53cceeb905b"
 }
