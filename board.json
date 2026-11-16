@@ -21519,22 +21519,14 @@
      "progress": 0,
      "ticked": 0,
      "total": 0
-    },
-    {
-     "who": "CODEX_PAINT_INPUT",
-     "since": "2026-11-16T14:16Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
     }
    ],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_PAINT_INPUT",
-     "at": "2026-11-16T14:14Z",
-     "text": "Input fix ready for integration: admitted video/map strokes and their release endpoint continue across UI; fresh presses over UI still do not start. Updated the shared input regression to cover map and video finger paths and same-turn live "
+     "at": "2026-11-16T14:17Z",
+     "text": "Strengthened video finger regression: same-turn prepared point count must equal the current stroke point count. Parent owns Editor verification and publication."
     }
    ]
   }
@@ -21585,5 +21577,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "8bf4f2246b7f63a06374010e31584eb5078593ca"
+ "source_revision": "85cb760fcc655b70fa49a21fc87cbddd70d9e3e6"
 }
