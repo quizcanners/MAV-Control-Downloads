@@ -1615,7 +1615,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-16T06:36Z",
+     "noted": "",
+     "progress": 45,
+     "ticked": 5,
+     "total": 11
+    }
+   ],
    "steps": [
     {
      "t": "Video relay holds one Port, UDP 14680 (VPN peers use host candidates only). Android screen-share renewals ride the :location background Chat socket 14668 (ScreenRenewal kinds 4/5, UDP 17698 removed; f",
@@ -20254,5 +20263,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "18836176db4683efd07c6d99173e9e5c7d42b77f"
+ "source_revision": "937223d5066a07930cc1b645be9e38392913f6bb"
 }
