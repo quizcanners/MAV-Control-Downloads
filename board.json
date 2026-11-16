@@ -19391,14 +19391,20 @@
     {
      "who": "HEAVY",
      "since": "2026-11-16T01:01Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-16T01:03Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-16T01:03Z",
+     "text": "Published f6ad9bb67b. Roslyn NEW ERRORS: none. The inactive Store Post fixture now uses UI_DistributionWindow.InitializeControllers before UpdateNeeds, matching Awake setup. Existing view stack, retained-window, page and return assertions a"
+    }
+   ]
   }
  ],
  "verify": [
@@ -19447,5 +19453,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5358bbde6003e69e6984fb6a74044622f86fc8df"
+ "source_revision": "d1db5b231ccc74f6771c74b6387591fe304d202d"
 }
