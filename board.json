@@ -5491,7 +5491,7 @@
     {
      "who": "ROG",
      "since": "2026-11-16T08:11Z",
-     "noted": "",
+     "noted": "2026-11-16T08:18Z",
      "progress": 50,
      "ticked": 2,
      "total": 4
@@ -5522,14 +5522,14 @@
      "text": "City labels (Place Labels) after hot reload: ManagedOnDisable now resets draw order, view, batch, place glyph labels, id index, version gates, imported flag (cloud, 2026-11-15, uncompiled; cause not seen in Play, only by reading). Audit oth"
     },
     {
-     "by": "ROG",
-     "at": "2026-11-16T02:04Z",
-     "text": "Rog Unity 6000.6.8f1 at 4a3d26abd7: MapRenderMode 17 passed and 1 Metal-only skip, PerformanceInstrumentation 43/43, StartupBatchTiming 21/21. Two Play exits preserved an AppDomain witness while GapCause unhooked and cleared all names/ticks"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-16T06:29Z",
      "text": "f0f85b196c makes SDC Ping abandon an in-flight MSP reply on stop and clear a possibly applied mark before closing."
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-16T08:18Z",
+     "text": "Published c184c12eb6. Ukraine Borders now aborts an in-flight Android cache copy and removes the partial file after disposal. Failed downloads and failed promotion also discard the partial. Successful caches remain and SQLite readers close "
     }
    ]
   },
@@ -20406,5 +20406,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "27b3caeabd0edd2bb4b4590470867c932baf894b"
+ "source_revision": "c9fe386464455661ff7b53ee3eb50a6e26c4b120"
 }
