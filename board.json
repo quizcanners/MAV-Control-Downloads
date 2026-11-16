@@ -2288,16 +2288,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-16T15:13Z",
-     "noted": "",
-     "progress": 33,
-     "ticked": 1,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Flick up on the bar and over the cards runs AcknowledgeAllAndFold (UI_NotificationTongue): every New notice gets Hide(), persistent ones become Acknowledged so the bar stays closed under them, an unfl",
@@ -2320,8 +2311,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-16T15:01Z",
-     "text": "Strong signed Dev 850 from 92ea2bc1d0 includes 61657022e2. A 71 px upward flick left the Agent Activity card visible at both fixed 8 and 30 FPS targets. A deliberate 107 px drag dismissed it at 8. Android touch and card raycast observed. Ne"
+     "at": "2026-11-16T17:08Z",
+     "text": "cff60c1f82 and 4df38ba4c8 on main. Signed Dev 850 on Strong dismissed 3/3 ordinary 71 px releases at 8 and 30 FPS targets. ACTION_CANCEL stayed open 2/2 at 8, and one 30 FPS release also panned the map. Capture Android cancellation phase, c"
     }
    ]
   },
@@ -22461,5 +22452,5 @@
    "since": "2026-11-16T13:24Z"
   }
  ],
- "source_revision": "0e31dd8e5726957d87310b119108aee3e4df7ff7"
+ "source_revision": "be759d0b7ea4dc5f6cbc68db88ae64759af38286"
 }
