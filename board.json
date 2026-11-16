@@ -20156,25 +20156,22 @@
   {
    "n": 1294,
    "name": "Stop Visual Odometry from rereading a stalled frame after its tracking timeout. Keep the last preview offset and resume matching only after a new frame is published.",
-   "done": "",
+   "done": "2026-11-16T06:26Z",
    "goal": false,
    "under": 431,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T06:19Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T06:26Z",
+     "text": "Published 15b387088b. Timeout drops the tracked points and previous pixels once, while the last accepted frame key and offset remain. New frames prime a fresh pair and source change or version rollback resets the offset. Host probe against "
+    }
+   ]
   },
   {
    "n": 1295,
@@ -20237,5 +20234,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "980b0991f9f48c8d771bbd78d4455beca3f8d88e"
+ "source_revision": "7661715cb5562a313e0645e721da4c87b603b471"
 }
