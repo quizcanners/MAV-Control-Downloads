@@ -21940,6 +21940,65 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1401,
+   "name": "Telemetry grid",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MAC_UI",
+     "since": "2026-11-16T17:20Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 1402,
+   "name": "Synthetic drone projector pitch and grounded 3D Street View camera height",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-16T17:22Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Wire the model projector to camera pitch",
+     "x": false
+    },
+    {
+     "t": "Use the grounded reconstruction for the Synthetic drone path",
+     "x": false
+    },
+    {
+     "t": "Check Windows and publish",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -22472,5 +22531,5 @@
    "since": "2026-11-16T13:24Z"
   }
  ],
- "source_revision": "7667b3b79662e9e9b27254a544abef67f5bac11a"
+ "source_revision": "1cea63aeb7c8e6319119f677067315bf66963a40"
 }
