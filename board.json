@@ -21761,22 +21761,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MGRS_VIEW",
-     "since": "2026-11-16T19:29Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_UI_BOARD",
      "at": "2026-11-16T17:55Z",
      "text": "Published 3a7021d51f: history arrows were overlapping Ping and Clear by 18 units; reduced and placed in the 8-unit gaps with 1-unit clearance. Geometry checked; current-main Editor visual check remains due because this checkout has older lo"
+    },
+    {
+     "by": "CODEX_MGRS_VIEW",
+     "at": "2026-11-16T19:39Z",
+     "text": "Published 42b523c38c: completed digits auto-size clear of copy icon; live Editor gap 5.05 px after reimport (previously overlapped by 31 px). Previous arrow clears Ping; Next arrow was unavailable with the isolated history. Guide check 0 er"
     }
    ]
   },
@@ -22700,5 +22696,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "f6e3f1a9ce2b7b3323235dd049fa634523048389"
+ "source_revision": "bd132bf3ae3ff99d4500ec8677d4c98b8586dcb8"
 }
