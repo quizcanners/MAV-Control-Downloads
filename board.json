@@ -20227,25 +20227,22 @@
   {
    "n": 1298,
    "name": "Restore the shared daily release reservation host checks on Windows. Exercise the current shipping reservation block with Git Bash and disposable Git repositories.",
-   "done": "",
+   "done": "2026-11-16T06:49Z",
    "goal": false,
    "under": 375,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T06:45Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T06:49Z",
+     "text": "Published 7f929735c6. The host fixture selects Git Bash on Windows, uses LF for shell input and hooks, pins the running Python, and extracts the shipping reservation commands without depending on comments. Eight reservation checks passed, i"
+    }
+   ]
   }
  ],
  "verify": [
@@ -20294,5 +20291,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "0b5b646455d6966d5800dcd2a5f507e50d2fe830"
+ "source_revision": "f9cfac7ef465b3a78f9f53685a36781c371082d3"
 }
