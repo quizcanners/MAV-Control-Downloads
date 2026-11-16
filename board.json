@@ -1398,16 +1398,7 @@
    "priority": "normal",
    "parked": true,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_UI",
-     "since": "2026-11-16T12:08Z",
-     "noted": "",
-     "progress": 80,
-     "ticked": 4,
-     "total": 5
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "All 20 card prefabs carry UI_NotificationCard with the Done tick on Windows/Mac only and swipe up receiving on touch; the four plain status notices (Connection Lost, Remote Sensors Offline, Motorola W",
@@ -1433,8 +1424,8 @@
    "notes": [
     {
      "by": "CODEX_MAC_UI",
-     "at": "2026-11-15T16:58Z",
-     "text": "c28a55f605 fixes MavChat square; 17/17 binding tests. Editor fixtures: all four status cards retained separate tick receipts; scripted upward drag received all and folded. Far From Home tap returned to a temporary area; original config and "
+     "at": "2026-11-16T12:10Z",
+     "text": "Task 1351 published c8a0e6b8e2: grouped Agentic backdoor count is (+N); Editor compile, localization check and Roslyn pass. Main/Notifications visual check bumped."
     }
    ]
   },
@@ -21182,5 +21173,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "9129d6461126759665d7beb8e5ab85a06552104c"
+ "source_revision": "747305cb3b35446728a4ca96ca174513a98db708"
 }
