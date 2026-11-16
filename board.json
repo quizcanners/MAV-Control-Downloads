@@ -22082,16 +22082,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-16T17:46Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 1,
-     "total": 2
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Keep camera pivot on first-points and terrain fits",
@@ -22102,7 +22093,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-16T17:51Z",
+     "text": "7cc6e5e159 on main. First points keep the current Synthetic drone pose; terrain fit scales around that camera."
+    }
+   ]
   },
   {
    "n": 1409,
@@ -22661,5 +22658,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "c32695d8d2116b3a704a4b956b7e599be6428777"
+ "source_revision": "024d73b2b51d7d4dc565b81da9479e56fcff7759"
 }
