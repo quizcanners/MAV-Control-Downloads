@@ -19990,25 +19990,22 @@
   {
    "n": 1283,
    "name": "Restore the Android daily unchanged-input skip before release reservation. Keep forced builds",
-   "done": "",
+   "done": "2026-11-16T05:16Z",
    "goal": false,
    "under": 375,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T05:13Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T05:16Z",
+     "text": "Published 1780a9b044. Auto skips unchanged Android inputs before LFS, release preparation or Unity. Force bypasses the comparison and cannot rebuild a reserved version. Interrupted attempts still recover. All 11 publication host tests and b"
+    }
+   ]
   }
  ],
  "verify": [
@@ -20057,5 +20054,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a034dd24351b299ef8fe8eb30fa7e2da60d046cc"
+ "source_revision": "7814a532ac7994ae6ac74d907076f5972d430814"
 }
