@@ -20073,25 +20073,22 @@
   {
    "n": 1287,
    "name": "Isolate task_flow board snapshots from concurrent origin/main tracking updates and expose the actual Git error when fetching the board fails.",
-   "done": "",
+   "done": "2026-11-16T05:53Z",
    "goal": false,
    "under": 375,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T05:46Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T05:53Z",
+     "text": "Published fcc998f080. A locked origin/main tracking ref used to fail an otherwise reachable board read. Board fetches now use only the temporary snapshot destination and report Git stderr on fetch failure. The lock regression failed before "
+    }
+   ]
   }
  ],
  "verify": [
@@ -20140,5 +20137,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "ae1913a2691e293389344728da63b62a0b547762"
+ "source_revision": "5f0f12d684b7bffe6a2e79888666ed1837b49943"
 }
