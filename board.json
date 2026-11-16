@@ -2337,26 +2337,6 @@
    ]
   },
   {
-   "n": 598,
-   "name": "Left list swipe handle",
-   "done": "2026-11-13T17:41Z",
-   "goal": false,
-   "under": 408,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T17:41Z",
-     "text": "f121110d01: expanded swipe handle raycast padding by 24 on every side; visual size and existing click/drag owner unchanged. Unity prefab inspection confirms saved padding and binding; touch interaction remains for screen verification."
-    }
-   ]
-  },
-  {
    "n": 599,
    "name": "Share screen center",
    "done": "2026-11-13T18:20Z",
@@ -21314,25 +21294,22 @@
   {
    "n": 1372,
    "name": "Altitude scrollers merged to the bottom edge",
-   "done": "",
+   "done": "2026-11-16T17:42Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_UI_ALTITUDE",
-     "since": "2026-11-16T17:40Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_UI_ALTITUDE",
+     "at": "2026-11-16T17:41Z",
+     "text": "Published a2cd7b4da7: shared scroller BG now extends 40 units below its rect, preserving 25-unit top and side insets; serialized geometry checked. Visual verification bumped."
+    }
+   ]
   },
   {
    "n": 1373,
@@ -22137,5 +22114,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "06cb17b2210d7c6e78206f02c547140ab02769c4"
+ "source_revision": "9e21d6476eeb80189254d445d4d82db4b35c1b52"
 }
