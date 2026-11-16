@@ -22130,27 +22130,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-16T21:10Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-16T20:35Z",
-     "text": "4f20b72b90 on main. Save archives up to 64 spread keyframes. Unity reopened new and old meshes; Roslyn clean and 26/26 worker tests."
-    },
     {
      "by": "CODEX_MAC_ANCHORS",
      "at": "2026-11-16T21:01Z",
      "text": "3bb7a4a0ff: short-scan archives keep the spread set and first anchor; recent frames remain fusion fallback. Point-fusion 20/20 passed on Mac with real numpy/OpenCV and alignment; CUDA/model imports stubbed. Linked Street Photos, relative ow"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-16T21:29Z",
+     "text": "591d205c6a on main. Saved meshes publish local linked Street Photos and move them with committed pose and terrain clearance."
     }
    ]
   },
@@ -22911,5 +22902,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "717721a823001297b90eea4af2b0d5916c9c242f"
+ "source_revision": "c7b5af317e83a3b83aacf35378daacc2c6952a63"
 }
