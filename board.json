@@ -5764,7 +5764,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-16T04:38Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -19834,6 +19843,29 @@
      "text": "Published 370200e247. UI and Layout guidance now states the standing rules directly, separates the current 1400-unit top-right row from the old overflow geometry, and points to the current Bootstrap owners. Exit geometry checked in BUTTONS "
     }
    ]
+  },
+  {
+   "n": 1275,
+   "name": "Remove superseded and duplicate directives from the shared UI SPEC. Keep the current notification receipt rules",
+   "done": "",
+   "goal": false,
+   "under": 606,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-16T04:38Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -19882,5 +19914,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "442fdb31c9823b71d7079743caaf275b34ef7f5b"
+ "source_revision": "6e30451f666c63363962a545b8b4cb8ed03f0d99"
 }
