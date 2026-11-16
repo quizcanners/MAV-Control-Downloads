@@ -781,7 +781,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-16T02:25Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 3,
+     "total": 6
+    }
+   ],
    "steps": [
     {
      "t": "Windows runner host harness restored (27f57e05ab; receipts C:/MavControlEvidence/Windows-375-20261113/); HEAVY / PL-007 runner heavy-pl-007 on Unity 6000.6.8f1 (64cceb04cc), Task Scheduler owns one li",
@@ -3094,7 +3103,7 @@
      "x": false
     },
     {
-     "t": "Also open: Linked Browser capture from a peer click private to the viewer, pings on a page (Linked Browser AGENTS); Gamepad rumble and light bars (Controller Input AGENTS)",
+     "t": "Also open: Linked Browser page pings and drawing directly in Chrome (Linked Browser SPEC); Gamepad rumble and light bars (Controller Input AGENTS)",
      "x": false
     }
    ],
@@ -3260,8 +3269,8 @@
    "notes": [
     {
      "by": "ROG",
-     "at": "2026-11-16T01:56Z",
-     "text": "e7af1079db states current rules directly in seven Drone Control and Tests guides. Kept test pacing, DJI near-home and health, Pi local MAC and cleanup, Telemetry cover and pending menu, and the pending silent-battery warning. Repaired two U"
+     "at": "2026-11-16T02:23Z",
+     "text": "e393630405 aligns four Altitude Visualization, Linked Browser and AI Sandbox guides with current owners. Altitude checks retain the observed 120 s Ready case. Linked Browser documents the implemented private peer screencast and leaves paire"
     }
    ]
   },
@@ -8777,8 +8786,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-16T02:20Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-16T02:25Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -8789,6 +8798,11 @@
      "by": "ROG",
      "at": "2026-11-15T11:40Z",
      "text": "Published dc5ce78b77, f3bc55f4f9 and baseline e494544df4. Rog Unity compiled and published the full fine pair with zero missing texels, CPU 8 MiB. Final stage peaks: height pack 17.371 ms, bump copy 2.065 ms; height and bump Apply 0.045/0.0"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-16T02:25Z",
+     "text": "Published 6f95b706e4. Roslyn NEW ERRORS: none. Fine height upload reads each coverage word once and writes the same RGHalf values. Windows host passed 4,100 byte comparisons; timings are in Performance Baseline/GPU.md. Strong still needs a "
     }
    ]
   },
@@ -19585,5 +19599,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "90b1d49a1b1ae90a8b176fc4560439102b4d6581"
+ "source_revision": "8441c8e828c70390e27df865bc99eab5918e87a3"
 }
