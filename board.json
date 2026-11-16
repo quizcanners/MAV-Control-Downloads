@@ -21947,23 +21947,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_LIVE",
-     "since": "2026-11-16T18:55Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_MAC_CHAT_LAYOUT",
-     "at": "2026-11-16T17:53Z",
-     "text": "Current main already moves Scroll View below search at runtime (Singleton_NetworkMembersList.ManagedUpdate); saved -74 top alone is not the displayed layout. Its viewport has RectMask2D, but 31/35 shared peer-row graphics are authored non-m"
-    },
     {
      "by": "CODEX_PEER_CLIP",
      "at": "2026-11-16T18:08Z",
@@ -21973,6 +21959,11 @@
      "by": "CODEX_MAC_VERIFY",
      "at": "2026-11-16T18:54Z",
      "text": "Editor at current checkout: MavChatSheetTests 96/96 passed; peer clipping and panel edges still need a visual check."
+    },
+    {
+     "by": "CODEX_MAC_LIVE",
+     "at": "2026-11-16T18:57Z",
+     "text": "Current Editor compiled and entered Play with isolated test identity; Bootstrap, Map, and Main UI scenes loaded but Game view stayed black and runtime diagnostics bridge refused connection, so MavChat panel could not be inspected. Play stop"
     }
    ]
   },
@@ -22672,5 +22663,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "9781d2da57fe3516cfc70ec4fe47c4bb1b727d36"
+ "source_revision": "c9b2c7b10a7f04fe9f41db7f737d00af2b321efd"
 }
