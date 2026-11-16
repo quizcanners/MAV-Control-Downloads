@@ -19976,25 +19976,22 @@
   {
    "n": 1282,
    "name": "Share Planet terrain culling bounds from the pinned reference mesh. Strong Dev 848 sampled the five Vector4 allocation in PrepareHeights during the first changed zoom frame. Keep the exact per-quadran",
-   "done": "",
+   "done": "2026-11-16T05:24Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-16T05:11Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-16T05:24Z",
+     "text": "Published 196360cf3a. Strong Dev 848 coast captured the five-Vector4 terrain bounds allocation. The source shares culling spheres and keeps the exact page-dependent radius expansion. Unity 22/22 terrain and 27/27 draw reuse, Roslyn NEW ERRO"
+    }
+   ]
   },
   {
    "n": 1283,
@@ -20106,5 +20103,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "20794d47ed17cf5c5def3603b09cc49096d16023"
+ "source_revision": "8626ea0ebeca358ef0d5ade17c7defeceaca837b"
 }
