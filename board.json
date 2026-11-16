@@ -2205,36 +2205,6 @@
    ]
   },
   {
-   "n": 564,
-   "name": "MGRS Edit Element screen",
-   "done": "2026-11-13T06:19Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-13T06:19Z",
-     "text": "ROG_FABLE (19a8be46aa): the pair is 'Entered MGRS History Undo/Redo' in MGRS Coordinate Entry.prefab (tooltips map.hint.previousEnteredPoint / nextEnteredPoint), horizontally joined (Undo merged right, Redo merged left), screen edges 0, no "
-    },
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-13T16:40Z",
-     "text": "Found (CLOUD_THREAD): the pair is the MGRS field's history buttons, Entered MGRS History Undo (previous) and Redo (next) in MGRS Coordinate Entry.prefab. Their composites have _screenEdges 0, _alwaysDarkenEdges 0, no _pixelLine_Optional and"
-    },
-    {
-     "by": "CLOUD_META",
-     "at": "2026-11-13T18:35Z",
-     "text": "quiz, 2026-11-13, moved here from the guides (the guides hold the clean rule): 1) [UI/Guides/Layout/AGENTS.md] \"We have exit button, we have only one of those. Across all the UI, we have one exit button. There is explicit UI guide about exi"
-    }
-   ]
-  },
-  {
    "n": 565,
    "name": "Suggestion buttons lost their one-pixel dividers (Main view",
    "done": "2026-11-13T06:56Z",
@@ -20185,6 +20155,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1294,
+   "name": "Stop Visual Odometry from rereading a stalled frame after its tracking timeout. Keep the last preview offset and resume matching only after a new frame is published.",
+   "done": "",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-16T06:19Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -20233,5 +20226,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "33a00802c45ca9610f567f58dcafa0207c282835"
+ "source_revision": "bf135c6b5b7cca738c7b85cd25421a6f87376b0c"
 }
