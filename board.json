@@ -19173,23 +19173,14 @@
   {
    "n": 1239,
    "name": "Using Strong to measure reference query array reuse and coverage",
-   "done": "",
+   "done": "2026-11-16T00:47Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-16T00:28Z",
-     "noted": "2026-11-16T00:46Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -19222,25 +19213,22 @@
   {
    "n": 1241,
    "name": "Restore Routing Server and OBS protocol host builds after the source-file merges. Share the production WorkerFailures implementation and bind the OBS host to the current Windows Firewall source.",
-   "done": "",
+   "done": "2026-11-16T00:47Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T00:39Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T00:47Z",
+     "text": "59548c58be restores both host builds using the unchanged shared WorkerFailures code, current WindowsFirewall source and HeavyWork test stub. Rog Routing Server host PASS including 230 typed handoff assertions; Linux executable rollback/sign"
+    }
+   ]
   },
   {
    "n": 1242,
@@ -19346,5 +19334,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "fb0a6f0c697ce3b16ad8325f279263afc3d41c1b"
+ "source_revision": "0f080975eb00a3f766ba48c17d5093dbf2504246"
 }
