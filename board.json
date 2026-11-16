@@ -2185,26 +2185,6 @@
    "notes": []
   },
   {
-   "n": 571,
-   "name": "Inspector Enter labels",
-   "done": "2026-11-13T07:39Z",
-   "goal": false,
-   "under": 409,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T07:39Z",
-     "text": "30b19ff296 fixes joined Inspector Enter captions: the layout already reserves the arrow, but a second clip against the recovered group rect cut labels short. Removed that extra clip and its obsolete test; updated Inspector SPEC. In Editor P"
-    }
-   ]
-  },
-  {
    "n": 572,
    "name": "One reusable entity system: Remote Sensors, Training, Situation Entities and the next kind share one identity table, one fade, one ground pass, one draw and one pointing path, each kind a row of data ",
    "done": "",
@@ -20265,29 +20245,25 @@
   {
    "n": 1305,
    "name": "Drone position single source",
-   "done": "",
+   "done": "2026-11-16T07:39Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T07:36Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "cloud",
      "at": "2026-11-16T07:21Z",
      "text": "Code on main; needs a compile only. No goal fits."
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-16T07:39Z",
+     "text": "Rog Unity 6000.6.8f1 Android-target Editor recompile completed on cf0a7a533a, containing ecb138f6b7. Zero compiler errors and nine warnings outside the changed files. Refreshed Prublyda.dll contains TryGetDisplayedPosition and get_IsPositio"
     }
    ]
   },
@@ -20388,5 +20364,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "69a8b65ab5e7220d76bc609e33b6fcb33cf4ca05"
+ "source_revision": "ba77c747a9bb2fd5f92ac50bcccb2756089230e5"
 }
