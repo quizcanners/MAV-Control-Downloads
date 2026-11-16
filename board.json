@@ -2166,22 +2166,6 @@
    ]
   },
   {
-   "n": 562,
-   "name": "using Strong",
-   "done": "2026-11-13T04:54Z",
-   "goal": false,
-   "under": 430,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "vague"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 563,
    "name": "Telemetry bottom strip is not a grid yet (Drone Control/UI/SPEC.md",
    "done": "2026-11-13T07:20Z",
@@ -19923,6 +19907,29 @@
      "text": "Published 3388688c85. Android device discovery, descriptor read and forward setup now time out after 15 seconds per ADB call. Failures report the stage without tokens. Valid leases still clean up their own forward. A timed-out forward with "
     }
    ]
+  },
+  {
+   "n": 1279,
+   "name": "Make peer_diag local and editor report a nonzero exit status when a command is refused. Preserve all printed replies",
+   "done": "",
+   "goal": false,
+   "under": 375,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-16T04:54Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -19971,5 +19978,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "863ff2175676eaad4d06455c2046f5378ab1413e"
+ "source_revision": "151b6f2ce3fceea23594761a64f6afc8c2a3e299"
 }
