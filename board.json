@@ -5339,16 +5339,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T11:07Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -5380,8 +5371,8 @@
     },
     {
      "by": "ROG",
-     "at": "2026-11-16T09:51Z",
-     "text": "Published 3223b7ee22: Station shutdown cancels and disowns App Update BuildKeys scans, observes retired worker faults, and starts a fresh scan after restart. Six host controls passed, including late old completion and fresh import; Roslyn e"
+     "at": "2026-11-16T11:15Z",
+     "text": "Published bcf9a7a104. Station shutdown now clears UI pointer EventSystem and hover references, flick ownership, frame gates and press diagnostics. Unity compiled the runtime change. Direct in-Editor probe confirmed old EventSystem, hover an"
     }
    ]
   },
@@ -21048,5 +21039,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "841cd34574a18b6d1ba081542e65c5a7abeb8c86"
+ "source_revision": "23b8c3d2c42b22b516987a687c97db138c1333a3"
 }
