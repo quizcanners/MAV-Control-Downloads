@@ -5748,7 +5748,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-16T05:37Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -20040,6 +20049,29 @@
      "text": "Published cbc9cba6d8. Guides document opening and closing slides, blur when switching open lists, and the gated strip/column swap. Refreshed Bootstrap source links and clarified that the portrait pager belongs to MavChat. Strict guide check"
     }
    ]
+  },
+  {
+   "n": 1286,
+   "name": "Reject misaddressed or malformed screenshot chunks in peer_diag on local and VPN reads",
+   "done": "",
+   "goal": false,
+   "under": 375,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-16T05:36Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -20088,5 +20120,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "757cd3d51a352bb5125c96ca318952cb56c500ab"
+ "source_revision": "bb8df384a5f1e1b05b4793e266a3735572d8afe7"
 }
