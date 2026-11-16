@@ -19661,14 +19661,20 @@
     {
      "who": "ROG",
      "since": "2026-11-16T03:41Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-16T03:47Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T03:47Z",
+     "text": "Published d73004b409. Each origin-main read/write fetch pins its own ref through the operation and releases it afterward. The regression demonstrated that old reads and claims replaced a side-branch FETCH_HEAD. With the fix, both preserve i"
+    }
+   ]
   },
   {
    "n": 1264,
@@ -19740,5 +19746,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "8a567ea68f0772de0f76fdae1d1b38bb530495cf"
+ "source_revision": "3e3d1b580af40ca13f2ef3941495f8a89b39666b"
 }
