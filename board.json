@@ -2441,16 +2441,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-16T13:02Z",
-     "noted": "",
-     "progress": 33,
-     "ticked": 1,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Flick up on the bar and over the cards runs AcknowledgeAllAndFold (UI_NotificationTongue): every New notice gets Hide(), persistent ones become Acknowledged so the bar stays closed under them, an unfl",
@@ -2470,6 +2461,11 @@
      "by": "HEAVY",
      "at": "2026-11-14T20:34Z",
      "text": "Windows Editor 840: with Game View focused, a 120 px upward Input System flick starting in the empty space below the visible Agent Activity card changed the card from New/visible to Inactive, with the island Folded. An unfocused attempt lef"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-16T13:32Z",
+     "text": "61657022e2 handles a fast upward notification release before Unity drag-end and a moving touch canceled near the top edge. Unity SwipeIntentTests 6 passed, 0 failed, 0 skipped, Roslyn NEW ERRORS: none. Strong and Lenovo restored to Release "
     }
    ]
   },
@@ -21887,5 +21883,5 @@
    "since": "2026-11-16T13:24Z"
   }
  ],
- "source_revision": "32b3884f520a164086526446f60ab832682bae77"
+ "source_revision": "cd961567efc48190d91a5f7cad5d1cfc443f379a"
 }
