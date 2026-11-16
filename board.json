@@ -20246,25 +20246,22 @@
   {
    "n": 1300,
    "name": "Keep Web Mercator legacy-segment catch-up resumable when space runs low. Reuse the existing copy room check and Waiting progress before writing or retiring a segment.",
-   "done": "",
+   "done": "2026-11-16T07:10Z",
    "goal": false,
    "under": 430,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T07:05Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T07:10Z",
+     "text": "Published 617125faf9. Catch-up validates room before each new commit and records the existing Waiting cursor. Copied rows can retire at low room and integrity errors still record Failed. Native Windows mavsqlite replay on disposable databas"
+    }
+   ]
   }
  ],
  "verify": [
@@ -20313,5 +20310,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b863d48870cf14f3b1c41b44bd04fc8f60a2ab19"
+ "source_revision": "029725c7280360463c8589b353363b2e7aa1837f"
 }
