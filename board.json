@@ -1606,16 +1606,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_ANCHORS",
-     "since": "2026-11-16T20:45Z",
-     "noted": "",
-     "progress": 45,
-     "ticked": 5,
-     "total": 11
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Video relay holds one Port, UDP 14680 (VPN peers use host candidates only). Android screen-share renewals ride the :location background Chat socket 14668 (ScreenRenewal kinds 4/5, UDP 17698 removed; f",
@@ -1667,6 +1658,11 @@
      "by": "HEAVY",
      "at": "2026-11-16T07:17Z",
      "text": "a695f48029 adds the Visual Odometry Backdoor. 7ee6e17bc6 fixes the Pilot View startup exception."
+    },
+    {
+     "by": "CODEX_MAC_ANCHORS",
+     "at": "2026-11-16T21:03Z",
+     "text": "Task 1424: 3bb7a4a0ff preserves only spread anchors in short scans while fusion retains its recent-frame fallback. Mac CPU tests 20/20 with CUDA/model imports stubbed. Linked Street Photos, ownership and positioning remain open on 1424."
     }
    ]
   },
@@ -22901,5 +22897,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "a076ff0091011a7101b961e2eb2387dbfc58e71d"
+ "source_revision": "6734a1fa7be263eebc0bfdd57809f90613f9fd5c"
 }
