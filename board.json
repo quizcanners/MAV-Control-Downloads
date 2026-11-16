@@ -19028,58 +19028,50 @@
   {
    "n": 1233,
    "name": "Repair Windows Pilot Pano360 projection",
-   "done": "",
+   "done": "2026-11-16T00:14Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T00:12Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
      "at": "2026-11-16T00:06Z",
      "text": "Published bbbe7b0f38. Roslyn NEW ERRORS: none. Pilot projection, DJI retained pose, and Photo Stream delivery fixtures now bind to Projection, Frame Pose, and Heavy Work. Projection, altitude, and allocation assertions are intact. Native re"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-16T00:14Z",
+     "text": "Rog native Unity 6000.6.8f1 at 9686a64e1f containing bbbe7b0f38: PilotWorkflowTests 20/20, ProjectionDisplayAltitudeTests 5/5, PhotoStreamDeliveryTests 1/1. Projection, retained-altitude and blocked-send allocation checks passed. Receipts C"
     }
    ]
   },
   {
    "n": 1234,
    "name": "Repair Windows map fixture bindings for the Orthophoto bake cursor and the Menu Map source tier. Keep staged intent and parking assertions and check all three scrollable cards in their current authore",
-   "done": "",
+   "done": "2026-11-16T00:14Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T00:12Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
      "at": "2026-11-16T00:10Z",
      "text": "Published daf99025db. Roslyn NEW ERRORS: none. Orthophoto uses current bake cursor and intent owners. The Map source fixture checks all three scrollable cards and retains the separate assertion that the retired Details card is absent. Nativ"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-16T00:14Z",
+     "text": "Rog native Unity 6000.6.8f1 at 9686a64e1f containing daf99025db: MapCornerLayoutTests 5/5 and BakeIndependentFootprintTests 5/5. Authored corners, staged intent and parking passed. Receipts C:/MavControlEvidence/Rog-1233-1234-Pilot-Map-2026"
     }
    ]
   },
@@ -19120,14 +19112,20 @@
     {
      "who": "GETAC",
      "since": "2026-11-16T00:13Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-16T00:15Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-16T00:15Z",
+     "text": "Dev 848 b0e5eec806a2 ground flight passed. CPU.md 7f9e05714d records 3,024 geometry samples, two skirt hits, no holes or pending surfaces/handoffs. Original camera and Normal pacing restored. Strong is free for the candidate only once its A"
+    }
+   ]
   }
  ],
  "verify": [
@@ -19176,5 +19174,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "1e0e037f764392e646659678b2bda8dea4955b19"
+ "source_revision": "45d95073f73ed98f2ac84f55b06393fdac3f7019"
 }
