@@ -18888,7 +18888,7 @@
   {
    "n": 1227,
    "name": "Repair Windows VPN Payload Delivery and Split Peer Delivery fixtures to use the UDP state queue",
-   "done": "",
+   "done": "2026-11-16T00:01Z",
    "goal": false,
    "under": 369,
    "ticks": [],
@@ -18902,36 +18902,38 @@
      "by": "HEAVY",
      "at": "2026-11-15T23:49Z",
      "text": "Published 635c3189bc. Roslyn NEW ERRORS: none. Three fixture repairs use the UDP state queue, Wi-Fi Evidence File and sender Outcome, preserving wire, restart custody and retry assertions. Native rerun pending. Earlier Unity PID 3348 surviv"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-16T00:01Z",
+     "text": "Rog native Unity 6000.6.8f1 at 3f2417e7c0 containing 635c3189bc: VpnPayloadDeliveryTests 66/66 and VpnSplitPeerDeliveryTests 7/7. Wire advertisement, restart custody and failure backoff assertions passed. Receipts C:/MavControlEvidence/Rog-"
     }
    ]
   },
   {
    "n": 1228,
    "name": "Reuse Planet Renderer reference mesh query arrays after the last user retires (Planet Renderer SPEC",
-   "done": "",
+   "done": "2026-11-15T23:58Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-15T23:48Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-15T23:58Z",
+     "text": "4f97e2b0c0 reuses both reference query arrays after final-user and native retirement, up to four budget-charged pairs. Rog Unity 6000.6.8f1: Terrain 22/22, Renderer Surface 8/8, Retirement 4/4. New case proves reuse, cap, accounting and sto"
+    }
+   ]
   },
   {
    "n": 1229,
    "name": "Repair Windows Menu lighting and Chat Composer fixture bindings and bring the Telemetry Restream fixture in line with its first-link fallback. Preserve photo attenuation",
-   "done": "",
+   "done": "2026-11-16T00:01Z",
    "goal": false,
    "under": 369,
    "ticks": [],
@@ -18945,6 +18947,11 @@
      "by": "HEAVY",
      "at": "2026-11-15T23:55Z",
      "text": "Published 5ef773bef3. Roslyn NEW ERRORS: none. Menu photo lighting and Chat Composer fixtures bind current owners. Telemetry Restream covers missing links and the documented read-only first-link fallback. Native rerun pending while the earl"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-16T00:01Z",
+     "text": "Rog native Unity 6000.6.8f1 at 3f2417e7c0 containing 5ef773bef3: ElementLightConfigurationTests 18/18, targeted Chat Composer photo draft localization 1/1 and TelemetryControlLifetimeTests 3/3. Receipts C:/MavControlEvidence/Rog-1227-1229-D"
     }
    ]
   },
@@ -18985,14 +18992,20 @@
     {
      "who": "HEAVY",
      "since": "2026-11-15T23:57Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-16T00:02Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-16T00:02Z",
+     "text": "Published f153dec3e4. Roslyn NEW ERRORS: none. Screen Cover cancellation fixture now uses an owned copy of the authored transition material in EditMode, keeps the queued action and checks the actual reveal, with capture and Menu state resto"
+    }
+   ]
   }
  ],
  "verify": [
@@ -19041,5 +19054,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c1307157d0ebc325e4a2b77ce10a982caa958c01"
+ "source_revision": "e823d2e81c756bb658616143d3af2972fb851ff6"
 }
