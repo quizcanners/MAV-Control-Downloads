@@ -22049,18 +22049,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_UI_NEXT",
-     "since": "2026-11-16T19:02Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_UI_NEXT",
+     "at": "2026-11-16T19:11Z",
+     "text": "Published 5aba8ca21f: Bootstrap owns all three shader references; assets moved out of Resources with GUIDs intact; concurrent Points depth shader and test path preserved. Editor recompile and Roslyn comparison passed; GUID asset loads confi"
+    }
+   ]
   },
   {
    "n": 1415,
@@ -22703,5 +22700,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "e82b73dc5246e813bc8544545edac284b8c4a5e3"
+ "source_revision": "bc0c34c1362ec7da5927014a74a94b366c6b3929"
 }
