@@ -22414,8 +22414,8 @@
     {
      "who": "CODEX_GEOTIFF_PERF",
      "since": "2026-11-16T22:10Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-16T22:17Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -22424,8 +22424,8 @@
    "notes": [
     {
      "by": "CODEX_GEOTIFF_PERF",
-     "at": "2026-11-16T22:09Z",
-     "text": "No source edits: each center also allocates formatted MGRS strings, Angle/TMCoord objects and a TileIndex. A safe zero-allocation path needs numeric grid-letter decoding and the exact ReadStoredUtmAngles inverse/forward correction, includin"
+     "at": "2026-11-16T22:17Z",
+     "text": "Published 701a788d6a: cached numeric UTM inverse and exact round-trip correction avoid per-cell allocations; fallback preserves exceptional cells. Editor compile clean; 12/12 edge/allocation tests and 3/3 bake-mark/resident-only tests passe"
     }
    ]
   }
@@ -22972,5 +22972,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "c02da1f32d2935ab71590723ffa129e85130e50c"
+ "source_revision": "ffae24eacd15600e3075400573d266309ae42b3d"
 }
