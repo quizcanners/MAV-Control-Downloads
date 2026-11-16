@@ -22247,18 +22247,33 @@
   },
   {
    "n": 1430,
-   "name": "x",
+   "name": "Street View",
    "done": "",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
-   "flags": [
-    "vague"
-   ],
+   "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Route each depth point to mesh, terrain or splat by the SPEC rule",
+     "x": false
+    },
+    {
+     "t": "Height map and subdivided overlay plane with photo blend",
+     "x": false
+    },
+    {
+     "t": "Splat quad layer from the 1416/1418 quads",
+     "x": false
+    },
+    {
+     "t": "Save and load the three layers; drop the old ground triangles and transparent detail path",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
@@ -22804,5 +22819,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "9660a010b506a6a30dcc12c992879fb8be72ee74"
+ "source_revision": "149288680d266372b6ac3eb6b560f8252dac0524"
 }
