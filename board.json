@@ -29,7 +29,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-16T02:16Z",
-     "noted": "",
+     "noted": "2026-11-16T02:18Z",
      "progress": 38,
      "ticked": 3,
      "total": 8
@@ -74,6 +74,11 @@
      "by": "ROG",
      "at": "2026-11-16T01:33Z",
      "text": "Rog Unity f77c41e55a: 200/201 targeted tests passed, one exact-pixel marker failure. Servers 14/14, peer build floor 6/6, Android USB 23/23, Roadmap 17/17, Safe diagnostics 12/12, MAVLink inbox 44/44, Street View photos 22/22, Search/Sugges"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-16T02:18Z",
+     "text": "Windows host validation at d25343b859 passed the containing RoutingServer.Tests run. The real shared diagnostics had 3,254 assertions for Pending/CanQueueError, delivery, recurrence, drain and restart. Its 63,081 send-scan checks include 57"
     }
    ]
   },
@@ -453,16 +458,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T02:14Z",
-     "noted": "",
-     "progress": 71,
-     "ticked": 5,
-     "total": 7
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Windows Editor (HEAVY): bridge answered api.status after a witnessed script reload (8b1b018379); prepared-candidate containing All 8569 passed, 0 failed (also serves goal 382); live-Editor All 8591/0 ",
@@ -489,8 +485,12 @@
      "x": true
     },
     {
-     "t": "Cloud reads the GitHub Actions logs, PASIKA runs: the nine Linux GameCI failures (Archive/GAMECI-LINUX-NATIVE-FAILURES.md); Linux Cesium native rebuild deferred; Rog: official Unity and Codex integrat",
+     "t": "Cloud reads the GitHub Actions logs, PASIKA runs: the nine Linux GameCI failures (Archive/GAMECI-LINUX-NATIVE-FAILURES.md); Linux Cesium native rebuild deferred; the Editor late-shutdown access violat",
      "x": false
+    },
+    {
+     "t": "Rog: official Unity Codex plugin 0.1.9-beta enabled. CLI 1.0.0 and Pipeline 0.9.1-exp.1 reached Unity 6000.6.8f1 in the single checkout at d25343b859. Read RIGHT Suggestions, saved and reloaded a disp",
+     "x": true
     }
    ],
    "notes": [
@@ -19581,5 +19581,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e6fe763e30ceb3ef6c78c57d550b46444ca275cf"
+ "source_revision": "75d41c1f900d2d86982ac17d98b4fc242e8615b2"
 }
