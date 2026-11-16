@@ -21812,16 +21812,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_POSE",
-     "since": "2026-11-16T22:54Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 1,
-     "total": 2
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Keep camera pivot on first-points and terrain fits",
@@ -21837,6 +21828,11 @@
      "by": "HEAVY",
      "at": "2026-11-16T17:51Z",
      "text": "7cc6e5e159 on main. First points keep the current Synthetic drone pose; terrain fit scales around that camera."
+    },
+    {
+     "by": "CODEX_MAC_POSE",
+     "at": "2026-11-16T22:55Z",
+     "text": "Current main retains the first-camera pivot and TryScaleForTerrain scale-limit guards; RTX generation explicitly requires Windows Editor/Player, so this Mac cannot run the required live scale-limit replay. Existing focused test covers 237.5"
     }
    ]
   },
@@ -23004,5 +23000,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "82191fdf77fd8774ce61b6e6db1aa9764d64498e"
+ "source_revision": "9d7883a0e374196f801c1ebaad2999a306b84432"
 }
