@@ -2241,26 +2241,6 @@
    ]
   },
   {
-   "n": 588,
-   "name": "MavChat Search",
-   "done": "2026-11-13T15:18Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-13T15:18Z",
-     "text": "465845e7ff removes the fixed 288-unit Portrait Search header override. The header keeps the authored X reservation and wraps Paste, Clear, Copy and Search with the existing layout owner. Native prefab tests at 480, 720 and 960 passed; the l"
-    }
-   ]
-  },
-  {
    "n": 589,
    "name": "using Strong for sharp descriptor retention measurement",
    "done": "2026-11-13T15:30Z",
@@ -21630,6 +21610,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1382,
+   "name": "Continuous 3D Street View",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-16T15:20Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -22162,5 +22165,5 @@
    "since": "2026-11-16T13:24Z"
   }
  ],
- "source_revision": "95810ec9d6a6d8f468e64fb6a70bc6f8d168464b"
+ "source_revision": "0b7e01a54f2efee94dbddf1263cc5b670617ee53"
 }
