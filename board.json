@@ -21570,14 +21570,6 @@
      "total": 0
     },
     {
-     "who": "CODEX_REMOTE_DRONE_UI",
-     "since": "2026-11-16T14:52Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    },
-    {
      "who": "CODEX_MAC_UI_TESTS",
      "since": "2026-11-16T14:53Z",
      "noted": "",
@@ -21589,11 +21581,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_REMOTE_DRONE_UI",
-     "at": "2026-11-16T14:48Z",
-     "text": "Presenter, exact-drone video/photo frame guard and stale-press protection implemented in shared checkout. Content prefab recipe /tmp/remote-drone-content-1378.json handed to parent for Editor application, compilation and integration; source"
-    },
-    {
      "by": "CODEX_MAC_UI_TESTS",
      "at": "2026-11-16T14:48Z",
      "text": "Added RemoteDroneSuggestionTests for exact remote-drone eligibility, tab changes, preview and photo frame identity, stale/current photo presses, and prefab bindings. Editor tests not run by this worker; parent coordinates recipe and executi"
@@ -21602,6 +21589,11 @@
      "by": "CODEX_REMOTE_DRONE_STATE",
      "at": "2026-11-16T14:50Z",
      "text": "Manager now keeps voice/chat/link and DJI Take/Release on the selected drone object tab; Grab photo is on DroneVideo. Legacy non-eligible and first-person gating retained. Parent is integrating and testing."
+    },
+    {
+     "by": "CODEX_REMOTE_DRONE_UI",
+     "at": "2026-11-16T14:55Z",
+     "text": "Remote capture now refuses all local/emulated fallbacks when the selected aircraft belongs to a peer. Suggestions prefab normalized after Editor authoring: recipe records and three intentional parent/controller changes retained; structural "
     }
    ]
   },
@@ -21695,5 +21687,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b1bae3e991c2b626819746e45e9b02a1c8c0cebc"
+ "source_revision": "2b8bfc52d5cf570e47b46d70fd06899d156547b3"
 }
