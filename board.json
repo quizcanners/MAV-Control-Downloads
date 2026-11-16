@@ -4568,16 +4568,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-16T15:22Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4592,8 +4583,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-16T15:05Z",
-     "text": "CPU.md 27dc64788d records Strong Dev 850 Normal pacing: Anim and target 60 in saved KSP, target 8 in nearby KSP and in Map Editing at the same pose. Repeats on return, survives Situation off, Enemy Logistics already off. Wind decal is a KSP"
+     "at": "2026-11-16T17:09Z",
+     "text": "f33afa9d79 exposes app.lifecycle animation_wake_sources. Strong signed Dev 850 in the restored KSP view, 20 Normal samples at target 8, 7.51 FPS presented, all None. Earlier target 60 did not recur. Read that field when Anim returns. CPU ba"
     }
    ]
   },
@@ -21664,7 +21655,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-16T17:10Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -22452,5 +22452,5 @@
    "since": "2026-11-16T13:24Z"
   }
  ],
- "source_revision": "be759d0b7ea4dc5f6cbc68db88ae64759af38286"
+ "source_revision": "727ca6be614053d20beb13c388cad4d5788e2ed9"
 }
