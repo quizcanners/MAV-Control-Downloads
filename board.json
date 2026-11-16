@@ -2211,16 +2211,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_FREEZE",
-     "since": "2026-11-16T17:56Z",
-     "noted": "",
-     "progress": 67,
-     "ticked": 2,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "223de4e530 removes a real hang risk: per-step while loops could run indefinitely on non-finite or extreme touch coordinates; panel-step updates are constant time with the same 60/40 thresholds, invali",
@@ -2240,6 +2231,11 @@
      "by": "CODEX_MAC_UI",
      "at": "2026-11-15T16:14Z",
      "text": "Source 223de4e530 bounds selector work; Windows swipes passed but do not reproduce the reported freeze. iPad and iPhone currently unavailable in devicectl; isolated Editor has server diagnostics unsupported, so no new hub report could be re"
+    },
+    {
+     "by": "CODEX_MAC_FREEZE",
+     "at": "2026-11-16T17:57Z",
+     "text": "Current main retains the bounded selector contact path; no source-proven freeze cause found. iPad and iPhone are unavailable in devicectl and local runtime bridge cannot connect, so the submitted diagnostics report and touch trace could not"
     }
    ]
   },
@@ -22172,5 +22168,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "4db01269fe845d357c27a38ded29c3a2081bc5bc"
+ "source_revision": "1cb489724be530d29b8d930eda672f027526b8b4"
 }
