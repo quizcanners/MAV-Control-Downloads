@@ -19918,6 +19918,29 @@
      "text": "Published 340844afe5. local/editor now return exit 1 on a refused command and print every reply in order. All 50 host cases passed. Live Rog Editor api.status returned 0, and an unknown command followed by api.status returned 1 with both re"
     }
    ]
+  },
+  {
+   "n": 1280,
+   "name": "Make peer_diag shot stop before capture when local navigation is refused or a remote navigation command is unconfirmed. Keep existing screenshot output intact on failure.",
+   "done": "",
+   "goal": false,
+   "under": 369,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-16T04:57Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -19966,5 +19989,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "b95e090891fcc10863746057a3f705dd1a56db9b"
+ "source_revision": "8b00874c573b682cee8ce8f63016a4bc550dd8e9"
 }
