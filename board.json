@@ -21296,16 +21296,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-16T13:19Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Run the depth-fusion prototype from a paused 3D Street View snapshot through the Backdoor and replace the draft with a UV-mapped refined revision.",
@@ -21320,7 +21311,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-16T13:25Z",
+     "text": "b7b8993597 publishes the TSDF prototype and Street View SPEC. Kenilworth compared at 24 and 48 frames, with posed keyframe PNGs and matrices. Plane, overlap and PLY checks passed. Results in VisualOdometryExperiment/README.md. Next: wire th"
+    }
+   ]
   }
  ],
  "verify": [
@@ -21853,5 +21850,5 @@
    "since": "2026-11-16T13:24Z"
   }
  ],
- "source_revision": "23b11987f489a5ec68433de8123ea1378ee25b0d"
+ "source_revision": "55ba358b11ffe7b4c5037b8ed54de3c17529beef"
 }
