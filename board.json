@@ -20218,25 +20218,22 @@
   {
    "n": 1308,
    "name": "Restore Android release preflight and player completion lines consumed by the build launcher",
-   "done": "",
+   "done": "2026-11-16T09:13Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-16T07:41Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-16T09:13Z",
+     "text": "5187e55803 restores the two Android launcher lines dropped during log cleanup. Before the change, native Unity assigned 849 but the prep helper refused its missing completion line. Fixed preflight reserved 849 on main; native packaging logg"
+    }
+   ]
   },
   {
    "n": 1309,
@@ -20472,5 +20469,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "6d6293957e5c0e1266b3bdcd31020de8f6ef1f32"
+ "source_revision": "1c0e36dceaab4f0f8ed56309df131380470c97b0"
 }
