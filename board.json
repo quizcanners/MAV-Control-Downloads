@@ -18983,54 +18983,47 @@
   {
    "n": 1231,
    "name": "Repair the Windows Screen Cover smoke-cancellation fixture so the queued transition uses an owned material in EditMode. Preserve cancellation",
-   "done": "",
+   "done": "2026-11-16T00:11Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T00:02Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
      "at": "2026-11-16T00:02Z",
      "text": "Published f153dec3e4. Roslyn NEW ERRORS: none. Screen Cover cancellation fixture now uses an owned copy of the authored transition material in EditMode, keeps the queued action and checks the actual reveal, with capture and Menu state resto"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-16T00:11Z",
+     "text": "Rog reproduced another use of an unowned transition material in the same fixture, shared the EditMode material setup across smoke cancellation and conditional/fullscreen priority, and passed ScreenCoverLifetimeTests 27/27 on Unity 6000.6.8f"
     }
    ]
   },
   {
    "n": 1232,
    "name": "Restore the Workflow Selector blur-completion fixture binding to Station.UI.OverlayDecision and preserve the stale and closed capture assertions.",
-   "done": "",
+   "done": "2026-11-16T00:11Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T00:02Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T00:11Z",
+     "text": "Rog reproduced the stale selector frame-gate lookup and switched the fixture to Station.UI.OverlayDecision with prior requested state restoration. Unity 6000.6.8f1 passed VoiceMessageRecordingFeedbackTests 6/6; native compile and Roslyn cle"
+    }
+   ]
   },
   {
    "n": 1233,
@@ -19042,7 +19035,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-16T00:12Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -19062,7 +19064,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-16T00:12Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -19071,6 +19082,29 @@
      "text": "Published daf99025db. Roslyn NEW ERRORS: none. Orthophoto uses current bake cursor and intent owners. The Map source fixture checks all three scrollable cards and retains the separate assertion that the retired Details card is absent. Nativ"
     }
    ]
+  },
+  {
+   "n": 1235,
+   "name": "Repair Windows Adaptive WebRTC",
+   "done": "",
+   "goal": false,
+   "under": 369,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-16T00:12Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -19119,5 +19153,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "d3db61ed359d95d98e3c6379ae2faa9298af5ddd"
+ "source_revision": "c47b00561d43a538c8c88a1c035d37532a0c32d7"
 }
