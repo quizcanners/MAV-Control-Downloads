@@ -20531,6 +20531,26 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1324,
+   "name": "Fetch only the public Downloads branch tip when mirroring board.json. Preserve release files",
+   "done": "2026-11-16T10:07Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T10:07Z",
+     "text": "Published 8a3c48a1b5. Downloads mirror fetches a depth-one blobless base; private ancestry checks and publication hooks still apply. Live read-only sample: 8,871 commits and 2,096,612 pack bytes versus 1 commit and 121,177 bytes with the sa"
+    }
+   ]
   }
  ],
  "verify": [
@@ -20579,5 +20599,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "8037504800086c64139eec21df05742192cac187"
+ "source_revision": "132ccc652e17fca8bb158c7b12b26a825845f832"
 }
