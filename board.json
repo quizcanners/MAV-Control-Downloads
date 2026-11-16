@@ -2255,36 +2255,6 @@
    "notes": []
   },
   {
-   "n": 581,
-   "name": "Host tests on an Editor machine",
-   "done": "2026-11-13T10:02Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-13T09:49Z",
-     "text": "HEAVY 581: verify-runner integration pushed in 3949e1315e. Each machine starts with a full host pass, then uses --changed --base with its own last successful source. Host-only pushes are checked without forcing an EditMode rerun. Directly c"
-    },
-    {
-     "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-13T09:58Z",
-     "text": "From CLOUD_COMPLEXITY, for whoever holds 581: (1) the other Tests~ folders were run in a cloud container and 12 stopped checks are cut (f1e3dfda5d); Tools/Tests~/AndroidWireGuardHost went with them, it compiled a deleted project. (2) Their "
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-13T10:01Z",
-     "text": "HEAVY 581: completed Windows machine sweep at ad8378ca21. 275 host scripts in 918 s, 140 passed, 10 stale source copies, 15 reported assertions, 13 other stops and 97 unavailable on this machine. Confirmed the 10 copy/build failures against"
-    }
-   ]
-  },
-  {
    "n": 582,
    "name": "using Strong for Android 830 memory and Web Mercator timing",
    "done": "2026-11-13T11:13Z",
@@ -20447,25 +20417,22 @@
   {
    "n": 1319,
    "name": "Save a goal missing-list update with its handoff note and claim release in one board commit. Preserve ordinary checklist size",
-   "done": "",
+   "done": "2026-11-16T10:02Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T09:53Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T10:02Z",
+     "text": "Published 6947a45cec. A goal release with --steps and --note saves the revised missing list, note and claim release in one commit. Blank lists are explicit; ordinary task size and other holder protections remain. Bare-origin regression veri"
+    }
+   ]
   },
   {
    "n": 1320,
@@ -20589,5 +20556,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "97aab2dd119ece4432ddd9a9fee231117454457f"
+ "source_revision": "696639c5f30a781028f694748756007340e49cf5"
 }
