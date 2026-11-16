@@ -21702,23 +21702,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_PHOTO_CLICK",
-     "since": "2026-11-16T21:03Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_MAC_VERIFY",
-     "at": "2026-11-16T18:54Z",
-     "text": "Editor at current checkout: UiExtendedMenuTests 13/13 passed, including saved prefab checks; Photo tab visual appearance remains due."
-    },
     {
      "by": "CODEX_PHOTO_VIEW",
      "at": "2026-11-16T19:27Z",
@@ -21728,6 +21714,11 @@
      "by": "CODEX_PHOTO_FOLLOWUP",
      "at": "2026-11-16T20:58Z",
      "text": "Published 9c74ad0f91; Editor compile and focused test passed, Roslyn NEW ERRORS: none. Live isolated Editor: Map Editing Photo, editing tools visible, Standard overlay and no popup; Search visibly joined bottom-left, search_button=True, dia"
+    },
+    {
+     "by": "CODEX_PHOTO_CLICK",
+     "at": "2026-11-16T21:04Z",
+     "text": "Isolated Editor Game view: Map Editing Photo with editing tools visible; physical mouse click on bottom-left Search opened Query, and diagnostics confirmed active=True and focused=True. Play stopped, normal test identity restored; no assets"
     }
    ]
   },
@@ -22906,5 +22897,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "80b2e1cdbfc72a3752acf156992e2ec00bfce387"
+ "source_revision": "fe02bea04a8dd047222a83dadb98b21401fe3076"
 }
