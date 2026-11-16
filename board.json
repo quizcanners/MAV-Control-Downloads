@@ -1538,7 +1538,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-16T01:49Z",
-     "noted": "",
+     "noted": "2026-11-16T02:05Z",
      "progress": 29,
      "ticked": 2,
      "total": 7
@@ -1582,8 +1582,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-16T01:17Z",
-     "text": "Strong Dev 848 file census dominates the idle sample and remains active during wide fast-zoom. CPU.md 2e0b9dbe8c has idle CPU and exact native identity. CPU.md a3ac9772f9 adds two native zoom replays with Retention in 139/260 worker samples"
+     "at": "2026-11-16T02:05Z",
+     "text": "Done: Presence migration starvation fixed in df1c58480a. Unity Presence and Retention fixtures pass, 22 total."
     }
    ]
   },
@@ -3066,7 +3066,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-16T02:05Z",
+     "noted": "",
+     "progress": 25,
+     "ticked": 1,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "On main: early break for VPN down in Peer.CanUseSyncConnection (a1614a81); Diagnostics, Startup, Persistence, FrameRate, Scheduler out of Singleton_GroundStation (e2b75667); Station split (18df70da); ",
@@ -19549,5 +19558,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "a7ff05b25038698d7fb6b98ec1b3de54c460d1e5"
+ "source_revision": "a0b8b9267766d12bb8c227ecf3dc6ba96d7189d4"
 }
