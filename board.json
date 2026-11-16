@@ -20242,6 +20242,29 @@
      "text": "Published 6abb671268. Logical drain samples the live master and tiles.sqlite files plus sidecars each turn. Only legacy segments use the 15-second census; legacy writes and writer close invalidate it. Real-file host reproduced CR-E7ED-01, 6"
     }
    ]
+  },
+  {
+   "n": 1300,
+   "name": "Keep Web Mercator legacy-segment catch-up resumable when space runs low. Reuse the existing copy room check and Waiting progress before writing or retiring a segment.",
+   "done": "",
+   "goal": false,
+   "under": 430,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "ROG",
+     "since": "2026-11-16T07:05Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -20290,5 +20313,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "450e12542c5363dd731b1c479a62e23e6d9471aa"
+ "source_revision": "b863d48870cf14f3b1c41b44bd04fc8f60a2ab19"
 }
