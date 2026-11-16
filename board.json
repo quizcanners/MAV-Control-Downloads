@@ -20164,22 +20164,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T10:40Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
      "at": "2026-11-16T10:23Z",
      "text": "Release 850 (9d20269db0) includes the 20 s Coding scene wait timeout. StartupBatchTiming passed 21/21. The Editor reached Ready (CodingSceneReady 55.2 ms) and Strong rendered the map after the in-place update and unlock. The release smoke p"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-16T10:53Z",
+     "text": "Published da6a1ef896: an expired CodingSceneReady wait hands the completed read to the regular file owner after startup reaches Ready. The original settings root must still own it; no synchronous wait or repeat failure. Six host controls pa"
     }
    ]
   },
@@ -20924,5 +20920,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "12b1ea61c6900b43f9a549e03042879c49a41ac9"
+ "source_revision": "8fca1c6bd32e862a08ea21dda89841ec1d816f62"
 }
