@@ -21731,16 +21731,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MGRS_NEXT",
-     "since": "2026-11-16T20:06Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -21752,6 +21743,11 @@
      "by": "CODEX_MGRS_VIEW",
      "at": "2026-11-16T19:39Z",
      "text": "Published 42b523c38c: completed digits auto-size clear of copy icon; live Editor gap 5.05 px after reimport (previously overlapped by 31 px). Previous arrow clears Ping; Next arrow was unavailable with the isolated history. Guide check 0 er"
+    },
+    {
+     "by": "CODEX_MGRS_NEXT",
+     "at": "2026-11-16T20:14Z",
+     "text": "Current synced Editor: MgrsHistorySwipeTests 22/22 passed, including Next-arrow availability and navigation for both prefabs. The Next arrow was not visually observed in a populated live history. Play stopped; normal identity restored."
     }
    ]
   },
@@ -22786,5 +22782,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "427ecf8e7b18d329cfb1e34e8dad33df02302e55"
+ "source_revision": "616b76859d04cb0e04c6bba0f1c2528f35843c63"
 }
