@@ -2265,26 +2265,6 @@
    ]
   },
   {
-   "n": 594,
-   "name": "Move received state for the four simple status notices to their respective owners; the notification card reads the owner state",
-   "done": "2026-11-13T16:54Z",
-   "goal": false,
-   "under": 410,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T16:53Z",
-     "text": "61d5a5c521: each of the four simple status owners keeps its own SimpleStatusReceipt; card Seen reads and updates that receipt, preserving receipt when a card is recreated and resetting it for a changed or returning issue. Existing per-sourc"
-    }
-   ]
-  },
-  {
    "n": 595,
    "name": "using Strong for full-size camera target comparison",
    "done": "2026-11-13T17:33Z",
@@ -21869,6 +21849,65 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1397,
+   "name": "Using Strong for the notification flick and KSP animation wake replay on the signed Dev APK",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-16T16:53Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 1398,
+   "name": "Street View continuous capture",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-16T16:54Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Weight confidence and capture resolution",
+     "x": false
+    },
+    {
+     "t": "Require independent agreement for weaker geometry",
+     "x": false
+    },
+    {
+     "t": "Replay a continuous Windows capture and publish",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -22401,5 +22440,5 @@
    "since": "2026-11-16T13:24Z"
   }
  ],
- "source_revision": "268d0da7a0d6444375b89d5c3e23540c367dbd84"
+ "source_revision": "edde7c927bd6569f91710b6babda5686727dc525"
 }
