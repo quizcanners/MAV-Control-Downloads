@@ -1010,16 +1010,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-16T06:49Z",
-     "noted": "2026-11-16T07:27Z",
-     "progress": 53,
-     "ticked": 8,
-     "total": 15
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Space relief: Copernicus GLO-30 4096x2048 globe is the only relief on main (2dfa940d67, LFS SHA-256 b668209b...b513, 16,777,232 bytes); NOAA globe relief removed; globe=Ready at 1,000 km and Absent af",
@@ -20230,7 +20221,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-16T07:28Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -20239,15 +20232,15 @@
      "who": "HEAVY",
      "since": "2026-11-16T07:19Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 100,
+     "ticked": 1,
      "total": 1
     }
    ],
    "steps": [
     {
      "t": "Suppress expected UnselectAll and empty-result log entries while preserving Search cleanup",
-     "x": false
+     "x": true
     }
    ],
    "notes": []
@@ -20356,5 +20349,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "95227ad91899b1b9a8c13470588701fd05ec2763"
+ "source_revision": "fa108f5936e10216df46f6114bb0714ae195fb75"
 }
