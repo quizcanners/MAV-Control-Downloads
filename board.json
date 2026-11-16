@@ -20167,25 +20167,22 @@
   {
    "n": 1295,
    "name": "Remove repeated Lineage and WaitingImagery allocations from Planet Renderer patch creation. Strong Dev 848 first zoom frames sampled the two zoom-plus-one arrays at ARM64 0x2b633b4 and 0x2b63394. CPU.",
-   "done": "",
+   "done": "2026-11-16T06:36Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T06:27Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T06:36Z",
+     "text": "Published 0b06980de3. Patches share stable parent links and rent waiting-imagery arrays on demand. Retirement keeps at most 32 cleared-on-rent, size-matched spares under the session ledger. Isolated production methods matched 4096 previous "
+    }
+   ]
   },
   {
    "n": 1296,
@@ -20257,5 +20254,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "15cc5f6762cee8d67c2ea485ffbb57db32169ff7"
+ "source_revision": "18836176db4683efd07c6d99173e9e5c7d42b77f"
 }
