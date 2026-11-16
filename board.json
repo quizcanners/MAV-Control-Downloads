@@ -22348,25 +22348,22 @@
   {
    "n": 1434,
    "name": "Using Strong for the Android idle input-wake measurement",
-   "done": "",
+   "done": "2026-11-16T21:34Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-16T21:23Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-16T21:34Z",
+     "text": "48 Android dispatch probes on signed Dev 851. Original pose preserved. Restored signed Release 850 in place, APK hash and app UID verified, both audited files matched, rendered map and 180 s watch passed. CPU.md 008a4f1059. Strong released."
+    }
+   ]
   }
  ],
  "verify": [
@@ -22911,5 +22908,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "fb50128deb6ecb10230cd8dd74ad4e99fb9983fb"
+ "source_revision": "7cb7868d9fdb22267bdc3ff13bfabc38e68d6504"
 }
