@@ -20973,9 +20973,29 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-16T11:27Z",
+     "text": "User redirected this request to the UI thread. No edits made here. The Settings top inset is set from the X bottom in C_GroundStation_Inspector.RefreshWindowGeometry; preserve the existing right inset."
+    }
+   ]
+  },
+  {
+   "n": 1346,
+   "name": "Compass star",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
    "held": [
     {
-     "who": "HEAVY",
+     "who": "CODEX_MAC_UI",
      "since": "2026-11-16T11:27Z",
      "noted": "",
      "progress": 0,
@@ -21033,5 +21053,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "557dc791f70b811aaa03aecd3023465cdcbcb10c"
+ "source_revision": "9e1b8ec112e0a3498b2a3e958330d8317eae6969"
 }
