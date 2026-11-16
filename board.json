@@ -21928,22 +21928,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_ROW",
-     "since": "2026-11-16T19:00Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_MAC_UI_ROWS",
      "at": "2026-11-16T17:46Z",
      "text": "Inspected shared peer row and its previous-separator prefab; current checkout is stale and cannot reproduce the current-main MavChat row, so no speculative asset change was made. Resume with synced Editor and the affected group row visible."
+    },
+    {
+     "by": "CODEX_MAC_ROW",
+     "at": "2026-11-16T19:04Z",
+     "text": "Current main hides the peer row body in Chat and uses a separate previous-row separator; a Mac regular-Chat screenshot does not reproduce the reported MavChat portrait row. Needs affected group row on a phone/current build before selecting "
     }
    ]
   },
@@ -22661,5 +22657,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "08a7602c5bab84cccb01b3f499f433a9bf0ef16f"
+ "source_revision": "f264b1aea926713799cabaa428d1b2e5fe04ab47"
 }
