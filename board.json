@@ -20691,6 +20691,38 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1332,
+   "name": "Stop false Scanning warnings on Street View groups",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-16T10:20Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 2
+    }
+   ],
+   "steps": [
+    {
+     "t": "Separate missing provider branches from genuine folder scan failures",
+     "x": false
+    },
+    {
+     "t": "Check the Street View group rows in Windows",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -20739,5 +20771,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "2b502889612e086600e15f19ac8945388333cd31"
+ "source_revision": "ecb912ed6d67ab103fbcacda5c5de25f2b858cf7"
 }
