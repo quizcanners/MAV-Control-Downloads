@@ -21570,7 +21570,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_UI_MERGE",
+     "at": "2026-11-16T17:49Z",
+     "text": "Origin prefab has 6 spacing in Alternative Icon And Caption, 12 in three Move Content layouts and Drone Video Suggestions; not all are tab rows. RIGHT Suggestions has uncommitted local edits and Editor is stale. Trace the live hierarchy and"
+    }
+   ]
   },
   {
    "n": 1386,
@@ -22070,7 +22076,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-16T17:50Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -22079,15 +22087,15 @@
      "who": "HEAVY",
      "since": "2026-11-16T17:46Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 50,
+     "ticked": 1,
      "total": 2
     }
    ],
    "steps": [
     {
      "t": "Keep camera pivot on first-points and terrain fits",
-     "x": false
+     "x": true
     },
     {
      "t": "Replay the scale-limit case on Windows and publish",
@@ -22653,5 +22661,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "8f37b258caaacad9333002de84673654d42f2ad1"
+ "source_revision": "c32695d8d2116b3a704a4b956b7e599be6428777"
 }
