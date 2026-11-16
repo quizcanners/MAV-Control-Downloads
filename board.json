@@ -1480,16 +1480,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_GEOTIFF_PERF",
-     "since": "2026-11-16T22:10Z",
-     "noted": "",
-     "progress": 22,
-     "ticked": 2,
-     "total": 9
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Cloud, on main: startup cuts, Patch Preparation (32a9302f, 55dbede20d), hand-written heartbeat reader, skip sealing for nine hash types (build 818), 4 Hz crypto handshake only while a peer has no key,",
@@ -1541,8 +1532,8 @@
     },
     {
      "by": "CODEX_GEOTIFF_PERF",
-     "at": "2026-11-16T22:09Z",
-     "text": "Task 1409 source and focused tests published in fd0c971dff; actual GeoTIFF bake remains for a live isolated session. Task 1436 investigation handed off with its coordinate-conversion constraints; no source edits made."
+     "at": "2026-11-16T22:18Z",
+     "text": "Published 701a788d6a for task 1436; numeric boundaries and allocation checks pass. The live isolated GeoTIFF bake from task 1409 remains unrun."
     }
    ]
   },
@@ -22963,5 +22954,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "99a9cf1af757db12a6c17c28101c96c1883d1964"
+ "source_revision": "a3412d83a95b49a21488ad43f85d389a82fa02a7"
 }
