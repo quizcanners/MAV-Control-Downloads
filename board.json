@@ -20823,25 +20823,22 @@
   {
    "n": 1336,
    "name": "MavChat",
-   "done": "",
+   "done": "2026-11-16T10:51Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_UI",
-     "since": "2026-11-16T10:44Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-16T10:51Z",
+     "text": "Published 4165e9f3d2: old-run passport no longer diagnoses a newer run; send errors do not carry across conversations and update to retry when the peer becomes current. Editor: peer build 7, composer 66, rekey 11, passport reader 10 passed;"
+    }
+   ]
   },
   {
    "n": 1337,
@@ -20927,5 +20924,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "5705c137e853d642bac2d2e656405e40ea670994"
+ "source_revision": "12b1ea61c6900b43f9a549e03042879c49a41ac9"
 }
