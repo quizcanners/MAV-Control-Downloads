@@ -21498,22 +21498,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_PREVIEW_JUMP",
-     "since": "2026-11-16T20:11Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_MAC_TELEMETRY",
      "at": "2026-11-16T17:44Z",
      "text": "Published 6c28577847: fixed nested preview and zero-height root overrides; Editor accepted Prefab Edit, but live Photo tab unavailable. Still tune top-bar spacing and inspect bottom strip with Autoshow/Obstacles."
+    },
+    {
+     "by": "CODEX_PREVIEW_JUMP",
+     "at": "2026-11-16T20:37Z",
+     "text": "Published 801ba465f3: preview column stays fixed as aspect changes and returns to the bottom without preview. Editor compile and Roslyn NEW ERRORS: none; preview tests 3/3, UI rendering 8/8, menu 13/13. Isolated Play confirmed both no-video"
     }
    ]
   },
@@ -22845,5 +22841,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "d37ea2f5d328b514f17682da346144e4f12e6da1"
+ "source_revision": "bebd39e1860fd22b24609635b42936f835c5845f"
 }
