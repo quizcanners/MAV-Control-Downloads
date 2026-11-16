@@ -20506,25 +20506,22 @@
   {
    "n": 1323,
    "name": "Using Strong for the Android Release 850 smoke (release device reservation)",
-   "done": "",
+   "done": "2026-11-16T10:21Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-16T10:04Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-16T10:21Z",
+     "text": "Released Strong. Signed Release 850 (9d20269db0) installed in place with identical APK, UID and unchanged audited altitude files. Process health passed; visual map check waits for unlock. Editor rendered the map. Roslyn clean, 159/159 focus"
+    }
+   ]
   },
   {
    "n": 1324,
@@ -20792,5 +20789,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "12a11603de7b47119f0db2939484057c71582015"
+ "source_revision": "d79ba9a8529cf9e9b08c713fda8fe5ccb6e1ec95"
 }
