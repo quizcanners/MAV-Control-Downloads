@@ -19898,25 +19898,22 @@
   {
    "n": 1278,
    "name": "Keep Android peer diagnostics responsive when ADB stalls. Bound discovery",
-   "done": "",
+   "done": "2026-11-16T04:52Z",
    "goal": false,
    "under": 375,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T04:49Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T04:52Z",
+     "text": "Published 3388688c85. Android device discovery, descriptor read and forward setup now time out after 15 seconds per ADB call. Failures report the stage without tokens. Valid leases still clean up their own forward. A timed-out forward with "
+    }
+   ]
   }
  ],
  "verify": [
@@ -19965,5 +19962,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "951ab47c5d91b006f4c9d69758e141a49f22184c"
+ "source_revision": "371d0246141993bf7797e4a414ff59abd9a44d9f"
 }
