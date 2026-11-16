@@ -1699,57 +1699,6 @@
    ]
   },
   {
-   "n": 482,
-   "name": "EditMode All is green on main",
-   "done": "2026-11-13T01:40Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "PASIKA containing All, run 5 on main 2eed589211: 8579 passed, 0 failed, 8 skipped, 1 inconclusive; every earlier red (13 of run 3, 6 of run 4) fixed on main (67572424c9, 85f08e0db5, 86539d7b19, 85c7bc",
-     "x": true
-    },
-    {
-     "t": "The one inconclusive is by design: MavChatSheetTests.ASlowTwitchSelectsNoNeighborAndAFastShortFlickDoes needs 30 dp > the 32 px drag threshold (dde4084384), which a 96-dpi batch screen cannot give.",
-     "x": true
-    },
-    {
-     "t": "Cloud/PASIKA: drop --skip-tests from the iOS daily build and make the check count failed, not inconclusive (Test-EditMode.ps1 prints FAILED when only an inconclusive is left)",
-     "x": false
-    },
-    {
-     "t": "Any Editor machine, under the station test identity ('MAV/Tests/Station test identity on/off', Tests AGENTS): when a run is red, the order leak seen once is SituationEffectsTests.MarkerKeepsUrpPixelsW",
-     "x": false
-    },
-    {
-     "t": "Per-fixture reds go in goal 369; delete a test that pins a retired layout (root AGENTS, Delete old tests when code changes)",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-13T21:22Z",
-     "text": "ROG_FABLE 482, order leak: not reproduced on the Rog (Windows Editor D3D11, main f323b15383, station test identity). Ran in one Editor session, back to back: TrenchShaderRenderTests 14/14, ChatWindowLayoutTests 14/14, PowerLineGeometryTests"
-    },
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-13T23:45Z",
-     "text": "ROG_FABLE 482: the Android 833 row (ba81c415c2) records a red native EditMode All, 8,510 passed / 20 failed, evidence D:/MAV_Work/Verification/Android-Test-833-20261113, but names none of the 20. The Rog cannot reproduce the list through th"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-16T01:33Z",
-     "text": "Rog reproduced the exact URP marker pixel failure at f77c41e55a. Run sequence was IncomingStreetViewPhotoTests 22/22, SearchQuerySuggestionTests 54/54, SituationEffectsTests 8/9. The marker then passed two isolated runs and full SituationEf"
-    }
-   ]
-  },
-  {
    "n": 487,
    "name": "Pencil keeps painting while fingers drag and pinch the map (Map Editing SPEC",
    "done": "",
@@ -5864,7 +5813,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-16T01:40Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -19557,5 +19515,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "dfa4b6f688f1a909e5754ddd78e41e2497587678"
+ "source_revision": "d5bc824a4678a0562ff7b875181e2e4e2c28fac6"
 }
