@@ -20218,7 +20218,7 @@
   {
    "n": 1303,
    "name": "Keep routine Search result cleanup quiet in the Unity Console",
-   "done": "",
+   "done": "2026-11-16T07:28Z",
    "goal": false,
    "under": 0,
    "ticks": [
@@ -20227,23 +20227,20 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-16T07:19Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 1,
-     "total": 1
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Suppress expected UnselectAll and empty-result log entries while preserving Search cleanup",
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-16T07:28Z",
+     "text": "e59c40985b suppresses routine Search clear messages without skipping cleanup. Windows Unity Play through the Backdoor: synthetic selection changed Search Drone -> None with zero Clearing result entries. Roslyn comparison reported NEW ERRORS"
+    }
+   ]
   },
   {
    "n": 1304,
@@ -20349,5 +20346,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "fa108f5936e10216df46f6114bb0714ae195fb75"
+ "source_revision": "81c01382fef297638b43c34af9693a36ea9c2b99"
 }
