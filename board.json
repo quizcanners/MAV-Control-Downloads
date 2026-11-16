@@ -19769,14 +19769,20 @@
     {
      "who": "ROG",
      "since": "2026-11-16T04:10Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-16T04:11Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T04:11Z",
+     "text": "Published cab973aa7d. Host tests now assert advisory EditMode, explicit skip and cancellation, and the actual suite/build runner guard bindings. Both tests passed; PowerShell 7 and Windows PowerShell 5.1 exercised Force, auto, and launcher "
+    }
+   ]
   }
  ],
  "verify": [
@@ -19825,5 +19831,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "2d57ddf56bddfe9ca6bdb747cbd02e11a836cd9d"
+ "source_revision": "58b4fea8081526cfb031e14cf442e1304f02e3ae"
 }
