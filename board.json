@@ -2247,26 +2247,6 @@
    ]
   },
   {
-   "n": 573,
-   "name": "Settings Inspector status rows",
-   "done": "2026-11-13T07:47Z",
-   "goal": false,
-   "under": 409,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T07:46Z",
-     "text": "418dc300ec replaces the filled white Icon.Empty with the existing unselected outline for NotApplicable Inspector checks. The GPS Off/unused page was viewed in Editor Play before and after; status alignment remains. Editor recompiled; Roslyn"
-    }
-   ]
-  },
-  {
    "n": 574,
    "name": "Settings > GPS",
    "done": "2026-11-13T07:58Z",
@@ -20270,25 +20250,22 @@
   {
    "n": 1306,
    "name": "Remove the unconditional Height Page demand array from Planet Renderer patch creation (Planet Renderer SPEC",
-   "done": "",
+   "done": "2026-11-16T07:53Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T07:40Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T07:53Z",
+     "text": "Published 03d2a5b20a and 01fb787b1c. Height Page demand rents only for relevant owner zooms and returns cleared storage through the shared charged retirement pool. The host probe passed empty branches, exact sums, cross-use clearing, page d"
+    }
+   ]
   },
   {
    "n": 1307,
@@ -20396,5 +20373,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "571b8a40fe833c2924d1482a267c8c4d9ee23305"
+ "source_revision": "5a2f42bb0a2273c8686651dc04eb987b508f3b07"
 }
