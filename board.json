@@ -20430,7 +20430,7 @@
   {
    "n": 1318,
    "name": "Center 3D Street View on its mesh and start manual placement in top-down orbit",
-   "done": "",
+   "done": "2026-11-16T09:49Z",
    "goal": false,
    "under": 0,
    "ticks": [
@@ -20440,16 +20440,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-16T09:40Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 2,
-     "total": 2
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Anchor existing and new entries on the mesh bounds",
@@ -20460,7 +20451,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-16T09:49Z",
+     "text": "4d51cbb19f on main; cmp.sh clean, Unity compiled."
+    }
+   ]
   }
  ],
  "verify": [
@@ -20509,5 +20506,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "9f801c5a863ed59e616edd1c2e2becd7563bca84"
+ "source_revision": "d3562cc9c510e056fafb940b440febda4560c373"
 }
