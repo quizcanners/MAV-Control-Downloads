@@ -20120,25 +20120,22 @@
   {
    "n": 1291,
    "name": "Restore the Android Wi-Fi join portable checks after the Join and Wi-Fi controllers split. Run current request",
-   "done": "",
+   "done": "2026-11-16T06:09Z",
    "goal": false,
    "under": 369,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T06:03Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T06:09Z",
+     "text": "Published 1c341f9764 and 0e2ae48367. The Android hotspot host compiles current Join, Wi-Fi, offer, dial admission and TransportFailures owners. 18 managed checks and seven regression controls passed. Java callback host pins current Wi-Fi co"
+    }
+   ]
   }
  ],
  "verify": [
@@ -20187,5 +20184,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "132287e890d9d3833a6f93581b2e537889b15bb4"
+ "source_revision": "b3523d45cdbd37b717f22ae2748c5e9d1bf731d1"
 }
