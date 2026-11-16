@@ -1304,7 +1304,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MAC_UI",
+     "since": "2026-11-16T07:59Z",
+     "noted": "",
+     "progress": 81,
+     "ticked": 13,
+     "total": 16
+    }
+   ],
    "steps": [
     {
      "t": "All eight Settings roots open on one status line with a tick before the toggles: GPS 20fe6bdde7, Video and Network 13b74e6385, Map/Workflow/Drones/Data/System b5e0c48259; status line drawn in every st",
@@ -2157,20 +2166,6 @@
    ]
   },
   {
-   "n": 567,
-   "name": "using Strong for Android Test 829 smoke",
-   "done": "2026-11-13T07:58Z",
-   "goal": false,
-   "under": 374,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 570,
    "name": "Note from CODEX_MAC_UI",
    "done": "2026-11-14T11:56Z",
@@ -2243,26 +2238,6 @@
      "by": "CODEX_GRAPHICS",
      "at": "2026-11-15T06:55Z",
      "text": "Shared-workflow audit at 1e0b80295c: Alarm CanPresent requires RemoteSensors + Alarm + PinValidated (Station_RemoteSense.cs:36); TrainingSimulationBackend.cs:65 stops outside Training or in its RemoteSensors mode. MapOnly also omits the Rem"
-    }
-   ]
-  },
-  {
-   "n": 574,
-   "name": "Settings > GPS",
-   "done": "2026-11-13T07:58Z",
-   "goal": false,
-   "under": 409,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-13T07:57Z",
-     "text": "a135dcd692: GPS blind-zone Inspector now distinguishes PositionUnknown, HomeUnknown and CoverageUnavailable; the latter two previously fell through to Outside, incorrectly reporting the position outside active zones. Removed duplicate missi"
     }
    ]
   },
@@ -20335,6 +20310,20 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1309,
+   "name": "Android Dev 849 first launch after an update sits on the empty loading bar for a long time (quiz's photo",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -20383,5 +20372,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "c252d0867ff92484788174cc35df033adabb0e59"
+ "source_revision": "2c345d5f1eb603dbbd3a48b6190666b983f6fe1e"
 }
