@@ -21576,14 +21576,6 @@
      "progress": 0,
      "ticked": 0,
      "total": 0
-    },
-    {
-     "who": "CODEX_REMOTE_DRONE_UI",
-     "since": "2026-11-16T14:58Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
     }
    ],
    "steps": [],
@@ -21600,8 +21592,8 @@
     },
     {
      "by": "CODEX_REMOTE_DRONE_UI",
-     "at": "2026-11-16T14:55Z",
-     "text": "Remote capture now refuses all local/emulated fallbacks when the selected aircraft belongs to a peer. Suggestions prefab normalized after Editor authoring: recipe records and three intentional parent/controller changes retained; structural "
+     "at": "2026-11-16T14:58Z",
+     "text": "Strict exact-drone video capture applies only to Suggestions video-tab Grab photo; other capture callers keep their prior fallback order. Queued strict remote camera requests retain and revalidate the selected peer and serial. Parent report"
     }
    ]
   },
@@ -21695,5 +21687,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "e10a2f3a2356da8b98f3a7cca6240813da17fcc8"
+ "source_revision": "822e97088de7e97313cc2514e2f5d330aae8bfa0"
 }
