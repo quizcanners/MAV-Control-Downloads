@@ -19911,25 +19911,22 @@
   {
    "n": 1279,
    "name": "Make peer_diag local and editor report a nonzero exit status when a command is refused. Preserve all printed replies",
-   "done": "",
+   "done": "2026-11-16T04:55Z",
    "goal": false,
    "under": 375,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG",
-     "since": "2026-11-16T04:54Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG",
+     "at": "2026-11-16T04:55Z",
+     "text": "Published 340844afe5. local/editor now return exit 1 on a refused command and print every reply in order. All 50 host cases passed. Live Rog Editor api.status returned 0, and an unknown command followed by api.status returned 1 with both re"
+    }
+   ]
   }
  ],
  "verify": [
@@ -19978,5 +19975,5 @@
    "since": "2026-10-30T19:33Z"
   }
  ],
- "source_revision": "151b6f2ce3fceea23594761a64f6afc8c2a3e299"
+ "source_revision": "89c3fb14fc1c68240050be4a29076bb354ca8200"
 }
