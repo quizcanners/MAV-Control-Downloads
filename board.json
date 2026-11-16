@@ -22148,16 +22148,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-16T22:57Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -22167,8 +22158,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-16T22:56Z",
-     "text": "b8d6a5aaa3 on main batches pair geometry for saved keyframe matching."
+     "at": "2026-11-16T23:03Z",
+     "text": "77e2406918 on main reuses LoFTR query preparation across saved references; feature caching is opt-in with Kornia 0.9.2."
     }
    ]
   },
@@ -23015,5 +23006,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "f9c31966c6f0c4d19e82e8756f82554fc5def884"
+ "source_revision": "f547887c8a349be82f86ace2028d1d590abf78f3"
 }
