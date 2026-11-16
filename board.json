@@ -22308,25 +22308,22 @@
   {
    "n": 1432,
    "name": "Apply admitted mouse and touch deltas to the Main Camera in the same frame",
-   "done": "",
+   "done": "2026-11-16T21:20Z",
    "goal": false,
    "under": 363,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-16T20:44Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-16T21:20Z",
+     "text": "Published f78b83bd31. Wheel travel is consumed in its admission frame. Mouse press-motion, coalesced first touch, reversal and follow cases passed in Unity. On earlier Dev 851 Strong, one notch took 9 frames and operator drag applied 5/5 mo"
+    }
+   ]
   },
   {
    "n": 1433,
@@ -22894,5 +22891,5 @@
    "since": "2026-11-16T17:46Z"
   }
  ],
- "source_revision": "43f1c741c2c4c805317e519df05a56946eeab511"
+ "source_revision": "557ee5b643f8c0e52d53c8d01abec42aa3435a9c"
 }
