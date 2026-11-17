@@ -23283,18 +23283,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_TELEMETRY_CORNER",
-     "since": "2026-11-17T11:07Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_TELEMETRY_CORNER",
+     "at": "2026-11-17T11:10Z",
+     "text": "Screenshot matches overlap: Telemetry Strip Left Column sets m_IgnoreLayout=1, so its grid begins beneath it. Full fix also needs horizontal content fitting and nested MavLink telemetry anchor overrides; Right of Lists altitude slider is in"
+    }
+   ]
   },
   {
    "n": 1513,
@@ -24037,5 +24034,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "71b0b6d889eb4beb1be850a999f67eb55b26b2f0"
+ "source_revision": "cbb46c89b801e9dacf3d82e5db305637d72c5849"
 }
