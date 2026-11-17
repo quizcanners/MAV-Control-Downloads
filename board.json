@@ -22171,16 +22171,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-17T03:50Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -22190,8 +22181,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-17T03:49Z",
-     "text": "fe9f12041b compares recent-overlap fallback against GPS on the same traced windows. It admitted 14\u201315 extra windows but worsened common held-out trajectory error at both p90 limits. Reverted the experimental mapper edits and kept receipts. "
+     "at": "2026-11-17T03:56Z",
+     "text": "3508e043a0 records the Montreal replay. Alternate older keyframes recovered extra windows at unchanged common-frame GPS error. Agreement between two recent-overlap fits still admitted the drift. Runtime stays as written. Next replay the old"
     }
    ]
   },
@@ -23300,5 +23291,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "c3a2806f629ac741b2703dc61fe23d60f0ea47df"
+ "source_revision": "ba5abface637c5d1ace54fddce5a3b0d40621081"
 }
