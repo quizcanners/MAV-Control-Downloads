@@ -22922,22 +22922,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_UI_BIND",
-     "since": "2026-11-17T13:16Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CLOUD_REFACTOR_6H",
      "at": "2026-11-17T12:45Z",
      "text": "Done: VideoProcessingSwitches + MapCameraControls bind in Awake. Left: ExtendedLayers, MapType latches; items 4, 6, 7. Editor: confirm toggles still respond."
+    },
+    {
+     "by": "CODEX_UI_BIND",
+     "at": "2026-11-17T13:25Z",
+     "text": "Published 9aba110ab4: Layers and Map Source bind on enable without Bootstrap reads; reload rebind regression and UiExtendedMenuTests 13/13 pass, Editor compiled, Roslyn NEW ERRORS none. Bind-once items 4, 6, 7 remain. No device check."
     }
    ]
   }
@@ -23508,5 +23504,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "83d7e3c2b578aab88ec5114a46f48ea45e17183a"
+ "source_revision": "8120a44078437cce93f35818b31365b87107f571"
 }
