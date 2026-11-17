@@ -22912,25 +22912,22 @@
   {
    "n": 1456,
    "name": "Using Lenovo to isolate Planet Elements residency and GLES allocation errors with a matched Test 855 startup replay",
-   "done": "",
+   "done": "2026-11-17T05:44Z",
    "goal": false,
    "under": 430,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T05:26Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T05:44Z",
+     "text": "RAM.md a925f45a7e. Same APK and pose on Lenovo: two Elements-on cold runs had 37 and 58 GLES allocation failures and 345.7\u2013350.0 MiB Graphics. Saved Elements-off run had zero failures and 246.9 MiB. Re-enabled Elements, saved, and saw 356.6"
+    }
+   ]
   },
   {
    "n": 1457,
@@ -23565,5 +23562,5 @@
    "since": "2026-11-17T05:36Z"
   }
  ],
- "source_revision": "a8526a48ae9b9a68127a4c85b35639a4066ff32a"
+ "source_revision": "f4b09cd6af8598b7d36c23902355c60cecdbad65"
 }
