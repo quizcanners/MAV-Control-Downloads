@@ -22631,25 +22631,22 @@
   {
    "n": 1446,
    "name": "Apply an admitted map swipe that begins and ends in one Input System update during its press frame. Preserve zero-motion taps and reject cancelled contacts (Camera SPEC",
-   "done": "",
+   "done": "2026-11-17T01:28Z",
    "goal": false,
    "under": 363,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T01:06Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T01:28Z",
+     "text": "cb1a5b35cf on main. A completed swipe received with the press applies its matching final touch position in that Main Camera update. Unity 60/60 passed, including coalesced move, coalesced release, zero-motion tap and no replay. Roslyn compa"
+    }
+   ]
   }
  ],
  "verify": [
@@ -23198,5 +23195,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "94861ee3f7cf26b61531dd0b545c0ded1f959a64"
+ "source_revision": "3f86f2a4cd845d446d8cdd53c03d1e19df06cee7"
 }
