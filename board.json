@@ -22206,16 +22206,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-17T03:43Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -22225,8 +22216,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-17T03:41Z",
-     "text": "04321139af adds a bounded Backdoor frame trace. Unity south-site Repeat shows a cold-start frame gap and 49/65 overlap rejects. Offline input admission diverged; filling the gap worsened it and recent-only admitted more without proving map "
+     "at": "2026-11-17T03:49Z",
+     "text": "fe9f12041b compares recent-overlap fallback against GPS on the same traced windows. It admitted 14\u201315 extra windows but worsened common held-out trajectory error at both p90 limits. Reverted the experimental mapper edits and kept receipts. "
     }
    ]
   },
@@ -23333,5 +23324,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "be3c5ec23a7b4d3ae56eab244a5f34b3044ce9e4"
+ "source_revision": "9ff26516519e0d1dfd0f5065488533645466d793"
 }
