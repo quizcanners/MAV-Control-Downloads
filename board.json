@@ -2549,33 +2549,6 @@
    ]
   },
   {
-   "n": 642,
-   "name": "Light",
-   "done": "2026-11-14T10:39Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Changed globals share ShaderProperty.MapGlobalVersion; the map decision follows late shader owners. Same-value publication does not invalidate.",
-     "x": true
-    },
-    {
-     "t": "CODEX_GRAPHICS 9c6847a439: remaining star/space/shadow inputs, night-light texture, sky rotation, thermal palette and Situation darkening opt in. Thermal keyword transitions and edited lighting config",
-     "x": true
-    },
-    {
-     "t": "Native Editor compile and five global-value-type publication checks pass; unchanged values and unflagged clocks leave the map version unchanged. Roslyn four-configuration compile: NEW ERRORS: none. Na",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 650,
    "name": "Sky plot follow-ups (no goal fits; area GPS and UI compass)",
    "done": "2026-11-15T04:14Z",
@@ -23549,6 +23522,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1515,
+   "name": "Using Lenovo to identify the GLES program binaries loaded on the first pan",
+   "done": "",
+   "goal": false,
+   "under": 429,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-17T10:39Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -24117,5 +24113,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "a450056b2918e8130fa94dff08eb0ab2b2d0ef39"
+ "source_revision": "4dd29ee06f22d696741e10c48b9bc6251a7a034a"
 }
