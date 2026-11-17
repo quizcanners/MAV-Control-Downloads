@@ -22853,29 +22853,25 @@
   {
    "n": 1545,
    "name": "Move peer greeting JSON serialization off Unity Main (Peers SPEC",
-   "done": "",
+   "done": "2026-11-17T15:25Z",
    "goal": false,
    "under": 429,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_PEER_GREETING",
-     "since": "2026-11-17T15:14Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
      "at": "2026-11-17T15:05Z",
      "text": "Resolved the actual SendTo caller offsets against the signed Dev 858 ELF. The three greeting paths are SyncVPNDevices, Crypto_Handshake and SyncAssignedNames. The passport is absent from these samples. CPU.md 5208e146c8 gives counts per dev"
+    },
+    {
+     "by": "CODEX_PEER_GREETING",
+     "at": "2026-11-17T15:25Z",
+     "text": "Published 1426396591: three greeting message types and Noise greeting use detached sender-thread snapshots, including mutable timestamps and key arrays; Unity wire-snapshot test 1/1, isolated Roslyn NEW ERRORS none. Live two-peer/Android ti"
     }
    ]
   },
@@ -23489,5 +23485,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "2968020c48e43b2660e0b302c7d3b4e555ea016b"
+ "source_revision": "65e5736f10843b4d7f7f670fff93d9eaf5093875"
 }
