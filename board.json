@@ -22313,16 +22313,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-17T06:27Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Route each depth point to mesh, terrain or splat by the SPEC rule",
@@ -22348,14 +22339,14 @@
      "text": "Published bae63ef292 handles every finite depth endpoint from retained projection views. CameraRays and each projection use the same prediction frame, pose, intrinsics and depth; confidence adds free-space evidence, not another ground heigh"
     },
     {
-     "by": "HEAVY",
-     "at": "2026-11-17T04:46Z",
-     "text": "f5f279dd4b lifts the rendered Street View terrain overlay above sampled Planet terrain and floors negative draw offsets. Origami Brush and the saved packet retain measured heights. Added regression assertions for zero, positive and negative"
-    },
-    {
      "by": "CODEX_STREET_SPLAT",
      "at": "2026-11-17T05:56Z",
      "text": "Paused: 342d67ef3e and d2defc1e69 published; Unity 2/2 pose-map, 2/2 weight, Roslyn clean. PoseCommit first draft untracked in checkout passed Metal 1/1. Revised allocation/readback-safe wrapper and failure fixture are /tmp/codex-surface-po"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-17T06:47Z",
+     "text": "9429b69a92 on main. Ground is a live displaced Origami Brush plane, ground samples are removed from preview cubes, and registered video supplies depth to Main Projector and Pano360. Worker 116/116. Unity Kenilworth Backdoor reported 129x129"
     }
    ]
   },
@@ -23717,5 +23708,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "b3ffeeb4ab8bae6b819ced79658248fa7e4bef98"
+ "source_revision": "444163b24ae07de6623830915f299ca1b563a840"
 }
