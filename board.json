@@ -334,16 +334,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAVCHAT_SHADOW",
-     "since": "2026-11-17T07:54Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 6,
-     "total": 12
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Chat: full-screen message view with Reply, preview shortening, long-press menu with Delete (0a7c2065fe, 5a9805c455); swipe-away of the left lists only in Main view, tabs stay (de27488115, LeftLists.Ch",
@@ -396,11 +387,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-14T13:08Z",
-     "text": "Search-return regression repaired in a3a2cb77a6: superseded captures no longer apply the fullscreen cover or consume a newer Search; all 94 MavChatSheetTests passed. Windows All on f5216781c2 passed with zero failures."
-    },
-    {
      "by": "CODEX_GRAPHICS",
      "at": "2026-11-15T05:20Z",
      "text": "Done: adcd8de85a fixes capsule draw/touch order above plaque, content and MGRS; task 799 complete."
@@ -409,6 +395,11 @@
      "by": "CODEX_MAC_UI",
      "at": "2026-11-15T20:00Z",
      "text": "Main c0509b345c repairs stale MavChat tests for controller moves, current fold behavior and Search frame decision; 93/93 passed in Mac Editor. Main a8709ac891 prevents dismissed peer columns returning home while visible; left-list 10/10, Ch"
+    },
+    {
+     "by": "CODEX_MAVCHAT_SHADOW",
+     "at": "2026-11-17T08:19Z",
+     "text": "MavChat map-overlay shadows published ea37e1ac6b; focused Editor tests passed; device visual remains for verification."
     }
    ]
   },
@@ -24026,5 +24017,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "789cb353122cba4b672669499139fe979e336974"
+ "source_revision": "ccc2cca9b43c32c79d5e3eb870068675ca5fe407"
 }
