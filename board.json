@@ -22189,16 +22189,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-17T02:02Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -22208,8 +22199,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-17T02:00Z",
-     "text": "397ac0d8be adds the strict mixed-holdout smoke. Unity matched four query views against eight of 13 Kenilworth views at 164 mapped frames; total 2.50 s, validation 0.42 s. Confirmed and mixed=true with disjoint passing groups."
+     "at": "2026-11-17T02:06Z",
+     "text": "5753698b27 lets either mixed holdout family use one unused view when the other side also has a holdout. Existing confirmation state still uses within-check support."
     }
    ]
   },
@@ -23245,5 +23236,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "4fabcc43f5a528ab308c43c257335d60db3f4bb5"
+ "source_revision": "1987b524daefcb45907daf0d4d0f3bdde958187a"
 }
