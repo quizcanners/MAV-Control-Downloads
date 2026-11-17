@@ -23187,25 +23187,22 @@
   {
    "n": 1473,
    "name": "Chat SPEC layout",
-   "done": "",
+   "done": "2026-11-17T06:51Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_CHAT_PADDING",
-     "since": "2026-11-17T06:48Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_CHAT_PADDING",
+     "at": "2026-11-17T06:51Z",
+     "text": "Removed authored 24-unit peer header padding and moved search and list together (3e12dbd418); Unity prefab reports padding 0 and matching 150-unit header/search. Native visual check remains."
+    }
+   ]
   },
   {
    "n": 1474,
@@ -23797,5 +23794,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "78c77c3f90fcd7ae98dea68c767b35bca0ffc6ff"
+ "source_revision": "138376826f021a24398bda0438e9584bdd1cc5e9"
 }
