@@ -22845,16 +22845,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_UI_CORNER",
-     "since": "2026-11-17T12:07Z",
-     "noted": "2026-11-17T12:07Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -22864,8 +22855,8 @@
     },
     {
      "by": "CODEX_UI_CORNER",
-     "at": "2026-11-17T12:07Z",
-     "text": "08b607be70 fixed overlap. Remaining row migration: strip lives under visibility-gated _rootPanel in optional Deferred Views; left slider lives in always-loaded UI_TOP_MOST and must work without telemetry and in MavChat portrait. Move/compos"
+     "at": "2026-11-17T12:32Z",
+     "text": "dec7d7d98f: persistent bottom-left layout now places the second altitude scroller after deferred telemetry or fallback Search without measuring another control; keeps MavChat portrait and Menu-layer sorting. Isolated Unity geometry/lifecycl"
     }
    ]
   },
@@ -23796,5 +23787,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "4ffb718a7afe160c708a75e03c47c03588076df5"
+ "source_revision": "472fac26130905dde6837c70e9188fcb3874a299"
 }
