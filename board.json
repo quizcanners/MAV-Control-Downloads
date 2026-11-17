@@ -649,15 +649,7 @@
    "held": [],
    "steps": [
     {
-     "t": "Mac (a MacBook with someone at it; the Mac mini and 1280x890 Mac18,5 give no trackpad events): S1 capture while scrolling, pinching and rotating: input.mouse, camera.zoom trace, screen.status, screen.",
-     "x": false
-    },
-    {
-     "t": "Cloud: write S2 from those numbers",
-     "x": false
-    },
-    {
-     "t": "Mac: S3 macOS NSEvent plugin in a packaged build",
+     "t": "Mac (a MacBook with someone at it): packaged build with the NSEvent trackpad bridge (Station_OS_MacTrackpad, 9968b68100): scroll, pinch and rotate answer at once; capture input.mouse, camera.zoom trac",
      "x": false
     }
    ],
@@ -23500,5 +23492,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "46344edfab2a2cf8df1beab95ed43bac632e292a"
+ "source_revision": "fdca9e09c239194cdb2fcc3159db57a3d844439c"
 }
