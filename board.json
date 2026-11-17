@@ -22089,14 +22089,6 @@
      "progress": 25,
      "ticked": 0,
      "total": 0
-    },
-    {
-     "who": "CODEX_SURFACE_RENDER",
-     "since": "2026-11-17T04:41Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
     }
    ],
    "steps": [],
@@ -22113,8 +22105,8 @@
     },
     {
      "by": "CODEX_SURFACE_RENDER",
-     "at": "2026-11-17T04:40Z",
-     "text": "Published map-owned surface renderer and coherent bounded display reader: 2b27df62717d. Unity compile, reader fixture 1/1, shader supported/no errors, Roslyn NEW ERRORS none. Left: visual GPU/map validation and no-starvation under continuou"
+     "at": "2026-11-17T04:51Z",
+     "text": "Published bounded per-tile snapshot repair a24bffb51e: atomic admissions, overflow retry, erase/epoch guards and monotonic displayed revisions. Unity compile and 3/3 focused tests passed; Roslyn NEW ERRORS none. Remaining: live map/GPU visu"
     }
    ]
   },
@@ -23410,5 +23402,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "3698a46ef8abf8bca18d7981769f450a3634b8d9"
+ "source_revision": "28fe5a16cf592282193735ab0c2880c995d394a1"
 }
