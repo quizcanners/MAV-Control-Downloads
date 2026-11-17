@@ -23550,25 +23550,22 @@
   {
    "n": 1492,
    "name": "Show the Main Projector depth rejection against 3D Street View geometry through the Backdoor",
-   "done": "",
+   "done": "2026-11-17T08:43Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-17T08:33Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-17T08:43Z",
+     "text": "731d92f714 adds the live Pano360 drone depth Backdoor. Kenilworth side and overhead captures hold registered frame 435 at 504x266 inverse depth while comparing On, Bypass and Mask. The screenshot shows rejection behind castle walls. Normal "
+    }
+   ]
   }
  ],
  "verify": [
@@ -24137,5 +24134,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "677f41be5cf8d841bc0f7e4cde8a663619acfe56"
+ "source_revision": "e897de19f2cf11a20205273e6947f1798e82fe16"
 }
