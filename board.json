@@ -22482,22 +22482,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_LEFTLIST_PROFILE",
-     "since": "2026-11-17T14:36Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
      "at": "2026-11-17T12:11Z",
      "text": "6cc93efe17: on the same signed APK, zero deferred Left List views at space entry became four after return. Peak Left List update 26.42 ms and Street View Folders 1.47 ms. The 889.99 ms frame did not recur, so the precise Left List child rem"
+    },
+    {
+     "by": "CODEX_LEFTLIST_PROFILE",
+     "at": "2026-11-17T14:42Z",
+     "text": "Published d1fd604d73: Unity profiler scopes separate Deferred.Advance, four list clones, tab layout and initial binding; no scheduling change. Roslyn NEW ERRORS none. Left: capture these markers on Lenovo to identify the 890 ms child, then "
     }
    ]
   },
@@ -23364,5 +23360,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "befdfb79aca302f01ef33e3abb648f82f613c7a9"
+ "source_revision": "b2af864d5f8ade35898f600e54819403f7e5ee63"
 }
