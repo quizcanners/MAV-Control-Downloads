@@ -1606,16 +1606,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_QUAD_STORE",
-     "since": "2026-11-16T23:48Z",
-     "noted": "",
-     "progress": 45,
-     "ticked": 5,
-     "total": 11
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Video relay holds one Port, UDP 14680 (VPN peers use host candidates only). Android screen-share renewals ride the :location background Chat socket 14668 (ScreenRenewal kinds 4/5, UDP 17698 removed; f",
@@ -1664,11 +1655,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-16T07:17Z",
-     "text": "a695f48029 adds the Visual Odometry Backdoor. 7ee6e17bc6 fixes the Pilot View startup exception."
-    },
-    {
      "by": "CODEX_MAC_ANCHORS",
      "at": "2026-11-16T21:42Z",
      "text": "1424 claim unavailable; current main now contains 591d205c6a linked photo publication and 79715a7844 positioning. No edits made; defer to task owner."
@@ -1677,6 +1663,11 @@
      "by": "CODEX_MAC_SPLAT",
      "at": "2026-11-16T23:47Z",
      "text": "1416 investigation handed off on that task; no world-frame or quad storage implementation added."
+    },
+    {
+     "by": "CODEX_QUAD_STORE",
+     "at": "2026-11-17T01:25Z",
+     "text": "Published tested surface storage and inactive GPU primitives; 1416 and 1418 remain open for the live owner, seed input, fusion, dirty readback and rendering. Unvalidated drafts are in /tmp/codex-1418-seed-input-handoff and /tmp/codex-surfac"
     }
    ]
   },
@@ -23207,5 +23198,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "4f416ecf9763887eff3e91b07e77ef6220995b68"
+ "source_revision": "7adaf44bc61002c75037f666ab7f960932ea1358"
 }
