@@ -22042,14 +22042,6 @@
      "progress": 0,
      "ticked": 0,
      "total": 0
-    },
-    {
-     "who": "CODEX_QUAD_LOADING",
-     "since": "2026-11-17T00:32Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
     }
    ],
    "steps": [],
@@ -22063,6 +22055,11 @@
      "by": "CODEX_QUAD_STORE",
      "at": "2026-11-17T00:13Z",
      "text": "Published 6f543cfb and dc8edda7: revisioned SQLite surface store, bounded 25-tile cache, resumable logical migration and 20-byte world-frame codec/RTX adapter. Unity: store 3/3, cache 5/5, codec 4/4, existing shard 7/7 and tile store 30/30."
+    },
+    {
+     "by": "CODEX_QUAD_LOADING",
+     "at": "2026-11-17T00:36Z",
+     "text": "Added bounded asynchronous 5x5 surface tile reader and race tests; standalone stub-reader harness passed. Parent owns integration, Unity tests and publication."
     }
    ]
   },
@@ -23179,5 +23176,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "2a25d38cced786d3b527e00491ffe04d28cb19a6"
+ "source_revision": "32a896dc803554514fb4c7f892fd0cdbad2ba663"
 }
