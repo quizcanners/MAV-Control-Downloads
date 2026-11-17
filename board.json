@@ -2557,38 +2557,6 @@
    ]
   },
   {
-   "n": 656,
-   "name": "Editor shows a Burst warning for JobChunkProducer<MatrixPreviousInitializationSystem.InitializeMatrixPrevious> (Entities Graphics)",
-   "done": "2026-11-14T11:16Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [
-    "2026-11-14T11:16Z",
-    "2026-11-14T11:16Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Editor machine: close Unity, delete Library/BurstCache (and Library/Bee if it persists), reopen and let it reimport",
-     "x": true
-    },
-    {
-     "t": "If the warning still shows after that, note it here with the Unity and Burst package versions",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T11:16Z",
-     "text": "Windows Unity 6000.6.8f1, Burst 2.0.0, Entities and Entities Graphics 6.6.0. Moved the old Library/BurstCache aside while Unity was closed; fresh JIT cache generated. Boot and Play through Training completed a 100-item ECS batch. Zero unkno"
-    }
-   ]
-  },
-  {
    "n": 657,
    "name": "Tile storage warning on Windows",
    "done": "",
@@ -23424,25 +23392,22 @@
   {
    "n": 1520,
    "name": "Video Processing SPEC",
-   "done": "",
+   "done": "2026-11-17T11:16Z",
    "goal": false,
    "under": 431,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-17T11:01Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-17T11:16Z",
+     "text": "46eccf095e removes the staging blit. Original Kenilworth and Zurich passed all output gates from full-size source textures. GPU pack was 10\u201315% faster than the staging control. Bicubic control missed BF16 confidence at 0.113; exact Python i"
+    }
+   ]
   },
   {
    "n": 1521,
@@ -23465,6 +23430,33 @@
     }
    ],
    "steps": [],
+   "notes": []
+  },
+  {
+   "n": 1522,
+   "name": "Local agent",
+   "done": "",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Vertex colour pass at Save, no UVs or atlas for the opaque mesh",
+     "x": false
+    },
+    {
+     "t": "Mesh shader reads vertex colour and the Pano360 projection",
+     "x": false
+    },
+    {
+     "t": "Old atlas saves still load and draw",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
@@ -24034,5 +24026,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "3500c61358c128aae3afbc20581cffeafd4da197"
+ "source_revision": "fe7ccf5d1e4baeea1dc6415d96e09582f5514743"
 }
