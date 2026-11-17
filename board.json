@@ -2249,20 +2249,6 @@
    ]
   },
   {
-   "n": 738,
-   "name": "using Strong for source-frame GPU and pinch timing",
-   "done": "2026-11-14T18:59Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 739,
    "name": "Motorola Windows",
    "done": "2026-11-14T19:01Z",
@@ -22355,7 +22341,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-17T19:00Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Elements masks use lazy cached hashes, efficient dirty propagation and likely-complete download groups.",
@@ -23043,5 +23038,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "84a25b4c8e89a8af3c8f08fff18a88aafb302d25"
+ "source_revision": "087a98a3178dbd8b162a36a29b68506141640c19"
 }
