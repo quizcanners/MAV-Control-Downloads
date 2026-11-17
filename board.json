@@ -2215,41 +2215,6 @@
    ]
   },
   {
-   "n": 741,
-   "name": "Ground-align PolyLine anchors and rendered paths on the active map surface (PolyLine Geometry SPEC",
-   "done": "2026-11-14T23:11Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [
-    "2026-11-14T23:10Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Planet Renderer uses its published base surface for ground-aligned centers and both ribbon edges (c13ef79f66). Terrain revisions queue a whole-ribbon rebuild through the Raycasts budget (08027ed180).",
-     "x": true
-    },
-    {
-     "t": "Windows Unity compiled and Roslyn reported NEW ERRORS: none. Oblique 7.7 km Play probe converged to within 1 mm on 96 sampled vertices with Sharp still frame both off and on. Height differences were v",
-     "x": true
-    },
-    {
-     "t": "Reproduce the reported view and check Cesium as well as Planet Renderer. The probe measures mesh vertices against Planet Renderer ground; exact screenshot location, between-vertex terrain and other ma",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T23:10Z",
-     "text": "7eb9af8a10 removes the ribbon triangles across confirmed Cesium height jumps after narrowing the crossing to 2 m or less. Existing 24-query cap retained."
-    }
-   ]
-  },
-  {
    "n": 757,
    "name": "using Strong for Destination Sync and Noise IK attribution on the signed Dev build",
    "done": "2026-11-14T23:18Z",
@@ -2266,86 +2231,6 @@
      "by": "GETAC",
      "at": "2026-11-14T23:17Z",
      "text": "3f074c8712 records signed 842 rebuild at 3835d946cb, installed hash matched and map rendered. Strong completed 32 pinches, max 66.74 ms with 28.82 ms Gfx.WaitForPresentOnGfxThread in the overlapping frame. Separate gap: Prepare Ukrainian Bo"
-    }
-   ]
-  },
-  {
-   "n": 760,
-   "name": "Planet orbital bump",
-   "done": "2026-11-14T22:36Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T22:35Z",
-     "text": "Published f4352d0044: squared-floor reciprocal square root removes one Metal sqrt and two divisions from orbital relief; samples unchanged. Native 1296 globe + 132 polar pairs within 1.2e-7, 64 Metal/GLES stages, lighting 28/28. Editor comp"
-    }
-   ]
-  },
-  {
-   "n": 761,
-   "name": "World blur follows visible motion from WakeRegister",
-   "done": "2026-11-14T22:47Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T22:47Z",
-     "text": "Published 51d1b699da. Direct cause: retained blur missed visible-world motion while camera/input stayed quiet. Shared WakeRegister.WorldMotion now supplies that decision, excluding Touch/Menu pacing. Regression fails on old source; blur 6/6"
-    }
-   ]
-  },
-  {
-   "n": 762,
-   "name": "Deleting a Logistics supply-sheet link must stop importing the old sheet; invalid pasted links must preserve the active source",
-   "done": "2026-11-14T22:48Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-14T22:47Z",
-     "text": "a1116ac121 makes deleting a supply-sheet link cancel/discard the old loader, clear the cached state and checkpoint the cleared link. Invalid pasted URLs leave the current loader and saved source alone. Unity compiled; LogisticsMessageImport"
-    }
-   ]
-  },
-  {
-   "n": 763,
-   "name": "Drone rotation must wake FrozenDouble despite its temporary UI-only camera mask. Use the main camera world-layer intent for motion eligibility while presenting the kept picture (Drone Control SPEC",
-   "done": "2026-11-14T23:03Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T23:02Z",
-     "text": "Published drone rotation wake fix: the camera now exposes authored world-layer intent while FrozenDouble temporarily draws only UI. Direct cause was testing that temporary mask; deeper reason was conflating draw culling with motion visibili"
     }
    ]
   },
@@ -22328,6 +22213,29 @@
      "text": "Cold MapOnly replay retained its draft after the no-usable-surface-bounds warning; ordinary Synthetic placement corrected height and the same source saved. Its subsequent reference fit was refused without relaxing gates. Timings and context"
     }
    ]
+  },
+  {
+   "n": 1576,
+   "name": "Planet map-motion validation",
+   "done": "",
+   "goal": false,
+   "under": 1558,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-17T23:12Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -22900,5 +22808,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "c92d11b6b70870e3a59eb584a438c041be92679c"
+ "source_revision": "b77bc3c8acbf8b0ec3ac1e84f9958edadf6584dc"
 }
