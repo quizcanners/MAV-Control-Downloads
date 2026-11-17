@@ -22009,23 +22009,10 @@
      "progress": 0,
      "ticked": 0,
      "total": 0
-    },
-    {
-     "who": "CODEX_RTX5_TRANSPORT",
-     "since": "2026-11-17T01:07Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_MAC_SPLAT",
-     "at": "2026-11-16T23:46Z",
-     "text": "Investigated current main: no surface-quad producer or fixed world frame yet. Tile data belongs to WebMercator.SqliteTileStore; its sharded publication SeedPrevious copies an explicit table list, so persist quad revisions through that owner"
-    },
     {
      "by": "CODEX_QUAD_STORE",
      "at": "2026-11-17T00:13Z",
@@ -22035,6 +22022,11 @@
      "by": "CODEX_QUAD_LOADING",
      "at": "2026-11-17T00:36Z",
      "text": "Added bounded asynchronous 5x5 surface tile reader and race tests; standalone stub-reader harness passed. Parent owns integration, Unity tests and publication."
+    },
+    {
+     "by": "CODEX_RTX5_TRANSPORT",
+     "at": "2026-11-17T01:12Z",
+     "text": "Added atomic pair admission: preflight both working-set slots and pending revisions, protect both targets from eviction, enqueue together and invalidate reads once. Five Unity tests passed; sixth covers stale unmigrated row under logical au"
     }
    ]
   },
@@ -23224,5 +23216,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "d8b815e4b0dc732614719da31d3e4f57e9190410"
+ "source_revision": "7c1dea61d76a1fe8e213f590ffaf848316904f76"
 }
