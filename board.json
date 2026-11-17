@@ -1346,16 +1346,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_SHADER_PASS3",
-     "since": "2026-11-17T19:44Z",
-     "noted": "",
-     "progress": 22,
-     "ticked": 2,
-     "total": 9
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Cloud, on main: startup cuts, Patch Preparation (32a9302f, 55dbede20d), hand-written heartbeat reader, skip sealing for nine hash types (build 818), 4 Hz crypto handshake only while a peer has no key,",
@@ -1396,11 +1387,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-17T15:51Z",
-     "text": "Done: both Dev 858 artifacts recorded on main in 954bbfeda0; native tablet evidence in CPU.md 72a75372e9."
-    },
-    {
      "by": "MAC_SHADER_REVIEW",
      "at": "2026-11-17T19:03Z",
      "text": "Published b804204e46 on main: Ray Skybox skips ground cubemap reads at full orbit; four UI shaders reduce fragment arithmetic. Baseline.md has optimized Vulkan counts. 21 keyword sets compiled on Metal/GLES3/Vulkan; 780 UI and 36 sky Metal "
@@ -1409,6 +1395,11 @@
      "by": "MAC_SHADER_PASS2",
      "at": "2026-11-17T19:21Z",
      "text": "Published cbb4e4ed94 on main. Screen Saver fluid solver and fog display: six passes compiled on Metal/GLES3/Vulkan. 120 pass and 15 feedback comparisons exact; 32 fog comparisons max 2.98e-7. Apple M6 isolated 512x288 median paired GPU redu"
+    },
+    {
+     "by": "MAC_SHADER_PASS3",
+     "at": "2026-11-17T19:52Z",
+     "text": "Published 6bd1a9906d on main. UI Button Shadow skips squircle edge math in the unit disk and on neighbor-owned pixels. Metal matched all 1,020 RGBA8 and float renders. Eight project tests passed and 12 keyword sets compiled for Metal, GLES3"
     }
    ]
   },
@@ -23023,5 +23014,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "09a7198ae7fe933ec14a382db073bda816c07da3"
+ "source_revision": "d0b7fe6c1cb334271026bfc8cd129d24fd7737af"
 }
