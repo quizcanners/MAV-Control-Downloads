@@ -1127,52 +1127,20 @@
    "held": [],
    "steps": [
     {
-     "t": "Edge and join pass done: screen-edge ticks on every fixed prefab (last 6138a500ce, d3313d805f); join sides keep the merge flag and get only the pixel line (option a, taken by CLOUD_BOARD); dead line m",
-     "x": true
-    },
-    {
-     "t": "Composites split done in three layers, no prefab change (11158241ec..8587caccf5; MergeComposite, BodyTintComposite, MergedButton_Composit); PASIKA Editor run compiles 0 errors, Play clean.",
-     "x": true
-    },
-    {
-     "t": "Build info and own identity live in the Main Menu prefab (Processes and Timings.prefab, UI_MainMenuReadouts, 89a2a5b638, 06df553cf5); seen live on the Editor station. Paint button quiet variant author",
-     "x": true
-    },
-    {
-     "t": "Mac/phone: look check of the Lighting card: '\u042f\u0441\u043a\u0440\u0430\u0432\u0456\u0441\u0442\u044c NN%' on one line, full-width slider under it, mode rows unchanged; card (528 high, picked A) must clear the bottom rail at 1440x900 (an earlier ",
-     "x": true
-    },
-    {
-     "t": "Phone: Paint goes blue after five idle seconds and any touch restores it; Drawing 120 s fade and thicker shadow (AnnotationStroke) look right via Page checks.",
+     "t": "Phone: Paint goes blue after five idle seconds and any touch restores it; Drawing 120 s fade and thicker shadow look right",
      "x": false
     },
     {
-     "t": "Windows (standalone, Full screen button shows): the gap between the X and Full screen is 35 units; it never shows in the Android-target Editor.",
+     "t": "Windows standalone: gap between X and Full screen is 35 units",
      "x": false
     },
     {
-     "t": "Map focus suppresses ordinary and space hints in Singleton_HintsController.Update through Station.UI.MapFocus.Active (0b879be1c9).",
-     "x": true
-    },
-    {
-     "t": "No-UI focus: check a map tap ends it, a drag keeps it, phone portrait, drone panels and suggestions with a selected object.",
+     "t": "No-UI focus on phone portrait: a map tap ends it, a drag keeps it, drone panels and suggestions with a selected object",
      "x": false
     },
     {
-     "t": "Menu rail clears Settings and the thermal label at 1024x1024 (5894f52fa2); Layers uses a bottom-centered five-column grid at authored size (e337aa2da9). Eight tiles and rail clearance read in the Edit",
-     "x": true
-    },
-    {
-     "t": "Optional Editor pass: 29 objects in 11 prefabs use plain UI_MergableListElementBase with no Button (Playback 8, Distribution Window 5, MGRS Coordinate Entry 4, Video Panel 3, Video Source Panel 3); gi",
+     "t": "Awaiting quiz: REVIEW-487 CR-18DF-01 P2, REVIEW-474 CC-1347-01 P3, REVIEW-456 CC-DC49-01 P3, REVIEW-488 CC-BD61-01 P3 briefs in Reviews",
      "x": false
-    },
-    {
-     "t": "Awaiting quiz (briefs ready, no work until he reads): [REVIEW-487 CR-18DF-01 P2, native screen callbacks lost in the station split](../Reviews/18df70da3.md#cr-18df-01--p2-native-screen-callbacks-lost-",
-     "x": false
-    },
-    {
-     "t": "Compass and time plaque centers aligned in the Editor (a283c25514); device appearance remains unverified.",
-     "x": true
     }
    ],
    "notes": [
@@ -23365,5 +23333,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "aada3c224925a2222ae53dd1acaf74a4ed3a5cff"
+ "source_revision": "f2ca73e9a1e813b5c0d4de4785dec9431d0c850e"
 }
