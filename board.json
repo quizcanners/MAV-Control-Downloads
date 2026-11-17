@@ -23494,25 +23494,22 @@
   {
    "n": 1510,
    "name": "Using Lenovo for the qualified Android GLES shader capture on signed Dev 857",
-   "done": "",
+   "done": "2026-11-17T10:26Z",
    "goal": false,
    "under": 429,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T10:15Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T10:26Z",
+     "text": "Lenovo Dev 857 completed the app-scoped GLES layer replay. Direct call, SurfaceFlinger and native stack evidence is in CPU.md f56093b606. Layer settings restored. Exact Test 855, original UID and audited files verified. HUD first showed a b"
+    }
+   ]
   },
   {
    "n": 1511,
@@ -24118,5 +24115,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "6ee0d06e9628909f7a75016373e90eefec89fcbc"
+ "source_revision": "d0d38b0d212a45500e7de752ff8df18873d09006"
 }
