@@ -22217,16 +22217,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-17T05:20Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -22236,8 +22227,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-17T04:58Z",
-     "text": "e8f7abb036 keeps original lossless RGB for Pano360 and linked Street View Photos, with compact depth and matching images. Older packets still load. Real RTX worker returned pixel-exact 1280x688 RGB and separate 504x266 depth. Archive round-"
+     "at": "2026-11-17T05:32Z",
+     "text": "977e69fd10 tested in Windows Unity via Backdoor on Kenilworth. Both saves kept original RGB in the archive and linked PNGs. Active Pano360 shader textures matched the source. Fixed missing auto-projection on selected models and disabled lin"
     }
    ]
   },
@@ -22841,6 +22832,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-17T04:50Z",
      "text": "Telemetry Strip.prefab edited, UI SPEC and AGENTS corrected (they said top)."
+    },
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-17T05:40Z",
+     "text": "Bottom-left row written (Main View SPEC, UI AGENTS, Drone UI SPEC/AGENTS): video column with buttons above, then telemetry grid, then second altitude scroller, hidden items collapse. Code (uncompiled): Strip.TryGetRowEnd replaces TryGetStri"
     }
    ]
   },
@@ -23490,7 +23486,11 @@
   {
    "screen": "Altitude visualization",
    "since": "2026-11-17T05:26Z"
+  },
+  {
+   "screen": "Compass",
+   "since": "2026-11-17T05:29Z"
   }
  ],
- "source_revision": "94417ccde6e769635ab8b62ff8c90e194acf57b6"
+ "source_revision": "e3787651e2d44da98cbc77c2aa462c1d6acb9f6d"
 }
