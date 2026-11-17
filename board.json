@@ -2250,46 +2250,6 @@
    ]
   },
   {
-   "n": 754,
-   "name": "Remove transient Noise IK public offer allocations and duplicate key copies before measured peer retest",
-   "done": "2026-11-14T22:04Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-14T22:03Z",
-     "text": "3835d946cb removes the temporary 96-byte public offer allocation, avoids arrays for a zero retired key, and reuses decoded confirmation keys. Host extracted-source checks preserved wire bytes with/without a retired key and ownership; scoped"
-    }
-   ]
-  },
-  {
-   "n": 756,
-   "name": "Refresh FrozenDouble and Liquid Glass on the frame a light",
-   "done": "2026-11-14T22:06Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T22:06Z",
-     "text": "Published 97af3aa387: scene revisions refresh FrozenDouble and Liquid Glass immediately, restart the quiet timer and keep static mode/idle pacing. Three native routes failed before; MapRenderModeTests 23/23 and isolated Play timeline pass a"
-    }
-   ]
-  },
-  {
    "n": 757,
    "name": "using Strong for Destination Sync and Noise IK attribution on the signed Dev build",
    "done": "2026-11-14T23:18Z",
@@ -2306,26 +2266,6 @@
      "by": "GETAC",
      "at": "2026-11-14T23:17Z",
      "text": "3f074c8712 records signed 842 rebuild at 3835d946cb, installed hash matched and map rendered. Strong completed 32 pinches, max 66.74 ms with 28.82 ms Gfx.WaitForPresentOnGfxThread in the overlapping frame. Separate gap: Prepare Ukrainian Bo"
-    }
-   ]
-  },
-  {
-   "n": 758,
-   "name": "Ignore the retired PointerID member-sheet column during VPN peer parsing while preserving unknown-header warnings (Peers SPEC",
-   "done": "2026-11-14T22:14Z",
-   "goal": false,
-   "under": 383,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-14T22:13Z",
-     "text": "9430a463cf quietly ignores the retired PointerID sheet header. Earlier Rog Play console reported one Unknown tag: POINTERID per decoded row. Native Windows Unity compiled; ChatPersonalInfoTests 12/12 confirms legacy header silence, unknown-"
     }
    ]
   },
@@ -22388,6 +22328,20 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1575,
+   "name": "3D generation",
+   "done": "",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -22960,5 +22914,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "9fde790eade2ebd1b5676b7ca1a75d833278aad3"
+ "source_revision": "625e1335f5a900aae5bb0f91698e4ae67275365a"
 }
