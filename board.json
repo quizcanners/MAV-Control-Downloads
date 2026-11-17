@@ -22313,7 +22313,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-17T06:55Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Route each depth point to mesh, terrain or splat by the SPEC rule",
@@ -23243,6 +23252,20 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1476,
+   "name": "Repair 3D model import warnings in Unity Console. Vampire.fbx repeats Drone_Arm_B",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -23811,5 +23834,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "d5ab797af5e644532dc5f7c97ab9e3d2bef4f660"
+ "source_revision": "068b07f2af1ed77dc8e71a1f04614ee37c588443"
 }
