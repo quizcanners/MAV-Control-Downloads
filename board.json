@@ -2333,26 +2333,6 @@
    ]
   },
   {
-   "n": 687,
-   "name": "Blurred World pseudo-decals still scan readers and enqueue an empty pass while FrozenDouble shows its kept picture; align with Bootstrap SPEC",
-   "done": "2026-11-14T13:26Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T13:28Z",
-     "text": "Done: 8e9eff2630, merged to main by 960d4b5650. Kept-picture frames skip pseudo-decal registry traversal and pass admission via MapRender.WorldHidden. Native five-case callback probe, Unity compile and all four Roslyn configurations passed "
-    }
-   ]
-  },
-  {
    "n": 688,
    "name": "Photo selection focus can darken the FrozenDouble kept picture a second time; align Blurred World SPEC",
    "done": "2026-11-14T13:38Z",
@@ -2371,29 +2351,6 @@
      "text": "Done: 0240e0cb5f and guide 1bfe735fd9, merged in PR92 (6148872fc1). Photo focus reads MapRender.WorldHidden, avoiding a second multiply of the stored map/photo. Native Metal: five admission/readback cases passed; kept RGB unchanged, live di"
     }
    ]
-  },
-  {
-   "n": 689,
-   "name": "Situation models",
-   "done": "2026-11-14T13:33Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "G mask is white in the three materials and map_marker.PALETTE; Enemy Unit helmet top, Vehicle roof band, Cannon shield top use it; FBX, blend and previews rebuilt with bpy 4.5.",
-     "x": true
-    },
-    {
-     "t": "Modeling 3D/AGENTS.md: One small white part on every Situation model.",
-     "x": true
-    }
-   ],
-   "notes": []
   },
   {
    "n": 690,
@@ -22936,6 +22893,29 @@
      "text": "Published 9aba110ab4: Layers and Map Source bind on enable without Bootstrap reads; reload rebind regression and UiExtendedMenuTests 13/13 pass, Editor compiled, Roslyn NEW ERRORS none. Bind-once items 4, 6, 7 remain. No device check."
     }
    ]
+  },
+  {
+   "n": 1532,
+   "name": "Using Lenovo for the matched Dev 857 Chat Window touch baseline",
+   "done": "",
+   "goal": false,
+   "under": 429,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-17T13:33Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -23504,5 +23484,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "8120a44078437cce93f35818b31365b87107f571"
+ "source_revision": "692924939620763864e29077d51131ae2d351a92"
 }
