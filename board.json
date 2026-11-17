@@ -23566,16 +23566,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-17T09:07Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Record the bake intent and freeze the Positioned reconstruction and registered imagery.",
@@ -23594,7 +23585,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-17T09:11Z",
+     "text": "e1445a7bb4 specifies fitted boxes for coarse 3D map LODs. Distant views request box payloads. At closer range the layer refines to smaller groups and detailed mesh tiles. Guide check passed with zero errors and compile comparison reported N"
+    }
+   ]
   }
  ],
  "verify": [
@@ -24163,5 +24160,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "946003bb5a4aab38b9ed5f77bedd5994b8b9f643"
+ "source_revision": "8fa8f42c57bc81a193c1c749faf5e8be0c2371e6"
 }
