@@ -29,7 +29,7 @@
     {
      "who": "CLOUD_R6",
      "since": "2026-11-17T06:43Z",
-     "noted": "",
+     "noted": "2026-11-17T06:43Z",
      "progress": 38,
      "ticked": 3,
      "total": 8
@@ -71,11 +71,6 @@
    ],
    "notes": [
     {
-     "by": "ROG",
-     "at": "2026-11-16T01:33Z",
-     "text": "Rog Unity f77c41e55a: 200/201 targeted tests passed, one exact-pixel marker failure. Servers 14/14, peer build floor 6/6, Android USB 23/23, Roadmap 17/17, Safe diagnostics 12/12, MAVLink inbox 44/44, Street View photos 22/22, Search/Sugges"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-16T02:18Z",
      "text": "Windows host validation at d25343b859 passed the containing RoutingServer.Tests run. The real shared diagnostics had 3,254 assertions for Pending/CanQueueError, delivery, recurrence, drain and restart. Its 63,081 send-scan checks include 57"
@@ -84,6 +79,11 @@
      "by": "CLOUD_R1",
      "at": "2026-11-17T06:21Z",
      "text": "CLOUD_R1 2026-11-17: UI_NavigatorControls is a static class, dead component cut (uncompiled). Open: place 3 part 2 (one set of keys)."
+    },
+    {
+     "by": "CLOUD_R6",
+     "at": "2026-11-17T06:43Z",
+     "text": "CLOUD_R6 2026-11-17: OSM_Parsing coroutine gone (plain recursion). Left: DJI negotiation coroutines, ScreenBlur CaptureFinalFrames (needs end-of-frame hook, Editor/device). Uncompiled."
     }
    ]
   },
@@ -23715,5 +23715,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "08657f7834f1c2698a51143a4791e38edab58555"
+ "source_revision": "bf6d7c300b17a52a98984bd04bed7e1321364ce2"
 }
