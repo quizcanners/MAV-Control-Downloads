@@ -22618,25 +22618,22 @@
   {
    "n": 1554,
    "name": "MavChat GPS Center button shows selected black while following own GPS (Navigator SPEC",
-   "done": "",
+   "done": "2026-11-17T17:19Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_GPS_FOLLOW",
-     "since": "2026-11-17T17:09Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_GPS_FOLLOW",
+     "at": "2026-11-17T17:19Z",
+     "text": "Published ef5f69a34c: Center shows selected while following own GPS, not fixed focus or another target. Unity NavigatorSharingControlTests 7/7; isolated Roslyn NEW ERRORS none. MavChat visual/device check bumped 99d6129c11."
+    }
+   ]
   }
  ],
  "verify": [
@@ -23205,5 +23202,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "ca83c4c89d5ed69dc24826eb25aacb2580fd1b54"
+ "source_revision": "1f867f1fcc851cd8c71649a96838df54e1c411f5"
 }
