@@ -1725,40 +1725,6 @@
    ]
   },
   {
-   "n": 560,
-   "name": "A newer build",
-   "done": "2026-11-14T21:16Z",
-   "goal": false,
-   "under": 370,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Held server survives every newer specs",
-     "x": true
-    },
-    {
-     "t": "Server fields moved out of ServerSpecs into a per-VPN record (only if needed)",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T16:41Z",
-     "text": "04be079a12 adds three regressions for JoinedVpns.Adopt: blank/different incoming server retains held address, both keys and deployer while taking newer metadata; an initially missing server is supplied. Three passed using production C# in a"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-14T21:16Z",
-     "text": "b9e51cdb53 closes a bypass: saving an Admin draft and restoring server specs after refusal now preserve the same held address, keys and deployer as normal adoption. Refusal still restores the server version and metadata. Windows Unity nativ"
-    }
-   ]
-  },
-  {
    "n": 572,
    "name": "One reusable entity system: Remote Sensors, Training, Situation Entities and the next kind share one identity table, one fade, one ground pass, one draw and one pointing path, each kind a row of data ",
    "done": "",
@@ -22931,5 +22897,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "9826c0581c108c8e6df234f6a3d654d38b1d26c7"
+ "source_revision": "b6108084f2980077b4005450e14f735a79a2c5f6"
 }
