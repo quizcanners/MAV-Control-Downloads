@@ -22197,16 +22197,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-17T03:26Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -22216,8 +22207,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-17T03:25Z",
-     "text": "101917d337 reuses ordered LoFTR image matches when the retry shares query frames. Fixed-snapshot GPU replay proved contention and a 17.8% median saving with DA3 active, with identical transforms and holdout results. North-site Unity probes "
+     "at": "2026-11-17T03:31Z",
+     "text": "cfd224d44e keeps regular fit frames and borrows unused query views when fewer than two are available. Both fixed south snapshots confirmed, neither wrong-site control matched, and north still needs the full retry. A fresh south-site Unity r"
     }
    ]
   },
@@ -23301,5 +23292,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "b06a50740f3f3fde40a5d37572b83964c405406e"
+ "source_revision": "c759ce952c706a99dc99f48af93c113a00ef7cad"
 }
