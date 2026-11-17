@@ -1262,7 +1262,7 @@
     {
      "who": "CODEX_LIST_NULL",
      "since": "2026-11-17T09:04Z",
-     "noted": "",
+     "noted": "2026-11-17T09:05Z",
      "progress": 57,
      "ticked": 4,
      "total": 7
@@ -1300,11 +1300,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-15T02:24Z",
-     "text": "Windows verified 62e3c424bd: cmp.sh NEW ERRORS none and Unity compiled. Eight host assertions covered workflow eligibility and frame caching, using the production decision."
-    },
-    {
      "by": "CODEX_MAC_UI",
      "at": "2026-11-15T16:44Z",
      "text": "Mac Editor MapOnly: clicking outside the visible left-list tongue closed Telemetry while the tabs stayed. Two automated row drags selected the row; input trace shows press and release in the same frame, so neither is a valid real-drag check"
@@ -1313,6 +1308,11 @@
      "by": "CODEX_LIST_CLICK",
      "at": "2026-11-17T05:57Z",
      "text": "Task 1459 paused: local unpublished gesture arbitration draft, 20/21 Unity tests; fast-right flick on Photo folder incorrectly opens context. See task 1459 for exact handoff."
+    },
+    {
+     "by": "CODEX_LIST_NULL",
+     "at": "2026-11-17T09:05Z",
+     "text": "Existing 50449df8fc guards UI_LeftListSwipeAway.Update until StationInitialized and Station.Initialized. In the current Mac Editor, the actual LISTS Left prefab Update completed with StationInitialized=false and no Station access. Prior sta"
     }
    ]
   },
@@ -24163,5 +24163,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "e1da20a69c1b2251502c0fbfc5bb058c5fea2f82"
+ "source_revision": "8a3ea4b7806aeec94e47d73fe26e1446ddcc5110"
 }
