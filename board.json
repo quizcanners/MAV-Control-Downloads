@@ -22925,19 +22925,14 @@
     {
      "who": "CODEX_PANEL_AUDIT",
      "since": "2026-11-17T08:36Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-17T08:37Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_BLUR_AUDIT",
-     "at": "2026-11-17T07:44Z",
-     "text": "Published cd7669465a, 57a6c9ae8f, 996a4b9b8d and 0247d51f46: Photo/Waypoints headers, Metrics, contextual drag and Chat peer backdrop now use 0.5. Editor imported and checked each. Untinted Blur Display and Floating Panel families audited; "
-    },
     {
      "by": "CODEX_BLUR_RECHECK",
      "at": "2026-11-17T07:47Z",
@@ -22947,6 +22942,11 @@
      "by": "CODEX_BUMPED_PANEL",
      "at": "2026-11-17T07:53Z",
      "text": "Published 36409871ec: shared BumpedBackgroundBox and List Picker, Capture Source Picker and Logistics Items panel copies now multiply blur by 0.5. Editor loaded all four at RGB 0.5. Bumped Blur button and Chat fade treatments are separate; "
+    },
+    {
+     "by": "CODEX_PANEL_AUDIT",
+     "at": "2026-11-17T08:37Z",
+     "text": "Audited the remaining screen-capture/World blur shader materials: the former are transition captures or Chat header fades, the World material is an old rotor effect, and the PEGI glass is an explicitly tinted opt-in prototype. No additional"
     }
    ]
   },
@@ -24143,5 +24143,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "469a014b0ffc4d493f46b4d63fadc94c6c745184"
+ "source_revision": "fb03827abf96d1d1352d717c2d8716396caf9e4e"
 }
