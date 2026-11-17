@@ -2603,26 +2603,6 @@
    "notes": []
   },
   {
-   "n": 647,
-   "name": "MavChat sheet",
-   "done": "2026-11-14T10:32Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T10:31Z",
-     "text": "853ae0b89d. Windows Portrait Play reproduced Search being intercepted by the divider. After the hit-area fix, Search and Menu opened at full height and dragging the capsule still folded the sheet. Populated message clipping is queued on Cha"
-    }
-   ]
-  },
-  {
    "n": 650,
    "name": "Sky plot follow-ups (no goal fits; area GPS and UI compass)",
    "done": "2026-11-15T04:14Z",
@@ -23548,25 +23528,22 @@
   {
    "n": 1513,
    "name": "Vertical left tabs",
-   "done": "",
+   "done": "2026-11-17T10:34Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_NOTCH_TABS",
-     "since": "2026-11-17T10:29Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_NOTCH_TABS",
+     "at": "2026-11-17T10:34Z",
+     "text": "Published f556eeb488: mesh-only backgrounds reach physical left edge; layout, selection lights and seam stay put. Roslyn NEW ERRORS none; guide check 0 errors; ten prefab bindings checked. Notch render/device not checked."
+    }
+   ]
   }
  ],
  "verify": [
@@ -24135,5 +24112,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "78e015249bc049e738d89735db06c2b0cbf9fb14"
+ "source_revision": "696e3d092428c175a3310f992eb4dc355b8e91c8"
 }
