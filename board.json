@@ -1512,7 +1512,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_PEER_GREETING",
+     "since": "2026-11-17T15:19Z",
+     "noted": "",
+     "progress": 22,
+     "ticked": 2,
+     "total": 9
+    }
+   ],
    "steps": [
     {
      "t": "Cloud, on main: startup cuts, Patch Preparation (32a9302f, 55dbede20d), hand-written heartbeat reader, skip sealing for nine hash types (build 818), 4 Hz crypto handshake only while a peer has no key,",
@@ -2373,40 +2382,6 @@
      "by": "GETAC",
      "at": "2026-11-16T21:14Z",
      "text": "Strong Dev 851 bf03fb831f stayed 7.51 FPS at target 8 before and after the Wind Decal gate. Both lens cases exercised the 48 px limit in Unity. FrozenDouble later loaded and unloaded 37 Mask Pages chunks in one stationary window. CPU.md 7f5"
-    }
-   ]
-  },
-  {
-   "n": 707,
-   "name": "using Strong for Android Test 839 map frame cadence",
-   "done": "2026-11-14T15:18Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 708,
-   "name": "ECS text repeats the affine underlay UV transform per pixel. Align Systems/ECS/SPEC.md Text on screen with Shader_Toolbox stage placement",
-   "done": "2026-11-14T15:18Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T15:17Z",
-     "text": "Published 24b47f3ecd: ECS text underlay UV is prepared at vertices, removing six scalar pixel operations in exchange for two interpolated UV components. Samples/branches retained. Metal 450 comparison pairs passed below one byte step, dots "
     }
    ]
   },
@@ -23517,5 +23492,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "a01488e0dcc65b96c7925f3913ecc4824723e748"
+ "source_revision": "89f007ebdcd90ec437abb92d671b922bd5fb85a4"
 }
