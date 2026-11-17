@@ -22064,14 +22064,6 @@
      "total": 0
     },
     {
-     "who": "CODEX_RTX5_TRANSPORT",
-     "since": "2026-11-17T01:04Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    },
-    {
      "who": "CODEX_GPU_FUSION",
      "since": "2026-11-17T01:06Z",
      "noted": "",
@@ -22088,14 +22080,14 @@
      "text": "Measured RTX5 observations: per-request signed-count marker, new depth frames only, 60000/window; 3 synthetic tests passed with stubs. Parent integrates and publishes; full RTX/model tests not run."
     },
     {
-     "by": "CODEX_RTX5_TRANSPORT",
-     "at": "2026-11-17T00:39Z",
-     "text": "Added optional RTX5 host reader and bounded leased observation buffer; ready sink, request-time world frame and store epoch gate delivery, while default requests remain RTX4. Unity Editor compiled and RtxSurfaceObservationsTests passed 4/4."
-    },
-    {
      "by": "CODEX_GPU_FUSION",
      "at": "2026-11-17T01:04Z",
      "text": "Handoff to CODEX_QUAD_STORE: inactive stable GPU radix/grouping shader and independent oracle 6/6; unmatched tail and >256 continuation slices retained, capacity and corrupted-sort errors suppress output. Actual GPU compilation/dispatch and"
+    },
+    {
+     "by": "CODEX_RTX5_TRANSPORT",
+     "at": "2026-11-17T01:06Z",
+     "text": "Added SurfaceQuadGroupGpuTests for eight-pass stable grouping, sliced 257+1 matches and capacity preflight; parent owns Editor test and publication."
     }
    ]
   },
@@ -23250,5 +23242,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "2dcc93d73bedb71f08ce9195927e384eb281d55e"
+ "source_revision": "c2ba3946429689ec621226150cefaf0e44900e4d"
 }
