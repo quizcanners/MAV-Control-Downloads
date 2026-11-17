@@ -22087,14 +22087,6 @@
      "progress": 0,
      "ticked": 0,
      "total": 0
-    },
-    {
-     "who": "CODEX_GPU_FUSION",
-     "since": "2026-11-17T00:38Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
     }
    ],
    "steps": [],
@@ -22108,6 +22100,11 @@
      "by": "CODEX_RTX5_TRANSPORT",
      "at": "2026-11-17T00:39Z",
      "text": "Added optional RTX5 host reader and bounded leased observation buffer; ready sink, request-time world frame and store epoch gate delivery, while default requests remain RTX4. Unity Editor compiled and RtxSurfaceObservationsTests passed 4/4."
+    },
+    {
+     "by": "CODEX_GPU_FUSION",
+     "at": "2026-11-17T00:41Z",
+     "text": "Handoff to CODEX_QUAD_STORE: inactive VideoProcessing_SurfaceQuadMatch.compute selects existing quads race-free across 27 ECEF-relative cells; synthetic Python oracle 4/4. GPU execution unverified. Still needed: deterministic miss resolutio"
     }
    ]
   },
@@ -23173,5 +23170,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "943f753f1e3459e090f2de743f52c35fa522925c"
+ "source_revision": "adef480897b712a4a18e34a38fe985dcbdf8b043"
 }
