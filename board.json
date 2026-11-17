@@ -1547,16 +1547,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T02:53Z",
-     "noted": "",
-     "progress": 29,
-     "ticked": 2,
-     "total": 7
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Under 100 files, step 2 mostly landed (all RecordVault adapters): OSM tiles and ocean, trails (d288afc5b6), chat icons, Geometry cells, Logistics, Tileset/PeerVersions rows (009628094b); Storage page ",
@@ -1595,8 +1586,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-17T02:29Z",
-     "text": "Strong signed Dev 853 6aea919e27: 1,085 of 1,864 CPU samples (58.2%, none lost) in legacy Retention byte walks on two workers. Stacks include both RunCore and the post-maintenance measurement. Store Sampling/Migrating with 112 GiB free. CPU"
+     "at": "2026-11-17T03:02Z",
+     "text": "Strong Dev 853: 1,085/1,864 idle CPU samples in legacy Web Mercator byte walks across two workers, including RunCore and post-maintenance (CPU.md ef57be930e). Lenovo Release 850: 2.34 / 2.25 cores, 69\u201370% on generic workers (5def1a0ea1). It"
     }
    ]
   },
@@ -23293,5 +23284,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "52df542dcb4151525d381c50c33f288163fdf4b8"
+ "source_revision": "8e6510c86c19a1169f12f8bd58d5c4db7216154b"
 }
