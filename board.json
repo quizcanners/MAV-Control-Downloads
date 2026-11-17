@@ -1553,16 +1553,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T04:35Z",
-     "noted": "",
-     "progress": 29,
-     "ticked": 2,
-     "total": 7
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Under 100 files, step 2 mostly landed (all RecordVault adapters): OSM tiles and ocean, trails (d288afc5b6), chat icons, Geometry cells, Logistics, Tileset/PeerVersions rows (009628094b); Storage page ",
@@ -1601,8 +1592,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-17T03:02Z",
-     "text": "Strong Dev 853: 1,085/1,864 idle CPU samples in legacy Web Mercator byte walks across two workers, including RunCore and post-maintenance (CPU.md ef57be930e). Lenovo Release 850: 2.34 / 2.25 cores, 69\u201370% on generic workers (5def1a0ea1). It"
+     "at": "2026-11-17T05:20Z",
+     "text": "Strong Dev 853: 1,085/1,864 idle CPU samples in legacy Web Mercator byte walks (CPU.md ef57be930e). Lenovo Test 855: reproduced GLES pressure as Planet masks reached 314 (RAM.md b6c2c82727). Matching sizes identify candidate textures. Next "
     }
    ]
   },
@@ -23467,5 +23458,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "a4581c22aae5d7b6d8136285bd7e191f1d64740c"
+ "source_revision": "cfd46a517bc804a0ac0b30e4f63226ddfbdadb06"
 }
