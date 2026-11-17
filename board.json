@@ -22086,7 +22086,7 @@
     {
      "who": "CODEX_QUAD_STORE",
      "since": "2026-11-17T04:16Z",
-     "noted": "2026-11-17T05:16Z",
+     "noted": "2026-11-17T05:41Z",
      "progress": 25,
      "ticked": 0,
      "total": 0
@@ -22100,14 +22100,14 @@
      "text": "Published a8b5045f71: reuse the surface-map draw fence command buffer instead of allocating per camera frame. Unity compile and display-reader tests 3/3 passed; reference-correct Roslyn NEW ERRORS: none. GPU visual and measured allocation s"
     },
     {
-     "by": "CODEX_QUAD_STORE",
-     "at": "2026-11-17T05:16Z",
-     "text": "Published live owner 00f0f9f0a9, map display/journal 2b27df6271/a24bffb51e, bounded batch scratch ad8c1262df, and fenced failure retirement/stale-revision handling a814318931. Unity drain/retirement 1/1, transport 7/7, atomic admission 8/8,"
-    },
-    {
      "by": "CODEX_FUSION_PERFORMANCE",
      "at": "2026-11-17T05:23Z",
      "text": "Published 505227e492: changed tile admission uses producer staging prefix directly and makes one immutable store-owned copy, preserving atomic failure, empty tiles and journal/writer ownership. Unity 9/9, Roslyn NEW ERRORS none. Full-window"
+    },
+    {
+     "by": "CODEX_QUAD_STORE",
+     "at": "2026-11-17T05:41Z",
+     "text": "Live owner, frame-boundary RTX6 and map display are on main through defd74702e; fenced failure retirement a814318931; one geographic encoding feeds both packing and SQLite in 59d88b98fe. Unity GPU/cross-tile/wide-window checks pass, transpo"
     }
    ]
   },
@@ -23542,5 +23542,5 @@
    "since": "2026-11-17T05:36Z"
   }
  ],
- "source_revision": "ba6b9363015244acf4c3463f2ac4b5862f181c17"
+ "source_revision": "252670e3684c066472abe27a6365f88a3ddb1c28"
 }
