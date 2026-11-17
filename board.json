@@ -22062,14 +22062,6 @@
      "progress": 0,
      "ticked": 0,
      "total": 0
-    },
-    {
-     "who": "CODEX_RTX5_TRANSPORT",
-     "since": "2026-11-17T01:13Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
     }
    ],
    "steps": [],
@@ -22080,14 +22072,14 @@
      "text": "Measured RTX5 observations: per-request signed-count marker, new depth frames only, 60000/window; 3 synthetic tests passed with stubs. Parent integrates and publishes; full RTX/model tests not run."
     },
     {
-     "by": "CODEX_RTX5_TRANSPORT",
-     "at": "2026-11-17T01:06Z",
-     "text": "Added SurfaceQuadGroupGpuTests for eight-pass stable grouping, sliced 257+1 matches and capacity preflight; parent owns Editor test and publication."
-    },
-    {
      "by": "CODEX_GPU_FUSION",
      "at": "2026-11-17T01:14Z",
      "text": "Handoff to CODEX_QUAD_STORE: inactive seed reservation shader now uses distinct ping-pong state buffers per parity phase, avoiding same-dispatch state races; CPU oracle 6/6. Unity GPU validation is in progress separately. Retry-round owners"
+    },
+    {
+     "by": "CODEX_RTX5_TRANSPORT",
+     "at": "2026-11-17T01:17Z",
+     "text": "Added Unity GPU seed dispatch test using eight ping-pong phases. Unity passed 2/2: compatible adjacent misses share one slot, incompatible same-cell miss is rejected, and insufficient free slots preserve all output sentinels. Parent owns pu"
     }
    ]
   },
@@ -23233,5 +23225,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "eb08fb637edf1f6caf297ddacc1af1eff0c09235"
+ "source_revision": "cb60ba9e97d0b1589f97d9ec96adcd5cf681ebac"
 }
