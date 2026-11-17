@@ -2261,26 +2261,6 @@
    ]
   },
   {
-   "n": 755,
-   "name": "Reduce far-altitude coverage sampling from four reads to one without changing known terrain",
-   "done": "2026-11-14T21:48Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T21:47Z",
-     "text": "Published 2bb1b41b63: far coverage 4 reads to 1 at the exact footprint midpoint; covered far height 5 to 2, fine/far blend 9 to 6. Native 544 probes match the old shader exactly; altitude 42/42, horizon 3/3, producer 1/1; 40 Metal/GLES stag"
-    }
-   ]
-  },
-  {
    "n": 756,
    "name": "Refresh FrozenDouble and Liquid Glass on the frame a light",
    "done": "2026-11-14T22:06Z",
@@ -20909,7 +20889,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-17T21:48Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -22922,5 +22911,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "09db1404b97bde943a06d54e0439a6ac376dcd10"
+ "source_revision": "56353250ba22a3e1db384bc2d8fe30666e0891f6"
 }
