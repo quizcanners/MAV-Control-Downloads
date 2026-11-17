@@ -1562,16 +1562,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T05:24Z",
-     "noted": "",
-     "progress": 29,
-     "ticked": 2,
-     "total": 7
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Under 100 files, step 2 mostly landed (all RecordVault adapters): OSM tiles and ocean, trails (d288afc5b6), chat icons, Geometry cells, Logistics, Tileset/PeerVersions rows (009628094b); Storage page ",
@@ -1610,8 +1601,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-17T05:20Z",
-     "text": "Strong Dev 853: 1,085/1,864 idle CPU samples in legacy Web Mercator byte walks (CPU.md ef57be930e). Lenovo Test 855: reproduced GLES pressure as Planet masks reached 314 (RAM.md b6c2c82727). Matching sizes identify candidate textures. Next "
+     "at": "2026-11-17T05:45Z",
+     "text": "Lenovo Test 855 Elements-controlled replay in RAM.md a925f45a7e isolates about 100 MiB and the cold allocation burst. Follow the new Planet Elements startup entry. Strong Dev 853 idle workers still sampled legacy Web Mercator byte walks in "
     }
    ]
   },
@@ -23562,5 +23553,5 @@
    "since": "2026-11-17T05:36Z"
   }
  ],
- "source_revision": "f4b09cd6af8598b7d36c23902355c60cecdbad65"
+ "source_revision": "d02f4a9d92ff08a48f831d9431ab42ef44cb64e8"
 }
