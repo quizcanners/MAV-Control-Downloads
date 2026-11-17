@@ -23283,22 +23283,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_TELEMETRY_CORNER",
-     "since": "2026-11-17T11:11Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_TELEMETRY_CORNER",
-     "at": "2026-11-17T11:10Z",
-     "text": "Screenshot matches overlap: Telemetry Strip Left Column sets m_IgnoreLayout=1, so its grid begins beneath it. Full fix also needs horizontal content fitting and nested MavLink telemetry anchor overrides; Right of Lists altitude slider is in"
+     "at": "2026-11-17T11:13Z",
+     "text": "Published 08b607be70: column now participates in the row and normal grid keeps its 492\u00d7192 size; Unity prefab layout passed preview on/off, two heights, normal/Pilot and no drone. Remaining: reparent second altitude scroller into the row an"
     }
    ]
   },
@@ -24043,5 +24034,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "9116643a184db43e240b15afd16bbc6eebd36260"
+ "source_revision": "3500c61358c128aae3afbc20581cffeafd4da197"
 }
