@@ -1174,31 +1174,15 @@
    "held": [],
    "steps": [
     {
-     "t": "One swipeable root on main: Lists Root (300 wide, pivot x 0) holds the lists with one UI_LeftListSwipeAway, one back panel with a blocker that stops map touches, one tongue shown only by LeftLists.Pan",
-     "x": true
-    },
-    {
-     "t": "Paint (B_Painting, Canvas order 2) draws above lists and tabs (6f61a23253); all rows 300 wide with Row Light overlays; Scene row on the standard prototype (d1a8ab2077); Street View toggles on one pane",
-     "x": true
-    },
-    {
-     "t": "Flick (532aa7fd): leftward 500 units/s closes, else place plus 0.15 s travel past 35 % closes, IsSwipe leftward 1.5:1; swipe and tongue close use the tab's sound and haptic, no repeats (d5cb42a33b); d",
-     "x": true
-    },
-    {
-     "t": "Tabs: selected uses the list panel tint and side lines, unselected untinted blur (198bf06cbf); vertical tabs light shared blur, selected dark body flush with one-pixel lines top and bottom (e141c57fce",
-     "x": true
-    },
-    {
-     "t": "Mac with a finger on a device (iPhone/iPad on the cable, or a hand on the mouse): drag from a row moves the whole panel and the row is not tapped, on every list; tune FLICK_SPEED 500, FLICK_WINDOW 0.1",
+     "t": "Mac with a finger on a device: drag from a row moves the whole panel and the row is not tapped, on every list; tune the flick numbers and write them into UI SPEC One panel, one decision, Flick",
      "x": false
     },
     {
-     "t": "Mac or PASIKA with data: one panel with the lists the Mac has no data for (Peer groups with peers, Cars, Photos, Photo folders); Photo row name strip and switch overlap (509, prefab only)",
+     "t": "Mac or PASIKA with data: one panel with the lists the Mac has no data for (Peer groups with peers, Cars, Photos, Photo folders)",
      "x": false
     },
     {
-     "t": "Cloud/quiz: REVIEW-456-CR-532A-01 P2, a keep-open release keeps the previous close intent (Reviews/d7a09d246.md#cr-532a-01--p2-a-keep-open-release-retains-the-previous-close-intent), waits on quiz; Li",
+     "t": "Android: fast-right flick on Photo folder must not open its context (task 1459)",
      "x": false
     }
    ],
@@ -23346,5 +23330,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "07aca7b443cde2bd033a3c16d13c5f70a988c7c1"
+ "source_revision": "5ffcd06453738a19d04a8cce72e299c191e6483c"
 }
