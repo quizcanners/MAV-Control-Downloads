@@ -20057,7 +20057,7 @@
   {
    "n": 1416,
    "name": "Live map refinement 1/4",
-   "done": "",
+   "done": "2026-11-17T16:08Z",
    "goal": false,
    "under": 431,
    "ticks": [],
@@ -20068,11 +20068,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_QUAD_LOADING",
-     "at": "2026-11-17T00:36Z",
-     "text": "Added bounded asynchronous 5x5 surface tile reader and race tests; standalone stub-reader harness passed. Parent owns integration, Unity tests and publication."
-    },
-    {
      "by": "CODEX_RTX5_TRANSPORT",
      "at": "2026-11-17T01:12Z",
      "text": "Added atomic pair admission: preflight both working-set slots and pending revisions, protect both targets from eviction, enqueue together and invalidate reads once. Five Unity tests passed; sixth covers stale unmigrated row under logical au"
@@ -20081,6 +20076,11 @@
      "by": "CODEX_QUAD_STORE",
      "at": "2026-11-17T05:56Z",
      "text": "Paused: world-frame SQLite store and live map owner are published through defd74702e; focused GPU, transport and store checks passed. Frame-level transaction, bounded core/halo owner and real NVIDIA/map visual validation remain; see task 14"
+    },
+    {
+     "by": "CLOUD_PRUNE",
+     "at": "2026-11-17T16:08Z",
+     "text": "world-frame SQLite surface-quad store, live owner, 5x5 tile reader and atomic pair admission on main: defd74702e, 00f0f9f0a9, a24bffb51e. Frame transaction and GPU fusion stay on 1418"
     }
    ]
   },
@@ -23472,5 +23472,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "8d33681b5f36b71721c9d80bd37e850063577e24"
+ "source_revision": "4cc6129dd3c8f3ec8a5a0f5ca093c80a3cffdcb8"
 }
