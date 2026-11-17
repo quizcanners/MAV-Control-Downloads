@@ -840,19 +840,11 @@
    "held": [],
    "steps": [
     {
-     "t": "iOS half: MavControlTextSession.mm swaps the Unity keyboard responder's inputView for an empty view; INativeTextSession (HardwareKeyboard, SetSoftKeyboardHidden, TakeText/End); UI_SearchBarController ",
-     "x": true
-    },
-    {
-     "t": "Android half: Assets/Plugins/Android/MavTextSession.java (zero-size EditText, committed text queued, Backspace/Enter) behind the same interface (a24b3577fe); javac and Unity script compile 0 errors; r",
-     "x": true
-    },
-    {
      "t": "Getac (Android + hardware keyboard) and Mac (iPad + keyboard): hotplug, resume, Ukrainian/IME, caret, paste, Enter, Esc; what fails goes here as a line for Cloud",
      "x": false
     },
     {
-     "t": "Cloud: compile 0e0329abde (cmp.sh); open findings awaiting quiz: CR-A24B-01 (P2, Android Backspace splits an emoji, Reviews/3d80fc828.md#cr-a24b-01--p2-android-backspace-can-split-an-emoji-in-the-sear",
+     "t": "Open findings awaiting quiz: CR-A24B-01 (P2, Android Backspace splits an emoji) and CC-A24B-01 (P3, committed text rebuilt per character), Reviews/3d80fc828.md",
      "x": false
     }
    ],
@@ -2344,26 +2336,6 @@
    "held": [],
    "steps": [],
    "notes": []
-  },
-  {
-   "n": 712,
-   "name": "Training bullet shader repeats radius-only core coefficient work and calculates terrain occlusion/glow for sky pixels after Metal flattens its depth condition. Align Training SPEC",
-   "done": "2026-11-14T16:09Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T16:09Z",
-     "text": "Published 89fdd37b69: BulletDimensions.w supplies inverse core width; retained Metal depth branch skips reconstruction and both terrain distances on sky. Training SPEC and shader/GPU baselines updated. Metal/GLES 12 stages and 432 native re"
-    }
-   ]
   },
   {
    "n": 713,
@@ -23393,5 +23365,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "d17c7e651e094ffee612fdeb9d3d51da4a4bfc54"
+ "source_revision": "f5fb655ad5918c8c027ad5af66ca51aa283c7628"
 }
