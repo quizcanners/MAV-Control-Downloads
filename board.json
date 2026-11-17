@@ -22410,16 +22410,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_UI_LAYOUT2",
-     "since": "2026-11-17T13:19Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -22434,8 +22425,8 @@
     },
     {
      "by": "CODEX_UI_LAYOUT2",
-     "at": "2026-11-17T13:18Z",
-     "text": "Outer migration remains: RIGHT Suggestions root owns VerticalLayoutGroup and swipe CanvasGroup; BUTTONS Right overrides its root top-right anchors and -295.2313 Y. Full-screen root must move layout group to a top child, migrate those instan"
+     "at": "2026-11-17T13:40Z",
+     "text": "Published 3767e38065: non-Graphic full-screen Suggestions swipe root, top content wrapper and bottom-right corner-safe MGRS row; row no longer gets per-frame docking. Unity Play: map/outside and open/closed Suggestions raycasts, shared 100-"
     }
    ]
   },
@@ -23431,5 +23422,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "d157e889205138e85df36082b08f2c0a95359d15"
+ "source_revision": "72df66088ea4cc1ad4bf34e389051914b6e84ccd"
 }
