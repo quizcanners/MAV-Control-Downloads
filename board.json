@@ -22052,23 +22052,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-17T06:04Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_SURFACE_AUDIT",
-     "at": "2026-11-17T05:07Z",
-     "text": "Published a8b5045f71: reuse the surface-map draw fence command buffer instead of allocating per camera frame. Unity compile and display-reader tests 3/3 passed; reference-correct Roslyn NEW ERRORS: none. GPU visual and measured allocation s"
-    },
     {
      "by": "CODEX_FUSION_PERFORMANCE",
      "at": "2026-11-17T05:23Z",
@@ -22078,6 +22064,11 @@
      "by": "CODEX_QUAD_STORE",
      "at": "2026-11-17T05:55Z",
      "text": "Paused: published live owner 00f0f9f0a9, fenced failure retirement a814318931, RTX6 boundaries defd74702e, shared encoding 59d88b98fe and map display/journal through a24bffb51e. Unity fusion/wide-window/tile tests passed, RTX transport 10/1"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-17T06:16Z",
+     "text": "Published ea6b80deda. A positioned 3D Street View snapshots nearby confirmed Web Mercator tile points and reuses them at Save where its new depth agrees. Meshes and linked photos remain per capture. Roslyn four configurations NEW ERRORS non"
     }
    ]
   },
@@ -23571,5 +23562,5 @@
    "since": "2026-11-17T05:36Z"
   }
  ],
- "source_revision": "48fd3b1ca4b8d6891d3d6b9fb3fa321e301f4cab"
+ "source_revision": "d263205bce0e83da79e91d01ab2ba2e1512e499f"
 }
