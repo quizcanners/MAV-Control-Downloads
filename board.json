@@ -1190,7 +1190,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_UI_COMPOSITES",
+     "since": "2026-11-17T12:04Z",
+     "noted": "",
+     "progress": 58,
+     "ticked": 7,
+     "total": 12
+    }
+   ],
    "steps": [
     {
      "t": "Edge and join pass done: screen-edge ticks on every fixed prefab (last 6138a500ce, d3313d805f); join sides keep the merge flag and get only the pixel line (option a, taken by CLOUD_BOARD); dead line m",
@@ -2554,26 +2563,6 @@
      "by": "GETAC",
      "at": "2026-11-14T12:50Z",
      "text": "Pilot Game camera follows the reported camera pose separate from the Operator camera offset, 261c3a58ae."
-    }
-   ]
-  },
-  {
-   "n": 678,
-   "name": "Full-screen transition only on view changes",
-   "done": "2026-11-14T12:04Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "cloud-ui",
-     "at": "2026-11-14T12:03Z",
-     "text": "Done and merged: FullScreen checks the view signature (Editor/debug logs an error when a swap leaves the view unchanged); removed in-view callers (bottom bar, Menu panel tabs, Layers details, Needs pages, Processes tabs, Training mode); map"
     }
    ]
   },
@@ -23787,5 +23776,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "87ad633fd456992ac731682c6a634e96528833dc"
+ "source_revision": "1c2143967afa0a0884f19f613c3d941e85ff0087"
 }
