@@ -22306,25 +22306,22 @@
   {
    "n": 1569,
    "name": "Web Mercator fork look-ahead counts an already-tried sibling as useful work (Web Mercator SPEC",
-   "done": "",
+   "done": "2026-11-17T21:25Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T21:04Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T21:25Z",
+     "text": "Published 4e9a3b3052: fork look-ahead skips a sibling already stamped this pass, keeping the only useful path on its drill. Repaired .NET 8 extractor binds current request/merge/frame/pass owners; priority/checkpoint/cache and 100-peer cont"
+    }
+   ]
   }
  ],
  "verify": [
@@ -22897,5 +22894,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "b6108084f2980077b4005450e14f735a79a2c5f6"
+ "source_revision": "d6bbe87071d65d58674f998937ac7f62c043a878"
 }
