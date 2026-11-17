@@ -2275,26 +2275,6 @@
    ]
   },
   {
-   "n": 747,
-   "name": "Drawings outside the showing camera and hidden ping contexts hold the map at full rate instead of following Bootstrap SPEC",
-   "done": "2026-11-14T20:11Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T20:10Z",
-     "text": "Published f48ac1e407: current-camera drawing visibility omits hidden/off-screen ink wake and empty drawing passes; screen pings follow their one-second lifetime, world pings their actual age/context. Delivered source passed native drawing 5"
-    }
-   ]
-  },
-  {
    "n": 748,
    "name": "using Strong for Dev 842 GPU source-frame and Half-resolution qualification",
    "done": "2026-11-14T20:31Z",
@@ -21083,7 +21063,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-17T20:12Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -22981,5 +22970,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "039be9dcb837f731cac4d2892b5fc3f9241a3151"
+ "source_revision": "27e6b0b243f5bc46eca8f00deb8c6fa4a1595770"
 }
