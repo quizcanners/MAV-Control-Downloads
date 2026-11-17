@@ -2191,26 +2191,6 @@
    "notes": []
   },
   {
-   "n": 713,
-   "name": "Dynamic Resolution misses slow drone and peer-pointer motion because each frame replaces the movement reference. Match Bootstrap SPEC",
-   "done": "2026-11-14T16:22Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T16:22Z",
-     "text": "Published e15c1e4827. Drone and peer-pointer motion accumulates from the last reported position; live broadcasts seed that reference. Native perspective/orthographic regression calls pass slow drift, jitter, off-screen movement, stop and re"
-    }
-   ]
-  },
-  {
    "n": 714,
    "name": "Windows Non-interacting state wakes with no operator input. Capture the affected station via app.lifecycle",
    "done": "2026-11-14T18:36Z",
@@ -22635,6 +22615,20 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1550,
+   "name": "Make cold My Data and MavChat open the complete usable window immediately",
+   "done": "",
+   "goal": false,
+   "under": 429,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -23203,5 +23197,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "aae814fec1c63b63f8dc1b8439a822b24de34f8b"
+ "source_revision": "9743ec545997ed3e65101bc3d396ce0b39f56784"
 }
