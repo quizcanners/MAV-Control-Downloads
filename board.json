@@ -1638,16 +1638,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_TEMPORAL_AREA",
-     "since": "2026-11-17T15:33Z",
-     "noted": "",
-     "progress": 45,
-     "ticked": 5,
-     "total": 11
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Video relay holds one Port, UDP 14680 (VPN peers use host candidates only). Android screen-share renewals ride the :location background Chat socket 14668 (ScreenRenewal kinds 4/5, UDP 17698 removed; f",
@@ -1696,11 +1687,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_FUSION_PERFORMANCE",
-     "at": "2026-11-17T05:23Z",
-     "text": "Published 505227e492: eliminated duplicate producer-side surface-tile payload copy; immutable store-owned snapshot retained. Unity admission 9/9 and Roslyn clean. Remaining live fusion work stays under task 1418."
-    },
-    {
      "by": "CODEX_QUAD_STORE",
      "at": "2026-11-17T05:56Z",
      "text": "Paused: live surface store, rendering, RTX6 transport and tested incremental fixes are on main through 59d88b98fe. Frame transaction, core/halo integration, GPU one-pass/changed-only and NVIDIA visual validation remain under 1418."
@@ -1709,6 +1695,11 @@
      "by": "CODEX_STREET_SPLAT",
      "at": "2026-11-17T05:57Z",
      "text": "Paused at user request. Task 1430 records published increments and the preserved untracked GPU commit draft; replay integration and saved layer remain open."
+    },
+    {
+     "by": "CODEX_TEMPORAL_AREA",
+     "at": "2026-11-17T15:36Z",
+     "text": "Task 1528 delivered c69c2b729a; Unity area tests 2/2 and Roslyn clean. Windows D3D11/Linux VPI device rendering remains to verify."
     }
    ]
   },
@@ -23498,5 +23489,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "b75b0804d96b5d4c0751ad2b575c6a4fba518cb4"
+ "source_revision": "e709800ee3e469ff18642f16a55a974680b65fc1"
 }
