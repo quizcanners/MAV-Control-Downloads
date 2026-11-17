@@ -2549,33 +2549,6 @@
    ]
   },
   {
-   "n": 635,
-   "name": "Telemetry panels and readouts use tinted monochrome blur (Drone Control UI SPEC",
-   "done": "2026-11-14T10:38Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Panel action rows call UseStandardRow; BodyTintComposite owns UseStandardPanel (7837f78a1a, HEAVY).",
-     "x": true
-    },
-    {
-     "t": "CODEX_GRAPHICS 243cc6d4e2: ten strip readouts use List Row Panel and have no glass overlay object; the shared detail-panel background uses the same sprite-free body. Nested MavLink strip inherits the ",
-     "x": true
-    },
-    {
-     "t": "Native saved-asset inspection passed for 20 readouts including the nested instance; no missing components; monochrome shader pass compiled. Full prefab review accounts for field ordering and zero/null",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 642,
    "name": "Light",
    "done": "2026-11-14T10:39Z",
@@ -23116,7 +23089,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-17T10:38Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -24135,5 +24117,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "288436f58112fd039079be6003443795b8fc65ab"
+ "source_revision": "a450056b2918e8130fa94dff08eb0ab2b2d0ef39"
 }
