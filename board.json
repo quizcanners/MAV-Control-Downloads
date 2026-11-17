@@ -23566,16 +23566,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-17T09:12Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 6
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Record bake intent and freeze the Positioned reconstruction and registered imagery.",
@@ -23602,7 +23593,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-17T09:15Z",
+     "text": "8fee26c757 specifies the three 3D map LODs. Near uses textured polygons, middle uses grouped cubes, and around 10 km and beyond a tile loads its cardinal RGBA atlas and draws three depth-separated strips for parallax. Guide check passed wit"
+    }
+   ]
   }
  ],
  "verify": [
@@ -24171,5 +24168,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "36a3ec30d5643e1475d6839b69edb822cdd2fd27"
+ "source_revision": "eb464ee8267410bf09e53936973eae3a5134dc20"
 }
