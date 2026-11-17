@@ -2202,20 +2202,6 @@
    ]
   },
   {
-   "n": 717,
-   "name": "using Strong for Android render-thread and SurfaceFlinger trace",
-   "done": "2026-11-14T17:03Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 718,
    "name": "using Strong for paired Half-resolution pinch measurements",
    "done": "2026-11-14T17:35Z",
@@ -22595,6 +22581,42 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1553,
+   "name": "Preserve each 3D Street View reconstruction in its original coordinates and confidence. Position",
+   "done": "",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-17T17:06Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Keep canonical sample evidence through placement edits",
+     "x": false
+    },
+    {
+     "t": "Derive Python and Unity preview grids from canonical data",
+     "x": false
+    },
+    {
+     "t": "Replace owned world-tile contributions when placement changes",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -23163,5 +23185,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "c9022577889bc798cc48432c4f8c314c13033591"
+ "source_revision": "8dc930b583b6552247d45b2c3616e015e0d0973c"
 }
