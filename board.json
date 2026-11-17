@@ -21746,19 +21746,14 @@
     {
      "who": "CODEX_MAVCHAT_LAYOUT",
      "since": "2026-11-17T07:16Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-17T07:18Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_MAC_VERIFY",
-     "at": "2026-11-16T18:54Z",
-     "text": "Editor at current checkout: MavChatSheetTests 96/96 passed; peer clipping and panel edges still need a visual check."
-    },
     {
      "by": "CODEX_MAC_LIVE",
      "at": "2026-11-16T18:57Z",
@@ -21768,6 +21763,11 @@
      "by": "CODEX_MAC_BLACK_GAME",
      "at": "2026-11-16T19:05Z",
      "text": "Black Game view was test setup: isolated profile refused default diagnostic ports (SharedDiagnosticPort). Restart with -mav-editor-port 18693 -mav-runtime-port 18692 admitted MapOnly; Bootstrap Ready 3.6 s and runtime diagnostics worked. Re"
+    },
+    {
+     "by": "CODEX_MAVCHAT_LAYOUT",
+     "at": "2026-11-17T07:18Z",
+     "text": "Current Editor: ChatPortraitWindowTests 6/6 and MavChatSheetTests 97/97. Source places rows below search at runtime; viewport clipping exists. Actual full-stop panel and last-row edge need phone render; no device connected."
     }
    ]
   },
@@ -23895,5 +23895,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "ad54284e8f8dfedc6bf9a9e30d80d702d4c86657"
+ "source_revision": "901372580af62f2f69fec8aebaec3fc1ed1c97d2"
 }
