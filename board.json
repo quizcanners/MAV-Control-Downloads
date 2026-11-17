@@ -1472,16 +1472,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-17T19:11Z",
-     "noted": "",
-     "progress": 45,
-     "ticked": 5,
-     "total": 11
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Video relay holds one Port, UDP 14680 (VPN peers use host candidates only). Android screen-share renewals ride the :location background Chat socket 14668 (ScreenRenewal kinds 4/5, UDP 17698 removed; f",
@@ -1530,11 +1521,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_QUAD_STORE",
-     "at": "2026-11-17T05:56Z",
-     "text": "Paused: live surface store, rendering, RTX6 transport and tested incremental fixes are on main through 59d88b98fe. Frame transaction, core/halo integration, GPU one-pass/changed-only and NVIDIA visual validation remain under 1418."
-    },
-    {
      "by": "CODEX_STREET_SPLAT",
      "at": "2026-11-17T05:57Z",
      "text": "Paused at user request. Task 1430 records published increments and the preserved untracked GPU commit draft; replay integration and saved layer remain open."
@@ -1543,6 +1529,11 @@
      "by": "CODEX_TEMPORAL_AREA",
      "at": "2026-11-17T15:36Z",
      "text": "Task 1528 delivered c69c2b729a; Unity area tests 2/2 and Roslyn clean. Windows D3D11/Linux VPI device rendering remains to verify."
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-17T20:10Z",
+     "text": "ca25bd8247: Unity matches older Positioned archives; canonical placement preservation is on main in 07793fa51a."
     }
    ]
   },
@@ -22990,5 +22981,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "15db05f6c25249633b7f55af743e61753ec16579"
+ "source_revision": "039be9dcb837f731cac4d2892b5fc3f9241a3151"
 }
