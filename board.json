@@ -25,16 +25,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_CLOCK_CLEANUP",
-     "since": "2026-11-17T12:32Z",
-     "noted": "",
-     "progress": 38,
-     "ticked": 3,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Cut on main (details in the refactor file): dead Editor Authors and PrefabEdits, ~1,000 unread localization keys, unread fields and uncalled methods, the QR join and GeometryGoogleSheet, 197 stopped h",
@@ -71,11 +62,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_R1",
-     "at": "2026-11-17T06:21Z",
-     "text": "CLOUD_R1 2026-11-17: UI_NavigatorControls is a static class, dead component cut (uncompiled). Open: place 3 part 2 (one set of keys)."
-    },
-    {
      "by": "CLOUD_R6",
      "at": "2026-11-17T06:43Z",
      "text": "CLOUD_R6 2026-11-17: OSM_Parsing coroutine gone (plain recursion). Left: DJI negotiation coroutines, ScreenBlur CaptureFinalFrames (needs end-of-frame hook, Editor/device). Uncompiled."
@@ -84,6 +70,11 @@
      "by": "CODEX_ORTHOPHOTO_UI",
      "at": "2026-11-17T07:55Z",
      "text": "Published c3ec55428c: Orthophoto toggle applies its gated visibility without recalculating the decision. Roslyn NEW ERRORS: none. Wider one-decision-per-frame work remains."
+    },
+    {
+     "by": "CODEX_CLOCK_CLEANUP",
+     "at": "2026-11-17T12:34Z",
+     "text": "Published 7ab64db5ca: removed obsolete Clock Hide Transition subtree and stale serialized reference after immediate-hide fix. No external references; Unity imported prefab, SetVisible alpha 1/0/1, isolated show/hide/hide/show render bright "
     }
    ]
   },
@@ -23802,5 +23793,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "5d47e1f62d3635d32af0c01dc7b96447897d276c"
+ "source_revision": "ee36a61830bcddeb651af25d5bb4d1c06fe65249"
 }
