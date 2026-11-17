@@ -22912,29 +22912,25 @@
   {
    "n": 1459,
    "name": "Lists",
-   "done": "",
+   "done": "2026-11-17T07:16Z",
    "goal": false,
    "under": 408,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_LIST_RESUME",
-     "since": "2026-11-17T07:08Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_LIST_CLICK",
      "at": "2026-11-17T05:55Z",
      "text": "Unfinished local draft: shared list gesture arbitration and tests in UI_ClickBlockerBase, ScrollRectClampedWheel, UI_LeftListSwipeAway, UI/SPEC.md and ListScrollInteractionTests. Unity 20/21: actual Photo-folder quick-right flick opened con"
+    },
+    {
+     "by": "CODEX_LIST_RESUME",
+     "at": "2026-11-17T07:16Z",
+     "text": "Published 06bafdba3d: one gesture decision distinguishes vertical scroll, list flick and Photo-folder context drag; no row click after scrolling. Unity ListScrollInteractionTests 21/21. Device gesture check remains."
     }
    ]
   },
@@ -23890,5 +23886,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "aa02818320ff22c8b1961526f53e785d447e8c7c"
+ "source_revision": "9d2e8899d1f66c06d9ab5e790cc85cac13b5e7a3"
 }
