@@ -22601,25 +22601,22 @@
   {
    "n": 1443,
    "name": "Using Strong for same-frame touch drag measurement on signed Dev 851",
-   "done": "",
+   "done": "2026-11-17T00:56Z",
    "goal": false,
    "under": 363,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T00:45Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T00:56Z",
+     "text": "Signed Dev 851 cd3d8b8986 on Strong, eight USB touch swipes. Rig moved on 70/73 touched frames and 10/10 fast-swipe frames, with zero held motion frames without delta. Three slow frames were under the trace threshold. Exact Release 850, ori"
+    }
+   ]
   },
   {
    "n": 1444,
@@ -23214,5 +23211,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "183f03080c0b0caabfdec5a5fc9f1c74121ee031"
+ "source_revision": "4c44a3a811b715b92e7a24f0723c0aa0c8f0d63c"
 }
