@@ -2270,26 +2270,6 @@
    ]
   },
   {
-   "n": 759,
-   "name": "Reuse the Planet fragment camera direction for Element angle fade",
-   "done": "2026-11-14T22:25Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T22:24Z",
-     "text": "Published df863b6fbd: Element angle fades reuse the fragment camera direction. Metal High/Low division sites 3 to 2; dots 11 and samples 6/4 unchanged. Fresh-import native 1200 before/after pairs match exactly; 192 Metal/GLES stages compile"
-    }
-   ]
-  },
-  {
    "n": 760,
    "name": "Planet orbital bump",
    "done": "2026-11-14T22:36Z",
@@ -21983,7 +21963,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-17T21:55Z",
-     "noted": "",
+     "noted": "2026-11-17T22:27Z",
      "progress": 75,
      "ticked": 3,
      "total": 4
@@ -22010,8 +21990,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-17T21:53Z",
-     "text": "Done: 91cadd3e62 completes flat-store caching and source-owner audit; 1570 closed."
+     "at": "2026-11-17T22:27Z",
+     "text": "Dev 859 native build is live from 672a051356 (CLI 14440, Editor 2432, exec session 15810). First attempt failed on old Bee state.map; map and owned exited-run lock archived with hashes. Retry passed script compilation and is compiling ARM64"
     }
    ]
   },
@@ -22914,5 +22894,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "625e1335f5a900aae5bb0f91698e4ae67275365a"
+ "source_revision": "93d74d30339bbd0e0607e4c320022e41dc656361"
 }
