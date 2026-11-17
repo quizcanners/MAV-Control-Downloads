@@ -25,16 +25,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MGRS_CLEANUP",
-     "since": "2026-11-17T12:36Z",
-     "noted": "",
-     "progress": 38,
-     "ticked": 3,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Cut on main (details in the refactor file): dead Editor Authors and PrefabEdits, ~1,000 unread localization keys, unread fields and uncalled methods, the QR join and GeometryGoogleSheet, 197 stopped h",
@@ -71,11 +62,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_R6",
-     "at": "2026-11-17T06:43Z",
-     "text": "CLOUD_R6 2026-11-17: OSM_Parsing coroutine gone (plain recursion). Left: DJI negotiation coroutines, ScreenBlur CaptureFinalFrames (needs end-of-frame hook, Editor/device). Uncompiled."
-    },
-    {
      "by": "CODEX_ORTHOPHOTO_UI",
      "at": "2026-11-17T07:55Z",
      "text": "Published c3ec55428c: Orthophoto toggle applies its gated visibility without recalculating the decision. Roslyn NEW ERRORS: none. Wider one-decision-per-frame work remains."
@@ -84,6 +70,11 @@
      "by": "CODEX_CLOCK_CLEANUP",
      "at": "2026-11-17T12:34Z",
      "text": "Published 7ab64db5ca: removed obsolete Clock Hide Transition subtree and stale serialized reference after immediate-hide fix. No external references; Unity imported prefab, SetVisible alpha 1/0/1, isolated show/hide/hide/show render bright "
+    },
+    {
+     "by": "CODEX_MGRS_CLEANUP",
+     "at": "2026-11-17T12:40Z",
+     "text": "Published 12eb939051: removed dead MGRS Ping icon colour API, obsolete prefab bindings and tests that required a Ping, while keeping the disabled legacy object and history/tap behavior. MgrsAltitudeCopyPanelTests 7/7, MgrsHistorySwipeTests "
     }
    ]
   },
@@ -23802,5 +23793,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "1d171c750940ac10c9d4e1a00c9522f89012ef33"
+ "source_revision": "f3b07d57478c20ac3d2a793af1a943692eeeb4ef"
 }
