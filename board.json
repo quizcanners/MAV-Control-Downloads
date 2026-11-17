@@ -22094,7 +22094,7 @@
     {
      "who": "CODEX_QUAD_STORE",
      "since": "2026-11-17T04:16Z",
-     "noted": "2026-11-17T05:02Z",
+     "noted": "2026-11-17T05:16Z",
      "progress": 25,
      "ticked": 0,
      "total": 0
@@ -22116,14 +22116,14 @@
      "text": "Published bounded per-tile snapshot repair a24bffb51e: atomic admissions, overflow retry, erase/epoch guards and monotonic displayed revisions. Unity compile and 3/3 focused tests passed; Roslyn NEW ERRORS none. Remaining: live map/GPU visu"
     },
     {
-     "by": "CODEX_QUAD_STORE",
-     "at": "2026-11-17T05:02Z",
-     "text": "Published live owner 00f0f9f0a9, map display 2b27df6271, refresh journal a24bffb51e and bounded admission scratch/restart fix ad8c1262df. Unity shutdown 1/1, transport 7/7, atomic admission 8/8, display 3/3; Roslyn NEW ERRORS: none. Failure"
-    },
-    {
      "by": "CODEX_SURFACE_AUDIT",
      "at": "2026-11-17T05:07Z",
      "text": "Published a8b5045f71: reuse the surface-map draw fence command buffer instead of allocating per camera frame. Unity compile and display-reader tests 3/3 passed; reference-correct Roslyn NEW ERRORS: none. GPU visual and measured allocation s"
+    },
+    {
+     "by": "CODEX_QUAD_STORE",
+     "at": "2026-11-17T05:16Z",
+     "text": "Published live owner 00f0f9f0a9, map display/journal 2b27df6271/a24bffb51e, bounded batch scratch ad8c1262df, and fenced failure retirement/stale-revision handling a814318931. Unity drain/retirement 1/1, transport 7/7, atomic admission 8/8,"
     }
    ]
   },
@@ -23467,5 +23467,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "0435978b2537c9a47bd9757117d61b9acae5c767"
+ "source_revision": "ce1bec16c609ff135185fff3c1328bb02ba02d91"
 }
