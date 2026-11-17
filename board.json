@@ -781,16 +781,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T04:04Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 3,
-     "total": 6
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Windows runner host harness restored (27f57e05ab; receipts C:/MavControlEvidence/Windows-375-20261113/); HEAVY / PL-007 runner heavy-pl-007 on Unity 6000.6.8f1 (64cceb04cc), Task Scheduler owns one li",
@@ -819,11 +810,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_DOT_695",
-     "at": "2026-11-14T14:14Z",
-     "text": "Separate CI publication hold: local commit 07b558cbd2 removes only duplicate retention-days: 7 and keeps 3-day upload retention. Strict unique-key YAML, unchanged effective configuration, and duplicate negative control pass. NOT pushed: res"
-    },
-    {
      "by": "ROG",
      "at": "2026-11-16T02:30Z",
      "text": "d3642298cb lets a running Android daily runner read the mounted Drive Test path from Windows user settings when CLI and process settings are absent. Explicit empty stays a per-run opt-out. Five precedence cases passed in Windows PowerShell "
@@ -832,6 +818,11 @@
      "by": "HEAVY",
      "at": "2026-11-16T06:35Z",
      "text": "Hosted compile-diff runs 43817045280, 43816315670 and 43815160129 report NEW ERRORS: none. GitHub quota refused all three uploads; retirement skipped."
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T04:27Z",
+     "text": "855 produced a valid signed APK; the wrapper refused 22 Git-modified Build Profiles whose LF bytes exactly matched HEAD. Same Windows Git state reproduced before/after. b3965643f2 accepts byte-identical LF rewrites and retains all path/cont"
     }
    ]
   },
@@ -23343,5 +23334,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "c25f4c0784d19e1ef45551b0c682cf6ee887b492"
+ "source_revision": "015c687cc5039631db151bf3623db319bbb53e78"
 }
