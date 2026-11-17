@@ -1417,7 +1417,16 @@
    "priority": "normal",
    "parked": true,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_NOTIFICATION_HANDLE",
+     "since": "2026-11-17T07:53Z",
+     "noted": "",
+     "progress": 80,
+     "ticked": 4,
+     "total": 5
+    }
+   ],
    "steps": [
     {
      "t": "All notification cards use the shared receipt and folding behavior; the four plain status notices (Connection Lost, Remote Sensors Offline, Motorola Warning, VPN not Found) hold a receipt in their own",
@@ -23988,5 +23997,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "80363ae47e397c289b3dcd18f7b59aadf4954fe0"
+ "source_revision": "cfded52633bbc233ad76c48bce7586eb3289166c"
 }
