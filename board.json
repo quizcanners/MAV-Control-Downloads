@@ -21179,25 +21179,22 @@
   {
    "n": 1468,
    "name": "task_flow --done on an already-done task now prints why it changed nothing. Need for verify",
-   "done": "",
+   "done": "2026-11-17T15:35Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_BOARD_DONE_CHECK",
-     "since": "2026-11-17T15:34Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_BOARD_DONE_CHECK",
+     "at": "2026-11-17T15:35Z",
+     "text": "Current origin task_flow --done 1544 reported already done and nothing changed; no board mutation occurred."
+    }
+   ]
   },
   {
    "n": 1469,
@@ -23501,5 +23498,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "eba5200ba7cdeebef901b6ac26f39c1cc63550c2"
+ "source_revision": "b75b0804d96b5d4c0751ad2b575c6a4fba518cb4"
 }
