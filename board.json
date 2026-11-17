@@ -1346,7 +1346,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_SHADER_PASS3",
+     "since": "2026-11-17T19:44Z",
+     "noted": "",
+     "progress": 22,
+     "ticked": 2,
+     "total": 9
+    }
+   ],
    "steps": [
     {
      "t": "Cloud, on main: startup cuts, Patch Preparation (32a9302f, 55dbede20d), hand-written heartbeat reader, skip sealing for nine hash types (build 818), 4 Hz crypto handshake only while a peer has no key,",
@@ -22991,5 +23000,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "c8727b11422b51b31b8e2815210ae91f53e101d7"
+ "source_revision": "8c660fdd0972b6313aac3d5935b71e186df16230"
 }
