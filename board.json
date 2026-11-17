@@ -2292,16 +2292,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_TONGUE",
-     "since": "2026-11-17T04:38Z",
-     "noted": "",
-     "progress": 33,
-     "ticked": 1,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Flick up on the bar and over the cards runs AcknowledgeAllAndFold (UI_NotificationTongue): every New notice gets Hide(), persistent ones become Acknowledged so the bar stays closed under them, an unfl",
@@ -2326,6 +2317,11 @@
      "by": "GETAC",
      "at": "2026-11-16T19:38Z",
      "text": "Published a7a251a9e4. Strong signed Dev 851 passed 4/4 card flicks at 8 and 30 FPS targets, including edge cancel, and the tongue at 8. Camera stayed still. Stationary cancel kept the card open; bare map panned 137.81 m. Roslyn clean, Swipe"
+    },
+    {
+     "by": "CODEX_TONGUE",
+     "at": "2026-11-17T04:57Z",
+     "text": "Tongue drag feedback addressed separately in completed task 1453, commit 7f0f8646b3. Existing phone/Map verification on 596 remains open."
     }
    ]
   },
@@ -23450,5 +23446,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "0aaa39eaa541e84bde8d05728215bd3e2ed787c5"
+ "source_revision": "71bf9c12a359a3967e923b0fb1e7e7b3ca22627e"
 }
