@@ -2202,46 +2202,6 @@
    ]
   },
   {
-   "n": 723,
-   "name": "Situation event smoke must report visible animation before the map-render decision",
-   "done": "2026-11-14T17:52Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T17:51Z",
-     "text": "Published 0fb2c84194: visible Situation smoke reports Anim before map retention; empty systems skip frustum work. New native ECS visibility regression and existing lifecycle case pass; native compile and Roslyn pass. No extra shader sample/"
-    }
-   ]
-  },
-  {
-   "n": 724,
-   "name": "Allow shader.compile to compile Unity shader assets with spaces in the asset path",
-   "done": "2026-11-14T17:50Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T17:53Z",
-     "text": "Native Unity 6000.6.8f1 backdoor accepts the quoted Compass Star Sun asset path. Default pass compiled with zero messages in all six vertex/fragment stages: Windows D3D11, Android Vulkan and Android GLES3. Shader matches origin/main. Eviden"
-    }
-   ]
-  },
-  {
    "n": 725,
    "name": "Add the small tongue to the right Suggestions panel (UI SPEC",
    "done": "2026-11-15T15:12Z",
@@ -2263,46 +2223,6 @@
      "by": "ROG",
      "at": "2026-11-15T15:12Z",
      "text": "Confirmed 7c732c802b on main. Rog Play Mode at 346595eee7 verified the live mirrored handle owns its center raycast, displays its chevron and uses the Suggestions backing material. Calling the live tap handler and separately sending outward"
-    }
-   ]
-  },
-  {
-   "n": 726,
-   "name": "Restore the right Suggestions tongue and chevron graphics using the same sprite geometry as the left Lists handle (UI SPEC",
-   "done": "2026-11-14T17:50Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T17:50Z",
-     "text": "39b25d04ed supplies shared tongue and chevron sprites and attaches the handle to the Suggestions backing's real left edge. Prefab diff reviewed; Roslyn NEW ERRORS: none. Map verification bumped for rendered placement and gestures."
-    }
-   ]
-  },
-  {
-   "n": 727,
-   "name": "PEGI Enter and Exit chevrons need the grey rounded artwork defined in Inspector SPEC",
-   "done": "2026-11-14T17:53Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_PEGI",
-     "at": "2026-11-14T17:53Z",
-     "text": "Published on main in 3ea8560f6b. Shared PEGI Enter and Exit sprites now use mirrored grey round-ended chevrons. PNG integrity, dimensions, mirror and asset preview passed. Guide check: 0 errors, 5 existing warnings. Settings Home and VPNs v"
     }
    ]
   },
@@ -22601,7 +22521,7 @@
   },
   {
    "n": 1558,
-   "name": "Convergence branches follow their specs with cached hashes and no repeated branch work; use Web Mercator as reference and optimize actual work before spreading it across frames",
+   "name": "Convergence branches follow their specs with cached hashes and no repeated branch work; use Web Mercator as the reference and reduce actual work before spreading it across frames.",
    "done": "",
    "goal": true,
    "under": 0,
@@ -22614,22 +22534,22 @@
      "who": "GETAC",
      "since": "2026-11-17T17:39Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
-     "t": "Elements mask lazy hashes and likely-complete download groups",
+     "t": "Elements masks use lazy cached hashes, efficient dirty propagation and likely-complete download groups.",
+     "x": true
+    },
+    {
+     "t": "Situation and Geometry reduce repeated ancestor invalidation and child preparation under their own specs.",
      "x": false
     },
     {
-     "t": "Review other convergence owners against the shared contract",
-     "x": false
-    },
-    {
-     "t": "Measure correctness, repeated work and convergence latency on available devices",
+     "t": "Remaining convergence owners follow the shared pass, cached-summary and progress contracts.",
      "x": false
     }
    ],
@@ -23225,5 +23145,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "99b1775d400dde7b06229c12b15c7af7db89473e"
+ "source_revision": "0199dae3bcaf75d840533afc776e293bb4c353d7"
 }
