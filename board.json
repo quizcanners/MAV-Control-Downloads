@@ -23226,16 +23226,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLOUD_AREA",
-     "since": "2026-11-17T12:12Z",
-     "noted": "",
-     "progress": 75,
-     "ticked": 3,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Area controls show whenever any processor is on (UI_MotionTuningPanel)",
@@ -23254,7 +23245,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_AREA",
+     "at": "2026-11-17T12:13Z",
+     "text": "UI shared, Contrast applies area; left: Temporal denoise passes apply it"
+    }
+   ]
   }
  ],
  "verify": [
@@ -23823,5 +23820,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "ce9835d4d8ebfcfc2eb2e56d631a0d2e3aa193f0"
+ "source_revision": "4f5c0c99712523223cbe2427f2543572175030cc"
 }
