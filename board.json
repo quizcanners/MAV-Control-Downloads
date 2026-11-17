@@ -2328,7 +2328,7 @@
     {
      "who": "CLOUD_R3",
      "since": "2026-11-17T06:22Z",
-     "noted": "",
+     "noted": "2026-11-17T06:23Z",
      "progress": 25,
      "ticked": 1,
      "total": 4
@@ -2354,11 +2354,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-14T20:19Z",
-     "text": "Windows Editor 840: moved vpn.keys.storage reports DPAPI/migration complete; vpn.handshake paging, Settings Map row navigation, WiFi status, camera cull, feature and canvas reads answered. emulated-off and NoRaised changed the session reado"
-    },
-    {
      "by": "ROG",
      "at": "2026-11-16T11:45Z",
      "text": "Published 943404304d: UDP owns vpn.udp and the send counters shared with vpn.handshake; Handshake, Training and Remote Sensors own their command gates. Unity compiled cleanly, 12 stopped-Editor checks passed, and vpn.udp, vpn.handshake, tra"
@@ -2367,6 +2362,11 @@
      "by": "CLOUD_REFACTOR_2",
      "at": "2026-11-17T06:21Z",
      "text": "CLOUD_REFACTOR_2: performance.top/budgets/minimized moved from the dispatcher to FrameBudget.TryRunReportCommand (uncompiled). Left: vpn/training/remote editors, Station classes in Singleton_GroundStation, other cfg/systems cases in DebugCo"
+    },
+    {
+     "by": "CLOUD_R3",
+     "at": "2026-11-17T06:23Z",
+     "text": "CLOUD_R3 2026-11-17: performance.pacing/pacing_wake/startup moved from dispatcher to ApplicationLifecycleDebugState.TryRunCommand (uncompiled). Left: performance.wires to WireDiagnostics, cfg/system.set, other cfg cases in DebugControl, Sta"
     }
    ]
   },
@@ -23656,5 +23656,5 @@
    "since": "2026-11-17T05:36Z"
   }
  ],
- "source_revision": "5245eab7c73e13d96ad9c0d497acfd68633568e0"
+ "source_revision": "042fd4fff367aed3ca34d5bb59b4a007fb815857"
 }
