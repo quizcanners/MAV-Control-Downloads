@@ -22342,16 +22342,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_STREET_SPLAT",
-     "since": "2026-11-17T04:58Z",
-     "noted": "2026-11-17T05:23Z",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Route each depth point to mesh, terrain or splat by the SPEC rule",
@@ -22383,8 +22374,8 @@
     },
     {
      "by": "CODEX_STREET_SPLAT",
-     "at": "2026-11-17T05:23Z",
-     "text": "Published c7423a6b1c, d2defc1e69 and 99ab17f0d5: ordered local cohorts and GPU per-pose weights (Metal 2/2; Roslyn clean). Replay needs transactional retry mapping before accumulation; weak-surface routing, saved layer and renderer remain o"
+     "at": "2026-11-17T05:56Z",
+     "text": "Paused: 342d67ef3e and d2defc1e69 published; Unity 2/2 pose-map, 2/2 weight, Roslyn clean. PoseCommit first draft untracked in checkout passed Metal 1/1. Revised allocation/readback-safe wrapper and failure fixture are /tmp/codex-surface-po"
     }
    ]
   },
@@ -23550,5 +23541,5 @@
    "since": "2026-11-17T05:36Z"
   }
  ],
- "source_revision": "ae9cb35ff49ca39e1b0f52d9d6d6e285d0ceb24b"
+ "source_revision": "d7d7cad5d6e994fb1161923af9ae03b37f0dddae"
 }
