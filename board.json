@@ -2333,20 +2333,6 @@
    ]
   },
   {
-   "n": 693,
-   "name": "Left lists",
-   "done": "2026-11-14T13:43Z",
-   "goal": false,
-   "under": 408,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 694,
    "name": "Settings > Screen > View groups the rendering options",
    "done": "2026-11-14T13:48Z",
@@ -22623,7 +22609,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-17T13:43Z",
+     "text": "02343c446f covers the Unity backend. SVMA writes an indexed vertex-colour mesh without opaque UVs or atlas, Pano360 binds original-sized linked photos, and three SVM9 saves still load. Save timing, vertex count, buffer bytes and disk footpr"
+    }
+   ]
   },
   {
    "n": 1523,
@@ -23422,5 +23414,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "f5b715fc591b2cd64fb8a436f03a6f88e839d52a"
+ "source_revision": "d72a2ae69afd8e9aa8cbaa223fdf39335f1f5381"
 }
