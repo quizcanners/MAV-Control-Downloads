@@ -22970,22 +22970,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T10:38Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-17T10:27Z",
-     "text": "Lenovo Dev 857 direct GLES calls, CPU.md f56093b606: five glProgramBinary loads took 224.1 ms inside the 1,166.1 ms pan gap, longest 140.9 ms. PowerVR compiler stacks and a separate fstatat-heavy worker overlap the same gap. No generated st"
+     "at": "2026-11-17T10:53Z",
+     "text": "CPU.md d074bc1cc6: 45/45 captured binaries linked. Four first-pan programs (84.1 ms) match UI Screen FrostedButtonHighight.shadergraph, Canvas. Two use _LiquidGlassPicture and _BlurredScreen. Fifth is a shared blur signature. Exact keywords"
     }
    ]
   },
@@ -24083,5 +24074,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "c6a0d2962ae6cc98c53b22904768afad2137e3f0"
+ "source_revision": "f00fe3afe54f3873b6deb6fddc12539f18394b14"
 }
