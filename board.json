@@ -1843,7 +1843,7 @@
   {
    "n": 543,
    "name": "Compile check and renames of the naming pass (Coordination/Refactoring/nested-controllers.md holds the log).",
-   "done": "",
+   "done": "2026-11-17T07:58Z",
    "goal": false,
    "under": 0,
    "ticks": [
@@ -1853,16 +1853,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_CHAT_ALERT",
-     "since": "2026-11-17T07:49Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 5,
-     "total": 5
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Cloud: chunks 1-5 on main (Process handlers to Receive*/Apply*, about 330 files of misspelled identifiers, Handle* renames, WGS84 constants to PlanetEllipsoid, label size limits in one place)",
@@ -1887,11 +1878,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_REFACTOR",
-     "at": "2026-11-14T18:45Z",
-     "text": "CLOUD_REFACTOR 2026-11-14: SubmitError chain shortened in 3 files; compile unchecked, needs cmp.sh"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-15T02:13Z",
      "text": "8b3c9a41a4 removes four unused UI_MavChatPanel aliases. Both Chat Window prefabs still bind to their own UI_ChatWindow methods."
@@ -1900,6 +1886,11 @@
      "by": "ROG",
      "at": "2026-11-15T07:15Z",
      "text": "c32ed4e41e: renamed both Mergeable UI classes and files, retained MonoScript GUIDs, migrated 583 class labels and corrected 16 Chat choice labels. Unity compiled and imported all 61 affected prefabs. Existing saved UDP, compass and alignmen"
+    },
+    {
+     "by": "CODEX_CHAT_ALERT",
+     "at": "2026-11-17T07:58Z",
+     "text": "Published e2ffd6cc3e: both Chat prefabs bind all seven alert events to UI_ChatAlertActions; removed window and unused MavChat aliases, kept shared validation. ChatComposerTests 65/65; shared Roslyn NEW ERRORS none; guide check 0 errors."
     }
    ]
   },
@@ -24007,5 +23998,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "c3ca86f583281a94952e5fdc94a86f8a327c4574"
+ "source_revision": "56336ea39822a6c5d6dd4cdae99bddc72d67aa58"
 }
