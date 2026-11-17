@@ -2215,26 +2215,6 @@
    ]
   },
   {
-   "n": 767,
-   "name": "Fix PolyLine anchors visibly floating above the terrain in the reported oblique map view",
-   "done": "2026-11-14T23:53Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T23:53Z",
-     "text": "aa08746283 fixes terrace crossings after 086bb193b3 corrected the preview height. Planet strips crossed terrain steps because seam refinement was Cesium-only. At 620 m, 96 vertices grounded and 89 of 89 spans within 1 m, with the largest ri"
-    }
-   ]
-  },
-  {
    "n": 769,
    "name": "using Strong for the Destination Sync Noise IK idle comparison and reconnect",
    "done": "2026-11-15T00:53Z",
@@ -22177,7 +22157,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-17T23:53Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -22766,5 +22755,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "c76d53df209ed63c1b5a65544b630c6b288f8832"
+ "source_revision": "3174f50676f130788a4edd617a019a5de6c77667"
 }
