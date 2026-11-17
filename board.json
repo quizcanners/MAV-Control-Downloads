@@ -2283,7 +2283,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_TONGUE",
+     "since": "2026-11-17T04:38Z",
+     "noted": "",
+     "progress": 33,
+     "ticked": 1,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Flick up on the bar and over the cards runs AcknowledgeAllAndFold (UI_NotificationTongue): every New notice gets Hide(), persistent ones become Acknowledged so the bar stays closed under them, an unfl",
@@ -23340,5 +23349,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "cf371d1a513ba0c91ee1d56e7e36461ff86a667b"
+ "source_revision": "85d990f978dcfa35c4dbc77efc86d48d2223f654"
 }
