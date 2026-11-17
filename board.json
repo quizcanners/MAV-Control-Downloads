@@ -1258,16 +1258,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_LIST_REOPEN",
-     "since": "2026-11-17T09:15Z",
-     "noted": "",
-     "progress": 57,
-     "ticked": 4,
-     "total": 7
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "One swipeable root on main: Lists Root (300 wide, pivot x 0) holds the lists with one UI_LeftListSwipeAway, one back panel with a blocker that stops map touches, one tongue shown only by LeftLists.Pan",
@@ -1300,11 +1291,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-15T16:44Z",
-     "text": "Mac Editor MapOnly: clicking outside the visible left-list tongue closed Telemetry while the tabs stayed. Two automated row drags selected the row; input trace shows press and release in the same frame, so neither is a valid real-drag check"
-    },
-    {
      "by": "CODEX_LIST_CLICK",
      "at": "2026-11-17T05:57Z",
      "text": "Task 1459 paused: local unpublished gesture arbitration draft, 20/21 Unity tests; fast-right flick on Photo folder incorrectly opens context. See task 1459 for exact handoff."
@@ -1313,6 +1299,11 @@
      "by": "CODEX_LIST_NULL",
      "at": "2026-11-17T09:05Z",
      "text": "Existing 50449df8fc guards UI_LeftListSwipeAway.Update until StationInitialized and Station.Initialized. In the current Mac Editor, the actual LISTS Left prefab Update completed with StationInitialized=false and no Station access. Prior sta"
+    },
+    {
+     "by": "CODEX_LIST_REOPEN",
+     "at": "2026-11-17T09:19Z",
+     "text": "839cf4fb0f: caught closing list now honors a keep-open release; 29/29 ListScrollInteractionTests and Roslyn NEW ERRORS none. No device gesture check; Editor test identity restored."
     }
    ]
   },
@@ -2548,43 +2539,6 @@
      "by": "ROG",
      "at": "2026-11-14T21:28Z",
      "text": "0dd3cbd33c adds English/Ukrainian camera strings and picker coverage. 86dc762103 makes Automatic and other choices cancel a pending device-camera start or stop active capture. Windows Unity compiled, picker tests 10/10, prior localization 1"
-    }
-   ]
-  },
-  {
-   "n": 631,
-   "name": "Navigator route line",
-   "done": "2026-11-14T09:18Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [
-    "2026-11-14T09:17Z",
-    "2026-11-14T09:17Z",
-    "2026-11-14T09:18Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Dark ink colour",
-     "x": true
-    },
-    {
-     "t": "Shadow pass under line",
-     "x": true
-    },
-    {
-     "t": "SPEC line",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud-route-line",
-     "at": "2026-11-14T09:17Z",
-     "text": "Done on main: RoadRouteInk (blue 55% toward black) for line, markers, connector; shadow pass 58% black at 1.8x ink width under the line (Navigator_Route.DrawRoadRouteMarkers); Navigator SPEC updated. Uncompiled."
     }
    ]
   },
@@ -24177,5 +24131,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "c3ed86aedac4472f072fbe6914643b1f22b97caf"
+ "source_revision": "938ec434d46ac44fe4b8ded1b4945cfcb8e566c4"
 }
