@@ -2328,16 +2328,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLOUD_REFACTOR_2",
-     "since": "2026-11-17T06:20Z",
-     "noted": "",
-     "progress": 25,
-     "ticked": 1,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: early break for VPN down in Peer.CanUseSyncConnection (a1614a81); Diagnostics, Startup, Persistence, FrameRate, Scheduler out of Singleton_GroundStation (e2b75667); Station split (18df70da); ",
@@ -2366,6 +2357,11 @@
      "by": "ROG",
      "at": "2026-11-16T11:45Z",
      "text": "Published 943404304d: UDP owns vpn.udp and the send counters shared with vpn.handshake; Handshake, Training and Remote Sensors own their command gates. Unity compiled cleanly, 12 stopped-Editor checks passed, and vpn.udp, vpn.handshake, tra"
+    },
+    {
+     "by": "CLOUD_REFACTOR_2",
+     "at": "2026-11-17T06:21Z",
+     "text": "CLOUD_REFACTOR_2: performance.top/budgets/minimized moved from the dispatcher to FrameBudget.TryRunReportCommand (uncompiled). Left: vpn/training/remote editors, Station classes in Singleton_GroundStation, other cfg/systems cases in DebugCo"
     }
    ]
   },
@@ -23612,5 +23608,5 @@
    "since": "2026-11-17T05:36Z"
   }
  ],
- "source_revision": "f1ab73e8f43979c9bb73d253bff2bd149ec89449"
+ "source_revision": "ee8d3206326fb7f3dd619d7e1fb3e077de890126"
 }
