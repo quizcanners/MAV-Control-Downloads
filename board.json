@@ -22854,7 +22854,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_UI_CORNER",
+     "since": "2026-11-17T12:33Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -23209,25 +23218,22 @@
   {
    "n": 1529,
    "name": "Using Lenovo for the baseline and candidate Chat prewarm and first-open timing",
-   "done": "",
+   "done": "2026-11-17T12:32Z",
    "goal": false,
    "under": 429,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T12:22Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T12:32Z",
+     "text": "Dev 857 returned a complete 220-frame closed-Chat control (Workflow Spawner max 1.30 ms after startup). ui.chat last accepted but Chat Window visibility stayed unconfirmed, so first-open baseline was partial. Restored exact Test 855, UID an"
+    }
+   ]
   }
  ],
  "verify": [
@@ -23796,5 +23802,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "070e0fe9739f03ab5eca0c5002447a21658ece2a"
+ "source_revision": "5d47e1f62d3635d32af0c01dc7b96447897d276c"
 }
