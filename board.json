@@ -22428,25 +22428,22 @@
   {
    "n": 1561,
    "name": "Situation convergence is not yet using lazy cached hashes throughout a change group (Convergence_Sync.md",
-   "done": "",
+   "done": "2026-11-17T18:57Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T18:11Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T18:57Z",
+     "text": "Published d8817a0963 and ab6dc5b279: Situation summaries are lazy, dirty propagation stops early, nested groups settle once, successful child caches survive parent failure, and interaction holds new root preparation. Required replies and ma"
+    }
+   ]
   },
   {
    "n": 1562,
@@ -23049,5 +23046,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "bb24dabccd3387d5a53f5c83b70b87b84d1da381"
+ "source_revision": "17640c2cdae1bc4cc1e1efc7a7d6f28074112be2"
 }
