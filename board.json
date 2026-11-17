@@ -2100,36 +2100,6 @@
    ]
   },
   {
-   "n": 559,
-   "name": "The usual tombstone list exists as a copy per store; make it one thing before the tile tombstones get theirs (Assets/_PROJECT/Systems/Record Vault/SPEC.md",
-   "done": "2026-11-14T09:38Z",
-   "goal": false,
-   "under": 366,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-14T11:30Z",
-     "text": "CC-9D69-01 A/B for quiz: A) TombstoneHorizon returns 0 when Count<512 before any scan (old fast path, 3 lines, Enemy Logistics + Planet masks); B) keep the single shared scan as is. Cloud takes A unless quiz says B."
-    },
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-14T11:44Z",
-     "text": "CLOUD_THREAD 2026-11-14: CC-9D69-01 option A applied uncompiled: a list holding fewer than 512 deletions answers \"no horizon\" from its count without scanning (Enemy Logistics, Planet masks, Place Labels by list size; Situation already did)."
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T11:57Z",
-     "text": "72f104d961 fixes native Unity CS0103 from 53b912d2e2 by qualifying the existing PlanetMaskFiles.MaximumTombstones; no behavioral change. Unity compiled and full suite reached NUnit."
-    }
-   ]
-  },
-  {
    "n": 560,
    "name": "A newer build",
    "done": "2026-11-14T21:16Z",
@@ -2564,26 +2534,6 @@
      "by": "CLOUD",
      "at": "2026-11-14T10:46Z",
      "text": "CLOUD 2026-11-14: Peers prefab edited as text (List_VPN Peers.prefab: header row 174, top padding 24, Chat Slot y -24, search and rows 24 lower; ChatPrefabAuthor matches). Nothing left for the Editor."
-    }
-   ]
-  },
-  {
-   "n": 634,
-   "name": "Enter arrow standard (task of this thread; no goal fits",
-   "done": "2026-11-14T09:38Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T09:38Z",
-     "text": "Both Store Post chevrons now use the Waypoints Enter icon and fixed 50 x 50 layout, including prefab regeneration (1fdaef2d04). Unity imported and checked both bindings. Inventory had no rows on this profile; populated-row check is on Store"
     }
    ]
   },
@@ -23612,14 +23562,20 @@
     {
      "who": "CODEX_WHITE_TINT",
      "since": "2026-11-17T09:32Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-17T09:38Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_WHITE_TINT",
+     "at": "2026-11-17T09:38Z",
+     "text": "Published 95de17e83e: UI guidance excludes white background tint, preserves neutral sampled blur and colored tint, and updates Route role wording; guide_check 0 errors. Shared shader implementation is tracked separately in task 1502."
+    }
+   ]
   },
   {
    "n": 1501,
@@ -24257,5 +24213,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "1e13a66ac5db7aee0adf85815dcbe322243e4ac9"
+ "source_revision": "9ce84d862c463454f7437b8962ea9b1c0b0f74b1"
 }
