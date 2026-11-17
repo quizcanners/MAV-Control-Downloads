@@ -596,7 +596,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-17T11:21Z",
+     "noted": "",
+     "progress": 33,
+     "ticked": 2,
+     "total": 6
+    }
+   ],
    "steps": [
     {
      "t": "Code done: background app MavControlBackgroundChat.exe is the tunnel service host (--tunnel-service / --tunnel-install / --tunnel-uninstall, a3cbc72ef1); WindowsTunnelBridge in Station_OtherApps.cs be",
@@ -24032,5 +24041,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "cd3deaf95932ee0ca73bd00686ac16591481f711"
+ "source_revision": "379e49d4af22097dc3d8b2e70758dee29d04633b"
 }
