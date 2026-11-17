@@ -22090,23 +22090,10 @@
      "progress": 25,
      "ticked": 0,
      "total": 0
-    },
-    {
-     "who": "CODEX_SURFACE_AUDIT",
-     "since": "2026-11-17T05:00Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_RTX5_TRANSPORT",
-     "at": "2026-11-17T01:23Z",
-     "text": "Inactive GPU buffer-owner draft and two allocation/lease/accounting tests saved outside checkout at /tmp/codex-surface-quad-buffer-owner/. Not compiled or run. Before restoring: review buffer sizes/accounting, run Editor tests and Roslyn, t"
-    },
     {
      "by": "CODEX_SURFACE_RENDER",
      "at": "2026-11-17T04:51Z",
@@ -22116,6 +22103,11 @@
      "by": "CODEX_QUAD_STORE",
      "at": "2026-11-17T05:02Z",
      "text": "Published live owner 00f0f9f0a9, map display 2b27df6271, refresh journal a24bffb51e and bounded admission scratch/restart fix ad8c1262df. Unity shutdown 1/1, transport 7/7, atomic admission 8/8, display 3/3; Roslyn NEW ERRORS: none. Failure"
+    },
+    {
+     "by": "CODEX_SURFACE_AUDIT",
+     "at": "2026-11-17T05:07Z",
+     "text": "Published a8b5045f71: reuse the surface-map draw fence command buffer instead of allocating per camera frame. Unity compile and display-reader tests 3/3 passed; reference-correct Roslyn NEW ERRORS: none. GPU visual and measured allocation s"
     }
    ]
   },
@@ -23459,5 +23451,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "0deee4c730a9852e923dd9885c73bf02fe4ef2a3"
+ "source_revision": "5c85a0018dab29c3aa55c3e1bfa443546a4a57d9"
 }
