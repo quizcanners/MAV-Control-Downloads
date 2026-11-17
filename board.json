@@ -23557,16 +23557,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-17T09:03Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Record the bake intent and freeze the Positioned reconstruction and registered imagery.",
@@ -23585,7 +23576,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-17T09:06Z",
+     "text": "7c3f2fe35c specifies a separate BaseMap 3D layer above Planet terrain, imagery and Elements. The bake produces tile-local geometry from positioned capture observations. The layer owns distance-driven streaming, LOD and eviction. Guide check"
+    }
+   ]
   }
  ],
  "verify": [
@@ -24154,5 +24151,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "c1145dcc413263a2ac674ae8e94ba2d3ae7eee73"
+ "source_revision": "fd09946e9bd3fcd34ae3ab346ec058cc57584f2c"
 }
