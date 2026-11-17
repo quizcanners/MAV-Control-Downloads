@@ -2202,45 +2202,6 @@
    ]
   },
   {
-   "n": 718,
-   "name": "using Strong for paired Half-resolution pinch measurements",
-   "done": "2026-11-14T17:35Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 721,
-   "name": "Control Zones",
-   "done": "2026-11-14T17:35Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T17:32Z",
-     "text": "Published e2261a61d7: current/previous Control Zone SDF reads use level zero; Low removes both derivatives (four during transition), High smoothing unchanged. Native 288 rendered pairs identical, 16 Metal/GLES stages compile; Roslyn clean. "
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T17:52Z",
-     "text": "Windows Unity 6000.6.8f1 D3D11 compiled ControlZone_PseudoDecal ForwardUnlit: High/Low, with and without transition, passed all eight vertex/fragment stages with zero compiler messages. The shader file matches origin/main. Evidence C:/MavCo"
-    }
-   ]
-  },
-  {
    "n": 723,
    "name": "Situation event smoke must report visible animation before the map-render decision",
    "done": "2026-11-14T17:52Z",
@@ -22578,25 +22539,22 @@
   {
    "n": 1555,
    "name": "MavChat message bubbles",
-   "done": "",
+   "done": "2026-11-17T17:37Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_CHAT_BUBBLE",
-     "since": "2026-11-17T17:21Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_CHAT_BUBBLE",
+     "at": "2026-11-17T17:37Z",
+     "text": "Published 9e703d8e96. Unity 3/3 focused tests, isolated panel render and Roslyn NEW ERRORS none; full device view remains for MavChat verification."
+    }
+   ]
   },
   {
    "n": 1556,
@@ -23208,5 +23166,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "4cd895c1d29c2967912ef3af0e0227e44b2b040f"
+ "source_revision": "bd62f8ab216b12bd43935407d964d0ce89419489"
 }
