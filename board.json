@@ -22018,16 +22018,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_QUAD_STORE",
-     "since": "2026-11-17T01:58Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -22042,8 +22033,8 @@
     },
     {
      "by": "CODEX_QUAD_STORE",
-     "at": "2026-11-17T01:22Z",
-     "text": "Published 6f543cfb, dc8edda7, 09366efc, 537f8909, 24bf410f, 3523bb36 and 9dae8084: world-frame tile store, bounded loader/cache, explicit 20-byte encoding and atomic cross-tile admission. Unity store/window/cache/pair/frame tests pass; Rosl"
+     "at": "2026-11-17T03:50Z",
+     "text": "Published world-frame z20 SQLite store, bounded window, async readback, atomic multi-tile admission and inactive GPU fusion owner through 37cda08e43. SurfaceQuad 41/41 and RTX transport 6/6 passed on Mac; Roslyn NEW ERRORS: none for those c"
     }
    ]
   },
@@ -23333,5 +23324,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "e04b023833334183a65cef0cd3834c4e86f6c220"
+ "source_revision": "950e9c0a8b092d573e3d1bf4eac152220781be26"
 }
