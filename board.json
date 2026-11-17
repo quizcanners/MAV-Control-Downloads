@@ -1834,7 +1834,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_CHAT_ALERT",
+     "since": "2026-11-17T07:49Z",
+     "noted": "",
+     "progress": 80,
+     "ticked": 4,
+     "total": 5
+    }
+   ],
    "steps": [
     {
      "t": "Cloud: chunks 1-5 on main (Process handlers to Receive*/Apply*, about 330 files of misspelled identifiers, Handle* renames, WGS84 constants to PlanetEllipsoid, label size limits in one place)",
@@ -23970,5 +23979,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "5fb663c6e1caa9bb6e8335a5ac6a48082fc6681f"
+ "source_revision": "727318af434c0db6a6ec0df4f3f1da01219c26dc"
 }
