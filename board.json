@@ -22948,25 +22948,22 @@
   {
    "n": 1460,
    "name": "Prevent Planet Elements startup allocations from overwhelming Lenovo during cold map loading. Prioritize current draw demand and retire eligible undrawn mask views before more publication under pressu",
-   "done": "",
+   "done": "2026-11-17T06:38Z",
    "goal": false,
    "under": 430,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T06:07Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T06:38Z",
+     "text": "e236cefed0 on main. Planet Elements skips margin-only preloads, evicts eligible undrawn views before publishing, and serves current draw demand before speculative textures. Unity EditMode 142/142 across Mask Views, Painting and Sync Delay. "
+    }
+   ]
   },
   {
    "n": 1461,
@@ -23686,5 +23683,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "287d1eda7265fa2452e8d43b677826332cf84887"
+ "source_revision": "adca3e3d456b97d468467f097767e59ee2d92cde"
 }
