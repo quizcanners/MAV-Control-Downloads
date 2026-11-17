@@ -22753,29 +22753,25 @@
   {
    "n": 1538,
    "name": "Bound Planet Renderer Mask Sync branch hashing while replying to peers (Planet Renderer SPEC",
-   "done": "",
+   "done": "2026-11-17T14:51Z",
    "goal": false,
    "under": 429,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MASK_SYNC",
-     "since": "2026-11-17T14:45Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
      "at": "2026-11-17T14:45Z",
      "text": "Frame 435 follow-up from the exact Strong Dev 858 native trace. Five distinct samples included a sorted-tree enumerator constructor, with nine constructor frames across those stacks. One sample reached Stack<T> allocation and two reached Bo"
+    },
+    {
+     "by": "CODEX_MASK_SYNC",
+     "at": "2026-11-17T14:51Z",
+     "text": "Published 061fdaeb12: bounded incremental branch summaries before queued replies and convergence queries; edit invalidation and wire hash parity tested. Unity PlanetMaskSyncDelayTests 22/22, Editor compile and Roslyn NEW ERRORS none. Strong"
     }
    ]
   },
@@ -23392,5 +23388,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "14f10fac53a2111a3a1b894e2951a09a2c043d9b"
+ "source_revision": "bfc6734f1341cdb8754f69a614a0c5f4a17efffc"
 }
