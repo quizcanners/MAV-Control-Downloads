@@ -22192,7 +22192,7 @@
   {
    "n": 1553,
    "name": "Preserve each 3D Street View reconstruction in its original coordinates and confidence. Position",
-   "done": "",
+   "done": "2026-11-17T19:07Z",
    "goal": false,
    "under": 431,
    "ticks": [
@@ -22203,16 +22203,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-17T17:06Z",
-     "noted": "2026-11-17T18:36Z",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Keep canonical sample evidence through placement edits",
@@ -22230,8 +22221,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-17T18:36Z",
-     "text": "dd3f3b41d9 published canonical Unity source/preview separation, SVMB archives and atomic owned world footprints. Kenilworth preserved all 167,839 cells through Save/reopen, move/yaw and scale round trips; old owned footprint replaced, legac"
+     "at": "2026-11-17T19:07Z",
+     "text": "Published dd3f3b41d9 and 07793fa51a. Unity and Python preserve canonical evidence and replace only their owned map footprints after placement edits. Native 167,839 and Python 81,756 measurements stayed byte-identical through Save/reopen, mo"
     }
    ]
   },
@@ -23059,5 +23050,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "5931b9c291d042ee188d6aab21e93d249f730d16"
+ "source_revision": "8c552192d9360bff45255c1f5ec12302a6320f6a"
 }
