@@ -1628,14 +1628,6 @@
      "progress": 45,
      "ticked": 5,
      "total": 11
-    },
-    {
-     "who": "CODEX_FUSION_PERFORMANCE",
-     "since": "2026-11-17T05:13Z",
-     "noted": "",
-     "progress": 45,
-     "ticked": 5,
-     "total": 11
     }
    ],
    "steps": [
@@ -1686,11 +1678,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_MAC_SPLAT",
-     "at": "2026-11-16T23:47Z",
-     "text": "1416 investigation handed off on that task; no world-frame or quad storage implementation added."
-    },
-    {
      "by": "CODEX_QUAD_STORE",
      "at": "2026-11-17T03:52Z",
      "text": "Published tested surface storage, inactive GPU fusion and window shifts through 37cda08e43, plus unwired cohort partition b944252e29. Tasks 1416 and 1418 remain open for cohort integration, map-drain/shutdown, live map rendering and restart"
@@ -1699,6 +1686,11 @@
      "by": "CODEX_STREET_SPLAT",
      "at": "2026-11-17T04:37Z",
      "text": "1430: model-local coverage and upload published; replay cohort draft is preserved in /tmp/codex-street-model-cohorts-handoff. Paused by reassignment to notification tongue; fused replay and saved layer remain open."
+    },
+    {
+     "by": "CODEX_FUSION_PERFORMANCE",
+     "at": "2026-11-17T05:23Z",
+     "text": "Published 505227e492: eliminated duplicate producer-side surface-tile payload copy; immutable store-owned snapshot retained. Unity admission 9/9 and Roslyn clean. Remaining live fusion work stays under task 1418."
     }
    ]
   },
@@ -23450,5 +23442,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "4160934765300f9bf81db81cb2cb0d6721753965"
+ "source_revision": "efc7cb3ffb116395e6417c07287e6c43dc7d9950"
 }
