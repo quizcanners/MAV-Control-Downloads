@@ -2124,16 +2124,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_LINGUIST_GUIDE",
-     "since": "2026-11-17T15:41Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Left: ~90 inline 'quiz, date' mentions in running prose of SPEC/AGENTS files, REFACTORING.md and Coordination files; per file turn each into a clear rule in the right section and move the quote into t",
@@ -2153,6 +2144,11 @@
      "by": "ROG",
      "at": "2026-11-16T10:35Z",
      "text": "Published 5be00ddc35: Network, Shaders and Bootstrap guides now state current rules directly. Removed the obsolete custom-auth QR reauthentication procedure and distinguished split-payload sealing from the existing plain map-hash rules. Fix"
+    },
+    {
+     "by": "CODEX_LINGUIST_GUIDE",
+     "at": "2026-11-17T15:42Z",
+     "text": "Published 51fe8ee0ca: Linguist guide and SPEC now state localization and grouping rules without embedded user quotes; guide_check 0 errors, 6 existing warnings. Remaining goal 606 files unchanged."
     }
    ]
   },
@@ -23504,5 +23500,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "638970d848aacd559d4b189e9e7b98cee2f92d3e"
+ "source_revision": "7b339998444bbe336ec70c66591af47aedf76089"
 }
