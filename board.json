@@ -2642,72 +2642,6 @@
    ]
   },
   {
-   "n": 659,
-   "name": "Loading screen after update",
-   "done": "2026-11-14T11:06Z",
-   "goal": false,
-   "under": 362,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD",
-     "at": "2026-11-14T10:47Z",
-     "text": "done: code merged (lock hint hidden while loading, stage line, eased bar). left: author _statusText label on prefab; Need for verify on tablet after update."
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T11:06Z",
-     "text": "619045b520 and 54d1585e42. Authored Map Status above the bar and initialized the waiting label on first display. Windows Unity Play captured the SQLite map preparation status and visible fill. Roslyn NEW ERRORS: none; Linguist passed. Table"
-    }
-   ]
-  },
-  {
-   "n": 661,
-   "name": "using Strong for Web Mercator retention and pinch performance follow-up",
-   "done": "2026-11-14T11:05Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 662,
-   "name": "Scan QR",
-   "done": "2026-11-14T11:02Z",
-   "goal": false,
-   "under": 371,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "after the Allow tap, ask for the camera list again for 4 s; on focus return after Failed, scan again",
-     "x": true
-    },
-    {
-     "t": "device-camera video source keeps \"no camera\" for 1 s only",
-     "x": true
-    },
-    {
-     "t": "page closes and camera stops once the tunnel is added",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 663,
    "name": "Pilot view",
    "done": "2026-11-14T12:50Z",
@@ -23503,6 +23437,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1521,
+   "name": "Using Lenovo for a paired fast-pinch comparison with Sharp still frame on and off",
+   "done": "",
+   "goal": false,
+   "under": 429,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-17T11:06Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -24071,5 +24028,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "ed19c2030036028c47b2524509b4d0eff217a838"
+ "source_revision": "6f56143d861708c2f84f1320e009f357dbc5d1ee"
 }
