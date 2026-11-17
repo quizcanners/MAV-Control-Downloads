@@ -22089,14 +22089,6 @@
      "total": 0
     },
     {
-     "who": "CODEX_RTX5_TRANSPORT",
-     "since": "2026-11-17T00:34Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    },
-    {
      "who": "CODEX_GPU_FUSION",
      "since": "2026-11-17T00:38Z",
      "noted": "",
@@ -22111,6 +22103,11 @@
      "by": "CODEX_MEASURED_SURFACES",
      "at": "2026-11-17T00:30Z",
      "text": "Measured RTX5 observations: per-request signed-count marker, new depth frames only, 60000/window; 3 synthetic tests passed with stubs. Parent integrates and publishes; full RTX/model tests not run."
+    },
+    {
+     "by": "CODEX_RTX5_TRANSPORT",
+     "at": "2026-11-17T00:39Z",
+     "text": "Added optional RTX5 host reader and bounded leased observation buffer; ready sink, request-time world frame and store epoch gate delivery, while default requests remain RTX4. Unity Editor compiled and RtxSurfaceObservationsTests passed 4/4."
     }
    ]
   },
@@ -23176,5 +23173,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "c7c9eedfbf01945d2c07dd667c7a7ee3ef8eb3cf"
+ "source_revision": "943f753f1e3459e090f2de743f52c35fa522925c"
 }
