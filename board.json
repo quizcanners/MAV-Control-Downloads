@@ -22349,16 +22349,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-17T04:43Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Route each depth point to mesh, terrain or splat by the SPEC rule",
@@ -22379,11 +22370,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_MAC_HEIGHTMAP",
-     "at": "2026-11-16T23:31Z",
-     "text": "FIN4 terrain owner, SVM9 compatibility, vertex displacement and overlay depth bias published bae63ef292. Unity Editor compiled; focused EditMode tests 4/4; Roslyn NEW ERRORS: none. Windows RTX capture and actual overlay render remain unveri"
-    },
-    {
      "by": "CODEX_MAC_GROUND",
      "at": "2026-11-16T23:40Z",
      "text": "Published bae63ef292 handles every finite depth endpoint from retained projection views. CameraRays and each projection use the same prediction frame, pose, intrinsics and depth; confidence adds free-space evidence, not another ground heigh"
@@ -22392,6 +22378,11 @@
      "by": "CODEX_STREET_SPLAT",
      "at": "2026-11-17T04:36Z",
      "text": "Published 7dfa565077 and 124002e947: model-local coverage, mesh occlusion and GPU upload. Python 3/3; upload Unity 1/1; Roslyn clean. Unconnected 5x5 halo/core cohort planner draft at /tmp/codex-street-model-cohorts-handoff: first version U"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-17T04:46Z",
+     "text": "f5f279dd4b lifts the rendered Street View terrain overlay above sampled Planet terrain and floors negative draw offsets. Origami Brush and the saved packet retain measured heights. Added regression assertions for zero, positive and negative"
     }
    ]
   },
@@ -23410,5 +23401,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "1f3358b2abdacf3edc093116d5fde82083eb970c"
+ "source_revision": "a972341fce567c5e9d737e91a0cd0557c5478c69"
 }
