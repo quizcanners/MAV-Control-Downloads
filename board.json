@@ -22854,16 +22854,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_UI_CORNER",
-     "since": "2026-11-17T12:33Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -22873,8 +22864,8 @@
     },
     {
      "by": "CODEX_UI_CORNER",
-     "at": "2026-11-17T12:32Z",
-     "text": "dec7d7d98f: persistent bottom-left layout now places the second altitude scroller after deferred telemetry or fallback Search without measuring another control; keeps MavChat portrait and Menu-layer sorting. Isolated Unity geometry/lifecycl"
+     "at": "2026-11-17T12:42Z",
+     "text": "dec7d7d98f placed the left scroller in the persistent row and removed telemetry-end measurement; fc5b64e012 anchors zoom in its own safe-area frame, removing LowerDock zoom placement and duplicate size. Isolated Unity geometry/lifecycle che"
     }
    ]
   },
@@ -23802,5 +23793,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "5888c8f3d94ac18c8f37455cda7ecaea516a5e01"
+ "source_revision": "65c76c2c046ee6e71ec0f6c94d06ab67bbc7cd47"
 }
