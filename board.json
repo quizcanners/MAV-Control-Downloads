@@ -2856,16 +2856,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_HOTRELOAD_AUDIT",
-     "since": "2026-11-17T15:31Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -2897,8 +2888,8 @@
     },
     {
      "by": "CODEX_HOTRELOAD_AUDIT",
-     "at": "2026-11-17T15:30Z",
-     "text": "IncomingQueue audit on main: COMM_Links.ManagedOnDisable only stops Listeners; static _threadMessages/_drained and Coalescer maps lack reset. Listener stop only increments thread generation and does not join, so clearing the queue alone can"
+     "at": "2026-11-17T15:32Z",
+     "text": "IncomingQueue audit: queue and coalescer retain data after COMM_Links shutdown. Three asynchronous producers exist: UDP ListenerRun, Mission Planner WebSocket Attempt, SineLink SerialTransport. Stop invalidates UDP/MP asynchronously; serial"
     }
    ]
   },
@@ -23519,5 +23510,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "a2b7834a756ca694b023f7e87d6156a2a4f94b29"
+ "source_revision": "5086f539a4870b9cd395aa3f380dffc6e69c1352"
 }
