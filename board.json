@@ -25,16 +25,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLOUD_R1",
-     "since": "2026-11-17T06:20Z",
-     "noted": "",
-     "progress": 38,
-     "ticked": 3,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Cut on main (details in the refactor file): dead Editor Authors and PrefabEdits, ~1,000 unread localization keys, unread fields and uncalled methods, the QR join and GeometryGoogleSheet, 197 stopped h",
@@ -79,6 +70,11 @@
      "by": "HEAVY",
      "at": "2026-11-16T02:18Z",
      "text": "Windows host validation at d25343b859 passed the containing RoutingServer.Tests run. The real shared diagnostics had 3,254 assertions for Pending/CanQueueError, delivery, recurrence, drain and restart. Its 63,081 send-scan checks include 57"
+    },
+    {
+     "by": "CLOUD_R1",
+     "at": "2026-11-17T06:21Z",
+     "text": "CLOUD_R1 2026-11-17: UI_NavigatorControls is a static class, dead component cut (uncompiled). Open: place 3 part 2 (one set of keys)."
     }
    ]
   },
@@ -23608,5 +23604,5 @@
    "since": "2026-11-17T05:36Z"
   }
  ],
- "source_revision": "ee8d3206326fb7f3dd619d7e1fb3e077de890126"
+ "source_revision": "ce321f5d682c72a3f79a74e215bdd3703372b400"
 }
