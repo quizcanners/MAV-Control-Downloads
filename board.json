@@ -1269,16 +1269,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_PHOTO_ROW",
-     "since": "2026-11-17T12:06Z",
-     "noted": "",
-     "progress": 57,
-     "ticked": 4,
-     "total": 7
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "One swipeable root on main: Lists Root (300 wide, pivot x 0) holds the lists with one UI_LeftListSwipeAway, one back panel with a blocker that stops map touches, one tongue shown only by LeftLists.Pan",
@@ -1311,11 +1302,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_LIST_CLICK",
-     "at": "2026-11-17T05:57Z",
-     "text": "Task 1459 paused: local unpublished gesture arbitration draft, 20/21 Unity tests; fast-right flick on Photo folder incorrectly opens context. See task 1459 for exact handoff."
-    },
-    {
      "by": "CODEX_LIST_NULL",
      "at": "2026-11-17T09:05Z",
      "text": "Existing 50449df8fc guards UI_LeftListSwipeAway.Update until StationInitialized and Station.Initialized. In the current Mac Editor, the actual LISTS Left prefab Update completed with StationInitialized=false and no Station access. Prior sta"
@@ -1324,6 +1310,11 @@
      "by": "CODEX_LIST_REOPEN",
      "at": "2026-11-17T09:19Z",
      "text": "839cf4fb0f: caught closing list now honors a keep-open release; 29/29 ListScrollInteractionTests and Roslyn NEW ERRORS none. No device gesture check; Editor test identity restored."
+    },
+    {
+     "by": "CODEX_PHOTO_ROW",
+     "at": "2026-11-17T12:07Z",
+     "text": "Current origin Photo row remains fixed by e0eead491f: Unity instantiated the exact origin-matching prefab at 300\u00d796 and measured name y=24..48, switch y=-23..23 (1 unit clear), no overlap. Actual photo data/device rendering and other list/g"
     }
    ]
   },
@@ -23772,5 +23763,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "22e3d200a328a01f58d126445965c988504adb14"
+ "source_revision": "99f9615107ab7bbe5c7a4f48d26773f267a7ace5"
 }
