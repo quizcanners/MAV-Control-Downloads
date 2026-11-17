@@ -2668,53 +2668,6 @@
    ]
   },
   {
-   "n": 645,
-   "name": "MavChat",
-   "done": "2026-11-14T09:52Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Exit-group capsule hidden on the MavChat page; sheet back button exits an open group",
-     "x": true
-    },
-    {
-     "t": "List top reserves the search status line only while it shows",
-     "x": true
-    },
-    {
-     "t": "Area AGENTS.md updated (Navigator, gap line, broken 1 time)",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 646,
-   "name": "Chat message bubbles show only the tinted monochrome blur",
-   "done": "2026-11-14T09:54Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "cloud-thread",
-     "at": "2026-11-14T09:55Z",
-     "text": "Overlay objects deleted from the 3 chat message prefabs (not hidden); author and row code no longer reference them. Mav Chat Sheet has none on bubbles (its Glass Light objects are button lights). Chat Message Notification prefab keeps a pla"
-    }
-   ]
-  },
-  {
    "n": 647,
    "name": "MavChat sheet",
    "done": "2026-11-14T10:32Z",
@@ -23085,7 +23038,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-17T09:54Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 2
+    }
+   ],
    "steps": [
     {
      "t": "Confirm both placement paths with an independently flown Kenilworth angle",
@@ -24172,5 +24134,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "a568a24d4a4267ed02c65e960a1f7cda7f7af4fd"
+ "source_revision": "4cf7bca70d7d061e53a8f9dc21daf34c6771239d"
 }
