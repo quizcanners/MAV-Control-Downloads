@@ -2558,53 +2558,6 @@
    ]
   },
   {
-   "n": 675,
-   "name": "MavChat peer list header",
-   "done": "2026-11-14T12:01Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T12:01Z",
-     "text": "3445342b20 and c4868c2407: the 160-unit Open Chat slot clears glyph/badge from the centered 50-unit Enter chevron, with matching bounds when Exit group hides. Windows ChatWindowLayoutTests 26 passed, 0 failed, 0 skipped; XML SHA256 C24C1913"
-    }
-   ]
-  },
-  {
-   "n": 677,
-   "name": "Progress bar labels start at the left with an ellipsis; Dev Mode Tasks bars show a chevron and unfold into a padded panel in normal text style.",
-   "done": "2026-11-14T12:00Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "DrawProgressBar label MiddleLeft, Editor draws the same as Game view; Map Loading Progress text left + ellipsis",
-     "x": true
-    },
-    {
-     "t": "BoardTasks: chevron beside each bar, details inside pegi.FoldPanel, notes in normal style",
-     "x": true
-    },
-    {
-     "t": "PEGiCulture rule, broken count bumped",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 678,
    "name": "Full-screen transition only on view changes",
    "done": "2026-11-14T12:04Z",
@@ -23213,7 +23166,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-17T12:01Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   }
@@ -23784,5 +23746,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "2bf98b3dd056c4bdeaf21da348c1c7a6f0d99a0f"
+ "source_revision": "b312016ea1ddbb3f597710a3656019df32a5ff31"
 }
