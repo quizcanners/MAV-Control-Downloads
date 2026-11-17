@@ -22562,25 +22562,22 @@
   {
    "n": 1552,
    "name": "MavChat active Route",
-   "done": "",
+   "done": "2026-11-17T17:07Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_ROUTE_TIME",
-     "since": "2026-11-17T16:49Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_ROUTE_TIME",
+     "at": "2026-11-17T17:07Z",
+     "text": "Published d860e5385c: active GPS and Route show elapsed and approximate remaining; remaining uses route duration and progress, unavailable without fix. Roslyn NEW ERRORS none; Linguist 7037 keys OK; timing helpers 8 standalone cases. Exact "
+    }
+   ]
   },
   {
    "n": 1553,
@@ -23185,5 +23182,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "8dc930b583b6552247d45b2c3616e015e0d0973c"
+ "source_revision": "5e7fbbd1f5f7faa4f68fc71e1055b435a931ecf1"
 }
