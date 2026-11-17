@@ -22594,25 +22594,22 @@
   {
    "n": 1442,
    "name": "Reuse the prepared full-precision fine-altitude bump data after the five-second GPU release (Altitude Visualization SPEC",
-   "done": "",
+   "done": "2026-11-17T01:10Z",
    "goal": false,
    "under": 377,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T00:19Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T01:10Z",
+     "text": "aa86224fa9 on main. Exact bump buffer retained after GPU release when the terrain generation and memory budget permit. Ten focused Unity tests passed, including read invalidation and pressure during warm upload. Roslyn passed. The next cont"
+    }
+   ]
   },
   {
    "n": 1443,
@@ -23247,5 +23244,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "aee0a510a635a452a17c9f81ad469d1a8e4b5068"
+ "source_revision": "51e532a1a03b396340be7ee66c0a9eacbefac9fb"
 }
