@@ -22565,25 +22565,22 @@
   {
    "n": 1551,
    "name": "MGRS",
-   "done": "",
+   "done": "2026-11-17T16:48Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MGRS_EMPTY",
-     "since": "2026-11-17T16:41Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MGRS_EMPTY",
+     "at": "2026-11-17T16:48Z",
+     "text": "Published c6741fe7e6: swipe left from newest opens blank, right restores newest; history retained. Source-only Roslyn NEW ERRORS none; exact Unity tests unrun because shared MGRS files contain pre-existing drafts. Main/Map verification bump"
+    }
+   ]
   }
  ],
  "verify": [
@@ -23152,5 +23149,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "3b2a76272143931774bd19f0bb7bdffa548ac2c8"
+ "source_revision": "140902b1c0374f434a4a84d4923a69b069161da0"
 }
