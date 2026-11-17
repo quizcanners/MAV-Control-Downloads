@@ -1512,7 +1512,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_ICON_WAIT",
+     "since": "2026-11-17T14:28Z",
+     "noted": "",
+     "progress": 22,
+     "ticked": 2,
+     "total": 9
+    }
+   ],
    "steps": [
     {
      "t": "Cloud, on main: startup cuts, Patch Preparation (32a9302f, 55dbede20d), hand-written heartbeat reader, skip sealing for nine hash types (build 818), 4 Hz crypto handshake only while a peer has no key,",
@@ -23343,5 +23352,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "81c94e758a1f88fd49920c327ae402409a015262"
+ "source_revision": "e7207918146de62e0980d79e912fe63ada083b96"
 }
