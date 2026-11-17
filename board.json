@@ -2353,48 +2353,6 @@
    ]
   },
   {
-   "n": 697,
-   "name": "Motorola Android USB",
-   "done": "2026-11-14T13:54Z",
-   "goal": false,
-   "under": 379,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 698,
-   "name": "Motorola",
-   "done": "2026-11-14T13:54Z",
-   "goal": false,
-   "under": 379,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 699,
-   "name": "Motorola Windows",
-   "done": "2026-11-14T13:54Z",
-   "goal": false,
-   "under": 379,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 700,
    "name": "Motorola device measurement (Getac",
    "done": "",
@@ -22328,16 +22286,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_UI_LAYOUT2",
-     "since": "2026-11-17T13:41Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -22352,8 +22301,8 @@
     },
     {
      "by": "CODEX_UI_LAYOUT2",
-     "at": "2026-11-17T13:40Z",
-     "text": "Published 3767e38065: non-Graphic full-screen Suggestions swipe root, top content wrapper and bottom-right corner-safe MGRS row; row no longer gets per-frame docking. Unity Play: map/outside and open/closed Suggestions raycasts, shared 100-"
+     "at": "2026-11-17T13:56Z",
+     "text": "Published 3767e38065 (screen-sized non-Graphic Suggestions swipe root and safe MGRS row), 59e8eda54c/c5beaff094 (updated hierarchy and corner regressions), and 72ac4743a9 (same safe fitter now owns edge-merged backing width). Play map/panel"
     }
    ]
   },
@@ -23375,5 +23324,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "197a9a7c2ece4baee99c311e71a3c2f5d1e6a9ff"
+ "source_revision": "c0bcec1ef8b54e6878be810d55c0f5dbcbb49098"
 }
