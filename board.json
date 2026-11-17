@@ -23582,11 +23582,11 @@
      "x": false
     },
     {
-     "t": "Bake tile-local meshes and textures at coarse and fine LODs, then atomically publish the BaseMap SQLite generation.",
+     "t": "Bake detailed meshes and textures per tile. Fit boxes to groups of occupied points and merge groups into fewer, larger boxes at each coarser LOD. Atomically publish the BaseMap SQLite generation.",
      "x": false
     },
     {
-     "t": "Draw the independent layer above Planet Renderer and stream individual tiles by camera visibility, distance and screen-space error. Bound residency and submit opaque scene depth and normals.",
+     "t": "Stream individual box and mesh LOD payloads by camera visibility, distance and screen-space error. Bound residency and submit opaque scene depth and normals.",
      "x": false
     },
     {
@@ -23594,13 +23594,7 @@
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-17T09:06Z",
-     "text": "7c3f2fe35c specifies a separate BaseMap 3D layer above Planet terrain, imagery and Elements. The bake produces tile-local geometry from positioned capture observations. The layer owns distance-driven streaming, LOD and eviction. Guide check"
-    }
-   ]
+   "notes": []
   }
  ],
  "verify": [
@@ -24169,5 +24163,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "8eab70d2b349e3b0553bb5f9b1e9995df8944a1c"
+ "source_revision": "946003bb5a4aab38b9ed5f77bedd5994b8b9f643"
 }
