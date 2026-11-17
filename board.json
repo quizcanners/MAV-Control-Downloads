@@ -22750,30 +22750,16 @@
   {
    "n": 1452,
    "name": "Prefab",
-   "done": "",
+   "done": "2026-11-17T07:16Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_UI_1452",
-     "since": "2026-11-17T07:08Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-17T05:00Z",
-     "text": "Four-corner rule written in Main View SPEC (Four corners), UI SPEC and UI AGENTS. Prefab anchors read: lists left, X/MGRS/Suggestions top-right, clock (scene override) and compass bottom-right all match; nothing moved in code. Need for veri"
-    },
     {
      "by": "CLOUD_THREAD",
      "at": "2026-11-17T04:50Z",
@@ -22783,6 +22769,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-17T05:40Z",
      "text": "Bottom-left row written (Main View SPEC, UI AGENTS, Drone UI SPEC/AGENTS): video column with buttons above, then telemetry grid, then second altitude scroller, hidden items collapse. Code (uncompiled): Strip.TryGetRowEnd replaces TryGetStri"
+    },
+    {
+     "by": "CODEX_UI_1452",
+     "at": "2026-11-17T07:16Z",
+     "text": "Published fec5261031: removed stale nested prefab top offsets and runtime reanchoring. PaintSelectPreviewUnitTests 3/3; Roslyn NEW ERRORS none. Device visual check not run."
     }
    ]
   },
@@ -23881,5 +23872,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "1790cd1ea43efcebc85d69fcece094dbb3a0b862"
+ "source_revision": "5e82aaaca04f42cda3fc16664071bd36830f2524"
 }
