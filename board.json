@@ -1623,14 +1623,6 @@
    "flags": [],
    "held": [
     {
-     "who": "CODEX_QUAD_STORE",
-     "since": "2026-11-17T04:17Z",
-     "noted": "",
-     "progress": 45,
-     "ticked": 5,
-     "total": 11
-    },
-    {
      "who": "CODEX_STREET_SPLAT",
      "since": "2026-11-17T04:59Z",
      "noted": "",
@@ -1687,11 +1679,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_QUAD_STORE",
-     "at": "2026-11-17T03:52Z",
-     "text": "Published tested surface storage, inactive GPU fusion and window shifts through 37cda08e43, plus unwired cohort partition b944252e29. Tasks 1416 and 1418 remain open for cohort integration, map-drain/shutdown, live map rendering and restart"
-    },
-    {
      "by": "CODEX_STREET_SPLAT",
      "at": "2026-11-17T04:37Z",
      "text": "1430: model-local coverage and upload published; replay cohort draft is preserved in /tmp/codex-street-model-cohorts-handoff. Paused by reassignment to notification tongue; fused replay and saved layer remain open."
@@ -1700,6 +1687,11 @@
      "by": "CODEX_FUSION_PERFORMANCE",
      "at": "2026-11-17T05:23Z",
      "text": "Published 505227e492: eliminated duplicate producer-side surface-tile payload copy; immutable store-owned snapshot retained. Unity admission 9/9 and Roslyn clean. Remaining live fusion work stays under task 1418."
+    },
+    {
+     "by": "CODEX_QUAD_STORE",
+     "at": "2026-11-17T05:56Z",
+     "text": "Paused: live surface store, rendering, RTX6 transport and tested incremental fixes are on main through 59d88b98fe. Frame transaction, core/halo integration, GPU one-pass/changed-only and NVIDIA visual validation remain under 1418."
     }
    ]
   },
@@ -23532,5 +23524,5 @@
    "since": "2026-11-17T05:36Z"
   }
  ],
- "source_revision": "7909aa83ea4a8b853c8f902fbead5acc25d23176"
+ "source_revision": "ee5b34175f4b10f204ae7b661fcd01aa8aa5da75"
 }
