@@ -1638,7 +1638,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_TEMPORAL_AREA",
+     "since": "2026-11-17T15:33Z",
+     "noted": "",
+     "progress": 45,
+     "ticked": 5,
+     "total": 11
+    }
+   ],
    "steps": [
     {
      "t": "Video relay holds one Port, UDP 14680 (VPN peers use host candidates only). Android screen-share renewals ride the :location background Chat socket 14668 (ScreenRenewal kinds 4/5, UDP 17698 removed; f",
@@ -2373,31 +2382,6 @@
      "by": "GETAC",
      "at": "2026-11-16T21:14Z",
      "text": "Strong Dev 851 bf03fb831f stayed 7.51 FPS at target 8 before and after the Wind Decal gate. Both lens cases exercised the 48 px limit in Unity. FrozenDouble later loaded and unloaded 37 Mask Pages chunks in one stationary window. CPU.md 7f5"
-    }
-   ]
-  },
-  {
-   "n": 709,
-   "name": "Layered Light Volume receiver repeats a camera-constant division per pixel. Align the Layered Light Volume SPEC Shape contract with Shader_Toolbox",
-   "done": "2026-11-14T15:33Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T15:22Z",
-     "text": "Switched to the requested iOS build before edits. Receiver reciprocal optimization remains unimplemented: pack inverse near in _MAVLayeredLightVolumeDepth.w, use constant layer count minus one, update the native writer fixture and SPEC. No "
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T15:32Z",
-     "text": "e3a4399707 publishes reciprocal near in the existing depth mapping vector; the shared shader uses a multiply and retains 64 layers and two-sample interpolation. Windows D3D11 focused Unity checks 20/20, Roslyn clean. CPU float32 model: max "
     }
    ]
   },
@@ -23510,5 +23494,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "5086f539a4870b9cd395aa3f380dffc6e69c1352"
+ "source_revision": "a71da35993c3f15adbeb8b3a59f392dd8b196563"
 }
