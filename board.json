@@ -23241,29 +23241,25 @@
   {
    "n": 1476,
    "name": "Repair 3D model import warnings in Unity Console. Vampire.fbx repeats Drone_Arm_B",
-   "done": "",
+   "done": "2026-11-17T07:29Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_1476",
-     "since": "2026-11-17T07:23Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
      "at": "2026-11-17T06:57Z",
      "text": "Unity 6000.6.8f1 startup imported Vampire.fbx (GUID f600a76bf5120b54687953632fb5c505) and logged each of four duplicate mesh names five times. MAV Drone Model.prefab has 34 references to its mesh file IDs. The other two import messages both"
+    },
+    {
+     "by": "CODEX_MODEL_1476",
+     "at": "2026-11-17T07:29Z",
+     "text": "Published f0c911cb01. Vampire has 34 unique mesh names and 24 remapped prefab IDs; Editor repeat-import has zero warnings and 142/142 mesh filters resolve (34 Vampire). Missing-normal warning came from New Entity Exclamation.obj, now calcul"
     }
    ]
   },
@@ -23917,5 +23913,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "a96c36399f9f4e5b265510230aadd3490d33e37f"
+ "source_revision": "d3e422a61dfcd2e3d818ca5d5db8999bfaa4c558"
 }
