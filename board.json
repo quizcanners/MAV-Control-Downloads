@@ -2124,16 +2124,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_REFACTOR_NAMES",
-     "since": "2026-11-17T15:55Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Left: ~90 inline 'quiz, date' mentions in running prose of SPEC/AGENTS files, REFACTORING.md and Coordination files; per file turn each into a clear rule in the right section and move the quote into t",
@@ -2150,11 +2141,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_CAMERA_GUIDE",
-     "at": "2026-11-17T15:48Z",
-     "text": "Published 00a5faf25e: general camera input and zoom rules are clear statements without embedded quotes; preserved the prior section anchor. guide_check 0 errors, 6 existing warnings; remaining guide cleanup stays open."
-    },
-    {
      "by": "CODEX_STORAGE_GUIDE",
      "at": "2026-11-17T15:51Z",
      "text": "Published 9c26a7bde5: Record Vault guide states dependency ownership and last-owner collection directly; all detailed rules and links preserved. guide_check 0 errors, 6 existing warnings; remaining guide cleanup stays open."
@@ -2163,6 +2149,11 @@
      "by": "CODEX_REFACTOR_GUIDE",
      "at": "2026-11-17T15:54Z",
      "text": "Published 41da967b28: removed three duplicate quotation paragraphs from refactoring guidance; retained standing-task and explicit daily-purge approval procedures. guide_check 0 errors, 6 existing warnings; remaining guide cleanup stays open"
+    },
+    {
+     "by": "CODEX_REFACTOR_NAMES",
+     "at": "2026-11-17T15:56Z",
+     "text": "Published 9104c22711: refactoring class-name guidance states existing nested-class, manager naming and iteration rules without repeated quotation blocks. Scoped diff reviewed; guide_check 0 errors, 6 existing warnings; remaining guide clean"
     }
    ]
   },
@@ -23494,5 +23485,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "99d38144df33efa6a4f864736bc9cf202e2f34b5"
+ "source_revision": "b357bc34ae4768528f376317271fef94e125f3bd"
 }
