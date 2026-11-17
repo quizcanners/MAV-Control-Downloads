@@ -19749,6 +19749,11 @@
      "by": "CODEX_MAC_UI",
      "at": "2026-11-16T09:50Z",
      "text": "Altitude line fixed on main in 4511b62376: locked point + distinct screen center stays Section even if locked point is selected or unselected; 34 AltitudeVisualizationTests pass. The intermittent tab issue remains: Editor MapOnly selected t"
+    },
+    {
+     "by": "CODEX_CENTER_RECHECK",
+     "at": "2026-11-17T07:23Z",
+     "text": "Reviewed current center-tab binding and selection owner: a single custom-button action sets the tab immediately; selected locked coordinates are covered by existing state tests. No new source-backed cause for the intermittent touch failure;"
     }
    ]
   },
@@ -23909,5 +23914,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "a7a376b47d4edc55fa03284448dabc9fefab57f8"
+ "source_revision": "7f969d86d4a0c7a9de059cddfccf58e856861b61"
 }
