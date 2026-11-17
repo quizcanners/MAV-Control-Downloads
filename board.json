@@ -22233,7 +22233,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-17T05:20Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -22897,25 +22906,22 @@
   {
    "n": 1455,
    "name": "Coding Scene updates size and dot opacity in place for complete ECS point batches when membership",
-   "done": "",
+   "done": "2026-11-17T05:19Z",
    "goal": false,
    "under": 429,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T04:53Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T05:19Z",
+     "text": "f57e2e48e0 on main. Complete Coding Scene batches preserve entities and glyph layouts on size or dot opacity changes. Unity EcsTextRenderingTests 12/12, including identity, bounds input, opacity, admission threshold and zero rebuild or uplo"
+    }
+   ]
   }
  ],
  "verify": [
@@ -23464,5 +23470,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "929b70f81221474afc0959202a9b9e8d5a783953"
+ "source_revision": "dfa53d7d2ebda4447f64d20803268a4852cbf33f"
 }
