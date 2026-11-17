@@ -4770,7 +4770,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLOUD_R6",
+     "since": "2026-11-17T06:19Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -23594,5 +23603,5 @@
    "since": "2026-11-17T05:36Z"
   }
  ],
- "source_revision": "6bc81f3eba7342233f65b1a835be93bc9a761f96"
+ "source_revision": "6b2d249563fc6f8480439e88e141732da724f766"
 }
