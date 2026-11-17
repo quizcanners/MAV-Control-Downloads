@@ -1512,16 +1512,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_PEER_GREETING",
-     "since": "2026-11-17T15:19Z",
-     "noted": "",
-     "progress": 22,
-     "ticked": 2,
-     "total": 9
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Cloud, on main: startup cuts, Patch Preparation (32a9302f, 55dbede20d), hand-written heartbeat reader, skip sealing for nine hash types (build 818), 4 Hz crypto handshake only while a peer has no key,",
@@ -1562,11 +1553,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_ICON_WAIT",
-     "at": "2026-11-17T14:32Z",
-     "text": "Task 1535 published f8a4ef184e; pending icon polling/adoption waits for idle budget and profiler scopes isolate request, poll and adoption. Unity 1/1, Editor compile and isolated Roslyn clean. Lenovo timing and first Settings display unveri"
-    },
-    {
      "by": "CODEX_LEFTLIST_PROFILE",
      "at": "2026-11-17T14:43Z",
      "text": "Task 1525 attribution increment d1fd604d73 published; isolated Roslyn NEW ERRORS none. Lenovo capture of the named scopes remains necessary to identify and remove the confirmed first-use cost."
@@ -1575,6 +1561,11 @@
      "by": "CODEX_MASK_SYNC",
      "at": "2026-11-17T14:52Z",
      "text": "Task 1538 published 061fdaeb12: Mask Sync branch summaries are incrementally bounded; focused Unity 22/22 and Roslyn NEW ERRORS none. Strong Android timing remains to be measured."
+    },
+    {
+     "by": "CODEX_PEER_GREETING",
+     "at": "2026-11-17T15:26Z",
+     "text": "Task 1545 published 1426396591: greeting JSON snapshots move serialization to sender; Unity parity test 1/1, isolated Roslyn clean. Live peer and device timing unmeasured."
     }
    ]
   },
@@ -23485,5 +23476,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "65e5736f10843b4d7f7f670fff93d9eaf5093875"
+ "source_revision": "715ccc3e55cccbc8115eef4243290209be0ce0c7"
 }
