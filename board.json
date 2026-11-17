@@ -25,7 +25,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MGRS_CLEANUP",
+     "since": "2026-11-17T12:36Z",
+     "noted": "",
+     "progress": 38,
+     "ticked": 3,
+     "total": 8
+    }
+   ],
    "steps": [
     {
      "t": "Cut on main (details in the refactor file): dead Editor Authors and PrefabEdits, ~1,000 unread localization keys, unread fields and uncalled methods, the QR join and GeometryGoogleSheet, 197 stopped h",
@@ -23793,5 +23802,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "ee36a61830bcddeb651af25d5bb4d1c06fe65249"
+ "source_revision": "1d171c750940ac10c9d4e1a00c9522f89012ef33"
 }
