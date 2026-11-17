@@ -22971,22 +22971,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_UI_1462",
-     "since": "2026-11-17T07:26Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_UI_1462",
-     "at": "2026-11-17T07:25Z",
-     "text": "Published 4bdba8e540: left-list backing, swipe handle, tab underlays, seam masks and PanelTint now share 0.5. Unity checked prefabs and PanelTint; Roslyn NEW ERRORS none, guide check passed. Remaining UI panels not yet audited."
+     "at": "2026-11-17T07:28Z",
+     "text": "Published 4bdba8e540 (left lists and runtime PanelTint) and aaeeae2492 (Suggestions backing and swipe handle) at 0.5. Prefab/material checks and Roslyn passed; wider UI panel audit remains."
     }
    ]
   },
@@ -23926,5 +23917,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "6b8cb66feba4d442f8f5dcc637261e82785d41f1"
+ "source_revision": "a96c36399f9f4e5b265510230aadd3490d33e37f"
 }
