@@ -23431,25 +23431,22 @@
   {
    "n": 1515,
    "name": "Using Lenovo to identify the GLES program binaries loaded on the first pan",
-   "done": "",
+   "done": "2026-11-17T10:51Z",
    "goal": false,
    "under": 429,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T10:39Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T10:51Z",
+     "text": "Lenovo Dev 857 completed the GLES identity capture. CPU.md d074bc1cc6 names four frosted-button Canvas binaries. Removed probe and restored exact Test 855 with original UID and audited files. The blank first map reproduced after rollback an"
+    }
+   ]
   },
   {
    "n": 1516,
@@ -23505,6 +23502,20 @@
      "total": 0
     }
    ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 1519,
+   "name": "Local agent",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
    "steps": [],
    "notes": []
   }
@@ -24075,5 +24086,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "0328d4967731f86e8395881fa846af1ad0eb12b7"
+ "source_revision": "58fe305e75b98aaf7da4659dad0f931ef399b75e"
 }
