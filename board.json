@@ -2124,16 +2124,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_REFACTOR_SCOPE",
-     "since": "2026-11-17T16:04Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Left: ~90 inline 'quiz, date' mentions in running prose of SPEC/AGENTS files, REFACTORING.md and Coordination files; per file turn each into a clear rule in the right section and move the quote into t",
@@ -2150,11 +2141,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_REFACTOR_NAMES",
-     "at": "2026-11-17T15:56Z",
-     "text": "Published 9104c22711: refactoring class-name guidance states existing nested-class, manager naming and iteration rules without repeated quotation blocks. Scoped diff reviewed; guide_check 0 errors, 6 existing warnings; remaining guide clean"
-    },
-    {
      "by": "CODEX_REFACTOR_CHECKLIST",
      "at": "2026-11-17T15:59Z",
      "text": "Published 49219a177b: reusable-helper placement is stated directly in refactoring guidance and a redundant self-referential quotation is removed. Scoped diff reviewed; guide_check 0 errors, 6 existing warnings; remaining guide cleanup stays"
@@ -2163,6 +2149,11 @@
      "by": "CODEX_BLUR_SPEC",
      "at": "2026-11-17T16:02Z",
      "text": "Published 5de136d4e4: Blurred World SPEC states visual, touch-field and capture-order behavior directly; preserves terrain normal-pass restriction, separate blur light and prior anchor. Scoped diff reviewed; guide_check 0 errors, 6 existing"
+    },
+    {
+     "by": "CODEX_REFACTOR_SCOPE",
+     "at": "2026-11-17T16:06Z",
+     "text": "Published eabb1389cb: refactoring scope is a structured set of direct rules preserving state-copy exceptions, ownership, serialization, scene references, helpers and prior anchor. Scoped diff reviewed; guide_check 0 errors, 6 existing warni"
     }
    ]
   },
@@ -23494,5 +23485,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "a102b8e67388ddda3c28f751677525912b266ce4"
+ "source_revision": "22f102e3b3e8c687e4dc970c4be2ec3e070b3a06"
 }
