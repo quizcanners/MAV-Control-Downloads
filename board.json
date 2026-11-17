@@ -22750,8 +22750,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-17T15:01Z",
-     "text": "Reproduced on Lenovo Dev 857 frame 671 during My Data reopen: all 15 native samples reached Mask Sync SendReplies, 12 reached Branch.Hash. CPU.md d4c75bbf13 has the second-device timing and wait split. Corrected Strong sample accounting is "
+     "at": "2026-11-17T15:07Z",
+     "text": "Strong 858 and Lenovo 857 both sampled the Mask Sync reply hash walk (CPU.md d4c75bbf13). Source review of 061fdaeb12 found one remaining ingress route: ApplyReply reads node.Hash to validate a nonleaf before checking QueryVersion. An edit "
     }
    ]
   },
@@ -23465,5 +23465,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "b6285821638208befd2620944d9267e5e2958b27"
+ "source_revision": "6349ff4fc517b378109eeda569a8bbc61f60bb33"
 }
