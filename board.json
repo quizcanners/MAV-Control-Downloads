@@ -22882,25 +22882,22 @@
   {
    "n": 1546,
    "name": "Reject stale Mask Sync branch replies before reading the local hash (Planet Renderer SPEC",
-   "done": "",
+   "done": "2026-11-17T15:20Z",
    "goal": false,
    "under": 429,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MASK_REPLY",
-     "since": "2026-11-17T15:13Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MASK_REPLY",
+     "at": "2026-11-17T15:20Z",
+     "text": "Published 486d5a442d: stale identity-matched replies reject before Hash, clear query for retry; Unity PlanetMaskSyncDelayTests 23/23, isolated Roslyn NEW ERRORS none. Android timing unmeasured."
+    }
+   ]
   },
   {
    "n": 1547,
@@ -23492,5 +23489,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "89f007ebdcd90ec437abb92d671b922bd5fb85a4"
+ "source_revision": "2968020c48e43b2660e0b302c7d3b4e555ea016b"
 }
