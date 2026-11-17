@@ -2439,31 +2439,6 @@
    ]
   },
   {
-   "n": 619,
-   "name": "Refactoring pass",
-   "done": "2026-11-14T00:45Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_REFACTOR",
-     "at": "2026-11-14T00:45Z",
-     "text": "Need for verify: compile (cmp.sh) of CanReceiveHotspotOffer / AllowMultiselect removal"
-    },
-    {
-     "by": "CLOUD_REFACTOR",
-     "at": "2026-11-14T06:45Z",
-     "text": "ReplaceCyrillicWithLatin forwarder removed; Need for verify: compile (cmp.sh) of MGRS_Parcing_Paste.cs"
-    }
-   ]
-  },
-  {
    "n": 620,
    "name": "using Strong for Android Test 834 smoke",
    "done": "2026-11-14T07:07Z",
@@ -22214,16 +22189,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-17T00:36Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -22233,8 +22199,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-17T00:35Z",
-     "text": "088ecc833d on main adds per-pair diagnostics and a saved-depth-only PnP study."
+     "at": "2026-11-17T00:46Z",
+     "text": "48941f89e4 on main adds the 35-pair FPV stereo replay."
     }
    ]
   },
@@ -22614,6 +22580,29 @@
     {
      "who": "GETAC",
      "since": "2026-11-17T00:19Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 1443,
+   "name": "Using Strong for same-frame touch drag measurement on signed Dev 851",
+   "done": "",
+   "goal": false,
+   "under": 363,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-17T00:45Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
@@ -23170,5 +23159,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "adef480897b712a4a18e34a38fe985dcbdf8b043"
+ "source_revision": "eff996c6d17b57f7886abdbb93c7d2c80350796a"
 }
