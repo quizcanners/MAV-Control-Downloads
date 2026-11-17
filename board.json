@@ -20829,7 +20829,7 @@
   {
    "n": 1462,
    "name": "Align remaining untinted UI panel blur multipliers with UI SPEC",
-   "done": "",
+   "done": "2026-11-17T16:09Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -20840,11 +20840,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_PANEL_AUDIT",
-     "at": "2026-11-17T08:37Z",
-     "text": "Audited the remaining screen-capture/World blur shader materials: the former are transition captures or Chat header fades, the World material is an old rotor effect, and the PEGI glass is an explicitly tinted opt-in prototype. No additional"
-    },
-    {
      "by": "CODEX_UI_NEXT17",
      "at": "2026-11-17T09:05Z",
      "text": "Audited remaining Procedural Box Screen Blur and Screen Grab shader families: Box material has no asset references; Screen Grab materials are four transition captures, not dark content panels. No safe 0.5 panel change identified in these fa"
@@ -20853,6 +20848,11 @@
      "by": "CODEX_WHITE_TINT",
      "at": "2026-11-17T09:43Z",
      "text": "Published f9964957ed: neutral light-white background tint removed from Floating Panel, Monochrome Panel and active Blur Display overlays. Metal shader output 5/5; Roslyn clean. Other shader families remain for audit."
+    },
+    {
+     "by": "CLOUD_PRUNE",
+     "at": "2026-11-17T16:09Z",
+     "text": "Blur multipliers aligned to shared 0.5 on all untinted panel families (602820c1fd, cd7669465a, 36409871ec, f9964957ed); remaining shader families audited, only tinted exceptions and transition captures"
     }
    ]
   },
@@ -23266,5 +23266,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "dc152b6136cbff2efc68b8d71c03a14090d937a8"
+ "source_revision": "eb4a4d3ec3a293544aace8a0358e34a9016da5c8"
 }
