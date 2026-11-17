@@ -22339,16 +22339,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_STREET_SPLAT",
-     "since": "2026-11-17T04:15Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Route each depth point to mesh, terrain or splat by the SPEC rule",
@@ -22380,8 +22371,8 @@
     },
     {
      "by": "CODEX_STREET_SPLAT",
-     "at": "2026-11-17T03:53Z",
-     "text": "Published 32186ee31b model-local keyframe samples, 9e6256cb4e depth-sorted quads, 86011144e7 optional FIN5 transport; Python 12/12, Unity 2/2, Roslyn clean. FIN5 remains opt-in; model-local GPU replay, per-texel coverage and saved splat lay"
+     "at": "2026-11-17T04:36Z",
+     "text": "Published 7dfa565077 and 124002e947: model-local coverage, mesh occlusion and GPU upload. Python 3/3; upload Unity 1/1; Roslyn clean. Unconnected 5x5 halo/core cohort planner draft at /tmp/codex-street-model-cohorts-handoff: first version U"
     }
    ]
   },
@@ -23357,5 +23348,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "f8baf7f4a853f8a8d71a68d153bce57e30794daa"
+ "source_revision": "aba6e34ed49b74ef8d6717095f8e75fb8de767c9"
 }
