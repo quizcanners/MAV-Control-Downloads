@@ -25,7 +25,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_UI_REFACTOR",
+     "since": "2026-11-17T07:25Z",
+     "noted": "",
+     "progress": 38,
+     "ticked": 3,
+     "total": 8
+    }
+   ],
    "steps": [
     {
      "t": "Cut on main (details in the refactor file): dead Editor Authors and PrefabEdits, ~1,000 unread localization keys, unread fields and uncalled methods, the QR join and GeometryGoogleSheet, 197 stopped h",
@@ -23911,5 +23920,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "eabcd2b00ca379f79556257e8813da7c36635254"
+ "source_revision": "215058aeee99964d54ed7f1e6fb5efc6725cc4ab"
 }
