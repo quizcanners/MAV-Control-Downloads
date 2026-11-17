@@ -22197,16 +22197,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-17T03:20Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -22216,8 +22207,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-17T03:18Z",
-     "text": "881ae9e165 separates LoFTR setup, primary search and retry timings. Seven north-site probes during Unity capture spent most time in the searches; two proposed poses, neither confirmed. Offline fixed-input control was faster but used differe"
+     "at": "2026-11-17T03:25Z",
+     "text": "101917d337 reuses ordered LoFTR image matches when the retry shares query frames. Fixed-snapshot GPU replay proved contention and a 17.8% median saving with DA3 active, with identical transforms and holdout results. North-site Unity probes "
     }
    ]
   },
@@ -23301,5 +23292,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "efa9dc1ba28a5216d00c98ac53940a1208d7c467"
+ "source_revision": "4864246bd2b78e4cc307deea2fef0be4f41e3481"
 }
