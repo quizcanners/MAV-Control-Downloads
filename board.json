@@ -22053,14 +22053,6 @@
      "progress": 0,
      "ticked": 0,
      "total": 0
-    },
-    {
-     "who": "CODEX_RTX5_TRANSPORT",
-     "since": "2026-11-17T01:19Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
     }
    ],
    "steps": [],
@@ -22071,14 +22063,14 @@
      "text": "Measured RTX5 observations: per-request signed-count marker, new depth frames only, 60000/window; 3 synthetic tests passed with stubs. Parent integrates and publishes; full RTX/model tests not run."
     },
     {
-     "by": "CODEX_RTX5_TRANSPORT",
-     "at": "2026-11-17T01:17Z",
-     "text": "Added Unity GPU seed dispatch test using eight ping-pong phases. Unity passed 2/2: compatible adjacent misses share one slot, incompatible same-cell miss is rejected, and insufficient free slots preserve all output sentinels. Parent owns pu"
-    },
-    {
      "by": "CODEX_GPU_FUSION",
      "at": "2026-11-17T01:21Z",
      "text": "Seed-input builder draft moved outside checkout for build: /tmp/codex-1418-seed-input-handoff/VideoProcessing_SurfaceQuadSeedInput.compute (+meta). Add ValidateSeedScratch before hash sort, independent oracle and Unity GPU tests; nothing ac"
+    },
+    {
+     "by": "CODEX_RTX5_TRANSPORT",
+     "at": "2026-11-17T01:23Z",
+     "text": "Inactive GPU buffer-owner draft and two allocation/lease/accounting tests saved outside checkout at /tmp/codex-surface-quad-buffer-owner/. Not compiled or run. Before restoring: review buffer sizes/accounting, run Editor tests and Roslyn, t"
     }
    ]
   },
@@ -23224,5 +23216,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "4e94aadcfa4524a38ee37e177e44554c9e2e18aa"
+ "source_revision": "9f2bf4c2ec70f12dcaffef126c64a8883fa5b7ee"
 }
