@@ -23558,7 +23558,24 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Persist the bake intent and freeze the saved Positioned source revision",
+     "x": false
+    },
+    {
+     "t": "Build and atomically publish geographically indexed mesh and texture tiles in the dedicated BaseMap SQLite store",
+     "x": false
+    },
+    {
+     "t": "Stream coarse and fine coverage in Planet Renderer with real depth and normals",
+     "x": false
+    },
+    {
+     "t": "Wire Bake into map plus map-owned replacement and removal",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
@@ -24128,5 +24145,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "dab9990388eeacc34d0ea0c7646bf766b7412bc9"
+ "source_revision": "2795017f2044432d865f3d2bf2025bc522d5a18c"
 }
