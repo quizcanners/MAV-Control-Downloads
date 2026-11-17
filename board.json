@@ -1190,16 +1190,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_UI_COMPOSITES",
-     "since": "2026-11-17T12:04Z",
-     "noted": "",
-     "progress": 58,
-     "ticked": 7,
-     "total": 12
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Edge and join pass done: screen-edge ticks on every fixed prefab (last 6138a500ce, d3313d805f); join sides keep the merge flag and get only the pixel line (option a, taken by CLOUD_BOARD); dead line m",
@@ -1252,11 +1243,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-14T11:29Z",
-     "text": "CR-1DEF-01 fixed in 112e80d08e (uncompiled): UpdateDrawingRenderOrder grows DrawingRenderOrder to _drawingStrokes.Count before the rebuild. Need for verify: draw 257+ dots from one author."
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-15T02:28Z",
      "text": "Windows D3D11 Play at c16ce5a8ef passed Map focus in KSP. The time plaque turned black and hid the normal controls and overlays. A 154 px map drag moved the camera and retained focus. A bare map tap restored the controls."
@@ -1265,6 +1251,11 @@
      "by": "CODEX_MAC_UI",
      "at": "2026-11-16T12:41Z",
      "text": "Task 1355 published 00f0f01130: Synthetic drone crosshair 0 m/s move clears motion and published speed. Editor compile and 84 focused tests passed; Main/Map check bumped; no device test."
+    },
+    {
+     "by": "CODEX_UI_COMPOSITES",
+     "at": "2026-11-17T12:05Z",
+     "text": "Read origin/main COMPOSITES_PLAN: passive input and readout owners already use the merge-only element. Census of 21 direct prefab UI_MergeableListElementBase blocks with null composite Button found all 21 have co-located Unity Buttons; pres"
     }
    ]
   },
@@ -23776,5 +23767,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "1c2143967afa0a0884f19f613c3d941e85ff0087"
+ "source_revision": "be14e200c238272a05dce1a237f5cdcf26220918"
 }
