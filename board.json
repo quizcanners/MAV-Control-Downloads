@@ -334,16 +334,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_LABEL_FIT",
-     "since": "2026-11-17T09:20Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 6,
-     "total": 12
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Chat: full-screen message view with Reply, preview shortening, long-press menu with Delete (0a7c2065fe, 5a9805c455); swipe-away of the left lists only in Main view, tabs stay (de27488115, LeftLists.Ch",
@@ -396,11 +387,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_MAVCHAT_SHADOW",
-     "at": "2026-11-17T08:19Z",
-     "text": "MavChat map-overlay shadows published ea37e1ac6b; focused Editor tests passed; device visual remains for verification."
-    },
-    {
      "by": "CODEX_CHAT_SELECTED",
      "at": "2026-11-17T08:43Z",
      "text": "Completed Chat selected row c8cbd2df and MavChat quick-swipe preview 0ed49f28; focused Editor tests passed. Goal remains active with other workers."
@@ -409,6 +395,11 @@
      "by": "CODEX_CHAT_DELETE_TESTS",
      "at": "2026-11-17T09:13Z",
      "text": "Published 21d8a46cd4: new shared Chat deletion fixture 6/6 in Editor, Roslyn NEW ERRORS none. Covers private request persistence/confirmation, deletion before late text, group copies/offline member and nonmember refusal, seven-day expiry, a"
+    },
+    {
+     "by": "CODEX_LABEL_FIT",
+     "at": "2026-11-17T09:31Z",
+     "text": "MavChat capsule peer labels use space after the icon and before the edge; TMP auto-sizes to 24 before ellipsis. Main 68b58c83bb; MavChatSheetTests 100/100, Roslyn NEW ERRORS none; Chat visual due."
     }
    ]
   },
@@ -2621,20 +2612,6 @@
      "x": true
     }
    ],
-   "notes": []
-  },
-  {
-   "n": 636,
-   "name": "MGRS entry",
-   "done": "2026-11-14T09:31Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
    "notes": []
   },
   {
@@ -24161,5 +24138,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "dd2125aaaa69034c4a396528da9f2725387f9658"
+ "source_revision": "0e6f307d09e6bd1c92faa5d1dd53d856fe09ae25"
 }
