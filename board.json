@@ -1512,7 +1512,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-17T11:37Z",
+     "noted": "",
+     "progress": 22,
+     "ticked": 2,
+     "total": 9
+    }
+   ],
    "steps": [
     {
      "t": "Cloud, on main: startup cuts, Patch Preparation (32a9302f, 55dbede20d), hand-written heartbeat reader, skip sealing for nine hash types (build 818), 4 Hz crypto handshake only while a peer has no key,",
@@ -24038,5 +24047,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "b14bf8e212cec009b8ca77cd79aa8477f2f2be6d"
+ "source_revision": "776b21a23e15809fc5355e3cc291714d989c3787"
 }
