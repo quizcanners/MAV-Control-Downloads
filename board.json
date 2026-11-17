@@ -2333,26 +2333,6 @@
    ]
   },
   {
-   "n": 695,
-   "name": "Task note replacement leaves the old multiline body behind",
-   "done": "2026-11-14T14:14Z",
-   "goal": false,
-   "under": 412,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_DOT_695",
-     "at": "2026-11-14T14:13Z",
-     "text": "Published initial fix 671fd64caa and preservation follow-up 60065940fd; guides cae160a1d2. Five focused regressions pass; containing Board suite 26/27, with only the same baseline hook-test failure (untouched base 21/22). Original multiline"
-    }
-   ]
-  },
-  {
    "n": 700,
    "name": "Motorola device measurement (Getac",
    "done": "",
@@ -22215,23 +22195,14 @@
   {
    "n": 1512,
    "name": "Rebuild the bottom-left corner per the guide",
-   "done": "",
+   "done": "2026-11-17T14:17Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_UI_LAYOUT2",
-     "since": "2026-11-17T13:57Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -22246,8 +22217,8 @@
     },
     {
      "by": "CODEX_UI_LAYOUT2",
-     "at": "2026-11-17T13:56Z",
-     "text": "Published 3767e38065 (screen-sized non-Graphic Suggestions swipe root and safe MGRS row), 59e8eda54c/c5beaff094 (updated hierarchy and corner regressions), and 72ac4743a9 (same safe fitter now owns edge-merged backing width). Play map/panel"
+     "at": "2026-11-17T14:17Z",
+     "text": "Published 3767e38065, 72ac4743a9, 613fedd83f and 7cb8a111c7: common Suggestions swipe frame and safe row/backing; portrait altitude seats; LowerDock removed. Isolated Roslyn NEW ERRORS none; Unity Play map/panel raycasts, swipe movement, se"
     }
    ]
   },
@@ -23322,5 +23293,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "82cdfa6ddaee5be7588d8716d4798e080f2f9fd7"
+ "source_revision": "c34e75262e1b087f7601d97ddc12cf2df44bcc3a"
 }
