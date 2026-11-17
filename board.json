@@ -2250,26 +2250,6 @@
    ]
   },
   {
-   "n": 753,
-   "name": "Visit only enabled Remote Sensors ground requests instead of scanning every settled sensor each frame; preserve retry",
-   "done": "2026-11-14T21:31Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T21:31Z",
-     "text": "Published 258abaf71c: enabled-request ECS query replaces the settled-sensor scan; same-frame anchor staging preserves structural safety. Coordinate replacement, removal, asset rebuild and shutdown cancel owned ray tickets. Native RemoteSens"
-    }
-   ]
-  },
-  {
    "n": 754,
    "name": "Remove transient Noise IK public offer allocations and duplicate key copies before measured peer retest",
    "done": "2026-11-14T22:04Z",
@@ -22322,6 +22302,29 @@
      "text": "Published 4e9a3b3052: fork look-ahead skips a sibling already stamped this pass, keeping the only useful path on its drill. Repaired .NET 8 extractor binds current request/merge/frame/pass owners; priority/checkpoint/cache and 100-peer cont"
     }
    ]
+  },
+  {
+   "n": 1570,
+   "name": "Enemy Logistics",
+   "done": "",
+   "goal": false,
+   "under": 1558,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-17T21:31Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -22894,5 +22897,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "c84210a502897eb721beaf929975d50ce5b21fa4"
+ "source_revision": "167fabb200de9ff398c6bdbd93d4cac75ce9db42"
 }
