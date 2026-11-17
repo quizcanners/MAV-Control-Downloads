@@ -2124,7 +2124,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_REFACTOR_GUIDE",
+     "since": "2026-11-17T15:53Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Left: ~90 inline 'quiz, date' mentions in running prose of SPEC/AGENTS files, REFACTORING.md and Coordination files; per file turn each into a clear rule in the right section and move the quote into t",
@@ -2392,26 +2401,6 @@
      "by": "GETAC",
      "at": "2026-11-16T21:14Z",
      "text": "Strong Dev 851 bf03fb831f stayed 7.51 FPS at target 8 before and after the Wind Decal gate. Both lens cases exercised the 48 px limit in Unity. FrozenDouble later loaded and unloaded 37 Mask Pages chunks in one stationary window. CPU.md 7f5"
-    }
-   ]
-  },
-  {
-   "n": 710,
-   "name": "Long Press Wave divides by the same ring width in every covered fragment. Align the Input long-press wave contract with Shader_Toolbox",
-   "done": "2026-11-14T15:53Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T15:53Z",
-     "text": "Published d9770f2629: Long Press Wave prepares inverse width at vertices. Metal generated fragment diff is one division replaced by multiplication. Metal/GLES four stages and original-program pixel parity pass; Roslyn NEW ERRORS: none. No e"
     }
    ]
   },
@@ -23505,5 +23494,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "b784e0b25722b04f37dda7f89dbe3b6df4d48426"
+ "source_revision": "a1d834277c3a394ff4bac7268fc3f4d82a5094fc"
 }
