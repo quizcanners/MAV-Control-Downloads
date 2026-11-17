@@ -18747,15 +18747,15 @@
    "held": [],
    "steps": [
     {
-     "t": "Run the depth-fusion prototype from a paused 3D Street View snapshot through the Backdoor and replace the draft with a UV-mapped refined revision.",
+     "t": "Run the depth-fusion prototype from a paused 3D Street View snapshot through the Backdoor and replace the draft with a refined vertex-coloured revision (no UVs, see 1522)",
      "x": false
     },
     {
-     "t": "Save posed keyframes as ordinary Street View Photos in the model's 3D Photos subfolder. Use the shared model-to-map transform, effective Pano360 on selection, linked folder visibility and delete the g",
+     "t": "Save posed keyframes (up to 64 spread-out anchors, kept on main) as ordinary Street View Photos in the model's 3D Photos subfolder: shared model-to-map transform, effective Pano360 on selection, linke",
      "x": false
     },
     {
-     "t": "Replay keyframes through Origami Brush and allow eligible Street View Photos from any folder in the final bake.",
+     "t": "Replay keyframes through Origami Brush for the ground overlay and allow eligible Street View Photos from any folder in the final bake",
      "x": false
     }
    ],
@@ -23365,5 +23365,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "f5fb655ad5918c8c027ad5af66ca51aa283c7628"
+ "source_revision": "aada3c224925a2222ae53dd1acaf74a4ed3a5cff"
 }
