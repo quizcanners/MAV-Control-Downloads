@@ -2333,39 +2333,6 @@
    ]
   },
   {
-   "n": 684,
-   "name": "Known radios list",
-   "done": "2026-11-14T13:00Z",
-   "goal": false,
-   "under": 379,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Entered row shows ID and Name fields; edit saves and publishes to the catalog",
-     "x": true
-    },
-    {
-     "t": "Delete this radio (confirm) drops the saved record and its link",
-     "x": true
-    },
-    {
-     "t": "Area SPEC updated; page bumped for verify",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-14T13:20Z",
-     "text": "The entered Known radios row supports editing ID and name and confirmed deletion. Follow-up 1163d50def remembers locally deleted IDs so catalog/VPN refresh and automatic discovery cannot resurrect old entries. Explicitly adding an ID restor"
-    }
-   ]
-  },
-  {
    "n": 685,
    "name": "List row dividers fade out toward the left and right edges (Search history and every standard list row).",
    "done": "2026-11-14T13:13Z",
@@ -22449,14 +22416,6 @@
      "progress": 25,
      "ticked": 0,
      "total": 0
-    },
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T12:52Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
     }
    ],
    "steps": [],
@@ -22465,6 +22424,11 @@
      "by": "HEAVY",
      "at": "2026-11-17T12:50Z",
      "text": "c86b21ea4d publishes the Unity live preview. Kenilworth/Zurich rendered 14,807/5,380 cells at 20 frames, drove the Synthetic drone and Pano360 with original 1280px colour and paired depth, and had zero Python workers. Pause/resume and sourc"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T13:00Z",
+     "text": "Android Dev for ee36a61830 failed natively with CS0103 at VideoProcessing_Manager_Status: UnityDa3Probe is Editor-only. Roslyn had the same error in both baseline and head. Commit 470d1719ff guards the dispatch like its catalog. Roslyn Andr"
     }
    ]
   },
@@ -23571,5 +23535,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "ad604cab5af1453c539ea0c30527da544440a7cb"
+ "source_revision": "416fc14613984f0eb14f230e65dc9d81f2a2ddb8"
 }
