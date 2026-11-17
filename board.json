@@ -2648,26 +2648,6 @@
    "notes": []
   },
   {
-   "n": 643,
-   "name": "Clock plaque",
-   "done": "2026-11-14T09:49Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-14T09:48Z",
-     "text": "639b026ad5: Clock plaque shadow uses the capsule material, at its matching 1.5 scale. Editor prefab inspection and capsule shadow render check passed; device appearance remains for later."
-    }
-   ]
-  },
-  {
    "n": 644,
    "name": "Paste a web link as a selected item with Convert to Street View. Confirming saves a private entry and streams its Linked Browser capture into the photo. Use Street View SPEC",
    "done": "2026-11-14T10:10Z",
@@ -23546,14 +23526,20 @@
     {
      "who": "CODEX_BROADCAST_CROSS",
      "since": "2026-11-17T09:32Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-17T09:49Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_BROADCAST_CROSS",
+     "at": "2026-11-17T09:49Z",
+     "text": "Published c7a5203337: MavChat red crosshair fades when the shared-center marker is visible, using the existing fade and return delay. Disposable Play owner check: sharing on 1\u21920 and off 0\u21921; not rendered or device verified. Roslyn NEW ERROR"
+    }
+   ]
   },
   {
    "n": 1502,
@@ -24162,5 +24148,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "7d2d768f61bb663bab9ecbfef7adb66e5ece6f0c"
+ "source_revision": "607a99e507660dfade0186a31344f9763437c83b"
 }
