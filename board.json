@@ -22970,23 +22970,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_BUMPED_PANEL",
-     "since": "2026-11-17T07:50Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_UI_1462",
-     "at": "2026-11-17T07:32Z",
-     "text": "Published 602820c1fd: Remote Sensors editor, status, command panels now use untinted 0.5 blur; 3 prefab/material checks and guide check passed. Audited Dark Blur Display users: remaining Metrics and Main uses are named selector rails or but"
-    },
     {
      "by": "CODEX_BLUR_AUDIT",
      "at": "2026-11-17T07:44Z",
@@ -22996,6 +22982,11 @@
      "by": "CODEX_BLUR_RECHECK",
      "at": "2026-11-17T07:47Z",
      "text": "Audited Monochrome Panel shader materials: Landscape Chat Message, MavChat Message, List Row and Monochrome Panel all use nonzero tint mix (0.5, 1, 0.25 and 0.3); these are tinted exceptions, not untinted blur outliers. iPhone and iPad curr"
+    },
+    {
+     "by": "CODEX_BUMPED_PANEL",
+     "at": "2026-11-17T07:53Z",
+     "text": "Published 36409871ec: shared BumpedBackgroundBox and List Picker, Capture Source Picker and Logistics Items panel copies now multiply blur by 0.5. Editor loaded all four at RGB 0.5. Bumped Blur button and Chat fade treatments are separate; "
     }
    ]
   },
@@ -23997,5 +23988,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "005ffa17df26468d0a24c0f627725af1ed8c3d25"
+ "source_revision": "80363ae47e397c289b3dcd18f7b59aadf4954fe0"
 }
