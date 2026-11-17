@@ -2524,31 +2524,6 @@
    ]
   },
   {
-   "n": 632,
-   "name": "Lower the Exit group header (Peers and Waypoints lists) 24 units from the panel top; Waypoints prefab edited as text",
-   "done": "2026-11-14T10:46Z",
-   "goal": false,
-   "under": 408,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD",
-     "at": "2026-11-14T09:25Z",
-     "text": "quiz 2026-11-14 (photo: Routes list, back button flush against panel top): \"The exit current waypoint group button is too high, needs to have some padding from the top.\" and \"Same problem for exit peer group.\" Done: Waypoints List prefab He"
-    },
-    {
-     "by": "CLOUD",
-     "at": "2026-11-14T10:46Z",
-     "text": "CLOUD 2026-11-14: Peers prefab edited as text (List_VPN Peers.prefab: header row 174, top padding 24, Chat Slot y -24, search and rows 24 lower; ChatPrefabAuthor matches). Nothing left for the Editor."
-    }
-   ]
-  },
-  {
    "n": 650,
    "name": "Sky plot follow-ups (no goal fits; area GPS and UI compass)",
    "done": "2026-11-15T04:14Z",
@@ -23533,25 +23508,22 @@
   {
    "n": 1517,
    "name": "MGRS entry",
-   "done": "",
+   "done": "2026-11-17T10:47Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MGRS_SUGGESTIONS",
-     "since": "2026-11-17T10:42Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MGRS_SUGGESTIONS",
+     "at": "2026-11-17T10:47Z",
+     "text": "Published 6798e2c703: MGRS row Ping removed, Clear icon preserves history, Suggestions Delete removes selected history. Unity MgrsHistorySwipeTests 25/25, Editor compiled, Roslyn NEW ERRORS none; rendered/device appearance not checked."
+    }
+   ]
   }
  ],
  "verify": [
@@ -24120,5 +24092,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "83ffa7d5df01c3c61d8acbf9b47868c6c3d80e2c"
+ "source_revision": "7d4732774aa3dcec9cdfe8d67e87991e3702f07e"
 }
