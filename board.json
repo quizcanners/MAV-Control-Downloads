@@ -22401,22 +22401,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T07:12Z",
-     "noted": "2026-11-17T07:24Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-17T07:24Z",
-     "text": "Published same-build production replay in Performance Baseline/CPU.md b9a260222b. Strong pressure lands on Unity Main at its largest pan and pinch gaps. A separate unnamed worker matches Unity Main over the full pan. Containing Dev build ru"
+     "at": "2026-11-17T08:21Z",
+     "text": "CPU.md e2782cde35 attributes the busiest Strong Dev 856 pan worker to the Web Mercator legacy payload census. Native samples have exact Build IDs and zero losses. Goal 430 writer-owned byte accounting is the direct fix. The separate managed"
     }
    ]
   },
@@ -23319,7 +23310,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-17T08:21Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 2
+    }
+   ],
    "steps": [
     {
      "t": "Confirm both placement paths with an independently flown Kenilworth angle",
@@ -23988,5 +23988,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "3940b0dcc2ea405a97a3bbdf2f4fae3315428207"
+ "source_revision": "975f1ba3fc6208150cc8fb86728b7c821b1f1f87"
 }
