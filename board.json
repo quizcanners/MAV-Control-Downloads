@@ -22423,25 +22423,22 @@
   {
    "n": 1567,
    "name": "MavChat",
-   "done": "",
+   "done": "2026-11-17T19:58Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_CHAT_SWIPE",
-     "since": "2026-11-17T19:48Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_CHAT_SWIPE",
+     "at": "2026-11-17T19:58Z",
+     "text": "Published 58624ea9: hide shared peer/group canvases before detaching from the clipped Chat pager; owners reapply visibility. Roslyn NEW ERRORS: none; focused Unity EditMode test 1/1 passed. Full swipe visual verification remains."
+    }
+   ]
   }
  ],
  "verify": [
@@ -23014,5 +23011,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "d0b7fe6c1cb334271026bfc8cd129d24fd7737af"
+ "source_revision": "a13d7a2a9d18fceae261c85ed549ba6a2caf68d2"
 }
