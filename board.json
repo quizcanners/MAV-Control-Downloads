@@ -2284,46 +2284,6 @@
    ]
   },
   {
-   "n": 750,
-   "name": "using Strong for active-peer Noise IK and Web Mercator frame attribution",
-   "done": "2026-11-14T21:13Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-14T21:12Z",
-     "text": "Strong Dev 842: five 30 s active-peer idle windows, 1,131 frames. Destination Sync 66.89 ms on frame 3744 with one GC; Web Mercator peer setup 0.078 ms on that frame. VPN Chat peaked 53.73 ms. Two largest VPN peaks included GC with unchange"
-    }
-   ]
-  },
-  {
-   "n": 752,
-   "name": "Attribute Strong frame spikes inside Destination Sync and Noise IK using the existing timing tree (goal 429",
-   "done": "2026-11-14T21:11Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-14T21:10Z",
-     "text": "4b23b0e71e adds timing rows for Destination Sync index/cleanup/hash and Noise IK decode/authorization/exchange/install/send. Roslyn no new errors on checked heads; 89 existing native-sodium host checks passed. Strong Dev 842 is the before-s"
-    }
-   ]
-  },
-  {
    "n": 753,
    "name": "Visit only enabled Remote Sensors ground requests instead of scanning every settled sensor each frame; preserve retry",
    "done": "2026-11-14T21:31Z",
@@ -22379,7 +22339,7 @@
   },
   {
    "n": 1569,
-   "name": "Repair the Web Mercator drill host extractor for the split controllers (Convergence_Sync.md reference code; Web Mercator SPEC",
+   "name": "Web Mercator fork look-ahead counts an already-tried sibling as useful work (Web Mercator SPEC",
    "done": "",
    "goal": false,
    "under": 1558,
@@ -22971,5 +22931,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "c57df75fce8e4116e41f35c32d94047a3ccd2257"
+ "source_revision": "9826c0581c108c8e6df234f6a3d654d38b1d26c7"
 }
