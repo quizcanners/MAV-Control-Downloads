@@ -2462,25 +2462,6 @@
    ]
   },
   {
-   "n": 623,
-   "name": "Build and publish the iPad TestFlight release with brief What to Test notes.",
-   "done": "2026-11-14T08:45Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Build 835 uploaded and processed; existing internal and external groups confirmed, What to Test saved, external state WAITING_FOR_BETA_REVIEW. Source 4d9aebc55c; retained IPA and release log in BUILD_",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 627,
    "name": "iPhone background presence (Xcode/device)",
    "done": "",
@@ -2499,20 +2480,6 @@
      "text": "Fits goal 380 (iPhone online in background); added without --under."
     }
    ]
-  },
-  {
-   "n": 628,
-   "name": "using Strong for Main View upper-right touch routing",
-   "done": "2026-11-14T08:45Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
   },
   {
    "n": 629,
@@ -23495,25 +23462,22 @@
   {
    "n": 1490,
    "name": "Restore selected point light in blurred screen",
-   "done": "",
+   "done": "2026-11-17T08:45Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_PRESS_TIMEOUT",
-     "since": "2026-11-17T08:34Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_PRESS_TIMEOUT",
+     "at": "2026-11-17T08:45Z",
+     "text": "Published d6adc29dc6: selected geographic points light the shared blur on-screen or at the rounded edge, independently of Suggestions; models excluded and FrozenDouble cadence preserved. Editor shader/projection suite 11/11; static shader c"
+    }
+   ]
   },
   {
    "n": 1491,
@@ -24125,5 +24089,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "4e53bea17571fff0df62ac34000f13e896766d36"
+ "source_revision": "7ef2ce47c2ebdfda093ffcf4398af2bfaf8f8eaa"
 }
