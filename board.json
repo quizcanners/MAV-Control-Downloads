@@ -22191,16 +22191,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-17T05:48Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -22210,8 +22201,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-17T05:32Z",
-     "text": "977e69fd10 tested in Windows Unity via Backdoor on Kenilworth. Both saves kept original RGB in the archive and linked PNGs. Active Pano360 shader textures matched the source. Fixed missing auto-projection on selected models and disabled lin"
+     "at": "2026-11-17T05:57Z",
+     "text": "b660bbcf34 keeps enabled models drawn independently and groups new captures and linked photos under 3D Street Views. Point/selection enables matching Pano360 photos; parent owns the map gizmo. Unity Backdoor passed two captures, same-name f"
     }
    ]
   },
@@ -23547,5 +23538,5 @@
    "since": "2026-11-17T05:36Z"
   }
  ],
- "source_revision": "0eeb680e4578891f26d966ae6310d01211b88dd2"
+ "source_revision": "ef0c36208f490abc7c417ffe6bc66cf5efb1b2f3"
 }
