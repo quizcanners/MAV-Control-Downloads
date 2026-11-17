@@ -22645,25 +22645,22 @@
   {
    "n": 1445,
    "name": "Restore the GpsLabel type lookup in Peers after the Draw_GPSLocation refactor",
-   "done": "",
+   "done": "2026-11-17T01:11Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T00:49Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T01:11Z",
+     "text": "f4c1b8777f on main. Reuses the imported GpsLabel type and removes CS0246 in Peers. Unity compiled and the merged Roslyn comparison ended NEW ERRORS: none."
+    }
+   ]
   },
   {
    "n": 1446,
@@ -23235,5 +23232,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "26fd5f3290a772de362719413b5b45c82cde4b58"
+ "source_revision": "cfb875973863ea0fce815efca9e8ae97355075de"
 }
