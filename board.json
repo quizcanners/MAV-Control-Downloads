@@ -22558,25 +22558,22 @@
   {
    "n": 1559,
    "name": "MavChat",
-   "done": "",
+   "done": "2026-11-17T17:56Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MSG_OVERFLOW",
-     "since": "2026-11-17T17:39Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MSG_OVERFLOW",
+     "at": "2026-11-17T17:56Z",
+     "text": "Published 7ecf15ce7d: MavChat reader opens only for TMP-truncated bubble. Focused Unity 1/1; broader suite 27/30 because shared portrait/fade prefabs are stale. Pinned Roslyn NEW ERRORS none; MavChat check e0580029f1."
+    }
+   ]
   }
  ],
  "verify": [
@@ -23145,5 +23142,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "0199dae3bcaf75d840533afc776e293bb4c353d7"
+ "source_revision": "317a291062f605b72fdc54660b9ca2ed8219227f"
 }
