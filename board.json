@@ -22888,23 +22888,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_UI_NEXT17",
-     "since": "2026-11-17T09:04Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_BLUR_RECHECK",
-     "at": "2026-11-17T07:47Z",
-     "text": "Audited Monochrome Panel shader materials: Landscape Chat Message, MavChat Message, List Row and Monochrome Panel all use nonzero tint mix (0.5, 1, 0.25 and 0.3); these are tinted exceptions, not untinted blur outliers. iPhone and iPad curr"
-    },
     {
      "by": "CODEX_BUMPED_PANEL",
      "at": "2026-11-17T07:53Z",
@@ -22914,6 +22900,11 @@
      "by": "CODEX_PANEL_AUDIT",
      "at": "2026-11-17T08:37Z",
      "text": "Audited the remaining screen-capture/World blur shader materials: the former are transition captures or Chat header fades, the World material is an old rotor effect, and the PEGI glass is an explicitly tinted opt-in prototype. No additional"
+    },
+    {
+     "by": "CODEX_UI_NEXT17",
+     "at": "2026-11-17T09:05Z",
+     "text": "Audited remaining Procedural Box Screen Blur and Screen Grab shader families: Box material has no asset references; Screen Grab materials are four transition captures, not dark content panels. No safe 0.5 panel change identified in these fa"
     }
    ]
   },
@@ -24172,5 +24163,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "b25294f22489f6feab8724f5541255ee1ee8319e"
+ "source_revision": "e1da20a69c1b2251502c0fbfc5bb058c5fea2f82"
 }
