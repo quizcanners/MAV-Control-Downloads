@@ -23241,29 +23241,20 @@
   {
    "n": 1480,
    "name": "Attribute the Lenovo GLES graphics-worker stalls during panning and fast zoom on Android. Join exact-build render-worker call stacks and Perfetto to the SurfaceFlinger gap. Test a warmed replay and pr",
-   "done": "",
+   "done": "2026-11-17T08:46Z",
    "goal": false,
    "under": 429,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T08:30Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-17T08:21Z",
-     "text": "CPU.md e2782cde35 joins the long Dev 856 Lenovo frame to SurfaceFlinger and Perfetto. The graphics worker ran through most of it while Unity Main slept. A second worker was also busy. Device profiling settings blocked Simpleperf and leave t"
+     "at": "2026-11-17T08:46Z",
+     "text": "CPU.md e1e7a05232 records the warmed Dev 856 replay. The longest Lenovo pan gap overlaps GLES GPU program compilation and the Web Mercator legacy payload census. The exact shader variant and Unity Main wait function remain unknown. Lenovo w"
     }
    ]
   },
@@ -24091,5 +24082,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "8813e318108ea6e117a6d9f5732750c5f2ac8c2c"
+ "source_revision": "37800ec828eb9ad1d09eff8abb738e94c07af474"
 }
