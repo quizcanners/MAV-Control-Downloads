@@ -2227,26 +2227,6 @@
    ]
   },
   {
-   "n": 728,
-   "name": "Fresh Situation exclamation and ground-ring animations must report visible motion before map retention",
-   "done": "2026-11-14T18:10Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T18:08Z",
-     "text": "Published b16585434d: fresh exclamation/ring motion reports before map retention; conservative view bounds reuse the marker traversal and stop at the first visible element. Hidden/off-screen/expired markers stay quiet. Native SituationEffec"
-    }
-   ]
-  },
-  {
    "n": 731,
    "name": "Street View from a link",
    "done": "2026-11-14T18:14Z",
@@ -22512,7 +22492,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-17T18:10Z",
+     "noted": "",
+     "progress": 33,
+     "ticked": 1,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Elements masks use lazy cached hashes, efficient dirty propagation and likely-complete download groups.",
@@ -23142,5 +23131,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "ddfab6951f0ab0085a8a276b064cac63e5a6a78a"
+ "source_revision": "0792ead197e9e26e675372ef57ae7a69e2a82549"
 }
