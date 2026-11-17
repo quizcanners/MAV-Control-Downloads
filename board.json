@@ -28,23 +28,19 @@
    "held": [],
    "steps": [
     {
-     "t": "Cut on main (details in the refactor file): dead Editor Authors and PrefabEdits, ~1,000 unread localization keys, unread fields and uncalled methods, the QR join and GeometryGoogleSheet, 197 stopped h",
+     "t": "Cut on main (details in the refactor file): dead Editor Authors and PrefabEdits, unread localization keys, unread fields and uncalled methods, QR join, GeometryGoogleSheet, 197 stopped host tests, pai",
      "x": true
     },
     {
-     "t": "quiz's answers done: the Windows error-report hand-over (6,967 lines) and the MavServer task list in the app (1,514 lines) deleted (ed9abb8172); one floor build 804 with 52 gates and their old forms g",
+     "t": "One decision per frame: the current view (Station.UI.GetCurrentOverlay) is one gated expression; Orthophoto toggle applies its gated visibility once (c3ec55428c)",
      "x": true
     },
     {
-     "t": "One decision per frame: the current view (Station.UI.GetCurrentOverlay) is one gated expression with no prefab reads and no gate writers (ecb8cf39f6 and the commits after it)",
-     "x": true
-    },
-    {
-     "t": "Cloud: seal decision 2b part 2, one set of keys: one link state, the sender picks the lane in PrepareForPeer_Utf8, chat/positions/photos/drone control sealed, map and sync data plain. Start: Assets/_P",
+     "t": "Cloud: seal decision 2b part 2, one set of keys: one link state, the sender picks the lane in PrepareForPeer_Utf8, chat/positions/photos/drone control sealed, map and sync data plain. Start: Systems/E",
      "x": false
     },
     {
-     "t": "Cloud, one group of writers per commit, Rog or Mac compiles: remaining one-decision-per-frame places 2 to 4: left list show chains (ask quiz which differences are wanted before making them one answer ",
+     "t": "Cloud, one group of writers per commit: remaining one-decision-per-frame places 2 to 4: left list show chains (ask quiz which differences are wanted), systems that read a prefab to decide (fullscreen ",
      "x": false
     },
     {
@@ -52,31 +48,11 @@
      "x": false
     },
     {
-     "t": "Mac or Rog (Editor): run the EditMode tests of this task's cuts (overlay tests, Situation/Safe diagnostics, MavLink telemetry inbox, Photo sync, ServersOverviewTests, PeerBuildFloorTests, AndroidUsbIn",
-     "x": false
-    },
-    {
-     "t": "quiz's word: UI_ExpandMenu's picture builder (new GameObject, GetComponent) sits under the top-right Menu/X button, never touched, so it waits; place 6 waits for board task 220; the Android half of th",
+     "t": "quiz's word: UI_ExpandMenu's picture builder waits; place 6 waits for board task 220; Android half of the stock WireGuard handoff (place 27); review briefs CC-1AD9-01, CC-A541-01, CC-301C-01, CC-B8F7-",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CODEX_CLOCK_CLEANUP",
-     "at": "2026-11-17T12:34Z",
-     "text": "Published 7ab64db5ca: removed obsolete Clock Hide Transition subtree and stale serialized reference after immediate-hide fix. No external references; Unity imported prefab, SetVisible alpha 1/0/1, isolated show/hide/hide/show render bright "
-    },
-    {
-     "by": "CODEX_MGRS_CLEANUP",
-     "at": "2026-11-17T12:40Z",
-     "text": "Published 12eb939051: removed dead MGRS Ping icon colour API, obsolete prefab bindings and tests that required a Ping, while keeping the disabled legacy object and history/tap behavior. MgrsAltitudeCopyPanelTests 7/7, MgrsHistorySwipeTests "
-    },
-    {
-     "by": "CODEX_MGRS_PING_REMOVE",
-     "at": "2026-11-17T12:47Z",
-     "text": "Published 65e633b037: removed both unused MGRS Ping prefab subtrees, stale layout/presentation bindings and dead handler; history/clear and tap/double-tap unchanged. Unity MgrsHistorySwipeTests 25/25, MgrsAltitudeCopyPanelTests 7/7, Roslyn "
-    }
-   ]
+   "notes": []
   },
   {
    "n": 362,
@@ -23472,5 +23448,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "4cc6129dd3c8f3ec8a5a0f5ca093c80a3cffdcb8"
+ "source_revision": "7528462c2221e8be5c22cea2d2697f2a9edc1b20"
 }
