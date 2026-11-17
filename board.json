@@ -22877,25 +22877,22 @@
   {
    "n": 1454,
    "name": "Main Camera applies orbit pitch in the same frame as both-button mouse deltas (Camera SPEC",
-   "done": "",
+   "done": "2026-11-17T05:19Z",
    "goal": false,
    "under": 363,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T04:51Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T05:19Z",
+     "text": "0bd069c0c9 on main. Middle-button drag zoom consumes movement on its press frame. Both-button orbit writes the matching position and rotation together. Unity MainCameraTouchFollowTests 61/61, including same-frame zoom and zero replay. Rosly"
+    }
+   ]
   },
   {
    "n": 1455,
@@ -23467,5 +23464,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "ce1bec16c609ff135185fff3c1328bb02ba02d91"
+ "source_revision": "929b70f81221474afc0959202a9b9e8d5a783953"
 }
