@@ -23549,7 +23549,7 @@
   },
   {
    "n": 1495,
-   "name": "Bake a saved Positioned 3D Street View into independent 3D map tiles. Follow BaseMap SPEC",
+   "name": "Bake a Positioned 3D Street View into a separate 3D map layer over Planet Renderer. Follow BaseMap SPEC",
    "done": "",
    "goal": false,
    "under": 0,
@@ -23569,19 +23569,19 @@
    ],
    "steps": [
     {
-     "t": "Persist the bake intent and freeze the saved Positioned source revision",
+     "t": "Record the bake intent and freeze the Positioned reconstruction and registered imagery.",
      "x": false
     },
     {
-     "t": "Build and atomically publish geographically indexed mesh and texture tiles in the dedicated BaseMap SQLite store",
+     "t": "Bake tile-local meshes and textures at coarse and fine LODs, then atomically publish the BaseMap SQLite generation.",
      "x": false
     },
     {
-     "t": "Stream coarse and fine coverage in Planet Renderer with real depth and normals",
+     "t": "Draw the independent layer above Planet Renderer and stream individual tiles by camera visibility, distance and screen-space error. Bound residency and submit opaque scene depth and normals.",
      "x": false
     },
     {
-     "t": "Wire Bake into map plus map-owned replacement and removal",
+     "t": "Wire Bake into map plus map-owned replacement and removal.",
      "x": false
     }
    ],
@@ -24154,5 +24154,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "3973d6fda38004b88269924ce02bdbf71241d7d8"
+ "source_revision": "c1145dcc413263a2ac674ae8e94ba2d3ae7eee73"
 }
