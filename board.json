@@ -1920,16 +1920,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_REFACTOR_FULL",
-     "since": "2026-11-17T16:07Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Left: ~90 inline 'quiz, date' mentions in running prose of SPEC/AGENTS files, REFACTORING.md and Coordination files; per file turn each into a clear rule in the right section and move the quote into t",
@@ -1946,11 +1937,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_REFACTOR_CHECKLIST",
-     "at": "2026-11-17T15:59Z",
-     "text": "Published 49219a177b: reusable-helper placement is stated directly in refactoring guidance and a redundant self-referential quotation is removed. Scoped diff reviewed; guide_check 0 errors, 6 existing warnings; remaining guide cleanup stays"
-    },
-    {
      "by": "CODEX_BLUR_SPEC",
      "at": "2026-11-17T16:02Z",
      "text": "Published 5de136d4e4: Blurred World SPEC states visual, touch-field and capture-order behavior directly; preserves terrain normal-pass restriction, separate blur light and prior anchor. Scoped diff reviewed; guide_check 0 errors, 6 existing"
@@ -1959,6 +1945,11 @@
      "by": "CODEX_REFACTOR_SCOPE",
      "at": "2026-11-17T16:06Z",
      "text": "Published eabb1389cb: refactoring scope is a structured set of direct rules preserving state-copy exceptions, ownership, serialization, scene references, helpers and prior anchor. Scoped diff reviewed; guide_check 0 errors, 6 existing warni"
+    },
+    {
+     "by": "CODEX_REFACTOR_FULL",
+     "at": "2026-11-17T16:11Z",
+     "text": "Published d2ef4c5fd5: full refactoring guide restates dated user quotations as direct rules while retaining existing links, seven historical anchors, code examples and daily-purge approval. Scoped diff/whitespace reviewed; shared-checkout g"
     }
    ]
   },
@@ -23189,5 +23180,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "1cadb9cc79534b31b5f488df0e126baf0ec738cd"
+ "source_revision": "2f29761f200a3f404edebc34ba1311df2026d0d3"
 }
