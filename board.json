@@ -2215,26 +2215,6 @@
    ]
   },
   {
-   "n": 766,
-   "name": "Enemy Logistics route flow and bake transitions must keep visible map pixels live while hidden or empty bakes stay quiet (Enemy Logistics SPEC",
-   "done": "2026-11-14T23:32Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T23:31Z",
-     "text": "Published e772d34f5d: Enemy Logistics reports visible flow/transition motion before MapRender; pixel-presence metadata keeps empty bakes quiet through publication and clearing. Direct cause: missing wake reports. Deeper reason: allocated te"
-    }
-   ]
-  },
-  {
    "n": 767,
    "name": "Fix PolyLine anchors visibly floating above the terrain in the reported oblique map view",
    "done": "2026-11-14T23:53Z",
@@ -21783,7 +21763,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-17T21:55Z",
-     "noted": "2026-11-17T22:27Z",
+     "noted": "2026-11-17T23:32Z",
      "progress": 75,
      "ticked": 3,
      "total": 4
@@ -21810,8 +21790,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-17T22:27Z",
-     "text": "Dev 859 native build is live from 672a051356 (CLI 14440, Editor 2432, exec session 15810). First attempt failed on old Bee state.map; map and owned exited-run lock archived with hashes. Retry passed script compilation and is compiling ARM64"
+     "at": "2026-11-17T23:32Z",
+     "text": "Dev 859 built and installed in place on Strong and Lenovo; installed APK hashes match retained signed 672a051356 build. Paired version-8 WM traffic delivers tiles; warm Situation roots agree, equal Elements stores quiet. CPU.md has idle, pi"
     }
    ]
   },
@@ -22775,5 +22755,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "d7366a6aef2212589a6646adc9695ca8dda2a931"
+ "source_revision": "af541cde3452916fc167324e8a88fe13a6479448"
 }
