@@ -22558,25 +22558,22 @@
   {
    "n": 1560,
    "name": "MavChat capsule",
-   "done": "",
+   "done": "2026-11-17T18:09Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_CAPSULE_WRAP",
-     "since": "2026-11-17T17:58Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_CAPSULE_WRAP",
+     "at": "2026-11-17T18:09Z",
+     "text": "Published 74b1fd0dff: quick-swipe cyclic jumps set icon alpha to zero before repositioning and suppress it through release; new touch/held preview restores it. Isolated Roslyn NEW ERRORS none; extracted production helper probe passed both d"
+    }
+   ]
   }
  ],
  "verify": [
@@ -23145,5 +23142,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "2da02f6d599d0d5efd8448ad496a1503adc699de"
+ "source_revision": "ddfab6951f0ab0085a8a276b064cac63e5a6a78a"
 }
