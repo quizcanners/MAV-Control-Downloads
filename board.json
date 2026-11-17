@@ -22696,7 +22696,13 @@
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T14:21Z",
+     "text": "Dev 857 and Dev 858 both use a synchronous clone on Lenovo My Data first open. The authenticated 857 replay also closed and reopened successfully. CPU.md bdbecb1247 contains the comparison and caveats. Keep the explicit-open changes in this"
+    }
+   ]
   },
   {
    "n": 1535,
@@ -23314,5 +23320,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "da9980e4730a2a23dd424b32d2fa2a3101bfd9cf"
+ "source_revision": "b787ad9438584cfc4ebcf12967090a19f5e805ab"
 }
