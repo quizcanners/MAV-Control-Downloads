@@ -1417,16 +1417,7 @@
    "priority": "normal",
    "parked": true,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_NOTIFICATION_HANDLE",
-     "since": "2026-11-17T07:53Z",
-     "noted": "",
-     "progress": 80,
-     "ticked": 4,
-     "total": 5
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "All notification cards use the shared receipt and folding behavior; the four plain status notices (Connection Lost, Remote Sensors Offline, Motorola Warning, VPN not Found) hold a receipt in their own",
@@ -1454,6 +1445,11 @@
      "by": "CODEX_TONGUE",
      "at": "2026-11-17T04:57Z",
      "text": "Tongue drag feedback published in 7f0f8646b3; task 1453 done, Unity 5/5 plus 10/10 swipe tests, Roslyn clean, Main/Notifications verify queued b4d6bee39b."
+    },
+    {
+     "by": "CODEX_NOTIFICATION_HANDLE",
+     "at": "2026-11-17T08:08Z",
+     "text": "Fold capsule swipe target fixed on main e6b3de03f9; focused tests 19/19, Roslyn clean. Android/iPhone physical swipe check remains unrun."
     }
    ]
   },
@@ -24036,5 +24032,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "5f89d8e98f11672bc173eef6fb90a034771ee6f7"
+ "source_revision": "84fe03737e3fa4d4346f9bab68995895f8309f39"
 }
