@@ -2227,60 +2227,6 @@
    ]
   },
   {
-   "n": 731,
-   "name": "Street View from a link",
-   "done": "2026-11-14T18:14Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T18:14Z",
-     "text": "Windows Play: direct Google panoramas and a real maps.app.goo.gl redirect created private Street View entries with 1848x1080 frames. Ordinary direct and short Maps links kept coordinates. Deselect wrote a private PNG, Undo removed test entr"
-    }
-   ]
-  },
-  {
-   "n": 733,
-   "name": "using Strong for Planet Renderer layer cost comparison",
-   "done": "2026-11-14T18:15Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 734,
-   "name": "Situation group transitions must advance and report visible animation during update",
-   "done": "2026-11-14T18:28Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T18:27Z",
-     "text": "Published bb92cf421a: group fades advance in update before map retention, report Anim only for visible changes, and leave DisplayRevision for publications. Native SituationEffectsTests 8/8, native compilation clean, Roslyn NEW ERRORS: none "
-    }
-   ]
-  },
-  {
    "n": 735,
    "name": "Hot reload leaves nothing behind",
    "done": "",
@@ -22497,9 +22443,9 @@
      "who": "GETAC",
      "since": "2026-11-17T18:10Z",
      "noted": "",
-     "progress": 33,
-     "ticked": 1,
-     "total": 3
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
     }
    ],
    "steps": [
@@ -22508,7 +22454,11 @@
      "x": true
     },
     {
-     "t": "Situation and Geometry reduce repeated ancestor invalidation and child preparation under their own specs.",
+     "t": "Situation uses lazy branch/root summaries, short dirty propagation and completed-child cache retention.",
+     "x": true
+    },
+    {
+     "t": "Geometry reduces repeated ancestor invalidation and child preparation under its spec.",
      "x": false
     },
     {
@@ -22516,13 +22466,7 @@
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-17T18:07Z",
-     "text": "Done: 513f7c9cb2 delivers Elements mask settlement; host evidence in CPU.md, merged-main Roslyn NEW ERRORS none. Left: Situation and Geometry invalidation/preparation, remaining convergence owners, native and tablet evidence. Start: single-"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 1559,
@@ -23154,5 +23098,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "573c9285676b9607359a7b3bc3150c978cc2f448"
+ "source_revision": "6e28e4ceead9f8c673e149a723ad98b92408d4a1"
 }
