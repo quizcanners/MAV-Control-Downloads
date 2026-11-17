@@ -22637,25 +22637,22 @@
   {
    "n": 1444,
    "name": "Keep Coding Scene point batches when only outline fade or unused presentation values change. Key reuse by the submitted label and dot values (Coding Scene SPEC",
-   "done": "",
+   "done": "2026-11-17T01:09Z",
    "goal": false,
    "under": 429,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T00:48Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T01:09Z",
+     "text": "216975db6c on main. Point batches now keep matching submitted label size, dot opacity and radius across outline-only changes. Unity 28 passed, zero failed or skipped and Roslyn no new errors. Prior measured Coding Points 10.22 to 3.64 ms on"
+    }
+   ]
   },
   {
    "n": 1445,
@@ -23250,5 +23247,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "6d6ea46963b849e0b68457282299562a225edc1e"
+ "source_revision": "aee0a510a635a452a17c9f81ad469d1a8e4b5068"
 }
