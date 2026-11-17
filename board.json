@@ -22689,14 +22689,14 @@
    "steps": [],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-17T14:21Z",
-     "text": "Dev 857 and Dev 858 both use a synchronous clone on Lenovo My Data first open. The authenticated 857 replay also closed and reopened successfully. CPU.md bdbecb1247 contains the comparison and caveats. Keep the explicit-open changes in this"
-    },
-    {
      "by": "CODEX_COLD_CHAT",
      "at": "2026-11-17T14:28Z",
      "text": "Published 28c81c5081: cold and in-flight Chat opens use asynchronous clone without synchronous wait; Unity Play probed both prefab clone lifetimes, Roslyn NEW ERRORS none; exact integrated path and Lenovo timing remain unverified."
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T14:35Z",
+     "text": "Strong Dev 858 also hit the synchronous first-open InstantiateHidden route in 5/10 Workflow Spawner samples. Reopen reused the window. Exact-native two-device comparison in CPU.md 8d2ffc260d. Next validate the cold path on the containing An"
     }
    ]
   },
@@ -23346,5 +23346,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "e2b0d61cdaf6455654ab190b467ac268ad136a14"
+ "source_revision": "21c7283f1ab1f21e137bb08045e95726c39cad77"
 }
