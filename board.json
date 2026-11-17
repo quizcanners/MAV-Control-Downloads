@@ -22270,7 +22270,7 @@
   },
   {
    "n": 1534,
-   "name": "Keep the first My Data or MavChat tap responsive when Chat Window is cold (UI SPEC",
+   "name": "Retain Chat Window prewarm infrastructure and pending open intent across close",
    "done": "2026-11-17T14:28Z",
    "goal": false,
    "under": 429,
@@ -22280,18 +22280,7 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_COLD_CHAT",
-     "at": "2026-11-17T14:28Z",
-     "text": "Published 28c81c5081: cold and in-flight Chat opens use asynchronous clone without synchronous wait; Unity Play probed both prefab clone lifetimes, Roslyn NEW ERRORS none; exact integrated path and Lenovo timing remain unverified."
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-17T15:37Z",
-     "text": "Both tablets verified APK SHA 6c3e7529d460 at 8d2ffc260d. My Data open/close/reopen passed. Async integration and adoption sampled, old InstantiateHidden absent. Residual first-open scope 174.59 ms Lenovo and 71.07 ms Strong; single runs, n"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 1535,
@@ -23197,5 +23186,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "9743ec545997ed3e65101bc3d396ce0b39f56784"
+ "source_revision": "f79bceebb93576317d6942a4a53890cc3faa482a"
 }
