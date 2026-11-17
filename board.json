@@ -4789,16 +4789,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLOUD_R6",
-     "since": "2026-11-17T06:19Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -4819,11 +4810,6 @@
    ],
    "notes": [
     {
-     "by": "cloud-citylabels",
-     "at": "2026-11-15T05:35Z",
-     "text": "City labels (Place Labels) after hot reload: ManagedOnDisable now resets draw order, view, batch, place glyph labels, id index, version gates, imported flag (cloud, 2026-11-15, uncompiled; cause not seen in Play, only by reading). Audit oth"
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-16T06:29Z",
      "text": "f0f85b196c makes SDC Ping abandon an in-flight MSP reply on stop and clear a possibly applied mark before closing."
@@ -4832,6 +4818,11 @@
      "by": "ROG",
      "at": "2026-11-16T20:46Z",
      "text": "Published e38e030f56. Far Altitude cancels its reader on view changes without waiting. Station shutdown joins active Fine/Far and previously canceled readers and clears both grids. The standalone test of the extracted lifecycle methods pass"
+    },
+    {
+     "by": "CLOUD_R6",
+     "at": "2026-11-17T06:22Z",
+     "text": "R6 bf01cb10b1: UDP send queues, receive queue and Distribution SQLite readers cleared on disable (uncompiled). Left: audit rest of static caches (DJI_KeyConsole._typed, IncomingQueue statics); Editor recompile run."
     }
    ]
   },
@@ -23642,5 +23633,5 @@
    "since": "2026-11-17T05:36Z"
   }
  ],
- "source_revision": "b520df4e3b4d5286f26c51180a7fd83cfb6c2416"
+ "source_revision": "2893e61d73de70d3fb5eff48efa9bf171c19123f"
 }
