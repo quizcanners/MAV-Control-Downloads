@@ -23372,18 +23372,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T08:53Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T09:44Z",
+     "text": "CPU.md cbf307dfef: Lenovo Dev 857 again sampled GLES compilation during the 933 ms pan and an ioctl during the 899 ms pinch. The build-time shader log flag yielded zero shader messages across 379 exact-PID Logcat lines. Start with a Dev-onl"
+    }
+   ]
   },
   {
    "n": 1494,
@@ -24186,5 +24183,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "06f41a6db1707462105ef6edc89d99d47024911c"
+ "source_revision": "eadee238f4b88b8f886326356f2940ad65d5b816"
 }
