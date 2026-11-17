@@ -1220,67 +1220,15 @@
    "held": [],
    "steps": [
     {
-     "t": "All eight Settings roots open on one status line with a tick before the toggles: GPS 20fe6bdde7, Video and Network 13b74e6385, Map/Workflow/Drones/Data/System b5e0c48259; status line drawn in every st",
-     "x": true
-    },
-    {
-     "t": "Settings GUI rebinds after Editor reload; clickable captions reserve room for ellipsis, with explicit widths unchanged; Synthetic Drone starts with an active/neutral status (7f4a71af6b). Editor showed",
-     "x": true
-    },
-    {
-     "t": "MAVLink Settings and its local-drone list show a status from the existing once-per-second local list (d232a27048); no-drone state seen in Editor. Connected-drone appearance remains for device verifica",
-     "x": true
-    },
-    {
-     "t": "Drones > Appearance opens with a localized, case-specific selected display style (0e24b21183); Mission Planner seen in the Editor, QGroundControl and unknown states remain unchecked.",
-     "x": true
-    },
-    {
-     "t": "Video / OBS shows unsupported input as a neutral localized status (6333581128); Mac Editor captured the status and advanced settings. Windows states not exercised.",
-     "x": true
-    },
-    {
-     "t": "Video information accumulation leads with processing input state, including Motion no-video (86df03db8a); Motion details stay behind Detection settings (8664a595d5). Editor captured off and Motion no-",
-     "x": true
-    },
-    {
-     "t": "Photo Positioning leads with access state and failure evidence (9206dc259c); signed-out view seen in the Editor, other server states not exercised.",
-     "x": true
-    },
-    {
-     "t": "Recording shows its options without the memory dump (b0878b59c4); the Editor showed the off view and Memory details, recording settings unchanged.",
-     "x": true
-    },
-    {
-     "t": "KMZ/KML hides a null parsed result (f323b15383); empty view seen in the Editor.",
-     "x": true
-    },
-    {
-     "t": "FPV detections leads with sign-in state and keeps dictionaries in Lists (c9f6859880); Editor showed signed-out state and opened the nested Detections dictionary. Live service and return gesture remain",
-     "x": true
-    },
-    {
-     "t": "GPS Location stages renders its status and returns to GPS (bb59b4dd73), seen with location not in use in the Editor.",
-     "x": true
-    },
-    {
-     "t": "Map Lighting leads with publication status and preserves details in a foldout (29747a76d2); applied state seen in Editor, failure not exercised.",
-     "x": true
-    },
-    {
-     "t": "Empty and null unkeyed navigation keys both recognize entered children (327028dc58), removing the extra Map header; Editor showed Lighting and brightness without its ancestor; PegiNavigationTests 9/9 ",
-     "x": true
-    },
-    {
-     "t": "Cloud: the pages below the eight roots (sub-pages) get the same treatment, one root per pass, if any remain",
+     "t": "Settings sub-pages below the eight roots get the same status-and-tick treatment, one root per pass, if any remain",
      "x": false
     },
     {
-     "t": "quiz: name the screen whose foldout does not take the free width of its row (was 420; Settings pages already give the label the free width, and no prefab row could be classified); then Cloud fixes tha",
+     "t": "quiz: name the screen whose foldout does not take the free width of its row; then Cloud fixes that row",
      "x": false
     },
     {
-     "t": "Mac or PASIKA (Editor look check): glance at each Settings root, status and tick first, no scrolling",
+     "t": "Mac or PASIKA Editor look check: each Settings root, status and tick first, no scrolling",
      "x": false
     }
    ],
@@ -23330,5 +23278,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "5ffcd06453738a19d04a8cce72e299c191e6483c"
+ "source_revision": "4eeac3ab2a1eb45af7808eef4e6bcf710c1deb05"
 }
