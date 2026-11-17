@@ -22506,16 +22506,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_UI_LAYOUT2",
-     "since": "2026-11-17T13:16Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -22527,6 +22518,11 @@
      "by": "CODEX_UI_CORNER",
      "at": "2026-11-17T13:14Z",
      "text": "Published dec7d7d98f, fc5b64e012, 885c8a113e and 9ab92c3990 for telemetry, zoom, altitude and MGRS inner rows. Outer MGRS and backing still use LowerDock: row must stay under Suggestions swipe/CanvasGroup; moving it to a sibling breaks gest"
+    },
+    {
+     "by": "CODEX_UI_LAYOUT2",
+     "at": "2026-11-17T13:18Z",
+     "text": "Outer migration remains: RIGHT Suggestions root owns VerticalLayoutGroup and swipe CanvasGroup; BUTTONS Right overrides its root top-right anchors and -295.2313 Y. Full-screen root must move layout group to a top child, migrate those instan"
     }
    ]
   },
@@ -23503,5 +23499,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "4417315f19ae2c09e685a4d252cac1a50e88357f"
+ "source_revision": "f24df0e79a9af28d2ca24a3f00e307ddd7bb4b3a"
 }
