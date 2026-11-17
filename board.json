@@ -23388,25 +23388,22 @@
   {
    "n": 1494,
    "name": "Using Lenovo for the GLES shader variant pan capture on signed Android Dev",
-   "done": "",
+   "done": "2026-11-17T09:43Z",
    "goal": false,
    "under": 429,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T08:55Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T09:43Z",
+     "text": "Signed Dev 857 ran one Lenovo pan/pinch replay with 403 retained Unity frames and 9,203 Perfetto stacks. At 3% battery, restored exact Test 855 with the original UID and audited files, and verified the map. CPU.md cbf307dfef."
+    }
+   ]
   },
   {
    "n": 1495,
@@ -24189,5 +24186,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "32b6fdfcaf87c8e85eb023da16517a0901010dcd"
+ "source_revision": "06f41a6db1707462105ef6edc89d99d47024911c"
 }
