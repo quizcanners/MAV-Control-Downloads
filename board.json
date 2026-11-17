@@ -22314,16 +22314,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_STREET_SPLAT",
-     "since": "2026-11-17T03:25Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Route each depth point to mesh, terrain or splat by the SPEC rule",
@@ -22352,6 +22343,11 @@
      "by": "CODEX_MAC_GROUND",
      "at": "2026-11-16T23:40Z",
      "text": "Published bae63ef292 handles every finite depth endpoint from retained projection views. CameraRays and each projection use the same prediction frame, pose, intrinsics and depth; confidence adds free-space evidence, not another ground heigh"
+    },
+    {
+     "by": "CODEX_STREET_SPLAT",
+     "at": "2026-11-17T03:53Z",
+     "text": "Published 32186ee31b model-local keyframe samples, 9e6256cb4e depth-sorted quads, 86011144e7 optional FIN5 transport; Python 12/12, Unity 2/2, Roslyn clean. FIN5 remains opt-in; model-local GPU replay, per-texel coverage and saved splat lay"
     }
    ]
   },
@@ -23313,5 +23309,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "9cce474107089aa4d0aadac0079191bcca99f5b1"
+ "source_revision": "1579f2efd2dc2f839739ad04bd0eb056d9e38e88"
 }
