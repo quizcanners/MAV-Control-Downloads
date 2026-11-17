@@ -22547,16 +22547,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_UI_CORNER",
-     "since": "2026-11-17T12:54Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -22566,8 +22557,8 @@
     },
     {
      "by": "CODEX_UI_CORNER",
-     "at": "2026-11-17T12:53Z",
-     "text": "dec7d7d98f placed the left scroller in the persistent row; fc5b64e012 anchored zoom in a safe frame; 885c8a113e placed the right scroller in its own safe-area row and removed MGRS neighbor measurement. Unity isolated geometry/lifecycle prob"
+     "at": "2026-11-17T13:10Z",
+     "text": "dec7d7d98f placed left scroller in the persistent row; fc5b64e012 anchored zoom; 885c8a113e anchored right scroller; 9ab92c3990 gives lower MGRS actions an authored horizontal layout. Isolated Unity geometry, lifecycle and handler checks pa"
     }
    ]
   },
@@ -23535,5 +23526,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "416fc14613984f0eb14f230e65dc9d81f2a2ddb8"
+ "source_revision": "1d194c380e25fe8425e2714200a781ad9659ab2a"
 }
