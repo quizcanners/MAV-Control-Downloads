@@ -2267,20 +2267,6 @@
    ]
   },
   {
-   "n": 732,
-   "name": "using Strong for Android frame-ready to display timing",
-   "done": "2026-11-14T18:04Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 733,
    "name": "using Strong for Planet Renderer layer cost comparison",
    "done": "2026-11-14T18:15Z",
@@ -22499,25 +22485,22 @@
   {
    "n": 1557,
    "name": "Apply lazy mask hash settlement from Coordination/Refactoring/single-pass-convergence.md",
-   "done": "",
+   "done": "2026-11-17T18:06Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T17:34Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T18:06Z",
+     "text": "Published 513f7c9cb2: mask receives preserve sibling drill progress and settle completed groups upward; dirty hash propagation stops early, child iteration is indexed, payload preparation no longer rehashes the root. Actual-source host conv"
+    }
+   ]
   },
   {
    "n": 1558,
@@ -23165,5 +23148,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "f67c6d8258d068bc0b5fab63c981f89581b92c9c"
+ "source_revision": "f301d46c8405322d46289878027790f74b21563f"
 }
