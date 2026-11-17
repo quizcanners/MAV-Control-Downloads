@@ -7713,23 +7713,14 @@
   {
    "n": 851,
    "name": "Reduce synchronous fine-altitude texture upload on Android (Altitude Visualization SPEC",
-   "done": "",
+   "done": "2026-11-17T00:16Z",
    "goal": false,
    "under": 377,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T00:03Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -7741,6 +7732,11 @@
      "by": "HEAVY",
      "at": "2026-11-16T02:25Z",
      "text": "Published 6f95b706e4. Roslyn NEW ERRORS: none. Fine height upload reads each coverage word once and writes the same RGHalf values. Windows host passed 4,100 byte comparisons; timings are in Performance Baseline/GPU.md. Strong still needs a "
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T00:16Z",
+     "text": "Strong Dev 851 cd3d8b8986 contains the split uploads and height coverage fix. GPU.md aaeb23a0f0."
     }
    ]
   },
@@ -23129,5 +23125,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "ba570b03fb0e897306e2d7f056febb18603126d1"
+ "source_revision": "bdd4d2d84dcd782001094d41168cb27517801c71"
 }
