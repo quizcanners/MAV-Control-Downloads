@@ -18818,6 +18818,16 @@
      "by": "HEAVY",
      "at": "2026-11-16T13:25Z",
      "text": "b7b8993597 publishes the TSDF prototype and Street View SPEC. Kenilworth compared at 24 and 48 frames, with posed keyframe PNGs and matrices. Plane, overlap and PLY checks passed. Results in VisualOdometryExperiment/README.md. Next: wire th"
+    },
+    {
+     "by": "CODEX_MAC_ANCHORS",
+     "at": "2026-11-16T21:01Z",
+     "text": "3bb7a4a0ff: short-scan archives keep the spread set and first anchor; recent frames remain fusion fallback. Point-fusion 20/20 passed on Mac with real numpy/OpenCV and alignment; CUDA/model imports stubbed. Linked Street Photos, relative ow"
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-17T08:20Z",
+     "text": "1d94a6451f and 4e4a701440 retain bounded anchor frames across Video Source and require Positioned for shared-grid admission. A saved model can retry against nearby Positioned anchors after Edit and Place. Unity Backdoor confirmed both place"
     }
    ]
   },
@@ -20202,31 +20212,6 @@
      "by": "HEAVY",
      "at": "2026-11-16T19:35Z",
      "text": "2feb14b4ea on main. Live and saved surfaces fill small supported gaps at half confidence and retain empty rays."
-    }
-   ]
-  },
-  {
-   "n": 1424,
-   "name": "Street View",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_ANCHORS",
-     "at": "2026-11-16T21:01Z",
-     "text": "3bb7a4a0ff: short-scan archives keep the spread set and first anchor; recent frames remain fusion fallback. Point-fusion 20/20 passed on Mac with real numpy/OpenCV and alignment; CUDA/model imports stubbed. Linked Street Photos, relative ow"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-17T08:20Z",
-     "text": "1d94a6451f and 4e4a701440 retain bounded anchor frames across Video Source and require Positioned for shared-grid admission. A saved model can retry against nearby Positioned anchors after Edit and Place. Unity Backdoor confirmed both place"
     }
    ]
   },
@@ -23448,5 +23433,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "7528462c2221e8be5c22cea2d2697f2a9edc1b20"
+ "source_revision": "aeebbc73205bd7ce11d6353ee48963fa6797abe2"
 }
