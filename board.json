@@ -23455,25 +23455,22 @@
   {
    "n": 1488,
    "name": "MavChat capsule",
-   "done": "",
+   "done": "2026-11-17T08:40Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_CHAT_SELECTED",
-     "since": "2026-11-17T08:35Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_CHAT_SELECTED",
+     "at": "2026-11-17T08:40Z",
+     "text": "Published 0ed49f28da: quick release fades other icons in 0.05 s, preserves selected icon; long release remains separate. MavChatSheetTests 97/97; guide check 0 errors. Explicit refresh and rerun pending."
+    }
+   ]
   },
   {
    "n": 1489,
@@ -24134,5 +24131,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "27a9ca9f2f1369d5340e9e30585aa8a3848c2f68"
+ "source_revision": "87395342d70f2f1be94eb04936672f9401437610"
 }
