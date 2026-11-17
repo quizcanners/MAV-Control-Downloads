@@ -22024,22 +22024,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_QUAD_STORE",
-     "since": "2026-11-16T23:48Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_MAC_SPLAT",
      "at": "2026-11-16T23:46Z",
      "text": "Investigated current main: no surface-quad producer or fixed world frame yet. Tile data belongs to WebMercator.SqliteTileStore; its sharded publication SeedPrevious copies an explicit table list, so persist quad revisions through that owner"
+    },
+    {
+     "by": "CODEX_QUAD_STORE",
+     "at": "2026-11-17T00:13Z",
+     "text": "Published 6f543cfb and dc8edda7: revisioned SQLite surface store, bounded 25-tile cache, resumable logical migration and 20-byte world-frame codec/RTX adapter. Unity: store 3/3, cache 5/5, codec 4/4, existing shard 7/7 and tile store 30/30."
     }
    ]
   },
@@ -23127,5 +23123,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "0a09e715a59beff7628202ecc7d4e6703dba8a4a"
+ "source_revision": "ba016fbac20c5dacd5481669f126d5b4e04a75a3"
 }
