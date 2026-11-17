@@ -22064,14 +22064,6 @@
      "total": 0
     },
     {
-     "who": "CODEX_GPU_FUSION",
-     "since": "2026-11-17T01:13Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    },
-    {
      "who": "CODEX_RTX5_TRANSPORT",
      "since": "2026-11-17T01:13Z",
      "noted": "",
@@ -22094,8 +22086,8 @@
     },
     {
      "by": "CODEX_GPU_FUSION",
-     "at": "2026-11-17T01:12Z",
-     "text": "Handoff to CODEX_QUAD_STORE: inactive deterministic parity-phase miss/seed reservation GPU primitive and CPU oracle 6/6, with explicit retry/conflict and capacity backpressure. Real GPU test, retry-round ownership, actual seed initializatio"
+     "at": "2026-11-17T01:14Z",
+     "text": "Handoff to CODEX_QUAD_STORE: inactive seed reservation shader now uses distinct ping-pong state buffers per parity phase, avoiding same-dispatch state races; CPU oracle 6/6. Unity GPU validation is in progress separately. Retry-round owners"
     }
    ]
   },
@@ -23241,5 +23233,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "ea14307561e0189de015494496bca4dfa6d5273b"
+ "source_revision": "eb08fb637edf1f6caf297ddacc1af1eff0c09235"
 }
