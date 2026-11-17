@@ -625,8 +625,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-17T09:44Z",
-     "text": "Getac Peer113 (10.10.10.114) still runs in the WireGuard app. Drive profile address matches. The installed Windows package and local portable build have neither tunnel.dll nor wireguard.dll. The sealed Windows 839 download checksum matches,"
+     "at": "2026-11-17T09:48Z",
+     "text": "Getac Peer113 (10.10.10.114) remains up in WireGuard. MAV Control parser accepted the Drive profile. Staged official AMD64 WireGuardNT 1.1 with pinned b1b85e07 hash and valid signature. Installed and local Windows players lack both DLLs. Th"
     }
    ]
   },
@@ -2568,26 +2568,6 @@
     }
    ],
    "notes": []
-  },
-  {
-   "n": 638,
-   "name": "Paint button (bottom-left",
-   "done": "2026-11-14T09:48Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T09:47Z",
-     "text": "Paint shadow now uses the same round material as Search, with all four sides rounded, and the left-edge body stripe is cleared (30281bf13c). Windows Play confirmed the active shadow, screen-space overlay sorting and bound blur. Before/after"
-    }
-   ]
   },
   {
    "n": 640,
@@ -24182,5 +24162,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "87dd759b30b1e9733c5c666d8ff1b488ef8666fc"
+ "source_revision": "7d2d768f61bb663bab9ecbfef7adb66e5ece6f0c"
 }
