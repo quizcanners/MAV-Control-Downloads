@@ -23136,22 +23136,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T10:15Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-17T10:12Z",
-     "text": "Strong Dev 857 qualified direct app-scoped Android GLES capture, generated GLSL and exact window alignment. CPU.md c753be5654 names the 416 ms startup SparseUploader.CopyKernel. Lenovo remained at 2% and stayed on 855. When charged, replay "
+     "at": "2026-11-17T10:27Z",
+     "text": "Lenovo Dev 857 direct GLES calls, CPU.md f56093b606: five glProgramBinary loads took 224.1 ms inside the 1,166.1 ms pan gap, longest 140.9 ms. PowerVR compiler stacks and a separate fstatat-heavy worker overlap the same gap. No generated st"
     }
    ]
   },
@@ -24115,5 +24106,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "d0d38b0d212a45500e7de752ff8df18873d09006"
+ "source_revision": "268853c107e32266f39c30bf8593590b1695abb8"
 }
