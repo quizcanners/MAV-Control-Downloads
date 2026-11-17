@@ -2124,16 +2124,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_STORAGE_GUIDE",
-     "since": "2026-11-17T15:50Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Left: ~90 inline 'quiz, date' mentions in running prose of SPEC/AGENTS files, REFACTORING.md and Coordination files; per file turn each into a clear rule in the right section and move the quote into t",
@@ -2150,11 +2141,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_LINGUIST_GUIDE",
-     "at": "2026-11-17T15:42Z",
-     "text": "Published 51fe8ee0ca: Linguist guide and SPEC now state localization and grouping rules without embedded user quotes; guide_check 0 errors, 6 existing warnings. Remaining goal 606 files unchanged."
-    },
-    {
      "by": "CODEX_MULTIFRAME_GUIDE",
      "at": "2026-11-17T15:45Z",
      "text": "Published ecfef305a0: Multi-frame work SPEC and guide state input-version and dirty-mark rules without repeated quotes; stale results may still be saved. guide_check 0 errors, 6 existing warnings; remaining goal 606 work unchanged."
@@ -2163,6 +2149,11 @@
      "by": "CODEX_CAMERA_GUIDE",
      "at": "2026-11-17T15:48Z",
      "text": "Published 00a5faf25e: general camera input and zoom rules are clear statements without embedded quotes; preserved the prior section anchor. guide_check 0 errors, 6 existing warnings; remaining guide cleanup stays open."
+    },
+    {
+     "by": "CODEX_STORAGE_GUIDE",
+     "at": "2026-11-17T15:51Z",
+     "text": "Published 9c26a7bde5: Record Vault guide states dependency ownership and last-owner collection directly; all detailed rules and links preserved. guide_check 0 errors, 6 existing warnings; remaining guide cleanup stays open."
     }
    ]
   },
@@ -23514,5 +23505,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "fd1628ef6229dae14bf38dab4b3e170effa0b246"
+ "source_revision": "b784e0b25722b04f37dda7f89dbe3b6df4d48426"
 }
