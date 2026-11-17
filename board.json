@@ -22898,25 +22898,22 @@
   {
    "n": 1458,
    "name": "Fix Unity Console compiler and serialization warnings reproduced by Getac",
-   "done": "",
+   "done": "2026-11-17T06:05Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T05:39Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T06:05Z",
+     "text": "e9af00479b on main. Unity 6000.6.8f1 reproduced 10 warnings, then a fresh Edit Mode compile and live Console showed 0 errors and 0 warnings. Roslyn clean. Web Mercator hash JSON 10/10, Wi-Fi scanner 85/85, Geometry 71/72 with the storage sc"
+    }
+   ]
   },
   {
    "n": 1459,
@@ -23545,5 +23542,5 @@
    "since": "2026-11-17T05:36Z"
   }
  ],
- "source_revision": "d6f38fda7f5bcacbb1a4ea70a546485f15a02625"
+ "source_revision": "f4a0c3fa1acc5e88320d15a730faab52807f3453"
 }
