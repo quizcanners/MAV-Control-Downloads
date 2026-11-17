@@ -2284,46 +2284,6 @@
    ]
   },
   {
-   "n": 748,
-   "name": "using Strong for Dev 842 GPU source-frame and Half-resolution qualification",
-   "done": "2026-11-14T20:31Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-14T20:30Z",
-     "text": "93c408396d: signed Dev 842 installed in place with matching SHA and map Ready. GPU history joined all 14 retained pinch frames. Peak display gap 83.34 ms: 54.91 before ready, 28.43 after; overlapping frame 501 had 63.70 ms managed and GPU 2"
-    }
-   ]
-  },
-  {
-   "n": 749,
-   "name": "Remove the redundant square root from orbital relief/city-light mip selection",
-   "done": "2026-11-14T20:37Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T20:36Z",
-     "text": "Published 4c253780c2. Orbital mip selection keeps its derivative footprint squared: emitted Metal sqrt sites 4 to 3, with 4 samples and 3 resource branches unchanged. 432 native render pairs matched exactly; all 64 Metal/GLES stages compile"
-    }
-   ]
-  },
-  {
    "n": 750,
    "name": "using Strong for active-peer Noise IK and Web Mercator frame attribution",
    "done": "2026-11-14T21:13Z",
@@ -22420,25 +22380,22 @@
   {
    "n": 1568,
    "name": "Elevation receive validation discards valid unchanged-cell proofs on every catalog publication (Planet Renderer SPEC",
-   "done": "",
+   "done": "2026-11-17T20:57Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T20:16Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T20:57Z",
+     "text": "Published 16dabca0a7: revision-qualified receiver validation survives unrelated publications; changed/reloaded input is checked before Have/Need, including stale misses and empty loads. Cached replies remain available during interaction. Ro"
+    }
+   ]
   }
  ],
  "verify": [
@@ -23011,5 +22968,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "abad92067c61379135e02241a7b5769493d478a8"
+ "source_revision": "919fa1e56019c719dda9533fab2e2cb7f1b49920"
 }
