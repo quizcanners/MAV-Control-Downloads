@@ -22729,25 +22729,22 @@
   {
    "n": 1449,
    "name": "Using Lenovo to identify workers behind sustained idle CPU on Android Release 850",
-   "done": "",
+   "done": "2026-11-17T03:01Z",
    "goal": false,
    "under": 430,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T02:55Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T03:01Z",
+     "text": "Release 850 attached, exact APK and same map PID throughout both read-only captures. Lenovo used 2.34 / 2.25 cores, 69\u201370% on generic workers. UDP sender used 0.15 / 0.13 core. No trace loss indicated. Scheduler did not identify the worker "
+    }
+   ]
   }
  ],
  "verify": [
@@ -23296,5 +23293,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "4e248761b1049bc745efc939cb195f944a41aee9"
+ "source_revision": "52df542dcb4151525d381c50c33f288163fdf4b8"
 }
