@@ -2124,16 +2124,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_CAMERA_GUIDE",
-     "since": "2026-11-17T15:46Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Left: ~90 inline 'quiz, date' mentions in running prose of SPEC/AGENTS files, REFACTORING.md and Coordination files; per file turn each into a clear rule in the right section and move the quote into t",
@@ -2150,11 +2141,6 @@
    ],
    "notes": [
     {
-     "by": "ROG",
-     "at": "2026-11-16T10:35Z",
-     "text": "Published 5be00ddc35: Network, Shaders and Bootstrap guides now state current rules directly. Removed the obsolete custom-auth QR reauthentication procedure and distinguished split-payload sealing from the existing plain map-hash rules. Fix"
-    },
-    {
      "by": "CODEX_LINGUIST_GUIDE",
      "at": "2026-11-17T15:42Z",
      "text": "Published 51fe8ee0ca: Linguist guide and SPEC now state localization and grouping rules without embedded user quotes; guide_check 0 errors, 6 existing warnings. Remaining goal 606 files unchanged."
@@ -2163,6 +2149,11 @@
      "by": "CODEX_MULTIFRAME_GUIDE",
      "at": "2026-11-17T15:45Z",
      "text": "Published ecfef305a0: Multi-frame work SPEC and guide state input-version and dirty-mark rules without repeated quotes; stale results may still be saved. guide_check 0 errors, 6 existing warnings; remaining goal 606 work unchanged."
+    },
+    {
+     "by": "CODEX_CAMERA_GUIDE",
+     "at": "2026-11-17T15:48Z",
+     "text": "Published 00a5faf25e: general camera input and zoom rules are clear statements without embedded quotes; preserved the prior section anchor. guide_check 0 errors, 6 existing warnings; remaining guide cleanup stays open."
     }
    ]
   },
@@ -23514,5 +23505,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "2c5da8db6a8895d026411080d6e3e725c0b15eb6"
+ "source_revision": "1e693c2441c55f62d714c87298f6faf44204cc5c"
 }
