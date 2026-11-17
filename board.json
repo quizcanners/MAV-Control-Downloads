@@ -21781,23 +21781,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_UI_1407",
-     "since": "2026-11-17T07:16Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_MAC_UI_ROWS",
-     "at": "2026-11-16T17:46Z",
-     "text": "Inspected shared peer row and its previous-separator prefab; current checkout is stale and cannot reproduce the current-main MavChat row, so no speculative asset change was made. Resume with synced Editor and the affected group row visible."
-    },
     {
      "by": "CODEX_MAC_ROW",
      "at": "2026-11-16T19:04Z",
@@ -21807,6 +21793,11 @@
      "by": "CODEX_MAVCHAT_EDITOR",
      "at": "2026-11-16T22:52Z",
      "text": "Inspected the live Editor prefab: Chat suppresses Button Dark Opaque block while Row Light and the independent Previosu Separator remain; the light also owns selection/hover, and removing it would break those states. Current source/prefab m"
+    },
+    {
+     "by": "CODEX_UI_1407",
+     "at": "2026-11-17T07:17Z",
+     "text": "Current main keeps Chat row body hidden; remaining Row Light handles selection and pointing, so removing it is unsupported. iPad and iPhone unavailable in devicectl; prior Editor inspections did not reproduce the dashed edges. Resume with a"
     }
    ]
   },
@@ -23895,5 +23886,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "eacb2c01e57ed1ba8288b5088946fd119ab2bdaf"
+ "source_revision": "5999df7cfb9b821eabdcf5e2ce933f904113a28a"
 }
