@@ -2040,26 +2040,6 @@
    "notes": []
   },
   {
-   "n": 555,
-   "name": "Street View photos are sent once and never synced (Assets/_PROJECT/Systems/Street View/SPEC.md",
-   "done": "2026-11-14T10:57Z",
-   "goal": false,
-   "under": 366,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T11:11Z",
-     "text": "819b927450 restores the PeerPhotoState closing brace lost by the Photo Sync removal. Native Windows Unity compiles and enters Play; cmp.sh NEW ERRORS: none."
-    }
-   ]
-  },
-  {
    "n": 556,
    "name": "Note from PASIKA",
    "done": "2026-11-14T11:56Z",
@@ -23208,25 +23188,22 @@
   {
    "n": 1504,
    "name": "RTX box",
-   "done": "",
+   "done": "2026-11-17T10:59Z",
    "goal": false,
    "under": 431,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-17T10:16Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-17T10:59Z",
+     "text": "dc97699deb. Public DA3 FP16/FP32 import after folding the fixed EyeLike identity; public output differs from the Python worker. The pinned worker graph matches on four Kenilworth frames and passes same-pixel depth, confidence, extrinsics an"
+    }
+   ]
   },
   {
    "n": 1505,
@@ -24074,5 +24051,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "990409df272b7b5b93cd4a955895f4b30f8045f4"
+ "source_revision": "0ad7c7899334f2e3f0f118aff1f45a605f3928b7"
 }
