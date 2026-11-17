@@ -23573,20 +23573,28 @@
      "noted": "",
      "progress": 0,
      "ticked": 0,
-     "total": 4
+     "total": 6
     }
    ],
    "steps": [
     {
-     "t": "Record the bake intent and freeze the Positioned reconstruction and registered imagery.",
+     "t": "Record bake intent and freeze the Positioned reconstruction and registered imagery.",
      "x": false
     },
     {
-     "t": "Bake detailed meshes and textures per tile. Fit boxes to groups of occupied points and merge groups into fewer, larger boxes at each coarser LOD. Atomically publish the BaseMap SQLite generation.",
+     "t": "Bake per-tile textured polygons for close views and grouped occupied cubes for middle distance.",
      "x": false
     },
     {
-     "t": "Stream individual box and mesh LOD payloads by camera visibility, distance and screen-space error. Bound residency and submit opaque scene depth and normals.",
+     "t": "Bake one RGBA horizon atlas per tile with north, east, south and west views, each with three separate depth strips.",
+     "x": false
+    },
+    {
+     "t": "Publish the independent LOD payloads as an atomic BaseMap SQLite generation.",
+     "x": false
+    },
+    {
+     "t": "Stream individual LOD payloads by distance and screen-space error. Around 10 km, switch to the cardinal horizon view and draw its strips at their three separate depths for parallax.",
      "x": false
     },
     {
@@ -23594,13 +23602,7 @@
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-17T09:11Z",
-     "text": "e1445a7bb4 specifies fitted boxes for coarse 3D map LODs. Distant views request box payloads. At closer range the layer refines to smaller groups and detailed mesh tiles. Guide check passed with zero errors and compile comparison reported N"
-    }
-   ]
+   "notes": []
   }
  ],
  "verify": [
@@ -24169,5 +24171,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "4f40d6b894714e26a748e0d6f9c715ba79cf5ac0"
+ "source_revision": "36a3ec30d5643e1475d6839b69edb822cdd2fd27"
 }
