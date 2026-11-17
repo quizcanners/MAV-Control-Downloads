@@ -22045,23 +22045,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_QUAD_STORE",
-     "since": "2026-11-17T00:16Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_MEASURED_SURFACES",
-     "at": "2026-11-17T00:30Z",
-     "text": "Measured RTX5 observations: per-request signed-count marker, new depth frames only, 60000/window; 3 synthetic tests passed with stubs. Parent integrates and publishes; full RTX/model tests not run."
-    },
     {
      "by": "CODEX_GPU_FUSION",
      "at": "2026-11-17T01:21Z",
@@ -22071,6 +22057,11 @@
      "by": "CODEX_RTX5_TRANSPORT",
      "at": "2026-11-17T01:23Z",
      "text": "Inactive GPU buffer-owner draft and two allocation/lease/accounting tests saved outside checkout at /tmp/codex-surface-quad-buffer-owner/. Not compiled or run. Before restoring: review buffer sizes/accounting, run Editor tests and Roslyn, t"
+    },
+    {
+     "by": "CODEX_QUAD_STORE",
+     "at": "2026-11-17T01:24Z",
+     "text": "Published RTX5 transport and inactive GPU match, accumulation, grouping and seed kernels; Mac GPU checks pass. Live sink and renderer remain. Untested drafts: /tmp/codex-1418-seed-input-handoff and /tmp/codex-surface-quad-buffer-owner; vali"
     }
    ]
   },
@@ -23216,5 +23207,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "9f2bf4c2ec70f12dcaffef126c64a8883fa5b7ee"
+ "source_revision": "4f416ecf9763887eff3e91b07e77ef6220995b68"
 }
