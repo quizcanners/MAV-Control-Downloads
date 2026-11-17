@@ -23231,22 +23231,26 @@
      "who": "CLOUD_AREA",
      "since": "2026-11-17T12:12Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
+     "progress": 75,
+     "ticked": 3,
+     "total": 4
     }
    ],
    "steps": [
     {
-     "t": "Area controls show whenever any processor is on",
-     "x": false
+     "t": "Area controls show whenever any processor is on (UI_MotionTuningPanel)",
+     "x": true
     },
     {
-     "t": "Spec and area guide updated",
-     "x": false
+     "t": "Spec and area guide updated (Processing area)",
+     "x": true
     },
     {
-     "t": "Temporal denoise and Contrast boost shaders apply the area",
+     "t": "Contrast boost applies the area (VideoContrast.hlsl, _VideoProcessingArea global)",
+     "x": true
+    },
+    {
+     "t": "Temporal denoise passes (Windows shader, VPI) apply the area outside which the picture passes through",
      "x": false
     }
    ],
@@ -23819,5 +23823,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "7f9d9823d1c83428f635d2952fae23687b78c297"
+ "source_revision": "ce9835d4d8ebfcfc2eb2e56d631a0d2e3aa193f0"
 }
