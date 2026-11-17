@@ -2090,11 +2090,6 @@
    ],
    "notes": [
     {
-     "by": "ROG",
-     "at": "2026-11-16T11:45Z",
-     "text": "Published 943404304d: UDP owns vpn.udp and the send counters shared with vpn.handshake; Handshake, Training and Remote Sensors own their command gates. Unity compiled cleanly, 12 stopped-Editor checks passed, and vpn.udp, vpn.handshake, tra"
-    },
-    {
      "by": "CLOUD_REFACTOR_2",
      "at": "2026-11-17T06:21Z",
      "text": "CLOUD_REFACTOR_2: performance.top/budgets/minimized moved from the dispatcher to FrameBudget.TryRunReportCommand (uncompiled). Left: vpn/training/remote editors, Station classes in Singleton_GroundStation, other cfg/systems cases in DebugCo"
@@ -2103,6 +2098,11 @@
      "by": "CLOUD_R3",
      "at": "2026-11-17T06:23Z",
      "text": "CLOUD_R3 2026-11-17: performance.pacing/pacing_wake/startup moved from dispatcher to ApplicationLifecycleDebugState.TryRunCommand (uncompiled). Left: performance.wires to WireDiagnostics, cfg/system.set, other cfg cases in DebugControl, Sta"
+    },
+    {
+     "by": "ROG",
+     "at": "2026-11-16T08:59Z",
+     "text": "Published a59f1743b2. Station.OS owns the after-camera Android fullscreen display-scale and desktop box-selection policies. Compared nine scenarios per configuration against the old code on Windows, Android, iOS and Android-target Editor wi"
     }
    ]
   },
@@ -2301,26 +2301,6 @@
      "by": "ROG",
      "at": "2026-11-15T04:14Z",
      "text": "46caaae8ad keeps one plot per Positioning panel and documents the Drone-Control screen. Windows Play fed GPS_STATUS through the actual decoder and checked the resulting plot texture and destruction on disable. Development is complete. The r"
-    }
-   ]
-  },
-  {
-   "n": 654,
-   "name": "Station root regroup finished (cloud). Left for local agents",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T08:59Z",
-     "text": "Published a59f1743b2. Station.OS owns the after-camera Android fullscreen display-scale and desktop box-selection policies. Compared nine scenarios per configuration against the old code on Windows, Android, iOS and Android-target Editor wi"
     }
    ]
   },
@@ -23492,5 +23472,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "fdca9e09c239194cdb2fcc3159db57a3d844439c"
+ "source_revision": "8d33681b5f36b71721c9d80bd37e850063577e24"
 }
