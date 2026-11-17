@@ -22909,22 +22909,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_UI_CORNER",
-     "since": "2026-11-17T12:03Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_TELEMETRY_CORNER",
      "at": "2026-11-17T11:13Z",
      "text": "Published 08b607be70: column now participates in the row and normal grid keeps its 492\u00d7192 size; Unity prefab layout passed preview on/off, two heights, normal/Pilot and no drone. Remaining: reparent second altitude scroller into the row an"
+    },
+    {
+     "by": "CODEX_UI_CORNER",
+     "at": "2026-11-17T12:07Z",
+     "text": "08b607be70 fixed overlap. Remaining row migration: strip lives under visibility-gated _rootPanel in optional Deferred Views; left slider lives in always-loaded UI_TOP_MOST and must work without telemetry and in MavChat portrait. Move/compos"
     }
    ]
   },
@@ -23776,5 +23772,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "3ef655344167bfc7cb76670b3517d6b053123d1f"
+ "source_revision": "22e3d200a328a01f58d126445965c988504adb14"
 }
