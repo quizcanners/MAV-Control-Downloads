@@ -1258,7 +1258,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_LIST_NULL",
+     "since": "2026-11-17T09:04Z",
+     "noted": "",
+     "progress": 57,
+     "ticked": 4,
+     "total": 7
+    }
+   ],
    "steps": [
     {
      "t": "One swipeable root on main: Lists Root (300 wide, pivot x 0) holds the lists with one UI_LeftListSwipeAway, one back panel with a blocker that stops map touches, one tongue shown only by LeftLists.Pan",
@@ -24163,5 +24172,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "35062f34220e9f0fb9135376c1c8771dcfd6fe24"
+ "source_revision": "b25294f22489f6feab8724f5541255ee1ee8319e"
 }
