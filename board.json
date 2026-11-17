@@ -2333,33 +2333,6 @@
    ]
   },
   {
-   "n": 686,
-   "name": "Dragged map object keeps its finger offset in screen pixels while zooming (no goal fits",
-   "done": "2026-11-14T13:16Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Store the finger-to-object offset in pixels at drag start (Navigation.DragState)",
-     "x": true
-    },
-    {
-     "t": "Place the object at the ground point under finger plus pixel offset each frame",
-     "x": true
-    },
-    {
-     "t": "Camera AGENTS.md guide line",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 687,
    "name": "Blurred World pseudo-decals still scan readers and enqueue an empty pass while FrozenDouble shows its kept picture; align with Bootstrap SPEC",
    "done": "2026-11-14T13:26Z",
@@ -22533,7 +22506,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_UI_LAYOUT2",
+     "since": "2026-11-17T13:16Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -23512,5 +23494,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "5000b5662e2efb3276a25f2e65192f0adef44d68"
+ "source_revision": "ce949b992e08d1b1401add2ce8720a6823a89667"
 }
