@@ -132,8 +132,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-17T10:12Z",
-     "text": "CPU.md c753be5654 isolates 119.8 ms GLES compile plus 296.6 ms link for Entities Graphics 6.6.0 SparseUploader.CopyKernel on Strong Dev 857 startup. Match the first ECS sparse upload to map-present and Ready using the direct GLES capture. B"
+     "at": "2026-11-17T10:14Z",
+     "text": "Strong Dev 857: 416.4 ms for GLES compile/link of Entities Graphics 6.6.0 SparseUploader.CopyKernel. Exact-PID log places it after Map Present (frame 9, 3.632 s) and before Bootstrap Ready (frame 12). Main UI Ready was frame 15 at 7.373 s. "
     }
    ]
   },
@@ -2574,37 +2574,6 @@
     }
    ],
    "notes": []
-  },
-  {
-   "n": 640,
-   "name": "Altitude scrollers beside video and suggestions (no goal fits",
-   "done": "2026-11-14T10:14Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [
-    "2026-11-14T10:13Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "LowerDock slider rects (UI_MainScreenSuggestion_ActionRows), grid hide (UI_MavTelemetryView), specs",
-     "x": true
-    },
-    {
-     "t": "Editor: if the left scroller's label overlaps the video, adjust the Altitude Slider prefab label width",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T10:13Z",
-     "text": "c468625dc7 keeps the left altitude scroller and its labels beside video even when cached telemetry bounds are invalid. At 543x276 the live dock placed the label 35 canvas units clear of video after the change (was 441 units inside its right"
-    }
-   ]
   },
   {
    "n": 642,
@@ -24108,5 +24077,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "58086a87038da7254edf8c9d225b224e9efa682f"
+ "source_revision": "d5e6de2e349944a1470aa86bc2449d738adfe842"
 }
