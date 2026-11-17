@@ -23283,25 +23283,22 @@
   {
    "n": 1478,
    "name": "Using Lenovo to trace which stage delays first imagery after cold launch on signed Android Test 855",
-   "done": "",
+   "done": "2026-11-17T07:10Z",
    "goal": false,
    "under": 429,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T07:05Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T07:10Z",
+     "text": "Lenovo restored in the foreground on exact signed Android Test 855. Cold-start Perfetto, screenshots and process log captured before the goal was cleared. Receipts: C:/MavControlEvidence/Getac-LenovoFirstImagery-20261117/run-070756Z. No dev"
+    }
+   ]
   }
  ],
  "verify": [
@@ -23870,5 +23867,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "aa54809a3ef10d5932b0770e80cb9ae31ba7890d"
+ "source_revision": "f89547e64bfb8588fbf23e5fd07ef7f81b0edd88"
 }
