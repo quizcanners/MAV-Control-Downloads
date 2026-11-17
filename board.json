@@ -2582,33 +2582,6 @@
    ]
   },
   {
-   "n": 651,
-   "name": "Compass star shows the Sun direction with its own procedural shader (UI SPEC",
-   "done": "2026-11-14T10:40Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "5932d97618: both Navigation compass Images use Compass Star Sun (UV1.xy local UV supplied on mesh rebuild). The shared MGMT-ScrollSelector icon material stays separate.",
-     "x": true
-    },
-    {
-     "t": "2026-11-14: replaced the bump-texture variant of BlurDisplay Bumped (which read as plain blur) with `Compass Star Sun.shader`: procedural bevelled four-point rose normals from UV1.xy, lit by `_Compass",
-     "x": true
-    },
-    {
-     "t": "2026-11-14 (CLOUD_THREAD): the star showed blur because `Compass Star Sun.shader` read `_BlurredScreen` as its base colour. It now reads the sprite's own colour (`_MainTex.rgb` x tint) and the sun bum",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 654,
    "name": "Station root regroup finished (cloud). Left for local agents",
    "done": "",
@@ -23545,6 +23518,20 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1516,
+   "name": "RTX box",
+   "done": "",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -24113,5 +24100,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "4dd29ee06f22d696741e10c48b9bc6251a7a034a"
+ "source_revision": "15ee4e8268340539cb2907c476d26709dc01ab1b"
 }
