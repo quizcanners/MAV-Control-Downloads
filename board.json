@@ -1346,16 +1346,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_SHADER_REVIEW",
-     "since": "2026-11-17T18:52Z",
-     "noted": "",
-     "progress": 22,
-     "ticked": 2,
-     "total": 9
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Cloud, on main: startup cuts, Patch Preparation (32a9302f, 55dbede20d), hand-written heartbeat reader, skip sealing for nine hash types (build 818), 4 Hz crypto handshake only while a peer has no key,",
@@ -1396,11 +1387,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_MASK_SYNC",
-     "at": "2026-11-17T14:52Z",
-     "text": "Task 1538 published 061fdaeb12: Mask Sync branch summaries are incrementally bounded; focused Unity 22/22 and Roslyn NEW ERRORS none. Strong Android timing remains to be measured."
-    },
-    {
      "by": "CODEX_PEER_GREETING",
      "at": "2026-11-17T15:26Z",
      "text": "Task 1545 published 1426396591: greeting JSON snapshots move serialization to sender; Unity parity test 1/1, isolated Roslyn clean. Live peer and device timing unmeasured."
@@ -1409,6 +1395,11 @@
      "by": "GETAC",
      "at": "2026-11-17T15:51Z",
      "text": "Done: both Dev 858 artifacts recorded on main in 954bbfeda0; native tablet evidence in CPU.md 72a75372e9."
+    },
+    {
+     "by": "MAC_SHADER_REVIEW",
+     "at": "2026-11-17T19:03Z",
+     "text": "Published b804204e46 on main: Ray Skybox skips ground cubemap reads at full orbit; four UI shaders reduce fragment arithmetic. Baseline.md has optimized Vulkan counts. 21 keyword sets compiled on Metal/GLES3/Vulkan; 780 UI and 36 sky Metal "
     }
    ]
   },
@@ -23055,5 +23046,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "7dea0b51072e3ea3be1cfdbba106671e51e9e6ce"
+ "source_revision": "c28d7443f37580b1380df1d5144d86a583de84e6"
 }
