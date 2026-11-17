@@ -2558,26 +2558,6 @@
    ]
   },
   {
-   "n": 679,
-   "name": "Cesium SPEC",
-   "done": "2026-11-14T12:12Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T12:12Z",
-     "text": "Done: 612bd14871, merge 821814d9f5 (PR 86). Skybox combines the original half celestial sum with float sky colour before fog; glow, directions and textures retained."
-    }
-   ]
-  },
-  {
    "n": 680,
    "name": "Settings App updates",
    "done": "2026-11-14T12:50Z",
@@ -23238,6 +23218,42 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1528,
+   "name": "Video processing",
+   "done": "",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CLOUD_AREA",
+     "since": "2026-11-17T12:12Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Area controls show whenever any processor is on",
+     "x": false
+    },
+    {
+     "t": "Spec and area guide updated",
+     "x": false
+    },
+    {
+     "t": "Temporal denoise and Contrast boost shaders apply the area",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -23806,5 +23822,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "9d505a6d1d6a6c4bc29b80c74bd4ed71eeb4e0c3"
+ "source_revision": "3fd87bc447e7d2f48e350b52fbd8e9c8f32de5b1"
 }
