@@ -22598,6 +22598,33 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1558,
+   "name": "Convergence branches follow their specs with cached hashes and no repeated branch work; use Web Mercator as reference and optimize actual work before spreading it across frames",
+   "done": "",
+   "goal": true,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Elements mask lazy hashes and likely-complete download groups",
+     "x": false
+    },
+    {
+     "t": "Review other convergence owners against the shared contract",
+     "x": false
+    },
+    {
+     "t": "Measure correctness, repeated work and convergence latency on available devices",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -23166,5 +23193,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "bd62f8ab216b12bd43935407d964d0ce89419489"
+ "source_revision": "638f7179135992365b74e4d4d5e0a0c8c2b974f7"
 }
