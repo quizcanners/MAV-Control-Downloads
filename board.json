@@ -2377,26 +2377,6 @@
    ]
   },
   {
-   "n": 706,
-   "name": "Smoke rendering repeats cloud constants per pixel. Align Training and Situation smoke with Shader_Toolbox stage placement",
-   "done": "2026-11-14T15:04Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T15:03Z",
-     "text": "Published b1a1c3a318: Training and Situation smoke prepare camera-to-cloud offset, radius squared and reciprocal soft distance at vertices in the existing fields. No extra texture, variant or pass. Metal compiled 18 stages; 432 image compar"
-    }
-   ]
-  },
-  {
    "n": 707,
    "name": "using Strong for Android Test 839 map frame cadence",
    "done": "2026-11-14T15:18Z",
@@ -22891,7 +22871,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_FAR_HOME",
+     "since": "2026-11-17T15:03Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -22907,7 +22896,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T15:05Z",
+     "text": "Resolved the actual SendTo caller offsets against the signed Dev 858 ELF. The three greeting paths are SyncVPNDevices, Crypto_Handshake and SyncAssignedNames. The passport is absent from these samples. CPU.md 5208e146c8 gives counts per dev"
+    }
+   ]
   }
  ],
  "verify": [
@@ -23476,5 +23471,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "a969bbbb87f471ca3e2abcfeed1265d843d993ce"
+ "source_revision": "d6f0577ad6d17a1b071bff51e5be806d555d3619"
 }
