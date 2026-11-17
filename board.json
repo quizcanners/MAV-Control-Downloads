@@ -1489,16 +1489,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T03:32Z",
-     "noted": "",
-     "progress": 22,
-     "ticked": 2,
-     "total": 9
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Cloud, on main: startup cuts, Patch Preparation (32a9302f, 55dbede20d), hand-written heartbeat reader, skip sealing for nine hash types (build 818), 4 Hz crypto handshake only while a peer has no key,",
@@ -1550,8 +1541,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-17T02:34Z",
-     "text": "Dev 853 booted both tablets and held target 8 FPS untouched. Strong legacy Retention accounted for 58.2% of native idle samples, with both pre- and post-maintenance walks present. Lenovo still used >2 cores and Android refused native profil"
+     "at": "2026-11-17T04:23Z",
+     "text": "Android Test 855 on Strong and Lenovo matches sealed source 41302f72a8. Settled presentation ~133/128 ms, app CPU 1.56/2.22 cores. Lenovo: first imagery 29\u201338 s; later GLES ran out of pages on 256x256 textures, also seen on 850. CPU.md d679"
     }
    ]
   },
@@ -23352,5 +23343,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "be3e72edaea17355a0e723ec752a74c9e0708ff1"
+ "source_revision": "c25f4c0784d19e1ef45551b0c682cf6ee887b492"
 }
