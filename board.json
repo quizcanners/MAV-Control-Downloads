@@ -23557,7 +23557,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-17T09:03Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Persist the bake intent and freeze the saved Positioned source revision",
@@ -24145,5 +24154,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "2795017f2044432d865f3d2bf2025bc522d5a18c"
+ "source_revision": "e7cc1df174a1f5e9603b6e4edfbbcf8310dd21c7"
 }
