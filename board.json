@@ -22460,7 +22460,7 @@
   {
    "n": 1528,
    "name": "Video processing",
-   "done": "",
+   "done": "2026-11-17T15:35Z",
    "goal": false,
    "under": 431,
    "ticks": [
@@ -22469,16 +22469,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_TEMPORAL_AREA",
-     "since": "2026-11-17T15:27Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 4,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Area controls show whenever any processor is on (UI_MotionTuningPanel)",
@@ -22502,6 +22493,11 @@
      "by": "CLOUD_AREA",
      "at": "2026-11-17T12:13Z",
      "text": "UI shared, Contrast applies area; left: Temporal denoise passes apply it"
+    },
+    {
+     "by": "CODEX_TEMPORAL_AREA",
+     "at": "2026-11-17T15:35Z",
+     "text": "Published c69c2b729a. Unity 2/2 area passthrough tests and Editor compile passed; Roslyn NEW ERRORS none. D3D11 shader and Linux VPI native visual checks not run on this Mac."
     }
    ]
   },
@@ -23505,5 +23501,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "dff36adf2c0af9cafd88a566cbdd305e67ce9eb4"
+ "source_revision": "eba5200ba7cdeebef901b6ac26f39c1cc63550c2"
 }
