@@ -2215,46 +2215,6 @@
    ]
   },
   {
-   "n": 757,
-   "name": "using Strong for Destination Sync and Noise IK attribution on the signed Dev build",
-   "done": "2026-11-14T23:18Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-14T23:17Z",
-     "text": "3f074c8712 records signed 842 rebuild at 3835d946cb, installed hash matched and map rendered. Strong completed 32 pinches, max 66.74 ms with 28.82 ms Gfx.WaitForPresentOnGfxThread in the overlapping frame. Separate gap: Prepare Ukrainian Bo"
-    }
-   ]
-  },
-  {
-   "n": 764,
-   "name": "Wind Direction animation must keep the visible map and Liquid Glass live",
-   "done": "2026-11-14T23:17Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T23:16Z",
-     "text": "Published 0a89e118c4: Wind Direction presents its cached sample before MapRender and reports only visible shader motion. Direct cause: no wake report; deeper reason: independent LateUpdate plus the unchanged-sample return bypassed frame dem"
-    }
-   ]
-  },
-  {
    "n": 765,
    "name": "Stop Destination Sync from driving Noise IK on roster entries it cannot sync with. Strong private Dev 842 at 3835d946cb measured 1",
    "done": "2026-11-14T23:27Z",
@@ -22188,29 +22148,20 @@
   {
    "n": 1575,
    "name": "3D generation",
-   "done": "",
+   "done": "2026-11-17T23:24Z",
    "goal": false,
    "under": 431,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-17T22:30Z",
-     "noted": "2026-11-17T23:15Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-17T23:15Z",
-     "text": "Repair in progress: pending Synthetic ground placement and queued Save intent now keep the canonical source unchanged; Save failures persist until retry. Windows native replays and 30 tests passed. Tightening shared publication so unresolve"
+     "at": "2026-11-17T23:24Z",
+     "text": "ad55299523 published: Synthetic unresolved ground intent survives with its pose; one vertical correction moves the registered capture without changing canonical bytes. Save waits for correction, retries preserve the draft, and failure reaso"
     }
    ]
   },
@@ -22808,5 +22759,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "2c222619f89da1ce6d1725a9cafcfa7e02d43535"
+ "source_revision": "d5557112086c131ded17773a59d26fa62c1085ca"
 }
