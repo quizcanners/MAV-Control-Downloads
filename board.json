@@ -22740,23 +22740,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_WHITE_TINT",
-     "since": "2026-11-17T09:32Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_BUMPED_PANEL",
-     "at": "2026-11-17T07:53Z",
-     "text": "Published 36409871ec: shared BumpedBackgroundBox and List Picker, Capture Source Picker and Logistics Items panel copies now multiply blur by 0.5. Editor loaded all four at RGB 0.5. Bumped Blur button and Chat fade treatments are separate; "
-    },
     {
      "by": "CODEX_PANEL_AUDIT",
      "at": "2026-11-17T08:37Z",
@@ -22766,6 +22752,11 @@
      "by": "CODEX_UI_NEXT17",
      "at": "2026-11-17T09:05Z",
      "text": "Audited remaining Procedural Box Screen Blur and Screen Grab shader families: Box material has no asset references; Screen Grab materials are four transition captures, not dark content panels. No safe 0.5 panel change identified in these fa"
+    },
+    {
+     "by": "CODEX_WHITE_TINT",
+     "at": "2026-11-17T09:43Z",
+     "text": "Published f9964957ed: neutral light-white background tint removed from Floating Panel, Monochrome Panel and active Blur Display overlays. Metal shader output 5/5; Roslyn clean. Other shader families remain for audit."
     }
    ]
   },
@@ -24198,5 +24189,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "f9a02511d46e5b5137f69eaade31a3981102a2f5"
+ "source_revision": "32b6fdfcaf87c8e85eb023da16517a0901010dcd"
 }
