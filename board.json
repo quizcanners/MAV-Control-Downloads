@@ -2177,20 +2177,6 @@
    ]
   },
   {
-   "n": 711,
-   "name": "using Strong for the containing Android Dev camera and pinch performance run",
-   "done": "2026-11-14T16:40Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 714,
    "name": "Windows Non-interacting state wakes with no operator input. Capture the affected station via app.lifecycle",
    "done": "2026-11-14T18:36Z",
@@ -2212,46 +2198,6 @@
      "by": "HEAVY",
      "at": "2026-11-14T18:36Z",
      "text": "Windows D3D11 Play at 759cea3370: real native WindowCapture Running/Streaming with a static ChromeCast fixture. After input settled, 13 consecutive samples held 8 FPS, FrozenDouble, MapStatic, Non-interacting=True and unchanged input revisi"
-    }
-   ]
-  },
-  {
-   "n": 715,
-   "name": "Peer crosshair appearance and disappearance wake the map even outside the camera view. Match Peers SPEC",
-   "done": "2026-11-14T16:28Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T16:27Z",
-     "text": "Published 22a61cc4c8. Crosshair placement and hiding report Peer only inside the camera view. Native pending-broadcast/ManagedUpdate probe passed visible and off-screen appearance/hiding plus two behind-camera hides; object activation and d"
-    }
-   ]
-  },
-  {
-   "n": 716,
-   "name": "Dynamic Resolution ignores a live peer crosshair rotating at a fixed position. Match Peers SPEC",
-   "done": "2026-11-14T16:40Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T16:39Z",
-     "text": "Published 6e9f1d8b5a: stationary-center peer crosshair rotation reports visible motion through the existing pixel threshold. Position/orientation share the accepted pose; unchanged, bounded-jitter and off-screen turns stay quiet. Native per"
     }
    ]
   },
@@ -22615,6 +22561,29 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1551,
+   "name": "MGRS",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MGRS_EMPTY",
+     "since": "2026-11-17T16:41Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -23183,5 +23152,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "3794861d76e5b0dec6c1ccbe17aca2078d4b6644"
+ "source_revision": "3b2a76272143931774bd19f0bb7bdffa548ac2c8"
 }
