@@ -2856,7 +2856,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_HOTRELOAD_AUDIT",
+     "since": "2026-11-17T15:28Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -23482,5 +23491,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "b885fa233a15c6c15a48ba656be2d072a9e8ea1b"
+ "source_revision": "580ba88c37d661f9e859b761b7ed98fc7a747b26"
 }
