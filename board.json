@@ -2333,26 +2333,6 @@
    ]
   },
   {
-   "n": 658,
-   "name": "Host the shared glass selector (UI_GlassSelector) for the Test/Release channel row in Settings > App updates",
-   "done": "2026-11-14T12:26Z",
-   "goal": false,
-   "under": 374,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T12:25Z",
-     "text": "Implemented on main in c423fb507a; Settings/Updates bumped in 5b6c0d34ed. Windows Unity compile and Roslyn clean; 32/32 focused EditMode tests. Play-mode preview exercised tap, horizontal selection, vertical scroll, clipped hit surface and "
-    }
-   ]
-  },
-  {
    "n": 663,
    "name": "Pilot view",
    "done": "2026-11-14T12:50Z",
@@ -2594,26 +2574,6 @@
      "by": "GETAC",
      "at": "2026-11-14T12:50Z",
      "text": "Flick acknowledges only the current DJI warning types. Reordered, repeated and temporarily cleared codes do not reopen the notice; a new type shows latest warning and count. Tap opens copyable full details. Source 01731fd6d6 and 1b7d32b886."
-    }
-   ]
-  },
-  {
-   "n": 682,
-   "name": "Pano360 depth reads still derive an unused mip level",
-   "done": "2026-11-14T12:29Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T12:28Z",
-     "text": "Done: db4bb02828 via 5d5ca68f57 (PR87); all three Pano360 depth readers use LOD 0. Native Metal: four depth off/on states compile, five shared-projection comparisons are RGBA-identical, edited-shader fixture passes. Owner depth target has o"
     }
    ]
   },
@@ -23187,29 +23147,25 @@
   {
    "n": 1527,
    "name": "Reduce hidden Chat Window prewarm work on Android (UI SPEC",
-   "done": "",
+   "done": "2026-11-17T12:30Z",
    "goal": false,
    "under": 429,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_CHAT_ASYNC",
-     "since": "2026-11-17T12:20Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_CHAT_PREWARM",
      "at": "2026-11-17T12:17Z",
      "text": "Published 89579c5709: prewarm clones Chat under an inactive temporary parent, avoiding immediate OnEnable/disable; first open activates before ResetForOpen. Unity Play lifecycle probes passed for both prefabs, Roslyn NEW ERRORS none; test i"
+    },
+    {
+     "by": "CODEX_CHAT_ASYNC",
+     "at": "2026-11-17T12:30Z",
+     "text": "Published 89579c5709 + 1e519a42c4: inactive Chat prewarm now uses InstantiateAsync, holds integration for clear idle budget, cancels on source change/teardown, and explicit open forces immediate completion. Unity Play probes covered wait, a"
     }
    ]
   },
@@ -23840,5 +23796,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "6f332710b7eebdec57c6109fb84569b182c41885"
+ "source_revision": "4ffb718a7afe160c708a75e03c47c03588076df5"
 }
