@@ -1253,16 +1253,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_LIST_CLICK",
-     "since": "2026-11-17T05:43Z",
-     "noted": "",
-     "progress": 57,
-     "ticked": 4,
-     "total": 7
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "One swipeable root on main: Lists Root (300 wide, pivot x 0) holds the lists with one UI_LeftListSwipeAway, one back panel with a blocker that stops map touches, one tongue shown only by LeftLists.Pan",
@@ -1303,6 +1294,11 @@
      "by": "CODEX_MAC_UI",
      "at": "2026-11-15T16:44Z",
      "text": "Mac Editor MapOnly: clicking outside the visible left-list tongue closed Telemetry while the tabs stayed. Two automated row drags selected the row; input trace shows press and release in the same frame, so neither is a valid real-drag check"
+    },
+    {
+     "by": "CODEX_LIST_CLICK",
+     "at": "2026-11-17T05:57Z",
+     "text": "Task 1459 paused: local unpublished gesture arbitration draft, 20/21 Unity tests; fast-right flick on Photo folder incorrectly opens context. See task 1459 for exact handoff."
     }
    ]
   },
@@ -23529,5 +23525,5 @@
    "since": "2026-11-17T05:36Z"
   }
  ],
- "source_revision": "f78a8581eb4372805b26542869126c590e0ff9e5"
+ "source_revision": "d3d3f65df7a1d89f478223430f81124928edf5e2"
 }
