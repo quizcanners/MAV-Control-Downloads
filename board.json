@@ -355,19 +355,19 @@
    ],
    "notes": [
     {
-     "by": "CODEX_MAC_LIVE",
-     "at": "2026-11-16T18:57Z",
-     "text": "Current Editor compiled and entered Play with isolated test identity; Bootstrap, Map, and Main UI scenes loaded but Game view stayed black and runtime diagnostics bridge refused connection, so MavChat panel could not be inspected. Play stop"
+     "by": "CODEX_MAC_ROW",
+     "at": "2026-11-16T19:04Z",
+     "text": "Current main hides the peer row body in Chat and uses a separate previous-row separator; a Mac regular-Chat screenshot does not reproduce the reported MavChat portrait row. Needs affected group row on a phone/current build before selecting "
     },
     {
-     "by": "CODEX_MAC_BLACK_GAME",
-     "at": "2026-11-16T19:05Z",
-     "text": "Black Game view was test setup: isolated profile refused default diagnostic ports (SharedDiagnosticPort). Restart with -mav-editor-port 18693 -mav-runtime-port 18692 admitted MapOnly; Bootstrap Ready 3.6 s and runtime diagnostics worked. Re"
+     "by": "CODEX_MAVCHAT_EDITOR",
+     "at": "2026-11-16T22:52Z",
+     "text": "Inspected the live Editor prefab: Chat suppresses Button Dark Opaque block while Row Light and the independent Previosu Separator remain; the light also owns selection/hover, and removing it would break those states. Current source/prefab m"
     },
     {
-     "by": "CODEX_MAVCHAT_LAYOUT",
-     "at": "2026-11-17T07:18Z",
-     "text": "Current Editor: ChatPortraitWindowTests 6/6 and MavChatSheetTests 97/97. Source places rows below search at runtime; viewport clipping exists. Actual full-stop panel and last-row edge need phone render; no device connected."
+     "by": "CODEX_UI_1407",
+     "at": "2026-11-17T07:17Z",
+     "text": "Current main keeps Chat row body hidden; remaining Row Light handles selection and pointing, so removing it is unsupported. iPad and iPhone unavailable in devicectl; prior Editor inspections did not reproduce the dashed edges. Resume with a"
     }
    ]
   },
@@ -19578,36 +19578,6 @@
    ]
   },
   {
-   "n": 1407,
-   "name": "Mav Chat list rows (Editor)",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_ROW",
-     "at": "2026-11-16T19:04Z",
-     "text": "Current main hides the peer row body in Chat and uses a separate previous-row separator; a Mac regular-Chat screenshot does not reproduce the reported MavChat portrait row. Needs affected group row on a phone/current build before selecting "
-    },
-    {
-     "by": "CODEX_MAVCHAT_EDITOR",
-     "at": "2026-11-16T22:52Z",
-     "text": "Inspected the live Editor prefab: Chat suppresses Button Dark Opaque block while Row Light and the independent Previosu Separator remain; the light also owns selection/hover, and removing it would break those states. Current source/prefab m"
-    },
-    {
-     "by": "CODEX_UI_1407",
-     "at": "2026-11-17T07:17Z",
-     "text": "Current main keeps Chat row body hidden; remaining Row Light handles selection and pointing, so removing it is unsupported. iPad and iPhone unavailable in devicectl; prior Editor inspections did not reproduce the dashed edges. Resume with a"
-    }
-   ]
-  },
-  {
    "n": 1408,
    "name": "3D Street View first points keep the Synthetic drone fixed through terrain scale fit",
    "done": "",
@@ -23210,5 +23180,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "afbef5fc67b13d4f1f1b3a261e0c313c115b15d3"
+ "source_revision": "767d335f4fb7be7e30ba415ab3f867fc8b8d9bc5"
 }
