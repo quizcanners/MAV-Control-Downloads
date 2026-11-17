@@ -2284,60 +2284,6 @@
    ]
   },
   {
-   "n": 743,
-   "name": "using Strong for moving GPU intervals and pinch presents",
-   "done": "2026-11-14T19:22Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 745,
-   "name": "Remove the per-pixel globe-relief normal-to-world transform by publishing the Earth-fixed Sun direction in the existing C# celestial update. Planet Renderer SPEC",
-   "done": "2026-11-14T19:27Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T19:26Z",
-     "text": "Published c27e0e3b49: orbital relief uses the Sun prepared in C#, removing three dot expressions from emitted Metal (19 to 16, High/Low); four sample sites unchanged. 144 native before/after pairs differ by at most 1.192093e-7; 64 Metal/GLE"
-    }
-   ]
-  },
-  {
-   "n": 746,
-   "name": "using Strong for unlocked paired pinch and GPU capture",
-   "done": "2026-11-14T19:32Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-14T19:32Z",
-     "text": "Dev 840: 16 paired coast pinches. Normal peak presents 66.74/66.58 ms; NoPlanet 49.87/50.20 ms. Valid GPU medians 29.15/29.14 vs 20.03/20.05 ms; uneven rejected GL Result output (71/121 vs 9/14). No 80 ms gap and 0/7 exact retained Unity/GP"
-    }
-   ]
-  },
-  {
    "n": 747,
    "name": "Drawings outside the showing camera and hidden ping contexts hold the map at full rate instead of following Bootstrap SPEC",
    "done": "2026-11-14T20:11Z",
@@ -22418,25 +22364,22 @@
   {
    "n": 1564,
    "name": "Geometry convergence repeats dirty ancestor work and restarts child hash preparation (Grid Geometry SPEC",
-   "done": "",
+   "done": "2026-11-17T19:36Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T19:01Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T19:36Z",
+     "text": "Published 6335d8c852: Geometry retains child preparation, skips current summaries and applies ready child deltas. Roslyn e/a/p/m: NEW ERRORS none. Actual-method host: 23 controls and six falsifiers passed; work counts and ports documented i"
+    }
+   ]
   },
   {
    "n": 1565,
@@ -23023,5 +22966,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "6ca48db65810502a1f552284a62b4ea816c12856"
+ "source_revision": "15217f20f583d2b1692bc4edcfc3e0138faefaf7"
 }
