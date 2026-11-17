@@ -2059,16 +2059,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_ADMIN",
-     "since": "2026-11-17T00:21Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Cause read in code (CLOUD_COMPLEXITY, not run on devices): a named Admin's app reports Station.Persistent.Crypto.TunnelKeys.PublicKey (DirectRouteManager.AdvanceAdmins, AdminOp.Tunnel; HubRole.IsAdmin",
@@ -2087,7 +2078,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_ADMIN",
+     "at": "2026-11-17T00:22Z",
+     "text": "Awaiting the documented A/B decision; no changes made."
+    }
+   ]
   },
   {
    "n": 559,
@@ -23152,5 +23149,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "4f0b2df6b04232a569cbdab50d01a774b1b91b0c"
+ "source_revision": "1592f3f75a66b02fac8be15a0871e936d5033d62"
 }
