@@ -22970,8 +22970,8 @@
     {
      "who": "CODEX_BLUR_RECHECK",
      "since": "2026-11-17T07:46Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-17T07:47Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -22987,6 +22987,11 @@
      "by": "CODEX_BLUR_AUDIT",
      "at": "2026-11-17T07:44Z",
      "text": "Published cd7669465a, 57a6c9ae8f, 996a4b9b8d and 0247d51f46: Photo/Waypoints headers, Metrics, contextual drag and Chat peer backdrop now use 0.5. Editor imported and checked each. Untinted Blur Display and Floating Panel families audited; "
+    },
+    {
+     "by": "CODEX_BLUR_RECHECK",
+     "at": "2026-11-17T07:47Z",
+     "text": "Audited Monochrome Panel shader materials: Landscape Chat Message, MavChat Message, List Row and Monochrome Panel all use nonzero tint mix (0.5, 1, 0.25 and 0.3); these are tinted exceptions, not untinted blur outliers. iPhone and iPad curr"
     }
    ]
   },
@@ -23974,5 +23979,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "88ba17c4a6d873a1cb78367d8c2a3fa0c06c77ff"
+ "source_revision": "0ef870569a31161d686bd3bc3aa2fd44b64c3f52"
 }
