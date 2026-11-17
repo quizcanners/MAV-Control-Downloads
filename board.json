@@ -23139,7 +23139,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-17T11:16Z",
+     "text": "46eccf095e makes Unity DA3 read the original Video Source texture directly and keeps the tensor shape and precision of the Python reference. For continuous capture, borrow the existing VideoFrameSnapshot during inference and retain that sam"
+    }
+   ]
   },
   {
    "n": 1507,
@@ -24026,5 +24032,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "fe7ccf5d1e4baeea1dc6415d96e09582f5514743"
+ "source_revision": "cd3deaf95932ee0ca73bd00686ac16591481f711"
 }
