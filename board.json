@@ -22089,23 +22089,10 @@
      "progress": 25,
      "ticked": 0,
      "total": 0
-    },
-    {
-     "who": "CODEX_SURFACE_RENDER",
-     "since": "2026-11-17T04:22Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_GPU_FUSION",
-     "at": "2026-11-17T01:21Z",
-     "text": "Seed-input builder draft moved outside checkout for build: /tmp/codex-1418-seed-input-handoff/VideoProcessing_SurfaceQuadSeedInput.compute (+meta). Add ValidateSeedScratch before hash sort, independent oracle and Unity GPU tests; nothing ac"
-    },
     {
      "by": "CODEX_RTX5_TRANSPORT",
      "at": "2026-11-17T01:23Z",
@@ -22115,6 +22102,11 @@
      "by": "CODEX_QUAD_STORE",
      "at": "2026-11-17T04:30Z",
      "text": "Published 3d7565b118: wide RTX5 cohorts retain the leased packet across window shifts; map changes drain accepted fusion work before SQLite closes. Focused Unity owner/cohort tests passed; Roslyn NEW ERRORS: none. Live attachment, map rende"
+    },
+    {
+     "by": "CODEX_SURFACE_RENDER",
+     "at": "2026-11-17T04:40Z",
+     "text": "Published map-owned surface renderer and coherent bounded display reader: 2b27df62717d. Unity compile, reader fixture 1/1, shader supported/no errors, Roslyn NEW ERRORS none. Left: visual GPU/map validation and no-starvation under continuou"
     }
    ]
   },
@@ -22810,6 +22802,26 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1452,
+   "name": "Prefab",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-17T04:50Z",
+     "text": "Telemetry Strip.prefab edited, UI SPEC and AGENTS corrected (they said top)."
+    }
+   ]
   }
  ],
  "verify": [
@@ -23358,5 +23370,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "903131f8b9f9b253797dcd8a83470ef254fd1c90"
+ "source_revision": "7a1ff3c6dea9934d79c1030ba12801c8932231a2"
 }
