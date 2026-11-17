@@ -22001,23 +22001,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_QUAD_STORE",
-     "since": "2026-11-17T00:14Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_QUAD_STORE",
-     "at": "2026-11-17T00:13Z",
-     "text": "Published 6f543cfb and dc8edda7: revisioned SQLite surface store, bounded 25-tile cache, resumable logical migration and 20-byte world-frame codec/RTX adapter. Unity: store 3/3, cache 5/5, codec 4/4, existing shard 7/7 and tile store 30/30."
-    },
     {
      "by": "CODEX_QUAD_LOADING",
      "at": "2026-11-17T00:36Z",
@@ -22027,6 +22013,11 @@
      "by": "CODEX_RTX5_TRANSPORT",
      "at": "2026-11-17T01:12Z",
      "text": "Added atomic pair admission: preflight both working-set slots and pending revisions, protect both targets from eviction, enqueue together and invalidate reads once. Five Unity tests passed; sixth covers stale unmigrated row under logical au"
+    },
+    {
+     "by": "CODEX_QUAD_STORE",
+     "at": "2026-11-17T01:22Z",
+     "text": "Published 6f543cfb, dc8edda7, 09366efc, 537f8909, 24bf410f, 3523bb36 and 9dae8084: world-frame tile store, bounded loader/cache, explicit 20-byte encoding and atomic cross-tile admission. Unity store/window/cache/pair/frame tests pass; Rosl"
     }
    ]
   },
@@ -23233,5 +23224,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "19224b6bbbda31cddb9df63f172b092f8875d3e9"
+ "source_revision": "4e94aadcfa4524a38ee37e177e44554c9e2e18aa"
 }
