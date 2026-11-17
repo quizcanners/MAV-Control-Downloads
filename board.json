@@ -22205,16 +22205,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-17T04:19Z",
-     "noted": "2026-11-17T04:19Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -22224,8 +22215,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-17T04:19Z",
-     "text": "7d520e8357 lands two retained anchors in one depth pass. Matched RTX replay recovered more windows and lowered common GPS error. Backdoor mapped and showed grounded video; both workers accepted the same windows on the live trace. Next start"
+     "at": "2026-11-17T04:32Z",
+     "text": "1babb6a6c6 preserves the first Street View window and buffers later frames during worker startup. Two Unity Backdoor replays reduced the startup gap and improved window acceptance. Cold warmup cancel and restart passed. Unity compiled, Rosl"
     }
    ]
   },
@@ -23334,5 +23325,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "9378350f8c42af3f035607c424db006aecc36c7e"
+ "source_revision": "7585d0165ac27109ad72a53634d263f1d58f0d9d"
 }
