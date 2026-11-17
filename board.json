@@ -22698,7 +22698,7 @@
   {
    "n": 1448,
    "name": "Measure camera.dragtrace motion in Earth-fixed coordinates so a map origin shift is not counted as another camera movement. Preserve the map drag behavior (Camera SPEC",
-   "done": "",
+   "done": "2026-11-17T02:49Z",
    "goal": false,
    "under": 363,
    "ticks": [],
@@ -22707,18 +22707,15 @@
    "flags": [
     "verify-only"
    ],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T02:24Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T02:49Z",
+     "text": "Earth-fixed drag trace fix on main (5315b6b7e5 and f1d6c1aa3e). Strong Dev 853 independently showed the full rig step on the first frame and zero metres in the following two. The old local trace counted the origin reset. The fixed Editor fi"
+    }
+   ]
   }
  ],
  "verify": [
@@ -23267,5 +23264,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "8aa4b80ff942970268def70485bcf008024b9348"
+ "source_revision": "82ba78e739fb0e55c9a2d76ab38e690366858312"
 }
