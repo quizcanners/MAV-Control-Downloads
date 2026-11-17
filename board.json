@@ -23116,25 +23116,22 @@
   {
    "n": 1469,
    "name": "Repair the Street View video-frame capture caller left on the old ten-argument Capture.StartSave signature by the task 1466 refactor. Preserve the frame",
-   "done": "",
+   "done": "2026-11-17T06:58Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T06:41Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T06:58Z",
+     "text": "558ba6b488 on main. Uses the current Capture.StartSave signature and preserves the Video prefix before saving. Unity 6000.6.8f1 compiled the exact repaired caller with no compiler warnings or errors and Roslyn reported NEW ERRORS: none. Rem"
+    }
+   ]
   },
   {
    "n": 1470,
@@ -23860,5 +23857,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "d715da50367369164c87a91f09bb07af88568af5"
+ "source_revision": "a0db21d149f2727e525f4af1e8a1b15fab8c56f1"
 }
