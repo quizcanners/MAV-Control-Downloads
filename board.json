@@ -2235,26 +2235,6 @@
    ]
   },
   {
-   "n": 768,
-   "name": "Control Zones published bakes",
-   "done": "2026-11-14T23:51Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T23:50Z",
-     "text": "Published d6a9c9cba7: Control Zone publication, painting, clearing and fade completion refresh retained pictures; only visible nonempty transitions report motion before MapRender. Slow decay stays quiet. Native ControlZoneMotion 1/1, Situat"
-    }
-   ]
-  },
-  {
    "n": 769,
    "name": "using Strong for the Destination Sync Noise IK idle comparison and reconnect",
    "done": "2026-11-15T00:53Z",
@@ -21912,7 +21892,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-17T23:51Z",
+     "text": "Reproduced again on ad55299523 plus native handoff work: leaving Play after opening Street Views logs the same Landscape Search SetParent error from UI_BottomLeftRow.Detach:116 via UI_MavTelemetryView.OnDestroy. This is separate from recons"
+    }
+   ]
   },
   {
    "n": 1566,
@@ -22771,5 +22757,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "3fac7fb350b2fd4eb198a23b4e9bfb95f69419cf"
+ "source_revision": "779c68c7e9c7d8a36bb1c08c65d825d34305c828"
 }
