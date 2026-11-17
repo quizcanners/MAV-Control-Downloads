@@ -1398,16 +1398,7 @@
    "priority": "normal",
    "parked": true,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_TONGUE",
-     "since": "2026-11-17T04:39Z",
-     "noted": "",
-     "progress": 80,
-     "ticked": 4,
-     "total": 5
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "All notification cards use the shared receipt and folding behavior; the four plain status notices (Connection Lost, Remote Sensors Offline, Motorola Warning, VPN not Found) hold a receipt in their own",
@@ -1430,7 +1421,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_TONGUE",
+     "at": "2026-11-17T04:57Z",
+     "text": "Tongue drag feedback published in 7f0f8646b3; task 1453 done, Unity 5/5 plus 10/10 swipe tests, Roslyn clean, Main/Notifications verify queued b4d6bee39b."
+    }
+   ]
   },
   {
    "n": 412,
@@ -23446,5 +23443,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "71bf9c12a359a3967e923b0fb1e7e7b3ca22627e"
+ "source_revision": "4383cb2f126ed553d6f187f00c211b1c84bf8044"
 }
