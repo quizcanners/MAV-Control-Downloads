@@ -334,16 +334,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_CHAT_SELECTED",
-     "since": "2026-11-17T08:34Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 6,
-     "total": 12
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Chat: full-screen message view with Reply, preview shortening, long-press menu with Delete (0a7c2065fe, 5a9805c455); swipe-away of the left lists only in Main view, tabs stay (de27488115, LeftLists.Ch",
@@ -396,11 +387,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-15T05:20Z",
-     "text": "Done: adcd8de85a fixes capsule draw/touch order above plaque, content and MGRS; task 799 complete."
-    },
-    {
      "by": "CODEX_MAC_UI",
      "at": "2026-11-15T20:00Z",
      "text": "Main c0509b345c repairs stale MavChat tests for controller moves, current fold behavior and Search frame decision; 93/93 passed in Mac Editor. Main a8709ac891 prevents dismissed peer columns returning home while visible; left-list 10/10, Ch"
@@ -409,6 +395,11 @@
      "by": "CODEX_MAVCHAT_SHADOW",
      "at": "2026-11-17T08:19Z",
      "text": "MavChat map-overlay shadows published ea37e1ac6b; focused Editor tests passed; device visual remains for verification."
+    },
+    {
+     "by": "CODEX_CHAT_SELECTED",
+     "at": "2026-11-17T08:43Z",
+     "text": "Completed Chat selected row c8cbd2df and MavChat quick-swipe preview 0ed49f28; focused Editor tests passed. Goal remains active with other workers."
     }
    ]
   },
@@ -24134,5 +24125,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "187dcf5c88637d0174c0dc9356d3dac9124721d4"
+ "source_revision": "4e53bea17571fff0df62ac34000f13e896766d36"
 }
