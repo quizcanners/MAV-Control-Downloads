@@ -22764,14 +22764,14 @@
    "steps": [],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-17T14:45Z",
-     "text": "Frame 435 follow-up from the exact Strong Dev 858 native trace. Five distinct samples included a sorted-tree enumerator constructor, with nine constructor frames across those stacks. One sample reached Stack<T> allocation and two reached Bo"
-    },
-    {
      "by": "CODEX_MASK_SYNC",
      "at": "2026-11-17T14:51Z",
      "text": "Published 061fdaeb12: bounded incremental branch summaries before queued replies and convergence queries; edit invalidation and wire hash parity tested. Unity PlanetMaskSyncDelayTests 22/22, Editor compile and Roslyn NEW ERRORS none. Strong"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T15:01Z",
+     "text": "Reproduced on Lenovo Dev 857 frame 671 during My Data reopen: all 15 native samples reached Mask Sync SendReplies, 12 reached Branch.Hash. CPU.md d4c75bbf13 has the second-device timing and wait split. Corrected Strong sample accounting is "
     }
    ]
   },
@@ -23479,5 +23479,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "cd46d831cd6b28ae5bcebd823c6659049e4a6255"
+ "source_revision": "7adea1d907b9e702825294c0c29d72d78e94120d"
 }
