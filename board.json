@@ -19975,7 +19975,20 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Pair LocalDji FramePose to worker frames in the DJI clock domain and feed DJI east, north and heading per frame",
+     "x": false
+    },
+    {
+     "t": "Query Planet Renderer at the ground contact and correct only the home altitude, publish the shared 3D Street View transform",
+     "x": false
+    },
+    {
+     "t": "Unpositioned drone path: Depth Anything 3 per keyframe with 2-frame overlap, DJI only an optional prior",
+     "x": false
+    }
+   ],
    "notes": [
     {
      "by": "HEAVY",
@@ -23333,5 +23346,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "f2ca73e9a1e813b5c0d4de4785dec9431d0c850e"
+ "source_revision": "07aca7b443cde2bd033a3c16d13c5f70a988c7c1"
 }
