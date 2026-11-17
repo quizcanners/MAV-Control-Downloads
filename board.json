@@ -22526,25 +22526,22 @@
   {
    "n": 1440,
    "name": "Using Strong to confirm Release 850 CPU sampling and timing coverage",
-   "done": "",
+   "done": "2026-11-17T00:02Z",
    "goal": false,
    "under": 429,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T00:00Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T00:02Z",
+     "text": "Read-only APK identity and CPU sampler admission completed on signed Release 850. Android declined Simpleperf for this APK. Profiling attempt stopped and its scratch path was cleaned. Strong released."
+    }
+   ]
   }
  ],
  "verify": [
@@ -23093,5 +23090,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "1394de64560953269841e6d73fd586a0809d8fd7"
+ "source_revision": "eecc14b32a8961c393ae2263c5e7bf5ef3235f33"
 }
