@@ -22189,16 +22189,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-17T02:56Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -22208,8 +22199,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-17T02:55Z",
-     "text": "14d104b3e0 compares identical Montreal frames using the six-anchor SVM9 save. Batch and incremental poses both confirm with the same views. Ordinary retention gives 0/3; a 12-view temporary pool with half the spacing gives 3/3; wrong-site c"
+     "at": "2026-11-17T03:05Z",
+     "text": "e963a59d5c adds a bounded short-baseline query retry after the regular probe. Windows Unity saved Teach and independently placed Repeat with a confirmed preserved projection; the wrong-site offline control refused. 99 Python tests passed. B"
     }
    ]
   },
@@ -23284,5 +23275,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "8e6510c86c19a1169f12f8bd58d5c4db7216154b"
+ "source_revision": "8c4b24fb0fb5e2f908a3940a473336f6fdbcb218"
 }
