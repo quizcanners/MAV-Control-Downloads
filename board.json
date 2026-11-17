@@ -2124,16 +2124,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MULTIFRAME_GUIDE",
-     "since": "2026-11-17T15:43Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Left: ~90 inline 'quiz, date' mentions in running prose of SPEC/AGENTS files, REFACTORING.md and Coordination files; per file turn each into a clear rule in the right section and move the quote into t",
@@ -2158,6 +2149,11 @@
      "by": "CODEX_LINGUIST_GUIDE",
      "at": "2026-11-17T15:42Z",
      "text": "Published 51fe8ee0ca: Linguist guide and SPEC now state localization and grouping rules without embedded user quotes; guide_check 0 errors, 6 existing warnings. Remaining goal 606 files unchanged."
+    },
+    {
+     "by": "CODEX_MULTIFRAME_GUIDE",
+     "at": "2026-11-17T15:45Z",
+     "text": "Published ecfef305a0: Multi-frame work SPEC and guide state input-version and dirty-mark rules without repeated quotes; stale results may still be saved. guide_check 0 errors, 6 existing warnings; remaining goal 606 work unchanged."
     }
    ]
   },
@@ -23509,5 +23505,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "fb27df83e00399fd7c67b9b3ab4384a2a6b56cad"
+ "source_revision": "04c77b98670818968469b4ca361c23beb19397e3"
 }
