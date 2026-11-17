@@ -22873,29 +22873,25 @@
   {
    "n": 1511,
    "name": "Clock plaque",
-   "done": "",
+   "done": "2026-11-17T12:09Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_CLOCK_RENDER",
-     "since": "2026-11-17T12:08Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_CLOCK_FLASH",
      "at": "2026-11-17T10:28Z",
      "text": "Published 6710b57103. Roslyn NEW ERRORS none; Editor compiled. UiRenderingTests 0/8: disposable-data OneTimeSetUp blocked all eight before execution. White frame not reproduced; rendered check due."
+    },
+    {
+     "by": "CODEX_CLOCK_RENDER",
+     "at": "2026-11-17T12:09Z",
+     "text": "6710b57103: origin-matched Clock prefab rendered in isolated Unity camera on dark background show/hide/hide/show: >220 RGB pixels 240/0/0/240; SetVisible alpha 1/0/1 and cover Hidden. Direct SetVisible probe, not full runtime or device."
     }
    ]
   },
@@ -23781,5 +23777,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "22471c3abc9d5cf113049f4422bb852fee735136"
+ "source_revision": "a1894d8ef2b625ed5aeb11983b54486dee674be7"
 }
