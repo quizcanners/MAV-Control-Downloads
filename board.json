@@ -339,23 +339,35 @@
     {
      "t": "quiz: the panel's rounded top corners sit under the pin and target circles; move the circles inward or drop the panel top edge below them",
      "x": false
+    },
+    {
+     "t": "223de4e530 removes a real hang risk: per-step while loops could run indefinitely on non-finite or extreme touch coordinates; panel-step updates are constant time with the same 60/40 thresholds, invali",
+     "x": true
+    },
+    {
+     "t": "Windows (HEAVY): EditMode All at bef85b47bf 8572 passed, 0 failed; live Editor ac2f42eb65 at 600x900 split: sixteen scripted mouse swipes all acquired the divider and alternated Chat/GPS, Editor staye",
+     "x": true
+    },
+    {
+     "t": "Not proof of the reported freeze: hub records 571-650 held no matching report; get the report or a device touch trace (Android/iOS touch path, live divider swipe on a device), then fix what it shows",
+     "x": false
     }
    ],
    "notes": [
     {
-     "by": "CODEX_CHAT_SELECTED",
-     "at": "2026-11-17T08:43Z",
-     "text": "Completed Chat selected row c8cbd2df and MavChat quick-swipe preview 0ed49f28; focused Editor tests passed. Goal remains active with other workers."
-    },
-    {
-     "by": "CODEX_CHAT_DELETE_TESTS",
-     "at": "2026-11-17T09:13Z",
-     "text": "Published 21d8a46cd4: new shared Chat deletion fixture 6/6 in Editor, Roslyn NEW ERRORS none. Covers private request persistence/confirmation, deletion before late text, group copies/offline member and nonmember refusal, seven-day expiry, a"
-    },
-    {
      "by": "CODEX_LABEL_FIT",
      "at": "2026-11-17T09:31Z",
      "text": "MavChat capsule peer labels use space after the icon and before the edge; TMP auto-sizes to 24 before ellipsis. Main 68b58c83bb; MavChatSheetTests 100/100, Roslyn NEW ERRORS none; Chat visual due."
+    },
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-15T16:14Z",
+     "text": "Source 223de4e530 bounds selector work; Windows swipes passed but do not reproduce the reported freeze. iPad and iPhone currently unavailable in devicectl; isolated Editor has server diagnostics unsupported, so no new hub report could be re"
+    },
+    {
+     "by": "CODEX_MAC_FREEZE",
+     "at": "2026-11-16T17:57Z",
+     "text": "Current main retains the bounded selector contact path; no source-proven freeze cause found. iPad and iPhone are unavailable in devicectl and local runtime bridge cannot connect, so the submitted diagnostics report and touch trace could not"
     }
    ]
   },
@@ -1805,44 +1817,6 @@
      "by": "CODEX_GRAPHICS",
      "at": "2026-11-15T06:55Z",
      "text": "Shared-workflow audit at 1e0b80295c: Alarm CanPresent requires RemoteSensors + Alarm + PinValidated (Station_RemoteSense.cs:36); TrainingSimulationBackend.cs:65 stops outside Training or in its RemoteSensors mode. MapOnly also omits the Rem"
-    }
-   ]
-  },
-  {
-   "n": 577,
-   "name": "MavChat",
-   "done": "",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "223de4e530 removes a real hang risk: per-step while loops could run indefinitely on non-finite or extreme touch coordinates; panel-step updates are constant time with the same 60/40 thresholds, invali",
-     "x": true
-    },
-    {
-     "t": "Windows (HEAVY): EditMode All at bef85b47bf 8572 passed, 0 failed; live Editor ac2f42eb65 at 600x900 split: sixteen scripted mouse swipes all acquired the divider and alternated Chat/GPS, Editor staye",
-     "x": true
-    },
-    {
-     "t": "Not proof of the reported freeze: hub records 571-650 held no matching report; get the report or a device touch trace (Android/iOS touch path, live divider swipe on a device), then fix what it shows",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-15T16:14Z",
-     "text": "Source 223de4e530 bounds selector work; Windows swipes passed but do not reproduce the reported freeze. iPad and iPhone currently unavailable in devicectl; isolated Editor has server diagnostics unsupported, so no new hub report could be re"
-    },
-    {
-     "by": "CODEX_MAC_FREEZE",
-     "at": "2026-11-16T17:57Z",
-     "text": "Current main retains the bounded selector contact path; no source-proven freeze cause found. iPad and iPhone are unavailable in devicectl and local runtime bridge cannot connect, so the submitted diagnostics report and touch trace could not"
     }
    ]
   },
@@ -23266,5 +23240,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "eb4a4d3ec3a293544aace8a0358e34a9016da5c8"
+ "source_revision": "15272252dcbfe0fd1c8849253bb6ec0eca4eba22"
 }
