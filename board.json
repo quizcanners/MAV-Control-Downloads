@@ -22712,29 +22712,25 @@
   {
    "n": 1535,
    "name": "Keep Settings Inspector icon prewarm from blocking map and Menu input (Settings Inspectors guide). Dev 858 Lenovo captured Unity Main in Icons_MGMT.TryPreload with a long kernel wait while opening My ",
-   "done": "",
+   "done": "2026-11-17T14:31Z",
    "goal": false,
    "under": 429,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_ICON_WAIT",
-     "since": "2026-11-17T14:20Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_ICON_PREWARM",
      "at": "2026-11-17T14:20Z",
      "text": "Released immediately; another worker is assigned. No edits made."
+    },
+    {
+     "by": "CODEX_ICON_WAIT",
+     "at": "2026-11-17T14:31Z",
+     "text": "Published f8a4ef184e: request/poll/adopt profiler scopes; pending icon polling/adoption wait for idle budget. Unity interaction regression 1/1, Editor compile and isolated Roslyn NEW ERRORS none. Immediate GetIcon first-open fallback retain"
     }
    ]
   },
@@ -23348,5 +23344,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "86d7234529e52a101926f6662b5968c72305b094"
+ "source_revision": "0f446d0540aacefbfa14af233c886ac118b115b4"
 }
