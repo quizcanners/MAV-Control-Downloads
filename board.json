@@ -23134,18 +23134,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_BLUR_CAPTURE",
-     "since": "2026-11-17T07:20Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_BLUR_CAPTURE",
+     "at": "2026-11-17T07:29Z",
+     "text": "Unity Editor Play timing probe: alternating overlay changed before Canvas update; 8/8 captures after FinishFrameRendering returned previous frame, while WaitForEndOfFrame captured the current frame 8/8. After TriggerEndOfFrameCallbacks was "
+    }
+   ]
   },
   {
    "n": 1471,
@@ -23928,5 +23925,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "48015eddcea089a30de9993658d520c75217a851"
+ "source_revision": "165aa781549060c0bc4669294e6abd7461d63e9d"
 }
