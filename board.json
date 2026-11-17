@@ -22198,16 +22198,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-17T02:48Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -22217,8 +22208,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-17T02:47Z",
-     "text": "0cdb73c168 reads current SVM9 Street View anchors. Montreal Teach saved in Unity with six anchors; Repeat proposed six candidates, none confirmed. Batch reconstruction of seven Repeat views confirmed against the exact same saved archive, so"
+     "at": "2026-11-17T02:55Z",
+     "text": "14d104b3e0 compares identical Montreal frames using the six-anchor SVM9 save. Batch and incremental poses both confirm with the same views. Ordinary retention gives 0/3; a 12-view temporary pool with half the spacing gives 3/3; wrong-site c"
     }
    ]
   },
@@ -23273,5 +23264,5 @@
    "since": "2026-11-16T23:07Z"
   }
  ],
- "source_revision": "3d7c38aa6e3567e365f548e91db1cb9042d7b5aa"
+ "source_revision": "1c9bade6c3c834976007e889de847a9bf4923326"
 }
