@@ -2333,29 +2333,6 @@
    ]
   },
   {
-   "n": 694,
-   "name": "Settings > Screen > View groups the rendering options",
-   "done": "2026-11-14T13:48Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Move the three toggles under View",
-     "x": true
-    },
-    {
-     "t": "UI SPEC line updated",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 695,
    "name": "Task note replacement leaves the old multiline body behind",
    "done": "2026-11-14T14:14Z",
@@ -2374,42 +2351,6 @@
      "text": "Published initial fix 671fd64caa and preservation follow-up 60065940fd; guides cae160a1d2. Five focused regressions pass; containing Board suite 26/27, with only the same baseline hook-test failure (untouched base 21/22). Original multiline"
     }
    ]
-  },
-  {
-   "n": 696,
-   "name": "Place labels (city names) draw in the sharp still frame",
-   "done": "2026-11-14T13:52Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [
-    "2026-11-14T13:51Z",
-    "2026-11-14T13:51Z",
-    "2026-11-14T13:51Z",
-    "2026-11-14T13:51Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Label text prepared on refresh frame",
-     "x": true
-    },
-    {
-     "t": "10 s sun bucket not a map change",
-     "x": true
-    },
-    {
-     "t": "View change tolerant of float noise",
-     "x": true
-    },
-    {
-     "t": "Area AGENTS updated",
-     "x": true
-    }
-   ],
-   "notes": []
   },
   {
    "n": 697,
@@ -22827,25 +22768,22 @@
   {
    "n": 1532,
    "name": "Using Lenovo for the matched Dev 857 Chat Window touch baseline",
-   "done": "",
+   "done": "2026-11-17T13:52Z",
    "goal": false,
    "under": 429,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T13:33Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-17T13:52Z",
+     "text": "Lenovo Dev 857 exact APK captured a native boot trace. The authenticated bridge returned an incomplete response, then unauthorized after the descriptor changed. No Chat tap was attempted. PowerVR also logged failed 2048 and 256 textures and"
+    }
+   ]
   }
  ],
  "verify": [
@@ -23414,5 +23352,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "aaf2ef9bb56d2d1e76f28e320b2341966a2b9936"
+ "source_revision": "1884bf6d1390c6207a06018bf4d1daf7012e4e01"
 }
