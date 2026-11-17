@@ -319,51 +319,19 @@
    "held": [],
    "steps": [
     {
-     "t": "Chat: full-screen message view with Reply, preview shortening, long-press menu with Delete (0a7c2065fe, 5a9805c455); swipe-away of the left lists only in Main view, tabs stay (de27488115, LeftLists.Ch",
-     "x": true
-    },
-    {
-     "t": "Shared deletion in code, all paths: private, group, Background/radio, seven-day expiry, photo files, late arrivals (4322eb464b..b2160f765e; later review fixes de5fdefb34, cee36ae53a). Retry now 10 s d",
-     "x": true
-    },
-    {
-     "t": "MavChat only on portrait smartphones (8bc2e77aa3, 6ea242e8e2; Station.IsWorkflowAvailable); capsule answers every touch (6d82e53d27); floating panel padding, circles, glass input as the SPEC says (e33",
-     "x": true
-    },
-    {
-     "t": "Phone with a real peer (iPhone at the Mac, Lenovo at the Getac): half-height transcript (MAV-CHAT-TRANSCRIPT-HALF-SCREEN); our green bubble at full height (only the grey peer bubble was seen); capsule",
+     "t": "Phone with a real peer (iPhone at the Mac, Lenovo at the Getac): half-height transcript, our green bubble at full height, capsule label and side circles fade while it scrolls, grabber press-drag, ever",
      "x": false
     },
     {
-     "t": "Two phones on VPN: shared deletion end to end (text, photo, group, an offline peer coming back, a seven-day-old message); use disposable data. Check the left tabs stay after leaving Chat and a swipe h",
+     "t": "Two phones on VPN: shared deletion end to end (text, photo, group, offline peer returning, seven-day-old message) with disposable data; left tabs stay after leaving Chat",
      "x": false
     },
     {
-     "t": "Mac Editor: FullHeightRowsAreBubblesInBothWindowsAndTheReducedSheetIsATranscript passed (1/1) in the disposable identity; current source, including 791cb9cef9, compiled in Unity and Roslyn.",
-     "x": true
-    },
-    {
-     "t": "Shared-deletion EditMode coverage remains: a dedicated fixture was not found in Assets/_PROJECT/Tests; two-peer delivery still needs disposable devices.",
+     "t": "Cloud: CR-079D-02, a refused deletion tells the device that asked nothing (Reviews/919f3e73e.md)",
      "x": false
     },
     {
-     "t": "Cloud: CR-079D-02, a refused deletion tells the device that asked nothing (it retries 10 s to 7 days); sketch: a Refused field on Crypto_ChatDeleteConfirmed ([brief](../Reviews/919f3e73e.md)).",
-     "x": false
-    },
-    {
-     "t": "Left-list swipe and tongue now use the tab close sound and haptic (d5cb42a33b); OnDisable no longer writes a remembered rest position.",
-     "x": true
-    },
-    {
-     "t": "Folded MavChat hides the divider line so no stubs extend beyond the inset capsule (5fc2ae2737); MavChatSheetTests 94/94 pass in a disposable Editor identity.",
-     "x": true
-    },
-    {
-     "t": "At 1280x590 the MavChat sheet reported Hidden and a red cross sat at screen centre. The standard crosshair is expected for an active screen-center tab or Pilot view; the observation did not record eit",
-     "x": false
-    },
-    {
-     "t": "Quiz to answer: (1) the panel's top corners are rounded but sit under the pin and target circles, so the straight top edge shows; move the circles inward/up or drop the panel's top edge below them? (2",
+     "t": "quiz: the panel's rounded top corners sit under the pin and target circles; move the circles inward or drop the panel top edge below them",
      "x": false
     }
    ],
@@ -23419,5 +23387,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "c525d20c72d7b982cbc462c96614d52e3d9059d8"
+ "source_revision": "907d97d5b8b25e3ff49bff9bedb753afc5e223fa"
 }
