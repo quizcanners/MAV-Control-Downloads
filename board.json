@@ -23392,25 +23392,22 @@
   {
    "n": 1485,
    "name": "UI presses",
-   "done": "",
+   "done": "2026-11-17T08:33Z",
    "goal": false,
    "under": 408,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_PRESS_TIMEOUT",
-     "since": "2026-11-17T08:10Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_PRESS_TIMEOUT",
+     "at": "2026-11-17T08:33Z",
+     "text": "Published 68cb7bb28e: UI clicks expire at the World Click limit while contact remains available for holds and drags. Editor ListScrollInteractionTests 28/28, NotificationTongueDragTests 9/9, DragPointerTests 44/44; device check not run. Sha"
+    }
+   ]
   },
   {
    "n": 1486,
@@ -24117,5 +24114,5 @@
    "since": "2026-11-17T06:22Z"
   }
  ],
- "source_revision": "cc2efd01a26359527861b2e51522800aa5252529"
+ "source_revision": "89435be717559e2804400bd4eb3382b0515e4cbe"
 }
