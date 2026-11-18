@@ -2152,26 +2152,6 @@
    ]
   },
   {
-   "n": 1148,
-   "name": "Store Post EditMode fixture",
-   "done": "2026-11-15T15:28Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-15T15:28Z",
-     "text": "Published 6199c115be: inactive Store fixtures initialize their controllers, use the current identity and tab owners, and preserve the author-binding test. Unity LogisticsDistributionTests 43/43; Roslyn comparison against pre-migration sourc"
-    }
-   ]
-  },
-  {
    "n": 1149,
    "name": "Using Strong for the signed terrain query bounds",
    "done": "2026-11-15T15:51Z",
@@ -13069,14 +13049,20 @@
     {
      "who": "CLOUD_DOT_MASK_REPAIR",
      "since": "2026-11-18T15:10Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-18T15:27Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_DOT_MASK_REPAIR",
+     "at": "2026-11-18T15:27Z",
+     "text": "Repair implemented in chunk codec/import/catalog, fixtures and SPEC. Host: 28 fixture inputs plus 4 real-SQLite commit-boundary controls pass; 3 pre-removal decoder controls pass; 8 falsifiers fail at assertions. Verified file/count batch b"
+    }
+   ]
   },
   {
    "n": 1661,
@@ -13112,14 +13098,20 @@
     {
      "who": "HEAVY",
      "since": "2026-11-18T15:20Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-18T15:29Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-18T15:29Z",
+     "text": "9da1e5f145 on main. Camera keeps coalesced wheel notches and slows through the former cutoff. Windows Backdoor continued down to measured Planet Renderer and Parallax clearance with pitch held, then restored the camera. Camera suites passed"
+    }
+   ]
   }
  ],
  "verify": [
@@ -13716,5 +13708,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "53093ac17561256f9e7e558af7df0fcd35df6606"
+ "source_revision": "82679120c7a3d7af29014b2505cd5bcb2d0ea3ca"
 }
