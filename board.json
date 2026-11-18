@@ -2192,26 +2192,6 @@
    ]
   },
   {
-   "n": 1162,
-   "name": "Settings Video Capture",
-   "done": "2026-11-15T16:30Z",
-   "goal": false,
-   "under": 409,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-15T16:30Z",
-     "text": "Published 706f3f0477: the Off state uses the same neutral outline status control and alignment as active states. Editor macOS Video Capture page visually checked; Unity compiled and Roslyn reported NEW ERRORS none."
-    }
-   ]
-  },
-  {
    "n": 1163,
    "name": "Settings Video emulation",
    "done": "2026-11-15T16:40Z",
@@ -8932,29 +8912,25 @@
   {
    "n": 1470,
    "name": "Editor/device",
-   "done": "",
+   "done": "2026-11-18T16:30Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T16:16Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_BLUR_CAPTURE",
      "at": "2026-11-17T07:29Z",
      "text": "Unity Editor Play timing probe: alternating overlay changed before Canvas update; 8/8 captures after FinishFrameRendering returned previous frame, while WaitForEndOfFrame captured the current frame 8/8. After TriggerEndOfFrameCallbacks was "
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-18T16:30Z",
+     "text": "Published 846894a18b. Mac Unity Play matched the current overlay in 18/18 captures across RenderTexture and ReadPixels. Duplicate requests coalesced and disable cancelled the pending capture. Final-screen sharing included the overlay and Wo"
     }
    ]
   },
@@ -13553,5 +13529,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "ac89f9c55a8b557f99bf9449e243c48c0163bdef"
+ "source_revision": "60e818c0240942bbecd76ebf4cabcd0fb668c079"
 }
