@@ -13194,25 +13194,22 @@
   {
    "n": 1628,
    "name": "MavChat scroll selector",
-   "done": "",
+   "done": "2026-11-18T12:13Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_SELECTOR_EASE",
-     "since": "2026-11-18T12:07Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_SELECTOR_EASE",
+     "at": "2026-11-18T12:13Z",
+     "text": "Published c9b78c4afb. MavChat selector eases beyond one item, relaxes after timeout, and consumes reverse travel from the stored rubber. Nine Unity Editor cases passed. Compile comparison found no new errors. Phone feel unverified."
+    }
+   ]
   },
   {
    "n": 1629,
@@ -13824,5 +13821,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "4462163e5fca948691367e3fc7fcd7b5ae1f36e5"
+ "source_revision": "6d7c290568157ab547532c5e920436fed7161ed6"
 }
