@@ -12294,25 +12294,22 @@
   {
    "n": 1622,
    "name": "Delete unreferenced UI Effects assets with their .meta (no guid",
-   "done": "",
+   "done": "2026-11-18T15:31Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T15:26Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-18T15:31Z",
+     "text": "ab9019f3b4 on main. Removed 44 tracked obsolete UI Effects files, including metadata. No GUID, shader name or path references remain. Compile fixture keeps live shaders. Cover lifetime fixture uses UI_LeftListTransition with the same shader"
+    }
+   ]
   },
   {
    "n": 1623,
@@ -13690,5 +13687,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "77b2358b782cf855a4d6ef57970c08cb9849ff7d"
+ "source_revision": "776bdfc782fc244334ddd7c4869288729d0d9dd6"
 }
