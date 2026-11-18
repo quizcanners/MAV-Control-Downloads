@@ -13224,29 +13224,20 @@
   {
    "n": 1611,
    "name": "Menu Diagnostics",
-   "done": "",
+   "done": "2026-11-18T10:48Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_DiskCapacity",
-     "since": "2026-11-18T10:38Z",
-     "noted": "2026-11-18T10:40Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "MAC_DiskCapacity",
-     "at": "2026-11-18T10:40Z",
-     "text": "Scoped source and tests ready for publication with the current UI fixes. Actual macOS volume capacity matched the OS; missing path rejected. StorageDiagnosticsRescanTests covers worker read and displayed GB."
+     "at": "2026-11-18T10:48Z",
+     "text": "ebb0b68886 on main. All seven StorageDiagnosticsRescanTests passed in Unity. macOS capacity agreed with the OS and unavailable-volume handling was checked. No physical iPhone run."
     }
    ]
   },
@@ -13860,5 +13851,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "ef062771cf7d3f81923666d3bfc52d6a23fd2bce"
+ "source_revision": "049eb30b1b2334e65ca20b0d0abc547f8a9ffd29"
 }
