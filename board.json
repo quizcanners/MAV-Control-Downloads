@@ -2222,43 +2222,6 @@
    ]
   },
   {
-   "n": 953,
-   "name": "Round 5 split S10",
-   "done": "2026-11-15T12:39Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T08:35Z",
-    "2026-11-15T08:35Z",
-    "2026-11-15T08:37Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T12:39Z",
-     "text": "Published 3d59b51ff0 with ten missing Unity meta files for the existing Motorola Inspector split. Confirmed Inspector owns its pages and IdentityDiscovery owns the candidate list. The old pacing host was retired; the ReadoutHint pin already"
-    }
-   ]
-  },
-  {
    "n": 1120,
    "name": "Using Strong for the signed Mask Pages before-and-after Android replay",
    "done": "2026-11-15T12:54Z",
@@ -13269,25 +13232,22 @@
   {
    "n": 1635,
    "name": "Bottom-left Telemetry grid",
-   "done": "",
+   "done": "2026-11-18T12:41Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_SINGLE_GRID",
-     "since": "2026-11-18T12:36Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_SINGLE_GRID",
+     "at": "2026-11-18T12:41Z",
+     "text": "Published 34c9d4028c on main. Refresh keeps the empty normal strip out of Pilot while preserving the shared readouts in both layouts. Prefab wiring checked. Roslyn comparison: NEW ERRORS: none. Guide check: zero errors. TelemetryView bumped"
+    }
+   ]
   }
  ],
  "verify": [
@@ -13876,5 +13836,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "34eafb605d69e9ef62036a5b12252691fbe4fb33"
+ "source_revision": "3e1f5be22e9ae28b8df758515294049ac01bcd8b"
 }
