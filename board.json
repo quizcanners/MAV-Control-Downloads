@@ -2152,26 +2152,6 @@
    ]
   },
   {
-   "n": 1177,
-   "name": "Using Strong to measure the first visible zoom frame after Android touch dispatch",
-   "done": "2026-11-15T18:43Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T18:43Z",
-     "text": "Strong signed Dev 845 fcb80c5300f4: 16 Unscaled fast pinches and four FrozenDouble trials. CPU.md 5fefc7f257 records physical presentation, touch and timestamped video, plus the recorder-off controls. Restored original camera and Normal pac"
-    }
-   ]
-  },
-  {
    "n": 1178,
    "name": "Wake Android Unity on pending map touch at the 8 FPS idle cap (Bootstrap SPEC",
    "done": "",
@@ -11701,7 +11681,7 @@
   {
    "n": 1619,
    "name": "Training Remote Sensors emulator never presents",
-   "done": "",
+   "done": "2026-11-18T18:44Z",
    "goal": false,
    "under": 572,
    "ticks": [],
@@ -11710,7 +11690,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-18T18:44Z",
+     "text": "Obsolete: the Remote Sensors LoRa emulator was removed (no RemoteSensorsEmulator remains in the repo), so nothing to gate. Drone flying emulation (Swarm Emulator, Drone Control/Common/Emulator, ECS, tests) is intact on main; the 2026-11-18 "
+    }
+   ]
   },
   {
    "n": 1620,
@@ -13647,5 +13633,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "e5ca91fbf7a1498b113db181cbb9be7b4770105b"
+ "source_revision": "6b9fbbfdb9f8470085920028558d909c48647393"
 }
