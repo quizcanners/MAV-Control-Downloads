@@ -12670,25 +12670,22 @@
   {
    "n": 1650,
    "name": "Dev Mode > Tasks in-app edits",
-   "done": "",
+   "done": "2026-11-18T16:14Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T15:58Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-18T16:14Z",
+     "text": "2bcce1b9cd on main. Dev Mode tasks have immediate priority, park and review edits in board_edits. Stable BoardEdit records use the hub envelope. Confirmed/expired edits retire; CLI ignores closed/stale input and keeps newest per field. Unit"
+    }
+   ]
   },
   {
    "n": 1651,
@@ -13556,5 +13553,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "e0f32bf938c14f7b1c02a8793f974b68b01ce3fb"
+ "source_revision": "64567fb415b3af89aeba09a22bce3bdef43050ac"
 }
