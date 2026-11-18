@@ -2297,68 +2297,6 @@
    ]
   },
   {
-   "n": 807,
-   "name": "Round 2 split J1",
-   "done": "2026-11-15T05:56Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T05:55Z",
-    "2026-11-15T05:55Z",
-    "2026-11-15T05:56Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file, list the four parts and their fields",
-     "x": true
-    },
-    {
-     "t": "Move watchdog first, then quit persistence, shutdown, load; one part per commit",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 809,
-   "name": "Round 2 split J5",
-   "done": "2026-11-15T05:58Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T05:54Z",
-    "2026-11-15T05:58Z",
-    "2026-11-15T05:58Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "List the case labels by owner",
-     "x": true
-    },
-    {
-     "t": "Move one owner's cases per commit",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 812,
    "name": "Round 2 merge J7",
    "done": "2026-11-15T06:26Z",
@@ -2439,81 +2377,6 @@
    ]
   },
   {
-   "n": 814,
-   "name": "Round 2 split J12",
-   "done": "2026-11-15T05:57Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T05:56Z",
-    "2026-11-15T05:57Z",
-    "2026-11-15T05:57Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Move Worker out",
-     "x": true
-    },
-    {
-     "t": "Move Cleanup, CacheDeletion and lineup types",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_GEOTIFF",
-     "at": "2026-11-15T05:54Z",
-     "text": "Done: Worker, Cleanup, CacheDeletion, Lineup types in own partial files (GeoTiffImport 1889 to 1509). Left: lineup methods/Diagnostics stay. Uncompiled."
-    }
-   ]
-  },
-  {
-   "n": 815,
-   "name": "Round 2 rename J17",
-   "done": "2026-11-15T06:02Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T05:31Z",
-    "2026-11-15T06:01Z",
-    "2026-11-15T06:01Z",
-    "2026-11-15T06:02Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "List the 77 names, group them by the class they belong in",
-     "x": true
-    },
-    {
-     "t": "Rename group by group with callers and tests",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/forwarders-and-long-signatures.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud-815-thread",
-     "at": "2026-11-15T05:59Z",
-     "text": "Done: 45 long names shortened with callers and tests, IcmpEcho struct owns the ICMP call. Left: see Done/Left line in Coordination/Refactoring/forwarders-and-long-signatures.md. Not compiled."
-    }
-   ]
-  },
-  {
    "n": 817,
    "name": "Round 2 logging J18",
    "done": "2026-11-15T06:26Z",
@@ -2555,74 +2418,6 @@
    ]
   },
   {
-   "n": 818,
-   "name": "Round 2 no-baggage J19",
-   "done": "2026-11-15T05:54Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T05:52Z",
-    "2026-11-15T05:53Z",
-    "2026-11-15T05:53Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Move the 3 biggest files",
-     "x": true
-    },
-    {
-     "t": "Move the other 4 files",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/no-baggage.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 821,
-   "name": "Round 2 tests T1",
-   "done": "2026-11-15T06:00Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T05:56Z",
-    "2026-11-15T05:56Z",
-    "2026-11-15T05:59Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "List the 147 tests by system under test",
-     "x": true
-    },
-    {
-     "t": "Move them out, delete the ones pinning gone code",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud-821",
-     "at": "2026-11-15T06:00Z",
-     "text": "Split into partial fixture + 6 files by system; nothing pinned gone code (nested-controllers.md). Need for verify: compile via cmp.sh."
-    }
-   ]
-  },
-  {
    "n": 822,
    "name": "Editor",
    "done": "2026-11-15T07:08Z",
@@ -2634,251 +2429,6 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
-  },
-  {
-   "n": 823,
-   "name": "Round 2 rename R1",
-   "done": "2026-11-15T06:00Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T05:55Z",
-    "2026-11-15T05:55Z",
-    "2026-11-15T05:55Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Add the 40 names under StreetView and switch the 83 callers",
-     "x": true
-    },
-    {
-     "t": "Delete the 40 old enum values and their Wording lines",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/frame-budget-job-names.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_823",
-     "at": "2026-11-15T05:59Z",
-     "text": "Done, on main: nested StreetView.Job enum, old HeavyUsage values removed. Need for verify: compile."
-    }
-   ]
-  },
-  {
-   "n": 824,
-   "name": "Round 2 rename R2",
-   "done": "2026-11-15T06:02Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T05:59Z",
-    "2026-11-15T05:59Z",
-    "2026-11-15T05:59Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Add the 32 names under their owners and switch the callers",
-     "x": true
-    },
-    {
-     "t": "Delete the old enum values and Wording lines",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/frame-budget-job-names.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 825,
-   "name": "Round 2 rename R3",
-   "done": "2026-11-15T06:02Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T05:54Z",
-    "2026-11-15T06:02Z",
-    "2026-11-15T06:02Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Add the names under their owners and switch the callers",
-     "x": true
-    },
-    {
-     "t": "Delete the old enum values and Wording lines",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/frame-budget-job-names.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud-thread-825",
-     "at": "2026-11-15T05:53Z",
-     "text": "825 done: 44 names renamed Owner_ShortName (88 call lines, 20 files), Done line in frame-budget-job-names.md. Uncompiled."
-    }
-   ]
-  },
-  {
-   "n": 826,
-   "name": "Peers chains outside Assets/_PROJECT/Peers",
-   "done": "2026-11-15T05:58Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T05:58Z",
-     "text": "0429294f02: five directory lookups and thirteen picker reads now go through Peers. Exact source substitutions and git diff --check passed. Unity was closed; no Editor or device checks run."
-    }
-   ]
-  },
-  {
-   "n": 827,
-   "name": "Round 2 split J14",
-   "done": "2026-11-15T05:56Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T05:56Z",
-    "2026-11-15T05:56Z",
-    "2026-11-15T05:56Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file, list the gimbal fields and methods that belong together",
-     "x": true
-    },
-    {
-     "t": "Move them into Gimbal",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 828,
-   "name": "Round 2 split J15",
-   "done": "2026-11-15T05:53Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Move OfflineMapStorage out",
-     "x": false
-    },
-    {
-     "t": "Move Diagnostics out, fix PrepareAndPublish parameters",
-     "x": false
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": false
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 829,
-   "name": "Round 2 merge J8",
-   "done": "2026-11-15T06:00Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T06:00Z",
-    "2026-11-15T06:00Z",
-    "2026-11-15T06:00Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "List the 22 files and group them",
-     "x": true
-    },
-    {
-     "t": "Merge group by group, one commit each",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 831,
-   "name": "Round 2 drone J22",
-   "done": "2026-11-15T06:00Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T05:55Z",
-    "2026-11-15T06:00Z",
-    "2026-11-15T06:00Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Switch the two callers and delete the 12-parameter overload",
-     "x": true
-    },
-    {
-     "t": "Move the three sections to their owners",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
    "notes": []
   },
   {
@@ -2989,136 +2539,6 @@
    "notes": []
   },
   {
-   "n": 837,
-   "name": "Round 2 split J3",
-   "done": "2026-11-15T06:02Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T05:59Z",
-    "2026-11-15T05:59Z",
-    "2026-11-15T06:02Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "List the page bodies and their owners",
-     "x": true
-    },
-    {
-     "t": "Move them one owner per commit",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 838,
-   "name": "Round 2 signature J4",
-   "done": "2026-11-15T06:02Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T05:53Z",
-    "2026-11-15T05:53Z",
-    "2026-11-15T05:53Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Read the 37 callers and decide where each parameter really lives",
-     "x": true
-    },
-    {
-     "t": "Cut the parameters and the two forwarding overloads, update callers",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/forwarders-and-long-signatures.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 839,
-   "name": "Round 2 split J6",
-   "done": "2026-11-15T05:57Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T05:57Z",
-    "2026-11-15T05:59Z",
-    "2026-11-15T05:59Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Move diagnostics and clock types out",
-     "x": true
-    },
-    {
-     "t": "Nest PendingUdpMessages and PendingUdpDatagram into the controller",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 840,
-   "name": "Round 2 split J9",
-   "done": "2026-11-15T06:02Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T05:57Z",
-    "2026-11-15T05:57Z",
-    "2026-11-15T05:59Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Move Native and Diagnostics out",
-     "x": true
-    },
-    {
-     "t": "Move Reader, then Job and GpuWrite",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud-840",
-     "at": "2026-11-15T05:59Z",
-     "text": "Split done on main: Native, Diagnostics, Reader, Job (+GpuWrite/Candidate) are own partial files, store 2096 to 870 lines; moved as text, uncompiled. Need for verify: Roslyn compile of WebMercator_SqliteTileStore*."
-    }
-   ]
-  },
-  {
    "n": 841,
    "name": "Round 2 split J10",
    "done": "2026-11-15T06:04Z",
@@ -3197,37 +2617,6 @@
    ]
   },
   {
-   "n": 843,
-   "name": "Round 2 split J13",
-   "done": "2026-11-15T05:54Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T05:53Z",
-    "2026-11-15T05:53Z",
-    "2026-11-15T05:54Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Move Follow with its methods",
-     "x": true
-    },
-    {
-     "t": "Move Pose, then GroundProbe",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 844,
    "name": "Round 2 split J16",
    "done": "2026-11-15T06:26Z",
@@ -3266,37 +2655,6 @@
    ]
   },
   {
-   "n": 845,
-   "name": "Round 2 signatures J20",
-   "done": "2026-11-15T06:01Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T05:59Z",
-    "2026-11-15T06:01Z",
-    "2026-11-15T06:01Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Read the five methods and their callers, decide the owner for each",
-     "x": true
-    },
-    {
-     "t": "Fix them one per commit",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/forwarders-and-long-signatures.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 846,
    "name": "Round 2 forwarders J21",
    "done": "2026-11-15T06:03Z",
@@ -3322,37 +2680,6 @@
     },
     {
      "t": "Add a Done / Left line to Coordination/Refactoring/forwarders-and-long-signatures.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 847,
-   "name": "Round 2 tests T2",
-   "done": "2026-11-15T05:58Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T05:57Z",
-    "2026-11-15T05:57Z",
-    "2026-11-15T05:57Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Group the 93 tests",
-     "x": true
-    },
-    {
-     "t": "Split and merge by group",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
      "x": true
     }
    ],
@@ -21385,7 +20712,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-18T04:36Z",
-     "noted": "2026-11-18T05:51Z",
+     "noted": "2026-11-18T06:02Z",
      "progress": 25,
      "ticked": 0,
      "total": 0
@@ -21395,8 +20722,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-18T05:51Z",
-     "text": "d14c20f840 on main0027fcb633 retains PeerNotEligible vs NoProgress, phase/prefix/progress age and current peer eligibility facts.29+11 receive controls,Roslyn noNew. Both6a APK two-cell group files now agree;older discarded prefix remains a"
+     "at": "2026-11-18T06:02Z",
+     "text": "d14c20f840 on main0027 retains exact stop/eligibility facts;29+11 controls,Roslyn noNew;containing APK building. New6a run also restarted a useful received cell: initial transfer dfc2c1e4 reached7733248 bytes, later b97f00d6 held4784128\u2192602"
     }
    ]
   },
@@ -21985,5 +21312,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "9f155fd060f674148c3ec81dfc65fa10dcc2a1c3"
+ "source_revision": "e9d08ed304969f7cce118c2318b4aaee56e6e822"
 }
