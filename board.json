@@ -2248,56 +2248,6 @@
    ]
   },
   {
-   "n": 1214,
-   "name": "Repair Windows Situation Remote Apply and Spatial Sync fixtures to the current bounded proof cache",
-   "done": "2026-11-15T23:17Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T22:53Z",
-     "text": "Published e8407d99fc and Roslyn reports NEW ERRORS: none. Spatial Sync fixtures now bind Interest through the real Peer constructor. Situation uses Horizon.ToldTooOld; the locked-file test isolates and restores the shared log count. Native "
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-15T23:17Z",
-     "text": "Rog native Unity 6000.6.8f1 at 2422f14244, source includes e8407d99fc: SpatialSyncTests 25/25 and SituationRemoteApplyTests 57/57, including Tombstone Horizon and unreadable month coverage. Receipts C:/MavControlEvidence/Rog-1214-1215-1218-"
-    }
-   ]
-  },
-  {
-   "n": 1215,
-   "name": "Restore Windows GeoTIFF Raster",
-   "done": "2026-11-15T23:17Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T23:02Z",
-     "text": "Published c70cd71cb9. Roslyn NEW ERRORS: none. GeoTIFF tests use the Lineup and Rows owners, Mercator parity calls the camera projection directly, and Replaced Parents restores owned state even if cleanup fails. Nine prior red cases targete"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-15T23:17Z",
-     "text": "Rog native Unity 6000.6.8f1 at 2422f14244, source includes c70cd71cb9: GeoTiffRasterTests 70/70, WebMercatorMathParityTests 6/6, WebMercatorReplacedParentsTests 3/3. Receipts C:/MavControlEvidence/Rog-1214-1215-1218-Fixtures-20261116. Prepa"
-    }
-   ]
-  },
-  {
    "n": 1217,
    "name": "Using Strong for globe entry and Planet Renderer profiling",
    "done": "2026-11-15T23:32Z",
@@ -12869,7 +12819,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-18T23:17Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -13478,5 +13437,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "2cbf417413999a0489080e4f16296119e5b005c2"
+ "source_revision": "c7a6b87b9d91529c046002a9bc08441f50784a66"
 }
