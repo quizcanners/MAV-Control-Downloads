@@ -8822,16 +8822,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T12:01Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Pair LocalDji FramePose to Unity frames in the DJI clock domain and feed DJI east, north and heading per frame",
@@ -8849,8 +8840,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-18T11:59Z",
-     "text": "dde490bcbf adds source-neutral Unity capture, model aspect cropping and linked Street View pose projection. Roslyn clean, five offline shape checks and six compute kernel compiles passed. Existing DJI draft kept in Play, so the new path awa"
+     "at": "2026-11-18T12:04Z",
+     "text": "dde490bcbf plus ecaf974f6a enable source-neutral capture, aspect crops and linked projection. Unity imports cleanly and cmp.sh reports no new errors. DJI via generic WireGuard peer drew 3,918 points in 32 frames. Five offline shape checks a"
     }
    ]
   },
@@ -13815,5 +13806,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "0dc75db2c43034ef35cba9916a8277a7ec63b504"
+ "source_revision": "197ebe8c3b3158023116bbd68c5fddb3fefd385d"
 }
