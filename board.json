@@ -2186,26 +2186,6 @@
    ]
   },
   {
-   "n": 1181,
-   "name": "Using Strong to join the first applied pinch pose to Planet Renderer frames",
-   "done": "2026-11-15T19:12Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T19:11Z",
-     "text": "Strong signed Dev 845 fcb80c5300f4. Eight recorded in/out pinches from FrozenDouble and six native repetitions. Same-Unity-frame pose and Render Planet traces in CPU.md fd353698be. Replaced one trace with packet loss. Original camera and No"
-    }
-   ]
-  },
-  {
    "n": 1182,
    "name": "Reduce Planet Renderer reference mesh creation cost in PatchMesh.Build (Planet Renderer SPEC",
    "done": "2026-11-15T19:24Z",
@@ -7683,7 +7663,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY_HEIGHTMAP",
+     "since": "2026-11-18T19:18Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Route each depth point to mesh, terrain or splat by the SPEC rule",
@@ -13664,5 +13653,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "288e52703b15e18d8065b3ba51ffaaf57a1f3346"
+ "source_revision": "64201b975785ef390a52994da95da75dc7f65619"
 }
