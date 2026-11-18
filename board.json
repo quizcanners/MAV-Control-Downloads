@@ -12457,7 +12457,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-18T15:49Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 1
+    }
+   ],
    "steps": [
     {
      "t": "Cloud: compare each card's shadow image (size 1.47 of its card, UI Button Shadow Notification) with its neighbours' at the joins; fix the one place that makes a join differ (open sides, image scale, t",
@@ -13712,5 +13721,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "939c2c997d6f9affcdfdc8e7da6241da32a1f073"
+ "source_revision": "69ba310c62149f6d1a57c27da36aa3d16aef8db4"
 }
