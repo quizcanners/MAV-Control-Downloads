@@ -13103,7 +13103,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-18T13:14Z",
-     "noted": "2026-11-18T13:21Z",
+     "noted": "2026-11-18T13:42Z",
      "progress": 25,
      "ticked": 0,
      "total": 0
@@ -13113,8 +13113,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-18T13:21Z",
-     "text": "Native import7912f50338 refreshed vendored UI reference and exposed stale DestinationsPersistentData.Records; removed obsolete erase access (Values.Clear remains) plus duplicate interop using. Next native main assembly compiles; test assemb"
+     "at": "2026-11-18T13:42Z",
+     "text": "Repaired native compile on7912f50338: obsolete Destinations Records clear removed (Values.Clear retained); duplicate interop using removed;12 retired restream/privacy setup assignments removed from5fixtures, assertions retained. Matching Un"
     }
    ]
   },
@@ -13818,5 +13818,5 @@
    "since": "2026-11-18T13:00Z"
   }
  ],
- "source_revision": "e05f7637d65b55aa81983b6712d320fad5a4cf05"
+ "source_revision": "0eac7bd27fb816fbd3c42bb3fa691547c127050a"
 }
