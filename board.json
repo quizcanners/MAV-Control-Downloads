@@ -1764,7 +1764,7 @@
   {
    "n": 596,
    "name": "Notifications",
-   "done": "",
+   "done": "2026-11-18T12:15Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -1788,11 +1788,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-14T20:34Z",
-     "text": "Windows Editor 840: with Game View focused, a 120 px upward Input System flick starting in the empty space below the visible Agent Activity card changed the card from New/visible to Inactive, with the island Folded. An unfocused attempt lef"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-16T19:38Z",
      "text": "Published a7a251a9e4. Strong signed Dev 851 passed 4/4 card flicks at 8 and 30 FPS targets, including edge cancel, and the tongue at 8. Camera stayed still. Stationary cancel kept the card open; bare map panned 137.81 m. Roslyn clean, Swipe"
@@ -1801,6 +1796,11 @@
      "by": "CODEX_TONGUE",
      "at": "2026-11-17T04:57Z",
      "text": "Tongue drag feedback addressed separately in completed task 1453, commit 7f0f8646b3. Existing phone/Map verification on 596 remains open."
+    },
+    {
+     "by": "BOARD_PURGE",
+     "at": "2026-11-18T12:15Z",
+     "text": "Flick receives every notice and folds the island on main (UI_NotificationTongue AcknowledgeAllAndFold); remaining phone and Map looks are screen checks under goal 410."
     }
    ]
   },
@@ -13821,5 +13821,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "6d7c290568157ab547532c5e920436fed7161ed6"
+ "source_revision": "c03923d4383f268f4709d4e98795ac758ec11b85"
 }
