@@ -13216,14 +13216,20 @@
     {
      "who": "GETAC",
      "since": "2026-11-18T13:14Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-18T13:21Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-18T13:21Z",
+     "text": "Native import7912f50338 refreshed vendored UI reference and exposed stale DestinationsPersistentData.Records; removed obsolete erase access (Values.Clear remains) plus duplicate interop using. Next native main assembly compiles; test assemb"
+    }
+   ]
   },
   {
    "n": 1641,
@@ -13839,5 +13845,5 @@
    "since": "2026-11-18T13:00Z"
   }
  ],
- "source_revision": "7771e99c2923a02c4895b7733cd6c0e1684139f2"
+ "source_revision": "217c20900f3d33ab3de6a3efc5464fa9585b7144"
 }
