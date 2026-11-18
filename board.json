@@ -2222,26 +2222,6 @@
    ]
   },
   {
-   "n": 1120,
-   "name": "Using Strong for the signed Mask Pages before-and-after Android replay",
-   "done": "2026-11-15T12:54Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T12:55Z",
-     "text": "Both signed Dev 845 APKs installed in place."
-    }
-   ]
-  },
-  {
    "n": 1122,
    "name": "Refactoring pass 2026-11-15 evening",
    "done": "2026-11-15T12:56Z",
@@ -13100,8 +13080,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-18T12:28Z",
-     "text": "5205f6e595 slices live and archive Depth Anything scheduling. Unity and cmp.sh passed. GPU.md (a7544f465f) holds the live baseline and same-model 60 FPS replay. No replay frames reached 50 ms. The DJI feed stopped advertising after restart;"
+     "at": "2026-11-18T12:55Z",
+     "text": "5205f6e595 slices Depth Anything scheduling; Unity and cmp.sh passed. GPU.md (a7544f465f) records the baseline. Second local 4:3 control from a fresh public castle orbit reproduced smooth accumulation at the 60 FPS target: 599 frames, p99 4"
     }
    ]
   },
@@ -13888,5 +13868,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "bb655ab0901c13c5bb49e20dd70218c0d673ba24"
+ "source_revision": "61423c3316e14b512d2a41a13235d8757d7c742f"
 }
