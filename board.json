@@ -2345,31 +2345,6 @@
    ]
   },
   {
-   "n": 1131,
-   "name": "Bound ECS Text marker slot lookup when the 4",
-   "done": "2026-11-15T13:26Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T13:26Z",
-     "text": "Published a87d51bb66. ECS Text indexes marker slots at capacity. Rog Unity compiled. The loaded renderer passed full batch protection, same-frame detach and first-free release checks. A managed harness matched the old scan over 12,000 rando"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T14:30Z",
-     "text": "Strong paired signed Dev 845, 24 pinches per APK. CPU.md 17f09214d3. Marker-slot scan leaves disappeared in the platform samples. The separate label-slot search is present in the widest early gap and has its own follow-up."
-    }
-   ]
-  },
-  {
    "n": 1132,
    "name": "Remove the linear ordered-list search from RenderTextureBufferBase.Untrack (Utils SPEC",
    "done": "2026-11-15T13:31Z",
@@ -13234,25 +13209,22 @@
   {
    "n": 1641,
    "name": "Place the left-list flick tongue at the displayed Telemetry detail edge when a subtab is expanded and restore it on collapse or list switch (Lists SPEC",
-   "done": "",
+   "done": "2026-11-18T13:27Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_TELEMETRY_EDGE",
-     "since": "2026-11-18T13:20Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_TELEMETRY_EDGE",
+     "at": "2026-11-18T13:27Z",
+     "text": "2e7478cdd0 published on main. The shared tongue and its hit area track the right edge and visible midpoint of an expanded detail, and return on collapse or list change. Three Unity EditMode checks passed. The authored prefabs measured zero "
+    }
+   ]
   }
  ],
  "verify": [
@@ -13845,5 +13817,5 @@
    "since": "2026-11-18T13:00Z"
   }
  ],
- "source_revision": "217c20900f3d33ab3de6a3efc5464fa9585b7144"
+ "source_revision": "099efb01da82232d345f57253b32da42ea879884"
 }
