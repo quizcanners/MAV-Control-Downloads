@@ -2202,26 +2202,6 @@
    ]
   },
   {
-   "n": 791,
-   "name": "Remove the Photos Paste button and route keyboard",
-   "done": "2026-11-15T04:46Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T04:46Z",
-     "text": "54b77d53f6 removes Photos Paste and shares clipboard handling across Ctrl+V, MGRS, Menu and Search."
-    }
-   ]
-  },
-  {
    "n": 792,
    "name": "Remote Sensors rendering repeats a selected-list scan for every marker",
    "done": "2026-11-15T05:19Z",
@@ -20103,16 +20083,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T03:38Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -20122,8 +20093,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-18T03:36Z",
-     "text": "Published 5de4cdc82e: source-cell island cutoff and exact-grid mesh comparison; aa646e7b15 records remaining Save parity. Native/Python controls, original pixels/digests, cold reopen and both Local serialized-model runs pass; GPU.md has num"
+     "at": "2026-11-18T04:49Z",
+     "text": "Published 46a7510dc8: 24-view GPU depth/confidence history and SVMD rebuild evidence; 775880b387 records lossless placement controls. Native Save/reopen and original pixels pass on both clips; 45 Save checks, 14 placement checks and 36 Pyth"
     }
    ]
   },
@@ -22463,5 +22434,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "af99070feea81d21006a36600e3ea9a8d17766d4"
+ "source_revision": "a076c7a07a2f513428e340e87f9bc2f6cb448c9e"
 }
