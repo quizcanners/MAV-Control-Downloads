@@ -13086,25 +13086,22 @@
   {
    "n": 1661,
    "name": "Celestial Moon shader publication must not mark the UI or map dirty or request a refresh (Cesium SPEC",
-   "done": "",
+   "done": "2026-11-18T15:18Z",
    "goal": false,
    "under": 429,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_MOON_WAKE",
-     "since": "2026-11-18T15:15Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_MOON_WAKE",
+     "at": "2026-11-18T15:18Z",
+     "text": "8eed4bd979 on main. Celestial Moon remains available at the next scheduled draw. It no longer advances MapGlobalVersion or reports a Shader:CelestialMoon wake. Roslyn NEW ERRORS: none and guide_check 0 errors. Device render and FPS unmeasur"
+    }
+   ]
   }
  ],
  "verify": [
@@ -13701,5 +13698,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "5b39148b3985842d7c5cd95f5fac0dcc24727704"
+ "source_revision": "35b5176e69c8b1f1cca2348e7aab44e7cfba69f3"
 }
