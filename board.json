@@ -10287,24 +10287,29 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
-   "notes": [
+   "steps": [
     {
-     "by": "CODEX_FUSION_PERFORMANCE",
-     "at": "2026-11-17T05:23Z",
-     "text": "Published 505227e492: changed tile admission uses producer staging prefix directly and makes one immutable store-owned copy, preserving atomic failure, empty tiles and journal/writer ownership. Unity 9/9, Roslyn NEW ERRORS none. Full-window"
+     "t": "Live surface store, per-tile snapshots with atomic admission, erase/epoch guards, monotonic displayed revisions, fenced failure retirement, RTX6 transport, shared encoding (00f0f9f0a9, a814318931, def",
+     "x": true
     },
     {
-     "by": "CODEX_QUAD_STORE",
-     "at": "2026-11-17T05:55Z",
-     "text": "Paused: published live owner 00f0f9f0a9, fenced failure retirement a814318931, RTX6 boundaries defd74702e, shared encoding 59d88b98fe and map display/journal through a24bffb51e. Unity fusion/wide-window/tile tests passed, RTX transport 10/1"
+     "t": "GPU observation outcomes and SQLite retention no longer starve surface writes (c13d5735ff)",
+     "x": true
     },
     {
-     "by": "HEAVY",
-     "at": "2026-11-17T09:49Z",
-     "text": "c13d5735ff fixes GPU observation outcomes and SQLite retention starving surface writes. Roslyn four configs clean. Windows RTX Austin replay retained at most 7/25 tiles; 64 revisions committed, 7 evictions, 6 SQLite loads. Revisit reached d"
+     "t": "Frame transaction and core/halo integration; one-pass, changed-only GPU fusion",
+     "x": false
+    },
+    {
+     "t": "Windows RTX Austin long-flight follow-ups (evidence C:/MavControlEvidence/Windows-1418-Long-Urban-Flight-20261117): pose sampled 268 m on a 4.64 km source; saturated-tile merges (7/25 tiles retained, ",
+     "x": false
+    },
+    {
+     "t": "NVIDIA/GPU visual validation and measured allocation savings",
+     "x": false
     }
-   ]
+   ],
+   "notes": []
   },
   {
    "n": 1419,
@@ -14800,5 +14805,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "3c62cd49bd53e2fb655a8e779ad0259a002f0815"
+ "source_revision": "140695d8066bba0eb347c753d908a84b5c84b8a8"
 }
