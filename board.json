@@ -2311,26 +2311,6 @@
    ]
   },
   {
-   "n": 1136,
-   "name": "My Data opened from Menu briefly rotates to portrait before returning to landscape; keep the transition landscape throughout. Orientation owner and MavChat portrait allow-list in ScreenSettings_Orient",
-   "done": "2026-11-15T13:58Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_MYDATA",
-     "at": "2026-11-15T13:58Z",
-     "text": "ad7470be1b keeps My Data landscape even when the frame-cached overlay still reports the map during the Menu swap. Unity OrientationLandscapeViewsTests 6/6 passed; Roslyn NEW ERRORS: none; screen checks 02fda52d29. Physical phone rotation no"
-    }
-   ]
-  },
-  {
    "n": 1137,
    "name": "Photos folder list",
    "done": "2026-11-15T14:13Z",
@@ -13165,6 +13145,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1647,
+   "name": "Match the unfolded Active Tasks disclosure icon to the collapsed chevron (Menu SPEC",
+   "done": "",
+   "goal": false,
+   "under": 412,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_TASK_CHEVRON",
+     "since": "2026-11-18T13:58Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -13757,5 +13760,5 @@
    "since": "2026-11-18T13:00Z"
   }
  ],
- "source_revision": "6f2ee76551a283e8bf2c6f3a08a1b246781dd367"
+ "source_revision": "7931913544d71cdfebc578f77c95895d104d4fca"
 }
