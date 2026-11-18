@@ -2233,31 +2233,6 @@
    ]
   },
   {
-   "n": 1141,
-   "name": "Reuse bounded plain-page decode storage during Web Mercator Index Compaction (Web Mercator SPEC",
-   "done": "2026-11-15T14:51Z",
-   "goal": false,
-   "under": 430,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T14:51Z",
-     "text": "Published df34273b9d. Each sweep reuses bounded plain-page storage and stream wrappers, validates exact stored and decoded data, and releases the page before visiting child references. Eight Unity checks passed including strict decode lengt"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T15:48Z",
-     "text": "Strong completed both cold and warm Index Compaction sweeps on signed Dev 845. The old decoded output array was absent from sampled stopped GC. Deflate callbacks, hash result and cancellation registration still allocate. CPU.md c61cd33ecb. "
-    }
-   ]
-  },
-  {
    "n": 1143,
    "name": "Fix three NotificationRendererBindingTests failures",
    "done": "2026-11-15T15:07Z",
@@ -13108,23 +13083,14 @@
   {
    "n": 1653,
    "name": "Elevation sender reuses full raster validation only when fresh SHA-256 of the opened file matches its validated digest. Keep proof on the existing catalog load and cell revision",
-   "done": "",
+   "done": "2026-11-18T14:51Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-18T14:39Z",
-     "noted": "2026-11-18T14:50Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -13788,5 +13754,5 @@
    "since": "2026-11-18T13:00Z"
   }
  ],
- "source_revision": "d52052f0ee267d58169ae72bfb88a9b139fa535e"
+ "source_revision": "bb00f7eed10b091e26f9b4e6579337076d07ef43"
 }
