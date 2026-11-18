@@ -2247,26 +2247,6 @@
    ]
   },
   {
-   "n": 1205,
-   "name": "Restore Main Camera EditMode fixture bindings after the zoom",
-   "done": "2026-11-15T22:10Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T22:10Z",
-     "text": "d580739eaf restores the Main Camera test bindings. Prepared Windows All: Touch Follow 57/57, Wheel Pointer 15/15, View Mode 9/9, Context Drag 2/2. These fixtures had 23 failures. All: 7,909 passed, 130 failed, 10 skipped. Screen results pub"
-    }
-   ]
-  },
-  {
    "n": 1206,
    "name": "Compute reference skirt vertices only during Planet Renderer coverage probes. Remove the per-reference-mesh 144-vertex diagnostic array and its copy. Use the exact existing skirt depth and float opera",
    "done": "2026-11-15T22:31Z",
@@ -12963,6 +12943,20 @@
      "text": "Dev 861 e7d573345e: all 15 settled elevation files matched SHA-256 on Strong and Lenovo with stable inventory. Natural reports showed admission only. Same-process Lenovo traces identified on-CPU TryPoint metadata and a separate graphics pre"
     }
    ]
+  },
+  {
+   "n": 1708,
+   "name": "Settings saves refresh the retained map only for displayed changes (Bootstrap SPEC",
+   "done": "",
+   "goal": false,
+   "under": 363,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -13563,5 +13557,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "d40b22ed8dd9f36bcee0704ee65b0535c71945e4"
+ "source_revision": "fd4e8d1c9b5b93945dcc95df4141069b47e0f81f"
 }
