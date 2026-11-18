@@ -13182,25 +13182,22 @@
   {
    "n": 1613,
    "name": "Peers/Groups first open",
-   "done": "",
+   "done": "2026-11-18T11:01Z",
    "goal": false,
    "under": 408,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_GROUP_LIST",
-     "since": "2026-11-18T10:51Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_GROUP_LIST",
+     "at": "2026-11-18T11:01Z",
+     "text": "55f062f801 on main. Unity compiled; two targeted EditMode layout tests passed. Native prefab row top: map opening and returning 25 units; Chat selector first open and Back both 109 (12 top + 72 search + 25 row padding). Compared the publish"
+    }
+   ]
   },
   {
    "n": 1614,
@@ -13835,5 +13832,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "b15c74d7ba9a5c353e2d3050f1ef690905adb1c9"
+ "source_revision": "17222f5f45e0787f34e484c95818a9bc7a4247e1"
 }
