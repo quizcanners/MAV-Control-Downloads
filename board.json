@@ -11205,7 +11205,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-18T15:34Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -13026,29 +13035,20 @@
   {
    "n": 1660,
    "name": "Restore saved Planet Element Mask compatibility after 84d3a8956a",
-   "done": "",
+   "done": "2026-11-18T15:32Z",
    "goal": false,
    "under": 430,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLOUD_DOT_MASK_REPAIR",
-     "since": "2026-11-18T15:10Z",
-     "noted": "2026-11-18T15:27Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CLOUD_DOT_MASK_REPAIR",
-     "at": "2026-11-18T15:27Z",
-     "text": "Repair implemented in chunk codec/import/catalog, fixtures and SPEC. Host: 28 fixture inputs plus 4 real-SQLite commit-boundary controls pass; 3 pre-removal decoder controls pass; 8 falsifiers fail at assertions. Verified file/count batch b"
+     "at": "2026-11-18T15:32Z",
+     "text": "Published c98118eecc; remote main ancestry verified. Restored PMSK0001/2 decode and verified legacy chunk migration before catalog; 16-file/1MiB batches, newer rows/tombstones preserved, unsafe inputs keep catalog closed. Host task1660/run."
     }
    ]
   },
@@ -13687,5 +13687,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "776bdfc782fc244334ddd7c4869288729d0d9dd6"
+ "source_revision": "939b2b16952697e15d241a690180f0098e5e4972"
 }
