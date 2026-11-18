@@ -2154,42 +2154,6 @@
    ]
   },
   {
-   "n": 887,
-   "name": "Round 3 logging R30",
-   "done": "2026-11-15T14:56Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T06:51Z",
-    "2026-11-15T06:51Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Delete the chatter lines",
-     "x": true
-    },
-    {
-     "t": "Move the real errors to ChillLogger enums",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T14:56Z",
-     "text": "Verified 6c0b1b6832 on main. Followed the Chat history and MAVLink state merges, confirmed their ChillLogger errors, and removed a socket-restart chatter line from the merged MAVLink state file in 393f5fad1d. The listed files and their move"
-    }
-   ]
-  },
-  {
    "n": 944,
    "name": "TEST job",
    "done": "2026-11-16T11:27Z",
@@ -8232,16 +8196,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T14:27Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Pair LocalDji FramePose to Unity frames in the DJI clock domain and feed DJI east, north and heading per frame",
@@ -8259,8 +8214,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-18T13:32Z",
-     "text": "6d40b77914/fa62161fd5 on main. Windows Unity import, cmp.sh and Backdoor passed file-first Synthetic handoff, first-window floor fit, registered pose replay and file pause/resume. The replacement decoder preserved the draft but its registra"
+     "at": "2026-11-18T14:59Z",
+     "text": "Published 1c43cb8ffc and b2f08b1454. Telemetry opt-in, reconstruction and manual Synthetic map position edits use the same authorized peer path. Windows compile clean and native permission tests 8/8. Mac end-to-end held for quiz; DJI hardwa"
     }
    ]
   },
@@ -13758,7 +13713,11 @@
   {
    "screen": "Drones/DJI",
    "since": "2026-11-18T13:00Z"
+  },
+  {
+   "screen": "Remote Sensors",
+   "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "32bfc14a29587e03c566d405a07e686927cc7638"
+ "source_revision": "dd12c76eebddc5ea37f9855ca8c726ef6ce700cc"
 }
