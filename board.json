@@ -13211,25 +13211,22 @@
   {
    "n": 1614,
    "name": "Menu SPEC",
-   "done": "",
+   "done": "2026-11-18T11:15Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_SELECTOR",
-     "since": "2026-11-18T10:53Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_SELECTOR",
+     "at": "2026-11-18T11:15Z",
+     "text": "Published 806561b071. The thumb shader owns the yellow top light. The selector takes the final contact position, submits the nearest choice once and carries measured velocity into a damped spring. Unity EditMode passed 27/27 including shade"
+    }
+   ]
   },
   {
    "n": 1615,
@@ -13861,5 +13858,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "68fca7e99a1c1cd3c779eea4a3824cc57a60094e"
+ "source_revision": "c19a476c26560e97b7f119761ef0270db29f9555"
 }
