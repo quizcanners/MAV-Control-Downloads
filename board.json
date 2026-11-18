@@ -13006,6 +13006,53 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1693,
+   "name": "3D map generation: a drone video becomes a textured 3D map that merges with the orthophoto and keeps transparent mesh parts for trees and edges, built by Depth Anything inside Unity on the GPU, placed",
+   "done": "",
+   "goal": true,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Opaque mesh, terrain overlay and splat quads written and loaded as three layers (1430, 1522)",
+     "x": false
+    },
+    {
+     "t": "Second angle and distant capture place against saved Positioned anchors; unmatched source gets a movable preview (1481)",
+     "x": false
+    },
+    {
+     "t": "Sparse occupied voxel hierarchy and one-pixel LOD (1389)",
+     "x": false
+    },
+    {
+     "t": "Bake to near polygons, middle cubes and horizon atlas, streamed by distance as a BaseMap generation (1495)",
+     "x": false
+    },
+    {
+     "t": "All three Kenilworth clips in one draft; faster keyframe pose recovery (1689)",
+     "x": false
+    },
+    {
+     "t": "No periodic Editor stalls; CUDA Tensor Core inference with Compute fallback (1629, 1682)",
+     "x": false
+    },
+    {
+     "t": "Code split under one 3D map generation name, Python behind one seam (1651)",
+     "x": false
+    },
+    {
+     "t": "Tile-map depth compared with the Unity-native depth (1516); striped Windows local playback fixed (1352)",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -13606,5 +13653,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "db96f8e567998de7aebc82e8f425ad02bbddc4c6"
+ "source_revision": "b054283cde4ee2179044c724737d23e328f8ff3e"
 }
