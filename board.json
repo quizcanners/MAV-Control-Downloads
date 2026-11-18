@@ -12976,25 +12976,22 @@
   {
    "n": 1696,
    "name": "Read Android battery",
-   "done": "",
+   "done": "2026-11-18T20:18Z",
    "goal": false,
    "under": 429,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-18T20:07Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-18T20:18Z",
+     "text": "a2c0e7cc87 moves the Android OS power read to one JNI-attached worker. Unity publishes completed values on the existing policy path. Held-reader falsifier blocked the old update; 14 scheduling and 4 JNI-port controls passed. Roslyn NEW ERRO"
+    }
+   ]
   }
  ],
  "verify": [
@@ -13595,5 +13592,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "dc91895d7ee193d2d2608ea3fb20b77166487d2b"
+ "source_revision": "7a1cd28fe19495cddba27a4ed2a2fb6725eff818"
 }
