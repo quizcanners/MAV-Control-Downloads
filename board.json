@@ -12373,16 +12373,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T23:38Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -12409,8 +12400,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-18T23:37Z",
-     "text": "Published 0040d57f91. Fixed-input Kenilworth aim pairs found no added supported views and roughly doubled wall time, so alternate aim is a MapOnly Backdoor comparison. Default recovery cancels on an aim or lens change. The real confirmation"
+     "at": "2026-11-18T23:56Z",
+     "text": "Published 66e0bb67f5. Fixed-photo SIFT, XFeat and LoFTR comparison found no qualified cross-angle path on the initial archives. Full-clip screening found overlapping garden-orbit and inner-court intervals. XFeat and LoFTR qualified both sel"
     }
    ]
   },
@@ -13197,5 +13188,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "fc9abe4387d871ddfce4061d678d963b1343dad4"
+ "source_revision": "5daa4d408d6ed3d8adaa64320e2f84477e803ea8"
 }
