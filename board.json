@@ -2257,56 +2257,6 @@
    ]
   },
   {
-   "n": 1221,
-   "name": "Repair Windows Photo Editing Projection and Photo Texture Retention fixture bindings to the current Street View",
-   "done": "2026-11-15T23:37Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T23:25Z",
-     "text": "Published 30d7729bee. Roslyn NEW ERRORS: none. Photo FPV and Pano360 Slot tests call current owners; the no-selection frame copy explicitly passes unknown provenance. Four red entries targeted with assertions intact. Native rerun pending wh"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-15T23:37Z",
-     "text": "Rog native Unity 6000.6.8f1 at 5fe48fe995, containing 30d7729bee: PhotoEditingProjectionTests 21/21 and PhotoTextureRetentionTests 22/22. Targeted run covers FPV return, Pano360 precedence and frame provenance. Receipts C:/MavControlEvidenc"
-    }
-   ]
-  },
-  {
-   "n": 1222,
-   "name": "Repair the Windows Startup Batch Timing fixtures for Coding Scene shutdown. Exercise the registered Bootstrap shutdown owner",
-   "done": "2026-11-15T23:37Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T23:30Z",
-     "text": "Published a552c92b18. Roslyn NEW ERRORS: none. Two Startup Batch Timing cases now run the registered Coding Scene shutdown row and assert the exact injected read error. Cleanup restores fixture ownership even after a fault. Native rerun pen"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-15T23:37Z",
-     "text": "Rog native Unity 6000.6.8f1 at 5fe48fe995, containing a552c92b18: StartupBatchTimingTests 19/19, including the registered Coding Scene shutdown checkpoint and faulted-read assertions. Receipts C:/MavControlEvidence/Rog-1221-1222-Photo-Start"
-    }
-   ]
-  },
-  {
    "n": 1223,
    "name": "Restore Windows Planet globe relief pixel checks after the camera-relative hillshade change. Test opposed slopes under aligned Sun and hillshade and when the Sun is behind the camera",
    "done": "2026-11-15T23:47Z",
@@ -12513,16 +12463,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T23:22Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -12549,8 +12490,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-18T23:21Z",
-     "text": "Published bf216399e6 and c13442ca03. Matched-camera Pano360 overlap weighting improved garden-orbit alignment with variable gain. Live recovery remained below its four-view gate. Reusing the tracked aim reached two views while keeping the d"
+     "at": "2026-11-18T23:37Z",
+     "text": "Published 0040d57f91. Fixed-input Kenilworth aim pairs found no added supported views and roughly doubled wall time, so alternate aim is a MapOnly Backdoor comparison. Default recovery cancels on an aim or lens change. The real confirmation"
     }
    ]
   },
@@ -13346,5 +13287,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "93a52934bc6021ad0afebd01dcec29577bc1b23e"
+ "source_revision": "a069394c57961d0398f4b718cd27d69f7c615249"
 }
