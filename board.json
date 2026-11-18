@@ -2172,26 +2172,6 @@
    ]
   },
   {
-   "n": 1160,
-   "name": "Settings Video root on macOS",
-   "done": "2026-11-15T16:26Z",
-   "goal": false,
-   "under": 409,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-15T16:25Z",
-     "text": "Published 613c0b943b: Video Settings uses a scoped local source status on unsupported video-server platforms; Windows retains its server status. VideoSourceSuggestionTests 11/11, no-source Editor look checked, Roslyn NEW ERRORS none; live v"
-    }
-   ]
-  },
-  {
    "n": 1161,
    "name": "Using Strong for the signed terrain picking and Index Compaction fast-pinch comparison",
    "done": "2026-11-15T16:46Z",
@@ -12972,14 +12952,20 @@
     {
      "who": "HEAVY",
      "since": "2026-11-18T16:14Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-18T16:28Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-18T16:28Z",
+     "text": "b3897122e0 on main. Kept unsaved 3D Street View across Video Source changes."
+    }
+   ]
   }
  ],
  "verify": [
@@ -13576,5 +13562,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "4dd9e36116a8dcee662772079bf46ae8bf92d5a9"
+ "source_revision": "c4041ab2faf6eca14350daffaa8945951c090338"
 }
