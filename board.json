@@ -2246,26 +2246,6 @@
    ]
   },
   {
-   "n": 853,
-   "name": "Reduce Mask Pages fast-zoom stalls on Strong (Planet Renderer SPEC",
-   "done": "2026-11-15T06:55Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "high",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T06:54Z",
-     "text": "Done: 7e5100e0f1 stops Mask Pages scans at full load slots, selects unload candidates in one pass and splits the timing rows."
-    }
-   ]
-  },
-  {
    "n": 854,
    "name": "Diagnose and fix the iPad crash reported through TestFlight on 2026-11-15. Awaiting the actual report",
    "done": "",
@@ -17551,18 +17531,7 @@
     }
    ],
    "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-17T13:00Z",
-     "text": "Android Dev for ee36a61830 failed natively with CS0103 at VideoProcessing_Manager_Status: UnityDa3Probe is Editor-only. Roslyn had the same error in both baseline and head. Commit 470d1719ff guards the dispatch like its catalog. Roslyn Andr"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-18T06:09Z",
-     "text": "Published 3af2f71a5a: Windows player 859 qualifies both bundled models through normal capture, native SVMD Save, Pilot lens handoff and cold reopen. Original pixels/source hashes and pose retained; actual archives compared with Python. GPU."
-    }
-   ]
+   "notes": []
   },
   {
    "n": 1507,
@@ -19961,5 +19930,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "ce61d1b5b86df109200a41e947ec2f85874d8e83"
+ "source_revision": "b55058fc83b299dc02bf3e4d3974bccb20cf5c23"
 }
