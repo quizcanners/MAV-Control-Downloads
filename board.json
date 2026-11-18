@@ -7594,16 +7594,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY_HEIGHTMAP",
-     "since": "2026-11-18T19:18Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Route each depth point to mesh, terrain or splat by the SPEC rule",
@@ -7624,11 +7615,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_MAC_GROUND",
-     "at": "2026-11-16T23:40Z",
-     "text": "Published bae63ef292 handles every finite depth endpoint from retained projection views. CameraRays and each projection use the same prediction frame, pose, intrinsics and depth; confidence adds free-space evidence, not another ground heigh"
-    },
-    {
      "by": "CODEX_STREET_SPLAT",
      "at": "2026-11-17T05:56Z",
      "text": "Paused: 342d67ef3e and d2defc1e69 published; Unity 2/2 pose-map, 2/2 weight, Roslyn clean. PoseCommit first draft untracked in checkout passed Metal 1/1. Revised allocation/readback-safe wrapper and failure fixture are /tmp/codex-surface-po"
@@ -7637,6 +7623,11 @@
      "by": "HEAVY",
      "at": "2026-11-18T14:59Z",
      "text": "Published a82ec1670a/f42d581b9e/1c43cb8ffc. The ground band now measures from true terrain and keeps low relief. Generated layers use map ambient; live video and standard Pano360 stay unlit. Terrain tests 10/10; Windows castle Backdoor veri"
+    },
+    {
+     "by": "HEAVY_HEIGHTMAP",
+     "at": "2026-11-18T19:34Z",
+     "text": "b321f13e4c on main. Live Origami floor follows confirmed real depth up to +2 m; connected relief persists across sparse updates."
     }
    ]
   },
@@ -13586,5 +13577,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "6d9190e0f2faeaa0c6061ac4f8c0b43de958bfcd"
+ "source_revision": "86676fa3821536f3e2d30bd74076c69cbba9bc69"
 }
