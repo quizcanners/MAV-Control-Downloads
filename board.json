@@ -15842,25 +15842,22 @@
   {
    "n": 1599,
    "name": "MavChat folded zoom scroller",
-   "done": "",
+   "done": "2026-11-18T08:59Z",
    "goal": false,
    "under": 408,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_ZOOM_GLASS",
-     "since": "2026-11-18T08:48Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_ZOOM_GLASS",
+     "at": "2026-11-18T08:59Z",
+     "text": "Published c236ef47d5. MavChat zoom rests on untinted glass, retains touch feedback and shades the merged right edge black. Actual scroller rendered in Unity over the reference map in both blur and sharp glass modes. Zoom prefab and tick tes"
+    }
+   ]
   }
  ],
  "verify": [
@@ -16437,5 +16434,5 @@
    "since": "2026-11-18T08:28Z"
   }
  ],
- "source_revision": "3f6d6b9dde43d8e8c2174db48691e80d7c3119f0"
+ "source_revision": "f01e1aa3ea795cb75243026f3c2663c15912f65b"
 }
