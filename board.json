@@ -12688,22 +12688,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-18T19:39Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-18T19:34Z",
-     "text": "Exact signed Dev 861 on both tablets. At 30 FPS with unchanged views and local roots, Strong reported PeerReceiveFull with no Lenovo view stream in two post-fix windows (baseline was scanning). No paired in-view sends. Device-wide ViewOffer"
+     "at": "2026-11-18T19:52Z",
+     "text": "d3f1681c75 adds outboundtrace start-index: actual admitted ViewOffer page reads with capture-local peer, interest, page and revision IDs, and retained-wait origin. Existing scheduling and payload trace unchanged. Actual trace host passed 10"
     }
    ]
   },
@@ -13627,5 +13618,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "d92273bcd34a66d1f6b11475f1faf63dc2462f34"
+ "source_revision": "2a720226bed1b3cf590bc79cbf7be292f81c1c93"
 }
