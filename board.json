@@ -2212,26 +2212,6 @@
    ]
   },
   {
-   "n": 1193,
-   "name": "Repair the Windows EditMode fixture owners moved during the controller refactors. WebMercatorFinestTilesTests and WebMercatorIndexPagingTests still reflect SQLite _worker_Optional from the store",
-   "done": "2026-11-15T20:47Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T20:46Z",
-     "text": "55e49af7d0 restores moved fixture owners and makes teardown restore singleton state after failures."
-    }
-   ]
-  },
-  {
    "n": 1194,
    "name": "Keep the prepared Windows All candidate source stable through Unity import and EditMode (Nightly README",
    "done": "2026-11-15T20:57Z",
@@ -4922,16 +4902,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T20:43Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4943,6 +4914,11 @@
      "by": "CODEX_CENTER_RECHECK",
      "at": "2026-11-17T07:23Z",
      "text": "Reviewed current center-tab binding and selection owner: a single custom-button action sets the tab immediately; selected locked coordinates are covered by existing state tests. No new source-backed cause for the intermittent touch failure;"
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-18T20:48Z",
+     "text": "Mac Play reconstructed one selected coordinate also locked. The Editor replay stopped before queuing touch because the screen projection missed the tab. No touch verdict or source change. Returning this claim while taking the WindDecal fram"
     }
    ]
   },
@@ -13612,5 +13588,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "34942f71b6fb70535ebb8eebd917b13437e85eb1"
+ "source_revision": "6153f98459e607aad0d4db59585bccec2b64bb54"
 }
