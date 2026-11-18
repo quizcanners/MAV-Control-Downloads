@@ -22136,8 +22136,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-18T00:16Z",
-     "text": "e1b8a48d43 preserves active paths in the existing resident pass mark; held children remain unhandled and checkpoint forks rejoin only a covering same-pass root. Release/reset/row-transfer custody is covered. Actual-owner host: 991 assertion"
+     "at": "2026-11-18T00:34Z",
+     "text": "e1b8a48d43 + 206e8bb330 delivered active branch custody and covered checkpoint handoff, with finished/failed peer attempts kept closed for the pass. Final actual-owner host: 993 assertions + 18 falsifiers; priority controls + 12 falsifiers "
     }
    ]
   },
@@ -22726,5 +22726,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "204b995b1f694d90f72c52a9abff7586c1f171e1"
+ "source_revision": "9960357935c9b61edd4b07dead7a3af1fcb19fb5"
 }
