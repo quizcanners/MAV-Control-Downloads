@@ -12608,16 +12608,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T23:01Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -12638,14 +12629,14 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-18T23:00Z",
-     "text": "Published 530742c052. The fixed-camera depth benchmark found a narrow triangulation win and several regressions. DA3 stays the default. Backdoor now distinguishes overlap support from camera-prior refusal. Zurich and garden orbit left the d"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-18T23:10Z",
      "text": "Native Unity import on d4c4b7ef5a reported the Pano360Depth.hlsl.meta GUID invalid and skipped the asset. Source GUID introduced by 50d41faa26 has 33 hex characters, and one shader references the include by name. Live private Android build "
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-18T23:18Z",
+     "text": "Published bf216399e6. Rendered references now weight Pano360 photos by calibrated view overlap. The matched-camera comparison improved garden orbit image alignment in both captures, with variable gain. Live recovery still fell short. Restor"
     }
    ]
   },
@@ -13437,5 +13428,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "c7a6b87b9d91529c046002a9bc08441f50784a66"
+ "source_revision": "ae99be08f441533b9c0f30fd8e1f6f27710882c7"
 }
