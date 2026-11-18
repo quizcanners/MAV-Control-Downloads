@@ -2240,26 +2240,6 @@
    ]
   },
   {
-   "n": 788,
-   "name": "using Strong for paired Web Mercator tile receive and Windows sender traces",
-   "done": "2026-11-15T04:02Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T04:02Z",
-     "text": "Strong Dev 842 completed two shared receiver captures with Windows Dev 833. The second window picked up Direct USB. Strong returned to its prior background state and the owned Windows sender has exited. No ADB forwards remain. Details in 42"
-    }
-   ]
-  },
-  {
    "n": 789,
    "name": "using Strong for the Web Mercator hash reply comparison on 842 and the containing Dev build",
    "done": "2026-11-15T04:56Z",
@@ -21346,7 +21326,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-17T23:52Z",
-     "noted": "2026-11-18T03:25Z",
+     "noted": "2026-11-18T04:06Z",
      "progress": 75,
      "ticked": 3,
      "total": 4
@@ -21373,8 +21353,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-18T03:25Z",
-     "text": "Source:6970535ea4 session publication;0be190e86e probe cache;checks and limits in CPU.md."
+     "at": "2026-11-18T04:06Z",
+     "text": "Done:55984942de,6a6fe6c16b published;46db Dev859 cold/restart both tablets,Strong full probe pass;CPU.md. Checks:22+11 owner controls;own+merged Roslyn noNew;guides0errors. Held:1558,1584 Strong,1585 Lenovo;1586 done/released. Live:6a6fe6c1"
     }
    ]
   },
@@ -22529,5 +22509,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "4788da8811366d081d8264412ea97c0e48fde788"
+ "source_revision": "7b505d33bcab227673af5fac9351217352b9b38d"
 }
