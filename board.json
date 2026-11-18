@@ -2487,80 +2487,6 @@
    ]
   },
   {
-   "n": 1013,
-   "name": "Round 5 pins P2",
-   "done": "2026-11-15T09:13Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T09:13Z",
-    "2026-11-15T09:13Z",
-    "2026-11-15T09:13Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Find which files the tests read that are gone or moved",
-     "x": true
-    },
-    {
-     "t": "Point each test at the file that holds the code today",
-     "x": true
-    },
-    {
-     "t": "Run what runs on this machine and note the rest",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "Thread1013",
-     "at": "2026-11-15T09:12Z",
-     "text": "Pushed 5e9e9d00f2: green on cloud: test_chat_messages_order, test_peer_meta_null_profile, test_search_peer_snapshot, test_car_last_position. Rest moved to a new P3 task; test_coding_search_key needs Library/PackageCache."
-    }
-   ]
-  },
-  {
-   "n": 1014,
-   "name": "Round 5 pins P3",
-   "done": "2026-11-15T09:13Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T09:13Z",
-    "2026-11-15T09:13Z",
-    "2026-11-15T09:13Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Find which files the tests read that are gone or moved",
-     "x": true
-    },
-    {
-     "t": "Point each test at the file that holds the code today",
-     "x": true
-    },
-    {
-     "t": "Run what runs on this machine and note the rest",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_PINS_1014",
-     "at": "2026-11-15T09:12Z",
-     "text": "pins repointed; leftovers in nested-controllers.md"
-    }
-   ]
-  },
-  {
    "n": 1017,
    "name": "Restore Rog Unity compilation after the round 5 Planet Mask ViewsController split (task 954)",
    "done": "2026-11-15T10:53Z",
@@ -15662,25 +15588,22 @@
   {
    "n": 1600,
    "name": "Search history and shared UI buttons",
-   "done": "",
+   "done": "2026-11-18T09:13Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_TAP_TRAVEL",
-     "since": "2026-11-18T09:01Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_TAP_TRAVEL",
+     "at": "2026-11-18T09:13Z",
+     "text": "Published 62fbe43a4e on main. Search history, result and filter rows surrender the click on drag. Shared buttons and toggles accept up to 4 dp of touch travel or 4 mouse/pen pixels. Unity Editor compiled and all 98 list, pointer and Search "
+    }
+   ]
   }
  ],
  "verify": [
@@ -16257,5 +16180,5 @@
    "since": "2026-11-18T08:28Z"
   }
  ],
- "source_revision": "c241671894b2d698c12fe784a9642c1f64565d81"
+ "source_revision": "877500fe3d073bdaf9b76de163cc335595be05e3"
 }
