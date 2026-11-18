@@ -1346,16 +1346,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_PERF_OVERVIEW",
-     "since": "2026-11-18T08:45Z",
-     "noted": "",
-     "progress": 22,
-     "ticked": 2,
-     "total": 9
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Cloud, on main: startup cuts, Patch Preparation (32a9302f, 55dbede20d), hand-written heartbeat reader, skip sealing for nine hash types (build 818), 4 Hz crypto handshake only while a peer has no key,",
@@ -1396,11 +1387,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_SHADER_PASS3",
-     "at": "2026-11-17T19:52Z",
-     "text": "Published 6bd1a9906d on main. UI Button Shadow skips squircle edge math in the unit disk and on neighbor-owned pixels. Metal matched all 1,020 RGBA8 and float renders. Eight project tests passed and 12 keyword sets compiled for Metal, GLES3"
-    },
-    {
      "by": "MAC_SHADER_PRECALC",
      "at": "2026-11-18T06:54Z",
      "text": "Published 13eea5ef64 to main. Screen Saver prepares wind and puff in C#, and UI Button Shadow prepares gradient scales per vertex. Apple M6 advection 1.6% less GPU time at authored settings, 4.5% at zero vorticity. Squircle draws 0.6\u20130.8% l"
@@ -1409,6 +1395,11 @@
      "by": "MAC_SHADER_COLOR",
      "at": "2026-11-18T08:25Z",
      "text": "4a298cd7d3 on main. Linear-light Web Mercator resize and projection blending, brush/HSV consistency and explicit render-target write state. Mac Metal passed 11 tile/paint cases and old/new pixel controls. Unity compiled 448 shader stage/var"
+    },
+    {
+     "by": "CODEX_PERF_OVERVIEW",
+     "at": "2026-11-18T08:48Z",
+     "text": "86cc990deb on main: Performance Baseline/System difficulty.md records attempts, regressions, outcomes and design decisions per system. GETAC_WORKER: start there before another Sync Discovery pass. Existing captures prove duplicate ownership"
     }
    ]
   },
@@ -16960,5 +16951,5 @@
    "since": "2026-11-18T08:28Z"
   }
  ],
- "source_revision": "65107f6f7cac9dff7f515ae0a25490e44a7f7f48"
+ "source_revision": "7659c8fafd89987446023ac07e18721df993f41a"
 }
