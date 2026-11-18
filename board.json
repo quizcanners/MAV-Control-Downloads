@@ -746,7 +746,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-18T12:57Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 3,
+     "total": 6
+    }
+   ],
    "steps": [
     {
      "t": "Windows runner host harness restored (27f57e05ab; receipts C:/MavControlEvidence/Windows-375-20261113/); HEAVY / PL-007 runner heavy-pl-007 on Unity 6000.6.8f1 (64cceb04cc), Task Scheduler owns one li",
@@ -13843,5 +13852,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "25b89076635d35bdf4465c4a1a2ae0afa82b03a1"
+ "source_revision": "d89cb2954944daa12b731a8d8edc8f8408f9034b"
 }
