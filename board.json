@@ -2207,31 +2207,6 @@
    ]
   },
   {
-   "n": 795,
-   "name": "Keep Ukraine Borders on the visible Planet Renderer globe in orbital views",
-   "done": "2026-11-15T06:07Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY_UKRAINE",
-     "at": "2026-11-15T05:27Z",
-     "text": "37f29bf723 resets Overlays adoption and parents generated anchors to the active Cesium Georeference. Windows pre-fix 1,000 km replay moved the outline with the origin after reload; max anchor error 6,366,970 m. Unity imported the fix, Rosly"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T06:07Z",
-     "text": "37f29bf723 passed the Windows Unity script reload at 1,000 km. All 761 front and limb samples stayed in Ukraine; maximum ECEF anchor error 0.086 m. Original camera and Play restored after replay. Evidence: C:/MavControlEvidence/Windows-795-"
-    }
-   ]
-  },
-  {
    "n": 796,
    "name": "Start the Left Lists folded and load their UI only for workflows that use it; MavChat keeps its own lists (UI SPEC",
    "done": "2026-11-15T06:36Z",
@@ -2253,46 +2228,6 @@
      "by": "HEAVY",
      "at": "2026-11-15T06:35Z",
      "text": "1d92bb91c2 separates Peers UI from Left Lists."
-    }
-   ]
-  },
-  {
-   "n": 805,
-   "name": "Ukraine Borders show through the far side of the globe at 1",
-   "done": "2026-11-15T06:04Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-15T06:08Z",
-     "text": "Published 211066c639 via d0ba30890c (PR 93): per-camera orbital horizon plane and Country Border Ribbon opt-in; no extra samples or draws. Mac Metal horizon cases and all three RibbonOpacityTests passed; native compile and Roslyn clean. SPE"
-    }
-   ]
-  },
-  {
-   "n": 806,
-   "name": "Frame-budget Video activity checks count every receiving and sending stream just to decide whether the process exists. Stop at the first active typed source; keep full counts for presentation and imme",
-   "done": "2026-11-15T06:06Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-15T06:05Z",
-     "text": "Published 8d0fe4255a via d0ba30890c (PR 93). Video presence/completion stops at the first active stream; presentation retains full totals and same-frame stops remain immediate. Native ProcessMetricsTests 7/7 and Roslyn passed; CPU baseline "
     }
    ]
   },
@@ -2432,26 +2367,6 @@
    "notes": []
   },
   {
-   "n": 833,
-   "name": "Restore Web Mercator Diagnostics ownership after the task 813 merge",
-   "done": "2026-11-15T06:07Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-15T06:06Z",
-     "text": "Published 9094ff02d6 via d0ba30890c: restored Diagnostics ownership and moved the shared WindowState persistent schema outside the Windows-only guard. HEAVY independently supplied the Network imports. Native compilation is clean; Roslyn pas"
-    }
-   ]
-  },
-  {
    "n": 834,
    "name": "Sweep the map and panels for on-screen text quiz never asked for (readouts",
    "done": "2026-11-15T06:29Z",
@@ -2475,37 +2390,6 @@
      "text": "f414dbc537 completed the listed Settings text sweep. 2b3c83ec81 removes all three legacy prefab roots through Prefab Edit. Windows Unity import and four focused checks passed. Live Map Source render is queued separately: after normal Bootst"
     }
    ]
-  },
-  {
-   "n": 835,
-   "name": "Round 2 rename R4",
-   "done": "2026-11-15T06:05Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T06:05Z",
-    "2026-11-15T06:05Z",
-    "2026-11-15T06:05Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Nest the class and switch the 6 files",
-     "x": true
-    },
-    {
-     "t": "Check no old name is left with grep",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/frame-budget-job-names.md",
-     "x": true
-    }
-   ],
-   "notes": []
   },
   {
    "n": 836,
@@ -2533,37 +2417,6 @@
     },
     {
      "t": "Add valid unique Unity metadata for all three sibling sources",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 841,
-   "name": "Round 2 split J10",
-   "done": "2026-11-15T06:04Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T05:54Z",
-    "2026-11-15T06:04Z",
-    "2026-11-15T06:04Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Move Diagnostics and DebugView out of the main file",
-     "x": true
-    },
-    {
-     "t": "Split the Online file by what it loads",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
      "x": true
     }
    ],
@@ -2655,37 +2508,6 @@
    ]
   },
   {
-   "n": 846,
-   "name": "Round 2 forwarders J21",
-   "done": "2026-11-15T06:03Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T05:59Z",
-    "2026-11-15T06:01Z",
-    "2026-11-15T06:02Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Count the forwarders per file with the scan",
-     "x": true
-    },
-    {
-     "t": "Delete them and fix callers",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/forwarders-and-long-signatures.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 848,
    "name": "Round 2 tests T3",
    "done": "2026-11-15T06:26Z",
@@ -2715,43 +2537,6 @@
      "by": "CLOUD_R3_SCOUT",
      "at": "2026-11-15T06:26Z",
      "text": "Closed by CLOUD_R3_SCOUT: 47 tests split by view, grep for DebugTimeSliceCapture now finds 0 (task 835 done)."
-    }
-   ]
-  },
-  {
-   "n": 849,
-   "name": "Round 2 split J23",
-   "done": "2026-11-15T06:03Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T06:03Z",
-    "2026-11-15T06:03Z",
-    "2026-11-15T06:03Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "List the panels inside the file",
-     "x": true
-    },
-    {
-     "t": "Move one panel per commit",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud-849",
-     "at": "2026-11-15T06:00Z",
-     "text": "Done: file split into 7 partials (640 lines left). Left: fields into nested controllers, see nested-controllers.md"
     }
    ]
   },
@@ -18914,16 +18699,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T05:13Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -18933,8 +18709,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-18T05:11Z",
-     "text": "Published ecd7c0c0c6: native terrain/detail-only Save, empty-result refusal and supported-layer bounds. Cleanup works in EditMode. 55 native and 37 Python controls pass; four semantic modes clean. Normal 40-frame Kenilworth Save/cold reopen"
+     "at": "2026-11-18T06:09Z",
+     "text": "Published 3af2f71a5a: Windows player 859 qualifies both bundled models through normal capture, native SVMD Save, Pilot lens handoff and cold reopen. Original pixels/source hashes and pose retained; actual archives compared with Python. GPU."
     }
    ]
   },
@@ -21312,5 +21088,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "e9d08ed304969f7cce118c2318b4aaee56e6e822"
+ "source_revision": "c6be7e98d67c3061e5f6b05eb89e3447eaa0a7c1"
 }
