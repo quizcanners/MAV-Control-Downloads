@@ -15370,25 +15370,22 @@
   {
    "n": 1602,
    "name": "Chat SPEC",
-   "done": "",
+   "done": "2026-11-18T09:39Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_CHAT_COMPOSER",
-     "since": "2026-11-18T09:29Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_CHAT_COMPOSER",
+     "at": "2026-11-18T09:39Z",
+     "text": "Published dca7bc92c9 on main. Ordinary Chat bottom fade removed, input row raised 8 units, absent photo slot hidden. Unity compiled and confirmed icon switching and layout. 60/61 relevant Editor tests passed. The local peer-list backdrop co"
+    }
+   ]
   }
  ],
  "verify": [
@@ -15977,5 +15974,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "f6c7316f4cae4a8720213558b30517e5e4ddb944"
+ "source_revision": "5b915d2649a32cbe9c2dddb968a3edf1b7da0d8f"
 }
