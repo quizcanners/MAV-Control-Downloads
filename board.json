@@ -7692,16 +7692,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T16:50Z",
-     "noted": "",
-     "progress": 40,
-     "ticked": 2,
-     "total": 5
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Live surface store, per-tile snapshots with atomic admission, erase/epoch guards, monotonic displayed revisions, fenced failure retirement, RTX6 transport, shared encoding (00f0f9f0a9, a814318931, def",
@@ -7724,7 +7715,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-18T16:59Z",
+     "text": "f6a86fd321: Unity preview draws compact round surfels. Compatible canonical observations refine position and normals over time, with billboard fallback on first confirmation. D3D11 merge and packing 3/3, offline draw stages 12/12, Roslyn cl"
+    }
+   ]
   },
   {
    "n": 1419,
@@ -13501,5 +13498,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "3e2c3fc779672867add5694684f32e0c7247f802"
+ "source_revision": "2df2ba4ccd51b0dd164bc6f3bf53e9d3ef5d9452"
 }
