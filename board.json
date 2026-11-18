@@ -2780,33 +2780,6 @@
    "notes": []
   },
   {
-   "n": 1051,
-   "name": "Round 6 group G-BaseMap",
-   "done": "2026-11-15T10:06Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": false
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": false
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": false
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 1052,
    "name": "Round 6 shrink",
    "done": "2026-11-15T10:27Z",
@@ -2896,37 +2869,6 @@
    "notes": []
   },
   {
-   "n": 1082,
-   "name": "Round 6 split X28",
-   "done": "2026-11-15T10:06Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T10:06Z",
-    "2026-11-15T10:06Z",
-    "2026-11-15T10:06Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 1085,
    "name": "Round 6 split X31",
    "done": "2026-11-15T10:08Z",
@@ -2936,37 +2878,6 @@
     "2026-11-15T10:06Z",
     "2026-11-15T10:07Z",
     "2026-11-15T10:08Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 1086,
-   "name": "Round 6 split X32",
-   "done": "2026-11-15T10:07Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T10:07Z",
-    "2026-11-15T10:07Z",
-    "2026-11-15T10:07Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -3145,33 +3056,6 @@
     {
      "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
      "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 1093,
-   "name": "Round 6 left",
-   "done": "2026-11-15T10:07Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": false
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": false
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": false
     }
    ],
    "notes": []
@@ -10378,25 +10262,19 @@
    "held": [],
    "steps": [
     {
-     "t": "Pair LocalDji FramePose to worker frames in the DJI clock domain and feed DJI east, north and heading per frame",
+     "t": "Pair LocalDji FramePose to Unity frames in the DJI clock domain and feed DJI east, north and heading per frame",
      "x": false
     },
     {
-     "t": "Query Planet Renderer at the ground contact and correct only the home altitude, publish the shared 3D Street View transform",
+     "t": "Query Planet Renderer at the ground contact and correct only the home altitude, publish the shared 3D Street View transform (cc047fb1b4 recorded the rule in the Street View SPEC)",
      "x": false
     },
     {
-     "t": "Unpositioned drone path: Depth Anything 3 per keyframe with 2-frame overlap, DJI only an optional prior",
+     "t": "Unpositioned drone path in Unity: Depth Anything 3 per keyframe with 2-frame overlap, DJI only an optional prior; compare against the frozen Python replay, do not extend Python",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-16T14:47Z",
-     "text": "cc047fb1b4 on main: Street View SPEC records DJI horizontal authority, reconstruction-only Home lift and the two mesh layers. Offline RTX/Kenilworth replay and known-route checks passed with simulated DJI fixes. Next: pair LocalDji FramePos"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 1418,
@@ -14922,5 +14800,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "86c50078049f779f61bdd58cb24cb05233475b5a"
+ "source_revision": "3c62cd49bd53e2fb655a8e779ad0259a002f0815"
 }
