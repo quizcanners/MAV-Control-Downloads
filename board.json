@@ -2172,26 +2172,6 @@
    ]
   },
   {
-   "n": 1169,
-   "name": "Repair the remaining owner bindings exposed by the Windows List Picker follow-up (Tests SPEC",
-   "done": "2026-11-15T17:13Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T17:13Z",
-     "text": "Published a6910f1abc. Captured the failing stacks and restored the Popup, OverlayDecision, camera and Base Map Pointing bindings plus the fixture-owned Training and camera. Rog Unity compiled clean; Deferred List Views 9/9, Waypoint Drag 41"
-    }
-   ]
-  },
-  {
    "n": 1170,
    "name": "Restore remaining Popup and OverlayDecision fixture state bindings after the Station.UI owner split (Tests SPEC). Preserve fixture setup",
    "done": "2026-11-15T17:19Z",
@@ -12908,6 +12888,29 @@
      "text": "Published 6eb8a9fb03. Mac Play at 0 and 144 px right insets kept the active backing at 434 canvas units with no right-edge gap; the bottom coordinate row moved inward. Focused notch and swipe tests pass; broader Lock Point failure matches u"
     }
    ]
+  },
+  {
+   "n": 1672,
+   "name": "Constrain shared left-list transition blur to ListWidth. Use Telemetry\u2019s own cover for its wider detail panel during list switches and flicks (Left Lists SPEC).",
+   "done": "",
+   "goal": false,
+   "under": 408,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-18T17:13Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -13504,5 +13507,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "863e8858526109e8f9c6a8995329be039db71b3c"
+ "source_revision": "4cf39a71b744e0718311c5defe91e5f6692642e6"
 }
