@@ -2507,37 +2507,6 @@
    ]
   },
   {
-   "n": 1030,
-   "name": "Round 6 group P1 masks",
-   "done": "2026-11-15T09:44Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T09:44Z",
-    "2026-11-15T09:44Z",
-    "2026-11-15T09:44Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 1035,
    "name": "Round 6 group P6 session state and presentation",
    "done": "2026-11-15T09:59Z",
@@ -2547,37 +2516,6 @@
     "2026-11-15T09:58Z",
     "2026-11-15T09:58Z",
     "2026-11-15T09:59Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 1036,
-   "name": "Round 6 group P7 lighting and surface",
-   "done": "2026-11-15T09:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T09:50Z",
-    "2026-11-15T09:50Z",
-    "2026-11-15T09:50Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -2751,37 +2689,6 @@
    "notes": []
   },
   {
-   "n": 1042,
-   "name": "Round 6 group G-DJI",
-   "done": "2026-11-15T09:48Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T09:46Z",
-    "2026-11-15T09:47Z",
-    "2026-11-15T09:48Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 1044,
    "name": "Round 6 shrink",
    "done": "2026-11-15T10:28Z",
@@ -2811,39 +2718,6 @@
     }
    ],
    "notes": []
-  },
-  {
-   "n": 1045,
-   "name": "Round 6 shrink",
-   "done": "2026-11-15T09:49Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Read the ask and list the fix chains",
-     "x": false
-    },
-    {
-     "t": "Remove dead or equivalent code, one chain per commit",
-     "x": false
-    },
-    {
-     "t": "Add a Done line with lines removed to Coordination/Refactoring/nested-controllers.md",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_SHRINK_VIDEO",
-     "at": "2026-11-15T09:48Z",
-     "text": "Scan found no provably dead code; one question for quiz (TrySelectOnlyRestreamLink never called)."
-    }
-   ]
   },
   {
    "n": 1046,
@@ -3084,167 +2958,6 @@
    "notes": []
   },
   {
-   "n": 1060,
-   "name": "Round 6 split X7",
-   "done": "2026-11-15T09:47Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T09:46Z",
-    "2026-11-15T09:46Z",
-    "2026-11-15T09:46Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_R6_1060",
-     "at": "2026-11-15T09:47Z",
-     "text": "Done: StatesManager and LinkManager split into nested controllers (f3fb0a67), uncompiled; compile pass left"
-    }
-   ]
-  },
-  {
-   "n": 1061,
-   "name": "Round 6 split X8",
-   "done": "2026-11-15T09:48Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T09:47Z",
-    "2026-11-15T09:47Z",
-    "2026-11-15T09:47Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 1062,
-   "name": "Round 6 split X9",
-   "done": "2026-11-15T09:46Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T09:45Z",
-    "2026-11-15T09:45Z",
-    "2026-11-15T09:45Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 1064,
-   "name": "Round 6 split X11",
-   "done": "2026-11-15T09:47Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T09:46Z",
-    "2026-11-15T09:46Z",
-    "2026-11-15T09:47Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 1065,
-   "name": "Round 6 split X12",
-   "done": "2026-11-15T09:46Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T09:46Z",
-    "2026-11-15T09:46Z",
-    "2026-11-15T09:46Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 1066,
    "name": "Round 6 split X13",
    "done": "2026-11-15T09:55Z",
@@ -3267,68 +2980,6 @@
     {
      "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
      "x": false
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 1067,
-   "name": "Round 6 split X14",
-   "done": "2026-11-15T09:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T09:50Z",
-    "2026-11-15T09:50Z",
-    "2026-11-15T09:50Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 1068,
-   "name": "Round 6 split X15",
-   "done": "2026-11-15T09:49Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T09:48Z",
-    "2026-11-15T09:48Z",
-    "2026-11-15T09:48Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
     }
    ],
    "notes": []
@@ -3437,20 +3088,6 @@
      "text": "Split into 8 nested controllers in Systems/Camera/DroneCameraControl/; uncompiled; Done line in nested-controllers.md"
     }
    ]
-  },
-  {
-   "n": 1072,
-   "name": "Using Strong for the signed Element Mask fast-pinch comparison",
-   "done": "2026-11-15T09:48Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
   },
   {
    "n": 1073,
@@ -15213,25 +14850,22 @@
   {
    "n": 1603,
    "name": "Telemetry > Positioning",
-   "done": "",
+   "done": "2026-11-18T09:51Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_POSITION_TEXT",
-     "since": "2026-11-18T09:43Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_POSITION_TEXT",
+     "at": "2026-11-18T09:51Z",
+     "text": "Published c8304b518f and synchronized the iOS checkout. The Positioning tab omits local coordinates and altitude and collapses the empty row. All 256 status/text combinations passed the focused comparison. Roslyn reported no new errors. No "
+    }
+   ]
   }
  ],
  "verify": [
@@ -15820,5 +15454,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "7de2d411b207a3870e9ae35616bfe37d4b890ca9"
+ "source_revision": "dafe64b2fcc959bc4fb905e8eb2a824f5da79e00"
 }
