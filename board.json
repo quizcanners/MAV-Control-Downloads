@@ -2231,31 +2231,6 @@
    ]
   },
   {
-   "n": 1123,
-   "name": "Decode only the validated outgoing references on a cold Web Mercator index compaction read (Web Mercator SPEC",
-   "done": "2026-11-15T13:05Z",
-   "goal": false,
-   "under": 430,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T13:05Z",
-     "text": "Published 6057c0ea83 with CPU.md evidence. Canonical v7 cold reads use shared validation on reusable rows and keep only root and outgoing reference summaries. Rog Unity compiled; 11 focused checks passed from compiled assemblies, including "
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T14:30Z",
-     "text": "Strong paired signed Dev 845, 24 pinches per APK. CPU.md 17f09214d3. The cold sweep completed on device via reference projection. The old packed-row allocation stack was absent in the sampled worker. IndexVault decompression remains an inde"
-    }
-   ]
-  },
-  {
    "n": 1124,
    "name": "Drone rows",
    "done": "2026-11-15T13:19Z",
@@ -13248,25 +13223,22 @@
   {
    "n": 1639,
    "name": "Pilot column layout",
-   "done": "",
+   "done": "2026-11-18T13:05Z",
    "goal": false,
    "under": 408,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_PILOT_TONGUES",
-     "since": "2026-11-18T12:51Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_PILOT_TONGUES",
+     "at": "2026-11-18T13:05Z",
+     "text": "3243c1abc2 verified on remote main. Each Pilot fold handle follows its own column. Both sides track drag, settle after release, and retain an edge handle while folded. Unity pointer, fixed-slot and swipe tests 13/13 passed. Compiler compari"
+    }
+   ]
   }
  ],
  "verify": [
@@ -13859,5 +13831,5 @@
    "since": "2026-11-18T13:00Z"
   }
  ],
- "source_revision": "cc0b28dafb58820763a2adbd81ad51d4a19ae2fb"
+ "source_revision": "7912f50338ac3db5b516cbd799d3bb049ddc3d51"
 }
