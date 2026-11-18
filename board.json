@@ -12823,25 +12823,22 @@
   {
    "n": 1672,
    "name": "Constrain shared left-list transition blur to ListWidth. Use Telemetry\u2019s own cover for its wider detail panel during list switches and flicks (Left Lists SPEC).",
-   "done": "",
+   "done": "2026-11-18T17:29Z",
    "goal": false,
    "under": 408,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T17:13Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-18T17:29Z",
+     "text": "Published 4a34698e4e. Mac Play measured the shared cover at 300 units for ordinary switches, entering and leaving Telemetry, and an offset flick. The outgoing detail starts at the list edge and ends at the captured detail edge; the incoming"
+    }
+   ]
   },
   {
    "n": 1673,
@@ -13507,5 +13504,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "b8751329352dc5e25af1cdb1180d2f2281c2ce22"
+ "source_revision": "3110e6b778dfde05dc3978e8955ba58215688364"
 }
