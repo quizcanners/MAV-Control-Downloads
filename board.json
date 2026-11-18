@@ -2366,48 +2366,6 @@
    ]
   },
   {
-   "n": 925,
-   "name": "Round 4 split R36",
-   "done": "2026-11-15T08:28Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T08:28Z",
-    "2026-11-15T08:28Z",
-    "2026-11-15T08:28Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud-thread-925",
-     "at": "2026-11-15T07:46Z",
-     "text": "R36 done: render pass and ground marker (nested GroundMarkerController) moved to Copilot/UI/PilotView/. Left: TopMetric/TopMetricText and ViewSurface controllers, Editor compile."
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-15T08:28Z",
-     "text": "Published e76b88848d, fe636b3012, 5de53a090c and 6f71dad856. TopStatusController owns metric/battery and signal state; SurfaceController owns visibility and folds. Existing prefab fields stay on the component. Rog Unity compiled 6f71dad856;"
-    }
-   ]
-  },
-  {
    "n": 926,
    "name": "Round 4 split R37",
    "done": "2026-11-15T11:19Z",
@@ -2488,26 +2446,6 @@
      "by": "ROG",
      "at": "2026-11-15T11:16Z",
      "text": "Published ba8fbec63d. Publication input types now belong to PublicationController, existing Feed/Relay/Wish ownership checked, constants consolidated, pose enum alongside codec. Constants and pose wire values match the old source. Rog nativ"
-    }
-   ]
-  },
-  {
-   "n": 942,
-   "name": "Restore native compilation after the follow-up Chat and Extended Menu extraction (task 875)",
-   "done": "2026-11-15T08:28Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T08:28Z",
-     "text": "Published a796415ef6. Chat owns closing and return state; QR and My Details callers resolve to that owner. Rog Unity compiled 6f71dad856. Three focused checks passed: QR caller return, My Details caller return and Chat context snapshot rest"
     }
    ]
   },
@@ -18015,7 +17953,7 @@
   {
    "n": 1596,
    "name": "Undo/Redo list rows open the contextual drag menu; first option Delete removes the row from history without undoing it (finalises the action). Done in cloud",
-   "done": "",
+   "done": "2026-11-18T08:28Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -18597,5 +18535,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "39b3a059b7576561520c08fc9127b29364cee4a3"
+ "source_revision": "f571146a067dbe9f27e7b7f5b2ff659139b42a15"
 }
