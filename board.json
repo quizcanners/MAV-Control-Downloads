@@ -12992,6 +12992,37 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1704,
+   "name": "3D Street View saves original photos whose poses, lenses and depth agree. The saved model and photo evidence can regenerate the transient Disk cloud.",
+   "done": "",
+   "goal": true,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
+     "x": false
+    },
+    {
+     "t": "Retain diverse photo evidence and measure matched-view Pano360 ghosting",
+     "x": false
+    },
+    {
+     "t": "Measure and reduce Unity inference, transfer and refinement cost on fixed clips",
+     "x": false
+    },
+    {
+     "t": "Improve pose-only synthetic references and compare complementary matching and stereo models",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -13592,5 +13623,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "4c853e478e1198047392dc80f0eb94e5ca64e8c1"
+ "source_revision": "8c95396298b5f2a04b58ce2724822003f9ca5e48"
 }
