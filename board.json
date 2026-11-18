@@ -13186,25 +13186,22 @@
   {
    "n": 1633,
    "name": "One-time notification controls",
-   "done": "",
+   "done": "2026-11-18T12:45Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_NOTIFICATION_MUTE",
-     "since": "2026-11-18T12:34Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_NOTIFICATION_MUTE",
+     "at": "2026-11-18T12:45Z",
+     "text": "Published c4d93dfaae. One-time notices have a session mute per kind. Flicks acknowledge the current occurrence. The Agent and pooled Chat card EditMode tests passed, prefab links checked on six cards, Roslyn comparison found no new errors. "
+    }
+   ]
   },
   {
    "n": 1634,
@@ -13850,5 +13847,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "56ddec3bebeb0d6fb77e09b0d154060a1dada8ef"
+ "source_revision": "9390cff0d9600800fec40559b3dd6c53fbaf5ecb"
 }
