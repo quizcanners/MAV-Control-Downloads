@@ -2268,31 +2268,6 @@
    ]
   },
   {
-   "n": 1218,
-   "name": "Repair Windows Peer Video Transport",
-   "done": "2026-11-15T23:22Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T23:07Z",
-     "text": "Published 08294d262f. Roslyn NEW ERRORS: none. Peer Video and Restream now use an isolated Station and Video Diagnostics binds to its Capture controller. Existing assertions preserved across six red NUnit entries. Windows fixture rerun pend"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-15T23:22Z",
-     "text": "ae9408aa33 gives both relay subscription tests the isolated Station and its own Restream manager, preserving the original assertions. Rog Unity 6000.6.8f1: Peer Video Transport 23/23 and Video Diagnostics 94/94 at 2422f14244, then Restream "
-    }
-   ]
-  },
-  {
    "n": 1219,
    "name": "Repair Windows Direct USB Progress and Web Mercator cable queue fixtures to current Peer Interest and sender owners. Preserve focus round-trip",
    "done": "2026-11-15T23:24Z",
@@ -12608,7 +12583,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-18T23:22Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -13428,5 +13412,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "fe222bf12eb8788ad9043aee2c52ce9bd3b3e094"
+ "source_revision": "d7fcacd536b79ea820b31b269ee3de113c665470"
 }
