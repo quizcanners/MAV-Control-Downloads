@@ -2233,26 +2233,6 @@
    ]
   },
   {
-   "n": 1138,
-   "name": "Regular Chat layout",
-   "done": "2026-11-15T14:39Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_CHAT",
-     "at": "2026-11-15T14:38Z",
-     "text": "Published 587cc5e98f: removed map-tab inset and doubled row padding in regular Chat; corrected Home and action rail anchors. Unity layout 27/27, portrait 6/6, peer list 10/10; MapOnly Play checked populated peer list and conversation; Rosly"
-    }
-   ]
-  },
-  {
    "n": 1140,
    "name": "Bound ECS Text label-slot lookup (ECS SPEC",
    "done": "2026-11-15T15:04Z",
@@ -13164,6 +13144,29 @@
      "text": "Development planet.status now has active and last-send/receive rows with peer, cell, transfer ID, phase, acknowledged/committed bytes, start and observation times and end reason. Peer Cancel and publication survive slot release. One in-memo"
     }
    ]
+  },
+  {
+   "n": 1653,
+   "name": "Elevation sender reuses full raster validation only when fresh SHA-256 of the opened file matches its validated digest. Keep proof on the existing catalog load and cell revision",
+   "done": "",
+   "goal": false,
+   "under": 1558,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-18T14:39Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -13756,5 +13759,5 @@
    "since": "2026-11-18T13:00Z"
   }
  ],
- "source_revision": "5adbe30bd7b3e7cdfcfbd91c888ff17c8c6afa05"
+ "source_revision": "b48453be621437f5725171f19370f6d4f706adb3"
 }
