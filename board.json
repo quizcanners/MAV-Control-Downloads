@@ -301,13 +301,7 @@
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-17T16:08Z",
-     "text": "Prune 2026-11-17: no Walk sync code remains on main (abe631fa5a), so only the paired drill acceptance and tile speed number are left in that step; the rest is device work."
-    }
-   ]
+   "notes": []
   },
   {
    "n": 367,
@@ -2841,74 +2835,6 @@
     }
    ],
    "notes": []
-  },
-  {
-   "n": 1087,
-   "name": "Round 6 split X33",
-   "done": "2026-11-15T10:09Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T10:08Z",
-    "2026-11-15T10:09Z",
-    "2026-11-15T10:09Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 1088,
-   "name": "Round 6 split X34",
-   "done": "2026-11-15T10:09Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T10:08Z",
-    "2026-11-15T10:08Z",
-    "2026-11-15T10:09Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud-1088",
-     "at": "2026-11-15T10:06Z",
-     "text": "Done: Station_VideoToMapManager split into 6 nested controllers + callers/tests, line in nested-controllers.md. Left (Editor): compile."
-    }
-   ]
   },
   {
    "n": 1090,
@@ -14722,5 +14648,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "a8950bb39ac99e57323e8090de083296f892cb21"
+ "source_revision": "b49953dbf5aaa80b20f1ee1c09d35a3d3adc5ccc"
 }
