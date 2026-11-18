@@ -2033,39 +2033,6 @@
    ]
   },
   {
-   "n": 650,
-   "name": "Sky plot follow-ups (no goal fits; area GPS and UI compass)",
-   "done": "2026-11-15T04:14Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Android sky plot under the position text in Telemetry > Positioning (GPS SPEC, Satellite sky plot); MAVLink GPS_STATUS (msg 25) decoded into DroneState.GPS.Sky and shown while fresh, the panel asks th",
-     "x": true
-    },
-    {
-     "t": "6728c8614f fixes native Unity CS0052 on the drone GPS SkyPlot field and a concurrent Clock duplicate OnDisable; Windows Unity and Roslyn clean",
-     "x": true
-    },
-    {
-     "t": "Device check with live aircraft data: a connected drone shows its own sky in the plot",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T04:14Z",
-     "text": "46caaae8ad keeps one plot per Positioning panel and documents the Drone-Control screen. Windows Play fed GPS_STATUS through the actual decoder and checked the resulting plot texture and destruction on disable. Development is complete. The r"
-    }
-   ]
-  },
-  {
    "n": 657,
    "name": "Tile storage warning on Windows",
    "done": "",
@@ -21326,7 +21293,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-17T23:52Z",
-     "noted": "2026-11-18T04:06Z",
+     "noted": "2026-11-18T04:14Z",
      "progress": 75,
      "ticked": 3,
      "total": 4
@@ -21353,8 +21320,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-18T04:06Z",
-     "text": "Done:55984942de,6a6fe6c16b published;46db Dev859 cold/restart both tablets,Strong full probe pass;CPU.md. Checks:22+11 owner controls;own+merged Roslyn noNew;guides0errors. Held:1558,1584 Strong,1585 Lenovo;1586 done/released. Live:6a6fe6c1"
+     "at": "2026-11-18T04:14Z",
+     "text": "Done:55984942de and6a6fe6c16b on main;46db Dev859 cold/restart both,Strong full probe pass;CPU.md. Checks:22+11 owner controls;own+merged Roslyn noNew. Held:1558,1584Strong,1585Lenovo;1586done/released. Live:6a6fe6c16b private APK build,CLI"
     }
    ]
   },
@@ -22509,5 +22476,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "7b505d33bcab227673af5fac9351217352b9b38d"
+ "source_revision": "572848beff1e338036ee59e99350f865789dbc51"
 }
