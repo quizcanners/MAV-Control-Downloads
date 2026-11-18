@@ -12819,7 +12819,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-18T22:18Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -12920,6 +12929,29 @@
     {
      "who": "MAC_BOARD",
      "since": "2026-11-18T22:14Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 1709,
+   "name": "Cache Situation branch identity contributions with each settled hash",
+   "done": "",
+   "goal": false,
+   "under": 1558,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-18T22:18Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
@@ -13528,5 +13560,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "4cf167be24224360074a7102dea8bef2ca97a336"
+ "source_revision": "f4537e83d4a10351be5a0b164e4760b26001653d"
 }
