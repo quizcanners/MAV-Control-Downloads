@@ -2041,16 +2041,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T21:17Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -2082,8 +2073,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-18T20:41Z",
-     "text": "8fe2c386a4 retires Camera Render captures and timing refs. Builds on cc98e0bd55 and f10fab48e4."
+     "at": "2026-11-18T21:26Z",
+     "text": "35d2ad9d78 on main clears Suggestions tab intent, dismissal and subject caches on Station shutdown."
     }
    ]
   },
@@ -2217,26 +2208,6 @@
      "by": "ROG",
      "at": "2026-11-16T11:35Z",
      "text": "Published 86227c327e: Geometry hash requests and replies avoid cloning their DTO before synchronous wire preparation, and new Geometry zones reuse their key. Windows Unity: 72 plain payload comparisons matched after source mutation and enco"
-    }
-   ]
-  },
-  {
-   "n": 1198,
-   "name": "Restore Windows LogisticsInventoryTests after the Distribution Window controller split. Rebind Navigation",
-   "done": "2026-11-15T21:24Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T21:23Z",
-     "text": "Published fd1a7724c6 and 536a6ddafc. Windows prepared EditMode All at 536a6ddafc: LogisticsInventoryTests 93/93, formerly 36 failures. All: 7,823 passed, 214 failed, 10 skipped. Main advanced with Logistics supply teardown during the run, s"
     }
    ]
   },
@@ -13672,5 +13643,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "2e7f4ffbac00c48fae6cfedeebf440867c9ba7e7"
+ "source_revision": "138e2562e3e500e0798e52e5b3875cd6ce233f44"
 }
