@@ -13126,25 +13126,22 @@
   {
    "n": 1645,
    "name": "MavChat sheet panels share one outer mask aligned with the divider above the common background. Remove the duplicate embedded Chat clipping edge (Navigator SPEC",
-   "done": "",
+   "done": "2026-11-18T13:53Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_SHEET_CLIP",
-     "since": "2026-11-18T13:35Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_SHEET_CLIP",
+     "at": "2026-11-18T13:53Z",
+     "text": "Published 2f4c6c84cc on main. One prefab mask wraps all six embedded hosts. Chat history and its read viewport meet the divider and stop above the composer. Independent full-window Chat restores its pager mask. Seven focused Unity tests pas"
+    }
+   ]
   },
   {
    "n": 1646,
@@ -13760,5 +13757,5 @@
    "since": "2026-11-18T13:00Z"
   }
  ],
- "source_revision": "4166b5467b1893bf3ddbe11a1df0d56a2092705d"
+ "source_revision": "6f2ee76551a283e8bf2c6f3a08a1b246781dd367"
 }
