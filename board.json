@@ -3019,26 +3019,6 @@
    "notes": []
   },
   {
-   "n": 917,
-   "name": "Restore Android player C# compilation after the Network split. Guard the Slow message report access with UNITY_EDITOR and check native Android player script compilation.",
-   "done": "2026-11-15T07:43Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T07:43Z",
-     "text": "Published fix 1fcdb87453. On d6e23144e4, Unity 6000.6.8f1 native Android Development player script compilation passed with MAV_DEVICE_DEBUG: 60 assemblies including Prublyda.dll in 104 s. This clears the earlier CS1061. No APK packaging or "
-    }
-   ]
-  },
-  {
    "n": 918,
    "name": "Round 4 split R29",
    "done": "2026-11-15T07:54Z",
@@ -19242,7 +19222,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-18T04:36Z",
-     "noted": "2026-11-18T06:02Z",
+     "noted": "2026-11-18T07:43Z",
      "progress": 25,
      "ticked": 0,
      "total": 0
@@ -19252,8 +19232,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-18T06:02Z",
-     "text": "d14c20f840 on main0027 retains exact stop/eligibility facts;29+11 controls,Roslyn noNew;containing APK building. New6a run also restarted a useful received cell: initial transfer dfc2c1e4 reached7733248 bytes, later b97f00d6 held4784128\u2192602"
+     "at": "2026-11-18T07:43Z",
+     "text": "d14c20f840 diagnostics are installed in exact0027 Dev859 on both. Warm N47 group: first part11.1s,bytes16.5s,first cell777.8s; both files now hash-agree,10cells each,no parts. No useful-prefix loss observed in815.4s finite window; earlier c"
     }
    ]
   },
@@ -19871,5 +19851,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "db1a459a2b09081ef088424b22afaff7f54d2a7a"
+ "source_revision": "43fb8a9254e4c52233e2164e382a70d31246cec1"
 }
