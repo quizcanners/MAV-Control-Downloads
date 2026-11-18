@@ -2027,7 +2027,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-18T21:48Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -2214,26 +2223,6 @@
      "by": "ROG",
      "at": "2026-11-16T11:35Z",
      "text": "Published 86227c327e: Geometry hash requests and replies avoid cloning their DTO before synchronous wire preparation, and new Geometry zones reuse their key. Windows Unity: 72 plain payload comparisons matched after source mutation and enco"
-    }
-   ]
-  },
-  {
-   "n": 1199,
-   "name": "Using Strong for the main Dev APK and map-sync timing",
-   "done": "2026-11-15T21:48Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T21:48Z",
-     "text": "Strong Dev 845 capture completed and pushed to CPU.md a194476c50. Original pose and pacing restored; no capture files remain on device. Strong is free. The pinned native build is still compiling and gets a separate device slot after APK qua"
     }
    ]
   },
@@ -13603,5 +13592,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "9569af16753b79c19e1cd95172c9e64b5c0ff20e"
+ "source_revision": "d2fb310c4f3830cf99fa6f943f030ed4222b6deb"
 }
