@@ -2215,26 +2215,6 @@
    ]
   },
   {
-   "n": 769,
-   "name": "using Strong for the Destination Sync Noise IK idle comparison and reconnect",
-   "done": "2026-11-15T00:53Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T00:53Z",
-     "text": "Strong installed signed Dev 842 e4e4c07729 in place and rendered the map. Destination Sync captured with Getac off, live, aged out and freshly rejoined. Private evidence C:/MavControlEvidence/Getac-Strong-Destination765-20261115-013806. Tes"
-    }
-   ]
-  },
-  {
    "n": 772,
    "name": "Fix Metal half/full target retention when full scale uses the back buffer (Bootstrap SPEC",
    "done": "2026-11-15T01:25Z",
@@ -2251,26 +2231,6 @@
      "by": "CODEX_GRAPHICS",
      "at": "2026-11-15T01:25Z",
      "text": "Published c654cd6cd8: Metal uses stable hardware-scaled targets and both depth storage keys. Native half/full probe created zero camera textures across 20 measured switches; MapRenderModeTests 27/27, Unity import clean, Roslyn NEW ERRORS: n"
-    }
-   ]
-  },
-  {
-   "n": 773,
-   "name": "Find and fix floating PolyLine anchors in the oblique Deep State map view",
-   "done": "2026-11-15T00:50Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T00:50Z",
-     "text": "1898746cf1 retires individual and combined ground-aligned ribbons when their terrain revision expires."
     }
    ]
   },
@@ -22152,25 +22112,22 @@
   {
    "n": 1581,
    "name": "Android Development compilation",
-   "done": "",
+   "done": "2026-11-18T00:55Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-18T00:41Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-18T00:55Z",
+     "text": "cee18a36c5 keeps the Map-only ground-hold body Editor-only and retains the existing player refusal without mutation. Actual-method host passes 13 action/mode assertions across Editor, Android Dev and Windows Dev, plus four falsifiers includ"
+    }
+   ]
   }
  ],
  "verify": [
@@ -22743,5 +22700,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "b681892f54c2813ae9a598e4a7457e6239ac9f91"
+ "source_revision": "be2f0442c2c43930bbc7e05fedf38f6867aad2e3"
 }
