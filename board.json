@@ -2152,26 +2152,6 @@
    ]
   },
   {
-   "n": 1176,
-   "name": "Using Strong for Normal and NoMasks fast-pinch display and Android frame timeline comparison",
-   "done": "2026-11-15T18:15Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T18:14Z",
-     "text": "Strong signed Dev 845 fcb80c5300f4, 32 fast pinches under Normal and NoMasks. Data and exclusions in CPU.md f9e89fbc18. Both modes retained Mask Pages work; NoMasks produced zero masked draws. All qualified traces cover the measured windows"
-    }
-   ]
-  },
-  {
    "n": 1177,
    "name": "Using Strong to measure the first visible zoom frame after Android touch dispatch",
    "done": "2026-11-15T18:43Z",
@@ -12890,7 +12870,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-18T18:16Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -13522,5 +13511,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "50de75667d2cb97ac92a57868c773480ae4f57d5"
+ "source_revision": "4f22dbe2da1ee528e2a582e9ebc6364d9d56bef9"
 }
