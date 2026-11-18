@@ -13114,25 +13114,22 @@
   {
    "n": 1649,
    "name": "Unity 3D Street View live free-space refinement. Use accepted depth rays to clear contradicted canonical cells",
-   "done": "",
+   "done": "2026-11-18T14:25Z",
    "goal": false,
    "under": 431,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T14:11Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-18T14:25Z",
+     "text": "ac3c2222b9 on main. GPU live free-space votes weaken and remove contradicted cells, with canonical deletion propagation. Five UnityCanonicalGrowthTests passed, including endpoint and preview rebuild. Live castle continued adding and removin"
+    }
+   ]
   },
   {
    "n": 1650,
@@ -13793,5 +13790,5 @@
    "since": "2026-11-18T13:00Z"
   }
  ],
- "source_revision": "5f8bcdc6a457a82acf61145dd2b8e6b923d296d3"
+ "source_revision": "e5792daad822b9ad11ef28c5abec369dbde40b4e"
 }
