@@ -2027,7 +2027,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-18T22:57Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -2244,31 +2253,6 @@
      "by": "CLOUD_PRUNE",
      "at": "2026-11-17T16:08Z",
      "text": "5 fixtures pass native EditMode on Rog (8ef0611a6d, 9d18eea1f1); All run is verification, not part of the task"
-    }
-   ]
-  },
-  {
-   "n": 1213,
-   "name": "Restore Windows Raspberry Pi WiFi Scanner EditMode fixtures to the current Evidence storage and convergence owners. Preserve file failure",
-   "done": "2026-11-15T22:57Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T22:44Z",
-     "text": "Published 05e6918025. Roslyn NEW ERRORS: none. Rebound the five failing evidence, hash parity and simulation fixture paths to EvidenceFile and Tiles; assertion logic is unchanged. Native verification remains pending because the task 1209 ca"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-15T22:57Z",
-     "text": "009b43fef7 follows 05e6918025 and seeds normalized archive IDs before the simulated field. Rog Windows Unity 6000.6.8f1 reproduced 84/85, then passed 85/85 RaspberryPiWifiScannerTests, including both simulation refinement cases. Native comp"
     }
    ]
   },
@@ -13503,5 +13487,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "c8dc5ea09f153876f9fd8f41166315bbab06aa47"
+ "source_revision": "77ff11ee1398957841b68c3269eace0d9f0b1de3"
 }
