@@ -7729,7 +7729,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-18T16:50Z",
+     "noted": "",
+     "progress": 40,
+     "ticked": 2,
+     "total": 5
+    }
+   ],
    "steps": [
     {
      "t": "Live surface store, per-tile snapshots with atomic admission, erase/epoch guards, monotonic displayed revisions, fenced failure retirement, RTX6 transport, shared encoding (00f0f9f0a9, a814318931, def",
@@ -13469,5 +13478,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "4ff51591e5039b942d0949890fd32a7a6a2ebf82"
+ "source_revision": "c3aede4fb04e301e9c3e2944c250c3dd0a6498b3"
 }
