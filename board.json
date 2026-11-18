@@ -2688,43 +2688,6 @@
    ]
   },
   {
-   "n": 981,
-   "name": "Round 5 split S38",
-   "done": "2026-11-15T08:44Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T08:40Z",
-    "2026-11-15T08:40Z",
-    "2026-11-15T08:41Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "refactor981-r5",
-     "at": "2026-11-15T08:43Z",
-     "text": "Compose, Inputs, Status nested in Web Mercator/CoarserTiles/ (compile unchecked, run cmp.sh; Editor to import new .meta)"
-    }
-   ]
-  },
-  {
    "n": 987,
    "name": "Round 5 left L5",
    "done": "2026-11-15T08:47Z",
@@ -2777,43 +2740,6 @@
     }
    ],
    "notes": []
-  },
-  {
-   "n": 989,
-   "name": "Round 5 left L8",
-   "done": "2026-11-15T08:44Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T08:41Z",
-    "2026-11-15T08:43Z",
-    "2026-11-15T08:43Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "Cloud989",
-     "at": "2026-11-15T08:43Z",
-     "text": "Requests and Incoming nested controllers done; Left: Diagnostics Describe, run cmp.sh"
-    }
-   ]
   },
   {
    "n": 991,
@@ -16748,25 +16674,22 @@
   {
    "n": 1598,
    "name": "Build 859",
-   "done": "",
+   "done": "2026-11-18T08:44Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_LIST_GATE",
-     "since": "2026-11-18T08:33Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_LIST_GATE",
+     "at": "2026-11-18T08:44Z",
+     "text": "Published aec6d0d9a4. All contextual list rows share pickup, return and panel handoff. After return the panel needs 20 fresh leftward pixels. The Unity Editor compiled; all 37 list interaction cases and the shared handle case passed, includ"
+    }
+   ]
   }
  ],
  "verify": [
@@ -17343,5 +17266,5 @@
    "since": "2026-11-18T08:28Z"
   }
  ],
- "source_revision": "b9ed00032f6a3a63defd335eee0ed2f85c2dc82d"
+ "source_revision": "c67cae69620014b109cb5dd6bb543138d920995b"
 }
