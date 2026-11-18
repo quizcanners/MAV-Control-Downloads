@@ -12819,16 +12819,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T22:05Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -12850,8 +12841,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-18T22:04Z",
-     "text": "Published 50d41faa26. Pano360 and Origami use two-sided confidence-aware photo depth. Three identical-input floor replays removed 772\u20133676 contributions. Windows Kenilworth reopened six originals and five confidence-bound Pano360 slots. 39 "
+     "at": "2026-11-18T22:17Z",
+     "text": "Published 00cbb48b49. Fixed-camera route isolation found the broad smear in unpaired live file projection. Accepted depth in its own camera now bounds live colour. Kenilworth kept showing new video frames, and the broad smear was absent in "
     }
    ]
   },
@@ -13537,5 +13528,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "9e639779dadbaaec68c0ebb3d249242475d8420a"
+ "source_revision": "4cf167be24224360074a7102dea8bef2ca97a336"
 }
