@@ -2041,16 +2041,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T20:07Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -2082,8 +2073,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-18T19:21Z",
-     "text": "cc98e0bd55. Station shutdown clears X/Back history and calls the existing crosshair and horizon cache resets."
+     "at": "2026-11-18T20:18Z",
+     "text": "cc98e0bd55 clears view/crosshair/horizon. f10fab48e4 restores Camera Render probe overrides."
     }
    ]
   },
@@ -13592,5 +13583,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "7a1cd28fe19495cddba27a4ed2a2fb6725eff818"
+ "source_revision": "3570e8ac326b46f2f69348e9e1a36ac9f941f94c"
 }
