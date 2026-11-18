@@ -2199,48 +2199,6 @@
    ]
   },
   {
-   "n": 902,
-   "name": "Round 4 split R14",
-   "done": "2026-11-15T12:36Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T07:48Z",
-    "2026-11-15T07:49Z",
-    "2026-11-15T07:50Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_R4_PEERS",
-     "at": "2026-11-15T07:52Z",
-     "text": "Done: Gps owns two write methods, Contact/Passport methods moved, Snapshot/PeerListScope/RadioIndicator own files; uncompiled. Need for verify."
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-15T12:36Z",
-     "text": "Published b04e1cc15a. Confirmed GPS writers, Contact methods, Passport latch, eligibility Snapshot, list scope and Radio indicator live on the split owners. Removed the final Peer-level Passport forwarding method. Rog Unity compiled; vpn.ha"
-    }
-   ]
-  },
-  {
    "n": 944,
    "name": "TEST job",
    "done": "2026-11-16T11:27Z",
@@ -13307,6 +13265,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1635,
+   "name": "Bottom-left Telemetry grid",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_SINGLE_GRID",
+     "since": "2026-11-18T12:36Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -13895,5 +13876,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "6951db88eddb707b6673b9a3b9203e559f166db4"
+ "source_revision": "34eafb605d69e9ef62036a5b12252691fbe4fb33"
 }
