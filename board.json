@@ -2227,26 +2227,6 @@
    ]
   },
   {
-   "n": 1202,
-   "name": "Fix the remaining PowerLineGeometryTests ribbon mesh failure in Windows EditMode. Preserve visible width",
-   "done": "2026-11-15T21:49Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T21:49Z",
-     "text": "992057a01a binds the ribbon fixture to SimplePolyline.RibbonSurface and disposes every chunk on failure. Rog reproduced the stale-field NullReferenceException first, then PowerLineGeometryTests passed 58/58 with point, join and edge asserti"
-    }
-   ]
-  },
-  {
    "n": 1203,
    "name": "Restore PlanetMaskViewsTests in Windows EditMode after the Views",
    "done": "2026-11-15T21:59Z",
@@ -12917,16 +12897,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T21:36Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -12948,8 +12919,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-18T21:35Z",
-     "text": "Published a4bf5fb261. Unity now validates real-photo pose revisions against a separate view and publishes with Disk preview refresh. Kenilworth accepted one live pose revision across three clips. Pause continued depth refinement on each. 29"
+     "at": "2026-11-18T21:51Z",
+     "text": "Published d0d1dd9ae4. Two Kenilworth Saves reopened the accepted camera with original RGB and paired depth/confidence. Fixed-camera Pano360 prior/revised captures confirmed the binding, with stretching and ghosting still visible. 35 targete"
     }
    ]
   },
@@ -13592,5 +13563,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "d2fb310c4f3830cf99fa6f943f030ed4222b6deb"
+ "source_revision": "671a474947166707177f00102b4c3c85659dbea3"
 }
