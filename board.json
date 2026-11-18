@@ -2232,44 +2232,6 @@
    ]
   },
   {
-   "n": 812,
-   "name": "Round 2 merge J7",
-   "done": "2026-11-15T06:26Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "List the 47 files, group them by concern into at most 10",
-     "x": false
-    },
-    {
-     "t": "Merge group by group, one commit each",
-     "x": false
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_J7",
-     "at": "2026-11-15T06:03Z",
-     "text": "J7 (CLOUD_J7) done 2026-11-15: 47 StreamerManager partials are now 9 files, on main; Done/Left in nested-controllers.md; Video and Streamer bumped for verify. Close when the other holder agrees."
-    },
-    {
-     "by": "CLOUD_R3_SCOUT",
-     "at": "2026-11-15T06:26Z",
-     "text": "Closed by CLOUD_R3_SCOUT: 47 partials are 9 files (grep -l 'partial class StreamerManager' Assets/_PROJECT/Workflows/Streamer finds the 9); the big merged files are round 3 jobs."
-    }
-   ]
-  },
-  {
    "n": 813,
    "name": "Refactor job G",
    "done": "2026-11-15T06:37Z",
@@ -2312,47 +2274,6 @@
    ]
   },
   {
-   "n": 817,
-   "name": "Round 2 logging J18",
-   "done": "2026-11-15T06:26Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T06:01Z",
-    "2026-11-15T06:02Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Delete the chatter lines",
-     "x": true
-    },
-    {
-     "t": "Move the real errors to ChillLogger enums",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud817",
-     "at": "2026-11-15T06:02Z",
-     "text": "Done: 74 bare Debug.Log in nine files deleted (chatter) or moved to QcLog.ChillLogger enum keys, one private enum per file; Done line in nested-controllers.md. Need for verify: the nine files compile (uncompiled)."
-    },
-    {
-     "by": "CLOUD_R3_SCOUT",
-     "at": "2026-11-15T06:26Z",
-     "text": "Closed by CLOUD_R3_SCOUT: Done line is in nested-controllers.md, nothing left in the nine files."
-    }
-   ]
-  },
-  {
    "n": 822,
    "name": "Editor",
    "done": "2026-11-15T07:08Z",
@@ -2365,31 +2286,6 @@
    "held": [],
    "steps": [],
    "notes": []
-  },
-  {
-   "n": 834,
-   "name": "Sweep the map and panels for on-screen text quiz never asked for (readouts",
-   "done": "2026-11-15T06:29Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "cloud-thread",
-     "at": "2026-11-15T06:03Z",
-     "text": "Done by cloud: map altitude texts, Settings>View idle-fps line, Pi cleanup hints (2), StreetView opacity hint removed; Navigator statuses are in its SPEC, kept. Left: static explainer Write_Hint lines (Pi scanner, SineLink, MavLink ports, S"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-15T06:29Z",
-     "text": "f414dbc537 completed the listed Settings text sweep. 2b3c83ec81 removes all three legacy prefab roots through Prefab Edit. Windows Unity import and four focused checks passed. Live Map Source render is queued separately: after normal Bootst"
-    }
-   ]
   },
   {
    "n": 842,
@@ -2437,91 +2333,6 @@
      "text": "Done: request and merge steps and Drill/Frame split out, Drill.cs 1324 to 706 lines (a1a8b44812). Left: StepDrill stays; Python text-pin tests need new file names. Need for verify: Unity compile of Web Mercator; drill sync between two peers"
     }
    ]
-  },
-  {
-   "n": 844,
-   "name": "Round 2 split J16",
-   "done": "2026-11-15T06:26Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Move Mosaic out",
-     "x": false
-    },
-    {
-     "t": "Move ViewRead and Renewal out",
-     "x": false
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud-844",
-     "at": "2026-11-15T05:54Z",
-     "text": "Done: Mosaic, Renewal and ViewRead moved to PlanetMaskStore_Mosaic/ViewRenewals/ViewRead.cs. Left: the Mosaic wake/hold/copy/save/ocean methods in PlanetMaskViews.cs (1572 lines) into a nested Views controller. Compile unchecked."
-    },
-    {
-     "by": "CLOUD_R3_SCOUT",
-     "at": "2026-11-15T06:26Z",
-     "text": "Closed by CLOUD_R3_SCOUT: Mosaic, Renewal and ViewRead moved; the rest (Views controller over _mosaics) is a round 3 job."
-    }
-   ]
-  },
-  {
-   "n": 848,
-   "name": "Round 2 tests T3",
-   "done": "2026-11-15T06:26Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Group the 47 tests by view",
-     "x": false
-    },
-    {
-     "t": "Split and delete dead pins",
-     "x": false
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_R3_SCOUT",
-     "at": "2026-11-15T06:26Z",
-     "text": "Closed by CLOUD_R3_SCOUT: 47 tests split by view, grep for DebugTimeSliceCapture now finds 0 (task 835 done)."
-    }
-   ]
-  },
-  {
-   "n": 850,
-   "name": "Using Strong for the altitude fine-grid and GPU demand measurement",
-   "done": "2026-11-15T06:18Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
   },
   {
    "n": 851,
@@ -20494,6 +20305,29 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1590,
+   "name": "Elements Mask control replies",
+   "done": "",
+   "goal": false,
+   "under": 1558,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-18T06:30Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -21066,5 +20900,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "13ccbbcaef0209e3d7c1eea9b129a9511bca27d4"
+ "source_revision": "bc0c993471a2d50895bcb7bbe3a67200621e61e6"
 }
