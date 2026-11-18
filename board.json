@@ -2177,26 +2177,6 @@
    ]
   },
   {
-   "n": 1184,
-   "name": "Fix iOS player compilation for Motorola stress diagnostics (build 846)",
-   "done": "2026-11-15T19:37Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-15T19:37Z",
-     "text": "iOS 846 failed because stress packet helpers were compiled without their debug-only types. Main 4219221167 matches their platform guard; Roslyn NEW ERRORS none, and iOS 848 exported and archived successfully. Apple processed 848; external b"
-    }
-   ]
-  },
-  {
    "n": 1186,
    "name": "Compile and verify the OBS preview",
    "done": "2026-11-15T19:46Z",
@@ -7626,8 +7606,8 @@
     },
     {
      "by": "HEAVY_HEIGHTMAP",
-     "at": "2026-11-18T19:34Z",
-     "text": "b321f13e4c on main. Live Origami floor follows confirmed real depth up to +2 m; connected relief persists across sparse updates."
+     "at": "2026-11-18T19:39Z",
+     "text": "b321f13e4c and 623c858b96 on main. Live Origami floor relief and synthetic alpha remap implemented. Roslyn clean, WARP 8/8, host 2/2, Unity terrain 16/16. Kenilworth live +0.130 m, zero edge lift, 5 depth-paired views. Backdoor discarded re"
     }
    ]
   },
@@ -12757,7 +12737,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-18T19:39Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -13577,5 +13566,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "86676fa3821536f3e2d30bd74076c69cbba9bc69"
+ "source_revision": "aedfb2ed8252dd154e4d77c80289409890b202fe"
 }
