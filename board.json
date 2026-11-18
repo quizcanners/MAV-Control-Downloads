@@ -2152,46 +2152,6 @@
    ]
   },
   {
-   "n": 1166,
-   "name": "Remove the eager per-patch terrain height grid from attachment (Planet Renderer SPEC",
-   "done": "2026-11-15T17:16Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T17:45Z",
-     "text": "Strong signed Dev 845 replay, CPU.md 8f5555deae. Across 4,913 attachments the old PrepareHeights GC went from 13 samples to zero. Exact terrain stays available when queried. The coverage flight recorded 5,355 earth rays, zero holes and no u"
-    }
-   ]
-  },
-  {
-   "n": 1170,
-   "name": "Restore remaining Popup and OverlayDecision fixture state bindings after the Station.UI owner split (Tests SPEC). Preserve fixture setup",
-   "done": "2026-11-15T17:19Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T17:19Z",
-     "text": "Published ebd3628758. Rebound Popup, OverlayDecision and related saved UI state in 14 test files. Unity refreshed cleanly before rebase; Home Measurement, Exit, Hold Wave and authored photo Stop checks passed (5 cases). The two Wind Animati"
-    }
-   ]
-  },
-  {
    "n": 1171,
    "name": "Refresh the retained map and Liquid Glass once when the wind decal changes or hides (Weather SPEC",
    "done": "2026-11-15T17:24Z",
@@ -7652,16 +7612,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T17:12Z",
-     "noted": "",
-     "progress": 40,
-     "ticked": 2,
-     "total": 5
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Live surface store, per-tile snapshots with atomic admission, erase/epoch guards, monotonic displayed revisions, fenced failure retirement, RTX6 transport, shared encoding (00f0f9f0a9, a814318931, def",
@@ -7687,8 +7638,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-18T16:59Z",
-     "text": "f6a86fd321: Unity preview draws compact round surfels. Compatible canonical observations refine position and normals over time, with billboard fallback on first confirmation. D3D11 merge and packing 3/3, offline draw stages 12/12, Roslyn cl"
+     "at": "2026-11-18T17:20Z",
+     "text": "9fd26f881c on main. Recorded drone ray initializes each disk. Streaming weighted centroid and covariance fit its plane; Cauchy weights reduce outliers. Roslyn clean, D3D11 fit/packing 4/4, offline DRAW 12/12. Numbers in GPU.md. Live orbit c"
     }
    ]
   },
@@ -13507,5 +13458,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "4cf39a71b744e0718311c5defe91e5f6692642e6"
+ "source_revision": "1db9dbd66f0da6251eed25b015ee42fb8c734e17"
 }
