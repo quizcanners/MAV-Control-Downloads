@@ -12897,18 +12897,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY_CUDA",
-     "since": "2026-11-18T18:28Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY_CUDA",
+     "at": "2026-11-18T19:06Z",
+     "text": "8e22d49c9b published standalone TensorRT D3D11 proof and same-input Kenilworth/Zurich parity. Live Unity closed before first result; WER 0x141 NVIDIA display timeout. Live integration removed and CUDA scratch DLLs cleaned. Next: isolate ren"
+    }
+   ]
   },
   {
    "n": 1683,
@@ -13661,5 +13658,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "86aa113a5a5e236562d33f534340605539814a90"
+ "source_revision": "dede2847dc1ac78c2bf0753e0c22d768fa689c9b"
 }
