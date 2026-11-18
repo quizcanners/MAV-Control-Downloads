@@ -8715,26 +8715,11 @@
    "held": [],
    "steps": [
     {
-     "t": "Keep camera pivot on first-points and terrain fits",
+     "t": "Keep camera pivot on first-points and terrain fits (7cc6e5e159 on main; host math scale 237.5, camera displacement 0)",
      "x": true
-    },
-    {
-     "t": "Replay the scale-limit case on Windows and publish",
-     "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-16T17:51Z",
-     "text": "7cc6e5e159 on main. First points keep the current Synthetic drone pose; terrain fit scales around that camera."
-    },
-    {
-     "by": "CODEX_MAC_POSE",
-     "at": "2026-11-16T22:55Z",
-     "text": "Current main retains the first-camera pivot and TryScaleForTerrain scale-limit guards; RTX generation explicitly requires Windows Editor/Player, so this Mac cannot run the required live scale-limit replay. Existing focused test covers 237.5"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 1409,
@@ -13143,6 +13128,29 @@
      "text": "246ac43e96 on main. No-UI displays original map colors online and offline. Mac Unity passed six focused tests including Thermal palette restoration, Red Filter, Metal pixel checks on both renderers, and retained-map refresh. iPhone visual c"
     }
    ]
+  },
+  {
+   "n": 1617,
+   "name": "Square Suggestions tab layout and shared UI guidance for thumbnail cropping and layered artwork. Main View SPEC",
+   "done": "",
+   "goal": false,
+   "under": 407,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_TAB_LAYOUT",
+     "since": "2026-11-18T11:19Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -13731,5 +13739,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "82c8eb7c60ae2c92a4bc41a3636a61c6c9a64d0a"
+ "source_revision": "230c08d29665002462c83b0b13367d42b377bcd5"
 }
