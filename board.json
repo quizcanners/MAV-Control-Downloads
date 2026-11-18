@@ -2240,58 +2240,6 @@
    ]
   },
   {
-   "n": 786,
-   "name": "Situation model shadows still issue one draw per entity despite kept matrix batches. Match Situation Entities SPEC",
-   "done": "2026-11-15T03:46Z",
-   "goal": false,
-   "under": 572,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-15T03:46Z",
-     "text": "Done: af8ae99a27, published in 398221bd48. Situation shadows submit one instanced call per kept batch, preserving depth, coverage and order. Five native cases across four draw paths matched exactly; Metal/GLES variants compiled, final Situa"
-    }
-   ]
-  },
-  {
-   "n": 787,
-   "name": "Windows Android video source",
-   "done": "2026-11-15T03:45Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [
-    "2026-11-15T03:44Z",
-    "2026-11-15T03:45Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Detach and cancel the pending setup during shutdown",
-     "x": true
-    },
-    {
-     "t": "Verify cancellation, disposal and late completion in the Windows Editor",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T03:45Z",
-     "text": "ROG: 1a583c90a7 detaches and cancels the owned Android setup on Windows Video Capture shutdown, clears pairing inputs/status and disposes the token after the worker completes. Windows Unity compiled; 3/3 native Editor cases passed: late suc"
-    }
-   ]
-  },
-  {
    "n": 788,
    "name": "using Strong for paired Web Mercator tile receive and Windows sender traces",
    "done": "2026-11-15T04:02Z",
@@ -21978,7 +21926,7 @@
   },
   {
    "n": 1586,
-   "name": "Elevation convergence",
+   "name": "Elevation peer admission follows Planet Renderer SPEC",
    "done": "",
    "goal": false,
    "under": 0,
@@ -22570,5 +22518,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "dd1da3c4037222a5da6ca8c5fbce7489b43a37f2"
+ "source_revision": "c65226475e7561d37ec113fbe6520ca008c04bf6"
 }
