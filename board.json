@@ -2152,26 +2152,6 @@
    ]
   },
   {
-   "n": 1175,
-   "name": "Make the Roslyn macOS uGUI setup fixture portable to Git Bash on Windows (Tools/RoslynCompileDiff README",
-   "done": "2026-11-15T17:52Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T17:52Z",
-     "text": "Published a496bd28ac. The fake compiler uses Bash file identity for its build directory and still requires global.json. Git Bash reproduced the old failure and then passed the repaired fixture. The Windows Roslyn tooling suite passed 7 test"
-    }
-   ]
-  },
-  {
    "n": 1176,
    "name": "Using Strong for Normal and NoMasks fast-pinch display and Android frame timeline comparison",
    "done": "2026-11-15T18:15Z",
@@ -10345,7 +10325,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-18T17:57Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -13459,7 +13448,11 @@
   {
    "screen": "Remote Sensors",
    "since": "2026-11-18T14:55Z"
+  },
+  {
+   "screen": "MavChat/Route",
+   "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "7f209f4bb056ce06fa1d999a9b86d24cc25e46c5"
+ "source_revision": "6e65237d550d6867f909cd3c3e832d4d7cabc487"
 }
