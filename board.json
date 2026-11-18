@@ -13151,25 +13151,22 @@
   {
    "n": 1654,
    "name": "Keep worker recovery archives outside the checkout so WorkCritical cannot block release reservation; update Development Coordination disk-space guidance. Quiz",
-   "done": "",
+   "done": "2026-11-18T14:46Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_BUILD",
-     "since": "2026-11-18T14:40Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_BUILD",
+     "at": "2026-11-18T14:46Z",
+     "text": "Published 80969be7e8. Moved all 1471 recovery files intact to ~/MavControlEvidence/Recovery/WorkCritical-20261118; removed checkout ignore workaround. Development Coordination now requires external recovery/evidence/scratch folders. Actual "
+    }
+   ]
   },
   {
    "n": 1655,
@@ -13782,5 +13779,5 @@
    "since": "2026-11-18T13:00Z"
   }
  ],
- "source_revision": "52075816c5086456aa392554746ae7db1aad42de"
+ "source_revision": "b73d373784590d92861780cd54f9a458120b2de7"
 }
