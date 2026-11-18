@@ -9794,8 +9794,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-18T22:30Z",
-     "text": "Situation parent folds reuse clean child contributions on 211196a8bb with mutable MGRS/zoom/hash validation. Host dirty/group/rollback and contribution controls pass. Dev861 e7d573345e tablets still have all 15 elevation files matching. Cha"
+     "at": "2026-11-18T22:49Z",
+     "text": "0a23d3b365 retains Web Mercator peer hashes for derived rebakes; host replacement 0 folds versus 4 on a four-node path. Situation contribution reuse landed in 211196a8bb. Both containing Android timings are still due. Existing Dev861 paired"
     }
    ]
   },
@@ -12858,25 +12858,22 @@
   {
    "n": 1711,
    "name": "Web Mercator derived rebakes reuse the existing peer hashes along their path when replacing an existing derived record. Keep index counts",
-   "done": "",
+   "done": "2026-11-18T22:49Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-18T22:36Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-18T22:49Z",
+     "text": "0a23d3b365 skips peer hash folds for derived replacements while still updating index counts, record versions and local pixels. Extracted host control: four folds on insert, zero on rebake, four on direct adoption. Always-fold mutant fails. "
+    }
+   ]
   },
   {
    "n": 1712,
@@ -13500,5 +13497,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "e9ec68e5a4119069a7eef22da1c82a859a541c95"
+ "source_revision": "c434ca70ee7b9bb96169f259d895f1f2abbce791"
 }
