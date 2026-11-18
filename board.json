@@ -2241,26 +2241,6 @@
    ]
   },
   {
-   "n": 1200,
-   "name": "Restore GeometryConvergenceLoopTests on Windows after the Geometry storage",
-   "done": "2026-11-15T21:35Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T21:35Z",
-     "text": "134ab7bb75 restores stored Children and Polylines keys and binds fixtures to their owners. Prepared Windows All: GeometryConvergenceLoopTests 72/72, GeometryBranchFileParseTests 3/3, PowerLineGeometryTests 57/58 (ribbon mesh case remains). "
-    }
-   ]
-  },
-  {
    "n": 1201,
    "name": "Restore WorkerDecryptTests ingress fixtures after the NetworkManager controller split. Keep the existing dispatch",
    "done": "2026-11-15T21:45Z",
@@ -12962,16 +12942,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T21:17Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -12993,8 +12964,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-18T21:16Z",
-     "text": "681aa01b65 on main. Kenilworth Positioned Save reopened its model, six original RGB photos and 24 depth/confidence views, with zero new point tile rows through rescale. SIFT and ORB held-out pose baseline in GPU.md. Next work: validate pose"
+     "at": "2026-11-18T21:35Z",
+     "text": "Published a4bf5fb261. Unity now validates real-photo pose revisions against a separate view and publishes with Disk preview refresh. Kenilworth accepted one live pose revision across three clips. Pause continued depth refinement on each. 29"
     }
    ]
   },
@@ -13637,5 +13608,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "20af697632480254995d0030a8d76c8cc424d819"
+ "source_revision": "fdf91ff42eb52d8f4a6db83649937146997bd19d"
 }
