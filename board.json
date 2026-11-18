@@ -21930,8 +21930,8 @@
     {
      "who": "GETAC",
      "since": "2026-11-18T02:19Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-18T03:00Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -21940,8 +21940,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-18T02:08Z",
-     "text": "fa084bda42 specifies waiting, drawable preview and first Ready session publication through the existing render/pacing owner. Cold cee18a36c5 Dev 859 reproduces Strong retaining an early picture after imagery loads; actual drag plus exact po"
+     "at": "2026-11-18T03:00Z",
+     "text": "6970535ea4 implements per-session drawable-preview and first-Ready publication via existing Map Render. Drawable eligibility caches negative results; only membership, route/visibility and source/generation changes invalidate it. Actual mana"
     }
    ]
   },
@@ -22590,5 +22590,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "cbaaeb3affc87df85be9444f9e6c8f0c87924d23"
+ "source_revision": "a8c9b1a05e5bbcc0f7aa68726a5303bcdb616895"
 }
