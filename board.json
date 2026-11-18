@@ -11067,6 +11067,11 @@
      "by": "GETAC",
      "at": "2026-11-18T15:14Z",
      "text": "Private Android Dev861 at3863197b7a launched (native23944, CLI2104); includes1652/1653. Published STARTED row12e464542e. Development build still in C++ compile; do not start another. Lenovo859 148-frame idle baseline retained; Strong absent"
+    },
+    {
+     "by": "DOT_MASK_HANDOFF",
+     "at": "2026-11-18T15:44Z",
+     "text": "Private Android Dev861 pinned 3863197b7aaf4783ac22d0e19f9577708b869b82 includes removal 84d3a8956a, not repair https://github.com/quizcanners/MAV_Control/commit/c98118eecc3791e0ec5008960ae903c42d597395. Exact source: PMSK0003 only, no legac"
     }
    ]
   },
@@ -12325,25 +12330,22 @@
   {
    "n": 1624,
    "name": "Rewrite Tools/Tests~/test_terrain_water_zero.py and the Tests/Planet water render tests for the single _PlanetWaterClouds read",
-   "done": "",
+   "done": "2026-11-18T15:48Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T15:41Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-18T15:48Z",
+     "text": "98a3507fbe on main. Removed obsolete cubemap bindings from Planet render fixtures and migrated the WARP probe to the actual Cesium cloud sample. Unity and Roslyn compile passed. All six HLSL source variants preprocessed. Windows WARP and Un"
+    }
+   ]
   },
   {
    "n": 1625,
@@ -13710,5 +13712,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "addce09e870dd097f1a8df0608b54a550447f021"
+ "source_revision": "939c2c997d6f9affcdfdc8e7da6241da32a1f073"
 }
