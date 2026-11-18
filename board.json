@@ -2215,91 +2215,6 @@
    ]
   },
   {
-   "n": 776,
-   "name": "Remove unnecessary depth-copy retention during sharp still-frame refreshes (Bootstrap SPEC",
-   "done": "2026-11-15T01:55Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-15T01:55Z",
-     "text": "Published 385facbd69 (merged fd19625222): retain depth copies from actual camera and pass readers, not declared handles. Native full/half/sharp controls cover no reader, a real depth reader and render-scale routing; 28/28 render-mode tests,"
-    }
-   ]
-  },
-  {
-   "n": 777,
-   "name": "Web Mercator index compaction uses most of the CPU on an idle Strong. Dev 842 e4e4c07729 sampled 2",
-   "done": "2026-11-15T01:47Z",
-   "goal": false,
-   "under": 430,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T01:47Z",
-     "text": "e82db49eaf reuses validated v7 references after verifying stored SQLite bytes. Both roots, publication guard and cancellation are covered."
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T03:38Z",
-     "text": "b906ff8f06 records Strong Dev 842 5d274c052c. Two Home trips cancelled with zero deletes. The uninterrupted quiet pass reused all 5,630 cached references, kept 28,055 pages and finished in 37.76 s. Pre-fix 73.68 s kept 27,974 pages and remo"
-    }
-   ]
-  },
-  {
-   "n": 778,
-   "name": "using Strong to measure Web Mercator index compaction across Android Home and resume",
-   "done": "2026-11-15T01:51Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T01:50Z",
-     "text": "Dev 842 e4e4c07729 same-process Home and resume verified twice. Compaction timing and page counts are on task 777 and in 11862ab7b9. Strong returned to Home and the ADB forward released."
-    }
-   ]
-  },
-  {
-   "n": 779,
-   "name": "Liquid Glass recreates its horizontal working texture between still-frame refreshes. Match Blurred World SPEC",
-   "done": "2026-11-15T02:04Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-15T02:04Z",
-     "text": "Published 6cb22d253c (merged a247606d9c): the horizontal blur target follows the output owner through idle gaps; resize, native texture loss and shutdown keep correct lifetimes. Native blur 7/7, both full/half/sharp routes pass, current Uni"
-    }
-   ]
-  },
-  {
    "n": 780,
    "name": "WakeRegister scans every reason to select the compass wake label on each frame",
    "done": "2026-11-15T02:28Z",
@@ -21963,8 +21878,8 @@
     {
      "who": "GETAC",
      "since": "2026-11-18T01:18Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-18T02:06Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -21973,8 +21888,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-17T23:48Z",
-     "text": "177e07e5af moves the validation quiet clock to managed updates and retains restored-render proof; merged Roslyn e/a/p/m is clean, nine host scenarios and seven falsifiers pass. Native 859 predates this repair. Left: reuse repeated submitted"
+     "at": "2026-11-18T02:06Z",
+     "text": "0be190e86e publishes the shared-reference diagnostic skirt cache, memory release and unchanged viewport/triangle contract. Actual-owner host: 15,917 assertions plus eight falsifiers pass; current-Editor-reference Roslyn e/a/p/m NEW ERRORS n"
     }
    ]
   },
@@ -22704,5 +22619,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "57b1fa837aecd58fd71027edbf4bbacdb274f853"
+ "source_revision": "4aca0c3ee5e0f58b6add6f6b5b474d4bf29365a6"
 }
