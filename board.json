@@ -12889,18 +12889,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-18T22:58Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-18T23:04Z",
+     "text": "Dev 861 e7d573345e baseline is in CPU.md d4c4b7ef5a. Both foreground tablets retained 151 complete frames, zero accepted tiles and unchanged unequal roots. Lenovo MigrationNeedsSpace blocked writes; the exact admission cause for the named p"
+    }
+   ]
   }
  ],
  "verify": [
@@ -13501,5 +13498,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "52e706bdae622ddc8b44bb05f84ca26aaf0a501b"
+ "source_revision": "5f65bc7a924411d39904de78a83c229725712daf"
 }
