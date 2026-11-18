@@ -13043,29 +13043,20 @@
   {
    "n": 1638,
    "name": "screen_checks.py must stop when its git commit fails",
-   "done": "",
+   "done": "2026-11-18T13:44Z",
    "goal": false,
    "under": 375,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-18T12:49Z",
-     "noted": "2026-11-18T13:00Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-18T13:00Z",
-     "text": "One-line repair: page publisher now raises git commit failure before push/ancestry checks; actual function Git-boundary controls pass for failed add, failed commit and ordinary push race. Recovered the failed staged Drones/DJI bump through "
+     "at": "2026-11-18T13:44Z",
+     "text": "Published8c7742770c: failed page-publisher git commit now raises before push/ancestry checks. Actual function controls cover failed add, failed commit, and unchanged ordinary push-race retry. The lost staged Drones/DJI bump was recovered th"
     }
    ]
   },
@@ -13818,5 +13809,5 @@
    "since": "2026-11-18T13:00Z"
   }
  ],
- "source_revision": "aaba8c0b3043b382bc80797cfd009244f7c17e89"
+ "source_revision": "b295b910d4000fa1c8a5f7b9d4d6b72296277437"
 }
