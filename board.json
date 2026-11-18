@@ -2197,26 +2197,6 @@
    ]
   },
   {
-   "n": 1185,
-   "name": "Using Strong for the first-pinch Sharp still frame comparison",
-   "done": "2026-11-15T19:34Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T19:33Z",
-     "text": "Strong Dev 845, eight interleaved fast pinches on Offline in Normal pacing. Sharp still frame on/off, applied pose, Mask Pages and display-gap comparison in CPU.md 414a2665ae. Original camera and setting restored, no lifecycle errors or dev"
-    }
-   ]
-  },
-  {
    "n": 1186,
    "name": "Compile and verify the OBS preview",
    "done": "2026-11-15T19:46Z",
@@ -10377,7 +10357,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-18T18:33Z",
-     "noted": "",
+     "noted": "2026-11-18T19:34Z",
      "progress": 75,
      "ticked": 3,
      "total": 4
@@ -10409,8 +10389,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-18T18:01Z",
-     "text": "Repaired Dev861/6967901230 on both tablets. Shared-VPN N47E007 converged through an intermediate peer: 42,942,890 bytes, equal SHA, Lenovo receive 643.249s, request-to-observed-publication 1706.063s. Complete active windows on both, Strong "
+     "at": "2026-11-18T19:34Z",
+     "text": "359f42f0bf Dev861 installed in place on Strong and Lenovo. Both reached textured maps. Matched 30 FPS verifies the held Lenovo stream is absent on Strong; all-peer page turnover and recovery latency remain open. Earlier relayed N47E007 reac"
     }
    ]
   },
@@ -12791,8 +12771,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-18T19:20Z",
-     "text": "1f1aa22352 focused Unity test passed. CPU.md has natural and 30 FPS matched pre-fix captures: paired link quiet, global ViewOffer page reads continue, Lenovo storage gate active with an empty receive queue. Completed reads can dirty a view "
+     "at": "2026-11-18T19:34Z",
+     "text": "Exact signed Dev 861 on both tablets. At 30 FPS with unchanged views and local roots, Strong reported PeerReceiveFull with no Lenovo view stream in two post-fix windows (baseline was scanning). No paired in-view sends. Device-wide ViewOffer"
     }
    ]
   },
@@ -12939,46 +12919,28 @@
   {
    "n": 1687,
    "name": "using Strong for Web Mercator backpressure comparison",
-   "done": "",
+   "done": "2026-11-18T19:34Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-18T18:56Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": []
   },
   {
    "n": 1688,
    "name": "using Lenovo for Web Mercator backpressure comparison",
-   "done": "",
+   "done": "2026-11-18T19:34Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-18T18:56Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": []
   },
@@ -13624,5 +13586,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "36b0b7271a48a933e292ec969d6f5a0e3853c1d6"
+ "source_revision": "6d9190e0f2faeaa0c6061ac4f8c0b43de958bfcd"
 }
