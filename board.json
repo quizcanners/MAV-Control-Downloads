@@ -2172,26 +2172,6 @@
    ]
   },
   {
-   "n": 1161,
-   "name": "Using Strong for the signed terrain picking and Index Compaction fast-pinch comparison",
-   "done": "2026-11-15T16:46Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T16:46Z",
-     "text": "Signed Dev 845 8a746964fe installed in place. All 24 fast pinches completed, and the Planet Renderer ray-coverage flight passed. CPU.md 863554c103 and BUILD_HISTORY record the mixed timing. Original camera pose and Normal pacing restored."
-    }
-   ]
-  },
-  {
    "n": 1165,
    "name": "Board briefs and task details stop on valid Unicode under Windows code pages. Preserve the full UTF-8 output in task_flow.py (Tasks README",
    "done": "2026-11-15T16:48Z",
@@ -12908,14 +12888,20 @@
     {
      "who": "HEAVY",
      "since": "2026-11-18T16:30Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-18T16:46Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-18T16:46Z",
+     "text": "e09870c776 on main. Live windows verify all fresh views before fusion. Rejected windows recover against retained keyframes. Exact frames/depth stay separate from eased display; DroneState estimates velocity from accepted samples."
+    }
+   ]
   },
   {
    "n": 1667,
@@ -13535,5 +13521,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "129884f8b3a8f0ec31f17740500450ba13670174"
+ "source_revision": "ae05d13364f8d67f4523faeb478a67ffdfd23b3a"
 }
