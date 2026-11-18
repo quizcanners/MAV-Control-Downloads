@@ -12716,6 +12716,11 @@
      "by": "HEAVY",
      "at": "2026-11-18T23:00Z",
      "text": "Published 530742c052. The fixed-camera depth benchmark found a narrow triangulation win and several regressions. DA3 stays the default. Backdoor now distinguishes overlap support from camera-prior refusal. Zurich and garden orbit left the d"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-18T23:10Z",
+     "text": "Native Unity import on d4c4b7ef5a reported the Pano360Depth.hlsl.meta GUID invalid and skipped the asset. Source GUID introduced by 50d41faa26 has 33 hex characters, and one shader references the include by name. Live private Android build "
     }
    ]
   },
@@ -12894,8 +12899,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-18T23:04Z",
-     "text": "Dev 861 e7d573345e baseline is in CPU.md d4c4b7ef5a. Both foreground tablets retained 151 complete frames, zero accepted tiles and unchanged unequal roots. Lenovo MigrationNeedsSpace blocked writes; the exact admission cause for the named p"
+     "at": "2026-11-18T23:10Z",
+     "text": "d4c4b7ef5a CPU.md records paired Dev861 e7d573345e: 151 frames each, unchanged unequal roots and no accepted tiles. Lenovo writes disabled under MigrationNeedsSpace. Roslyn found no new errors on d4c4b7ef5a and its private Dev build is runn"
     }
    ]
   }
@@ -13498,5 +13503,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "5f65bc7a924411d39904de78a83c229725712daf"
+ "source_revision": "8d1c43ec611dec04cf8b67f591854c9db7427c61"
 }
