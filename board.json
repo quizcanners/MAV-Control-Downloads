@@ -12947,25 +12947,22 @@
   {
    "n": 1690,
    "name": "Allow a held Left List row touch to switch repeatedly between right context drag",
-   "done": "",
+   "done": "2026-11-18T19:41Z",
    "goal": false,
    "under": 408,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T19:25Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-18T19:41Z",
+     "text": "122ddaf8e8. One Left List ScrollRect decision retains the original press through right context, left fold and in-viewport scroll."
+    }
+   ]
   }
  ],
  "verify": [
@@ -13566,5 +13563,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "aedfb2ed8252dd154e4d77c80289409890b202fe"
+ "source_revision": "922cc5fcdab5d3ba4b33629e74746a3ec9000c7c"
 }
