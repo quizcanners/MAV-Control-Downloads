@@ -2192,46 +2192,6 @@
    ]
   },
   {
-   "n": 1163,
-   "name": "Settings Video emulation",
-   "done": "2026-11-15T16:40Z",
-   "goal": false,
-   "under": 409,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-15T16:39Z",
-     "text": "Published 3608076cb8: case-specific stable capture status and snapshot-based Technical details. EmulatedCameraPoseTests 21/21; Editor checked waiting state, snapshot stays fixed and Refresh updates it, Back returns; Roslyn NEW ERRORS none. "
-    }
-   ]
-  },
-  {
-   "n": 1164,
-   "name": "Repair four Windows Linked Browser tests after the command-worker split. Keep retained navigation",
-   "done": "2026-11-15T16:42Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T16:42Z",
-     "text": "Published 79551e9968. Reproduced four NullReferenceExceptions in old Manager field lookups. Fixtures now use the CommandWorker and its typed queue entries, preserving retained navigation, display preparation, replay, FIFO/fallback and Chat "
-    }
-   ]
-  },
-  {
    "n": 1165,
    "name": "Board briefs and task details stop on valid Unicode under Windows code pages. Preserve the full UTF-8 output in task_flow.py (Tasks README",
    "done": "2026-11-15T16:48Z",
@@ -12956,6 +12916,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1667,
+   "name": "Telemetry flashes over MavChat on startup and clears only after changing Workflow. Make Bootstrap own one ShouldShowTelemetry decision",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-18T16:43Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -13552,5 +13535,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "6a2d7a55bd9b24f3a72a7fd2f65b0632aeb01698"
+ "source_revision": "129884f8b3a8f0ec31f17740500450ba13670174"
 }
