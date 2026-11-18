@@ -2182,31 +2182,6 @@
    ]
   },
   {
-   "n": 784,
-   "name": "Fix PolyLine anchors lifting off the map in the reported oblique view (follow-up to 773)",
-   "done": "2026-11-15T04:36Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T03:32Z",
-     "text": "5be9db0176 increases Planet Renderer span refinement within the existing eight-span frame budget. Windows oblique replay: settled worst absolute midpoint error 2.745 m to 0.893 m, 88/88 within 1 m. All sampled anchor vertices grounded on bo"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-15T04:36Z",
-     "text": "5be9db0176 is on origin/main. Rog confirmed the running Unity assembly uses Planet depth 6, seam search after two subdivisions, Cesium depth 1 and the shared eight-span budget. HEAVY recorded 88/88 replay midpoints within 1 m in the earlier"
-    }
-   ]
-  },
-  {
    "n": 789,
    "name": "using Strong for the Web Mercator hash reply comparison on 842 and the containing Dev build",
    "done": "2026-11-15T04:56Z",
@@ -2223,26 +2198,6 @@
      "by": "GETAC",
      "at": "2026-11-15T04:55Z",
      "text": "Installed and rendered with signed Android Dev 844; same Strong package UID and exact APK digest. Captured one VPN window and two Direct USB transitions. Windows test sender closed normally and its ADB forward leases ended. See 8b7e3fb91b."
-    }
-   ]
-  },
-  {
-   "n": 790,
-   "name": "Cull Situation shadow batches outside the rendering camera. Match Situation Entities SPEC",
-   "done": "2026-11-15T04:29Z",
-   "goal": false,
-   "under": 479,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-15T04:28Z",
-     "text": "Done: 27de2b90ac, merged ac5302cf83. Kept bounds cull off-screen shadow batches; all-hidden shadow-only sets omit the pass and depth request. Native SituationEffects 10/10; actual GroupPass matched all 80 comparison renders exactly. Roslyn "
     }
    ]
   },
@@ -21913,6 +21868,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1588,
+   "name": "Elevation exchange",
+   "done": "",
+   "goal": false,
+   "under": 1558,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-18T04:36Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -22485,5 +22463,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "0b2d8f68903a45e13e09a2497e818ba13ac68024"
+ "source_revision": "af99070feea81d21006a36600e3ea9a8d17766d4"
 }
