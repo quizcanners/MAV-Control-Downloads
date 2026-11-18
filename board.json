@@ -2152,26 +2152,6 @@
    ]
   },
   {
-   "n": 1171,
-   "name": "Refresh the retained map and Liquid Glass once when the wind decal changes or hides (Weather SPEC",
-   "done": "2026-11-15T17:24Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T17:24Z",
-     "text": "Published fb4c500e6f. Wind sample changes and hiding use the existing one-shot layer wake. Unity compiled cleanly, both camera cases passed, and cached-sample restore passed. Guide check had zero errors. The rendered retained map and Liquid"
-    }
-   ]
-  },
-  {
    "n": 1172,
    "name": "Using Strong for the signed terrain height-grid and coverage fast-pinch comparison",
    "done": "2026-11-15T17:48Z",
@@ -12862,6 +12842,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1673,
+   "name": "Smooth Synthetic drone and live projector motion from time-stamped registered trajectory samples. Keep accepted reconstruction geometry",
+   "done": "",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-18T17:25Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -13458,5 +13461,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "1db9dbd66f0da6251eed25b015ee42fb8c734e17"
+ "source_revision": "3063aa94aa9b6f1842f270e6db8f119d0ab6ad58"
 }
