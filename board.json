@@ -2047,16 +2047,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T23:32Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -2088,8 +2079,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-18T23:31Z",
-     "text": "7fa1572b44 on main. DJI manager shutdown clears unsubmitted Danger zone drafts."
+     "at": "2026-11-18T23:45Z",
+     "text": "b44228b327 on main. Scene unload releases its depth readers and Station shutdown restores Auto depth."
     }
    ]
   },
@@ -2278,26 +2269,6 @@
      "by": "ROG",
      "at": "2026-11-15T23:47Z",
      "text": "Rog native Unity 6000.6.8f1 at 15e4902ce3, containing 4b04308524: PlanetElementLightingShaderRenderTests 29/29 with zero skips. Rendered checks cover aligned and backlit Sun with High/Low globe relief, night fill and close-map lighting. Rec"
-    }
-   ]
-  },
-  {
-   "n": 1224,
-   "name": "Restore the Physical Mouse Input and Selection Focus Darkening fixture bindings to Station.UI.SuggestionTabs. Preserve the zoom",
-   "done": "2026-11-15T23:45Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T23:45Z",
-     "text": "e33ccdb7fa binds requested Suggestion tab fixture setup and cleanup to the current owner. Rog Unity reproduced one stale-reflection failure in each fixture, then passed Selection Focus Darkening 3/3 and Physical Mouse Input 12/12. Original "
     }
    ]
   },
@@ -13287,5 +13258,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "9d7b647674e48057f56a442f0593970cf4da60f8"
+ "source_revision": "e731fbec770178a812b3c5c84e37d37d4cc6c3e8"
 }
