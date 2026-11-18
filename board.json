@@ -12878,25 +12878,22 @@
   {
    "n": 1712,
    "name": "Fix the two Mac EditMode MapMotion failures for slow translation with an inset camera and visible rotation. Follow Bootstrap SPEC",
-   "done": "",
+   "done": "2026-11-18T22:53Z",
    "goal": false,
    "under": 363,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T22:45Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-18T22:53Z",
+     "text": "77af49848e on main. Motion fixtures use a fixed 640\u00d7480 camera target."
+    }
+   ]
   }
  ],
  "verify": [
@@ -13497,5 +13494,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "c434ca70ee7b9bb96169f259d895f1f2abbce791"
+ "source_revision": "f2463eef9e5bd4b69dfd740f8875c0876b59c3e4"
 }
