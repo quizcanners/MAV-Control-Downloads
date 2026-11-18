@@ -2182,26 +2182,6 @@
    ]
   },
   {
-   "n": 789,
-   "name": "using Strong for the Web Mercator hash reply comparison on 842 and the containing Dev build",
-   "done": "2026-11-15T04:56Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T04:55Z",
-     "text": "Installed and rendered with signed Android Dev 844; same Strong package UID and exact APK digest. Captured one VPN window and two Direct USB transitions. Windows test sender closed normally and its ADB forward leases ended. See 8b7e3fb91b."
-    }
-   ]
-  },
-  {
    "n": 792,
    "name": "Remote Sensors rendering repeats a selected-list scan for every marker",
    "done": "2026-11-15T05:19Z",
@@ -21389,8 +21369,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-17T23:51Z",
-     "text": "Reproduced again on ad55299523 plus native handoff work: leaving Play after opening Street Views logs the same Landscape Search SetParent error from UI_BottomLeftRow.Detach:116 via UI_MavTelemetryView.OnDestroy. This is separate from recons"
+     "at": "2026-11-18T05:11Z",
+     "text": "Fresh isolated Kenilworth capture/Save/cold-reopen with native layer work still logs the existing Landscape Search reparent-on-destroy error at UI_BottomLeftRow.Detach:116 during Play exit. No new reconstruction error. Current receipt: C:/M"
     }
    ]
   },
@@ -22443,5 +22423,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "cdc52ed5ae78cdc61b3b20b2f5489d2d9d750779"
+ "source_revision": "7b14934872cc811926da55cf32a9589b17955346"
 }
