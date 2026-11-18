@@ -2278,85 +2278,6 @@
    ]
   },
   {
-   "n": 878,
-   "name": "Round 3 split R22",
-   "done": "2026-11-15T07:57Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T07:56Z",
-    "2026-11-15T07:56Z",
-    "2026-11-15T07:57Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_R4_SCOUT",
-     "at": "2026-11-15T07:40Z",
-     "text": "Starts after task 877 is merged (both write Manager fields)."
-    }
-   ]
-  },
-  {
-   "n": 880,
-   "name": "Round 3 split R24",
-   "done": "2026-11-15T07:59Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T07:55Z",
-    "2026-11-15T07:55Z",
-    "2026-11-15T07:55Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_R4_SCOUT",
-     "at": "2026-11-15T07:40Z",
-     "text": "Prerequisite cleared: task 853 is done (GETAC 2026-11-15T06:55Z, 7e5100e0f1 changed PlanetMaskStore). Start now, on current main."
-    },
-    {
-     "by": "cloud-nest-planet-masks",
-     "at": "2026-11-15T07:57Z",
-     "text": "Done: PlanetMaskViews.cs is nested PlanetMaskStore.ViewsController (store.Views); callers and tests updated; compile unchecked, Need for verify."
-    }
-   ]
-  },
-  {
    "n": 887,
    "name": "Round 3 logging R30",
    "done": "2026-11-15T14:56Z",
@@ -2449,116 +2370,6 @@
    ]
   },
   {
-   "n": 905,
-   "name": "Round 4 split R17",
-   "done": "2026-11-15T07:59Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T07:59Z",
-    "2026-11-15T07:59Z",
-    "2026-11-15T07:59Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "thread905",
-     "at": "2026-11-15T07:47Z",
-     "text": "Done: preparation fields on loader.Preparation (MapPreparation), callers and 14 test files renamed. Left: preparation methods still on loader (tests invoke 4 by reflection name); see nested-controllers.md."
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T08:20Z",
-     "text": "Windows Editor compiled and entered KSP at 2cb6c86c90. The Android Roslyn configuration still finds four CS0122 calls in BaseMap_OfflineMapsLoader_Terrain.cs: MapPreparation.BeginPreparationWebRequest and ReleasePreparationInputs are privat"
-    }
-   ]
-  },
-  {
-   "n": 906,
-   "name": "Round 4 split R18",
-   "done": "2026-11-15T07:56Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T07:50Z",
-    "2026-11-15T07:51Z",
-    "2026-11-15T07:52Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 909,
-   "name": "Round 4 split R21",
-   "done": "2026-11-15T07:59Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T07:54Z",
-    "2026-11-15T07:54Z",
-    "2026-11-15T07:59Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud-909",
-     "at": "2026-11-15T08:03Z",
-     "text": "Need for verify: Search typing, paste (coordinates, Google Maps links, Street View link), history list and the Inspector page behave as before; History.Add and History.Records are the new callers (uncompiled)."
-    }
-   ]
-  },
-  {
    "n": 919,
    "name": "Round 4 split R30",
    "done": "2026-11-15T10:57Z",
@@ -2599,37 +2410,6 @@
      "text": "Published 30b59e06c0. Task 1106 completed the remaining capture-controller split; Rog Editor compilation passed in 1017. The surviving receiver-stage host now runs actual progress code from both owners. 29 controls passed and the historical"
     }
    ]
-  },
-  {
-   "n": 921,
-   "name": "Round 4 split R32",
-   "done": "2026-11-15T07:57Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T07:52Z",
-    "2026-11-15T07:54Z",
-    "2026-11-15T07:54Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
   },
   {
    "n": 925,
@@ -2716,37 +2496,6 @@
    ]
   },
   {
-   "n": 927,
-   "name": "Round 4 split R38",
-   "done": "2026-11-15T07:56Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T07:49Z",
-    "2026-11-15T07:50Z",
-    "2026-11-15T07:50Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 928,
    "name": "Round 4 pins P1",
    "done": "2026-11-15T08:06Z",
@@ -2815,74 +2564,6 @@
    "notes": []
   },
   {
-   "n": 930,
-   "name": "Round 4 split R2",
-   "done": "2026-11-15T07:58Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T07:57Z",
-    "2026-11-15T07:58Z",
-    "2026-11-15T07:58Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 933,
-   "name": "Round 4 split R5",
-   "done": "2026-11-15T07:58Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T07:55Z",
-    "2026-11-15T07:56Z",
-    "2026-11-15T07:56Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_R4_933",
-     "at": "2026-11-15T07:56Z",
-     "text": "Done: Shards and RetentionStep nested on Writer, pushed to main. Left: python pins, Editor compile."
-    }
-   ]
-  },
-  {
    "n": 934,
    "name": "Round 4 split R6",
    "done": "2026-11-15T11:16Z",
@@ -2923,68 +2604,6 @@
      "text": "Published ba8fbec63d. Publication input types now belong to PublicationController, existing Feed/Relay/Wish ownership checked, constants consolidated, pose enum alongside codec. Constants and pose wire values match the old source. Rog nativ"
     }
    ]
-  },
-  {
-   "n": 936,
-   "name": "Round 4 split R8",
-   "done": "2026-11-15T07:58Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T07:56Z",
-    "2026-11-15T07:56Z",
-    "2026-11-15T07:57Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 939,
-   "name": "Round 4 split R11",
-   "done": "2026-11-15T07:58Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T07:57Z",
-    "2026-11-15T07:57Z",
-    "2026-11-15T07:58Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
   },
   {
    "n": 941,
@@ -18472,6 +18091,29 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1592,
+   "name": "List row context drag",
+   "done": "",
+   "goal": false,
+   "under": 408,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_LIST_DRAG",
+     "since": "2026-11-18T07:59Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -19044,5 +18686,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "f9ebd2ffd65e6adad426251bed7b11acacfc9adf"
+ "source_revision": "20090a053f6722ddc4ff8030846783fb9bb606ae"
 }
