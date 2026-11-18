@@ -2233,26 +2233,6 @@
    ]
   },
   {
-   "n": 1135,
-   "name": "Using Strong for the signed fast-zoom batch with Index Compaction",
-   "done": "2026-11-15T14:34Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T14:33Z",
-     "text": "Both signed Dev 845 variants reached the Offline map on Strong."
-    }
-   ]
-  },
-  {
    "n": 1138,
    "name": "Regular Chat layout",
    "done": "2026-11-15T14:39Z",
@@ -11358,7 +11338,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-18T14:17Z",
-     "noted": "",
+     "noted": "2026-11-18T14:35Z",
      "progress": 75,
      "ticked": 3,
      "total": 4
@@ -11385,8 +11365,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-18T14:12Z",
-     "text": "Lenovo on exact Dev859/877c6326f4 now holds canonical N45E034 (41,891,810 B), absent after the earlier Wi-Fi gap. The first 64 KiB match the old partial file and the inode changed. Adoption is confirmed, but original transfer continuity, pe"
+     "at": "2026-11-18T14:35Z",
+     "text": "CPU.md records Lenovo Dev859 eventual elevation adoption after the Wi-Fi gap, with transfer continuity and agreement still unproven. Task1652 adds bounded active/terminal elevation transfer readouts in planet.status so a containing Dev buil"
     }
    ]
   },
@@ -13179,14 +13159,20 @@
     {
      "who": "GETAC",
      "since": "2026-11-18T14:18Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-18T14:35Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-18T14:35Z",
+     "text": "Development planet.status now has active and last-send/receive rows with peer, cell, transfer ID, phase, acknowledged/committed bytes, start and observation times and end reason. Peer Cancel and publication survive slot release. One in-memo"
+    }
+   ]
   }
  ],
  "verify": [
@@ -13779,5 +13765,5 @@
    "since": "2026-11-18T13:00Z"
   }
  ],
- "source_revision": "bb47fbf526e828bc4b94d06de3c3ae8fda430ad4"
+ "source_revision": "2fa542db84e3072d642cf986b082b9a507eaf5e0"
 }
