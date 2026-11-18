@@ -1826,11 +1826,7 @@
    "held": [],
    "steps": [
     {
-     "t": "On main: early break for VPN down in Peer.CanUseSyncConnection (a1614a81); Diagnostics, Startup, Persistence, FrameRate, Scheduler out of Singleton_GroundStation (e2b75667); Station split (18df70da); ",
-     "x": true
-    },
-    {
-     "t": "Dispatcher commands left in AI_Sandbox_DeviceDebugCommands*.cs: the remaining vpn.*, training and remote-sensor editors; then compile, and by backdoor check every moved command still answers (camera.p",
+     "t": "Dispatcher commands still in AI_Sandbox_DeviceDebugCommands*.cs: the remaining vpn.*, training and remote-sensor editors, performance.wires, cfg/system.set and the other cfg cases in DebugControl; the",
      "x": false
     },
     {
@@ -1838,27 +1834,15 @@
      "x": false
     },
     {
-     "t": "Also open: Linked Browser page pings and drawing directly in Chrome (Linked Browser SPEC); Gamepad rumble and light bars (Controller Input AGENTS)",
+     "t": "Move remaining platform #if blocks into Station.OS as they are touched (Systems/Platform/Station_OS_FilePick.cs is the pattern)",
+     "x": false
+    },
+    {
+     "t": "Linked Browser page pings and drawing directly in Chrome (Linked Browser SPEC); Gamepad rumble and light bars (Controller Input AGENTS); paired-station check of private capture from a peer click (Sing",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CLOUD_REFACTOR_2",
-     "at": "2026-11-17T06:21Z",
-     "text": "CLOUD_REFACTOR_2: performance.top/budgets/minimized moved from the dispatcher to FrameBudget.TryRunReportCommand (uncompiled). Left: vpn/training/remote editors, Station classes in Singleton_GroundStation, other cfg/systems cases in DebugCo"
-    },
-    {
-     "by": "CLOUD_R3",
-     "at": "2026-11-17T06:23Z",
-     "text": "CLOUD_R3 2026-11-17: performance.pacing/pacing_wake/startup moved from dispatcher to ApplicationLifecycleDebugState.TryRunCommand (uncompiled). Left: performance.wires to WireDiagnostics, cfg/system.set, other cfg cases in DebugControl, Sta"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-16T08:59Z",
-     "text": "Published a59f1743b2. Station.OS owns the after-camera Android fullscreen display-scale and desktop box-selection policies. Compared nine scenarios per configuration against the old code on Windows, Android, iOS and Android-target Editor wi"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 606,
@@ -2316,48 +2300,6 @@
      "by": "ROG",
      "at": "2026-11-15T11:19Z",
      "text": "Published e8529fa146. Preparation cleanup now belongs to Preparer alongside its existing reader state. Display-only retains incoming, hash and presentation reads; teardown still drops them. Compared moved predicate to prior source and verif"
-    }
-   ]
-  },
-  {
-   "n": 934,
-   "name": "Round 4 split R6",
-   "done": "2026-11-15T11:16Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T11:16Z",
-    "2026-11-15T11:16Z",
-    "2026-11-15T11:16Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_R4_934",
-     "at": "2026-11-15T07:50Z",
-     "text": "Done: PeerTransport types moved beside owners, StreamerManager blocks joined (1613 to 1005). Left: nest types inside controllers, Python pins, compile. See nested-controllers.md"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-15T11:16Z",
-     "text": "Published ba8fbec63d. Publication input types now belong to PublicationController, existing Feed/Relay/Wish ownership checked, constants consolidated, pose enum alongside codec. Constants and pose wire values match the old source. Rog nativ"
     }
    ]
   },
@@ -13858,5 +13800,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "c19a476c26560e97b7f119761ef0270db29f9555"
+ "source_revision": "600a2f86e2e06747ee5daac28e1e6adda43b4e75"
 }
