@@ -1346,16 +1346,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_PERF_MATH",
-     "since": "2026-11-18T08:57Z",
-     "noted": "",
-     "progress": 22,
-     "ticked": 2,
-     "total": 9
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Cloud, on main: startup cuts, Patch Preparation (32a9302f, 55dbede20d), hand-written heartbeat reader, skip sealing for nine hash types (build 818), 4 Hz crypto handshake only while a peer has no key,",
@@ -1396,11 +1387,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_SHADER_PRECALC",
-     "at": "2026-11-18T06:54Z",
-     "text": "Published 13eea5ef64 to main. Screen Saver prepares wind and puff in C#, and UI Button Shadow prepares gradient scales per vertex. Apple M6 advection 1.6% less GPU time at authored settings, 4.5% at zero vorticity. Squircle draws 0.6\u20130.8% l"
-    },
-    {
      "by": "MAC_SHADER_COLOR",
      "at": "2026-11-18T08:25Z",
      "text": "4a298cd7d3 on main. Linear-light Web Mercator resize and projection blending, brush/HSV consistency and explicit render-target write state. Mac Metal passed 11 tile/paint cases and old/new pixel controls. Unity compiled 448 shader stage/var"
@@ -1409,6 +1395,11 @@
      "by": "CODEX_PERF_OVERVIEW",
      "at": "2026-11-18T08:48Z",
      "text": "86cc990deb on main: Performance Baseline/System difficulty.md records attempts, regressions, outcomes and design decisions per system. GETAC_WORKER: start there before another Sync Discovery pass. Existing captures prove duplicate ownership"
+    },
+    {
+     "by": "CODEX_PERF_MATH",
+     "at": "2026-11-18T09:00Z",
+     "text": "0a603b9d4e on main. Root and Web Mercator AGENTS require unavoidable workload math, owner/state skip predictions, and measured deltas before each performance plan. Performance Baseline/README.md works the Strong busy arrival example and dis"
     }
    ]
   },
@@ -2496,43 +2487,6 @@
    ]
   },
   {
-   "n": 997,
-   "name": "Round 5 merge M7",
-   "done": "2026-11-15T09:00Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T08:59Z",
-    "2026-11-15T09:00Z",
-    "2026-11-15T09:00Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "Thread979",
-     "at": "2026-11-15T08:59Z",
-     "text": "Done: all blocks are nested controllers (MaskEraser, Inspector, BackdoorCommands; Session Retirement, Terrain, Elevation, Loading, WarmImagery, Drawing). Left: Editor compile (cmp.sh), new .meta import."
-    }
-   ]
-  },
-  {
    "n": 1008,
    "name": "Round 5 G1",
    "done": "2026-11-15T09:05Z",
@@ -2696,43 +2650,6 @@
    ]
   },
   {
-   "n": 1015,
-   "name": "Round 5 pins P4",
-   "done": "2026-11-15T09:01Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T09:01Z",
-    "2026-11-15T09:01Z",
-    "2026-11-15T09:01Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Find which files the tests read that are gone or moved",
-     "x": true
-    },
-    {
-     "t": "Point each test at the file that holds the code today",
-     "x": true
-    },
-    {
-     "t": "Run what runs on this machine and note the rest",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud-1015",
-     "at": "2026-11-15T09:00Z",
-     "text": "All nine pins repointed to the split files; none runs on cloud (no dotnet, Unity cache, baseline commits). Editor/device: run each on Windows and fix build errors; relay_shared_input marker drift and readout_hint's missing Presentation158 f"
-    }
-   ]
-  },
-  {
    "n": 1017,
    "name": "Restore Rog Unity compilation after the round 5 Planet Mask ViewsController split (task 954)",
    "done": "2026-11-15T10:53Z",
@@ -2751,20 +2668,6 @@
      "text": "Published 588e73daf1, c54c81ed5e, acb1cbb7ea and acb0b5491f. Native Rog Unity refresh finished with script_compilation_failed=False and zero C# errors. Play started; reviewer capture and ui.suggestion.tabs confirmed the sole landscape Cross"
     }
    ]
-  },
-  {
-   "n": 1025,
-   "name": "Round 5 follow-up of 1007",
-   "done": "2026-11-15T09:00Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
   },
   {
    "n": 1026,
@@ -15858,6 +15761,29 @@
      "text": "Published c236ef47d5. MavChat zoom rests on untinted glass, retains touch feedback and shades the merged right edge black. Actual scroller rendered in Unity over the reference map in both blur and sharp glass modes. Zoom prefab and tick tes"
     }
    ]
+  },
+  {
+   "n": 1600,
+   "name": "Search history and shared UI buttons",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_TAP_TRAVEL",
+     "since": "2026-11-18T09:01Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -16434,5 +16360,5 @@
    "since": "2026-11-18T08:28Z"
   }
  ],
- "source_revision": "f01e1aa3ea795cb75243026f3c2663c15912f65b"
+ "source_revision": "6d781e09f691d127dadb271731e55f04d6960586"
 }
