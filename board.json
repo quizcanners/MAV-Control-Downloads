@@ -2152,46 +2152,6 @@
    ]
   },
   {
-   "n": 1172,
-   "name": "Using Strong for the signed terrain height-grid and coverage fast-pinch comparison",
-   "done": "2026-11-15T17:48Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T17:47Z",
-     "text": "Signed Dev 845, private APK fcb80c5300f4 over the preceding exact control, installed in place. 24 matched fast pinches and a passing 5,355-ray coverage flight. Receipts and timings in CPU.md 8f5555deae and BUILD_HISTORY.md 5157cbbe42. Camer"
-    }
-   ]
-  },
-  {
-   "n": 1174,
-   "name": "Run RoslynCompileDiff from one checkout (root AGENTS",
-   "done": "2026-11-15T17:50Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T17:50Z",
-     "text": "Published efbd81cc02. cmp.sh reads pinned C# and assembly inputs from Git blobs and removes its private snapshot on exit. Rog native Roslyn e/a/p/m all ended NEW ERRORS: none. Snapshot safety and the shell control matrix passed. Verified on"
-    }
-   ]
-  },
-  {
    "n": 1175,
    "name": "Make the Roslyn macOS uGUI setup fixture portable to Git Bash on Windows (Tools/RoslynCompileDiff README",
    "done": "2026-11-15T17:52Z",
@@ -12889,25 +12849,22 @@
   {
    "n": 1676,
    "name": "Keep MavChat Route preview stable through zoom and draw the complete preview (Navigator SPEC",
-   "done": "",
+   "done": "2026-11-18T17:50Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T17:31Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-18T17:50Z",
+     "text": "850688f6fb. Zoom keeps the MavChat Route endpoint and preview. Route meshes and connectors appear together. Mac portrait Play kept a synthetic 385-point route through zoom in and out with 0 new requests. Roslyn clean. Focused EditMode 77 pa"
+    }
+   ]
   }
  ],
  "verify": [
@@ -13504,5 +13461,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "e5aee2432473006c8a5ce6d43b6bce7a001f43c5"
+ "source_revision": "7f209f4bb056ce06fa1d999a9b86d24cc25e46c5"
 }
