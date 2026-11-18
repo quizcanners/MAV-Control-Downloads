@@ -2568,33 +2568,6 @@
    "notes": []
   },
   {
-   "n": 1041,
-   "name": "Round 6 group G-Orthophoto",
-   "done": "2026-11-15T10:11Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": false
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": false
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": false
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 1044,
    "name": "Round 6 shrink",
    "done": "2026-11-15T10:28Z",
@@ -3349,26 +3322,6 @@
      "by": "GETAC",
      "at": "2026-11-15T10:55Z",
      "text": "68066f8e7b indexed texture membership. Ten extracted host tests and Roslyn passed. Two signed Dev 844 APKs with only this fix between them ran 24 fast pinches each on Strong. The linear scan disappeared and draw CPU fell, while display-gap "
-    }
-   ]
-  },
-  {
-   "n": 1111,
-   "name": "Using Strong to trace combined Element Mask texture lookups",
-   "done": "2026-11-15T10:11Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T10:11Z",
-     "text": "Strong published 12 fast-pinch lookup-cause traces and matching CPU stack evidence in 8943a0f33b. The probe restored the original camera view. Diagnostic Dev 844 is available for further replay."
     }
    ]
   },
@@ -11899,7 +11852,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-18T10:12Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -14600,5 +14562,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "c7bb5909d7660d1aba028de1276735e86de44b02"
+ "source_revision": "ea6fae41546fed9f36a13361d4cce7a6fc4ccf61"
 }
