@@ -12294,25 +12294,22 @@
   {
    "n": 1621,
    "name": "Delete the 15 leftover 'Active Top Light' Image objects in Assets/_PROJECT/UI/_Views/Metrics Inspector/Processes and Timings.prefab (no script drives them; the selected body's shader draws the top lig",
-   "done": "",
+   "done": "2026-11-18T15:25Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T15:20Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-18T15:25Z",
+     "text": "459e6a0444 on main. Unity Prefab Edit removed 15 obsolete Diagnostics overlays. The controller no longer toggles removed objects, and four stale Left Lists Author selectors were removed. Native compilation, prefab reference review and Rosly"
+    }
+   ]
   },
   {
    "n": 1622,
@@ -13710,5 +13707,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "5c0dc5e55ff44dd5306238b6ef741240f3969314"
+ "source_revision": "c66639c66c91f8468313ce9a8b8b48868826dff8"
 }
