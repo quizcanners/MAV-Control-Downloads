@@ -1133,7 +1133,7 @@
      "x": false
     },
     {
-     "t": "No-UI focus on phone portrait: a map tap ends it, a drag keeps it, drone panels and suggestions with a selected object",
+     "t": "No-UI focus on phone landscape: a map tap ends it, a drag keeps it, drone panels and suggestions with a selected object",
      "x": false
     },
     {
@@ -2198,26 +2198,6 @@
      "by": "ROG",
      "at": "2026-11-15T18:59Z",
      "text": "Rog verified 7ce359b8f6. Unity initially found CS1620 in WayPointListSelectionTests, fixed on main in efdc06d763. Published d774817e28 to rebind Situation pointing tests after the Base Map Pointing, Camera Spinning and SuggestionTabs moves."
-    }
-   ]
-  },
-  {
-   "n": 1180,
-   "name": "Run the three MavServer Editor fixtures on current Windows source under the station test identity (goal 370",
-   "done": "2026-11-15T18:46Z",
-   "goal": false,
-   "under": 370,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T18:46Z",
-     "text": "Rog Unity 6000.6.8f1 EditMode at d968b16950: DirectRouteHubTypes 5/5, ServerSpecs 10/10, LocalizationAsset 19/19. All three named server localization keys are in English and Ukrainian and the refusal retains both placeholders. Selected lone"
     }
    ]
   },
@@ -12922,25 +12902,22 @@
   {
    "n": 1681,
    "name": "Video Processing",
-   "done": "",
+   "done": "2026-11-18T18:49Z",
    "goal": false,
    "under": 431,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T18:27Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-18T18:49Z",
+     "text": "f95140e687 on main. DevicePowerPolicyTests 10/10. Normal RTX 5070 Editor replay switched to Generating3D / Full with idle reduction enabled and no pacing override, then released that demand on Pause. The minimized and test policies remain i"
+    }
+   ]
   },
   {
    "n": 1682,
@@ -13633,5 +13610,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "6b9fbbfdb9f8470085920028558d909c48647393"
+ "source_revision": "02f5559928ce95fdc56f107ed008e3232a28d373"
 }
