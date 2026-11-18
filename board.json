@@ -2152,46 +2152,6 @@
    ]
   },
   {
-   "n": 1159,
-   "name": "Publish Planet Renderer coverage once when attaching a terrain surface (Planet Renderer SPEC",
-   "done": "2026-11-15T16:49Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T17:46Z",
-     "text": "Source 90c4a6f853 and the height-grid change ran together on signed Strong Dev 845. Coverage flight passed with 5,355 earth samples, no holes, zero pending terrain and zero pending handoffs. Coverage Update was 43 versus 42 native samples, "
-    }
-   ]
-  },
-  {
-   "n": 1165,
-   "name": "Board briefs and task details stop on valid Unicode under Windows code pages. Preserve the full UTF-8 output in task_flow.py (Tasks README",
-   "done": "2026-11-15T16:48Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T16:48Z",
-     "text": "Published e04ed253c1. Windows CP1251 previously stopped the real brief list at 2\u00d7 text. UTF-8 CLI output printed all 56 rows and remote task details; the forced-CP1251 brief/detail regression passed. The full board suite exposed older note-"
-    }
-   ]
-  },
-  {
    "n": 1166,
    "name": "Remove the eager per-patch terrain height grid from attachment (Planet Renderer SPEC",
    "done": "2026-11-15T17:16Z",
@@ -12886,8 +12846,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-18T16:46Z",
-     "text": "e09870c776 on main. Live windows verify all fresh views before fusion. Rejected windows recover against retained keyframes. Exact frames/depth stay separate from eased display; DroneState estimates velocity from accepted samples."
+     "at": "2026-11-18T16:49Z",
+     "text": "e09870c776 on main. After restarting Unity, Kenilworth rejected the first post-wrap window with points, carve count and frame 398 held. Retained-keyframe recovery resumed the same draft 0.74 s later. Evidence in GPU.md (0cc47c1a2d)."
     }
    ]
   },
@@ -13509,5 +13469,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "471db3b8731df6b9f5c00e28ed3b010c391986f3"
+ "source_revision": "4ff51591e5039b942d0949890fd32a7a6a2ebf82"
 }
