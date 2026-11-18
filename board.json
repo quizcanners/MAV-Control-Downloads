@@ -2289,26 +2289,6 @@
    ]
   },
   {
-   "n": 1116,
-   "name": "Using Strong for exact Mask Pages and Retention timing",
-   "done": "2026-11-15T11:49Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T11:49Z",
-     "text": "Strong's Dev 844 was read-only in this sitting. Existing exact fast-pinch traces were reanalyzed and published in ee2f026f93. Signed replay waits for the in-progress ARM64 build. Strong is released. Build receipt C:/MavControlEvidence/Getac"
-    }
-   ]
-  },
-  {
    "n": 1117,
    "name": "Reuse Mask Pages reduced member buffers in ReadChunk (Planet Renderer SPEC",
    "done": "2026-11-15T11:54Z",
@@ -13204,25 +13184,22 @@
   {
    "n": 1625,
    "name": "MavChat portrait peer list",
-   "done": "",
+   "done": "2026-11-18T11:51Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_CHAT_SEARCH",
-     "since": "2026-11-18T11:46Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_CHAT_SEARCH",
+     "at": "2026-11-18T11:51Z",
+     "text": "Published ab7129b80b. Removed the MavChat inline search and reclaimed its space for peer/group rows. Three Unity tests passed. Top Search callback verified on the prefab. No new compile errors. iPhone appearance unverified."
+    }
+   ]
   },
   {
    "n": 1626,
@@ -13834,5 +13811,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "3c1db8f7dcf69452a9602f58aefc1d0a933f0481"
+ "source_revision": "32e903823d8e9a151ec9719e70aa3e142ad046fa"
 }
