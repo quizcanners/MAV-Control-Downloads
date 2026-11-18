@@ -1346,16 +1346,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_SHADER_COLOR",
-     "since": "2026-11-18T07:42Z",
-     "noted": "",
-     "progress": 22,
-     "ticked": 2,
-     "total": 9
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Cloud, on main: startup cuts, Patch Preparation (32a9302f, 55dbede20d), hand-written heartbeat reader, skip sealing for nine hash types (build 818), 4 Hz crypto handshake only while a peer has no key,",
@@ -1396,11 +1387,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_SHADER_PASS2",
-     "at": "2026-11-17T19:21Z",
-     "text": "Published cbb4e4ed94 on main. Screen Saver fluid solver and fog display: six passes compiled on Metal/GLES3/Vulkan. 120 pass and 15 feedback comparisons exact; 32 fog comparisons max 2.98e-7. Apple M6 isolated 512x288 median paired GPU redu"
-    },
-    {
      "by": "MAC_SHADER_PASS3",
      "at": "2026-11-17T19:52Z",
      "text": "Published 6bd1a9906d on main. UI Button Shadow skips squircle edge math in the unit disk and on neighbor-owned pixels. Metal matched all 1,020 RGBA8 and float renders. Eight project tests passed and 12 keyword sets compiled for Metal, GLES3"
@@ -1409,6 +1395,11 @@
      "by": "MAC_SHADER_PRECALC",
      "at": "2026-11-18T06:54Z",
      "text": "Published 13eea5ef64 to main. Screen Saver prepares wind and puff in C#, and UI Button Shadow prepares gradient scales per vertex. Apple M6 advection 1.6% less GPU time at authored settings, 4.5% at zero vorticity. Squircle draws 0.6\u20130.8% l"
+    },
+    {
+     "by": "MAC_SHADER_COLOR",
+     "at": "2026-11-18T08:25Z",
+     "text": "4a298cd7d3 on main. Linear-light Web Mercator resize and projection blending, brush/HSV consistency and explicit render-target write state. Mac Metal passed 11 tile/paint cases and old/new pixel controls. Unity compiled 448 shader stage/var"
     }
    ]
   },
@@ -2517,26 +2508,6 @@
      "by": "ROG",
      "at": "2026-11-15T08:28Z",
      "text": "Published a796415ef6. Chat owns closing and return state; QR and My Details callers resolve to that owner. Rog Unity compiled 6f71dad856. Three focused checks passed: QR caller return, My Details caller return and Chat context snapshot rest"
-    }
-   ]
-  },
-  {
-   "n": 943,
-   "name": "Restore Android Offline Maps terrain compilation after task 905. Allow the Terrain controller to open and release preparation inputs through their existing MapPreparation owner.",
-   "done": "2026-11-15T08:25Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T08:25Z",
-     "text": "Published 3d59fd8a9d. Terrain can call the existing MapPreparation open/release methods, with the same request ownership and cleanup. Roslyn removed all four Android CS0122 diagnostics and ended NEW ERRORS: none across e/a/p/m. Native Andro"
     }
    ]
   },
@@ -18592,5 +18563,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "814dbea825c82b3947c514a5903879a115d743e9"
+ "source_revision": "999f2e8375d1667de83269818ffdc702dc996c32"
 }
