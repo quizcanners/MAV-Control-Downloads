@@ -13199,18 +13199,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T12:09Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-18T12:28Z",
+     "text": "5205f6e595 slices live and archive Depth Anything scheduling. Unity and cmp.sh passed. GPU.md (a7544f465f) holds the live baseline and same-model 60 FPS replay. No replay frames reached 50 ms. The DJI feed stopped advertising after restart;"
+    }
+   ]
   },
   {
    "n": 1630,
@@ -13855,5 +13852,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "dbd0240d39aac76a3cfc7022b8085d22745c6fe8"
+ "source_revision": "2c6fb66d41354ab527a4a705d4426ff521d8034b"
 }
