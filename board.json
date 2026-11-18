@@ -2257,66 +2257,6 @@
    ]
   },
   {
-   "n": 800,
-   "name": "using Strong for Dev 844 pinch stutter and idle memory diagnostics",
-   "done": "2026-11-15T05:37Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T05:36Z",
-     "text": "Strong Dev 844 completed the pinch and settled-map measurements. Original camera pose, Sharp still frame and Half-resolution controls verified after restore. Native capture files and ADB forwards cleared from the tablet. Evidence on main in"
-    }
-   ]
-  },
-  {
-   "n": 803,
-   "name": "Lower MGRS row (height icon",
-   "done": "2026-11-15T05:35Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T05:28Z",
-     "text": "27aaa41a2c is on main. 66747c358e adds an authored-row Unity regression for right-notch versus bottom-corner precedence at 2x canvas scale, ignored bottom inset and fixed Copy button size. New test and parent-resize control passed. ece2d62e"
-    }
-   ]
-  },
-  {
-   "n": 804,
-   "name": "Restore the compile of the top-right Corner Swipe handler after its call moved into the Menu owner",
-   "done": "2026-11-15T05:28Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T05:28Z",
-     "text": "Unity CS0103 was the Menu namespace at UI_ClickBlockerBase.cs:187. Main ece2d62e00 supplies the equivalent qualified name and supersedes the duplicate local candidate. Windows Unity import and four Roslyn configurations passed with the corr"
-    }
-   ]
-  },
-  {
    "n": 805,
    "name": "Ukraine Borders show through the far side of the globe at 1",
    "done": "2026-11-15T06:04Z",
@@ -2388,43 +2328,6 @@
    "notes": []
   },
   {
-   "n": 808,
-   "name": "Refactor job B",
-   "done": "2026-11-15T05:31Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim: group the 89 long names by system prefix and list dead members",
-     "x": false
-    },
-    {
-     "t": "Rename into nested per-system names (keep saved or serialized values stable)",
-     "x": false
-    },
-    {
-     "t": "Move debug capture into a nested Diagnostics class",
-     "x": false
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud-808",
-     "at": "2026-11-15T05:30Z",
-     "text": "808 done: 4 dead HeavyUsage entries deleted, wording moved to Station_FrameBudget_Wording.cs, skim in Coordination/Refactoring/frame-budget-job-names.md. Rename into systems is the 3 new tasks (callers outside folder). Need for verify: comp"
-    }
-   ]
-  },
-  {
    "n": 809,
    "name": "Round 2 split J5",
    "done": "2026-11-15T05:58Z",
@@ -2489,48 +2392,6 @@
      "by": "CLOUD_SCOUT2",
      "at": "2026-11-15T05:49Z",
      "text": "Round 1 slice done; the rest is on the round 2 jobs (see board jobs 807-849). Peer partials: 14 in Peers, 23 in other systems' folders, left for the Peers chains task 826."
-    }
-   ]
-  },
-  {
-   "n": 811,
-   "name": "Refactor job E",
-   "done": "2026-11-15T05:35Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T05:34Z",
-    "2026-11-15T05:35Z",
-    "2026-11-15T05:35Z",
-    "2026-11-15T05:35Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim DJI and MavLink debug files for repeated name prefixes",
-     "x": true
-    },
-    {
-     "t": "Nest the fields and keys per concern; keep key strings stable",
-     "x": true
-    },
-    {
-     "t": "Fix StepGeographic and UI_MavTelemetryView at their owners",
-     "x": true
-    },
-    {
-     "t": "Put leftovers on the board; add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_811",
-     "at": "2026-11-15T05:34Z",
-     "text": "CLOUD_811: pose structs, MavLink hot logs, Gimbal/FlightControl debug keys, photo fields done; leftovers task added"
     }
    ]
   },
@@ -2802,43 +2663,6 @@
     }
    ],
    "notes": []
-  },
-  {
-   "n": 819,
-   "name": "Refactor job M",
-   "done": "2026-11-15T05:30Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim: forwarder list and every Find, Shader.Find, Resources.Load in these folders",
-     "x": false
-    },
-    {
-     "t": "Delete forwarders and repoint callers",
-     "x": false
-    },
-    {
-     "t": "Write the Editor tasks for serialized references on the board, one per prefab",
-     "x": false
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/scene-references.md",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud-819",
-     "at": "2026-11-15T05:29Z",
-     "text": "Done: 3 Find lookups to serialized-first (commit pushed to main). Left: Editor prefab bindings (new task), forwarders are prefab-bound button methods so stay. Need for verify: compile UI_NavigatorSharing, UI_LeftListTabsView, UI_ExpandMenu."
-    }
-   ]
   },
   {
    "n": 820,
@@ -21609,14 +21433,20 @@
     {
      "who": "GETAC",
      "since": "2026-11-18T03:15Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-18T05:37Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-18T05:37Z",
+     "text": "In use for goal1558: exact6a6fe6c16b Dev859 installed, UID/data preserved. New elevation two-cell group completed and hashes match Lenovo; no parts at05:30Z. Current diagnostics source not yet installed; retain this phone for containing APK"
+    }
+   ]
   },
   {
    "n": 1585,
@@ -22292,5 +22122,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "a17cfdb6097ae0bcb7486f1628217f98e42606d5"
+ "source_revision": "087c07ef34a4b1f0ecb110dce8140789eaa02170"
 }
