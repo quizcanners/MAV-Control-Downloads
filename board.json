@@ -2027,18 +2027,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T21:28Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-18T21:46Z",
+     "text": "3568e81962 on main. Visible Altitude Bake uses normal resolution at the existing FPS."
+    }
+   ]
   },
   {
    "n": 735,
@@ -2237,26 +2234,6 @@
      "by": "GETAC",
      "at": "2026-11-15T21:48Z",
      "text": "Strong Dev 845 capture completed and pushed to CPU.md a194476c50. Original pose and pacing restored; no capture files remain on device. Strong is free. The pinned native build is still compiling and gets a separate device slot after APK qua"
-    }
-   ]
-  },
-  {
-   "n": 1201,
-   "name": "Restore WorkerDecryptTests ingress fixtures after the NetworkManager controller split. Keep the existing dispatch",
-   "done": "2026-11-15T21:45Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T21:45Z",
-     "text": "c550553a0e fixes the Worker Decrypt fixture's queue-admission target. Prepared Windows All: WorkerDecryptTests 18/18, formerly 16 failures. All: 7,870 passed, 168 failed, 10 skipped. Main advanced during the run, so qualified results remain"
     }
    ]
   },
@@ -13626,5 +13603,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "5e91de22591c463d1b08981f75ba19687372753e"
+ "source_revision": "9569af16753b79c19e1cd95172c9e64b5c0ff20e"
 }
