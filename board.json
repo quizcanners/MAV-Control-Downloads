@@ -11278,7 +11278,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-18T14:38Z",
-     "noted": "",
+     "noted": "2026-11-18T14:50Z",
      "progress": 75,
      "ticked": 3,
      "total": 4
@@ -11305,8 +11305,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-18T14:35Z",
-     "text": "CPU.md records Lenovo Dev859 eventual elevation adoption after the Wi-Fi gap, with transfer continuity and agreement still unproven. Task1652 adds bounded active/terminal elevation transfer readouts in planet.status so a containing Dev buil"
+     "at": "2026-11-18T14:50Z",
+     "text": "1653 removes every repeat raster decode for identical sender bytes while keeping exact SHA-256 and current revision/folder proofs. Getac 41.9 MB sender worker median 391.5 to 31.3 ms (CPU.md). 1652 records transfer identity and committed by"
     }
    ]
   },
@@ -13119,14 +13119,20 @@
     {
      "who": "GETAC",
      "since": "2026-11-18T14:39Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-18T14:50Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-18T14:50Z",
+     "text": "Sender checks SHA-256 on the already opened handle and reuses raster validation only when that digest matches its current cell proof. New bytes, revisions and folders require validation. Same catalog table, receiver Have proof separate. Ver"
+    }
+   ]
   },
   {
    "n": 1654,
@@ -13782,5 +13788,5 @@
    "since": "2026-11-18T13:00Z"
   }
  ],
- "source_revision": "94a93106ec7c8f265d1d0c7ff6a92c6ccc5fe1f7"
+ "source_revision": "d52052f0ee267d58169ae72bfb88a9b139fa535e"
 }
