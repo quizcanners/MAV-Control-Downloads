@@ -2359,43 +2359,6 @@
    "notes": []
   },
   {
-   "n": 810,
-   "name": "Refactor job D",
-   "done": "2026-11-15T05:49Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim Peers for methods that work on one nested class's data from outside it",
-     "x": false
-    },
-    {
-     "t": "Move those methods into the nested controllers and merge small partial files",
-     "x": false
-    },
-    {
-     "t": "Shorten the 4 repeated chains at their owner",
-     "x": false
-    },
-    {
-     "t": "Put leftovers on the board; add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_SCOUT2",
-     "at": "2026-11-15T05:49Z",
-     "text": "Round 1 slice done; the rest is on the round 2 jobs (see board jobs 807-849). Peer partials: 14 in Peers, 23 in other systems' folders, left for the Peers chains task 826."
-    }
-   ]
-  },
-  {
    "n": 812,
    "name": "Round 2 merge J7",
    "done": "2026-11-15T06:26Z",
@@ -2551,48 +2514,6 @@
    ]
   },
   {
-   "n": 816,
-   "name": "Refactor job J",
-   "done": "2026-11-15T05:49Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the camera and loader files; list concerns that share one hub",
-     "x": false
-    },
-    {
-     "t": "Nest controllers and move methods with their fields",
-     "x": false
-    },
-    {
-     "t": "Fix the 13-parameter raster methods at their owner; Cesium_TimeOfDayManager PlayerPrefs to Persistent",
-     "x": false
-    },
-    {
-     "t": "Put leftovers on the board; add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "thread816",
-     "at": "2026-11-15T05:31Z",
-     "text": "Done: raster RasterBlock, lighting PlayerPrefs into Persistent (nested-controllers.md). Left: camera hub nesting and loader splits, now tasks added by this thread."
-    },
-    {
-     "by": "CLOUD_SCOUT2",
-     "at": "2026-11-15T05:49Z",
-     "text": "Round 1 slice done; the rest is on the round 2 jobs (see board jobs 807-849). Peer partials: 14 in Peers, 23 in other systems' folders, left for the Peers chains task 826."
-    }
-   ]
-  },
-  {
    "n": 817,
    "name": "Round 2 logging J18",
    "done": "2026-11-15T06:26Z",
@@ -2663,48 +2584,6 @@
     }
    ],
    "notes": []
-  },
-  {
-   "n": 820,
-   "name": "Refactor job N",
-   "done": "2026-11-15T05:49Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Read goal 367 and tasks 543, 577 notes; pick files no claimant is editing",
-     "x": false
-    },
-    {
-     "t": "Delete forwarders and repoint callers (prefab-bound ones stay)",
-     "x": false
-    },
-    {
-     "t": "Fix UI_ChatComposerInputLayout.Refresh at its owner; decide ChatPrefabAuthor",
-     "x": false
-    },
-    {
-     "t": "Put leftovers on the board; add a Done / Left line to Coordination/Refactoring/forwarders-and-long-signatures.md",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud-820",
-     "at": "2026-11-15T05:31Z",
-     "text": "ChatPrefabAuthor.cs (2727 lines + StartupHolder + MessageGestures partials, Editor only, 10 MAV/Chat menu items, 3 tests call it): Editor must diff what it builds against Chat Window_Landscape/Portrait prefabs; delete what the prefab alread"
-    },
-    {
-     "by": "CLOUD_SCOUT2",
-     "at": "2026-11-15T05:49Z",
-     "text": "Round 1 slice done; the rest is on the round 2 jobs (see board jobs 807-849). Peer partials: 14 in Peers, 23 in other systems' folders, left for the Peers chains task 826."
-    }
-   ]
   },
   {
    "n": 821,
@@ -2972,26 +2851,6 @@
    "notes": []
   },
   {
-   "n": 830,
-   "name": "Fix Windows Unity Console compile error in Situation Entity Edit swipe and retire compiler warnings with safe local replacements",
-   "done": "2026-11-15T05:41Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T05:41Z",
-     "text": "7a5e164f16 fixed Situation swipe, Network diagnostic imports, Chat composer call sites, logger references and Far Grid fixture API calls. e1e4e102f5 records Unity-generated Motorola partial-file sidecars. Four Roslyn targets NEW ERRORS none"
-    }
-   ]
-  },
-  {
    "n": 831,
    "name": "Round 2 drone J22",
    "done": "2026-11-15T06:00Z",
@@ -3020,20 +2879,6 @@
      "x": true
     }
    ],
-   "notes": []
-  },
-  {
-   "n": 832,
-   "name": "Keep the Crosshair suggestion tab visible when it is the only available tab",
-   "done": "2026-11-15T05:49Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
    "notes": []
   },
   {
@@ -20887,7 +20732,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-17T23:52Z",
-     "noted": "2026-11-18T04:14Z",
+     "noted": "2026-11-18T05:50Z",
      "progress": 75,
      "ticked": 3,
      "total": 4
@@ -20914,8 +20759,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-18T04:14Z",
-     "text": "Done:55984942de and6a6fe6c16b on main;46db Dev859 cold/restart both,Strong full probe pass;CPU.md. Checks:22+11 owner controls;own+merged Roslyn noNew. Held:1558,1584Strong,1585Lenovo;1586done/released. Live:6a6fe6c16b private APK build,CLI"
+     "at": "2026-11-18T05:50Z",
+     "text": "Done:1587 scopes a8e4519a59 and1588 eligibility details d14c20f840 on main0027fcb633;Roslyn noNew,29+11 receive controls. Both6a Dev859 tablets: two-cell file hashes agree by2191.8s;CPU.md. Held:1558,1584Strong,1585Lenovo,1587,1588. Live:pr"
     }
    ]
   },
@@ -22128,5 +21973,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "298ee6a23d4c25b3852459479b3b6cc6335dc037"
+ "source_revision": "b92cd8413b51e355bb8a723fffd01ffb101c4d02"
 }
