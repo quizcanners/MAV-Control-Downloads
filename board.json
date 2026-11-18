@@ -2172,26 +2172,6 @@
    ]
   },
   {
-   "n": 1168,
-   "name": "Restore NUnit List Picker state bindings after the Station.UI.ListPicking owner split (Tests SPEC",
-   "done": "2026-11-15T17:08Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T17:08Z",
-     "text": "Published 8f75622c41: updated 35 List Picker lookup and restore sites in 23 test files. Rog Unity refreshed without compile errors. Frame Budget passed 42/42. Other sampled fixtures exposed additional failures recorded under goal 369. Rosly"
-    }
-   ]
-  },
-  {
    "n": 1169,
    "name": "Repair the remaining owner bindings exposed by the Windows List Picker follow-up (Tests SPEC",
    "done": "2026-11-15T17:13Z",
@@ -12903,25 +12883,22 @@
   {
    "n": 1671,
    "name": "Keep Right Suggestions backing at its authored width at the physical edge; apply notch clearance only to the bottom coordinate row (Main View SPEC",
-   "done": "",
+   "done": "2026-11-18T17:11Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T17:03Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-18T17:11Z",
+     "text": "Published 6eb8a9fb03. Mac Play at 0 and 144 px right insets kept the active backing at 434 canvas units with no right-edge gap; the bottom coordinate row moved inward. Focused notch and swipe tests pass; broader Lock Point failure matches u"
+    }
+   ]
   }
  ],
  "verify": [
@@ -13518,5 +13495,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "52d57b2dabf88114540a768828516947b421e9ba"
+ "source_revision": "0223b188f064f9749be6bb5c65a185948105d2b5"
 }
