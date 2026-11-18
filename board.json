@@ -2041,16 +2041,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T20:28Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -2082,8 +2073,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-18T20:18Z",
-     "text": "cc98e0bd55 clears view/crosshair/horizon. f10fab48e4 restores Camera Render probe overrides."
+     "at": "2026-11-18T20:41Z",
+     "text": "8fe2c386a4 retires Camera Render captures and timing refs. Builds on cc98e0bd55 and f10fab48e4."
     }
    ]
   },
@@ -2191,43 +2182,6 @@
    ]
   },
   {
-   "n": 1191,
-   "name": "Move the five effects that still draw before the world blur to after it",
-   "done": "2026-11-15T20:34Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T20:34Z",
-    "2026-11-15T20:34Z",
-    "2026-11-15T20:34Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Route the tap-wave Shader Graph through a pass after world blur, preserving its look and depth handling.",
-     "x": true
-    },
-    {
-     "t": "Route the Altitude visualizer Shader Graph through a pass after world blur, preserving its terrain and depth checks.",
-     "x": true
-    },
-    {
-     "t": "Update Blurred World ownership rules and bump the Map page when both graphs are migrated.",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T20:34Z",
-     "text": "Rog pushed 38d03c6dd2. The tap-wave and altitude graphs draw through the reserved AfterBlur renderer list. Native D3D11 pixels proved ordinary, early, late and both pass controls for untagged Unlit. Unity compiled and passed 45 focused chec"
-    }
-   ]
-  },
-  {
    "n": 1192,
    "name": "Reduce main-thread map sync receive work in VPN Chat (Network AGENTS",
    "done": "",
@@ -2299,26 +2253,6 @@
      "by": "HEAVY",
      "at": "2026-11-15T20:57Z",
      "text": "c28431748d passed the strict prepared Windows source check at public f5e5a02586. All 741 previously generated metadata paths are tracked."
-    }
-   ]
-  },
-  {
-   "n": 1195,
-   "name": "Using Strong for VPN Chat receive timing during live map sync",
-   "done": "2026-11-15T20:37Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T20:36Z",
-     "text": "Strong Dev 845 e7f42e7fb593 completed 24 s idle and 24 s moving captures with six fast pinches. Both had complete timing and zero Map Record Hash Request, Direct Tile Control or Web Mercator hash messages. ProcessingMessages peaked at 0.396"
     }
    ]
   },
@@ -13669,5 +13603,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "3a6a3ef40c16578aa684d92a5b8bcf78ed7265c1"
+ "source_revision": "096bc592f6ff153de32983230faaafc009aa857a"
 }
