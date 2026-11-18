@@ -7394,16 +7394,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY_WINDOWS",
-     "since": "2026-11-18T18:27Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Pair LocalDji FramePose to Unity frames in the DJI clock domain and feed DJI east, north and heading per frame",
@@ -7423,6 +7414,11 @@
      "by": "HEAVY",
      "at": "2026-11-18T14:59Z",
      "text": "Published 1c43cb8ffc and b2f08b1454. Telemetry opt-in, reconstruction and manual Synthetic map position edits use the same authorized peer path. Windows compile clean and native permission tests 8/8. Mac end-to-end held for quiz; DJI hardwa"
+    },
+    {
+     "by": "HEAVY_WINDOWS",
+     "at": "2026-11-18T19:05Z",
+     "text": "8e22d49c9b on main. Pinned native adaptive 4/8-view model, optional shape companions, held-out gates and wide fallback. Unity 9/9 source-join tests; Windows replay accepted 3 short windows and retried one. Select by ms per fresh accepted vi"
     }
    ]
   },
@@ -13665,5 +13661,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "073485166076cbe9eb3deff80b23bf4a2562161e"
+ "source_revision": "86aa113a5a5e236562d33f534340605539814a90"
 }
