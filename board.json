@@ -11505,22 +11505,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-18T16:08Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-18T15:21Z",
-     "text": "Source probe on3863197b7a: FindReply uses allocating Peer(cursor) even for untouched siblings. Owe already creates notes on its entire ancestor path, so TryPeer can reject unmarked branches. Actual extracted method on 17 zoom roots/depth16:"
+     "at": "2026-11-18T16:23Z",
+     "text": "Published e59edb6e67. FindReply reads existing peer notes. On a 17-layer/depth-16 extracted tree, 82 lookups now allocate zero irrelevant notes (64 before), six controls passed for lookup, replacement and ordering. Rebased Roslyn NEW ERRORS"
     }
    ]
   },
@@ -13576,5 +13567,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "d5ddac5ff9ace4e4b128e3ca2cd15c92144c85e2"
+ "source_revision": "a4b06ca6c0b9df361b0ba5c7a96abcc8eef74766"
 }
