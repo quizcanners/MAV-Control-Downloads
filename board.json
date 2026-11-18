@@ -2289,31 +2289,6 @@
    ]
   },
   {
-   "n": 1117,
-   "name": "Reuse Mask Pages reduced member buffers in ReadChunk (Planet Renderer SPEC",
-   "done": "2026-11-15T11:54Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "high",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T11:54Z",
-     "text": "Published c66db3a966 and baseline b94ca8aa72. Native Rog compile passed. Four offline wheel bursts: two fresh member arrays, five reuses; renderer exit had zero spares. Production-code host checked live ownership, exact-once return, reuse, "
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T11:55Z",
-     "text": "Six same-device trials confirm a second ReadChunk allocation causing stopped GC, this time in the 256 KiB full-texture raw decode buffer. CPU.md (1646488112) records both exact native call sites and a Retention file-census wait during a pin"
-    }
-   ]
-  },
-  {
    "n": 1118,
    "name": "Reuse the 256 KiB full-texture Mask Pages decode buffer at ReadChunk (Planet Renderer SPEC",
    "done": "2026-11-15T12:05Z",
@@ -8847,16 +8822,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T11:41Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Pair LocalDji FramePose to Unity frames in the DJI clock domain and feed DJI east, north and heading per frame",
@@ -8874,8 +8840,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-18T11:37Z",
-     "text": "c87169d4ef enables selected DJI 3D generation in Unity. Windows Editor over WireGuard drew 4,814 preview points after 360 live frames. The local 448\u00d7336 model fits the GPU buffer limit and keeps 4:3. Preview uses the first DJI video pose. P"
+     "at": "2026-11-18T11:59Z",
+     "text": "dde490bcbf adds source-neutral Unity capture, model aspect cropping and linked Street View pose projection. Roslyn clean, five offline shape checks and six compute kernel compiles passed. Existing DJI draft kept in Play, so the new path awa"
     }
    ]
   },
@@ -13840,5 +13806,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "f11d20834e74f9b65b74a6474c4d95fcb49cb2dd"
+ "source_revision": "7f6facf974278cd5d343dae54df2206ad88dae1b"
 }
