@@ -12868,16 +12868,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T21:52Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -12899,8 +12890,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-18T21:51Z",
-     "text": "Published d0d1dd9ae4. Two Kenilworth Saves reopened the accepted camera with original RGB and paired depth/confidence. Fixed-camera Pano360 prior/revised captures confirmed the binding, with stretching and ghosting still visible. 35 targete"
+     "at": "2026-11-18T22:04Z",
+     "text": "Published 50d41faa26. Pano360 and Origami use two-sided confidence-aware photo depth. Three identical-input floor replays removed 772\u20133676 contributions. Windows Kenilworth reopened six originals and five confidence-bound Pano360 slots. 39 "
     }
    ]
   },
@@ -13566,5 +13557,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "77d067c0482c5e9746c6761b00896a3c280101c6"
+ "source_revision": "b3eacd382f55b57f2db7030fb60112f4473a0341"
 }
