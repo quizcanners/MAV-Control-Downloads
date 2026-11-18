@@ -2177,26 +2177,6 @@
    ]
   },
   {
-   "n": 1186,
-   "name": "Compile and verify the OBS preview",
-   "done": "2026-11-15T19:46Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T19:46Z",
-     "text": "Rog published fa8e616cf7. Unity refreshed f715ef8c02 and the fixture fixes cleanly. Passed OBS 2/2, codec 17/17, WebRTC stats 1/1, Web Mercator interaction 9/9 and two targeted outgoing revision cases. Roslyn e/a/p/m passed with the Editor "
-    }
-   ]
-  },
-  {
    "n": 1187,
    "name": "Find and fix the full OnlineRasterScheduling EditMode hang on Windows after the SQLite Jobs fixture repair (Tests SPEC",
    "done": "2026-11-15T19:54Z",
@@ -8649,35 +8629,6 @@
    ]
   },
   {
-   "n": 1481,
-   "name": "3D Street View anchor positioning across video sources. A second angle places itself against saved Positioned anchors near its prior, and a completed distant capture snaps after manual repositioning. ",
-   "done": "",
-   "goal": true,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Confirm both placement paths with an independently flown Kenilworth angle",
-     "x": false
-    },
-    {
-     "t": "Give an unmatched new source its own movable preview within the active capture",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-17T10:05Z",
-     "text": "1fe33653e7 records the Windows same-video regression. A Positioned capture saved 12 photos and two tiles. A fresh replay started 1.3 km away and wrote nothing until physically moved nearby. Automatic confirmation took 3.1 s. Later frames us"
-    }
-   ]
-  },
-  {
    "n": 1482,
    "name": "Notifications",
    "done": "2026-11-17T08:08Z",
@@ -13050,9 +13001,23 @@
     {
      "t": "Tile-map depth compared with the Unity-native depth (1516); striped Windows local playback fixed (1352)",
      "x": false
+    },
+    {
+     "t": "Confirm both placement paths with an independently flown Kenilworth angle",
+     "x": false
+    },
+    {
+     "t": "Give an unmatched new source its own movable preview within the active capture",
+     "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-17T10:05Z",
+     "text": "1fe33653e7 records the Windows same-video regression. A Positioned capture saved 12 photos and two tiles. A fresh replay started 1.3 km away and wrote nothing until physically moved nearby. Automatic confirmation took 3.1 s. Later frames us"
+    }
+   ]
   }
  ],
  "verify": [
@@ -13653,5 +13618,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "8f8d3abb84348cc14eccd268b5363896cad44927"
+ "source_revision": "4967e083e64361f819dbe22fbd5a937a9a3c6533"
 }
