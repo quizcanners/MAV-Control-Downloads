@@ -2227,26 +2227,6 @@
    ]
   },
   {
-   "n": 1203,
-   "name": "Restore PlanetMaskViewsTests in Windows EditMode after the Views",
-   "done": "2026-11-15T21:59Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T21:59Z",
-     "text": "692704a5f7 binds Planet Mask Views tests to the current controllers. Prepared Windows EditMode All passed all 67 PlanetMaskViewsTests, formerly 14 failures. ROG's Power Line ribbon fix also passed (58/58). All: 7,886 passed, 153 failed, 10 "
-    }
-   ]
-  },
-  {
    "n": 1204,
    "name": "Using Strong to identify CPU stacks in the first fast-zoom frame",
    "done": "2026-11-15T22:14Z",
@@ -9956,16 +9936,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-18T21:37Z",
-     "noted": "",
-     "progress": 75,
-     "ticked": 3,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Elements masks use lazy cached hashes, efficient dirty propagation and likely-complete download groups.",
@@ -9992,8 +9963,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-18T21:28Z",
-     "text": "Private signed Dev 861 e7d573345e installed on both tablets with data identity and textured maps. Complete paired idle frame captures in CPU.md; same local Situation hash, no changed group. No paired elevation payload. Web Mercator roots un"
+     "at": "2026-11-18T22:01Z",
+     "text": "Unity disposable identity: 5 Situation, 27 mask, 73 Geometry and 24 elevation entries passed. Elevation's first run exposed a stale reflection call in the fixture. 11774209a2 uses the actual Have/Cancel handlers and kept the custody asserti"
     }
    ]
   },
@@ -13572,5 +13543,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "ed53267b7f45784991d366e66b0b281330ac32ab"
+ "source_revision": "fd0b69ece28a8009f49606620abeff723433bd90"
 }
