@@ -1676,11 +1676,11 @@
    "held": [],
    "steps": [
     {
-     "t": "Cause read in code (CLOUD_COMPLEXITY, not run on devices): a named Admin's app reports Station.Persistent.Crypto.TunnelKeys.PublicKey (DirectRouteManager.AdvanceAdmins, AdminOp.Tunnel; HubRole.IsAdmin",
+     "t": "Cause read in code: a named Admin's app reports Station.Persistent.Crypto.TunnelKeys.PublicKey (DirectRouteManager.AdvanceAdmins, AdminOp.Tunnel; HubRole.IsAdminTunnelKey; TunnelGrants.IsAdminNow), bu",
      "x": true
     },
     {
-     "t": "CLOUD_BOARD proposal (Tailscale/WireGuard style: identity is the WireGuard key read from the handshake and source address, never a report): (A, recommended) a named Admin sends its plain Admins ask to",
+     "t": "Proposal (identity is the WireGuard key read from the handshake and source address, never a report): (A, recommended) a named Admin sends its plain Admins ask to the hub's tunnel address (HubTunnel.Hu",
      "x": true
     },
     {
@@ -1688,17 +1688,11 @@
      "x": false
     },
     {
-     "t": "Cloud C#: build the chosen one (server half and MavServer release); app-only step until then, not built: report the public half of the running tunnel (X25519 of the file's private key with the base po",
+     "t": "Cloud C#: build the chosen one (server half and MavServer release)",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CODEX_MAC_ADMIN",
-     "at": "2026-11-17T00:22Z",
-     "text": "Awaiting the documented A/B decision; no changes made."
-    }
-   ]
+   "notes": []
   },
   {
    "n": 572,
@@ -2226,48 +2220,6 @@
      "by": "ROG",
      "at": "2026-11-15T12:36Z",
      "text": "Published b04e1cc15a. Confirmed GPS writers, Contact methods, Passport latch, eligibility Snapshot, list scope and Radio indicator live on the split owners. Removed the final Peer-level Passport forwarding method. Rog Unity compiled; vpn.ha"
-    }
-   ]
-  },
-  {
-   "n": 926,
-   "name": "Round 4 split R37",
-   "done": "2026-11-15T11:19Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T11:19Z",
-    "2026-11-15T11:19Z",
-    "2026-11-15T11:19Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud-926",
-     "at": "2026-11-15T07:47Z",
-     "text": "Split done: LoadDiagnostics, file-state data types, PreparedBranchFile moved to Modeling 3D/Scripts/FileState/ (main file 1636 lines). Left: PreparationCleanup + Prepare/Load methods and their fields into a nested controller."
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-15T11:19Z",
-     "text": "Published e8529fa146. Preparation cleanup now belongs to Preparer alongside its existing reader state. Display-only retains incoming, hash and presentation reads; teardown still drops them. Compared moved predicate to prior source and verif"
     }
    ]
   },
@@ -13774,5 +13726,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "aa22c46f172cf520ca8b0e8ac837b0de1626258d"
+ "source_revision": "dfa2cf98252c0c7de434f058e188359715936ab2"
 }
