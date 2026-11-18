@@ -2047,16 +2047,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T23:46Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -2088,8 +2079,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-18T23:45Z",
-     "text": "b44228b327 on main. Scene unload releases its depth readers and Station shutdown restores Auto depth."
+     "at": "2026-11-18T23:59Z",
+     "text": "3fcf7d45ca on main. Bootstrap retires the MAVLink receive session and clears queued packets."
     }
    ]
   },
@@ -2278,31 +2269,6 @@
      "by": "ROG",
      "at": "2026-11-16T00:01Z",
      "text": "Rog native Unity 6000.6.8f1 at 3f2417e7c0 containing 635c3189bc: VpnPayloadDeliveryTests 66/66 and VpnSplitPeerDeliveryTests 7/7. Wire advertisement, restart custody and failure backoff assertions passed. Receipts C:/MavControlEvidence/Rog-"
-    }
-   ]
-  },
-  {
-   "n": 1228,
-   "name": "Reuse Planet Renderer reference mesh query arrays after the last user retires (Planet Renderer SPEC",
-   "done": "2026-11-15T23:58Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T23:58Z",
-     "text": "4f97e2b0c0 reuses both reference query arrays after final-user and native retirement, up to four budget-charged pairs. Rog Unity 6000.6.8f1: Terrain 22/22, Renderer Surface 8/8, Retirement 4/4. New case proves reuse, cap, accounting and sto"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T00:46Z",
-     "text": "Strong signed Dev 848 067634a50d26. CPU.md 28ad0a9b31. Reused 46 of 236 reference pairs across eight fast pinches. First changed Planet Renderer frame medians 64.4\u219252.4 ms off and 52.1\u219243.3 ms on. Recorded touch-to-visible median 301\u2192305 ms"
     }
    ]
   },
@@ -13220,5 +13186,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "213cf925e74d0d9b0f03f9342a9573bf936369c5"
+ "source_revision": "b8b847022520e3cf92b10db3a5210001d8692e5a"
 }
