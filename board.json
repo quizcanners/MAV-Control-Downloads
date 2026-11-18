@@ -11414,7 +11414,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-18T14:07Z",
+     "noted": "",
+     "progress": 75,
+     "ticked": 3,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Elements masks use lazy cached hashes, efficient dirty propagation and likely-complete download groups.",
@@ -13725,5 +13734,5 @@
    "since": "2026-11-18T13:00Z"
   }
  ],
- "source_revision": "58155ae0a9a16748eb916ceb5260ee0c169f006d"
+ "source_revision": "1a903715cd88fbe39bf94c504f3d537fd5ff695c"
 }
