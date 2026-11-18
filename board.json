@@ -13199,25 +13199,22 @@
   {
    "n": 1637,
    "name": "Pilot View",
-   "done": "",
+   "done": "2026-11-18T13:02Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_PILOT_LABELS",
-     "since": "2026-11-18T12:48Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_PILOT_LABELS",
+     "at": "2026-11-18T13:02Z",
+     "text": "Published 1478470b5f on main. Removed the small compass HIDE VIDEO control and its callback; kept the camera bearing and full-size left-column visibility action. Unity prefab save OK; 3/3 focused Editor tests passed; isolated Roslyn compari"
+    }
+   ]
   },
   {
    "n": 1638,
@@ -13862,5 +13859,5 @@
    "since": "2026-11-18T13:00Z"
   }
  ],
- "source_revision": "8c7742770cd6f275db6ce862c37c11d780b1df9c"
+ "source_revision": "cc0b28dafb58820763a2adbd81ad51d4a19ae2fb"
 }
