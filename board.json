@@ -2215,26 +2215,6 @@
    ]
   },
   {
-   "n": 775,
-   "name": "using Strong for Dev 842 idle memory",
-   "done": "2026-11-15T01:34Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T01:33Z",
-     "text": "Strong signed Dev 842 e4e4c07729, five-minute warm RAM and native idle CPU, same-PID 120 s Home check. Findings pushed in 5fbdd27ae6. PSS 1,414.0 to 1,414.1 MiB, SQLite pause 4.43 ms. Strong returned to Home, temporary profiler output and A"
-    }
-   ]
-  },
-  {
    "n": 776,
    "name": "Remove unnecessary depth-copy retention during sharp still-frame refreshes (Bootstrap SPEC",
    "done": "2026-11-15T01:55Z",
@@ -22060,7 +22040,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-18T01:40Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -22715,5 +22704,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "c5943fcf36bcdee3fbe6a20cd82e6775c6822174"
+ "source_revision": "57b1fa837aecd58fd71027edbf4bbacdb274f853"
 }
