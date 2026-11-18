@@ -2231,26 +2231,6 @@
    ]
   },
   {
-   "n": 1125,
-   "name": "Using Strong for the saved Mask Pages mosaic allocation replay and late display timing",
-   "done": "2026-11-15T13:35Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T13:36Z",
-     "text": "Both signed Dev 845 variants installed in place and reached the Offline map."
-    }
-   ]
-  },
-  {
    "n": 1126,
    "name": "Replace the five Transport events (AlertReceived",
    "done": "2026-11-15T13:41Z",
@@ -13260,6 +13240,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1645,
+   "name": "MavChat sheet panels share one outer mask aligned with the divider above the common background. Remove the duplicate embedded Chat clipping edge (Navigator SPEC",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_SHEET_CLIP",
+     "since": "2026-11-18T13:35Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -13852,5 +13855,5 @@
    "since": "2026-11-18T13:00Z"
   }
  ],
- "source_revision": "203ea603d90c8fab512fee2a2af4946527cca96c"
+ "source_revision": "f85baf839e0aabf7ab4fc7752d0324d8517809d5"
 }
