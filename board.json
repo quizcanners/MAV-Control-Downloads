@@ -2172,31 +2172,6 @@
    ]
   },
   {
-   "n": 1152,
-   "name": "Defer terrain picking storage until a ray needs it (Planet Renderer SPEC",
-   "done": "2026-11-15T15:54Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T15:54Z",
-     "text": "Published 5719500b30. Page attachment updates heights and render bounds immediately; the first admitted ray builds exact vertices and sub-boxes. Resampling invalidates in place; the bounded sample pool and reference pins retain their lifeti"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T16:44Z",
-     "text": "Strong signed Dev 845 replay confirmed the eager query allocations absent from candidate attachment samples. Planet Renderer flight passed with no coverage holes. CPU.md 863554c103 records the remaining Offline.Grid allocation and measured "
-    }
-   ]
-  },
-  {
    "n": 1153,
    "name": "Remove the IL2CPP DeflateStream callback allocations during Web Mercator Index Compaction (Web Mercator SPEC",
    "done": "2026-11-15T16:01Z",
@@ -2258,26 +2233,6 @@
      "by": "CODEX_MAC_UI",
      "at": "2026-11-15T16:04Z",
      "text": "Published c28a55f605: square binds ToggleIsland once on first, late and re-enable binding. NotificationRendererBindingTests 17/17; one real Editor tap opened the panel; Roslyn NEW ERRORS none."
-    }
-   ]
-  },
-  {
-   "n": 1156,
-   "name": "Position sharing notification",
-   "done": "2026-11-15T15:57Z",
-   "goal": false,
-   "under": 410,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-15T15:56Z",
-     "text": "Fixed on main in 0ef751cd0d: the status body joins Pause and Stop. PositionSharingNotificationTests passed 7/7; Editor Play showed the paused row as continuous. A new device build has not been checked."
     }
    ]
   },
@@ -11050,8 +11005,8 @@
     },
     {
      "by": "DOT_MASK_HANDOFF",
-     "at": "2026-11-18T15:44Z",
-     "text": "Private Android Dev861 pinned 3863197b7aaf4783ac22d0e19f9577708b869b82 includes removal 84d3a8956a, not repair https://github.com/quizcanners/MAV_Control/commit/c98118eecc3791e0ec5008960ae903c42d597395. Exact source: PMSK0003 only, no legac"
+     "at": "2026-11-18T15:54Z",
+     "text": "Do not smoke-test Dev861 source 3863197b7a on existing painted-mask data. Use disposable data or a repair-containing build after native admission. Do not interrupt the owned build/devices. No actual device loss is established. 3863197b7aaf4"
     }
    ]
   },
@@ -12433,7 +12388,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-18T15:57Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -12442,15 +12399,15 @@
      "who": "MAC_BOARD",
      "since": "2026-11-18T15:49Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 100,
+     "ticked": 1,
      "total": 1
     }
    ],
    "steps": [
     {
      "t": "Cloud: compare each card's shadow image (size 1.47 of its card, UI Button Shadow Notification) with its neighbours' at the joins; fix the one place that makes a join differ (open sides, image scale, t",
-     "x": false
+     "x": true
     }
    ],
    "notes": []
@@ -13692,5 +13649,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "c4447ed38d0af32beb22441b6f1d2b9c7552aecc"
+ "source_revision": "1e941c17262f40a8ae03daac45581b72b2d8ff9b"
 }
