@@ -12731,16 +12731,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T20:56Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 10
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Opaque mesh, terrain overlay and splat quads written and loaded as three layers (1430, 1522)",
@@ -12791,8 +12782,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-18T20:55Z",
-     "text": "ffbb03ff7c on main. Kenilworth GPU replay rebuilt Disks from six paired photos and from 24 retained depth views with zero inference. Timings and live-cell agreement in GPU.md. 18 native tests passed, Roslyn clean. Live fusion and Pano360 be"
+     "at": "2026-11-18T21:16Z",
+     "text": "681aa01b65 on main. New captures keep the Disk cloud in RAM; Save retains the model and photo/depth evidence. Positioned Save and rescale wrote zero point tiles. Previous archives and map data remain readable. Work on photo accuracy, perfor"
     }
    ]
   },
@@ -13626,5 +13617,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "71fadf05d8280d6a0cfe50435da5af941ea5bb99"
+ "source_revision": "06ed0b8df4d04d0bd3e9dfa32eb7d77d5c7a8e3b"
 }
