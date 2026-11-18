@@ -13215,14 +13215,20 @@
     {
      "who": "GETAC",
      "since": "2026-11-18T11:48Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-18T11:51Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-18T11:51Z",
+     "text": "Reproduced on DJI RC Plus2 private signed Dev859/877c6326f4: foreground paused=False/focused=True yet SDK Stopped/java_app_paused=true before first touch. Sdk.Update passes no-product to IdleRelease, whose Idle shortcut shuts down initial d"
+    }
+   ]
   }
  ],
  "verify": [
@@ -13811,5 +13817,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "32e903823d8e9a151ec9719e70aa3e142ad046fa"
+ "source_revision": "f3ba3bec10e59138d461b2907c55dfeb8290ca06"
 }
