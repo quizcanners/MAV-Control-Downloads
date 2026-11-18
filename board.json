@@ -2235,26 +2235,6 @@
    ]
   },
   {
-   "n": 770,
-   "name": "Situation smoke and fresh markers must report motion only for camera-visible rendering layers (Situation SPEC",
-   "done": "2026-11-15T00:04Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-15T00:03Z",
-     "text": "Published 42477b3118: Situation smoke and fresh markers reject excluded camera layers before visibility work. Retained pictures use intended world layers; alternate cameras keep their own masks. Both native exclusion assertions failed befor"
-    }
-   ]
-  },
-  {
    "n": 771,
    "name": "Correct half-resolution probe warm-up accounting and measure Metal half/full target retention (Bootstrap SPEC",
    "done": "2026-11-15T00:38Z",
@@ -20582,8 +20562,8 @@
     {
      "who": "HEAVY",
      "since": "2026-11-17T23:59Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-18T00:08Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -20597,8 +20577,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-17T23:57Z",
-     "text": "6cadc427cd finishes native pose/file handoffs on 1577; ad55299523 finishes cold ground/Save outcome on 1575. Windows tests 44/44, four Roslyn modes clean, actual source refusal/acceptance and fresh Play reload passed. Canonical data and ori"
+     "at": "2026-11-18T00:08Z",
+     "text": "Implementing GPU-resident confidence filtering and rolling overlap fit with a compact pose/fit outcome readback; the existing CPU solver stays as a same-input reference. Consumer acceptance commits GPU history, so source changes cannot publ"
     }
    ]
   },
@@ -22749,5 +22729,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "ce7d21d858c090b222e108f67bb6e098a0ebf12b"
+ "source_revision": "ebd01484a510645a0007912633d0abab40b9a801"
 }
