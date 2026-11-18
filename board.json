@@ -2032,31 +2032,6 @@
    "notes": []
   },
   {
-   "n": 725,
-   "name": "Add the small tongue to the right Suggestions panel (UI SPEC",
-   "done": "2026-11-15T15:12Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T19:13Z",
-     "text": "Windows Editor 840: the mirrored Suggestions handle rendered against the selected panel backing at 1402x950. A tap on its chevron and a separate 192 px outward drag each cleared the synthetic selection through the real Input System. Restore"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-15T15:12Z",
-     "text": "Confirmed 7c732c802b on main. Rog Play Mode at 346595eee7 verified the live mirrored handle owns its center raycast, displays its chevron and uses the Suggestions backing material. Calling the live tap handler and separately sending outward"
-    }
-   ]
-  },
-  {
    "n": 735,
    "name": "Hot reload leaves nothing behind",
    "done": "",
@@ -2173,51 +2148,6 @@
      "by": "CLOUD_META",
      "at": "2026-11-16T11:27Z",
      "text": "empty test job"
-    }
-   ]
-  },
-  {
-   "n": 1145,
-   "name": "Reuse the terrain query bounds with retired surface samples (Planet Renderer SPEC",
-   "done": "2026-11-15T15:08Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T15:08Z",
-     "text": "Published dce357950d. Reused Bounds and QueryBoxes with retired terrain samples. Rog Unity compiled and nine terrain/drawing checks passed. The retirement owner held four spares at the original 32 KiB combined charge, rejected extra storage"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T15:49Z",
-     "text": "Strong verified the signed containing Dev 845 APK. Bounds reuse is conditional and the trace lost the unconditional constructor allocation. Pool misses still allocated on most terrain attachments. CPU.md c61cd33ecb records the exact ARM64 a"
-    }
-   ]
-  },
-  {
-   "n": 1146,
-   "name": "Selected-point name editor",
-   "done": "2026-11-15T15:12Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-15T15:12Z",
-     "text": "Published 91d589cf13: layout joins use UI_MergedElementBase, and selected-name input uses passive glass. UiSearchQueryTests 13/13, including preserved input/action join; Editor compiled. Screen checks 82103d4f45. No device visual check."
     }
    ]
   },
@@ -13113,17 +13043,37 @@
   {
    "n": 1659,
    "name": "using Lenovo to compare old and new Android Dev elevation diagnostics and frame cost",
-   "done": "",
+   "done": "2026-11-18T15:14Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-18T15:14Z",
+     "text": "Lenovo Dev859 baseline captured 148 frames at 8 FPS idle, mean135.848ms max360.650ms, fourteen canonical elevation cells and no parts. APK identity and receipt retained in lenovo-convergence-150443Z. Released Lenovo while private Dev861 is "
+    }
+   ]
+  },
+  {
+   "n": 1660,
+   "name": "Restore saved Planet Element Mask compatibility after 84d3a8956a",
+   "done": "",
+   "goal": false,
+   "under": 430,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
    "held": [
     {
-     "who": "GETAC",
-     "since": "2026-11-18T15:04Z",
+     "who": "CLOUD_DOT_MASK_REPAIR",
+     "since": "2026-11-18T15:10Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
@@ -13728,5 +13678,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "458f0cc8664233e237c7283436d4a91fbeafe0a3"
+ "source_revision": "eb3f288e1fc04fd40a1b3b46c3b725035d1de82e"
 }
