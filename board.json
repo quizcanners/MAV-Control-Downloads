@@ -12823,25 +12823,22 @@
   {
    "n": 1667,
    "name": "Telemetry flashes over MavChat on startup and clears only after changing Workflow. Make Bootstrap own one ShouldShowTelemetry decision",
-   "done": "",
+   "done": "2026-11-18T17:00Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T16:43Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-18T17:00Z",
+     "text": "Published c7d7492e91. Baseline loaded the panel and grid active with saved MavChat. Candidate kept both inactive at scene registration and first canvas render, across portrait Chat and return from KSP. Both targeted EditMode regressions pas"
+    }
+   ]
   },
   {
    "n": 1668,
@@ -13498,5 +13495,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "2df2ba4ccd51b0dd164bc6f3bf53e9d3ef5d9452"
+ "source_revision": "2d279ce39d452c5f20679e3649cb8ca1577253d9"
 }
