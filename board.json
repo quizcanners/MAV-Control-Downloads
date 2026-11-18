@@ -11490,22 +11490,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-18T16:25Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-18T15:38Z",
-     "text": "Source probe3863197b7a: clock settlement clones PolylineRecord.Points before checking whether the stamp can convert. Repeated tracked edits copy the same already-converted or ineligible record. Extracted loop with 4096 entries:4095 copies/4"
+     "at": "2026-11-18T16:39Z",
+     "text": "Published 6967901230. Check the scalar stamp before copying PolylineRecord points. The extracted 4096-entry replay fell from 4095 copies/4094 clock checks to 2/2 with one publication; 5 focused and 23 broader Geometry controls passed. Rosly"
     }
    ]
   },
@@ -13561,5 +13552,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "1edbc4fc5c3d9772c0574017f96bbc60bd21d638"
+ "source_revision": "6a2d7a55bd9b24f3a72a7fd2f65b0632aeb01698"
 }
