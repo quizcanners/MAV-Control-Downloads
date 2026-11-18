@@ -2538,70 +2538,6 @@
    "notes": []
   },
   {
-   "n": 1031,
-   "name": "Round 6 group P2 elevation and terrain",
-   "done": "2026-11-15T09:35Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": false
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": false
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": false
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 1032,
-   "name": "Round 6 group P3 imagery",
-   "done": "2026-11-15T09:37Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T09:37Z",
-    "2026-11-15T09:37Z",
-    "2026-11-15T09:37Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_1032",
-     "at": "2026-11-15T09:37Z",
-     "text": "Done: PlanetImagery system (Offline, Binding, Resources, WarmUp) + branch Streams controller; uncompiled; PlanetRendererResources left (asset bound)"
-    }
-   ]
-  },
-  {
    "n": 1033,
    "name": "Round 6 group P4 diagnostics and inspector",
    "done": "2026-11-15T09:40Z",
@@ -2908,26 +2844,6 @@
    "notes": []
   },
   {
-   "n": 1043,
-   "name": "Round 6 shrink",
-   "done": "2026-11-15T09:38Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_SANDBOX_1043",
-     "at": "2026-11-15T09:41Z",
-     "text": "Part 2 pushed: per-system AISandboxCommands_*.cs. Local agent with dotnet: fix Tools/Tests~ test_servers_command_admission.py, test_motorola_pacing.py compile variants, test_agent_presence_scope.py (read catalog as one file); run cmp.sh; Un"
-    }
-   ]
-  },
-  {
    "n": 1044,
    "name": "Round 6 shrink",
    "done": "2026-11-15T10:28Z",
@@ -3199,37 +3115,6 @@
    "notes": []
   },
   {
-   "n": 1053,
-   "name": "Round 6 split X1",
-   "done": "2026-11-15T09:38Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T09:38Z",
-    "2026-11-15T09:38Z",
-    "2026-11-15T09:38Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 1054,
    "name": "Round 6 shrink",
    "done": "2026-11-15T10:26Z",
@@ -3255,37 +3140,6 @@
     },
     {
      "t": "Add a Done line with lines removed to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 1055,
-   "name": "Round 6 split X2",
-   "done": "2026-11-15T09:35Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T09:34Z",
-    "2026-11-15T09:34Z",
-    "2026-11-15T09:34Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
      "x": true
     }
    ],
@@ -3321,43 +3175,6 @@
     }
    ],
    "notes": []
-  },
-  {
-   "n": 1057,
-   "name": "Round 6 split X4",
-   "done": "2026-11-15T09:39Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T09:39Z",
-    "2026-11-15T09:39Z",
-    "2026-11-15T09:39Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_R6_X4_1057",
-     "at": "2026-11-15T09:39Z",
-     "text": "Chat_Photos.cs 1218 to 90 lines: six nested controllers in Chat/ChatPhotosController/, callers moved. Left: Editor compile."
-    }
-   ]
   },
   {
    "n": 1058,
@@ -13524,22 +13341,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T09:29Z",
-     "noted": "2026-11-18T09:29Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-18T09:29Z",
-     "text": "Done: d455309ec2 retains model/source/window identity, paired native depth and pooled original colour."
+     "at": "2026-11-18T09:39Z",
+     "text": "Done: 7a2de47667 shares archive RGB textures across bridge, recovery and replay and reads native inverse depth in place."
     }
    ]
   },
@@ -16169,5 +15977,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "818f51504fb1edd61a4b9a572270e9cc89526715"
+ "source_revision": "f6c7316f4cae4a8720213558b30517e5e4ddb944"
 }
