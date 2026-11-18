@@ -2197,26 +2197,6 @@
    ]
   },
   {
-   "n": 1190,
-   "name": "Peers list flashes back for one frame when flicked away; keep it hidden until dismissed state is applied",
-   "done": "2026-11-15T20:00Z",
-   "goal": false,
-   "under": 408,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-15T19:59Z",
-     "text": "Main a8709ac891 keeps the shared peer columns under the hidden panel after dismissal; Chat and standalone peers immediately reclaim them. Mac Editor: regression fails on old reparenting and passes with fix; DeferredListViews 10/10, MavChatS"
-    }
-   ]
-  },
-  {
    "n": 1191,
    "name": "Move the five effects that still draw before the world blur to after it",
    "done": "2026-11-15T20:34Z",
@@ -12985,6 +12965,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1695,
+   "name": "Using Lenovo to qualify current Present and Power Policy hitches",
+   "done": "",
+   "goal": false,
+   "under": 429,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-18T20:00Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -13585,5 +13588,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "eeab788ae1caf75df1bfcd666f6a0f8b3e7ce119"
+ "source_revision": "1a8e945251070ba72ce2f2f65482645e2b3e3e4e"
 }
