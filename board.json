@@ -10959,25 +10959,22 @@
   {
    "n": 1580,
    "name": "Cold Synthetic prediction trail",
-   "done": "",
+   "done": "2026-11-18T18:35Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T18:24Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-18T18:35Z",
+     "text": "7edf89c1f0 keeps the trail rebuild pending until the georeference and anchor are ready. Baseline Mac EditMode expected no exception and reproduced NullReferenceException in LonLatHToUnityPos. Fixed Mac Play kept both unavailable cases pendi"
+    }
+   ]
   },
   {
    "n": 1581,
@@ -13618,5 +13615,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "dfd1b4d6218c22661b9f3db4cc9f32ef2b38ac7a"
+ "source_revision": "76c799b75e87b3efe0cd74e5c54ed4df47d98340"
 }
