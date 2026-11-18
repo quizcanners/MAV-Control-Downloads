@@ -2047,16 +2047,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T22:37Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -2088,8 +2079,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-18T21:26Z",
-     "text": "35d2ad9d78 on main clears Suggestions tab intent, dismissal and subject caches on Station shutdown."
+     "at": "2026-11-18T22:45Z",
+     "text": "69437b10a2 records the Mac Play recompile and repeat assembly reload on 49e008913a."
     }
    ]
   },
@@ -13486,5 +13477,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "237484cac9d2764693ee3645fb67ac265ea6300d"
+ "source_revision": "dd18d813fa3e82132977addda802a4ed5a2fe914"
 }
