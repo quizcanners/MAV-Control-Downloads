@@ -2496,37 +2496,6 @@
    ]
   },
   {
-   "n": 957,
-   "name": "Round 5 split S14",
-   "done": "2026-11-15T08:45Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T08:36Z",
-    "2026-11-15T08:37Z",
-    "2026-11-15T08:44Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 961,
    "name": "Round 5 split S18",
    "done": "2026-11-15T08:50Z",
@@ -2649,43 +2618,6 @@
     }
    ],
    "notes": []
-  },
-  {
-   "n": 979,
-   "name": "Round 5 split S36",
-   "done": "2026-11-15T08:45Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T08:44Z",
-    "2026-11-15T08:44Z",
-    "2026-11-15T08:45Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types",
-     "x": true
-    },
-    {
-     "t": "Move concerns into nested controllers",
-     "x": true
-    },
-    {
-     "t": "Add Done line to nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "Thread979",
-     "at": "2026-11-15T08:41Z",
-     "text": "Done: all five concerns nested in PlanetRenderer/Session/ (Convergence, Selection, Completion, Surface, Coverage), callers, SPEC, reflection tests. Left: compile pass (cmp.sh)."
-    }
-   ]
   },
   {
    "n": 987,
@@ -2862,37 +2794,6 @@
    "notes": []
   },
   {
-   "n": 996,
-   "name": "Round 5 merge M6",
-   "done": "2026-11-15T08:45Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T08:41Z",
-    "2026-11-15T08:42Z",
-    "2026-11-15T08:45Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 997,
    "name": "Round 5 merge M7",
    "done": "2026-11-15T09:00Z",
@@ -3044,43 +2945,6 @@
     }
    ],
    "notes": []
-  },
-  {
-   "n": 1003,
-   "name": "Round 5 merge M13",
-   "done": "2026-11-15T08:45Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T08:44Z",
-    "2026-11-15T08:44Z",
-    "2026-11-15T08:44Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud-1003",
-     "at": "2026-11-15T08:44Z",
-     "text": "Manager side done (Receive controller, empty file removed). Left: GridData, ConvergenceState and EnemyLogistics partial stacks need nested-controller splits; see nested-controllers.md."
-    }
-   ]
   },
   {
    "n": 1004,
@@ -15847,7 +15711,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-17T23:52Z",
-     "noted": "2026-11-18T08:16Z",
+     "noted": "2026-11-18T08:45Z",
      "progress": 75,
      "ticked": 3,
      "total": 4
@@ -15874,8 +15738,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-18T08:16Z",
-     "text": "Done:5c48a4faa6 bake I/O repair;e06f0da2d7 Mask reply clocks;1587closed. Private69b6 Dev859 signed/identity verified,SHA58702585b0c7;24 generated inputs preserved/restored. Roslyn noNew,20+7/4129 controls;native EditMode unrun. Native build"
+     "at": "2026-11-18T08:45Z",
+     "text": "Done:private69b6 Dev859 signed/exact installs on both,UID/inodes/maps/VPN retained;build exited. Native:Lenovo frame50 VPN Session Maintenance2910.770ms ->1594under429;equal Masks settle.1588 catches useful-prefix sends cancelled solely at "
     }
    ]
   },
@@ -17266,5 +17130,5 @@
    "since": "2026-11-18T08:28Z"
   }
  ],
- "source_revision": "c67cae69620014b109cb5dd6bb543138d920995b"
+ "source_revision": "31d27046dce85d5a6fab60fc672bc07b9aefcee3"
 }
