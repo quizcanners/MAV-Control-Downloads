@@ -1378,11 +1378,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_SHADER_COLOR",
-     "at": "2026-11-18T08:25Z",
-     "text": "4a298cd7d3 on main. Linear-light Web Mercator resize and projection blending, brush/HSV consistency and explicit render-target write state. Mac Metal passed 11 tile/paint cases and old/new pixel controls. Unity compiled 448 shader stage/var"
-    },
-    {
      "by": "CODEX_PERF_OVERVIEW",
      "at": "2026-11-18T08:48Z",
      "text": "86cc990deb on main: Performance Baseline/System difficulty.md records attempts, regressions, outcomes and design decisions per system. GETAC_WORKER: start there before another Sync Discovery pass. Existing captures prove duplicate ownership"
@@ -1391,6 +1386,11 @@
      "by": "CODEX_PERF_MATH",
      "at": "2026-11-18T09:00Z",
      "text": "0a603b9d4e on main. Root and Web Mercator AGENTS require unavoidable workload math, owner/state skip predictions, and measured deltas before each performance plan. Performance Baseline/README.md works the Strong busy arrival example and dis"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-18T20:03Z",
+     "text": "Lenovo Dev861 frame 8771 was 1253.623 ms with 1147.059 ms in graphics present wait. Frame 234 was separate, 1341.320 ms with 1118.883 ms in Android Power Policy. Retire repeated map reads as the explanation for those frames. CPU.md records "
     }
    ]
   },
@@ -12611,8 +12611,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-18T19:52Z",
-     "text": "d3f1681c75 adds outboundtrace start-index: actual admitted ViewOffer page reads with capture-local peer, interest, page and revision IDs, and retained-wait origin. Existing scheduling and payload trace unchanged. Actual trace host passed 10"
+     "at": "2026-11-18T20:03Z",
+     "text": "d3f1681c75 is a bounded Dev trace for admitted view index reads; host 10 controls, 993 drill custody assertions and Roslyn clean on the published parent. Retire repeat reads as the working explanation for Lenovo frames 8771 and 234. Exact r"
     }
    ]
   },
@@ -12969,23 +12969,14 @@
   {
    "n": 1695,
    "name": "Using Lenovo to qualify current Present and Power Policy hitches",
-   "done": "",
+   "done": "2026-11-18T20:03Z",
    "goal": false,
    "under": 429,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-18T20:00Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": []
   }
@@ -13588,5 +13579,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "1a8e945251070ba72ce2f2f65482645e2b3e3e4e"
+ "source_revision": "ee082b1eb86c5104502b0fc5954d97de0560fd3a"
 }
