@@ -2304,26 +2304,6 @@
    ]
   },
   {
-   "n": 1114,
-   "name": "Reduce terrain surface allocations during fast zoom. Planet Renderer SPEC",
-   "done": "2026-11-15T11:29Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "high",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T11:29Z",
-     "text": "Published aa6035c66c and CPU baseline 24a8b6739c. Rog native compile passed. Four wheel bursts on the offline map reused grid/vertices on 60 of 200 terrain attachments; cache held at most four and center/pointer terrain picks hit. Camera an"
-    }
-   ]
-  },
-  {
    "n": 1115,
    "name": "Repair Android player compilation after the Chat",
    "done": "2026-11-15T11:42Z",
@@ -13180,6 +13160,20 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1619,
+   "name": "Training Remote Sensors emulator never presents",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -13768,5 +13762,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "72635b544652fc5a4571b32abce51b638ff9723f"
+ "source_revision": "e91a5be635b2ae804fb1b78fb2fcd65e5c20f0cd"
 }
