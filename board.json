@@ -13166,25 +13166,22 @@
   {
    "n": 1607,
    "name": "Inspector controls SPEC",
-   "done": "",
+   "done": "2026-11-18T10:33Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_CLIPBOARD_ICON",
-     "since": "2026-11-18T10:31Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_CLIPBOARD_ICON",
+     "at": "2026-11-18T10:33Z",
+     "text": "Published bfbce51bd8 on main. Removed 63 stray white pixels at alpha 59 on the top edge of the shared two-page clipboard icon. PNG decode confirmed all other pixels identical; sampled the imported Unity texture, top alpha at most 1/255. No "
+    }
+   ]
   }
  ],
  "verify": [
@@ -13773,5 +13770,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "fd552b10ec4325156be3e53d585431b3b6d99aea"
+ "source_revision": "9102d420fc19b293bedd9fe4b9a02e6529c667bc"
 }
