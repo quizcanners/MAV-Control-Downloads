@@ -2212,51 +2212,6 @@
    ]
   },
   {
-   "n": 1194,
-   "name": "Keep the prepared Windows All candidate source stable through Unity import and EditMode (Nightly README",
-   "done": "2026-11-15T20:57Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T20:42Z",
-     "text": "c28431748d tracks 741 Unity-generated .meta files for scripts, folders and a guide present at ab87598297. All GUIDs were checked for collisions. Rog Unity refreshed with zero compile errors or tracked edits, and the source-admission control"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T20:57Z",
-     "text": "c28431748d passed the strict prepared Windows source check at public f5e5a02586. All 741 previously generated metadata paths are tracked."
-    }
-   ]
-  },
-  {
-   "n": 1196,
-   "name": "Investigate the seven remaining Finest Tiles parent composition and publication failures (Web Mercator SPEC",
-   "done": "2026-11-15T20:58Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T20:58Z",
-     "text": "1170620ffb removes an unconditional return left by the Coarser Tiles split. The caller already checks SavingCoarserTiles. The existing finalizer now retires publication holds, keeps newer dirty marks runnable and returns to Idle. Rog Unity "
-    }
-   ]
-  },
-  {
    "n": 1197,
    "name": "Recover publication of the qualified Windows EditMode All result when the prepared candidate differs from public main only by its verified test identity. In verify_runner.py the no-task-results and sc",
    "done": "2026-11-15T21:04Z",
@@ -13012,25 +12967,22 @@
   {
    "n": 1702,
    "name": "Using Lenovo for the active-map Altitude Visualization timing capture",
-   "done": "",
+   "done": "2026-11-18T20:59Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-18T20:55Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-18T20:59Z",
+     "text": "Dev 861 touch drags woke normal rendering. Altitude's earlier spike did not recur. The new wall peak had exclusive Rendering and a separate TryPoint span. The app had no retained tree for that frame. CPU.md records exact times and receipts."
+    }
+   ]
   }
  ],
  "verify": [
@@ -13631,5 +13583,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "82593a708bcbf8c8e314b9f87215a1182e0de8b3"
+ "source_revision": "e7a1f0f4a2810709ee4aaf8327fae7dda8cdea35"
 }
