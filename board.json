@@ -7572,16 +7572,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T17:29Z",
-     "noted": "",
-     "progress": 40,
-     "ticked": 2,
-     "total": 5
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Live surface store, per-tile snapshots with atomic admission, erase/epoch guards, monotonic displayed revisions, fenced failure retirement, RTX6 transport, shared encoding (00f0f9f0a9, a814318931, def",
@@ -7607,8 +7598,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-18T17:20Z",
-     "text": "9fd26f881c on main. Recorded drone ray initializes each disk. Streaming weighted centroid and covariance fit its plane; Cauchy weights reduce outliers. Roslyn clean, D3D11 fit/packing 4/4, offline DRAW 12/12. Numbers in GPU.md. Live orbit c"
+     "at": "2026-11-18T17:40Z",
+     "text": "067a4b835a on main. GPU reuse across six voxel faces, compatible normal borrowing, occupied-neighbour plane fitting and confidence-weighted preview. Direct3D dispatch tests 4/4, Roslyn clean, Unity accepted live windows. Live GPU cost, wide"
     }
    ]
   },
@@ -13513,5 +13504,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "33bdf118fabdddeabd95310b386396eb9abd6730"
+ "source_revision": "df5dd2dc78d6f47c8d5cb8fcfd9436a74bacf0ae"
 }
