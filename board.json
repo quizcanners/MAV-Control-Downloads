@@ -12608,16 +12608,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T23:19Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -12644,8 +12635,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-18T23:18Z",
-     "text": "Published bf216399e6. Rendered references now weight Pano360 photos by calibrated view overlap. The matched-camera comparison improved garden orbit image alignment in both captures, with variable gain. Live recovery still fell short. Restor"
+     "at": "2026-11-18T23:21Z",
+     "text": "Published bf216399e6 and c13442ca03. Matched-camera Pano360 overlap weighting improved garden-orbit alignment with variable gain. Live recovery remained below its four-view gate. Reusing the tracked aim reached two views while keeping the d"
     }
    ]
   },
@@ -13437,5 +13428,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "1d9d5dd8160d515276be3672288b8753b056fa2b"
+ "source_revision": "fe222bf12eb8788ad9043aee2c52ce9bd3b3e094"
 }
