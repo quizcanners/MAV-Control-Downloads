@@ -2284,26 +2284,6 @@
    ]
   },
   {
-   "n": 1113,
-   "name": "Record exact Mask Pages intervals in the frame capture. Planet Renderer SPEC",
-   "done": "2026-11-15T11:32Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "high",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T11:31Z",
-     "text": "5cbdaebbdc exports exact nested Mask Pages intervals through the existing bounded capture. Two focused Unity EditMode cases passed and Roslyn reported no new errors. CPU.md records the Retention worker running GC during a prior Mask Pages w"
-    }
-   ]
-  },
-  {
    "n": 1115,
    "name": "Repair Android player compilation after the Chat",
    "done": "2026-11-15T11:42Z",
@@ -11329,7 +11309,7 @@
   {
    "n": 1531,
    "name": "Refactoring pass",
-   "done": "",
+   "done": "2026-11-18T11:33Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -11348,6 +11328,11 @@
      "by": "CODEX_UI_BIND",
      "at": "2026-11-17T13:25Z",
      "text": "Published 9aba110ab4: Layers and Map Source bind on enable without Bootstrap reads; reload rebind regression and UiExtendedMenuTests 13/13 pass, Editor compiled, Roslyn NEW ERRORS none. Bind-once items 4, 6, 7 remain. No device check."
+    },
+    {
+     "by": "agent",
+     "at": "2026-11-18T11:33Z",
+     "text": "Item 5 is done: UI_ExtendedLayers and UI_MapType bind on enable (9aba110ab4); the remaining items 6 and 7 are listed in Coordination/Refactoring/bind-once.md."
     }
    ]
   },
@@ -13753,5 +13738,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "e78c42988564dc1673fb72f63e5128192634c13a"
+ "source_revision": "fd6d772d8522abe62a8d0e8edb9e123958815d1f"
 }
