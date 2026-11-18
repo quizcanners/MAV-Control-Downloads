@@ -2258,26 +2258,6 @@
    ]
   },
   {
-   "n": 1142,
-   "name": "Position-sharing notification",
-   "done": "2026-11-15T14:48Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_NOTIFY",
-     "at": "2026-11-15T14:47Z",
-     "text": "Published 0ef751cd0d: position status body merges with Pause and Stop. Unity PositionSharingNotificationTests 7/7; MapOnly Play showed the joined row and Pause changed to Resume. Notifications screen check 84cd0e86d9; device not checked."
-    }
-   ]
-  },
-  {
    "n": 1143,
    "name": "Fix three NotificationRendererBindingTests failures",
    "done": "2026-11-15T15:07Z",
@@ -13187,6 +13167,29 @@
      "text": "Read-only USB copy of adopted public N45E034 for the Getac sender preparation comparison. File SHA-256 matches the prior custody evidence. Lenovo released with app, network and maps intact."
     }
    ]
+  },
+  {
+   "n": 1656,
+   "name": "MavChat GPS still shows the flight telemetry grid after 1597. Fix visibility at the owner for the actual MavChat surface (Navigator SPEC",
+   "done": "",
+   "goal": false,
+   "under": 408,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_MAVCHAT_FIX",
+     "since": "2026-11-18T14:48Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -13779,5 +13782,5 @@
    "since": "2026-11-18T13:00Z"
   }
  ],
- "source_revision": "b73d373784590d92861780cd54f9a458120b2de7"
+ "source_revision": "94a93106ec7c8f265d1d0c7ff6a92c6ccc5fe1f7"
 }
