@@ -2289,31 +2289,6 @@
    ]
   },
   {
-   "n": 1118,
-   "name": "Reuse the 256 KiB full-texture Mask Pages decode buffer at ReadChunk (Planet Renderer SPEC",
-   "done": "2026-11-15T12:05Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "high",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T12:05Z",
-     "text": "Published b719439a26 and CPU baseline bb7e847b62. Rog Unity compiled and four offline wheel bursts confirmed bounded reuse. Actual loader host passed nine checks with Windows and Android defines, including corrupt read, stale stamp and uplo"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T12:07Z",
-     "text": "Independent Getac host checks of b719439a26 passed. The previous loader used 32 raw arrays across 32 reads and the fixed loader used two. Tested stale results, failed decode, upload exception and retirement with a worker blocked. Current an"
-    }
-   ]
-  },
-  {
    "n": 1119,
    "name": "Using Strong for session-only frame pacing comparison during fast pinches",
    "done": "2026-11-15T12:24Z",
@@ -13199,25 +13174,22 @@
   {
    "n": 1627,
    "name": "MavChat Route rows",
-   "done": "",
+   "done": "2026-11-18T12:05Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_ROUTE_RIM",
-     "since": "2026-11-18T11:52Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_ROUTE_RIM",
+     "at": "2026-11-18T12:05Z",
+     "text": "Published 0dafcf217b. Clear and focus lights follow the inner join and rounded outer corners for endpoints and intermediate rows. Three Unity tests passed. GPU readback found no visible spill in 16 size/side/light/press combinations. iPhone"
+    }
+   ]
   }
  ],
  "verify": [
@@ -13806,5 +13778,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "197ebe8c3b3158023116bbd68c5fddb3fefd385d"
+ "source_revision": "21167b4623794f6764a4cc58a05ff358f0430367"
 }
