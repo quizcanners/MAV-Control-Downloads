@@ -12892,16 +12892,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY_DISK_NORMALS",
-     "since": "2026-11-18T19:55Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 10
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Opaque mesh, terrain overlay and splat quads written and loaded as three layers (1430, 1522)",
@@ -12949,6 +12940,11 @@
      "by": "HEAVY",
      "at": "2026-11-17T10:05Z",
      "text": "1fe33653e7 records the Windows same-video regression. A Positioned capture saved 12 photos and two tiles. A fresh replay started 1.3 km away and wrote nothing until physically moved nearby. Automatic confirmation took 3.1 s. Later frames us"
+    },
+    {
+     "by": "HEAVY_DISK_NORMALS",
+     "at": "2026-11-18T20:12Z",
+     "text": "b2b9c357e0: Disk seeds and pre-fit blends now use the measured depth normal, with covariance taking over once supported. The old merge overwritten normal was the capture-camera ray. Windows UnityCanonicalGrowthTests 9/9, Roslyn no new error"
     }
    ]
   },
@@ -13608,5 +13604,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "8ba000f4a128a8ace7474dd1084c4fdb9e9f574a"
+ "source_revision": "45ac10e2ae52541be8b9b3e74bfbb34141295859"
 }
