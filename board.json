@@ -2235,26 +2235,6 @@
    ]
   },
   {
-   "n": 771,
-   "name": "Correct half-resolution probe warm-up accounting and measure Metal half/full target retention (Bootstrap SPEC",
-   "done": "2026-11-15T00:38Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-15T00:37Z",
-     "text": "Published 21d3dc32a1: exclude both warm-up holds; report actual samples and memoryless object counts. Native before/after counts, three routes and interrupted cleanup recorded in Performance Baseline/GPU.md. Unity compile and four Roslyn co"
-    }
-   ]
-  },
-  {
    "n": 772,
    "name": "Fix Metal half/full target retention when full scale uses the back buffer (Bootstrap SPEC",
    "done": "2026-11-15T01:25Z",
@@ -20562,7 +20542,7 @@
     {
      "who": "HEAVY",
      "since": "2026-11-17T23:59Z",
-     "noted": "2026-11-18T00:08Z",
+     "noted": "2026-11-18T00:41Z",
      "progress": 25,
      "ticked": 0,
      "total": 0
@@ -20577,8 +20557,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-18T00:08Z",
-     "text": "Implementing GPU-resident confidence filtering and rolling overlap fit with a compact pose/fit outcome readback; the existing CPU solver stays as a same-input reference. Consumer acceptance commits GPU history, so source changes cannot publ"
+     "at": "2026-11-18T00:41Z",
+     "text": "GPU overlap filtering, trimmed Horn fit and retained history now pass 8 controls plus 10 archive controls. Same-input Kenilworth/Zurich: 12/12 decisions match CPU, camera delta <=1.06e-6 model units. Native GPU-only capture reached 40 frame"
     }
    ]
   },
@@ -22740,5 +22720,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "fe0fbb0fd206e717bd120f13f835c277ae503103"
+ "source_revision": "39b08f3d242ee620295a57b13099d7279b7a7bdc"
 }
