@@ -2041,16 +2041,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T19:09Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -2071,11 +2062,6 @@
    ],
    "notes": [
     {
-     "by": "ROG",
-     "at": "2026-11-16T20:46Z",
-     "text": "Published e38e030f56. Far Altitude cancels its reader on view changes without waiting. Station shutdown joins active Fine/Far and previously canceled readers and clears both grids. The standalone test of the extracted lifecycle methods pass"
-    },
-    {
      "by": "CLOUD_R6",
      "at": "2026-11-17T06:22Z",
      "text": "R6 bf01cb10b1: UDP send queues, receive queue and Distribution SQLite readers cleared on disable (uncompiled). Left: audit rest of static caches (DJI_KeyConsole._typed, IncomingQueue statics); Editor recompile run."
@@ -2084,6 +2070,11 @@
      "by": "CODEX_HOTRELOAD_AUDIT",
      "at": "2026-11-17T15:32Z",
      "text": "IncomingQueue audit: queue and coalescer retain data after COMM_Links shutdown. Three asynchronous producers exist: UDP ListenerRun, Mission Planner WebSocket Attempt, SineLink SerialTransport. Stop invalidates UDP/MP asynchronously; serial"
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-18T19:21Z",
+     "text": "cc98e0bd55. Station shutdown clears X/Back history and calls the existing crosshair and horizon cache resets."
     }
    ]
   },
@@ -13653,5 +13644,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "0a8ef75e432dbee5715e549c871866ab3431e3d9"
+ "source_revision": "6ccfde620e7b86de63f0e91dd6d7fcb801421b1b"
 }
