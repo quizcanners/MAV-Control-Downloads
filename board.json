@@ -2231,20 +2231,6 @@
    ]
   },
   {
-   "n": 1126,
-   "name": "Replace the five Transport events (AlertReceived",
-   "done": "2026-11-15T13:41Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 1127,
    "name": "Replace the SetObscure(onObscured) and RequestUpdate(onFirstRendered",
    "done": "2026-11-15T14:17Z",
@@ -2261,26 +2247,6 @@
      "by": "ROG",
      "at": "2026-11-15T14:17Z",
      "text": "Published 13a3ed0c8e. Bootstrap polls capture requests and Screen Blur publishes readiness; app sharing reads the pose of the copied frame. The three Screen Blur scripts now compile with Prublyda and retain their script GUIDs. Rog Unity com"
-    }
-   ]
-  },
-  {
-   "n": 1128,
-   "name": "Replace the LoadTextureAsync(onDone) coroutine callback in Orthophoto_Sync_TextureLoad with a per-tile load state the Orthophoto sync reads every frame. quiz",
-   "done": "2026-11-15T13:40Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T13:40Z",
-     "text": "Published f458e0687a. Orthophoto Sync polls four read seats and adopts only the current branch load version. Rog Unity compiled; a scratch SQLite Play Mode check verified saved pixels, exact weight data, the four-seat limit, stale queued/ac"
     }
    ]
   },
@@ -13175,25 +13141,22 @@
   {
    "n": 1642,
    "name": "MavChat",
-   "done": "",
+   "done": "2026-11-18T13:41Z",
    "goal": false,
    "under": 408,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_CAROUSEL_COLOR",
-     "since": "2026-11-18T13:28Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_CAROUSEL_COLOR",
+     "at": "2026-11-18T13:41Z",
+     "text": "Published 79ad526153 on main. MavChat previews use sprite opacity alone, preserving tint; ordinary selectors regain their authored material. Bright and dark GPU renders reproduce the old darkening and confirm the fix on Chat (mips) and Targ"
+    }
+   ]
   },
   {
    "n": 1643,
@@ -13855,5 +13818,5 @@
    "since": "2026-11-18T13:00Z"
   }
  ],
- "source_revision": "f85baf839e0aabf7ab4fc7752d0324d8517809d5"
+ "source_revision": "e05f7637d65b55aa81983b6712d320fad5a4cf05"
 }
