@@ -2177,48 +2177,6 @@
    ]
   },
   {
-   "n": 1187,
-   "name": "Find and fix the full OnlineRasterScheduling EditMode hang on Windows after the SQLite Jobs fixture repair (Tests SPEC",
-   "done": "2026-11-15T19:54Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [
-    "2026-11-15T19:53Z",
-    "2026-11-15T19:53Z",
-    "2026-11-15T19:54Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Isolate the first case or teardown that blocks the Editor under the disposable station test identity.",
-     "x": true
-    },
-    {
-     "t": "Repair the blocking fixture or owner while preserving the existing raster, SQLite admission and publication assertions.",
-     "x": true
-    },
-    {
-     "t": "Run the full OnlineRasterSchedulingTests fixture to a recorded terminal result and restore the station identity.",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T19:36Z",
-     "text": "Task 1186 reached runtime after rebinding the SQLite Jobs worker. The full fixture then blocked the Unity main thread and ignored both cancellation and normal window close. Two focused outgoing-revision cases passed separately after restart"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T19:53Z",
-     "text": "6631d66038 fixes the Orthophoto publication fixture that left a pending synthetic index writer after a stale Legacy field lookup threw."
-    }
-   ]
-  },
-  {
    "n": 1188,
    "name": "Investigate and resolve nine MavChatSheetTests failures seen on Mac Editor",
    "done": "2026-11-15T19:58Z",
@@ -12968,7 +12926,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY_DISK_NORMALS",
+     "since": "2026-11-18T19:55Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 10
+    }
+   ],
    "steps": [
     {
      "t": "Opaque mesh, terrain overlay and splat quads written and loaded as three layers (1430, 1522)",
@@ -13618,5 +13585,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "2a720226bed1b3cf590bc79cbf7be292f81c1c93"
+ "source_revision": "619a60926123d554f87855d052107044d9e0f017"
 }
