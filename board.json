@@ -2269,48 +2269,6 @@
    ]
   },
   {
-   "n": 919,
-   "name": "Round 4 split R30",
-   "done": "2026-11-15T10:57Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T10:57Z",
-    "2026-11-15T10:57Z",
-    "2026-11-15T10:57Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_R4_919",
-     "at": "2026-11-15T07:45Z",
-     "text": "Split into FrameRate/Diagnostics/ (ProcessCpu, snapshots, FrameReceiptSnapshot, ledger); left: capture fields into a nested controller, two stale python pins. See nested-controllers.md"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-15T10:57Z",
-     "text": "Published 30b59e06c0. Task 1106 completed the remaining capture-controller split; Rog Editor compilation passed in 1017. The surviving receiver-stage host now runs actual progress code from both owners. 29 controls passed and the historical"
-    }
-   ]
-  },
-  {
    "n": 926,
    "name": "Round 4 split R37",
    "done": "2026-11-15T11:19Z",
@@ -2451,26 +2409,6 @@
      "by": "ROG",
      "at": "2026-11-15T12:39Z",
      "text": "Published 3d59b51ff0 with ten missing Unity meta files for the existing Motorola Inspector split. Confirmed Inspector owns its pages and IdentityDiscovery owns the candidate list. The old pacing host was retired; the ReadoutHint pin already"
-    }
-   ]
-  },
-  {
-   "n": 1112,
-   "name": "Using Strong for the texture registry before-and-after replay",
-   "done": "2026-11-15T10:55Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T10:55Z",
-     "text": "Signed Dev 844 comparison finished. All 48 counted pinches restored the starting camera pose. Strong stays on the candidate. Result 2c59a1c325 and build record e094012dbb."
     }
    ]
   },
@@ -13286,6 +13224,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1615,
+   "name": "using DJI RC Plus 2 for quiz-requested device diagnostics and current Test build checks",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-18T10:58Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -13874,5 +13835,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "b23973fab1c4b18a84e1f7f699eb18231e4932be"
+ "source_revision": "b15c74d7ba9a5c353e2d3050f1ef690905adb1c9"
 }
