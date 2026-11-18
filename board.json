@@ -10318,29 +10318,20 @@
   {
    "n": 1550,
    "name": "Make cold My Data and MavChat open the complete usable window immediately",
-   "done": "",
+   "done": "2026-11-18T18:13Z",
    "goal": false,
    "under": 429,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T17:57Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-18T16:46Z",
-     "text": "Paused for top-priority startup Telemetry. Local stash MAC_BOARD task 1550 preserves tested cold My Data/MavChat changes. Mac Play: My Data usable on first open-intent frame, portrait Chat by next frame, both prefabs and prewarm paths check"
+     "at": "2026-11-18T18:13Z",
+     "text": "e4734b4de7. Cold My Data and unbound portrait MavChat opened on their request frame in Mac Play. My Data returned to Menu. Chat prefabs no longer load the Store; the holder still registers it. Roslyn clean; EditMode 111 passed, 2 identical "
     }
    ]
   },
@@ -13528,5 +13519,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "cfcdff04a40b4d5d4f6dfad508fdb309a7152493"
+ "source_revision": "f238e168bcad4e0fb6645907e81a08473cb64a64"
 }
