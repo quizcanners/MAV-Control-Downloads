@@ -2072,7 +2072,7 @@
   },
   {
    "n": 704,
-   "name": "Read app.lifecycle last_wake / compass reason on a device while double resolution drops on a timer; remove the culprit (suspects",
+   "name": "Find and remove what keeps waking a still map on devices (goal 363)",
    "done": "",
    "goal": false,
    "under": 363,
@@ -2082,23 +2082,7 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T18:05Z",
-     "text": "Published 3a12cd400d. Rog Windows Editor held FrozenDouble at idle throughout the sampled window. See Performance Baseline/CPU.md and private receipt. app.lifecycle now includes the Point wake in active reasons. Unity wake regression and fo"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-16T05:09Z",
-     "text": "57a0f89b9e records four authenticated Strong Dev 848 pairs over 26 s, no tablet input. Normal, MapStatic and FrozenDouble throughout; last wake Layer. Mask revision 45,473 and all cause counts stayed fixed (f3483f49c9 instrumentation). Recu"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T21:14Z",
-     "text": "Strong Dev 851 bf03fb831f stayed 7.51 FPS at target 8 before and after the Wind Decal gate. Both lens cases exercised the 48 px limit in Unity. FrozenDouble later loaded and unloaded 37 Mask Pages chunks in one stationary window. CPU.md 7f5"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 725,
@@ -14743,5 +14727,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "d7b07b4028ef435b40150c612e3b5ca5dfe8cbcc"
+ "source_revision": "cfe2783910fdb973963be65374022c95923f6e0b"
 }
