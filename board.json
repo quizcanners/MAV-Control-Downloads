@@ -1539,8 +1539,8 @@
     "2026-11-13T22:05Z",
     "2026-11-15T00:01Z"
    ],
-   "priority": "normal",
-   "parked": false,
+   "priority": "high",
+   "parked": true,
    "flags": [],
    "held": [],
    "steps": [
@@ -2269,26 +2269,6 @@
      "by": "GETAC",
      "at": "2026-11-15T14:33Z",
      "text": "Both signed Dev 845 variants reached the Offline map on Strong."
-    }
-   ]
-  },
-  {
-   "n": 1137,
-   "name": "Photos folder list",
-   "done": "2026-11-15T14:13Z",
-   "goal": false,
-   "under": 408,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_PHOTOS",
-     "at": "2026-11-15T14:13Z",
-     "text": "3d848d69d3 removes the root header inset and top padding while retaining only the back-header height in nested folders. Unity ListBackArrowTests 2/2 passed; MapOnly Play with test folder verified root, nested and Back; Roslyn NEW ERRORS: no"
     }
    ]
   },
@@ -11414,16 +11394,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-18T14:07Z",
-     "noted": "2026-11-18T14:12Z",
-     "progress": 75,
-     "ticked": 3,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Elements masks use lazy cached hashes, efficient dirty propagation and likely-complete download groups.",
@@ -13777,5 +13748,5 @@
    "since": "2026-11-18T13:00Z"
   }
  ],
- "source_revision": "1e1955927a5ab6650606a2df0d3dabf019716c87"
+ "source_revision": "c34aecf4af60672175785cce5e67d5657e1e8114"
 }
