@@ -12892,25 +12892,22 @@
   {
    "n": 1680,
    "name": "Keep map controls behind My Data from its first rendered frame (UI SPEC",
-   "done": "",
+   "done": "2026-11-18T18:23Z",
    "goal": false,
    "under": 429,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T18:14Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-18T18:23Z",
+     "text": "45ea89c54a. After qualified pointer input, Bootstrap publishes one overlay for presentation. In Mac Play, My Data and its shared X rendered on the submit frame with Suggestions and compass both hidden. Return to Menu, Search and Settings sw"
+    }
+   ]
   }
  ],
  "verify": [
@@ -13511,5 +13508,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "4f22dbe2da1ee528e2a582e9ebc6364d9d56bef9"
+ "source_revision": "62d6cc2a97460891386bec748275a6621d891474"
 }
