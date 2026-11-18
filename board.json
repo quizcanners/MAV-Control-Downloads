@@ -2289,26 +2289,6 @@
    ]
   },
   {
-   "n": 1115,
-   "name": "Repair Android player compilation after the Chat",
-   "done": "2026-11-15T11:42Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T11:41Z",
-     "text": "f1e6d2d02d restores Android Background Tracker delivery to the existing Chat inbox and native outbox, qualifies the DJI binding, and keeps the prepared Chat and Street View fixtures Editor-only. Roslyn removed all eight Android errors, NEW "
-    }
-   ]
-  },
-  {
    "n": 1116,
    "name": "Using Strong for exact Mask Pages and Retention timing",
    "done": "2026-11-15T11:49Z",
@@ -13190,25 +13170,22 @@
   {
    "n": 1623,
    "name": "Portrait Chat peer list",
-   "done": "",
+   "done": "2026-11-18T11:45Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_CHAT_CLIP",
-     "since": "2026-11-18T11:35Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_CHAT_CLIP",
+     "at": "2026-11-18T11:45Z",
+     "text": "Published 071000e36a on main. Portrait peer and group viewports reach the sheet bottom with a hard clip. Unity passed both-edge divider scrolling, map restore, and one-pixel rendering. Actual list prefab attach/restore passed. iPhone appear"
+    }
+   ]
   },
   {
    "n": 1624,
@@ -13811,5 +13788,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "a41d217fb9efe75ca074632fdc6d4804497c96af"
+ "source_revision": "2ac7e58fb5495d0b3e07dcb326512d81dc03fa04"
 }
