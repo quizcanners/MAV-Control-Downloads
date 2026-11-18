@@ -12988,7 +12988,7 @@
   },
   {
    "n": 1701,
-   "name": "Wind decal follows the existing render cadence. Remove its continuous Animation wake so a stationary map settles at the shared idle rate. Keep a single Layer refresh when the cached weather sample or ",
+   "name": "Wind decal and passive annotation fades follow the existing render cadence. Keep cached wind presentation and active painting. Reserve a forced render for a visible",
    "done": "",
    "goal": false,
    "under": 363,
@@ -13608,5 +13608,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "e7d573345e2c4e70c4ff7e09f4ac044ea4808131"
+ "source_revision": "a89de4c82bd3aa6a95d2f2a37b251bb505d70944"
 }
