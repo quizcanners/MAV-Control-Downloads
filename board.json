@@ -13244,25 +13244,22 @@
   {
    "n": 1612,
    "name": "UI SPEC",
-   "done": "",
+   "done": "2026-11-18T10:50Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_COMPASS_LIGHT",
-     "since": "2026-11-18T10:38Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_COMPASS_LIGHT",
+     "at": "2026-11-18T10:50Z",
+     "text": "2dfbafda52 on main. Three focused compass tests passed, including both east and west, and a Metal sweep of eight azimuths put 5\u201312x more light on the sunward tips than the opposite tips. Unity compile passed, Roslyn NEW ERRORS: none. Physic"
+    }
+   ]
   }
  ],
  "verify": [
@@ -13851,5 +13848,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "049eb30b1b2334e65ca20b0d0abc547f8a9ffd29"
+ "source_revision": "19bdfb25352100da8b1449a9ebfb51c9cb0781bd"
 }
