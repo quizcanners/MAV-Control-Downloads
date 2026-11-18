@@ -13257,25 +13257,22 @@
   {
    "n": 1616,
    "name": "No-UI (Map focus) shows raw map imagery regardless of the selected map display mode",
-   "done": "",
+   "done": "2026-11-18T11:13Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_RAW_MAP",
-     "since": "2026-11-18T11:02Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_RAW_MAP",
+     "at": "2026-11-18T11:13Z",
+     "text": "246ac43e96 on main. No-UI displays original map colors online and offline. Mac Unity passed six focused tests including Thermal palette restoration, Red Filter, Metal pixel checks on both renderers, and retained-map refresh. iPhone visual c"
+    }
+   ]
   }
  ],
  "verify": [
@@ -13864,5 +13861,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "1bfdfad3b0cc687d943c8a125c4b6f5ef7d69e86"
+ "source_revision": "68fca7e99a1c1cd3c779eea4a3824cc57a60094e"
 }
