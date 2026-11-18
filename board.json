@@ -22124,25 +22124,22 @@
   {
    "n": 1578,
    "name": "Web Mercator",
-   "done": "",
+   "done": "2026-11-18T00:16Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-17T23:53Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-18T00:16Z",
+     "text": "e1b8a48d43 preserves active paths in the existing resident pass mark; held children remain unhandled and checkpoint forks rejoin only a covering same-pass root. Release/reset/row-transfer custody is covered. Actual-owner host: 991 assertion"
+    }
+   ]
   },
   {
    "n": 1579,
@@ -22729,5 +22726,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "ebd01484a510645a0007912633d0abab40b9a801"
+ "source_revision": "204b995b1f694d90f72c52a9abff7586c1f171e1"
 }
