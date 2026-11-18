@@ -2569,37 +2569,6 @@
    "notes": []
   },
   {
-   "n": 1039,
-   "name": "Round 6 group G-DataSync",
-   "done": "2026-11-15T10:00Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T10:00Z",
-    "2026-11-15T10:00Z",
-    "2026-11-15T10:00Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 1040,
    "name": "Round 6 group G-Bootstrap",
    "done": "2026-11-15T10:16Z",
@@ -2896,43 +2865,6 @@
    "notes": []
   },
   {
-   "n": 1070,
-   "name": "Round 6 split X17",
-   "done": "2026-11-15T10:01Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T10:01Z",
-    "2026-11-15T10:01Z",
-    "2026-11-15T10:01Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_R6_1070",
-     "at": "2026-11-15T09:59Z",
-     "text": "Done: Station_BaseMap.cs 1220 to 223 lines; nested Pointing, Ground (with polled ground), LongPress, Erase in Systems/BaseMap/BaseMapManager/; callers moved. Left: Editor compile."
-    }
-   ]
-  },
-  {
    "n": 1073,
    "name": "Round 6 split X19",
    "done": "2026-11-15T10:15Z",
@@ -2942,37 +2874,6 @@
     "2026-11-15T10:14Z",
     "2026-11-15T10:14Z",
     "2026-11-15T10:14Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 1081,
-   "name": "Round 6 split X27",
-   "done": "2026-11-15T10:02Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T10:01Z",
-    "2026-11-15T10:02Z",
-    "2026-11-15T10:02Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -3021,33 +2922,6 @@
     {
      "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
      "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 1084,
-   "name": "Round 6 split X30",
-   "done": "2026-11-15T10:04Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": false
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": false
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": false
     }
    ],
    "notes": []
@@ -3181,33 +3055,6 @@
      "text": "Done: Station_VideoToMapManager split into 6 nested controllers + callers/tests, line in nested-controllers.md. Left (Editor): compile."
     }
    ]
-  },
-  {
-   "n": 1089,
-   "name": "Round 6 split X35",
-   "done": "2026-11-15T10:04Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": false
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": false
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": false
-    }
-   ],
-   "notes": []
   },
   {
    "n": 1090,
@@ -14471,25 +14318,22 @@
   {
    "n": 1604,
    "name": "MGRS SPEC",
-   "done": "",
+   "done": "2026-11-18T10:04Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_MGRS_DELETE",
-     "since": "2026-11-18T09:59Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_MGRS_DELETE",
+     "at": "2026-11-18T10:04Z",
+     "text": "Published 98c4660f6c to main. Suggestions, Search and keyboard Delete remove the current history point and show the next newer entry, falling back to the preceding one. Clear preserves history. Unity Editor passed 28 focused tests, includin"
+    }
+   ]
   }
  ],
  "verify": [
@@ -15078,5 +14922,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "b50c47ed150fe83b2fcc8a87016ec5ab89a711e7"
+ "source_revision": "86c50078049f779f61bdd58cb24cb05233475b5a"
 }
