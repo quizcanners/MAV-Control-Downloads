@@ -2172,43 +2172,6 @@
    ]
   },
   {
-   "n": 1167,
-   "name": "Restore Windows task board tests to the current origin-only write and pre-push advisory contracts. Five multiline-note tests lack a throwaway origin after 406bf77c34. The hook fixture launches a POSIX",
-   "done": "2026-11-15T16:57Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T16:57Z",
-    "2026-11-15T16:57Z",
-    "2026-11-15T16:57Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Use a throwaway origin for the multiline-note fixtures",
-     "x": true
-    },
-    {
-     "t": "Run the hook with Git shell and check the board-only advisory exception",
-     "x": true
-    },
-    {
-     "t": "Pass the Windows task board test suite",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T16:57Z",
-     "text": "Published c168cc6381. Multiline-note tests now seed a disposable Git origin and verify exact bytes after the real publish. The hook test uses Git for Windows shell, verifies its advisory exemption is limited to the single public board commi"
-    }
-   ]
-  },
-  {
    "n": 1168,
    "name": "Restore NUnit List Picker state bindings after the Station.UI.ListPicking owner split (Tests SPEC",
    "done": "2026-11-15T17:08Z",
@@ -12897,14 +12860,20 @@
     {
      "who": "HEAVY",
      "since": "2026-11-18T16:52Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-18T16:58Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-18T16:58Z",
+     "text": "f6a86fd321 on main. Same-clip reopen hit Sentis TensorPool.Dispose after cancellation mid-slice, upstream of matching. Finish stale source schedules in slices and drop before registration. Forced cancellation retires the partial worker. Ros"
+    }
+   ]
   },
   {
    "n": 1669,
@@ -13541,5 +13510,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "1b943f205b4c345b1bc7941e16eac5dc4192b115"
+ "source_revision": "cba6e90e5af6a96f01d9286475a75f9959379eea"
 }
