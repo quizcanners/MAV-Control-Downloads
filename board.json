@@ -1958,15 +1958,7 @@
    "held": [],
    "steps": [
     {
-     "t": "Code: scope, source kind, picker row, WebCamTexture into one RenderTexture, permission, pause and resume",
-     "x": true
-    },
-    {
-     "t": "Windows Unity compile, English and Ukrainian Linguist entries and VideoSourceSuggestionTests for DeviceCamera (saved value 14; StreetViewStream is 13)",
-     "x": true
-    },
-    {
-     "t": "Android and iPhone build: camera permission dialog appears once, frames reach peers; measure GPU and frame time, record in the area's Performance Baseline",
+     "t": "Android and iPhone build: camera permission dialog appears once, frames reach peers after an explicit selection with a fresh permission decision; measure GPU and frame time, record in the area's Perfo",
      "x": false
     },
     {
@@ -1974,23 +1966,7 @@
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CLOUD_DOT_630",
-     "at": "2026-11-14T14:07Z",
-     "text": "CC-7D64-01 source fixed: 8c9267c980 + ff552880e8. NoCamera/CaptureFailed retain Blocked/Issue until changed inventory, explicit selection or resume. Pause callback releases camera/texture before suspension; recovery advances generation befo"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-14T16:39Z",
-     "text": "Strong Dev 840, cbdd7f95c5: same owner and denied Camera permission, 57 results/60 s on Test 839 versus zero on 840. Focus stayed on MAV Control in 11/11 samples and video.sources still detects Device camera. Explicit selection with a fresh"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-14T21:28Z",
-     "text": "0dd3cbd33c adds English/Ukrainian camera strings and picker coverage. 86dc762103 makes Automatic and other choices cancel a pending device-camera start or stop active capture. Windows Unity compiled, picker tests 10/10, prior localization 1"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 657,
@@ -13792,5 +13768,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "d96e1fa851a90f80431bc3c875725b691cc346e5"
+ "source_revision": "50b84f54f26f2198a2c40cd101a41ab2a708bc3f"
 }
