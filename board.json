@@ -2496,64 +2496,6 @@
    ]
   },
   {
-   "n": 993,
-   "name": "Round 5 merge M3",
-   "done": "2026-11-15T08:52Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T08:48Z",
-    "2026-11-15T08:50Z",
-    "2026-11-15T08:51Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 995,
-   "name": "Round 5 merge M5",
-   "done": "2026-11-15T08:53Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": false
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": false
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": false
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 997,
    "name": "Round 5 merge M7",
    "done": "2026-11-15T09:00Z",
@@ -2649,37 +2591,6 @@
      "text": "Done: Pano, ElevationPaint, Brigade nested in Singleton_GeometryManager/; Need for verify: compile"
     }
    ]
-  },
-  {
-   "n": 1007,
-   "name": "Round 5 merge M17",
-   "done": "2026-11-15T08:52Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T08:51Z",
-    "2026-11-15T08:51Z",
-    "2026-11-15T08:51Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
   },
   {
    "n": 1008,
@@ -2882,37 +2793,6 @@
    ]
   },
   {
-   "n": 1016,
-   "name": "Round 5 pins P5",
-   "done": "2026-11-15T08:52Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T08:50Z",
-    "2026-11-15T08:51Z",
-    "2026-11-15T08:52Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Find which files the tests read that are gone or moved",
-     "x": true
-    },
-    {
-     "t": "Point each test at the file that holds the code today",
-     "x": true
-    },
-    {
-     "t": "Run what runs on this machine and note the rest",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 1017,
    "name": "Restore Rog Unity compilation after the round 5 Planet Mask ViewsController split (task 954)",
    "done": "2026-11-15T10:53Z",
@@ -2931,70 +2811,6 @@
      "text": "Published 588e73daf1, c54c81ed5e, acb1cbb7ea and acb0b5491f. Native Rog Unity refresh finished with script_compilation_failed=False and zero C# errors. Play started; reviewer capture and ui.suggestion.tabs confirmed the sole landscape Cross"
     }
    ]
-  },
-  {
-   "n": 1020,
-   "name": "Round 5 split S33b",
-   "done": "2026-11-15T08:53Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 1021,
-   "name": "Round 5 follow-up of 1003",
-   "done": "2026-11-15T08:52Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 1022,
-   "name": "Round 5 S24b",
-   "done": "2026-11-15T08:52Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T08:51Z",
-    "2026-11-15T08:52Z",
-    "2026-11-15T08:52Z",
-    "2026-11-15T08:52Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Nest SideCameras and SourceProjection",
-     "x": true
-    },
-    {
-     "t": "Nest PresentationCamera",
-     "x": true
-    },
-    {
-     "t": "Nest ErrorBanner",
-     "x": true
-    },
-    {
-     "t": "Guide: every concern in the outline",
-     "x": true
-    }
-   ],
-   "notes": []
   },
   {
    "n": 1023,
@@ -14144,18 +13960,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T07:04Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-18T08:53Z",
+     "text": "Published 1dc103d3f9 archive ownership/copy cleanup and d9a5631387 Unity default plus frozen Python policy. Native 33/33; cmp clean and Editor Console clear. New Kenilworth Save preserves source digest and five original photos; cold archive"
+    }
+   ]
   },
   {
    "n": 1507,
@@ -16720,5 +16533,5 @@
    "since": "2026-11-18T08:28Z"
   }
  ],
- "source_revision": "532666ac18d3be8bb43d7800ad3e06a820ca9aef"
+ "source_revision": "cdaefff1a74a41fc62cd24a4f4b6beef5c1a0338"
 }
