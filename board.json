@@ -2241,43 +2241,6 @@
    ]
   },
   {
-   "n": 875,
-   "name": "Round 3 split R19",
-   "done": "2026-11-15T08:13Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T08:13Z",
-    "2026-11-15T08:13Z",
-    "2026-11-15T08:13Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_R4_SCOUT",
-     "at": "2026-11-15T07:41Z",
-     "text": "Runs last, after the other jobs have merged (touches many callers)."
-    }
-   ]
-  },
-  {
    "n": 887,
    "name": "Round 3 logging R30",
    "done": "2026-11-15T14:56Z",
@@ -2496,74 +2459,6 @@
    ]
   },
   {
-   "n": 928,
-   "name": "Round 4 pins P1",
-   "done": "2026-11-15T08:06Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T08:05Z",
-    "2026-11-15T08:05Z",
-    "2026-11-15T08:05Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Find which files the ten tests read that are gone",
-     "x": true
-    },
-    {
-     "t": "Point each test at the file that holds the code today",
-     "x": true
-    },
-    {
-     "t": "Run what runs on this machine and note the rest",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud-928",
-     "at": "2026-11-15T08:05Z",
-     "text": "Pins now read RecordReader, Sync_Diagnostics, ShardPublication, Payloads, Native, ShardCatalog, Writer files. shard_publication runs green here (dotnet host). Not runnable on cloud, need verify on Windows: retention (stops at Unity NUnit re"
-    }
-   ]
-  },
-  {
-   "n": 929,
-   "name": "Round 4 pins P2",
-   "done": "2026-11-15T08:12Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T08:11Z",
-    "2026-11-15T08:11Z",
-    "2026-11-15T08:12Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 934,
    "name": "Round 4 split R6",
    "done": "2026-11-15T11:16Z",
@@ -2602,26 +2497,6 @@
      "by": "ROG",
      "at": "2026-11-15T11:16Z",
      "text": "Published ba8fbec63d. Publication input types now belong to PublicationController, existing Feed/Relay/Wish ownership checked, constants consolidated, pose enum alongside codec. Constants and pose wire values match the old source. Rog nativ"
-    }
-   ]
-  },
-  {
-   "n": 941,
-   "name": "Restore Unity compilation after round 4 extractions",
-   "done": "2026-11-15T08:16Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T08:16Z",
-     "text": "Published 346cb79065, 56104d449f and 387a0f05a3 to fix split owner references and Training ECS access. Native Rog Unity refresh on 302333a112 returned Editor idle, script_compilation_failed=False. No player build or suite run for this compi"
     }
    ]
   },
@@ -17376,7 +17251,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-17T23:52Z",
-     "noted": "2026-11-18T07:51Z",
+     "noted": "2026-11-18T08:16Z",
      "progress": 75,
      "ticked": 3,
      "total": 4
@@ -17403,8 +17278,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-18T07:51Z",
-     "text": "Done:5c48a4faa6 removes bake debug SQLite probes;e06f0da2d7 splits Mask reply costs;1587closed. Checks:20+7,legacy1000-to-zero probe calls,4129 settlement;all merged C# Roslyn noNew. Held:1558,1584,1585,1588,1590. Live:private containing AP"
+     "at": "2026-11-18T08:16Z",
+     "text": "Done:5c48a4faa6 bake I/O repair;e06f0da2d7 Mask reply clocks;1587closed. Private69b6 Dev859 signed/identity verified,SHA58702585b0c7;24 generated inputs preserved/restored. Roslyn noNew,20+7/4129 controls;native EditMode unrun. Native build"
     }
    ]
   },
@@ -18709,5 +18584,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "0625fc4bbe0d4f1853c954e8e2a31e332c745542"
+ "source_revision": "dff9b004186b21813d37964e5c9a767a80c233cf"
 }
