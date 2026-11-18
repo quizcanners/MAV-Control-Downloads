@@ -2152,91 +2152,6 @@
    ]
   },
   {
-   "n": 1151,
-   "name": "Settings",
-   "done": "2026-11-15T16:04Z",
-   "goal": false,
-   "under": 409,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-15T16:03Z",
-     "text": "Published c28a55f605: Settings measures the shared X hit rect; Editor Data page clears it and X closes Settings. TopControlsLayoutTests 8/8; Editor compile and Roslyn NEW ERRORS none."
-    }
-   ]
-  },
-  {
-   "n": 1153,
-   "name": "Remove the IL2CPP DeflateStream callback allocations during Web Mercator Index Compaction (Web Mercator SPEC",
-   "done": "2026-11-15T16:01Z",
-   "goal": false,
-   "under": 430,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T16:01Z",
-     "text": "Published 46a6a39744. Cold compaction reads borrowed SQLite bytes directly into its bounded buffer, using reusable raw DEFLATE tables. Editor compiled; eight focused checks passed (both roots, digest, malformed streams, pause). .NET host: 1"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T16:45Z",
-     "text": "Strong's cold Index Compaction sweep completed on signed Dev 845. The old Deflate callback was absent from exact-image samples, stopped GC fell and wall time rose. The remaining sample was QueryCancellation.StartBusyWait. CPU.md 863554c103 "
-    }
-   ]
-  },
-  {
-   "n": 1154,
-   "name": "MavChat notification square",
-   "done": "2026-11-15T16:05Z",
-   "goal": false,
-   "under": 410,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-15T16:03Z",
-     "text": "Published c28a55f605: MavChat notification square stays below the shared X hit rect. TopControlsLayoutTests 8/8; Editor portrait view checked; Roslyn NEW ERRORS none."
-    }
-   ]
-  },
-  {
-   "n": 1155,
-   "name": "MavChat notification square",
-   "done": "2026-11-15T16:05Z",
-   "goal": false,
-   "under": 410,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-15T16:04Z",
-     "text": "Published c28a55f605: square binds ToggleIsland once on first, late and re-enable binding. NotificationRendererBindingTests 17/17; one real Editor tap opened the panel; Roslyn NEW ERRORS none."
-    }
-   ]
-  },
-  {
    "n": 1157,
    "name": "Using Strong for a paired Normal and fixed 30 FPS fast-pinch pacing measurement on Dev 845",
    "done": "2026-11-15T16:11Z",
@@ -13040,25 +12955,22 @@
   {
    "n": 1663,
    "name": "using Lenovo for signed Dev861 map smoke and convergence diagnostics",
-   "done": "",
+   "done": "2026-11-18T16:07Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-18T15:43Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-18T16:07Z",
+     "text": "Released Lenovo. Exact signed Dev 861 (3863197b7a) reached the map and retained app data and VPN. Complete idle capture recorded in CPU.md. No active elevation transfer; same-ID paired run remains open."
+    }
+   ]
   }
  ],
  "verify": [
@@ -13655,5 +13567,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "30480ab47d4eba3d6e7f13a65aa06e67073e9170"
+ "source_revision": "7f8b749a1a42736f6b7096a342b300757e078c98"
 }
