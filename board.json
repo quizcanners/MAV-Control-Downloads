@@ -2241,48 +2241,6 @@
    ]
   },
   {
-   "n": 874,
-   "name": "Round 3 split R18",
-   "done": "2026-11-15T07:53Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T07:52Z",
-    "2026-11-15T07:53Z",
-    "2026-11-15T07:53Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_R4_SCOUT",
-     "at": "2026-11-15T07:40Z",
-     "text": "Prerequisite cleared: task 834 is done (ROG 2026-11-15T06:29Z). Start now, on current main."
-    },
-    {
-     "by": "CLOUD_R18",
-     "at": "2026-11-15T07:53Z",
-     "text": "CLOUD_R18: Station_Inspect 1615 to 498 lines; Map, Drones, Video, Data, system pages and 4 status lines on their owners, DescribeRoute on DJI, Autel, FPV, VPN. Left (in nested-controllers.md): other route rows, Dev Mode branches to owners. "
-    }
-   ]
-  },
-  {
    "n": 875,
    "name": "Round 3 split R19",
    "done": "2026-11-15T08:13Z",
@@ -2316,43 +2274,6 @@
      "by": "CLOUD_R4_SCOUT",
      "at": "2026-11-15T07:41Z",
      "text": "Runs last, after the other jobs have merged (touches many callers)."
-    }
-   ]
-  },
-  {
-   "n": 877,
-   "name": "Round 3 split R21",
-   "done": "2026-11-15T07:52Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T07:50Z",
-    "2026-11-15T07:51Z",
-    "2026-11-15T07:52Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_R4_SCOUT",
-     "at": "2026-11-15T07:40Z",
-     "text": "Prerequisite cleared: task 698 is done. Start now; task 878 follows this one."
     }
    ]
   },
@@ -2486,37 +2407,6 @@
    "notes": []
   },
   {
-   "n": 901,
-   "name": "Round 4 split R13",
-   "done": "2026-11-15T07:55Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T07:53Z",
-    "2026-11-15T07:54Z",
-    "2026-11-15T07:55Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 902,
    "name": "Round 4 split R14",
    "done": "2026-11-15T12:36Z",
@@ -2555,43 +2445,6 @@
      "by": "ROG",
      "at": "2026-11-15T12:36Z",
      "text": "Published b04e1cc15a. Confirmed GPS writers, Contact methods, Passport latch, eligibility Snapshot, list scope and Radio indicator live on the split owners. Removed the final Peer-level Passport forwarding method. Rog Unity compiled; vpn.ha"
-    }
-   ]
-  },
-  {
-   "n": 904,
-   "name": "Round 4 split R16",
-   "done": "2026-11-15T07:52Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T07:45Z",
-    "2026-11-15T07:48Z",
-    "2026-11-15T07:49Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud-904",
-     "at": "2026-11-15T07:49Z",
-     "text": "Lineup owns queue + 5 methods (Enqueue/Advance/FinishPhoto/RememberSquare/Stop); intent fields still on import, reached via _i. Compile unchecked."
     }
    ]
   },
@@ -2706,113 +2559,6 @@
    ]
   },
   {
-   "n": 911,
-   "name": "Round 4 split R23",
-   "done": "2026-11-15T07:54Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T07:54Z",
-    "2026-11-15T07:54Z",
-    "2026-11-15T07:54Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 913,
-   "name": "Round 4 split R25",
-   "done": "2026-11-15T07:52Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T07:50Z",
-    "2026-11-15T07:50Z",
-    "2026-11-15T07:50Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 916,
-   "name": "Round 4 split R28",
-   "done": "2026-11-15T07:55Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 918,
-   "name": "Round 4 split R29",
-   "done": "2026-11-15T07:54Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T07:51Z",
-    "2026-11-15T07:51Z",
-    "2026-11-15T07:53Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 919,
    "name": "Round 4 split R30",
    "done": "2026-11-15T10:57Z",
@@ -2868,76 +2614,6 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 922,
-   "name": "Round 4 split R33",
-   "done": "2026-11-15T07:55Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T07:55Z",
-    "2026-11-15T07:55Z",
-    "2026-11-15T07:55Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud-thread-922",
-     "at": "2026-11-15T07:54Z",
-     "text": "cloud: Video Server split done: Runtime, HostedEnds, SourceRoutes, RelayReceive controllers; file 1521 to 862. Left: py pins test_relay_shared_input.py + RelaySharedInputHost.cs, test_peer_video_wish_ingress.py need new files; compile."
-    }
-   ]
-  },
-  {
-   "n": 923,
-   "name": "Round 4 split R34",
-   "done": "2026-11-15T07:53Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T07:51Z",
-    "2026-11-15T07:51Z",
-    "2026-11-15T07:51Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "review"
-   ],
    "held": [],
    "steps": [
     {
@@ -3170,37 +2846,6 @@
    "notes": []
   },
   {
-   "n": 931,
-   "name": "Round 4 split R3",
-   "done": "2026-11-15T07:55Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T07:52Z",
-    "2026-11-15T07:53Z",
-    "2026-11-15T07:54Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 933,
    "name": "Round 4 split R5",
    "done": "2026-11-15T07:58Z",
@@ -3320,37 +2965,6 @@
     "2026-11-15T07:57Z",
     "2026-11-15T07:57Z",
     "2026-11-15T07:58Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 940,
-   "name": "Round 4 split R12",
-   "done": "2026-11-15T07:54Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T07:48Z",
-    "2026-11-15T07:49Z",
-    "2026-11-15T07:53Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -18689,7 +18303,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-18T03:15Z",
-     "noted": "2026-11-18T07:46Z",
+     "noted": "2026-11-18T07:55Z",
      "progress": 25,
      "ticked": 0,
      "total": 0
@@ -18699,8 +18313,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-18T07:46Z",
-     "text": "Held for active goal1558. Exact0027 Dev859 installed,UID/data inode preserved,detailed map reviewed. N47 group now full-file hash agreement with Lenovo,10cells/no parts. Next containing bake fix/reply clocks case dev-bake-debug-reply-split "
+     "at": "2026-11-18T07:55Z",
+     "text": "Held for goal1558. Exact0027 Dev859 map on Strong,UID/inode retained;N47 full-file agreement with Lenovo,10cells/no parts. Stationary12s baseline380frames,mean31.610ms,max287.079ms;WM261.883ms includes1GC. New containing69b6 APK building CL"
     }
    ]
   },
@@ -19430,5 +19044,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "918e533f9f803647c53ca3e399bade189bad65f7"
+ "source_revision": "6efff855c384a9cfb1d76df1ede68f4f36b2fe5c"
 }
