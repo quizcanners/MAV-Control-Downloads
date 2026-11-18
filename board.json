@@ -2177,26 +2177,6 @@
    ]
   },
   {
-   "n": 1182,
-   "name": "Reduce Planet Renderer reference mesh creation cost in PatchMesh.Build (Planet Renderer SPEC",
-   "done": "2026-11-15T19:24Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T19:24Z",
-     "text": "Published e1af9ce2a1. PatchMesh uploads position, normal and UV0 in one interleaved stream using reused scratch storage. Managed old/new parity passed 80 builds for vertex values, skirts, query arrays, bounds and submesh ranges; Roslyn e/a/"
-    }
-   ]
-  },
-  {
    "n": 1184,
    "name": "Fix iOS player compilation for Motorola stress diagnostics (build 846)",
    "done": "2026-11-15T19:37Z",
@@ -13021,6 +13001,29 @@
      "text": "8e22d49c9b and cdd59569fc on main. Reusable isolated Backdoor replay plus matcher research."
     }
    ]
+  },
+  {
+   "n": 1690,
+   "name": "Allow a held Left List row touch to switch repeatedly between right context drag",
+   "done": "",
+   "goal": false,
+   "under": 408,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-18T19:25Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -13621,5 +13624,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "c76f1cf058631a5238a2b35624eb3d5695fc8736"
+ "source_revision": "36b0b7271a48a933e292ec969d6f5a0e3853c1d6"
 }
