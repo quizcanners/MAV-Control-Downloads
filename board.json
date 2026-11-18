@@ -2177,26 +2177,6 @@
    ]
   },
   {
-   "n": 1189,
-   "name": "Using Strong for the native PatchMesh upload comparison",
-   "done": "2026-11-15T20:22Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T20:22Z",
-     "text": "Strong signed paired Dev 845, same control plus e1af9ce2a1. 8 fast pinches per APK, same-pose frames and full timings in CPU.md 834ca66495. Candidate coverage passed with 5,229 samples and zero holes. Device Health PASS, original pose and s"
-    }
-   ]
-  },
-  {
    "n": 1191,
    "name": "Move the five effects that still draw before the world blur to after it",
    "done": "2026-11-15T20:34Z",
@@ -12987,25 +12967,22 @@
   {
    "n": 1697,
    "name": "Repair the optional Chat UI scene reference in the Mac StartupBatchTimingTests layer fixture. Keep the drawn-map admission",
-   "done": "",
+   "done": "2026-11-18T20:25Z",
    "goal": false,
    "under": 362,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T20:19Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-18T20:25Z",
+     "text": "Published a4449f979c. The inactive layer fixture now has an empty Chat UI scene reference."
+    }
+   ]
   },
   {
    "n": 1698,
@@ -13629,5 +13606,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "80659045599be04dbc92b7cca62975aadbc0ab7a"
+ "source_revision": "8f23a4959fd3338432a75e73f33e517a12353396"
 }
