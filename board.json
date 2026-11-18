@@ -2301,26 +2301,6 @@
    ]
   },
   {
-   "n": 1119,
-   "name": "Using Strong for session-only frame pacing comparison during fast pinches",
-   "done": "2026-11-15T12:24Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-15T12:23Z",
-     "text": "Strong completed 32 signed Dev 844 pinches under Normal and diagnostic fixed 30 FPS. Fixed 30 removed the measured IdleFrameCap wait but left the long post-release display gaps. Camera and Normal pacing restored. Measurements in CPU.md (02f"
-    }
-   ]
-  },
-  {
    "n": 1120,
    "name": "Using Strong for the signed Mask Pages before-and-after Android replay",
    "done": "2026-11-15T12:54Z",
@@ -13273,6 +13253,20 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1632,
+   "name": "Situation trail compatibility coverage is missing after legacy .trail import retirement (88e424d27409f249606a231fae1e4dee8abf13c7). Add disposable fixtures in Assets/_PROJECT/Tests/SituationTrailSpill",
+   "done": "",
+   "goal": false,
+   "under": 430,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -13861,5 +13855,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "70c154f4dc56a16e946eef772063a0a325e09afe"
+ "source_revision": "dbd0240d39aac76a3cfc7022b8085d22745c6fe8"
 }
