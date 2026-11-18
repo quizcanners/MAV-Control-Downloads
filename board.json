@@ -8626,16 +8626,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T14:03Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Route each depth point to mesh, terrain or splat by the SPEC rule",
@@ -8667,8 +8658,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-18T13:51Z",
-     "text": "97cc200667 on main clears new or recreated live ground atlases, repaints from retained frames, separates Origami padding, and clips uncovered terrain in colour, depth and normals. cmp.sh and Unity import clean; live Backdoor ground rendered"
+     "at": "2026-11-18T14:24Z",
+     "text": "e8e1066f85/083d19b728/c8a7338637 on main. The live terrain atlas rejects opaque fallback coverage and draw properties rebind each frame. Seven terrain tests passed. Backdoor refocus produced visible paint with zero invalid opaque samples. T"
     }
    ]
   },
@@ -13805,5 +13796,5 @@
    "since": "2026-11-18T13:00Z"
   }
  ],
- "source_revision": "9182db4abd299cdadcf6fd6a2333f58fff6e73a5"
+ "source_revision": "ed110f668df38300b0d7f10c51dd26a9df78837d"
 }
