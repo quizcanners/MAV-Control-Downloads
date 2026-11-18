@@ -12771,22 +12771,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T15:00Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-18T14:59Z",
-     "text": "Published 3d49d52bce. Photo tension capture plan uses per-view signed residuals and leave-one-out consensus. Replay with separate injected pose and depth errors comes first. Position switches and camera blend are live; unrelated source join"
+     "at": "2026-11-18T15:29Z",
+     "text": "6164fb392c and 08ba4e2b68 on main. Six Pano360 slots blended with fresher registered views. Windows passed 13/13 shader/terrain and the wire census check. Frame identity advances across repeat playback. Castle accepted a frame after the fir"
     }
    ]
   },
@@ -13699,5 +13690,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "6cf7fe71a638c6fe4fdfe67c21d755953e1cc1bc"
+ "source_revision": "77b2358b782cf855a4d6ef57970c08cb9849ff7d"
 }
