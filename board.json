@@ -1346,7 +1346,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_SHADER_COLOR",
+     "since": "2026-11-18T07:42Z",
+     "noted": "",
+     "progress": 22,
+     "ticked": 2,
+     "total": 9
+    }
+   ],
    "steps": [
     {
      "t": "Cloud, on main: startup cuts, Patch Preparation (32a9302f, 55dbede20d), hand-written heartbeat reader, skip sealing for nine hash types (build 818), 4 Hz crypto handshake only while a peer has no key,",
@@ -2212,26 +2221,6 @@
    ]
   },
   {
-   "n": 852,
-   "name": "Keep visible slow drone motion continuous in MapMotion instead of re-entering FrozenDouble between displacement reports (Bootstrap SPEC",
-   "done": "2026-11-15T07:32Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T07:32Z",
-     "text": "ee07fd0c43 adds per-drone translation tracking. Unity compiled and the regression held normal resolution at 0.2 px/frame and through reversal, stayed quiet for jitter and off-screen travel, woke on re-entry and settled on the third stationa"
-    }
-   ]
-  },
-  {
    "n": 854,
    "name": "Diagnose and fix the iPad crash reported through TestFlight on 2026-11-15. Awaiting the actual report",
    "done": "",
@@ -2248,43 +2237,6 @@
      "by": "CODEX_MAC_IPAD",
      "at": "2026-11-16T19:03Z",
      "text": "Apple now lists an iPad14,10 submission from 2026-11-16 06:20 UTC on build 840; it may be separate from the Nov 15 report. Both documented crashLog and crashLog relationship endpoints return HTTP 404. No stack or exception available; iPad i"
-    }
-   ]
-  },
-  {
-   "n": 863,
-   "name": "Round 3 split R7",
-   "done": "2026-11-15T07:29Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T06:47Z",
-    "2026-11-15T06:47Z",
-    "2026-11-15T06:47Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Skim the file and list its nested types with their fields",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done / Left line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud-nest-sync",
-     "at": "2026-11-15T06:42Z",
-     "text": "Done: packed page types in WebMercator_Sync_PackedPages.cs (RecordReader 2469 to 1839), Persistence/Renderer blocks merged to one each. Left: Persistence/Coarser blocks in other files. Compile unchecked."
     }
    ]
   },
@@ -19913,5 +19865,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "1994cf488088250a7ff5dcaf8134c36d3af5dcb7"
+ "source_revision": "21d3072c285b8bad87c9eddf258ec3d51c9d7781"
 }
