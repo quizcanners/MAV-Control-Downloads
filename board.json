@@ -2507,26 +2507,6 @@
    ]
   },
   {
-   "n": 1028,
-   "name": "Round 5 pins P3",
-   "done": "2026-11-15T09:23Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "Thread1028",
-     "at": "2026-11-15T09:23Z",
-     "text": "Pushed 703da96153: motorola_declared_author, search_name_pages, chat_native_admission hosts rebuilt, all run green on cloud. Also fixed three call sites the Names controller split left broken (Presentation.For, Presentation.IsCurrentNamePee"
-    }
-   ]
-  },
-  {
    "n": 1030,
    "name": "Round 6 group P1 masks",
    "done": "2026-11-15T09:44Z",
@@ -15562,25 +15542,22 @@
   {
    "n": 1601,
    "name": "Main View SPEC",
-   "done": "",
+   "done": "2026-11-18T09:25Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_SUGGESTIONS_GAP",
-     "since": "2026-11-18T09:17Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_SUGGESTIONS_GAP",
+     "at": "2026-11-18T09:25Z",
+     "text": "Published 7b5696e9a2. Removed the second vertical offset on the right Suggestions panel. On the build 859 prefab layout, Unity measured 306.33 UI units from the MGRS field to the tabs before and 25.47 after. Both action layouts and switchin"
+    }
+   ]
   }
  ],
  "verify": [
@@ -16169,5 +16146,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "8798c4c6f571a0ec395062120e2d097e483c9147"
+ "source_revision": "556563aed58c063352335b7ac40afcf17b8121a4"
 }
