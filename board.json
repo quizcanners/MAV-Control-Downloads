@@ -1389,8 +1389,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-18T20:03Z",
-     "text": "Lenovo Dev861 frame 8771 was 1253.623 ms with 1147.059 ms in graphics present wait. Frame 234 was separate, 1341.320 ms with 1118.883 ms in Android Power Policy. Retire repeated map reads as the explanation for those frames. CPU.md records "
+     "at": "2026-11-18T22:09Z",
+     "text": "Lenovo e7d573345e Dev861: frame19102 wall 1831.040ms, Gfx.WaitForPresentOnGfxThread 1702.643ms, native scheduler sleep 1704.690ms. First drag TryPoint 78.421ms with 47.857ms I/O wait; matched symbols identify on-CPU IL2CPP metadata init but"
     }
    ]
   },
@@ -9963,8 +9963,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-18T22:01Z",
-     "text": "Unity disposable identity: 5 Situation, 27 mask, 73 Geometry and 24 elevation entries passed. Elevation's first run exposed a stale reflection call in the fixture. 11774209a2 uses the actual Have/Cancel handlers and kept the custody asserti"
+     "at": "2026-11-18T22:09Z",
+     "text": "Current Dev861 e7d573345e: all 15 elevation files agree byte for byte on Strong and Lenovo. Both report admission-only responses. CPU.md records catalog digest and interactions. Native fixtures passed 129 entries after 11774209a2. Changed-g"
     }
    ]
   },
@@ -12947,25 +12947,22 @@
   {
    "n": 1707,
    "name": "Using Strong and Lenovo to compare the settled elevation catalog",
-   "done": "",
+   "done": "2026-11-18T22:09Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-18T22:04Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-18T22:09Z",
+     "text": "Dev 861 e7d573345e: all 15 settled elevation files matched SHA-256 on Strong and Lenovo with stable inventory. Natural reports showed admission only. Same-process Lenovo traces identified on-CPU TryPoint metadata and a separate graphics pre"
+    }
+   ]
   }
  ],
  "verify": [
@@ -13566,5 +13563,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "fedc8d94fac969620d87acb0efeba46793e8a709"
+ "source_revision": "d40b22ed8dd9f36bcee0704ee65b0535c71945e4"
 }
