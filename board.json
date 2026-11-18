@@ -2215,26 +2215,6 @@
    ]
   },
   {
-   "n": 772,
-   "name": "Fix Metal half/full target retention when full scale uses the back buffer (Bootstrap SPEC",
-   "done": "2026-11-15T01:25Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-15T01:25Z",
-     "text": "Published c654cd6cd8: Metal uses stable hardware-scaled targets and both depth storage keys. Native half/full probe created zero camera textures across 20 measured switches; MapRenderModeTests 27/27, Unity import clean, Roslyn NEW ERRORS: n"
-    }
-   ]
-  },
-  {
    "n": 775,
    "name": "using Strong for Dev 842 idle memory",
    "done": "2026-11-15T01:34Z",
@@ -20478,16 +20458,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T01:02Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -20497,8 +20468,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-18T00:58Z",
-     "text": "Published f2ebeae7d7: GPU overlap thresholds, trimmed Horn fit and accepted history; 39 Windows controls pass, 12/12 same-input Kenilworth/Zurich decisions match CPU. GPU-only live Save/reopen retains canonical cells, five original photos a"
+     "at": "2026-11-18T01:26Z",
+     "text": "Published c0e7a276c7: native canonical publication now transfers changed GPU cells into a fixed source cache; retry retains its immutable batch and later dirty evidence. Windows controls, live Kenilworth publication, exact GPU/SQLite/SVMB s"
     }
    ]
   },
@@ -22689,5 +22660,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "f0b6dae824b70003771ead8eb476f231a89c6aa8"
+ "source_revision": "666abede82a0fc888bb0cd55a0133f5f030c91c8"
 }
