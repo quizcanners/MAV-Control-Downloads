@@ -20498,16 +20498,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-17T23:59Z",
-     "noted": "2026-11-18T00:41Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -20517,8 +20508,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-18T00:41Z",
-     "text": "GPU overlap filtering, trimmed Horn fit and retained history now pass 8 controls plus 10 archive controls. Same-input Kenilworth/Zurich: 12/12 decisions match CPU, camera delta <=1.06e-6 model units. Native GPU-only capture reached 40 frame"
+     "at": "2026-11-18T00:58Z",
+     "text": "Published f2ebeae7d7: GPU overlap thresholds, trimmed Horn fit and accepted history; 39 Windows controls pass, 12/12 same-input Kenilworth/Zurich decisions match CPU. GPU-only live Save/reopen retains canonical cells, five original photos a"
     }
    ]
   },
@@ -22700,5 +22691,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "be2f0442c2c43930bbc7e05fedf38f6867aad2e3"
+ "source_revision": "bb604334905a8f569f9531e8a5588113fe994b55"
 }
