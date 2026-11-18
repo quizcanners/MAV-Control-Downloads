@@ -8887,7 +8887,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-18T11:41Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Pair LocalDji FramePose to Unity frames in the DJI clock domain and feed DJI east, north and heading per frame",
@@ -13802,5 +13811,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "5e929997d00c59af21130794401ef643252b06cb"
+ "source_revision": "a41d217fb9efe75ca074632fdc6d4804497c96af"
 }
