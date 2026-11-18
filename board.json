@@ -2177,31 +2177,6 @@
    ]
   },
   {
-   "n": 1179,
-   "name": "Refactor",
-   "done": "2026-11-15T18:59Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD",
-     "at": "2026-11-15T18:46Z",
-     "text": "Selection taps now return SelectionTap; 10 callers moved; not compiled (cmp.sh running). Need for verify: compile."
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-15T18:59Z",
-     "text": "Rog verified 7ce359b8f6. Unity initially found CS1620 in WayPointListSelectionTests, fixed on main in efdc06d763. Published d774817e28 to rebind Situation pointing tests after the Base Map Pointing, Camera Spinning and SuggestionTabs moves."
-    }
-   ]
-  },
-  {
    "n": 1181,
    "name": "Using Strong to join the first applied pinch pose to Planet Renderer frames",
    "done": "2026-11-15T19:12Z",
@@ -13076,6 +13051,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1689,
+   "name": "Video Processing",
+   "done": "",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-18T18:59Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -13676,5 +13674,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "d339445626891ceffafd924a58bd9a647fefcbb4"
+ "source_revision": "5c1cc97971c9609e2ff43a57e6c0fe3b25948d11"
 }
