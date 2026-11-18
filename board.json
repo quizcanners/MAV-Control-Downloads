@@ -11198,29 +11198,25 @@
   {
    "n": 1565,
    "name": "Main view shutdown",
-   "done": "",
+   "done": "2026-11-18T15:38Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T15:34Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
      "at": "2026-11-18T05:11Z",
      "text": "Fresh isolated Kenilworth capture/Save/cold-reopen with native layer work still logs the existing Landscape Search reparent-on-destroy error at UI_BottomLeftRow.Detach:116 during Play exit. No new reconstruction error. Current receipt: C:/M"
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-18T15:38Z",
+     "text": "465a2ffc04 on main. Telemetry teardown and app quit retire borrowed controls without reparenting into the dying view. Normal detach restores controls. BottomLeftRowTests covers both paths. Unity compile, Roslyn and guide checks passed on th"
     }
    ]
   },
@@ -13696,5 +13692,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "e2f6befadeda3c17f9051588c709ad91f94c0215"
+ "source_revision": "641bf9798096be2bde10a725d78869b1d24b18ab"
 }
