@@ -8887,16 +8887,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T11:09Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Pair LocalDji FramePose to Unity frames in the DJI clock domain and feed DJI east, north and heading per frame",
@@ -8911,7 +8902,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-18T11:37Z",
+     "text": "c87169d4ef enables selected DJI 3D generation in Unity. Windows Editor over WireGuard drew 4,814 preview points after 360 live frames. The local 448\u00d7336 model fits the GPU buffer limit and keeps 4:3. Preview uses the first DJI video pose. P"
+    }
+   ]
   },
   {
    "n": 1418,
@@ -13791,5 +13788,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "a1d861fe00ac318f6533efbbdacc88d6b3c0039b"
+ "source_revision": "d3204c5ed0e38800c17d35db00687ccd74e251eb"
 }
