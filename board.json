@@ -17970,25 +17970,22 @@
   {
    "n": 1592,
    "name": "List row context drag",
-   "done": "",
+   "done": "2026-11-18T08:24Z",
    "goal": false,
    "under": 408,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_LIST_DRAG",
-     "since": "2026-11-18T07:59Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_LIST_DRAG",
+     "at": "2026-11-18T08:24Z",
+     "text": "7c9a656445 on main. Shared contextual rows lift at +20 px and return at -10 during the same press. 33 list cases passed in the Mac Editor, including the real Street View photo prefab with mouse and simulated touch; all 15,184 sampled interi"
+    }
+   ]
   },
   {
    "n": 1593,
@@ -18598,5 +18595,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "e5b2bbd594e6741aa631efa0f1da05f57bd7d323"
+ "source_revision": "643a100db9ca6ab26546afff30a61d4b8a225d18"
 }
