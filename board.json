@@ -1530,7 +1530,7 @@
   },
   {
    "n": 479,
-   "name": "Situation entities are one seamless instanced set: every entity and merged group is its own ECS element at its exact position, the GPU sizes it while the map zooms, a 3D model never turns into a paint",
+   "name": "Situation entities are one seamless instanced set: every entity and merged group is its own ECS element at its exact position, the GPU sizes it while the map zooms, a 3D model becomes its flat icon at",
    "done": "",
    "goal": true,
    "under": 0,
@@ -1561,7 +1561,7 @@
      "x": false
     },
     {
-     "t": "Cloud (if quiz wants it): icon fallback above the 100 km cutoff; model body hits from altitude-hidden models (REVIEW CR-A449-01, Reviews/3cdc97366.md); 9th Layers tile at 4:3 loses 19 units at the edg",
+     "t": "Cloud: model body hits from altitude-hidden models (REVIEW CR-A449-01, Reviews/3cdc97366.md); 9th Layers tile at 4:3 loses 19 units at the edges with Debug Mode on (no paging, no scaling); Anchors cou",
      "x": false
     }
    ],
@@ -2209,26 +2209,6 @@
      "by": "CLOUD_META",
      "at": "2026-11-16T11:27Z",
      "text": "empty test job"
-    }
-   ]
-  },
-  {
-   "n": 1127,
-   "name": "Replace the SetObscure(onObscured) and RequestUpdate(onFirstRendered",
-   "done": "2026-11-15T14:17Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T14:17Z",
-     "text": "Published 13a3ed0c8e. Bootstrap polls capture requests and Screen Blur publishes readiness; app sharing reads the pose of the copied frame. The three Screen Blur scripts now compile with Prublyda and retain their script GUIDs. Rog Unity com"
     }
    ]
   },
@@ -11394,7 +11374,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-18T14:17Z",
+     "noted": "",
+     "progress": 75,
+     "ticked": 3,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Elements masks use lazy cached hashes, efficient dirty propagation and likely-complete download groups.",
@@ -13762,5 +13751,5 @@
    "since": "2026-11-18T13:00Z"
   }
  ],
- "source_revision": "6df143cd70b4007746887b9038c0ed84527ed209"
+ "source_revision": "f7a71cdb2d7a60657e2e6012ff7fd09f168abd1e"
 }
