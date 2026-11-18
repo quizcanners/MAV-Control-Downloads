@@ -12973,25 +12973,22 @@
   {
    "n": 1703,
    "name": "Using Lenovo to correlate touch-drag TryPoint and Rendering with the Android scheduler",
-   "done": "",
+   "done": "2026-11-18T21:11Z",
    "goal": false,
    "under": 429,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-18T21:07Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-18T21:11Z",
+     "text": "Dev 861 touch trace aligned Frame 43715 with the Android scheduler. Both TryPoint and MainCamera spent most of the measured span in kernel-reported I/O wait. The only main-thread TryPoint unwind reached stripped IL2CPP, so call and file att"
+    }
+   ]
   },
   {
    "n": 1704,
@@ -13623,5 +13620,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "8c95396298b5f2a04b58ce2724822003f9ca5e48"
+ "source_revision": "dcb9ca2c1cf2a82c6b5f0dc3dacb69ed5bb02fdf"
 }
