@@ -2538,68 +2538,6 @@
    "notes": []
   },
   {
-   "n": 1033,
-   "name": "Round 6 group P4 diagnostics and inspector",
-   "done": "2026-11-15T09:40Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T09:40Z",
-    "2026-11-15T09:40Z",
-    "2026-11-15T09:40Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 1034,
-   "name": "Round 6 group P5 branch and patch decisions",
-   "done": "2026-11-15T09:42Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T09:41Z",
-    "2026-11-15T09:41Z",
-    "2026-11-15T09:42Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 1035,
    "name": "Round 6 group P6 session state and presentation",
    "done": "2026-11-15T09:59Z",
@@ -3146,99 +3084,6 @@
    "notes": []
   },
   {
-   "n": 1056,
-   "name": "Round 6 split X3",
-   "done": "2026-11-15T09:41Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T09:39Z",
-    "2026-11-15T09:40Z",
-    "2026-11-15T09:41Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 1058,
-   "name": "Round 6 split X5",
-   "done": "2026-11-15T09:42Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T09:41Z",
-    "2026-11-15T09:41Z",
-    "2026-11-15T09:42Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 1059,
-   "name": "Round 6 split X6",
-   "done": "2026-11-15T09:42Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T09:42Z",
-    "2026-11-15T09:42Z",
-    "2026-11-15T09:42Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 1060,
    "name": "Round 6 split X7",
    "done": "2026-11-15T09:47Z",
@@ -3316,37 +3161,6 @@
     "2026-11-15T09:45Z",
     "2026-11-15T09:45Z",
     "2026-11-15T09:45Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run cs_outline and list every concern",
-     "x": true
-    },
-    {
-     "t": "Move one concern per commit into a nested controller that owns its fields",
-     "x": true
-    },
-    {
-     "t": "Add a Done line to Coordination/Refactoring/nested-controllers.md",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 1063,
-   "name": "Round 6 split X10",
-   "done": "2026-11-15T09:43Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-15T09:43Z",
-    "2026-11-15T09:43Z",
-    "2026-11-15T09:43Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -13341,7 +13155,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-18T09:43Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -15974,5 +15797,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "5b915d2649a32cbe9c2dddb968a3edf1b7da0d8f"
+ "source_revision": "d9688808170efc3d7ba9354416d27a9dfa16eb96"
 }
