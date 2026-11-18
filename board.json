@@ -2238,46 +2238,6 @@
    ]
   },
   {
-   "n": 1207,
-   "name": "Restore Orthophoto Bake State and GeoTIFF Bake Failure fixture bindings to the current storage",
-   "done": "2026-11-15T22:20Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T22:19Z",
-     "text": "c2a642dbf6 restores Orthophoto and GeoTIFF bake fixture bindings. Prepared Windows All: OrthophotoBakeStateTests 58/58 and GeoTiffBakeFailureTests 18/18, clearing 17 failures. All: 7,926 passed, 113 failed, 10 skipped. Screen results publis"
-    }
-   ]
-  },
-  {
-   "n": 1208,
-   "name": "Restore the Windows VideoDrawingCompositionTests bindings to the current video presentation",
-   "done": "2026-11-15T22:20Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T22:20Z",
-     "text": "f23b4a7b0a binds fullscreen material, Pilot near-home inset and Pilot video fit to their current owners. Rog reproduced three failing test entries, then passed all 32 VideoDrawingCompositionTests with the original binding, source-identity a"
-    }
-   ]
-  },
-  {
    "n": 1209,
    "name": "Restore Planet Renderer Context Lighting",
    "done": "2026-11-17T16:08Z",
@@ -9914,8 +9874,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-18T22:15Z",
-     "text": "Dev 861 e7d573345e still has 15 SHA-256-matched elevation files on both tablets. No supported Android-only paired fixture found: the existing isolated MapOnly profile is Editor-only and omits VPN. A non-mutating viewport spot check found no"
+     "at": "2026-11-18T22:30Z",
+     "text": "Situation parent folds reuse clean child contributions on 211196a8bb with mutable MGRS/zoom/hash validation. Host dirty/group/rollback and contribution controls pass. Dev861 e7d573345e tablets still have all 15 elevation files matching. Cha"
     }
    ]
   },
@@ -12941,25 +12901,22 @@
   {
    "n": 1709,
    "name": "Cache Situation branch identity contributions with each settled hash",
-   "done": "",
+   "done": "2026-11-18T22:30Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-18T22:18Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-18T22:30Z",
+     "text": "211196a8bb reuses each Situation child contribution if the current formatted MGRS, zoom and published hash agree. The branch keeps the previous wire encoding. The host control rehashed only the changed child; stale address and hash falsifie"
+    }
+   ]
   }
  ],
  "verify": [
@@ -13560,5 +13517,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "f4537e83d4a10351be5a0b164e4760b26001653d"
+ "source_revision": "32ed049625c16bfe70a1e1544e3c3fd919dd08a0"
 }
