@@ -17990,25 +17990,22 @@
   {
    "n": 1593,
    "name": "Street View folders",
-   "done": "",
+   "done": "2026-11-18T08:24Z",
    "goal": false,
    "under": 408,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_STREET_FOLDERS",
-     "since": "2026-11-18T08:00Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_STREET_FOLDERS",
+     "at": "2026-11-18T08:24Z",
+     "text": "c3b947e839 on main. Delete/clear updates the edited subtree and keeps sibling folders, the current list mode and unrelated scan jobs. The contained branch falls back to its parent after Delete or stays open after Clear. Ten Mac Editor folde"
+    }
+   ]
   },
   {
    "n": 1594,
@@ -18595,5 +18592,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "643a100db9ca6ab26546afff30a61d4b8a225d18"
+ "source_revision": "814dbea825c82b3947c514a5903879a115d743e9"
 }
