@@ -12385,7 +12385,7 @@
   {
    "n": 1630,
    "name": "Notification island shadow",
-   "done": "",
+   "done": "2026-11-18T15:57Z",
    "goal": false,
    "under": 0,
    "ticks": [
@@ -12394,23 +12394,20 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T15:49Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 1,
-     "total": 1
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Cloud: compare each card's shadow image (size 1.47 of its card, UI Button Shadow Notification) with its neighbours' at the joins; fix the one place that makes a join differ (open sides, image scale, t",
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-18T15:57Z",
+     "text": "8b80180ede on main. Audited 19 cards and matched the extension to 1.47. Shared-width fade gives one silhouette. Unity Prefab Edit and Roslyn passed. Metal control, 640-wide with 4 unequal segments: maximum side step across 3 joins fell 0.55"
+    }
+   ]
   },
   {
    "n": 1631,
@@ -13649,5 +13646,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "1e941c17262f40a8ae03daac45581b72b2d8ff9b"
+ "source_revision": "028d2d1d83cb0b7ace41b98958e17a7daf9dca36"
 }
