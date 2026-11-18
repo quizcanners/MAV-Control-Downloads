@@ -10576,18 +10576,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T16:30Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-18T16:46Z",
+     "text": "Paused for top-priority startup Telemetry. Local stash MAC_BOARD task 1550 preserves tested cold My Data/MavChat changes. Mac Play: My Data usable on first open-intent frame, portrait Chat by next frame, both prefabs and prewarm paths check"
+    }
+   ]
   },
   {
    "n": 1551,
@@ -13521,5 +13518,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "ae05d13364f8d67f4523faeb478a67ffdfd23b3a"
+ "source_revision": "7ede90d8ff9376497e4a0d98d1f7499216124084"
 }
