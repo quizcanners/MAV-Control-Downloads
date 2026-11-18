@@ -5330,7 +5330,7 @@
   {
    "n": 1253,
    "name": "Situation marker EditMode",
-   "done": "",
+   "done": "2026-11-18T11:19Z",
    "goal": false,
    "under": 369,
    "ticks": [],
@@ -5344,6 +5344,11 @@
      "by": "ROG",
      "at": "2026-11-16T01:44Z",
      "text": "Rog replayed all nine preceding suites at 2103e8a50e: 201/201 and isolated marker 1/1. Published df67762d7f: keep exact equality, report the first differing pixel at float round-trip precision. Unity recompiled, Situation 9/9, adjacent floa"
+    },
+    {
+     "by": "board2",
+     "at": "2026-11-18T11:19Z",
+     "text": "Closed: the exact assertion is kept and now reports the first differing pixel (df67762d7f); two full replays did not reproduce the mismatch and nothing is left to fix. A new failure will carry its channels and graphics API and gets a new ta"
     }
    ]
   },
@@ -13726,5 +13731,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "dfa2cf98252c0c7de434f058e188359715936ab2"
+ "source_revision": "82c8eb7c60ae2c92a4bc41a3636a61c6c9a64d0a"
 }
