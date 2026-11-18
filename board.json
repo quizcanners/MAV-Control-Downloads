@@ -2271,26 +2271,6 @@
    ]
   },
   {
-   "n": 1130,
-   "name": "Replace the FullScreen.ApplyResolutionCo transition coroutine and the Drag And Drop overlay OnClick/OnFinalize actions with a state machine polled each frame. quiz",
-   "done": "2026-11-15T14:01Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T14:01Z",
-     "text": "Published 94deac117a. Bootstrap polls fullscreen mode, resolution and placement stages, and holds the context picker choice for the overlay to validate and apply. Stage 2 rows now hold typed operations. Rog Unity compiled. Existing fullscre"
-    }
-   ]
-  },
-  {
    "n": 1135,
    "name": "Using Strong for the signed fast-zoom batch with Index Compaction",
    "done": "2026-11-15T14:34Z",
@@ -13149,25 +13129,22 @@
   {
    "n": 1647,
    "name": "Match the unfolded Active Tasks disclosure icon to the collapsed chevron (Menu SPEC",
-   "done": "",
+   "done": "2026-11-18T14:01Z",
    "goal": false,
    "under": 412,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_TASK_CHEVRON",
-     "since": "2026-11-18T13:58Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_TASK_CHEVRON",
+     "at": "2026-11-18T14:01Z",
+     "text": "Published ec0f1249d8 on main. Shared Inspector FoldedOut uses the Enter chevron rotated down, with matching mipmaps and sprite bounds. Compared all 16,384 alpha values to the rotated source, all identical. Guide check zero errors. Phone app"
+    }
+   ]
   }
  ],
  "verify": [
@@ -13760,5 +13737,5 @@
    "since": "2026-11-18T13:00Z"
   }
  ],
- "source_revision": "7931913544d71cdfebc578f77c95895d104d4fca"
+ "source_revision": "ccb575bffaa140fb79b59fd8916dd2635aaddb83"
 }
