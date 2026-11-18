@@ -13162,7 +13162,7 @@
   },
   {
    "n": 1651,
-   "name": "3D map generation code layout (placeholder)",
+   "name": "3D map generation (Development) is not up to spec in code layout",
    "done": "",
    "goal": false,
    "under": 0,
@@ -13171,7 +13171,24 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "PASIKA: split VideoProcessing_RtxContinuous.cs (1048 lines, 38 methods) by responsibility (capture, window hand-off, publish, Save); files it may touch: RtxContinuous.cs, RtxContinuousGeometry.cs, Rtx",
+     "x": false
+    },
+    {
+     "t": "PASIKA: put the Python reference behind one seam (PythonCanonicalCapture plus the python branches in the other seven files), so it can be archived later without touching the Unity path; no new Python ",
+     "x": false
+    },
+    {
+     "t": "PASIKA: name the pipeline for what it is: the Rtx* prefix (the old RTX worker) becomes the 3D map generation owner's name, one rename group, Roslyn rename tool (Tools/RoslynCompileDiff); update SPEC/A",
+     "x": false
+    },
+    {
+     "t": "PASIKA: read UnityDa3Mesh.cs (425), Registration.cs (436), Save.cs (391), Window.cs (373) for per-frame allocations and unneeded copies on the live path; cut what reading shows (REFACTORING.md, Perfor",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
@@ -13765,5 +13782,5 @@
    "since": "2026-11-18T13:00Z"
   }
  ],
- "source_revision": "d5c1a2a4c9c53e17a7234c497e47db1ade2748a3"
+ "source_revision": "3f431ef6691ffd13526f665b493e4214267bc7e6"
 }
