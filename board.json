@@ -2172,26 +2172,6 @@
    ]
   },
   {
-   "n": 1150,
-   "name": "Repair stale PerformanceInstrumentationTests bindings after the FrameBudget capture controller split. Preserve stage",
-   "done": "2026-11-15T15:41Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T15:41Z",
-     "text": "Published fae3b92c16. Restored stage, ledger, receiver, frame-part, allocation and report bindings with the same assertions. Native Editor recompile and 12 focused fixture method invocations passed. Normal NUnit setup requires a disposable "
-    }
-   ]
-  },
-  {
    "n": 1151,
    "name": "Settings",
    "done": "2026-11-15T16:04Z",
@@ -12352,7 +12332,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-18T15:41Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -13698,5 +13687,5 @@
    "since": "2026-11-18T14:55Z"
   }
  ],
- "source_revision": "2ea538783569f97a4db76c9486940efffd193f02"
+ "source_revision": "3ea31954f893274b3a14c1680407913adf3a768a"
 }
