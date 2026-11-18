@@ -4438,16 +4438,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T23:15Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4462,8 +4453,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-18T22:57Z",
-     "text": "Resumed, then yielded to the operator\u2019s map-render audit. Prior Mac capture: one KSP touch reached Screen Center down/up with no click, and 68 later KSP/MavChat touches passed. The first drop is before tab intent. Trace click eligibility in"
+     "at": "2026-11-18T23:22Z",
+     "text": "Mac selected the saved lock itself and checked both flags before every touch. Six native EventSystem trials: four taps switched, two holds over 0.3 s correctly timed out. A 0.207 s tap routed after 0.410 s still switched from 8 FPS. The ear"
     }
    ]
   },
@@ -13403,5 +13394,5 @@
    "since": "2026-11-18T17:50Z"
   }
  ],
- "source_revision": "5981026d2d58d444d91fb76371638302b1ccb4e2"
+ "source_revision": "5bdfe86dd52688d94573b922cc96f632bfd38d5e"
 }
