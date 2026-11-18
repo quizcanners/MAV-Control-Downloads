@@ -2273,26 +2273,6 @@
    ]
   },
   {
-   "n": 1139,
-   "name": "Restore Crosshair suggestion regression checks after the Station.UI Popups controller split (Main View SPEC",
-   "done": "2026-11-15T14:27Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T14:27Z",
-     "text": "Published ecb3681286. Restored the SearchQuerySuggestion fixture to the current Popups and SuggestionTabs owners. Rog Unity 6000.6.8f1 refreshed without script errors; 17 focused test methods and case groups passed, including the lone selec"
-    }
-   ]
-  },
-  {
    "n": 1140,
    "name": "Bound ECS Text label-slot lookup (ECS SPEC",
    "done": "2026-11-15T15:04Z",
@@ -8357,7 +8337,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-18T14:27Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Pair LocalDji FramePose to Unity frames in the DJI clock domain and feed DJI east, north and heading per frame",
@@ -13790,5 +13779,5 @@
    "since": "2026-11-18T13:00Z"
   }
  ],
- "source_revision": "e5792daad822b9ad11ef28c5abec369dbde40b4e"
+ "source_revision": "bb47fbf526e828bc4b94d06de3c3ae8fda430ad4"
 }
