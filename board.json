@@ -2182,26 +2182,6 @@
    ]
   },
   {
-   "n": 792,
-   "name": "Remote Sensors rendering repeats a selected-list scan for every marker",
-   "done": "2026-11-15T05:19Z",
-   "goal": false,
-   "under": 572,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-15T05:19Z",
-     "text": "Published 05e2cc0a93: renderer uses the existing MultiselectState membership owner, removing repeated selected-list scans and stale selection after another source takes focus. No second cache. Native RemoteSenseApiProtocolTests 21/21; sourc"
-    }
-   ]
-  },
-  {
    "n": 793,
    "name": "Keep the retained map and Liquid Glass steady when the mouse only hovers over UI; refresh for visible map pointing or a real light change (Bootstrap and Blurred World SPEC)",
    "done": "2026-11-15T06:47Z",
@@ -2223,26 +2203,6 @@
      "by": "CODEX_GRAPHICS",
      "at": "2026-11-15T06:39Z",
      "text": "Published 97a22405fb via 49c36c0b9b: removed ten-second redraws from celestial direction drift and redundant sky rebinding. Mac Metal: three Sun ticks caused zero captures; scene revision and brightness changes each caused one. Native light"
-    }
-   ]
-  },
-  {
-   "n": 794,
-   "name": "Search swallows Ctrl+V when the focused field receives a website that replaces equal or longer text. Route the Windows Search shortcut through the shared clipboard request (Search SPEC",
-   "done": "2026-11-15T05:16Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY_PASTE",
-     "at": "2026-11-15T05:16Z",
-     "text": "7c9295adc5 sends Ctrl+V in focused normal Search through shared Paste. Windows Play verified the exact keyboard route with shorter and identical drafts. The existing bitmap clipboard was preserved, so this run checked admission rather than "
     }
    ]
   },
@@ -2297,66 +2257,6 @@
    ]
   },
   {
-   "n": 797,
-   "name": "Brighten the zoomed-out Planet night-side light modestly while retaining its blue hue",
-   "done": "2026-11-15T05:18Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-15T05:18Z",
-     "text": "Published 69ee585cb9: orbital night terrain fill is 25% brighter with the same blue hue; no extra shader operations or samples. Ground Night, city lights and glints unchanged. Native Planet lighting tests 29/29; matched before/after globe r"
-    }
-   ]
-  },
-  {
-   "n": 798,
-   "name": "Keep MavChat camera centered and north-up through the map-to-globe zoom transition in Portrait (Camera and Navigator SPEC)",
-   "done": "2026-11-15T05:17Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY_ORBIT",
-     "at": "2026-11-15T05:17Z",
-     "text": "8a18cee63f fixes MavChat Portrait local North-up basis and map-center correction. Windows replay from 550 km to 2,274 km dropped local twist 5.891 to 0.000 degrees and inset pinch correction error 166.219 to 0.083 px. Roslyn clean. iPhone o"
-    }
-   ]
-  },
-  {
-   "n": 799,
-   "name": "Keep the complete MavChat divider capsules above the background plaque",
-   "done": "2026-11-15T05:17Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-15T05:16Z",
-     "text": "Published adcd8de85a: complete divider draws and takes touches above plaque, content and MGRS. Direct cause: Unity ignored sortingOrder before overrideSorting was enabled, leaving order 0. Deeper fix: prefab owns Canvas/raycaster/hit refere"
-    }
-   ]
-  },
-  {
    "n": 800,
    "name": "using Strong for Dev 844 pinch stutter and idle memory diagnostics",
    "done": "2026-11-15T05:37Z",
@@ -2373,51 +2273,6 @@
      "by": "GETAC",
      "at": "2026-11-15T05:36Z",
      "text": "Strong Dev 844 completed the pinch and settled-map measurements. Original camera pose, Sharp still frame and Half-resolution controls verified after restore. Native capture files and ADB forwards cleared from the tablet. Evidence on main in"
-    }
-   ]
-  },
-  {
-   "n": 801,
-   "name": "Ukraine Borders flicker on and off",
-   "done": "2026-11-15T05:18Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_BORDER_FLICKER",
-     "at": "2026-11-15T05:16Z",
-     "text": "Zoom also vanished borders/DeepState: CanPublishRibbon now ignores ground source revision too (previous mesh stays). Need for verify: zoom in/out with Borders and DeepState on, lines never blink."
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-15T05:18Z",
-     "text": "e2bb7db5c3 is on origin/main. Rog Play exercised the real ribbon publication predicate: current and old terrain revisions draw on the same map source, while an old source or detached anchor stays hidden. 7b1485629e queues Ukraine Borders an"
-    }
-   ]
-  },
-  {
-   "n": 802,
-   "name": "Vehicle heading",
-   "done": "2026-11-15T05:18Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_STYLE",
-     "at": "2026-11-15T05:19Z",
-     "text": "Done: 8eaeea5cf0 on remote main. Long low tapered hood, rearward cabin, tall blunt rear; FBX/blend/48px+512px previews rebuilt. Same Vehicle mesh, 90 triangles, bounds and shadow box; flat R/G/B masks verified by FBX re-import. Cause: simil"
     }
    ]
   },
@@ -21851,6 +21706,20 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1589,
+   "name": "Remove the small-message receiver stall seen on Lenovo 6a6fe6c16b Dev859",
+   "done": "",
+   "goal": false,
+   "under": 429,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -22423,5 +22292,5 @@
    "since": "2026-11-17T19:21Z"
   }
  ],
- "source_revision": "a16a5cc56cc4ad6466983bee391aa9def3259e92"
+ "source_revision": "a17cfdb6097ae0bcb7486f1628217f98e42606d5"
 }
