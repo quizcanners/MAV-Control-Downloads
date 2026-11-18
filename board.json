@@ -1600,12 +1600,8 @@
    "held": [],
    "steps": [
     {
-     "t": "CR-A030-01 applied in Station_InputDevices_Stylus.cs (CLOUD_THREAD, uncompiled): on Android a Pen with tip down under a finger counts as that finger's copy until a non-zero tilt proves a stylus; Stylu",
+     "t": "CR-A030-01 on main and compiled: on Android a Pen with tip down under a finger counts as that finger's copy until a non-zero tilt proves a stylus; Stylus inspector shows finger count, tilt-proven flag",
      "x": true
-    },
-    {
-     "t": "Cloud: compile the CR-A030-01 change (cmp.sh); finding awaits quiz (Reviews/d7a09d246.md#cr-a030-01--p2-duplicate-finger-as-pen-devices-lose-ordinary-touch-navigation)",
-     "x": false
     },
     {
      "t": "Mac or Rog with the iPad on the cable (four batches found it off the cable, devicectl unavailable): build to the iPad, two-hand Pencil pass, set the 40 px pick radius if a finger counts as the Pencil ",
@@ -1616,13 +1612,7 @@
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T03:16Z",
-     "text": "1d59ebbf84 scopes tilt proof and matched touch to their Pen device. Windows native Input System probe passed two virtual Pens switching and removal. Current cmp.sh NEW ERRORS none, including Android defines."
-    }
-   ]
+   "notes": []
   },
   {
    "n": 543,
@@ -14727,5 +14717,5 @@
    "since": "2026-11-18T09:17Z"
   }
  ],
- "source_revision": "cfe2783910fdb973963be65374022c95923f6e0b"
+ "source_revision": "b67adb74f310a9e2e56a50716d394b581e3c759a"
 }
