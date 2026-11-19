@@ -11234,16 +11234,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T04:56Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -11270,8 +11261,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T04:55Z",
-     "text": "441360a84a adds a native replay with the same GPU matches and fourth reserved photo for three reference selectors. In 285 paired Kenilworth cases, recent/spacing/coverage accepted 3/2/0, with 79/107/73 weak fits. A lower reserved reprojecti"
+     "at": "2026-11-19T05:08Z",
+     "text": "67ed538ff1 scores native Unity photo revisions against fixed RGB-D camera tracks without using sensor poses in the solver. Of 675 scored cases, 92 passed image checks and 5 improved both centre and angle. Median centre error rose 2.1\u20132.6 mm"
     }
    ]
   },
@@ -12487,5 +12478,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "bfe03d12c0e6b3415b83e5d2101c865e56e0a0c2"
+ "source_revision": "ef2ed7301dce0700ab844ae71045ad8968acac04"
 }
