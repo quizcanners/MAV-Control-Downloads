@@ -2282,26 +2282,6 @@
    ]
   },
   {
-   "n": 1289,
-   "name": "Add a RAM-only Visual Odometry experiment in Telemetry Video Processing. Track sparse video points and preview motion on a positioned Synthetic drone or Street View.",
-   "done": "2026-11-16T06:12Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-16T06:12Z",
-     "text": "4d47ca4e2d adds RAM-only sparse Visual Odometry to Telemetry Video Processing, Street View projection and Synthetic drone Pilot View. Roslyn clean, 6 controlled checks passed; HighwayDrive replay fit 39/39 pairs, 32.2 points/fit, 1.95 ms p9"
-    }
-   ]
-  },
-  {
    "n": 1292,
    "name": "Stop the Direct USB GeoTIFF and Android Wi-Fi host checks from retaining disposable compiler outputs. Keep the small receipts",
    "done": "2026-11-16T06:14Z",
@@ -11736,7 +11716,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-19T06:12Z",
+     "noted": "",
+     "progress": 33,
+     "ticked": 1,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Resolve Positioned ownership and register the specification",
@@ -12421,5 +12410,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "862d50604050b754f56058033e9c20b29d60a4fb"
+ "source_revision": "39e703045cf2a1bc6bd78a2f73bef595b19f8b9a"
 }
