@@ -5121,25 +5121,22 @@
   {
    "n": 1820,
    "name": "Getac build storage",
-   "done": "",
+   "done": "2026-11-19T23:29Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-19T23:11Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-19T23:29Z",
+     "text": "Getac C rose from 13.39 to 25.29 GiB free through in-place compression of known build intermediates and selected symbols. Verified terminal DLL/PDB copies and sampled compressed files by SHA-256. APKs, receipts and all device data preserved"
+    }
+   ]
   },
   {
    "n": 1821,
@@ -5817,5 +5814,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "855dac1d203c5104eaf723ef7c8bfe267717c914"
+ "source_revision": "9246f521bd05a6488a8b01e741da7193aa24746a"
 }
