@@ -5736,8 +5736,8 @@
     {
      "who": "GETAC",
      "since": "2026-11-19T13:16Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-19T13:18Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -5746,8 +5746,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-19T12:53Z",
-     "text": "c3ded332ea is on main via ad14987e0a. Outgoing Web Mercator replies now reuse existing per-peer send slots, with the wire payload encoded before slot reuse. Native HashBatch 5/5 and FinestTiles 280/280, Roslyn no new errors and the host cod"
+     "at": "2026-11-19T13:18Z",
+     "text": "Reply-slot reuse is on main via ad14987e0a; the containing Android build is live in IL2CPP. Staged the next measured change outside the pinned checkout: reuse the existing coordinate only when X/Y/Z match, preserving validation, page touch "
     }
    ]
   },
