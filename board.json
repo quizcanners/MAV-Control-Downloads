@@ -11831,25 +11831,22 @@
   {
    "n": 1768,
    "name": "Main View and Notifications SPEC",
-   "done": "",
+   "done": "2026-11-19T09:43Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T09:23Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T09:43Z",
+     "text": "e85defd9a7. Map lock uses the ordinary hint at y=1/3. Landscape Play kept folded Notifications visible, refused opening while locked and opened after unlock. NotificationTongueDragTests 11 passed and localization check passed."
+    }
+   ]
   },
   {
    "n": 1769,
@@ -12478,5 +12475,5 @@
    "since": "2026-11-19T07:26Z"
   }
  ],
- "source_revision": "336eda865850cb083add19113854774d2192cecd"
+ "source_revision": "cf9c8009ae3e0296bd4cd888301ffa29ad028a2b"
 }
