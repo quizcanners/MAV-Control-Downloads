@@ -11745,25 +11745,22 @@
   {
    "n": 1745,
    "name": "MGRS SPEC Coordinate history and Navigator SPEC panel selector",
-   "done": "",
+   "done": "2026-11-19T06:51Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T06:31Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T06:51Z",
+     "text": "f2b0d7c052 and 1871b60206 on main. MGRS arrows point in the swipe direction and the MavChat selector stops at Route and Tools. Mac Play verified the directional hints at both ends and with Chat centered. MavChatSheetTests 112 and MgrsHistor"
+    }
+   ]
   },
   {
    "n": 1746,
@@ -12447,5 +12444,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "29c6dcda193e2d8f7eccb89b5bc92d1f2d7c2d34"
+ "source_revision": "0a18e8bf8902a2d21a55786cf208ef2a9885214c"
 }
