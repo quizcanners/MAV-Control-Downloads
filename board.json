@@ -5228,25 +5228,22 @@
   {
    "n": 1790,
    "name": "Navigator SPEC",
-   "done": "",
+   "done": "2026-11-19T17:17Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T17:00Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T17:17Z",
+     "text": "f2139be6ea restores the moved lower-left altitude binding and uses the typed crosshair in the existing focus assertion. Route author validates the authored shared mask and clip ports. Mac baseline 37/2/0, candidate 39/0/0. Disabled mask, op"
+    }
+   ]
   },
   {
    "n": 1791,
@@ -5837,5 +5834,5 @@
    "since": "2026-11-19T16:28Z"
   }
  ],
- "source_revision": "fbf88299a3d757aa3a6deef0cff7239696178448"
+ "source_revision": "4d7df4e1006a9f4e05de13de7b2a1a644130b153"
 }
