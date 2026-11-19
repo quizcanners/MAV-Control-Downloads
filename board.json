@@ -11951,22 +11951,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-19T01:59Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-19T01:33Z",
-     "text": "03:34 Kyiv preflight: both ADB devices online. Lenovo fell from 2% to 1% while charging through Getac; its USB limit is 500 mA and /data free is 2,667,080 KiB. Prior Dev861 readout had Conserve/LowCharge and blocked Web Mercator writes. Str"
+     "at": "2026-11-19T02:13Z",
+     "text": "Lenovo moved from 1% to 2% (27,960 to 55,920 uAh) over 622 s asleep on Getac USB at 500 mA. Left asleep charging. Texture Full requires over 50%. Data volume free 2,667,540 KiB. Updates empty, app caches ~62 MiB, below the last ~290 MiB WM "
     }
    ]
   },
@@ -12739,5 +12730,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "47642f3e6cb8122f384843cdf02bcb1aea714854"
+ "source_revision": "4c62fde4ba1af39e3d8f8c81e9e8567d3c894df4"
 }
