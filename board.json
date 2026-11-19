@@ -1715,16 +1715,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T21:32Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Left: ~90 inline 'quiz, date' mentions in running prose of SPEC/AGENTS files, REFACTORING.md and Coordination files; per file turn each into a clear rule in the right section and move the quote into t",
@@ -1741,11 +1732,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_BLUR_SPEC",
-     "at": "2026-11-17T16:02Z",
-     "text": "Published 5de136d4e4: Blurred World SPEC states visual, touch-field and capture-order behavior directly; preserves terrain normal-pass restriction, separate blur light and prior anchor. Scoped diff reviewed; guide_check 0 errors, 6 existing"
-    },
-    {
      "by": "CODEX_REFACTOR_SCOPE",
      "at": "2026-11-17T16:06Z",
      "text": "Published eabb1389cb: refactoring scope is a structured set of direct rules preserving state-copy exceptions, ownership, serialization, scene references, helpers and prior anchor. Scoped diff reviewed; guide_check 0 errors, 6 existing warni"
@@ -1754,6 +1740,11 @@
      "by": "CODEX_REFACTOR_FULL",
      "at": "2026-11-17T16:11Z",
      "text": "Published d2ef4c5fd5: full refactoring guide restates dated user quotations as direct rules while retaining existing links, seven historical anchors, code examples and daily-purge approval. Scoped diff/whitespace reviewed; shared-checkout g"
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T21:38Z",
+     "text": "Published fa796e5bb0. Nightly, Server, Distribution and coordinate-link guides state the current rules directly. Removed superseded CI timing and Android suite-gate text against the tracked workflows and repaired seven links. Link check and"
     }
    ]
   },
@@ -5545,5 +5536,5 @@
    "since": "2026-11-19T20:20Z"
   }
  ],
- "source_revision": "5db817b9246626929f702d38ac1b609520be7ad2"
+ "source_revision": "fa796e5bb0eb84385c32aa825dce7d26baa46de9"
 }
