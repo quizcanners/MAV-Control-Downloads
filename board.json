@@ -2293,26 +2293,6 @@
    ]
   },
   {
-   "n": 1279,
-   "name": "Make peer_diag local and editor report a nonzero exit status when a command is refused. Preserve all printed replies",
-   "done": "2026-11-16T04:55Z",
-   "goal": false,
-   "under": 375,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T04:55Z",
-     "text": "Published 340844afe5. local/editor now return exit 1 on a refused command and print every reply in order. All 50 host cases passed. Live Rog Editor api.status returned 0, and an unknown command followed by api.status returned 1 with both re"
-    }
-   ]
-  },
-  {
    "n": 1280,
    "name": "Make peer_diag shot stop before capture when local navigation is refused or a remote navigation command is unconfirmed. Keep existing screenshot output intact on failure.",
    "done": "2026-11-16T05:00Z",
@@ -11294,16 +11274,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T04:42Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -11330,8 +11301,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T04:41Z",
-     "text": "d04c529b85 adds a display-only Pano360 yaw control and a reciprocal displacement/colour transfer score. The fixed Kenilworth draft recovered about 4 px at 1 degree and 13\u201316 px at 3 degrees overhead. Oblique +3 degrees changed 15,704 blend "
+     "at": "2026-11-19T04:55Z",
+     "text": "441360a84a adds a native replay with the same GPU matches and fourth reserved photo for three reference selectors. In 285 paired Kenilworth cases, recent/spacing/coverage accepted 3/2/0, with 79/107/73 weak fits. A lower reserved reprojecti"
     }
    ]
   },
@@ -12527,5 +12498,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "a0753b18d3971d0f57151bee62299d1f5a16f475"
+ "source_revision": "aca8add7d13539d62f45bacbe40a856389c7e199"
 }
