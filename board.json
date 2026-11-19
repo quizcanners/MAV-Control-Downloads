@@ -12104,25 +12104,22 @@
   {
    "n": 1719,
    "name": "Restore MGRS history swipe fixture bindings to the current prefabs and input owner. Keep the pointer ownership",
-   "done": "",
+   "done": "2026-11-19T01:58Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T01:50Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T01:58Z",
+     "text": "ed14c9bd78 on main. Mac EditMode reproduced 12 missing retired prefab lookups and one newest-entry assertion that contradicted Clear. The original and mounted MGRS controls now cover all gestures, including the unavailable oldest edge. 25 p"
+    }
+   ]
   }
  ],
  "verify": [
@@ -12727,5 +12724,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "bfacb9a271603ca89a87ca15f5589f906c0d09ef"
+ "source_revision": "76217439a6a2b7f8b002ee6796bfc1cc87f62a7b"
 }
