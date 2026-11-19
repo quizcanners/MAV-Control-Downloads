@@ -1681,16 +1681,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T15:18Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Dispatcher commands still in AI_Sandbox_DeviceDebugCommands*.cs: the remaining vpn.*, training and remote-sensor editors, performance.wires, cfg/system.set and the other cfg cases in DebugControl; the",
@@ -1712,8 +1703,8 @@
    "notes": [
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T14:20Z",
-     "text": "3707860845 moves performance.wires, cfg.stillframe and cfg.halfres to Wire Diagnostics and Screen Settings, including their catalog entries. Nine authenticated Mac Play replies matched their baseline and catalog descriptions remained availa"
+     "at": "2026-11-19T15:38Z",
+     "text": "79b1be80a3 moves canvas diagnostics to DrawOrder and depth help to Screen Normals. da4cf97e40 moves performance.top to Stage Timings and assigns PublishOverlay to UI State. Mac Play hid/restored UI_MAIN, checked depth modes and verified per"
     }
    ]
   },
@@ -2558,31 +2549,6 @@
    ]
   },
   {
-   "n": 1565,
-   "name": "Main view shutdown",
-   "done": "2026-11-18T15:38Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-18T05:11Z",
-     "text": "Fresh isolated Kenilworth capture/Save/cold-reopen with native layer work still logs the existing Landscape Search reparent-on-destroy error at UI_BottomLeftRow.Detach:116 during Play exit. No new reconstruction error. Current receipt: C:/M"
-    },
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-18T15:38Z",
-     "text": "465a2ffc04 on main. Telemetry teardown and app quit retire borrowed controls without reparenting into the dying view. Normal detach restores controls. BottomLeftRowTests covers both paths. Unity compile, Roslyn and guide checks passed on th"
-    }
-   ]
-  },
-  {
    "n": 1580,
    "name": "Cold Synthetic prediction trail",
    "done": "2026-11-18T18:35Z",
@@ -2707,26 +2673,6 @@
      "by": "GETAC",
      "at": "2026-11-18T14:03Z",
      "text": "Additional native6000.6.8f1 import on7912+0eac appended both SENTIS_ANALYTICS_ENABLED and APP_UI_EDITOR_ONLY to Android, causing repeated define reloads. Tundra rounds37.75s/147.64s succeeded; subsequent rebuild consumed Getac RAM, five foc"
-    }
-   ]
-  },
-  {
-   "n": 1622,
-   "name": "Delete unreferenced UI Effects assets with their .meta (no guid",
-   "done": "2026-11-18T15:31Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-18T15:31Z",
-     "text": "ab9019f3b4 on main. Removed 44 tracked obsolete UI Effects files, including metadata. No GUID, shader name or path references remain. Compile fixture keeps live shaders. Cover lifetime fixture uses UI_LeftListTransition with the same shader"
     }
    ]
   },
@@ -2887,46 +2833,6 @@
     }
    ],
    "notes": []
-  },
-  {
-   "n": 1660,
-   "name": "Restore saved Planet Element Mask compatibility after 84d3a8956a",
-   "done": "2026-11-18T15:32Z",
-   "goal": false,
-   "under": 430,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_DOT_MASK_REPAIR",
-     "at": "2026-11-18T15:32Z",
-     "text": "Published c98118eecc; remote main ancestry verified. Restored PMSK0001/2 decode and verified legacy chunk migration before catalog; 16-file/1MiB batches, newer rows/tombstones preserved, unsafe inputs keep catalog closed. Host task1660/run."
-    }
-   ]
-  },
-  {
-   "n": 1662,
-   "name": "Main Camera wheel zoom drops steps near the map. Keep wheel movement through the slowdown range and respect only the terrain clearance and globe limits. Camera SPEC",
-   "done": "2026-11-18T15:29Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-18T15:29Z",
-     "text": "9da1e5f145 on main. Camera keeps coalesced wheel notches and slows through the former cutoff. Windows Backdoor continued down to measured Planet Renderer and Parallax clearance with pitch held, then restored the camera. Camera suites passed"
-    }
-   ]
   },
   {
    "n": 1663,
@@ -6069,5 +5975,5 @@
    "since": "2026-11-19T15:13Z"
   }
  ],
- "source_revision": "61d4ce8553d2ba883db446e6e3fb2ff196f68ac7"
+ "source_revision": "da4cf97e406ec7bdd6ad5f6acc60f5f6824b24ee"
 }
