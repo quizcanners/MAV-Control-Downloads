@@ -2898,26 +2898,6 @@
    "notes": []
   },
   {
-   "n": 1613,
-   "name": "Peers/Groups first open",
-   "done": "2026-11-18T11:01Z",
-   "goal": false,
-   "under": 408,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_GROUP_LIST",
-     "at": "2026-11-18T11:01Z",
-     "text": "55f062f801 on main. Unity compiled; two targeted EditMode layout tests passed. Native prefab row top: map opening and returning 25 units; Chat selector first open and Back both 109 (12 top + 72 search + 25 row padding). Compared the publish"
-    }
-   ]
-  },
-  {
    "n": 1614,
    "name": "Menu SPEC",
    "done": "2026-11-18T11:15Z",
@@ -5364,22 +5344,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T10:45Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T07:40Z",
-     "text": "fafb2a5d18 fixes the iPhone Chat worker's idle UDP close stall. It retires the socket before closing and drops late completions. Mac baseline wedged in recvmsg/close; 21/21 on three .NET runs and on Unity Mono. Unity .NET Standard 2.1 compi"
+     "at": "2026-11-19T11:04Z",
+     "text": "0e4bff8d1a adds iPhone Reply on direct Chat notices, verifies peer identity, and retires protected input after sealed outbox admission. 23 worker checks, 13 Unity tests, arm64 Xcode compile/link and Roslyn (including iOS symbols) passed. fa"
     }
    ]
   },
@@ -6183,7 +6154,7 @@
   },
   {
    "screen": "Chat/Messages",
-   "since": "2026-11-10T07:58Z"
+   "since": "2026-11-19T11:01Z"
   },
   {
    "screen": "Map/Planet",
@@ -6762,5 +6733,5 @@
    "since": "2026-11-19T09:43Z"
   }
  ],
- "source_revision": "ad9af08c5fe001840fa199965efc014249d720da"
+ "source_revision": "0e4bff8d1a8c69e77679f99e03f8b5b63ef7bfa7"
 }
