@@ -1681,16 +1681,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T16:15Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Dispatcher commands still in AI_Sandbox_DeviceDebugCommands*.cs: the remaining vpn.*, training and remote-sensor editors, performance.wires, cfg/system.set and the other cfg cases in DebugControl; the",
@@ -1712,8 +1703,8 @@
    "notes": [
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T16:01Z",
-     "text": "a9e624bea8 moves UI readiness to UILoading and preserves six prefab owner IDs. Mac EditMode 37/0/0; all six authored prefabs hide rendering and input until Ready. Play confirmed top-right buttons and Search readiness. The Compass scene inst"
+     "at": "2026-11-19T16:22Z",
+     "text": "3b9fc06873 gives the popup slot to UIPopups and retains Station.UI.Popup as its shared reader. Mac Play Menu swipe took the slot, held it against a competing popup, and released it on lift. EditMode 195/0/0 and direct ownership checks passe"
     }
    ]
   },
@@ -5892,5 +5883,5 @@
    "since": "2026-11-19T15:13Z"
   }
  ],
- "source_revision": "b48c7e558e91ebac06ccb683a14fbcaa9344fe59"
+ "source_revision": "3b9fc06873ea686f2531711d85f56475267fa67f"
 }
