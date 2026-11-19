@@ -4969,6 +4969,7 @@
    "under": 1693,
    "ticks": [
     "2026-11-19T20:55Z",
+    "2026-11-19T20:55Z",
     "2026-11-19T20:55Z"
    ],
    "priority": "normal",
@@ -4979,8 +4980,8 @@
      "who": "MAC_BOARD",
      "since": "2026-11-19T20:32Z",
      "noted": "2026-11-19T20:45Z",
-     "progress": 50,
-     "ticked": 2,
+     "progress": 75,
+     "ticked": 3,
      "total": 4
     }
    ],
@@ -4995,7 +4996,7 @@
     },
     {
      "t": "Record every Metal limit hit (compute shader, buffer size, texture format, Inference Engine layer that falls back or fails), with the log line",
-     "x": false
+     "x": true
     },
     {
      "t": "Write the numbers and limits into a new section of Performance Baseline/GPU.md, next to the Windows rows, then `--release 1804` with the commit hash",
