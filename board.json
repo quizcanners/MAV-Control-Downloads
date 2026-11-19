@@ -8252,22 +8252,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-19T09:17Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-19T06:13Z",
-     "text": "After e59edb6e67, 6701ebac56 follows owed child edges and constructs replies from the prepared branch. Deep lookup fell from 86 to 19 peer notes; host 6,258 assertions, ordered/replaced requests, independent peers, current hashes and a prem"
+     "at": "2026-11-19T09:34Z",
+     "text": "Exact Dev863 a80697f99b on Strong and Lenovo contains the phase clocks and owed-edge repair. Quiet 25 s window: no mask traffic. On Lenovo Wi-Fi reconnect Strong saw Lenovo eligible by 7.3 s and comparison settled by 13.0 s; 189 frames, 140"
     }
    ]
   },
@@ -10535,7 +10526,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-19T09:34Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -12548,5 +12548,5 @@
    "since": "2026-11-19T07:26Z"
   }
  ],
- "source_revision": "70bb8ae0300ad45caf1ea04fbd0d529e51ed7fe9"
+ "source_revision": "3ed4fa18d32252aa9a175273513ea829e46a5ced"
 }
