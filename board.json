@@ -2689,46 +2689,6 @@
    ]
   },
   {
-   "n": 1683,
-   "name": "Video Processing",
-   "done": "2026-11-18T19:05Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY_POSE",
-     "at": "2026-11-18T19:05Z",
-     "text": "8e22d49c9b on main. Buffered display clock; exact accepted camera and geometry unchanged. ProjectionPoseSmootherTests 10/10. Kenilworth Windows replay moved in all 213 within-window and 15 across-window samples; median speeds 7.11 and 6.84 "
-    }
-   ]
-  },
-  {
-   "n": 1684,
-   "name": "Video Processing",
-   "done": "2026-11-18T19:05Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-18T19:05Z",
-     "text": "8e22d49c9b on main. Windows replay moved an untracked Synthetic drone 146.91 m with heading edit and zero draft transform change. Matching source regained tracking at the same placement. Moving and rotating the drone with a Positioned draft"
-    }
-   ]
-  },
-  {
    "n": 1685,
    "name": "Video Processing",
    "done": "",
@@ -2745,26 +2705,6 @@
      "by": "HEAVY_REFS",
      "at": "2026-11-18T19:06Z",
      "text": "8e22d49c9b on main. Windows captured fresh depth and colour from four views. After manual relocation under tracking loss, unrelated Zurich triggered fallback and was refused with canonical count and draft transform unchanged. An all-real co"
-    }
-   ]
-  },
-  {
-   "n": 1686,
-   "name": "MavChat divider recenters the map only after settling at a visible stop (Navigator SPEC",
-   "done": "2026-11-18T19:04Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-18T19:04Z",
-     "text": "d18af887f4. MavChat camera, Follow and pointing use the last settled, visible divider stop."
     }
    ]
   },
@@ -5129,25 +5069,22 @@
   {
    "n": 1798,
    "name": "Mac Unity cannot compile Street View Save after 47c7ed79e0 removed the Build overload still used by retained surface cells. Restore the existing mesh build path without changing saved output.",
-   "done": "",
+   "done": "2026-11-19T19:05Z",
    "goal": false,
    "under": 1693,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T19:00Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T19:05Z",
+     "text": "f2650d74a7 restores the positive-quality cell filter in Street View Save. Native Mac Unity compiled and entered Play. StreetViewModelSurfacePacketTests 1/0/0. Roslyn removed the CS1503 in all four passes, NEW ERRORS none. UnityCanonicalChan"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5700,5 +5637,5 @@
    "since": "2026-11-19T17:40Z"
   }
  ],
- "source_revision": "1ec2f30ac3a1a62ef9cac59cdac3dccb5cab9e7e"
+ "source_revision": "f2650d74a70b6ab0cc0649790afaf41703f7a38b"
 }
