@@ -2293,46 +2293,6 @@
    ]
   },
   {
-   "n": 1277,
-   "name": "Keep completed task history searchable by number after archiving. Make task_flow --task read Board and Done from the same snapshot without allowing edits to archived tasks.",
-   "done": "2026-11-16T04:48Z",
-   "goal": false,
-   "under": 412,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T04:48Z",
-     "text": "Published 3c8cf494f5. Number lookup finds completed tasks after archiving even in a stale checkout, using the same fetched revision for Board and Done. Three focused board tests passed, including local and remote archive lookups and refusal"
-    }
-   ]
-  },
-  {
-   "n": 1278,
-   "name": "Keep Android peer diagnostics responsive when ADB stalls. Bound discovery",
-   "done": "2026-11-16T04:52Z",
-   "goal": false,
-   "under": 375,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T04:52Z",
-     "text": "Published 3388688c85. Android device discovery, descriptor read and forward setup now time out after 15 seconds per ADB call. Failures report the stage without tokens. Valid leases still clean up their own forward. A timed-out forward with "
-    }
-   ]
-  },
-  {
    "n": 1279,
    "name": "Make peer_diag local and editor report a nonzero exit status when a command is refused. Preserve all printed replies",
    "done": "2026-11-16T04:55Z",
@@ -11861,29 +11821,20 @@
   {
    "n": 1729,
    "name": "Main View SPEC",
-   "done": "",
+   "done": "2026-11-19T04:52Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T04:46Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T04:40Z",
-     "text": "Paused for the requested drone audio change. Latest Mac All reported two failures in SuggestionsTransitionRectTests: old direct-parent check for the transition and a missing hard-coded tab shadow path. Source and prefab untouched. Continue "
+     "at": "2026-11-19T04:52Z",
+     "text": "244e42fa29 on main. Both red checks expected the old swipe-root hierarchy. The loaded prefab puts the transition and tab row under Suggestions Top Content."
     }
    ]
   },
@@ -12510,5 +12461,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "829001553b1997cca8f687b33d194a260d69f1ac"
+ "source_revision": "eae572182500bd9ac51deb7ed5a9d1265108617e"
 }
