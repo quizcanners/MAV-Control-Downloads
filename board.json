@@ -308,16 +308,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T14:29Z",
-     "noted": "",
-     "progress": 29,
-     "ticked": 2,
-     "total": 7
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Phone with a real peer (iPhone at the Mac, Lenovo at the Getac): half-height transcript, our green bubble at full height, capsule label and side circles fade while it scrolls, grabber press-drag, ever",
@@ -350,11 +341,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_MAC_ROW",
-     "at": "2026-11-16T19:04Z",
-     "text": "Current main hides the peer row body in Chat and uses a separate previous-row separator; a Mac regular-Chat screenshot does not reproduce the reported MavChat portrait row. Needs affected group row on a phone/current build before selecting "
-    },
-    {
      "by": "CODEX_MAVCHAT_EDITOR",
      "at": "2026-11-16T22:52Z",
      "text": "Inspected the live Editor prefab: Chat suppresses Button Dark Opaque block while Row Light and the independent Previosu Separator remain; the light also owns selection/hover, and removing it would break those states. Current source/prefab m"
@@ -363,6 +349,11 @@
      "by": "CODEX_UI_1407",
      "at": "2026-11-17T07:17Z",
      "text": "Current main keeps Chat row body hidden; remaining Row Light handles selection and pointing, so removing it is unsupported. iPad and iPhone unavailable in devicectl; prior Editor inspections did not reproduce the dashed edges. Resume with a"
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T14:46Z",
+     "text": "94f6ee8db0 makes the MavChat capsules themselves scroll and snap, with variable widths and partial neighbours. Route keeps timing/progress, GPS carries a compact clock beside Tools, and Tools shows live controls. Legacy preview is default-o"
     }
    ]
   },
@@ -2945,26 +2936,6 @@
      "by": "GETAC",
      "at": "2026-11-18T14:50Z",
      "text": "Sender checks SHA-256 on the already opened handle and reuses raster validation only when that digest matches its current cell proof. New bytes, revisions and folders require validation. Same catalog table, receiver Have proof separate. Ver"
-    }
-   ]
-  },
-  {
-   "n": 1654,
-   "name": "Keep worker recovery archives outside the checkout so WorkCritical cannot block release reservation; update Development Coordination disk-space guidance. Quiz",
-   "done": "2026-11-18T14:46Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_BUILD",
-     "at": "2026-11-18T14:46Z",
-     "text": "Published 80969be7e8. Moved all 1471 recovery files intact to ~/MavControlEvidence/Recovery/WorkCritical-20261118; removed checkout ignore workaround. Development Coordination now requires external recovery/evidence/scratch folders. Actual "
     }
    ]
   },
@@ -6100,5 +6071,5 @@
    "since": "2026-11-19T12:00Z"
   }
  ],
- "source_revision": "4e90fef892ced8802a46700f92514d8fcb047e10"
+ "source_revision": "94f6ee8db076c4d245fe1efb74b6fa023fd5562e"
 }
