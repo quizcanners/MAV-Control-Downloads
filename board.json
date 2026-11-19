@@ -4967,7 +4967,9 @@
    "done": "",
    "goal": false,
    "under": 1693,
-   "ticks": [],
+   "ticks": [
+    "2026-11-19T20:55Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -4976,15 +4978,15 @@
      "who": "MAC_BOARD",
      "since": "2026-11-19T20:32Z",
      "noted": "2026-11-19T20:45Z",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 25,
+     "ticked": 1,
      "total": 4
     }
    ],
    "steps": [
     {
      "t": "Play a Kenilworth clip in Video Source, start 3D generation (Backdoor `video.odometry rtx da3 live`, poll `video.odometry rtx da3 status` until ready) and record whether it runs on Metal or where it s",
-     "x": false
+     "x": true
     },
     {
      "t": "Record ms per window (warm, over at least 8 windows), first-window cold time, and GPU memory the model holds on the Mac (compare with the 4 GiB the RTX holds)",
@@ -5613,5 +5615,5 @@
    "since": "2026-11-19T20:20Z"
   }
  ],
- "source_revision": "89d1e67b4e5f695f36ea17cdbc1dfc9ede7d8f5b"
+ "source_revision": "cd99a2ce128565762ed65a6d4003919001283052"
 }
