@@ -3120,16 +3120,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T17:32Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 10
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Opaque mesh, terrain overlay and splat quads written and loaded as three layers (1430, 1522)",
@@ -3180,8 +3171,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T17:30Z",
-     "text": "25c1f84ab9 pairs the map projector colour and depth with their registered camera while preserving the eased drone and live Pilot View. Continuous Kenilworth take captured geometry and ground atlas, then verified the displayed Pano360 matrix"
+     "at": "2026-11-19T17:38Z",
+     "text": "c65a8f7abc improves continuous recovery by keeping the existing nearby-frame buffer through retries. Two Kenilworth replays confirmed the direct-photo recovery, with later placement refusals still open on 1770. The 12 m known overlap, Zuric"
     }
    ]
   },
