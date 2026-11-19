@@ -1211,16 +1211,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T18:48Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Settings sub-pages below the eight roots get the same status-and-tick treatment, one root per pass, if any remain",
@@ -1228,10 +1219,6 @@
     },
     {
      "t": "quiz: name the screen whose foldout does not take the free width of its row; then Cloud fixes that row",
-     "x": false
-    },
-    {
-     "t": "Mac or PASIKA Editor look check: each Settings root, status and tick first, no scrolling",
      "x": false
     }
    ],
@@ -1245,6 +1232,11 @@
      "by": "ui1",
      "at": "2026-11-18T11:35Z",
      "text": "Inspectors SPEC line about content starting below the X now states the 16 px top gap and right clearance; guide matches main."
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T18:57Z",
+     "text": "bfbaa8b96d gives System / View its own page. Mac Play at 1240x800 checked all eight roots: status above scroll with green, neutral or warning treatment as appropriate. System and View fit after the change, View toggled half resolution, and "
     }
    ]
   },
@@ -5676,5 +5668,5 @@
    "since": "2026-11-19T17:40Z"
   }
  ],
- "source_revision": "3f095da535177b5d96f775df49463a56ed221c9b"
+ "source_revision": "bfbaa8b96d3ff4d1046372fdeb9f7365e56e03e2"
 }
