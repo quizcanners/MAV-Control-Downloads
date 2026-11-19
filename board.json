@@ -2293,26 +2293,6 @@
    ]
   },
   {
-   "n": 1297,
-   "name": "Make VPN screenshot downloads retry a missing chunk before the overall deadline. Let later chunks finish and keep refusing stale",
-   "done": "2026-11-16T06:42Z",
-   "goal": false,
-   "under": 375,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T06:42Z",
-     "text": "Published ea8c47bc2e. A missing VPN screenshot response now uses a bounded reply window, letting later chunks finish and a single retry occur before the shared deadline. All 54 peer_diag tests passed. Scripted drops verified first-chunk rec"
-    }
-   ]
-  },
-  {
    "n": 1298,
    "name": "Restore the shared daily release reservation host checks on Windows. Exercise the current shipping reservation block with Git Bash and disposable Git repositories.",
    "done": "2026-11-16T06:49Z",
@@ -11836,6 +11816,22 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1746,
+   "name": "x",
+   "done": "",
+   "goal": false,
+   "under": 410,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "vague"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -12440,5 +12436,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "a725b98f0c6429f8852f0c5f3162d3999547724a"
+ "source_revision": "3b9b6547f1293a92f36abda6756dfbf64e6fbd06"
 }
