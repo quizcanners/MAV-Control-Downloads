@@ -156,11 +156,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-15T11:22Z",
-     "text": "Builds 845 delivered: iOS internal testing, external Apple submission limit; macOS internal testing, external beta review. Published fixes 9f96342671 and 6fd70c7e56, history 368cea560b. Slow-motion fix ee07fd0c43 is on main; live Synthetic "
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-15T20:02Z",
      "text": "Windows D3D11 verified b8ccb161b9: Unity compiled 178 shader passes with zero errors. Long Press Wave tests 2/2."
@@ -169,6 +164,11 @@
      "by": "MAC_BOARD",
      "at": "2026-11-19T14:40Z",
      "text": "ecf7de4409 refreshes the kept double-resolution map every five seconds while idle. Native Mac Play intervals 5.017 and 5.125 s, measured 0.195 fps at an 8 fps UI target. Existing scene invalidation stays immediate; lock changes request the "
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-19T18:21Z",
+     "text": "CR-E15C-01 P2: slow visible peer translation can re-enter FrozenDouble between threshold reports; current drone continuation repair does not cover peers. S1 investigation/S2 brief and proposed reuse of the existing translation observer are "
     }
    ]
   },
@@ -2723,26 +2723,6 @@
    ]
   },
   {
-   "n": 1680,
-   "name": "Keep map controls behind My Data from its first rendered frame (UI SPEC",
-   "done": "2026-11-18T18:23Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-18T18:23Z",
-     "text": "45ea89c54a. After qualified pointer input, Bootstrap publishes one overlay for presentation. In Mac Play, My Data and its shared X rendered on the submit frame with Suggestions and compass both hidden. Return to Menu, Search and Settings sw"
-    }
-   ]
-  },
-  {
    "n": 1681,
    "name": "Video Processing",
    "done": "2026-11-18T18:49Z",
@@ -5169,25 +5149,22 @@
   {
    "n": 1795,
    "name": "Low memory must stop active memory-heavy generation and show a notification only for blocked work. Video Processing and Orthophoto SPEC. Quiz",
-   "done": "",
+   "done": "2026-11-19T18:24Z",
    "goal": false,
    "under": 431,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T18:01Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T18:24Z",
+     "text": "61862e1b95. Mac Play simulated critical memory with generation off (silence), then enabled Orthophoto (visible localized warning, LowMemory status, no frame demand). Safe-memory signal restored admission. Video generation, Unity 3D, selecte"
+    }
+   ]
   },
   {
    "n": 1796,
@@ -5763,5 +5740,5 @@
    "since": "2026-11-19T17:40Z"
   }
  ],
- "source_revision": "c4c7a86c21c146580624afab5203023cfe46b6ed"
+ "source_revision": "61862e1b95fab6dd9d805b91d4adfa18e4f2e8da"
 }
