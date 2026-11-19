@@ -11684,16 +11684,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T03:05Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -11720,8 +11711,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T03:04Z",
-     "text": "abf1b4b8a3 adds the different-angle benchmark. Affine proposals with held-out real LoFTR recovered both Kenilworth directions, including court to garden at 4.05\u20134.90 px p90. Direct LoFTR already recovers both faster. Translated RGB-D added "
+     "at": "2026-11-19T03:13Z",
+     "text": "5a19644d13 compares real-pair stereo to held-out Kinect depth. With DA3 cameras, paired p90 moved 21.2 to 19.4 cm on Chess 03 and 14.4 to 37.4 cm on Chess 05. Tight feature refit still hurt metric depth. A confident-DA3 scale anchor improve"
     }
    ]
   },
@@ -12711,5 +12702,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "c1c80e319bef7332812eb206fd578ab976b68ac7"
+ "source_revision": "5f5afc6fa02069e57c6c0e5d373e015fe3bcffac"
 }
