@@ -2313,26 +2313,6 @@
    ]
   },
   {
-   "n": 1284,
-   "name": "Let Daily Android accept an explicit release attempt ID for another same-day build or journal recovery. Pass it as data into the existing launcher and preserve default and Force behavior.",
-   "done": "2026-11-16T05:21Z",
-   "goal": false,
-   "under": 375,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T05:21Z",
-     "text": "Published a5d944e546. Daily Android accepts an optional release_attempt dispatch field for a fresh same-day attempt or the ID of a known journal. Runner passes it as data to the validated launcher. Both workflow host tests passed, exercisin"
-    }
-   ]
-  },
-  {
    "n": 1285,
    "name": "Align the left-list",
    "done": "2026-11-16T05:26Z",
@@ -11798,29 +11778,20 @@
   {
    "n": 1732,
    "name": "Main View SPEC",
-   "done": "",
+   "done": "2026-11-19T05:21Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T05:13Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T04:54Z",
-     "text": "Paused for the requested MavChat native notifications. No source edits. Existing Mac All shows Lock Point bottom -855.23 versus the safe-frame limit -540.02. Reproduce the four-case fixture with the mounted Suggestions layout."
+     "at": "2026-11-19T05:21Z",
+     "text": "d1abdbc2fe on main. Mac baseline failed all 4 cases: Lock Point bottom -855.23 vs minimum -540.02."
     }
    ]
   },
@@ -12476,5 +12447,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "08b8b43c8df348c52f512796f4236c4daa989505"
+ "source_revision": "5b9d2b3bf3de68a5083ebd5bd73d3782a9d61b12"
 }
