@@ -2293,28 +2293,6 @@
    ]
   },
   {
-   "n": 1267,
-   "name": "Check Android daily publisher sealing dependencies before allocating a release or starting Unity. Use the configured Python",
-   "done": "2026-11-16T04:09Z",
-   "goal": false,
-   "under": 375,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T04:08Z",
-     "text": "Published cb60b43299. The Android daily launcher checks its configured Python AES-CTR backend before either fresh or resumed release preparation. PowerShell 7 publication host suite 10/10; both probe outcomes also pass on Windows PowerShell"
-    }
-   ]
-  },
-  {
    "n": 1268,
    "name": "Align the Android daily workflow host test with advisory EditMode results while keeping cancellation",
    "done": "2026-11-16T04:12Z",
@@ -11545,7 +11523,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-19T04:09Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -12615,5 +12602,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "b0d9c5fcf2a2476286e3269781ff5d13cd51bcb1"
+ "source_revision": "5ff5b490d56961e7d44f9e9e824ebaee16c2327a"
 }
