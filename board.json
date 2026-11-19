@@ -1774,6 +1774,11 @@
      "by": "cloud-ios-bg",
      "at": "2026-11-14T08:03Z",
      "text": "Fits goal 380 (iPhone online in background); added without --under."
+    },
+    {
+     "by": "CLOUD_IOS_BG",
+     "at": "2026-11-19T23:06Z",
+     "text": "Cloud thread 2026-11-13 (stopped mid-work, core fix landed separately in 266a61656). Two findings not on main, code read only: (1) Chat_Background_IosWorker.cs binds its socket at most 3 times 10 s apart, then waits for ever (_bindAttempts "
     }
    ]
   },
