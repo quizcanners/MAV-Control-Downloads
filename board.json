@@ -5081,25 +5081,22 @@
   {
    "n": 1818,
    "name": "Planet Renderer SPEC",
-   "done": "",
+   "done": "2026-11-19T23:09Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-19T22:52Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-19T23:09Z",
+     "text": "Published ae6e061d2e. Deep reply now uses four child lookups instead of 72; warm validation allocates zero bytes instead of 448 per reply. Synthetic exchange preserves 1,024 downloads, equal hash, 2,055 queries and 3,080 loop turns. Unity 3"
+    }
+   ]
   },
   {
    "n": 1819,
@@ -5711,5 +5708,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "a6a990777f294a680580c0da95f09e92163476c6"
+ "source_revision": "e1b15b0f50fb9060f2d119a9c2b7172e19dd4475"
 }
