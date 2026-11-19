@@ -2273,26 +2273,6 @@
    ]
   },
   {
-   "n": 1257,
-   "name": "Let SQLite Presence load and read windows during GPU cache cleanup in Retention migration",
-   "done": "2026-11-16T02:45Z",
-   "goal": false,
-   "under": 430,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T03:12Z",
-     "text": "Strong signed Dev 848 4f055feb8042 passed on source 34ae40b5c6. Ready with one load and matching sequence, then 12 reads and 36 hits while GPU state ClearingSqlite and Retention Migrating. In-place package UID and altitude files preserved. "
-    }
-   ]
-  },
-  {
    "n": 1258,
    "name": "Rog Android daily",
    "done": "2026-11-16T03:04Z",
@@ -12113,29 +12093,20 @@
   {
    "n": 1722,
    "name": "Map Projection treats a saved Street View photo as continuous video because Bootstrap reads Projector.Enabled for both frame pacing and render mode. Apply Bootstrap SPEC",
-   "done": "",
+   "done": "2026-11-19T02:48Z",
    "goal": false,
    "under": 363,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T02:26Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T02:23Z",
-     "text": "Found in Bootstrap StepMapRenderMode: Projector.Enabled supplies both Video:MapProjection and the unscaled map mode. Projector.ApplyPhoto sets it for saved Street View, even when the texture stands still. Start in Projector.ApplyPhoto and t"
+     "at": "2026-11-19T02:48Z",
+     "text": "5078d816b7 on main. Saved Street View projection follows the retained map cadence."
     }
    ]
   }
@@ -12742,5 +12713,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "09f434c0169996063049f06dc358674c0e6f1be7"
+ "source_revision": "00e25e40ff91999813d4156d65311a16b3dc1edc"
 }
