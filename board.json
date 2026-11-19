@@ -2273,26 +2273,6 @@
    ]
   },
   {
-   "n": 1254,
-   "name": "Give Web Mercator SQLite Presence an eligible writer turn during Retention migration",
-   "done": "2026-11-16T02:05Z",
-   "goal": false,
-   "under": 430,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T02:44Z",
-     "text": "Strong Dev 848 4850358174c6 installed and reached the map, then stayed Presence Unloaded through 45 samples. The exact profile caught GPU cleanup using the yielded job. Follow-up 34ae40b5c6 removes the GPU cleanup exclusion and preserves a "
-    }
-   ]
-  },
-  {
    "n": 1256,
    "name": "Using Strong for SQLite Presence during Retention migration on signed Dev",
    "done": "2026-11-16T02:33Z",
@@ -11760,16 +11740,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T01:52Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -11796,8 +11767,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T01:51Z",
-     "text": "61b82de846 adds native regional depth replay. Six real RGB-D captures, two known-depth controls. At modified sensor pixels, extra references increased the improved share from 58% to 70% and discarded the strongest sparse improvement. Live r"
+     "at": "2026-11-19T02:05Z",
+     "text": "3dde4d044c uses a native copy plus a bounded GPU dispatch for compatible Street View depth revisions. 19 same-input write pairs and 84 exported textures were byte-identical. Dispatch falls from 150,528 to 12,288 invocations at 448x336 plus "
     }
    ]
   },
@@ -12736,5 +12707,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "c15c2fe40e2bbd4815ed9069c5a11e3d129d238c"
+ "source_revision": "24de168d05fa72596fb3392fa654028156437afe"
 }
