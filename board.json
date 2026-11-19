@@ -2273,26 +2273,6 @@
    ]
   },
   {
-   "n": 1265,
-   "name": "Make the public Tasks view derive its due screen list from the same immutable main revision as the board. Verify that closing a task marks its screen due in the mirror even when the checkout still has",
-   "done": "2026-11-16T03:59Z",
-   "goal": false,
-   "under": 412,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T03:58Z",
-     "text": "Published fc40408ac7. The public Tasks verify list now reads committed Coordination/Screens files from board.json source_revision. The regression closed a task in a stale checkout lacking its screen and detected incorrect verification rows "
-    }
-   ]
-  },
-  {
    "n": 1266,
    "name": "Preserve native empty submesh offsets when batching Planet reference mesh descriptors",
    "done": "2026-11-16T04:18Z",
@@ -7742,29 +7722,20 @@
   {
    "n": 1519,
    "name": "Local agent",
-   "done": "",
+   "done": "2026-11-19T04:01Z",
    "goal": false,
    "under": 431,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T03:03Z",
-     "noted": "2026-11-19T03:24Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T03:24Z",
-     "text": "Metal proof af0f3547de remains on main (750,000 raw bytes per 500x375 photo; 116,185 gzip synthetic). Live keyframe/atlas production draft preserved under stash 9b7893f36f and DepthCompanion-1519/keyframe-wip.patch while finishing 1723. App"
+     "at": "2026-11-19T04:01Z",
+     "text": "a278d776a8 and 774d9721b5 on main. Live keyframes and loaded originals own the depth planes. Saved photos reopen an exact-content sidecar."
     }
    ]
   },
@@ -12598,5 +12569,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "cbea2d6547ba7adabb8efa380ea3520a19431e7e"
+ "source_revision": "69f2f5c8b7e15e04dacd70deaef2f0774b8d07dc"
 }
