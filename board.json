@@ -1681,16 +1681,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T15:40Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Dispatcher commands still in AI_Sandbox_DeviceDebugCommands*.cs: the remaining vpn.*, training and remote-sensor editors, performance.wires, cfg/system.set and the other cfg cases in DebugControl; the",
@@ -1712,8 +1703,8 @@
    "notes": [
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T15:38Z",
-     "text": "79b1be80a3 moves canvas diagnostics to DrawOrder and depth help to Screen Normals. da4cf97e40 moves performance.top to Stage Timings and assigns PublishOverlay to UI State. Mac Play hid/restored UI_MAIN, checked depth modes and verified per"
+     "at": "2026-11-19T15:50Z",
+     "text": "c7a6ee3d1a moves performance.pacing and its wake command to Frame Rate. Mac Play set 37/43 FPS and restored 8 on off/expiry. Play exit restored Editor pacing. EditMode 52 passed, 0 failed, 0 skipped. Roslyn clean. Android split/wake device "
     }
    ]
   },
@@ -2682,26 +2673,6 @@
      "by": "GETAC",
      "at": "2026-11-18T14:03Z",
      "text": "Additional native6000.6.8f1 import on7912+0eac appended both SENTIS_ANALYTICS_ENABLED and APP_UI_EDITOR_ONLY to Android, causing repeated define reloads. Tundra rounds37.75s/147.64s succeeded; subsequent rebuild consumed Getac RAM, five foc"
-    }
-   ]
-  },
-  {
-   "n": 1624,
-   "name": "Rewrite Tools/Tests~/test_terrain_water_zero.py and the Tests/Planet water render tests for the single _PlanetWaterClouds read",
-   "done": "2026-11-18T15:48Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-18T15:48Z",
-     "text": "98a3507fbe on main. Removed obsolete cubemap bindings from Planet render fixtures and migrated the WARP probe to the actual Cesium cloud sample. Unity and Roslyn compile passed. All six HLSL source variants preprocessed. Windows WARP and Un"
     }
    ]
   },
@@ -5984,5 +5955,5 @@
    "since": "2026-11-19T15:13Z"
   }
  ],
- "source_revision": "da4cf97e406ec7bdd6ad5f6acc60f5f6824b24ee"
+ "source_revision": "c7a6ee3d1aef95688057aa7efadca7f384db3419"
 }
