@@ -1131,16 +1131,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T14:17Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Phone: Paint goes blue after five idle seconds and any touch restores it; Drawing 120 s fade and thicker shadow look right",
@@ -1161,11 +1152,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-15T02:28Z",
-     "text": "Windows D3D11 Play at c16ce5a8ef passed Map focus in KSP. The time plaque turned black and hid the normal controls and overlays. A 154 px map drag moved the camera and retained focus. A bare map tap restored the controls."
-    },
-    {
      "by": "CODEX_MAC_UI",
      "at": "2026-11-16T12:41Z",
      "text": "Task 1355 published 00f0f01130: Synthetic drone crosshair 0 m/s move clears motion and published speed. Editor compile and 84 focused tests passed; Main/Map check bumped; no device test."
@@ -1174,6 +1160,11 @@
      "by": "CODEX_UI_COMPOSITES",
      "at": "2026-11-17T12:05Z",
      "text": "Read origin/main COMPOSITES_PLAN: passive input and readout owners already use the merge-only element. Census of 21 direct prefab UI_MergeableListElementBase blocks with null composite Button found all 21 have co-located Unity Buttons; pres"
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T14:40Z",
+     "text": "ecf7de4409 centers the clock rule, softens and offsets the compass shadow, and corrects the baked east/west paint bias. No UI hides lock artwork and labels, keeps compass/plaque and restores planet-scale sunlight. Mac native Compass/Clock a"
     }
    ]
   },
