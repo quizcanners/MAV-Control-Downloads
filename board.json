@@ -11740,16 +11740,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T02:07Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -11776,8 +11767,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T02:05Z",
-     "text": "3dde4d044c uses a native copy plus a bounded GPU dispatch for compatible Street View depth revisions. 19 same-input write pairs and 84 exported textures were byte-identical. Dispatch falls from 150,528 to 12,288 invocations at 448x336 plus "
+     "at": "2026-11-19T02:16Z",
+     "text": "9c69f978c6 records copy-inclusive GPU timings for the Street View depth writers. 32 pairs per fixture, byte-identical output. At 448x336, medians went 0.0343 to 0.0182 ms and 0.0367 to 0.0195 ms. The 320x240 control had similar p90. Scene-l"
     }
    ]
   },
@@ -12727,5 +12718,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "a293f647bf3cc8c268db76d3441a675fc30a94ad"
+ "source_revision": "592f78fd136a66fa730bc48c84566ad5a7da2711"
 }
