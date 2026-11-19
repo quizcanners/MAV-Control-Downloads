@@ -2804,26 +2804,6 @@
    ]
   },
   {
-   "n": 1699,
-   "name": "Using Lenovo to capture terminal elevation receipt and current paired convergence status",
-   "done": "2026-11-18T20:32Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-18T20:32Z",
-     "text": "Dev 861 reached 99.5% on the same elevation send. A later control query replaced the terminal slot; exact completion remains unknown. Both eligible Ready tablets had unknown WM hash evidence and queued passes. Targeted Altitude capture had "
-    }
-   ]
-  },
-  {
    "n": 1700,
    "name": "Elevation exchange",
    "done": "2026-11-18T20:49Z",
@@ -4300,7 +4280,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-19T20:32Z",
+     "noted": "",
+     "progress": 75,
+     "ticked": 3,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Render the synthetic top-down tile around the prior position",
