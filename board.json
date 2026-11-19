@@ -11679,25 +11679,22 @@
   {
    "n": 1753,
    "name": "Navigator SPEC",
-   "done": "",
+   "done": "2026-11-19T08:23Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T08:15Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T08:23Z",
+     "text": "4d7472e3f6 on main. The Pause join had been hidden by the button\u2019s previous-edge rule. The status cell draws that join now. Verified both seams are one physical pixel in the Mac Play capture. 7 focused EditMode checks passed and Roslyn is c"
+    }
+   ]
   },
   {
    "n": 1754,
@@ -12329,5 +12326,5 @@
    "since": "2026-11-19T07:26Z"
   }
  ],
- "source_revision": "ffe56556f9dde60b5e439ded39db8320746ea8d8"
+ "source_revision": "2a382dc039b03f7d983cf5d02b922f9bd553f5d7"
 }
