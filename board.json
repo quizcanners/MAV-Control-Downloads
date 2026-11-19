@@ -11809,16 +11809,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T01:13Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -11845,8 +11836,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T01:12Z",
-     "text": "c7368ab36e adopts 60% depth confidence weighting in the Unity ground atlas. Fixed Kenilworth views held more strong paint than full strength. D3D11 medians stayed near 0.60 ms approach and 0.68 ms orbit over 14 pairs each. Ordinary Save and"
+     "at": "2026-11-19T01:27Z",
+     "text": "c2bdfe94c9 adds the Unity RGB-D Backdoor replay and metric evaluator. 11 Python tests passed, Roslyn clean. Sparse joins 0/3, dense 3/5. Confidence >0.45 reduced depth p90 in all six replays. Detailed held-out pose, lens and depth results a"
     }
    ]
   },
@@ -12693,5 +12684,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "18fe6ea7eafb645bbc96d2af0cdd9bd211097f91"
+ "source_revision": "eaf2e4a3c0b1c582289b252edb7080e28b0c2dfb"
 }
