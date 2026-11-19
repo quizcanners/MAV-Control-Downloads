@@ -5281,7 +5281,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-19T14:34Z",
+     "noted": "2026-11-19T14:34Z",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Render the synthetic top-down tile around the prior position",
@@ -5303,8 +5312,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-19T14:58Z",
-     "text": "9d8dde880c on main. Retained-depth reprojection and buffered real frames passed live confirmation at a 12 m offset on known orbit overlap: 6.425 s, 458 held-out pairs, 20 to 24 frames. Unity 37/37 and Roslyn clean. Normal replay joined inne"
+     "at": "2026-11-19T14:34Z",
+     "text": "1888aa0ebf pairs incoming lens and depth; 2a33ef2857 records the frozen comparison. Unity 37/37, Roslyn clean. Inner court joined at 12 m; approach and Zurich held 50 frames and 207,035 cells. Adjacent offline support rose 2/11 to 6/11; no "
     }
    ]
   },
