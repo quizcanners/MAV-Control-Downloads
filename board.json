@@ -11836,25 +11836,22 @@
   {
    "n": 1751,
    "name": "Chat SPEC",
-   "done": "",
+   "done": "2026-11-19T07:11Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T07:05Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T07:11Z",
+     "text": "b8720da9dc on main. Fixtures expected no portrait composer fade and 0.55 peer tint. The authored values are a portrait fade and 0.50 tint. Tests now check both layouts explicitly and keep the peer geometry, input bounds and shared bindings."
+    }
+   ]
   }
  ],
  "verify": [
@@ -12459,5 +12456,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "e3178784623bea7a72316632bd5a5b15918168f3"
+ "source_revision": "99fb20744de362d7330d097546d7a3669ba4fb32"
 }
