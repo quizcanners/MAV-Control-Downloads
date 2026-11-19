@@ -2571,29 +2571,25 @@
   {
    "n": 1620,
    "name": "Android release preparation",
-   "done": "",
+   "done": "2026-11-19T21:31Z",
    "goal": false,
    "under": 375,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T21:19Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
      "at": "2026-11-18T14:03Z",
      "text": "Additional native6000.6.8f1 import on7912+0eac appended both SENTIS_ANALYTICS_ENABLED and APP_UI_EDITOR_ONLY to Android, causing repeated define reloads. Tundra rounds37.75s/147.64s succeeded; subsequent rebuild consumed Getac RAM, five foc"
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T21:31Z",
+     "text": "Published f8321b9e3c. Exact Unity success and both raw archives are journaled. Interrupted normalization resumes the same version; only the reviewed BuildProfile, LF/CRLF and Android define rewrites are restored. Other edits are preserved a"
     }
    ]
   },
@@ -2842,46 +2838,6 @@
      "by": "HEAVY",
      "at": "2026-11-19T11:11Z",
      "text": "Goal paused. Streamed Save and Kenilworth replay findings on main (aa09f88bbf, 5ce3592b13). Helsinki fixture validated (af0e8bbc5d); b8f95f633c records the refused distinct-photo joins. Training capture and the live two-flight check remain "
-    }
-   ]
-  },
-  {
-   "n": 1705,
-   "name": "Using Lenovo for the private Dev elevation receipt build installation and smoke",
-   "done": "2026-11-18T21:28Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-18T21:28Z",
-     "text": "Exact signed Dev 861 e7d573345e installed in place, original user-0 data identity retained. Lenovo reached a textured map in 14.630 s. Paired idle capture complete. MigrationNeedsSpace still prevents minimum writes. CPU.md and BUILD_HISTORY"
-    }
-   ]
-  },
-  {
-   "n": 1706,
-   "name": "Using Strong for the private Dev elevation receipt build installation and paired convergence",
-   "done": "2026-11-18T21:28Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-18T21:28Z",
-     "text": "Exact signed Dev 861 e7d573345e installed in place, original user-0 data identity retained. Strong reached a textured map in 8.070 s. Reciprocal VPN sessions and idle capture verified. No same-ID payload interval. Strong still reports PeerR"
     }
    ]
   },
@@ -5580,5 +5536,5 @@
    "since": "2026-11-19T20:20Z"
   }
  ],
- "source_revision": "39019a846069e501dd2b0ec0c949912de42bfe73"
+ "source_revision": "f8321b9e3c4f19dc3230cd951ba3a8addf64889e"
 }
