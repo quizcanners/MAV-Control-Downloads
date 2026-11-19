@@ -2282,26 +2282,6 @@
    ]
   },
   {
-   "n": 1292,
-   "name": "Stop the Direct USB GeoTIFF and Android Wi-Fi host checks from retaining disposable compiler outputs. Keep the small receipts",
-   "done": "2026-11-16T06:14Z",
-   "goal": false,
-   "under": 375,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T06:14Z",
-     "text": "Published 85912e701c. Scoped temp builds retire compiler and fixture outputs. Retained current GeoTIFF 7731 bytes and Java 77937 bytes, from 36552032 and 1297824 bytes in equivalent prior runs. GeoTIFF 14 checks and 7 controls, Java API 34 "
-    }
-   ]
-  },
-  {
    "n": 1293,
    "name": "Using Strong for the signed Planet terrain bounds replay",
    "done": "2026-11-16T06:24Z",
@@ -8118,8 +8098,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-19T06:00Z",
-     "text": "750ffefe20 keeps completed mask child comparisons through busy/resumed discovery. Unity 29/29, host visits and measured budget turns in single-pass-convergence.md. Tasks 1735 and 1736 landed. Changed-group frame cost, transfer latency and f"
+     "at": "2026-11-19T06:14Z",
+     "text": "1735 and 1736 landed for mask hash preparation and discovery. 6701ebac56 removes unrelated reply probes and a second address lookup, host 86 to 19 probes. Current paired frame cost, transfer latency and final root agreement remain open. 159"
     }
    ]
   },
@@ -12401,5 +12381,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "79069ec46ca11b544fbba5ba1b642cd8449a6da1"
+ "source_revision": "fa5ab6dca614f526511af449ab4bf98adeebcc6b"
 }
