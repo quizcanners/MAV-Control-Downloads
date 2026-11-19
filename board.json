@@ -2313,26 +2313,6 @@
    ]
   },
   {
-   "n": 1283,
-   "name": "Restore the Android daily unchanged-input skip before release reservation. Keep forced builds",
-   "done": "2026-11-16T05:16Z",
-   "goal": false,
-   "under": 375,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T05:16Z",
-     "text": "Published 1780a9b044. Auto skips unchanged Android inputs before LFS, release preparation or Unity. Force bypasses the comparison and cannot rebuild a reserved version. Interrupted attempts still recover. All 11 publication host tests and b"
-    }
-   ]
-  },
-  {
    "n": 1284,
    "name": "Let Daily Android accept an explicit release attempt ID for another same-day build or journal recovery. Pass it as data into the existing launcher and preserve default and Force behavior.",
    "done": "2026-11-16T05:21Z",
@@ -11698,25 +11678,22 @@
   {
    "n": 1726,
    "name": "Fix the Windows Web Mercator write gate reporting UnknownVolume. On actual Windows Dev 862 GetDiskFreeSpaceExW measured 27",
-   "done": "",
+   "done": "2026-11-19T05:16Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-19T04:34Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-19T05:16Z",
+     "text": "6ec21f06b4 in Windows Dev 863. Native player reached Ready in 18 s and reported 23,884,013,568 available bytes for the Web Mercator store with minimum_write_allowed=True. Exit 0. Eleven host volume checks passed. A second receiver was unava"
+    }
+   ]
   },
   {
    "n": 1727,
@@ -12490,5 +12467,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "6a0e04d09045db2193f3a92488cc1ab241419ab3"
+ "source_revision": "c7b6148e3ccc077a20a12129db236e45e4d739fb"
 }
