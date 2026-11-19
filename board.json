@@ -2889,66 +2889,6 @@
    ]
   },
   {
-   "n": 1633,
-   "name": "One-time notification controls",
-   "done": "2026-11-18T12:45Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_NOTIFICATION_MUTE",
-     "at": "2026-11-18T12:45Z",
-     "text": "Published c4d93dfaae. One-time notices have a session mute per kind. Flicks acknowledge the current occurrence. The Agent and pooled Chat card EditMode tests passed, prefab links checked on six cards, Roslyn comparison found no new errors. "
-    }
-   ]
-  },
-  {
-   "n": 1634,
-   "name": "Left lists",
-   "done": "2026-11-18T12:49Z",
-   "goal": false,
-   "under": 408,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_LIST_FLICK",
-     "at": "2026-11-18T12:49Z",
-     "text": "Published 885cfd65be on main. A flick captures the held release position and covers open details with the local left-offset blur. Opening uses the live slide. Roslyn comparison: no new errors. Unity EditMode: 9/9 passed. Main/Map verificati"
-    }
-   ]
-  },
-  {
-   "n": 1635,
-   "name": "Bottom-left Telemetry grid",
-   "done": "2026-11-18T12:41Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_SINGLE_GRID",
-     "at": "2026-11-18T12:41Z",
-     "text": "Published 34c9d4028c on main. Refresh keeps the empty normal strip out of Pilot while preserving the shared readouts in both layouts. Prefab wiring checked. Roslyn comparison: NEW ERRORS: none. Guide check: zero errors. TelemetryView bumped"
-    }
-   ]
-  },
-  {
    "n": 1636,
    "name": "Painted mask storage lacks upgrade-boundary fixtures after 84d3a8956a1cfaea20b84f54ce9cd84c7804ee82. Implement disposable regression fixtures in Assets/_PROJECT/Tests/Planet/PlanetMaskStoreTests.cs an",
    "done": "2026-11-18T15:03Z",
@@ -5814,22 +5754,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-19T12:24Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-19T12:19Z",
-     "text": "03712ecdb1 has exact-build switch-out stacks. CreateReply hit IL2CPP GC_lock while allocating a HashMessage. The larger captured wait accumulated under OfferPreview: outbound message/key allocation, weak-handle lookup, view-offer record and"
+     "at": "2026-11-19T12:53Z",
+     "text": "c3ded332ea is on main via ad14987e0a. Outgoing Web Mercator replies now reuse existing per-peer send slots, with the wire payload encoded before slot reuse. Native HashBatch 5/5 and FinestTiles 280/280, Roslyn no new errors and the host cod"
     }
    ]
   },
@@ -6456,5 +6387,5 @@
    "since": "2026-11-19T12:00Z"
   }
  ],
- "source_revision": "df7ac27afb0e87c4d9acf46da9968dc813b9faef"
+ "source_revision": "898ba5772df0858fcdfb93420e3010716bf11a54"
 }
