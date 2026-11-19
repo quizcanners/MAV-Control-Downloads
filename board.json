@@ -2293,26 +2293,6 @@
    ]
   },
   {
-   "n": 1260,
-   "name": "Make the release-key preparation and sealed publisher entry points work when Rog launches them with isolated Python. Reproduce the Android 848 sibling import failure",
-   "done": "2026-11-16T03:08Z",
-   "goal": false,
-   "under": 375,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T03:08Z",
-     "text": "Published 4e94b97b35. Both direct entry points resolve only the sibling modules beside the trusted tool when run with isolated Python. Windows isolated prepare and packaged verification regression passed. All 96 distribution tests passed, i"
-    }
-   ]
-  },
-  {
    "n": 1261,
    "name": "Reuse Planet Renderer child geometry arrays through patch retirement (Planet Renderer SPEC",
    "done": "2026-11-16T03:21Z",
@@ -8763,7 +8743,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-19T03:10Z",
+     "noted": "",
+     "progress": 75,
+     "ticked": 3,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Elements masks use lazy cached hashes, efficient dirty propagation and likely-complete download groups.",
@@ -12699,5 +12688,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "f5d3e2c1a59037468e15739350fd2415593b8744"
+ "source_revision": "b39fa0aab4083f8133112ea08ad42348da352b17"
 }
