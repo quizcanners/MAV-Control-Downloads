@@ -2027,7 +2027,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-19T06:03Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -2289,26 +2298,6 @@
      "by": "HEAVY",
      "at": "2026-11-16T06:12Z",
      "text": "4d47ca4e2d adds RAM-only sparse Visual Odometry to Telemetry Video Processing, Street View projection and Synthetic drone Pilot View. Roslyn clean, 6 controlled checks passed; HighwayDrive replay fit 39/39 pairs, 32.2 points/fit, 1.95 ms p9"
-    }
-   ]
-  },
-  {
-   "n": 1290,
-   "name": "Restore the portable Direct USB GeoTIFF receive failure checks after the Data Sync controller merge. Run current ownership and cleanup assertions and retain the historical falsifiers.",
-   "done": "2026-11-16T06:02Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T06:02Z",
-     "text": "Published 40a0f04fc2. GeoTIFF host now uses current Direct USB Maps, Transport and Street View owners, pins disposal handoff through the controller, and keeps the original historical source and mutation assertions. Current .NET host passed "
     }
    ]
   },
@@ -12439,5 +12428,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "8e8e71b481bb18406fb5cdcf4f9ea966919764ff"
+ "source_revision": "390fccdde94224c2f6ca7d5c177518808bc39710"
 }
