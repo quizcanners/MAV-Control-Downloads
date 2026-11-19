@@ -2273,26 +2273,6 @@
    ]
   },
   {
-   "n": 1308,
-   "name": "Restore Android release preflight and player completion lines consumed by the build launcher",
-   "done": "2026-11-16T09:13Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T09:13Z",
-     "text": "5187e55803 restores the two Android launcher lines dropped during log cleanup. Before the change, native Unity assigned 849 but the prep helper refused its missing completion line. Fixed preflight reserved 849 on main; native packaging logg"
-    }
-   ]
-  },
-  {
    "n": 1309,
    "name": "Android Dev 849 first launch after an update sits on the empty loading bar for a long time (quiz's photo",
    "done": "",
@@ -10546,16 +10526,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T09:07Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -10582,8 +10553,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T09:05Z",
-     "text": "6c173eb55c and a3ec93a7f9 on main. Accepted pose and depth stay in the history after Pano360 eviction."
+     "at": "2026-11-19T09:14Z",
+     "text": "74b17f38c8 and 82fc2d9c39 on main. Independent per-pixel depth confirmation stays a TestRun comparison."
     }
    ]
   },
@@ -12456,5 +12427,5 @@
    "since": "2026-11-19T07:26Z"
   }
  ],
- "source_revision": "a38907bdbbdcf01b8363fb21282a8a69ac4226bb"
+ "source_revision": "cd634507f491c7e44450a567ad6cd46a75fbd075"
 }
