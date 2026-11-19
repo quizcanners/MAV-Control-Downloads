@@ -2302,26 +2302,6 @@
    ]
   },
   {
-   "n": 1302,
-   "name": "Give each Web Mercator writer its own legacy catch-up JPEG buffer and release it on close. Verify overlapping retirements keep the pixels of each map separate.",
-   "done": "2026-11-16T07:25Z",
-   "goal": false,
-   "under": 430,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T07:25Z",
-     "text": "Published 459b10bcfe. Each Web Mercator writer owns its catch-up buffer and drops it at mirror close. A forced interleave reproduced cross-map JPEG overwrite on the baseline. Native Windows SQLite preserved both maps after the fix and passe"
-    }
-   ]
-  },
-  {
    "n": 1303,
    "name": "Keep routine Search result cleanup quiet in the Unity Console",
    "done": "2026-11-16T07:28Z",
@@ -11527,7 +11507,8 @@
    "under": 1704,
    "ticks": [
     "2026-11-19T06:10Z",
-    "2026-11-19T06:57Z"
+    "2026-11-19T06:57Z",
+    "2026-11-19T07:26Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -11537,8 +11518,8 @@
      "who": "HEAVY",
      "since": "2026-11-19T06:59Z",
      "noted": "",
-     "progress": 67,
-     "ticked": 2,
+     "progress": 100,
+     "ticked": 3,
      "total": 3
     }
    ],
@@ -11553,7 +11534,7 @@
     },
     {
      "t": "Wire the Suggestion and require registered overlap from later video",
-     "x": false
+     "x": true
     }
    ],
    "notes": [
@@ -12463,7 +12444,11 @@
   {
    "screen": "Settings/DJI",
    "since": "2026-11-18T23:31Z"
+  },
+  {
+   "screen": "Suggestions",
+   "since": "2026-11-19T07:26Z"
   }
  ],
- "source_revision": "55f8d90f8fa51529ca280eda9f255fd185732745"
+ "source_revision": "ac3f772b19bbe9f8f8e87ccc5c3646fad259d3e9"
 }
