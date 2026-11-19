@@ -1579,39 +1579,6 @@
    ]
   },
   {
-   "n": 487,
-   "name": "Pencil keeps painting while fingers drag and pinch the map (Map Editing SPEC",
-   "done": "2026-11-18T12:15Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "CR-A030-01 on main and compiled: on Android a Pen with tip down under a finger counts as that finger's copy until a non-zero tilt proves a stylus; Stylus inspector shows finger count, tilt-proven flag",
-     "x": true
-    },
-    {
-     "t": "Mac or Rog with the iPad on the cable (four batches found it off the cable, devicectl unavailable): build to the iPad, two-hand Pencil pass, set the 40 px pick radius if a finger counts as the Pencil ",
-     "x": false
-    },
-    {
-     "t": "Real Android stylus: one that never reports tilt would navigate instead of paint; check it",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "BOARD_PURGE",
-     "at": "2026-11-18T12:15Z",
-     "text": "Pencil under fingers is on main (Stylus.IsPenMirrorTouch, Android Pen copy dropped until tilt proves a stylus). The iPad two-hand pass and a tilt-less Android stylus are screen checks (Map Editing SPEC, Pencil and fingers work at the same t"
-    }
-   ]
-  },
-  {
    "n": 558,
    "name": "A person who got their tunnel as a file and is then made an Admin is not an Admin on the WireGuard people table",
    "done": "",
@@ -1701,49 +1668,6 @@
      "by": "CODEX_GRAPHICS",
      "at": "2026-11-15T06:55Z",
      "text": "Shared-workflow audit at 1e0b80295c: Alarm CanPresent requires RemoteSensors + Alarm + PinValidated (Station_RemoteSense.cs:36); TrainingSimulationBackend.cs:65 stops outside Training or in its RemoteSensors mode. MapOnly also omits the Rem"
-    }
-   ]
-  },
-  {
-   "n": 596,
-   "name": "Notifications",
-   "done": "2026-11-18T12:15Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Flick up on the bar and over the cards runs AcknowledgeAllAndFold (UI_NotificationTongue): every New notice gets Hide(), persistent ones become Acknowledged so the bar stays closed under them, an unfl",
-     "x": true
-    },
-    {
-     "t": "Phone: flick receives and folds; the bar sits under a card that was not flicked",
-     "x": false
-    },
-    {
-     "t": "Map (Editor or device): a flick over empty space beside the cards works",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T19:38Z",
-     "text": "Published a7a251a9e4. Strong signed Dev 851 passed 4/4 card flicks at 8 and 30 FPS targets, including edge cancel, and the tongue at 8. Camera stayed still. Stationary cancel kept the card open; bare map panned 137.81 m. Roslyn clean, Swipe"
-    },
-    {
-     "by": "CODEX_TONGUE",
-     "at": "2026-11-17T04:57Z",
-     "text": "Tongue drag feedback addressed separately in completed task 1453, commit 7f0f8646b3. Existing phone/Map verification on 596 remains open."
-    },
-    {
-     "by": "BOARD_PURGE",
-     "at": "2026-11-18T12:15Z",
-     "text": "Flick receives every notice and folds the island on main (UI_NotificationTongue AcknowledgeAllAndFold); remaining phone and Map looks are screen checks under goal 410."
     }
    ]
   },
@@ -1838,35 +1762,6 @@
      "by": "cloud-ios-bg",
      "at": "2026-11-14T08:03Z",
      "text": "Fits goal 380 (iPhone online in background); added without --under."
-    }
-   ]
-  },
-  {
-   "n": 630,
-   "name": "Device camera as a video source",
-   "done": "2026-11-18T12:15Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Android and iPhone build: camera permission dialog appears once, frames reach peers after an explicit selection with a fresh permission decision; measure GPU and frame time, record in the area's Perfo",
-     "x": false
-    },
-    {
-     "t": "Later, if the numbers ask for it: native Camera2 / AVFoundation capture into the encoder with no Unity copy; rotation 90 and 270 for portrait MavChat",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "BOARD_PURGE",
-     "at": "2026-11-18T12:15Z",
-     "text": "Device camera source is on main (ScreenShareScope.DeviceCamera, Station_Streamer_DeviceCameraFeed.cs). Phone permission and frame timing are screen checks and Performance Baseline rows under goal 431; native Camera2/AVFoundation capture wai"
     }
    ]
   },
@@ -5963,22 +5858,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-19T12:12Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-19T12:08Z",
-     "text": "ff09272cfb records the same-build scheduler trace. The longest measured ReplyCreate call spent almost all its wall time asleep; thousands of ordinary calls remained cheap. The older 102 ms scope lacked scheduler evidence. Continue from the "
+     "at": "2026-11-19T12:19Z",
+     "text": "03712ecdb1 has exact-build switch-out stacks. CreateReply hit IL2CPP GC_lock while allocating a HashMessage. The larger captured wait accumulated under OfferPreview: outbound message/key allocation, weak-handle lookup, view-offer record and"
     }
    ]
   },
@@ -6591,5 +6477,5 @@
    "since": "2026-11-19T12:00Z"
   }
  ],
- "source_revision": "30afb76f2b7b159c58da3712183c76b976e712d7"
+ "source_revision": "03712ecdb1224f4bb80ec5689ffdf07230298b6f"
 }
