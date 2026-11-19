@@ -5144,25 +5144,22 @@
   {
    "n": 1821,
    "name": "Menu/Layers SPEC",
-   "done": "",
+   "done": "2026-11-19T23:23Z",
    "goal": false,
    "under": 1815,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T23:13Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T23:23Z",
+     "text": "855dac1d20 adds the ninth Layers tile to the existing layout, hit-target and caption checks, and verifies the 3D Map visibility slot. The repaired case passed in Mac Unity. UiExtendedMenuTests 12 passed, 1 failed, 0 skipped; the pre-existin"
+    }
+   ]
   },
   {
    "n": 1822,
