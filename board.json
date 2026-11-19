@@ -2047,7 +2047,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-19T10:00Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -2396,26 +2405,6 @@
      "by": "HEAVY",
      "at": "2026-11-16T10:01Z",
      "text": "08cd89dfbb adds the repeatable Backdoor smoke CLI and recipe."
-    }
-   ]
-  },
-  {
-   "n": 1321,
-   "name": "Search History and Filters headings",
-   "done": "2026-11-16T09:59Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-16T09:59Z",
-     "text": "504bea27ce on main. Search headings raised 24 UI units; Editor preview showed aligned History/Filters and Search result/Filters, with rows in place. Prefab review isolated three RectTransforms; Search check bumped."
     }
    ]
   },
@@ -12418,7 +12407,11 @@
   {
    "screen": "Suggestions",
    "since": "2026-11-19T07:26Z"
+  },
+  {
+   "screen": "Video/Source",
+   "since": "2026-11-19T09:43Z"
   }
  ],
- "source_revision": "e16fdf6a7b4972dfdfa2bc464585d34b11cf2424"
+ "source_revision": "96aac2be4e5f6c2fd260c6c13d8aff56c5b67370"
 }
