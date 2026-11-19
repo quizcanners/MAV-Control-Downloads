@@ -2273,46 +2273,6 @@
    ]
   },
   {
-   "n": 1281,
-   "name": "Using Strong for first changed-frame Planet Renderer allocation capture",
-   "done": "2026-11-16T05:25Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T05:25Z",
-     "text": "Strong saved-view signed Dev 848 first-changed-frame and coast native results in CPU.md 196360cf3a. Both signs of the fast zoom reproduced the hit. Device health PASS, original view exact, Normal pacing, no transient device files or ADB for"
-    }
-   ]
-  },
-  {
-   "n": 1282,
-   "name": "Share Planet terrain culling bounds from the pinned reference mesh. Strong Dev 848 sampled the five Vector4 allocation in PrepareHeights during the first changed zoom frame. Keep the exact per-quadran",
-   "done": "2026-11-16T05:24Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T06:25Z",
-     "text": "Published 196360cf3a, Unity terrain and draw reuse 49/49, Roslyn clean. Strong Dev 848 433b4a7754d4 verifies the old five-entry call is absent from PrepareHeights. Coverage passed with zero holes. First-frame latency varied by view, with bo"
-    }
-   ]
-  },
-  {
    "n": 1285,
    "name": "Align the left-list",
    "done": "2026-11-16T05:26Z",
@@ -11194,16 +11154,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T05:09Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -11230,8 +11181,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T05:08Z",
-     "text": "67ed538ff1 scores native Unity photo revisions against fixed RGB-D camera tracks without using sensor poses in the solver. Of 675 scored cases, 92 passed image checks and 5 improved both centre and angle. Median centre error rose 2.1\u20132.6 mm"
+     "at": "2026-11-19T05:25Z",
+     "text": "ee5e5d82a5 tests rotation at an exact fixed centre. DA3 replays improved orientation in 43/96 accepted fixed-centre fits and 53/92 joint fits. With calibrated poses, depth and lens, injected yaw improved in 13/17 fixed-centre and 6/12 joint"
     }
    ]
   },
@@ -12438,5 +12389,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "a2062cc38c24eb0db5489c2c2c4d9b2c7a2f20e1"
+ "source_revision": "ecebf04649497b33b9f1236935a4a47b1d20fc22"
 }
