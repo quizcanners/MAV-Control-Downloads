@@ -2929,26 +2929,6 @@
    "notes": []
   },
   {
-   "n": 1656,
-   "name": "MavChat GPS still shows the flight telemetry grid after 1597. Fix visibility at the owner for the actual MavChat surface (Navigator SPEC",
-   "done": "2026-11-18T14:54Z",
-   "goal": false,
-   "under": 408,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_MAVCHAT_FIX",
-     "at": "2026-11-18T14:54Z",
-     "text": "18feaf30af on main. Reparented Telemetry grids now return under the hidden telemetry panel while MavChat is active, so a refresh cannot draw them over GPS. Unity batch compilation passed and Roslyn reports no new errors. BottomLeftRowTests "
-    }
-   ]
-  },
-  {
    "n": 1657,
    "name": "Audio Monitoring SPEC",
    "done": "2026-11-18T15:07Z",
@@ -5540,6 +5520,29 @@
     {
      "who": "MAC_BOARD",
      "since": "2026-11-19T14:53Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 1781,
+   "name": "Keep the centre Menu shortcut preview above the MavChat capsule throughout its fade (Menu SPEC",
+   "done": "",
+   "goal": false,
+   "under": 367,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-19T14:56Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
