@@ -4824,16 +4824,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T16:53Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Render the synthetic top-down tile around the prior position",
@@ -4855,8 +4846,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-19T16:52Z",
-     "text": "00a7232be8 adds the retained-photo fallback after a mid-clip refusal and verifies the query still owns its inferred depth and lens. The earlier-frame retry recovered once. Later real-photo and top-down attempts refused. The 12 m overlapping"
+     "at": "2026-11-19T17:03Z",
+     "text": "516f187c87 tries the first live observation when the last fails. It found and confirmed a second mid-clip recovery once. The repeat refused. The 12 m overlap control passed and Zurich held. Garden orbit and inner court joined again. Approac"
     }
    ]
   },
@@ -5814,5 +5805,5 @@
    "since": "2026-11-19T16:28Z"
   }
  ],
- "source_revision": "0e103c46c546fb7367a704eddfe4bf0164541f2e"
+ "source_revision": "516f187c874e33d6baf5aea2ccc210eca3be68ba"
 }
