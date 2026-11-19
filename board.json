@@ -2282,53 +2282,6 @@
    ]
   },
   {
-   "n": 1301,
-   "name": "Using Strong for the isolated Planet patch allocation replay",
-   "done": "2026-11-16T07:27Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T07:27Z",
-     "text": "Strong passed 6 matched fast pinches and a 3654-sample coverage route in signed isolated Dev 848 fe63f4e50614. CPU.md 7d98580b74 records timings. Original signed Dev 848 433b4a7754d4 and pose restored with matching audited data and UID. Nor"
-    }
-   ]
-  },
-  {
-   "n": 1303,
-   "name": "Keep routine Search result cleanup quiet in the Unity Console",
-   "done": "2026-11-16T07:28Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-16T07:28Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Suppress expected UnselectAll and empty-result log entries while preserving Search cleanup",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-16T07:28Z",
-     "text": "e59c40985b suppresses routine Search clear messages without skipping cleanup. Windows Unity Play through the Backdoor: synthetic selection changed Search Drone -> None with zero Clearing result entries. Roslyn comparison reported NEW ERRORS"
-    }
-   ]
-  },
-  {
    "n": 1304,
    "name": "Find what moves the Peers Exit group button down while the Peers panel is folded by swipe. Read so far",
    "done": "2026-11-16T07:35Z",
@@ -10818,7 +10771,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-19T07:29Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -12441,5 +12403,5 @@
    "since": "2026-11-19T07:26Z"
   }
  ],
- "source_revision": "c3553b1c3d7b57305cfe67afdd1619d394538e1e"
+ "source_revision": "9a2d1b45955529223542f4cd767f09c28dd3e7a4"
 }
