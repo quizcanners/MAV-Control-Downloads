@@ -5974,18 +5974,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-19T11:54Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-19T12:08Z",
+     "text": "ff09272cfb records the same-build scheduler trace. The longest measured ReplyCreate call spent almost all its wall time asleep; thousands of ordinary calls remained cheap. The older 102 ms scope lacked scheduler evidence. Continue from the "
+    }
+   ]
   },
   {
    "n": 1775,
@@ -6550,5 +6547,5 @@
    "since": "2026-11-19T12:00Z"
   }
  ],
- "source_revision": "38dfe6eb2fa0ae3a6bf28b3f2bcd9cefd57e2c7d"
+ "source_revision": "30afb76f2b7b159c58da3712183c76b976e712d7"
 }
