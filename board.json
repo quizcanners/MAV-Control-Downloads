@@ -11718,16 +11718,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T02:43Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -11754,8 +11745,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T02:42Z",
-     "text": "103ca375fd corrects upside-down URP reference colour confirmed by native D3D11 capture. Three controlled RGB-D proposals reached all-real confirmation and admitted only four later real observations each. Mixed confirmation and unrelated inp"
+     "at": "2026-11-19T02:54Z",
+     "text": "eac3b8e7d0 adds the held-out RGB-D render benchmark. Gap fill preserved matching detail. Direct photos and both prior-offset warps fitted all 27 cameras in both rankings, with more inliers from direct photos. 11 focused Python tests passed,"
     }
    ]
   },
@@ -12722,5 +12713,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "80e0f65586a464e506d3eda218378f47b597c444"
+ "source_revision": "eaa9ea6b55a80c5e6ba96431930fdfbbcc946fd9"
 }
