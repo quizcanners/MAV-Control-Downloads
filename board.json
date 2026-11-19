@@ -10535,16 +10535,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T09:15Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -10571,8 +10562,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T09:14Z",
-     "text": "74b17f38c8 and 82fc2d9c39 on main. Independent per-pixel depth confirmation stays a TestRun comparison."
+     "at": "2026-11-19T09:22Z",
+     "text": "79fc1baeb5 on main. Added alignment-independent camera-turn scoring and qualified three Heads captures in Unity."
     }
    ]
   },
@@ -12523,5 +12514,5 @@
    "since": "2026-11-19T07:26Z"
   }
  ],
- "source_revision": "8672be22d9a609bdae03b33d8ceee5c141a9e453"
+ "source_revision": "9ba75846ae8090d6a483dde292fe17b61b8e7a9e"
 }
