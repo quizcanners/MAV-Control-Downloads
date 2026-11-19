@@ -5210,25 +5210,22 @@
   {
    "n": 1789,
    "name": "SDC Ping SPEC",
-   "done": "",
+   "done": "2026-11-19T17:07Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_SDC",
-     "since": "2026-11-19T16:47Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_SDC",
+     "at": "2026-11-19T17:07Z",
+     "text": "Published fbf88299a3 on main. The receiver no longer rejects tap age or timestamp order. The USB mark duration starts at acknowledgment. Settings is glanceable and the SDC Ping page is due. Host receiver and fake MSP checks reproduced the d"
+    }
+   ]
   },
   {
    "n": 1790,
@@ -5819,5 +5816,5 @@
    "since": "2026-11-19T16:28Z"
   }
  ],
- "source_revision": "a13306eb5d44501935d8fbbb918ab5f029119891"
+ "source_revision": "fbf88299a3d757aa3a6deef0cff7239696178448"
 }
