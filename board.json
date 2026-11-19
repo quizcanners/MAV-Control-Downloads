@@ -12093,25 +12093,22 @@
   {
    "n": 1717,
    "name": "Mac daily build adopts the existing pinned GitHub host keys before the wrapper calls Git or launches iOS. Keep explicit caller SSH settings and strict host verification. Nightly README",
-   "done": "",
+   "done": "2026-11-19T01:37Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T01:32Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T01:37Z",
+     "text": "193a90dd80 on main. Manual Mac daily uses the existing strict GitHub pin before Git recovery or iOS launch. Real GitHub read passed with no caller override. Explicit command preserved. 42 host tests passed. The separate 862 retry uses the p"
+    }
+   ]
   }
  ],
  "verify": [
@@ -12716,5 +12713,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "f3870ffeef80c554afa57a2cf30ae8a6cac1e8ca"
+ "source_revision": "764ab849a04d3b57ec0cf472fe35af790acd824c"
 }
