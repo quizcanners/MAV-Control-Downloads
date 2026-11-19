@@ -2047,16 +2047,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T07:43Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -2088,8 +2079,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T07:31Z",
-     "text": "14c5667ce7 closes Bootstrap's additive scenes and releases Merged Buttons materials on Station disable. Mac MapOnly: before, 8 additive scenes and 80 generated materials stayed alive; after, Bootstrap only and 0 materials. Same-frame restar"
+     "at": "2026-11-19T07:59Z",
+     "text": "2a658bb528 detaches the surface display, joins both reads and the decode, and frees GPU resources before reporting failures. Mac Metal: old kept 2 live buffers; fixed freed both and reported all 3 faults. Station restart and in-Play reload "
     }
    ]
   },
@@ -12292,5 +12283,5 @@
    "since": "2026-11-19T07:26Z"
   }
  ],
- "source_revision": "669c8c770ab7d23571d48ba051cb58575711d782"
+ "source_revision": "a8721fc354bf5696b18101073cfbe29a7c6234e9"
 }
