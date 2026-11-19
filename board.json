@@ -5058,25 +5058,22 @@
   {
    "n": 1801,
    "name": "Mac Unity test assembly fails to compile after 5aead4bb99 changed SQLite outbound reads to OutboundAsk. Migrate the seven remaining Web Mercator test callers to the new request type and keep every inp",
-   "done": "",
+   "done": "2026-11-19T19:58Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T19:47Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T19:58Z",
+     "text": "e0919154f7 migrates seven remaining callers to OutboundAsk with the same inputs and assertions. Current main compiles in Unity. WebMercatorSqliteOutboundTests and the paused-shutdown paging case passed 16/0/0. Compile comparison removed sev"
+    }
+   ]
   },
   {
    "n": 1802,
