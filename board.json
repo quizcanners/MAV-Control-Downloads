@@ -115,16 +115,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T14:14Z",
-     "noted": "",
-     "progress": 56,
-     "ticked": 5,
-     "total": 9
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: the state machine and every mode, 1 s settle, release-frame full resolution, VideoOnBlack, kept screen-size picture, ribbons as kept renderers, Editor 2x frame read on Mac and Rog, 8 fps idle",
@@ -176,8 +167,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T10:24Z",
-     "text": "e5dd7328ef restores half size on held map input and native size on release, including glide. Mac Play verified both edges and the sharp still, one refresh for visible borders and none for notification volume. Synthetic reported movement onl"
+     "at": "2026-11-19T14:40Z",
+     "text": "ecf7de4409 refreshes the kept double-resolution map every five seconds while idle. Native Mac Play intervals 5.017 and 5.125 s, measured 0.195 fps at an 8 fps UI target. Existing scene invalidation stays immediate; lock changes request the "
     }
    ]
   },
