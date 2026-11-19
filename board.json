@@ -4957,25 +4957,22 @@
   {
    "n": 1806,
    "name": "Web Mercator SPEC",
-   "done": "",
+   "done": "2026-11-19T21:18Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T21:09Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T21:18Z",
+     "text": "39019a8460 on main. Mac .NET 8 with real queue, pins, admission, read worker and snapshot owners measured 40 to 0 B/traversal, 64 to 0 B/paused attempt and 784 to 736 B/admitted read. FIFO, pins, captured revisions, pause, retries and loss "
+    }
+   ]
   },
   {
    "n": 1807,
@@ -5574,5 +5571,5 @@
    "since": "2026-11-19T20:20Z"
   }
  ],
- "source_revision": "cd681340b37665404fc14ac978258f01bd35d52b"
+ "source_revision": "39019a846069e501dd2b0ec0c949912de42bfe73"
 }
