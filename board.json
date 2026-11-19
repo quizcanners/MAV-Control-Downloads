@@ -11828,25 +11828,22 @@
   {
    "n": 1749,
    "name": "Web Mercator SPEC",
-   "done": "",
+   "done": "2026-11-19T07:01Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-19T06:50Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-19T07:01Z",
+     "text": "3b236b2214 checks root capacity before peer admission. Compared to the old method, 100 blocked-root updates made 0 vs 2,400 eligibility calls, and full-pool updates 0 vs 100. The next root admitted all 24 due peers. 40 priority controls, 99"
+    }
+   ]
   },
   {
    "n": 1750,
@@ -12474,5 +12471,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "2b424e4e5b9414a0eee928e1b2a62bd268632971"
+ "source_revision": "09b0b1a1e3afe2aee4736498cac271d0a71fed0f"
 }
