@@ -2047,7 +2047,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-19T01:18Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -12737,5 +12746,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "5ff84c6c9d24746f1ed7acf67fb4e8a5be99feca"
+ "source_revision": "4ec9b7d7b68f96985fb10473f6fe4b1ef9f59f48"
 }
