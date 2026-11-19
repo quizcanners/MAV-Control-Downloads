@@ -2617,26 +2617,6 @@
    ]
   },
   {
-   "n": 1632,
-   "name": "Situation trail compatibility coverage is missing after legacy .trail import retirement (88e424d27409f249606a231fae1e4dee8abf13c7). Add disposable fixtures in Assets/_PROJECT/Tests/SituationTrailSpill",
-   "done": "2026-11-18T18:50Z",
-   "goal": false,
-   "under": 430,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-18T18:50Z",
-     "text": "f2a770ace2. Added three disposable Situation trail fixtures and exercised saved-month loading plus SQLite reopen."
-    }
-   ]
-  },
-  {
    "n": 1651,
    "name": "3D map generation (Development) is not up to spec in code layout",
    "done": "",
@@ -4561,7 +4541,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-19T18:50Z",
+     "noted": "",
+     "progress": 75,
+     "ticked": 3,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Render the synthetic top-down tile around the prior position",
