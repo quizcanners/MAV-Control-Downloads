@@ -11354,16 +11354,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T04:33Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -11390,8 +11381,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T04:32Z",
-     "text": "52a14b79b4 adds the read-only Backdoor replay from a saved Street View depth bank. Kenilworth Save/reopen rebuilt the same 151,102 Disks and occupancy hash from 24 depth/confidence records and six original photos, with zero inference calls "
+     "at": "2026-11-19T04:41Z",
+     "text": "d04c529b85 adds a display-only Pano360 yaw control and a reciprocal displacement/colour transfer score. The fixed Kenilworth draft recovered about 4 px at 1 degree and 13\u201316 px at 3 degrees overhead. Oblique +3 degrees changed 15,704 blend "
     }
    ]
   },
@@ -12524,5 +12515,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "6c6499fdaf94ec0806eaecbbf0e30a39158109c3"
+ "source_revision": "8ad48ec0f7a0d8d83763cc5436d0ed6817f7e173"
 }
