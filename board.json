@@ -2293,26 +2293,6 @@
    ]
   },
   {
-   "n": 1272,
-   "name": "Record a final task note and close the task in one task_flow command. Save the note",
-   "done": "2026-11-16T04:27Z",
-   "goal": false,
-   "under": 412,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T04:27Z",
-     "text": "Published d97ea56635. Final note, claim release and screen bumps now publish together through --done N --note. Seven focused host tests passed, including failed closure leaving the earlier note and claim intact. Strict guide check passed. N"
-    }
-   ]
-  },
-  {
    "n": 1273,
    "name": "Make one claim request take an expired task atomically. Preserve fresh holders",
    "done": "2026-11-16T04:33Z",
@@ -11434,16 +11414,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T04:22Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -11470,8 +11441,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T04:21Z",
-     "text": "6b159121cc stages four-view model decode on a worker while the app continues with eight views. Cold Editor open was 172 ms plus 38 ms decode. The serialized model moved 1.17\u20131.19 GB of allocations off the frame loop; Zurich admitted two sho"
+     "at": "2026-11-19T04:32Z",
+     "text": "52a14b79b4 adds the read-only Backdoor replay from a saved Street View depth bank. Kenilworth Save/reopen rebuilt the same 151,102 Disks and occupancy hash from 24 depth/confidence records and six original photos, with zero inference calls "
     }
    ]
   },
@@ -12535,5 +12506,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "e0cf56162df18040f9135bf44b4df9a4e75c1c66"
+ "source_revision": "80a9e5c1d3eb1150513ba575cdc737d2f8400422"
 }
