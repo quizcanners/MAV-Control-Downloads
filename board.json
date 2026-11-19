@@ -1681,16 +1681,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T16:24Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Dispatcher commands still in AI_Sandbox_DeviceDebugCommands*.cs: the remaining vpn.*, training and remote-sensor editors, performance.wires, cfg/system.set and the other cfg cases in DebugControl; the",
@@ -1712,8 +1703,8 @@
    "notes": [
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T16:22Z",
-     "text": "3b9fc06873 gives the popup slot to UIPopups and retains Station.UI.Popup as its shared reader. Mac Play Menu swipe took the slot, held it against a competing popup, and released it on lift. EditMode 195/0/0 and direct ownership checks passe"
+     "at": "2026-11-19T16:31Z",
+     "text": "8fcec5cd2b gives UIViewStack the shared view history, return snapshots, registration and revision. Mac Play verified Settings to Workflow Selector, X back to Settings, then X to the map with empty history. EditMode 150/0/0, Roslyn clean, Ma"
     }
    ]
   },
@@ -2283,31 +2274,6 @@
    ]
   },
   {
-   "n": 1470,
-   "name": "Editor/device",
-   "done": "2026-11-18T16:30Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_BLUR_CAPTURE",
-     "at": "2026-11-17T07:29Z",
-     "text": "Unity Editor Play timing probe: alternating overlay changed before Canvas update; 8/8 captures after FinishFrameRendering returned previous frame, while WaitForEndOfFrame captured the current frame 8/8. After TriggerEndOfFrameCallbacks was "
-    },
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-18T16:30Z",
-     "text": "Published 846894a18b. Mac Unity Play matched the current overlay in 18/18 captures across RenderTexture and ReadPixels. Duplicate requests coalesced and disable cancelled the pending capture. Final-screen sharing included the overlay and Wo"
-    }
-   ]
-  },
-  {
    "n": 1493,
    "name": "Identify the GLES shader pass and keywords compiled on the Lenovo PowerVR driver during a warmed map pan",
    "done": "",
@@ -2755,26 +2721,6 @@
     }
    ],
    "notes": []
-  },
-  {
-   "n": 1665,
-   "name": "Continue the current 3D Street View across Video Source changes. Retry overlapping incoming footage against retained live keyframes before nearby Positioned archives. Video Processing SPEC",
-   "done": "2026-11-18T16:28Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-18T16:28Z",
-     "text": "b3897122e0 on main. Kept unsaved 3D Street View across Video Source changes."
-    }
-   ]
   },
   {
    "n": 1666,
@@ -5887,7 +5833,11 @@
   {
    "screen": "Main/MapSource",
    "since": "2026-11-19T15:13Z"
+  },
+  {
+   "screen": "Main/Menu",
+   "since": "2026-11-19T16:28Z"
   }
  ],
- "source_revision": "5dbf033656b30b722e8a8dc8c59bbd96306928f6"
+ "source_revision": "8fcec5cd2b372582cd2cdd2d704b48a4b6732351"
 }
