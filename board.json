@@ -2717,26 +2717,6 @@
    ]
   },
   {
-   "n": 1650,
-   "name": "Dev Mode > Tasks in-app edits",
-   "done": "2026-11-18T16:14Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-18T16:14Z",
-     "text": "2bcce1b9cd on main. Dev Mode tasks have immediate priority, park and review edits in board_edits. Stable BoardEdit records use the hub envelope. Confirmed/expired edits retire; CLI ignores closed/stale input and keeps newest per field. Unit"
-    }
-   ]
-  },
-  {
    "n": 1651,
    "name": "3D map generation (Development) is not up to spec in code layout",
    "done": "",
@@ -5340,6 +5320,20 @@
      "text": "bd78ab26b7 restores the Compass prefab loading group and moves scene visibility to its parent. World corners and sibling order preserved. Mac Compass EditMode 12/0/0. Play confirmed renderer alpha 1 to 0 during loading, 0 under the parent g"
     }
    ]
+  },
+  {
+   "n": 1787,
+   "name": "Web Mercator SPEC",
+   "done": "",
+   "goal": false,
+   "under": 1558,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5880,5 +5874,5 @@
    "since": "2026-11-19T15:13Z"
   }
  ],
- "source_revision": "bd78ab26b733a18f9e24735e209025b5cbcd6152"
+ "source_revision": "d8630745080681d0354172fc253640e846e061d1"
 }
