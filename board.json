@@ -2047,16 +2047,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T05:25Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -2088,8 +2079,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T01:30Z",
-     "text": "d389315ae2 on main. Mac Play confirmed cold Chat restart, old QR/tap retired, fresh startup tap serviced, ordinary close remembers peer."
+     "at": "2026-11-19T05:34Z",
+     "text": "444a9b33e1 clears stale Paste report, waypoint references and Undo on Station shutdown. Baseline retained 2+2 refs; fixed disable cleared all."
     }
    ]
   },
@@ -12419,5 +12410,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "c53d6a2ccd1e6d425df8f1ef0039d11dc2894be2"
+ "source_revision": "33216a0007292123f70a3ba973ddc7d9bb206af2"
 }
