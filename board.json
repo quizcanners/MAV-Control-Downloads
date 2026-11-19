@@ -2412,7 +2412,9 @@
    "done": "",
    "goal": false,
    "under": 1693,
-   "ticks": [],
+   "ticks": [
+    "2026-11-19T13:28Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -2421,15 +2423,15 @@
      "who": "MAC_BOARD",
      "since": "2026-11-19T13:21Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Vertex colour pass at Save, no UVs or atlas for the opaque mesh",
-     "x": false
+     "x": true
     },
     {
      "t": "Mesh shader reads vertex colour and the Pano360 projection",
@@ -2954,26 +2956,6 @@
      "by": "GETAC",
      "at": "2026-11-18T14:03Z",
      "text": "Published0eac7bd27f removes obsolete Destinations Records access, duplicate interop using and12 retired fixture setup assignments; assertions retained. Final pulled6f2ee76551 Roslyn e/a/p/m: NEW ERRORS none against039318 with matching Edito"
-    }
-   ]
-  },
-  {
-   "n": 1641,
-   "name": "Place the left-list flick tongue at the displayed Telemetry detail edge when a subtab is expanded and restore it on collapse or list switch (Lists SPEC",
-   "done": "2026-11-18T13:27Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_TELEMETRY_EDGE",
-     "at": "2026-11-18T13:27Z",
-     "text": "2e7478cdd0 published on main. The shared tongue and its hit area track the right edge and visible midpoint of an expanded detail, and return on collapse or list change. Three Unity EditMode checks passed. The authored prefabs measured zero "
     }
    ]
   },
@@ -6383,5 +6365,5 @@
    "since": "2026-11-19T12:00Z"
   }
  ],
- "source_revision": "7a95e48f409bf94f7e89aba3cceaeac8fc05ba08"
+ "source_revision": "e22bb94c272d8b133b96b926cf1c17f5b384b9a9"
 }
