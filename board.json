@@ -4904,16 +4904,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T16:43Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Render the synthetic top-down tile around the prior position",
@@ -4935,8 +4926,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-19T16:39Z",
-     "text": "92bc44c00c publishes heading recovery and earlier buffering. Unity confirmed the overlapping Kenilworth crop after changing heading and placing Synthetic 12 m east. The unrelated Zurich control held the draft. The ordinary replay joined inn"
+     "at": "2026-11-19T16:52Z",
+     "text": "00a7232be8 adds the retained-photo fallback after a mid-clip refusal and verifies the query still owns its inferred depth and lens. The earlier-frame retry recovered once. Later real-photo and top-down attempts refused. The 12 m overlapping"
     }
    ]
   },
@@ -5874,5 +5865,5 @@
    "since": "2026-11-19T16:28Z"
   }
  ],
- "source_revision": "1c450aea45056e574bb82a23015466b5e8198419"
+ "source_revision": "00a7232be854d1a9344038109bfe1084fe9678de"
 }
