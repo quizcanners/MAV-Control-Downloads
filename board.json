@@ -8753,8 +8753,8 @@
     {
      "who": "GETAC",
      "since": "2026-11-19T06:01Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-19T06:13Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -8763,8 +8763,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-18T16:23Z",
-     "text": "Published e59edb6e67. FindReply reads existing peer notes. On a 17-layer/depth-16 extracted tree, 82 lookups now allocate zero irrelevant notes (64 before), six controls passed for lookup, replacement and ordering. Rebased Roslyn NEW ERRORS"
+     "at": "2026-11-19T06:13Z",
+     "text": "After e59edb6e67, 6701ebac56 follows owed child edges and constructs replies from the prepared branch. Deep lookup fell from 86 to 19 peer notes; host 6,258 assertions, ordered/replaced requests, independent peers, current hashes and a prem"
     }
    ]
   },
@@ -12410,5 +12410,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "39e703045cf2a1bc6bd78a2f73bef595b19f8b9a"
+ "source_revision": "97f6ab875f28ad3647da9d187be756d41e53f581"
 }
