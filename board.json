@@ -1681,16 +1681,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T16:32Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Dispatcher commands still in AI_Sandbox_DeviceDebugCommands*.cs: the remaining vpn.*, training and remote-sensor editors, performance.wires, cfg/system.set and the other cfg cases in DebugControl; the",
@@ -1712,8 +1703,8 @@
    "notes": [
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T16:31Z",
-     "text": "8fcec5cd2b gives UIViewStack the shared view history, return snapshots, registration and revision. Mac Play verified Settings to Workflow Selector, X back to Settings, then X to the map with empty history. EditMode 150/0/0, Roslyn clean, Ma"
+     "at": "2026-11-19T16:42Z",
+     "text": "7d078b1cac gives UISharedExit the shared open, return and close handlers. Mac Play verified X from Workflow Selector back to Settings and then the map, and CloseAll from a nested view cleared the popup and history. EditMode 182/0/0, Roslyn "
     }
    ]
   },
@@ -5839,5 +5830,5 @@
    "since": "2026-11-19T16:28Z"
   }
  ],
- "source_revision": "92bc44c00cdc64c54e3a316f05c42dbc586462df"
+ "source_revision": "7d078b1cacb9882ac885993cd63dcd3630e13682"
 }
