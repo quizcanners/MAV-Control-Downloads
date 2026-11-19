@@ -2293,26 +2293,6 @@
    ]
   },
   {
-   "n": 1268,
-   "name": "Align the Android daily workflow host test with advisory EditMode results while keeping cancellation",
-   "done": "2026-11-16T04:12Z",
-   "goal": false,
-   "under": 375,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T04:11Z",
-     "text": "Published cab973aa7d. Host tests now assert advisory EditMode, explicit skip and cancellation, and the actual suite/build runner guard bindings. Both tests passed; PowerShell 7 and Windows PowerShell 5.1 exercised Force, auto, and launcher "
-    }
-   ]
-  },
-  {
    "n": 1269,
    "name": "Clean the UI Style Sheet and Diagnostics guidance for goal 606. Put the current rules in plain language",
    "done": "2026-11-16T04:16Z",
@@ -11998,6 +11978,20 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1726,
+   "name": "Fix the Windows Web Mercator write gate reporting UnknownVolume. On actual Windows Dev 862 GetDiskFreeSpaceExW measured 27",
+   "done": "",
+   "goal": false,
+   "under": 1558,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -12602,5 +12596,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "5ff5b490d56961e7d44f9e9e824ebaee16c2327a"
+ "source_revision": "5e62e4a1cb227659c653ac2dddbd818db8c010c7"
 }
