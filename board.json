@@ -2273,26 +2273,6 @@
    ]
   },
   {
-   "n": 1286,
-   "name": "Reject misaddressed or malformed screenshot chunks in peer_diag on local and VPN reads",
-   "done": "2026-11-16T05:41Z",
-   "goal": false,
-   "under": 375,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T05:41Z",
-     "text": "Published e87dc55e37. Local and VPN reads validate capture name, requested index, size/count, stamp agreement across the transfer, Base64 and decoded chunk length. All 53 peer_diag tests passed, including a wrongly indexed VPN reply preserv"
-    }
-   ]
-  },
-  {
    "n": 1287,
    "name": "Isolate task_flow board snapshots from concurrent origin/main tracking updates and expose the actual Git error when fetching the board fails.",
    "done": "2026-11-16T05:53Z",
@@ -11765,7 +11745,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-19T05:41Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -12457,5 +12446,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "43f2d44aaa064a53700b028ccdd1f489a896cd8f"
+ "source_revision": "8d630c9f2229d5d5cfcb1562fa6d59cd2ead4837"
 }
