@@ -2027,22 +2027,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T01:08Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T01:07Z",
-     "text": "4cc3db7e1a on main. Fullscreen NO SIGNAL and paused files settle at 8 FPS in Mac Play."
+     "at": "2026-11-19T01:17Z",
+     "text": "9cbb8747d5 on main. Paused Timeline reused blur for all 52 Mac Play updates at 8 FPS. Playback kept Video:TimelinePlayback and a brightness change refreshed once. EditMode 53 passed. Roslyn clean."
     }
    ]
   },
@@ -2278,26 +2269,6 @@
      "by": "ROG",
      "at": "2026-11-16T01:19Z",
      "text": "Published c1d4e2439c: seed the partial Orthophoto footprint test with a synthetic camera frustum. Rog reproduced one failing fixture on 8feb54d9c4. Native Unity: DJI coordinates 36/36, motor-unlock source placement 9/9, Orthophoto 5/5 after"
-    }
-   ]
-  },
-  {
-   "n": 1250,
-   "name": "Using Strong for current-build Mask Pages fast zoom",
-   "done": "2026-11-16T01:16Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T01:16Z",
-     "text": "Strong free on private Dev 848 067634a50d26. Four wide-pinch control runs and two native replays recorded in CPU.md a3ac9772f9. Original camera and pacing restored. Owned Android profiling files and ADB forwards cleared."
     }
    ]
   },
@@ -12766,5 +12737,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "860e765a8edb557d838549367d1e6eaf39523875"
+ "source_revision": "5ff84c6c9d24746f1ed7acf67fb4e8a5be99feca"
 }
