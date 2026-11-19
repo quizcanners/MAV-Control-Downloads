@@ -11648,25 +11648,22 @@
   {
    "n": 1759,
    "name": "Navigator SPEC",
-   "done": "",
+   "done": "2026-11-19T09:40Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T08:54Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T09:40Z",
+     "text": "e85defd9a7. Folded zoom releases input immediately and reveals through a shared blur below the panel and capsule. Portrait Play observed capture, immediate raycast release and draw order. MavChatSheetTests 115 passed."
+    }
+   ]
   },
   {
    "n": 1760,
@@ -12502,5 +12499,5 @@
    "since": "2026-11-19T07:26Z"
   }
  ],
- "source_revision": "2f73e9b1bb70ffc660ea4e93bcc6eae3bb8b6387"
+ "source_revision": "cfd3ecf05dc2c9e1bfe0299c0388fcba16abb0e7"
 }
