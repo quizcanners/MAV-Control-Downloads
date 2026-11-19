@@ -2273,46 +2273,6 @@
    ]
   },
   {
-   "n": 1266,
-   "name": "Preserve native empty submesh offsets when batching Planet reference mesh descriptors",
-   "done": "2026-11-16T04:18Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T04:17Z",
-     "text": "Done: cbd8887315 preserves the four empty offsets at the end of the shared index buffer while leaving mask zero at zero and keeping the batched upload. Native Unity matched all 92 meshes byte for byte and one focused EditMode test passed in"
-    }
-   ]
-  },
-  {
-   "n": 1269,
-   "name": "Clean the UI Style Sheet and Diagnostics guidance for goal 606. Put the current rules in plain language",
-   "done": "2026-11-16T04:16Z",
-   "goal": false,
-   "under": 606,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T04:16Z",
-     "text": "Published 5e480f4e7a. Style Sheet retains the current reusable controls, backdrop, selector and panel rules without duplicating the conversation. Diagnostics has a direct visibility/status rule and current ActivityLines link. Strict guide c"
-    }
-   ]
-  },
-  {
    "n": 1270,
    "name": "Make the daily build test-gate host checks pass on Rog and Unix. Preserve full-suite workspace isolation and macOS skip-argument coverage without invoking Unity.",
    "done": "2026-11-16T04:22Z",
@@ -11936,25 +11896,22 @@
   {
    "n": 1724,
    "name": "Street View SPEC",
-   "done": "",
+   "done": "2026-11-19T04:19Z",
    "goal": false,
    "under": 408,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T04:04Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T04:19Z",
+     "text": "9ff3dbedc7 on main. Deleting the empty model folder repairs the saved selection even when the Street View list is hidden or unindexed."
+    }
+   ]
   },
   {
    "n": 1725,
@@ -12596,5 +12553,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "5e62e4a1cb227659c653ac2dddbd818db8c010c7"
+ "source_revision": "092dba36573e1ea24817e2888c7b778c5c38cb6c"
 }
