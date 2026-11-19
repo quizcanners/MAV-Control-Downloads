@@ -2956,26 +2956,6 @@
    "notes": []
   },
   {
-   "n": 1652,
-   "name": "Elevation exchange retains the last admitted transfer outcome and current committed offsets for timing a paired recovery. Reuse existing sender and receiver owners and readouts without per-frame loggi",
-   "done": "2026-11-18T14:36Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-18T14:35Z",
-     "text": "Development planet.status now has active and last-send/receive rows with peer, cell, transfer ID, phase, acknowledged/committed bytes, start and observation times and end reason. Peer Cancel and publication survive slot release. One in-memo"
-    }
-   ]
-  },
-  {
    "n": 1653,
    "name": "Elevation sender reuses full raster validation only when fresh SHA-256 of the opened file matches its validated digest. Keep proof on the existing catalog load and cell revision",
    "done": "2026-11-18T14:51Z",
@@ -5603,6 +5583,20 @@
      "text": "52a4e55db3 reads TestRun from Verification Runtime. Mac arm64 development build 864 succeeded with Remote Sensors API excluded. Strict code-signature verify, player compiler flag and IL2CPP disabled stub agree. Roslyn found no new errors."
     }
    ]
+  },
+  {
+   "n": 1779,
+   "name": "Reduce Web Mercator index publication wait behind SQLite Retention (Web Mercator SPEC",
+   "done": "",
+   "goal": false,
+   "under": 430,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
