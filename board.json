@@ -5019,11 +5019,26 @@
    "ticks": [],
    "priority": "normal",
    "parked": false,
-   "flags": [
-    "verify-only"
-   ],
+   "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Play a Kenilworth clip in Video Source, start 3D generation (Backdoor `video.odometry rtx da3 live`, poll `video.odometry rtx da3 status` until ready) and record whether it runs on Metal or where it s",
+     "x": false
+    },
+    {
+     "t": "Record ms per window (warm, over at least 8 windows), first-window cold time, and GPU memory the model holds on the Mac (compare with the 4 GiB the RTX holds)",
+     "x": false
+    },
+    {
+     "t": "Record every Metal limit hit (compute shader, buffer size, texture format, Inference Engine layer that falls back or fails), with the log line",
+     "x": false
+    },
+    {
+     "t": "Write the numbers and limits into a new section of Performance Baseline/GPU.md, next to the Windows rows, then `--release 1804` with the commit hash",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
