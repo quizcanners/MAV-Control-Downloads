@@ -2273,46 +2273,6 @@
    ]
   },
   {
-   "n": 1293,
-   "name": "Using Strong for the signed Planet terrain bounds replay",
-   "done": "2026-11-16T06:24Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T06:24Z",
-     "text": "Strong returned on signed private Dev 848 apk 433b4a7754d4 from 196360cf3a. Six matched pinches and passing coverage in CPU.md b72caa3bb7. Package UID and both audited files unchanged. Device Health PASS, original pose exact, Normal pacing "
-    }
-   ]
-  },
-  {
-   "n": 1294,
-   "name": "Stop Visual Odometry from rereading a stalled frame after its tracking timeout. Keep the last preview offset and resume matching only after a new frame is published.",
-   "done": "2026-11-16T06:26Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T06:26Z",
-     "text": "Published 15b387088b. Timeout drops the tracked points and previous pixels once, while the last accepted frame key and offset remain. New frames prime a fresh pair and source change or version rollback resets the offset. Host probe against "
-    }
-   ]
-  },
-  {
    "n": 1295,
    "name": "Remove repeated Lineage and WaitingImagery allocations from Planet Renderer patch creation. Strong Dev 848 first zoom frames sampled the two zoom-plus-one arrays at ARM64 0x2b633b4 and 0x2b63394. CPU.",
    "done": "2026-11-16T06:36Z",
@@ -11869,6 +11829,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1744,
+   "name": "Suppress map hover and pointing once a touch drag has taken ownership and can no longer tap or long-press. Cover WayPoint size and Situation entity blue highlight on iPad",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-19T06:30Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -12473,5 +12456,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "4a08806c7ddd6ef05deac296887dd109b186a949"
+ "source_revision": "d9e4837c24feb49d2a714f40b24c83fc84a3d0f3"
 }
