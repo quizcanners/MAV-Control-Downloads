@@ -12140,18 +12140,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T02:22Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T02:23Z",
+     "text": "Found in Bootstrap StepMapRenderMode: Projector.Enabled supplies both Video:MapProjection and the unscaled map mode. Projector.ApplyPhoto sets it for saved Street View, even when the texture stands still. Start in Projector.ApplyPhoto and t"
+    }
+   ]
   }
  ],
  "verify": [
@@ -12756,5 +12753,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "d5eaea35c32a5f5e3df03249ac56afd899a19adb"
+ "source_revision": "3bdc4a06199b9bfee6edd3336e03c268b89d2bd5"
 }
