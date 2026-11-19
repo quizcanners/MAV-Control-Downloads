@@ -2273,51 +2273,6 @@
    ]
   },
   {
-   "n": 1259,
-   "name": "Using Strong for wide fast-pinch Mask Pages attribution and SQLite Presence follow-up",
-   "done": "2026-11-16T03:16Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T03:15Z",
-     "text": "Strong released on private Dev 848 4f055feb8042. Eight matched fast pinches plus two native profiles. CPU.md 2ecb03e333 holds numbers and task 1261 follows child geometry reuse. Device Health PASS, original pose exact, Normal pacing, render"
-    }
-   ]
-  },
-  {
-   "n": 1261,
-   "name": "Reuse Planet Renderer child geometry arrays through patch retirement (Planet Renderer SPEC",
-   "done": "2026-11-16T03:21Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-16T03:20Z",
-     "text": "Published e2ff1c1a35. Patch retirement now owns the lazy four-slot child Geometry arrays."
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T04:58Z",
-     "text": "Strong private Dev 848 cbd8887315 recorded 338 child-array reuses and 458 fresh arrays with at most 32 spares during the coast sitting. Coverage passed. Native stacks sampled one allocation on the earlier APK and none at that site in the tw"
-    }
-   ]
-  },
-  {
    "n": 1262,
    "name": "Using Strong for the paired Mask Sync globe sweep",
    "done": "2026-11-16T03:44Z",
@@ -12088,25 +12043,22 @@
   {
    "n": 1723,
    "name": "Nightly README",
-   "done": "",
+   "done": "2026-11-19T03:24Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T03:12Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T03:24Z",
+     "text": "e615bf7af4 on main. Replayed Device Stats guide metadata: old rule admitted, new rule skips and names both files."
+    }
+   ]
   }
  ],
  "verify": [
@@ -12711,5 +12663,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "d7a4ac9a4c578193413140c16e1adf68c50daabf"
+ "source_revision": "51abdaaf9675e42f5f3c63115f8028c2751dbdfd"
 }
