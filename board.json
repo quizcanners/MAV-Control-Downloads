@@ -2869,26 +2869,6 @@
    ]
   },
   {
-   "n": 1631,
-   "name": "UI Interaction",
-   "done": "2026-11-18T12:29Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_MOUSE_PRESS",
-     "at": "2026-11-18T12:29Z",
-     "text": "Published e0b10a89d3. Fast primary mouse clicks belong to the original static button; scroll rows and drags retain strict cancellation. Both 9-tab layouts checked. Native Unity EditMode 15/15; compile comparison NEW ERRORS: none. No package"
-    }
-   ]
-  },
-  {
    "n": 1632,
    "name": "Situation trail compatibility coverage is missing after legacy .trail import retirement (88e424d27409f249606a231fae1e4dee8abf13c7). Add disposable fixtures in Assets/_PROJECT/Tests/SituationTrailSpill",
    "done": "2026-11-18T18:50Z",
@@ -5922,25 +5902,22 @@
   {
    "n": 1778,
    "name": "macOS build",
-   "done": "",
+   "done": "2026-11-19T12:34Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T12:26Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T12:34Z",
+     "text": "52a4e55db3 reads TestRun from Verification Runtime. Mac arm64 development build 864 succeeded with Remote Sensors API excluded. Strict code-signature verify, player compiler flag and IL2CPP disabled stub agree. Roslyn found no new errors."
+    }
+   ]
   }
  ],
  "verify": [
@@ -6485,5 +6462,5 @@
    "since": "2026-11-19T12:00Z"
   }
  ],
- "source_revision": "790922c08a50e3877d1612a7f858065ec43f0899"
+ "source_revision": "52a4e55db3277341ff772d531eba411a9c34d552"
 }
