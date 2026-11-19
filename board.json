@@ -4705,16 +4705,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T17:49Z",
-     "noted": "",
-     "progress": 75,
-     "ticked": 3,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Render the synthetic top-down tile around the prior position",
@@ -4736,8 +4727,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-19T17:47Z",
-     "text": "a243261e65 uses paired optics in the top-down warp. Frozen same-photo offset controls improved; live wide approach still supplies no pose. Live offset refused once and confirmed on repeat; both Zurich controls held. Near-frame recovery succ"
+     "at": "2026-11-19T18:07Z",
+     "text": "d2f49b37c6 keeps four retained photos available for wide real-photo recovery. Independent COLMAP confirmed sparse overlap in the 17 s approach export. A calibrated 12 m replay of a later, overlapping crop still refused perspective consensus"
     }
    ]
   },
