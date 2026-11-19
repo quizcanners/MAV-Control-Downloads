@@ -2700,34 +2700,6 @@
    ]
   },
   {
-   "n": 1687,
-   "name": "using Strong for Web Mercator backpressure comparison",
-   "done": "2026-11-18T19:34Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 1688,
-   "name": "using Lenovo for Web Mercator backpressure comparison",
-   "done": "2026-11-18T19:34Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 1689,
    "name": "Video Processing",
    "done": "",
@@ -5086,25 +5058,22 @@
   {
    "n": 1799,
    "name": "Mac Metal canonical Street View change readback returns a wrong quality (0 instead of 0.4)",
-   "done": "",
+   "done": "2026-11-19T19:35Z",
    "goal": false,
    "under": 1693,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T19:15Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T19:35Z",
+     "text": "c2343dc972 fixes fixture setup. Before: retained quality 0.4 read as 0, confirmation change count 1 read as 0, a valid batch threw InvalidDataException. Raw Metal probe proved the queued GPU clear could erase the CPU seed. Fixture waits for"
+    }
+   ]
   },
   {
    "n": 1800,
@@ -5684,5 +5653,5 @@
    "since": "2026-11-19T19:07Z"
   }
  ],
- "source_revision": "a3c05f8a68444adab465b202f3ece8f0cf112fe4"
+ "source_revision": "d0c2777126dc2adad76bc1ca2503f09e750419c7"
 }
