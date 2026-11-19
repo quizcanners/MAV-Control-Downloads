@@ -5224,25 +5224,22 @@
   {
    "n": 1825,
    "name": "Bootstrap SPEC",
-   "done": "",
+   "done": "2026-11-19T23:37Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T23:30Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T23:37Z",
+     "text": "66e7ef7b5b verifies Remote Sensors is main by default and explicitly exercises the additional-workflow branch, retaining reveal, brigade denial, saved-selection and PIN assertions. Mac WorkflowPersistenceTests 5/0/0 and all five passed in M"
+    }
+   ]
   },
   {
    "n": 1826,
