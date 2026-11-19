@@ -5161,25 +5161,22 @@
   {
    "n": 1822,
    "name": "Video Processing SPEC",
-   "done": "",
+   "done": "2026-11-19T23:30Z",
    "goal": false,
    "under": 1693,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T23:20Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T23:30Z",
+     "text": "9246f521bd restores current Depth Anything bindings with original assertions. Mac focused 65 pass, 1 fail, 4 skip; the one existing observed-surface assertion is task 1824. Containing Mac All 8,660 passed, 61 failed, 30 skipped at this chan"
+    }
+   ]
   },
   {
    "n": 1823,
