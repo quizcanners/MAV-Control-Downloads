@@ -2723,26 +2723,6 @@
    "notes": []
   },
   {
-   "n": 1672,
-   "name": "Constrain shared left-list transition blur to ListWidth. Use Telemetry\u2019s own cover for its wider detail panel during list switches and flicks (Left Lists SPEC).",
-   "done": "2026-11-18T17:29Z",
-   "goal": false,
-   "under": 408,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-18T17:29Z",
-     "text": "Published 4a34698e4e. Mac Play measured the shared cover at 300 units for ordinary switches, entering and leaving Telemetry, and an offset flick. The outgoing detail starts at the list edge and ends at the captured detail edge; the incoming"
-    }
-   ]
-  },
-  {
    "n": 1673,
    "name": "Smooth Synthetic drone and live projector motion from time-stamped registered trajectory samples. Keep accepted reconstruction geometry",
    "done": "2026-11-18T17:40Z",
@@ -4804,16 +4784,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T17:15Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Render the synthetic top-down tile around the prior position",
@@ -4835,8 +4806,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-19T17:05Z",
-     "text": "Paused by quiz before editing. 516f187c87 is published. See GPU.md for the Kenilworth offset, Zurich and mid-clip replays. After the successful recovery at 20.270 s, the later loss triggered top-down but no new real-photo attempt before cli"
+     "at": "2026-11-19T17:30Z",
+     "text": "25c1f84ab9 resets retry delays after publishing a tracked window from the current source. The forward replay recovered through nearby frames once and refused a later all-real check. That replay did not exercise a third loss after a second s"
     }
    ]
   },
@@ -5854,5 +5825,5 @@
    "since": "2026-11-19T16:28Z"
   }
  ],
- "source_revision": "4d7df4e1006a9f4e05de13de7b2a1a644130b153"
+ "source_revision": "25c1f84ab986719b8a1e076c9e2919a45caa5f2c"
 }
