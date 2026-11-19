@@ -2273,71 +2273,6 @@
    ]
   },
   {
-   "n": 1262,
-   "name": "Using Strong for the paired Mask Sync globe sweep",
-   "done": "2026-11-16T03:44Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T03:42Z",
-     "text": "Strong free on signed private Dev 848 4f055feb8042. Windows 817 companion closed normally after the baseline and native replays. Pose restored exactly, Normal pacing, interval one, zero lifecycle errors and no profiler files or ADB forwards"
-    }
-   ]
-  },
-  {
-   "n": 1263,
-   "name": "Keep task_flow board reads and writes off the checkout shared FETCH_HEAD. Pin the fetched origin main per operation",
-   "done": "2026-11-16T03:47Z",
-   "goal": false,
-   "under": 412,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T03:47Z",
-     "text": "Published d73004b409. Each origin-main read/write fetch pins its own ref through the operation and releases it afterward. The regression demonstrated that old reads and claims replaced a side-branch FETCH_HEAD. With the fix, both preserve i"
-    }
-   ]
-  },
-  {
-   "n": 1264,
-   "name": "Avoid bounds recalculation during Planet reference mesh submesh setup (Planet Renderer SPEC",
-   "done": "2026-11-16T03:51Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-16T03:51Z",
-     "text": "Published cf7123b5f5. Planet reference mesh submits all 16 quadrant-mask slots together, retaining the final height-expanded bounds."
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T04:58Z",
-     "text": "Task 1266 repaired native empty descriptor offsets. Strong containing Dev 848 cbd8887315 and control both passed the same coverage route with zero holes or pending handoffs. Wide-pinch latency varied by phase across the two source snapshots"
-    }
-   ]
-  },
-  {
    "n": 1265,
    "name": "Make the public Tasks view derive its due screen list from the same immutable main revision as the board. Verify that closing a task marks its screen due in the mirror even when the checkout still has",
    "done": "2026-11-16T03:59Z",
@@ -11639,16 +11574,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T03:39Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -11675,8 +11601,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T03:38Z",
-     "text": "0abd3a9a69 reuses refused refinement only for exactly matching photo inputs, keeps camera matrices through depth-only updates and rejects stale results. Paused Kenilworth submitted 68 comparisons on baseline and 0 on updated code from 24\u201348"
+     "at": "2026-11-19T03:54Z",
+     "text": "b9595479dd adds a fixed-input DA3 scheduling probe. Both eight-view clips preserved all 72 warmed tensors bitwise. At 24 layers, readiness fell from 1.08\u20131.09 s to 0.75\u20130.76 s; frame p95 increased 1.0\u20131.6 ms. At 32 layers the frame tail gre"
     }
    ]
   },
@@ -12663,5 +12589,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "cfaad3bb973ec70ff15adbac870cb7b5f4805779"
+ "source_revision": "69bea979b88335983bfde6ed21ddf47c5f097605"
 }
