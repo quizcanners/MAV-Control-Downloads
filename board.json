@@ -2592,26 +2592,6 @@
    ]
   },
   {
-   "n": 1584,
-   "name": "using Strong for goal 1558 session-publication and convergence checks",
-   "done": "2026-11-18T13:46Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-18T13:46Z",
-     "text": "Released Strong: last exact privateDev859/877c6326f4 remains installed with original data and Peer8 tunnel. Strong is absent from USB, so Test860 was not installed here. Runtime gap/settlement limits are in CPU.md and goal1558; no completed"
-    }
-   ]
-  },
-  {
    "n": 1585,
    "name": "using Lenovo for goal 1558 session-publication and convergence checks",
    "done": "2026-11-18T13:47Z",
@@ -2907,26 +2887,6 @@
    ]
   },
   {
-   "n": 1638,
-   "name": "screen_checks.py must stop when its git commit fails",
-   "done": "2026-11-18T13:44Z",
-   "goal": false,
-   "under": 375,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-18T13:44Z",
-     "text": "Published8c7742770c: failed page-publisher git commit now raises before push/ancestry checks. Actual function controls cover failed add, failed commit, and unchanged ordinary push-race retry. The lost staged Drones/DJI bump was recovered th"
-    }
-   ]
-  },
-  {
    "n": 1640,
    "name": "Destinations erase",
    "done": "2026-11-18T13:51Z",
@@ -2943,26 +2903,6 @@
      "by": "GETAC",
      "at": "2026-11-18T14:03Z",
      "text": "Published0eac7bd27f removes obsolete Destinations Records access, duplicate interop using and12 retired fixture setup assignments; assertions retained. Final pulled6f2ee76551 Roslyn e/a/p/m: NEW ERRORS none against039318 with matching Edito"
-    }
-   ]
-  },
-  {
-   "n": 1643,
-   "name": "Keep settled map and Liquid Glass at double resolution during a MavChat panel swipe when the world is unchanged (Bootstrap SPEC",
-   "done": "2026-11-18T13:45Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_CHAT_GLASS",
-     "at": "2026-11-18T13:45Z",
-     "text": "Published 9fcdc86735 on main. Captured sheet gestures preserve the double-resolution picture and Liquid Glass through release. Genuine map input and scene changes still refresh. Four focused Unity Editor tests passed, candidate compile repo"
     }
    ]
   },
@@ -5590,7 +5530,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-19T13:46Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Render the synthetic top-down tile around the prior position",
