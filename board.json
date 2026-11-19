@@ -11052,16 +11052,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T05:27Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -11088,8 +11079,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T05:25Z",
-     "text": "ee5e5d82a5 tests rotation at an exact fixed centre. DA3 replays improved orientation in 43/96 accepted fixed-centre fits and 53/92 joint fits. With calibrated poses, depth and lens, injected yaw improved in 13/17 fixed-centre and 6/12 joint"
+     "at": "2026-11-19T06:11Z",
+     "text": "b437b05471 streams archive packets and reproduced all 180 Kenilworth joint results outside timings. 39c5076779 refreshes floor terrain and retained paint. 7310bdb70f and a43b2fdb3e add the local Video stream Suggestions and move its name co"
     }
    ]
   },
@@ -12407,5 +12398,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "b3e361c44cb54e7e1bac8c6e0d38580ab8c946df"
+ "source_revision": "e79635130bfbf3b3da496a9553835af5a2a5680a"
 }
