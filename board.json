@@ -5725,7 +5725,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-19T13:16Z",
-     "noted": "2026-11-19T13:18Z",
+     "noted": "2026-11-19T13:30Z",
      "progress": 25,
      "ticked": 0,
      "total": 0
@@ -5735,8 +5735,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-19T13:18Z",
-     "text": "Reply-slot reuse is on main via ad14987e0a; the containing Android build is live in IL2CPP. Staged the next measured change outside the pinned checkout: reuse the existing coordinate only when X/Y/Z match, preserving validation, page touch "
+     "at": "2026-11-19T13:30Z",
+     "text": "c3ded332ea reply-slot reuse is on main; containing ad14987e0a Android build is in IL2CPP. Staged two next changes outside the pinned checkout. Matching existing X/Y/Z avoids allocating a new key (3.2 MB to zero per 100k host reads); deferri"
     }
    ]
   },
