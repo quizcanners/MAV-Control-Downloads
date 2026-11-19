@@ -2927,26 +2927,6 @@
    ]
   },
   {
-   "n": 1627,
-   "name": "MavChat Route rows",
-   "done": "2026-11-18T12:05Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_ROUTE_RIM",
-     "at": "2026-11-18T12:05Z",
-     "text": "Published 0dafcf217b. Clear and focus lights follow the inner join and rounded outer corners for endpoints and intermediate rows. Three Unity tests passed. GPU readback found no visible spill in 16 size/side/light/press combinations. iPhone"
-    }
-   ]
-  },
-  {
    "n": 1628,
    "name": "MavChat scroll selector",
    "done": "2026-11-18T12:13Z",
@@ -5888,7 +5868,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-19T12:05Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Render the synthetic top-down tile around the prior position",
