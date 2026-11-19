@@ -124,16 +124,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T22:58Z",
-     "noted": "",
-     "progress": 56,
-     "ticked": 5,
-     "total": 9
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: the state machine and every mode, 1 s settle, release-frame full resolution, VideoOnBlack, kept screen-size picture, ribbons as kept renderers, Editor 2x frame read on Mac and Rog, 8 fps idle",
@@ -185,8 +176,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T22:54Z",
-     "text": "09a219e861 keeps slow visible peer pointers at native resolution after 1.5 px admission. Portable C# showed zero premature captures (previously two), no wake on stop, and settle on quiet frame three. Roslyn NEW ERRORS: none. Main/Map bumped"
+     "at": "2026-11-19T23:08Z",
+     "text": "09a219e861 peer fix: native Mac MapRenderModeTests 20/0/0, including real perspective/orthographic cases. Receipt a6a990777f. Mac EditMode All at 09a219e861: 8,564 pass, 155 fail, 31 skip; both original task 46 cases passed. Qualified Windo"
     }
    ]
   },
@@ -5720,5 +5711,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "d9916f88dec8ee0c930a20ac7ee5012635270463"
+ "source_revision": "a6a990777f294a680580c0da95f09e92163476c6"
 }
