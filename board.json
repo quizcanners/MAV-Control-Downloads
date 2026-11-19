@@ -11791,25 +11791,22 @@
   {
    "n": 1766,
    "name": "Telemetry SPEC",
-   "done": "",
+   "done": "2026-11-19T09:42Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T09:18Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T09:42Z",
+     "text": "e85defd9a7. Video Source uses the Emulated Video switch and rows with separate small fixed-size status. Landscape Play verified local Synthetic with no external feed and a visible switch. UiTelemetryAndVideoTests 8 passed including prefab s"
+    }
+   ]
   },
   {
    "n": 1767,
@@ -12484,5 +12481,5 @@
    "since": "2026-11-19T07:26Z"
   }
  ],
- "source_revision": "813ccc41e3abd8754955b92276d56753e8f4c942"
+ "source_revision": "c8d16044c1a3bb760aabd1ac6a0ed6f086bddee0"
 }
