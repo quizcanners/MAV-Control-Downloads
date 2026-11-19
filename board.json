@@ -2293,26 +2293,6 @@
    ]
   },
   {
-   "n": 1255,
-   "name": "Using Strong for the Web Mercator Retention and Presence baseline",
-   "done": "2026-11-16T01:59Z",
-   "goal": false,
-   "under": 430,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T01:58Z",
-     "text": "Strong baseline collected on signed private Dev 848 a2db6fc6b5b2. Six repeated samples showed Presence Unloaded with zero loads while the writer ran Retention in Migrating. Device free with Normal pacing and no ADB forwards. Private receipt"
-    }
-   ]
-  },
-  {
    "n": 1256,
    "name": "Using Strong for SQLite Presence during Retention migration on signed Dev",
    "done": "2026-11-16T02:33Z",
@@ -11991,7 +11971,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-19T01:59Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -12724,5 +12713,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "76217439a6a2b7f8b002ee6796bfc1cc87f62a7b"
+ "source_revision": "75749c7c71edd11ed5c1608f6e0512fe5fef7a95"
 }
