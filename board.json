@@ -11811,25 +11811,22 @@
   {
    "n": 1767,
    "name": "Main View SPEC",
-   "done": "",
+   "done": "2026-11-19T09:43Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T09:20Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T09:43Z",
+     "text": "e85defd9a7. Compass Star keeps its painted color and multiplies it by sun-direction lighting. All 14 TopRightExitDragTests passed on Metal, including the diffuse RGB and directional render checks."
+    }
+   ]
   },
   {
    "n": 1768,
@@ -12481,5 +12478,5 @@
    "since": "2026-11-19T07:26Z"
   }
  ],
- "source_revision": "c8d16044c1a3bb760aabd1ac6a0ed6f086bddee0"
+ "source_revision": "336eda865850cb083add19113854774d2192cecd"
 }
