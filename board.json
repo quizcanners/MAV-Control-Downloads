@@ -1947,16 +1947,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T11:11Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -1988,8 +1979,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T10:44Z",
-     "text": "f8944207e7: Street View finishes accepted linked photo snapshots or removes retired candidates, frees the copied frame and restores the saved link. Mac in-Play recompile verified old texture gone and the same PNG/metadata reloaded. 29 focus"
+     "at": "2026-11-19T11:23Z",
+     "text": "bfee804050 on main: Station shutdown finishes pending Street View photo depth readbacks and ordered file work, after clearing loaded originals. Mac Play proved both evicted and loaded photos save before shutdown returns, with zero readback "
     }
    ]
   },
@@ -2070,31 +2061,6 @@
      "by": "ROG",
      "at": "2026-11-16T11:35Z",
      "text": "Published 86227c327e: Geometry hash requests and replies avoid cloning their DTO before synchronous wire preparation, and new Geometry zones reuse their key. Windows Unity: 72 plain payload comparisons matched after source mutation and enco"
-    }
-   ]
-  },
-  {
-   "n": 1253,
-   "name": "Situation marker EditMode",
-   "done": "2026-11-18T11:19Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T01:44Z",
-     "text": "Rog replayed all nine preceding suites at 2103e8a50e: 201/201 and isolated marker 1/1. Published df67762d7f: keep exact equality, report the first differing pixel at float round-trip precision. Unity recompiled, Situation 9/9, adjacent floa"
-    },
-    {
-     "by": "board2",
-     "at": "2026-11-18T11:19Z",
-     "text": "Closed: the exact assertion is kept and now reports the first differing pixel (df67762d7f); two full replays did not reproduce the mismatch and nothing is left to fix. A new failure will carry its channels and graphics API and gets a new ta"
     }
    ]
   },
@@ -2233,33 +2199,6 @@
      "by": "HEAVY",
      "at": "2026-11-17T06:21Z",
      "text": "Published 19d4968600. Revisited Street View preview holds coarse cells until confirmed finer cells cover 75% of their nominal surface footprint. Repeated poses and coarse transfers do not supply fine confirmation. SPEC centers reconstructio"
-    }
-   ]
-  },
-  {
-   "n": 1408,
-   "name": "3D Street View first points keep the Synthetic drone fixed through terrain scale fit",
-   "done": "2026-11-18T11:19Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-16T17:50Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Keep camera pivot on first-points and terrain fits (7cc6e5e159 on main; host math scale 237.5, camera displacement 0)",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "board2",
-     "at": "2026-11-18T11:19Z",
-     "text": "Closed: fix is on main (7cc6e5e159); the left step was a Windows live replay, which is verification of finished work."
     }
    ]
   },
@@ -2425,26 +2364,6 @@
      "by": "GETAC",
      "at": "2026-11-17T08:21Z",
      "text": "CPU.md e2782cde35 attributes the busiest Strong Dev 856 pan worker to the Web Mercator legacy payload census. Native samples have exact Build IDs and zero losses. Goal 430 writer-owned byte accounting is the direct fix. The separate managed"
-    }
-   ]
-  },
-  {
-   "n": 1457,
-   "name": "Far-zoom entity mask",
-   "done": "2026-11-18T11:18Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "board2",
-     "at": "2026-11-18T11:18Z",
-     "text": "Closed: contradicted by Situation/Entities SPEC (No full-screen texture; no far mask, every entity is its own element at every altitude). The bake it asks for is the design that was removed."
     }
    ]
   },
@@ -6728,5 +6647,5 @@
    "since": "2026-11-19T09:43Z"
   }
  ],
- "source_revision": "7cd7bdcb7f02bb0734a96e5db3683c74bee90e47"
+ "source_revision": "bfee804050ffbcf75d0f0b9dcb1427d948cc6e46"
 }
