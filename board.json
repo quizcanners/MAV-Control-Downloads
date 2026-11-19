@@ -2087,22 +2087,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T13:43Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
      "at": "2026-11-17T06:21Z",
      "text": "Published 19d4968600. Revisited Street View preview holds coarse cells until confirmed finer cells cover 75% of their nominal surface footprint. Repeated poses and coarse transfers do not supply fine confirmation. SPEC centers reconstructio"
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T13:55Z",
+     "text": "1c8842689c keeps the refined Disk in its selected preview cell. Mac Metal regression wrote both samples into cell 3 before the fix; after it, cells 2 and 3 each keep one sample and measured source data pass the preservation checks. Focused "
     }
    ]
   },
@@ -2843,46 +2839,6 @@
      "by": "CLOUD_DOT_1636",
      "at": "2026-11-18T15:03Z",
      "text": "Published 592e069b8f; remote main ancestry verified. Only two fixture files changed. Nine hosted fixture inputs and three pre-removal decoder controls pass; old-reader, dropped-row and mutated-receipt falsifiers fail as intended. Publicatio"
-    }
-   ]
-  },
-  {
-   "n": 1640,
-   "name": "Destinations erase",
-   "done": "2026-11-18T13:51Z",
-   "goal": false,
-   "under": 375,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-18T14:03Z",
-     "text": "Published0eac7bd27f removes obsolete Destinations Records access, duplicate interop using and12 retired fixture setup assignments; assertions retained. Final pulled6f2ee76551 Roslyn e/a/p/m: NEW ERRORS none against039318 with matching Edito"
-    }
-   ]
-  },
-  {
-   "n": 1645,
-   "name": "MavChat sheet panels share one outer mask aligned with the divider above the common background. Remove the duplicate embedded Chat clipping edge (Navigator SPEC",
-   "done": "2026-11-18T13:53Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_SHEET_CLIP",
-     "at": "2026-11-18T13:53Z",
-     "text": "Published 2f4c6c84cc on main. One prefab mask wraps all six embedded hosts. Chat history and its read viewport meet the divider and stop above the composer. Independent full-window Chat restores its pager mask. Seven focused Unity tests pas"
     }
    ]
   },
@@ -6209,5 +6165,5 @@
    "since": "2026-11-19T12:00Z"
   }
  ],
- "source_revision": "d7b5694a807a9e1ffd6d73124776715a12574ffc"
+ "source_revision": "1c8842689ce41cb753a4010791d6d6acf382eba3"
 }
