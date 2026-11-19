@@ -4969,25 +4969,22 @@
   {
    "n": 1811,
    "name": "Chat bubbles show a wire reply prefix above the message body. Follow Chat SPEC",
-   "done": "",
+   "done": "2026-11-19T22:31Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T22:14Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T22:31Z",
+     "text": "954e505653 and 23cf3e2d0b are on main. Chat bubbles omit the reply header and keep the time and ticks. A short MavChat reply can open its valid quote in the reader. Roslyn clear; native Chat check pending."
+    }
+   ]
   },
   {
    "n": 1812,
