@@ -1947,16 +1947,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T10:00Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -1988,8 +1979,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T09:03Z",
-     "text": "Paused. Mac WebRTC candidate and replayable patch are in ~/MavControlEvidence/WorkCritical/Reload-735-WebRtc/. Patched arm64 passed 450 native context cycles and audio before reload. Recheck audio after reload through the Station Streamer a"
+     "at": "2026-11-19T10:25Z",
+     "text": "eea0fc0dc4 fixes the Mac WebRTC dummy audio teardown by joining its queue before releasing the audio device. 450 native loopback cycles passed. In Play, audio decoded before and after a real script recompile, additive scenes unloaded, old m"
     }
    ]
   },
