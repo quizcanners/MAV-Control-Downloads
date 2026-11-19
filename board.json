@@ -5532,22 +5532,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-19T13:16Z",
-     "noted": "2026-11-19T13:47Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-19T13:47Z",
-     "text": "Dev864 ad14987e0a signed and exact-install on Strong. Against same Dev863 Windows build, 327 tiles accepted in 34.11 s and 2,436 by 203.53 s. Roots still different. Complete 226-frame capture: reply max 0.104 ms; Web Mercator max 92.590 ms,"
+     "at": "2026-11-19T13:57Z",
+     "text": "Published d993246d5e (reuse matching outbound key, copy record only on admission) and 4641b117d1 timing. Roslyn E/A/P/M green on the same source patch before the unrelated Street View test rebase. Strong Dev864 ad14987e0a paired: 2,436 tile"
     }
    ]
   },
@@ -6174,5 +6165,5 @@
    "since": "2026-11-19T12:00Z"
   }
  ],
- "source_revision": "1c8842689ce41cb753a4010791d6d6acf382eba3"
+ "source_revision": "d993246d5ea9d6f5e892503bc2f0d4edbc635f61"
 }
