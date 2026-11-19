@@ -5248,25 +5248,22 @@
   {
    "n": 1791,
    "name": "Waypoints SPEC",
-   "done": "",
+   "done": "2026-11-19T17:18Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T17:04Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T17:18Z",
+     "text": "4d7df4e100 uses the camera forward/up heading per draw pass. Native baseline label turned 90 degrees at pitch/bearing 90. On Metal it changed from 9x68 to 69x10 pixels. The 45-degree render is byte-identical. 30 native projections stayed le"
+    }
+   ]
   },
   {
    "n": 1792,
