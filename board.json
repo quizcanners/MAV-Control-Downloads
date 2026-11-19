@@ -2273,46 +2273,6 @@
    ]
   },
   {
-   "n": 1271,
-   "name": "Using Strong for the paired child-geometry and reference mesh replay",
-   "done": "2026-11-16T05:01Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T04:59Z",
-     "text": "Done on Strong private Dev 848 cbd8887315. Signed in-place install and paired device replay, CPU.md e3b3a93f01. Device Health PASS, original pose exact, Normal pacing, zero lifecycle errors and no owned trace files or ADB forwards. Strong i"
-    }
-   ]
-  },
-  {
-   "n": 1280,
-   "name": "Make peer_diag shot stop before capture when local navigation is refused or a remote navigation command is unconfirmed. Keep existing screenshot output intact on failure.",
-   "done": "2026-11-16T05:00Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T05:00Z",
-     "text": "Published 40c4614d69. Refused or unconfirmed shot navigation now cancels capture and preserves the destination. All 52 host tests passed, including local and peer negative paths and both PNG assembly paths. Strict guide check passed. No liv"
-    }
-   ]
-  },
-  {
    "n": 1281,
    "name": "Using Strong for first changed-frame Planet Renderer allocation capture",
    "done": "2026-11-16T05:25Z",
@@ -11884,25 +11844,22 @@
   {
    "n": 1733,
    "name": "Chat SPEC",
-   "done": "",
+   "done": "2026-11-19T05:03Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T04:54Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T05:03Z",
+     "text": "b733db1ff2 on main. Native iPhone notices group and route by authenticated peer address while retaining the display name."
+    }
+   ]
   },
   {
    "n": 1734,
@@ -12521,5 +12478,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "d2d5c2f0180d755af841a901a9373be11d000950"
+ "source_revision": "6b2183b42798aa1055e6016537391ce21b75f99b"
 }
