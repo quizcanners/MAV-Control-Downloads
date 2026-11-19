@@ -5169,25 +5169,22 @@
   {
    "n": 1796,
    "name": "Menu SPEC",
-   "done": "",
+   "done": "2026-11-19T18:24Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T18:01Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T18:24Z",
+     "text": "61862e1b95. Pause map sync is on Menu > Map Source below Camera. One saved switch holds new Web Mercator transfers over VPN and USB. Local reads, downloads and admitted writes can continue. Mac Play switched on and off, and 1024x768 capture"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5740,5 +5737,5 @@
    "since": "2026-11-19T17:40Z"
   }
  ],
- "source_revision": "61862e1b95fab6dd9d805b91d4adfa18e4f2e8da"
+ "source_revision": "54f297f1bc234f2b3d41a8feca6c9e29384a9e08"
 }
