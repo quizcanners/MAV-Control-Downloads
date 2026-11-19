@@ -5101,6 +5101,33 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1815,
+   "name": "A 3D map Layers switch streams transient Disk clouds near the map camera from saved Positioned Street View photos with depth, with or without a drone. Live generation keeps building Disks where the dr",
+   "done": "",
+   "goal": true,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Update the Video Processing and Layers SPEC with the requirements and reconstruction history",
+     "x": false
+    },
+    {
+     "t": "Build a camera-driven Disk layer from archived Street View depth that unloads distant regions",
+     "x": false
+    },
+    {
+     "t": "Keep the drone video projection and live Disk accumulation aligned during continuous capture",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
