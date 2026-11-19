@@ -1947,16 +1947,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T11:24Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -1988,8 +1979,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T11:23Z",
-     "text": "bfee804050 on main: Station shutdown finishes pending Street View photo depth readbacks and ordered file work, after clearing loaded originals. Mac Play proved both evicted and loaded photos save before shutdown returns, with zero readback "
+     "at": "2026-11-19T11:29Z",
+     "text": "Paused by quiz. Mac isolated Play at bfee804050 reproduced a Pano360 material leak: the projection material copy stayed alive 24 updates after Station disabled, and the renderer did not restore its authored material. Reproducer: ~/MavContro"
     }
    ]
   },
