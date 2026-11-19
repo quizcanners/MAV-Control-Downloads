@@ -2293,26 +2293,6 @@
    ]
   },
   {
-   "n": 1276,
-   "name": "Give board task closure retry-safe behavior. A repeated done request on a retained completed task must keep the original note",
-   "done": "2026-11-16T04:43Z",
-   "goal": false,
-   "under": 412,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T04:43Z",
-     "text": "Published 6610eb3da9. Retried closure of a retained completed task keeps the first result and screen state. Three focused tests passed, and the real Git closure test confirmed two retries left the remote SHA unchanged. Strict guide check pa"
-    }
-   ]
-  },
-  {
    "n": 1277,
    "name": "Keep completed task history searchable by number after archiving. Make task_flow --task read Board and Done from the same snapshot without allowing edits to archived tasks.",
    "done": "2026-11-16T04:48Z",
@@ -11901,25 +11881,22 @@
   {
    "n": 1730,
    "name": "Drone audio",
-   "done": "",
+   "done": "2026-11-19T04:45Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T04:40Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T04:45Z",
+     "text": "a913dd49f2 on main. Removed MAVLink loss playback and the three Sounds scene connection cue bindings."
+    }
+   ]
   }
  ],
  "verify": [
@@ -12524,5 +12501,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "b36af99c76360534e44416826666ee0e441f10dc"
+ "source_revision": "ff3121324362935be2cd5407308712d4dcc9a794"
 }
