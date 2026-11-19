@@ -5402,14 +5402,14 @@
    "steps": [],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-19T14:47Z",
-     "text": "Closed Windows tiles_sumy host replay of exact shared census: 11,897 dirs/11,378 files, 2.652\u20135.463 s, ~5.32 MB allocated per warm inventory. Phase replay: 11,898 directory attribute checks consumed 1.618\u20131.860 s of warm 3.869\u20134.317 s. Lega"
-    },
-    {
      "by": "MAC_BOARD",
      "at": "2026-11-19T15:09Z",
      "text": "77ff5d4a58 releases the SQLite file turn during the legacy inventory, then measures live files after reacquiring it. 13 Mac EditMode tests passed. The disposable Mac WAL test committed during inventory and preserved pause and linked-path ha"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-19T15:18Z",
+     "text": "Exact 77ff5d4a58 FileWriteTurn and Retention census host replay on the closed Windows map, with a thread waiting at census entry: 2.639/4.326/2.739 s before, at most 0.001 ms after. All pairs counted the same 14,464,204,800 bytes. Verified "
     }
    ]
   },
