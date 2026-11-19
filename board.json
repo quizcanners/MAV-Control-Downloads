@@ -1699,16 +1699,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T14:08Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Dispatcher commands still in AI_Sandbox_DeviceDebugCommands*.cs: the remaining vpn.*, training and remote-sensor editors, performance.wires, cfg/system.set and the other cfg cases in DebugControl; the",
@@ -1727,7 +1718,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T14:20Z",
+     "text": "3707860845 moves performance.wires, cfg.stillframe and cfg.halfres to Wire Diagnostics and Screen Settings, including their catalog entries. Nine authenticated Mac Play replies matched their baseline and catalog descriptions remained availa"
+    }
+   ]
   },
   {
    "n": 606,
@@ -6161,5 +6158,5 @@
    "since": "2026-11-19T12:00Z"
   }
  ],
- "source_revision": "c98e7add12ec03718b4d72c56ecf66158e2bbeda"
+ "source_revision": "3707860845cd3d4f22824077ece0f67d81fd7ca8"
 }
