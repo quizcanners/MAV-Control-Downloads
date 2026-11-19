@@ -4976,18 +4976,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-19T21:59Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-19T22:06Z",
+     "text": "Verified exact Dev866 libil2cpp SHA and inspected eight generated method bodies in Sample Bake Target, camera target, footprint, alignment and PhysX sync. No direct object/array/string allocation or boxing in those bodies. Some first-use IL"
+    }
+   ]
   },
   {
    "n": 1808,
