@@ -3100,16 +3100,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T17:40Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 10
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Opaque mesh, terrain overlay and splat quads written and loaded as three layers (1430, 1522)",
@@ -3160,8 +3151,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T17:38Z",
-     "text": "c65a8f7abc improves continuous recovery by keeping the existing nearby-frame buffer through retries. Two Kenilworth replays confirmed the direct-photo recovery, with later placement refusals still open on 1770. The 12 m known overlap, Zuric"
+     "at": "2026-11-19T17:47Z",
+     "text": "a243261e65 shares the inferred lens and depth in the top-down fallback. Kenilworth repeated overlap passed with the intact all-real gate, and Zurich held. The wide approach and later tracking loss remain open on 1770. Measurements in GPU.md"
     }
    ]
   },
