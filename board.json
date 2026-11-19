@@ -12011,7 +12011,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-19T01:32Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -12080,6 +12089,29 @@
      "text": "c57bedaeff on main. 6,221 actual-branch host assertions passed; legacy fails the one-unit control. At 64 units, 1,024 cold chunks took 44 to 33 slices and 3,031 to 2,759 PrepareHash calls. Same 2,055 hashes and canonical root; peak rebuilds"
     }
    ]
+  },
+  {
+   "n": 1717,
+   "name": "Mac daily build adopts the existing pinned GitHub host keys before the wrapper calls Git or launches iOS. Keep explicit caller SSH settings and strict host verification. Nightly README",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-19T01:32Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -12684,5 +12716,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "3bb9b2ace7b3b8e3ca3c2653af3595ed801e5a24"
+ "source_revision": "37b5365213b158014b2d01ecaa7fb1d9860539e8"
 }
