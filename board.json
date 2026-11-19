@@ -4996,35 +4996,22 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T22:24Z",
-     "noted": "2026-11-19T22:26Z",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
-     "t": "Update the Video Processing and Layers SPEC with the requirements and reconstruction history",
+     "t": "Admit standalone Positioned Street View photos when they have independently paired persistent depth",
      "x": false
     },
     {
-     "t": "Build a camera-driven Disk layer from archived Street View depth that unloads distant regions",
-     "x": false
-    },
-    {
-     "t": "Keep the drone video projection and live Disk accumulation aligned during continuous capture",
+     "t": "Improve coverage and tracking through longer Helsinki flights and preserve the registered projection through recovery",
      "x": false
     }
    ],
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-19T22:26Z",
-     "text": "43d4b8ce80 specifies the independent Menu Layers preview, residency and saved inputs. The development history records Kenilworth, LightGlue confirmation, buffered windows and the remaining standard-schedule run. Now tracing the saved-depth "
+     "at": "2026-11-19T22:57Z",
+     "text": "869c928faa adds the 3D map Layers switch, Disk-only saved 3D Street View selection, SPEC and development history. Windows Unity and Roslyn compiled. Helsinki showed a saved preview with the feed and drone off, released all Disk draw buffers"
     }
    ]
   },
@@ -5672,7 +5659,11 @@
   {
    "screen": "Settings/Network/TunnelFiles",
    "since": "2026-11-19T20:20Z"
+  },
+  {
+   "screen": "Menu/Layers",
+   "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "09a219e86184b490ba241c2fc1503e65c331f712"
+ "source_revision": "d9916f88dec8ee0c930a20ac7ee5012635270463"
 }
