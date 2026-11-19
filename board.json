@@ -11850,25 +11850,22 @@
   {
    "n": 1765,
    "name": "Telemetry SPEC",
-   "done": "",
+   "done": "2026-11-19T09:30Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T09:18Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T09:30Z",
+     "text": "Already implemented on main in 7310bdb70f, newer than iOS 863. One selected local aircraft remains eligible for the Video Suggestions tab without a feed. RemoteDroneSuggestionTests 24 passed, including the local Synthetic and no-feed path."
+    }
+   ]
   },
   {
    "n": 1766,
@@ -12546,5 +12543,5 @@
    "since": "2026-11-19T07:26Z"
   }
  ],
- "source_revision": "3e3ab4cd74715f01fe58a60b40cfc20357a37485"
+ "source_revision": "9e8604297907ddd3e888f919a34407ede15497cb"
 }
