@@ -2273,26 +2273,6 @@
    ]
   },
   {
-   "n": 1256,
-   "name": "Using Strong for SQLite Presence during Retention migration on signed Dev",
-   "done": "2026-11-16T02:33Z",
-   "goal": false,
-   "under": 430,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T02:32Z",
-     "text": "Strong free on signed private Dev 848 4850358174c6. Device check failed: Presence Unloaded across 45 samples. Exact native GPU cleanup and Retention census evidence in Getac-Strong-RetentionCensus-20261116. Original pose, Normal pacing, and"
-    }
-   ]
-  },
-  {
    "n": 1257,
    "name": "Let SQLite Presence load and read windows during GPU cache cleanup in Retention migration",
    "done": "2026-11-16T02:45Z",
@@ -11749,16 +11729,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T02:27Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -11785,8 +11756,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T02:26Z",
-     "text": "eda8858662 adds a MapOnly rendered-reference contrast retry on identical renders, depth and four live query inputs. Archived SIFT matches increased, and native paired support reached at most 1/4 views. Three overlapping attempts and a Zuric"
+     "at": "2026-11-19T02:42Z",
+     "text": "103ca375fd corrects upside-down URP reference colour confirmed by native D3D11 capture. Three controlled RGB-D proposals reached all-real confirmation and admitted only four later real observations each. Mixed confirmation and unrelated inp"
     }
    ]
   },
@@ -12762,5 +12733,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "919fa9a1e31b5b2352c400b39cb05c125c2af516"
+ "source_revision": "60bd3d9f8463c53bc77a60fa7817686b0d44f2be"
 }
