@@ -11896,25 +11896,22 @@
   {
    "n": 1725,
    "name": "Restore Windows argument quoting used by the Background Chat sidecar and its tests. Keep it with the sidecar owner so Unity cleanup does not remove it again.",
-   "done": "",
+   "done": "2026-11-19T04:22Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-19T04:04Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-19T04:22Z",
+     "text": "64549c8177 restores the exact Windows argument quoting code under its only owner, Background Chat. Self-contained win-x64 suite passed Desktop Links, inbox durability/recovery, agent mailbox and UDP. Trimmed self-contained sidecar published"
+    }
+   ]
   },
   {
    "n": 1726,
@@ -12556,5 +12553,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "e320d11401d1fa2864e8897d418cad030ac6ba37"
+ "source_revision": "7aa78e3a61b47ff1fed4529dd3526a72107b758b"
 }
