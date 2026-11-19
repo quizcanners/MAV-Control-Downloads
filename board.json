@@ -2327,43 +2327,6 @@
    ]
   },
   {
-   "n": 1312,
-   "name": "Mesh the RTX Visual Odometry reconstruction into 3D cells with camera-distance LODs",
-   "done": "2026-11-16T08:40Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-16T08:39Z",
-    "2026-11-16T08:39Z",
-    "2026-11-16T08:40Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Triangulate depth into independent colored cells",
-     "x": true
-    },
-    {
-     "t": "Render three LODs over the map and keep Synthetic drone playback",
-     "x": true
-    },
-    {
-     "t": "Verify construction and LOD changes in Windows Editor",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-16T08:40Z",
-     "text": "3c9b51a3bb adds depth triangulation and three LODs for independent cubic cells."
-    }
-   ]
-  },
-  {
    "n": 1313,
    "name": "Screen-center Suggestions",
    "done": "2026-11-16T12:01Z",
@@ -11710,6 +11673,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1756,
+   "name": "Navigator SPEC",
+   "done": "",
+   "goal": false,
+   "under": 367,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-19T08:46Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -12318,5 +12304,5 @@
    "since": "2026-11-19T07:26Z"
   }
  ],
- "source_revision": "f8b548ca84bc6c38a4d2c9196c1c2a934a196da1"
+ "source_revision": "bbbe6a590b89f70dbedfa7aeba13b5942cb21b5c"
 }
