@@ -2409,7 +2409,7 @@
   {
    "n": 1522,
    "name": "Local agent",
-   "done": "",
+   "done": "2026-11-19T13:29Z",
    "goal": false,
    "under": 1693,
    "ticks": [
@@ -2420,16 +2420,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T13:21Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Vertex colour pass at Save, no UVs or atlas for the opaque mesh",
@@ -2449,6 +2440,11 @@
      "by": "HEAVY",
      "at": "2026-11-17T14:13Z",
      "text": "903a7c40da improves the native vertex-colour mesh with indexed tetrahedral extraction and ground clipping. Reopened Pano360 binds the original photos and registered depth. Windows found no shader compile errors and verified the depth mask. "
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T13:29Z",
+     "text": "e22bb94c27 records Mac Metal on 898ba5772df0. Current SVME writes vertex colour with no UV or atlas. Pano360 projects at matching depth and yields to vertex colour when occluded. Legacy SVM5 retained chart UVs and atlas pixels. 39 focused E"
     }
    ]
   },
