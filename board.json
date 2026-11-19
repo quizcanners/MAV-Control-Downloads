@@ -2763,46 +2763,6 @@
    ]
   },
   {
-   "n": 1669,
-   "name": "using Lenovo for read-only paired Convergence preflight",
-   "done": "2026-11-18T16:55Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-18T16:55Z",
-     "text": "Released Lenovo after read-only preflight. Dev861, built-in VPN Peer245, current app Runtime reply from Strong, 14 elevation files and no active part. Lenovo has 2.31 GiB free under /data. No app changes. Next use verified repair-containing"
-    }
-   ]
-  },
-  {
-   "n": 1670,
-   "name": "using Strong for read-only paired Convergence preflight",
-   "done": "2026-11-18T16:56Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-18T16:56Z",
-     "text": "Released Strong after read-only preflight. Dev861, built-in VPN Peer8 and current app Runtime reply from Lenovo. Both have the same 14 elevation cell names and sizes, no active parts. Chose a fresh public cell candidate. Wait for qualified "
-    }
-   ]
-  },
-  {
    "n": 1671,
    "name": "Keep Right Suggestions backing at its authored width at the physical edge; apply notch clearance only to the bottom coordinate row (Main View SPEC",
    "done": "2026-11-18T17:11Z",
@@ -5288,25 +5248,22 @@
   {
    "n": 1788,
    "name": "Chat first open and deferred prewarm (UI SPEC",
-   "done": "",
+   "done": "2026-11-19T16:57Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T16:43Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T16:57Z",
+     "text": "0e103c46c5 uses the existing hidden clone at the Mac Editor idle gate. Three saved quit crashes hit the async clone finalizer. The unchanged baseline created an async operation and quit cleanly. The candidate created no async operation, reu"
+    }
+   ]
   },
   {
    "n": 1789,
@@ -5874,5 +5831,5 @@
    "since": "2026-11-19T16:28Z"
   }
  ],
- "source_revision": "00a7232be854d1a9344038109bfe1084fe9678de"
+ "source_revision": "0e103c46c546fb7367a704eddfe4bf0164541f2e"
 }
