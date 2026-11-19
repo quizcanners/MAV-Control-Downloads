@@ -1678,16 +1678,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T20:25Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Dispatcher commands still in AI_Sandbox_DeviceDebugCommands*.cs: the remaining vpn.*, training and remote-sensor editors, performance.wires, cfg/system.set and the other cfg cases in DebugControl; the",
@@ -1709,8 +1700,8 @@
    "notes": [
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T16:42Z",
-     "text": "7d078b1cac gives UISharedExit the shared open, return and close handlers. Mac Play verified X from Workflow Selector back to Settings and then the map, and CloseAll from a nested view cleared the popup and history. EditMode 182/0/0, Roslyn "
+     "at": "2026-11-19T20:38Z",
+     "text": "848421b648 routes performance.wires, cfg.stillframe and cfg.halfres to their owners. Mac before/after matched valid and refused replies; 37 EditMode passed. 84b1aecab7 puts pacing and canvas catalog entries in the host glob; 45 Mac desktop "
     }
    ]
   },
@@ -5613,5 +5604,5 @@
    "since": "2026-11-19T20:20Z"
   }
  ],
- "source_revision": "0fd0b9840938b2acb356b1b4d8a6376faeb45d50"
+ "source_revision": "84b1aecab7873c9a98712475e77d8dd18bbfa69e"
 }
