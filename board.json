@@ -2027,22 +2027,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-18T23:59Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-18T23:14Z",
-     "text": "52736e3831 published. Visible smoke reports refresh once at arrival and cancellation."
+     "at": "2026-11-19T00:16Z",
+     "text": "cbe833abb4 on main. Wake labels name the Extended Menu and active video owners."
     }
    ]
   },
@@ -2257,56 +2248,6 @@
    ]
   },
   {
-   "n": 1233,
-   "name": "Repair Windows Pilot Pano360 projection",
-   "done": "2026-11-16T00:14Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-16T00:06Z",
-     "text": "Published bbbe7b0f38. Roslyn NEW ERRORS: none. Pilot projection, DJI retained pose, and Photo Stream delivery fixtures now bind to Projection, Frame Pose, and Heavy Work. Projection, altitude, and allocation assertions are intact. Native re"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-16T00:14Z",
-     "text": "Rog native Unity 6000.6.8f1 at 9686a64e1f containing bbbe7b0f38: PilotWorkflowTests 20/20, ProjectionDisplayAltitudeTests 5/5, PhotoStreamDeliveryTests 1/1. Projection, retained-altitude and blocked-send allocation checks passed. Receipts C"
-    }
-   ]
-  },
-  {
-   "n": 1234,
-   "name": "Repair Windows map fixture bindings for the Orthophoto bake cursor and the Menu Map source tier. Keep staged intent and parking assertions and check all three scrollable cards in their current authore",
-   "done": "2026-11-16T00:14Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-16T00:10Z",
-     "text": "Published daf99025db. Roslyn NEW ERRORS: none. Orthophoto uses current bake cursor and intent owners. The Map source fixture checks all three scrollable cards and retains the separate assertion that the retired Details card is absent. Nativ"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-16T00:14Z",
-     "text": "Rog native Unity 6000.6.8f1 at 9686a64e1f containing daf99025db: MapCornerLayoutTests 5/5 and BakeIndependentFootprintTests 5/5. Authored corners, staged intent and parking passed. Receipts C:/MavControlEvidence/Rog-1233-1234-Pilot-Map-2026"
-    }
-   ]
-  },
-  {
    "n": 1235,
    "name": "Repair Windows Adaptive WebRTC",
    "done": "2026-11-16T00:26Z",
@@ -2328,26 +2269,6 @@
      "by": "ROG",
      "at": "2026-11-16T00:26Z",
      "text": "Rog native Unity 6000.6.8f1 at 631ebb6b76 containing 1ad078e04d: SafePeerDiagnostics 12/12, WebRtcCleanupFailure 1/1, WebRtcIceFailure 2/2, PeerCameraView 3/3. Retirement, privacy, capture and fallback checks passed. Receipts C:/MavControlE"
-    }
-   ]
-  },
-  {
-   "n": 1236,
-   "name": "Using Strong for the reference query reuse coverage control",
-   "done": "2026-11-16T00:15Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T00:15Z",
-     "text": "Dev 848 b0e5eec806a2 ground flight passed. CPU.md 7f9e05714d records 3,024 geometry samples, two skirt hits, no holes or pending surfaces/handoffs. Original camera and Normal pacing restored. Strong is free for the candidate only once its A"
     }
    ]
   },
@@ -13077,5 +12998,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "d8795b6410b3eef56be01363bf82434ba429a770"
+ "source_revision": "5cd12a261bdd2c4ca34d382df7df48ab357b3f4a"
 }
