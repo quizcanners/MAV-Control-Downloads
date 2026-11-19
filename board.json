@@ -4968,6 +4968,7 @@
    "goal": false,
    "under": 1693,
    "ticks": [
+    "2026-11-19T20:55Z",
     "2026-11-19T20:55Z"
    ],
    "priority": "normal",
@@ -4978,8 +4979,8 @@
      "who": "MAC_BOARD",
      "since": "2026-11-19T20:32Z",
      "noted": "2026-11-19T20:45Z",
-     "progress": 25,
-     "ticked": 1,
+     "progress": 50,
+     "ticked": 2,
      "total": 4
     }
    ],
@@ -4990,7 +4991,7 @@
     },
     {
      "t": "Record ms per window (warm, over at least 8 windows), first-window cold time, and GPU memory the model holds on the Mac (compare with the 4 GiB the RTX holds)",
-     "x": false
+     "x": true
     },
     {
      "t": "Record every Metal limit hit (compute shader, buffer size, texture format, Inference Engine layer that falls back or fails), with the log line",
