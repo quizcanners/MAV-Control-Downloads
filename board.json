@@ -11842,6 +11842,42 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 1738,
+   "name": "Video Processing SPEC",
+   "done": "",
+   "goal": false,
+   "under": 1704,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-19T05:52Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Distinguish missing terrain from failed camera-plane placement",
+     "x": false
+    },
+    {
+     "t": "Retain floor paint and retry incomplete terrain coverage",
+     "x": false
+    },
+    {
+     "t": "Trace the reported floating live projection",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -12446,5 +12482,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "bd2bd26085ae40cace042c81d5e7a6ff3e4bad41"
+ "source_revision": "e6d0db5cfb2dbe9603f7c541d66ffd5d1ef6cd40"
 }
