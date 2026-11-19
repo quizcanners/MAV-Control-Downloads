@@ -2273,31 +2273,6 @@
    ]
   },
   {
-   "n": 1305,
-   "name": "Drone position single source",
-   "done": "2026-11-16T07:39Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "cloud",
-     "at": "2026-11-16T07:21Z",
-     "text": "Code on main; needs a compile only. No goal fits."
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-16T07:39Z",
-     "text": "Rog Unity 6000.6.8f1 Android-target Editor recompile completed on cf0a7a533a, containing ecb138f6b7. Zero compiler errors and nine warnings outside the changed files. Refreshed Prublyda.dll contains TryGetDisplayedPosition and get_IsPositio"
-    }
-   ]
-  },
-  {
    "n": 1306,
    "name": "Remove the unconditional Height Page demand array from Planet Renderer patch creation (Planet Renderer SPEC",
    "done": "2026-11-16T07:53Z",
@@ -11373,22 +11348,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T07:32Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T05:59Z",
-     "text": "31e55ab1c9 joins iPhone notices on peer plus authenticated message ID. iOS arm64 compile, native posting controls, encrypted worker restart probe and Roslyn/iOS comparisons passed. The socket harness stalled on this Mac."
+     "at": "2026-11-19T07:40Z",
+     "text": "fafb2a5d18 fixes the iPhone Chat worker's idle UDP close stall. It retires the socket before closing and drops late completions. Mac baseline wedged in recvmsg/close; 21/21 on three .NET runs and on Unity Mono. Unity .NET Standard 2.1 compi"
     }
    ]
   },
@@ -12374,5 +12340,5 @@
    "since": "2026-11-19T07:26Z"
   }
  ],
- "source_revision": "253aede06057ac69c0e9423b57eea30a4cc445b7"
+ "source_revision": "84865eb06b78481baa50eb218474358070c236c0"
 }
