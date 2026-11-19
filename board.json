@@ -5476,29 +5476,20 @@
   {
    "n": 1781,
    "name": "Keep the centre Menu shortcut preview above the MavChat capsule throughout its fade (Menu SPEC",
-   "done": "",
+   "done": "2026-11-19T15:10Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T14:56Z",
-     "noted": "2026-11-19T14:57Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T14:57Z",
-     "text": "\u201cWe have a bit of a problem in this one. The menu button selector is overlayed by capsule. I think just reordering some hierarchy should fix it.\u201d"
+     "at": "2026-11-19T15:10Z",
+     "text": "24b7343f0b draws the centre shortcut preview above the MavChat capsule throughout release. Mac EditMode 19 passed. A portrait Play touch opened the centre selector and drew it at order 25 above MavChat 11. Physical phone check remains due."
     }
    ]
   },
