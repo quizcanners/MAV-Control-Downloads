@@ -11754,25 +11754,22 @@
   {
    "n": 1742,
    "name": "Menu Scroll selector",
-   "done": "",
+   "done": "2026-11-19T06:37Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T06:16Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T06:37Z",
+     "text": "bf30f6f681 on main. Menu capsule and centre strip omit Chat in both layouts. Position appears outside MavChat and Scan QR uses the QR Code sprite. Confirmed on Mac Play and TopRightExitDragTests 13 passed."
+    }
+   ]
   },
   {
    "n": 1743,
@@ -12443,5 +12440,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "7b6d6014995be046133abe9fb25d7d9ef98e134b"
+ "source_revision": "a725b98f0c6429f8852f0c5f3162d3999547724a"
 }
