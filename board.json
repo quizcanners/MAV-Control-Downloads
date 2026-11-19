@@ -2273,26 +2273,6 @@
    ]
   },
   {
-   "n": 1270,
-   "name": "Make the daily build test-gate host checks pass on Rog and Unix. Preserve full-suite workspace isolation and macOS skip-argument coverage without invoking Unity.",
-   "done": "2026-11-16T04:22Z",
-   "goal": false,
-   "under": 375,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T04:21Z",
-     "text": "Published ae1bb15dee. The host tests use native absolute paths for default and custom isolated candidate roots, reject relative overrides before launch, and run the real macOS skip parser in host Bash (Git Bash on Windows). Rog passed 2/2 w"
-    }
-   ]
-  },
-  {
    "n": 1271,
    "name": "Using Strong for the paired child-geometry and reference mesh replay",
    "done": "2026-11-16T05:01Z",
@@ -11463,7 +11443,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-19T04:22Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -12567,5 +12556,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "eff5c67b58e95f42b6fd016de077af50ec78e738"
+ "source_revision": "e320d11401d1fa2864e8897d418cad030ac6ba37"
 }
