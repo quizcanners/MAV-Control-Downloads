@@ -5248,25 +5248,22 @@
   {
    "n": 1794,
    "name": "MavChat Tools has one-tap Flashlight (on supported phones) and QR Scanner. Navigator SPEC",
-   "done": "",
+   "done": "2026-11-19T17:53Z",
    "goal": false,
    "under": 431,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T17:32Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T17:53Z",
+     "text": "b5a04dc473. Mac portrait Play verified Scan QR opens from Tools and returns to Tools on close. Menu and layout tests 18/0/0. The flashlight is hidden on the Mac and uses the native rear LED on supported iOS/Android devices; iOS arm64 native"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5819,5 +5816,5 @@
    "since": "2026-11-19T17:40Z"
   }
  ],
- "source_revision": "14cdfe1d706626ff7869e11d62d30220423f5a6a"
+ "source_revision": "ebfc7a02ed507f6e7169e1e20025afdf07059d18"
 }
