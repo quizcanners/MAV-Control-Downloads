@@ -905,11 +905,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-14T13:21Z",
-     "text": "Paired via MAV Control backdoor after VPN recovered. HEAVY USB 7087565 confirmed in 2 ms; Getac Bluetooth 7089031 from handset, own-ID NoEcho. Both CAI 12/UDP 41001: directed probes NoReply and no reliable heartbeat ACK both ways. HEAVY gat"
-    },
-    {
      "by": "cloud",
      "at": "2026-11-14T13:54Z",
      "text": "Report items 4 and 5 and 3 and the isolation hint are in code (uncompiled); item 8 (ARS/LRRP through the Android bridge) and the SIO_UDP_CONNRESET/ReuseAddress hygiene are not done."
@@ -918,6 +913,11 @@
      "by": "GETAC",
      "at": "2026-11-14T17:01Z",
      "text": "Main e1a3e6fe71 fixes the Android half-lease request to unicast with ciaddr and no selection options. Scripted USB lost the first reply, accepted a retry ACK and sent through original expiry on the same handle. USB packet/layout/ECM/network"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-19T08:25Z",
+     "text": "CR-1163-01 (P3), S1/S2 ready for quiz. Editing a VPN-only Known radios ID saves the new record while the unchanged peer report recreates the old row. See [investigation and repair sketch](../Reviews/2127b85b2.md#cr-1163-01--p3-known-radios-"
     }
    ]
   },
@@ -2323,43 +2323,6 @@
      "by": "ROG",
      "at": "2026-11-16T10:53Z",
      "text": "Published da6a1ef896: an expired CodingSceneReady wait hands the completed read to the regular file owner after startup reaches Ready. The original settings root must still own it; no synchronous wait or repeat failure. Six host controls pa"
-    }
-   ]
-  },
-  {
-   "n": 1311,
-   "name": "Show the RTX Visual Odometry point cloud and Synthetic drone in MAV Control from its video input",
-   "done": "2026-11-16T08:26Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-16T08:25Z",
-    "2026-11-16T08:25Z",
-    "2026-11-16T08:25Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Connect the existing video input and local RTX mapper",
-     "x": true
-    },
-    {
-     "t": "Show reconstructed points and Synthetic drone motion over the map",
-     "x": true
-    },
-    {
-     "t": "Run the demo through the Backdoor",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-16T08:26Z",
-     "text": "1e68c87616 adds RTX map replay and the relative Video Path sidecar."
     }
    ]
   },
@@ -11708,25 +11671,22 @@
   {
    "n": 1754,
    "name": "Web Mercator",
-   "done": "",
+   "done": "2026-11-19T08:31Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-19T08:20Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-19T08:31Z",
+     "text": "a8ea193650 on main. Actual adoption and summary methods: 16 zoom-19 same-revision restores went from 320 fold calls to zero on legacy and content-hash indices. All 16 invalidated local pixels and advanced records. Changed finest bytes, newe"
+    }
+   ]
   }
  ],
  "verify": [
@@ -12335,5 +12295,5 @@
    "since": "2026-11-19T07:26Z"
   }
  ],
- "source_revision": "8a80024a8104f375d7a1165b6b3966caf026f05f"
+ "source_revision": "98e17ef835629421c32ce3393feecdff749c14b4"
 }
