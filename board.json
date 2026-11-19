@@ -4482,16 +4482,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T18:50Z",
-     "noted": "",
-     "progress": 75,
-     "ticked": 3,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Render the synthetic top-down tile around the prior position",
@@ -4513,8 +4504,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-19T18:49Z",
-     "text": "3f095da535 fixes the Windows Render Graph depth row order and adds TestRun rejection packets. Replayed wide real-photo registration: both window layouts cleared the last three fresh views, and the first lacked depth-and-image support. Relat"
+     "at": "2026-11-19T19:09Z",
+     "text": "60e010c860 adds TestRun recovery-bank replay. All far-bank quartets refused the first wide frame; four nearer quartets confirmed on the exact same footage. The live 12 m offset wide crop joined, and wide plus Inner Court joined one draft. G"
     }
    ]
   },
@@ -5651,5 +5642,5 @@
    "since": "2026-11-19T17:40Z"
   }
  ],
- "source_revision": "f2650d74a70b6ab0cc0649790afaf41703f7a38b"
+ "source_revision": "60e010c860e48735d8ff1eff8a2276f42955e924"
 }
