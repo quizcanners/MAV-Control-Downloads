@@ -11625,25 +11625,22 @@
   {
    "n": 1756,
    "name": "Navigator SPEC",
-   "done": "",
+   "done": "2026-11-19T09:38Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T08:46Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T09:38Z",
+     "text": "e85defd9a7. Portrait Play with real Input System touches and a held key. Camera waited for release, paused and retargeted, and used the capsule-to-MGRS viewport. Across 91 samples the same geographic point stayed within 0.090 px. MavChatShe"
+    }
+   ]
   },
   {
    "n": 1757,
@@ -12548,5 +12545,5 @@
    "since": "2026-11-19T07:26Z"
   }
  ],
- "source_revision": "3ed4fa18d32252aa9a175273513ea829e46a5ced"
+ "source_revision": "891ebae8267f01d49de38ec87a4370e97f2a87a8"
 }
