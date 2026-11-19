@@ -11809,16 +11809,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T01:28Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -11845,8 +11836,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T01:27Z",
-     "text": "c2bdfe94c9 adds the Unity RGB-D Backdoor replay and metric evaluator. 11 Python tests passed, Roslyn clean. Sparse joins 0/3, dense 3/5. Confidence >0.45 reduced depth p90 in all six replays. Detailed held-out pose, lens and depth results a"
+     "at": "2026-11-19T01:39Z",
+     "text": "eb4ba2607d records RGB-D join diagnostics, pose qualification and the photo-first SPEC. All five refused joins lacked fresh-view image support. Slanted patches changed no verdict. The unrelated scene was refused. SIFT/ORB gave seven image-s"
     }
    ]
   },
@@ -12727,5 +12718,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "1e3b824e72046a4b9a2cd64e687c03dbf26c993c"
+ "source_revision": "9496ab4f26bbcc89307ac02e1876aab70842b905"
 }
