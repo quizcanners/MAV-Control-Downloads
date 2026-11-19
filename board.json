@@ -5078,25 +5078,22 @@
   {
    "n": 1800,
    "name": "Mac Unity cannot compile after 83adebc0d5 moved continuous-frame inputs into FrameBatch. Qualify the two calls through its owning worker so the existing batch and empty-batch calls compile.",
-   "done": "",
+   "done": "2026-11-19T19:35Z",
    "goal": false,
    "under": 1693,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T19:30Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T19:35Z",
+     "text": "d0c2777126 qualifies ContinuousWorker.FrameBatch for both the regrid-only and full-frame calls. Native Mac Unity compile clean; Roslyn removes CS0103 and CS0246 in all four passes and reports NEW ERRORS none. RTX hardware execution remains "
+    }
+   ]
   }
  ],
  "verify": [
