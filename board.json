@@ -2282,26 +2282,6 @@
    ]
   },
   {
-   "n": 1238,
-   "name": "Restore the Background Chat packet source links and iPhone worker host checks broken by the Chat partial-file merge. Keep one production packet implementation",
-   "done": "2026-11-16T00:33Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-16T00:33Z",
-     "text": "Published 552e2eae6d. iPhone worker host checks 21/21, Windows Background Chat build and host suite passed, Android packet interop compiled, Roslyn NEW ERRORS: none. Production worker and packet bodies are unchanged. The WindowsPlayer AI Sa"
-    }
-   ]
-  },
-  {
    "n": 1239,
    "name": "Using Strong to measure reference query array reuse and coverage",
    "done": "2026-11-16T00:47Z",
@@ -12138,16 +12118,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T00:22Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -12174,8 +12145,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T00:21Z",
-     "text": "9c20dedb73 measures shared landmark coverage. XFeat agreement rose 3/6 to 6/6 for late inner against orbit, and 2/6 to 4/6 for early orbit against inner. Pooled PnP qualified neither full-clip direction and lost short-interval cases against"
+     "at": "2026-11-19T00:33Z",
+     "text": "d0c9111721 measures usable depth on retained photos. Sparse depth yields its slot and stays out of refinement. Camera rank remains the general selection method; cached depth and RGB did not consistently improve it. Both Kenilworth joins rep"
     }
    ]
   },
@@ -13005,5 +12976,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "77d848b43fd97146fc83c297fe1123fc11071121"
+ "source_revision": "77caa03a5aa2a3fddc9c66e5e8e56c523479088a"
 }
