@@ -2302,26 +2302,6 @@
    ]
   },
   {
-   "n": 1291,
-   "name": "Restore the Android Wi-Fi join portable checks after the Join and Wi-Fi controllers split. Run current request",
-   "done": "2026-11-16T06:09Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T06:09Z",
-     "text": "Published 1c341f9764 and 0e2ae48367. The Android hotspot host compiles current Join, Wi-Fi, offer, dial admission and TransportFailures owners. 18 managed checks and seven regression controls passed. Java callback host pins current Wi-Fi co"
-    }
-   ]
-  },
-  {
    "n": 1292,
    "name": "Stop the Direct USB GeoTIFF and Android Wi-Fi host checks from retaining disposable compiler outputs. Keep the small receipts",
    "done": "2026-11-16T06:14Z",
@@ -11759,7 +11739,9 @@
    "done": "",
    "goal": false,
    "under": 1704,
-   "ticks": [],
+   "ticks": [
+    "2026-11-19T06:10Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -11768,15 +11750,15 @@
      "who": "HEAVY",
      "since": "2026-11-19T05:38Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Resolve Positioned ownership and register the specification",
-     "x": false
+     "x": true
     },
     {
      "t": "Build a transient world-positioned draft from the saved photo evidence",
@@ -12428,5 +12410,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "390fccdde94224c2f6ca7d5c177518808bc39710"
+ "source_revision": "df01029b49b6a6ab9f9b253317e2e93170945a24"
 }
