@@ -2711,26 +2711,6 @@
    ]
   },
   {
-   "n": 1621,
-   "name": "Delete the 15 leftover 'Active Top Light' Image objects in Assets/_PROJECT/UI/_Views/Metrics Inspector/Processes and Timings.prefab (no script drives them; the selected body's shader draws the top lig",
-   "done": "2026-11-18T15:25Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-18T15:25Z",
-     "text": "459e6a0444 on main. Unity Prefab Edit removed 15 obsolete Diagnostics overlays. The controller no longer toggles removed objects, and four stale Left Lists Author selectors were removed. Native compilation, prefab reference review and Rosly"
-    }
-   ]
-  },
-  {
    "n": 1622,
    "name": "Delete unreferenced UI Effects assets with their .meta (no guid",
    "done": "2026-11-18T15:31Z",
@@ -5463,22 +5443,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-19T15:01Z",
-     "noted": "2026-11-19T15:14Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-19T15:14Z",
-     "text": "Published 2030c41739 to main. Decoded child slots move to an empty resident branch with row inheritance and worker-counted publication; existing merge handles populated branches. 100k host attachments 5.6 MB to 0, Roslyn E/A/P/M no new erro"
+     "at": "2026-11-19T15:26Z",
+     "text": "Published 2030c41739. Exact isolated Unity EditMode passed 96: Memory Ledger 9, Index Paging 74, SQLite Retention 13. Slot identity, descendant row inheritance, populated-target fallback and the integrated Retention change passed. 100k host"
     }
    ]
   },
@@ -6089,5 +6060,5 @@
    "since": "2026-11-19T15:13Z"
   }
  ],
- "source_revision": "f8f910a0ad60b504c81aee41fa76bfed2f3655a0"
+ "source_revision": "61d4ce8553d2ba883db446e6e3fb2ff196f68ac7"
 }
