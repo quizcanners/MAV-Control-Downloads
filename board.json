@@ -2338,26 +2338,6 @@
    ]
   },
   {
-   "n": 1314,
-   "name": "Save the handoff note and release the claim in one board commit. Keep plain release",
-   "done": "2026-11-16T09:09Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T09:09Z",
-     "text": "Published 7eb33182fe. task_flow --release N --note saves the handoff and releases its author in one board commit. Bare-origin tests proved the note, preservation of another holder, one parent commit, input refusal and no rewrite on retry. T"
-    }
-   ]
-  },
-  {
    "n": 1315,
    "name": "Save RTX meshes as Street View entries with notification and yaw-only map placement",
    "done": "2026-11-16T09:39Z",
@@ -7661,8 +7641,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-19T08:31Z",
-     "text": "a8ea193650 keeps peer hash caches when the same Web Mercator revision restores local pixels (320 to zero fold calls for 16 zoom-19 tiles, host). Strong/Lenovo Dev 863 remain configured. Latest Lenovo preflight 11% and about 69 MiB short of "
+     "at": "2026-11-19T09:09Z",
+     "text": "26791de909 settles incoming Web Mercator write groups in one turn. Host 16 changed tiles: 320 to 38 folds, identical branch/root hashes. Unity checkpoint passed both index formats through save/reload/page release. Tablet frame cost and conv"
     }
    ]
   },
@@ -12453,5 +12433,5 @@
    "since": "2026-11-19T07:26Z"
   }
  ],
- "source_revision": "6e8087350bfb70d6d37349d7ca6f6f151bcbb774"
+ "source_revision": "f75b6851fb15a30a54315cddbe7a887e0a26846b"
 }
