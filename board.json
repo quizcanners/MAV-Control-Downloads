@@ -1211,16 +1211,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T20:11Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 2
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Settings sub-pages below the eight roots get the same status-and-tick treatment, one root per pass, if any remain",
@@ -1244,8 +1235,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T20:07Z",
-     "text": "708de35c2f: GPS/AntiSpoofing and Raw readings open on the actual raw GPS status. Mac isolated Play checked neutral unavailable and simulated states, two independent titles, and Back through Location stages. Raw GPS and Position Sharing Edit"
+     "at": "2026-11-19T20:18Z",
+     "text": "d9bbbe0ebc keeps actual Workflow status on its Settings page. Mac Play verified Mav Chat active and simulated route-recovery states, Diagnostics without the parent status, and Back. 22 EditMode passed, including PEGI navigation/scroll and N"
     }
    ]
   },
@@ -2738,26 +2729,6 @@
    ]
   },
   {
-   "n": 1691,
-   "name": "Video Processing",
-   "done": "2026-11-18T20:12Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-18T20:12Z",
-     "text": "b2b9c357e0 on main. Kenilworth live and Pause accepted photo-depth revisions and rebuilt the regional Disk preview. Garden orbit to inner court joined through retained overlap and promoted fresh photos. Roslyn clean, 18 native tests and WAR"
-    }
-   ]
-  },
-  {
    "n": 1693,
    "name": "3D map generation: a drone video becomes a textured 3D map that merges with the orthophoto and keeps transparent mesh parts for trees and edges, built by Depth Anything inside Unity on the GPU, placed",
    "done": "",
@@ -2829,26 +2800,6 @@
      "by": "HEAVY",
      "at": "2026-11-19T20:08Z",
      "text": "68b4713b10 records one draft across Wide overlap, Inner Court and Garden Orbit, confirmed with four supported real views per switch. Zurich preserved the draft. The original earlier Wide export and automatic joins at ordinary clip starts re"
-    }
-   ]
-  },
-  {
-   "n": 1696,
-   "name": "Read Android battery",
-   "done": "2026-11-18T20:18Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-18T20:18Z",
-     "text": "a2c0e7cc87 moves the Android OS power read to one JNI-attached worker. Unity publishes completed values on the existing policy path. Held-reader falsifier blocked the old update; 14 scheduling and 4 JNI-port controls passed. Roslyn NEW ERRO"
     }
    ]
   },
@@ -5655,7 +5606,15 @@
   {
    "screen": "Settings/GPS/AntiSpoofing/RawReadings",
    "since": "2026-11-19T20:03Z"
+  },
+  {
+   "screen": "Settings/Workflow/MavChat",
+   "since": "2026-11-19T20:15Z"
+  },
+  {
+   "screen": "Settings/Workflow/MavChat/Diagnostics",
+   "since": "2026-11-19T20:15Z"
   }
  ],
- "source_revision": "0da02f40a4a8c952fddc6d7b3e065d0a714a16d0"
+ "source_revision": "d9bbbe0ebc27f2f9db1541c186515cea70b80131"
 }
