@@ -2257,26 +2257,6 @@
    ]
   },
   {
-   "n": 1246,
-   "name": "Using Strong for Android idle pacing CPU controls",
-   "done": "2026-11-16T01:02Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T01:02Z",
-     "text": "Strong free on Dev 848 067634a50d26. CPU.md 2e0b9dbe8c has the Normal/fixed30 idle control and census stack evidence. Original camera, Normal pacing, and render interval one verified after the run. Removed the owned Android profiler file."
-    }
-   ]
-  },
-  {
    "n": 1247,
    "name": "Windows EditMode fixtures",
    "done": "2026-11-16T01:11Z",
@@ -11949,7 +11929,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-19T01:02Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -12804,5 +12793,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "895e3cf6d4e8fdc8a7ae141924c19617044ce376"
+ "source_revision": "14c42436f128b1876145aca9e9a471b2122a7fa5"
 }
