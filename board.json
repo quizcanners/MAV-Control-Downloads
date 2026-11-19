@@ -5333,25 +5333,22 @@
   {
    "n": 1787,
    "name": "Web Mercator SPEC",
-   "done": "",
+   "done": "2026-11-19T16:27Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-19T16:17Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-19T16:27Z",
+     "text": "5dbf033656 on main. The drill reuses outgoing hash slots, and the hash envelopes avoid generic construction and temporary formatting strings. Host proof: 840 exact wire outputs, 100k batch checks 13.6 MB to 0, 100k ordinary envelopes 76.8 M"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5892,5 +5889,5 @@
    "since": "2026-11-19T15:13Z"
   }
  ],
- "source_revision": "3b9fc06873ea686f2531711d85f56475267fa67f"
+ "source_revision": "5dbf033656b30b722e8a8dc8c59bbd96306928f6"
 }
