@@ -156,11 +156,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-14T17:34Z",
-     "text": "Strong Dev 840 reproduced half scale after release twice with held_input=False during glide. fc4fbe8579 feeds held input to MapRender and its gate, so release selects native resolution even while the camera moves. 18 host-side production de"
-    },
-    {
      "by": "CODEX_GRAPHICS",
      "at": "2026-11-15T11:22Z",
      "text": "Builds 845 delivered: iOS internal testing, external Apple submission limit; macOS internal testing, external beta review. Published fixes 9f96342671 and 6fd70c7e56, history 368cea560b. Slow-motion fix ee07fd0c43 is on main; live Synthetic "
@@ -169,6 +164,11 @@
      "by": "HEAVY",
      "at": "2026-11-15T20:02Z",
      "text": "Windows D3D11 verified b8ccb161b9: Unity compiled 178 shader passes with zero errors. Long Press Wave tests 2/2."
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T10:24Z",
+     "text": "e5dd7328ef restores half size on held map input and native size on release, including glide. Mac Play verified both edges and the sharp still, one refresh for visible borders and none for notification volume. Synthetic reported movement onl"
     }
    ]
   },
@@ -6252,6 +6252,70 @@
  ],
  "verify": [
   {
+   "screen": "Main/Map",
+   "since": "2026-11-10T07:58Z"
+  },
+  {
+   "screen": "Video/Processing",
+   "since": "2026-11-10T07:58Z"
+  },
+  {
+   "screen": "Chat/Home",
+   "since": "2026-11-10T07:58Z"
+  },
+  {
+   "screen": "Layers/WiFi",
+   "since": "2026-11-10T07:58Z"
+  },
+  {
+   "screen": "Chat/Messages",
+   "since": "2026-11-10T07:58Z"
+  },
+  {
+   "screen": "Map/Planet",
+   "since": "2026-11-10T07:58Z"
+  },
+  {
+   "screen": "Main/Notifications",
+   "since": "2026-11-10T08:04Z"
+  },
+  {
+   "screen": "Main/Menu",
+   "since": "2026-11-10T08:28Z"
+  },
+  {
+   "screen": "Chat/Routes",
+   "since": "2026-11-10T08:29Z"
+  },
+  {
+   "screen": "Search",
+   "since": "2026-11-10T08:29Z"
+  },
+  {
+   "screen": "Chat/Peers",
+   "since": "2026-11-10T08:33Z"
+  },
+  {
+   "screen": "Chat/QR",
+   "since": "2026-11-10T08:53Z"
+  },
+  {
+   "screen": "Main/MapSource",
+   "since": "2026-11-10T08:53Z"
+  },
+  {
+   "screen": "Servers/People",
+   "since": "2026-11-10T10:13Z"
+  },
+  {
+   "screen": "Servers/Admins",
+   "since": "2026-11-10T10:13Z"
+  },
+  {
+   "screen": "Settings/VPNs",
+   "since": "2026-11-12T06:26Z"
+  },
+  {
    "screen": "Main/Layers",
    "since": "2026-11-12T13:00Z"
   },
@@ -6784,5 +6848,5 @@
    "since": "2026-11-19T09:43Z"
   }
  ],
- "source_revision": "d6f7ce357fc468b694e4bcb957e0b2c450155ec0"
+ "source_revision": "e5dd7328ef3513a4aa15019ea8c1f9d7af00fb84"
 }
