@@ -4976,16 +4976,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T20:32Z",
-     "noted": "2026-11-19T20:45Z",
-     "progress": 100,
-     "ticked": 4,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Play a Kenilworth clip in Video Source, start 3D generation (Backdoor `video.odometry rtx da3 live`, poll `video.odometry rtx da3 status` until ready) and record whether it runs on Metal or where it s",
@@ -5007,8 +4998,8 @@
    "notes": [
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T20:45Z",
-     "text": "Mac Video Source rejected VP9 with Unsupported video codec VP9. The same Kenilworth clip as H.264 1280x676 decoded in isolated Mac Play. Live DA3 reached the missing ModelAsset check. Pinned DA3-BASE Unity worker export is running with the "
+     "at": "2026-11-19T20:56Z",
+     "text": "cd99a2ce12. M6 Metal: first live DA3 2.51 s, nine warm immediate 1.529\u20131.549 s, steady driver delta 3.96 GiB (RTX 300\u2013345 ms, 4.01 GiB). Nine sliced windows and all 36 tensor checks passed. Normal Continuous is Windows-only. Disposable back"
     }
    ]
   },
