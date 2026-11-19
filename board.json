@@ -2743,26 +2743,6 @@
    ]
   },
   {
-   "n": 1668,
-   "name": "Resume an unsaved 3D Street View after reopening Video Source during a sliced Unity inference. Preserve the accepted overlap and retire an interrupted Inference Engine worker before reuse. Video Proce",
-   "done": "2026-11-18T16:58Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-18T16:58Z",
-     "text": "f6a86fd321 on main. Same-clip reopen hit Sentis TensorPool.Dispose after cancellation mid-slice, upstream of matching. Finish stale source schedules in slices and drop before registration. Forced cancellation retires the partial worker. Ros"
-    }
-   ]
-  },
-  {
    "n": 1671,
    "name": "Keep Right Suggestions backing at its authored width at the physical edge; apply notch clearance only to the bottom coordinate row (Main View SPEC",
    "done": "2026-11-18T17:11Z",
