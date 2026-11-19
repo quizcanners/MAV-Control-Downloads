@@ -1678,16 +1678,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T21:42Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Dispatcher commands still in AI_Sandbox_DeviceDebugCommands*.cs: the remaining vpn.*, training and remote-sensor editors, performance.wires, cfg/system.set and the other cfg cases in DebugControl; the",
@@ -1709,8 +1700,8 @@
    "notes": [
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T21:07Z",
-     "text": "42c346d7d7 moves the altitude and emulated-video debug switches to their owners. All 14 Mac Play replies matched. Fresh focused EditMode 71 passed, 2 skipped. AltitudeVisualizationTests has one post-Play assertion (expected true, actual fal"
+     "at": "2026-11-19T21:50Z",
+     "text": "aa9b2c2034 on main. Station UI owns ui.status and ui.graphic; Left Lists owns the shared available-list report used by ui.status and ui.list. Source parity passed for report and parser bodies. Observation client 44 passed; Roslyn no new err"
     }
    ]
   },
@@ -5545,5 +5536,5 @@
    "since": "2026-11-19T20:20Z"
   }
  ],
- "source_revision": "fa796e5bb0eb84385c32aa825dce7d26baa46de9"
+ "source_revision": "aa9b2c203486d827eb7afae50168914a721d86d5"
 }
