@@ -5710,7 +5710,9 @@
    "done": "",
    "goal": false,
    "under": 1693,
-   "ticks": [],
+   "ticks": [
+    "2026-11-19T12:35Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -5719,15 +5721,15 @@
      "who": "HEAVY",
      "since": "2026-11-19T12:05Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 25,
+     "ticked": 1,
      "total": 4
     }
    ],
    "steps": [
     {
      "t": "Render the synthetic top-down tile around the prior position",
-     "x": false
+     "x": true
     },
     {
      "t": "Warp a frame flat from depth and attitude",
@@ -6462,5 +6464,5 @@
    "since": "2026-11-19T12:00Z"
   }
  ],
- "source_revision": "52a4e55db3277341ff772d531eba411a9c34d552"
+ "source_revision": "df7ac27afb0e87c4d9acf46da9968dc813b9faef"
 }
