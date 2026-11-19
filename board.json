@@ -2293,26 +2293,6 @@
    ]
   },
   {
-   "n": 1273,
-   "name": "Make one claim request take an expired task atomically. Preserve fresh holders",
-   "done": "2026-11-16T04:33Z",
-   "goal": false,
-   "under": 412,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T04:33Z",
-     "text": "Published dde47755c6. Claim now expires stale holders before deciding availability in the same board change. Tests passed for one-call takeover, a recently noted holder, additive claims and competing first claims (3/3). Strict guide check p"
-    }
-   ]
-  },
-  {
    "n": 1274,
    "name": "Clean the UI Layout and UI entry-point guidance under goal 606. Keep the shared Exit",
    "done": "2026-11-16T04:36Z",
@@ -11414,7 +11394,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-19T04:33Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -12506,5 +12495,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "80a9e5c1d3eb1150513ba575cdc737d2f8400422"
+ "source_revision": "b7b9e9db65b2acb45b8aa1a63b1614fa2ba4559c"
 }
