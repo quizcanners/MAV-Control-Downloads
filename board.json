@@ -115,16 +115,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T22:44Z",
-     "noted": "",
-     "progress": 56,
-     "ticked": 5,
-     "total": 9
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: the state machine and every mode, 1 s settle, release-frame full resolution, VideoOnBlack, kept screen-size picture, ribbons as kept renderers, Editor 2x frame read on Mac and Rog, 8 fps idle",
@@ -170,14 +161,14 @@
      "text": "Windows D3D11 verified b8ccb161b9: Unity compiled 178 shader passes with zero errors. Long Press Wave tests 2/2."
     },
     {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T14:40Z",
-     "text": "ecf7de4409 refreshes the kept double-resolution map every five seconds while idle. Native Mac Play intervals 5.017 and 5.125 s, measured 0.195 fps at an 8 fps UI target. Existing scene invalidation stays immediate; lock changes request the "
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-19T18:21Z",
      "text": "CR-E15C-01 P2: slow visible peer translation can re-enter FrozenDouble between threshold reports; current drone continuation repair does not cover peers. S1 investigation/S2 brief and proposed reuse of the existing translation observer are "
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T22:54Z",
+     "text": "09a219e861 keeps slow visible peer pointers at native resolution after 1.5 px admission. Portable C# showed zero premature captures (previously two), no wake on stop, and settle on quiet frame three. Roslyn NEW ERRORS: none. Main/Map bumped"
     }
    ]
   },
@@ -2858,26 +2849,6 @@
      "by": "GETAC",
      "at": "2026-11-19T00:58Z",
      "text": "Lenovo Dev 861 frame 19102 spent 1,703 ms waiting for the graphics worker. Perfetto followed UploadTexture2D into PowerVR glTexStorage2D allocation. Two Mask Apply calls totalled 524,288 B and 0.099 ms, consistent with two 256x256 RGBA32 up"
-    }
-   ]
-  },
-  {
-   "n": 1712,
-   "name": "Fix the two Mac EditMode MapMotion failures for slow translation with an inset camera and visible rotation. Follow Bootstrap SPEC",
-   "done": "2026-11-18T22:53Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-18T22:53Z",
-     "text": "77af49848e on main. Motion fixtures use a fixed 640\u00d7480 camera target."
     }
    ]
   },
@@ -5703,5 +5674,5 @@
    "since": "2026-11-19T20:20Z"
   }
  ],
- "source_revision": "4e7dbd7bfd9a237722c07e8ba337215e9ed805c7"
+ "source_revision": "09a219e86184b490ba241c2fc1503e65c331f712"
 }
