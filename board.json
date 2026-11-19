@@ -11745,16 +11745,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T05:38Z",
-     "noted": "",
-     "progress": 33,
-     "ticked": 1,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Resolve Positioned ownership and register the specification",
@@ -11769,7 +11760,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-19T06:10Z",
+     "text": "7310bdb70f and a43b2fdb3e put video actions and Lock 3D model position in the local Video stream tab. Preview and Telemetry stay left. Name stays on Object. MapOnly replay passed. Positioned inheritance already uses the saved parent. Still "
+    }
+   ]
   },
   {
    "n": 1738,
@@ -12410,5 +12407,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "df01029b49b6a6ab9f9b253317e2e93170945a24"
+ "source_revision": "489971a9bab2e6c28830c5a3903c66992c6f5056"
 }
