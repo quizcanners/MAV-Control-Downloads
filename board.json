@@ -2273,26 +2273,6 @@
    ]
   },
   {
-   "n": 1258,
-   "name": "Rog Android daily",
-   "done": "2026-11-16T03:04Z",
-   "goal": false,
-   "under": 375,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T03:04Z",
-     "text": "Production 848 from df2e4474e5 delivered to Drive Test and sealed GitHub Test. Drive lists only 848; GitHub asset digest and catalog verified. Signed native ARM64 APK SHA-256 9e2caed74763476f79c37383ab736d2dff26055bf71eae14bb383ee0fcb11ef2,"
-    }
-   ]
-  },
-  {
    "n": 1259,
    "name": "Using Strong for wide fast-pinch Mask Pages attribution and SQLite Presence follow-up",
    "done": "2026-11-16T03:16Z",
@@ -11715,16 +11695,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T02:55Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -11751,8 +11722,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T02:54Z",
-     "text": "eac3b8e7d0 adds the held-out RGB-D render benchmark. Gap fill preserved matching detail. Direct photos and both prior-offset warps fitted all 27 cameras in both rankings, with more inliers from direct photos. 11 focused Python tests passed,"
+     "at": "2026-11-19T03:04Z",
+     "text": "abf1b4b8a3 adds the different-angle benchmark. Affine proposals with held-out real LoFTR recovered both Kenilworth directions, including court to garden at 4.05\u20134.90 px p90. Direct LoFTR already recovers both faster. Translated RGB-D added "
     }
    ]
   },
@@ -12719,5 +12690,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "6565e0ea8f3ce276a202f85bf5b553bdc771fc5a"
+ "source_revision": "c2b806049988c3bacee594320077adb23a61f0a1"
 }
