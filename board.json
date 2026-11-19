@@ -2282,63 +2282,6 @@
    ]
   },
   {
-   "n": 1306,
-   "name": "Remove the unconditional Height Page demand array from Planet Renderer patch creation (Planet Renderer SPEC",
-   "done": "2026-11-16T07:53Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T07:53Z",
-     "text": "Published 03d2a5b20a and 01fb787b1c. Height Page demand rents only for relevant owner zooms and returns cleared storage through the shared charged retirement pool. The host probe passed empty branches, exact sums, cross-use clearing, page d"
-    }
-   ]
-  },
-  {
-   "n": 1307,
-   "name": "Visual Odometry",
-   "done": "2026-11-16T07:54Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-16T07:54Z",
-    "2026-11-16T07:54Z",
-    "2026-11-16T07:54Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Choose a mapping method from primary sources",
-     "x": true
-    },
-    {
-     "t": "Run reconstruction on video and render a progressive drone-and-map replay",
-     "x": true
-    },
-    {
-     "t": "Record measured results and reproducible commands",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-16T07:54Z",
-     "text": "8d6c0b0959 publishes the standalone Windows RTX DA3 mapper, replay and reproduction guide."
-    }
-   ]
-  },
-  {
    "n": 1308,
    "name": "Restore Android release preflight and player completion lines consumed by the build launcher",
    "done": "2026-11-16T09:13Z",
@@ -10726,16 +10669,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T07:52Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -10762,8 +10696,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T07:50Z",
-     "text": "bf7c3812d0 and a8e51d90d2 on main. Joined Save now includes the Positioned camera/depth evidence bank and keeps the source RGB owners."
+     "at": "2026-11-19T07:58Z",
+     "text": "fa90f51d57 on main. Pregenerate now leases proven original RGB from Street View and shares that archive texture with DA3."
     }
    ]
   },
@@ -12358,5 +12292,5 @@
    "since": "2026-11-19T07:26Z"
   }
  ],
- "source_revision": "e40888972a2f8f3507164fe334d0670bf639181d"
+ "source_revision": "669c8c770ab7d23571d48ba051cb58575711d782"
 }
