@@ -11639,16 +11639,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T03:25Z",
-     "noted": "2026-11-19T03:25Z",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -11675,8 +11666,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T03:25Z",
-     "text": "a70fb1fc0f fixes Pano360 archive lookup for the sixth saved photo and terrain-only Street Views. Native Save reopened six originals and matched depth/confidence with 14 GPU readbacks and zero opaque triangles; photo six resolved and seven r"
+     "at": "2026-11-19T03:38Z",
+     "text": "0abd3a9a69 reuses refused refinement only for exactly matching photo inputs, keeps camera matrices through depth-only updates and rejects stale results. Paused Kenilworth submitted 68 comparisons on baseline and 0 on updated code from 24\u201348"
     }
    ]
   },
@@ -12663,5 +12654,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "cb759d064072d7472917c1904bd7f1ff2c55e49c"
+ "source_revision": "0c6a123a92fd34cce26d8f326a3571722f78359b"
 }
