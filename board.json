@@ -4764,16 +4764,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T17:39Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Render the synthetic top-down tile around the prior position",
@@ -4795,8 +4786,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-19T17:38Z",
-     "text": "c65a8f7abc retains the nearby follow-up across the earlier bridge and arms the next bridge during real-only confirmation. Same-window recovery confirmed on the 30 s and longer replays. Offset and Zurich passed. Later no-pose refusals still "
+     "at": "2026-11-19T17:47Z",
+     "text": "a243261e65 uses paired optics in the top-down warp. Frozen same-photo offset controls improved; live wide approach still supplies no pose. Live offset refused once and confirmed on repeat; both Zurich controls held. Near-frame recovery succ"
     }
    ]
   },
@@ -5834,5 +5825,5 @@
    "since": "2026-11-19T16:28Z"
   }
  ],
- "source_revision": "c65a8f7abc5605438d578f3eef2a01e0e430b2f2"
+ "source_revision": "a243261e65398bbe4a160b7b49a706041733623d"
 }
