@@ -916,8 +916,8 @@
     },
     {
      "by": "REVIEW",
-     "at": "2026-11-19T08:25Z",
-     "text": "CR-1163-01 (P3), S1/S2 ready for quiz. Editing a VPN-only Known radios ID saves the new record while the unchanged peer report recreates the old row. See [investigation and repair sketch](../Reviews/2127b85b2.md#cr-1163-01--p3-known-radios-"
+     "at": "2026-11-19T09:51Z",
+     "text": "S1/S2 ready for quiz: [CR-9DC6-01 P2](../Reviews/af9069671.md#cr-9dc6-01--p2-retained-radio-id-is-restored-without-checking-the-reconnect-adapter), reconnect restores the old confirmed Radio ID without qualifying the new adapter. Source con"
     }
    ]
   },
@@ -2314,26 +2314,6 @@
      "by": "CODEX_MAC_UI",
      "at": "2026-11-16T12:01Z",
      "text": "Published bd8a3bf8f4: up to three live crosshair choices with one-tap actions and compass visibility at 0/1 vs 2/3. Editor compiled; 125 focused tests pass including third authored callback; Roslyn NEW ERRORS: none. Previous Editor visual c"
-    }
-   ]
-  },
-  {
-   "n": 1316,
-   "name": "Compass Dev FPS",
-   "done": "2026-11-16T09:52Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-16T09:52Z",
-     "text": "4511b62376 on main. Six compass format tests pass; native TextMeshPro reports two rendered lines with empty second line; Editor compile clean and Roslyn NEW ERRORS: none. Main/Map check bumped."
     }
    ]
   },
@@ -11707,25 +11687,22 @@
   {
    "n": 1764,
    "name": "Share Position SPEC",
-   "done": "",
+   "done": "2026-11-19T09:52Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T09:11Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T09:52Z",
+     "text": "c97302ff55. Android uses its existing ongoing notification and passed Java SDK 36, API 26 dex and state/stop checks. iOS 864 archive and IPA contain the separately signed Live Activity, version 864, with a weak ActivityKit link. The local-o"
+    }
+   ]
   },
   {
    "n": 1765,
@@ -12434,5 +12411,5 @@
    "since": "2026-11-19T07:26Z"
   }
  ],
- "source_revision": "4ceb06f80dc4ab5d183bdfcda26f994a1d29004c"
+ "source_revision": "781fe11fdb2ad85883f45b05a88c181015a74302"
 }
