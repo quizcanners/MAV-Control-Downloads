@@ -1681,7 +1681,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-19T15:18Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Dispatcher commands still in AI_Sandbox_DeviceDebugCommands*.cs: the remaining vpn.*, training and remote-sensor editors, performance.wires, cfg/system.set and the other cfg cases in DebugControl; the",
@@ -2916,26 +2925,6 @@
      "by": "CLOUD_DOT_MASK_REPAIR",
      "at": "2026-11-18T15:32Z",
      "text": "Published c98118eecc; remote main ancestry verified. Restored PMSK0001/2 decode and verified legacy chunk migration before catalog; 16-file/1MiB batches, newer rows/tombstones preserved, unsafe inputs keep catalog closed. Host task1660/run."
-    }
-   ]
-  },
-  {
-   "n": 1661,
-   "name": "Celestial Moon shader publication must not mark the UI or map dirty or request a refresh (Cesium SPEC",
-   "done": "2026-11-18T15:18Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_MOON_WAKE",
-     "at": "2026-11-18T15:18Z",
-     "text": "8eed4bd979 on main. Celestial Moon remains available at the next scheduled draw. It no longer advances MapGlobalVersion or reports a Shader:CelestialMoon wake. Roslyn NEW ERRORS: none and guide_check 0 errors. Device render and FPS unmeasur"
     }
    ]
   },
@@ -6094,7 +6083,11 @@
   {
    "screen": "Main/Map",
    "since": "2026-11-19T12:00Z"
+  },
+  {
+   "screen": "Main/MapSource",
+   "since": "2026-11-19T15:13Z"
   }
  ],
- "source_revision": "2030c417391f8bd264620ddbcea126cfde75dc2a"
+ "source_revision": "f8f910a0ad60b504c81aee41fa76bfed2f3655a0"
 }
