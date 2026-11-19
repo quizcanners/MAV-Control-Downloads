@@ -12011,22 +12011,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-19T01:32Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-19T01:09Z",
-     "text": "Paired USB readiness at 01:09Z: both focused and idle with current peer sessions. Strong Dev861 d4c4b7ef5a permits writes; Lenovo ran a different signed Dev861 at 2% charge, Conserve/LowCharge, writes unavailable. Both view-priority active,"
+     "at": "2026-11-19T01:33Z",
+     "text": "03:34 Kyiv preflight: both ADB devices online. Lenovo fell from 2% to 1% while charging through Getac; its USB limit is 500 mA and /data free is 2,667,080 KiB. Prior Dev861 readout had Conserve/LowCharge and blocked Web Mercator writes. Str"
     }
    ]
   },
@@ -12716,5 +12707,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "37b5365213b158014b2d01ecaa7fb1d9860539e8"
+ "source_revision": "7127f2bf0aa2c835cd2180a3180cca679fa98f55"
 }
