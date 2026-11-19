@@ -2723,26 +2723,6 @@
    "notes": []
   },
   {
-   "n": 1666,
-   "name": "Prevent 3D Street View drift at cuts and loops. Validate each new frame against an established window before fusion",
-   "done": "2026-11-18T16:46Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-18T16:49Z",
-     "text": "e09870c776 on main. After restarting Unity, Kenilworth rejected the first post-wrap window with points, carve count and frame 398 held. Retained-keyframe recovery resumed the same draft 0.74 s later. Evidence in GPU.md (0cc47c1a2d)."
-    }
-   ]
-  },
-  {
    "n": 1667,
    "name": "Telemetry flashes over MavChat on startup and clears only after changing Workflow. Make Bootstrap own one ShouldShowTelemetry decision",
    "done": "2026-11-18T17:00Z",
@@ -5327,6 +5307,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1789,
+   "name": "SDC Ping SPEC",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_SDC",
+     "since": "2026-11-19T16:47Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5871,5 +5874,5 @@
    "since": "2026-11-19T16:28Z"
   }
  ],
- "source_revision": "7d078b1cacb9882ac885993cd63dcd3630e13682"
+ "source_revision": "1c450aea45056e574bb82a23015466b5e8198419"
 }
