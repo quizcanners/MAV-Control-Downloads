@@ -11463,16 +11463,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T04:09Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -11499,8 +11490,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T04:08Z",
-     "text": "61a6b835b1 and 870897f704 add the four-view schedule comparison and live receipts. 24 layers reduced replay readiness 32% on both clips with all 72 tensors exact. Live results varied; default remains 16. First four-view attempt coincided wi"
+     "at": "2026-11-19T04:21Z",
+     "text": "6b159121cc stages four-view model decode on a worker while the app continues with eight views. Cold Editor open was 172 ms plus 38 ms decode. The serialized model moved 1.17\u20131.19 GB of allocations off the frame loop; Zurich admitted two sho"
     }
    ]
   },
@@ -12576,5 +12567,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "61d57f7b192ae13ff25e653efdc4df55a51e2716"
+ "source_revision": "eff5c67b58e95f42b6fd016de077af50ec78e738"
 }
