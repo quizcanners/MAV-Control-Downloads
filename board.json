@@ -2273,26 +2273,6 @@
    ]
   },
   {
-   "n": 1299,
-   "name": "Refresh live SQLite file sizes in each Web Mercator retention sample while a logical map drains. Reuse only the old segment census and keep the quarter-map reserve and cancellation contracts.",
-   "done": "2026-11-16T07:03Z",
-   "goal": false,
-   "under": 430,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T07:03Z",
-     "text": "Published 6abb671268. Logical drain samples the live master and tiles.sqlite files plus sidecars each turn. Only legacy segments use the 15-second census; legacy writes and writer close invalidate it. Real-file host reproduced CR-E7ED-01, 6"
-    }
-   ]
-  },
-  {
    "n": 1300,
    "name": "Keep Web Mercator legacy-segment catch-up resumable when space runs low. Reuse the existing copy room check and Waiting progress before writing or retiring a segment.",
    "done": "2026-11-16T07:10Z",
@@ -11766,7 +11746,7 @@
   {
    "n": 1746,
    "name": "Notifications",
-   "done": "",
+   "done": "2026-11-19T07:03Z",
    "goal": false,
    "under": 410,
    "ticks": [
@@ -11775,23 +11755,20 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T06:54Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 1,
-     "total": 1
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Cloud: trace the last card's shadow image and its clip or mask to the cause of the missing bottom shadow and fix it",
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T07:03Z",
+     "text": "4fbbe7d10e on main. Hidden rows retain scroll height and no longer merge the outer shadow. Mac Play reproduced Agent Activity losing its bottom to hidden Far From Home. Fixed: the bottom shadow fades beyond the viewport and the live two-car"
+    }
+   ]
   },
   {
    "n": 1747,
@@ -12473,5 +12450,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "a80697f99b58ff8018b768fc40241d90883c944c"
+ "source_revision": "1b4ac6925084a6eb068a36479bfc4c1dc1f81094"
 }
