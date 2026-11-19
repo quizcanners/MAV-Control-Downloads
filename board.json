@@ -11825,22 +11825,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T05:17Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T05:12Z",
-     "text": "e8bbb04f8b on main. Reading iPhone private Chat clears pending and delivered notices for that peer, keeping later arrivals and other peers."
+     "at": "2026-11-19T05:21Z",
+     "text": "e8bbb04f8b on main clears only read iPhone peer notices (14 EditMode, 7 native filter checks)."
     }
    ]
   }
@@ -12447,5 +12438,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "5b9d2b3bf3de68a5083ebd5bd73d3782a9d61b12"
+ "source_revision": "a2062cc38c24eb0db5489c2c2c4d9b2c7a2f20e1"
 }
