@@ -4972,25 +4972,22 @@
   {
    "n": 1810,
    "name": "Shared top-right X is too dark. Restore a bright close icon in UI SPEC",
-   "done": "",
+   "done": "2026-11-19T22:25Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T22:11Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T22:25Z",
+     "text": "6adc3e9e84 switches the shared X to pale blue, which the existing material draws at full tint on dark maps. Roslyn and asset-to-shader calculation passed; native GPU look unrun. Main/Menu page bumped."
+    }
+   ]
   },
   {
    "n": 1811,
