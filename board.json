@@ -2273,46 +2273,6 @@
    ]
   },
   {
-   "n": 1287,
-   "name": "Isolate task_flow board snapshots from concurrent origin/main tracking updates and expose the actual Git error when fetching the board fails.",
-   "done": "2026-11-16T05:53Z",
-   "goal": false,
-   "under": 375,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T05:53Z",
-     "text": "Published fcc998f080. A locked origin/main tracking ref used to fail an otherwise reachable board read. Board fetches now use only the temporary snapshot destination and report Git stderr on fetch failure. The lock regression failed before "
-    }
-   ]
-  },
-  {
-   "n": 1288,
-   "name": "Restore the portable Direct USB Mac ADB loopback checks after the Local Link merge. Compile current production handshake and tracker code through the host and preserve the existing assertions.",
-   "done": "2026-11-16T05:57Z",
-   "goal": false,
-   "under": 375,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T05:57Z",
-     "text": "Published bfaa65244a. The isolated host compiles the current Direct USB Local Link Mac handshake and tracker, state parser, and production DirectUsb_TCP port 17694. All loopback assertions passed on Rog with .NET SDK 10.0.103: exact transpo"
-    }
-   ]
-  },
-  {
    "n": 1289,
    "name": "Add a RAM-only Visual Odometry experiment in Telemetry Video Processing. Track sparse video points and preview motion on a positioned Synthetic drone or Street View.",
    "done": "2026-11-16T06:12Z",
@@ -11745,22 +11705,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T05:49Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T05:48Z",
-     "text": "21eab46bab on main: signed iPhone Chat requests APNs after notification permission, refreshes on activation, and exposes state without exposing the in-memory token."
+     "at": "2026-11-19T05:59Z",
+     "text": "31e55ab1c9 joins iPhone notices on peer plus authenticated message ID. iOS arm64 compile, native posting controls, encrypted worker restart probe and Roslyn/iOS comparisons passed. The socket harness stalled on this Mac."
     }
    ]
   },
@@ -12482,5 +12433,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "e6d0db5cfb2dbe9603f7c541d66ffd5d1ef6cd40"
+ "source_revision": "2d0822a1c8a8b64f0a4b159e3403330879b781fd"
 }
