@@ -11673,7 +11673,7 @@
   {
    "n": 1738,
    "name": "Video Processing SPEC",
-   "done": "",
+   "done": "2026-11-19T06:31Z",
    "goal": false,
    "under": 1704,
    "ticks": [
@@ -11684,16 +11684,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T06:20Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Distinguish missing terrain from failed camera-plane placement",
@@ -11711,8 +11702,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-19T06:11Z",
-     "text": "39c5076779 retries incomplete/coarse Planet terrain, retains the atlas and repaints accepted photo revisions. Kenilworth reached measured contact with no camera pivot shift and produced a paired-depth floor. GPU baseline records the numbers"
+     "at": "2026-11-19T06:31Z",
+     "text": "b888ef3573 on main. The Windows Backdoor replay reproduced the preview drawing on the seed pose before ground fit. Disk, Pano360 and floor paint now wait for terrain contact while observations accumulate. Kenilworth and Zurich reached measu"
     }
    ]
   },
@@ -12480,5 +12471,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "de4093277376ea276cb849b48141fbe8e871a8b2"
+ "source_revision": "e9fa197fc403b8257ba943025d3de9b1d823a324"
 }
