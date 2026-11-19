@@ -11694,25 +11694,22 @@
   {
    "n": 1739,
    "name": "MavChat regression",
-   "done": "",
+   "done": "2026-11-19T06:36Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T06:11Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T06:36Z",
+     "text": "bf30f6f681 on main. Mac Play drift fell from 112.7269 m at half and 93.7681 m on return to 0.0396 m and 0.0332 m. The full-unfold and refold round trip moved 0.0000 m. MavChatSheetTests 111 passed and camera anchor check passed. Phone check"
+    }
+   ]
   },
   {
    "n": 1740,
@@ -12452,5 +12449,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "2ba2b7027992cc132904a8ffe04b0a095c15e4e3"
+ "source_revision": "eb8d2310082dad0d19818de29083d66d1bab1b40"
 }
