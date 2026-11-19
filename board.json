@@ -11772,7 +11772,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-19T06:54Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 1
+    }
+   ],
    "steps": [
     {
      "t": "Cloud: trace the last card's shadow image and its clip or mask to the cause of the missing bottom shadow and fix it",
@@ -12441,5 +12450,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "f74e00d47709a5171787329d7ab3f270b5aa07ce"
+ "source_revision": "2532880305a121b3b97ef7f2de76133a5d65a67a"
 }
