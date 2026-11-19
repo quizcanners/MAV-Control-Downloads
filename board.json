@@ -1994,23 +1994,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_TAB",
-     "since": "2026-11-19T12:12Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-16T09:50Z",
-     "text": "Altitude line fixed on main in 4511b62376: locked point + distinct screen center stays Section even if locked point is selected or unselected; 34 AltitudeVisualizationTests pass. The intermittent tab issue remains: Editor MapOnly selected t"
-    },
     {
      "by": "CODEX_CENTER_RECHECK",
      "at": "2026-11-17T07:23Z",
@@ -2020,6 +2006,11 @@
      "by": "MAC_BOARD",
      "at": "2026-11-18T23:22Z",
      "text": "Mac selected the saved lock itself and checked both flags before every touch. Six native EventSystem trials: four taps switched, two holds over 0.3 s correctly timed out. A 0.207 s tap routed after 0.410 s still switched from 8 FPS. The ear"
+    },
+    {
+     "by": "MAC_BOARD_TAB",
+     "at": "2026-11-19T12:26Z",
+     "text": "790922c08a adds an opt-in device-debug press trace. Mac selected-and-locked replay verified quick tap accepted; long hold returned Timeout. The intermittent miss remains open. On the affected device run ui.suggestion.tabs arm-press, tap Scr"
     }
    ]
   },
