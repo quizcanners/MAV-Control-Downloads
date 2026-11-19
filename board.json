@@ -11749,16 +11749,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T02:17Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -11785,8 +11776,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T02:16Z",
-     "text": "9c69f978c6 records copy-inclusive GPU timings for the Street View depth writers. 32 pairs per fixture, byte-identical output. At 448x336, medians went 0.0343 to 0.0182 ms and 0.0367 to 0.0195 ms. The 320x240 control had similar p90. Scene-l"
+     "at": "2026-11-19T02:26Z",
+     "text": "eda8858662 adds a MapOnly rendered-reference contrast retry on identical renders, depth and four live query inputs. Archived SIFT matches increased, and native paired support reached at most 1/4 views. Three overlapping attempts and a Zuric"
     }
    ]
   },
@@ -12753,5 +12744,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "3bdc4a06199b9bfee6edd3336e03c268b89d2bd5"
+ "source_revision": "b92a8b44f20198abb7b24f4240de380ff59a789e"
 }
