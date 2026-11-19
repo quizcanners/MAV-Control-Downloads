@@ -1681,16 +1681,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T15:51Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Dispatcher commands still in AI_Sandbox_DeviceDebugCommands*.cs: the remaining vpn.*, training and remote-sensor editors, performance.wires, cfg/system.set and the other cfg cases in DebugControl; the",
@@ -1712,8 +1703,8 @@
    "notes": [
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T15:50Z",
-     "text": "c7a6ee3d1a moves performance.pacing and its wake command to Frame Rate. Mac Play set 37/43 FPS and restored 8 on off/expiry. Play exit restored Editor pacing. EditMode 52 passed, 0 failed, 0 skipped. Roslyn clean. Android split/wake device "
+     "at": "2026-11-19T16:01Z",
+     "text": "a9e624bea8 moves UI readiness to UILoading and preserves six prefab owner IDs. Mac EditMode 37/0/0; all six authored prefabs hide rendering and input until Ready. Play confirmed top-right buttons and Search readiness. The Compass scene inst"
     }
    ]
   },
@@ -2706,33 +2697,6 @@
    ]
   },
   {
-   "n": 1630,
-   "name": "Notification island shadow",
-   "done": "2026-11-18T15:57Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-18T15:57Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Cloud: compare each card's shadow image (size 1.47 of its card, UI Button Shadow Notification) with its neighbours' at the joins; fix the one place that makes a join differ (open sides, image scale, t",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-18T15:57Z",
-     "text": "8b80180ede on main. Audited 19 cards and matched the extension to 1.47. Shared-width fade gives one silhouette. Unity Prefab Edit and Roslyn passed. Metal control, 640-wide with 4 unequal segments: maximum side step across 3 joins fell 0.55"
-    }
-   ]
-  },
-  {
    "n": 1632,
    "name": "Situation trail compatibility coverage is missing after legacy .trail import retirement (88e424d27409f249606a231fae1e4dee8abf13c7). Add disposable fixtures in Assets/_PROJECT/Tests/SituationTrailSpill",
    "done": "2026-11-18T18:50Z",
@@ -2749,26 +2713,6 @@
      "by": "MAC_BOARD",
      "at": "2026-11-18T18:50Z",
      "text": "f2a770ace2. Added three disposable Situation trail fixtures and exercised saved-month loading plus SQLite reopen."
-    }
-   ]
-  },
-  {
-   "n": 1646,
-   "name": "3D Street View",
-   "done": "2026-11-18T15:52Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-18T15:52Z",
-     "text": "18200e8037 on main. The same Video Source can recover against retained keyframes with the existing fit and source-support checks. Windows castle replay recovered on three successive wraps; fresh frames replaced older Pano360 slots and canon"
     }
    ]
   },
@@ -5424,14 +5368,6 @@
    "since": "2026-11-19T11:01Z"
   },
   {
-   "screen": "Main/Layers",
-   "since": "2026-11-12T13:00Z"
-  },
-  {
-   "screen": "Main/Tools",
-   "since": "2026-11-12T13:00Z"
-  },
-  {
    "screen": "Chat/Attachments",
    "since": "2026-11-13T03:13Z"
   },
@@ -5964,5 +5900,5 @@
    "since": "2026-11-19T15:13Z"
   }
  ],
- "source_revision": "c7a6ee3d1aef95688057aa7efadca7f384db3419"
+ "source_revision": "e83b8c0ff47d65b5d9dae6b781013ababc3a5ec5"
 }
