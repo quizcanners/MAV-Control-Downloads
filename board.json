@@ -1997,16 +1997,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T21:57Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -2021,8 +2012,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T14:40Z",
-     "text": "ecf7de4409 keeps a locked tab press through caption/icon updates to the same available lock and drops it if the lock changes. Larger lock, smaller item icon and caption below. Selected tab single tap clears map-hit alternatives; double tap "
+     "at": "2026-11-19T22:25Z",
+     "text": "91610eb281 dismisses the entire Alternatives tab from the active selected tab while preserving the selection, saved lock and double-tap focus. A fresh map pick can show alternatives again. Roslyn clear; touchscreen replay remains open. Earl"
     }
    ]
   },
