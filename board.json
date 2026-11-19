@@ -2273,26 +2273,6 @@
    ]
   },
   {
-   "n": 1298,
-   "name": "Restore the shared daily release reservation host checks on Windows. Exercise the current shipping reservation block with Git Bash and disposable Git repositories.",
-   "done": "2026-11-16T06:49Z",
-   "goal": false,
-   "under": 375,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T06:49Z",
-     "text": "Published 7f929735c6. The host fixture selects Git Bash on Windows, uses LF for shell input and hooks, pins the running Python, and extracts the shipping reservation commands without depending on comments. Eight reservation checks passed, i"
-    }
-   ]
-  },
-  {
    "n": 1299,
    "name": "Refresh live SQLite file sizes in each Web Mercator retention sample while a logical map drains. Reuse only the old segment census and keep the quarter-map reserve and cancellation contracts.",
    "done": "2026-11-16T07:03Z",
@@ -11745,25 +11725,22 @@
   {
    "n": 1744,
    "name": "Suppress map hover and pointing once a touch drag has taken ownership and can no longer tap or long-press. Cover WayPoint size and Situation entity blue highlight on iPad",
-   "done": "",
+   "done": "2026-11-19T06:50Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T06:30Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T06:50Z",
+     "text": "1c4c6e53a3 applies tap and hold eligibility before the shared world-pointing pass. WayPointDragTests 46 passed and the new press-state test passed. The Mac synthetic touchscreen reached Unity but did not start a valid world press, so physic"
+    }
+   ]
   },
   {
    "n": 1745,
@@ -12447,5 +12424,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "1b2ae73410de0ac5ad5200db8a0f1a842c8572c5"
+ "source_revision": "68f025fffe53778bfc5096259d4dad17b5d5eb55"
 }
