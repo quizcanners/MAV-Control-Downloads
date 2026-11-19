@@ -2905,16 +2905,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T18:37Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 10
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Opaque mesh, terrain overlay and splat quads written and loaded as three layers (1430, 1522)",
@@ -2965,8 +2956,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T18:36Z",
-     "text": "b64552578b measured two nearby-real-frame recoveries during the 50.4 s forward replay plus a garden recovery confirmed at 16.4 ms. The later forward gap and wide clip are open. Two shifted windows remained below the same four-view gate. Wor"
+     "at": "2026-11-19T18:49Z",
+     "text": "3f095da535 fixes upside-down rendered recovery depth and verifies the 12 m/110\u00b0 same-orbit join with a real-frame confirmation. The wide overlap still refuses its first fresh view. See task 1770 and GPU.md. TestRun and editor state restored"
     }
    ]
   },
