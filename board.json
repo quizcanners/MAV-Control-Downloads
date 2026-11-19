@@ -5283,25 +5283,22 @@
   {
    "n": 1828,
    "name": "Bootstrap SPEC",
-   "done": "",
+   "done": "2026-11-19T23:54Z",
    "goal": false,
    "under": 363,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T23:41Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T23:54Z",
+     "text": "655dcdd4fb guards two optional Video Processing preflight reads so blocked-camera cleanup still runs. Existing skipped-camera owner/log-sink fault test passed alone and in Mac All at e927e3b15c (8,677/44/30, before final rebase). XML SHA-25"
+    }
+   ]
   }
  ],
  "verify": [
