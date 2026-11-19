@@ -5525,25 +5525,22 @@
   {
    "n": 1783,
    "name": "MGRS SPEC",
-   "done": "",
+   "done": "2026-11-19T15:11Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T14:58Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T15:11Z",
+     "text": "f7ade65599 returns both MGRS Delete paths to a blank entry. Three focused Mac tests passed, covering the remaining history, swipe recall and Undo at the original position."
+    }
+   ]
   },
   {
    "n": 1784,
