@@ -11787,25 +11787,22 @@
   {
    "n": 1735,
    "name": "Planet Renderer SPEC",
-   "done": "",
+   "done": "2026-11-19T05:36Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-19T05:25Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-19T05:36Z",
+     "text": "74dcdd840f follows dirty branch edges, even after earlier sibling insertion or a direct child read. Host 6,224 assertions and missed-edge falsifier. Normal budget 2,759 to 2,630 calls, same 33 slices and canonical hash. Roslyn NEW ERRORS no"
+    }
+   ]
   }
  ],
  "verify": [
@@ -12410,5 +12407,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "33216a0007292123f70a3ba973ddc7d9bb206af2"
+ "source_revision": "2b64d07c88173953616a9aed1496ffc163e89fab"
 }
