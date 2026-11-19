@@ -2273,31 +2273,6 @@
    ]
   },
   {
-   "n": 1295,
-   "name": "Remove repeated Lineage and WaitingImagery allocations from Planet Renderer patch creation. Strong Dev 848 first zoom frames sampled the two zoom-plus-one arrays at ARM64 0x2b633b4 and 0x2b63394. CPU.",
-   "done": "2026-11-16T06:36Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T06:36Z",
-     "text": "Published 0b06980de3. Patches share stable parent links and rent waiting-imagery arrays on demand. Retirement keeps at most 32 cleared-on-rent, size-matched spares under the session ledger. Isolated production methods matched 4096 previous "
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T07:25Z",
-     "text": "Strong signed Dev 848 fe63f4e50614 isolated the 1295 patch. Packaged ARM64 removes both direct constructor arrays. 86 focused Unity tests passed. In six fast pinches the pool reused 44 arrays with at most 32 spares. Coverage passed 3654 sam"
-    }
-   ]
-  },
-  {
    "n": 1296,
    "name": "Using Strong to isolate masked drawing in fast zoom",
    "done": "2026-11-16T06:45Z",
@@ -11647,7 +11622,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-19T06:36Z",
+     "noted": "",
+     "progress": 33,
+     "ticked": 1,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Resolve Positioned ownership and register the specification",
@@ -12468,5 +12452,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "5f24c8cdff6eb9a5c0a891ffa96321d34e224337"
+ "source_revision": "2ba2b7027992cc132904a8ffe04b0a095c15e4e3"
 }
