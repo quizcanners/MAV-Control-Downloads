@@ -2047,16 +2047,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T00:42Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -2088,8 +2079,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T00:41Z",
-     "text": "18f28e843d on main. Spawner teardown retires its hosted Search views in place."
+     "at": "2026-11-19T00:50Z",
+     "text": "507bc15a8d on main. Shutdown clears Map Focus and transient overlay requests and invalidates their frame decisions."
     }
    ]
   },
@@ -2253,31 +2244,6 @@
      "by": "CLOUD_PRUNE",
      "at": "2026-11-17T16:08Z",
      "text": "5 fixtures pass native EditMode on Rog (8ef0611a6d, 9d18eea1f1); All run is verification, not part of the task"
-    }
-   ]
-  },
-  {
-   "n": 1242,
-   "name": "Repair Windows Planet Element Mask blur and receive-load fixtures for the current view Catalog and Loading owners. Preserve exact Water ancestor invalidation and received-chunk admission before the fi",
-   "done": "2026-11-16T00:50Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-16T00:43Z",
-     "text": "Published ec823e3e6e. Roslyn NEW ERRORS: none. Planet Element Mask tests read the live view Catalog and call the Loading owner. Water ancestry and received-memory-chunk assertions remain. Native rerun pending while the earlier Unity PID 334"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-16T00:50Z",
-     "text": "Rog native Unity 6000.6.8f1 at adbdb53a6e containing ec823e3e6e: PlanetMaskBlurTests 21/21 and PlanetMaskStoreTests 25/25 with zero skips. Water ancestor invalidation and received chunk admission before SQLite save passed. Receipts C:/MavCo"
     }
    ]
   },
@@ -12886,5 +12852,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "a3488548eb7040d92cf18bebe9d5ffaa16d4c68e"
+ "source_revision": "b4b7a0ed43bf8db494bccf827767b3e9ac9850f2"
 }
