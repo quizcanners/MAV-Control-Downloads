@@ -2027,22 +2027,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T06:03Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T01:17Z",
-     "text": "9cbb8747d5 on main. Paused Timeline reused blur for all 52 Mac Play updates at 8 FPS. Playback kept Video:TimelinePlayback and a brightness change refreshed once. EditMode 53 passed. Roslyn clean."
+     "at": "2026-11-19T06:23Z",
+     "text": "101b169959 keeps the receive lease under Settings without requesting full display pacing. MapOnly Settings returned to FrozenDouble at 8 FPS while covered, and Synthetic capture stayed uncapped."
     }
    ]
   },
@@ -12482,5 +12473,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "f0b3f23b87dce5540291cceaeb149730237e469a"
+ "source_revision": "4a08806c7ddd6ef05deac296887dd109b186a949"
 }
