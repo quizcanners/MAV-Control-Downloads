@@ -2768,46 +2768,6 @@
    "notes": []
   },
   {
-   "n": 1663,
-   "name": "using Lenovo for signed Dev861 map smoke and convergence diagnostics",
-   "done": "2026-11-18T16:07Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-18T16:07Z",
-     "text": "Released Lenovo. Exact signed Dev 861 (3863197b7a) reached the map and retained app data and VPN. Complete idle capture recorded in CPU.md. No active elevation transfer; same-ID paired run remains open."
-    }
-   ]
-  },
-  {
-   "n": 1664,
-   "name": "using Strong for private Dev 861 paired Convergence",
-   "done": "2026-11-18T16:12Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-18T16:12Z",
-     "text": "Released Strong. In-place 860 to exact Dev 861, app data and VPN preserved. Android logged package replacement and relaunched normally. Complete 151-frame idle capture in CPU.md. Lenovo absent from USB and disconnected in peer diagnostics; "
-    }
-   ]
-  },
-  {
    "n": 1665,
    "name": "Continue the current 3D Street View across Video Source changes. Retry overlapping incoming footage against retained live keyframes before nearby Positioned archives. Video Processing SPEC",
    "done": "2026-11-18T16:28Z",
@@ -5364,25 +5324,22 @@
   {
    "n": 1786,
    "name": "Main View Compass startup (Main View SPEC",
-   "done": "",
+   "done": "2026-11-19T16:13Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T16:02Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T16:13Z",
+     "text": "bd78ab26b7 restores the Compass prefab loading group and moves scene visibility to its parent. World corners and sibling order preserved. Mac Compass EditMode 12/0/0. Play confirmed renderer alpha 1 to 0 during loading, 0 under the parent g"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5923,5 +5880,5 @@
    "since": "2026-11-19T15:13Z"
   }
  ],
- "source_revision": "e83b8c0ff47d65b5d9dae6b781013ababc3a5ec5"
+ "source_revision": "bd78ab26b733a18f9e24735e209025b5cbcd6152"
 }
