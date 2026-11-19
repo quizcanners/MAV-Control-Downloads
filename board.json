@@ -11781,16 +11781,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T05:52Z",
-     "noted": "",
-     "progress": 67,
-     "ticked": 2,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Distinguish missing terrain from failed camera-plane placement",
@@ -11805,7 +11796,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-19T06:11Z",
+     "text": "39c5076779 retries incomplete/coarse Planet terrain, retains the atlas and repaints accepted photo revisions. Kenilworth reached measured contact with no camera pivot shift and produced a paired-depth floor. GPU baseline records the numbers"
+    }
+   ]
   }
  ],
  "verify": [
@@ -12410,5 +12407,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "823697015dd04565c241388d1a513318195edd93"
+ "source_revision": "b3e361c44cb54e7e1bac8c6e0d38580ab8c946df"
 }
