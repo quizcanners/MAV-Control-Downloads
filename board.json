@@ -2273,26 +2273,6 @@
    ]
   },
   {
-   "n": 1300,
-   "name": "Keep Web Mercator legacy-segment catch-up resumable when space runs low. Reuse the existing copy room check and Waiting progress before writing or retiring a segment.",
-   "done": "2026-11-16T07:10Z",
-   "goal": false,
-   "under": 430,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T07:10Z",
-     "text": "Published 617125faf9. Catch-up validates room before each new commit and records the existing Waiting cursor. Copied rows can retire at low room and integrity errors still record Failed. Native Windows mavsqlite replay on disposable databas"
-    }
-   ]
-  },
-  {
    "n": 1301,
    "name": "Using Strong for the isolated Planet patch allocation replay",
    "done": "2026-11-16T07:27Z",
@@ -11836,25 +11816,22 @@
   {
    "n": 1750,
    "name": "Notifications",
-   "done": "",
+   "done": "2026-11-19T07:11Z",
    "goal": false,
    "under": 410,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T07:00Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T07:11Z",
+     "text": "10619473e7 on main. The old test expected enabled=true on the hidden mute button. Unity returned false. The fixture now holds the authored Home action and keeps the hidden mute disabled, with assertions for cancellation, acknowledgement, fo"
+    }
+   ]
   },
   {
    "n": 1751,
@@ -12482,5 +12459,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "496f984a7832711f793fee3731d838cdd72bd2ec"
+ "source_revision": "e3178784623bea7a72316632bd5a5b15918168f3"
 }
