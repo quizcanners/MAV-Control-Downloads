@@ -11545,16 +11545,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T03:56Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -11581,8 +11572,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T03:54Z",
-     "text": "b9595479dd adds a fixed-input DA3 scheduling probe. Both eight-view clips preserved all 72 warmed tensors bitwise. At 24 layers, readiness fell from 1.08\u20131.09 s to 0.75\u20130.76 s; frame p95 increased 1.0\u20131.6 ms. At 32 layers the frame tail gre"
+     "at": "2026-11-19T04:08Z",
+     "text": "61a6b835b1 and 870897f704 add the four-view schedule comparison and live receipts. 24 layers reduced replay readiness 32% on both clips with all 72 tensors exact. Live results varied; default remains 16. First four-view attempt coincided wi"
     }
    ]
   },
@@ -11756,7 +11747,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-19T04:08Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -12615,5 +12615,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "cd36c5cc39b13e113853cb21837800ec24050fa3"
+ "source_revision": "b0d9c5fcf2a2476286e3269781ff5d13cd51bcb1"
 }
