@@ -11780,16 +11780,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T01:40Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -11816,8 +11807,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T01:39Z",
-     "text": "eb4ba2607d records RGB-D join diagnostics, pose qualification and the photo-first SPEC. All five refused joins lacked fresh-view image support. Slanted patches changed no verdict. The unrelated scene was refused. SIFT/ORB gave seven image-s"
+     "at": "2026-11-19T01:51Z",
+     "text": "61b82de846 adds native regional depth replay. Six real RGB-D captures, two known-depth controls. At modified sensor pixels, extra references increased the improved share from 58% to 70% and discarded the strongest sparse improvement. Live r"
     }
    ]
   },
@@ -12727,5 +12718,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "463ae94ab3853cdf4c06b83d5b9b785958843108"
+ "source_revision": "5ce32d2f7d7f01555d3f5df37f5a8dee1c8280c6"
 }
