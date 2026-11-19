@@ -11639,16 +11639,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T03:14Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -11675,8 +11666,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T03:13Z",
-     "text": "5a19644d13 compares real-pair stereo to held-out Kinect depth. With DA3 cameras, paired p90 moved 21.2 to 19.4 cm on Chess 03 and 14.4 to 37.4 cm on Chess 05. Tight feature refit still hurt metric depth. A confident-DA3 scale anchor improve"
+     "at": "2026-11-19T03:25Z",
+     "text": "a70fb1fc0f fixes Pano360 archive lookup for the sixth saved photo and terrain-only Street Views. Native Save reopened six originals and matched depth/confidence with 14 GPU readbacks and zero opaque triangles; photo six resolved and seven r"
     }
    ]
   },
@@ -12663,5 +12654,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "009f8e4887348ebbcdec88c36b579b22bc3af135"
+ "source_revision": "4a03cb338c4e3db2d0039cc6ff64a1cf0d3e24bf"
 }
