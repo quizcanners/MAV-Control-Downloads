@@ -2205,7 +2205,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-19T13:30Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Route each depth point to mesh, terrain or splat by the SPEC rule",
@@ -2226,6 +2235,11 @@
    ],
    "notes": [
     {
+     "by": "CODEX_STREET_SPLAT",
+     "at": "2026-11-17T05:56Z",
+     "text": "Paused: 342d67ef3e and d2defc1e69 published; Unity 2/2 pose-map, 2/2 weight, Roslyn clean. PoseCommit first draft untracked in checkout passed Metal 1/1. Revised allocation/readback-safe wrapper and failure fixture are /tmp/codex-surface-po"
+    },
+    {
      "by": "HEAVY",
      "at": "2026-11-18T14:59Z",
      "text": "Published a82ec1670a/f42d581b9e/1c43cb8ffc. The ground band now measures from true terrain and keeps low relief. Generated layers use map ambient; live video and standard Pano360 stay unlit. Terrain tests 10/10; Windows castle Backdoor veri"
@@ -2234,11 +2248,6 @@
      "by": "HEAVY_HEIGHTMAP",
      "at": "2026-11-18T19:39Z",
      "text": "b321f13e4c and 623c858b96 on main. Live Origami floor relief and synthetic alpha remap implemented. Roslyn clean, WARP 8/8, host 2/2, Unity terrain 16/16. Kenilworth live +0.130 m, zero edge lift, 5 depth-paired views. Backdoor discarded re"
-    },
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T13:41Z",
-     "text": "d7b5694a80 targets 0.5 m terrain cells and keeps the 257-side cap. Mac 24/0/0 focused EditMode; Metal camera reopened one SVME with all three layers and verified opaque occlusion, detail blending and coverage gaps. GPU.md has the receipt. S"
     }
    ]
   },
