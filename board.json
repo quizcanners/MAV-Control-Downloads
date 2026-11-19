@@ -4464,7 +4464,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-19T19:28Z",
+     "noted": "",
+     "progress": 75,
+     "ticked": 3,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Render the synthetic top-down tile around the prior position",
@@ -5643,5 +5652,5 @@
    "since": "2026-11-19T19:07Z"
   }
  ],
- "source_revision": "2e9f7fea950e35eb3cc8826c84bde68efe393b98"
+ "source_revision": "a3c05f8a68444adab465b202f3ece8f0cf112fe4"
 }
