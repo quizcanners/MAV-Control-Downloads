@@ -5101,25 +5101,22 @@
   {
    "n": 1819,
    "name": "Mac EditMode All",
-   "done": "",
+   "done": "2026-11-19T23:23Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T23:04Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T23:23Z",
+     "text": "9f618f6ac2 rebinds both fixtures to the same production checkpoint completion stages. Mac: WaypointCheckpointTests 61/0/0 and the repaired Workflow case passed. All with the repair at a6a990777f plus fixture edits: 8,626 passed, 94 failed, "
+    }
+   ]
   },
   {
    "n": 1820,
@@ -5777,5 +5774,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "48feb7563d791e16df8eb702cf52c5089660388f"
+ "source_revision": "855dac1d203c5104eaf723ef7c8bfe267717c914"
 }
