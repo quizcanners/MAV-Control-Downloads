@@ -2248,26 +2248,6 @@
    ]
   },
   {
-   "n": 1252,
-   "name": "Using Strong for Android split idle pacing and fast-pinch comparison",
-   "done": "2026-11-16T01:44Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T01:43Z",
-     "text": "Strong free on signed private Dev 848 a2db6fc6b5b2. Eight valid fast pinches and four idle windows in CPU.md c0e5cb7cf6. Original camera verified, Normal pacing, interval one. No owned Android captures or ADB forwards."
-    }
-   ]
-  },
-  {
    "n": 1253,
    "name": "Situation marker EditMode",
    "done": "2026-11-18T11:19Z",
@@ -12113,25 +12093,22 @@
   {
    "n": 1718,
    "name": "Author the Notifications Off sprite importer metadata in Unity 6000.6.8f1 so Mac EditMode All keeps its source clean. Preserve the asset GUID",
-   "done": "",
+   "done": "2026-11-19T01:48Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T01:40Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T01:48Z",
+     "text": "2a2c881c0a on main. Unity 6000.6.8f1 force reimport and SaveAssets left the checkout clean. Same sprite GUID, file ID 21300000 and 128\u00d7128 rect. All six prefab references resolved. PNG bytes identical. Roslyn no new errors. Mac EditMode All"
+    }
+   ]
   }
  ],
  "verify": [
@@ -12736,5 +12713,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "52de4e160668e3f84c83dee6c1892dae1e993629"
+ "source_revision": "e95ae351bb429ce9ede84344e3c198e43f25ceb8"
 }
