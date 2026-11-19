@@ -5064,25 +5064,22 @@
   {
    "n": 1803,
    "name": "Shared GPS blind-spot EditMode tests still expect a real fix to be sent to Admins after ab6ecf43f9. Align the two sender tests with the Peers and Background Tracker privacy rule",
-   "done": "",
+   "done": "2026-11-19T20:10Z",
    "goal": false,
    "under": 383,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T20:05Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T20:10Z",
+     "text": "0da02f40a4. The old assertions expected IsAdminLocation=true (actual false) and source MGRS (actual blind-spot substitute). Ab6ecf43f9 and the Background Tracker SPEC require the current behavior. Tests now assert the substitute before and "
+    }
+   ]
   }
  ],
  "verify": [
@@ -5651,5 +5648,5 @@
    "since": "2026-11-19T20:03Z"
   }
  ],
- "source_revision": "68b4713b10f90611d64d9edcb258408a1cfbce1c"
+ "source_revision": "0da02f40a4a8c952fddc6d7b3e065d0a714a16d0"
 }
