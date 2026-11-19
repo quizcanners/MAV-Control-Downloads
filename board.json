@@ -11638,16 +11638,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T06:12Z",
-     "noted": "",
-     "progress": 33,
-     "ticked": 1,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Resolve Positioned ownership and register the specification",
@@ -11665,8 +11656,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-19T06:10Z",
-     "text": "7310bdb70f and a43b2fdb3e put video actions and Lock 3D model position in the local Video stream tab. Preview and Telemetry stay left. Name stays on Object. MapOnly replay passed. Positioned inheritance already uses the saved parent. Still "
+     "at": "2026-11-19T06:32Z",
+     "text": "4a7c39f11f on main. Shared GPU replay accepts each saved depth raster and placement scale while preserving stored evidence. Mixed raster testing passed and the Kenilworth save rebuilt identical Disk occupancy before and after Play reload. G"
     }
    ]
   },
@@ -12471,5 +12462,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "e9fa197fc403b8257ba943025d3de9b1d823a324"
+ "source_revision": "fef37296159b0172710511d6919a9dbee456f9c0"
 }
