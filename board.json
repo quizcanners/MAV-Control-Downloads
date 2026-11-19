@@ -12100,22 +12100,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-19T00:58Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-18T22:34Z",
-     "text": "b19380c85e: Dev 861 frame 19102, 99 of 107 worker samples while Unity Main slept reached PowerVR allocation via UploadTexture2D / glTexStorage2D. The span was 1581.618 ms. Texture owner, format and dimensions remain open. Match enqueue iden"
+     "at": "2026-11-19T00:58Z",
+     "text": "Lenovo Dev 861 frame 19102 spent 1,703 ms waiting for the graphics worker. Perfetto followed UploadTexture2D into PowerVR glTexStorage2D allocation. Two Mask Apply calls totalled 524,288 B and 0.099 ms, consistent with two 256x256 RGBA32 up"
     }
    ]
   },
@@ -12822,5 +12813,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "cd1d27c6bc90751008c3fe37a9f81beb4331422e"
+ "source_revision": "36621c670cd96515b1099a1693be83761fe7bda2"
 }
