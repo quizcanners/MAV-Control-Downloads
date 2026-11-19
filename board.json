@@ -2257,76 +2257,6 @@
    ]
   },
   {
-   "n": 1227,
-   "name": "Repair Windows VPN Payload Delivery and Split Peer Delivery fixtures to use the UDP state queue",
-   "done": "2026-11-16T00:01Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T23:49Z",
-     "text": "Published 635c3189bc. Roslyn NEW ERRORS: none. Three fixture repairs use the UDP state queue, Wi-Fi Evidence File and sender Outcome, preserving wire, restart custody and retry assertions. Native rerun pending. Earlier Unity PID 3348 surviv"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-16T00:01Z",
-     "text": "Rog native Unity 6000.6.8f1 at 3f2417e7c0 containing 635c3189bc: VpnPayloadDeliveryTests 66/66 and VpnSplitPeerDeliveryTests 7/7. Wire advertisement, restart custody and failure backoff assertions passed. Receipts C:/MavControlEvidence/Rog-"
-    }
-   ]
-  },
-  {
-   "n": 1229,
-   "name": "Repair Windows Menu lighting and Chat Composer fixture bindings and bring the Telemetry Restream fixture in line with its first-link fallback. Preserve photo attenuation",
-   "done": "2026-11-16T00:01Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T23:55Z",
-     "text": "Published 5ef773bef3. Roslyn NEW ERRORS: none. Menu photo lighting and Chat Composer fixtures bind current owners. Telemetry Restream covers missing links and the documented read-only first-link fallback. Native rerun pending while the earl"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-16T00:01Z",
-     "text": "Rog native Unity 6000.6.8f1 at 3f2417e7c0 containing 5ef773bef3: ElementLightConfigurationTests 18/18, targeted Chat Composer photo draft localization 1/1 and TelemetryControlLifetimeTests 3/3. Receipts C:/MavControlEvidence/Rog-1227-1229-D"
-    }
-   ]
-  },
-  {
-   "n": 1230,
-   "name": "Using Strong for the containing ECS marker fast-zoom replay",
-   "done": "2026-11-16T00:07Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T00:07Z",
-     "text": "Strong free on signed private Dev 848 b0e5eec806a2. CPU.md c6e7baf03b has four native plus four screen-recorded fast pinches with the ECS marker fix. Replaced one lost trace. Device Health 0 failures / 0 warnings, restored view and pacing, "
-    }
-   ]
-  },
-  {
    "n": 1231,
    "name": "Repair the Windows Screen Cover smoke-cancellation fixture so the queued transition uses an owned material in EditMode. Preserve cancellation",
    "done": "2026-11-16T00:11Z",
@@ -9443,8 +9373,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-18T22:49Z",
-     "text": "0a23d3b365 retains Web Mercator peer hashes for derived rebakes; host replacement 0 folds versus 4 on a four-node path. Situation contribution reuse landed in 211196a8bb. Both containing Android timings are still due. Existing Dev861 paired"
+     "at": "2026-11-19T00:09Z",
+     "text": "4703fc0148 retains validated Grid Geometry child sums across own-record changes. Host checks preserve readiness and exact child deltas. Dev861 d4c4b7ef5a is on Strong with prior Situation and Web Mercator changes; the Lenovo trace 7065319d4"
     }
    ]
   },
@@ -12572,25 +12502,22 @@
   {
    "n": 1714,
    "name": "Keep Grid Geometry child sums current by exact delta",
-   "done": "",
+   "done": "2026-11-19T00:09Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-18T23:56Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-19T00:09Z",
+     "text": "4703fc0148 keeps the validated Grid Geometry child subtotal. Ready changes apply exact deltas; own-record recalculation never folds the child dictionary. Extracted host: 48 controls, 7 mutation falsifiers, one 64-child fold then zero child "
+    }
+   ]
   }
  ],
  "verify": [
@@ -13195,5 +13122,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "0ed699e8835c171f3e5264d0f711b17f1795c550"
+ "source_revision": "043d872667713e9182659e66381b99019738f6fc"
 }
