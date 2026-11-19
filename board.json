@@ -2318,43 +2318,6 @@
    ]
   },
   {
-   "n": 1315,
-   "name": "Save RTX meshes as Street View entries with notification and yaw-only map placement",
-   "done": "2026-11-16T09:39Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-16T09:38Z",
-    "2026-11-16T09:39Z",
-    "2026-11-16T09:39Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Persist mesh and optional local video reference with Street View metadata",
-     "x": true
-    },
-    {
-     "t": "Wire notification Save and yaw-only repositioning",
-     "x": true
-    },
-    {
-     "t": "Verify save, reload and placement in Windows Editor",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-16T09:39Z",
-     "text": "88996ebfb6 published on main; cmp.sh clean and Unity compiled."
-    }
-   ]
-  },
-  {
    "n": 1316,
    "name": "Compass Dev FPS",
    "done": "2026-11-16T09:52Z",
@@ -11645,25 +11608,22 @@
   {
    "n": 1757,
    "name": "Navigator SPEC",
-   "done": "",
+   "done": "2026-11-19T09:39Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T08:50Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T09:39Z",
+     "text": "e85defd9a7. One shared marker choice, immediate 0.16 s crossfade, WayPoint pin for Route pick, local sharing visible at rest with VPN paused. Portrait Play and focused marker cases passed. The two existing Route fixture failures also occurr"
+    }
+   ]
   },
   {
    "n": 1758,
@@ -12545,5 +12505,5 @@
    "since": "2026-11-19T07:26Z"
   }
  ],
- "source_revision": "891ebae8267f01d49de38ec87a4370e97f2a87a8"
+ "source_revision": "a7d87ce9565bd3b7972e225b54915401eb4ab808"
 }
