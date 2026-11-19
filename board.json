@@ -2047,16 +2047,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T10:00Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -2088,8 +2079,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T09:03Z",
-     "text": "Paused. Mac WebRTC candidate and replayable patch are in ~/MavControlEvidence/WorkCritical/Reload-735-WebRtc/. Patched arm64 passed 450 native context cycles and audio before reload. Recheck audio after reload through the Station Streamer a"
+     "at": "2026-11-19T10:11Z",
+     "text": "eea0fc0dc4 publishes the Mac WebRTC audio queue fix. 450 native context cycles passed. Real Station Play decoded audio before and after script reload, retired the old map roots and kept picture, and exited 0. Other platform package files ma"
     }
    ]
   },
@@ -2393,26 +2384,6 @@
      "by": "GETAC",
      "at": "2026-11-16T10:23Z",
      "text": "Signed Release 850 (9d20269db0) installed in place on Strong. Exact APK, package UID and audited altitude files verified. Process health passed and Strong rendered the map after unlock. Roslyn clean and focused EditMode 159/159. Drive and G"
-    }
-   ]
-  },
-  {
-   "n": 1324,
-   "name": "Fetch only the public Downloads branch tip when mirroring board.json. Preserve release files",
-   "done": "2026-11-16T10:07Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T10:07Z",
-     "text": "Published 8a3c48a1b5. Downloads mirror fetches a depth-one blobless base; private ancestry checks and publication hooks still apply. Live read-only sample: 8,871 commits and 2,096,612 pack bytes versus 1 commit and 121,177 bytes with the sa"
     }
    ]
   },
@@ -11753,110 +11724,6 @@
  ],
  "verify": [
   {
-   "screen": "Chat",
-   "since": "2026-11-15T05:30Z"
-  },
-  {
-   "screen": "Console-Diagnostics",
-   "since": "2026-10-30T19:33Z"
-  },
-  {
-   "screen": "Drone-Control",
-   "since": "2026-11-15T05:59Z"
-  },
-  {
-   "screen": "General",
-   "since": "2026-11-16T10:39Z"
-  },
-  {
-   "screen": "Install-Update",
-   "since": "2026-10-30T19:33Z"
-  },
-  {
-   "screen": "Map",
-   "since": "2026-11-14T13:16Z"
-  },
-  {
-   "screen": "Network",
-   "since": "2026-11-15T05:53Z"
-  },
-  {
-   "screen": "Search",
-   "since": "2026-11-10T08:29Z"
-  },
-  {
-   "screen": "Settings",
-   "since": "2026-11-14T13:48Z"
-  },
-  {
-   "screen": "Store-Posts",
-   "since": "2026-11-06T15:46Z"
-  },
-  {
-   "screen": "Video",
-   "since": "2026-11-14T14:48Z"
-  },
-  {
-   "screen": "Main/Map",
-   "since": "2026-11-10T07:58Z"
-  },
-  {
-   "screen": "Video/Processing",
-   "since": "2026-11-10T07:58Z"
-  },
-  {
-   "screen": "Chat/Home",
-   "since": "2026-11-10T07:58Z"
-  },
-  {
-   "screen": "Layers/WiFi",
-   "since": "2026-11-10T07:58Z"
-  },
-  {
-   "screen": "Chat/Messages",
-   "since": "2026-11-10T07:58Z"
-  },
-  {
-   "screen": "Map/Planet",
-   "since": "2026-11-10T07:58Z"
-  },
-  {
-   "screen": "Main/Notifications",
-   "since": "2026-11-10T08:04Z"
-  },
-  {
-   "screen": "Main/Menu",
-   "since": "2026-11-10T08:28Z"
-  },
-  {
-   "screen": "Chat/Routes",
-   "since": "2026-11-10T08:29Z"
-  },
-  {
-   "screen": "Chat/Peers",
-   "since": "2026-11-10T08:33Z"
-  },
-  {
-   "screen": "Chat/QR",
-   "since": "2026-11-10T08:53Z"
-  },
-  {
-   "screen": "Main/MapSource",
-   "since": "2026-11-10T08:53Z"
-  },
-  {
-   "screen": "Servers/People",
-   "since": "2026-11-10T10:13Z"
-  },
-  {
-   "screen": "Servers/Admins",
-   "since": "2026-11-10T10:13Z"
-  },
-  {
-   "screen": "Settings/VPNs",
-   "since": "2026-11-12T06:26Z"
-  },
-  {
    "screen": "Main/Layers",
    "since": "2026-11-12T13:00Z"
   },
@@ -11913,6 +11780,10 @@
    "since": "2026-11-14T13:00Z"
   },
   {
+   "screen": "Map",
+   "since": "2026-11-14T13:16Z"
+  },
+  {
    "screen": "Menu",
    "since": "2026-11-14T13:34Z"
   },
@@ -11925,6 +11796,10 @@
    "since": "2026-11-14T13:43Z"
   },
   {
+   "screen": "Settings",
+   "since": "2026-11-14T13:48Z"
+  },
+  {
    "screen": "Main View",
    "since": "2026-11-14T13:52Z"
   },
@@ -11935,6 +11810,10 @@
   {
    "screen": "Drag Context Menu",
    "since": "2026-11-14T14:12Z"
+  },
+  {
+   "screen": "Video",
+   "since": "2026-11-14T14:48Z"
   },
   {
    "screen": "Settings/Home",
@@ -11971,6 +11850,10 @@
   {
    "screen": "Diagnostics",
    "since": "2026-11-15T05:31Z"
+  },
+  {
+   "screen": "Chat",
+   "since": "2026-11-15T05:30Z"
   },
   {
    "screen": "Bootstrap hubs",
@@ -12029,6 +11912,10 @@
    "since": "2026-11-15T05:53Z"
   },
   {
+   "screen": "Network",
+   "since": "2026-11-15T05:53Z"
+  },
+  {
    "screen": "Main Camera",
    "since": "2026-11-15T05:53Z"
   },
@@ -12079,6 +11966,10 @@
   {
    "screen": "Settings/View",
    "since": "2026-11-15T06:01Z"
+  },
+  {
+   "screen": "Drone-Control",
+   "since": "2026-11-15T05:59Z"
   },
   {
    "screen": "Pointing",
@@ -12273,6 +12164,10 @@
    "since": "2026-11-16T06:29Z"
   },
   {
+   "screen": "General",
+   "since": "2026-11-16T10:39Z"
+  },
+  {
    "screen": "Settings/Windows/Install on another device",
    "since": "2026-11-16T11:31Z"
   },
@@ -12361,5 +12256,5 @@
    "since": "2026-11-19T09:43Z"
   }
  ],
- "source_revision": "b3d7f4d31f2561b1e0cdb01fc9fee926f52e0dfe"
+ "source_revision": "3156cc748bc93467f083b52b3f5346d33abbac4b"
 }
