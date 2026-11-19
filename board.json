@@ -2813,26 +2813,6 @@
    ]
   },
   {
-   "n": 1698,
-   "name": "Using Lenovo to measure live elevation transfer custody and frame cost",
-   "done": "2026-11-18T20:26Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-18T20:26Z",
-     "text": "Dev 861 retained the same live elevation send while the committed prefix advanced. Strong had a different transfer ID. The frame receipt names Rendering and Altitude Visualization on the wall peak, with a separate BackgroundTracker peak. CP"
-    }
-   ]
-  },
-  {
    "n": 1699,
    "name": "Using Lenovo to capture terminal elevation receipt and current paired convergence status",
    "done": "2026-11-18T20:32Z",
@@ -5029,6 +5009,22 @@
      "text": "0da02f40a4. The old assertions expected IsAdminLocation=true (actual false) and source MGRS (actual blind-spot substitute). Ab6ecf43f9 and the Background Tracker SPEC require the current behavior. Tests now assert the substitute before and "
     }
    ]
+  },
+  {
+   "n": 1804,
+   "name": "Mac",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
