@@ -2047,16 +2047,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T00:52Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -2088,8 +2079,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T00:50Z",
-     "text": "507bc15a8d on main. Shutdown clears Map Focus and transient overlay requests and invalidates their frame decisions."
+     "at": "2026-11-19T00:55Z",
+     "text": "507bc15a8d on main. Map Focus and overlay presentation return to cold state."
     }
    ]
   },
@@ -2253,51 +2244,6 @@
      "by": "CLOUD_PRUNE",
      "at": "2026-11-17T16:08Z",
      "text": "5 fixtures pass native EditMode on Rog (8ef0611a6d, 9d18eea1f1); All run is verification, not part of the task"
-    }
-   ]
-  },
-  {
-   "n": 1243,
-   "name": "Repair Windows Geometry outgoing preparation and Home Measurement privacy fixtures. Isolate the expected diagnostic from shared log throttling and restore the current owner state around local privacy ",
-   "done": "2026-11-16T00:55Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-16T00:51Z",
-     "text": "Published 2f8adf4761. Roslyn NEW ERRORS: none. Geometry verifies each controlled failure without inheriting the shared log throttle. Home Measurement restores Drone Control privacy editor state. Retry, checkpoint and stale-target assertions"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-16T00:55Z",
-     "text": "Native Rog Unity 6000.6.8f1 on 32a0d03931 (repair 2f8adf4761) completed without script compile errors. GeometryOutgoingOwnershipTests 13/13 and HomeMeasurementTests 6/6 passed, no skips. Ordinary station identity and exact ProjectSettings r"
-    }
-   ]
-  },
-  {
-   "n": 1245,
-   "name": "Situation retained map",
-   "done": "2026-11-16T00:55Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-16T00:55Z",
-     "text": "Published e383986cab. Roslyn NEW ERRORS: none. Control Zones and Enemy Logistics now report one-shot map changes as Situation events. Untouched fixtures cover publication, transition completion, clearing and quiet empty/hidden layers. Nativ"
     }
    ]
   },
@@ -12861,5 +12807,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "7383b0fe93156cdf94d1b31d1260331139ec04b1"
+ "source_revision": "4b8f045951e9f85b82d0ce5bc82f31e5a5f098a4"
 }
