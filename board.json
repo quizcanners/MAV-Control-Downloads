@@ -115,7 +115,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-19T10:11Z",
+     "noted": "",
+     "progress": 56,
+     "ticked": 5,
+     "total": 9
+    }
+   ],
    "steps": [
     {
      "t": "On main: the state machine and every mode, 1 s settle, release-frame full resolution, VideoOnBlack, kept screen-size picture, ribbons as kept renderers, Editor 2x frame read on Mac and Rog, 8 fps idle",
@@ -12256,5 +12265,5 @@
    "since": "2026-11-19T09:43Z"
   }
  ],
- "source_revision": "3156cc748bc93467f083b52b3f5346d33abbac4b"
+ "source_revision": "f9c21fb20a51db922711ccec3bfc6fba127df637"
 }
