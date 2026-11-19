@@ -2257,51 +2257,6 @@
    ]
   },
   {
-   "n": 1231,
-   "name": "Repair the Windows Screen Cover smoke-cancellation fixture so the queued transition uses an owned material in EditMode. Preserve cancellation",
-   "done": "2026-11-16T00:11Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-16T00:02Z",
-     "text": "Published f153dec3e4. Roslyn NEW ERRORS: none. Screen Cover cancellation fixture now uses an owned copy of the authored transition material in EditMode, keeps the queued action and checks the actual reveal, with capture and Menu state resto"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-16T00:11Z",
-     "text": "Rog reproduced another use of an unowned transition material in the same fixture, shared the EditMode material setup across smoke cancellation and conditional/fullscreen priority, and passed ScreenCoverLifetimeTests 27/27 on Unity 6000.6.8f"
-    }
-   ]
-  },
-  {
-   "n": 1232,
-   "name": "Restore the Workflow Selector blur-completion fixture binding to Station.UI.OverlayDecision and preserve the stale and closed capture assertions.",
-   "done": "2026-11-16T00:11Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T00:11Z",
-     "text": "Rog reproduced the stale selector frame-gate lookup and switched the fixture to Station.UI.OverlayDecision with prior requested state restoration. Unity 6000.6.8f1 passed VoiceMessageRecordingFeedbackTests 6/6; native compile and Roslyn cle"
-    }
-   ]
-  },
-  {
    "n": 1233,
    "name": "Repair Windows Pilot Pano360 projection",
    "done": "2026-11-16T00:14Z",
@@ -12278,16 +12233,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-18T23:57Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -12314,8 +12260,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-18T23:56Z",
-     "text": "Published 66e0bb67f5. Fixed-photo SIFT, XFeat and LoFTR comparison found no qualified cross-angle path on the initial archives. Full-clip screening found overlapping garden-orbit and inner-court intervals. XFeat and LoFTR qualified both sel"
+     "at": "2026-11-19T00:12Z",
+     "text": "d98052df28 retains earlier original RGB and the previous Video Source handoff. Both live Kenilworth joins passed; Save kept three photos per clip. Full-clip archives gained some matcher proposals but did not pass held-out alignment. GPU.md "
     }
    ]
   },
@@ -13122,5 +13068,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "043d872667713e9182659e66381b99019738f6fc"
+ "source_revision": "e160b21e0694174f2e066148948731da970eb1f0"
 }
