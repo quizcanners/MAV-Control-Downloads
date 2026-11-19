@@ -2853,26 +2853,6 @@
    ]
   },
   {
-   "n": 1709,
-   "name": "Cache Situation branch identity contributions with each settled hash",
-   "done": "2026-11-18T22:30Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-18T22:30Z",
-     "text": "211196a8bb reuses each Situation child contribution if the current formatted MGRS, zoom and published hash agree. The branch keeps the previous wire encoding. The host control rehashed only the changed child; stale address and hash falsifie"
-    }
-   ]
-  },
-  {
    "n": 1710,
    "name": "Identify the texture owner of the Lenovo PowerVR allocation hitch. Join the UnityGfxDeviceWorker glTexStorage2D allocation to the enqueue owner",
    "done": "",
@@ -4949,25 +4929,22 @@
   {
    "n": 1809,
    "name": "Touch buttons cancel in-bounds finger movement. Apply the original-hit-area release rule in UI SPEC",
-   "done": "",
+   "done": "2026-11-19T22:30Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T22:05Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T22:30Z",
+     "text": "39a1094e4e and 05536982e5 are on main. Touch clicks use the original hit area, with ownership checks for native buttons, exits, overlapping contacts, recycled contacts and MavChat GPS/Tools folding. Rebuilt uGUI and Roslyn reported no new e"
+    }
+   ]
   },
   {
    "n": 1810,
@@ -5703,5 +5680,5 @@
    "since": "2026-11-19T20:20Z"
   }
  ],
- "source_revision": "43d4b8ce80d4c509a7ab84c8cec05ce00dea76dd"
+ "source_revision": "05536982e563cb13ba494653f086bbcbc327d0b0"
 }
