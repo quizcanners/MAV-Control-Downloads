@@ -2273,26 +2273,6 @@
    ]
   },
   {
-   "n": 1304,
-   "name": "Find what moves the Peers Exit group button down while the Peers panel is folded by swipe. Read so far",
-   "done": "2026-11-16T07:35Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-16T07:35Z",
-     "text": "Published e1cb9362a9. Direct cause: the swipe placement recalculated the panel top if the rail switched. Deeper reason: the slide and rail layout shared a rectangle write, and the Peers header had a second runtime y owner. Frozen rail place"
-    }
-   ]
-  },
-  {
    "n": 1305,
    "name": "Drone position single source",
    "done": "2026-11-16T07:39Z",
@@ -10762,16 +10742,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T07:29Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -10798,8 +10769,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T06:58Z",
-     "text": "Task 1737 now has a world-positioned draft from saved photo, depth and confidence, published in baf8517ccc, 558fb68cb7 and 46ac3a2c54. Two Windows Backdoor replays verified both owner scales, paired Pano360 depth and stable archive hashes. "
+     "at": "2026-11-19T07:38Z",
+     "text": "35a85cb888 on main. The optical replay repeated 225 cases exactly apart from timings. Five tests passed."
     }
    ]
   },
@@ -12403,5 +12374,5 @@
    "since": "2026-11-19T07:26Z"
   }
  ],
- "source_revision": "4bdeb5836b399ef9b7342b86609d73d89d65a6ab"
+ "source_revision": "253aede06057ac69c0e9423b57eea30a4cc445b7"
 }
