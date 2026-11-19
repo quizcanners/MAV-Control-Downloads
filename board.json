@@ -2257,56 +2257,6 @@
    ]
   },
   {
-   "n": 1249,
-   "name": "Windows DJI EditMode",
-   "done": "2026-11-16T01:19Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-16T01:10Z",
-     "text": "Published bc508c8815. Roslyn NEW ERRORS: none. The synthetic fixtures call Zoom Lens and the Orthophoto planner through their current methods. Motor unlock stays Functions-only: the host source check accepted current source and rejected bot"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-16T01:19Z",
-     "text": "Published c1d4e2439c: seed the partial Orthophoto footprint test with a synthetic camera frustum. Rog reproduced one failing fixture on 8feb54d9c4. Native Unity: DJI coordinates 36/36, motor-unlock source placement 9/9, Orthophoto 5/5 after"
-    }
-   ]
-  },
-  {
-   "n": 1251,
-   "name": "Windows Motorola IP EditMode",
-   "done": "2026-11-16T01:22Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-16T01:14Z",
-     "text": "Published afdc30adb3. Roslyn NEW ERRORS: none. The synthetic Motorola IP fixtures call ReliableMessaging and Identity directly and scan localization keys across all subfolders. A host inventory found all 379 keys in the expected Ukrainian a"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-16T01:22Z",
-     "text": "Rog Unity 6000.6.8f1 compiled cleanly on 89f6b024d6 (repair afdc30adb3). Four native EditMode checks passed: receipt deadline, collection of two messages, complete Ukrainian keys, and current confirmation for remembered and entered radio ID"
-    }
-   ]
-  },
-  {
    "n": 1252,
    "name": "Using Strong for Android split idle pacing and fast-pinch comparison",
    "done": "2026-11-16T01:44Z",
@@ -12123,25 +12073,22 @@
   {
    "n": 1716,
    "name": "Charge Elements Mask hash preparation only for branch hashes actually rebuilt. Continue through an unfinished ancestor on the next slice without charging it again; even a one-hash budget must progress",
-   "done": "",
+   "done": "2026-11-19T01:23Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-19T01:10Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-19T01:23Z",
+     "text": "c57bedaeff on main. 6,221 actual-branch host assertions passed; legacy fails the one-unit control. At 64 units, 1,024 cold chunks took 44 to 33 slices and 3,031 to 2,759 PrepareHash calls. Same 2,055 hashes and canonical root; peak rebuilds"
+    }
+   ]
   }
  ],
  "verify": [
@@ -12746,5 +12693,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "4ec9b7d7b68f96985fb10473f6fe4b1ef9f59f48"
+ "source_revision": "18fe6ea7eafb645bbc96d2af0cdd9bd211097f91"
 }
