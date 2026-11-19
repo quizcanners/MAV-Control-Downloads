@@ -2047,16 +2047,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T00:30Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -2088,8 +2079,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-18T23:59Z",
-     "text": "3fcf7d45ca on main. Bootstrap retires the MAVLink receive session and clears queued packets."
+     "at": "2026-11-19T00:41Z",
+     "text": "18f28e843d on main. Spawner teardown retires its hosted Search views in place."
     }
    ]
   },
@@ -2257,31 +2248,6 @@
    ]
   },
   {
-   "n": 1237,
-   "name": "Repair Crypto Envelope Reader and iPhone Background Chat fixture drift on Windows. Preserve fast-read parity and assert the approved ten-second position cadence",
-   "done": "2026-11-16T00:38Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-16T00:26Z",
-     "text": "Published 7da4f64e3b. Roslyn NEW ERRORS: none. Crypto envelope uses a direct Newtonsoft oracle. The iPhone fixture/SPEC match the fixed ten-second cadence and retained fix timestamp. guide_check: 0 errors. Standalone IosBackgroundWorker hos"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-16T00:38Z",
-     "text": "Rog Unity 6000.6.8f1: Crypto Envelope Reader 5/5 plus both iPhone cadence/fix tests. e2615de0a0 builds on 552e2eae6d and adds wake-deadline and GPS-stop-on-rejected-config checks while retaining authenticated Chat and explicit trust revocat"
-    }
-   ]
-  },
-  {
    "n": 1239,
    "name": "Using Strong to measure reference query array reuse and coverage",
    "done": "2026-11-16T00:47Z",
@@ -2298,26 +2264,6 @@
      "by": "GETAC",
      "at": "2026-11-16T00:46Z",
      "text": "Strong free on signed private Dev 848 067634a50d26. CPU.md 28ad0a9b31 records eight fast pinches, pool reuse and two coverage outcomes. Device Health 0 failures / 0 warnings. Original view and Normal pacing restored, profiling artifacts rem"
-    }
-   ]
-  },
-  {
-   "n": 1240,
-   "name": "Restore the WindowsPlayer AI Sandbox host checks after the Network file merge. Keep the production heartbeat policy shared with the host and run the desktop runtime checks.",
-   "done": "2026-11-16T00:38Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-16T00:38Z",
-     "text": "Published 4be804f9c6. The WindowsPlayer host links the unchanged production heartbeat policy and current Agent Channel/catalog owners. 43 desktop controls and 286 mobile controls each under UNITY_ANDROID and UNITY_IOS passed. Roslyn NEW ERR"
     }
    ]
   },
@@ -12985,5 +12931,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "598313eb56ce0026716bef5a9a6a211d33343b3f"
+ "source_revision": "b7c8ac927fb73f5c05a6b8ead3dd152082339ad4"
 }
