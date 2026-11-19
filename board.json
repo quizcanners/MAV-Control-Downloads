@@ -2504,26 +2504,6 @@
    ]
   },
   {
-   "n": 1580,
-   "name": "Cold Synthetic prediction trail",
-   "done": "2026-11-18T18:35Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-18T18:35Z",
-     "text": "7edf89c1f0 keeps the trail rebuild pending until the georeference and anchor are ready. Baseline Mac EditMode expected no exception and reproduced NullReferenceException in LonLatHToUnityPos. Fixed Mac Play kept both unavailable cases pendi"
-    }
-   ]
-  },
-  {
    "n": 1589,
    "name": "Remove the small-message receiver stall seen on Lenovo 6a6fe6c16b Dev859",
    "done": "",
@@ -4625,16 +4605,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T18:20Z",
-     "noted": "",
-     "progress": 75,
-     "ticked": 3,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Render the synthetic top-down tile around the prior position",
@@ -4656,8 +4627,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-19T18:19Z",
-     "text": "c4c7a86c21 checks up to six retained photos and uses strongest four for Depth Anything. Wide overlap now proposes a live pose; only 2 of 4 incoming views cleared the first Depth Anything overlap gate, so no admission. At 12 m east and +110 "
+     "at": "2026-11-19T18:36Z",
+     "text": "b64552578b uses closer real frames and reports accepted support per slot. The wide overlap retried twice after the last view passed. Best retry moved from one to two supporting views; the four-view gate admitted nothing. Zurich was rejected"
     }
    ]
   },
@@ -5737,5 +5708,5 @@
    "since": "2026-11-19T17:40Z"
   }
  ],
- "source_revision": "54f297f1bc234f2b3d41a8feca6c9e29384a9e08"
+ "source_revision": "b64552578b0da08b4b442d1bbcfd77d34f8a98b3"
 }
