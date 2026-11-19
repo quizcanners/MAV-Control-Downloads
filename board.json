@@ -12163,16 +12163,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T00:13Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -12199,8 +12190,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T00:12Z",
-     "text": "d98052df28 retains earlier original RGB and the previous Video Source handoff. Both live Kenilworth joins passed; Save kept three photos per clip. Full-clip archives gained some matcher proposals but did not pass held-out alignment. GPU.md "
+     "at": "2026-11-19T00:21Z",
+     "text": "9c20dedb73 measures shared landmark coverage. XFeat agreement rose 3/6 to 6/6 for late inner against orbit, and 2/6 to 4/6 for early orbit against inner. Pooled PnP qualified neither full-clip direction and lost short-interval cases against"
     }
    ]
   },
@@ -13007,5 +12998,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "a1886e6c3b2468d210ca6ec35cb862d60037b7ce"
+ "source_revision": "138843bbe2705cb37a1c44431332a79f06314edd"
 }
