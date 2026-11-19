@@ -5018,25 +5018,22 @@
   {
    "n": 1814,
    "name": "Situation SPEC",
-   "done": "",
+   "done": "2026-11-19T22:48Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-19T22:21Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-19T22:48Z",
+     "text": "Published a46cb907b6. Immediate Situation dispatch encodes once; each recipient retains independent transfer and sealing. Unity opened the exact original bytes under two recipient session keys. Four-peer host control reduced allocations fro"
+    }
+   ]
   },
   {
    "n": 1815,
@@ -5706,5 +5703,5 @@
    "since": "2026-11-19T20:20Z"
   }
  ],
- "source_revision": "2bf95b10b7b25ae580b81b16fe370430b402bd99"
+ "source_revision": "4e7dbd7bfd9a237722c07e8ba337215e9ed805c7"
 }
