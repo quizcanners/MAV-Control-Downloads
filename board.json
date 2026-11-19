@@ -2688,26 +2688,6 @@
    ]
   },
   {
-   "n": 1681,
-   "name": "Video Processing",
-   "done": "2026-11-18T18:49Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-18T18:49Z",
-     "text": "f95140e687 on main. DevicePowerPolicyTests 10/10. Normal RTX 5070 Editor replay switched to Generating3D / Full with idle reduction enabled and no pacing override, then released that demand on Pause. The minimized and test policies remain i"
-    }
-   ]
-  },
-  {
    "n": 1682,
    "name": "Video Processing",
    "done": "",
@@ -4590,16 +4570,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T18:37Z",
-     "noted": "",
-     "progress": 75,
-     "ticked": 3,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Render the synthetic top-down tile around the prior position",
@@ -4621,8 +4592,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-19T18:36Z",
-     "text": "b64552578b uses closer real frames and reports accepted support per slot. The wide overlap retried twice after the last view passed. Best retry moved from one to two supporting views; the four-view gate admitted nothing. Zurich was rejected"
+     "at": "2026-11-19T18:49Z",
+     "text": "3f095da535 fixes the Windows Render Graph depth row order and adds TestRun rejection packets. Replayed wide real-photo registration: both window layouts cleared the last three fresh views, and the first lacked depth-and-image support. Relat"
     }
    ]
   },
@@ -5702,5 +5673,5 @@
    "since": "2026-11-19T17:40Z"
   }
  ],
- "source_revision": "949a75c6677c6868d44030200f2ab7234ad82f55"
+ "source_revision": "3f095da535177b5d96f775df49463a56ed221c9b"
 }
