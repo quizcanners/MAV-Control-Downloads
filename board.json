@@ -2368,38 +2368,6 @@
    ]
   },
   {
-   "n": 1318,
-   "name": "Center 3D Street View on its mesh and start manual placement in top-down orbit",
-   "done": "2026-11-16T09:49Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-16T09:48Z",
-    "2026-11-16T09:48Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Anchor existing and new entries on the mesh bounds",
-     "x": true
-    },
-    {
-     "t": "Focus placement from above and follow Screen Center plus yaw",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-16T09:49Z",
-     "text": "4d51cbb19f on main; cmp.sh clean, Unity compiled."
-    }
-   ]
-  },
-  {
    "n": 1319,
    "name": "Save a goal missing-list update with its handoff note and claim release in one board commit. Preserve ordinary checklist size",
    "done": "2026-11-16T10:02Z",
@@ -10489,16 +10457,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T09:34Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
@@ -10525,8 +10484,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-19T09:31Z",
-     "text": "f42a465740 on main. Smaller steps recovered photos in native Chess and Heads replays under the existing checks."
+     "at": "2026-11-19T09:50Z",
+     "text": "1ce2769220 and adc8bba4b6 on main. Intermediate-frame retry works in Editor TestRun."
     }
    ]
   },
@@ -12475,5 +12434,5 @@
    "since": "2026-11-19T07:26Z"
   }
  ],
- "source_revision": "cf9c8009ae3e0296bd4cd888301ffa29ad028a2b"
+ "source_revision": "4ceb06f80dc4ab5d183bdfcda26f994a1d29004c"
 }
