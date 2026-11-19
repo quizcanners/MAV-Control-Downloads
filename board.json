@@ -2862,26 +2862,6 @@
    ]
   },
   {
-   "n": 1711,
-   "name": "Web Mercator derived rebakes reuse the existing peer hashes along their path when replacing an existing derived record. Keep index counts",
-   "done": "2026-11-18T22:49Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-18T22:49Z",
-     "text": "0a23d3b365 skips peer hash folds for derived replacements while still updating index counts, record versions and local pixels. Extracted host control: four folds on insert, zero on rebake, four on direct adoption. Always-fold mutant fails. "
-    }
-   ]
-  },
-  {
    "n": 1712,
    "name": "Fix the two Mac EditMode MapMotion failures for slow translation with an inset camera and visible rotation. Follow Bootstrap SPEC",
    "done": "2026-11-18T22:53Z",
@@ -5080,25 +5060,22 @@
   {
    "n": 1816,
    "name": "Situation SPEC",
-   "done": "",
+   "done": "2026-11-19T22:49Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-19T22:34Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-19T22:49Z",
+     "text": "Published 1e687ebec8. Fault injection now checks lazy settlement, retains successful child hashes after a root failure, and guards a clean sibling during a move. Unity 58 Remote Apply and 5 Lazy Hash passed, zero failures/skips. CPU.md reco"
+    }
+   ]
   },
   {
    "n": 1817,
