@@ -5243,25 +5243,22 @@
   {
    "n": 1826,
    "name": "Video Processing SPEC",
-   "done": "",
+   "done": "2026-11-19T23:53Z",
    "goal": false,
    "under": 1693,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T23:34Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T23:53Z",
+     "text": "b03ad62dbd keeps diagnostic samples in one owned array through the matching GPU outcome. Mac Metal Source Join 21/21, GPU Registration 11/11 and Source Recovery 10/10. All ten previous readback failures passed with existing tolerances. Supe"
+    }
+   ]
   },
   {
    "n": 1827,
@@ -5896,5 +5893,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "31ca199eab993fe4aaf13788766ba68100a15a5a"
+ "source_revision": "b05718b6760b63e7939f795543ad58c10183d17e"
 }
