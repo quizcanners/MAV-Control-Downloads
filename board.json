@@ -2044,16 +2044,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T13:56Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Run the depth-fusion prototype from a paused 3D Street View snapshot through the Backdoor and replace the draft with a refined vertex-coloured revision (no UVs, see 1522)",
@@ -2070,11 +2061,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-16T13:25Z",
-     "text": "b7b8993597 publishes the TSDF prototype and Street View SPEC. Kenilworth compared at 24 and 48 frames, with posed keyframe PNGs and matrices. Plane, overlap and PLY checks passed. Results in VisualOdometryExperiment/README.md. Next: wire th"
-    },
-    {
      "by": "CODEX_MAC_ANCHORS",
      "at": "2026-11-16T21:01Z",
      "text": "3bb7a4a0ff: short-scan archives keep the spread set and first anchor; recent frames remain fusion fallback. Point-fusion 20/20 passed on Mac with real numpy/OpenCV and alignment; CUDA/model imports stubbed. Linked Street Photos, relative ow"
@@ -2083,6 +2069,11 @@
      "by": "HEAVY",
      "at": "2026-11-17T08:20Z",
      "text": "1d94a6451f and 4e4a701440 retain bounded anchor frames across Video Source and require Positioned for shared-grid admission. A saved model can retry against nearby Positioned anchors after Edit and Place. Unity Backdoor confirmed both place"
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T14:06Z",
+     "text": "59b8f65174 keeps saved photo positions, depth lookup and archive placement aligned when a tilted 3D Street View is lifted off the terrain. Mac layered-save regression measured 0.794 m error vs a 0.01 m limit before the fix; after, layered s"
     }
    ]
   },
@@ -6154,5 +6145,5 @@
    "since": "2026-11-19T12:00Z"
   }
  ],
- "source_revision": "f0dff658a4ab1b375cb8f386afe707f45d1d5476"
+ "source_revision": "59b8f65174be4eaf192847a0e0ab5f815794a86d"
 }
