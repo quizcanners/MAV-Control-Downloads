@@ -6138,7 +6138,24 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Render the synthetic top-down tile around the prior position",
+     "x": false
+    },
+    {
+     "t": "Warp a frame flat from depth and attitude",
+     "x": false
+    },
+    {
+     "t": "Match with LightGlue, fit position and heading, hold out a check",
+     "x": false
+    },
+    {
+     "t": "Offer the result to placement; test with a known offset on the three Kenilworth clips",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
