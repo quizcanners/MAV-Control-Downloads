@@ -4645,16 +4645,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T18:08Z",
-     "noted": "",
-     "progress": 75,
-     "ticked": 3,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Render the synthetic top-down tile around the prior position",
@@ -4676,8 +4667,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-19T18:07Z",
-     "text": "d2f49b37c6 keeps four retained photos available for wide real-photo recovery. Independent COLMAP confirmed sparse overlap in the 17 s approach export. A calibrated 12 m replay of a later, overlapping crop still refused perspective consensus"
+     "at": "2026-11-19T18:19Z",
+     "text": "c4c7a86c21 checks up to six retained photos and uses strongest four for Depth Anything. Wide overlap now proposes a live pose; only 2 of 4 incoming views cleared the first Depth Anything overlap gate, so no admission. At 12 m east and +110 "
     }
    ]
   },
@@ -5763,5 +5754,5 @@
    "since": "2026-11-19T17:40Z"
   }
  ],
- "source_revision": "fdc97803ce1fcf11a9c09b71fb860371fbf0b983"
+ "source_revision": "c4c7a86c21c146580624afab5203023cfe46b6ed"
 }
