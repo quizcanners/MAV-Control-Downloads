@@ -11793,25 +11793,22 @@
   {
    "n": 1743,
    "name": "Grid Geometry SPEC",
-   "done": "",
+   "done": "2026-11-19T06:33Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-19T06:17Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-19T06:33Z",
+     "text": "47e9475842 validates child summaries and subtotal in one walk. 64 children over 20 warm passes: 1,280 to 0 MGRS formats and key builds; replacement rebuilds one key. 53 host controls, 8 falsifiers, Unity 86/86 and Roslyn clear on 744fcf5079"
+    }
+   ]
   },
   {
    "n": 1744,
@@ -12462,5 +12459,5 @@
    "since": "2026-11-18T23:31Z"
   }
  ],
- "source_revision": "054b2a7c89c80ff0a49ca6d726328593a1faca9a"
+ "source_revision": "f3b4b998816b2fcac73c9a04c0b4080add73a9de"
 }
