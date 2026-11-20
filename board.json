@@ -5860,25 +5860,22 @@
   {
    "n": 1864,
    "name": "Incoming geometry timing fixture",
-   "done": "",
+   "done": "2026-11-20T03:19Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T03:11Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T03:19Z",
+     "text": "acd4664eb5 on main. The expected null-element diagnostic was emitted with a shared count prefix in All and again in the focused baseline. The fixture isolates and restores only the NullElement counter and checks the exact error and every ti"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6467,5 +6464,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "3d8bb277413b6ddce09a78ac982ea6351001dca6"
+ "source_revision": "acd4664eb52709bdae001ce49288607fab21a52c"
 }
