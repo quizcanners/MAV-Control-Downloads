@@ -5777,25 +5777,22 @@
   {
    "n": 1890,
    "name": "Navigator SPEC",
-   "done": "",
+   "done": "2026-11-20T08:47Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T08:38Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T08:47Z",
+     "text": "0bfb3b2d60 on main. Capsule widths are retained through selection and snaps, Route progress expands only while current, and the full divider admits both drag directions while preserving capsule taps and the Search inset. Added coverage for "
+    }
+   ]
   }
  ],
  "verify": [
@@ -6380,5 +6377,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "acff6519c7b53eee661b6da69f665b5f4ac56085"
+ "source_revision": "0bfb3b2d60eba3d8478df5700c4892bc2219ea01"
 }
