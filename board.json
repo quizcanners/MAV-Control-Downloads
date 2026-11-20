@@ -28,8 +28,8 @@
    "held": [
     {
      "who": "CLOUD_COMPLEXITY",
-     "since": "2026-11-20T14:10Z",
-     "noted": "2026-11-20T14:10Z",
+     "since": "2026-11-20T14:41Z",
+     "noted": "",
      "progress": 12,
      "ticked": 1,
      "total": 8
@@ -37,7 +37,7 @@
    ],
    "steps": [
     {
-     "t": "On main: places 1 to 35 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
+     "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
      "x": true
     },
     {
@@ -45,7 +45,7 @@
      "x": false
     },
     {
-     "t": "Cloud: the open telemetry tab and which tabs exist are kept in the telemetry prefab (Tabs._selectedTab, HasContent of the panels' rows); the Copilot controller, the home ruler and the list rail ask th",
+     "t": "Cloud: which telemetry tabs exist is still decided by the telemetry prefab from its panels' rows (Tabs.UpdateTelemetryTabAvailability reads HasContent, which is activeSelf of the rows): the rows' cond",
      "x": false
     },
     {
@@ -69,13 +69,7 @@
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-20T14:10Z",
-     "text": "On main since the last note: MavChat Route panel's older layouts cut (09fd2a64a8d; GPS half 33128f895fd), 16 text keys that lost their reader (24f413aa8f7), typing in a text field read by the input System each frame with no listener on the "
-    }
-   ]
+   "notes": []
   },
   {
    "n": 362,
@@ -6704,6 +6698,6 @@
    "since": "2026-11-20T14:29Z"
   }
  ],
- "source_revision": "a3b18d900d43d67102188e80f105864e72eb3c67",
- "board_revision": "cf494286f022c92b4f9796fc84ea78fd99a46cca"
+ "source_revision": "02929786bd2a4e11ada9ee2470ca5237a612eaed",
+ "board_revision": "9623824c93d667fc0ee1c0df3316cdfff71ea0cb"
 }
