@@ -2608,7 +2608,9 @@
    "done": "",
    "goal": false,
    "under": 1693,
-   "ticks": [],
+   "ticks": [
+    "2026-11-20T19:39Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -2617,15 +2619,15 @@
      "who": "CODEX_PASIKA_COVER",
      "since": "2026-11-20T19:29Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Split the continuous capture owner by capture, window handoff, publication and Save. Start with VideoProcessing_RtxContinuous.cs, VideoProcessing_RtxUnityContinuous.cs and VideoProcessing_RtxOdometryM",
-     "x": false
+     "x": true
     },
     {
      "t": "Replace obsolete Rtx owner names with 3D map generation names in one rename group. Update the SPEC and AGENTS links with the source rename.",
@@ -2971,46 +2973,6 @@
      "by": "GETAC",
      "at": "2026-11-19T19:48Z",
      "text": "09ac0ccd7a on main. Exact Unity EditMode 291 passed, 0 failed or skipped (FinestTiles 282, MemoryLedger 9), regular station identity restored. Roslyn NEW ERRORS none. 100k valid scope conversions 2.4 MB to zero, first offers on 8192 rows 14"
-    }
-   ]
-  },
-  {
-   "n": 1799,
-   "name": "Mac Metal canonical Street View change readback returns a wrong quality (0 instead of 0.4)",
-   "done": "2026-11-19T19:35Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T19:35Z",
-     "text": "c2343dc972 fixes fixture setup. Before: retained quality 0.4 read as 0, confirmation change count 1 read as 0, a valid batch threw InvalidDataException. Raw Metal probe proved the queued GPU clear could erase the CPU seed. Fixture waits for"
-    }
-   ]
-  },
-  {
-   "n": 1800,
-   "name": "Mac Unity cannot compile after 83adebc0d5 moved continuous-frame inputs into FrameBatch. Qualify the two calls through its owning worker so the existing batch and empty-batch calls compile.",
-   "done": "2026-11-19T19:35Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T19:35Z",
-     "text": "d0c2777126 qualifies ContinuousWorker.FrameBatch for both the regrid-only and full-frame calls. Native Mac Unity compile clean; Roslyn removes CS0103 and CS0246 in all four passes and reports NEW ERRORS none. RTX hardware execution remains "
     }
    ]
   },
@@ -6736,6 +6698,6 @@
    "since": "2026-11-20T15:52Z"
   }
  ],
- "source_revision": "91e2a8756e676ff4521e4c23b651ff079cdad0a6",
- "board_revision": "ac169353f2298b5744abb8ef0e63fe580d0e9f22"
+ "source_revision": "b71aa28e10de885f0c77bb5f77db22134891dd5a",
+ "board_revision": "93025110222430bcc2900f48618e10a206647bfd"
 }
