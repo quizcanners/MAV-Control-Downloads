@@ -2928,106 +2928,6 @@
    ]
   },
   {
-   "n": 1759,
-   "name": "Navigator SPEC",
-   "done": "2026-11-19T09:40Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T09:40Z",
-     "text": "e85defd9a7. Folded zoom releases input immediately and reveals through a shared blur below the panel and capsule. Portrait Play observed capture, immediate raycast release and draw order. MavChatSheetTests 115 passed."
-    }
-   ]
-  },
-  {
-   "n": 1760,
-   "name": "Navigator SPEC",
-   "done": "2026-11-19T09:40Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T09:40Z",
-     "text": "e85defd9a7. Radio Horizon altitude scrollers now live inside Tools and follow the overlay. Portrait Play verified Half and Full, hiding on Route and Fold, and returning to Tools. AltitudeVisualizationTests 35 passed."
-    }
-   ]
-  },
-  {
-   "n": 1761,
-   "name": "Navigator SPEC",
-   "done": "2026-11-19T09:41Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T09:41Z",
-     "text": "e85defd9a7. Inward arrows sit beside available neighboring icons. Capsule follows the horizontal drag and settles back without idle writes. Authored assets and capsule motion covered by MavChatSheetTests, 115 passed."
-    }
-   ]
-  },
-  {
-   "n": 1762,
-   "name": "Navigator SPEC",
-   "done": "2026-11-19T09:41Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T09:41Z",
-     "text": "e85defd9a7. GPS and Tools route confirmed vertical button swipes to the divider. Taps, list scrolling and dedicated altitude drags retain ownership. Both actual uGUI dispatch cases passed."
-    }
-   ]
-  },
-  {
-   "n": 1763,
-   "name": "Notifications SPEC",
-   "done": "2026-11-19T09:42Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T09:42Z",
-     "text": "e85defd9a7. Portrait Play measured 34.1 px more tray space without a notch. Opening hides MGRS and disables its hit; folding restores it. Menu remains available. NotificationRendererBindingTests 23 passed."
-    }
-   ]
-  },
-  {
    "n": 1764,
    "name": "Share Position SPEC",
    "done": "2026-11-19T09:52Z",
@@ -3044,86 +2944,6 @@
      "by": "MAC_BOARD",
      "at": "2026-11-19T09:52Z",
      "text": "c97302ff55. Android uses its existing ongoing notification and passed Java SDK 36, API 26 dex and state/stop checks. iOS 864 archive and IPA contain the separately signed Live Activity, version 864, with a weak ActivityKit link. The local-o"
-    }
-   ]
-  },
-  {
-   "n": 1766,
-   "name": "Telemetry SPEC",
-   "done": "2026-11-19T09:42Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T09:42Z",
-     "text": "e85defd9a7. Video Source uses the Emulated Video switch and rows with separate small fixed-size status. Landscape Play verified local Synthetic with no external feed and a visible switch. UiTelemetryAndVideoTests 8 passed including prefab s"
-    }
-   ]
-  },
-  {
-   "n": 1767,
-   "name": "Main View SPEC",
-   "done": "2026-11-19T09:43Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T09:43Z",
-     "text": "e85defd9a7. Compass Star keeps its painted color and multiplies it by sun-direction lighting. All 14 TopRightExitDragTests passed on Metal, including the diffuse RGB and directional render checks."
-    }
-   ]
-  },
-  {
-   "n": 1768,
-   "name": "Main View and Notifications SPEC",
-   "done": "2026-11-19T09:43Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T09:43Z",
-     "text": "e85defd9a7. Map lock uses the ordinary hint at y=1/3. Landscape Play kept folded Notifications visible, refused opening while locked and opened after unlock. NotificationTongueDragTests 11 passed and localization check passed."
-    }
-   ]
-  },
-  {
-   "n": 1769,
-   "name": "Elements Mask convergence diagnostics",
-   "done": "2026-11-19T09:40Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-19T09:40Z",
-     "text": "b7ba15b958 on main. planet.status mask_root gives cached hash and local version, or unprepared while dirty. 6,263 actual-tree host assertions and eager-read falsifier passed; Roslyn no new errors. Reconnect on exact Dev 863 settled existing"
     }
    ]
   },
@@ -5793,6 +5613,29 @@
      "text": "b70da697c2 on main. The in-app MavChat Share Position card follows Share On, so local-only GPS and Share Off leave no card. The GPS panel handles starting and resuming. Updated the regression test and bumped MavChat verification. Roslyn fou"
     }
    ]
+  },
+  {
+   "n": 1896,
+   "name": "Navigator SPEC",
+   "done": "",
+   "goal": false,
+   "under": 367,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-20T09:43Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
