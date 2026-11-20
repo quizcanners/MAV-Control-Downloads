@@ -69,7 +69,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-20T05:06Z",
+     "noted": "",
+     "progress": 56,
+     "ticked": 5,
+     "total": 9
+    }
+   ],
    "steps": [
     {
      "t": "Code on main: the Map scene is the only request until its camera exists; Main UI is requested in that frame; Deferred Views, Overlays, Lists UI, Late UI and Sounds follow as one Layers state (WaitingF",
