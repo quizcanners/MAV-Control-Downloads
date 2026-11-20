@@ -5851,25 +5851,22 @@
   {
    "n": 1915,
    "name": "Settings / System / App updates",
-   "done": "",
+   "done": "2026-11-20T13:19Z",
    "goal": false,
    "under": 409,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T13:12Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T13:19Z",
+     "text": "8da69e09f4 on main. Mac Play with simulated package availability verified current tick, retained result plus refreshing, server failure, and package failure above version and controls. Native Editor version-only page also checked. No downlo"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6454,5 +6451,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "f9b0aefa92cce9d6109299d7ff2fe8815869b899"
+ "source_revision": "691196f3e622d31e30849c13420fa523d09be692"
 }
