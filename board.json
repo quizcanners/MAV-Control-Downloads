@@ -4996,27 +4996,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-20T00:10Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 1
-    }
-   ],
+   "held": [],
    "steps": [
     {
-     "t": "Exercise bounded retained-view alignment in Unity TestRun and confirm the opposite-angle Helsinki join through the existing all-real check. Verify registered Pano360 across the join.",
+     "t": "Register the incoming real window independently. Check its cross-view placement against separate retained photos and depth before attempting the live all-real Helsinki join and checking Pano360.",
      "x": false
     }
    ],
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-20T00:09Z",
-     "text": "4437c3e5d7 records accepted depth scale in the Unity audit. Native Helsinki located a scale step between windows ending at frames 39 and 47. B preserved A and stayed pending. The bounded real RGB-D fit recovered an offline placement proposa"
+     "at": "2026-11-20T00:26Z",
+     "text": "379520230a adds per-slot support to the Unity confirmation replay. Same-direction and fresh B controls passed. Corrected A banks and reprojections refused across varied windows. Connected comparison found no incoming view anchored to A and "
     }
    ]
   },
@@ -6039,5 +6030,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "b5c1cce6a5f8df7d9934d30a489881d00afa21b0"
+ "source_revision": "379520230a730b272ec5ac12c96f92b7540e761e"
 }
