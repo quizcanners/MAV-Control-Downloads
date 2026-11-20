@@ -2439,48 +2439,6 @@
    "notes": []
   },
   {
-   "n": 1522,
-   "name": "Local agent",
-   "done": "2026-11-19T13:29Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [
-    "2026-11-19T13:28Z",
-    "2026-11-19T13:28Z",
-    "2026-11-19T13:29Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Vertex colour pass at Save, no UVs or atlas for the opaque mesh",
-     "x": true
-    },
-    {
-     "t": "Mesh shader reads vertex colour and the Pano360 projection",
-     "x": true
-    },
-    {
-     "t": "Old atlas saves still load and draw",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-17T14:13Z",
-     "text": "903a7c40da improves the native vertex-colour mesh with indexed tetrahedral extraction and ground clipping. Reopened Pano360 binds the original photos and registered depth. Windows found no shader compile errors and verified the depth mask. "
-    },
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T13:29Z",
-     "text": "e22bb94c27 records Mac Metal on 898ba5772df0. Current SVME writes vertex colour with no UV or atlas. Pano360 projects at matching depth and yields to vertex colour when occluded. Legacy SVM5 retained chart UVs and atlas pixels. 39 focused E"
-    }
-   ]
-  },
-  {
    "n": 1525,
    "name": "Remove the foreground Left List first-use hitch on Android (UI Lists guide",
    "done": "",
@@ -5890,6 +5848,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1917,
+   "name": "Use measured DJI Zenmuse LiDAR for 3D map generation. Project calibrated DJI Terra LiDAR and RGB into paired metric depth and rebuild Disks in Unity without Depth Anything. Keep the live Payload SDK s",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-20T13:29Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -6472,7 +6453,11 @@
   {
    "screen": "Chat/Attachments",
    "since": "2026-11-20T04:25Z"
+  },
+  {
+   "screen": "Settings/Map/Base map",
+   "since": "2026-11-20T13:28Z"
   }
  ],
- "source_revision": "691196f3e622d31e30849c13420fa523d09be692"
+ "source_revision": "08e47fd2a58c5396aa582d350beb758ed3d3db12"
 }
