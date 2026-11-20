@@ -5016,27 +5016,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-19T23:50Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 1
-    }
-   ],
+   "held": [],
    "steps": [
     {
-     "t": "Improve A retained real-photo depth across the flight and replay the opposite-angle Helsinki join. Keep the all-real confirmation and verify registered Pano360 across the join.",
+     "t": "Measure scale drift between accepted windows. Compare registration against separated retained observations that still see the same surface, then replay the opposite-angle Helsinki join with all-real c",
      "x": false
     }
    ],
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-19T23:49Z",
-     "text": "31ca199eab makes archive recovery read the active reconstruction Video Source. Two Helsinki switches reached archive search. B built Disks independently but did not join A, even after a rough placement. The offline comparison isolated A dep"
+     "at": "2026-11-20T00:01Z",
+     "text": "3ed273564f adds per-view diagnostics and records the Helsinki controls. Fixed-pose depth changes worsened renderer error. Joint fitting improved held-out image tracks, but scale priors could still produce biased joins. Unity CPU/GPU compari"
     }
    ]
   },
@@ -5956,5 +5947,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "d30c288936e0ff638b40bd4bac00de4edd9faba2"
+ "source_revision": "3ed273564f46684b6f85176b239daff80319a6d1"
 }
