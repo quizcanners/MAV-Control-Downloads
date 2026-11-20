@@ -4952,27 +4952,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-20T01:09Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 1
-    }
-   ],
+   "held": [],
    "steps": [
     {
-     "t": "Constrain the native recovery window to independently measured camera anchors, then qualify live all-real Helsinki A-to-B admission and registered Pano360 across the switch.",
+     "t": "Use retained original-resolution photos and incoming frames to produce live independent pose anchors. Connect the candidate fit and confirmation, then test the Helsinki A-to-B switch and its registere",
      "x": false
     }
    ],
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-20T01:08Z",
-     "text": "0721e0bda0 publishes the RGB-only replay, SPEC/history and baseline. Frozen A localized held-out B photos and rejected Zurich. Sparse-seeded native confirmation passed its relative check while missing metric placement. A correction fitted o"
+     "at": "2026-11-20T01:25Z",
+     "text": "2f2dd83604 adds TestRun camera-anchored recovery. Native confirmation holds the proposal fit fixed. Positive and refusal controls agreed. Reduced RGB lost cross-flight coverage. Helsinki live Disks and standalone Disk residency passed. Save"
     }
    ]
   },
