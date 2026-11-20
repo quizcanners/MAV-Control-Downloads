@@ -6136,7 +6136,7 @@
   },
   {
    "n": 1959,
-   "name": "Rename battle line to Flight zones",
+   "name": "Rename Situation \"battle line\" to Flight zones (red off-limits and regular permitted ground) in code",
    "done": "",
    "goal": false,
    "under": 0,
@@ -6149,12 +6149,25 @@
      "who": "cloud-flightzones",
      "since": "2026-11-20T21:14Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
+     "progress": 100,
+     "ticked": 3,
+     "total": 3
     }
    ],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Persistent.BattleLine -> FlightZones; Singleton_ControlZonePainter -> Singleton_FlightZonePainter; folder, shaders, material, scene object, UpdateStage and diagnostics names follow",
+     "x": true
+    },
+    {
+     "t": "Localization keys situation.flightZones, extended.layers.flightZones(+Unavailable), singletonFlightZonePainter.*; texts \"Flight zones\" / \"\u041f\u043e\u043b\u044c\u043e\u0442\u043d\u0456 \u0437\u043e\u043d\u0438\"",
+     "x": true
+    },
+    {
+     "t": "Situation SPEC and AGENTS describe Flight zones in plain wording",
+     "x": true
+    }
+   ],
    "notes": []
   }
  ],
@@ -6753,5 +6766,5 @@
   }
  ],
  "source_revision": "b34be1b3abda170f6b80dc104691d82cd8654b98",
- "board_revision": "765611722a5cedbc267aaa5d6c07195be9d50fab"
+ "board_revision": "78d8f0b023a0278ee9f6741de060f6de9c7b475c"
 }
