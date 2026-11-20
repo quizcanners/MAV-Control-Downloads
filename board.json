@@ -6076,25 +6076,22 @@
   {
    "n": 1947,
    "name": "Drive Video Source from capture state. See Drone Control UI SPEC",
-   "done": "",
+   "done": "2026-11-20T18:53Z",
    "goal": false,
    "under": 364,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_DJI_SOURCE",
-     "since": "2026-11-20T18:41Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_DJI_SOURCE",
+     "at": "2026-11-20T18:53Z",
+     "text": "d43a2b9d05 and 7ecf2d3797 on main. State-dependent source menus, pause/resume, first-frame drone takeover, standalone file fallback and dismissal of an open capture picker. Roslyn NEW ERRORS: none. 35 host state and playback checks, 3 catal"
+    }
+   ]
   },
   {
    "n": 1948,
@@ -6719,5 +6716,5 @@
   }
  ],
  "source_revision": "d5840ff35d3da0a034efb9b7cc623fe106233beb",
- "board_revision": "01cfe4787fa35804523ac2571b9ef960018e935e"
+ "board_revision": "a980d37619ff76fd2e0cd90f8d4a7e10e89f4bab"
 }
