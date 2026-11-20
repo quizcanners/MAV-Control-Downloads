@@ -4580,7 +4580,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-20T06:16Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 2
+    }
+   ],
    "steps": [
     {
      "t": "Connect bounded native queries to exact incoming frame keys and pass the aligned cameras and landmarks through separate proposal and held-out depth confirmation before Fusion and Pano360.",
