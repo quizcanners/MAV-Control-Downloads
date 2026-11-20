@@ -2913,26 +2913,6 @@
    ]
   },
   {
-   "n": 1730,
-   "name": "Drone audio",
-   "done": "2026-11-19T04:45Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T04:45Z",
-     "text": "a913dd49f2 on main. Removed MAVLink loss playback and the three Sounds scene connection cue bindings."
-    }
-   ]
-  },
-  {
    "n": 1731,
    "name": "Navigator SPEC",
    "done": "2026-11-19T05:15Z",
@@ -5840,8 +5820,8 @@
    "notes": [
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-20T04:22Z",
-     "text": "af6ce29cfa on main. iOS 868 All was held by interrupted Mac 867 owner 9d9d8e2d. Reconciled its exact Unity child from the sealed live start and macOS launchd exit, preserving the original terminal hash and leaving no test qualification. No "
+     "at": "2026-11-20T04:45Z",
+     "text": "af6ce29cfa reconciled Mac 867 owner 9d9d8e2d using the original live start and launchd exit. Its terminal hash is intact and the interrupted run stays unqualified. Future Ctrl-C retains unknown custody or records the reaped child. Unchanged"
     }
    ]
   },
