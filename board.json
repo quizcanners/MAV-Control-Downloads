@@ -6100,25 +6100,22 @@
   {
    "n": 1930,
    "name": "Video to RTMPS shows what holds up video-channel startup in Settings and retains the safe ingest reply through retries. Video Restreaming SPEC",
-   "done": "",
+   "done": "2026-11-20T15:00Z",
    "goal": false,
    "under": 431,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_RESTREAM_DIAG",
-     "since": "2026-11-20T14:47Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_RESTREAM_DIAG",
+     "at": "2026-11-20T15:00Z",
+     "text": "bc811c2245 and 53279846af verified on main. Getac Editor Play reproduced Ready RTMPS and FFmpeg with relay Off and no RTP input. After fix and Play reload: relay Ready, RTP input Ready, RTMPS Streaming via H.264 StreamCopy, relay packets ad"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6716,5 +6713,5 @@
   }
  ],
  "source_revision": "b109f94ecc61b928178ec8bba65da41938f77770",
- "board_revision": "609811d08c871e3dd514ac3cab55388a19c22c1a"
+ "board_revision": "a310898368edeb56d64a46019d9e7a4c12ffe33f"
 }
