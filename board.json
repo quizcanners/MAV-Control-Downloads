@@ -2983,26 +2983,6 @@
    ]
   },
   {
-   "n": 1786,
-   "name": "Main View Compass startup (Main View SPEC",
-   "done": "2026-11-19T16:13Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T16:13Z",
-     "text": "bd78ab26b7 restores the Compass prefab loading group and moves scene visibility to its parent. World corners and sibling order preserved. Mac Compass EditMode 12/0/0. Play confirmed renderer alpha 1 to 0 during loading, 0 under the parent g"
-    }
-   ]
-  },
-  {
    "n": 1787,
    "name": "Web Mercator SPEC",
    "done": "2026-11-19T16:27Z",
@@ -5719,22 +5699,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-20T16:05Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-20T16:04Z",
-     "text": "c7967d9da9 on main pairs direct DJI Streamer video with the exact measured exposure. Windows TestRun fused a delayed raster into the Positioned draft after RGB advanced, rejected seven identity/response controls, and kept Depth Anything map"
+     "at": "2026-11-20T16:17Z",
+     "text": "f4fa7ecc9a on main places an Unpositioned 3D Map draft from matched DJI depth, optical pose, and an accepted Depth Anything exposure. Windows replay passed auto placement, two mismatch controls, and subsequent peer fusion and Depth Anything"
     }
    ]
   },
@@ -6760,6 +6731,6 @@
    "since": "2026-11-20T15:52Z"
   }
  ],
- "source_revision": "a9447f76c1c671d8f2da832bee21a674d45dd997",
- "board_revision": "8a113ce3ec6f38df07bbd79191ac590b5a4297b1"
+ "source_revision": "f4fa7ecc9a82941a05ad1894a43952eff7dd3b3a",
+ "board_revision": "d0fa7326a40f6ea530e5719aafc3de2645834264"
 }
