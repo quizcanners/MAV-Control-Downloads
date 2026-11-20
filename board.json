@@ -5909,25 +5909,22 @@
   {
    "n": 1920,
    "name": "Coordination guides",
-   "done": "",
+   "done": "2026-11-20T13:44Z",
    "goal": false,
    "under": 606,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T13:39Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T13:44Z",
+     "text": "7259eae9e9 on main. Board guide and CLI describe origin/board, separate check commits to main and the one-day archive. Page Checks uses direct workflow wording. Fixed a stale build-history link. Host board suite 36 passed. Guide links passe"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6520,5 +6517,5 @@
    "since": "2026-11-20T13:35Z"
   }
  ],
- "source_revision": "d7970b03ee371192e375f64b29e2cb1fd03851b3"
+ "source_revision": "7259eae9e909038aceb7ea88389ba240ad222fea"
 }
