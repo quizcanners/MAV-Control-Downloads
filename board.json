@@ -1770,7 +1770,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-20T14:00Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Left: ~90 inline 'quiz, date' mentions in running prose of SPEC/AGENTS files, REFACTORING.md and Coordination files; per file turn each into a clear rule in the right section and move the quote into t",
@@ -6549,5 +6558,5 @@
   }
  ],
  "source_revision": "f1935c9d5b13e497cda55e2de0ec267759da2ae0",
- "board_revision": "89aefa88439b572d61d1d2b7ae45fceb1f9dec4c"
+ "board_revision": "bdeb8d01df5669f43286d6155917d1c2ab276860"
 }
