@@ -5757,25 +5757,22 @@
   {
    "n": 1859,
    "name": "Shaders and Video Processing SPECs",
-   "done": "",
+   "done": "2026-11-20T02:59Z",
    "goal": false,
    "under": 1693,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T02:53Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T02:59Z",
+     "text": "739c23cf24 on main. Pixel 1574 had depth coverage but dark Preview RGB. Preview alpha describes its exact raster coverage regardless of ambient light. Per-pixel Depth and DepthNormals equality and both size checks retained. Mac ShaderPassCo"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6364,5 +6361,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "6dff7cf078e73896f049cd1bdab0747288dbd593"
+ "source_revision": "739c23cf24215571088137f3556a61965e23687d"
 }
