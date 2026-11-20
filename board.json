@@ -5423,25 +5423,22 @@
   {
    "n": 1836,
    "name": "Map tile sync SPEC",
-   "done": "",
+   "done": "2026-11-20T00:30Z",
    "goal": false,
    "under": 366,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T00:23Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T00:30Z",
+     "text": "b058c00995 restores the real rejected-send and successful retry checks against the active session seal. Before, the stale fault injector expected Waiting and received Assigned. Mac WebMercatorFinestTiles 282/0/0. Mac All 8,694 passed / 29 f"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6030,5 +6027,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "379520230a730b272ec5ac12c96f92b7540e761e"
+ "source_revision": "b058c00995c2a27093d1a2c583aab6fac2500550"
 }
