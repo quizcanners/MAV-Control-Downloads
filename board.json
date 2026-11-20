@@ -2928,26 +2928,6 @@
    ]
   },
   {
-   "n": 1764,
-   "name": "Share Position SPEC",
-   "done": "2026-11-19T09:52Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T09:52Z",
-     "text": "c97302ff55. Android uses its existing ongoing notification and passed Java SDK 36, API 26 dex and state/stop checks. iOS 864 archive and IPA contain the separately signed Live Activity, version 864, with a weak ActivityKit link. The local-o"
-    }
-   ]
-  },
-  {
    "n": 1770,
    "name": "Locate a video of uncertain position on the synthetic top-down map",
    "done": "",
@@ -5643,25 +5623,22 @@
   {
    "n": 1898,
    "name": "Navigator SPEC",
-   "done": "",
+   "done": "2026-11-20T10:00Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T09:51Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T10:00Z",
+     "text": "8a97a22d6b on main. MavChat capsule names the selected group; localized Group row opens its existing conversation above the peers, and Back retains the roster. Roslyn NEW ERRORS: none; localization and prefab hierarchy/action checks passed."
+    }
+   ]
   }
  ],
  "verify": [
@@ -6246,5 +6223,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "dce0c7d1d1e1f98f81d44cbbb1e4ac99952eedcf"
+ "source_revision": "8a97a22d6b342c3fb2a42d505a0e9ec885565c90"
 }
