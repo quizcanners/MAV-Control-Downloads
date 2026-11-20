@@ -6020,25 +6020,22 @@
   {
    "n": 1955,
    "name": "Editor scripts that run on every domain reload",
-   "done": "",
+   "done": "2026-11-20T21:44Z",
    "goal": false,
    "under": 1951,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLOUD_THREAD",
-     "since": "2026-11-20T21:44Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-20T21:44Z",
+     "text": "Audited: 4 reload-time scripts, all light and inside #if UNITY_EDITOR; nothing to move or drop. Need for verify: none, no code changed."
+    }
+   ]
   },
   {
    "n": 1956,
@@ -6750,5 +6747,5 @@
   }
  ],
  "source_revision": "74879d168310095c84fd923bb44cd238f2ac5363",
- "board_revision": "6bf468a5b3f2b2425c9d6e9982e229fbc5e6b7a4"
+ "board_revision": "a5b2f91c8ff823d9cdddd1ed024aff90ca7be6bf"
 }
