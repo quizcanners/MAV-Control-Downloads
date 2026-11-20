@@ -2983,46 +2983,6 @@
    ]
   },
   {
-   "n": 1795,
-   "name": "Low memory must stop active memory-heavy generation and show a notification only for blocked work. Video Processing and Orthophoto SPEC. Quiz",
-   "done": "2026-11-19T18:24Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T18:24Z",
-     "text": "61862e1b95. Mac Play simulated critical memory with generation off (silence), then enabled Orthophoto (visible localized warning, LowMemory status, no frame demand). Safe-memory signal restored admission. Video generation, Unity 3D, selecte"
-    }
-   ]
-  },
-  {
-   "n": 1796,
-   "name": "Menu SPEC",
-   "done": "2026-11-19T18:24Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T18:24Z",
-     "text": "61862e1b95. Pause map sync is on Menu > Map Source below Camera. One saved switch holds new Web Mercator transfers over VPN and USB. Local reads, downloads and admitted writes can continue. Mac Play switched on and off, and 1024x768 capture"
-    }
-   ]
-  },
-  {
    "n": 1797,
    "name": "Web Mercator SPEC",
    "done": "2026-11-19T19:48Z",
@@ -6100,7 +6060,7 @@
   },
   {
    "n": 1945,
-   "name": "Telemetry Video Source lists capture sources without pages and restores direct aircraft video automatically. Drone UI SPEC",
+   "name": "Telemetry Video Source lists capture sources and automatically recovers direct aircraft video. See Drone Control UI SPEC",
    "done": "",
    "goal": false,
    "under": 364,
@@ -6111,7 +6071,7 @@
    "held": [
     {
      "who": "CODEX_DJI_SOURCE",
-     "since": "2026-11-20T18:08Z",
+     "since": "2026-11-20T18:26Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
@@ -6744,5 +6704,5 @@
   }
  ],
  "source_revision": "85feace476a4c6774ecc183ebc179dfbdabf5076",
- "board_revision": "0cbd66a13cd539fb7c17c72bd70ce8814dddd3b1"
+ "board_revision": "728df24a7a91a5d161db6041f834ae64cb1b394a"
 }
