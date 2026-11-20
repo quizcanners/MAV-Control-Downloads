@@ -3838,7 +3838,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-20T11:58Z",
+     "noted": "",
+     "progress": 100,
+     "ticked": 2,
+     "total": 2
+    }
+   ],
    "steps": [
     {
      "t": "Connect bounded native queries to exact incoming frame keys and pass the aligned cameras and landmarks through separate proposal and held-out depth confirmation before Fusion and Pano360.",
