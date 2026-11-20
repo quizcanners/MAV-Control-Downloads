@@ -5954,23 +5954,14 @@
   {
    "n": 1953,
    "name": "Split Assets/_PROJECT/Prublyda.asmdef so an edit recompiles less. Done so far (2026-11-20",
-   "done": "",
+   "done": "2026-11-20T21:44Z",
    "goal": false,
    "under": 1951,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLOUD_THREAD",
-     "since": "2026-11-20T21:43Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 1
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "quiz decides: move the 56 files anyway (cost: scattering them into a Core folder, gain 0.5%), or leave Prublyda whole and take goal 1951's other steps (1954 tests off the edit path, 1955 reload script",
@@ -5980,8 +5971,8 @@
    "notes": [
     {
      "by": "CLOUD_THREAD",
-     "at": "2026-11-20T21:10Z",
-     "text": "Core move finds 56 files/3.3k lines (0.5%); not moved. Need for verify: none, no code changed."
+     "at": "2026-11-20T21:44Z",
+     "text": "Won't do: no folder is a leaf and only 56 files/3.3k lines can sink, because Station.Manager is one partial class of 355 files that everything touches. Prublyda stays one assembly (quiz's choice). Scans: Tools/asm_leaf_scan.py, Tools/asm_co"
     }
    ]
   },
@@ -6747,5 +6738,5 @@
   }
  ],
  "source_revision": "74879d168310095c84fd923bb44cd238f2ac5363",
- "board_revision": "a5b2f91c8ff823d9cdddd1ed024aff90ca7be6bf"
+ "board_revision": "7e968c28a7839fd171d03f1dcbcbf1a1061cebc3"
 }
