@@ -2956,46 +2956,6 @@
    ]
   },
   {
-   "n": 1801,
-   "name": "Mac Unity test assembly fails to compile after 5aead4bb99 changed SQLite outbound reads to OutboundAsk. Migrate the seven remaining Web Mercator test callers to the new request type and keep every inp",
-   "done": "2026-11-19T19:58Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T19:58Z",
-     "text": "e0919154f7 migrates seven remaining callers to OutboundAsk with the same inputs and assertions. Current main compiles in Unity. WebMercatorSqliteOutboundTests and the paused-shutdown paging case passed 16/0/0. Compile comparison removed sev"
-    }
-   ]
-  },
-  {
-   "n": 1803,
-   "name": "Shared GPS blind-spot EditMode tests still expect a real fix to be sent to Admins after ab6ecf43f9. Align the two sender tests with the Peers and Background Tracker privacy rule",
-   "done": "2026-11-19T20:10Z",
-   "goal": false,
-   "under": 383,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T20:10Z",
-     "text": "0da02f40a4. The old assertions expected IsAdminLocation=true (actual false) and source MGRS (actual blind-spot substitute). Ab6ecf43f9 and the Background Tracker SPEC require the current behavior. Tests now assert the substitute before and "
-    }
-   ]
-  },
-  {
    "n": 1804,
    "name": "Mac",
    "done": "2026-11-19T20:58Z",
@@ -5290,6 +5250,11 @@
      "by": "CODEX_SDC",
      "at": "2026-11-20T15:58Z",
      "text": "Published 40ab70ca25 on main. Android Video Source lists OTG UVC capture cards exposed through Camera2, requests camera permission and retries after reconnect. Java API 36 compile and Linguist passed, and Roslyn found no new errors. Video S"
+    },
+    {
+     "by": "DJI-Dev",
+     "at": "2026-11-20T20:15Z",
+     "text": "Android Dev 870 (7ecf2d3797): Unity ignored UsbCaptureCard.java because its .meta GUID has 33 hex digits. APK class definitions confirm the optional USB capture-card bridge is absent. Direct DJI bridge is present."
     }
    ]
   },
@@ -5383,16 +5348,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-20T16:55Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -6781,6 +6737,6 @@
    "since": "2026-11-20T15:52Z"
   }
  ],
- "source_revision": "813facc3a21a369491f24d7b7181a2b035a8b09e",
- "board_revision": "5da237bfd3350a0916916629816012dfe64379a9"
+ "source_revision": "d77230f16ff9fbf81a50f570b948800e047e63a0",
+ "board_revision": "d73434807185c88049fc782fed8ed97c68ff20c7"
 }
