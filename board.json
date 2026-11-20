@@ -3023,26 +3023,6 @@
    ]
   },
   {
-   "n": 1778,
-   "name": "macOS build",
-   "done": "2026-11-19T12:34Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T12:34Z",
-     "text": "52a4e55db3 reads TestRun from Verification Runtime. Mac arm64 development build 864 succeeded with Remote Sensors API excluded. Strict code-signature verify, player compiler flag and IL2CPP disabled stub agree. Roslyn found no new errors."
-    }
-   ]
-  },
-  {
    "n": 1779,
    "name": "Reduce Web Mercator index publication wait behind SQLite Retention (Web Mercator SPEC",
    "done": "2026-11-19T15:09Z",
@@ -5780,25 +5760,22 @@
   {
    "n": 1910,
    "name": "Telemetry / Video Source rows share the detail panel width",
-   "done": "",
+   "done": "2026-11-20T12:36Z",
    "goal": false,
    "under": 408,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T12:26Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T12:36Z",
+     "text": "4d568acd08 on main. The capture name flexes between the actions and the browser row fits the shared detail edge. Mac Play opened Video Source. 10 EditMode passed, 0 failed, 0 skipped, including 3 prefab layouts with Windows browser and capt"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6383,5 +6360,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "ecb98f35f7725a7d762031456fac4db9d04f6d46"
+ "source_revision": "3bc0b59964c4c48a31078dce22d5f1ea9856af8a"
 }
