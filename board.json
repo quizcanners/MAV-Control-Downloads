@@ -5900,25 +5900,22 @@
   {
    "n": 1952,
    "name": "Local agent",
-   "done": "",
+   "done": "2026-11-20T22:23Z",
    "goal": false,
    "under": 1951,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_COMPILE",
-     "since": "2026-11-20T22:14Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD_COMPILE",
+     "at": "2026-11-20T22:23Z",
+     "text": "Published ba1b70f1ab. Exact Unity 6000.6.8f1 Mac warm timings and the assemblies Bee rebuilt are in Performance Baseline/BUILD_TIME.md. Both reversible source edits and restorations compiled cleanly and original file hashes match. Main-sour"
+    }
+   ]
   },
   {
    "n": 1953,
@@ -6299,7 +6296,7 @@
    "since": "2026-11-15T05:57Z"
   },
   {
-   "screen": "Enemy Logistics",
+   "screen": "Migration Vectors",
    "since": "2026-11-15T05:57Z"
   },
   {
@@ -6703,6 +6700,6 @@
    "since": "2026-11-20T21:14Z"
   }
  ],
- "source_revision": "bf0be53e8e4c6fa7efc89cc7ef56beacc149964d",
- "board_revision": "ddaaebb151676ecbbb0ac9f2465aeb88d365de49"
+ "source_revision": "ba1b70f1ab021f0b8fe3caeeb63bfbe5f2743526",
+ "board_revision": "b84ae7c2bd4cfc0242d9b138adbd51f85dac23cc"
 }
