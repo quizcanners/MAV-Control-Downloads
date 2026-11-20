@@ -6011,16 +6011,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLOUD_THREAD",
-     "since": "2026-11-20T21:07Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 2
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Decide with quiz: (a) accept that Prublyda stays one assembly and take the other goal 1951 steps (tests off the edit path 1954, reload-time editor scripts 1955), or (b) allow one narrow indirection at",
@@ -6031,7 +6022,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-20T21:07Z",
+     "text": "Scan says no leaf exists without indirection; needs quiz's pick (a) or (b), see steps. Need for verify: none, no code changed."
+    }
+   ]
   },
   {
    "n": 1954,
@@ -6737,5 +6734,5 @@
   }
  ],
  "source_revision": "3913caee8c2563930e3dd760c437bec2a7473472",
- "board_revision": "32c66ff5e0bb1a66e89c276be7123c6f1c1ba1da"
+ "board_revision": "47eafa480ce60f27580e308ae7db09820f45798c"
 }
