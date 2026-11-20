@@ -5453,25 +5453,22 @@
   {
    "n": 1840,
    "name": "Main View and Settings layout",
-   "done": "",
+   "done": "2026-11-20T01:34Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T01:23Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T01:34Z",
+     "text": "fcf1ce8a63 follows the authored Easting/Northing button bindings and measures the synthetic Exit in current screen coordinates. Before, both coordinate lookups hit a missing path and the Settings fixture could fall back to 8 px. Both coordi"
+    }
+   ]
   },
   {
    "n": 1841,
