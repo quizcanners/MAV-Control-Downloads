@@ -2495,8 +2495,8 @@
     },
     {
      "by": "GETAC",
-     "at": "2026-11-20T03:42Z",
-     "text": "79d93e55ff. Matched Strong receive admission and Lenovo sender. Confirmed avoidable preview preparation and recorded the existing split handshake design, kept direct request fallback and current coverage rules. Changed-branch latency and th"
+     "at": "2026-11-20T04:18Z",
+     "text": "6983ff99bf. Metadata-first Web Mercator preview prototype on main for Dev VPN. 355 focused Unity tests passed across delivery and Web Mercator; the committed-row fixture proved zero payload reads before acceptance, one after. Next compare f"
     }
    ]
   },
@@ -2869,26 +2869,6 @@
      "by": "GETAC",
      "at": "2026-11-19T18:59Z",
      "text": "Strong exact Dev 864 fbf88299a3 installed in place and reached map. CPU.md 63d6119079: warmed Web Mercator peak 15.801 ms versus before 41.681 ms at a different view/workload, 299 tile confirmations over 92 s. Native scheduler identifies pr"
-    }
-   ]
-  },
-  {
-   "n": 1724,
-   "name": "Street View SPEC",
-   "done": "2026-11-19T04:19Z",
-   "goal": false,
-   "under": 408,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T04:19Z",
-     "text": "9ff3dbedc7 on main. Deleting the empty model folder repairs the saved selection even when the Street View list is hidden or unindexed."
     }
    ]
   },
@@ -4796,31 +4776,22 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-20T04:06Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 2
-    }
-   ],
+   "held": [],
    "steps": [
     {
-     "t": "Fit and check lens, pose and depth against accepted original-colour landmarks. Require independent depth and full reprojection agreement before new observations can enter Fusion.",
+     "t": "Port shared lens, pose and metric depth calibration to the Unity candidate using sparse landmark readbacks. Require independent depth, pixel and ray-endpoint agreement before Fusion and carry the same",
      "x": false
     },
     {
-     "t": "Build the bounded landmark bank in ordinary Unity recovery and qualify the Helsinki source switch with the earlier Disk cloud and registered Pano360 preserved.",
+     "t": "Build the bounded landmark bank in ordinary Unity recovery and qualify the Helsinki source switch with the earlier Disk cloud preserved.",
      "x": false
     }
    ],
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-20T04:03Z",
-     "text": "2809a2e025 verified placement from accepted original-colour photos. Camera agreement alone allowed overlong depth and a wrong lens to carve the draft in TestRun. The guarded replay preserved the prior cloud and its Pano360 bindings. Measure"
+     "at": "2026-11-20T04:19Z",
+     "text": "99ade4550c adds the Unity calibration readback and offline scoring. Repeated proposal views recovered metric depth and most of the lens error on separate B views. The deliberately corrupted holdout kept the fitted parameters identical and f"
     }
    ]
   },
@@ -6514,5 +6485,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "6983ff99bff7023d0a4480f33805e200910dfd34"
+ "source_revision": "99ade4550cd434b79f5336d828198ba65da8f28c"
 }
