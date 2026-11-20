@@ -2724,7 +2724,7 @@
   },
   {
    "n": 1693,
-   "name": "3D map generation: a drone video becomes a textured 3D map that merges with the orthophoto and keeps transparent mesh parts for trees and edges, built by Depth Anything inside Unity on the GPU, placed",
+   "name": "3D map generation \u2014 accurate photo positioning, paired depth and automatic stitching",
    "done": "",
    "goal": true,
    "under": 0,
@@ -2735,67 +2735,28 @@
    "held": [
     {
      "who": "CODEX_3D_MAP_SPEC",
-     "since": "2026-11-20T18:48Z",
+     "since": "2026-11-20T18:52Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
-     "total": 10
+     "total": 3
     }
    ],
    "steps": [
     {
-     "t": "Opaque mesh, terrain overlay and splat quads written and loaded as three layers (1430, 1522)",
+     "t": "Reduce late-flight pose drift on Kalasatama using independent landmarks. Check depth at the same accepted pixels with independently fitted cameras (1897).",
      "x": false
     },
     {
-     "t": "Second angle and distant capture place against saved Positioned anchors; unmatched source gets a movable preview (1481)",
+     "t": "Qualify automatic joins and refusal on the ordinary schedule. Repeat Kenilworth and the Helsinki A-to-B switch with Zurich as the unrelated control. Confirm distant saved-capture placement from Positi",
      "x": false
     },
     {
-     "t": "Sparse occupied voxel hierarchy and one-pixel LOD (1389)",
-     "x": false
-    },
-    {
-     "t": "Bake to near polygons, middle cubes and horizon atlas, streamed by distance as a BaseMap generation (1495)",
-     "x": false
-    },
-    {
-     "t": "All three Kenilworth clips in one draft; faster keyframe pose recovery (1689)",
-     "x": false
-    },
-    {
-     "t": "No periodic Editor stalls; CUDA Tensor Core inference with Compute fallback (1629, 1682)",
-     "x": false
-    },
-    {
-     "t": "Code split under one 3D map generation name, Python behind one seam (1651)",
-     "x": false
-    },
-    {
-     "t": "Tile-map depth compared with the Unity-native depth (1516); striped Windows local playback fixed (1352)",
-     "x": false
-    },
-    {
-     "t": "Confirm both placement paths with an independently flown Kenilworth angle",
-     "x": false
-    },
-    {
-     "t": "Give an unmatched new source its own movable preview within the active capture",
+     "t": "Measure accepted fresh photos per second, time to the first confirmed view after a switch, frame-time tails and peak working memory. Bound recurring stalls while preserving registration and depth qual",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "HEAVY_DISK_NORMALS",
-     "at": "2026-11-18T20:12Z",
-     "text": "b2b9c357e0: Disk seeds and pre-fit blends now use the measured depth normal, with covariance taking over once supported. The old merge overwritten normal was the capture-camera ray. Windows UnityCanonicalGrowthTests 9/9, Roslyn no new error"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-19T22:15Z",
-     "text": "Recovery work published in f303a61d19 and task 1689 closed. Two normal-speed 12 m replays held one draft across all three originals and the Wide continuation. Garden passed all-real confirmation in the direct replay and retained overlap in "
-    }
-   ]
+   "notes": []
   },
   {
    "n": 1704,
@@ -6761,6 +6722,6 @@
    "since": "2026-11-20T15:52Z"
   }
  ],
- "source_revision": "7ecf2d3797ae6e337d5a604f1ff76724bdc4e4b4",
- "board_revision": "3120ecb074856c892219dfe583d59380d5275d35"
+ "source_revision": "d5840ff35d3da0a034efb9b7cc623fe106233beb",
+ "board_revision": "0e0560b35e5720eba987621484dc136ae778db0f"
 }
