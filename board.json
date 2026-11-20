@@ -5580,25 +5580,22 @@
   {
    "n": 1848,
    "name": "Suggestions SPEC",
-   "done": "",
+   "done": "2026-11-20T02:17Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T02:03Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T02:17Z",
+     "text": "0bb7bebe04 on main. Obsolete one-line source check removed. The existing behavioral cases prove selection never duplicates the saved lock, dismissal keeps it saved, and a new selection reoffers it. Mac SuggestionActionRows, WayPointDrag and"
+    }
+   ]
   },
   {
    "n": 1849,
@@ -6256,5 +6253,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "59e256676702513069b20af116f26d97571399bc"
+ "source_revision": "0b5d6c7df7058ed50985ee7118cffdb771483950"
 }
