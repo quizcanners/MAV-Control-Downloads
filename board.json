@@ -5929,25 +5929,22 @@
   {
    "n": 1921,
    "name": "Task completion and Page Checks",
-   "done": "",
+   "done": "2026-11-20T13:49Z",
    "goal": false,
    "under": 412,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T13:45Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T13:49Z",
+     "text": "4b49d9e70a on main. Regression reproduced: closing a task overwrote two Page Checks updates published during its first push. The fix reapplies the due checks to the fetched main tip on every retry. All 37 host board tests passed. Board owne"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6540,5 +6537,5 @@
    "since": "2026-11-20T13:35Z"
   }
  ],
- "source_revision": "09fd2a64a8d1bc19076fa81a91a5e7beba31f05b"
+ "source_revision": "4b49d9e70a91d5859db96fbf233453205b437c44"
 }
