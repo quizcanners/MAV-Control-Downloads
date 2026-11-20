@@ -5657,25 +5657,22 @@
   {
    "n": 1901,
    "name": "Settings / Data / Kropyva",
-   "done": "",
+   "done": "2026-11-20T11:42Z",
    "goal": false,
    "under": 409,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T11:21Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T11:42Z",
+     "text": "0b9f59af2e and 5ce5bbf07a on main. Isolated Mac Play showed green ticks above file controls after preview and import. A rejected password showed only the failure reason above controls. File preview opens on its own summary. Roslyn and local"
+    }
+   ]
   },
   {
    "n": 1902,
@@ -6346,5 +6343,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "a4a51beee09cb7c92b92693dbe4be6f0d52dfaab"
+ "source_revision": "5ce5bbf07a0ca2f626c68ae7f4d8a6020f0a559e"
 }
