@@ -2983,66 +2983,6 @@
    ]
   },
   {
-   "n": 1783,
-   "name": "MGRS SPEC",
-   "done": "2026-11-19T15:11Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T15:11Z",
-     "text": "f7ade65599 returns both MGRS Delete paths to a blank entry. Three focused Mac tests passed, covering the remaining history, swipe recall and Undo at the original position."
-    }
-   ]
-  },
-  {
-   "n": 1784,
-   "name": "Base Map SPEC",
-   "done": "2026-11-19T15:11Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T15:11Z",
-     "text": "f61f152d77 makes the moving selector use the sharp shared glass when available and the shared blur otherwise. Captions switch directly to bright yellow. The thumb still settles black with its yellow light. Mac EditMode 33 passed, including "
-    }
-   ]
-  },
-  {
-   "n": 1785,
-   "name": "Keep visible WayPoint contact shadows in High map Elements quality (Shaders SPEC",
-   "done": "2026-11-19T15:12Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T15:12Z",
-     "text": "dd059bc3c9 supplies contact-shadow depth on ordinary High quality operator-map renders. Low follows the existing depth-demand rules. Mac EditMode 8 passed. A physical device comparison of visible WayPoint shadows remains due."
-    }
-   ]
-  },
-  {
    "n": 1786,
    "name": "Main View Compass startup (Main View SPEC",
    "done": "2026-11-19T16:13Z",
@@ -6117,6 +6057,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1934,
+   "name": "Fullscreen Video signal loss",
+   "done": "",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_VIDEO_SIGNAL",
+     "since": "2026-11-20T15:13Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -6714,5 +6677,5 @@
   }
  ],
  "source_revision": "2709ee6aaf082a4fa6ab1089cc9f2901c7f98743",
- "board_revision": "4a27a1eace2d53ea40526815dabb3d662112108f"
+ "board_revision": "f75bd35db984cfc2f752407d5db4f2e2302f870b"
 }
