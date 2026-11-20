@@ -5817,25 +5817,22 @@
   {
    "n": 1862,
    "name": "Geometry convergence fixture",
-   "done": "",
+   "done": "2026-11-20T03:14Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T03:03Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T03:14Z",
+     "text": "7be7c3c270 on main. All four subcases lacked confirmed synthetic links, so no records arrived. Uses existing eligibility setup for three separate loopback peers and isolates the queue. All original writes, delivery, deletion, hash and quies"
+    }
+   ]
   },
   {
    "n": 1863,
