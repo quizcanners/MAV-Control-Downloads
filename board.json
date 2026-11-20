@@ -6090,25 +6090,22 @@
   {
    "n": 1948,
    "name": "Make the MavChat divider a one-pixel highlight that fades to transparent at both panel edges (Navigator SPEC",
-   "done": "",
+   "done": "2026-11-20T18:54Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_MAVCHAT_LINE",
-     "since": "2026-11-20T18:50Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_MAVCHAT_LINE",
+     "at": "2026-11-20T18:54Z",
+     "text": "Published 281387b1eb. MavChat uses the shared physical one-pixel highlight with both ends fading inside the panel. Mac EditMode 145 passed, 0 failed, 0 skipped, including rendered fade and shared-edge layout. Roslyn reported no new errors. "
+    }
+   ]
   }
  ],
  "verify": [
@@ -6709,6 +6706,6 @@
    "since": "2026-11-20T15:52Z"
   }
  ],
- "source_revision": "281387b1ebd453a4c02dd3626e6e5b8d83b89e95",
- "board_revision": "a6ad3877f69f968edc4f85bdf44324a67cc39784"
+ "source_revision": "9fd21ab397968c614766ff0d376fa8bea8330a6c",
+ "board_revision": "34fbd6d9f4c7d8230b77792747a751d12c332092"
 }
