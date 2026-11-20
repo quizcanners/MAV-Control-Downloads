@@ -5949,25 +5949,22 @@
   {
    "n": 1922,
    "name": "Dev Mode / Tasks",
-   "done": "",
+   "done": "2026-11-20T13:57Z",
    "goal": false,
    "under": 412,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T13:52Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T13:57Z",
+     "text": "f1935c9d5b on main. Public Tasks copy orders task and verification revisions independently and reloads both branches when a delayed writer has an older snapshot. Disposable Git tests reproduced the rollback, then confirmed both newer tasks "
+    }
+   ]
   }
  ],
  "verify": [
@@ -6560,5 +6557,6 @@
    "since": "2026-11-20T13:35Z"
   }
  ],
- "source_revision": "4b49d9e70a91d5859db96fbf233453205b437c44"
+ "source_revision": "f1935c9d5b13e497cda55e2de0ec267759da2ae0",
+ "board_revision": "ba7308dbb77ca1f665bc81e2a40254901ffec9be"
 }
