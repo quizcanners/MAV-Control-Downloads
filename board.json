@@ -1314,16 +1314,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T05:32Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Tasks screen on main: cached board, one 'Offline \u00b7 last updated hh:mm \u00b7 Retry' row with backoff to 5 min and a loading bar; Retry row prints the real read state (ffb970edc3). The board is read from bo",
@@ -1352,6 +1343,11 @@
      "by": "CODEX_MAC_UI",
      "at": "2026-11-16T12:25Z",
      "text": "Task 1353 published 531490248e: task chevron and progress bar share one aligned clickable row, original width retained. Mac Editor Play confirmed chevron open/close and bar click; Roslyn NEW ERRORS: none. Settings/DevMode/Tasks visual check"
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T05:33Z",
+     "text": "2bcce1b9cd ships priority, review and park/unpark via the durable BoardEdit queue and task_flow.py --apply-edits. Mac 868 All passed the native queue persistence/envelope case. Six fresh host checks passed (replay/order and multiline-note r"
     }
    ]
   },
