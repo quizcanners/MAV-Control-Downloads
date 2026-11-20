@@ -2889,26 +2889,6 @@
    ]
   },
   {
-   "n": 1722,
-   "name": "Map Projection treats a saved Street View photo as continuous video because Bootstrap reads Projector.Enabled for both frame pacing and render mode. Apply Bootstrap SPEC",
-   "done": "2026-11-19T02:48Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T02:48Z",
-     "text": "5078d816b7 on main. Saved Street View projection follows the retained map cadence."
-    }
-   ]
-  },
-  {
    "n": 1723,
    "name": "Nightly README",
    "done": "2026-11-19T03:24Z",
@@ -4852,7 +4832,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-20T02:49Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 2
+    }
+   ],
    "steps": [
     {
      "t": "Bound match work per candidate and schedule real-photo attempts on advancing Helsinki frames. Carry independent original-photo anchors into the candidate and apply the tested overlap translation befor",
