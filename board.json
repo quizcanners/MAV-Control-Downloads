@@ -4832,19 +4832,10 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-20T03:02Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 2
-    }
-   ],
+   "held": [],
    "steps": [
     {
-     "t": "Connect original-colour landmark poses and checked short tracks to the running Helsinki candidate. Confirm against separate frames and test the measured overlap translation if required.",
+     "t": "Use the verified original-colour anchors and short tracks when testing the running candidate. Align them to the accepted A draft and confirm on the separate replay frames.",
      "x": false
     },
     {
@@ -4855,8 +4846,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-20T03:01Z",
-     "text": "d80e538a28. Six-reference queries reached later Helsinki frames. The running matcher refused B, but exact audited 80-83 colours localized against frozen A. Checked tracks supplied the missing anchor at 85. Unity fixed-input confirmation pas"
+     "at": "2026-11-20T03:15Z",
+     "text": "3d8bb27741 adds deterministic Helsinki colour playback through Emulated Video. Unity ingested the exact eight B images and IDs 80\u201387. A and its Pano360 views survived refusal. A short raster stopped at the previous frame. Roslyn and Editor "
     }
    ]
   },
@@ -6467,5 +6458,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "7be7c3c27036e841bec642ee710586d17aa82c72"
+ "source_revision": "3d8bb277413b6ddce09a78ac982ea6351001dca6"
 }
