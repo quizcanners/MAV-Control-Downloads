@@ -1917,16 +1917,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T05:23Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -1936,8 +1927,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T11:08Z",
-     "text": "11:06 UTC: TestFlight lists iPad Air iPad14_10 on iPadOS 27.3, submission Nov 16 06:20 UTC, iOS build 840. Apple returns 404 for both the crash log and its relationship; build diagnostic signatures also return 404. No 840 archive was found "
+     "at": "2026-11-20T05:25Z",
+     "text": "Nov 20 05:25 UTC TestFlight GET confirmed the same Nov 16 iPad submission. Crash log, relationship and iOS 840 build diagnostics all still returned 404. No later iPad submission or feedback attachment, and the iPad is unavailable. Found sig"
     }
    ]
   },
