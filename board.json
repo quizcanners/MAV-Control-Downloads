@@ -5856,18 +5856,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-20T13:29Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "HEAVY",
+     "at": "2026-11-20T13:41Z",
+     "text": "d7970b03ee on main. Staged calibrated LAS plus rectified RGB and rebuilt metric Disks in Unity TestRun with zero inference. Both replays produced the same cell hash. Synthetic checks and measured times are in GPU.md. Live work needs a compa"
+    }
+   ]
   },
   {
    "n": 1918,
@@ -6526,5 +6523,5 @@
    "since": "2026-11-20T13:35Z"
   }
  ],
- "source_revision": "2b98efdc109d266ad8f771c64e94583eae845d74"
+ "source_revision": "d7970b03ee371192e375f64b29e2cb1fd03851b3"
 }
