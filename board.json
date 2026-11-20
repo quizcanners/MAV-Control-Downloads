@@ -4736,31 +4736,22 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-20T04:19Z",
-     "noted": "2026-11-20T04:19Z",
-     "progress": 0,
-     "ticked": 0,
-     "total": 2
-    }
-   ],
+   "held": [],
    "steps": [
     {
-     "t": "Port shared lens, pose and metric depth calibration to the Unity candidate using sparse landmark readbacks. Require independent depth, pixel and ray-endpoint agreement before Fusion and carry the same",
+     "t": "Bind the admitted sparse calibration to the running Unity candidate. Give Fusion, retained photo depth and Pano360 the same calibrated camera and depth, and keep the existing cloud on refusal.",
      "x": false
     },
     {
-     "t": "Build the bounded landmark bank in ordinary Unity recovery and qualify the Helsinki source switch with the earlier Disk cloud preserved.",
+     "t": "Build the bounded landmark bank in ordinary Unity recovery and qualify the Helsinki source switch with the earlier Disk cloud and registered Pano360 preserved.",
      "x": false
     }
    ],
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-20T04:19Z",
-     "text": "99ade4550c adds the Unity calibration readback and offline scoring. Repeated proposal views recovered metric depth and most of the lens error on separate B views. The deliberately corrupted holdout kept the fitted parameters identical and f"
+     "at": "2026-11-20T04:35Z",
+     "text": "92d77fa0c1 verifies sparse Unity calibration through Backdoor. The reference and verified-lens deep cases passed. Learned optics missed one deep held-out pixel limit, and shifted landmarks and a wrong source lens refused. Unity import and R"
     }
    ]
   },
@@ -6472,5 +6463,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "75a3834f53402a3553391171ddb5a330ee0c5422"
+ "source_revision": "92d77fa0c1964ed2f6e756d9ed6386e93416003a"
 }
