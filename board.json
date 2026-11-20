@@ -5722,22 +5722,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-20T15:26Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-20T15:23Z",
-     "text": "4ad1668c4c adds exact exposure pairing and measured video fusion in a Positioned draft. Windows TestRun refused generation, index, PTS, surface time, lens and size mismatches, continued Depth Anything, and reopened both captures with depth "
+     "at": "2026-11-20T15:43Z",
+     "text": "f245ad16f5 adds measured depth to the existing peer Get photo response. Windows TestRun saved 10 exact JPEGs, kept one matching depth sidecar and rebuilt Disks, refused wrong peer/request, and passed legacy and local fallback. Live DJI payl"
     }
    ]
   },
@@ -6723,5 +6714,5 @@
   }
  ],
  "source_revision": "f245ad16f5a5483dbd6485529fa27cab2ee920e4",
- "board_revision": "a7baa54e4ab0aa0dea78206528ea51ba23212982"
+ "board_revision": "83914bd7534a876fedae59b1ca87fbc82cb4fec1"
 }
