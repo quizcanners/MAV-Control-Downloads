@@ -1334,16 +1334,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T13:52Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Tasks screen on main: cached board, one 'Offline \u00b7 last updated hh:mm \u00b7 Retry' row with backoff to 5 min and a loading bar; Retry row prints the real read state (ffb970edc3). The board is read from bo",
@@ -1375,8 +1366,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-20T13:50Z",
-     "text": "1921 on main. A task closure keeps concurrent page-check updates, confirmed with a split-branch Git push race and 37 host passes. Follow-up: the public Tasks copy still orders its snapshots by main SHA. Reproduce whether two board-only writ"
+     "at": "2026-11-20T13:57Z",
+     "text": "1922 on main. The public Tasks copy preserves current board and verification state when publishers overlap. Disposable Git race proof and 38 host passes recorded. 1921 preserves concurrent page-check updates when a task closes. In-app Verif"
     }
    ]
   },
@@ -6558,5 +6549,5 @@
   }
  ],
  "source_revision": "f1935c9d5b13e497cda55e2de0ec267759da2ae0",
- "board_revision": "ba7308dbb77ca1f665bc81e2a40254901ffec9be"
+ "board_revision": "89aefa88439b572d61d1d2b7ae45fceb1f9dec4c"
 }
