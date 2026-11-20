@@ -5048,22 +5048,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_PHOTO_TENSION",
-     "since": "2026-11-20T19:04Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_3D_MAP_SPEC",
      "at": "2026-11-20T18:53Z",
      "text": "Next for the current milestone (SPEC d5840ff35d). Keep Kalasatama's opening alignment fixed. Fit a late camera from stable survey features across the image, hold other landmarks out, and score pose and depth separately at near and far surfa"
+    },
+    {
+     "by": "CODEX_PHOTO_TENSION",
+     "at": "2026-11-20T19:11Z",
+     "text": "130e557794 on main. Offline delayed pose replay freezes the fit for later view checks and scores independent survey points. Known-offset, contradiction and exact-repeat controls passed; both capture readers agree. Eight-frame Kenilworth con"
     }
    ]
   },
@@ -6734,6 +6730,6 @@
    "since": "2026-11-20T15:52Z"
   }
  ],
- "source_revision": "34ea916c2d697c26fc0ba3b63b361be38b4ed8fa",
- "board_revision": "0b585ca5da42709d18161790cedb1b1d5dd632df"
+ "source_revision": "130e557794b131a2d530d51c63972358131d3f46",
+ "board_revision": "737990d95568172449dae781a16499f63c5c7e36"
 }
