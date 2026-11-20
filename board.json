@@ -5619,18 +5619,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_SDC",
-     "since": "2026-11-20T15:42Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_SDC",
+     "at": "2026-11-20T15:58Z",
+     "text": "Published 40ab70ca25 on main. Android Video Source lists OTG UVC capture cards exposed through Camera2, requests camera permission and retries after reconnect. Java API 36 compile and Linguist passed, and Roslyn found no new errors. Video S"
+    }
+   ]
   },
   {
    "n": 1913,
@@ -6737,8 +6734,12 @@
   {
    "screen": "TelemetryView/Restream",
    "since": "2026-11-20T14:29Z"
+  },
+  {
+   "screen": "Video Source",
+   "since": "2026-11-20T15:52Z"
   }
  ],
- "source_revision": "37e4badb2924bfe9ff5f32412dd20d9a50d037c1",
- "board_revision": "83f15eb083e7fe3c66bc9c37cdff356d5d91bc28"
+ "source_revision": "40ab70ca259e473dbbb65560bd22bda983467a16",
+ "board_revision": "1d6103a8882fb5775232e451ff8f9354e9175b6e"
 }
