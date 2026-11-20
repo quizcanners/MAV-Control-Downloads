@@ -5866,25 +5866,22 @@
   {
    "n": 1865,
    "name": "Bootstrap SPEC",
-   "done": "",
+   "done": "2026-11-20T03:37Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T03:26Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T03:37Z",
+     "text": "6a12b88cb8 on main. Diagnostics expected ?, showed Unavailable. The thermal row now shows ?, and a reported value still shows its number. The fixture checks normal OnBattery handling without thermal data. Mac 20 focused passed, All on 4300c"
+    }
+   ]
   },
   {
    "n": 1866,
@@ -6492,5 +6489,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "60162a430ef578593ca9ada96426f4e33447ccf7"
+ "source_revision": "4dc6bc3fd05aa1458808565a35a50ef18bda34b3"
 }
