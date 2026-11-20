@@ -6003,7 +6003,7 @@
   },
   {
    "n": 1953,
-   "name": "Split Assets/_PROJECT/Prublyda.asmdef into leaf assemblies (Workflows",
+   "name": "Split Assets/_PROJECT/Prublyda.asmdef so an edit recompiles less. Done so far (2026-11-20",
    "done": "",
    "goal": false,
    "under": 1951,
@@ -6018,26 +6018,16 @@
      "noted": "",
      "progress": 0,
      "ticked": 0,
-     "total": 2
+     "total": 1
     }
    ],
    "steps": [
     {
-     "t": "Decide with quiz: (a) accept that Prublyda stays one assembly and take the other goal 1951 steps (tests off the edit path 1954, reload-time editor scripts 1955), or (b) allow one narrow indirection at",
-     "x": false
-    },
-    {
-     "t": "If (b): start with Motorola IP (87 files; outside users are Network, Chat, Station only)",
+     "t": "quiz decides: move the 56 files anyway (cost: scattering them into a Core folder, gain 0.5%), or leave Prublyda whole and take goal 1951's other steps (1954 tests off the edit path, 1955 reload script",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-20T21:07Z",
-     "text": "Scan says no leaf exists without indirection; needs quiz's pick (a) or (b), see steps. Need for verify: none, no code changed."
-    }
-   ]
+   "notes": []
   },
   {
    "n": 1954,
@@ -6743,5 +6733,5 @@
   }
  ],
  "source_revision": "33eed61b94895a074f77318c494232f964268f50",
- "board_revision": "2360cbc6a5c4c058cee2b677579f79486110d59e"
+ "board_revision": "e3c70bfe7e576a1f4e19884aeba89706352f392f"
 }
