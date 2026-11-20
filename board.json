@@ -6120,6 +6120,29 @@
      "text": "f7e9ee2768 on main. Dev Mode shares the flat USB installer; picker uses only keyed packages from the validated Android catalog. One Install verifies the APK and configures built-in WireGuard with the selected .conf. Mac EditMode 100 passed,"
     }
    ]
+  },
+  {
+   "n": 1937,
+   "name": "Touch drift starts UI drag before the tap can release on Suggestions and Chat. Apply a shared device-scaled tap/drag threshold from UI SPEC",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_TOUCH_UI",
+     "since": "2026-11-20T15:50Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -6717,5 +6740,5 @@
   }
  ],
  "source_revision": "37e4badb2924bfe9ff5f32412dd20d9a50d037c1",
- "board_revision": "5785e9e91f05f8f0cc1e01783e4e4a6c9f65492a"
+ "board_revision": "db286f617ba599377261bf92475127866aef101f"
 }
