@@ -5697,25 +5697,22 @@
   {
    "n": 1855,
    "name": "Planet Renderer SPEC",
-   "done": "",
+   "done": "2026-11-20T02:43Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T02:35Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T02:43Z",
+     "text": "fd4577016d on main. Expected zero resident bytes, actual 7000 for one charged spare query pair. The fixture keeps zero reservation, no mesh, no publication and the diagnostic, then drains the actual pool and requires both ledgers to return "
+    }
+   ]
   }
  ],
  "verify": [
