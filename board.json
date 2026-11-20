@@ -5584,7 +5584,7 @@
   {
    "n": 1879,
    "name": "Enemy Logistics routes and Destinations tell a peer their list hash through one shared exchange (DataSync.PeerHashExchange; Data Sync SPEC",
-   "done": "",
+   "done": "2026-11-20T07:34Z",
    "goal": false,
    "under": 1558,
    "ticks": [
@@ -5595,16 +5595,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLOUD_COMPLEXITY",
-     "since": "2026-11-20T06:59Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Shared exchange in Data Sync",
@@ -5619,7 +5610,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_COMPLEXITY",
+     "at": "2026-11-20T07:34Z",
+     "text": "On main 4c8474c897a (Tests guide rule: 05ccfb06890). DataSync.PeerHashExchange holds who was told our hash and who got the list for Destinations and Enemy Logistics routes. Closed on the way: a station that erased its Destinations was not s"
+    }
+   ]
   },
   {
    "n": 1880,
