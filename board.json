@@ -2889,26 +2889,6 @@
    ]
   },
   {
-   "n": 1716,
-   "name": "Charge Elements Mask hash preparation only for branch hashes actually rebuilt. Continue through an unfinished ancestor on the next slice without charging it again; even a one-hash budget must progress",
-   "done": "2026-11-19T01:23Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-19T01:23Z",
-     "text": "c57bedaeff on main. 6,221 actual-branch host assertions passed; legacy fails the one-unit control. At 64 units, 1,024 cold chunks took 44 to 33 slices and 3,031 to 2,759 PrepareHash calls. Same 2,055 hashes and canonical root; peak rebuilds"
-    }
-   ]
-  },
-  {
    "n": 1717,
    "name": "Mac daily build adopts the existing pinned GitHub host keys before the wrapper calls Git or launches iOS. Keep explicit caller SSH settings and strict host verification. Nightly README",
    "done": "2026-11-19T01:37Z",
@@ -5472,6 +5452,29 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1840,
+   "name": "Main View and Settings layout",
+   "done": "",
+   "goal": false,
+   "under": 407,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-20T01:23Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -6060,5 +6063,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "e67c8cfadeddf230567bbc4fc2db078ddccffc5e"
+ "source_revision": "c12f6bdf9de718a325e0a94ca7060db3c912f2d7"
 }
