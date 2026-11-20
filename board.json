@@ -5838,22 +5838,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-20T14:36Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-20T14:33Z",
-     "text": "ef00d5790b on main accepts ready metric depth in the native DJI still save, scoped to the matching capture version, lens and JPEG. Two Unity replays preserved all JPEGs, admitted only the matched depth and rebuilt the saved still through th"
+     "at": "2026-11-20T15:05Z",
+     "text": "c17cb866c2 adds matched Get photo stills to active Positioned drafts, with a density-prioritized Pano360 and Save slot. Windows TestRun confirmed fusion, refusal after a Video Source switch, original-resolution anchor reopen and saved Disk "
     }
    ]
   },
@@ -6735,6 +6726,6 @@
    "since": "2026-11-20T14:29Z"
   }
  ],
- "source_revision": "221d9f06637656b749c63fed12ae21f50e731d96",
- "board_revision": "d97c782629eff55be473beb73bbed7937ff5ff76"
+ "source_revision": "c17cb866c2101761ebbc5f5b3ae730b614bcaaac",
+ "board_revision": "2c22dece9a82ea17971158c16319532fc74183f1"
 }
