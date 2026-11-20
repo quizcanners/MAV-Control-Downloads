@@ -2675,26 +2675,6 @@
    ]
   },
   {
-   "n": 1689,
-   "name": "Video Processing",
-   "done": "2026-11-19T22:14Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-19T22:14Z",
-     "text": "Published f303a61d19. Both live replays held one unsaved draft through all three original Kenilworth videos and the short Wide continuation, with 12 m calibration offsets. The direct real-photo and ordinary retained-overlap runs both preser"
-    }
-   ]
-  },
-  {
    "n": 1693,
    "name": "3D map generation \u2014 accurate photo positioning, paired depth and automatic stitching",
    "done": "",
@@ -2947,26 +2927,6 @@
      "by": "GETAC",
      "at": "2026-11-19T22:06Z",
      "text": "Verified exact Dev866 libil2cpp SHA and inspected eight generated method bodies in Sample Bake Target, camera target, footprint, alignment and PhysX sync. No direct object/array/string allocation or boxing in those bodies. Some first-use IL"
-    }
-   ]
-  },
-  {
-   "n": 1808,
-   "name": "Using Lenovo to check for removable updater artifacts that could open its Web Mercator write gate",
-   "done": "2026-11-19T22:07Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-19T22:07Z",
-     "text": "Lenovo Dev866 on USB at 31%. Updater directory and MAV Control APKs in Downloads are empty. App cache/code_cache total 60 KiB. Web Mercator still reports MigrationNeedsSpace, minimum writes disabled, 2454917120 bytes available vs 3035389622"
     }
    ]
   },
@@ -5947,7 +5907,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD_COMPILE",
+     "since": "2026-11-20T22:14Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -6734,6 +6703,6 @@
    "since": "2026-11-20T21:14Z"
   }
  ],
- "source_revision": "74879d168310095c84fd923bb44cd238f2ac5363",
- "board_revision": "2e9fa8cf611a82f77b721bfcadfe69d1c0f8d212"
+ "source_revision": "bf0be53e8e4c6fa7efc89cc7ef56beacc149964d",
+ "board_revision": "ddaaebb151676ecbbb0ac9f2465aeb88d365de49"
 }
