@@ -6069,25 +6069,22 @@
   {
    "n": 1928,
    "name": "Telemetry Restream captions and controls take the shared left-list dismiss swipe (Left List Tabs and Lists SPEC",
-   "done": "",
+   "done": "2026-11-20T14:35Z",
    "goal": false,
    "under": 408,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T14:31Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T14:35Z",
+     "text": "123afcd9d7 on main. Before: expected a panel hit on Video Server caption, got none. Shared backing now blocks map input and gives drags to the left sheet. Mac Play: caption and Edit swipes dismissed; Edit tap opened links. 10/10 Telemetry a"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6678,8 +6675,12 @@
   {
    "screen": "Settings/Data/KMZ-KML",
    "since": "2026-11-20T13:35Z"
+  },
+  {
+   "screen": "TelemetryView/Restream",
+   "since": "2026-11-20T14:29Z"
   }
  ],
- "source_revision": "ef00d5790bb4f3bc9aeb01ccb31ce16cc03a40d4",
- "board_revision": "c7e8a6e1900256e2fdd157e774632c20387fe18b"
+ "source_revision": "123afcd9d72ee6394f6ffd15cc3412fbea73dd50",
+ "board_revision": "02586979f1b514e034c4d6d1411bf5d6d2e55161"
 }
