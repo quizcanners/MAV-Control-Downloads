@@ -6188,6 +6188,42 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1956,
+   "name": "Street View keeps fresh video frames in bounded MGRS folders. Follow Street View SPEC",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_VIDEO_FRAME_STREET_VIEW",
+     "since": "2026-11-20T19:44Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Mark local video captures and file them by MGRS square",
+     "x": false
+    },
+    {
+     "t": "Replace redundant older frames after the new photo and its available depth are saved",
+     "x": false
+    },
+    {
+     "t": "Bound retained photos and restore the same rule after folder scan",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -6785,5 +6821,5 @@
   }
  ],
  "source_revision": "b71aa28e10de885f0c77bb5f77db22134891dd5a",
- "board_revision": "1e1d1e18fc9b985b0670e3035c952d52290a341f"
+ "board_revision": "537fada620d5f27eb7f8cfd58a2a68fce7bee7f5"
 }
