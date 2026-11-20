@@ -2931,106 +2931,6 @@
    ]
   },
   {
-   "n": 1809,
-   "name": "Touch buttons cancel in-bounds finger movement. Apply the original-hit-area release rule in UI SPEC",
-   "done": "2026-11-19T22:30Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T22:30Z",
-     "text": "39a1094e4e and 05536982e5 are on main. Touch clicks use the original hit area, with ownership checks for native buttons, exits, overlapping contacts, recycled contacts and MavChat GPS/Tools folding. Rebuilt uGUI and Roslyn reported no new e"
-    }
-   ]
-  },
-  {
-   "n": 1810,
-   "name": "Shared top-right X is too dark. Restore a bright close icon in UI SPEC",
-   "done": "2026-11-19T22:25Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T22:25Z",
-     "text": "6adc3e9e84 switches the shared X to pale blue, which the existing material draws at full tint on dark maps. Roslyn and asset-to-shader calculation passed; native GPU look unrun. Main/Menu page bumped."
-    }
-   ]
-  },
-  {
-   "n": 1811,
-   "name": "Chat bubbles show a wire reply prefix above the message body. Follow Chat SPEC",
-   "done": "2026-11-19T22:31Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T22:31Z",
-     "text": "954e505653 and 23cf3e2d0b are on main. Chat bubbles omit the reply header and keep the time and ticks. A short MavChat reply can open its valid quote in the reader. Roslyn clear; native Chat check pending."
-    }
-   ]
-  },
-  {
-   "n": 1812,
-   "name": "Telemetry SPEC",
-   "done": "2026-11-19T22:31Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T22:31Z",
-     "text": "11c76debfb and d0d3a79b9a are on main. Source rows are 88.65 units with leading icons and short labels. Applied capture owns the highlight, and stopped camera attempts leave no idle readout. Prefab bindings, Linguist and Roslyn passed. Nati"
-    }
-   ]
-  },
-  {
-   "n": 1813,
-   "name": "Using Strong and Lenovo to measure live Situation and Grid Geometry delivery alongside frame cost",
-   "done": "2026-11-19T22:27Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-19T22:27Z",
-     "text": "Dev 866 on Strong and Lenovo. Same Situation root for 92 s, no root recalculations or new records, no Grid Geometry records transferred. Two 226-frame captures in CPU.md. Changed-branch delivery latency still needs a controlled edit and rec"
-    }
-   ]
-  },
-  {
    "n": 1814,
    "name": "Situation SPEC",
    "done": "2026-11-19T22:48Z",
@@ -5945,23 +5845,14 @@
   {
    "n": 1954,
    "name": "Tests",
-   "done": "",
+   "done": "2026-11-20T22:31Z",
    "goal": false,
    "under": 1951,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_COMPILE",
-     "since": "2026-11-20T22:24Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 2
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Editor agent: time one Prublyda edit with and without the constraint (task 1952 numbers)",
@@ -5977,6 +5868,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-20T21:44Z",
      "text": "Scan done, lever named (define constraint); needs an Editor agent to time and wire the launchers."
+    },
+    {
+     "by": "MAC_BOARD_COMPILE",
+     "at": "2026-11-20T22:31Z",
+     "text": "Published ed10c721bf. Warm Native A/B and actual Standalone define flip measured on Mac. Normal API edit saves 2.91 s with the three dependent test assemblies excluded. A test-session definition round trip costs 50 s, about 18 qualifying ed"
     }
    ]
   },
@@ -6709,6 +6605,6 @@
    "since": "2026-11-20T21:14Z"
   }
  ],
- "source_revision": "ba1b70f1ab021f0b8fe3caeeb63bfbe5f2743526",
- "board_revision": "417aa794eebad176269511d33a4822e2236da905"
+ "source_revision": "ed10c721bf63880458236edbfa40486a97dd9d9a",
+ "board_revision": "7ffe7275a092692b6be3238b0e36f6086b463f4a"
 }
