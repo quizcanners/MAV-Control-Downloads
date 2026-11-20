@@ -5394,34 +5394,34 @@
      "who": "CLOUD_COMPLEXITY",
      "since": "2026-11-20T01:50Z",
      "noted": "2026-11-20T03:22Z",
-     "progress": 83,
-     "ticked": 5,
+     "progress": 0,
+     "ticked": 0,
      "total": 6
     }
    ],
    "steps": [
     {
-     "t": "Sender: one seal for split payloads in SplitPayloadBase, the key per transfer for a peer at the gate and today's form below it, with the key box sealed anew at each metadata send",
-     "x": true
+     "t": "Sender: one seal class for split payloads (EncryptedSplitPayload): a key per transfer for a build from 869 and today's form below it; each metadata send is one box of the fields and the key, sealed an",
+     "x": false
     },
     {
-     "t": "Receiver: open the key when the metadata is admitted, keep it in that receive's RAM, open the payload with it, refuse metadata whose key does not open",
-     "x": true
+     "t": "Receiver: open the box where the metadata is read, admit it like every sealed message, keep the key in that receive's RAM and open the payload with it; a box that does not open leaves nothing",
+     "x": false
     },
     {
-     "t": "Tests from the SPEC through the real sender and receiver, a COMPATIBILITY.md row, the Encryption and Network guides",
-     "x": true
+     "t": "Tests from the SPEC through the real sender and receiver, a COMPATIBILITY.md note, the Encryption and Network guides",
+     "x": false
     },
     {
-     "t": "A chat photo's caption, file name and group name move inside the seal",
-     "x": true
+     "t": "A chat photo's caption, file name and group name move inside the seal, and geometry leaves the main keys for a build from 869",
+     "x": false
     },
     {
      "t": "A voice message is sealed once and each peer is handed the key",
-     "x": true
+     "x": false
     },
     {
-     "t": "Geometry leaves the main keys for a peer at the gate; the WiFi evidence receiver's own key copy and four of the five seal copies go when the floor passes the gate",
+     "t": "When the floor passes 868 (the floor moves on quiz's word): the session form, the plain-metadata reading of sealed kinds, the WiFi evidence receiver's own key copy and geometry's main-key seal go",
      "x": false
     }
    ],
