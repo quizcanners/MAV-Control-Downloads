@@ -4996,27 +4996,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-20T00:27Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 1
-    }
-   ],
+   "held": [],
    "steps": [
     {
-     "t": "Register the incoming real window independently. Check its cross-view placement against separate retained photos and depth before attempting the live all-real Helsinki join and checking Pano360.",
+     "t": "Find cross-view placement supported by independent real cameras, then qualify the live all-real Helsinki A-to-B join and check registered Pano360 across it.",
      "x": false
     }
    ],
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-20T00:26Z",
-     "text": "379520230a adds per-slot support to the Unity confirmation replay. Same-direction and fresh B controls passed. Corrected A banks and reprojections refused across varied windows. Connected comparison found no incoming view anchored to A and "
+     "at": "2026-11-20T00:39Z",
+     "text": "83b0892b73 published. Independent Helsinki B built Disks and registered Pano360. Two B-only Recovery Bank windows confirmed distinct real frames with inferred depth. Duplicate and mixed-real inputs refused. Fresh cross-view placement agains"
     }
    ]
   },
@@ -6050,5 +6041,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "a0ef1d7805d3387eab025e6db27fda05b1a15667"
+ "source_revision": "83b0892b731bf88aee923081f73655915281f0ad"
 }
