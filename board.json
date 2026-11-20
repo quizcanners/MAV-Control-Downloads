@@ -29,7 +29,7 @@
     {
      "who": "CLOUD_COMPLEXITY",
      "since": "2026-11-20T12:24Z",
-     "noted": "",
+     "noted": "2026-11-20T12:25Z",
      "progress": 12,
      "ticked": 1,
      "total": 8
@@ -69,7 +69,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_COMPLEXITY",
+     "at": "2026-11-20T12:25Z",
+     "text": "On main since the last note: top-left notification controls ask CurrentLeftView (a4a51beee09); 'telemetry on screen' is Station.UI.ShouldShowTelemetry, two prefab statics cut (0fd744e6816); 44 prefab fields no code read cut from 19 scripts "
+    }
+   ]
   },
   {
    "n": 362,
@@ -3013,26 +3019,6 @@
      "by": "GETAC",
      "at": "2026-11-19T15:00Z",
      "text": "c98e7add12 signed, exact install and paired run complete. Strong peak 33.067 ms vs 92.590 ms before, but receiver root/data and traffic differed; no isolated speedup established. Windows admitted 273 by 203.19 s and roots remained different"
-    }
-   ]
-  },
-  {
-   "n": 1776,
-   "name": "Main View SPEC",
-   "done": "2026-11-19T12:25Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T12:25Z",
-     "text": "afd2932883. Accepted release clears object and Screen Centre; the existing panel slides and hands over to current layout. Mac EditMode 69/0/0 across Suggestions fixtures. Mac Play replay confirmed immediate clear, original backing, stale re"
     }
    ]
   },
