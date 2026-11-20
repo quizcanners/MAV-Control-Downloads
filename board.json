@@ -69,16 +69,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T05:06Z",
-     "noted": "",
-     "progress": 56,
-     "ticked": 5,
-     "total": 9
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Code on main: the Map scene is the only request until its camera exists; Main UI is requested in that frame; Deferred Views, Overlays, Lists UI, Late UI and Sounds follow as one Layers state (WaitingF",
@@ -122,6 +113,11 @@
      "by": "GETAC",
      "at": "2026-11-17T10:55Z",
      "text": "Dev 857 ECS SparseUploader.CopyKernel took 416.4 ms compile/link on Strong and 1,108.9 ms compile on Lenovo for byte-identical GLSL, both after Map Present and before Bootstrap Ready (CPU.md 666ebce3d1, f56093b606). The blank map behind the"
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T05:21Z",
+     "text": "b510f4bbff records fresh Mac Bootstrap Play. Map preceded Ready and Layers. A Waypoints pointer input during Loading found no tab; the same input opened Waypoints once it appeared. A direct Chat request showed fallback Alerts during Loading"
     }
    ]
   },
