@@ -2605,7 +2605,7 @@
   {
    "n": 1651,
    "name": "Tidy the Unity 3D map generation code layout after the photo positioning",
-   "done": "",
+   "done": "2026-11-20T19:41Z",
    "goal": false,
    "under": 1693,
    "ticks": [
@@ -2616,16 +2616,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_PASIKA_COVER",
-     "since": "2026-11-20T19:29Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Split the continuous capture owner by capture, window handoff, publication and Save. Start with VideoProcessing_RtxContinuous.cs, VideoProcessing_RtxUnityContinuous.cs and VideoProcessing_RtxOdometryM",
@@ -2640,7 +2631,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_PASIKA_COVER",
+     "at": "2026-11-20T19:41Z",
+     "text": "6b99bf25f8 splits capture, registration, publication and Save; 3acc07fe40 names the Map3DGeneration owner and preserves 34 script GUIDs; b71aa28e10 removes the second Save selection pass. Verified on origin/main. Roslyn e/a/p/m NEW ERRORS n"
+    }
+   ]
   },
   {
    "n": 1679,
@@ -6788,5 +6785,5 @@
   }
  ],
  "source_revision": "b71aa28e10de885f0c77bb5f77db22134891dd5a",
- "board_revision": "917e1aeba557bef40f56a7fe5d0c84f17c74e6a6"
+ "board_revision": "1e1d1e18fc9b985b0670e3035c952d52290a341f"
 }
