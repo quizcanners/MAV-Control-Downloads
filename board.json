@@ -6011,23 +6011,20 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLOUD_THREAD",
-     "since": "2026-11-20T21:10Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 1
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "quiz decides: move the 56 files anyway (cost: scattering them into a Core folder, gain 0.5%), or leave Prublyda whole and take goal 1951's other steps (1954 tests off the edit path, 1955 reload script",
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-20T21:10Z",
+     "text": "Core move finds 56 files/3.3k lines (0.5%); not moved. Need for verify: none, no code changed."
+    }
+   ]
   },
   {
    "n": 1954,
@@ -6733,5 +6730,5 @@
   }
  ],
  "source_revision": "33eed61b94895a074f77318c494232f964268f50",
- "board_revision": "e3c70bfe7e576a1f4e19884aeba89706352f392f"
+ "board_revision": "fec36afd0397ee23813b00bff031db93d94c1cc5"
 }
