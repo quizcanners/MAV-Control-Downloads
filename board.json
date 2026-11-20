@@ -2954,33 +2954,6 @@
    ]
   },
   {
-   "n": 1746,
-   "name": "Notifications",
-   "done": "2026-11-19T07:03Z",
-   "goal": false,
-   "under": 410,
-   "ticks": [
-    "2026-11-19T07:02Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Cloud: trace the last card's shadow image and its clip or mask to the cause of the missing bottom shadow and fix it",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T07:03Z",
-     "text": "4fbbe7d10e on main. Hidden rows retain scroll height and no longer merge the outer shadow. Mac Play reproduced Agent Activity losing its bottom to hidden Far From Home. Fixed: the bottom shadow fades beyond the viewport and the live two-car"
-    }
-   ]
-  },
-  {
    "n": 1748,
    "name": "Windows standalone shutdown",
    "done": "",
@@ -2997,26 +2970,6 @@
      "by": "GETAC",
      "at": "2026-11-19T13:41Z",
      "text": "Reproduced on the same qualified Windows Dev863 6ec21f06b4 during active sync. Close saved a 257,469-byte quit checkpoint in 673.3 ms, then hit ReversePInvokeWrapper_WindowsPlatformImpl_OnScaleFactorChanged through AppUINativePlugin after i"
-    }
-   ]
-  },
-  {
-   "n": 1749,
-   "name": "Web Mercator SPEC",
-   "done": "2026-11-19T07:01Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-19T07:01Z",
-     "text": "3b236b2214 checks root capacity before peer admission. Compared to the old method, 100 blocked-root updates made 0 vs 2,400 eligibility calls, and full-pool updates 0 vs 100. The next root admitted all 24 due peers. 40 priority controls, 99"
     }
    ]
   },
@@ -4386,16 +4339,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T06:53Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 2,
-     "total": 2
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Connect bounded native queries to exact incoming frame keys and pass the aligned cameras and landmarks through separate proposal and held-out depth confirmation before Fusion and Pano360.",
@@ -4408,14 +4352,14 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T04:51Z",
-     "text": "Street View Disk low-memory follow-up for the current owner: Tick in VideoProcessing_StreetViewDiskLayer.cs calls GenerationMemory.Blocks(true) on the Layers switch alone, before RefreshRegions finds runnable work. Above browse altitude or "
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-20T06:44Z",
      "text": "46603fdbfb connects ordinary video switches to the live landmark bank and held-out depth checks. Helsinki joined with the bank ready and while it was building. Zurich kept the same draft digest. The Layers switch rebuilt saved depth with dr"
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T07:06Z",
+     "text": "d7484ffabd records the Mac Metal TestRun on c1454ea023. With Video Source off, the Street View Disk layer built from three photos with saved DA3 depth and assigned poses, evicted on zoom out, rebuilt on return and released its draw buffers "
     }
    ]
   },
@@ -6337,5 +6281,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "38dced28883a0fa7e5a37491a0742635ccf416ee"
+ "source_revision": "d7484ffabdcca2fb5616035e2e6b8b12ed413185"
 }
