@@ -3108,26 +3108,6 @@
    ]
   },
   {
-   "n": 1765,
-   "name": "Telemetry SPEC",
-   "done": "2026-11-19T09:30Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T09:30Z",
-     "text": "Already implemented on main in 7310bdb70f, newer than iOS 863. One selected local aircraft remains eligible for the Video Suggestions tab without a feed. RemoteDroneSuggestionTests 24 passed, including the local Synthetic and no-feed path."
-    }
-   ]
-  },
-  {
    "n": 1766,
    "name": "Telemetry SPEC",
    "done": "2026-11-19T09:42Z",
@@ -5837,25 +5817,22 @@
   {
    "n": 1894,
    "name": "Telemetry SPEC",
-   "done": "",
+   "done": "2026-11-20T09:34Z",
    "goal": false,
    "under": 431,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T09:26Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T09:34Z",
+     "text": "ad24a50601 on main. Android Video Source shows App and Screen on page one and keeps the choices during capture. Unavailable choices show a localized grey reason; permission denial permits explicit retry. Existing Android consent flow reused"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6440,5 +6417,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "f863a002f855dcbdcf6baeeb18dcba2e214a003d"
+ "source_revision": "ad24a50601a83e92b9ceec191a4624fbe16895fc"
 }
