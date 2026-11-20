@@ -2976,26 +2976,6 @@
    ]
   },
   {
-   "n": 1802,
-   "name": "Using Strong and Lenovo for reciprocal Web Mercator receipt and durable-root observations",
-   "done": "2026-11-19T19:51Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-19T19:51Z",
-     "text": "Both on Dev 864. Strong saw Lenovo interest at z14 and PeerReceiveFull. Lenovo reported MigrationNeedsSpace and minimum_write_allowed=False: 2826522624 available vs 3035098398 bytes required (199 MiB short). Roots differed and both reported"
-    }
-   ]
-  },
-  {
    "n": 1803,
    "name": "Shared GPS blind-spot EditMode tests still expect a real fix to be sent to Admins after ab6ecf43f9. Align the two sender tests with the Peers and Background Tracker privacy rule",
    "done": "2026-11-19T20:10Z",
@@ -6172,7 +6152,7 @@
   {
    "n": 1956,
    "name": "Street View keeps fresh video frames in bounded MGRS folders. Follow Street View SPEC",
-   "done": "",
+   "done": "2026-11-20T19:51Z",
    "goal": false,
    "under": 1693,
    "ticks": [
@@ -6183,16 +6163,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_FRAME_STREET_VIEW",
-     "since": "2026-11-20T19:44Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Mark local video captures and file them by MGRS square",
@@ -6207,7 +6178,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_VIDEO_FRAME_STREET_VIEW",
+     "at": "2026-11-20T19:51Z",
+     "text": "527f9c9a1d on main. Local Video Frames use 1 km MGRS folders, keep 24 per folder and 512 total, and replace older equivalent views after durable Save. Roslyn NEW ERRORS none; nine host controls passed (depth preference, ordering, active pro"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6805,5 +6782,5 @@
   }
  ],
  "source_revision": "813facc3a21a369491f24d7b7181a2b035a8b09e",
- "board_revision": "41ad02f1a76a8195e0249a62ec20a713d676b515"
+ "board_revision": "5da237bfd3350a0916916629816012dfe64379a9"
 }
