@@ -5986,16 +5986,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLOUD_THREAD",
-     "since": "2026-11-20T21:44Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 2
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Editor agent: time one Prublyda edit with and without the constraint (task 1952 numbers)",
@@ -6006,7 +5997,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-20T21:44Z",
+     "text": "Scan done, lever named (define constraint); needs an Editor agent to time and wire the launchers."
+    }
+   ]
   },
   {
    "n": 1955,
@@ -6738,5 +6735,5 @@
   }
  ],
  "source_revision": "74879d168310095c84fd923bb44cd238f2ac5363",
- "board_revision": "7e968c28a7839fd171d03f1dcbcbf1a1061cebc3"
+ "board_revision": "2e9fa8cf611a82f77b721bfcadfe69d1c0f8d212"
 }
