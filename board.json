@@ -25,37 +25,42 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLOUD_COMPLEXITY",
-     "since": "2026-11-20T00:17Z",
-     "noted": "2026-11-20T11:29Z",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
-     "t": "Cloud, one group of writers per commit: remaining one-decision-per-frame places 2 to 4: left list show chains (ask quiz which differences are wanted), systems that read a prefab to decide (fullscreen ",
+     "t": "On main: places 1 to 33 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
+     "x": true
+    },
+    {
+     "t": "Cloud: fullscreen video \"owns the screen\" is answered by the video prefab (Singleton_UI_VideoFeed.OwnsFullVideoPresentation, read in 13 files). Whose video, video or screen map and the photo on screen",
      "x": false
     },
     {
-     "t": "Cloud, next reads: personnel push hands the whole table once per run without comparing revisions; leftovers of places 17 and 20; DJI negotiation coroutines; the a and p compile sets leave out Editor-o",
+     "t": "Cloud: the open telemetry tab and which tabs exist are kept in the telemetry prefab (Tabs._selectedTab, HasContent of the panels' rows); the Copilot controller, the home ruler and the list rail ask th",
      "x": false
     },
     {
-     "t": "UI_ExpandMenu's picture builder waits; place 6 (Orthophoto PeerSent file) is a candidate with no board task behind it, read it fresh before acting; review briefs CC-1AD9-01, CC-A541-01, CC-301C-01, CC",
+     "t": "Cloud: the Peers page of the MavChat pager (page and strip position are the pager's fields, pushed into the peer list view and read back by LeftLists.PeersShown), and the Peers list's own two conditio",
+     "x": false
+    },
+    {
+     "t": "Cloud, prefab text: seven more views build their own objects in RAM with a lookup for each piece (GPS sky plot, Dev FPS label, MavChat grabber and progress bars, Pilot side tongues, row divider, dragg",
+     "x": false
+    },
+    {
+     "t": "Cloud, when its view is touched: 11 prefab scripts with their own show expression, IsOverlayBlockingClicks, and the decisions with several inputs and no frame gate (ShouldHideLists, ShouldShowUIIntera",
+     "x": false
+    },
+    {
+     "t": "Candidates, read fresh before acting: the route layout no prefab has (UI_NavigatorRoute without a sheet), yellow photo markers, Singleton_ThermalFeedProcessor on no prefab, the personnel push (place 2",
+     "x": false
+    },
+    {
+     "t": "Waits for a MavServer release, which is quiz's word: a retired report gives its slot back and /status is built when asked (place 17); the rest of place 11 is a wire change",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-20T11:29Z",
-     "text": "Left list show chains are on main: Cars, Waypoints, Sensors, Drones, Photos (1c124fcf4ec) and Peers (4143ed4ccde): Network.ShouldShowUI is gone, LeftLists.PeersShown is one answer per frame, EditMode case OnTheMapThePeerListShowsOnlyWithThe"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 362,
@@ -6348,5 +6353,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "76778a3b46485b702dee354babfad1c640dc248f"
+ "source_revision": "eeb11fba017fb5928375b4e803a606539c0cc8b0"
 }
