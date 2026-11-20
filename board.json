@@ -1154,11 +1154,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-16T12:41Z",
-     "text": "Task 1355 published 00f0f01130: Synthetic drone crosshair 0 m/s move clears motion and published speed. Editor compile and 84 focused tests passed; Main/Map check bumped; no device test."
-    },
-    {
      "by": "CODEX_UI_COMPOSITES",
      "at": "2026-11-17T12:05Z",
      "text": "Read origin/main COMPOSITES_PLAN: passive input and readout owners already use the merge-only element. Census of 21 direct prefab UI_MergeableListElementBase blocks with null composite Button found all 21 have co-located Unity Buttons; pres"
@@ -1167,6 +1162,11 @@
      "by": "MAC_BOARD",
      "at": "2026-11-19T14:40Z",
      "text": "ecf7de4409 centers the clock rule, softens and offsets the compass shadow, and corrects the baked east/west paint bias. No UI hides lock artwork and labels, keeps compass/plaque and restores planet-scale sunlight. Mac native Compass/Clock a"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-20T01:42Z",
+     "text": "CR-1ADA-01 P3: seven Ukrainian Street View captions/messages are shifted by a misplaced parallel-array value; Convert reads Restart stream and the missing-ground notice reads Open link. Source-confirmed on current main; counts/keys still ma"
     }
    ]
   },
@@ -5426,7 +5426,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-20T01:45Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -6208,5 +6217,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "9628d185b457d3887cd1b1abdb223b2c93bc8249"
+ "source_revision": "70cc2292e022cd9f0bd6da0b4ec28525df12905d"
 }
