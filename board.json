@@ -5700,25 +5700,22 @@
   {
    "n": 1902,
    "name": "SDC Ping SPEC",
-   "done": "",
+   "done": "2026-11-20T11:36Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_SDC",
-     "since": "2026-11-20T11:26Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_SDC",
+     "at": "2026-11-20T11:36Z",
+     "text": "Published 83a760e482 on main. SDC Ping reports Code 28 for recognized USB serial hardware and links Windows driver help. Windows host probe found working COM8. Four simulated device states passed. Roslyn reported no new errors before the no"
+    }
+   ]
   },
   {
    "n": 1903,
@@ -6326,5 +6323,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "ecdc88d62b190abc88dd6c2eaedc2e3d37e52c5e"
+ "source_revision": "83a760e482e55a991876dcbea8a2c193e8877da5"
 }
