@@ -6018,25 +6018,22 @@
   {
    "n": 1925,
    "name": "Telemetry Restream guides",
-   "done": "",
+   "done": "2026-11-20T14:13Z",
    "goal": false,
    "under": 606,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T14:11Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T14:13Z",
+     "text": "28e7818a81 on main. Telemetry SPEC matches the prefab Edit binding and the destination picker Back handler. The older Video check described a duplicate picker action that no longer exists, and its original report remains in task 240. Two gu"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6630,5 +6627,5 @@
   }
  ],
  "source_revision": "28e7818a819b22a57658a29fba578618161738c4",
- "board_revision": "92d2b2e925c4344f36c96f58f828ab431584dfd3"
+ "board_revision": "05caa71d2616f422ce1ea57ab36e0c5bb37128b8"
 }
