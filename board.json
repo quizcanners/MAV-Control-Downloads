@@ -25,16 +25,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLOUD_COMPLEXITY",
-     "since": "2026-11-20T14:41Z",
-     "noted": "",
-     "progress": 12,
-     "ticked": 1,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -69,7 +60,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_COMPLEXITY",
+     "at": "2026-11-20T14:41Z",
+     "text": "Done on main: the open telemetry tab is DronePanels.SelectedTab with one answer per frame, DronePanels.OpenTab (4c5f67ecc4f; place 36: the home ruler's dead tab check cut). Pages TelemetryView and Positioning bumped. cmp.sh: no new errors; "
+    }
+   ]
   },
   {
    "n": 362,
@@ -6699,5 +6696,5 @@
   }
  ],
  "source_revision": "02929786bd2a4e11ada9ee2470ca5237a612eaed",
- "board_revision": "9623824c93d667fc0ee1c0df3316cdfff71ea0cb"
+ "board_revision": "49cdcbe5577f023f230f079a53af94e7d26acf2a"
 }
