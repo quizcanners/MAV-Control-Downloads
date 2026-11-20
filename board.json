@@ -2898,26 +2898,6 @@
    ]
   },
   {
-   "n": 1720,
-   "name": "Apple EditMode All should run fresh when an exited cached All was rejected for a source edit and the next build has different Unity inputs. Preserve the rejected checkout and original evidence",
-   "done": "2026-11-19T02:13Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T02:13Z",
-     "text": "095b7b3987 on main. Exited saved-edit cache retains the original owner, XML and edited bytes. Changed Unity inputs select a fresh sealed candidate; unchanged inputs and uncertain owners still refuse. Native host suite 64 passed, 3 skipped. "
-    }
-   ]
-  },
-  {
    "n": 1721,
    "name": "Automatic Apple",
    "done": "2026-11-19T02:22Z",
@@ -5663,6 +5643,20 @@
      "total": 0
     }
    ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 1851,
+   "name": "Shaders and Situation UI SPECs",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
    "steps": [],
    "notes": []
   }
