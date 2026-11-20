@@ -5895,25 +5895,22 @@
   {
    "n": 1919,
    "name": "Settings / Data / KMZ/KML",
-   "done": "",
+   "done": "2026-11-20T13:35Z",
    "goal": false,
    "under": 409,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T13:31Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T13:35Z",
+     "text": "2b98efdc10 on main. The latest import result leads the KMZ/KML page. Mac Play confirmed empty, simulated success and failure, and the separate parsed details page. EditMode parser fixture: 23 passed, 0 failed, 0 skipped. Roslyn clean. Setti"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6500,7 +6497,11 @@
   {
    "screen": "Settings/Map/Base map",
    "since": "2026-11-20T13:28Z"
+  },
+  {
+   "screen": "Settings/Data/KMZ-KML",
+   "since": "2026-11-20T13:35Z"
   }
  ],
- "source_revision": "08e47fd2a58c5396aa582d350beb758ed3d3db12"
+ "source_revision": "2b98efdc109d266ad8f771c64e94583eae845d74"
 }
