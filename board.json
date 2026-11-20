@@ -2604,7 +2604,7 @@
   },
   {
    "n": 1651,
-   "name": "3D map generation (Development) is not up to spec in code layout",
+   "name": "Tidy the Unity 3D map generation code layout after the photo positioning",
    "done": "",
    "goal": false,
    "under": 1693,
@@ -2615,28 +2615,24 @@
    "held": [
     {
      "who": "CODEX_3D_MAP_SPEC",
-     "since": "2026-11-20T18:51Z",
+     "since": "2026-11-20T18:52Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
-     "total": 4
+     "total": 3
     }
    ],
    "steps": [
     {
-     "t": "PASIKA: split VideoProcessing_RtxContinuous.cs (1048 lines, 38 methods) by responsibility (capture, window hand-off, publish, Save); files it may touch: RtxContinuous.cs, RtxContinuousGeometry.cs, Rtx",
+     "t": "Split the continuous capture owner by capture, window handoff, publication and Save. Start with VideoProcessing_RtxContinuous.cs, VideoProcessing_RtxUnityContinuous.cs and VideoProcessing_RtxOdometryM",
      "x": false
     },
     {
-     "t": "PASIKA: put the Python reference behind one seam (PythonCanonicalCapture plus the python branches in the other seven files), so it can be archived later without touching the Unity path; no new Python ",
+     "t": "Replace obsolete Rtx owner names with 3D map generation names in one rename group. Update the SPEC and AGENTS links with the source rename.",
      "x": false
     },
     {
-     "t": "PASIKA: name the pipeline for what it is: the Rtx* prefix (the old RTX worker) becomes the 3D map generation owner's name, one rename group, Roslyn rename tool (Tools/RoslynCompileDiff); update SPEC/A",
-     "x": false
-    },
-    {
-     "t": "PASIKA: read UnityDa3Mesh.cs (425), Registration.cs (436), Save.cs (391), Window.cs (373) for per-frame allocations and unneeded copies on the live path; cut what reading shows (REFACTORING.md, Perfor",
+     "t": "Review the live registration and window paths and the Save and mesh paths for unnecessary transfers, allocations or copies. Preserve capture identity, accepted frame pairing and Save behavior.",
      "x": false
     }
    ],
@@ -6723,5 +6719,5 @@
   }
  ],
  "source_revision": "d5840ff35d3da0a034efb9b7cc623fe106233beb",
- "board_revision": "0e0560b35e5720eba987621484dc136ae778db0f"
+ "board_revision": "01cfe4787fa35804523ac2571b9ef960018e935e"
 }
