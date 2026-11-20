@@ -2963,26 +2963,6 @@
    ]
   },
   {
-   "n": 1781,
-   "name": "Keep the centre Menu shortcut preview above the MavChat capsule throughout its fade (Menu SPEC",
-   "done": "2026-11-19T15:10Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T15:10Z",
-     "text": "24b7343f0b draws the centre shortcut preview above the MavChat capsule throughout release. Mac EditMode 19 passed. A portrait Play touch opened the centre selector and drew it at order 25 above MavChat 11. Physical phone check remains due."
-    }
-   ]
-  },
-  {
    "n": 1782,
    "name": "Reuse the already-decoded child slots during Web Mercator index page adoption (Web Mercator SPEC",
    "done": "",
@@ -6075,25 +6055,22 @@
   {
    "n": 1931,
    "name": "Fullscreen Video Processing fold arrows use the Lists and Suggestions edge handle style (Video Processing SPEC",
-   "done": "",
+   "done": "2026-11-20T15:10Z",
    "goal": false,
    "under": 431,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_PROCESSING_HANDLE",
-     "since": "2026-11-20T15:09Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_PROCESSING_HANDLE",
+     "at": "2026-11-20T15:10Z",
+     "text": "2709ee6aaf on main. Both fullscreen processing handles share the Lists/Suggestions silhouette and chevron. Open handle flush to the column, folded handle flush to the screen edge; 100x160 hit area extends away from rows. Mac Play fold and r"
+    }
+   ]
   },
   {
    "n": 1932,
@@ -6736,6 +6713,6 @@
    "since": "2026-11-20T14:29Z"
   }
  ],
- "source_revision": "c17cb866c2101761ebbc5f5b3ae730b614bcaaac",
- "board_revision": "714665bbf1dbaa85e2aa81fb53db97b14a2d87c3"
+ "source_revision": "2709ee6aaf082a4fa6ab1089cc9f2901c7f98743",
+ "board_revision": "4a27a1eace2d53ea40526815dabb3d662112108f"
 }
