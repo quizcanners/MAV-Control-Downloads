@@ -5717,25 +5717,22 @@
   {
    "n": 1906,
    "name": "Settings / macOS / Microphone",
-   "done": "",
+   "done": "2026-11-20T12:15Z",
    "goal": false,
    "under": 409,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T12:01Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T12:15Z",
+     "text": "c1c9e64958 on main. Mac Play showed two native inputs with green status above the picker. A synthetic absent-input refresh cleared the stale choice and hid the picker, leaving Start recording. VoiceRecordingHoldTests 8/0/0; Roslyn clean. Ev"
+    }
+   ]
   },
   {
    "n": 1907,
@@ -6366,5 +6363,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "599635a02059f24ecb59cdc974cffc72e9e36a04"
+ "source_revision": "c1c9e64958407b02b180b206d764f0173387ce8a"
 }
