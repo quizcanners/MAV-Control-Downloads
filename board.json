@@ -29,7 +29,7 @@
     {
      "who": "CLOUD_COMPLEXITY",
      "since": "2026-11-20T00:17Z",
-     "noted": "2026-11-20T10:28Z",
+     "noted": "2026-11-20T10:56Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -52,8 +52,8 @@
    "notes": [
     {
      "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-20T10:28Z",
-     "text": "Left lists: Cars, Waypoints, Sensors (34c24d0d27, 49e93e464d, 96a704172d) and Drones (9add1c1705) read LeftLists.ListShown; Drones rows stay in RAM and a hidden row asks for no video. Dead cuts: GPS toggle tail 746fcc0496, controller row a5"
+     "at": "2026-11-20T10:56Z",
+     "text": "Step 2, left lists: Photos and Photo folders now ask the one panel (1c124fcf4ec): StreetView.ShouldShowPhotoLists is gone, filled rows stay in RAM while the list is away, the map keeps its own answer for the yellow markers (MarksOpenFolderO"
     }
    ]
   },
@@ -1695,6 +1695,11 @@
      "by": "CODEX_GRAPHICS",
      "at": "2026-11-15T06:55Z",
      "text": "Shared-workflow audit at 1e0b80295c: Alarm CanPresent requires RemoteSensors + Alarm + PinValidated (Station_RemoteSense.cs:36); TrainingSimulationBackend.cs:65 stops outside Training or in its RemoteSensors mode. MapOnly also omits the Rem"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-20T10:49Z",
+     "text": "CC-0391-01 P3: Training scans every coverage cell for distance retirement each update although observerCellChanged already exists. S1/S2 brief ready for quiz before refactoring: Coordination/Reviews/577c0e7fa.md#cc-0391-01--p3-training-rech"
     }
    ]
   },
@@ -6243,5 +6248,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "eae8ce63ccea777c86b2041dfec57864b19f502d"
+ "source_revision": "77c3c9f2aaee0c6d7530de61978bd8c94953ec46"
 }
