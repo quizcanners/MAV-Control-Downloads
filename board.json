@@ -5412,25 +5412,22 @@
   {
    "n": 1835,
    "name": "Chat SPEC",
-   "done": "",
+   "done": "2026-11-20T00:22Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T00:10Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T00:22Z",
+     "text": "b5c1cce6a5 centers the synthetic fade and viewport using physical Screen coordinates after Canvas layout. Before, the EditMode preview center was y=480 with Screen.height=443 and produced zero vertices. Both four-vertex and edge assertions "
+    }
+   ]
   }
  ],
  "verify": [
