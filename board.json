@@ -1214,7 +1214,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-20T14:21Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 2
+    }
+   ],
    "steps": [
     {
      "t": "Mac with a finger on a device: drag from a row moves the whole panel and the row is not tapped, on every list; tune the flick numbers and write them into UI SPEC One panel, one decision, Flick",
@@ -6655,5 +6664,5 @@
   }
  ],
  "source_revision": "9b8f0d66ef9086dfd3c95fa5613bd0f17810ca32",
- "board_revision": "4a7e28e1ca6301453ccf64519c645aa7d557388d"
+ "board_revision": "ba6408c0f3cbfd82f3560ebb72ebb8d060e00658"
 }
