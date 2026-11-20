@@ -29,7 +29,7 @@
     {
      "who": "CLOUD_COMPLEXITY",
      "since": "2026-11-20T00:17Z",
-     "noted": "2026-11-20T02:20Z",
+     "noted": "2026-11-20T01:49Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -52,8 +52,8 @@
    "notes": [
     {
      "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-20T02:20Z",
-     "text": "Working on 1843 (a key per transfer) under this claim: code written, tests and guides in progress. Left of this task: Cloud next reads (place 11, personnel push without revision compare, leftovers of 17 and 20, DJI negotiation coroutines, p"
+     "at": "2026-11-20T01:49Z",
+     "text": "Place 3 read pushed (180697154dc): a sealed split payload has 180-300 s to arrive whole, 14 of 16 session-key kinds wait with no clock; personnel tables now count as held on arrival (OnSendEnded), one per peer on its way. Found: photo capti"
     }
    ]
   },
@@ -5463,7 +5463,7 @@
     {
      "who": "CLOUD_COMPLEXITY",
      "since": "2026-11-20T01:50Z",
-     "noted": "2026-11-20T02:20Z",
+     "noted": "",
      "progress": 0,
      "ticked": 0,
      "total": 6
@@ -5495,13 +5495,7 @@
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-20T02:20Z",
-     "text": "Push A coded, uncommitted in this thread's checkout: payload sealed once with a random 32-byte key (EncryptedSplitPayload), the key sealed with session keys at each metadata send (Outbound.Seal), opened at metadata arrival (PayloadReceiver."
-    }
-   ]
+   "notes": []
   },
   {
    "n": 1844,
