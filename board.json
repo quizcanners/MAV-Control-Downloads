@@ -5372,25 +5372,22 @@
   {
    "n": 1833,
    "name": "Chat photo encoding",
-   "done": "",
+   "done": "2026-11-20T00:22Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T00:03Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T00:22Z",
+     "text": "429d04b332 uses an explicit ARGB32 Linear source for the real asynchronous shutdown fixture instead of the Mac default ReadPixels rejects. The lifetime assertions remain. Mac Metal ImageEncoderTests 11/0/0 and shutdown passed in final All. "
+    }
+   ]
   },
   {
    "n": 1834,
