@@ -5292,25 +5292,22 @@
   {
    "n": 1829,
    "name": "Drone Control UI SPEC",
-   "done": "",
+   "done": "2026-11-20T00:20Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-19T23:58Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T00:20Z",
+     "text": "dfa8ab59ee fixes the 32-unit bottom-left overlap (altitude x expected 890, actual 858) and keeps fallback Search before the scroller. Mac TelemetryStripSlot 5/5 and BottomLeftRow 1/1. The effective saved MavChat workflow hides Telemetry bef"
+    }
+   ]
   },
   {
    "n": 1830,
@@ -6037,5 +6034,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "f96858b1c6a2a628b6643d089d6e9087f0470f67"
+ "source_revision": "b5c1cce6a5f8df7d9934d30a489881d00afa21b0"
 }
