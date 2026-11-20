@@ -2390,26 +2390,6 @@
    "notes": []
   },
   {
-   "n": 1519,
-   "name": "Local agent",
-   "done": "2026-11-19T04:01Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T04:01Z",
-     "text": "a278d776a8 and 774d9721b5 on main. Live keyframes and loaded originals own the depth planes. Saved photos reopen an exact-content sidecar."
-    }
-   ]
-  },
-  {
    "n": 1522,
    "name": "Local agent",
    "done": "2026-11-19T13:29Z",
@@ -4825,31 +4805,22 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-20T03:35Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 2
-    }
-   ],
+   "held": [],
    "steps": [
     {
-     "t": "Derive original-colour camera evidence and checked short tracks automatically from accepted photos in ordinary recovery. Keep the proposal and confirmation provenance gates.",
+     "t": "Fit and check lens, pose and depth against accepted original-colour landmarks. Require independent depth and full reprojection agreement before new observations can enter Fusion.",
      "x": false
     },
     {
-     "t": "Qualify ordinary matching across Helsinki A to B and its registered Pano360.",
+     "t": "Build the bounded landmark bank in ordinary Unity recovery and qualify the Helsinki source switch with the earlier Disk cloud and registered Pano360 preserved.",
      "x": false
     }
    ],
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-20T03:34Z",
-     "text": "60162a430e verified the running Helsinki replay join with measured camera anchors. Four B frames joined the same draft and Pano360 bound exact B87 depth. Shifted cameras and a wrong colour digest both preserved A. Roslyn and Editor compile "
+     "at": "2026-11-20T04:03Z",
+     "text": "2809a2e025 verified placement from accepted original-colour photos. Camera agreement alone allowed overlong depth and a wrong lens to carve the draft in TestRun. The guarded replay preserved the prior cloud and its Pano360 bindings. Measure"
     }
    ]
   },
@@ -6510,5 +6481,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "63614c619f8d9c9f8af72142e0eec90da82a3747"
+ "source_revision": "2809a2e025f48b73cbce3d338ceb51809923bbb8"
 }
