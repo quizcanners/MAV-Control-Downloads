@@ -2889,26 +2889,6 @@
    ]
   },
   {
-   "n": 1718,
-   "name": "Author the Notifications Off sprite importer metadata in Unity 6000.6.8f1 so Mac EditMode All keeps its source clean. Preserve the asset GUID",
-   "done": "2026-11-19T01:48Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T01:48Z",
-     "text": "2a2c881c0a on main. Unity 6000.6.8f1 force reimport and SaveAssets left the checkout clean. Same sprite GUID, file ID 21300000 and 128\u00d7128 rect. All six prefab references resolved. PNG bytes identical. Roslyn no new errors. Mac EditMode All"
-    }
-   ]
-  },
-  {
    "n": 1719,
    "name": "Restore MGRS history swipe fixture bindings to the current prefabs and input owner. Keep the pointer ownership",
    "done": "2026-11-19T01:58Z",
@@ -5564,25 +5544,22 @@
   {
    "n": 1845,
    "name": "Verification SPEC",
-   "done": "",
+   "done": "2026-11-20T01:48Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T01:36Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T01:48Z",
+     "text": "5d8cd6d6b4 on main. macOS /var alias hit the linked-root guard before the ordinary scratch case. Test fixture now uses project Temp and also checks linked ancestors. The production guard and all existing rejections remain. Mac VerificationR"
+    }
+   ]
   },
   {
    "n": 1846,
@@ -6217,5 +6194,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "70cc2292e022cd9f0bd6da0b4ec28525df12905d"
+ "source_revision": "a7add0413a8ed27adf9c06b8d34cf801ed254608"
 }
