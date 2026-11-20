@@ -5713,22 +5713,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-20T15:07Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-20T15:05Z",
-     "text": "c17cb866c2 adds matched Get photo stills to active Positioned drafts, with a density-prioritized Pano360 and Save slot. Windows TestRun confirmed fusion, refusal after a Video Source switch, original-resolution anchor reopen and saved Disk "
+     "at": "2026-11-20T15:23Z",
+     "text": "4ad1668c4c adds exact exposure pairing and measured video fusion in a Positioned draft. Windows TestRun refused generation, index, PTS, surface time, lens and size mismatches, continued Depth Anything, and reopened both captures with depth "
     }
    ]
   },
@@ -6673,6 +6664,6 @@
    "since": "2026-11-20T14:29Z"
   }
  ],
- "source_revision": "2384f29691fd67ade4f3af6f4ff47e7aea3d8d01",
- "board_revision": "ac9ad3424ba228f64b8b2236893a46ebb059d02e"
+ "source_revision": "4ad1668c4c72750dfe0be081cec42cc53bcc2ead",
+ "board_revision": "e7c1ab04eabbb76c55d299a4f2be62ba370ccce7"
 }
