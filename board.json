@@ -5717,25 +5717,22 @@
   {
    "n": 1857,
    "name": "Street View and Planet Renderer",
-   "done": "",
+   "done": "2026-11-20T02:55Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T02:47Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T02:55Z",
+     "text": "f318fa7989 on main. The old HeightAboveGround lookup returned null. Both fixtures call the current Ground.HeightAbove owner with a distinct fallback plane and verify measured clearances -0.03 m and +0.02 m without the sample lift. Both geom"
+    }
+   ]
   },
   {
    "n": 1858,
