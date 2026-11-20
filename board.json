@@ -6061,25 +6061,22 @@
   {
    "n": 1945,
    "name": "Telemetry Video Source lists capture sources and automatically recovers direct aircraft video. See Drone Control UI SPEC",
-   "done": "",
+   "done": "2026-11-20T18:31Z",
    "goal": false,
    "under": 364,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_DJI_SOURCE",
-     "since": "2026-11-20T18:26Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_DJI_SOURCE",
+     "at": "2026-11-20T18:31Z",
+     "text": "11545f3ee0 confirmed on main. Single capture list, bounded aircraft acquisition and hold, fallback and automatic reacquisition across local preview and fullscreen. Roslyn no new errors, DJI bridge javac passed, 12 host transitions and 3 cat"
+    }
+   ]
   },
   {
    "n": 1946,
@@ -6703,6 +6700,6 @@
    "since": "2026-11-20T15:52Z"
   }
  ],
- "source_revision": "85feace476a4c6774ecc183ebc179dfbdabf5076",
- "board_revision": "728df24a7a91a5d161db6041f834ae64cb1b394a"
+ "source_revision": "d8416b5d270693c81de815db6ff9f2b04eb9a1fd",
+ "board_revision": "90a823c21f6bbc82d6a66cca7479c952a2ea3992"
 }
