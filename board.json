@@ -4932,16 +4932,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-20T01:26Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 1
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Use retained original-resolution photos and incoming frames to produce live independent pose anchors. Connect the candidate fit and confirmation, then test the Helsinki A-to-B switch and its registere",
@@ -4951,8 +4942,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-20T01:25Z",
-     "text": "2f2dd83604 adds TestRun camera-anchored recovery. Native confirmation holds the proposal fit fixed. Positive and refusal controls agreed. Reduced RGB lost cross-flight coverage. Helsinki live Disks and standalone Disk residency passed. Save"
+     "at": "2026-11-20T01:40Z",
+     "text": "9628d185b4 gives unresolved Synthetic ground placements their own Elevation request. The cold request reached OpenElevation and received 429. A TestRun reply through the ordinary result queue released Save. Saved selection with Layers off a"
     }
    ]
   },
@@ -6208,5 +6199,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "c515015e792232877582194defbb86841019aa8b"
+ "source_revision": "9628d185b457d3887cd1b1abdb223b2c93bc8249"
 }
