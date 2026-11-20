@@ -5617,25 +5617,22 @@
   {
    "n": 1851,
    "name": "Shaders and Situation UI SPECs",
-   "done": "",
+   "done": "2026-11-20T02:25Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T02:16Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T02:25Z",
+     "text": "1dff65ce31 on main. Removed stale references to the unused shader retired in 709bda4eec. All 56 active shaders remain; Metal compiled 92 states and 152 passes with zero errors. Situation Grouped Icons imports. Both focused and All cases pas"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6224,5 +6221,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "df2761b524fc5e802c16cefba93b1047a5c5c4b0"
+ "source_revision": "1dff65ce31e6e381abc84bcc9c3be6a3963320bd"
 }
