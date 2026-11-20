@@ -4580,19 +4580,14 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-20T05:55Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 1
-    }
-   ],
+   "held": [],
    "steps": [
     {
-     "t": "Capture opening descriptors and their accepted camera poses and retain a spread of 12 accepted training photos during ordinary capture. Build the native bank off the frame loop. Run native queries aga",
+     "t": "Connect bounded native queries to exact incoming frame keys and pass the aligned cameras and landmarks through separate proposal and held-out depth confirmation before Fusion and Pano360.",
+     "x": false
+    },
+    {
+     "t": "Qualify an ordinary Helsinki A to B switch and a Zurich refusal without the replay-anchor fixture.",
      "x": false
     }
    ],
@@ -4604,8 +4599,8 @@
     },
     {
      "by": "HEAVY",
-     "at": "2026-11-20T05:54Z",
-     "text": "ca414c964f adds the in-process Windows landmark bank. 6664367803 verifies the DLL through Backdoor and publishes the Helsinki Fusion checks. All held-out native poses passed, Zurich refused, and the live replay gained Disks with exact B87 d"
+     "at": "2026-11-20T06:15Z",
+     "text": "99160a8ea3 builds the optional native bank from accepted live video, using original luminance and opening cameras. Helsinki A built and aligned the bank twice without prepared anchors. Windows Editor import, Roslyn and 31 focused tests pass"
     }
    ]
   },
@@ -6457,5 +6452,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "99160a8ea39e7f3057f4412957a9f9340a33e451"
+ "source_revision": "232c2d07fa204e5645f2f27d793e2efc3b5aedc6"
 }
