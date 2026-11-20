@@ -6038,25 +6038,22 @@
   {
    "n": 1933,
    "name": "Video to RTMPS Link editor offers the video codec and media transport supported by the selected publishing protocol. Video Restreaming SPEC",
-   "done": "",
+   "done": "2026-11-20T15:20Z",
    "goal": false,
    "under": 431,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_RESTREAM_FORMATS",
-     "since": "2026-11-20T15:08Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_RESTREAM_FORMATS",
+     "at": "2026-11-20T15:20Z",
+     "text": "2384f29691 verified on main. Link editor offers RTSP VP8 and TCP/UDP plus VP9 on RTSP and Enhanced RTMP(S) when FFmpeg has it. Unity compile and localization passed. Windows loopback received VP8/RTSP/UDP with stock FFmpeg and VP9/Enhanced "
+    }
+   ]
   },
   {
    "n": 1934,
@@ -6676,6 +6673,6 @@
    "since": "2026-11-20T14:29Z"
   }
  ],
- "source_revision": "2709ee6aaf082a4fa6ab1089cc9f2901c7f98743",
- "board_revision": "f75bd35db984cfc2f752407d5db4f2e2302f870b"
+ "source_revision": "2384f29691fd67ade4f3af6f4ff47e7aea3d8d01",
+ "board_revision": "1900d3309df4bede7f7ad633c4dfcf712f5d34b0"
 }
