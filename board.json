@@ -2956,26 +2956,6 @@
    ]
   },
   {
-   "n": 1797,
-   "name": "Web Mercator SPEC",
-   "done": "2026-11-19T19:48Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-19T19:48Z",
-     "text": "09ac0ccd7a on main. Exact Unity EditMode 291 passed, 0 failed or skipped (FinestTiles 282, MemoryLedger 9), regular station identity restored. Roslyn NEW ERRORS none. 100k valid scope conversions 2.4 MB to zero, first offers on 8192 rows 14"
-    }
-   ]
-  },
-  {
    "n": 1801,
    "name": "Mac Unity test assembly fails to compile after 5aead4bb99 changed SQLite outbound reads to OutboundAsk. Migrate the seven remaining Web Mercator test callers to the new request type and keep every inp",
    "done": "2026-11-19T19:58Z",
@@ -6195,7 +6175,9 @@
    "done": "",
    "goal": false,
    "under": 1693,
-   "ticks": [],
+   "ticks": [
+    "2026-11-20T19:50Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -6204,15 +6186,15 @@
      "who": "CODEX_VIDEO_FRAME_STREET_VIEW",
      "since": "2026-11-20T19:44Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Mark local video captures and file them by MGRS square",
-     "x": false
+     "x": true
     },
     {
      "t": "Replace redundant older frames after the new photo and its available depth are saved",
@@ -6820,6 +6802,6 @@
    "since": "2026-11-20T15:52Z"
   }
  ],
- "source_revision": "b71aa28e10de885f0c77bb5f77db22134891dd5a",
- "board_revision": "537fada620d5f27eb7f8cfd58a2a68fce7bee7f5"
+ "source_revision": "813facc3a21a369491f24d7b7181a2b035a8b09e",
+ "board_revision": "e21cb96496859ada9c8997f4641d4e44e486353c"
 }
