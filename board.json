@@ -29,7 +29,7 @@
     {
      "who": "CLOUD_COMPLEXITY",
      "since": "2026-11-20T00:17Z",
-     "noted": "2026-11-20T01:18Z",
+     "noted": "2026-11-20T01:49Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -52,8 +52,8 @@
    "notes": [
     {
      "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-20T01:18Z",
-     "text": "Read done, nothing pushed yet (place 3, left of the seal): a split payload sealed with session keys must arrive whole within 180 to 300 s of joining the queue; 13 of 15 kinds wait there with no clock (one seat per peer; a send queued for a "
+     "at": "2026-11-20T01:49Z",
+     "text": "Place 3 read pushed (180697154dc): a sealed split payload has 180-300 s to arrive whole, 14 of 16 session-key kinds wait with no clock; personnel tables now count as held on arrival (OnSendEnded), one per peer on its way. Found: photo capti"
     }
    ]
   },
@@ -5489,7 +5489,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLOUD_COMPLEXITY",
+     "since": "2026-11-20T01:50Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 6
+    }
+   ],
    "steps": [
     {
      "t": "Sender: one seal for split payloads in SplitPayloadBase, the key per transfer for a peer at the gate and today's form below it, with the key box sealed anew at each metadata send",
