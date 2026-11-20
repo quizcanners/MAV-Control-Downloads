@@ -5641,35 +5641,28 @@
   {
    "n": 1881,
    "name": "Bootstrap SPEC",
-   "done": "",
+   "done": "2026-11-20T07:39Z",
    "goal": false,
    "under": 363,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T07:25Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T07:39Z",
+     "text": "a061899d58 on main. Res X2 uses one non-hover interaction delay for the map and UI. Mac Play returned to Res X2 one second after UI and map release and retained the five-second idle refresh. All 35 focused Unity tests passed. Roslyn found n"
+    }
+   ]
   }
  ],
  "verify": [
   {
    "screen": "Chat/Messages",
    "since": "2026-11-19T11:01Z"
-  },
-  {
-   "screen": "Servers/Home",
-   "since": "2026-11-13T06:04Z"
   },
   {
    "screen": "Main/Performance",
@@ -6248,5 +6241,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "4c8474c897adcc4719c56bf0f50b6f463f0c27ac"
+ "source_revision": "a061899d5848f5bf936df6f0bfab83db4a35f546"
 }
