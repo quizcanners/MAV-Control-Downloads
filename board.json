@@ -5734,25 +5734,22 @@
   {
    "n": 1877,
    "name": "Video Processing",
-   "done": "",
+   "done": "2026-11-20T06:41Z",
    "goal": false,
    "under": 1815,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T06:24Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T06:41Z",
+     "text": "e06daf8f00 on main. AcceptedDepthClearsForegroundAndPublishesADeletion expected 3 cells and got 4 in iOS 869 All. The fixture bypassed Integrate and omitted its new _ProjectionDepthGain uniform. It now binds neutral gain 1 and preserves eve"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6341,5 +6338,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "4e8dd0c28304fbd014f02b056ef85d8114d20144"
+ "source_revision": "46603fdbfb1492f3cb1522e097ca0aee135925f1"
 }
