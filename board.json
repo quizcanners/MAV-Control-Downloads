@@ -6112,25 +6112,22 @@
   {
    "n": 1939,
    "name": "DJI SPEC",
-   "done": "",
+   "done": "2026-11-20T16:54Z",
    "goal": false,
    "under": 364,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_DJI_PAUSE",
-     "since": "2026-11-20T16:51Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_DJI_PAUSE",
+     "at": "2026-11-20T16:54Z",
+     "text": "244be573b5 and 76ab09c80e on main. SDK states, pause/resume, five-second aircraft recovery and local frame hold implemented. DJI 5.18/Android 36 javac and 10 host cases passed. Unity compiled cleanly. Editor, Android and Windows Roslyn comp"
+    }
+   ]
   },
   {
    "n": 1940,
@@ -6804,5 +6801,5 @@
   }
  ],
  "source_revision": "30503ad4f7b125f72c2e74cc9ac4999d137ad3dc",
- "board_revision": "855bd4e53afc3fc179a168130b6536090e56103c"
+ "board_revision": "e0efe45bd60ba262e299209dbf81250e8b5a73bc"
 }
