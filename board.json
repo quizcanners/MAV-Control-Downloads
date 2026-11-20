@@ -4821,31 +4821,22 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-20T03:16Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 2
-    }
-   ],
+   "held": [],
    "steps": [
     {
-     "t": "Use the verified original-colour anchors and short tracks when testing the running candidate. Align them to the accepted A draft and confirm on the separate replay frames.",
+     "t": "Derive original-colour camera evidence and checked short tracks automatically from accepted photos in ordinary recovery. Keep the proposal and confirmation provenance gates.",
      "x": false
     },
     {
-     "t": "Qualify the running A-to-B switch and registered Pano360.",
+     "t": "Qualify ordinary matching across Helsinki A to B and its registered Pano360.",
      "x": false
     }
    ],
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-20T03:15Z",
-     "text": "3d8bb27741 adds deterministic Helsinki colour playback through Emulated Video. Unity ingested the exact eight B images and IDs 80\u201387. A and its Pano360 views survived refusal. A short raster stopped at the previous frame. Roslyn and Editor "
+     "at": "2026-11-20T03:34Z",
+     "text": "60162a430e verified the running Helsinki replay join with measured camera anchors. Four B frames joined the same draft and Pano360 bound exact B87 depth. Shifted cameras and a wrong colour digest both preserved A. Roslyn and Editor compile "
     }
    ]
   },
@@ -6492,5 +6483,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "6496cc1edd128faf50785e4c7949878184a85ea0"
+ "source_revision": "60162a430ef578593ca9ada96426f4e33447ccf7"
 }
