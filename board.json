@@ -25,16 +25,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_ROW_DIVIDERS",
-     "since": "2026-11-20T23:45Z",
-     "noted": "",
-     "progress": 12,
-     "ticked": 1,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -71,11 +62,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_NOTIFICATION",
-     "at": "2026-11-20T23:15Z",
-     "text": "729aa57a76 on main. Notification cards and position sharing use authored swipe handlers. Empty viewport has no hit Graphic. Mac Unity All passed before and after (8,798 passed, 35 skipped, 0 failures), including all 51 focused notification "
-    },
-    {
      "by": "MAC_BOARD_UPDATE_CHANNEL",
      "at": "2026-11-20T23:26Z",
      "text": "ded620d53f on main. App updates uses its authored Canvas, mask and two Release/Test slots with the shared glass template. Selection and scroll still bind through Settings. Full Mac EditMode 8,799 passed, 35 skipped, zero failures. App Updat"
@@ -84,6 +70,11 @@
      "by": "MAC_BOARD_PILOT_HANDLES",
      "at": "2026-11-20T23:44Z",
      "text": "fc6f978acd on main. Pilot fold handles, artwork and all nine gesture links are authored in the prefab. Full Mac Unity EditMode: 8,799 passed, 35 skipped, zero failures. Roslyn found no new errors. Both imported sprites matched the old alpha"
+    },
+    {
+     "by": "MAC_BOARD_ROW_DIVIDERS",
+     "at": "2026-11-20T23:59Z",
+     "text": "17983739c8 on main. Shared Row Divider authored in 22 prefab assets, 65 bindings. Unity checked 370 resolved standard rows for placement, shader, clipping flag and inactive state. Actual peer-row fixture passed both-edge cull, selection and"
     }
    ]
   },
@@ -3008,66 +2999,6 @@
      "by": "GETAC",
      "at": "2026-11-20T00:28Z",
      "text": "Signed Android Dev 866 855dac1d20 installed in place on Strong and Lenovo. Both rendered the map. Baseline, cold and warm captures retained 223\u2013227 frames each at normal 8 FPS. Lenovo mask root became current between 32.7 and 62.6 s after t"
-    }
-   ]
-  },
-  {
-   "n": 1826,
-   "name": "Video Processing SPEC",
-   "done": "2026-11-19T23:53Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T23:53Z",
-     "text": "b03ad62dbd keeps diagnostic samples in one owned array through the matching GPU outcome. Mac Metal Source Join 21/21, GPU Registration 11/11 and Source Recovery 10/10. All ten previous readback failures passed with existing tolerances. Supe"
-    }
-   ]
-  },
-  {
-   "n": 1827,
-   "name": "Navigator SPEC",
-   "done": "2026-11-19T23:54Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T23:54Z",
-     "text": "91855977cd balances the real EventSystem, raycaster, EnhancedTouch and synthetic input in the fixture. Mac MavChatSheetTests 125/0/0 and ListScrollInteractionTests 46/0/0 in containing All at e927e3b15c before final rebase. The focused run "
-    }
-   ]
-  },
-  {
-   "n": 1828,
-   "name": "Bootstrap SPEC",
-   "done": "2026-11-19T23:54Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T23:54Z",
-     "text": "655dcdd4fb guards two optional Video Processing preflight reads so blocked-camera cleanup still runs. Existing skipped-camera owner/log-sink fault test passed alone and in Mac All at e927e3b15c (8,677/44/30, before final rebase). XML SHA-25"
     }
    ]
   },
@@ -6431,8 +6362,12 @@
   {
    "screen": "Main/Notifications",
    "since": "2026-11-20T23:15Z"
+  },
+  {
+   "screen": "Search",
+   "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "c8ca3cc0c4b815c33e1a1c3fefcb7cd49fe040ad",
- "board_revision": "e7b00ceb361f76d442a300c62532871a38d320e0"
+ "source_revision": "16870c684006366324f8fd7b930e7e7a37f46f94",
+ "board_revision": "1a74a48412c7a24b4bcc2e687da4a2b02cf5e4ca"
 }
