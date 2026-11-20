@@ -5737,25 +5737,22 @@
   {
    "n": 1885,
    "name": "Fix Network nested controller and instance-field name collisions from ecdbaac435",
-   "done": "",
+   "done": "2026-11-20T08:09Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-20T07:53Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-20T08:09Z",
+     "text": "Upstream 181c7c3118 landed the Network type/field collision fix first. Verified on main at 0f0110c595 with Roslyn against 964195cef9: NEW ERRORS none. Kept the upstream fix and released the claim. Web Mercator repair and paired measurements"
+    }
+   ]
   },
   {
    "n": 1886,
