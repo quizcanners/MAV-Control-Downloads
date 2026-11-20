@@ -5600,25 +5600,22 @@
   {
    "n": 1849,
    "name": "Video and Telemetry SPECs",
-   "done": "",
+   "done": "2026-11-20T02:17Z",
    "goal": false,
    "under": 431,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T02:04Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T02:17Z",
+     "text": "0b5d6c7df7 on main. Painting is the first child of Paint/Search, then Select. Both actions and callbacks remain outside the readouts and the Telemetry root defers visibility. Preview fixtures use the current glass and RawImage material owne"
+    }
+   ]
   },
   {
    "n": 1850,
