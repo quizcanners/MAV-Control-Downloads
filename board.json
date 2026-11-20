@@ -6121,25 +6121,22 @@
   {
    "n": 1944,
    "name": "Add a MavTube panel to MavChat (Navigator SPEC",
-   "done": "",
+   "done": "2026-11-20T17:52Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_MAVTUBE",
-     "since": "2026-11-20T17:35Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_MAVTUBE",
+     "at": "2026-11-20T17:52Z",
+     "text": "Published f889953abd. MavTube shows incoming feeds at half and full height, scrolls within the sheet, and follows the selected feed\u2019s matching drone or shared peer GPS when available. Mac EditMode 149 passed, 0 failed, 1 Windows-only skip. "
+    }
+   ]
   }
  ],
  "verify": [
@@ -6740,6 +6737,6 @@
    "since": "2026-11-20T15:52Z"
   }
  ],
- "source_revision": "9c0460d4917b80cf45ac58231d49b3252bde5242",
- "board_revision": "650a0fb3e47bbcdc7256999189bebcbeff01e443"
+ "source_revision": "32c9758d1f0caefdf1cca98d84417395cba371ee",
+ "board_revision": "1ed4ee4e7127e310006c8fc846737b66377c0d8a"
 }
