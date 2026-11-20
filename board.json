@@ -2983,26 +2983,6 @@
    ]
   },
   {
-   "n": 1771,
-   "name": "Video Processing",
-   "done": "2026-11-19T11:53Z",
-   "goal": false,
-   "under": 1704,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-19T11:53Z",
-     "text": "8385b8c121 on main. D3D11 TestRun captured 128 RGB-depth pairs per flight; Unity DA3 accepted 8 and 20 and submitted both drafts. Pose/depth scored by frame key against renderer truth. Roslyn no new errors; 47 focused tests passed. Backdoor"
-    }
-   ]
-  },
-  {
    "n": 1774,
    "name": "Web Mercator SPEC",
    "done": "",
@@ -5697,29 +5677,20 @@
   {
    "n": 1903,
    "name": "Settings / Dev Mode / Network / Network APIs / Weather",
-   "done": "",
+   "done": "2026-11-20T11:56Z",
    "goal": false,
    "under": 409,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T11:49Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-20T11:39Z",
-     "text": "Weather priority moved behind the newly reported Suggestions Video regression. Located the Weather inspector under Dev Mode / Network / Network APIs. The provider controls precede the existing failure and next-download readout. No edits mad"
+     "at": "2026-11-20T11:56Z",
+     "text": "b57fd9d1f4 on main. Mac Play: schedule, fallback, both providers failing and cache-write issue appear before controls. Config and Persistent each start on their own content. WeatherProviderTests 34/0/0, Roslyn clean. Evidence: MavControlEvi"
     }
    ]
   },
@@ -6346,5 +6317,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "72c7bfa15e39b82acf9ba7aa7775d571a9906981"
+ "source_revision": "b57fd9d1f4ac57829c8b5335a7703d33ac061f44"
 }
