@@ -6115,25 +6115,22 @@
   {
    "n": 1950,
    "name": "Suppress pointed highlights during scroll selection using one Bootstrap interaction enum for Menu",
-   "done": "",
+   "done": "2026-11-20T19:18Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_SCROLL_POINTING",
-     "since": "2026-11-20T19:07Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_SCROLL_POINTING",
+     "at": "2026-11-20T19:18Z",
+     "text": "Published 8bcf865e3f. Shared Bootstrap scroll selection suppresses UI and map pointing during Menu, MavChat capsule and shared selector drags. Unity compile and 230 focused EditMode tests passed. Roslyn found no new errors. MavChat and Menu"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6730,6 +6727,6 @@
    "since": "2026-11-20T15:52Z"
   }
  ],
- "source_revision": "130e557794b131a2d530d51c63972358131d3f46",
- "board_revision": "737990d95568172449dae781a16499f63c5c7e36"
+ "source_revision": "91e2a8756e676ff4521e4c23b651ff079cdad0a6",
+ "board_revision": "b2adf4ed6f7b073def8b59084ffe9d6bb29ee0d1"
 }
