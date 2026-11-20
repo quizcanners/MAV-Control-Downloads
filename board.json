@@ -5620,25 +5620,22 @@
   {
    "n": 1850,
    "name": "Main View SPEC",
-   "done": "",
+   "done": "2026-11-20T02:18Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T02:06Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T02:18Z",
+     "text": "2b91f3a547 on main. By-name Unity lookup returned null for the selection Button that the prefab actually binds. Typed lookup verifies the exact Button and its capsule overlay, preserving one click, icon, peer-name and quiet state assertions"
+    }
+   ]
   },
   {
    "n": 1851,
@@ -6250,5 +6247,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "0b5d6c7df7058ed50985ee7118cffdb771483950"
+ "source_revision": "df2761b524fc5e802c16cefba93b1047a5c5c4b0"
 }
