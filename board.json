@@ -2882,26 +2882,6 @@
    ]
   },
   {
-   "n": 1732,
-   "name": "Main View SPEC",
-   "done": "2026-11-19T05:21Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T05:21Z",
-     "text": "d1abdbc2fe on main. Mac baseline failed all 4 cases: Lock Point bottom -855.23 vs minimum -540.02."
-    }
-   ]
-  },
-  {
    "n": 1734,
    "name": "Chat SPEC",
    "done": "",
@@ -5821,25 +5801,22 @@
   {
    "n": 1872,
    "name": "Chat SPEC",
-   "done": "",
+   "done": "2026-11-20T05:21Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T05:15Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T05:21Z",
+     "text": "089820c89f on main. Before the fix, exiting Mac Play with Chat Alerts open threw NullReferenceException in UI_ChatWindow.OnDisable after the Station singleton was gone. Window and painter now look up a live owner before notifying it; normal"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6428,5 +6405,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "e59dc5f8a6e608ca460b3a506c5e77e29709e087"
+ "source_revision": "dcbcb6ab04985472590907336f0d00e5c3b03fd1"
 }
