@@ -2873,26 +2873,6 @@
    ]
   },
   {
-   "n": 1725,
-   "name": "Restore Windows argument quoting used by the Background Chat sidecar and its tests. Keep it with the sidecar owner so Unity cleanup does not remove it again.",
-   "done": "2026-11-19T04:22Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-19T04:22Z",
-     "text": "64549c8177 restores the exact Windows argument quoting code under its only owner, Background Chat. Self-contained win-x64 suite passed Desktop Links, inbox durability/recovery, agent mailbox and UDP. Trimmed self-contained sidecar published"
-    }
-   ]
-  },
-  {
    "n": 1726,
    "name": "Fix the Windows Web Mercator write gate reporting UnknownVolume. On actual Windows Dev 862 GetDiskFreeSpaceExW measured 27",
    "done": "2026-11-19T05:16Z",
@@ -5891,25 +5871,22 @@
   {
    "n": 1868,
    "name": "Tools/Nightly",
-   "done": "",
+   "done": "2026-11-20T04:22Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T04:04Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T04:22Z",
+     "text": "af6ce29cfa on main. iOS 868 All was held by interrupted Mac 867 owner 9d9d8e2d. Reconciled its exact Unity child from the sealed live start and macOS launchd exit, preserving the original terminal hash and leaving no test qualification. No "
+    }
+   ]
   }
  ],
  "verify": [
@@ -6494,5 +6471,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "99ade4550cd434b79f5336d828198ba65da8f28c"
+ "source_revision": "2285f3d048845674b1edbb766bf7ff26afd6f34c"
 }
