@@ -5677,25 +5677,22 @@
   {
    "n": 1854,
    "name": "Main camera diagnostics",
-   "done": "",
+   "done": "2026-11-20T02:43Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T02:29Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T02:43Z",
+     "text": "436af61a8e on main. Expected usage ending status, actual status|stop since 2c8fc82160. All 13 malformed inputs keep the exact diagnostic and null-camera call. Mac MainCameraGoto 3/0/0. Containing All 59452f7d16 before final rebase and task "
+    }
+   ]
   },
   {
    "n": 1855,
@@ -6307,5 +6304,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "fd4577016ddea426d842206b8908e6d638d97bbf"
+ "source_revision": "29f3f0a1b954a727ee698910f36727be1ed8ee14"
 }
