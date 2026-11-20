@@ -5379,7 +5379,9 @@
    "done": "",
    "goal": false,
    "under": 371,
-   "ticks": [],
+   "ticks": [
+    "2026-11-20T04:10Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -5388,15 +5390,15 @@
      "who": "CLOUD_COMPLEXITY",
      "since": "2026-11-20T01:50Z",
      "noted": "2026-11-20T03:22Z",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 17,
+     "ticked": 1,
      "total": 6
     }
    ],
    "steps": [
     {
      "t": "Sender: one seal for split payloads in SplitPayloadBase, the key per transfer for a peer at the gate and today's form below it, with the key box sealed anew at each metadata send",
-     "x": false
+     "x": true
     },
     {
      "t": "Receiver: open the key when the metadata is admitted, keep it in that receive's RAM, open the payload with it, refuse metadata whose key does not open",
@@ -6513,5 +6515,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "2809a2e025f48b73cbce3d338ceb51809923bbb8"
+ "source_revision": "ba4385290895e717f01697312ce2665e287fce86"
 }
