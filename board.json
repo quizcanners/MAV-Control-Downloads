@@ -1724,16 +1724,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_INPUT",
-     "since": "2026-11-20T22:32Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Dispatcher commands still in AI_Sandbox_DeviceDebugCommands*.cs: the remaining vpn.*, training and remote-sensor editors, performance.wires, cfg/system.set and the other cfg cases in DebugControl; the",
@@ -1757,6 +1748,11 @@
      "by": "MAC_BOARD",
      "at": "2026-11-20T14:20Z",
      "text": "9b8f0d66ef on main. Settings owns diagnostic Open/Close. Mac Play confirmed open, repeat, Map row press, close, usage error and blocks over Search and Workflow Selector. Three EditMode passes and zero Play console errors. Settings route and"
+    },
+    {
+     "by": "MAC_BOARD_INPUT",
+     "at": "2026-11-20T22:41Z",
+     "text": "bf2f450be9 on main. Station Input owns scripted mouse move and drag parsing and command metadata. Unity refresh and Roslyn passed on the published source. 16 focused EditMode checks and 7 dispatcher argument/readiness cases passed. Other co"
     }
    ]
   },
@@ -6614,6 +6610,6 @@
    "since": "2026-11-20T21:14Z"
   }
  ],
- "source_revision": "434fb6b89cc427ddd53658ab52151ca43dc7ddb6",
- "board_revision": "14bb3346a12abe405c3c7c99e00bd642d006916c"
+ "source_revision": "bf2f450be95598fd5b0b4a692dd05efa34cceec2",
+ "board_revision": "2a19f5fa627867a58ea9be83398d5b39019ffc26"
 }
