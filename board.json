@@ -2983,26 +2983,6 @@
    ]
   },
   {
-   "n": 1788,
-   "name": "Chat first open and deferred prewarm (UI SPEC",
-   "done": "2026-11-19T16:57Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T16:57Z",
-     "text": "0e103c46c5 uses the existing hidden clone at the Mac Editor idle gate. Three saved quit crashes hit the async clone finalizer. The unchanged baseline created an async operation and quit cleanly. The candidate created no async operation, reu"
-    }
-   ]
-  },
-  {
    "n": 1789,
    "name": "SDC Ping SPEC",
    "done": "2026-11-19T17:07Z",
@@ -6141,29 +6121,20 @@
   {
    "n": 1940,
    "name": "Chat EditMode fixture for task 1938",
-   "done": "",
+   "done": "2026-11-20T16:58Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_CHAT_SEND",
-     "since": "2026-11-20T16:33Z",
-     "noted": "2026-11-20T16:39Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "MAC_CHAT_SEND",
-     "at": "2026-11-20T16:39Z",
-     "text": "7839d695cc wires the Restream links button in the composed MavChat test and separates a locked-coordinate hit from an ordinary coordinate hit in Suggestions. Roslyn found no new errors. macOS 870 EditMode All will check both against current"
+     "at": "2026-11-20T16:58Z",
+     "text": "7839d695cc updates only the Chat and Suggestions EditMode fixtures. Both named cases passed in the Mac Editor All at exact macOS 870 source 82834ff38 (8,785 passed, 0 failed, 35 skipped). Roslyn reported no new errors. XML under Builds/logs"
     }
    ]
   },
@@ -6809,6 +6780,6 @@
    "since": "2026-11-20T15:52Z"
   }
  ],
- "source_revision": "30503ad4f7b125f72c2e74cc9ac4999d137ad3dc",
- "board_revision": "2e2ce2c757578d9d4ecb01df3b99b3f31b9a62c2"
+ "source_revision": "7f19d80ebd55061a95eb7b52f6ba632458ef413d",
+ "board_revision": "b28c14cb7d65daf92432c10fea2bc2f6f2abf7ea"
 }
