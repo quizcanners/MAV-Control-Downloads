@@ -6087,25 +6087,22 @@
   {
    "n": 1935,
    "name": "Restream link editor list shows the saved name",
-   "done": "",
+   "done": "2026-11-20T15:42Z",
    "goal": false,
    "under": 431,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_RESTREAM_LIST",
-     "since": "2026-11-20T15:32Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_RESTREAM_LIST",
+     "at": "2026-11-20T15:42Z",
+     "text": "d363e53422 on main. Link editor rows show the saved name with codec and protocol/media transport, including VP8/VP9, RTSP TCP/UDP and WHIP. Mac EditMode 80 passed, 0 failed, 0 skipped. Compile comparison found no new errors. Live layout che"
+    }
+   ]
   },
   {
    "n": 1936,
@@ -6726,5 +6723,5 @@
   }
  ],
  "source_revision": "f245ad16f5a5483dbd6485529fa27cab2ee920e4",
- "board_revision": "fbe3ddf05653449eab811097adfea890f5779a82"
+ "board_revision": "a7baa54e4ab0aa0dea78206528ea51ba23212982"
 }
