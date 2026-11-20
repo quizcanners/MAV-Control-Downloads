@@ -4972,27 +4972,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-20T00:39Z",
-     "noted": "2026-11-20T00:39Z",
-     "progress": 0,
-     "ticked": 0,
-     "total": 1
-    }
-   ],
+   "held": [],
    "steps": [
     {
-     "t": "Find cross-view placement supported by independent real cameras, then qualify the live all-real Helsinki A-to-B join and check registered Pano360 across it.",
+     "t": "Constrain the native recovery window to independently measured camera anchors, then qualify live all-real Helsinki A-to-B admission and registered Pano360 across the switch.",
      "x": false
     }
    ],
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-20T00:39Z",
-     "text": "83b0892b73 published. Independent Helsinki B built Disks and registered Pano360. Two B-only Recovery Bank windows confirmed distinct real frames with inferred depth. Duplicate and mixed-real inputs refused. Fresh cross-view placement agains"
+     "at": "2026-11-20T01:08Z",
+     "text": "0721e0bda0 publishes the RGB-only replay, SPEC/history and baseline. Frozen A localized held-out B photos and rejected Zurich. Sparse-seeded native confirmation passed its relative check while missing metric placement. A correction fitted o"
     }
    ]
   },
@@ -6060,5 +6051,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "d2429dec270f7868a550126221e52815342eea60"
+ "source_revision": "0721e0bda027eccfbeffa1bd706667454b7a542b"
 }
