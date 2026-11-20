@@ -5717,25 +5717,22 @@
   {
    "n": 1904,
    "name": "Main View SPEC",
-   "done": "",
+   "done": "2026-11-20T11:48Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T11:37Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T11:48Z",
+     "text": "72c7bfa15e pushed to main. Mac Play reproduced the floating offline-peer card, then showed NO_VIDEO in Suggestions and opened the inline preview by clicking its tab. Feed changes keep the selected peer eligible. Local and remote drone tests"
+    }
+   ]
   },
   {
    "n": 1905,
@@ -6340,5 +6337,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "536cd60b5e43b8637501336350d257b0199dbfb9"
+ "source_revision": "72c7bfa15e39b82acf9ba7aa7775d571a9906981"
 }
