@@ -2983,46 +2983,6 @@
    ]
   },
   {
-   "n": 1792,
-   "name": "Fullscreen Video and Video Processing SPEC",
-   "done": "2026-11-19T17:53Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T17:53Z",
-     "text": "3c82fc9e19. Mac Play: My Video with the Synthetic drone switched Pilot \u2192 Processing \u2192 Pilot with the same drone. Paint and Area are separate; Area travels with admitted video frames into Orthophoto and Unity 3D. 118 focused EditMode checks "
-    }
-   ]
-  },
-  {
-   "n": 1794,
-   "name": "MavChat Tools has one-tap Flashlight (on supported phones) and QR Scanner. Navigator SPEC",
-   "done": "2026-11-19T17:53Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T17:53Z",
-     "text": "b5a04dc473. Mac portrait Play verified Scan QR opens from Tools and returns to Tools on close. Menu and layout tests 18/0/0. The flashlight is hidden on the Mac and uses the native rear LED on supported iOS/Android devices; iOS arm64 native"
-    }
-   ]
-  },
-  {
    "n": 1795,
    "name": "Low memory must stop active memory-heavy generation and show a notification only for blocked work. Video Processing and Orthophoto SPEC. Quiz",
    "done": "2026-11-19T18:24Z",
@@ -6137,6 +6097,29 @@
      "text": "Published f889953abd. MavTube shows incoming feeds at half and full height, scrolls within the sheet, and follows the selected feed\u2019s matching drone or shared peer GPS when available. Mac EditMode 149 passed, 0 failed, 1 Windows-only skip. "
     }
    ]
+  },
+  {
+   "n": 1945,
+   "name": "Telemetry Video Source lists capture sources without pages and restores direct aircraft video automatically. Drone UI SPEC",
+   "done": "",
+   "goal": false,
+   "under": 364,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_DJI_SOURCE",
+     "since": "2026-11-20T18:08Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -6737,6 +6720,6 @@
    "since": "2026-11-20T15:52Z"
   }
  ],
- "source_revision": "32c9758d1f0caefdf1cca98d84417395cba371ee",
- "board_revision": "1ed4ee4e7127e310006c8fc846737b66377c0d8a"
+ "source_revision": "448f4fd3a0c8bfef4ad25bc589a65d9fb3a5e164",
+ "board_revision": "c037e3384b301957bacc68d97544e56043ff2279"
 }
