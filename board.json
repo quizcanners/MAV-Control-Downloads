@@ -2558,31 +2558,6 @@
    "notes": []
   },
   {
-   "n": 1620,
-   "name": "Android release preparation",
-   "done": "2026-11-19T21:31Z",
-   "goal": false,
-   "under": 375,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-18T14:03Z",
-     "text": "Additional native6000.6.8f1 import on7912+0eac appended both SENTIS_ANALYTICS_ENABLED and APP_UI_EDITOR_ONLY to Android, causing repeated define reloads. Tundra rounds37.75s/147.64s succeeded; subsequent rebuild consumed Getac RAM, five foc"
-    },
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T21:31Z",
-     "text": "Published f8321b9e3c. Exact Unity success and both raw archives are journaled. Interrupted normalization resumes the same version; only the reviewed BuildProfile, LF/CRLF and Android define rewrites are restored. Other edits are preserved a"
-    }
-   ]
-  },
-  {
    "n": 1629,
    "name": "Remove periodic Unity Editor stalls during live 3D generation. Attribute the native frame spikes",
    "done": "",
@@ -5986,7 +5961,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLOUD_THREAD",
+     "since": "2026-11-20T21:43Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 1
+    }
+   ],
    "steps": [
     {
      "t": "quiz decides: move the 56 files anyway (cost: scattering them into a Core folder, gain 0.5%), or leave Prublyda whole and take goal 1951's other steps (1954 tests off the edit path, 1955 reload script",
@@ -6738,6 +6722,6 @@
    "since": "2026-11-20T21:14Z"
   }
  ],
- "source_revision": "016d2df4ee5f2233ddbd88505e772c2c84a6878a",
- "board_revision": "d11642307dcf80307cb1eee1b0f5980b358c0299"
+ "source_revision": "74879d168310095c84fd923bb44cd238f2ac5363",
+ "board_revision": "d2d0ae055767eb4c8e5c8def69efd3841f8cb7f5"
 }
