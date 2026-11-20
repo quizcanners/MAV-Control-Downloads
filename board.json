@@ -5856,22 +5856,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-20T14:13Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-20T13:41Z",
-     "text": "d7970b03ee on main. Staged calibrated LAS plus rectified RGB and rebuilt metric Disks in Unity TestRun with zero inference. Both replays produced the same cell hash. Synthetic checks and measured times are in GPU.md. Live work needs a compa"
+     "at": "2026-11-20T14:18Z",
+     "text": "846d054c78 on main gives confirmed sharper photos a bounded retention preference. UnityKeyframeProvenanceTests passed 18/18. Get photo still takes the native DJI still and keeps its video fallback. Next wire exact measured pairs into ordina"
     }
    ]
   },
@@ -6649,6 +6640,6 @@
    "since": "2026-11-20T13:35Z"
   }
  ],
- "source_revision": "28e7818a819b22a57658a29fba578618161738c4",
- "board_revision": "b32bb1c346f78a046a7cfd71e82d2cfd26c905d9"
+ "source_revision": "846d054c783b5639ec381f4539048852199cef07",
+ "board_revision": "3dd1128eeaf625b73bc3d5ef285f21f3e8f18388"
 }
