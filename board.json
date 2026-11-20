@@ -2983,26 +2983,6 @@
    ]
   },
   {
-   "n": 1787,
-   "name": "Web Mercator SPEC",
-   "done": "2026-11-19T16:27Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-19T16:27Z",
-     "text": "5dbf033656 on main. The drill reuses outgoing hash slots, and the hash envelopes avoid generic construction and temporary formatting strings. Host proof: 840 exact wire outputs, 100k batch checks 13.6 MB to 0, 100k ordinary envelopes 76.8 M"
-    }
-   ]
-  },
-  {
    "n": 1788,
    "name": "Chat first open and deferred prewarm (UI SPEC",
    "done": "2026-11-19T16:57Z",
@@ -6137,6 +6117,29 @@
      "text": "c522106c26 on main. Send lists saved Restream links by name in Chat and MavChat. Sends one link through the existing authenticated peer path. Checked both Chat prefab callbacks in Unity. EditMode passed 244 (Localization 26, MavChat 138, Re"
     }
    ]
+  },
+  {
+   "n": 1939,
+   "name": "DJI Android pause and resume and SDK state",
+   "done": "",
+   "goal": false,
+   "under": 364,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_DJI_PAUSE",
+     "since": "2026-11-20T16:28Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -6737,6 +6740,6 @@
    "since": "2026-11-20T15:52Z"
   }
  ],
- "source_revision": "fe34659afb5231acb27ee76d654d3350199907d5",
- "board_revision": "03451cc302d05031ec29761a175ff514461923a8"
+ "source_revision": "d35133e511cb49362f36996c124a1be093ee0b72",
+ "board_revision": "28e0767ea19a3c7ac0a72e3122cc47dc2d05f05e"
 }
