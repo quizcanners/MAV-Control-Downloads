@@ -5777,25 +5777,22 @@
   {
    "n": 1860,
    "name": "Coding Scene SPEC",
-   "done": "",
+   "done": "2026-11-20T03:13Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T03:01Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T03:13Z",
+     "text": "ebe63927c9 on main. Expected Back plus two rows, actual two entity rows because Back now has its own authored control. The fixture checks the real header/button, exact latest-change ordering against opposite observation dates, scope and Bac"
+    }
+   ]
   },
   {
    "n": 1861,
