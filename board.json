@@ -4852,19 +4852,10 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-20T02:29Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 2
-    }
-   ],
+   "held": [],
    "steps": [
     {
-     "t": "Trace the shared confirmation offset using repeated proposal views. Connect a bounded landmark bank from accepted original photos to candidate placement and keep confirmation anchors held out.",
+     "t": "Connect a bounded landmark bank from accepted original photos to the Helsinki candidate. Apply the verified translation from repeated cameras before the separate held-out confirmation.",
      "x": false
     },
     {
@@ -4875,8 +4866,8 @@
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-20T02:28Z",
-     "text": "f651caca66. Helsinki TestRun reused three consecutive B windows and preserved A. Offline camera anchors covered two proposal/confirmation pairs. The fixed-input relative check passed; the shared position offset refused the anchored check. T"
+     "at": "2026-11-20T02:33Z",
+     "text": "324cffbed7 verified the shared offset in the repeated proposal cameras. A translation fitted from those cameras let the separate Helsinki confirmation pass at the same limits. The earlier pass stayed green and a shifted held-out control ref"
     }
    ]
   },
@@ -6290,5 +6281,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "f651caca66b5765407446a1ed56d945d53a0113f"
+ "source_revision": "324cffbed7e06fae15139ae2a0a94b7fe95a528b"
 }
