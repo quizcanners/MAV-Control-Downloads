@@ -6121,25 +6121,22 @@
   {
    "n": 1937,
    "name": "Touch drift starts the UI drag before taps can release on Suggestion tabs and Chat. Follow UI SPEC",
-   "done": "",
+   "done": "2026-11-20T16:10Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_TOUCH_UI",
-     "since": "2026-11-20T15:53Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_TOUCH_UI",
+     "at": "2026-11-20T16:10Z",
+     "text": "7cc537062f. Device-scaled drag threshold in the shared UI input module. Mac Play confirmed Bootstrap binding. Simulated native and custom buttons click once with small drift and yield to drag past the threshold. Pointer 63/0/0, MavChat 138/"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6740,6 +6737,6 @@
    "since": "2026-11-20T15:52Z"
   }
  ],
- "source_revision": "c7967d9da96a93c7c5b6d173ce0a28322de051d2",
- "board_revision": "56dae7a124e17434f20a53caa1b9185258479419"
+ "source_revision": "a9447f76c1c671d8f2da832bee21a674d45dd997",
+ "board_revision": "6c4f0fcc070aed4f5a08632edac90229206b6afb"
 }
