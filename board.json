@@ -2956,26 +2956,6 @@
    ]
   },
   {
-   "n": 1805,
-   "name": "Using Strong and Lenovo for the signed Dev 866 Web Mercator frame and peer progress comparison",
-   "done": "2026-11-19T21:03Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-19T21:03Z",
-     "text": "bbeeb1b763 on main. Exact Dev866 installed in place and rendered map on both. Paired roots differ; Lenovo migration short 552 MiB, no paired confirmations in 85 s. Strong separate active peer confirmed 472 sends in 92 s. Exact index/GC and "
-    }
-   ]
-  },
-  {
    "n": 1806,
    "name": "Web Mercator SPEC",
    "done": "2026-11-19T21:18Z",
@@ -6031,7 +6011,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLOUD_THREAD",
+     "since": "2026-11-20T21:07Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -6739,5 +6728,5 @@
   }
  ],
  "source_revision": "3913caee8c2563930e3dd760c437bec2a7473472",
- "board_revision": "bae586b06b7fe6b131fae2dd872cd17d37779279"
+ "board_revision": "fef2f59a878d97afe3b210611b8b4ee49b2190c2"
 }
