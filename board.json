@@ -6137,23 +6137,14 @@
   {
    "n": 1959,
    "name": "Rename Situation \"battle line\" to Flight zones (red off-limits and regular permitted ground) in code",
-   "done": "",
+   "done": "2026-11-20T21:15Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "cloud-flightzones",
-     "since": "2026-11-20T21:14Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Persistent.BattleLine -> FlightZones; Singleton_ControlZonePainter -> Singleton_FlightZonePainter; folder, shaders, material, scene object, UpdateStage and diagnostics names follow",
@@ -6168,7 +6159,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "cloud-flightzones",
+     "at": "2026-11-20T21:15Z",
+     "text": "Renamed on main 18a48c4f3e; uncompiled; saved BattleLine key resets once"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6763,8 +6760,12 @@
   {
    "screen": "Video Source",
    "since": "2026-11-20T15:52Z"
+  },
+  {
+   "screen": "Situation",
+   "since": "2026-11-20T21:14Z"
   }
  ],
- "source_revision": "b34be1b3abda170f6b80dc104691d82cd8654b98",
- "board_revision": "78d8f0b023a0278ee9f6741de060f6de9c7b475c"
+ "source_revision": "18a48c4f3eae9bcce27fda20c01b584f9008cc3d",
+ "board_revision": "dde7c9ddc4d58e5d0765b01839df882bd8454768"
 }
