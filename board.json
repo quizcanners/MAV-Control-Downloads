@@ -2612,7 +2612,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_3D_MAP_SPEC",
+     "since": "2026-11-20T18:51Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "PASIKA: split VideoProcessing_RtxContinuous.cs (1048 lines, 38 methods) by responsibility (capture, window hand-off, publish, Save); files it may touch: RtxContinuous.cs, RtxContinuousGeometry.cs, Rtx",
@@ -6753,5 +6762,5 @@
   }
  ],
  "source_revision": "7ecf2d3797ae6e337d5a604f1ff76724bdc4e4b4",
- "board_revision": "62bce9f29456eefba1b4d2ae448f5ca4e76428e0"
+ "board_revision": "3120ecb074856c892219dfe583d59380d5275d35"
 }
