@@ -5345,16 +5345,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLOUD_COMPLEXITY",
-     "since": "2026-11-20T01:50Z",
-     "noted": "2026-11-20T04:11Z",
-     "progress": 83,
-     "ticked": 5,
-     "total": 6
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Sender: one seal class for split payloads (EncryptedSplitPayload): a key per transfer for a build from 869 and today's form below it; each metadata send is one box of the fields and the key, sealed an",
@@ -5384,8 +5375,8 @@
    "notes": [
     {
      "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-20T04:11Z",
-     "text": "On main ba438529089: a sealed split payload has a key of its own for a build from 869 (868 was reserved meanwhile). Its metadata is one box of the fields and the key, sealed anew per send, opened where it is read (InnerHeader.Admit, shared)"
+     "at": "2026-11-20T04:25Z",
+     "text": "Done on main: ba438529089 (a key per transfer, one box for the metadata, builds from 869) and 9230b9a0ec2 (a voice message sealed once for all its peers). cmp.sh NEW ERRORS none; tests written, not run: VpnTransferKeyTests (15), EncryptionB"
     }
    ]
   },
@@ -6470,7 +6461,11 @@
   {
    "screen": "Menu/Layers",
    "since": "2026-11-19T22:57Z"
+  },
+  {
+   "screen": "Chat/Attachments",
+   "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "9230b9a0ec21073028662c750281691695e5bbe4"
+ "source_revision": "75a3834f53402a3553391171ddb5a330ee0c5422"
 }
