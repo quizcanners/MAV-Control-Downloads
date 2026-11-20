@@ -4952,7 +4952,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-20T01:26Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 1
+    }
+   ],
    "steps": [
     {
      "t": "Use retained original-resolution photos and incoming frames to produce live independent pose anchors. Connect the candidate fit and confirmation, then test the Helsinki A-to-B switch and its registere",
@@ -6097,5 +6106,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "2f2dd8360437034163de55cdcda27eb67f21f3e0"
+ "source_revision": "2694549e61d321d9b9b92b57382abcfc24fc09ad"
 }
