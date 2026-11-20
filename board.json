@@ -1724,7 +1724,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD_INPUT",
+     "since": "2026-11-20T22:32Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Dispatcher commands still in AI_Sandbox_DeviceDebugCommands*.cs: the remaining vpn.*, training and remote-sensor editors, performance.wires, cfg/system.set and the other cfg cases in DebugControl; the",
@@ -6606,5 +6615,5 @@
   }
  ],
  "source_revision": "434fb6b89cc427ddd53658ab52151ca43dc7ddb6",
- "board_revision": "c4520fbd9bb545482f0098035372d1dd7c37497e"
+ "board_revision": "14bb3346a12abe405c3c7c99e00bd642d006916c"
 }
