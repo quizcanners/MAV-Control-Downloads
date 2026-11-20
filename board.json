@@ -6110,35 +6110,28 @@
   {
    "n": 1949,
    "name": "Join Paste to the right of the input in MavChat portrait Search at every supported width (Search SPEC",
-   "done": "",
+   "done": "2026-11-20T19:04Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_SEARCH_PASTE",
-     "since": "2026-11-20T18:56Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_SEARCH_PASTE",
+     "at": "2026-11-20T19:04Z",
+     "text": "Published 8425dc589c. Paste joins the input on the first row. Clear and Copy wrap below when needed. Mac EditMode 156 passed, 0 failed, 0 skipped, including joined edges and the actual shared X touch area at the narrow width. Roslyn reporte"
+    }
+   ]
   }
  ],
  "verify": [
   {
    "screen": "Chat/Messages",
    "since": "2026-11-19T11:01Z"
-  },
-  {
-   "screen": "Main/Performance",
-   "since": "2026-11-13T18:58Z"
   },
   {
    "screen": "Waypoints",
@@ -6729,6 +6722,6 @@
    "since": "2026-11-20T15:52Z"
   }
  ],
- "source_revision": "9fd21ab397968c614766ff0d376fa8bea8330a6c",
- "board_revision": "99bb1d2e2906468ba91cebe9d81e4f04dd9b80e7"
+ "source_revision": "34ea916c2d697c26fc0ba3b63b361be38b4ed8fa",
+ "board_revision": "33cbd001ac41b16eb6f0e939e1f7f4450e7ac306"
 }
