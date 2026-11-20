@@ -2956,48 +2956,6 @@
    ]
   },
   {
-   "n": 1804,
-   "name": "Mac",
-   "done": "2026-11-19T20:58Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [
-    "2026-11-19T20:55Z",
-    "2026-11-19T20:55Z",
-    "2026-11-19T20:55Z",
-    "2026-11-19T20:56Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Play a Kenilworth clip in Video Source, start 3D generation (Backdoor `video.odometry rtx da3 live`, poll `video.odometry rtx da3 status` until ready) and record whether it runs on Metal or where it s",
-     "x": true
-    },
-    {
-     "t": "Record ms per window (warm, over at least 8 windows), first-window cold time, and GPU memory the model holds on the Mac (compare with the 4 GiB the RTX holds)",
-     "x": true
-    },
-    {
-     "t": "Record every Metal limit hit (compute shader, buffer size, texture format, Inference Engine layer that falls back or fails), with the log line",
-     "x": true
-    },
-    {
-     "t": "Write the numbers and limits into a new section of Performance Baseline/GPU.md, next to the Windows rows, then `--release 1804` with the commit hash",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T20:56Z",
-     "text": "cd99a2ce12. M6 Metal: first live DA3 2.51 s, nine warm immediate 1.529\u20131.549 s, steady driver delta 3.96 GiB (RTX 300\u2013345 ms, 4.01 GiB). Nine sliced windows and all 36 tensor checks passed. Normal Continuous is Windows-only. Disposable back"
-    }
-   ]
-  },
-  {
    "n": 1805,
    "name": "Using Strong and Lenovo for the signed Dev 866 Web Mercator frame and peer progress comparison",
    "done": "2026-11-19T21:03Z",
@@ -6145,25 +6103,22 @@
   {
    "n": 1957,
    "name": "Main View SPEC",
-   "done": "",
+   "done": "2026-11-20T20:58Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_TELEMETRY_JOIN",
-     "since": "2026-11-20T20:54Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_TELEMETRY_JOIN",
+     "at": "2026-11-20T20:58Z",
+     "text": "Published 8f54f94dd6. Preview and grid share a gapless seam, Select fits within video width, and Pilot collapses the unused Goal row and divider. Prefab bindings and geometry checked, Roslyn found no new errors. Unity EditMode and device ch"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6760,6 +6715,6 @@
    "since": "2026-11-20T15:52Z"
   }
  ],
- "source_revision": "4265cba2334ef56b15adaff98a826456651f46b4",
- "board_revision": "f4d8af7b79912c4a98743ca1b89f134d8ce7f1ec"
+ "source_revision": "3913caee8c2563930e3dd760c437bec2a7473472",
+ "board_revision": "ce93463ed16f05341745e36da59faa66a7c156ac"
 }
