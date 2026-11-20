@@ -6087,18 +6087,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_VIDEO_STARTUP",
-     "since": "2026-11-20T14:59Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_VIDEO_STARTUP",
+     "at": "2026-11-20T15:00Z",
+     "text": "b109f94ecc on main. First open commits the peer surface and source together; matching JPEG bridges to live and the receiver reports this frame's wait. Mac 142 pass, 0 fail, 1 skip. Play with a stand-in desktop peer: NoSecureLink on the vide"
+    }
+   ]
   },
   {
    "n": 1930,
@@ -6718,6 +6715,6 @@
    "since": "2026-11-20T14:29Z"
   }
  ],
- "source_revision": "53279846afdd12af42af5314963d0df4f7678214",
- "board_revision": "50d73edba4c924824d6ac21514dd75d109b67135"
+ "source_revision": "b109f94ecc61b928178ec8bba65da41938f77770",
+ "board_revision": "609811d08c871e3dd514ac3cab55388a19c22c1a"
 }
