@@ -5493,25 +5493,22 @@
   {
    "n": 1842,
    "name": "Remote Sensors UI SPEC",
-   "done": "",
+   "done": "2026-11-20T01:35Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T01:26Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T01:35Z",
+     "text": "c515015e79 checks the authored half-bright PIN plaque and the shared Suggestions Sensor body. The old BG/Command Box were missing, the plaque uses neutral Blur Display at 0.5, and the retired overlay path was null. Mac RemoteSensorPanelLook"
+    }
+   ]
   },
   {
    "n": 1843,
