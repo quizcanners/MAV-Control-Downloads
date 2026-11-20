@@ -5737,25 +5737,22 @@
   {
    "n": 1858,
    "name": "Web Mercator offline coarse tiles",
-   "done": "",
+   "done": "2026-11-20T02:55Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T02:47Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T02:55Z",
+     "text": "6dff7cf078 on main. Fixture scheduled empty Window turns when no evidence was requested. It now checks the same demand gate, committed sequence and actual block count. Padded import counts, tile bytes and all absence spans retained. Mac Web"
+    }
+   ]
   },
   {
    "n": 1859,
