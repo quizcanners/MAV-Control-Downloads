@@ -5910,25 +5910,22 @@
   {
    "n": 1867,
    "name": "Mac EditMode All",
-   "done": "",
+   "done": "2026-11-20T03:59Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T03:54Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T03:59Z",
+     "text": "63614c619f on main. QuickMessage_IsFourBytesAndAddressedWrapsOnlyChat expected TryCreateSharedGps true while preparing its well-formed rejection input; actual false. The fixture reused a previous station's cached decision within the same ed"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6513,5 +6510,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "6e1ba8935ef47b08d1dbd0203c75d1547914e5d5"
+ "source_revision": "63614c619f8d9c9f8af72142e0eec90da82a3747"
 }
