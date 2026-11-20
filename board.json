@@ -5668,25 +5668,22 @@
   {
    "n": 1900,
    "name": "MGRS SPEC",
-   "done": "",
+   "done": "2026-11-20T11:15Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T11:09Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T11:15Z",
+     "text": "8c415e96ed on main. MGRS history swipes focus without selecting or copying, and a tap selects and copies the recalled point. The first Previous from a locked point focuses the retained entry and preserves the lock. Roslyn reported no new er"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6271,5 +6268,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "77c3c9f2aaee0c6d7530de61978bd8c94953ec46"
+ "source_revision": "8c415e96ed75d970e51231df92b8bdcd99b92204"
 }
