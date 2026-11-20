@@ -1236,7 +1236,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-20T12:01Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 2
+    }
+   ],
    "steps": [
     {
      "t": "Settings sub-pages below the eight roots get the same status-and-tick treatment, one root per pass, if any remain",
@@ -6308,5 +6317,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "b57fd9d1f4ac57829c8b5335a7703d33ac061f44"
+ "source_revision": "599635a02059f24ecb59cdc974cffc72e9e36a04"
 }
