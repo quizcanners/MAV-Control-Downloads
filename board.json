@@ -6102,6 +6102,37 @@
      "text": "Published 8bcf865e3f. Shared Bootstrap scroll selection suppresses UI and map pointing during Menu, MavChat capsule and shared selector drags. Unity compile and 230 focused EditMode tests passed. Roslyn found no new errors. MavChat and Menu"
     }
    ]
+  },
+  {
+   "n": 1951,
+   "name": "Editing one script recompiles in seconds: Editor script recompile is split into small assemblies so a typical edit rebuilds well under 1/10 of today's 690k lines",
+   "done": "",
+   "goal": true,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Measure today's recompile seconds on Mac and Windows",
+     "x": false
+    },
+    {
+     "t": "Cut Prublyda into leaf assemblies, biggest first",
+     "x": false
+    },
+    {
+     "t": "Move the 767-file edit-mode test assembly off the edit path",
+     "x": false
+    },
+    {
+     "t": "Re-measure and write the numbers into Performance Baseline",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -6699,5 +6730,5 @@
   }
  ],
  "source_revision": "b71aa28e10de885f0c77bb5f77db22134891dd5a",
- "board_revision": "93025110222430bcc2900f48618e10a206647bfd"
+ "board_revision": "9b705d92761fd1f959d0949d1b65d0137c7c4ed3"
 }
