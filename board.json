@@ -2928,26 +2928,6 @@
    ]
   },
   {
-   "n": 1754,
-   "name": "Web Mercator",
-   "done": "2026-11-19T08:31Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-19T08:31Z",
-     "text": "a8ea193650 on main. Actual adoption and summary methods: 16 zoom-19 same-revision restores went from 320 fold calls to zero on legacy and content-hash indices. All 16 invalidated local pixels and advanced records. Changed finest bytes, newe"
-    }
-   ]
-  },
-  {
    "n": 1755,
    "name": "Web Mercator SPEC",
    "done": "2026-11-19T09:08Z",
@@ -5773,6 +5753,29 @@
      "text": "83fe2b916d on main: all ten GPS and Tools options use the shared flat dark-tinted blur and retain black selected bodies. Prefab YAML and references checked, guide check passed, Roslyn found no new errors. Mac had 21.4 GiB free against the 2"
     }
    ]
+  },
+  {
+   "n": 1889,
+   "name": "Navigator SPEC",
+   "done": "",
+   "goal": false,
+   "under": 367,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-20T08:32Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -6357,5 +6360,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "83fe2b916d3332931bf34cc5212b18bf322b2f4f"
+ "source_revision": "22a6ff88d3ceff4cc7300d44c341da28eb7f26a2"
 }
