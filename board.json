@@ -2954,46 +2954,6 @@
    ]
   },
   {
-   "n": 1744,
-   "name": "Suppress map hover and pointing once a touch drag has taken ownership and can no longer tap or long-press. Cover WayPoint size and Situation entity blue highlight on iPad",
-   "done": "2026-11-19T06:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T06:50Z",
-     "text": "1c4c6e53a3 applies tap and hold eligibility before the shared world-pointing pass. WayPointDragTests 46 passed and the new press-state test passed. The Mac synthetic touchscreen reached Unity but did not start a valid world press, so physic"
-    }
-   ]
-  },
-  {
-   "n": 1745,
-   "name": "MGRS SPEC Coordinate history and Navigator SPEC panel selector",
-   "done": "2026-11-19T06:51Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T06:51Z",
-     "text": "f2b0d7c052 and 1871b60206 on main. MGRS arrows point in the swipe direction and the MavChat selector stops at Route and Tools. Mac Play verified the directional hints at both ends and with Chat centered. MavChatSheetTests 112 and MgrsHistor"
-    }
-   ]
-  },
-  {
    "n": 1746,
    "name": "Notifications",
    "done": "2026-11-19T07:03Z",
@@ -3017,26 +2977,6 @@
      "by": "MAC_BOARD",
      "at": "2026-11-19T07:03Z",
      "text": "4fbbe7d10e on main. Hidden rows retain scroll height and no longer merge the outer shadow. Mac Play reproduced Agent Activity losing its bottom to hidden Far From Home. Fixed: the bottom shadow fades beyond the viewport and the live two-car"
-    }
-   ]
-  },
-  {
-   "n": 1747,
-   "name": "Remote Sensors SPEC icon",
-   "done": "2026-11-19T06:52Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T06:52Z",
-     "text": "82606f0966 on main. Three LoRa radios replace the disk artwork in both Remote Sensors tab layouts. The workflow, active tabs, and quiet or small silhouettes use matching artwork. Unity imported all three sprites and confirmed both tab bindi"
     }
    ]
   },
@@ -4446,7 +4386,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-20T06:53Z",
+     "noted": "",
+     "progress": 100,
+     "ticked": 2,
+     "total": 2
+    }
+   ],
    "steps": [
     {
      "t": "Connect bounded native queries to exact incoming frame keys and pass the aligned cameras and landmarks through separate proposal and held-out depth confirmation before Fusion and Pano360.",
@@ -6355,5 +6304,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "814241a0379371d98c70e6a8d409e64ce04a85af"
+ "source_revision": "c1454ea02392c7964681b1b0e749b5b76b5c4706"
 }
