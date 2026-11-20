@@ -2893,26 +2893,6 @@
    ]
   },
   {
-   "n": 1727,
-   "name": "Nightly README",
-   "done": "2026-11-19T04:33Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T04:33Z",
-     "text": "0f145c71bc on main. GUI All reproduced the three saved edits from iOS 863."
-    }
-   ]
-  },
-  {
    "n": 1728,
    "name": "Nightly README",
    "done": "2026-11-19T04:36Z",
@@ -5377,6 +5357,11 @@
      "by": "CLOUD_COMPLEXITY",
      "at": "2026-11-20T04:25Z",
      "text": "Done on main: ba438529089 (a key per transfer, one box for the metadata, builds from 869) and 9230b9a0ec2 (a voice message sealed once for all its peers). cmp.sh NEW ERRORS none; tests written, not run: VpnTransferKeyTests (15), EncryptionB"
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T04:33Z",
+     "text": "Mac Editor at 75a3834f53 containing both transfer-key and voice changes. VpnTransferKeyTests 15 passed and EncryptionBoxKeyTests 3 passed. EditMode All 8746 passed, 0 failed, 31 skipped. XML SHA-256 527bde095010d622728c42b4dad6935cb00868b51"
     }
    ]
   },
