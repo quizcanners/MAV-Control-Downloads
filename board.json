@@ -5748,25 +5748,22 @@
   {
    "n": 1888,
    "name": "Navigator SPEC",
-   "done": "",
+   "done": "2026-11-20T08:29Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T08:19Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T08:29Z",
+     "text": "83fe2b916d on main: all ten GPS and Tools options use the shared flat dark-tinted blur and retain black selected bodies. Prefab YAML and references checked, guide check passed, Roslyn found no new errors. Mac had 21.4 GiB free against the 2"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6351,5 +6348,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "af5b9914eec600633b57b3bc2c73f7d84272cc15"
+ "source_revision": "83fe2b916d3332931bf34cc5212b18bf322b2f4f"
 }
