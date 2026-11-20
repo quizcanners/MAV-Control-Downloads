@@ -25,16 +25,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_NOTIFICATION",
-     "since": "2026-11-20T23:05Z",
-     "noted": "",
-     "progress": 12,
-     "ticked": 1,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -71,11 +62,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-20T14:41Z",
-     "text": "Done on main: the open telemetry tab is DronePanels.SelectedTab with one answer per frame, DronePanels.OpenTab (4c5f67ecc4f; place 36: the home ruler's dead tab check cut). Pages TelemetryView and Positioning bumped. cmp.sh: no new errors; "
-    },
-    {
      "by": "MAC_BOARD_COMPASS",
      "at": "2026-11-20T22:51Z",
      "text": "7aecf4249d on main. Compass owns its authored Debug FPS label. Nine readout and twelve Compass view tests passed in Unity, Roslyn reported no new errors, and Main/Map and Pilot View are queued for visual checks. The other prefab-authoring c"
@@ -84,6 +70,11 @@
      "by": "MAC_BOARD_CAPSULE",
      "at": "2026-11-20T23:03Z",
      "text": "a4b1b41683 on main. MavChat owns the grabber, Route fill and neighbour root in the sheet prefab. All 142 MavChatSheetTests passed. Unity generated matching vertices, UVs and colors for the old and authored quads. Roslyn found no new errors."
+    },
+    {
+     "by": "MAC_BOARD_NOTIFICATION",
+     "at": "2026-11-20T23:15Z",
+     "text": "729aa57a76 on main. Notification cards and position sharing use authored swipe handlers. Empty viewport has no hit Graphic. Mac Unity All passed before and after (8,798 passed, 35 skipped, 0 failures), including all 51 focused notification "
     }
    ]
   },
@@ -2988,26 +2979,6 @@
      "by": "MAC_BOARD",
      "at": "2026-11-20T11:58Z",
      "text": "Closed the completed checklist. 46603fdbfb qualified Windows live source joins and Zurich refusal. d7484ffabd records Mac Metal: three saved depth photos produced 1,036 disks, evicted on zoom out, rebuilt on return and released draw buffers"
-    }
-   ]
-  },
-  {
-   "n": 1818,
-   "name": "Planet Renderer SPEC",
-   "done": "2026-11-19T23:09Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-19T23:09Z",
-     "text": "Published ae6e061d2e. Deep reply now uses four child lookups instead of 72; warm validation allocates zero bytes instead of 448 per reply. Synthetic exchange preserves 1,024 downloads, equal hash, 2,055 queries and 3,080 loop turns. Unity 3"
     }
    ]
   },
@@ -6567,8 +6538,12 @@
   {
    "screen": "Situation",
    "since": "2026-11-20T21:14Z"
+  },
+  {
+   "screen": "Main/Notifications",
+   "since": "2026-11-20T23:15Z"
   }
  ],
- "source_revision": "3f254706591786a4bb055a30f0b24655fae4220b",
- "board_revision": "41e70ff124661605e7de8f8732ca2f90463f96ab"
+ "source_revision": "6afba60e2470473fa0246057ea0e1d8e91c05e06",
+ "board_revision": "ae275d52dee452c63cb4b53be4cb5ab9dccaed66"
 }
