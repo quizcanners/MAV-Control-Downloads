@@ -3003,26 +3003,6 @@
    ]
   },
   {
-   "n": 1793,
-   "name": "Pings SPEC",
-   "done": "2026-11-19T17:31Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T17:31Z",
-     "text": "5800fac75e restores five-second Video and Web Page Paint fades and keeps Map Paint at two minutes. Authors painting on separate surfaces refresh only that surface. Mac EditMode 64 passed, 0 failed, 0 skipped across Drawing, retry and video "
-    }
-   ]
-  },
-  {
    "n": 1794,
    "name": "MavChat Tools has one-tap Flashlight (on supported phones) and QR Scanner. Navigator SPEC",
    "done": "2026-11-19T17:53Z",
@@ -6137,6 +6117,29 @@
      "text": "0fca544004 on main. Removed the ordinary Chat override for local video and Telemetry. Main Screen visibility now also gates map controls, clock, compass, altitude controls and notifications. Real-prefab regression covers both Chat layouts, "
     }
    ]
+  },
+  {
+   "n": 1944,
+   "name": "Add a MavTube panel to MavChat (Navigator SPEC",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_MAVTUBE",
+     "since": "2026-11-20T17:35Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -6738,5 +6741,5 @@
   }
  ],
  "source_revision": "9c0460d4917b80cf45ac58231d49b3252bde5242",
- "board_revision": "13dcc56b0b657846ca7e69bae01bba27c44a0275"
+ "board_revision": "650a0fb3e47bbcdc7256999189bebcbeff01e443"
 }
