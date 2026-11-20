@@ -2928,66 +2928,6 @@
    ]
   },
   {
-   "n": 1756,
-   "name": "Navigator SPEC",
-   "done": "2026-11-19T09:38Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T09:38Z",
-     "text": "e85defd9a7. Portrait Play with real Input System touches and a held key. Camera waited for release, paused and retargeted, and used the capsule-to-MGRS viewport. Across 91 samples the same geographic point stayed within 0.090 px. MavChatShe"
-    }
-   ]
-  },
-  {
-   "n": 1757,
-   "name": "Navigator SPEC",
-   "done": "2026-11-19T09:39Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T09:39Z",
-     "text": "e85defd9a7. One shared marker choice, immediate 0.16 s crossfade, WayPoint pin for Route pick, local sharing visible at rest with VPN paused. Portrait Play and focused marker cases passed. The two existing Route fixture failures also occurr"
-    }
-   ]
-  },
-  {
-   "n": 1758,
-   "name": "Notifications SPEC",
-   "done": "2026-11-19T09:39Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T09:39Z",
-     "text": "e85defd9a7. Notifications square merges with the physical right edge and keeps its badge within the screen. Portrait Play geometry and 23 NotificationRendererBindingTests passed."
-    }
-   ]
-  },
-  {
    "n": 1759,
    "name": "Navigator SPEC",
    "done": "2026-11-19T09:40Z",
@@ -5837,25 +5777,22 @@
   {
    "n": 1895,
    "name": "Navigator SPEC",
-   "done": "",
+   "done": "2026-11-20T09:39Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T09:36Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T09:39Z",
+     "text": "b70da697c2 on main. The in-app MavChat Share Position card follows Share On, so local-only GPS and Share Off leave no card. The GPS panel handles starting and resuming. Updated the regression test and bumped MavChat verification. Roslyn fou"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6440,5 +6377,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "ad24a50601a83e92b9ceec191a4624fbe16895fc"
+ "source_revision": "b70da697c2dcfb92706b1196c655d9d95dc31753"
 }
