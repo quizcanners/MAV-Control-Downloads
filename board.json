@@ -5637,25 +5637,22 @@
   {
    "n": 1852,
    "name": "Notifications SPEC",
-   "done": "",
+   "done": "2026-11-20T02:42Z",
    "goal": false,
    "under": 410,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T02:27Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T02:42Z",
+     "text": "6e5794693a on main. The EditMode refresh clock advanced and entered physical camera input with no camera. The fixture now uses the shared frame snapshot for its synthetic pointer events. Mac NotificationTongueDrag 11/0/0 in both focused and"
+    }
+   ]
   },
   {
    "n": 1853,
@@ -6313,5 +6310,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "324cffbed7e06fae15139ae2a0a94b7fe95a528b"
+ "source_revision": "fd4577016ddea426d842206b8908e6d638d97bbf"
 }
