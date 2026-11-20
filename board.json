@@ -5740,25 +5740,22 @@
   {
    "n": 1905,
    "name": "SDC Ping SPEC",
-   "done": "",
+   "done": "2026-11-20T11:47Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_SDC",
-     "since": "2026-11-20T11:39Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_SDC",
+     "at": "2026-11-20T11:47Z",
+     "text": "Published 536cd60b5e on main. Closed fake serial ports reported the Betaflight hint for Windows errors 5 and 32, retried beyond the generic cutoff and recovered on release. Missing-port classification, Linguist and Roslyn check passed. Nati"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6343,5 +6340,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "5ce5bbf07a0ca2f626c68ae7f4d8a6020f0a559e"
+ "source_revision": "536cd60b5e43b8637501336350d257b0199dbfb9"
 }
