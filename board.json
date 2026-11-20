@@ -6081,25 +6081,22 @@
   {
    "n": 1946,
    "name": "Stitch overlapping recorded fly-throughs into a single offline 3D scene on Mac from Video Processing settings.",
-   "done": "",
+   "done": "2026-11-20T18:38Z",
    "goal": false,
    "under": 1693,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_RECORDED_SCENES",
-     "since": "2026-11-20T18:19Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_RECORDED_SCENES",
+     "at": "2026-11-20T18:38Z",
+     "text": "7c1316a48e on main; 0be1d3d0ae queues Video Source and Video checks. Apple silicon native LightGlue 405 matches, COLMAP registered both held-out photos. Pinned eight-view DA3 exported and staged; normal and Mac Editor/player Roslyn comparis"
+    }
+   ]
   },
   {
    "n": 1947,
@@ -6723,6 +6720,6 @@
    "since": "2026-11-20T15:52Z"
   }
  ],
- "source_revision": "d8416b5d270693c81de815db6ff9f2b04eb9a1fd",
- "board_revision": "3f06605a515c89c9aeeb148eec62d06970166b35"
+ "source_revision": "0be1d3d0ae55790d14f660d00edcb67cb8208025",
+ "board_revision": "739b8169ab69d5da1b7530c195c1aa75426ad99d"
 }
