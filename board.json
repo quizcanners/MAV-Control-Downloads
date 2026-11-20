@@ -2974,46 +2974,6 @@
    ]
   },
   {
-   "n": 1750,
-   "name": "Notifications",
-   "done": "2026-11-19T07:11Z",
-   "goal": false,
-   "under": 410,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T07:11Z",
-     "text": "10619473e7 on main. The old test expected enabled=true on the hidden mute button. Unity returned false. The fixture now holds the authored Home action and keeps the hidden mute disabled, with assertions for cancellation, acknowledgement, fo"
-    }
-   ]
-  },
-  {
-   "n": 1751,
-   "name": "Chat SPEC",
-   "done": "2026-11-19T07:11Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T07:11Z",
-     "text": "b8720da9dc on main. Fixtures expected no portrait composer fade and 0.55 peer tint. The authored values are a portrait fade and 0.50 tint. Tests now check both layouts explicitly and keep the peer geometry, input bounds and shared bindings."
-    }
-   ]
-  },
-  {
    "n": 1752,
    "name": "Navigator SPEC",
    "done": "2026-11-19T08:23Z",
@@ -5693,6 +5653,29 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 1880,
+   "name": "Main View SPEC",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-20T07:16Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -6281,5 +6264,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "d7484ffabdcca2fb5616035e2e6b8b12ed413185"
+ "source_revision": "c191edf99ed97fc715c99eddf3070c0ff0cb004c"
 }
