@@ -4912,27 +4912,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-20T01:41Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 1
-    }
-   ],
+   "held": [],
    "steps": [
     {
-     "t": "Use retained original-resolution photos and incoming frames to produce live independent pose anchors. Connect the candidate fit and confirmation, then test the Helsinki A-to-B switch and its registere",
+     "t": "Maintain a separate bounded landmark bank from accepted original photos for live matching. Keep the adjacent real confirmation window while matching runs. Connect the measured camera anchors to native",
      "x": false
     }
    ],
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-20T01:40Z",
-     "text": "9628d185b4 gives unresolved Synthetic ground placements their own Elevation request. The cold request reached OpenElevation and received 429. A TestRun reply through the ordinary result queue released Save. Saved selection with Layers off a"
+     "at": "2026-11-20T01:57Z",
+     "text": "77d1dab85f publishes exact original-colour auditing and the evaluator. Rebuilt landmarks from A frames admitted by Unity localized two complete B groups. The six display photos could not provide a group. The native anchored replay confirmed"
     }
    ]
   },
@@ -6194,5 +6185,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "180697154dca69c0778380a19681dff6e884a72d"
+ "source_revision": "77d1dab85f7350cd798fc52b58829f5a97ccd326"
 }
