@@ -5384,7 +5384,8 @@
     "2026-11-20T04:10Z",
     "2026-11-20T04:10Z",
     "2026-11-20T04:10Z",
-    "2026-11-20T04:10Z"
+    "2026-11-20T04:10Z",
+    "2026-11-20T04:11Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -5394,15 +5395,15 @@
      "who": "CLOUD_COMPLEXITY",
      "since": "2026-11-20T01:50Z",
      "noted": "2026-11-20T03:22Z",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 17,
+     "ticked": 1,
      "total": 6
     }
    ],
    "steps": [
     {
      "t": "Sender: one seal class for split payloads (EncryptedSplitPayload): a key per transfer for a build from 869 and today's form below it; each metadata send is one box of the fields and the key, sealed an",
-     "x": false
+     "x": true
     },
     {
      "t": "Receiver: open the box where the metadata is read, admit it like every sealed message, keep the key in that receive's RAM and open the payload with it; a box that does not open leaves nothing",
