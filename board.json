@@ -4805,7 +4805,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-20T04:06Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 2
+    }
+   ],
    "steps": [
     {
      "t": "Fit and check lens, pose and depth against accepted original-colour landmarks. Require independent depth and full reprojection agreement before new observations can enter Fusion.",
