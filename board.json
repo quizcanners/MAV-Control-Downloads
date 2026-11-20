@@ -4832,31 +4832,22 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-20T02:49Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 2
-    }
-   ],
+   "held": [],
    "steps": [
     {
-     "t": "Bound match work per candidate and schedule real-photo attempts on advancing Helsinki frames. Carry independent original-photo anchors into the candidate and apply the tested overlap translation befor",
+     "t": "Connect original-colour landmark poses and checked short tracks to the running Helsinki candidate. Confirm against separate frames and test the measured overlap translation if required.",
      "x": false
     },
     {
-     "t": "Qualify the Helsinki A-to-B switch and registered Pano360 in the running reconstruction.",
+     "t": "Qualify the running A-to-B switch and registered Pano360.",
      "x": false
     }
    ],
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-20T02:47Z",
-     "text": "4e314125ec retains the accepted Helsinki photo bank and verifies the recovery-photos mode through Backdoor. Both 18- and six-reference scans spent their real-photo attempt on opening B frames and refused; later overlap was missed. A and its"
+     "at": "2026-11-20T03:01Z",
+     "text": "d80e538a28. Six-reference queries reached later Helsinki frames. The running matcher refused B, but exact audited 80-83 colours localized against frozen A. Checked tracks supplied the missing anchor at 85. Unity fixed-input confirmation pas"
     }
    ]
   },
