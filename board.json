@@ -126,16 +126,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T03:39Z",
-     "noted": "",
-     "progress": 60,
-     "ticked": 6,
-     "total": 10
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: the state machine and every mode, 1 s settle, release-frame full resolution, VideoOnBlack, kept screen-size picture, ribbons as kept renderers, Editor 2x frame read on Mac and Rog, 8 fps idle",
@@ -191,8 +182,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T23:08Z",
-     "text": "09a219e861 peer fix: native Mac MapRenderModeTests 20/0/0, including real perspective/orthographic cases. Receipt a6a990777f. Mac EditMode All at 09a219e861: 8,564 pass, 155 fail, 31 skip; both original task 46 cases passed. Qualified Windo"
+     "at": "2026-11-20T03:55Z",
+     "text": "0726a49b0f publishes Mac Editor Metal Play evidence from 79d93e55ff in GPU.md. Full on the release frame, one-second sharp settle, scheduled refresh, visible-settings invalidation and local Synthetic wake/name passed. Receipt Mac-Render-Goa"
     }
    ]
   },
@@ -6522,5 +6513,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "0726a49b0f204d4719af8c4646fd3172e9420e63"
+ "source_revision": "6e1ba8935ef47b08d1dbd0203c75d1547914e5d5"
 }
