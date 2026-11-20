@@ -495,16 +495,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T05:26Z",
-     "noted": "",
-     "progress": 25,
-     "ticked": 3,
-     "total": 12
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Server declaration written without Nix: WireGuard optional with its subnet from the marker, map build waits for server.key, Tools/Server/snapshot-prepare.sh, README with the three runs (3dc6bbc015, a6",
@@ -560,6 +551,11 @@
      "by": "HEAVY",
      "at": "2026-11-14T07:26Z",
      "text": "HEAVY prepared a source-matched, self-contained Linux x64 MavServer archive (bf507558fc) for vm-test.nix at C:/MavControlEvidence/Windows-370-20261114/routing.tar.gz with adjacent SHA-256; archive entries and ELF headers verified. Windows s"
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T05:26Z",
+     "text": "Mac Editor proof on macOS 868 source 92d77fa0c1 includes all five named commits. Exact build-gate XML: DirectRouteHubTypesTests 5/5, ServerSpecsTests 10/10, LocalizationAssetTests 19/19. Both native language catalogs cover routingServer.wg."
     }
    ]
   },
@@ -6410,5 +6406,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "dcbcb6ab04985472590907336f0d00e5c3b03fd1"
+ "source_revision": "884cdc48e59b148411766c77e4fc0eb25de90796"
 }
