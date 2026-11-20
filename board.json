@@ -25,16 +25,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_UPDATE_CHANNEL",
-     "since": "2026-11-20T23:16Z",
-     "noted": "",
-     "progress": 12,
-     "ticked": 1,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -71,11 +62,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_COMPASS",
-     "at": "2026-11-20T22:51Z",
-     "text": "7aecf4249d on main. Compass owns its authored Debug FPS label. Nine readout and twelve Compass view tests passed in Unity, Roslyn reported no new errors, and Main/Map and Pilot View are queued for visual checks. The other prefab-authoring c"
-    },
-    {
      "by": "MAC_BOARD_CAPSULE",
      "at": "2026-11-20T23:03Z",
      "text": "a4b1b41683 on main. MavChat owns the grabber, Route fill and neighbour root in the sheet prefab. All 142 MavChatSheetTests passed. Unity generated matching vertices, UVs and colors for the old and authored quads. Roslyn found no new errors."
@@ -84,6 +70,11 @@
      "by": "MAC_BOARD_NOTIFICATION",
      "at": "2026-11-20T23:15Z",
      "text": "729aa57a76 on main. Notification cards and position sharing use authored swipe handlers. Empty viewport has no hit Graphic. Mac Unity All passed before and after (8,798 passed, 35 skipped, 0 failures), including all 51 focused notification "
+    },
+    {
+     "by": "MAC_BOARD_UPDATE_CHANNEL",
+     "at": "2026-11-20T23:26Z",
+     "text": "ded620d53f on main. App updates uses its authored Canvas, mask and two Release/Test slots with the shared glass template. Selection and scroll still bind through Settings. Full Mac EditMode 8,799 passed, 35 skipped, zero failures. App Updat"
     }
    ]
   },
@@ -2992,26 +2983,6 @@
    ]
   },
   {
-   "n": 1819,
-   "name": "Mac EditMode All",
-   "done": "2026-11-19T23:23Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T23:23Z",
-     "text": "9f618f6ac2 rebinds both fixtures to the same production checkpoint completion stages. Mac: WaypointCheckpointTests 61/0/0 and the repaired Workflow case passed. All with the repair at a6a990777f plus fixture edits: 8,626 passed, 94 failed, "
-    }
-   ]
-  },
-  {
    "n": 1820,
    "name": "Getac build storage",
    "done": "2026-11-19T23:29Z",
@@ -3028,26 +2999,6 @@
      "by": "GETAC",
      "at": "2026-11-19T23:29Z",
      "text": "Getac C rose from 13.39 to 25.29 GiB free through in-place compression of known build intermediates and selected symbols. Verified terminal DLL/PDB copies and sampled compressed files by SHA-256. APKs, receipts and all device data preserved"
-    }
-   ]
-  },
-  {
-   "n": 1821,
-   "name": "Menu/Layers SPEC",
-   "done": "2026-11-19T23:23Z",
-   "goal": false,
-   "under": 1815,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T23:23Z",
-     "text": "855dac1d20 adds the ninth Layers tile to the existing layout, hit-target and caption checks, and verifies the 3D Map visibility slot. The repaired case passed in Mac Unity. UiExtendedMenuTests 12 passed, 1 failed, 0 skipped; the pre-existin"
     }
    ]
   },
@@ -6553,6 +6504,6 @@
    "since": "2026-11-20T23:15Z"
   }
  ],
- "source_revision": "6afba60e2470473fa0246057ea0e1d8e91c05e06",
- "board_revision": "d72eba1ff25a6200ebd6f21379cc00f82de37f39"
+ "source_revision": "9809dec370df105cab255f83075dd28c4ce148c5",
+ "board_revision": "23c1b9e0972c361c7241b237a78776fe58456530"
 }
