@@ -5397,7 +5397,7 @@
     {
      "who": "CLOUD_COMPLEXITY",
      "since": "2026-11-20T01:50Z",
-     "noted": "2026-11-20T03:22Z",
+     "noted": "2026-11-20T04:11Z",
      "progress": 67,
      "ticked": 4,
      "total": 6
@@ -5432,8 +5432,8 @@
    "notes": [
     {
      "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-20T03:22Z",
-     "text": "Steps 1 to 3 and geometry's part of step 6 are written and compile (cmp.sh, 4 sets: only the 6 Newtonsoft attribute lines the cloud tool cannot resolve); guide and link checks 0 errors; 8 tests written, not run. Not on main yet: commit 1c2e"
+     "at": "2026-11-20T04:11Z",
+     "text": "On main ba438529089: a sealed split payload has a key of its own for a build from 869 (868 was reserved meanwhile). Its metadata is one box of the fields and the key, sealed anew per send, opened where it is read (InnerHeader.Admit, shared)"
     }
    ]
   },
