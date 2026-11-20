@@ -25,16 +25,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_PILOT_HANDLES",
-     "since": "2026-11-20T23:28Z",
-     "noted": "",
-     "progress": 12,
-     "ticked": 1,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -71,11 +62,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_CAPSULE",
-     "at": "2026-11-20T23:03Z",
-     "text": "a4b1b41683 on main. MavChat owns the grabber, Route fill and neighbour root in the sheet prefab. All 142 MavChatSheetTests passed. Unity generated matching vertices, UVs and colors for the old and authored quads. Roslyn found no new errors."
-    },
-    {
      "by": "MAC_BOARD_NOTIFICATION",
      "at": "2026-11-20T23:15Z",
      "text": "729aa57a76 on main. Notification cards and position sharing use authored swipe handlers. Empty viewport has no hit Graphic. Mac Unity All passed before and after (8,798 passed, 35 skipped, 0 failures), including all 51 focused notification "
@@ -84,6 +70,11 @@
      "by": "MAC_BOARD_UPDATE_CHANNEL",
      "at": "2026-11-20T23:26Z",
      "text": "ded620d53f on main. App updates uses its authored Canvas, mask and two Release/Test slots with the shared glass template. Selection and scroll still bind through Settings. Full Mac EditMode 8,799 passed, 35 skipped, zero failures. App Updat"
+    },
+    {
+     "by": "MAC_BOARD_PILOT_HANDLES",
+     "at": "2026-11-20T23:44Z",
+     "text": "fc6f978acd on main. Pilot fold handles, artwork and all nine gesture links are authored in the prefab. Full Mac Unity EditMode: 8,799 passed, 35 skipped, zero failures. Roslyn found no new errors. Both imported sprites matched the old alpha"
     }
    ]
   },
@@ -2992,46 +2983,6 @@
    ]
   },
   {
-   "n": 1820,
-   "name": "Getac build storage",
-   "done": "2026-11-19T23:29Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-19T23:29Z",
-     "text": "Getac C rose from 13.39 to 25.29 GiB free through in-place compression of known build intermediates and selected symbols. Verified terminal DLL/PDB copies and sampled compressed files by SHA-256. APKs, receipts and all device data preserved"
-    }
-   ]
-  },
-  {
-   "n": 1822,
-   "name": "Video Processing SPEC",
-   "done": "2026-11-19T23:30Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T23:30Z",
-     "text": "9246f521bd restores current Depth Anything bindings with original assertions. Mac focused 65 pass, 1 fail, 4 skip; the one existing observed-surface assertion is task 1824. Containing Mac All 8,660 passed, 61 failed, 30 skipped at this chan"
-    }
-   ]
-  },
-  {
    "n": 1823,
    "name": "Using Strong and Lenovo to collect matched Elements Mask and Situation frame and delivery windows before and after the containing Android Dev build.",
    "done": "2026-11-20T00:28Z",
@@ -3048,46 +2999,6 @@
      "by": "GETAC",
      "at": "2026-11-20T00:28Z",
      "text": "Signed Android Dev 866 855dac1d20 installed in place on Strong and Lenovo. Both rendered the map. Baseline, cold and warm captures retained 223\u2013227 frames each at normal 8 FPS. Lenovo mask root became current between 32.7 and 62.6 s after t"
-    }
-   ]
-  },
-  {
-   "n": 1824,
-   "name": "Video Processing SPEC",
-   "done": "2026-11-19T23:37Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T23:37Z",
-     "text": "110f28ed7f gives both arms two agreeing independent cameras and adds two stronger free-space observations only to the veto arm. The existing triangle assertions passed. Mac UnityStreetViewDetailTests 7/0/0. Containing All at 66e7ef7b5b: 8,6"
-    }
-   ]
-  },
-  {
-   "n": 1825,
-   "name": "Bootstrap SPEC",
-   "done": "2026-11-19T23:37Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T23:37Z",
-     "text": "66e7ef7b5b verifies Remote Sensors is main by default and explicitly exercises the additional-workflow branch, retaining reveal, brigade denial, saved-selection and PIN assertions. Mac WorkflowPersistenceTests 5/0/0 and all five passed in M"
     }
    ]
   },
@@ -6513,6 +6424,6 @@
    "since": "2026-11-20T23:15Z"
   }
  ],
- "source_revision": "9809dec370df105cab255f83075dd28c4ce148c5",
- "board_revision": "47eeea52dbda71a6215e30dbf7fbd4fdd0602e80"
+ "source_revision": "c8ca3cc0c4b815c33e1a1c3fefcb7cd49fe040ad",
+ "board_revision": "8f0121c0f2ce441eb984f6ff846ffbe16b89fd29"
 }
