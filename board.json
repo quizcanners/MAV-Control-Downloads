@@ -29,7 +29,7 @@
     {
      "who": "CLOUD_COMPLEXITY",
      "since": "2026-11-20T00:17Z",
-     "noted": "2026-11-20T01:18Z",
+     "noted": "2026-11-20T01:49Z",
      "progress": 0,
      "ticked": 0,
      "total": 3
@@ -52,8 +52,8 @@
    "notes": [
     {
      "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-20T01:18Z",
-     "text": "Read done, nothing pushed yet (place 3, left of the seal): a split payload sealed with session keys must arrive whole within 180 to 300 s of joining the queue; 13 of 15 kinds wait there with no clock (one seat per peer; a send queued for a "
+     "at": "2026-11-20T01:49Z",
+     "text": "Place 3 read pushed (180697154dc): a sealed split payload has 180-300 s to arrive whole, 14 of 16 session-key kinds wait with no clock; personnel tables now count as held on arrival (OnSendEnded), one per peer on its way. Found: photo capti"
     }
    ]
   },
@@ -5581,25 +5581,22 @@
   {
    "n": 1847,
    "name": "UI SPEC",
-   "done": "",
+   "done": "2026-11-20T01:49Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T01:37Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T01:49Z",
+     "text": "3c51441caf on main. Mac Metal expected both ends below 0.03 and measured 0.306 red at the specified yellow top glow. The fixture checks the localized glow, black fill and joins across all 16 masks. Mac fixture 6/0/0. Mac All at equivalent U"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6188,5 +6185,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "a7add0413a8ed27adf9c06b8d34cf801ed254608"
+ "source_revision": "180697154dca69c0778380a19681dff6e884a72d"
 }
