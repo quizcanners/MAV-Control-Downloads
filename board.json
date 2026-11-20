@@ -5697,25 +5697,22 @@
   {
    "n": 1856,
    "name": "Video diagnostics",
-   "done": "",
+   "done": "2026-11-20T02:54Z",
    "goal": false,
    "under": 431,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T02:46Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T02:54Z",
+     "text": "f23e4bc9e3 on main. All three failures came from the removed signing revision field. The two publication fixtures explicitly create keys on disposable records through SignKeys. The passive read test checks no key generation or checkpoint, s"
+    }
+   ]
   },
   {
    "n": 1857,
@@ -6373,5 +6370,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "4e314125ec524af6f0ae82f790b348487a38cd0c"
+ "source_revision": "6dff7cf078e73896f049cd1bdab0747288dbd593"
 }
