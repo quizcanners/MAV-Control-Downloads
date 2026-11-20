@@ -5388,25 +5388,22 @@
   {
    "n": 1839,
    "name": "Scene owner holds serialized refs to the 10 Depth Anything compute shaders; change VideoProcessing.ComputeShaders.Load to read them; empty Systems/Video Processing/Resources (see Coordination/Refactor",
-   "done": "",
+   "done": "2026-11-20T02:01Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T01:45Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T02:01Z",
+     "text": "b9cb3c69bd on main. Bootstrap resolves all 10 relocated compute shaders with their original GUIDs. Mac affected fixtures 72 passed / 0 failed / 4 skipped, including the saved scene binding test. Mac All at ebd942fe5c before the later recove"
+    }
+   ]
   },
   {
    "n": 1840,
@@ -6183,5 +6180,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "77d1dab85f7350cd798fc52b58829f5a97ccd326"
+ "source_revision": "75c4391bbf19e65faab52a19b775738c69ef4a45"
 }
