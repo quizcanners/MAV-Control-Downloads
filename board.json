@@ -6107,25 +6107,22 @@
   {
    "n": 1936,
    "name": "Windows Android USB install shows device",
-   "done": "",
+   "done": "2026-11-20T15:47Z",
    "goal": false,
    "under": 374,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_USB_INSTALL",
-     "since": "2026-11-20T15:36Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_USB_INSTALL",
+     "at": "2026-11-20T15:47Z",
+     "text": "f7e9ee2768 on main. Dev Mode shares the flat USB installer; picker uses only keyed packages from the validated Android catalog. One Install verifies the APK and configures built-in WireGuard with the selected .conf. Mac EditMode 100 passed,"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6722,6 +6719,6 @@
    "since": "2026-11-20T14:29Z"
   }
  ],
- "source_revision": "f245ad16f5a5483dbd6485529fa27cab2ee920e4",
- "board_revision": "0ed3094ab72d7c5696d9312b1f6340a1de79f415"
+ "source_revision": "cad9432eae7ef22ce1dc79cbd398bfc589ac1c26",
+ "board_revision": "e8e13044f4d80c3280e8bb5aec6de6214598eb44"
 }
