@@ -2983,66 +2983,6 @@
    ]
   },
   {
-   "n": 1789,
-   "name": "SDC Ping SPEC",
-   "done": "2026-11-19T17:07Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_SDC",
-     "at": "2026-11-19T17:07Z",
-     "text": "Published fbf88299a3 on main. The receiver no longer rejects tap age or timestamp order. The USB mark duration starts at acknowledgment. Settings is glanceable and the SDC Ping page is due. Host receiver and fake MSP checks reproduced the d"
-    }
-   ]
-  },
-  {
-   "n": 1790,
-   "name": "Navigator SPEC",
-   "done": "2026-11-19T17:17Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T17:17Z",
-     "text": "f2139be6ea restores the moved lower-left altitude binding and uses the typed crosshair in the existing focus assertion. Route author validates the authored shared mask and clip ports. Mac baseline 37/2/0, candidate 39/0/0. Disabled mask, op"
-    }
-   ]
-  },
-  {
-   "n": 1791,
-   "name": "Waypoints SPEC",
-   "done": "2026-11-19T17:18Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T17:18Z",
-     "text": "4d7df4e100 uses the camera forward/up heading per draw pass. Native baseline label turned 90 degrees at pitch/bearing 90. On Metal it changed from 9x68 to 69x10 pixels. The 45-degree render is byte-identical. 30 native projections stayed le"
-    }
-   ]
-  },
-  {
    "n": 1792,
    "name": "Fullscreen Video and Video Processing SPEC",
    "done": "2026-11-19T17:53Z",
@@ -6181,25 +6121,22 @@
   {
    "n": 1943,
    "name": "Hide Main Screen controls when another view opens",
-   "done": "",
+   "done": "2026-11-20T17:21Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_MAIN_SCREEN",
-     "since": "2026-11-20T17:06Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_MAIN_SCREEN",
+     "at": "2026-11-20T17:21Z",
+     "text": "0fca544004 on main. Removed the ordinary Chat override for local video and Telemetry. Main Screen visibility now also gates map controls, clock, compass, altitude controls and notifications. Real-prefab regression covers both Chat layouts, "
+    }
+   ]
   }
  ],
  "verify": [
@@ -6800,6 +6737,6 @@
    "since": "2026-11-20T15:52Z"
   }
  ],
- "source_revision": "5293f41e045433454894087c5d1c7a317409032e",
- "board_revision": "08fc62f04a0452236773d50501fdbf52c3654405"
+ "source_revision": "9c0460d4917b80cf45ac58231d49b3252bde5242",
+ "board_revision": "13dcc56b0b657846ca7e69bae01bba27c44a0275"
 }
