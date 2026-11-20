@@ -1733,7 +1733,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-20T14:14Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Dispatcher commands still in AI_Sandbox_DeviceDebugCommands*.cs: the remaining vpn.*, training and remote-sensor editors, performance.wires, cfg/system.set and the other cfg cases in DebugControl; the",
@@ -6025,6 +6034,29 @@
      "text": "28e7818a81 on main. Telemetry SPEC matches the prefab Edit binding and the destination picker Back handler. The older Video check described a duplicate picker action that no longer exists, and its original report remains in task 240. Two gu"
     }
    ]
+  },
+  {
+   "n": 1926,
+   "name": "Video to RTMPS link editor",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_RTMPS_HINT",
+     "since": "2026-11-20T14:14Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -6618,5 +6650,5 @@
   }
  ],
  "source_revision": "28e7818a819b22a57658a29fba578618161738c4",
- "board_revision": "7ef39e1de0168b7737a3a8e1675d3641ef0c1067"
+ "board_revision": "b32bb1c346f78a046a7cfd71e82d2cfd26c905d9"
 }
