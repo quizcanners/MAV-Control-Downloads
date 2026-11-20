@@ -5851,25 +5851,22 @@
   {
    "n": 1876,
    "name": "Mac build storage for the next iOS and macOS release",
-   "done": "",
+   "done": "2026-11-20T06:17Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T06:13Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T06:17Z",
+     "text": "Retired 9,420 generated C/C++ files from closed iOS 863\u2013866 and macOS 845/850/851 exports. Free space rose from 24.22 to 36.36 GiB. Verified matching signed archives/packages, dSYMs and unchanged package hashes. Current iOS/macOS 868 and te"
+    }
+   ]
   }
  ],
  "verify": [
