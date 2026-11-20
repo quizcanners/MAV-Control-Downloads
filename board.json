@@ -5797,25 +5797,22 @@
   {
    "n": 1892,
    "name": "Main View SPEC",
-   "done": "",
+   "done": "2026-11-20T09:15Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T09:08Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T09:15Z",
+     "text": "ca4c4a507a on main. The shared Suggestions tab shows live crosshair targets in Screen Center and selection alternatives in Selected Object. Removed the inline candidate rows and the count-based compass hide. Roslyn reported no new errors, p"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6400,5 +6397,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "12a8bc34450f5e0b4fb44a6a1443f06b7c4752e7"
+ "source_revision": "ca4c4a507a865bbfcb4e3eddaacbec77d46c012e"
 }
