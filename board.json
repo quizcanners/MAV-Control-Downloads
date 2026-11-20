@@ -5797,25 +5797,22 @@
   {
    "n": 1861,
    "name": "Ground-aligned map painting",
-   "done": "",
+   "done": "2026-11-20T03:13Z",
    "goal": false,
    "under": 381,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T03:02Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T03:13Z",
+     "text": "e854df758d on main. The synthetic pen target lacked the renderer needed by the brush. Uses the authored prefab with an isolated synthetic UV plane and observes the actual material preparation. Preserves accepted-pixel, geometry and gesture "
+    }
+   ]
   },
   {
    "n": 1862,
