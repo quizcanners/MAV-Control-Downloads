@@ -32,7 +32,7 @@
      "noted": "",
      "progress": 0,
      "ticked": 0,
-     "total": 4
+     "total": 3
     }
    ],
    "steps": [
@@ -41,11 +41,7 @@
      "x": false
     },
     {
-     "t": "Cloud, what is left of the seal (creeping-complexity.md place 3, the list after part 2): features that send a handshake themselves (10 call sites; the handshake pass already drives every waiting link)",
-     "x": false
-    },
-    {
-     "t": "Cloud, next reads: each store tells a peer its hash with its own message and timer (place 11); personnel push hands the whole table once per run without comparing revisions; leftovers of places 17 and",
+     "t": "Cloud, next reads: a split payload is sealed when it joins the queue, read how long a sealed send can wait and what each of the 15 session-key kinds does when the peer cannot open it (place 3, left of",
      "x": false
     },
     {
@@ -1197,11 +1193,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_LIST_REOPEN",
-     "at": "2026-11-17T09:19Z",
-     "text": "839cf4fb0f: caught closing list now honors a keep-open release; 29/29 ListScrollInteractionTests and Roslyn NEW ERRORS none. No device gesture check; Editor test identity restored."
-    },
-    {
      "by": "CODEX_PHOTO_ROW",
      "at": "2026-11-17T12:07Z",
      "text": "Current origin Photo row remains fixed by e0eead491f: Unity instantiated the exact origin-matching prefab at 300\u00d796 and measured name y=24..48, switch y=-23..23 (1 unit clear), no overlap. Actual photo data/device rendering and other list/g"
@@ -1210,6 +1201,11 @@
      "by": "MAC_BOARD",
      "at": "2026-11-19T18:48Z",
      "text": "1156ac941c Mac Play with disposable records: populated Peer Groups (1 peer), Cars, Photos and Photo Folders all rendered under panel 115228:256 (300 units, blocks map raycasts, tabs outside). Live capture and four readouts: MavControlEviden"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-20T00:44Z",
+     "text": "CC-B0CD-01 P3 follow-up: vertical tabs discover fixed Seam Mask/background references through a child-name scan and _searched flag. S1/S2 direct serialized-reference brief ready for quiz before refactoring: Coordination/Reviews/d524e5a16.md"
     }
    ]
   },
@@ -2889,26 +2885,6 @@
      "by": "GETAC",
      "at": "2026-11-19T18:59Z",
      "text": "Strong exact Dev 864 fbf88299a3 installed in place and reached map. CPU.md 63d6119079: warmed Web Mercator peak 15.801 ms versus before 41.681 ms at a different view/workload, 299 tile confirmations over 92 s. Native scheduler identifies pr"
-    }
-   ]
-  },
-  {
-   "n": 1715,
-   "name": "Align the Web Mercator priority-preview fixtures with the local interaction hold. Exercise remote-peer activity for priority serving and retire the conflicting interaction text in Web Mercator SPEC.",
-   "done": "2026-11-19T00:57Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-19T00:57Z",
-     "text": "c7e6111c5e fixes three priority-preview fixtures for the local interaction hold. Unity 6000.6.8f1 passed all 280 Web Mercator cases and 409 across five focused fixtures, with zero failures or skips. The corrected fixture patch rebased uncha"
     }
    ]
   },
@@ -6084,5 +6060,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "83b0892b731bf88aee923081f73655915281f0ad"
+ "source_revision": "d2429dec270f7868a550126221e52815342eea60"
 }
