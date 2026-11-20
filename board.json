@@ -28,8 +28,8 @@
    "held": [
     {
      "who": "CLOUD_COMPLEXITY",
-     "since": "2026-11-20T12:24Z",
-     "noted": "2026-11-20T12:25Z",
+     "since": "2026-11-20T14:10Z",
+     "noted": "",
      "progress": 12,
      "ticked": 1,
      "total": 8
@@ -37,7 +37,7 @@
    ],
    "steps": [
     {
-     "t": "On main: places 1 to 33 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
+     "t": "On main: places 1 to 35 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
      "x": true
     },
     {
@@ -53,7 +53,7 @@
      "x": false
     },
     {
-     "t": "Cloud, prefab text: seven more views build their own objects in RAM with a lookup for each piece (GPS sky plot, Dev FPS label, MavChat grabber and progress bars, Pilot side tongues, row divider, dragg",
+     "t": "Cloud, prefab text: six more views build their own objects in RAM with a lookup for each piece (Dev FPS label, MavChat grabber and progress bars, Pilot side tongues, row divider, dragged-row blur, the",
      "x": false
     },
     {
@@ -61,7 +61,7 @@
      "x": false
     },
     {
-     "t": "Candidates, read fresh before acting: the route layout no prefab has (UI_NavigatorRoute without a sheet), yellow photo markers, Singleton_ThermalFeedProcessor on no prefab, the personnel push (place 2",
+     "t": "Candidates, read fresh before acting: Navigator.SetDestination is called only by the backdoor command ui.navigator.route and by tests, and six Navigator text keys have no reader (place 34, Left), yell",
      "x": false
     },
     {
@@ -69,13 +69,7 @@
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-20T12:25Z",
-     "text": "On main since the last note: top-left notification controls ask CurrentLeftView (a4a51beee09); 'telemetry on screen' is Station.UI.ShouldShowTelemetry, two prefab statics cut (0fd744e6816); 44 prefab fields no code read cut from 19 scripts "
-    }
-   ]
+   "notes": []
   },
   {
    "n": 362,
@@ -6588,6 +6582,6 @@
    "since": "2026-11-20T13:35Z"
   }
  ],
- "source_revision": "a9bcba30a7adcc023f2d544c015103626ffaad33",
- "board_revision": "30b15c7435ee955737c3e81a44811e70142b2fae"
+ "source_revision": "1181d4679c8181129e1795df9df694483950edd6",
+ "board_revision": "9fadd753014c9f0b10e6fea7b69ace96e626e37d"
 }
