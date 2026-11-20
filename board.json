@@ -5609,25 +5609,22 @@
   {
    "n": 1896,
    "name": "Navigator SPEC",
-   "done": "",
+   "done": "2026-11-20T09:48Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T09:43Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T09:48Z",
+     "text": "dce0c7d1d1 on main. Corrected 24 MavChat capsule button overlays including MGRS, Search and Route actions. Search and MGRS keep their press layers available in the quiet look. Prefab linkage checked and Roslyn found no new errors. MavChat d"
+    }
+   ]
   },
   {
    "n": 1897,
@@ -6226,5 +6223,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "f59a3368de0885eb961f28bf62757c1bfd3f0a26"
+ "source_revision": "dce0c7d1d1e1f98f81d44cbbb1e4ac99952eedcf"
 }
