@@ -2893,26 +2893,6 @@
    ]
   },
   {
-   "n": 1714,
-   "name": "Keep Grid Geometry child sums current by exact delta",
-   "done": "2026-11-19T00:09Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-19T00:09Z",
-     "text": "4703fc0148 keeps the validated Grid Geometry child subtotal. Ready changes apply exact deltas; own-record recalculation never folds the child dictionary. Extracted host: 48 controls, 7 mutation falsifiers, one 64-child fold then zero child "
-    }
-   ]
-  },
-  {
    "n": 1715,
    "name": "Align the Web Mercator priority-preview fixtures with the local interaction hold. Exercise remote-peer activity for priority serving and retire the conflicting interaction text in Web Mercator SPEC.",
    "done": "2026-11-19T00:57Z",
@@ -5016,27 +4996,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-20T00:02Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 1
-    }
-   ],
+   "held": [],
    "steps": [
     {
-     "t": "Measure scale drift between accepted windows. Compare registration against separated retained observations that still see the same surface, then replay the opposite-angle Helsinki join with all-real c",
+     "t": "Exercise bounded retained-view alignment in Unity TestRun and confirm the opposite-angle Helsinki join through the existing all-real check. Verify registered Pano360 across the join.",
      "x": false
     }
    ],
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-20T00:01Z",
-     "text": "3ed273564f adds per-view diagnostics and records the Helsinki controls. Fixed-pose depth changes worsened renderer error. Joint fitting improved held-out image tracks, but scale priors could still produce biased joins. Unity CPU/GPU compari"
+     "at": "2026-11-20T00:09Z",
+     "text": "4437c3e5d7 records accepted depth scale in the Unity audit. Native Helsinki located a scale step between windows ending at frames 39 and 47. B preserved A and stayed pending. The bounded real RGB-D fit recovered an offline placement proposa"
     }
    ]
   },
@@ -6025,5 +5996,5 @@
    "since": "2026-11-19T22:57Z"
   }
  ],
- "source_revision": "3ed273564f46684b6f85176b239daff80319a6d1"
+ "source_revision": "4437c3e5d76b466cd2ea81ab199f1c0fd79221ce"
 }
