@@ -5757,25 +5757,22 @@
   {
    "n": 1889,
    "name": "Navigator SPEC",
-   "done": "",
+   "done": "2026-11-20T08:37Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T08:32Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T08:37Z",
+     "text": "acff6519c7 on main. Current capsule uses the shared black body whenever the divider permits panel swiping, including quiet mode. Full unfold restores the usual glass and Search join. Neighbours take unmerged glass directly. Updated EditMode"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6360,5 +6357,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "22a6ff88d3ceff4cc7300d44c341da28eb7f26a2"
+ "source_revision": "acff6519c7b53eee661b6da69f665b5f4ac56085"
 }
