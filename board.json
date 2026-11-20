@@ -6121,25 +6121,22 @@
   {
    "n": 1938,
    "name": "Chat Send panel",
-   "done": "",
+   "done": "2026-11-20T16:24Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_CHAT_SEND",
-     "since": "2026-11-20T16:18Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_CHAT_SEND",
+     "at": "2026-11-20T16:24Z",
+     "text": "c522106c26 on main. Send lists saved Restream links by name in Chat and MavChat. Sends one link through the existing authenticated peer path. Checked both Chat prefab callbacks in Unity. EditMode passed 244 (Localization 26, MavChat 138, Re"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6740,6 +6737,6 @@
    "since": "2026-11-20T15:52Z"
   }
  ],
- "source_revision": "f4fa7ecc9a82941a05ad1894a43952eff7dd3b3a",
- "board_revision": "4a4efa63238116f422b62fa85bf9fe2a80791b1e"
+ "source_revision": "fe34659afb5231acb27ee76d654d3350199907d5",
+ "board_revision": "03451cc302d05031ec29761a175ff514461923a8"
 }
