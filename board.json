@@ -5952,7 +5952,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD_COMPILE",
+     "since": "2026-11-20T22:24Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 2
+    }
+   ],
    "steps": [
     {
      "t": "Editor agent: time one Prublyda edit with and without the constraint (task 1952 numbers)",
@@ -6701,5 +6710,5 @@
   }
  ],
  "source_revision": "ba1b70f1ab021f0b8fe3caeeb63bfbe5f2743526",
- "board_revision": "b84ae7c2bd4cfc0242d9b138adbd51f85dac23cc"
+ "board_revision": "417aa794eebad176269511d33a4822e2236da905"
 }
