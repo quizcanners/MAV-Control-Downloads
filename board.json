@@ -2966,26 +2966,6 @@
    ]
   },
   {
-   "n": 1798,
-   "name": "Mac Unity cannot compile Street View Save after 47c7ed79e0 removed the Build overload still used by retained surface cells. Restore the existing mesh build path without changing saved output.",
-   "done": "2026-11-19T19:05Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T19:05Z",
-     "text": "f2650d74a7 restores the positive-quality cell filter in Street View Save. Native Mac Unity compiled and entered Play. StreetViewModelSurfacePacketTests 1/0/0. Roslyn removed the CS1503 in all four passes, NEW ERRORS none. UnityCanonicalChan"
-    }
-   ]
-  },
-  {
    "n": 1799,
    "name": "Mac Metal canonical Street View change readback returns a wrong quality (0 instead of 0.4)",
    "done": "2026-11-19T19:35Z",
@@ -6135,6 +6115,29 @@
      "text": "Published 8425dc589c. Paste joins the input on the first row. Clear and Copy wrap below when needed. Mac EditMode 156 passed, 0 failed, 0 skipped, including joined edges and the actual shared X touch area at the narrow width. Roslyn reporte"
     }
    ]
+  },
+  {
+   "n": 1950,
+   "name": "Suppress pointed highlights during scroll selection using one Bootstrap interaction enum for Menu",
+   "done": "",
+   "goal": false,
+   "under": 367,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_SCROLL_POINTING",
+     "since": "2026-11-20T19:07Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -6732,5 +6735,5 @@
   }
  ],
  "source_revision": "34ea916c2d697c26fc0ba3b63b361be38b4ed8fa",
- "board_revision": "cac3c5b6acc504720d6b7399b0b07711c1814002"
+ "board_revision": "0b585ca5da42709d18161790cedb1b1d5dd632df"
 }
