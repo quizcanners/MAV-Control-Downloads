@@ -2956,31 +2956,6 @@
    ]
   },
   {
-   "n": 1806,
-   "name": "Web Mercator SPEC",
-   "done": "2026-11-19T21:18Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T21:18Z",
-     "text": "39019a8460 on main. Mac .NET 8 with real queue, pins, admission, read worker and snapshot owners measured 40 to 0 B/traversal, 64 to 0 B/paused attempt and 784 to 736 B/admitted read. FIFO, pins, captured revisions, pause, retries and loss "
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-19T22:17Z",
-     "text": "e6ce9dc88a on main. Getac ran Unity 6000.6.8f1 EditMode on 981986c44d containing 39019a8460, under the disposable Station test identity. IndexPaging 74 and SqliteOutbound 15 passed, 0 failures/skips/inconclusive. Verified cleanup pins, page"
-    }
-   ]
-  },
-  {
    "n": 1807,
    "name": "Situation Entities SPEC",
    "done": "",
@@ -6114,25 +6089,22 @@
   {
    "n": 1958,
    "name": "Normal DJI compass",
-   "done": "",
+   "done": "2026-11-20T21:25Z",
    "goal": false,
    "under": 364,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "DJI-Compass",
-     "since": "2026-11-20T21:17Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "DJI-Compass",
+     "at": "2026-11-20T21:25Z",
+     "text": "Published 3704354b9b and 016d2df4ee on main. Compass uses DJI warning and braking distances and fresh own-track closure. Full Java bridge compiled against DJI 5.18; 61 host assertions passed; Roslyn found no new errors. Compass and Pilot Vi"
+    }
+   ]
   },
   {
    "n": 1959,
@@ -6766,6 +6738,6 @@
    "since": "2026-11-20T21:14Z"
   }
  ],
- "source_revision": "978130bd24bceb914cda50f0f69e9f5ab6fc3ad4",
- "board_revision": "06f4ba7c11fcd784e1883d17f01b73b175159d69"
+ "source_revision": "016d2df4ee5f2233ddbd88505e772c2c84a6878a",
+ "board_revision": "d11642307dcf80307cb1eee1b0f5980b358c0299"
 }
