@@ -2728,16 +2728,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_3D_MAP_SPEC",
-     "since": "2026-11-20T18:52Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Reduce late-flight pose drift on Kalasatama using independent landmarks. Check depth at the same accepted pixels with independently fitted cameras (1897).",
@@ -2752,7 +2743,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_3D_MAP_SPEC",
+     "at": "2026-11-20T18:53Z",
+     "text": "Published d5840ff35d to main. Current scope is photo positioning, paired depth, automatic stitching and measured performance. Guide check reported 0 errors and 8 existing warnings. Documentation only, Unity replay not rerun. Next: Kalasatam"
+    }
+   ]
   },
   {
    "n": 1704,
@@ -6722,5 +6719,5 @@
   }
  ],
  "source_revision": "d5840ff35d3da0a034efb9b7cc623fe106233beb",
- "board_revision": "0cf8213ae332c7f306a11514362a815cbd12e83a"
+ "board_revision": "c89488cb132cc1d39a150565e4acd217b412d913"
 }
