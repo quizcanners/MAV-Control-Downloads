@@ -6161,25 +6161,22 @@
   {
    "n": 1942,
    "name": "Android DJI Restream",
-   "done": "",
+   "done": "2026-11-20T17:02Z",
    "goal": false,
    "under": 431,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_DJI_RESTREAM_STATE",
-     "since": "2026-11-20T16:50Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_DJI_RESTREAM_STATE",
+     "at": "2026-11-20T17:02Z",
+     "text": "e08ef81f1e verified on main. Android DJI stream state owns callback results, 15 s timeout, retry and safe error code. MSDK 5.18 javac, simulated failure/retry/late callback checks, Android Roslyn (no new errors) and localization passed. APK"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6780,6 +6777,6 @@
    "since": "2026-11-20T15:52Z"
   }
  ],
- "source_revision": "7f19d80ebd55061a95eb7b52f6ba632458ef413d",
- "board_revision": "b28c14cb7d65daf92432c10fea2bc2f6f2abf7ea"
+ "source_revision": "704a14e52eefafadeca8172cef8cb95b6e944bdd",
+ "board_revision": "333d9e7eff5b43d8504b87d7debe14a58475f578"
 }
