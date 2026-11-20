@@ -2893,26 +2893,6 @@
    ]
   },
   {
-   "n": 1729,
-   "name": "Main View SPEC",
-   "done": "2026-11-19T04:52Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T04:52Z",
-     "text": "244e42fa29 on main. Both red checks expected the old swipe-root hierarchy. The loaded prefab puts the transition and tab row under Suggestions Top Content."
-    }
-   ]
-  },
-  {
    "n": 1731,
    "name": "Navigator SPEC",
    "done": "2026-11-19T05:15Z",
@@ -4696,36 +4676,23 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-20T04:36Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 2
-    }
-   ],
+   "held": [],
    "steps": [
     {
-     "t": "Bind the admitted sparse calibration to the running Unity candidate. Give Fusion, retained photo depth and Pano360 the same calibrated camera and depth, and keep the existing cloud on refusal.",
-     "x": false
-    },
-    {
-     "t": "Build the bounded landmark bank in ordinary Unity recovery and qualify the Helsinki source switch with the earlier Disk cloud and registered Pano360 preserved.",
+     "t": "Build a bounded accepted-photo landmark bank in ordinary Unity recovery. Use the calibrated admission to join the Helsinki sources automatically and preserve the earlier Disk cloud and registered Pano",
      "x": false
     }
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-20T04:35Z",
-     "text": "92d77fa0c1 verifies sparse Unity calibration through Backdoor. The reference and verified-lens deep cases passed. Learned optics missed one deep held-out pixel limit, and shifted landmarks and a wrong source lens refused. Unity import and R"
-    },
-    {
      "by": "MAC_BOARD",
      "at": "2026-11-20T04:51Z",
      "text": "Street View Disk low-memory follow-up for the current owner: Tick in VideoProcessing_StreetViewDiskLayer.cs calls GenerationMemory.Blocks(true) on the Layers switch alone, before RefreshRegions finds runnable work. Above browse altitude or "
+    },
+    {
+     "by": "HEAVY",
+     "at": "2026-11-20T04:54Z",
+     "text": "3a7ae0e558 shares the admitted camera and depth across Disk Fusion, retained photo depth and Pano360. Helsinki TestRun joined B and loaded exact B87 depth. Displacing held-out landmarks refused B and preserved the canonical Disk digest. Uni"
     }
    ]
   },
@@ -6437,5 +6404,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "92d77fa0c1964ed2f6e756d9ed6386e93416003a"
+ "source_revision": "3a7ae0e558d95630fb393fb2bedde0e126572588"
 }
