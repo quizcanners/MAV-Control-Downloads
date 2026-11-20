@@ -5657,25 +5657,22 @@
   {
    "n": 1853,
    "name": "Exclusive lighting settings",
-   "done": "",
+   "done": "2026-11-20T02:42Z",
    "goal": false,
    "under": 363,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T02:28Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T02:42Z",
+     "text": "1bd3637e60 on main. Expected Default at initialization, actual Uninitialized. The real brightness read initializes only the requested mode. The test checks first-read defaults, user value at default, JSON reload, old-version Night .4 to 1, "
+    }
+   ]
   },
   {
    "n": 1854,
