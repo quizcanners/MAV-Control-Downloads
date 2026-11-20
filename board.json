@@ -2893,26 +2893,6 @@
    ]
   },
   {
-   "n": 1728,
-   "name": "Nightly README",
-   "done": "2026-11-19T04:36Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T04:36Z",
-     "text": "92c4f37093 on main. Daily Git applies the journaled row to current Build History."
-    }
-   ]
-  },
-  {
    "n": 1729,
    "name": "Main View SPEC",
    "done": "2026-11-19T04:52Z",
@@ -4736,7 +4716,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-20T04:36Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 2
+    }
+   ],
    "steps": [
     {
      "t": "Bind the admitted sparse calibration to the running Unity candidate. Give Fusion, retained photo depth and Pano360 the same calibrated camera and depth, and keep the existing cloud on refusal.",
