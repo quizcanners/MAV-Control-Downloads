@@ -5831,25 +5831,22 @@
   {
    "n": 1914,
    "name": "Settings / System / Sound",
-   "done": "",
+   "done": "2026-11-20T13:08Z",
    "goal": false,
    "under": 409,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T13:01Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T13:08Z",
+     "text": "f9b0aefa92 on main. Mac cold Play with notification volume saved at zero showed Off and both sliders while soundOwner=False. A test-profile change to 55% admitted Sounds and showed the healthy mixer tick. Direct pointer drag remains for vis"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6434,5 +6431,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "62f4aa1c9f753c489719cbc30ddfc74ca10f4950"
+ "source_revision": "f9b0aefa92cce9d6109299d7ff2fe8815869b899"
 }
