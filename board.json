@@ -5838,7 +5838,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "HEAVY",
+     "since": "2026-11-20T15:07Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -6128,6 +6137,20 @@
      "total": 0
     }
    ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 1932,
+   "name": "Remote Sensors",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
    "steps": [],
    "notes": []
   }
@@ -6727,5 +6750,5 @@
   }
  ],
  "source_revision": "c17cb866c2101761ebbc5f5b3ae730b614bcaaac",
- "board_revision": "2c22dece9a82ea17971158c16319532fc74183f1"
+ "board_revision": "7e57053e22e75490c5f81f5edb15ac0108600c11"
 }
