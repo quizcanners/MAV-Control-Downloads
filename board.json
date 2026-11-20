@@ -5856,22 +5856,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "HEAVY",
-     "since": "2026-11-20T14:22Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "HEAVY",
-     "at": "2026-11-20T14:18Z",
-     "text": "846d054c78 on main gives confirmed sharper photos a bounded retention preference. UnityKeyframeProvenanceTests passed 18/18. Get photo still takes the native DJI still and keeps its video fallback. Next wire exact measured pairs into ordina"
+     "at": "2026-11-20T14:33Z",
+     "text": "ef00d5790b on main accepts ready metric depth in the native DJI still save, scoped to the matching capture version, lens and JPEG. Two Unity replays preserved all JPEGs, admitted only the matched depth and rebuilt the saved still through th"
     }
    ]
   },
@@ -6689,6 +6680,6 @@
    "since": "2026-11-20T13:35Z"
   }
  ],
- "source_revision": "de8797f18e12849e55166b866c8c3fd2e4be88f7",
- "board_revision": "9ecba5702de5659173d23e43cc56eba91cfd904a"
+ "source_revision": "ef00d5790bb4f3bc9aeb01ccb31ce16cc03a40d4",
+ "board_revision": "c7e8a6e1900256e2fdd157e774632c20387fe18b"
 }
