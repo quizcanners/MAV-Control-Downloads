@@ -2612,7 +2612,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_PASIKA_COVER",
+     "since": "2026-11-20T19:29Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Split the continuous capture owner by capture, window handoff, publication and Save. Start with VideoProcessing_RtxContinuous.cs, VideoProcessing_RtxUnityContinuous.cs and VideoProcessing_RtxOdometryM",
@@ -6728,5 +6737,5 @@
   }
  ],
  "source_revision": "91e2a8756e676ff4521e4c23b651ff079cdad0a6",
- "board_revision": "b2adf4ed6f7b073def8b59084ffe9d6bb29ee0d1"
+ "board_revision": "ac169353f2298b5744abb8ef0e63fe580d0e9f22"
 }
