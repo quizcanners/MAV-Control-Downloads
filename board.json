@@ -2037,16 +2037,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T11:17Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -2061,8 +2052,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-19T22:25Z",
-     "text": "91610eb281 dismisses the entire Alternatives tab from the active selected tab while preserving the selection, saved lock and double-tap focus. A fresh map pick can show alternatives again. Roslyn clear; touchscreen replay remains open. Earl"
+     "at": "2026-11-20T11:18Z",
+     "text": "4511b62376 fixed the distinct locked-point/centre altitude line. 91610eb281 preserves the lock when dismissing Alternatives. Centre tap still needs the affected touchscreen: prior Mac replay accepted a quick tap, and devicectl reports both "
     }
    ]
   },
