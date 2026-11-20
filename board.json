@@ -5643,25 +5643,22 @@
   {
    "n": 1899,
    "name": "Navigator SPEC",
-   "done": "",
+   "done": "2026-11-20T10:07Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T10:02Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T10:07Z",
+     "text": "c1cfd21315 on main. The one-pixel line shares the floating panel\u2019s side insets throughout fold motion. Roslyn reported no new errors, and prefab horizontal anchors and offsets match. The Edit Mode layout assertion and iPhone visual check ar"
+    }
+   ]
   }
  ],
  "verify": [
@@ -6246,5 +6243,5 @@
    "since": "2026-11-20T04:25Z"
   }
  ],
- "source_revision": "8b51f6db7ae6b69d29cd1fe68f25bd4db82bcc02"
+ "source_revision": "c1cfd213152a73984daca75b580f8af038b46acd"
 }
