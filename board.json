@@ -673,16 +673,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-20T05:27Z",
-     "noted": "",
-     "progress": 21,
-     "ticked": 3,
-     "total": 14
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Published to GitHub Test: Windows 831 portable (7ed82324aa) and Linux x64 831 (e17575dd18), both MAVSEAL1; Windows installer 831 compiled from the published player (243600249 bytes, receipts under C:/",
@@ -743,11 +734,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-14T12:34Z",
-     "text": "Brigade 68 Windows IL2CPP 835 built from 085f0ccdc3, verified 93-entry private portable, and rendered the map. In App updates, Test selected by tap and Refresh diagnostics confirmed checked Test / windows-x64 / Division_Brigade_68; no publi"
-    },
-    {
      "by": "CODEX_GRAPHICS",
      "at": "2026-11-14T13:11Z",
      "text": "Done: iOS 838, source 5aaeb3ba39; test compile fix PR88, release PR89, history PR90."
@@ -756,6 +742,11 @@
      "by": "CODEX_UPDATES",
      "at": "2026-11-14T13:18Z",
      "text": "Android 835 is live in Drive Android/Test and sealed GitHub Test. EditMode All 8,532 passed, 4 failed, 8 skipped, advisory per quiz. App updates now retains completed Release/Test results through refresh/cancel, with server failure and no p"
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-20T05:28Z",
+     "text": "Apple read-only check Nov 20 05:28 UTC: exact Brig68 868 iOS and macOS are VALID and IN_BETA_TESTING internally. Both external builds still WAITING_FOR_BETA_REVIEW with WAITING_FOR_REVIEW receipts. Existing group assignments were verified a"
     }
    ]
   },
