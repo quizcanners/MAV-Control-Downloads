@@ -6058,25 +6058,22 @@
   {
    "n": 1927,
    "name": "Video to RTMPS link editor",
-   "done": "",
+   "done": "2026-11-20T14:28Z",
    "goal": false,
    "under": 431,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_RTMPS_PROFILE",
-     "since": "2026-11-20T14:19Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_RTMPS_PROFILE",
+     "at": "2026-11-20T14:28Z",
+     "text": "de8797f18e on main adds Windows FFmpeg output profiles and typed ingest reply logs. Go relay suite, localization and guide checks passed. Bundled FFmpeg produced 720p/20 fps at a 2500 kb/s target on a local sample. Full Roslyn comparison in"
+    }
+   ]
   },
   {
    "n": 1928,
@@ -6693,5 +6690,5 @@
   }
  ],
  "source_revision": "de8797f18e12849e55166b866c8c3fd2e4be88f7",
- "board_revision": "806f0d91e8ff4edd4f0d54d9ca935e7299bfb91d"
+ "board_revision": "e3a354a8e4c0af013a34676caac36623365fe613"
 }
