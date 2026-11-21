@@ -3105,26 +3105,6 @@
    ]
   },
   {
-   "n": 1885,
-   "name": "Fix Network nested controller and instance-field name collisions from ecdbaac435",
-   "done": "2026-11-20T08:09Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-20T08:09Z",
-     "text": "Upstream 181c7c3118 landed the Network type/field collision fix first. Verified on main at 0f0110c595 with Roslyn against 964195cef9: NEW ERRORS none. Kept the upstream fix and released the claim. Web Mercator repair and paired measurements"
-    }
-   ]
-  },
-  {
    "n": 1887,
    "name": "Navigator SPEC",
    "done": "2026-11-20T08:18Z",
@@ -4812,25 +4792,22 @@
   {
    "n": 1967,
    "name": "Notifications SPEC",
-   "done": "",
+   "done": "2026-11-21T08:10Z",
    "goal": false,
    "under": 410,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_NOTIFICATION_TONGUE",
-     "since": "2026-11-21T08:01Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_NOTIFICATION_TONGUE",
+     "at": "2026-11-21T08:10Z",
+     "text": "b01a0566a7 on main. The landscape tongue shows only a centered arrow while cards are visible. Kind summary and active progress return when folded. 12 targeted Unity tests passed, the progress line probe passed, and Roslyn found no new error"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5447,6 +5424,6 @@
    "since": "2026-11-21T05:34Z"
   }
  ],
- "source_revision": "31071afc5895ecc631687016960e8bbc7f8feb35",
- "board_revision": "e7b8fa44c3dc944381d07799852aa6a7b65144dc"
+ "source_revision": "b01a0566a7ab3a83144ce047de46fb8140cd6a47",
+ "board_revision": "dfbc062f0aab80284c761ddd812a935b7cc774f8"
 }
