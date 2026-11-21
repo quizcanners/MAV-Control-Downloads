@@ -3100,26 +3100,6 @@
    ]
   },
   {
-   "n": 1916,
-   "name": "Settings / Map / Advanced / Base map",
-   "done": "2026-11-20T13:29Z",
-   "goal": false,
-   "under": 409,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T13:29Z",
-     "text": "08e47fd2a5 on main. Base map shows current status or pending parent-tile rebake above cleanup and quality. Mac Play rendered the Offline tick first. Parent-rebuild EditMode 6 passed, 0 failed, 0 skipped. Roslyn clean. Pending-state look is "
-    }
-   ]
-  },
-  {
    "n": 1917,
    "name": "Use measured DJI Zenmuse LiDAR for 3D map generation. Project calibrated DJI Terra LiDAR and RGB into paired metric depth and rebuild Disks in Unity without Depth Anything. Keep the live Payload SDK s",
    "done": "",
@@ -4710,29 +4690,20 @@
   {
    "n": 1993,
    "name": "Compass obstacle dots show every usable DJI Perception range",
-   "done": "",
+   "done": "2026-11-21T13:29Z",
    "goal": false,
    "under": 364,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_COMPASS_ALERT",
-     "since": "2026-11-21T13:08Z",
-     "noted": "2026-11-21T13:18Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "MAC_COMPASS_ALERT",
-     "at": "2026-11-21T13:18Z",
-     "text": "Compass source and timed EditMode cases are ready in the shared checkout. Yellow dots show full usable range with a readable baseline pulse and faster urgency from 4 s to 1 s on comparable fresh scans. git diff --check and guide_check passe"
+     "at": "2026-11-21T13:29Z",
+     "text": "8ae5840b26 on main. Yellow range dots and closure-driven pulse. 19 compass tests passed. Object category and object velocity are unavailable from DJI range data. Grounded bench appearance still due. Roslyn no new errors."
     }
    ]
   },
@@ -5489,5 +5460,5 @@
   }
  ],
  "source_revision": "993ad2ced86ae15ad8a97dafa9f638ace37a0963",
- "board_revision": "bbc0dd4e77632007923eb90144d86202d90dcfda"
+ "board_revision": "c1977dfbabb6ec4a9e05ffe587023b74e7a087e7"
 }
