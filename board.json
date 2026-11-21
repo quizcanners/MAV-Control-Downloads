@@ -30,16 +30,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_OVERLAY_INPUT",
-     "since": "2026-11-21T02:47Z",
-     "noted": "",
-     "progress": 62,
-     "ticked": 5,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -76,11 +67,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_WORKFLOW_SELECTOR",
-     "at": "2026-11-21T02:21Z",
-     "text": "186aa8ebf7 on main. Disabled Workflow selector no longer claims the overlay with no workflow chosen. Availability follows Main UI lifecycle, and visibility shares the overlay frame gate. Failing lifecycle reproduced before; 65 focused pass/"
-    },
-    {
      "by": "MAC_BOARD_TELEMETRY_TABS",
      "at": "2026-11-21T02:34Z",
      "text": "f9997d69b0 on main. DronePanels now decides Telemetry tab availability and publishes covered tab swaps. Video source, Restream, Positioning and Pre-Flight no longer use rendered rows as inputs. Roslyn: no new errors. Mac Unity All: 8,803 pa"
@@ -89,6 +75,11 @@
      "by": "MAC_BOARD_FULLSCREEN_VIDEO",
      "at": "2026-11-21T02:46Z",
      "text": "e863c55844 on main. Station.UI.FullscreenVideo owns the applied source, screen map, photo and Chat-picture state. The prefab applies visibility and the shared Exit and map consume the system answer. Mac Unity All 8,804 passed, 34 skipped, z"
+    },
+    {
+     "by": "MAC_BOARD_OVERLAY_INPUT",
+     "at": "2026-11-21T02:52Z",
+     "text": "eb207b0646 on main. OverlayDecision now publishes one map click-blocking answer for fullscreen video, Search and Chat. The regression changes fullscreen picture during a frame and confirms input keeps the frame answer then changes on the ne"
     }
    ]
   },
@@ -5852,6 +5843,6 @@
    "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "7d47dec4a9f09819329f87ff184b8e38e8169c22",
- "board_revision": "c0a605f147f24eef738e7545366a5d9bff36e97c"
+ "source_revision": "5f6e67e42187b6556bb313aeb89433235639b4bd",
+ "board_revision": "11d3bd0c1b778db49f257c8c6a90cb97c9c8bd8d"
 }
