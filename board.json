@@ -21,7 +21,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-21T02:46Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -30,8 +32,8 @@
      "who": "MAC_BOARD_FULLSCREEN_VIDEO",
      "since": "2026-11-21T02:35Z",
      "noted": "",
-     "progress": 12,
-     "ticked": 1,
+     "progress": 25,
+     "ticked": 2,
      "total": 8
     }
    ],
@@ -42,7 +44,7 @@
     },
     {
      "t": "Cloud: fullscreen video \"owns the screen\" is answered by the video prefab (Singleton_UI_VideoFeed.OwnsFullVideoPresentation, read in 13 files). Whose video, video or screen map and the photo on screen",
-     "x": false
+     "x": true
     },
     {
      "t": "Cloud: which telemetry tabs exist is still decided by the telemetry prefab from its panels' rows (Tabs.UpdateTelemetryTabAvailability reads HasContent, which is activeSelf of the rows): the rows' cond",
@@ -3058,86 +3060,6 @@
    ]
   },
   {
-   "n": 1852,
-   "name": "Notifications SPEC",
-   "done": "2026-11-20T02:42Z",
-   "goal": false,
-   "under": 410,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T02:42Z",
-     "text": "6e5794693a on main. The EditMode refresh clock advanced and entered physical camera input with no camera. The fixture now uses the shared frame snapshot for its synthetic pointer events. Mac NotificationTongueDrag 11/0/0 in both focused and"
-    }
-   ]
-  },
-  {
-   "n": 1853,
-   "name": "Exclusive lighting settings",
-   "done": "2026-11-20T02:42Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T02:42Z",
-     "text": "1bd3637e60 on main. Expected Default at initialization, actual Uninitialized. The real brightness read initializes only the requested mode. The test checks first-read defaults, user value at default, JSON reload, old-version Night .4 to 1, "
-    }
-   ]
-  },
-  {
-   "n": 1854,
-   "name": "Main camera diagnostics",
-   "done": "2026-11-20T02:43Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T02:43Z",
-     "text": "436af61a8e on main. Expected usage ending status, actual status|stop since 2c8fc82160. All 13 malformed inputs keep the exact diagnostic and null-camera call. Mac MainCameraGoto 3/0/0. Containing All 59452f7d16 before final rebase and task "
-    }
-   ]
-  },
-  {
-   "n": 1855,
-   "name": "Planet Renderer SPEC",
-   "done": "2026-11-20T02:43Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T02:43Z",
-     "text": "fd4577016d on main. Expected zero resident bytes, actual 7000 for one charged spare query pair. The fixture keeps zero reservation, no mesh, no publication and the diagnostic, then drains the actual pool and requires both ledgers to return "
-    }
-   ]
-  },
-  {
    "n": 1856,
    "name": "Video diagnostics",
    "done": "2026-11-20T02:54Z",
@@ -5927,6 +5849,6 @@
    "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "1d2c510df09d3ee2e663f69299a12ae9035797a9",
- "board_revision": "f4f99e6c0f048bf4e272df35b42c20d8ddb51999"
+ "source_revision": "7d47dec4a9f09819329f87ff184b8e38e8169c22",
+ "board_revision": "9ce0e632ad3e08309e88847ae18ab3640024b2c2"
 }
