@@ -25,16 +25,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_ROW_DRAG_BLUR",
-     "since": "2026-11-21T00:00Z",
-     "noted": "",
-     "progress": 12,
-     "ticked": 1,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -71,11 +62,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_UPDATE_CHANNEL",
-     "at": "2026-11-20T23:26Z",
-     "text": "ded620d53f on main. App updates uses its authored Canvas, mask and two Release/Test slots with the shared glass template. Selection and scroll still bind through Settings. Full Mac EditMode 8,799 passed, 35 skipped, zero failures. App Updat"
-    },
-    {
      "by": "MAC_BOARD_PILOT_HANDLES",
      "at": "2026-11-20T23:44Z",
      "text": "fc6f978acd on main. Pilot fold handles, artwork and all nine gesture links are authored in the prefab. Full Mac Unity EditMode: 8,799 passed, 35 skipped, zero failures. Roslyn found no new errors. Both imported sprites matched the old alpha"
@@ -84,6 +70,11 @@
      "by": "MAC_BOARD_ROW_DIVIDERS",
      "at": "2026-11-20T23:59Z",
      "text": "17983739c8 on main. Shared Row Divider authored in 22 prefab assets, 65 bindings. Unity checked 370 resolved standard rows for placement, shader, clipping flag and inactive state. Actual peer-row fixture passed both-edge cull, selection and"
+    },
+    {
+     "by": "MAC_BOARD_ROW_DRAG_BLUR",
+     "at": "2026-11-21T00:10Z",
+     "text": "a9974ddf23 on main. Dragged-row blur is authored in all eight context-row prefabs. Unity resolved all eight and passed the 12 lift/return/fold/scroll cases. Mac EditMode All 8,799 passed, 35 skipped, zero failures. Separate mouse-release ti"
     }
    ]
   },
@@ -6377,6 +6368,6 @@
    "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "16870c684006366324f8fd7b930e7e7a37f46f94",
- "board_revision": "8859a6fb0baaf70396a611a117b1aa63cdf76c14"
+ "source_revision": "4f2219756e29aa0e3d7c823367d9b7458162b7fc",
+ "board_revision": "68c0c729b4ae0d14d545857a30b4c99a6b51d9d9"
 }
