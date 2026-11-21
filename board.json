@@ -25,16 +25,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_PAINT_UI",
-     "since": "2026-11-21T01:12Z",
-     "noted": "",
-     "progress": 12,
-     "ticked": 1,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -71,11 +62,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_CHAT_PAGER",
-     "at": "2026-11-21T00:42Z",
-     "text": "afc2185ddb on main. Completed Peers pager and visibility step: Chat window and Navigator own their page, and LeftLists owns List Picker and Search hiding. Peers can load before the pager. Unity EditMode All: 8,800 passed, 35 skipped, no fai"
-    },
-    {
      "by": "MAC_BOARD_UI_FRAME",
      "at": "2026-11-21T00:55Z",
      "text": "d44632827f on main. ShouldHideLists and ShouldShowUIInteractionOptions each publish one answer per frame. The new regression changes Chat view and map lock within a frame, then checks that both answers update on the next. Mac Unity EditMode"
@@ -84,6 +70,11 @@
      "by": "MAC_BOARD_SEARCH_FRAME",
      "at": "2026-11-21T01:10Z",
      "text": "e15cea1bce on main. Search owns QueryShown once per frame. Keyboard routing and the query view share it, and folding keeps the draft while releasing input even before the prefab loads. Removed the scheduled update that wrote an unread flag."
+    },
+    {
+     "by": "MAC_BOARD_PAINT_UI",
+     "at": "2026-11-21T01:27Z",
+     "text": "aa0cf63eb4 on main. Shared frame decisions own Painting availability and color picker visibility. Station input owns Ctrl+D and Menu/MavChat Tools read the same Painting answer. Mac Unity EditMode All after script reload: 8,802 passed, 35 s"
     }
    ]
   },
@@ -1772,6 +1763,11 @@
      "by": "MAC_BOARD_INPUT",
      "at": "2026-11-20T22:41Z",
      "text": "bf2f450be9 on main. Station Input owns scripted mouse move and drag parsing and command metadata. Unity refresh and Roslyn passed on the published source. 16 focused EditMode checks and 7 dispatcher argument/readiness cases passed. Other co"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-21T01:19Z",
+     "text": "CR-7D19-01 P3: Linked Browser ink can read another frame's scroll and zoom. S1/S2 brief ready for quiz: [review](https://github.com/quizcanners/MAV_Control/blob/main/Coordination/Reviews/81515eda6.md#cr-7d19-01--p3-linked-browser-ink-can-us"
     }
    ]
   },
@@ -2988,26 +2984,6 @@
      "by": "MAC_BOARD",
      "at": "2026-11-20T11:58Z",
      "text": "Closed the completed checklist. 46603fdbfb qualified Windows live source joins and Zurich refusal. d7484ffabd records Mac Metal: three saved depth photos produced 1,036 disks, evicted on zoom out, rebuilt on return and released draw buffers"
-    }
-   ]
-  },
-  {
-   "n": 1838,
-   "name": "Planet Renderer SPEC",
-   "done": "2026-11-20T01:24Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-20T01:24Z",
-     "text": "449e73c651 on main. Same 31,510 folds and hash in 493 to 2 host updates, 40,488 to 31,527\u201331,528 visits, 3.008 ms host peak. 32/32 native, Roslyn no new errors. Device timing open."
     }
    ]
   },
@@ -6177,6 +6153,6 @@
    "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "9b53b24460f1941979d332c8f1add14dd7cab3ef",
- "board_revision": "1bf5b1f8e8c91c5824927cdfc458ed3fa8403fb0"
+ "source_revision": "39e3395a3a9d1b53cbe946fd4809ff600d262942",
+ "board_revision": "487e14b77d1fce0d1cdded5b6a91bc021c96a431"
 }
