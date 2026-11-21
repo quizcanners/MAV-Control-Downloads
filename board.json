@@ -4610,23 +4610,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_DECODER_REPEAT_FIXTURE",
-     "since": "2026-11-21T10:36Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_HELSINKI_DEGRADATION",
-     "at": "2026-11-21T10:04Z",
-     "text": "9ac600f680 compares fog, JPEG quality 8, rain and +70 m on matched Helsinki routes. All 50 executed Zurich controls refused. Leading SMALL joins held under fog/rain, compressed A disconnected, and high-altitude joins still drifted ~13 m. Re"
-    },
     {
      "by": "CODEX_HELSINKI_STREAM_GAPS",
      "at": "2026-11-21T10:23Z",
@@ -4636,6 +4622,11 @@
      "by": "CODEX_NATIVE_GAP_REPLAY",
      "at": "2026-11-21T10:27Z",
      "text": "ed6457fc1b adds file freeze/forward-seek to the native unsaved-draft replay. It verifies accepted counters and canonical digest through the hold and requires post-gap keyframes on the original source before timing recovery. Eight host harne"
+    },
+    {
+     "by": "CODEX_DECODER_REPEAT_FIXTURE",
+     "at": "2026-11-21T10:44Z",
+     "text": "96b1afbe59 adds matched H.264 decoder fixtures and native replay observation. FFmpeg and macOS AVFoundation decoded 73 identical pictures at distinct 24 FPS timestamps and a fresh picture after the 48-exposure jump. Eleven host checks passe"
     }
    ]
   },
@@ -5346,6 +5337,6 @@
    "since": "2026-11-21T09:53Z"
   }
  ],
- "source_revision": "646281031c09d4ecb1f5de7ae8b8e05af9f756b1",
- "board_revision": "52f4c8b3843050a063ed5d1e7b14fe7908195ca8"
+ "source_revision": "96b1afbe59526e12ed26a5069f5e266cd6f6b969",
+ "board_revision": "fcece5b7a26adf6535d07d1559f1ed854063f870"
 }
