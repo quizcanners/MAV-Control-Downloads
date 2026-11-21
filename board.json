@@ -3818,16 +3818,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T16:46Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -3842,8 +3833,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T16:45Z",
-     "text": "b76e6c29b4 verified clean native join at unchanged gate with retained lens alone or lens plus calibrated poses. JPEG8 still refused, and all eight Zurich controls refused. Two-anchor SIFT improved held-out poses but same-pair JPEG depth sta"
+     "at": "2026-11-21T16:56Z",
+     "text": "80a92bbef2 adds one-model native replay on all three BASE references. Exported conditioned SMALL passed parity. Disk reserve stopped Metal after clean opening capture. CPU replay confirmed retained geometry under the gate but every related "
     }
    ]
   },
@@ -5179,6 +5170,6 @@
    "since": "2026-11-21T16:49Z"
   }
  ],
- "source_revision": "ad66c686d3c0bc01becfef73a41a856ca9a2c2cd",
- "board_revision": "525bb7a4de87c888fe68fc4088732be1ddeded7a"
+ "source_revision": "80a92bbef2025360669dab57de0f25d3ecfd10eb",
+ "board_revision": "294c3557025ed81c884e8acac04052f23890d8f0"
 }
