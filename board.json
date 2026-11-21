@@ -3131,46 +3131,6 @@
    ]
   },
   {
-   "n": 1947,
-   "name": "Drive Video Source from capture state. See Drone Control UI SPEC",
-   "done": "2026-11-20T18:53Z",
-   "goal": false,
-   "under": 364,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_DJI_SOURCE",
-     "at": "2026-11-20T18:53Z",
-     "text": "d43a2b9d05 and 7ecf2d3797 on main. State-dependent source menus, pause/resume, first-frame drone takeover, standalone file fallback and dismissal of an open capture picker. Roslyn NEW ERRORS: none. 35 host state and playback checks, 3 catal"
-    }
-   ]
-  },
-  {
-   "n": 1948,
-   "name": "Make the MavChat divider a one-pixel highlight that fades to transparent at both panel edges (Navigator SPEC",
-   "done": "2026-11-20T18:54Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_MAVCHAT_LINE",
-     "at": "2026-11-20T18:54Z",
-     "text": "Published 281387b1eb. MavChat uses the shared physical one-pixel highlight with both ends fading inside the panel. Mac EditMode 145 passed, 0 failed, 0 skipped, including rendered fade and shared-edge layout. Roslyn reported no new errors. "
-    }
-   ]
-  },
-  {
    "n": 1949,
    "name": "Join Paste to the right of the input in MavChat portrait Search at every supported width (Search SPEC",
    "done": "2026-11-20T19:04Z",
@@ -3698,16 +3658,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T18:49Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -3722,8 +3673,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T18:47Z",
-     "text": "b30ee9976f/e07e5dd2df on main: native Video Source captured 40 exposures; conditioned SMALL 3/3 publish two fresh photos at 2.176\u20133.235 s and 3/3 Zurich refusals preserve digest. Stock BASE/SMALL missed clean join in 24 s; explicit negative"
+     "at": "2026-11-21T18:56Z",
+     "text": "Paused by quiz. Local evaluator Tools/VisualOdometryExperiment/evaluate_retained_scale_poses.py is uncommitted. Actual decoded inputs: paired SIFT localized all six incoming views, worst 3.01 mm and 0.0933 deg, zero Zurich poses. Clean live"
     }
    ]
   },
@@ -5599,5 +5550,5 @@
   }
  ],
  "source_revision": "e62554172a5c87b8e746aa380b9129d102bc10f9",
- "board_revision": "34e6db9d4f49e62b5a3e7b565bb8921ed58d4551"
+ "board_revision": "8f91579cd9251d3067615e44e8bd78d9c49fd051"
 }
