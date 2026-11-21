@@ -3234,23 +3234,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_JOIN_THROUGHPUT",
-     "since": "2026-11-21T08:54Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_HELSINKI_OFFLINE",
-     "at": "2026-11-21T08:39Z",
-     "text": "5ee8b5b5a3 records the offline opposite Helsinki A/B arcs, using the municipal tiles and held-out poses and ray depths. Reference SIFT join reached 0.08 m; all estimated arms refused A-to-B and direct Zurich. Either estimated pose or estima"
-    },
     {
      "by": "CODEX_HELSINKI_MATCHERS",
      "at": "2026-11-21T08:44Z",
@@ -3260,6 +3246,11 @@
      "by": "CODEX_HELSINKI_OFFSETS",
      "at": "2026-11-21T08:52Z",
      "text": "f80895cbe4 records nine Helsinki offsets and disjoint incoming-frame refits. The gate accepted 17/18 overlap fits and 0/18 Zurich fits. Refits of the published offset disagree by 7.62 m. A 2.5 m agreement check kept 1/9 offsets, so retain i"
+    },
+    {
+     "by": "CODEX_JOIN_THROUGHPUT",
+     "at": "2026-11-21T08:56Z",
+     "text": "5ab3208ba2 makes Unity stitch replay fail if a positive clip joins but times out short of the mapped-frame target. Receipts include decoder/first join/target time, mapped frames per wall second and model/window status. Four host tests passe"
     }
    ]
   },
@@ -5397,6 +5388,6 @@
    "since": "2026-11-21T08:45Z"
   }
  ],
- "source_revision": "f80895cbe4fd52523d71e6fc83de8f208a234b7c",
- "board_revision": "b4b904bbfb02492ce2fbe63cefff5b58371913d8"
+ "source_revision": "5ab3208ba2e0cd78fcb61a4dfe7d1e4ebcab42d5",
+ "board_revision": "9aa6c97527af705d9452ec4e76deb70ac09c9f8a"
 }
