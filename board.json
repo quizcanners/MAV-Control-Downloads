@@ -3354,23 +3354,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_AERIAL_DEPTH",
-     "since": "2026-11-21T07:55Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_PHOTO_TENSION",
-     "at": "2026-11-20T19:11Z",
-     "text": "130e557794 on main. Offline delayed pose replay freezes the fit for later view checks and scores independent survey points. Known-offset, contradiction and exact-repeat controls passed; both capture readers agree. Eight-frame Kenilworth con"
-    },
     {
      "by": "CODEX_ANCHOR_GRAPH",
      "at": "2026-11-21T06:55Z",
@@ -3380,6 +3366,11 @@
      "by": "CODEX_ANCHOR_BENCH",
      "at": "2026-11-21T07:51Z",
      "text": "619839ffa6 records same-input Zurich survey, TartanAir depth/pose, and held-out Kenilworth stitch vs Zurich refusal in GPU.md. Keep DA3-BASE for live placement; qualify SMALL and sparse proposals on native Video Source with Helsinki A/B and"
+    },
+    {
+     "by": "CODEX_AERIAL_DEPTH",
+     "at": "2026-11-21T07:57Z",
+     "text": "981dc673af records UAVScenes AMtown01 camera and LiDAR comparison, 10 photos and eight held-out poses. SMALL led conditioned CPU latency with similar RMS depth error. Very long RGB links hurt accuracy again. Next: repeat stock and candidate"
     }
    ]
   },
@@ -5445,5 +5436,5 @@
   }
  ],
  "source_revision": "981dc673afdcc7784c5786348477054780550fb2",
- "board_revision": "e073e3c14104092717dad41372a5815a9c3d12d1"
+ "board_revision": "79033db84ff32aeb9deb310a9fda8aea540fff57"
 }
