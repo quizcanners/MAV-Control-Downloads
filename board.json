@@ -30,7 +30,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD_CHAT_MESSAGE_AUTHOR",
+     "since": "2026-11-21T04:28Z",
+     "noted": "",
+     "progress": 62,
+     "ticked": 5,
+     "total": 8
+    }
+   ],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -3054,26 +3063,6 @@
    ]
   },
   {
-   "n": 1869,
-   "name": "Mac build storage",
-   "done": "2026-11-20T04:28Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T04:28Z",
-     "text": "Retired 6,546 generated C/C++ files from five closed Nov 17/19 iOS exports. Physical free space rose from 18.62 to 27.00 GiB. Signed archives, symbols, current 868 export and test evidence preserved. Current IPA SHA-256 still matches 636efc"
-    }
-   ]
-  },
-  {
    "n": 1870,
    "name": "Mac Editor headroom after macOS 868",
    "done": "2026-11-20T05:01Z",
@@ -5604,5 +5593,5 @@
   }
  ],
  "source_revision": "2b91ed2cc46cf06b06ea9401b1fd065ae3672fb7",
- "board_revision": "cf636bd0e3805967936f3c9763a2dd98a112375f"
+ "board_revision": "606491b2a05049be7d0ecbd6ec43bb6c460982b8"
 }
