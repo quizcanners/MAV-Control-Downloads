@@ -817,11 +817,6 @@
    ],
    "notes": [
     {
-     "by": "ROG",
-     "at": "2026-11-16T02:30Z",
-     "text": "d3642298cb lets a running Android daily runner read the mounted Drive Test path from Windows user settings when CLI and process settings are absent. Explicit empty stays a per-run opt-out. Five precedence cases passed in Windows PowerShell "
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-16T06:35Z",
      "text": "Hosted compile-diff runs 43817045280, 43816315670 and 43815160129 report NEW ERRORS: none. GitHub quota refused all three uploads; retirement skipped."
@@ -830,6 +825,11 @@
      "by": "GETAC",
      "at": "2026-11-18T14:04Z",
      "text": "Done: Test860 published/installed DJI;907816dd3c,8c7742770c,0eac7bd27f on main."
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-21T10:55Z",
+     "text": "CR-90BF-01 P3. Android daily can stop after the prepared release lands if the last push acknowledgment is lost. S1/S2 brief ready for quiz. [Review](https://github.com/quizcanners/MAV_Control/blob/6b7ae1cc7d757061956c0056d3d914c6ffdc8b79/Co"
     }
    ]
   },
@@ -4610,16 +4610,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T10:51Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4634,8 +4625,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T10:49Z",
-     "text": "f5ba5d7e3d on main. Kenilworth loopback RTP loss verified with production RtpInput and clean-picture decoded hash parity. SPEC now requires keyframe-loss controls. GPU baseline has both keyframe intervals and recovery results. Remaining: is"
+     "at": "2026-11-21T10:56Z",
+     "text": "87fb7c21f2 on main. Added matched Helsinki blur, exposure and compound stress. Stock BASE loses metric accuracy under compound stress, and the eight-photo SIFT graph disconnects. Closer-spaced exposures restore both SIFT routes with measure"
     }
    ]
   },
@@ -5346,6 +5337,6 @@
    "since": "2026-11-21T09:53Z"
   }
  ],
- "source_revision": "f5ba5d7e3d939e94521212e59dc91b36ce8d4f89",
- "board_revision": "1e4c0a70924552ebe01a7589260c19f6a61011bb"
+ "source_revision": "87fb7c21f2c79469a9a259719dcace41ab533a77",
+ "board_revision": "84fe1adfd4272b40a0cdb02e8b9c9510b225bb9a"
 }
