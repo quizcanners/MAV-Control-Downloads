@@ -3491,16 +3491,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_ANCHOR_GRAPH",
-     "since": "2026-11-21T06:45Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -3512,6 +3503,11 @@
      "by": "CODEX_PHOTO_TENSION",
      "at": "2026-11-20T19:11Z",
      "text": "130e557794 on main. Offline delayed pose replay freezes the fit for later view checks and scores independent survey points. Known-offset, contradiction and exact-repeat controls passed; both capture readers agree. Eight-frame Kenilworth con"
+    },
+    {
+     "by": "CODEX_ANCHOR_GRAPH",
+     "at": "2026-11-21T06:55Z",
+     "text": "Published b13008e5c1 and 2b982b06d5. Anchored replay compares original DA3 poses, consecutive and longer SIFT/XFeat links, and pose-conditioned BASE/SMALL. Nine focused tests, both model smokes, guide check and Roslyn passed. Evidence: GPU."
     }
    ]
   },
@@ -5527,6 +5523,6 @@
    "since": "2026-11-21T05:34Z"
   }
  ],
- "source_revision": "51a027dbca89470dab1fecf1f376e6c4460155fd",
- "board_revision": "6780f8c24555712d0f091893eeb9afd627a81e8a"
+ "source_revision": "2b982b06d50e0dff3e7a42c9e00915901b8aeee7",
+ "board_revision": "b8c9f0f6ca4494a951132d32862e1170ff18c46c"
 }
