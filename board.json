@@ -22,7 +22,8 @@
    "goal": false,
    "under": 0,
    "ticks": [
-    "2026-11-21T02:46Z"
+    "2026-11-21T02:46Z",
+    "2026-11-21T02:51Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -32,8 +33,8 @@
      "who": "MAC_BOARD_OVERLAY_INPUT",
      "since": "2026-11-21T02:47Z",
      "noted": "",
-     "progress": 25,
-     "ticked": 2,
+     "progress": 38,
+     "ticked": 3,
      "total": 8
     }
    ],
@@ -48,7 +49,7 @@
     },
     {
      "t": "Cloud: which telemetry tabs exist is still decided by the telemetry prefab from its panels' rows (Tabs.UpdateTelemetryTabAvailability reads HasContent, which is activeSelf of the rows): the rows' cond",
-     "x": false
+     "x": true
     },
     {
      "t": "Cloud: the Peers page of the MavChat pager (page and strip position are the pager's fields, pushed into the peer list view and read back by LeftLists.PeersShown), and the Peers list's own two conditio",
@@ -5850,5 +5851,5 @@
   }
  ],
  "source_revision": "7d47dec4a9f09819329f87ff184b8e38e8169c22",
- "board_revision": "919364182970b0ba5cd91a4dd117b5270d498a8f"
+ "board_revision": "756fb4d57a832e8100e050e9ad503efb12ed7014"
 }
