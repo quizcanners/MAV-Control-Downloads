@@ -30,16 +30,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_LEFT_TAB_SEAM_BINDINGS",
-     "since": "2026-11-21T06:22Z",
-     "noted": "",
-     "progress": 62,
-     "ticked": 5,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -76,11 +67,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_AUTHORED_STATUS_CARDS",
-     "at": "2026-11-21T05:59Z",
-     "text": "f6b9576701 on main. Test Run and mesh notices use independent saved cards with authored action cells and receipt bindings. The live Connection Lost card is no longer their template. Unity All 8,815 passed, 34 skipped, zero failures after cl"
-    },
-    {
      "by": "MAC_MAVCHAT_INPUT_BINDINGS",
      "at": "2026-11-21T06:14Z",
      "text": "3f5ba5eda1 on main. The MavChat prefab binds blue press feedback on all six faces, the current selected body, and the three optional legacy fade groups. No capsule visual lookup or runtime fade component creation. 143 focused tests passed. "
@@ -89,6 +75,11 @@
      "by": "MAC_MAVCHAT_PANEL_BINDINGS",
      "at": "2026-11-21T06:20Z",
      "text": "3de69cff74 on main. The MavChat sheet binds all five Tools and eight GPS/recording clipping groups to the same saved controls, including the flashlight and Pause. Both panels drop activation-time component searches and array allocations. 14"
+    },
+    {
+     "by": "MAC_LEFT_TAB_SEAM_BINDINGS",
+     "at": "2026-11-21T06:28Z",
+     "text": "5a2d32641e on main addresses the fixed vertical seam references in CC-B0CD-01 (goal 408). The saved rail starts dark with its seam hidden, and applies selection as it opens without a hierarchy scan. Mac DeferredListViewsTests 16 passed, All"
     }
    ]
   },
@@ -5505,6 +5496,6 @@
    "since": "2026-11-21T05:34Z"
   }
  ],
- "source_revision": "51e9f811db822caff27ffc17f7c7a43478ffc7ce",
- "board_revision": "0f773623481f05ad1b0ec0fa814ea2af4bf0f501"
+ "source_revision": "0e777aa270179ac1988976e672a27dc53022dc56",
+ "board_revision": "3ecd3bb98ed2bbfe2ae7fc2dd37db21763222fb9"
 }
