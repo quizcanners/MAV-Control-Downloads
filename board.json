@@ -3131,26 +3131,6 @@
    ]
   },
   {
-   "n": 1943,
-   "name": "Hide Main Screen controls when another view opens",
-   "done": "2026-11-20T17:21Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_MAIN_SCREEN",
-     "at": "2026-11-20T17:21Z",
-     "text": "0fca544004 on main. Removed the ordinary Chat override for local video and Telemetry. Main Screen visibility now also gates map controls, clock, compass, altitude controls and notifications. Real-prefab regression covers both Chat layouts, "
-    }
-   ]
-  },
-  {
    "n": 1944,
    "name": "Add a MavTube panel to MavChat (Navigator SPEC",
    "done": "2026-11-20T17:52Z",
@@ -3778,16 +3758,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T17:14Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -3802,8 +3773,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T17:13Z",
-     "text": "74aa3ea331 evaluates retained-only scalar and inverse-depth fits on all three TartanAir models. Scalar fit recovers 2/9 related joins from learned BASE and 5/9 from measured anchors, including all three SMALL conditions. Fixed held-out and "
+     "at": "2026-11-21T17:22Z",
+     "text": "20e1fc1306 adds native Edit Mode replay and verifies measured retained scale on Metal using prepared conditioned SMALL tensors. All three overlaps confirmed only after scale; all Zurich controls refused. One corrupted retained depth plane r"
     }
    ]
   },
@@ -5241,6 +5212,6 @@
    "since": "2026-11-21T17:12Z"
   }
  ],
- "source_revision": "aa20b6ddeefeb1919d806eaacde99278a01c38e4",
- "board_revision": "7bc7e1190908f6c382fac7b44aa40022d84097bd"
+ "source_revision": "20e1fc1306fc771ba679a26fb604664728635c9c",
+ "board_revision": "e502a0e8d4c31f5c3eb2cad2fa396d074f90022b"
 }
