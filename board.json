@@ -3105,26 +3105,6 @@
    ]
   },
   {
-   "n": 1888,
-   "name": "Navigator SPEC",
-   "done": "2026-11-20T08:29Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T08:29Z",
-     "text": "83fe2b916d on main: all ten GPS and Tools options use the shared flat dark-tinted blur and retain black selected bodies. Prefab YAML and references checked, guide check passed, Roslyn found no new errors. Mac had 21.4 GiB free against the 2"
-    }
-   ]
-  },
-  {
    "n": 1889,
    "name": "Navigator SPEC",
    "done": "2026-11-20T08:37Z",
@@ -3294,23 +3274,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_NATIVE_JOIN_REPLAY",
-     "since": "2026-11-21T08:19Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_AERIAL_DEPTH",
-     "at": "2026-11-21T07:57Z",
-     "text": "981dc673af records UAVScenes AMtown01 camera and LiDAR comparison, 10 photos and eight held-out poses. SMALL led conditioned CPU latency with similar RMS depth error. Very long RGB links hurt accuracy again. Next: repeat stock and candidate"
-    },
     {
      "by": "CODEX_MATCHED_DEPTH",
      "at": "2026-11-21T08:03Z",
@@ -3320,6 +3286,11 @@
      "by": "CODEX_DEPTH_JOIN",
      "at": "2026-11-21T08:17Z",
      "text": "28a68740df records same-input Kenilworth positive and Zurich refusal with conditioned BASE/SMALL and both matchers. All dense arms passed; sparse 280px sampling lost even the known overlap. Native Helsinki and Video Source timing remain ope"
+    },
+    {
+     "by": "CODEX_NATIVE_JOIN_REPLAY",
+     "at": "2026-11-21T08:30Z",
+     "text": "dc8e315791 adds explicit Zurich refusal, accepted-count and canonical digest checks to the Unity replay; three harness tests passed. 57ad67b9cc records LongStream on matched TartanAir and Kenilworth/Zurich: faster offline CPU than free-pose"
     }
    ]
   },
@@ -5401,6 +5372,6 @@
    "since": "2026-11-21T05:34Z"
   }
  ],
- "source_revision": "28a68740df985542888823e4120fe095ebc14fa8",
- "board_revision": "62aeba6e6c2a779b5dc424cb0731b361416c81c4"
+ "source_revision": "57ad67b9ccb8cd3bfb88f29143c014e288659abd",
+ "board_revision": "58f7569259d68f59ad8fba22e2384b8b8a42497e"
 }
