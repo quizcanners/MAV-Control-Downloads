@@ -3160,26 +3160,6 @@
    ]
   },
   {
-   "n": 1934,
-   "name": "Fullscreen Video signal loss. Follow Video Processing SPEC \u00a7 Fullscreen video and Peer Video SPEC \u00a7 Viewing.",
-   "done": "2026-11-20T15:27Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_VIDEO_SIGNAL",
-     "at": "2026-11-20T15:27Z",
-     "text": "a35eb04581 on main. WebRTC side grain advances up to 30 Hz while live. Fullscreen holds the last picture with an elapsed timer, releases it after five minutes and resumes on return. Mac EditMode 53 passed, 0 failed, 0 skipped. Mac Play with"
-    }
-   ]
-  },
-  {
    "n": 1935,
    "name": "Restream link editor list shows the saved name",
    "done": "2026-11-20T15:42Z",
@@ -3987,7 +3967,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_VIDEO_STRESS",
+     "since": "2026-11-21T15:28Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -5232,5 +5221,5 @@
   }
  ],
  "source_revision": "76f655cdce36d2d52ffac6458a8f9a0f75bb97d3",
- "board_revision": "6b88335e09353f3d5c19139a22ce3b2afe0039a3"
+ "board_revision": "3957b37d23100950a206641b4b3dc7ab85da8b20"
 }
