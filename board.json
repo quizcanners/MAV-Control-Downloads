@@ -3131,26 +3131,6 @@
    ]
   },
   {
-   "n": 1946,
-   "name": "Stitch overlapping recorded fly-throughs into a single offline 3D scene on Mac from Video Processing settings.",
-   "done": "2026-11-20T18:38Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_RECORDED_SCENES",
-     "at": "2026-11-20T18:38Z",
-     "text": "7c1316a48e on main; 0be1d3d0ae queues Video Source and Video checks. Apple silicon native LightGlue 405 matches, COLMAP registered both held-out photos. Pinned eight-view DA3 exported and staged; normal and Mac Editor/player Roslyn comparis"
-    }
-   ]
-  },
-  {
    "n": 1947,
    "name": "Drive Video Source from capture state. See Drone Control UI SPEC",
    "done": "2026-11-20T18:53Z",
@@ -4967,6 +4947,42 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 2031,
+   "name": "Selected object's MGRS copy button is the first element of the suggestions list with rounded edges (Safeguard UA SPEC",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "cloud-mgrs-top",
+     "since": "2026-11-21T18:38Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "move button to first row",
+     "x": false
+    },
+    {
+     "t": "SPEC updated",
+     "x": false
+    },
+    {
+     "t": "merged to main",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -5548,5 +5564,5 @@
   }
  ],
  "source_revision": "51fa3acaca9890a4083f40c63e24e0d7352843c9",
- "board_revision": "4d5d8c3d46a4f4a0975db984aadcee861405e458"
+ "board_revision": "ab653eb3bf6985f88b37042db8ad485d4dbf09d5"
 }
