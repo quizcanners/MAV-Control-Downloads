@@ -30,16 +30,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_SUGGESTIONS_AUTHOR",
-     "since": "2026-11-21T04:03Z",
-     "noted": "",
-     "progress": 62,
-     "ticked": 5,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -76,11 +67,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_UNUSED_THERMAL_VIEW",
-     "at": "2026-11-21T03:50Z",
-     "text": "ae8441ce5c removes the retired Thermal to Color component and its two shaders, material and RenderTexture. Unity checked 19,701 direct asset dependencies with zero external references. Focused video suites 59 passed/3 skipped. All 8,808 pas"
-    },
-    {
      "by": "MAC_BOARD_PHOTO_FOLDER_PREFAB",
      "at": "2026-11-21T03:57Z",
      "text": "aef8c911c1 retires the one-time Street View folder warning author and command. The saved-prefab test checks bindings, geometry, hit areas, and pooled row reset. PhotoFolderFailure 10 and AssetAuthorAdmission 4 passed. All 8,808 passed, 0 fa"
@@ -89,6 +75,11 @@
      "by": "MAC_BOARD_MAP_SOURCE_AUTHOR",
      "at": "2026-11-21T04:03Z",
      "text": "bb9e69f3e1 retires the one-time Map Source layout author. 32 existing Map Source, Menu and lighting cases read the saved Processes and Timings prefab. Unity All 8,809 passed, 0 failed, 34 skipped. Roslyn clean. Menu visual follow-up f76e803"
+    },
+    {
+     "by": "MAC_BOARD_SUGGESTIONS_AUTHOR",
+     "at": "2026-11-21T04:09Z",
+     "text": "8baa263526 retires the one-time Suggestions author and its two photo editor commands. Saved-prefab tests now cover the Stop action and sprite, row membership, and the distinct lock and item icons. Focused 25 passed. All 8,808 passed, 0 fail"
     }
    ]
   },
@@ -5612,6 +5603,6 @@
    "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "f76e8035aaeba5d6ba15c4f9a9adc5225b68df28",
- "board_revision": "000e356d6550ea76339b79b77c1785b7194a6827"
+ "source_revision": "176cedd24061b89145a4041999792871125e6e31",
+ "board_revision": "388264efe5edb1aadd3b09768835c7ada9b52d81"
 }
