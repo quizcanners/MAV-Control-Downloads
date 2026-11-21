@@ -4610,23 +4610,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T10:46Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_HELSINKI_STREAM_GAPS",
-     "at": "2026-11-21T10:23Z",
-     "text": "faaa1319ef records sparse landmarks, repeated photos, distinct refill and fresh-window joins on Helsinki. Sparse graphs disconnected and refill recovered only A. A fresh anchored window joined both retained references at 1.48\u20133.73 m with co"
-    },
     {
      "by": "CODEX_NATIVE_GAP_REPLAY",
      "at": "2026-11-21T10:27Z",
@@ -4636,6 +4622,11 @@
      "by": "CODEX_DECODER_REPEAT_FIXTURE",
      "at": "2026-11-21T10:44Z",
      "text": "96b1afbe59 adds matched H.264 decoder fixtures and native replay observation. FFmpeg and macOS AVFoundation decoded 73 identical pictures at distinct 24 FPS timestamps and a fresh picture after the 48-exposure jump. Eleven host checks passe"
+    },
+    {
+     "by": "CODEX_VIDEO_STRESS",
+     "at": "2026-11-21T10:49Z",
+     "text": "f5ba5d7e3d on main. Kenilworth loopback RTP loss verified with production RtpInput and clean-picture decoded hash parity. SPEC now requires keyframe-loss controls. GPU baseline has both keyframe intervals and recovery results. Remaining: is"
     }
    ]
   },
@@ -5346,6 +5337,6 @@
    "since": "2026-11-21T09:53Z"
   }
  ],
- "source_revision": "96b1afbe59526e12ed26a5069f5e266cd6f6b969",
- "board_revision": "b344d07189927a4f629039c67c2744c835d23cd2"
+ "source_revision": "f5ba5d7e3d939e94521212e59dc91b36ce8d4f89",
+ "board_revision": "8cced99107e2c9cc2d17a2f789718d5ae4f04245"
 }
