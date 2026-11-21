@@ -25,16 +25,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_TELEMETRY_TABS",
-     "since": "2026-11-21T02:22Z",
-     "noted": "",
-     "progress": 12,
-     "ticked": 1,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -71,11 +62,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_FOCUS_FIXTURE",
-     "at": "2026-11-21T02:03Z",
-     "text": "7497bcb43f on main. Name and coordinate More results never queue camera focus. Before, coordinate paging left focus true and the same-Editor camera fixture lerped. Both paging tests and the camera test now pass in sequence. All 8,802 pass/3"
-    },
-    {
      "by": "MAC_BOARD_MAP_CONTROLS",
      "at": "2026-11-21T02:12Z",
      "text": "06ddc63f23 on main. Reproduced one-frame visibility split on lock (map controls false, zoom true). Station.UI.ZoomScroller now decides both together. Focused 38 pass, All 8,802 pass/35 skip, lock test passed again without reload. Roslyn no "
@@ -84,6 +70,11 @@
      "by": "MAC_BOARD_WORKFLOW_SELECTOR",
      "at": "2026-11-21T02:21Z",
      "text": "186aa8ebf7 on main. Disabled Workflow selector no longer claims the overlay with no workflow chosen. Availability follows Main UI lifecycle, and visibility shares the overlay frame gate. Failing lifecycle reproduced before; 65 focused pass/"
+    },
+    {
+     "by": "MAC_BOARD_TELEMETRY_TABS",
+     "at": "2026-11-21T02:34Z",
+     "text": "f9997d69b0 on main. DronePanels now decides Telemetry tab availability and publishes covered tab swaps. Video source, Restream, Positioning and Pre-Flight no longer use rendered rows as inputs. Roslyn: no new errors. Mac Unity All: 8,803 pa"
     }
    ]
   },
@@ -3058,26 +3049,6 @@
    ]
   },
   {
-   "n": 1851,
-   "name": "Shaders and Situation UI SPECs",
-   "done": "2026-11-20T02:25Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T02:25Z",
-     "text": "1dff65ce31 on main. Removed stale references to the unused shader retired in 709bda4eec. All 56 active shaders remain; Metal compiled 92 states and 152 passes with zero errors. Situation Grouped Icons imports. Both focused and All cases pas"
-    }
-   ]
-  },
-  {
    "n": 1852,
    "name": "Notifications SPEC",
    "done": "2026-11-20T02:42Z",
@@ -5947,6 +5918,6 @@
    "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "dc10acee256008b3cf69ec459301a6208bbb3d75",
- "board_revision": "480e60a4506f26df587f77c345250bdd732cd367"
+ "source_revision": "1d2c510df09d3ee2e663f69299a12ae9035797a9",
+ "board_revision": "fa8a17019180a2c8516fcd1647d3c75269f39d31"
 }
