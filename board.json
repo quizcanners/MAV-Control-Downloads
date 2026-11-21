@@ -3061,46 +3061,6 @@
    ]
   },
   {
-   "n": 1907,
-   "name": "Left List Tabs and Main View SPEC",
-   "done": "2026-11-20T12:18Z",
-   "goal": false,
-   "under": 408,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T12:18Z",
-     "text": "e38390599c on main. Mac Play in horizontal and vertical tabs: Peers yellow with a Waypoint selected, Waypoints retains the red pin, Telemetry quiet blue. Opening Waypoints combines its red artwork with yellow backing. 30/0/0 ScreenCoverLife"
-    }
-   ]
-  },
-  {
-   "n": 1908,
-   "name": "SDC Ping SPEC",
-   "done": "2026-11-20T12:19Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_SDC",
-     "at": "2026-11-20T12:19Z",
-     "text": "Published 76778a3b46 on main. Unity 6000.6.8f1 compiled the patch. Live Screen Capture gained an SDC session, an off-center video probe was acknowledged on COM17, and quiz confirmed the physical click showed the mark. Roslyn found no new er"
-    }
-   ]
-  },
-  {
    "n": 1909,
    "name": "Settings / Map / Advanced / Download / Place names",
    "done": "2026-11-20T12:36Z",
@@ -4433,16 +4393,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T12:09Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4457,8 +4408,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T12:06Z",
-     "text": "bf8ec70734 on main. Kenilworth: raw geometry lost all degraded joins; crossed control isolated JPEG failure to inferred geometry. Four independently used retained photos localized all eight JPEG incoming cameras, and conditioned SMALL verif"
+     "at": "2026-11-21T12:21Z",
+     "text": "19042f439b adds an exact-frame Video Source replay for conditioned BASE/SMALL and RGB control. Source compile comparison, Unity camera math, and conditioned BASE export parity passed. Next: run all three arms in isolated TestRun, then measu"
     }
    ]
   },
@@ -5269,6 +5220,6 @@
    "since": "2026-11-21T09:53Z"
   }
  ],
- "source_revision": "bf815f0b1b33d54f8ed31cb7ae0e903c465e34d6",
- "board_revision": "2e9bcc09a72dbd37f1a1b541d8c40d59a55031dc"
+ "source_revision": "19042f439b4bc877479bb39ba9a99e8c4c531fa0",
+ "board_revision": "13f6c61b5e174a5605f9dcc3fcf1f7361b84dfe0"
 }
