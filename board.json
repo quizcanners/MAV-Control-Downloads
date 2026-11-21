@@ -3778,16 +3778,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T17:08Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -3802,8 +3793,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T17:07Z",
-     "text": "379b6cfa9d records matched TartanAir CPU comparisons of RGB BASE, conditioned BASE and conditioned SMALL with identical packed inputs and calibrated references. RGB BASE led metric depth; SMALL was fastest. All related model joins failed fr"
+     "at": "2026-11-21T17:13Z",
+     "text": "74aa3ea331 evaluates retained-only scalar and inverse-depth fits on all three TartanAir models. Scalar fit recovers 2/9 related joins from learned BASE and 5/9 from measured anchors, including all three SMALL conditions. Fixed held-out and "
     }
    ]
   },
@@ -5197,8 +5188,12 @@
   {
    "screen": "Main View",
    "since": "2026-11-21T16:49Z"
+  },
+  {
+   "screen": "LISTS Left",
+   "since": "2026-11-21T17:12Z"
   }
  ],
- "source_revision": "a1465eecc6ce296e2876099b6cab9e83cbb22ddb",
- "board_revision": "6b922274c0858f2bcbbd845f62d63466a7fd99bf"
+ "source_revision": "74aa3ea331dfdeba63b5436319a3446df76935a3",
+ "board_revision": "dd0b16967433ce29634ad738bdbb3bdefa078db1"
 }
