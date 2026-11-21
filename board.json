@@ -4812,25 +4812,22 @@
   {
    "n": 1966,
    "name": "Bootstrap SPEC",
-   "done": "",
+   "done": "2026-11-21T07:57Z",
    "goal": false,
    "under": 364,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_DJI_STARTUP_WORKFLOW",
-     "since": "2026-11-21T07:50Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_DJI_STARTUP_WORKFLOW",
+     "at": "2026-11-21T07:57Z",
+     "text": "1ea611d8df on main. A fresh DJI controller profile opens Pilot directly when available. Saved and locked workflows take precedence. 40 focused Unity tests passed, Roslyn found no new errors, and device verification is queued in 1e0d5d7afd. "
+    }
+   ]
   }
  ],
  "verify": [
@@ -5447,6 +5444,6 @@
    "since": "2026-11-21T05:34Z"
   }
  ],
- "source_revision": "1e0d5d7afdde8ca4d06ff948cc141c2c3850fa1e",
- "board_revision": "dcc0ee497e09d6e52c83cd8500b0f25aceb109b6"
+ "source_revision": "981dc673afdcc7784c5786348477054780550fb2",
+ "board_revision": "e073e3c14104092717dad41372a5815a9c3d12d1"
 }
