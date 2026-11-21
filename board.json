@@ -4749,25 +4749,22 @@
   {
    "n": 1970,
    "name": "Copilot SPEC",
-   "done": "",
+   "done": "2026-11-21T09:10Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_PILOT_SIDE_VIEW",
-     "since": "2026-11-21T09:02Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_PILOT_SIDE_VIEW",
+     "at": "2026-11-21T09:10Z",
+     "text": "abef7c88a0 on main. Pilot uses the assigned RC Plus chip for Side View, with a joined right-column fallback only when no chip is mapped. Controller assignments retain their current behavior. 8 focused Unity tests passed. Pinned Roslyn compa"
+    }
+   ]
   },
   {
    "n": 1971,
@@ -5411,6 +5408,6 @@
    "since": "2026-11-21T08:45Z"
   }
  ],
- "source_revision": "fc247b977c056aaf280b41207eca3e320ceb77b7",
- "board_revision": "83e4b3a414b2f26851313ca15f69fdb7a07f86fd"
+ "source_revision": "abef7c88a07fc5924a938190f4f9b6fc3d2aa3b6",
+ "board_revision": "6f5f11ae50427f0acd41f5e280b7c99e6cf14883"
 }
