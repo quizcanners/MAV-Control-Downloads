@@ -4722,29 +4722,20 @@
   {
    "n": 1992,
    "name": "Pilot Track records fresh reported positions and shows the recorded path in Pilot and on the map per Copilot SPEC",
-   "done": "",
+   "done": "2026-11-21T13:10Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_PILOT_TRACK",
-     "since": "2026-11-21T13:00Z",
-     "noted": "2026-11-21T13:02Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "MAC_PILOT_TRACK",
-     "at": "2026-11-21T13:02Z",
-     "text": "Local Pilot Track keeps the final accepted endpoint, segments missing and jumped fixes, rejects non-finite altitude, and returns to Record after stopping with no points. Two simulated source and mesh checks are prepared. Diff and guide chec"
+     "at": "2026-11-21T13:10Z",
+     "text": "2cf0dba7d7 on main. PilotTrackRecordingTests 2/2 and PilotTrackShaderRenderTests 10/10 in Unity. Short track produces geometry after Stop. Synthetic GPS gaps split tracks. Device check queued."
     }
    ]
   },
@@ -5363,5 +5354,5 @@
   }
  ],
  "source_revision": "b5eab6294bda6944ecfb5a400f0a908ef9e2311d",
- "board_revision": "9498f5c48dbe78724c31bca076eefc8e00a847cb"
+ "board_revision": "d63d02d9312de625c66a63ff46e2987b08917f8a"
 }
