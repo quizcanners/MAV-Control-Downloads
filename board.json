@@ -4591,7 +4591,7 @@
   {
    "n": 2012,
    "name": "Remote Sensors (SPEC",
-   "done": "",
+   "done": "2026-11-21T17:08Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -4600,7 +4600,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC_MGRS_UI",
+     "at": "2026-11-21T17:08Z",
+     "text": "On main in b3565a842d: QueryIcon.Sensor with SymbolicIcons.RemoteSensor, RemoteSensors added to CanOfferMapPainting, Relay toggle 264 by 120. Pages bumped: Remote Sensors, Search, Main View. Not compiled (cmp.sh has no working .NET 8 SDK on"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5174,5 +5180,5 @@
   }
  ],
  "source_revision": "b3565a842dab9f15be8af8cae3471f819e092308",
- "board_revision": "ba47af80b94e27bc8dcbc9a6711be621c562108f"
+ "board_revision": "e69ebc77911b4beaa355b001eedf7c40405223c5"
 }
