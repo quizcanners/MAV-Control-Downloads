@@ -4490,16 +4490,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T11:45Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4514,8 +4505,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T11:44Z",
-     "text": "f3ddb3c14d on main. World-anchor placement with independent photo confirmation retained 12/12 clean/fog and 5/6 high joins, with 0.12 m aggregate high median and 1.26 m worst accepted camera. All biased anchors and 32 unrelated controls ref"
+     "at": "2026-11-21T11:57Z",
+     "text": "c7a929545d on main. Long Kenilworth control: independent COLMAP repeats disagree on global placement; only late local camera motion is comparable. BASE and depth-assisted SIFT/XFeat all diverged in translation direction, and compound graphs"
     }
    ]
   },
@@ -5250,5 +5241,5 @@
   }
  ],
  "source_revision": "c7a929545d4d6fc1b5373ed8cc0f6b9396b1ab35",
- "board_revision": "3280cd30c5ed7bc5c993a5828f28c8873ba4c6ed"
+ "board_revision": "babbdb9c2954c513d380071b9c5b7e668173f139"
 }
