@@ -30,16 +30,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_GPS_MENU",
-     "since": "2026-11-21T03:10Z",
-     "noted": "",
-     "progress": 62,
-     "ticked": 5,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -76,11 +67,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_OVERLAY_INPUT",
-     "at": "2026-11-21T02:52Z",
-     "text": "eb207b0646 on main. OverlayDecision now publishes one map click-blocking answer for fullscreen video, Search and Chat. The regression changes fullscreen picture during a frame and confirms input keeps the frame answer then changes on the ne"
-    },
-    {
      "by": "MAC_BOARD_DRONE_SURFACE",
      "at": "2026-11-21T02:59Z",
      "text": "adf58d9292 on main. Telemetry, the peer plaque and video Suggestions share one DronePanels.SurfaceAvailable answer per frame. The Menu transition regression and all 15 DeferredListViews tests passed. Unity All 8,805 passed, 35 skipped, zero"
@@ -89,6 +75,11 @@
      "by": "MAC_BOARD_EDGE_ARROWS",
      "at": "2026-11-21T03:08Z",
      "text": "e81f4f9808 on main. Edge-arrow painting and tap handlers share Station.UI.EdgeArrows.Shown. The area-arrow regression checks the frame answer, Menu rejection and normal double tap. Focused 61 pass. First All after the touch fixture had five"
+    },
+    {
+     "by": "MAC_BOARD_GPS_MENU",
+     "at": "2026-11-21T03:17Z",
+     "text": "0aa9ae4779 on main. Station.UI.PositionSharing.MenuToggleShown gives the Extended menu one GPS sharing visibility answer per frame. MavChat keeps its own GPS panel. Focused 8 passed. Mac Unity All 8,806 passed, 35 skipped, zero failed. Rosl"
     }
    ]
   },
@@ -3063,66 +3054,6 @@
    ]
   },
   {
-   "n": 1860,
-   "name": "Coding Scene SPEC",
-   "done": "2026-11-20T03:13Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T03:13Z",
-     "text": "ebe63927c9 on main. Expected Back plus two rows, actual two entity rows because Back now has its own authored control. The fixture checks the real header/button, exact latest-change ordering against opposite observation dates, scope and Bac"
-    }
-   ]
-  },
-  {
-   "n": 1861,
-   "name": "Ground-aligned map painting",
-   "done": "2026-11-20T03:13Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T03:13Z",
-     "text": "e854df758d on main. The synthetic pen target lacked the renderer needed by the brush. Uses the authored prefab with an isolated synthetic UV plane and observes the actual material preparation. Preserves accepted-pixel, geometry and gesture "
-    }
-   ]
-  },
-  {
-   "n": 1862,
-   "name": "Geometry convergence fixture",
-   "done": "2026-11-20T03:14Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T03:14Z",
-     "text": "7be7c3c270 on main. All four subcases lacked confirmed synthetic links, so no records arrived. Uses existing eligibility setup for three separate loopback peers and isolates the queue. All original writes, delivery, deletion, hash and quies"
-    }
-   ]
-  },
-  {
    "n": 1863,
    "name": "Using Strong and Lenovo for the Dev 867 in-place installation and the named Web Mercator convergence capture.",
    "done": "2026-11-20T03:21Z",
@@ -5772,6 +5703,6 @@
    "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "0b362a178f07bc3b19b2b2509ed81caa07d37ea9",
- "board_revision": "5a235eb5eefd5f80c753c9b90a44797089df29c9"
+ "source_revision": "273a94018817b5592acbb8d67f15a9f8376d961c",
+ "board_revision": "7060689fd4114215e43ae5bd8190f65636a6c3e9"
 }
