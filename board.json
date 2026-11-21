@@ -3254,23 +3254,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_HELSINKI_MATCHERS",
-     "since": "2026-11-21T08:40Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_DEPTH_JOIN",
-     "at": "2026-11-21T08:17Z",
-     "text": "28a68740df records same-input Kenilworth positive and Zurich refusal with conditioned BASE/SMALL and both matchers. All dense arms passed; sparse 280px sampling lost even the known overlap. Native Helsinki and Video Source timing remain ope"
-    },
     {
      "by": "CODEX_NATIVE_JOIN_REPLAY",
      "at": "2026-11-21T08:30Z",
@@ -3280,6 +3266,11 @@
      "by": "CODEX_HELSINKI_OFFLINE",
      "at": "2026-11-21T08:39Z",
      "text": "5ee8b5b5a3 records the offline opposite Helsinki A/B arcs, using the municipal tiles and held-out poses and ray depths. Reference SIFT join reached 0.08 m; all estimated arms refused A-to-B and direct Zurich. Either estimated pose or estima"
+    },
+    {
+     "by": "CODEX_HELSINKI_MATCHERS",
+     "at": "2026-11-21T08:44Z",
+     "text": "1e9b911fe2 records the unchanged-gate offline Helsinki match comparison. DISK + LightGlue with the adjacent SIFT graph and conditioned SMALL is the only estimated arm to confirm B, with support on all four held-out frames and no Zurich tran"
     }
    ]
   },
@@ -4754,6 +4745,29 @@
      "text": "b01a0566a7 on main. The landscape tongue shows only a centered arrow while cards are visible. Kind summary and active progress return when folded. 12 targeted Unity tests passed, the progress line probe passed, and Roslyn found no new error"
     }
    ]
+  },
+  {
+   "n": 1968,
+   "name": "Rename Brigade Configurations to Tester Group Config. Data Sync SPEC",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_CONFIG_RENAME",
+     "since": "2026-11-21T08:43Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5370,6 +5384,6 @@
    "since": "2026-11-21T05:34Z"
   }
  ],
- "source_revision": "dc277afba2fc0cdc8d1eaadae3455f8b55c791fa",
- "board_revision": "169fd48d8d09155962cfd8df55e420731ba408ed"
+ "source_revision": "1e9b911fe247d8f3b0583dc91e1efb8294b6db00",
+ "board_revision": "8d66117cd7280e68fbee86a2ac62c6c2ddaf6f6e"
 }
