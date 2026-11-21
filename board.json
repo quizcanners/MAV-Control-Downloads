@@ -4453,16 +4453,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T11:58Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4477,8 +4468,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T11:57Z",
-     "text": "c7a929545d on main. Long Kenilworth control: independent COLMAP repeats disagree on global placement; only late local camera motion is comparable. BASE and depth-assisted SIFT/XFeat all diverged in translation direction, and compound graphs"
+     "at": "2026-11-21T12:06Z",
+     "text": "bf8ec70734 on main. Kenilworth: raw geometry lost all degraded joins; crossed control isolated JPEG failure to inferred geometry. Four independently used retained photos localized all eight JPEG incoming cameras, and conditioned SMALL verif"
     }
    ]
   },
@@ -5212,6 +5203,6 @@
    "since": "2026-11-21T09:53Z"
   }
  ],
- "source_revision": "c7a929545d4d6fc1b5373ed8cc0f6b9396b1ab35",
- "board_revision": "0291fc1f54ce40ac76afaf73cefcff356422a8b9"
+ "source_revision": "bf8ec707348e933a44776ee320dbdd5bdfdee1e7",
+ "board_revision": "466611a327bbc826a9abcf593f7bdb2d94dd4731"
 }
