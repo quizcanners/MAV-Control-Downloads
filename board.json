@@ -3125,26 +3125,6 @@
    ]
   },
   {
-   "n": 1886,
-   "name": "Navigator SPEC",
-   "done": "2026-11-20T08:06Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T08:06Z",
-     "text": "ba1f8217ad on main. Capsule touch-down keeps its visual response. A panel or fold threshold still triggers the haptic tick. Mac portrait Play observed the haptic request only at the panel crossing, and all 133 MavChatSheetTests passed on 95"
-    }
-   ]
-  },
-  {
    "n": 1887,
    "name": "Navigator SPEC",
    "done": "2026-11-20T08:18Z",
@@ -3354,7 +3334,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_DEPTH_JOIN",
+     "since": "2026-11-21T08:06Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -5458,6 +5447,6 @@
    "since": "2026-11-21T05:34Z"
   }
  ],
- "source_revision": "8f9724e57c6ecfd57613c319c3572aee32c73637",
- "board_revision": "73823ccfef59854b986090a775a86212cff8e011"
+ "source_revision": "31071afc5895ecc631687016960e8bbc7f8feb35",
+ "board_revision": "e7b8fa44c3dc944381d07799852aa6a7b65144dc"
 }
