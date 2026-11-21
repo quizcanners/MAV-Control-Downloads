@@ -4625,25 +4625,22 @@
   {
    "n": 1983,
    "name": "Pilot Hide Video",
-   "done": "",
+   "done": "2026-11-21T12:34Z",
    "goal": false,
    "under": 364,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_PILOT_PREVIEW",
-     "since": "2026-11-21T12:30Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_PILOT_PREVIEW",
+     "at": "2026-11-21T12:34Z",
+     "text": "Main b00319668f: Hide Video moves the active feed into the corner and clears the projection. Corner taps swap colour and Vision Assist with Side View on or off. PilotWorkflowTests 22/22 and Roslyn NEW ERRORS none. DJI preview check queued i"
+    }
+   ]
   },
   {
    "n": 1984,
@@ -4852,7 +4849,7 @@
   },
   {
    "screen": "Pilot View",
-   "since": "2026-11-15T05:55Z"
+   "since": "2026-11-21T12:33Z"
   },
   {
    "screen": "Settings Motorola IP",
@@ -5259,6 +5256,6 @@
    "since": "2026-11-21T12:24Z"
   }
  ],
- "source_revision": "f40b48a7cc3fab6ae1048560635b7ab2cdb586f3",
- "board_revision": "95724d080d2f5dcd162b092ded82a5e939b9168e"
+ "source_revision": "1d3aae2e893dc029ad76d3ad9d25a782df91e95a",
+ "board_revision": "92208a4a3b0b8754edfa84fa42bbb7514158961a"
 }
