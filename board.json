@@ -30,16 +30,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "cloud-refactor",
-     "since": "2026-11-21T06:44Z",
-     "noted": "",
-     "progress": 62,
-     "ticked": 5,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -76,11 +67,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_MAVCHAT_PANEL_BINDINGS",
-     "at": "2026-11-21T06:20Z",
-     "text": "3de69cff74 on main. The MavChat sheet binds all five Tools and eight GPS/recording clipping groups to the same saved controls, including the flashlight and Pause. Both panels drop activation-time component searches and array allocations. 14"
-    },
-    {
      "by": "MAC_LEFT_TAB_SEAM_BINDINGS",
      "at": "2026-11-21T06:28Z",
      "text": "5a2d32641e on main addresses the fixed vertical seam references in CC-B0CD-01 (goal 408). The saved rail starts dark with its seam hidden, and applies selection as it opens without a hierarchy scan. Mac DeferredListViewsTests 16 passed, All"
@@ -89,6 +75,11 @@
      "by": "MAC_CHAT_VIEWPORT_BINDINGS",
      "at": "2026-11-21T06:43Z",
      "text": "c41ccb6604 on main. Saved Peers/Groups scroll views and masks drive portrait attachment; map clipping, spacing and drag state restore on return. 10 focused cases passed. Earlier full runs had transient clock, input and log failures; after s"
+    },
+    {
+     "by": "cloud-refactor",
+     "at": "2026-11-21T06:44Z",
+     "text": "6-hourly pass: Legs.Append 10 to 8 params"
     }
    ]
   },
@@ -5485,6 +5476,6 @@
    "since": "2026-11-21T05:34Z"
   }
  ],
- "source_revision": "cea564565c60d2fd6393adc72965a4123e6db5b2",
- "board_revision": "d0fb7faad252be01b95d7637e01891e57464e76f"
+ "source_revision": "20c72c8d7d882c050fc7c075a7627f479751b8d2",
+ "board_revision": "ca1380e5ad735c6dbc1cc25c5d531c25be8bd7c9"
 }
