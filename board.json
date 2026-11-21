@@ -1637,6 +1637,11 @@
      "by": "CODEX_GRAPHICS",
      "at": "2026-11-15T04:29Z",
      "text": "Done: 27de2b90ac via ac5302cf83 culls shadow batches with kept bounds, preserving visible order, camera-distance sizing and pointing. 790 closed; native SituationEffects 10/10 and 80 exact render comparisons; final Roslyn clean. CPU/GPU cos"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-21T12:46Z",
+     "text": "CC-EDF1-01 P3. A sparse Situation placement triggers a second walk of active slots after refill. S1/S2 brief ready for quiz. [Review](https://github.com/quizcanners/MAV_Control/blob/caa9f658b051e6ed6d4053a8c5877492bfa498ef/Coordination/Revi"
     }
    ]
   },
@@ -4634,25 +4639,22 @@
   {
    "n": 1985,
    "name": "Pilot side columns fold and unfold from a flick with main video projection hidden",
-   "done": "",
+   "done": "2026-11-21T12:46Z",
    "goal": false,
    "under": 364,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_PILOT_FOLD",
-     "since": "2026-11-21T12:37Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_PILOT_FOLD",
+     "at": "2026-11-21T12:46Z",
+     "text": "d3bff9248e on main. PilotWorkflowTests 23/23 passed including Canvas raycast at the preview overlap. DJI touch check queued on Pilot View."
+    }
+   ]
   },
   {
    "n": 1986,
@@ -5268,6 +5270,6 @@
    "since": "2026-11-21T12:24Z"
   }
  ],
- "source_revision": "1ec006e112086bed0cd18c3f51303fd2ea5f908c",
- "board_revision": "50e91b72bedf2331300146b3f4a9adf5b397c30b"
+ "source_revision": "caa9f658b051e6ed6d4053a8c5877492bfa498ef",
+ "board_revision": "401880a8854af4411c9f12a3f6cec714b892eeca"
 }
