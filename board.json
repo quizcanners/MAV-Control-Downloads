@@ -4762,14 +4762,20 @@
     {
      "who": "MAC_PILOT_TRACK",
      "since": "2026-11-21T13:00Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-21T13:02Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_PILOT_TRACK",
+     "at": "2026-11-21T13:02Z",
+     "text": "Local Pilot Track keeps the final accepted endpoint, segments missing and jumped fixes, rejects non-finite altitude, and returns to Record after stopping with no points. Two simulated source and mesh checks are prepared. Diff and guide chec"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5367,5 +5373,5 @@
   }
  ],
  "source_revision": "b0c262b77d23d0de5a7c79bbd8f62baa47da30dd",
- "board_revision": "ae1393f6b66224c4d9d41a9bcfac2c6ef5113781"
+ "board_revision": "804cf6186c9599b8bbba1fd72d5b854721bfdbf5"
 }
