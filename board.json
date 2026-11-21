@@ -30,16 +30,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_ORTHOPHOTO_LAYER",
-     "since": "2026-11-21T03:25Z",
-     "noted": "",
-     "progress": 62,
-     "ticked": 5,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -76,11 +67,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_EDGE_ARROWS",
-     "at": "2026-11-21T03:08Z",
-     "text": "e81f4f9808 on main. Edge-arrow painting and tap handlers share Station.UI.EdgeArrows.Shown. The area-arrow regression checks the frame answer, Menu rejection and normal double tap. Focused 61 pass. First All after the touch fixture had five"
-    },
-    {
      "by": "MAC_BOARD_GPS_MENU",
      "at": "2026-11-21T03:17Z",
      "text": "0aa9ae4779 on main. Station.UI.PositionSharing.MenuToggleShown gives the Extended menu one GPS sharing visibility answer per frame. MavChat keeps its own GPS panel. Focused 8 passed. Mac Unity All 8,806 passed, 35 skipped, zero failed. Rosl"
@@ -89,6 +75,11 @@
      "by": "MAC_BOARD_VPN_NOTICE",
      "at": "2026-11-21T03:23Z",
      "text": "be5d9f1992 puts the WireGuard notice visibility in one Station.UI frame decision and preserves the existing reconnect action. Focused Unity 4 passed. EditMode All 8,807 passed, 0 failed, 34 skipped. Roslyn clean. Main/Notifications and Peer"
+    },
+    {
+     "by": "MAC_BOARD_ORTHOPHOTO_LAYER",
+     "at": "2026-11-21T03:36Z",
+     "text": "6a9cdceabb makes Station.UI the visibility owner for the Menu Layers Orthophoto tile. Fixed a wall-clock dependency in the existing list-drag test while preserving its assertions. Focused 14 Menu and 12 drag cases pass. All 8,808 passed, 0 "
     }
    ]
   },
@@ -5672,6 +5663,6 @@
    "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "15e305d1b1cb89df24dbf7fe7ee9d01e2c5781e9",
- "board_revision": "e28f2717a57afe1f45257526d8ca8195848e4662"
+ "source_revision": "8596da6f092668fa219a3eca0900da60565e150e",
+ "board_revision": "be02ec46c3fd28e04f4c949a8f6ce7762e99d328"
 }
