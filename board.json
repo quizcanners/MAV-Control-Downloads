@@ -25,16 +25,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_WORKFLOW_SELECTOR",
-     "since": "2026-11-21T02:14Z",
-     "noted": "",
-     "progress": 12,
-     "ticked": 1,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -71,11 +62,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_SEARCH_FRAME",
-     "at": "2026-11-21T01:55Z",
-     "text": "eb786829fb on main. Map Editing Search case now advances the overlay, interaction and Search decisions and isolates inherited recent drag. Both seeded failures reproduce before and pass after. All 8,802 passed, 35 skipped. Search rerun in s"
-    },
-    {
      "by": "MAC_BOARD_FOCUS_FIXTURE",
      "at": "2026-11-21T02:03Z",
      "text": "7497bcb43f on main. Name and coordinate More results never queue camera focus. Before, coordinate paging left focus true and the same-Editor camera fixture lerped. Both paging tests and the camera test now pass in sequence. All 8,802 pass/3"
@@ -84,6 +70,11 @@
      "by": "MAC_BOARD_MAP_CONTROLS",
      "at": "2026-11-21T02:12Z",
      "text": "06ddc63f23 on main. Reproduced one-frame visibility split on lock (map controls false, zoom true). Station.UI.ZoomScroller now decides both together. Focused 38 pass, All 8,802 pass/35 skip, lock test passed again without reload. Roslyn no "
+    },
+    {
+     "by": "MAC_BOARD_WORKFLOW_SELECTOR",
+     "at": "2026-11-21T02:21Z",
+     "text": "186aa8ebf7 on main. Disabled Workflow selector no longer claims the overlay with no workflow chosen. Availability follows Main UI lifecycle, and visibility shares the overlay frame gate. Failing lifecycle reproduced before; 65 focused pass/"
     }
    ]
   },
@@ -3058,66 +3049,6 @@
    ]
   },
   {
-   "n": 1848,
-   "name": "Suggestions SPEC",
-   "done": "2026-11-20T02:17Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T02:17Z",
-     "text": "0bb7bebe04 on main. Obsolete one-line source check removed. The existing behavioral cases prove selection never duplicates the saved lock, dismissal keeps it saved, and a new selection reoffers it. Mac SuggestionActionRows, WayPointDrag and"
-    }
-   ]
-  },
-  {
-   "n": 1849,
-   "name": "Video and Telemetry SPECs",
-   "done": "2026-11-20T02:17Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T02:17Z",
-     "text": "0b5d6c7df7 on main. Painting is the first child of Paint/Search, then Select. Both actions and callbacks remain outside the readouts and the Telemetry root defers visibility. Preview fixtures use the current glass and RawImage material owne"
-    }
-   ]
-  },
-  {
-   "n": 1850,
-   "name": "Main View SPEC",
-   "done": "2026-11-20T02:18Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T02:18Z",
-     "text": "2b91f3a547 on main. By-name Unity lookup returned null for the selection Button that the prefab actually binds. Typed lookup verifies the exact Button and its capsule overlay, preserving one click, icon, peer-name and quiet state assertions"
-    }
-   ]
-  },
-  {
    "n": 1851,
    "name": "Shaders and Situation UI SPECs",
    "done": "2026-11-20T02:25Z",
@@ -6007,6 +5938,6 @@
    "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "5c567e74522adf05832da1b89d97b9e6efd23e17",
- "board_revision": "097dbb0ed44e46e7fafe2b989c995c597f408901"
+ "source_revision": "dc10acee256008b3cf69ec459301a6208bbb3d75",
+ "board_revision": "92f9f086cdb090555a16b5b14f57e426f1280c4c"
 }
