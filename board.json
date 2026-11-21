@@ -4610,16 +4610,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T11:05Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4634,8 +4625,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T11:04Z",
-     "text": "8810eef86f on main. Predicted-depth 8/15-photo compound controls: more reciprocal links but neither route connected, even after conditioned SMALL on the BASE poses. Both join matchers refused all stressed positives and all Zurich controls. "
+     "at": "2026-11-21T11:11Z",
+     "text": "91e5d1e0e7 on main. Image-only SIFT improved clean held-out pose and joined with conditioned SMALL, but failed compound recovery. At +70 m one accepted join was 13.72 m off. All Zurich controls refused. GPU baseline records speed, accuracy "
     }
    ]
   },
@@ -5346,6 +5337,6 @@
    "since": "2026-11-21T09:53Z"
   }
  ],
- "source_revision": "8810eef86f3fe3fd8cd04f15244f82a473ae02fb",
- "board_revision": "8856713a573e863a3337a40ab763a9e83c5f6e80"
+ "source_revision": "91e5d1e0e7b21b472f1950001c2a1abe44b1eb6a",
+ "board_revision": "c8863d44b56ca662ad93af97c290e3d486aa6d0a"
 }
