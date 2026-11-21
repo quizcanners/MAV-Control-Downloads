@@ -4410,7 +4410,7 @@
   {
    "n": 2005,
    "name": "A selected tile (a menu tile such as \u041f\u0440\u043e\u0434\u0443\u043a\u0442\u0438\u0432\u043d\u0456\u0441\u0442\u044c or \u0406\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442\u0438) turns its yellow selection light blue while pointed and back to yellow when the pointer leaves; today it stays yellow. Gap against U",
-   "done": "",
+   "done": "2026-11-21T18:01Z",
    "goal": false,
    "under": 407,
    "ticks": [
@@ -4421,16 +4421,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-21T17:15Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Selected + pointed resolves to the blue light",
@@ -4445,7 +4436,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-21T18:01Z",
+     "text": "e0f159b6de: the selected glow uses ButtonPointed blue on hover or touch press and returns to yellow on exit. Unity compiled and imported the shader. Roslyn reported no new errors; Menu visual check is due."
+    }
+   ]
   },
   {
    "n": 2006,
@@ -4864,6 +4861,10 @@
   }
  ],
  "verify": [
+  {
+   "screen": "Settings/Home",
+   "since": "2026-11-14T17:51Z"
+  },
   {
    "screen": "Main/Map",
    "since": "2026-11-21T12:24Z"
@@ -5437,6 +5438,6 @@
    "since": "2026-11-21T18:00Z"
   }
  ],
- "source_revision": "b4aa41e02876a4f759a7bc1d19cae09233994a5d",
- "board_revision": "65d3ed34cce0e52d6420c6b87f83cc203940b57f"
+ "source_revision": "d6df75894cb88702687e3306a833ee95e70be96a",
+ "board_revision": "4ec2e887004c494743153be09274e33fad4c0d39"
 }
