@@ -3061,46 +3061,6 @@
    ]
   },
   {
-   "n": 1909,
-   "name": "Settings / Map / Advanced / Download / Place names",
-   "done": "2026-11-20T12:36Z",
-   "goal": false,
-   "under": 409,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T12:36Z",
-     "text": "f7f7da1748 on main. Mac Play: baked place count leads the actions, idle has no progress, and simulated active and failed downloads show progress or the failure before controls. 7 EditMode passed, 0 failed, 0 skipped. Roslyn and localization"
-    }
-   ]
-  },
-  {
-   "n": 1910,
-   "name": "Telemetry / Video Source rows share the detail panel width",
-   "done": "2026-11-20T12:36Z",
-   "goal": false,
-   "under": 408,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T12:36Z",
-     "text": "4d568acd08 on main. The capture name flexes between the actions and the browser row fits the shared detail edge. Mac Play opened Video Source. 10 EditMode passed, 0 failed, 0 skipped, including 3 prefab layouts with Windows browser and capt"
-    }
-   ]
-  },
-  {
    "n": 1911,
    "name": "Settings / Map / Advanced / Download / Download objects (OSM)",
    "done": "2026-11-20T12:47Z",
@@ -4664,6 +4624,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1985,
+   "name": "Pilot side columns fold and unfold from a flick with main video projection hidden",
+   "done": "",
+   "goal": false,
+   "under": 364,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_PILOT_FOLD",
+     "since": "2026-11-21T12:36Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5256,6 +5239,6 @@
    "since": "2026-11-21T12:24Z"
   }
  ],
- "source_revision": "1d3aae2e893dc029ad76d3ad9d25a782df91e95a",
- "board_revision": "ecd977de184ded16e158bd6f6d1efa7ebae7a2d3"
+ "source_revision": "70200defa6fca364a6a4ce32fc9124cc617d46ac",
+ "board_revision": "38304ddd2479fbaea1267742e1dac67dff3c8841"
 }
