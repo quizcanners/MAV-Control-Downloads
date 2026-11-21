@@ -30,16 +30,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_PHOTO_FOLDER_PREFAB",
-     "since": "2026-11-21T03:50Z",
-     "noted": "",
-     "progress": 62,
-     "ticked": 5,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -76,11 +67,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_ORTHOPHOTO_LAYER",
-     "at": "2026-11-21T03:36Z",
-     "text": "6a9cdceabb makes Station.UI the visibility owner for the Menu Layers Orthophoto tile. Fixed a wall-clock dependency in the existing list-drag test while preserving its assertions. Focused 14 Menu and 12 drag cases pass. All 8,808 passed, 0 "
-    },
-    {
      "by": "MAC_BOARD_GEOMETRY_PICKER",
      "at": "2026-11-21T03:42Z",
      "text": "0b16be9ef9 gives the Geometry Build picker one Station.UI visibility answer and reuses standard map UI for Menu and popup suppression. Focused Map Editing 6 passed. All 8,808 passed, 0 failed, 35 skipped. Roslyn clean. Map Editing visual fo"
@@ -89,6 +75,11 @@
      "by": "MAC_BOARD_UNUSED_THERMAL_VIEW",
      "at": "2026-11-21T03:50Z",
      "text": "ae8441ce5c removes the retired Thermal to Color component and its two shaders, material and RenderTexture. Unity checked 19,701 direct asset dependencies with zero external references. Focused video suites 59 passed/3 skipped. All 8,808 pas"
+    },
+    {
+     "by": "MAC_BOARD_PHOTO_FOLDER_PREFAB",
+     "at": "2026-11-21T03:57Z",
+     "text": "aef8c911c1 retires the one-time Street View folder warning author and command. The saved-prefab test checks bindings, geometry, hit areas, and pooled row reset. PhotoFolderFailure 10 and AssetAuthorAdmission 4 passed. All 8,808 passed, 0 fa"
     }
    ]
   },
@@ -5632,6 +5623,6 @@
    "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "5b5ea4ce7a8df047687b62ddbd6e07a754cf2e70",
- "board_revision": "86d0fdbce00f3eff3881aa4d8cc45e45d6b26b18"
+ "source_revision": "b5c5626fde7865f6aee91c7823ccc25b2e5acfa0",
+ "board_revision": "d2c5d14f14885437ac70553daa09453b1f7a3020"
 }
