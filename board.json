@@ -4741,14 +4741,20 @@
     {
      "who": "MAC_COMPASS_ALERT",
      "since": "2026-11-21T13:08Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-21T13:18Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_COMPASS_ALERT",
+     "at": "2026-11-21T13:18Z",
+     "text": "Compass source and timed EditMode cases are ready in the shared checkout. Yellow dots show full usable range with a readable baseline pulse and faster urgency from 4 s to 1 s on comparable fresh scans. git diff --check and guide_check passe"
+    }
+   ]
   },
   {
    "n": 1994,
@@ -5434,5 +5440,5 @@
   }
  ],
  "source_revision": "973c56287609161d7f71bafe0b553acbfd02dd09",
- "board_revision": "8336ecb1bddaa2d499c82ed8213bce44534e9a21"
+ "board_revision": "986d76f7849e5fb3c13997673d4447f07a00ea97"
 }
