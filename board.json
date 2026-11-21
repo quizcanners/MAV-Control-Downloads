@@ -4759,25 +4759,22 @@
   {
    "n": 1996,
    "name": "Hide the pointed-object switch tab when screen centre points at an object already in the selection",
-   "done": "",
+   "done": "2026-11-21T13:30Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_POINTED_TAB",
-     "since": "2026-11-21T13:15Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_POINTED_TAB",
+     "at": "2026-11-21T13:30Z",
+     "text": "8ae5840b26 on main. Offers only unselected hits in Screen Center, with stale tap rejection. All 63 SearchQuerySuggestionTests passed. Main/Map look due. Roslyn no new errors."
+    }
+   ]
   },
   {
    "n": 1997,
@@ -5463,5 +5460,5 @@
   }
  ],
  "source_revision": "993ad2ced86ae15ad8a97dafa9f638ace37a0963",
- "board_revision": "652f5a76268828e5994066a03863bd0abdeff592"
+ "board_revision": "70522bce15601d794f763d6edfe4d6e4b4b1b2d5"
 }
