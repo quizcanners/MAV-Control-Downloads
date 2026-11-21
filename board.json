@@ -30,16 +30,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_GEOMETRY_PICKER",
-     "since": "2026-11-21T03:36Z",
-     "noted": "",
-     "progress": 62,
-     "ticked": 5,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -76,11 +67,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_GPS_MENU",
-     "at": "2026-11-21T03:17Z",
-     "text": "0aa9ae4779 on main. Station.UI.PositionSharing.MenuToggleShown gives the Extended menu one GPS sharing visibility answer per frame. MavChat keeps its own GPS panel. Focused 8 passed. Mac Unity All 8,806 passed, 35 skipped, zero failed. Rosl"
-    },
-    {
      "by": "MAC_BOARD_VPN_NOTICE",
      "at": "2026-11-21T03:23Z",
      "text": "be5d9f1992 puts the WireGuard notice visibility in one Station.UI frame decision and preserves the existing reconnect action. Focused Unity 4 passed. EditMode All 8,807 passed, 0 failed, 34 skipped. Roslyn clean. Main/Notifications and Peer"
@@ -89,6 +75,11 @@
      "by": "MAC_BOARD_ORTHOPHOTO_LAYER",
      "at": "2026-11-21T03:36Z",
      "text": "6a9cdceabb makes Station.UI the visibility owner for the Menu Layers Orthophoto tile. Fixed a wall-clock dependency in the existing list-drag test while preserving its assertions. Focused 14 Menu and 12 drag cases pass. All 8,808 passed, 0 "
+    },
+    {
+     "by": "MAC_BOARD_GEOMETRY_PICKER",
+     "at": "2026-11-21T03:42Z",
+     "text": "0b16be9ef9 gives the Geometry Build picker one Station.UI visibility answer and reuses standard map UI for Menu and popup suppression. Focused Map Editing 6 passed. All 8,808 passed, 0 failed, 35 skipped. Roslyn clean. Map Editing visual fo"
     }
    ]
   },
@@ -3063,46 +3054,6 @@
    ]
   },
   {
-   "n": 1865,
-   "name": "Bootstrap SPEC",
-   "done": "2026-11-20T03:37Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T03:37Z",
-     "text": "6a12b88cb8 on main. Diagnostics expected ?, showed Unavailable. The thermal row now shows ?, and a reported value still shows its number. The fixture checks normal OnBattery handling without thermal data. Mac 20 focused passed, All on 4300c"
-    }
-   ]
-  },
-  {
-   "n": 1866,
-   "name": "Using Strong and Lenovo to match per-sender Web Mercator offer dispositions for the Dev 867 convergence evidence.",
-   "done": "2026-11-20T03:40Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-20T03:40Z",
-     "text": "79d93e55ff on main. Strong per-peer map admission retained 2,137 satisfied Lenovo offers. Settled 82 s sample had zero new previews, refusals or deferrals. Both tablets released."
-    }
-   ]
-  },
-  {
    "n": 1867,
    "name": "Mac EditMode All",
    "done": "2026-11-20T03:59Z",
@@ -5672,6 +5623,6 @@
    "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "8596da6f092668fa219a3eca0900da60565e150e",
- "board_revision": "5c7d6d9b4a292d9fc96649002b4caa3f2c0bf699"
+ "source_revision": "a880db5561dbae80b6f37fdbb914d8b083003e17",
+ "board_revision": "87a463b30e22cb91c4552ad818352a8243b770cb"
 }
