@@ -25,16 +25,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_SEARCH_FRAME",
-     "since": "2026-11-21T01:44Z",
-     "noted": "",
-     "progress": 12,
-     "ticked": 1,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -71,11 +62,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_SEARCH_FRAME",
-     "at": "2026-11-21T01:10Z",
-     "text": "e15cea1bce on main. Search owns QueryShown once per frame. Keyboard routing and the query view share it, and folding keeps the draft while releasing input even before the prefab loads. Removed the scheduled update that wrote an unread flag."
-    },
-    {
      "by": "MAC_BOARD_PAINT_UI",
      "at": "2026-11-21T01:27Z",
      "text": "aa0cf63eb4 on main. Shared frame decisions own Painting availability and color picker visibility. Station input owns Ctrl+D and Menu/MavChat Tools read the same Painting answer. Mac Unity EditMode All after script reload: 8,802 passed, 35 s"
@@ -84,6 +70,11 @@
      "by": "MAC_BOARD_VIDEO_FIXTURE",
      "at": "2026-11-21T01:40Z",
      "text": "6393776a41 on main. Reproduced leaked FullscreenVideoOpen and restored intent/frame in both fixtures. Same Editor: Video Source 27 and Video Drawing 32 passed, All 8,802 pass/35 skip, fullscreen false after All, Left Lists repeat 13 pass. R"
+    },
+    {
+     "by": "MAC_BOARD_SEARCH_FRAME",
+     "at": "2026-11-21T01:55Z",
+     "text": "eb786829fb on main. Map Editing Search case now advances the overlay, interaction and Search decisions and isolates inherited recent drag. Both seeded failures reproduce before and pass after. All 8,802 passed, 35 skipped. Search rerun in s"
     }
    ]
   },
@@ -3078,86 +3069,6 @@
    ]
   },
   {
-   "n": 1844,
-   "name": "Using Strong and Lenovo for paired convergence readiness and naturally pending changed-branch timing under goal 1558.",
-   "done": "2026-11-20T01:48Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-20T01:48Z",
-     "text": "a7add0413a on main. Dev 866 on both tablets. Named peers had no new accepted tiles. A separate Lenovo burst completed 128 distinct previews to another peer. Earlier Strong-directed offer burst still needs a matching transfer trace. Lenovo r"
-    }
-   ]
-  },
-  {
-   "n": 1845,
-   "name": "Verification SPEC",
-   "done": "2026-11-20T01:48Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T01:48Z",
-     "text": "5d8cd6d6b4 on main. macOS /var alias hit the linked-root guard before the ordinary scratch case. Test fixture now uses project Temp and also checks linked ancestors. The production guard and all existing rejections remain. Mac VerificationR"
-    }
-   ]
-  },
-  {
-   "n": 1846,
-   "name": "UI SPEC",
-   "done": "2026-11-20T01:48Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T01:48Z",
-     "text": "084d7048a3 on main. The obsolete coroutine flag produced a null reflection target. Both ReadPixels lanes now keep the same pending final-frame awaitable and preserve ordering and no-capture assertions. Mac ScreenBlurRequest 19/0/0; the case"
-    }
-   ]
-  },
-  {
-   "n": 1847,
-   "name": "UI SPEC",
-   "done": "2026-11-20T01:49Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T01:49Z",
-     "text": "3c51441caf on main. Mac Metal expected both ends below 0.03 and measured 0.306 red at the specified yellow top glow. The fixture checks the localized glow, black fill and joins across all 16 masks. Mac fixture 6/0/0. Mac All at equivalent U"
-    }
-   ]
-  },
-  {
    "n": 1848,
    "name": "Suggestions SPEC",
    "done": "2026-11-20T02:17Z",
@@ -6107,6 +6018,6 @@
    "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "6393776a41715e33485cf2827cbd57843e29adc0",
- "board_revision": "ac14c36416c3fbb63c7fca10834199e109563524"
+ "source_revision": "eb786829fb1ecf74467dfe46925821d233aa278e",
+ "board_revision": "e0ee5cd6184ed77cddf1d2787e15eff36195b92b"
 }
