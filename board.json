@@ -4631,7 +4631,7 @@
   {
    "n": 2014,
    "name": "Settings inspectors (Inspectors SPEC)",
-   "done": "",
+   "done": "2026-11-21T17:14Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -4640,7 +4640,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC_MGRS_UI",
+     "at": "2026-11-21T17:14Z",
+     "text": "On main in b09e663a6a: RestreamLink.InspectInList writes name, format and protocol on one line; the second hint line is gone; Inspectors SPEC has the rule. Not compiled (cmp.sh has no working .NET 8 SDK on the Getac). Only this list was cha"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5218,5 +5224,5 @@
   }
  ],
  "source_revision": "b09e663a6a7a22460fd46ea690b01573d466e99a",
- "board_revision": "be075bfba7789e5903e8aefe2c5a9d8854e8709c"
+ "board_revision": "155211b4afc29175b159cecd10e737260bb1acba"
 }
