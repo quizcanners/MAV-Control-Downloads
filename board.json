@@ -4679,25 +4679,22 @@
   {
    "n": 1990,
    "name": "Default Pilot\u2019s displayed video projection to the local aircraft. The selected other aircraft takes precedence only while it has live video that can be projected",
-   "done": "",
+   "done": "2026-11-21T13:10Z",
    "goal": false,
    "under": 364,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_PILOT_PREVIEW",
-     "since": "2026-11-21T12:54Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_PILOT_PREVIEW",
+     "at": "2026-11-21T13:10Z",
+     "text": "2cf0dba7d7 on main. Unity VideoProcessingSourceTests 30 pass, 2 skipped. Exact live projection takes priority and expires back to our preview. Device check queued."
+    }
+   ]
   },
   {
    "n": 1991,
@@ -5366,5 +5363,5 @@
   }
  ],
  "source_revision": "b5eab6294bda6944ecfb5a400f0a908ef9e2311d",
- "board_revision": "c3b4ad322fcb6f0c34c6b2cd70b2246bfee836c3"
+ "board_revision": "9498f5c48dbe78724c31bca076eefc8e00a847cb"
 }
