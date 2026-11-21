@@ -4611,29 +4611,20 @@
   {
    "n": 2009,
    "name": "Remote Sensors UI (Remote Sensors SPEC",
-   "done": "",
+   "done": "2026-11-21T16:51Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC_MGRS_UI",
-     "since": "2026-11-21T16:12Z",
-     "noted": "2026-11-21T16:13Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC_MGRS_UI",
-     "at": "2026-11-21T16:13Z",
-     "text": "Written in local commit 62a6b299e2 on the Getac branch claude/progress-mgrs-ui-fecfbd (on top of 36e3df9d36, task 2007): Sensor tab removed from RIGHT Suggestions.prefab and code, sensor body on the object tab, Refresh moved into the status"
+     "at": "2026-11-21T16:51Z",
+     "text": "On main in 2108bf475e: one Suggestions tab for a sensor, status line with Refresh on tinted blur, Set position caption, list header and rows at the shared width. Pages bumped: Main View, Remote Sensors. Not compiled, tests not run, prefabs "
     }
    ]
   }
@@ -5209,5 +5200,5 @@
   }
  ],
  "source_revision": "f565cb7fee677e661dbca52ec60a180cbf0b8b8e",
- "board_revision": "71399f0a4a2f386593e39a8442c0e17d4e8f61c1"
+ "board_revision": "850f817ea1fafc1f2e544ce227a483f33714d544"
 }
