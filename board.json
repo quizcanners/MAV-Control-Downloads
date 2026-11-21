@@ -30,16 +30,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_EDGE_ARROWS",
-     "since": "2026-11-21T03:00Z",
-     "noted": "",
-     "progress": 62,
-     "ticked": 5,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -76,11 +67,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_FULLSCREEN_VIDEO",
-     "at": "2026-11-21T02:46Z",
-     "text": "e863c55844 on main. Station.UI.FullscreenVideo owns the applied source, screen map, photo and Chat-picture state. The prefab applies visibility and the shared Exit and map consume the system answer. Mac Unity All 8,804 passed, 34 skipped, z"
-    },
-    {
      "by": "MAC_BOARD_OVERLAY_INPUT",
      "at": "2026-11-21T02:52Z",
      "text": "eb207b0646 on main. OverlayDecision now publishes one map click-blocking answer for fullscreen video, Search and Chat. The regression changes fullscreen picture during a frame and confirms input keeps the frame answer then changes on the ne"
@@ -89,6 +75,11 @@
      "by": "MAC_BOARD_DRONE_SURFACE",
      "at": "2026-11-21T02:59Z",
      "text": "adf58d9292 on main. Telemetry, the peer plaque and video Suggestions share one DronePanels.SurfaceAvailable answer per frame. The Menu transition regression and all 15 DeferredListViews tests passed. Unity All 8,805 passed, 35 skipped, zero"
+    },
+    {
+     "by": "MAC_BOARD_EDGE_ARROWS",
+     "at": "2026-11-21T03:08Z",
+     "text": "e81f4f9808 on main. Edge-arrow painting and tap handlers share Station.UI.EdgeArrows.Shown. The area-arrow regression checks the frame answer, Menu rejection and normal double tap. Focused 61 pass. First All after the touch fixture had five"
     }
    ]
   },
@@ -5772,6 +5763,6 @@
    "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "e04b248f0ba92e339927e00912ff44d65145a7e7",
- "board_revision": "974a8af9a420f66c4cb8d45f46dce66f2ce9eb30"
+ "source_revision": "a99e7c639bcb6202704840fb897ef5594c7d36ea",
+ "board_revision": "18f3f87f2a151a8cca1847e3e9254f4b01af973a"
 }
