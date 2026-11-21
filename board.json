@@ -25,16 +25,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_SEARCH_FRAME",
-     "since": "2026-11-21T00:57Z",
-     "noted": "",
-     "progress": 12,
-     "ticked": 1,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -71,11 +62,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_ROW_DRAG_BLUR",
-     "at": "2026-11-21T00:10Z",
-     "text": "a9974ddf23 on main. Dragged-row blur is authored in all eight context-row prefabs. Unity resolved all eight and passed the 12 lift/return/fold/scroll cases. Mac EditMode All 8,799 passed, 35 skipped, zero failures. Separate mouse-release ti"
-    },
-    {
      "by": "MAC_BOARD_CHAT_PAGER",
      "at": "2026-11-21T00:42Z",
      "text": "afc2185ddb on main. Completed Peers pager and visibility step: Chat window and Navigator own their page, and LeftLists owns List Picker and Search hiding. Peers can load before the pager. Unity EditMode All: 8,800 passed, 35 skipped, no fai"
@@ -84,6 +70,11 @@
      "by": "MAC_BOARD_UI_FRAME",
      "at": "2026-11-21T00:55Z",
      "text": "d44632827f on main. ShouldHideLists and ShouldShowUIInteractionOptions each publish one answer per frame. The new regression changes Chat view and map lock within a frame, then checks that both answers update on the next. Mac Unity EditMode"
+    },
+    {
+     "by": "MAC_BOARD_SEARCH_FRAME",
+     "at": "2026-11-21T01:10Z",
+     "text": "e15cea1bce on main. Search owns QueryShown once per frame. Keyboard routing and the query view share it, and folding keeps the draft while releasing input even before the prefab loads. Removed the scheduled update that wrote an unread flag."
     }
    ]
   },
@@ -6177,6 +6168,6 @@
    "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "05613d5958454d246ae3883141d871394813dcd9",
- "board_revision": "d0e28b237c646eefb145aa76a2aaaf56fc695405"
+ "source_revision": "9b53b24460f1941979d332c8f1add14dd7cab3ef",
+ "board_revision": "a3d4ef935853c59780babbc68b088d3acdfb175b"
 }
