@@ -4779,25 +4779,22 @@
   {
    "n": 1997,
    "name": "Restore the red screen-centre marker while Pilot View is visible",
-   "done": "",
+   "done": "2026-11-21T13:31Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_POINTED_TAB",
-     "since": "2026-11-21T13:17Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_POINTED_TAB",
+     "at": "2026-11-21T13:31Z",
+     "text": "8ae5840b26 on main. Pilot centre marker restored in first person, gated by overlay and lock. NavigatorRoutePanelTests 34 passed and PilotWorkflowTests 24 passed. DJI device look due. Roslyn no new errors."
+    }
+   ]
   },
   {
    "n": 1998,
@@ -5460,5 +5457,5 @@
   }
  ],
  "source_revision": "993ad2ced86ae15ad8a97dafa9f638ace37a0963",
- "board_revision": "70522bce15601d794f763d6edfe4d6e4b4b1b2d5"
+ "board_revision": "53c74a1ecd66872f29b718a6488c252a781ecf0e"
 }
