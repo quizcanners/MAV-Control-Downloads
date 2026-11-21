@@ -3105,26 +3105,6 @@
    ]
   },
   {
-   "n": 1889,
-   "name": "Navigator SPEC",
-   "done": "2026-11-20T08:37Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T08:37Z",
-     "text": "acff6519c7 on main. Current capsule uses the shared black body whenever the divider permits panel swiping, including quiet mode. Full unfold restores the usual glass and Search join. Neighbours take unmerged glass directly. Updated EditMode"
-    }
-   ]
-  },
-  {
    "n": 1890,
    "name": "Navigator SPEC",
    "done": "2026-11-20T08:47Z",
@@ -3274,23 +3254,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_HELSINKI_OFFLINE",
-     "since": "2026-11-21T08:32Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_MATCHED_DEPTH",
-     "at": "2026-11-21T08:03Z",
-     "text": "8f9724e57c adds RGB-only BASE to the three-arm depth replay with identical windows and metric scaling. UAVScenes AMtown01 rerun on 149,351 LiDAR pixels confirmed the conditioning result; GPU.md records accuracy and timing. Ten focused tests"
-    },
     {
      "by": "CODEX_DEPTH_JOIN",
      "at": "2026-11-21T08:17Z",
@@ -3300,6 +3266,11 @@
      "by": "CODEX_NATIVE_JOIN_REPLAY",
      "at": "2026-11-21T08:30Z",
      "text": "dc8e315791 adds explicit Zurich refusal, accepted-count and canonical digest checks to the Unity replay; three harness tests passed. 57ad67b9cc records LongStream on matched TartanAir and Kenilworth/Zurich: faster offline CPU than free-pose"
+    },
+    {
+     "by": "CODEX_HELSINKI_OFFLINE",
+     "at": "2026-11-21T08:39Z",
+     "text": "5ee8b5b5a3 records the offline opposite Helsinki A/B arcs, using the municipal tiles and held-out poses and ray depths. Reference SIFT join reached 0.08 m; all estimated arms refused A-to-B and direct Zurich. Either estimated pose or estima"
     }
    ]
   },
@@ -5381,6 +5352,6 @@
    "since": "2026-11-21T05:34Z"
   }
  ],
- "source_revision": "57ad67b9ccb8cd3bfb88f29143c014e288659abd",
- "board_revision": "193c6216fd269e473ef725c8728c3e7f4dbd8fa2"
+ "source_revision": "5ee8b5b5a3fbbf5dac2f651f5c80d6a7bb567006",
+ "board_revision": "3b2a622b3182ad1c6ffa194d3f7f04e7d256fa2a"
 }
