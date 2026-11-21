@@ -4327,16 +4327,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T12:54Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4351,8 +4342,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T12:53Z",
-     "text": "853f7f5195 makes the full shared-pixel DA3 replay reproducible for the 10 km fixture and registered photo sequences. Host checks passed metric recovery, final overlap and refusal. The installed BASE graph reproduced all six opening overlap "
+     "at": "2026-11-21T13:07Z",
+     "text": "e9b32466cb records all three full 10 km shared-pixel DA3 runs and updates the SPEC. Each accepted 201 frames and all 49 overlaps, yet held-out position RMS was 3.19\u20133.85 km. Candidate trial: anchored SIFT + conditioned SMALL, with stock BAS"
     }
    ]
   },
@@ -5372,6 +5363,6 @@
    "since": "2026-11-21T12:52Z"
   }
  ],
- "source_revision": "b0c262b77d23d0de5a7c79bbd8f62baa47da30dd",
- "board_revision": "804cf6186c9599b8bbba1fd72d5b854721bfdbf5"
+ "source_revision": "e9b32466cb93bd17ce6ec849eefc6708e4e9a201",
+ "board_revision": "e590a404ef48b840fdb2d23a202caaa6713a4784"
 }
