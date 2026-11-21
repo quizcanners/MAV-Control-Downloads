@@ -4669,7 +4669,7 @@
   {
    "n": 2016,
    "name": "Peers list",
-   "done": "",
+   "done": "2026-11-21T17:36Z",
    "goal": false,
    "under": 0,
    "ticks": [
@@ -4678,16 +4678,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "cloud-thread",
-     "since": "2026-11-21T17:35Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Set merge-up and top screen edge in the prefab",
@@ -4702,7 +4693,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "cloud-thread",
+     "at": "2026-11-21T17:36Z",
+     "text": "Open Chat prefab flags set (merge top, screen edge Top); rule in Left Lists AGENTS.md; on main"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5368,5 +5365,5 @@
   }
  ],
  "source_revision": "2529dfd5d6a7d30cd2891390372102cb118bdd11",
- "board_revision": "d1e73e1ab9b1a31ead575aac5c927a355e3ab969"
+ "board_revision": "a7eced4c19ce1d68f0d9a1963927e8f6fbe0c271"
 }
