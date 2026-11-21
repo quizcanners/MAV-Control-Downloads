@@ -3131,26 +3131,6 @@
    ]
   },
   {
-   "n": 1939,
-   "name": "DJI SPEC",
-   "done": "2026-11-20T16:54Z",
-   "goal": false,
-   "under": 364,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_DJI_PAUSE",
-     "at": "2026-11-20T16:54Z",
-     "text": "244be573b5 and 76ab09c80e on main. SDK states, pause/resume, five-second aircraft recovery and local frame hold implemented. DJI 5.18/Android 36 javac and 10 host cases passed. Unity compiled cleanly. Editor, Android and Windows Roslyn comp"
-    }
-   ]
-  },
-  {
    "n": 1940,
    "name": "Chat EditMode fixture for task 1938",
    "done": "2026-11-20T16:58Z",
@@ -3167,26 +3147,6 @@
      "by": "MAC_CHAT_SEND",
      "at": "2026-11-20T16:58Z",
      "text": "7839d695cc updates only the Chat and Suggestions EditMode fixtures. Both named cases passed in the Mac Editor All at exact macOS 870 source 82834ff38 (8,785 passed, 0 failed, 35 skipped). Roslyn reported no new errors. XML under Builds/logs"
-    }
-   ]
-  },
-  {
-   "n": 1941,
-   "name": "Notifications SPEC",
-   "done": "2026-11-20T16:53Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_NOTIFICATION_EDGE",
-     "at": "2026-11-20T16:53Z",
-     "text": "a8017fc06b on main. Confirmed the one-pixel map seam in the source capture. Unity imported the 4-unit non-maskable backing overlap behind the card and compiled with zero Console errors. EditMode setup refused live storage. Notifications pag"
     }
    ]
   },
@@ -4627,6 +4587,20 @@
      "text": "On main in 2108bf475e: one Suggestions tab for a sensor, status line with Refresh on tinted blur, Set position caption, list header and rows at the shared width. Pages bumped: Main View, Remote Sensors. Not compiled, tests not run, prefabs "
     }
    ]
+  },
+  {
+   "n": 2010,
+   "name": "Remote Sensors (SPEC",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5199,6 +5173,6 @@
    "since": "2026-11-21T16:49Z"
   }
  ],
- "source_revision": "f565cb7fee677e661dbca52ec60a180cbf0b8b8e",
- "board_revision": "850f817ea1fafc1f2e544ce227a483f33714d544"
+ "source_revision": "ad66c686d3c0bc01becfef73a41a856ca9a2c2cd",
+ "board_revision": "40a7983e81a6904012752f36d4cce3a785f9b70e"
 }
