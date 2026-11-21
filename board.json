@@ -4797,7 +4797,7 @@
   },
   {
    "n": 2021,
-   "name": "Where-to-stream list picker",
+   "name": "Where-to-stream list picker (`UI_ListPicker`",
    "done": "",
    "goal": false,
    "under": 0,
@@ -4806,7 +4806,20 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Remove the Back button from the picker",
+     "x": true
+    },
+    {
+     "t": "Replace the framed panel with a dark blue tinted plain background",
+     "x": true
+    },
+    {
+     "t": "Update the UI and Drone Control SPEC lines",
+     "x": true
+    }
+   ],
    "notes": []
   }
  ],
@@ -5381,5 +5394,5 @@
   }
  ],
  "source_revision": "8084548fc597916f85cf3b8c90355962b6fab502",
- "board_revision": "724671368cc29b0dfc9a66a8944b76075c12c190"
+ "board_revision": "2ae0c259472537526834f062965544121fa4c27b"
 }
