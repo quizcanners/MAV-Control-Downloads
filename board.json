@@ -25,16 +25,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_VIDEO_FIXTURE",
-     "since": "2026-11-21T01:30Z",
-     "noted": "",
-     "progress": 12,
-     "ticked": 1,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -71,11 +62,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_UI_FRAME",
-     "at": "2026-11-21T00:55Z",
-     "text": "d44632827f on main. ShouldHideLists and ShouldShowUIInteractionOptions each publish one answer per frame. The new regression changes Chat view and map lock within a frame, then checks that both answers update on the next. Mac Unity EditMode"
-    },
-    {
      "by": "MAC_BOARD_SEARCH_FRAME",
      "at": "2026-11-21T01:10Z",
      "text": "e15cea1bce on main. Search owns QueryShown once per frame. Keyboard routing and the query view share it, and folding keeps the draft while releasing input even before the prefab loads. Removed the scheduled update that wrote an unread flag."
@@ -84,6 +70,11 @@
      "by": "MAC_BOARD_PAINT_UI",
      "at": "2026-11-21T01:27Z",
      "text": "aa0cf63eb4 on main. Shared frame decisions own Painting availability and color picker visibility. Station input owns Ctrl+D and Menu/MavChat Tools read the same Painting answer. Mac Unity EditMode All after script reload: 8,802 passed, 35 s"
+    },
+    {
+     "by": "MAC_BOARD_VIDEO_FIXTURE",
+     "at": "2026-11-21T01:40Z",
+     "text": "6393776a41 on main. Reproduced leaked FullscreenVideoOpen and restored intent/frame in both fixtures. Same Editor: Video Source 27 and Video Drawing 32 passed, All 8,802 pass/35 skip, fullscreen false after All, Left Lists repeat 13 pass. R"
     }
    ]
   },
@@ -3013,66 +3004,6 @@
      "by": "MAC_BOARD",
      "at": "2026-11-20T02:01Z",
      "text": "b9cb3c69bd on main. Bootstrap resolves all 10 relocated compute shaders with their original GUIDs. Mac affected fixtures 72 passed / 0 failed / 4 skipped, including the saved scene binding test. Mac All at ebd942fe5c before the later recove"
-    }
-   ]
-  },
-  {
-   "n": 1840,
-   "name": "Main View and Settings layout",
-   "done": "2026-11-20T01:34Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T01:34Z",
-     "text": "fcf1ce8a63 follows the authored Easting/Northing button bindings and measures the synthetic Exit in current screen coordinates. Before, both coordinate lookups hit a missing path and the Settings fixture could fall back to 8 px. Both coordi"
-    }
-   ]
-  },
-  {
-   "n": 1841,
-   "name": "Main View SPEC",
-   "done": "2026-11-20T01:34Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T01:34Z",
-     "text": "3adc9709b8 updates the authoring recipe and layout assertions to follow the existing Zoom Safe Area. The recipe round-trips geometry byte-identically and checks retained input and other bindings. The Main Map fixture verifies tap and hold d"
-    }
-   ]
-  },
-  {
-   "n": 1842,
-   "name": "Remote Sensors UI SPEC",
-   "done": "2026-11-20T01:35Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T01:35Z",
-     "text": "c515015e79 checks the authored half-bright PIN plaque and the shared Suggestions Sensor body. The old BG/Command Box were missing, the plaque uses neutral Blur Display at 0.5, and the retired overlay path was null. Mac RemoteSensorPanelLook"
     }
    ]
   },
@@ -6162,6 +6093,6 @@
    "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "39e3395a3a9d1b53cbe946fd4809ff600d262942",
- "board_revision": "ba7c93e4c9b92081fdef0d1f837a29a003b8dc8f"
+ "source_revision": "6393776a41715e33485cf2827cbd57843e29adc0",
+ "board_revision": "c344b8d778fc079cad57881bddb2a310c8e977e5"
 }
