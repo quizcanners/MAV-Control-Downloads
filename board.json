@@ -3120,26 +3120,6 @@
    ]
   },
   {
-   "n": 1928,
-   "name": "Telemetry Restream captions and controls take the shared left-list dismiss swipe (Left List Tabs and Lists SPEC",
-   "done": "2026-11-20T14:35Z",
-   "goal": false,
-   "under": 408,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T14:35Z",
-     "text": "123afcd9d7 on main. Before: expected a panel hit on Video Server caption, got none. Shared backing now blocks map input and gives drags to the left sheet. Mac Play: caption and Edit swipes dismissed; Edit tap opened links. 10/10 Telemetry a"
-    }
-   ]
-  },
-  {
    "n": 1929,
    "name": "Peer Video startup",
    "done": "",
@@ -4599,25 +4579,22 @@
   {
    "n": 1998,
    "name": "Fix Android player compilation in Station_Autel after the Station.OS move (CS0103)",
-   "done": "",
+   "done": "2026-11-21T14:35Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-21T13:19Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-21T14:35Z",
+     "text": "Published bc9c9efc63 and 8e6ae889b8 via 1f5f9f7122. Roslyn removed Android CS0103 with no new errors. Corp 3 Test 872 compiled, signed, and packaged after aligning its Autel flag with the parked SDK policy. Windows player and sealed install"
+    }
+   ]
   },
   {
    "n": 1999,
@@ -5254,6 +5231,6 @@
    "since": "2026-11-21T13:38Z"
   }
  ],
- "source_revision": "060d0d682d7b7686d227e6fe47f042fd802e3308",
- "board_revision": "9904583d0f0c0b980ecdbfe498ed67b7ea6f6cb6"
+ "source_revision": "1f5f9f712236e4883ae25751455beaf62f113d5f",
+ "board_revision": "f9ae6f8bb5c422f75e53f31a50c057018f389330"
 }
