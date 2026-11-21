@@ -4591,7 +4591,7 @@
   {
    "n": 2010,
    "name": "Remote Sensors (SPEC",
-   "done": "",
+   "done": "2026-11-21T16:54Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -4600,7 +4600,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC_MGRS_UI",
+     "at": "2026-11-21T16:54Z",
+     "text": "On main in ad66c686d3: Manager.AnnounceCommandConfirmation shows the operation and the sensor's name once per confirmed command; the selection's own cached-status request and failures are not announced. Page bumped: Remote Sensors. Not comp"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5174,5 +5180,5 @@
   }
  ],
  "source_revision": "ad66c686d3c0bc01becfef73a41a856ca9a2c2cd",
- "board_revision": "40a7983e81a6904012752f36d4cce3a785f9b70e"
+ "board_revision": "525bb7a4de87c888fe68fc4088732be1ddeded7a"
 }
