@@ -3131,26 +3131,6 @@
    ]
   },
   {
-   "n": 1942,
-   "name": "Android DJI Restream",
-   "done": "2026-11-20T17:02Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_DJI_RESTREAM_STATE",
-     "at": "2026-11-20T17:02Z",
-     "text": "e08ef81f1e verified on main. Android DJI stream state owns callback results, 15 s timeout, retry and safe error code. MSDK 5.18 javac, simulated failure/retry/late callback checks, Android Roslyn (no new errors) and localization passed. APK"
-    }
-   ]
-  },
-  {
    "n": 1943,
    "name": "Hide Main Screen controls when another view opens",
    "done": "2026-11-20T17:21Z",
@@ -3798,16 +3778,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T16:59Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -3822,8 +3793,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T16:56Z",
-     "text": "80a92bbef2 adds one-model native replay on all three BASE references. Exported conditioned SMALL passed parity. Disk reserve stopped Metal after clean opening capture. CPU replay confirmed retained geometry under the gate but every related "
+     "at": "2026-11-21T17:07Z",
+     "text": "379b6cfa9d records matched TartanAir CPU comparisons of RGB BASE, conditioned BASE and conditioned SMALL with identical packed inputs and calibrated references. RGB BASE led metric depth; SMALL was fastest. All related model joins failed fr"
     }
    ]
   },
@@ -5179,6 +5150,6 @@
    "since": "2026-11-21T16:49Z"
   }
  ],
- "source_revision": "b3e98ca9a8bdbdacacae5ef2ede7877567654596",
- "board_revision": "f7d4095fa6ac0a7aab20694402f8c91ba2f28836"
+ "source_revision": "379b6cfa9db850f042c284185f2b98b68f00e465",
+ "board_revision": "df483d33c6ce3619b73422f5071d3b415d43d4e6"
 }
