@@ -3120,26 +3120,6 @@
    ]
   },
   {
-   "n": 1922,
-   "name": "Dev Mode / Tasks",
-   "done": "2026-11-20T13:57Z",
-   "goal": false,
-   "under": 412,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T13:57Z",
-     "text": "f1935c9d5b on main. Public Tasks copy orders task and verification revisions independently and reloads both branches when a delayed writer has an older snapshot. Disposable Git tests reproduced the rollback, then confirmed both newer tasks "
-    }
-   ]
-  },
-  {
    "n": 1923,
    "name": "UI refactoring guides",
    "done": "2026-11-20T14:04Z",
@@ -4187,16 +4167,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T13:56Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4211,8 +4182,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T13:55Z",
-     "text": "5690a889b9 records native Mac Metal TestRun on staged Video Source. Installed BASE joined Kenilworth B, explicitly refused Zurich with unchanged accepted digest, and rejoined A. Matched continuous clean and decoder-repeat clips both stalled"
+     "at": "2026-11-21T14:03Z",
+     "text": "de02a76aaa measures three native late-seek arms on Mac Metal. They preserved the draft but none admitted a late join. The overlapping control joined in 1.98 s. The 250 ms early buffered schedule extended comparable coverage and reached 64 m"
     }
    ]
   },
@@ -5374,6 +5345,6 @@
    "since": "2026-11-21T13:38Z"
   }
  ],
- "source_revision": "5690a889b95141108bdab77598f635a614d7c0ab",
- "board_revision": "574d586063ef298dcc5c59eb018d6af777ef642d"
+ "source_revision": "de02a76aaa8c401f9069f0293805b1d1e4b10f5a",
+ "board_revision": "4ad1d688a2e334d88de302aa72343aebc348a6e5"
 }
