@@ -25,16 +25,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_FOCUS_FIXTURE",
-     "since": "2026-11-21T01:56Z",
-     "noted": "",
-     "progress": 12,
-     "ticked": 1,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -71,11 +62,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_PAINT_UI",
-     "at": "2026-11-21T01:27Z",
-     "text": "aa0cf63eb4 on main. Shared frame decisions own Painting availability and color picker visibility. Station input owns Ctrl+D and Menu/MavChat Tools read the same Painting answer. Mac Unity EditMode All after script reload: 8,802 passed, 35 s"
-    },
-    {
      "by": "MAC_BOARD_VIDEO_FIXTURE",
      "at": "2026-11-21T01:40Z",
      "text": "6393776a41 on main. Reproduced leaked FullscreenVideoOpen and restored intent/frame in both fixtures. Same Editor: Video Source 27 and Video Drawing 32 passed, All 8,802 pass/35 skip, fullscreen false after All, Left Lists repeat 13 pass. R"
@@ -84,6 +70,11 @@
      "by": "MAC_BOARD_SEARCH_FRAME",
      "at": "2026-11-21T01:55Z",
      "text": "eb786829fb on main. Map Editing Search case now advances the overlay, interaction and Search decisions and isolates inherited recent drag. Both seeded failures reproduce before and pass after. All 8,802 passed, 35 skipped. Search rerun in s"
+    },
+    {
+     "by": "MAC_BOARD_FOCUS_FIXTURE",
+     "at": "2026-11-21T02:03Z",
+     "text": "7497bcb43f on main. Name and coordinate More results never queue camera focus. Before, coordinate paging left focus true and the same-Editor camera fixture lerped. Both paging tests and the camera test now pass in sequence. All 8,802 pass/3"
     }
    ]
   },
@@ -2993,26 +2984,6 @@
      "by": "MAC_BOARD",
      "at": "2026-11-20T11:58Z",
      "text": "Closed the completed checklist. 46603fdbfb qualified Windows live source joins and Zurich refusal. d7484ffabd records Mac Metal: three saved depth photos produced 1,036 disks, evicted on zoom out, rebuilt on return and released draw buffers"
-    }
-   ]
-  },
-  {
-   "n": 1839,
-   "name": "Scene owner holds serialized refs to the 10 Depth Anything compute shaders; change VideoProcessing.ComputeShaders.Load to read them; empty Systems/Video Processing/Resources (see Coordination/Refactor",
-   "done": "2026-11-20T02:01Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T02:01Z",
-     "text": "b9cb3c69bd on main. Bootstrap resolves all 10 relocated compute shaders with their original GUIDs. Mac affected fixtures 72 passed / 0 failed / 4 skipped, including the saved scene binding test. Mac All at ebd942fe5c before the later recove"
     }
    ]
   },
@@ -6027,6 +5998,6 @@
    "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "eb786829fb1ecf74467dfe46925821d233aa278e",
- "board_revision": "254e8040b103142076664db83babe1916fc6ac90"
+ "source_revision": "7497bcb43f44b468ae315a106b1ab8a6a617aa61",
+ "board_revision": "aeda4a5b9048d366549635139a46665c0f6b5242"
 }
