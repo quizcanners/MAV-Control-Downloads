@@ -3105,26 +3105,6 @@
    ]
   },
   {
-   "n": 1890,
-   "name": "Navigator SPEC",
-   "done": "2026-11-20T08:47Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T08:47Z",
-     "text": "0bfb3b2d60 on main. Capsule widths are retained through selection and snaps, Route progress expands only while current, and the full divider admits both drag directions while preserving capsule taps and the Search inset. Added coverage for "
-    }
-   ]
-  },
-  {
    "n": 1891,
    "name": "Navigator SPEC",
    "done": "2026-11-20T08:59Z",
@@ -3254,23 +3234,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_HELSINKI_OFFSETS",
-     "since": "2026-11-21T08:45Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_NATIVE_JOIN_REPLAY",
-     "at": "2026-11-21T08:30Z",
-     "text": "dc8e315791 adds explicit Zurich refusal, accepted-count and canonical digest checks to the Unity replay; three harness tests passed. 57ad67b9cc records LongStream on matched TartanAir and Kenilworth/Zurich: faster offline CPU than free-pose"
-    },
     {
      "by": "CODEX_HELSINKI_OFFLINE",
      "at": "2026-11-21T08:39Z",
@@ -3280,6 +3246,11 @@
      "by": "CODEX_HELSINKI_MATCHERS",
      "at": "2026-11-21T08:44Z",
      "text": "1e9b911fe2 records the unchanged-gate offline Helsinki match comparison. DISK + LightGlue with the adjacent SIFT graph and conditioned SMALL is the only estimated arm to confirm B, with support on all four held-out frames and no Zurich tran"
+    },
+    {
+     "by": "CODEX_HELSINKI_OFFSETS",
+     "at": "2026-11-21T08:52Z",
+     "text": "f80895cbe4 records nine Helsinki offsets and disjoint incoming-frame refits. The gate accepted 17/18 overlap fits and 0/18 Zurich fits. Refits of the published offset disagree by 7.62 m. A 2.5 m agreement check kept 1/9 offsets, so retain i"
     }
    ]
   },
@@ -5391,8 +5362,12 @@
   {
    "screen": "Chat/Peers",
    "since": "2026-11-21T05:34Z"
+  },
+  {
+   "screen": "Ground Station Inspector",
+   "since": "2026-11-21T08:45Z"
   }
  ],
- "source_revision": "1e9b911fe247d8f3b0583dc91e1efb8294b6db00",
- "board_revision": "4c2ce491997fd4ffbdb88d6de485938c0ee5f7c3"
+ "source_revision": "f80895cbe4fd52523d71e6fc83de8f208a234b7c",
+ "board_revision": "e212cc0da0b185097eafa657b76b556def3a0133"
 }
