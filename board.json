@@ -25,16 +25,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_MAP_CONTROLS",
-     "since": "2026-11-21T02:06Z",
-     "noted": "",
-     "progress": 12,
-     "ticked": 1,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -71,11 +62,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_VIDEO_FIXTURE",
-     "at": "2026-11-21T01:40Z",
-     "text": "6393776a41 on main. Reproduced leaked FullscreenVideoOpen and restored intent/frame in both fixtures. Same Editor: Video Source 27 and Video Drawing 32 passed, All 8,802 pass/35 skip, fullscreen false after All, Left Lists repeat 13 pass. R"
-    },
-    {
      "by": "MAC_BOARD_SEARCH_FRAME",
      "at": "2026-11-21T01:55Z",
      "text": "eb786829fb on main. Map Editing Search case now advances the overlay, interaction and Search decisions and isolates inherited recent drag. Both seeded failures reproduce before and pass after. All 8,802 passed, 35 skipped. Search rerun in s"
@@ -84,6 +70,11 @@
      "by": "MAC_BOARD_FOCUS_FIXTURE",
      "at": "2026-11-21T02:03Z",
      "text": "7497bcb43f on main. Name and coordinate More results never queue camera focus. Before, coordinate paging left focus true and the same-Editor camera fixture lerped. Both paging tests and the camera test now pass in sequence. All 8,802 pass/3"
+    },
+    {
+     "by": "MAC_BOARD_MAP_CONTROLS",
+     "at": "2026-11-21T02:12Z",
+     "text": "06ddc63f23 on main. Reproduced one-frame visibility split on lock (map controls false, zoom true). Station.UI.ZoomScroller now decides both together. Focused 38 pass, All 8,802 pass/35 skip, lock test passed again without reload. Roslyn no "
     }
    ]
   },
@@ -6007,6 +5998,6 @@
    "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "6769e37518b1a9ea73c1de469413957ce4e61810",
- "board_revision": "a37074236c041b2fdecd3532f700590d77691b34"
+ "source_revision": "5c567e74522adf05832da1b89d97b9e6efd23e17",
+ "board_revision": "25681198a6c69222f789903fade4b10cfa5646c9"
 }
