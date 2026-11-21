@@ -4788,7 +4788,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-21T07:50Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -4839,6 +4848,20 @@
      "text": "Published e530fb8c54. Getac is configured for the post-upload Play Mode step. For Test 871 the Editor imported the android-arm64 key and admitted one VPN peer send. Peer receipt is unverified. Roslyn found no new errors and publisher and ni"
     }
    ]
+  },
+  {
+   "n": 1966,
+   "name": "Bootstrap SPEC",
+   "done": "",
+   "goal": false,
+   "under": 364,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5456,5 +5479,5 @@
   }
  ],
  "source_revision": "e530fb8c54953b8b3884ff6bcb75a9be63f04504",
- "board_revision": "77c3862f2b6ba6238f85f25d0e6c2eb70164b293"
+ "board_revision": "731ff1785c0b7add50aafc966f37c61d1e2f5d5d"
 }
