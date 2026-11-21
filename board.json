@@ -4571,29 +4571,20 @@
   {
    "n": 2007,
    "name": "Main View Suggestions",
-   "done": "",
+   "done": "2026-11-21T16:49Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC_MGRS_UI",
-     "since": "2026-11-21T15:55Z",
-     "noted": "2026-11-21T15:58Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC_MGRS_UI",
-     "at": "2026-11-21T15:58Z",
-     "text": "Code, prefab text and SPECs are one local commit 36e3df9d36 on the Getac branch claude/progress-mgrs-ui-fecfbd, rebased on main 4a184e855c; not on main yet, waiting for quiz's go to push without a compile check. Not run: cmp.sh (its private"
+     "at": "2026-11-21T16:49Z",
+     "text": "On main in fa827b662b: empty MGRS field with Paste icon, screen-center MGRS capsule with relation line, SPECs. Pages bumped: Main View, Remote Sensors. Not compiled (cmp.sh has no working .NET 8 SDK on the Getac), EditMode tests not run, pr"
     }
    ]
   },
@@ -5220,8 +5211,12 @@
   {
    "screen": "Chat/Routes",
    "since": "2026-11-21T13:38Z"
+  },
+  {
+   "screen": "Main View",
+   "since": "2026-11-21T16:49Z"
   }
  ],
- "source_revision": "b76e6c29b47545b0cc6d45b2653eacd4ceea986f",
- "board_revision": "b67d7b41520556206314077171f114431d32fda4"
+ "source_revision": "f565cb7fee677e661dbca52ec60a180cbf0b8b8e",
+ "board_revision": "ff94268a981b7a86bf97460a7d8683b426101201"
 }
