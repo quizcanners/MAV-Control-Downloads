@@ -4610,16 +4610,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T10:57Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4634,8 +4625,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T10:56Z",
-     "text": "87fb7c21f2 on main. Added matched Helsinki blur, exposure and compound stress. Stock BASE loses metric accuracy under compound stress, and the eight-photo SIFT graph disconnects. Closer-spaced exposures restore both SIFT routes with measure"
+     "at": "2026-11-21T11:04Z",
+     "text": "8810eef86f on main. Predicted-depth 8/15-photo compound controls: more reciprocal links but neither route connected, even after conditioned SMALL on the BASE poses. Both join matchers refused all stressed positives and all Zurich controls. "
     }
    ]
   },
@@ -5346,6 +5337,6 @@
    "since": "2026-11-21T09:53Z"
   }
  ],
- "source_revision": "87fb7c21f2c79469a9a259719dcace41ab533a77",
- "board_revision": "bcd510b4d0a8eefe8931284a285149e7fa12496e"
+ "source_revision": "8810eef86f3fe3fd8cd04f15244f82a473ae02fb",
+ "board_revision": "fb350490f1f7c808e9bb1d7056dfc7c388ae5cc8"
 }
