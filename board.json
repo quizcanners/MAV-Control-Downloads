@@ -25,16 +25,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_CHAT_PAGER",
-     "since": "2026-11-21T00:13Z",
-     "noted": "",
-     "progress": 12,
-     "ticked": 1,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -71,11 +62,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_PILOT_HANDLES",
-     "at": "2026-11-20T23:44Z",
-     "text": "fc6f978acd on main. Pilot fold handles, artwork and all nine gesture links are authored in the prefab. Full Mac Unity EditMode: 8,799 passed, 35 skipped, zero failures. Roslyn found no new errors. Both imported sprites matched the old alpha"
-    },
-    {
      "by": "MAC_BOARD_ROW_DIVIDERS",
      "at": "2026-11-20T23:59Z",
      "text": "17983739c8 on main. Shared Row Divider authored in 22 prefab assets, 65 bindings. Unity checked 370 resolved standard rows for placement, shader, clipping flag and inactive state. Actual peer-row fixture passed both-edge cull, selection and"
@@ -84,6 +70,11 @@
      "by": "MAC_BOARD_ROW_DRAG_BLUR",
      "at": "2026-11-21T00:10Z",
      "text": "a9974ddf23 on main. Dragged-row blur is authored in all eight context-row prefabs. Unity resolved all eight and passed the 12 lift/return/fold/scroll cases. Mac EditMode All 8,799 passed, 35 skipped, zero failures. Separate mouse-release ti"
+    },
+    {
+     "by": "MAC_BOARD_CHAT_PAGER",
+     "at": "2026-11-21T00:42Z",
+     "text": "afc2185ddb on main. Completed Peers pager and visibility step: Chat window and Navigator own their page, and LeftLists owns List Picker and Search hiding. Peers can load before the pager. Unity EditMode All: 8,800 passed, 35 skipped, no fai"
     }
    ]
   },
@@ -2988,186 +2979,6 @@
      "by": "MAC_BOARD",
      "at": "2026-11-20T11:58Z",
      "text": "Closed the completed checklist. 46603fdbfb qualified Windows live source joins and Zurich refusal. d7484ffabd records Mac Metal: three saved depth photos produced 1,036 disks, evicted on zoom out, rebuilt on return and released draw buffers"
-    }
-   ]
-  },
-  {
-   "n": 1823,
-   "name": "Using Strong and Lenovo to collect matched Elements Mask and Situation frame and delivery windows before and after the containing Android Dev build.",
-   "done": "2026-11-20T00:28Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-20T00:28Z",
-     "text": "Signed Android Dev 866 855dac1d20 installed in place on Strong and Lenovo. Both rendered the map. Baseline, cold and warm captures retained 223\u2013227 frames each at normal 8 FPS. Lenovo mask root became current between 32.7 and 62.6 s after t"
-    }
-   ]
-  },
-  {
-   "n": 1829,
-   "name": "Drone Control UI SPEC",
-   "done": "2026-11-20T00:20Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T00:20Z",
-     "text": "dfa8ab59ee fixes the 32-unit bottom-left overlap (altitude x expected 890, actual 858) and keeps fallback Search before the scroller. Mac TelemetryStripSlot 5/5 and BottomLeftRow 1/1. The effective saved MavChat workflow hides Telemetry bef"
-    }
-   ]
-  },
-  {
-   "n": 1830,
-   "name": "Bootstrap SPEC",
-   "done": "2026-11-20T00:20Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T00:20Z",
-     "text": "bbc8e157c0 supplies current station dependencies and the active authored fullscreen prefab for deliberate fault isolation. The three original failure, later-owner execution and quarantine assertions passed in the final Mac All at b5c1cce6a5"
-    }
-   ]
-  },
-  {
-   "n": 1831,
-   "name": "Notifications SPEC",
-   "done": "2026-11-20T00:21Z",
-   "goal": false,
-   "under": 410,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T00:21Z",
-     "text": "77308b8251 runs flick-to-fold with its real station owner and keeps synthetic move timestamps nonnegative after a domain reload. Waiting cards use the existing shared tongue without increasing the acknowledged count. Mac NavigatorPath 12/0/"
-    }
-   ]
-  },
-  {
-   "n": 1832,
-   "name": "Search SPEC",
-   "done": "2026-11-20T00:21Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T00:21Z",
-     "text": "c2ce4d82d5 drives existing Search fixture assertions through the current name-source update. Mac SearchFilterColumn 15/0/0 and RemoteSensorVisibility 3/0/0, including MavChat entry and exit with retained filters and unrelated cohorts. All t"
-    }
-   ]
-  },
-  {
-   "n": 1833,
-   "name": "Chat photo encoding",
-   "done": "2026-11-20T00:22Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T00:22Z",
-     "text": "429d04b332 uses an explicit ARGB32 Linear source for the real asynchronous shutdown fixture instead of the Mac default ReadPixels rejects. The lifetime assertions remain. Mac Metal ImageEncoderTests 11/0/0 and shutdown passed in final All. "
-    }
-   ]
-  },
-  {
-   "n": 1834,
-   "name": "UI SPEC",
-   "done": "2026-11-20T00:22Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T00:22Z",
-     "text": "9d87ed7869 supplies the current child raycast delivered by Unity for an in-bounds release. Original rejected intent, single admission, and feedback assertions pass. Mac UiRenderingTests 8/0/0 and touched case passed in final All. iPad check"
-    }
-   ]
-  },
-  {
-   "n": 1835,
-   "name": "Chat SPEC",
-   "done": "2026-11-20T00:22Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T00:22Z",
-     "text": "b5c1cce6a5 centers the synthetic fade and viewport using physical Screen coordinates after Canvas layout. Before, the EditMode preview center was y=480 with Screen.height=443 and produced zero vertices. Both four-vertex and edge assertions "
-    }
-   ]
-  },
-  {
-   "n": 1836,
-   "name": "Map tile sync SPEC",
-   "done": "2026-11-20T00:30Z",
-   "goal": false,
-   "under": 366,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T00:30Z",
-     "text": "b058c00995 restores the real rejected-send and successful retry checks against the active session seal. Before, the stale fault injector expected Waiting and received Assigned. Mac WebMercatorFinestTiles 282/0/0. Mac All 8,694 passed / 29 f"
     }
    ]
   },
@@ -6377,6 +6188,6 @@
    "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "4f2219756e29aa0e3d7c823367d9b7458162b7fc",
- "board_revision": "37f9e5dbca2fb332aebb8a477979992c58585bae"
+ "source_revision": "67c882b97f759529a77f3a506af15aecb1802496",
+ "board_revision": "306a9b7bae2c7c55df35b2204a54ecd6483a70e6"
 }
