@@ -4047,16 +4047,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T14:32Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4071,8 +4062,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T14:31Z",
-     "text": "6e2a1c3d87 measured two-sided SIFT on TartanAir. 060d0d682d adds the repeatable source, gap and model-switch suite and Backdoor controls with pinned download links. Mac TestRun passed both model switches and both short join/refusal/return a"
+     "at": "2026-11-21T14:45Z",
+     "text": "70f7cde312 records matched native Mac Metal TartanAir BASE RGB and conditioned BASE/SMALL, with SIFT and measured camera inputs, clear/JPEG8, 8 and 60 FPS schedules, and all 52 tensors passing CPU parity. Metric depth RMS favored RGB BASE. "
     }
    ]
   },
@@ -5231,6 +5222,6 @@
    "since": "2026-11-21T13:38Z"
   }
  ],
- "source_revision": "1f5f9f712236e4883ae25751455beaf62f113d5f",
- "board_revision": "f9ae6f8bb5c422f75e53f31a50c057018f389330"
+ "source_revision": "70f7cde3124c8d5e03e8e963edbbd58c5916fb1f",
+ "board_revision": "be2ee4f60ab85398500409fbad8dae78361a4cdd"
 }
