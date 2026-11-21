@@ -4773,25 +4773,22 @@
   {
    "n": 2020,
    "name": "Match the Liquid Glass squircle and touch deformation in its button shadow",
-   "done": "",
+   "done": "2026-11-21T18:01Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_TOUCH_SHADOW",
-     "since": "2026-11-21T17:48Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_TOUCH_SHADOW",
+     "at": "2026-11-21T18:01Z",
+     "text": "9f2faf1a09 on main. Liquid Glass squircle shadows follow the global touch shape. Quiet and joined edges keep their existing behavior. 12 native Unity render/mesh checks passed and Roslyn found no new errors. On-device look queued."
+    }
+   ]
   },
   {
    "n": 2021,
@@ -5439,5 +5436,5 @@
   }
  ],
  "source_revision": "d6df75894cb88702687e3306a833ee95e70be96a",
- "board_revision": "4ec2e887004c494743153be09274e33fad4c0d39"
+ "board_revision": "5c37a35707d66cf2cee65a84940904c002e58a8f"
 }
