@@ -3131,26 +3131,6 @@
    ]
   },
   {
-   "n": 1938,
-   "name": "Chat Send panel",
-   "done": "2026-11-20T16:24Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_CHAT_SEND",
-     "at": "2026-11-20T16:24Z",
-     "text": "c522106c26 on main. Send lists saved Restream links by name in Chat and MavChat. Sends one link through the existing authenticated peer path. Checked both Chat prefab callbacks in Unity. EditMode passed 244 (Localization 26, MavChat 138, Re"
-    }
-   ]
-  },
-  {
    "n": 1939,
    "name": "DJI SPEC",
    "done": "2026-11-20T16:54Z",
@@ -3878,16 +3858,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T16:23Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -3902,8 +3873,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T16:22Z",
-     "text": "02448f14f3 records 64 completed decode-to-decision trials across both matchers and four model arms. Retained-camera recovery passed JPEG8, and all arms refused Zurich and missed compound overlap. BASE stays live default. Next route the reta"
+     "at": "2026-11-21T16:28Z",
+     "text": "d4dc8ca671 adds a native comparison against one frozen eight-view BASE reference. Each short model reuses the same outputs for model-confidence and unit-confidence decisions. Measured-depth and unrelated controls distinguish reference/depth"
     }
    ]
   },
@@ -5242,6 +5213,6 @@
    "since": "2026-11-21T13:38Z"
   }
  ],
- "source_revision": "02448f14f351de03ad0c04fcf9f169eb83a25f6d",
- "board_revision": "d9a7f4158f4ee84b4fb8f0ae9dcc6214819f4498"
+ "source_revision": "d4dc8ca671f2ce8a7dcc4b91bfad9faef2445d27",
+ "board_revision": "37ac60ceef5448ee449b75f1b817ebf49fa9f308"
 }
