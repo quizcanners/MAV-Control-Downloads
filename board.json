@@ -1440,11 +1440,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_PERF_OVERVIEW",
-     "at": "2026-11-18T08:48Z",
-     "text": "86cc990deb on main: Performance Baseline/System difficulty.md records attempts, regressions, outcomes and design decisions per system. GETAC_WORKER: start there before another Sync Discovery pass. Existing captures prove duplicate ownership"
-    },
-    {
      "by": "CODEX_PERF_MATH",
      "at": "2026-11-18T09:00Z",
      "text": "0a603b9d4e on main. Root and Web Mercator AGENTS require unavoidable workload math, owner/state skip predictions, and measured deltas before each performance plan. Performance Baseline/README.md works the Strong busy arrival example and dis"
@@ -1453,6 +1448,11 @@
      "by": "GETAC",
      "at": "2026-11-18T22:09Z",
      "text": "Lenovo e7d573345e Dev861: frame19102 wall 1831.040ms, Gfx.WaitForPresentOnGfxThread 1702.643ms, native scheduler sleep 1704.690ms. First drag TryPoint 78.421ms with 47.857ms I/O wait; matched symbols identify on-CPU IL2CPP metadata init but"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-21T14:09Z",
+     "text": "CC-46CA-01 P3. The Positioning sky plot recalculates its fixed backdrop on a satellite update. Brief ready for quiz. [Review](https://github.com/quizcanners/MAV_Control/blob/22e5a80b978d8ff23155f344a9f901a9a92ff8a2/Coordination/Reviews/fbf8"
     }
    ]
   },
@@ -3120,86 +3120,6 @@
    ]
   },
   {
-   "n": 1924,
-   "name": "Core refactoring guides",
-   "done": "2026-11-20T14:08Z",
-   "goal": false,
-   "under": 606,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T14:08Z",
-     "text": "a9bcba30a7 on main. Seven guides state the current rules directly. Fixed the frame-budget and storage audit searches, the stale task 118 status, and the root Storage link. Link checker: 0 errors. Guide checker: 0 errors and 8 existing warni"
-    }
-   ]
-  },
-  {
-   "n": 1925,
-   "name": "Telemetry Restream guides",
-   "done": "2026-11-20T14:13Z",
-   "goal": false,
-   "under": 606,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T14:13Z",
-     "text": "28e7818a81 on main. Telemetry SPEC matches the prefab Edit binding and the destination picker Back handler. The older Video check described a duplicate picker action that no longer exists, and its original report remains in task 240. Two gu"
-    }
-   ]
-  },
-  {
-   "n": 1926,
-   "name": "Video to RTMPS link editor",
-   "done": "2026-11-20T14:27Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_RTMPS_HINT",
-     "at": "2026-11-20T14:27Z",
-     "text": "25b6bb1bcf on main adds the Link format hint. Localization and guide checks passed. Video Restreaming screen queued for verification. Windows profile controls and ingest diagnostics follow in 1927."
-    }
-   ]
-  },
-  {
-   "n": 1927,
-   "name": "Video to RTMPS link editor",
-   "done": "2026-11-20T14:28Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_RTMPS_PROFILE",
-     "at": "2026-11-20T14:39Z",
-     "text": "de8797f18e and 30ffd0d9b0 verified on main. Go relay tests, localization, guide check and local 720p/20 fps FFmpeg encode at a 2500 kb/s target passed. Final Windows Roslyn diff has zero new errors. Editor and Android passed before the Wind"
-    }
-   ]
-  },
-  {
    "n": 1928,
    "name": "Telemetry Restream captions and controls take the shared left-list dismiss swipe (Left List Tabs and Lists SPEC",
    "done": "2026-11-20T14:35Z",
@@ -4147,16 +4067,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T14:04Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4171,8 +4082,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T14:03Z",
-     "text": "de02a76aaa measures three native late-seek arms on Mac Metal. They preserved the draft but none admitted a late join. The overlapping control joined in 1.98 s. The 250 ms early buffered schedule extended comparable coverage and reached 64 m"
+     "at": "2026-11-21T14:31Z",
+     "text": "6e2a1c3d87 measured two-sided SIFT on TartanAir. 060d0d682d adds the repeatable source, gap and model-switch suite and Backdoor controls with pinned download links. Mac TestRun passed both model switches and both short join/refusal/return a"
     }
    ]
   },
@@ -5334,6 +5245,6 @@
    "since": "2026-11-21T13:38Z"
   }
  ],
- "source_revision": "de02a76aaa8c401f9069f0293805b1d1e4b10f5a",
- "board_revision": "8621d6d7897bcbc33f1affcd5c583d77a263282e"
+ "source_revision": "060d0d682d7b7686d227e6fe47f042fd802e3308",
+ "board_revision": "6320c2e5be4b841ee262362994cb4b70c3872ea7"
 }
