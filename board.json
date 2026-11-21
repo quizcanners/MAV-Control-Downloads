@@ -3224,43 +3224,6 @@
    ]
   },
   {
-   "n": 1956,
-   "name": "Street View keeps fresh video frames in bounded MGRS folders. Follow Street View SPEC",
-   "done": "2026-11-20T19:51Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [
-    "2026-11-20T19:50Z",
-    "2026-11-20T19:50Z",
-    "2026-11-20T19:50Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Mark local video captures and file them by MGRS square",
-     "x": true
-    },
-    {
-     "t": "Replace redundant older frames after the new photo and its available depth are saved",
-     "x": true
-    },
-    {
-     "t": "Bound retained photos and restore the same rule after folder scan",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_VIDEO_FRAME_STREET_VIEW",
-     "at": "2026-11-20T19:51Z",
-     "text": "527f9c9a1d on main. Local Video Frames use 1 km MGRS folders, keep 24 per folder and 512 total, and replace older equivalent views after durable Save. Roslyn NEW ERRORS none; nine host controls passed (depth preference, ordering, active pro"
-    }
-   ]
-  },
-  {
    "n": 1957,
    "name": "Main View SPEC",
    "done": "2026-11-20T20:58Z",
@@ -4933,25 +4896,22 @@
   {
    "n": 2037,
    "name": "Remote Sensors list rows in the Remote Sensors SPEC",
-   "done": "",
+   "done": "2026-11-21T19:53Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-21T19:39Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-21T19:53Z",
+     "text": "3198c3b8bb on main. Remote Sensors lists reported battery below 10% first, then sensors without valid coordinates. Missing position has a yellow status indicator. Priority changes reorder the list as reports arrive. Focused native EditMode "
+    }
+   ]
   },
   {
    "n": 2038,
@@ -5556,6 +5516,6 @@
    "since": "2026-11-21T19:46Z"
   }
  ],
- "source_revision": "6133aba745cd236377e57b29a693d5d2a25e78aa",
- "board_revision": "3b5c0b29c033851269aea6acf0d1010945e0b8b6"
+ "source_revision": "3198c3b8bb75ecb22e618263048ccdf73d293f0e",
+ "board_revision": "584d29a5947a3e5ffc06ebaa4cac0cfcfdc240eb"
 }
