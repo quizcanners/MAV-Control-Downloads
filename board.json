@@ -30,16 +30,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_MAVCHAT_PANEL_BINDINGS",
-     "since": "2026-11-21T06:14Z",
-     "noted": "",
-     "progress": 62,
-     "ticked": 5,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -76,11 +67,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_CAPSULE_AUTHORED",
-     "at": "2026-11-21T05:45Z",
-     "text": "672e49f68c on main. The saved MavChat sheet owns the current face and all five neighbours with detail, tool, progress and fade bindings. Carousel drawing makes no copies and reads no sibling slots. The 142 focused cases passed; Mac Unity Al"
-    },
-    {
      "by": "MAC_AUTHORED_STATUS_CARDS",
      "at": "2026-11-21T05:59Z",
      "text": "f6b9576701 on main. Test Run and mesh notices use independent saved cards with authored action cells and receipt bindings. The live Connection Lost card is no longer their template. Unity All 8,815 passed, 34 skipped, zero failures after cl"
@@ -89,6 +75,11 @@
      "by": "MAC_MAVCHAT_INPUT_BINDINGS",
      "at": "2026-11-21T06:14Z",
      "text": "3f5ba5eda1 on main. The MavChat prefab binds blue press feedback on all six faces, the current selected body, and the three optional legacy fade groups. No capsule visual lookup or runtime fade component creation. 143 focused tests passed. "
+    },
+    {
+     "by": "MAC_MAVCHAT_PANEL_BINDINGS",
+     "at": "2026-11-21T06:20Z",
+     "text": "3de69cff74 on main. The MavChat sheet binds all five Tools and eight GPS/recording clipping groups to the same saved controls, including the flashlight and Pause. Both panels drop activation-time component searches and array allocations. 14"
     }
    ]
   },
@@ -3063,26 +3054,6 @@
    ]
   },
   {
-   "n": 1874,
-   "name": "Using Strong and Lenovo to correlate Web Mercator offer repeats with index reads",
-   "done": "2026-11-20T06:16Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-20T06:16Z",
-     "text": "Released both tablets. Overlap trace on Dev 868: zero new Lenovo to Strong offers over 30 s, 128 distinct captured index admissions and 99 omitted at capacity, Web Mercator Sync peak 21.524 ms. The earlier repeat cause still needs the trace"
-    }
-   ]
-  },
-  {
    "n": 1875,
    "name": "Host tests kept as libraries",
    "done": "",
@@ -3095,26 +3066,6 @@
    "held": [],
    "steps": [],
    "notes": []
-  },
-  {
-   "n": 1876,
-   "name": "Mac build storage for the next iOS and macOS release",
-   "done": "2026-11-20T06:17Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T06:17Z",
-     "text": "Retired 9,420 generated C/C++ files from closed iOS 863\u2013866 and macOS 845/850/851 exports. Free space rose from 24.22 to 36.36 GiB. Verified matching signed archives/packages, dSYMs and unchanged package hashes. Current iOS/macOS 868 and te"
-    }
-   ]
   },
   {
    "n": 1877,
@@ -5545,6 +5496,6 @@
    "since": "2026-11-21T05:34Z"
   }
  ],
- "source_revision": "f2e89e314557a583d6dd95bea5baad1b51440116",
- "board_revision": "fae1dd56544de3b9d8c46183860b7d2d7f89bbf6"
+ "source_revision": "51e9f811db822caff27ffc17f7c7a43478ffc7ce",
+ "board_revision": "3fe7fafabe91739dff3e0152f8ef2c9355b63faa"
 }
