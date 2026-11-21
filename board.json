@@ -30,16 +30,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_CENTER_MARKER_FRAME",
-     "since": "2026-11-21T04:43Z",
-     "noted": "",
-     "progress": 62,
-     "ticked": 5,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -76,11 +67,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_LAYER_HIT_AUTHOR",
-     "at": "2026-11-21T04:24Z",
-     "text": "378950b4ac retires the one-time Layers hit-area author. The saved Menu prefab test checks all nine caption and switch pairs for separate hit areas. Menu 14 passed. All 8,807 passed, 0 failed, 35 skipped. Roslyn clean. Menu/Layers visual fol"
-    },
-    {
      "by": "MAC_BOARD_CHAT_MESSAGE_AUTHOR",
      "at": "2026-11-21T04:35Z",
      "text": "ddf9b4b51a on main. Retired the one-time message gestures and My details authors, including the retired message editor command. Both saved Chat prefabs pass reader, status/draft alignment, and profile hit-area and swatch checks. Focused 64 "
@@ -89,6 +75,11 @@
      "by": "MAC_BOARD_CHAT_MGRS_AUTHOR",
      "at": "2026-11-21T04:41Z",
      "text": "d498767672 on main. Retired the one-time single-MGRS row author. The existing interaction test now runs the committed shared prefab through both Chat windows, checking its long-press binding, coordinate-only row selection, and cancellation "
+    },
+    {
+     "by": "MAC_BOARD_CENTER_MARKER_FRAME",
+     "at": "2026-11-21T04:51Z",
+     "text": "5849c411bc on main. CenterMarker owns the crosshair, follow brackets, first-person reservation and portrait divider opacity. The map suggestion shape and Route endpoint label use the same frame decision. Mac 189 focused passes. EditMode All"
     }
    ]
   },
@@ -5592,6 +5583,6 @@
    "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "decc360b1329ec661670f60891fea2a6addd45bd",
- "board_revision": "15b428c91b030907fc8d99479379ad0238d58605"
+ "source_revision": "9301cf3586f29e873e1580653f0ae1e80df4b136",
+ "board_revision": "cd02ba9f66e9d5d92010889453f7c7728d7c9593"
 }
