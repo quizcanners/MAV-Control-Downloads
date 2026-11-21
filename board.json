@@ -3098,26 +3098,6 @@
    ]
   },
   {
-   "n": 1898,
-   "name": "Navigator SPEC",
-   "done": "2026-11-20T10:00Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T10:00Z",
-     "text": "8a97a22d6b on main. MavChat capsule names the selected group; localized Group row opens its existing conversation above the peers, and Back retains the roster. Roslyn NEW ERRORS: none; localization and prefab hierarchy/action checks passed."
-    }
-   ]
-  },
-  {
    "n": 1899,
    "name": "Navigator SPEC",
    "done": "2026-11-20T10:07Z",
@@ -4623,25 +4603,22 @@
   {
    "n": 1971,
    "name": "Street View SPEC",
-   "done": "",
+   "done": "2026-11-21T10:00Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-21T09:06Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-21T10:00Z",
+     "text": "6c4216de33 on main. Live video is composited over stills only for Pano360 display. Windows and Android display variants and Windows Web Mercator bake variant compiled. Nine GPU draw/readback cases passed, including fades and depth rejection"
+    }
+   ]
   },
   {
    "n": 1972,
@@ -5379,6 +5356,6 @@
    "since": "2026-11-21T09:53Z"
   }
  ],
- "source_revision": "7360f49fee26b303288f52d1f6ec8e44cae55a3b",
- "board_revision": "7b87fbb18f191c34372ac0ce00a9781ae50d7a87"
+ "source_revision": "968d477b94491c02ae7d916a564aac8bf6542c21",
+ "board_revision": "f8c33beceb9395d591c9c890397975086cb31735"
 }
