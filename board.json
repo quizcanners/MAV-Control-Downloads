@@ -30,16 +30,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_AUTHORED_STATUS_CARDS",
-     "since": "2026-11-21T05:47Z",
-     "noted": "",
-     "progress": 62,
-     "ticked": 5,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -76,11 +67,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_NOTIFY_FRAME",
-     "at": "2026-11-21T05:12Z",
-     "text": "91d0c976b2 on main. NotificationIsland owns map availability for the tray, erase banner, Menu ordering and MavChat viewport. An unbound portrait square no longer falls back to landscape pop-ups. Focused 189 pass. Full reruns isolated retain"
-    },
-    {
      "by": "MAC_BOARD_CHAT_AUTHOR",
      "at": "2026-11-21T05:34Z",
      "text": "daba1acc9f on main retires the one-time Chat Home icon sizing, peer backdrop and peer divider editor commands. Reusable builders remain. Unity checked both saved dividers and the saved backdrop/feather directly; 40 focused Chat tests passed"
@@ -89,6 +75,11 @@
      "by": "MAC_CAPSULE_AUTHORED",
      "at": "2026-11-21T05:45Z",
      "text": "672e49f68c on main. The saved MavChat sheet owns the current face and all five neighbours with detail, tool, progress and fade bindings. Carousel drawing makes no copies and reads no sibling slots. The 142 focused cases passed; Mac Unity Al"
+    },
+    {
+     "by": "MAC_AUTHORED_STATUS_CARDS",
+     "at": "2026-11-21T05:59Z",
+     "text": "f6b9576701 on main. Test Run and mesh notices use independent saved cards with authored action cells and receipt bindings. The live Connection Lost card is no longer their template. Unity All 8,815 passed, 34 skipped, zero failures after cl"
     }
    ]
   },
@@ -3063,26 +3054,6 @@
    ]
   },
   {
-   "n": 1873,
-   "name": "Using Strong and Lenovo for the paired Dev 868 Web Mercator preview comparison",
-   "done": "2026-11-20T05:54Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-20T05:54Z",
-     "text": "Released both tablets. Exact signed Dev 868 installed in place and Ready. CPU.md and build history on main at 9e1fad475b. Lenovo 18% held background discovery, so this run covers view offers. Durable and changed-group latency remain open un"
-    }
-   ]
-  },
-  {
    "n": 1874,
    "name": "Using Strong and Lenovo to correlate Web Mercator offer repeats with index reads",
    "done": "2026-11-20T06:16Z",
@@ -5560,6 +5531,6 @@
    "since": "2026-11-21T05:34Z"
   }
  ],
- "source_revision": "5b72a63d793f100422f52ef1c0f08aa23642351f",
- "board_revision": "1a341ae4bf4c46e93bf95aae5dc4861a13cf4efa"
+ "source_revision": "94e01081498ee1ee622811fb46737b4e3244b4ed",
+ "board_revision": "129c1eafd89af70707294c9146e042377134a957"
 }
