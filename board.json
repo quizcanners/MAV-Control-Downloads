@@ -3098,26 +3098,6 @@
    ]
   },
   {
-   "n": 1900,
-   "name": "MGRS SPEC",
-   "done": "2026-11-20T11:15Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T11:15Z",
-     "text": "8c415e96ed on main. MGRS history swipes focus without selecting or copying, and a tap selects and copies the recalled point. The first Previous from a locked point focuses the retained entry and preserves the lock. Roslyn reported no new er"
-    }
-   ]
-  },
-  {
    "n": 1901,
    "name": "Settings / Data / Kropyva",
    "done": "2026-11-20T11:42Z",
@@ -4610,16 +4590,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T11:12Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4634,8 +4605,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T11:11Z",
-     "text": "91e5d1e0e7 on main. Image-only SIFT improved clean held-out pose and joined with conditioned SMALL, but failed compound recovery. At +70 m one accepted join was 13.72 m off. All Zurich controls refused. GPU baseline records speed, accuracy "
+     "at": "2026-11-21T11:20Z",
+     "text": "073253ba96 on main. Across 54 Helsinki source joins, stricter photo counts and reciprocal fits retained large placement errors. Comparing both surveyed endpoints kept all 24 clean/fog placements within 5 m and refused all nine high-altitude"
     }
    ]
   },
@@ -5346,6 +5317,6 @@
    "since": "2026-11-21T09:53Z"
   }
  ],
- "source_revision": "91e5d1e0e7b21b472f1950001c2a1abe44b1eb6a",
- "board_revision": "7f3304a425fd69305cd09bf66e1ba2e28896b2ea"
+ "source_revision": "073253ba96e2723e99038dc7bbca029e9a26fcf8",
+ "board_revision": "51498f50ccb1c40d5a4eefc13a3796c4619ddacf"
 }
