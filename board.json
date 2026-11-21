@@ -3898,7 +3898,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_VIDEO_STRESS",
+     "since": "2026-11-21T15:59Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -4616,14 +4625,20 @@
     {
      "who": "GETAC_MGRS_UI",
      "since": "2026-11-21T15:55Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-21T15:58Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC_MGRS_UI",
+     "at": "2026-11-21T15:58Z",
+     "text": "Code, prefab text and SPECs are one local commit 36e3df9d36 on the Getac branch claude/progress-mgrs-ui-fecfbd, rebased on main 4a184e855c; not on main yet, waiting for quiz's go to push without a compile check. Not run: cmp.sh (its private"
+    }
+   ]
   },
   {
    "n": 2008,
@@ -5207,5 +5222,5 @@
   }
  ],
  "source_revision": "4a184e855c4cf3a1d88760f42d241da893f03b73",
- "board_revision": "9f7e149b69237592ec7fb412bb5628b51f0b77ac"
+ "board_revision": "ae6d1fe13268c9d9e80924a172783746e5d7f914"
 }
