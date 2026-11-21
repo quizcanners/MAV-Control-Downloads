@@ -3068,26 +3068,6 @@
    "notes": []
   },
   {
-   "n": 1881,
-   "name": "Bootstrap SPEC",
-   "done": "2026-11-20T07:39Z",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T07:39Z",
-     "text": "a061899d58 on main. Res X2 uses one non-hover interaction delay for the map and UI. Mac Play returned to Res X2 one second after UI and map release and retained the five-second idle refresh. All 35 focused Unity tests passed. Roslyn found n"
-    }
-   ]
-  },
-  {
    "n": 1882,
    "name": "Using Strong and Lenovo for the scoped Web Mercator view wake comparison",
    "done": "2026-11-20T07:52Z",
@@ -4834,25 +4814,22 @@
   {
    "n": 1965,
    "name": "Make Unity Play Mode and the update-key check a post-upload step for sealed builds",
-   "done": "",
+   "done": "2026-11-21T07:48Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-21T07:34Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-21T07:48Z",
+     "text": "Published e530fb8c54. Getac is configured for the post-upload Play Mode step. For Test 871 the Editor imported the android-arm64 key and admitted one VPN peer send. Peer receipt is unverified. Roslyn found no new errors and publisher and ni"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5469,6 +5446,6 @@
    "since": "2026-11-21T05:34Z"
   }
  ],
- "source_revision": "2b982b06d50e0dff3e7a42c9e00915901b8aeee7",
- "board_revision": "8201cf11b14bec080e93b58c4a008b259944d57b"
+ "source_revision": "e530fb8c54953b8b3884ff6bcb75a9be63f04504",
+ "board_revision": "ca7c421b34ab0e51e5ffa3b5e3cf3c927d2c5575"
 }
