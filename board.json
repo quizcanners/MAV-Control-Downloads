@@ -2066,30 +2066,16 @@
   {
    "n": 1317,
    "name": "Screen center",
-   "done": "",
+   "done": "2026-11-21T05:29Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_SUGGESTIONS_TOUCH",
-     "since": "2026-11-21T05:19Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_CENTER_RECHECK",
-     "at": "2026-11-17T07:23Z",
-     "text": "Reviewed current center-tab binding and selection owner: a single custom-button action sets the tab immediately; selected locked coordinates are covered by existing state tests. No new source-backed cause for the intermittent touch failure;"
-    },
     {
      "by": "MAC_BOARD_TAB",
      "at": "2026-11-19T12:26Z",
@@ -2099,6 +2085,11 @@
      "by": "MAC_BOARD",
      "at": "2026-11-20T11:18Z",
      "text": "4511b62376 fixed the distinct locked-point/centre altitude line. 91610eb281 preserves the lock when dismissing Alternatives. Centre tap still needs the affected touchscreen: prior Mac replay accepted a quick tap, and devicectl reports both "
+    },
+    {
+     "by": "MAC_SUGGESTIONS_TOUCH",
+     "at": "2026-11-21T05:29Z",
+     "text": "90fc23de54 on main. The saved Screen Centre tab reproduced a Drag cancellation at Unity\u2019s early pointer-up while the point was selected and locked. Suggestions now retains the contact through the swipe decision. Short vertical and sideways "
     }
    ]
   },
@@ -3079,26 +3070,6 @@
      "by": "GETAC",
      "at": "2026-11-20T05:41Z",
      "text": "Released Strong and Lenovo. Strong Dev 868 reached Ready. Sender trace on a live older peer recorded 121 deferred offers, 45 finishing without body chunks. The original Lenovo was absent. Matched receiver and durable-tile timing remain open"
-    }
-   ]
-  },
-  {
-   "n": 1872,
-   "name": "Chat SPEC",
-   "done": "2026-11-20T05:21Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T05:21Z",
-     "text": "089820c89f on main. Before the fix, exiting Mac Play with Chat Alerts open threw NullReferenceException in UI_ChatWindow.OnDisable after the Station singleton was gone. Window and painter now look up a live owner before notifying it; normal"
     }
    ]
   },
@@ -5592,6 +5563,6 @@
    "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "519aae28a871667c4321abc3cc4563f429eac34f",
- "board_revision": "f09e3de90b10d507e984e099e8a507f1bb64e651"
+ "source_revision": "c82d06f92a1272901b202a8d4fa4066da6c98949",
+ "board_revision": "be08cc00eda8fe5e206eed04ce905fae8848bd45"
 }
