@@ -4585,25 +4585,22 @@
   {
    "n": 1978,
    "name": "Pilot Side View",
-   "done": "",
+   "done": "2026-11-21T12:09Z",
    "goal": false,
    "under": 364,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_PILOT_SIDE_VIEW",
-     "since": "2026-11-21T12:07Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_PILOT_SIDE_VIEW",
+     "at": "2026-11-21T12:09Z",
+     "text": "Main bc1ec7f5e2: binary Side View, manual feed and direction selection, exclusive projection, Hide Video covers both, and 0.25 s flick. Removed stick-driven near-home camera switching. Roslyn NEW ERRORS none. Unity 168 passed, 1 existing pe"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5201,5 +5198,5 @@
   }
  ],
  "source_revision": "2567435be214c131de5fd966248e30d3792c3902",
- "board_revision": "d302d55c2b90463ba24be17cbdbc198f6fc4e89d"
+ "board_revision": "7875338b5fae31373c6b63505b49492c86d62e67"
 }
