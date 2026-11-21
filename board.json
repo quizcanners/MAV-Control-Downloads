@@ -27,16 +27,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_FULLSCREEN_VIDEO",
-     "since": "2026-11-21T02:35Z",
-     "noted": "",
-     "progress": 25,
-     "ticked": 2,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -73,11 +64,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_MAP_CONTROLS",
-     "at": "2026-11-21T02:12Z",
-     "text": "06ddc63f23 on main. Reproduced one-frame visibility split on lock (map controls false, zoom true). Station.UI.ZoomScroller now decides both together. Focused 38 pass, All 8,802 pass/35 skip, lock test passed again without reload. Roslyn no "
-    },
-    {
      "by": "MAC_BOARD_WORKFLOW_SELECTOR",
      "at": "2026-11-21T02:21Z",
      "text": "186aa8ebf7 on main. Disabled Workflow selector no longer claims the overlay with no workflow chosen. Availability follows Main UI lifecycle, and visibility shares the overlay frame gate. Failing lifecycle reproduced before; 65 focused pass/"
@@ -86,6 +72,11 @@
      "by": "MAC_BOARD_TELEMETRY_TABS",
      "at": "2026-11-21T02:34Z",
      "text": "f9997d69b0 on main. DronePanels now decides Telemetry tab availability and publishes covered tab swaps. Video source, Restream, Positioning and Pre-Flight no longer use rendered rows as inputs. Roslyn: no new errors. Mac Unity All: 8,803 pa"
+    },
+    {
+     "by": "MAC_BOARD_FULLSCREEN_VIDEO",
+     "at": "2026-11-21T02:46Z",
+     "text": "e863c55844 on main. Station.UI.FullscreenVideo owns the applied source, screen map, photo and Chat-picture state. The prefab applies visibility and the shared Exit and map consume the system answer. Mac Unity All 8,804 passed, 34 skipped, z"
     }
    ]
   },
@@ -5850,5 +5841,5 @@
   }
  ],
  "source_revision": "7d47dec4a9f09819329f87ff184b8e38e8169c22",
- "board_revision": "9ce0e632ad3e08309e88847ae18ab3640024b2c2"
+ "board_revision": "92af423e8643424f4623bb9a51818c82dee05646"
 }
