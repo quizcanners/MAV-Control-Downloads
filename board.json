@@ -4347,16 +4347,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T12:48Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4371,8 +4362,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T12:47Z",
-     "text": "78dd0ee725 records actual DA3-BASE on the 10 km replay. Camera-only overlap drifted, endpoint depth calibration reduced error but the graph still refused, and known depth recovered SIFT. Archived shared-pixel overlap passed six clean and tw"
+     "at": "2026-11-21T12:53Z",
+     "text": "853f7f5195 makes the full shared-pixel DA3 replay reproducible for the 10 km fixture and registered photo sequences. Host checks passed metric recovery, final overlap and refusal. The installed BASE graph reproduced all six opening overlap "
     }
    ]
   },
@@ -5319,6 +5310,6 @@
    "since": "2026-11-21T12:24Z"
   }
  ],
- "source_revision": "78dd0ee7254541fd75483096b8715a78ddbfdf7e",
- "board_revision": "fdaae6d81733b0ec9077212c8df21536f61e9c51"
+ "source_revision": "853f7f5195a6c3b9d6f21b2b4b9b2cc228587a98",
+ "board_revision": "7e9c16da1ddb214f3bb4857a2d389cfec772b5cf"
 }
