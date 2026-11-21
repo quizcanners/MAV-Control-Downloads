@@ -4719,25 +4719,22 @@
   {
    "n": 1994,
    "name": "Post Store opens from the Menu context drag and closes through the shared X",
-   "done": "",
+   "done": "2026-11-21T13:30Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_POST_STORE_OPEN",
-     "since": "2026-11-21T13:13Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_POST_STORE_OPEN",
+     "at": "2026-11-21T13:30Z",
+     "text": "8ae5840b26 on main. Post Store activates before its first managed frame and early X is safe. Store navigation (4), history (12), typed prefab (2) and inventory (93) passed. Device look due. Roslyn no new errors."
+    }
+   ]
   },
   {
    "n": 1995,
@@ -5469,5 +5466,5 @@
   }
  ],
  "source_revision": "993ad2ced86ae15ad8a97dafa9f638ace37a0963",
- "board_revision": "596406b5c0ceabecae5f7e665a04eb3d62c90823"
+ "board_revision": "b26369640e2ef729e9f276815153d513d8c59eb5"
 }
