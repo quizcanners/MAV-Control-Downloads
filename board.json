@@ -4599,25 +4599,22 @@
   {
    "n": 2003,
    "name": "Remove obsolete top-right Enter Finalize control from Main UI and startup. Main View SPEC.",
-   "done": "",
+   "done": "2026-11-21T15:34Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-21T15:13Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-21T15:34Z",
+     "text": "9b4682d627 is on main. Removed Enter Finalize scene objects and their input handler. The editing tool and physical Enter still finish Orthophoto edits. Roslyn had no new errors."
+    }
+   ]
   }
  ],
  "verify": [
@@ -5187,5 +5184,5 @@
   }
  ],
  "source_revision": "89bf4b584abfcea8e8f02ce88d797574665c3335",
- "board_revision": "a165e8ccb555f6b9eb4940d68473b549a55e82b4"
+ "board_revision": "4e6f0dc0764e70d7a35f0df4f2400ab959c1b47b"
 }
