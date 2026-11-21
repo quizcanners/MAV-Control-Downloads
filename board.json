@@ -3234,7 +3234,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_JOIN_THROUGHPUT",
+     "since": "2026-11-21T08:54Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -4729,25 +4738,22 @@
   {
    "n": 1968,
    "name": "Rename Brigade Configurations to Tester Group Config. Data Sync SPEC",
-   "done": "",
+   "done": "2026-11-21T08:52Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_CONFIG_RENAME",
-     "since": "2026-11-21T08:43Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_CONFIG_RENAME",
+     "at": "2026-11-21T08:52Z",
+     "text": "c70d808a5c is on main. Tester Group Config now appears in Unity asset creation, the Ground Station Inspector and related diagnostics. C# changes are string-only. Diff and guide checks passed (8 guide warnings). Roslyn exited before reportin"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5369,5 +5375,5 @@
   }
  ],
  "source_revision": "f80895cbe4fd52523d71e6fc83de8f208a234b7c",
- "board_revision": "e212cc0da0b185097eafa657b76b556def3a0133"
+ "board_revision": "7a0a701305f34dc36be554f36d229149a6b12037"
 }
