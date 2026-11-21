@@ -3160,26 +3160,6 @@
    ]
   },
   {
-   "n": 1933,
-   "name": "Video to RTMPS Link editor offers the video codec and media transport supported by the selected publishing protocol. Video Restreaming SPEC",
-   "done": "2026-11-20T15:20Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_RESTREAM_FORMATS",
-     "at": "2026-11-20T15:20Z",
-     "text": "2384f29691 verified on main. Link editor offers RTSP VP8 and TCP/UDP plus VP9 on RTSP and Enhanced RTMP(S) when FFmpeg has it. Unity compile and localization passed. Windows loopback received VP8/RTSP/UDP with stock FFmpeg and VP9/Enhanced "
-    }
-   ]
-  },
-  {
    "n": 1934,
    "name": "Fullscreen Video signal loss. Follow Video Processing SPEC \u00a7 Fullscreen video and Peer Video SPEC \u00a7 Viewing.",
    "done": "2026-11-20T15:27Z",
@@ -4007,16 +3987,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T15:08Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4031,8 +4002,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T15:07Z",
-     "text": "2878ec3220 compares pinned LongStream and installed BASE on identical clean/JPEG8 TartanAir windows. LongStream improved the hardest compressed pose/depth but needed 4.3\u20134.7\u00d7 CPU time. Both tracks refined with SIFT confirmed both close case"
+     "at": "2026-11-21T15:25Z",
+     "text": "76f655cdce adds a repeatable native Metal conditioned-stitch replay. All 12 predicted-depth positives and all 16 Zurich attempts refused. Measured camera + measured depth confirmed clean and JPEG8; changing to SIFT cameras reduced support t"
     }
    ]
   },
@@ -5260,6 +5231,6 @@
    "since": "2026-11-21T13:38Z"
   }
  ],
- "source_revision": "2878ec3220ab9a31eb70f7b646fe89440a3a1c58",
- "board_revision": "1b0f187e8dffdd1556e936ac5a9be95ac39e4892"
+ "source_revision": "76f655cdce36d2d52ffac6458a8f9a0f75bb97d3",
+ "board_revision": "6b88335e09353f3d5c19139a22ce3b2afe0039a3"
 }
