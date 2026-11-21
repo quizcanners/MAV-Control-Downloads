@@ -4786,25 +4786,22 @@
   {
    "n": 1973,
    "name": "Video Processing SPEC",
-   "done": "",
+   "done": "2026-11-21T09:22Z",
    "goal": false,
    "under": 431,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_VIDEO_EFFECTS_FLICK",
-     "since": "2026-11-21T09:14Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_VIDEO_EFFECTS_FLICK",
+     "at": "2026-11-21T09:22Z",
+     "text": "cbd79f98bf on main. Left and right swipes use the existing fullscreen fold transition. Sliders and switches retain their drags. Paint is bottom-left inside the safe area and stays visible when folded. Unity 30 passed, 2 backend-specific ski"
+    }
+   ]
   },
   {
    "n": 1974,
@@ -5448,6 +5445,6 @@
    "since": "2026-11-21T08:45Z"
   }
  ],
- "source_revision": "4482636fdfd3ee3fb6ce2fc172bef9fc13da5fcb",
- "board_revision": "de5527db96f65918d4ed433cb8a1edc276ab080d"
+ "source_revision": "cbd79f98bf6936e2df1193878b159fbe666f2fa8",
+ "board_revision": "b9a0ddba6c231213d9e7c7545615dec0fb7dd461"
 }
