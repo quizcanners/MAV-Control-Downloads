@@ -3105,26 +3105,6 @@
    ]
   },
   {
-   "n": 1893,
-   "name": "Main View SPEC",
-   "done": "2026-11-20T09:23Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T09:23Z",
-     "text": "6df1e090d1 on main. No UI stays active across lock and unlock; locked input cannot toggle it. Isolated check reproduced the prior failure and passed 10 focus and overlay states with the fix. Roslyn found no new errors. Main/Map verification"
-    }
-   ]
-  },
-  {
    "n": 1894,
    "name": "Telemetry SPEC",
    "done": "2026-11-20T09:34Z",
@@ -3194,23 +3174,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MATCHED_HELSINKI",
-     "since": "2026-11-21T09:19Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_CONDITIONED_ONNX",
-     "at": "2026-11-21T09:02Z",
-     "text": "fc247b977c exports four-view DA3-SMALL with camera matrices and removes the GPU-unsupported quaternion selection operation. CPU ONNX/PyTorch parity passed across three controls and the rewrite preserved all four tensors exactly across six y"
-    },
     {
      "by": "CODEX_CONDITIONED_UNITY",
      "at": "2026-11-21T09:12Z",
@@ -3220,6 +3186,11 @@
      "by": "CODEX_STOCK_HELSINKI",
      "at": "2026-11-21T09:18Z",
      "text": "4482636fdf scores the installed eight-view BASE ONNX graph against the same Helsinki A/B holdouts. 6.01/6.21 m depth RMS and six unrelated Zurich refusals. Predicted-lens joins passed both directions with both matchers but left 11.75\u201315.56 "
+    },
+    {
+     "by": "CODEX_MATCHED_HELSINKI",
+     "at": "2026-11-21T09:23Z",
+     "text": "d213f3cc8c compares the exact installed BASE seed, both sparse matchers and conditioned SMALL on the same Helsinki inputs. Consecutive SIFT reached 1.74/0.54 m pose RMS; graph + SMALL with DISK/LightGlue placed both joins within 1.90/2.67 m"
     }
    ]
   },
@@ -5445,6 +5416,6 @@
    "since": "2026-11-21T08:45Z"
   }
  ],
- "source_revision": "cbd79f98bf6936e2df1193878b159fbe666f2fa8",
- "board_revision": "b9a0ddba6c231213d9e7c7545615dec0fb7dd461"
+ "source_revision": "d213f3cc8c9af398b205bad04696b4cad37a8c13",
+ "board_revision": "97c436d979ba48bfca24bbacad66db3b09e8d30e"
 }
