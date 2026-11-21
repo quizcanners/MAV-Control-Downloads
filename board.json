@@ -3354,23 +3354,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MATCHED_DEPTH",
-     "since": "2026-11-21T07:58Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_ANCHOR_GRAPH",
-     "at": "2026-11-21T06:55Z",
-     "text": "Published b13008e5c1 and 2b982b06d5. Anchored replay compares original DA3 poses, consecutive and longer SIFT/XFeat links, and pose-conditioned BASE/SMALL. Nine focused tests, both model smokes, guide check and Roslyn passed. Evidence: GPU."
-    },
     {
      "by": "CODEX_ANCHOR_BENCH",
      "at": "2026-11-21T07:51Z",
@@ -3380,6 +3366,11 @@
      "by": "CODEX_AERIAL_DEPTH",
      "at": "2026-11-21T07:57Z",
      "text": "981dc673af records UAVScenes AMtown01 camera and LiDAR comparison, 10 photos and eight held-out poses. SMALL led conditioned CPU latency with similar RMS depth error. Very long RGB links hurt accuracy again. Next: repeat stock and candidate"
+    },
+    {
+     "by": "CODEX_MATCHED_DEPTH",
+     "at": "2026-11-21T08:03Z",
+     "text": "8f9724e57c adds RGB-only BASE to the three-arm depth replay with identical windows and metric scaling. UAVScenes AMtown01 rerun on 149,351 LiDAR pixels confirmed the conditioning result; GPU.md records accuracy and timing. Ten focused tests"
     }
    ]
   },
@@ -5467,6 +5458,6 @@
    "since": "2026-11-21T05:34Z"
   }
  ],
- "source_revision": "313c6a28dd8cff4e9dd4470b14995a542e10426b",
- "board_revision": "d42829bb6b1ce37d9779202dc3fbf6601696871e"
+ "source_revision": "8f9724e57c6ecfd57613c319c3572aee32c73637",
+ "board_revision": "73823ccfef59854b986090a775a86212cff8e011"
 }
