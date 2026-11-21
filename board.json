@@ -3131,26 +3131,6 @@
    ]
   },
   {
-   "n": 1944,
-   "name": "Add a MavTube panel to MavChat (Navigator SPEC",
-   "done": "2026-11-20T17:52Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_MAVTUBE",
-     "at": "2026-11-20T17:52Z",
-     "text": "Published f889953abd. MavTube shows incoming feeds at half and full height, scrolls within the sheet, and follows the selected feed\u2019s matching drone or shared peer GPS when available. Mac EditMode 149 passed, 0 failed, 1 Windows-only skip. "
-    }
-   ]
-  },
-  {
    "n": 1945,
    "name": "Telemetry Video Source lists capture sources and automatically recovers direct aircraft video. See Drone Control UI SPEC",
    "done": "2026-11-20T18:31Z",
@@ -4433,7 +4413,9 @@
    "done": "",
    "goal": false,
    "under": 407,
-   "ticks": [],
+   "ticks": [
+    "2026-11-21T17:58Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -4442,15 +4424,15 @@
      "who": "GETAC",
      "since": "2026-11-21T17:15Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Selected + pointed resolves to the blue light",
-     "x": false
+     "x": true
     },
     {
      "t": "Leaving returns the yellow light",
@@ -4814,10 +4796,6 @@
   }
  ],
  "verify": [
-  {
-   "screen": "Settings/Home",
-   "since": "2026-11-14T17:51Z"
-  },
   {
    "screen": "Main/Map",
    "since": "2026-11-21T12:24Z"
@@ -5387,6 +5365,6 @@
    "since": "2026-11-21T12:52Z"
   }
  ],
- "source_revision": "2330bc3e35b922b12a2d11b4215b7bf872e3e60b",
- "board_revision": "fd5bc701d67a98b2a2548d8f1c6e67e92a268c0d"
+ "source_revision": "0707d3d29c4477d2ed7ec8c883b01e3b06f7532d",
+ "board_revision": "d600daef554100d59b37baada7d932ef89c6463f"
 }
