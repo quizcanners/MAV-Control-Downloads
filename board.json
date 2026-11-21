@@ -30,16 +30,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "agent",
-     "since": "2026-11-21T12:44Z",
-     "noted": "",
-     "progress": 62,
-     "ticked": 5,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -3160,46 +3151,6 @@
    ]
   },
   {
-   "n": 1935,
-   "name": "Restream link editor list shows the saved name",
-   "done": "2026-11-20T15:42Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_RESTREAM_LIST",
-     "at": "2026-11-20T15:42Z",
-     "text": "d363e53422 on main. Link editor rows show the saved name with codec and protocol/media transport, including VP8/VP9, RTSP TCP/UDP and WHIP. Mac EditMode 80 passed, 0 failed, 0 skipped. Compile comparison found no new errors. Live layout che"
-    }
-   ]
-  },
-  {
-   "n": 1936,
-   "name": "Windows Android USB install shows device",
-   "done": "2026-11-20T15:47Z",
-   "goal": false,
-   "under": 374,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_USB_INSTALL",
-     "at": "2026-11-20T15:47Z",
-     "text": "f7e9ee2768 on main. Dev Mode shares the flat USB installer; picker uses only keyed packages from the validated Android catalog. One Install verifies the APK and configures built-in WireGuard with the selected .conf. Mac EditMode 100 passed,"
-    }
-   ]
-  },
-  {
    "n": 1937,
    "name": "Touch drift starts the UI drag before taps can release on Suggestion tabs and Chat. Follow UI SPEC",
    "done": "2026-11-20T16:10Z",
@@ -4615,6 +4566,29 @@
      "text": "9b4682d627 is on main. Removed Enter Finalize scene objects and their input handler. The editing tool and physical Enter still finish Orthophoto edits. Roslyn had no new errors."
     }
    ]
+  },
+  {
+   "n": 2004,
+   "name": "Fix Unity UAC1001 for the DJI measured-depth request ID and preserve its wire format",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-21T15:47Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5184,5 +5158,5 @@
   }
  ],
  "source_revision": "8ee2574a20d6fcfae9396b800220d0e7cf7b2c02",
- "board_revision": "065c7b2545cb0e74fae7540af326f933a5d1eecd"
+ "board_revision": "bf7b0624b59c6ac4a36208e1e2d298e8c270a799"
 }
