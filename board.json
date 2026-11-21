@@ -3858,16 +3858,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T16:38Z",
-     "noted": "2026-11-21T16:38Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -3882,8 +3873,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T16:38Z",
-     "text": "103d538935 ran measured TartanAir clean/JPEG8 against exact frozen eight-view BASE on Metal at idle and 60 FPS. Both fresh views had support, but held-out error exceeded the unchanged 12% gate. Matched measured references passed and all Zur"
+     "at": "2026-11-21T16:45Z",
+     "text": "b76e6c29b4 verified clean native join at unchanged gate with retained lens alone or lens plus calibrated poses. JPEG8 still refused, and all eight Zurich controls refused. Two-anchor SIFT improved held-out poses but same-pair JPEG depth sta"
     }
    ]
   },
@@ -5222,6 +5213,6 @@
    "since": "2026-11-21T13:38Z"
   }
  ],
- "source_revision": "103d5389356ede435f48f083e0ca38f40c2367e3",
- "board_revision": "ef315cadbb5bef96167f4aa46e6c66cda3d766c2"
+ "source_revision": "b76e6c29b47545b0cc6d45b2653eacd4ceea986f",
+ "board_revision": "2203d9f249c469d19b0f0d7d475b7358183217a9"
 }
