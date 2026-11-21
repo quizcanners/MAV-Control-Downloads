@@ -3098,66 +3098,6 @@
    ]
   },
   {
-   "n": 1903,
-   "name": "Settings / Dev Mode / Network / Network APIs / Weather",
-   "done": "2026-11-20T11:56Z",
-   "goal": false,
-   "under": 409,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T11:56Z",
-     "text": "b57fd9d1f4 on main. Mac Play: schedule, fallback, both providers failing and cache-write issue appear before controls. Config and Persistent each start on their own content. WeatherProviderTests 34/0/0, Roslyn clean. Evidence: MavControlEvi"
-    }
-   ]
-  },
-  {
-   "n": 1904,
-   "name": "Main View SPEC",
-   "done": "2026-11-20T11:48Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T11:48Z",
-     "text": "72c7bfa15e pushed to main. Mac Play reproduced the floating offline-peer card, then showed NO_VIDEO in Suggestions and opened the inline preview by clicking its tab. Feed changes keep the selected peer eligible. Local and remote drone tests"
-    }
-   ]
-  },
-  {
-   "n": 1905,
-   "name": "SDC Ping SPEC",
-   "done": "2026-11-20T11:47Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_SDC",
-     "at": "2026-11-20T11:47Z",
-     "text": "Published 536cd60b5e on main. Closed fake serial ports reported the Betaflight hint for Windows errors 5 and 32, retried beyond the generic cutoff and recovered on release. Missing-port classification, Linguist and Roslyn check passed. Nati"
-    }
-   ]
-  },
-  {
    "n": 1906,
    "name": "Settings / macOS / Microphone",
    "done": "2026-11-20T12:15Z",
@@ -4678,6 +4618,29 @@
      "text": "Main acff3db480: the panel-width highlight eases out at both ends, and the idle slate multiplies the map blur to preserve dark detail. Unity Metal EditMode: MavChatSheetTests 144/144, OnePixelLineTests 3/3, PanelWhiteTintRenderTests 5/5. Ro"
     }
    ]
+  },
+  {
+   "n": 1978,
+   "name": "Pilot Side View",
+   "done": "",
+   "goal": false,
+   "under": 364,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_PILOT_SIDE_VIEW",
+     "since": "2026-11-21T11:56Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5286,6 +5249,6 @@
    "since": "2026-11-21T09:53Z"
   }
  ],
- "source_revision": "f3ddb3c14d71cdc13b4c38330987982beac2008a",
- "board_revision": "330586d403f132fc695b377ba4bb467d2925545f"
+ "source_revision": "c7a929545d4d6fc1b5373ed8cc0f6b9396b1ab35",
+ "board_revision": "3280cd30c5ed7bc5c993a5828f28c8873ba4c6ed"
 }
