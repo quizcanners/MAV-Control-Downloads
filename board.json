@@ -3214,7 +3214,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_CONDITIONED_UNITY",
+     "since": "2026-11-21T09:03Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -4599,22 +4608,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-21T08:42Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-21T08:12Z",
-     "text": "2c1a4dc367 on main. UI_PointerPress compiles against Unity and Input System alone. Bootstrap flick reads pointer IDs. Roslyn found no new errors in the change. Next remove the concrete pressed-control and tooltip references in Station_UI_Po"
+     "at": "2026-11-21T09:02Z",
+     "text": "e8ca2a6432 on main. Bootstrap pointer handling uses an input contract for pressed buttons and tooltips. Prublyda and EditMode test assemblies compiled with Unity Editor response files; fixtures were not executed. Full cmp.sh was stopped und"
     }
    ]
   },
@@ -5389,5 +5389,5 @@
   }
  ],
  "source_revision": "fc247b977c056aaf280b41207eca3e320ceb77b7",
- "board_revision": "071bbcf87ac262c621d520cd3cbfab345f4bd41a"
+ "board_revision": "d5c42d05e91fffe0de15c699fdac80fd74cf2859"
 }
