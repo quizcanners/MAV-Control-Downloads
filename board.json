@@ -4610,16 +4610,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_NATIVE_GAP_REPLAY",
-     "since": "2026-11-21T10:24Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4631,6 +4622,11 @@
      "by": "CODEX_HELSINKI_STREAM_GAPS",
      "at": "2026-11-21T10:23Z",
      "text": "faaa1319ef records sparse landmarks, repeated photos, distinct refill and fresh-window joins on Helsinki. Sparse graphs disconnected and refill recovered only A. A fresh anchored window joined both retained references at 1.48\u20133.73 m with co"
+    },
+    {
+     "by": "CODEX_NATIVE_GAP_REPLAY",
+     "at": "2026-11-21T10:27Z",
+     "text": "ed6457fc1b adds file freeze/forward-seek to the native unsaved-draft replay. It verifies accepted counters and canonical digest through the hold and requires post-gap keyframes on the original source before timing recovery. Eight host harne"
     }
    ]
   },
@@ -5341,6 +5337,6 @@
    "since": "2026-11-21T09:53Z"
   }
  ],
- "source_revision": "faaa1319ef4eba24aed5401ab47f26dd81f8cf78",
- "board_revision": "240166008fcf42a1813b668c3bc4c8879b15e6df"
+ "source_revision": "ed6457fc1b0dfdde58dd89163a97ea251e8a0c28",
+ "board_revision": "32ea54990fe90b7a30f96eb9603a5bb400083291"
 }
