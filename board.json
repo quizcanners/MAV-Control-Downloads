@@ -30,16 +30,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_UNUSED_THERMAL_VIEW",
-     "since": "2026-11-21T03:44Z",
-     "noted": "",
-     "progress": 62,
-     "ticked": 5,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -76,11 +67,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_VPN_NOTICE",
-     "at": "2026-11-21T03:23Z",
-     "text": "be5d9f1992 puts the WireGuard notice visibility in one Station.UI frame decision and preserves the existing reconnect action. Focused Unity 4 passed. EditMode All 8,807 passed, 0 failed, 34 skipped. Roslyn clean. Main/Notifications and Peer"
-    },
-    {
      "by": "MAC_BOARD_ORTHOPHOTO_LAYER",
      "at": "2026-11-21T03:36Z",
      "text": "6a9cdceabb makes Station.UI the visibility owner for the Menu Layers Orthophoto tile. Fixed a wall-clock dependency in the existing list-drag test while preserving its assertions. Focused 14 Menu and 12 drag cases pass. All 8,808 passed, 0 "
@@ -89,6 +75,11 @@
      "by": "MAC_BOARD_GEOMETRY_PICKER",
      "at": "2026-11-21T03:42Z",
      "text": "0b16be9ef9 gives the Geometry Build picker one Station.UI visibility answer and reuses standard map UI for Menu and popup suppression. Focused Map Editing 6 passed. All 8,808 passed, 0 failed, 35 skipped. Roslyn clean. Map Editing visual fo"
+    },
+    {
+     "by": "MAC_BOARD_UNUSED_THERMAL_VIEW",
+     "at": "2026-11-21T03:50Z",
+     "text": "ae8441ce5c removes the retired Thermal to Color component and its two shaders, material and RenderTexture. Unity checked 19,701 direct asset dependencies with zero external references. Focused video suites 59 passed/3 skipped. All 8,808 pas"
     }
    ]
   },
@@ -5632,6 +5623,6 @@
    "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "a880db5561dbae80b6f37fdbb914d8b083003e17",
- "board_revision": "7b1fa9f9f9cd65e446df22a948959d5b91fae971"
+ "source_revision": "5b5ea4ce7a8df047687b62ddbd6e07a754cf2e70",
+ "board_revision": "36cade3bec86c75353c237b6b449cd68ee29ef3d"
 }
