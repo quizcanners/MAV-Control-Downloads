@@ -25,7 +25,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD_WORKFLOW_SELECTOR",
+     "since": "2026-11-21T02:14Z",
+     "noted": "",
+     "progress": 12,
+     "ticked": 1,
+     "total": 8
+    }
+   ],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -5999,5 +6008,5 @@
   }
  ],
  "source_revision": "5c567e74522adf05832da1b89d97b9e6efd23e17",
- "board_revision": "25681198a6c69222f789903fade4b10cfa5646c9"
+ "board_revision": "097dbb0ed44e46e7fafe2b989c995c597f408901"
 }
