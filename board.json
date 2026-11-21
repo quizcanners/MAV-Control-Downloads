@@ -4959,25 +4959,22 @@
   {
    "n": 1961,
    "name": "Main View bottom-left Telemetry Strip layout. Join the Telemetry grid to the local video preview with a shared edge",
-   "done": "",
+   "done": "2026-11-21T05:17Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_TELEMETRY_JOIN",
-     "since": "2026-11-21T05:16Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_TELEMETRY_JOIN",
+     "at": "2026-11-21T05:17Z",
+     "text": "Duplicate of completed 1957. The requested layout shipped in 8f54f94dd6; remote main and Android Test 871 (434fb6b89c) contain it. Mac All report 20261121-050923-8587880: 21/21 relevant checks passed. Physical DJI appearance is tracked in t"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5587,5 +5584,5 @@
   }
  ],
  "source_revision": "519aae28a871667c4321abc3cc4563f429eac34f",
- "board_revision": "96302f084c37b1b645140f84b8200f1c6d881b80"
+ "board_revision": "69e205094275169d2a72c1ae026695fcd61070a1"
 }
