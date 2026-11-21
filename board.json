@@ -30,16 +30,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_MAVCHAT_INPUT_BINDINGS",
-     "since": "2026-11-21T06:00Z",
-     "noted": "",
-     "progress": 62,
-     "ticked": 5,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -76,11 +67,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_CHAT_AUTHOR",
-     "at": "2026-11-21T05:34Z",
-     "text": "daba1acc9f on main retires the one-time Chat Home icon sizing, peer backdrop and peer divider editor commands. Reusable builders remain. Unity checked both saved dividers and the saved backdrop/feather directly; 40 focused Chat tests passed"
-    },
-    {
      "by": "MAC_CAPSULE_AUTHORED",
      "at": "2026-11-21T05:45Z",
      "text": "672e49f68c on main. The saved MavChat sheet owns the current face and all five neighbours with detail, tool, progress and fade bindings. Carousel drawing makes no copies and reads no sibling slots. The 142 focused cases passed; Mac Unity Al"
@@ -89,6 +75,11 @@
      "by": "MAC_AUTHORED_STATUS_CARDS",
      "at": "2026-11-21T05:59Z",
      "text": "f6b9576701 on main. Test Run and mesh notices use independent saved cards with authored action cells and receipt bindings. The live Connection Lost card is no longer their template. Unity All 8,815 passed, 34 skipped, zero failures after cl"
+    },
+    {
+     "by": "MAC_MAVCHAT_INPUT_BINDINGS",
+     "at": "2026-11-21T06:04Z",
+     "text": "Released on switch to the Telemetry request, with no capsule edits. Next saved-capsule slice is to wire the current and neighbour press visuals and the optional legacy selector CanvasGroups to their prefab fields."
     }
    ]
   },
@@ -5541,5 +5532,5 @@
   }
  ],
  "source_revision": "94e01081498ee1ee622811fb46737b4e3244b4ed",
- "board_revision": "50d6f1d82de956d11ba6a7816fb944c4001f98f5"
+ "board_revision": "f77ff5b12a4ab4dce185b93e5c5eb12d1b25b065"
 }
