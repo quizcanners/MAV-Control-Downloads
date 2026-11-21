@@ -4550,25 +4550,22 @@
   {
    "n": 2004,
    "name": "Fix Unity UAC1001 for the DJI measured-depth request ID and preserve its wire format",
-   "done": "",
+   "done": "2026-11-21T16:01Z",
    "goal": false,
    "under": 1693,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-21T15:47Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-21T16:01Z",
+     "text": "b68fcb4c46 on main. Both GUID fields now keep the RequestId JSON contract under both project serializers. Unity recompiled without the measured-depth UAC1001 warnings; Roslyn no new errors. Production build remains held."
+    }
+   ]
   },
   {
    "n": 2005,
@@ -5221,6 +5218,6 @@
    "since": "2026-11-21T13:38Z"
   }
  ],
- "source_revision": "4a184e855c4cf3a1d88760f42d241da893f03b73",
- "board_revision": "ae6d1fe13268c9d9e80924a172783746e5d7f914"
+ "source_revision": "bcfa6c95985d8c6885c666f58f7b6db38f1fc335",
+ "board_revision": "6a5c294522110c8eb9a75fedf67a5c581a3fae0e"
 }
