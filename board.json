@@ -3120,26 +3120,6 @@
    ]
   },
   {
-   "n": 1921,
-   "name": "Task completion and Page Checks",
-   "done": "2026-11-20T13:49Z",
-   "goal": false,
-   "under": 412,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T13:49Z",
-     "text": "4b49d9e70a on main. Regression reproduced: closing a task overwrote two Page Checks updates published during its first push. The fix reapplies the due checks to the fetched main tip on every retry. All 37 host board tests passed. Board owne"
-    }
-   ]
-  },
-  {
    "n": 1922,
    "name": "Dev Mode / Tasks",
    "done": "2026-11-20T13:57Z",
@@ -4207,16 +4187,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T13:45Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4231,8 +4202,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T13:44Z",
-     "text": "7a962c4db3 measures compressed staged Kenilworth recovery. SIFT/XFeat each localized 8/8, passed 4/4 doubly held-out pairs and localized 0/8 Zurich. Installed BASE depth agreed most closely with retained depth; conditioned SMALL also passed"
+     "at": "2026-11-21T13:55Z",
+     "text": "5690a889b9 records native Mac Metal TestRun on staged Video Source. Installed BASE joined Kenilworth B, explicitly refused Zurich with unchanged accepted digest, and rejoined A. Matched continuous clean and decoder-repeat clips both stalled"
     }
    ]
   },
@@ -5394,6 +5365,6 @@
    "since": "2026-11-21T13:38Z"
   }
  ],
- "source_revision": "7a962c4db33d1fa08eaefe33ab7e119c26964fc1",
- "board_revision": "6cfb1ae36206c3592b847fe30e192af8aa0425f6"
+ "source_revision": "5690a889b95141108bdab77598f635a614d7c0ab",
+ "board_revision": "5d1ed8b1914414b85d497871c90b3561883fba7e"
 }
