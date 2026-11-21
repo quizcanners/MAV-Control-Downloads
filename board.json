@@ -30,16 +30,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_VPN_NOTICE",
-     "since": "2026-11-21T03:17Z",
-     "noted": "",
-     "progress": 62,
-     "ticked": 5,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -76,11 +67,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_DRONE_SURFACE",
-     "at": "2026-11-21T02:59Z",
-     "text": "adf58d9292 on main. Telemetry, the peer plaque and video Suggestions share one DronePanels.SurfaceAvailable answer per frame. The Menu transition regression and all 15 DeferredListViews tests passed. Unity All 8,805 passed, 35 skipped, zero"
-    },
-    {
      "by": "MAC_BOARD_EDGE_ARROWS",
      "at": "2026-11-21T03:08Z",
      "text": "e81f4f9808 on main. Edge-arrow painting and tap handlers share Station.UI.EdgeArrows.Shown. The area-arrow regression checks the frame answer, Menu rejection and normal double tap. Focused 61 pass. First All after the touch fixture had five"
@@ -89,6 +75,11 @@
      "by": "MAC_BOARD_GPS_MENU",
      "at": "2026-11-21T03:17Z",
      "text": "0aa9ae4779 on main. Station.UI.PositionSharing.MenuToggleShown gives the Extended menu one GPS sharing visibility answer per frame. MavChat keeps its own GPS panel. Focused 8 passed. Mac Unity All 8,806 passed, 35 skipped, zero failed. Rosl"
+    },
+    {
+     "by": "MAC_BOARD_VPN_NOTICE",
+     "at": "2026-11-21T03:23Z",
+     "text": "be5d9f1992 puts the WireGuard notice visibility in one Station.UI frame decision and preserves the existing reconnect action. Focused Unity 4 passed. EditMode All 8,807 passed, 0 failed, 34 skipped. Roslyn clean. Main/Notifications and Peer"
     }
    ]
   },
@@ -3063,46 +3054,6 @@
    ]
   },
   {
-   "n": 1863,
-   "name": "Using Strong and Lenovo for the Dev 867 in-place installation and the named Web Mercator convergence capture.",
-   "done": "2026-11-20T03:21Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-20T03:21Z",
-     "text": "488e0ffea7 on main. Signed Dev 867 exact APK installed in place on Strong and Lenovo, both reached Ready. Strong-only trace had 125 distinct previews, 122 completed without chunks. Frame evidence in CPU.md. Lenovo still blocked writes. Rele"
-    }
-   ]
-  },
-  {
-   "n": 1864,
-   "name": "Incoming geometry timing fixture",
-   "done": "2026-11-20T03:19Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T03:19Z",
-     "text": "acd4664eb5 on main. The expected null-element diagnostic was emitted with a shared count prefix in All and again in the focused baseline. The fixture isolates and restores only the NullElement counter and checks the exact error and every ti"
-    }
-   ]
-  },
-  {
    "n": 1865,
    "name": "Bootstrap SPEC",
    "done": "2026-11-20T03:37Z",
@@ -5712,6 +5663,6 @@
    "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "273a94018817b5592acbb8d67f15a9f8376d961c",
- "board_revision": "8f6fb9c15d15c96f2d7fb8165d1c15fdb4ba841c"
+ "source_revision": "15e305d1b1cb89df24dbf7fe7ee9d01e2c5781e9",
+ "board_revision": "2f7ab95780cfae7ef83d090cb7d0a7e5c4844e71"
 }
