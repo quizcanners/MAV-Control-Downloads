@@ -4353,16 +4353,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T12:29Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4377,8 +4368,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T12:27Z",
-     "text": "f40b48a7cc adds a matched three-arm scorer with exact decoder/pixel/tensor checks and held-out pose, metric depth and coverage. Synthetic receipt scoring and mismatch refusal passed; 10 evaluator and 11 replay harness tests passed. Still ne"
+     "at": "2026-11-21T12:36Z",
+     "text": "70200defa6 records measured 10 km anchor convergence. The current fit hit its cap; direct sparse robust fitting solved SIFT tracks in the clean and degraded controls. Longer SIFT links bridged occluded photos while leaving them unresolved. "
     }
    ]
   },
@@ -5240,5 +5231,5 @@
   }
  ],
  "source_revision": "70200defa6fca364a6a4ce32fc9124cc617d46ac",
- "board_revision": "38304ddd2479fbaea1267742e1dac67dff3c8841"
+ "board_revision": "a3480dbf1ec1bb76a72f0e4c6b7a0881f1c240ea"
 }
