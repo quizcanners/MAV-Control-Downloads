@@ -3100,26 +3100,6 @@
    ]
   },
   {
-   "n": 1913,
-   "name": "Restore seven Ukrainian Street View captions to their intended Linguist keys (CR-1ADA-01). Keep wording and actions",
-   "done": "2026-11-20T12:57Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T12:57Z",
-     "text": "CR-1ADA-01 fixed in 9a47d8f51a on main. Seven Ukrainian values restored by key. All 26 LocalizationAssetTests passed, 0 failed or skipped. Mac Play pasted a panorama, showed the Ukrainian Convert caption, and showed the placement hint while"
-    }
-   ]
-  },
-  {
    "n": 1914,
    "name": "Settings / System / Sound",
    "done": "2026-11-20T13:08Z",
@@ -4639,25 +4619,22 @@
   {
    "n": 1986,
    "name": "Show the current live camera picture when opening raw Video Processing from Pilot",
-   "done": "",
+   "done": "2026-11-21T12:59Z",
    "goal": false,
    "under": 431,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_RAW_VIDEO",
-     "since": "2026-11-21T12:41Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_RAW_VIDEO",
+     "at": "2026-11-21T12:59Z",
+     "text": "0cfb7ab68c on main. Pilot and raw Processing share the aircraft preview reader; capture-generation regression passed. Mac synthetic raw+noise raster and Android GLES3/Vulkan shader variants pass. Real Android controller check of the 871 bla"
+    }
+   ]
   },
   {
    "n": 1987,
@@ -5383,8 +5360,12 @@
   {
    "screen": "MavChat",
    "since": "2026-11-21T12:24Z"
+  },
+  {
+   "screen": "Drones/View",
+   "since": "2026-11-21T12:52Z"
   }
  ],
- "source_revision": "853f7f5195a6c3b9d6f21b2b4b9b2cc228587a98",
- "board_revision": "2d18632e4dd2dbb78da3fe2dd3f2ce284c618ce4"
+ "source_revision": "b0c262b77d23d0de5a7c79bbd8f62baa47da30dd",
+ "board_revision": "afddccb1c6a9ab91c6941191c04496d036d0bcb2"
 }
