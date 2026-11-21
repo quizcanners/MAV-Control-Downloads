@@ -30,16 +30,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_MAVCHAT_INPUT_BINDINGS",
-     "since": "2026-11-21T06:06Z",
-     "noted": "",
-     "progress": 62,
-     "ticked": 5,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -87,8 +78,8 @@
     },
     {
      "by": "MAC_MAVCHAT_INPUT_BINDINGS",
-     "at": "2026-11-21T06:04Z",
-     "text": "Released on switch to the Telemetry request, with no capsule edits. Next saved-capsule slice is to wire the current and neighbour press visuals and the optional legacy selector CanvasGroups to their prefab fields."
+     "at": "2026-11-21T06:14Z",
+     "text": "3f5ba5eda1 on main. The MavChat prefab binds blue press feedback on all six faces, the current selected body, and the three optional legacy fade groups. No capsule visual lookup or runtime fade component creation. 143 focused tests passed. "
     }
    ]
   },
@@ -5545,6 +5536,6 @@
    "since": "2026-11-21T05:34Z"
   }
  ],
- "source_revision": "94e01081498ee1ee622811fb46737b4e3244b4ed",
- "board_revision": "a05f4a7c10d12f4e670d75105d2e615c95e54de4"
+ "source_revision": "f2e89e314557a583d6dd95bea5baad1b51440116",
+ "board_revision": "19ff88dc9f105753f4a2eec649c946831852ed45"
 }
