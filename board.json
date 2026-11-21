@@ -30,16 +30,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_DRONE_SURFACE",
-     "since": "2026-11-21T02:53Z",
-     "noted": "",
-     "progress": 62,
-     "ticked": 5,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -76,11 +67,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_TELEMETRY_TABS",
-     "at": "2026-11-21T02:34Z",
-     "text": "f9997d69b0 on main. DronePanels now decides Telemetry tab availability and publishes covered tab swaps. Video source, Restream, Positioning and Pre-Flight no longer use rendered rows as inputs. Roslyn: no new errors. Mac Unity All: 8,803 pa"
-    },
-    {
      "by": "MAC_BOARD_FULLSCREEN_VIDEO",
      "at": "2026-11-21T02:46Z",
      "text": "e863c55844 on main. Station.UI.FullscreenVideo owns the applied source, screen map, photo and Chat-picture state. The prefab applies visibility and the shared Exit and map consume the system answer. Mac Unity All 8,804 passed, 34 skipped, z"
@@ -89,6 +75,11 @@
      "by": "MAC_BOARD_OVERLAY_INPUT",
      "at": "2026-11-21T02:52Z",
      "text": "eb207b0646 on main. OverlayDecision now publishes one map click-blocking answer for fullscreen video, Search and Chat. The regression changes fullscreen picture during a frame and confirms input keeps the frame answer then changes on the ne"
+    },
+    {
+     "by": "MAC_BOARD_DRONE_SURFACE",
+     "at": "2026-11-21T02:59Z",
+     "text": "adf58d9292 on main. Telemetry, the peer plaque and video Suggestions share one DronePanels.SurfaceAvailable answer per frame. The Menu transition regression and all 15 DeferredListViews tests passed. Unity All 8,805 passed, 35 skipped, zero"
     }
    ]
   },
@@ -3063,86 +3054,6 @@
    ]
   },
   {
-   "n": 1856,
-   "name": "Video diagnostics",
-   "done": "2026-11-20T02:54Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T02:54Z",
-     "text": "f23e4bc9e3 on main. All three failures came from the removed signing revision field. The two publication fixtures explicitly create keys on disposable records through SignKeys. The passive read test checks no key generation or checkpoint, s"
-    }
-   ]
-  },
-  {
-   "n": 1857,
-   "name": "Street View and Planet Renderer",
-   "done": "2026-11-20T02:55Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T02:55Z",
-     "text": "f318fa7989 on main. The old HeightAboveGround lookup returned null. Both fixtures call the current Ground.HeightAbove owner with a distinct fallback plane and verify measured clearances -0.03 m and +0.02 m without the sample lift. Both geom"
-    }
-   ]
-  },
-  {
-   "n": 1858,
-   "name": "Web Mercator offline coarse tiles",
-   "done": "2026-11-20T02:55Z",
-   "goal": false,
-   "under": 381,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T02:55Z",
-     "text": "6dff7cf078 on main. Fixture scheduled empty Window turns when no evidence was requested. It now checks the same demand gate, committed sequence and actual block count. Padded import counts, tile bytes and all absence spans retained. Mac Web"
-    }
-   ]
-  },
-  {
-   "n": 1859,
-   "name": "Shaders and Video Processing SPECs",
-   "done": "2026-11-20T02:59Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T02:59Z",
-     "text": "739c23cf24 on main. Pixel 1574 had depth coverage but dark Preview RGB. Preview alpha describes its exact raster coverage regardless of ambient light. Per-pixel Depth and DepthNormals equality and both size checks retained. Mac ShaderPassCo"
-    }
-   ]
-  },
-  {
    "n": 1860,
    "name": "Coding Scene SPEC",
    "done": "2026-11-20T03:13Z",
@@ -5852,6 +5763,6 @@
    "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "5f6e67e42187b6556bb313aeb89433235639b4bd",
- "board_revision": "7d1f182c2d1a72b1742baff7445e1652807e3639"
+ "source_revision": "e04b248f0ba92e339927e00912ff44d65145a7e7",
+ "board_revision": "489844e91245190d8f772598a7ce093fe943d255"
 }
