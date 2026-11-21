@@ -4566,18 +4566,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-21T15:08Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-21T15:33Z",
+     "text": "9b4682d627 is on main. Removed the diagnostic recursive data-folder scan from the checkpoint worker. Fresh isolated Windows Editor reached the map with DPAPI migration complete. The reported PC is inaccessible, so the original stall is stil"
+    }
+   ]
   },
   {
    "n": 2002,
@@ -4634,34 +4631,6 @@
   {
    "screen": "Menu",
    "since": "2026-11-21T12:24Z"
-  },
-  {
-   "screen": "Share Screen",
-   "since": "2026-11-14T13:39Z"
-  },
-  {
-   "screen": "LISTS Left",
-   "since": "2026-11-14T13:43Z"
-  },
-  {
-   "screen": "Settings",
-   "since": "2026-11-14T13:48Z"
-  },
-  {
-   "screen": "Main View",
-   "since": "2026-11-14T13:52Z"
-  },
-  {
-   "screen": "Navigation",
-   "since": "2026-11-14T13:55Z"
-  },
-  {
-   "screen": "Drag Context Menu",
-   "since": "2026-11-14T14:12Z"
-  },
-  {
-   "screen": "Video",
-   "since": "2026-11-14T14:48Z"
   },
   {
    "screen": "Settings/Home",
@@ -5220,6 +5189,6 @@
    "since": "2026-11-21T13:38Z"
   }
  ],
- "source_revision": "76f655cdce36d2d52ffac6458a8f9a0f75bb97d3",
- "board_revision": "3957b37d23100950a206641b4b3dc7ab85da8b20"
+ "source_revision": "89bf4b584abfcea8e8f02ce88d797574665c3335",
+ "board_revision": "b673b797beaaf7e195c279d0082f200c912328f6"
 }
