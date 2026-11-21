@@ -3214,23 +3214,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_CONDITIONED_UNITY",
-     "since": "2026-11-21T09:03Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_HELSINKI_OFFSETS",
-     "at": "2026-11-21T08:52Z",
-     "text": "f80895cbe4 records nine Helsinki offsets and disjoint incoming-frame refits. The gate accepted 17/18 overlap fits and 0/18 Zurich fits. Refits of the published offset disagree by 7.62 m. A 2.5 m agreement check kept 1/9 offsets, so retain i"
-    },
     {
      "by": "CODEX_JOIN_THROUGHPUT",
      "at": "2026-11-21T08:56Z",
@@ -3240,6 +3226,11 @@
      "by": "CODEX_CONDITIONED_ONNX",
      "at": "2026-11-21T09:02Z",
      "text": "fc247b977c exports four-view DA3-SMALL with camera matrices and removes the GPU-unsupported quaternion selection operation. CPU ONNX/PyTorch parity passed across three controls and the rewrite preserved all four tensors exactly across six y"
+    },
+    {
+     "by": "CODEX_CONDITIONED_UNITY",
+     "at": "2026-11-21T09:12Z",
+     "text": "60029c1de8 adds the conditioned Unity slice probe, fixture staging and ONNX parity receipts. Host controls passed at both 504x266 and Helsinki 504x280, five anchored replay tests passed and Roslyn reported no new errors. Native TestRun awai"
     }
    ]
   },
@@ -5422,6 +5413,6 @@
    "since": "2026-11-21T08:45Z"
   }
  ],
- "source_revision": "a8120861a02f187d31114761005a59096551c47f",
- "board_revision": "3aedcea2d6fbd573a3f9372d7ed4319440232576"
+ "source_revision": "60029c1de8245063ab0aa448aa181a8919630947",
+ "board_revision": "aa38ee77803f788ad5e35642af8ee62fb1cc50ff"
 }
