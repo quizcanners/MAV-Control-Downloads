@@ -3967,16 +3967,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T15:28Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -3991,8 +3982,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T15:25Z",
-     "text": "76f655cdce adds a repeatable native Metal conditioned-stitch replay. All 12 predicted-depth positives and all 16 Zurich attempts refused. Measured camera + measured depth confirmed clean and JPEG8; changing to SIFT cameras reduced support t"
+     "at": "2026-11-21T15:35Z",
+     "text": "8ee2574a20 adds repeatable RTP-derived Kenilworth outages and ran all eight BASE/SMALL Video Source arms on Mac Metal. BASE recovered both single-fragment cases; SMALL recovered only with 1 s keyframes. Both models published repeated imager"
     }
    ]
   },
@@ -5183,6 +5174,6 @@
    "since": "2026-11-21T13:38Z"
   }
  ],
- "source_revision": "89bf4b584abfcea8e8f02ce88d797574665c3335",
- "board_revision": "4e6f0dc0764e70d7a35f0df4f2400ab959c1b47b"
+ "source_revision": "8ee2574a20d6fcfae9396b800220d0e7cf7b2c02",
+ "board_revision": "67b76f2eece77d0e29b121a5d6821426333cffc7"
 }
