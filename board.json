@@ -4579,25 +4579,22 @@
   {
    "n": 2002,
    "name": "Windows installer fails replacing the existing MAV Control executable when no app window is visible. Qualify lock handling and the existing install path.",
-   "done": "",
+   "done": "2026-11-21T15:33Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-21T15:13Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-21T15:33Z",
+     "text": "9b4682d627 is on main. The installer registers exact app files with Restart Manager and can defer locked private files. An isolated Inno update closed an invisible process and replaced the executable. Focused Unity rule test passed. No prod"
+    }
+   ]
   },
   {
    "n": 2003,
@@ -5190,5 +5187,5 @@
   }
  ],
  "source_revision": "89bf4b584abfcea8e8f02ce88d797574665c3335",
- "board_revision": "b673b797beaaf7e195c279d0082f200c912328f6"
+ "board_revision": "a165e8ccb555f6b9eb4940d68473b549a55e82b4"
 }
