@@ -3314,23 +3314,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_DEPTH_JOIN",
-     "since": "2026-11-21T08:06Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_ANCHOR_BENCH",
-     "at": "2026-11-21T07:51Z",
-     "text": "619839ffa6 records same-input Zurich survey, TartanAir depth/pose, and held-out Kenilworth stitch vs Zurich refusal in GPU.md. Keep DA3-BASE for live placement; qualify SMALL and sparse proposals on native Video Source with Helsinki A/B and"
-    },
     {
      "by": "CODEX_AERIAL_DEPTH",
      "at": "2026-11-21T07:57Z",
@@ -3340,6 +3326,11 @@
      "by": "CODEX_MATCHED_DEPTH",
      "at": "2026-11-21T08:03Z",
      "text": "8f9724e57c adds RGB-only BASE to the three-arm depth replay with identical windows and metric scaling. UAVScenes AMtown01 rerun on 149,351 LiDAR pixels confirmed the conditioning result; GPU.md records accuracy and timing. Ten focused tests"
+    },
+    {
+     "by": "CODEX_DEPTH_JOIN",
+     "at": "2026-11-21T08:17Z",
+     "text": "28a68740df records same-input Kenilworth positive and Zurich refusal with conditioned BASE/SMALL and both matchers. All dense arms passed; sparse 280px sampling lost even the known overlap. Native Helsinki and Video Source timing remain ope"
     }
    ]
   },
@@ -5421,6 +5412,6 @@
    "since": "2026-11-21T05:34Z"
   }
  ],
- "source_revision": "b01a0566a7ab3a83144ce047de46fb8140cd6a47",
- "board_revision": "477717ffc5dc917da49e6d11d6e37e11e771d759"
+ "source_revision": "28a68740df985542888823e4120fe095ebc14fa8",
+ "board_revision": "86cb2e442f10036396a7d7ab9a63275925037190"
 }
