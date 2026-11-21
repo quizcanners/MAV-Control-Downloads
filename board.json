@@ -3898,16 +3898,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T15:38Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -3922,8 +3913,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T15:35Z",
-     "text": "8ee2574a20 adds repeatable RTP-derived Kenilworth outages and ran all eight BASE/SMALL Video Source arms on Mac Metal. BASE recovered both single-fragment cases; SMALL recovered only with 1 s keyframes. Both models published repeated imager"
+     "at": "2026-11-21T15:57Z",
+     "text": "4a184e855c guards ordinary live registration against exact packed RGB repeats and preserves the distinct candidate prefix. No repeat-ended publication across eight matched RTP-derived outage replays. BASE recovered 3/4, SMALL 1/4. Both join"
     }
    ]
   },
@@ -5215,6 +5206,6 @@
    "since": "2026-11-21T13:38Z"
   }
  ],
- "source_revision": "a3c4592af3a3a47a1793e863e63c8301c990ecdb",
- "board_revision": "a82c964a7cad10ad7e75cca9756ce407f5e32ccb"
+ "source_revision": "4a184e855c4cf3a1d88760f42d241da893f03b73",
+ "board_revision": "9f7e149b69237592ec7fb412bb5628b51f0b77ac"
 }
