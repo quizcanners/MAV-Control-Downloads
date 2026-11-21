@@ -3131,26 +3131,6 @@
    ]
   },
   {
-   "n": 1937,
-   "name": "Touch drift starts the UI drag before taps can release on Suggestion tabs and Chat. Follow UI SPEC",
-   "done": "2026-11-20T16:10Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_TOUCH_UI",
-     "at": "2026-11-20T16:10Z",
-     "text": "7cc537062f. Device-scaled drag threshold in the shared UI input module. Mac Play confirmed Bootstrap binding. Simulated native and custom buttons click once with small drift and yield to drag past the threshold. Pointer 63/0/0, MavChat 138/"
-    }
-   ]
-  },
-  {
    "n": 1938,
    "name": "Chat Send panel",
    "done": "2026-11-20T16:24Z",
@@ -3898,16 +3878,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T15:59Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -3922,8 +3893,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T15:57Z",
-     "text": "4a184e855c guards ordinary live registration against exact packed RGB repeats and preserves the distinct candidate prefix. No repeat-ended publication across eight matched RTP-derived outage replays. BASE recovered 3/4, SMALL 1/4. Both join"
+     "at": "2026-11-21T16:11Z",
+     "text": "4c6900c1c2 adds one-model-per-process replay with pinned downloads and records actual four-arm clean Kenilworth timing plus stock JPEG8 refusal. Python compile and stubbed dispatch/early refusal passed. Disk reserve stopped remaining full t"
     }
    ]
   },
@@ -5218,6 +5189,6 @@
    "since": "2026-11-21T13:38Z"
   }
  ],
- "source_revision": "bcfa6c95985d8c6885c666f58f7b6db38f1fc335",
- "board_revision": "6a5c294522110c8eb9a75fedf67a5c581a3fae0e"
+ "source_revision": "4c6900c1c2c6971e2f8c489560635a09e83ea90c",
+ "board_revision": "17152b2756a254c05cf9a3c9dc860ccf190c49a6"
 }
