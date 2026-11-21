@@ -4630,25 +4630,22 @@
   {
    "n": 1988,
    "name": "Keep the local DJI aircraft\u2019s last reported telemetry visible after link loss and show its age in the existing warning. Follow Copilot SPEC",
-   "done": "",
+   "done": "2026-11-21T13:08Z",
    "goal": false,
    "under": 364,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_DJI_STALE_TELEMETRY",
-     "since": "2026-11-21T12:49Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_DJI_STALE_TELEMETRY",
+     "at": "2026-11-21T13:08Z",
+     "text": "2cf0dba7d7 on main. Unity PilotWorkflowTests 24/24, including receipt age and aircraft switch. Physical disconnect check queued."
+    }
+   ]
   },
   {
    "n": 1989,
@@ -4776,10 +4773,6 @@
   {
    "screen": "Chat/Messages",
    "since": "2026-11-21T12:24Z"
-  },
-  {
-   "screen": "Motorola Known radios",
-   "since": "2026-11-14T13:00Z"
   },
   {
    "screen": "Map",
@@ -5366,6 +5359,6 @@
    "since": "2026-11-21T12:52Z"
   }
  ],
- "source_revision": "e9b32466cb93bd17ce6ec849eefc6708e4e9a201",
- "board_revision": "3efff001606ecaddaa5bf8487e8049c5defb8d17"
+ "source_revision": "b5eab6294bda6944ecfb5a400f0a908ef9e2311d",
+ "board_revision": "b0df57154e82d4f80bd5d4e7ada81589a0501da5"
 }
