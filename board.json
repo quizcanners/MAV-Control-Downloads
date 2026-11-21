@@ -2608,43 +2608,6 @@
    ]
   },
   {
-   "n": 1651,
-   "name": "Tidy the Unity 3D map generation code layout after the photo positioning",
-   "done": "2026-11-20T19:41Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [
-    "2026-11-20T19:39Z",
-    "2026-11-20T19:40Z",
-    "2026-11-20T19:40Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Split the continuous capture owner by capture, window handoff, publication and Save. Start with VideoProcessing_RtxContinuous.cs, VideoProcessing_RtxUnityContinuous.cs and VideoProcessing_RtxOdometryM",
-     "x": true
-    },
-    {
-     "t": "Replace obsolete Rtx owner names with 3D map generation names in one rename group. Update the SPEC and AGENTS links with the source rename.",
-     "x": true
-    },
-    {
-     "t": "Review the live registration and window paths and the Save and mesh paths for unnecessary transfers, allocations or copies. Preserve capture identity, accepted frame pairing and Save behavior.",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_PASIKA_COVER",
-     "at": "2026-11-20T19:41Z",
-     "text": "6b99bf25f8 splits capture, registration, publication and Save; 3acc07fe40 names the Map3DGeneration owner and preserves 34 script GUIDs; b71aa28e10 removes the second Save selection pass. Verified on origin/main. Roslyn e/a/p/m NEW ERRORS n"
-    }
-   ]
-  },
-  {
    "n": 1679,
    "name": "Web Mercator view offers drive sustained index-page turnover on repaired Dev861. Reduce repeated page work in the existing view cursor (Web Mercator SPEC",
    "done": "",
@@ -4957,18 +4920,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T19:27Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_VIDEO_STRESS",
+     "at": "2026-11-21T19:47Z",
+     "text": "Published 58571b4880 and 8c502a011e. Positioned draft photo anchors, idle pose comparisons, and survey runner. Kenilworth joined in the same draft and retained the anchor; idle comparisons ran and settled without publishing a correction. 25"
+    }
+   ]
   },
   {
    "n": 2037,
@@ -5570,8 +5530,12 @@
   {
    "screen": "Telemetry View",
    "since": "2026-11-21T18:26Z"
+  },
+  {
+   "screen": "Video Processing",
+   "since": "2026-11-21T19:46Z"
   }
  ],
- "source_revision": "854d994384b4c5d6dcc2e1bc4ef2d860438e4eae",
- "board_revision": "1a631d30c7877b13f955e8efaf1a6f0a5195f21f"
+ "source_revision": "ce73bad91761b96b0afef09dce6d5883c1bbdd3b",
+ "board_revision": "52c9019a9544120c0c85e10818c4ef8f3c52a0e2"
 }
