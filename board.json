@@ -4611,25 +4611,22 @@
   {
    "n": 1982,
    "name": "Menu and Chat",
-   "done": "",
+   "done": "2026-11-21T12:25Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_MENU_CHAT_GRID",
-     "since": "2026-11-21T12:16Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_MENU_CHAT_GRID",
+     "at": "2026-11-21T12:25Z",
+     "text": "Main ca7f984e4e: hardware/software viewport scale keeps the Menu feedback at the contact; fullscreen Chat gives feedback on the inactive map, preserving embedded Chat input. Unity 8/8 eligibility and viewport, 2/2 shader. Roslyn NEW ERRORS "
+    }
+   ]
   }
  ],
  "verify": [
@@ -5223,5 +5220,5 @@
   }
  ],
  "source_revision": "273d2a2318419e21054cb14fb02901d6b137d0d1",
- "board_revision": "12ed9b76b88802c5c797acfa47e2e56e96d3ba9e"
+ "board_revision": "e07ea6c836838f99d70ea9a13f3fa9ae4992817a"
 }
