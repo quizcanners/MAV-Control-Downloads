@@ -3394,23 +3394,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_ANCHOR_BENCH",
-     "since": "2026-11-21T07:48Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_3D_MAP_SPEC",
-     "at": "2026-11-20T18:53Z",
-     "text": "Next for the current milestone (SPEC d5840ff35d). Keep Kalasatama's opening alignment fixed. Fit a late camera from stable survey features across the image, hold other landmarks out, and score pose and depth separately at near and far surfa"
-    },
     {
      "by": "CODEX_PHOTO_TENSION",
      "at": "2026-11-20T19:11Z",
@@ -3420,6 +3406,11 @@
      "by": "CODEX_ANCHOR_GRAPH",
      "at": "2026-11-21T06:55Z",
      "text": "Published b13008e5c1 and 2b982b06d5. Anchored replay compares original DA3 poses, consecutive and longer SIFT/XFeat links, and pose-conditioned BASE/SMALL. Nine focused tests, both model smokes, guide check and Roslyn passed. Evidence: GPU."
+    },
+    {
+     "by": "CODEX_ANCHOR_BENCH",
+     "at": "2026-11-21T07:51Z",
+     "text": "619839ffa6 records same-input Zurich survey, TartanAir depth/pose, and held-out Kenilworth stitch vs Zurich refusal in GPU.md. Keep DA3-BASE for live placement; qualify SMALL and sparse proposals on native Video Source with Helsinki A/B and"
     }
    ]
   },
@@ -5487,6 +5478,6 @@
    "since": "2026-11-21T05:34Z"
   }
  ],
- "source_revision": "e530fb8c54953b8b3884ff6bcb75a9be63f04504",
- "board_revision": "c4489a0ee21010a6d80c5ec2ff261381005cc5a5"
+ "source_revision": "619839ffa6803051a4174d4260fdb99ea994d503",
+ "board_revision": "127df85e129bc04772eb1962611357df11937bd9"
 }
