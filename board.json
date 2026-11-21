@@ -3118,26 +3118,6 @@
    ]
   },
   {
-   "n": 1902,
-   "name": "SDC Ping SPEC",
-   "done": "2026-11-20T11:36Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_SDC",
-     "at": "2026-11-20T11:36Z",
-     "text": "Published 83a760e482 on main. SDC Ping reports Code 28 for recognized USB serial hardware and links Windows driver help. Windows host probe found working COM8. Four simulated device states passed. Roslyn reported no new errors before the no"
-    }
-   ]
-  },
-  {
    "n": 1903,
    "name": "Settings / Dev Mode / Network / Network APIs / Weather",
    "done": "2026-11-20T11:56Z",
@@ -4590,16 +4570,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T11:30Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4614,8 +4585,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T11:28Z",
-     "text": "c5c2cdb9e1 on main. prepare_recovery_bank.py stages real frame IDs, measured retained depth and independently scored Helsinki cameras. Unity Edit Mode loaded the +70 m fixture and accepted all four correct held-out poses while refusing all "
+     "at": "2026-11-21T11:37Z",
+     "text": "02afa8fe86 on main. Native Recovery Bank scorer on actual BASE poses found no fully confirmed later quartet. Opening-four anchored SIFT scored 0.28\u20131.05 m on clean/fog/+70 m, refused compound. Conditioned SMALL ~2.45x faster than BASE on la"
     }
    ]
   },
@@ -5326,6 +5297,6 @@
    "since": "2026-11-21T09:53Z"
   }
  ],
- "source_revision": "c5c2cdb9e1a6bb0930bdad8c0cb5fb8d01a1e443",
- "board_revision": "c25d48fa8aae000b6a5f16ee9b42443ec82f92b8"
+ "source_revision": "02afa8fe869a86779bc4fa55a6e8e1fe043366e3",
+ "board_revision": "4c91dfc3fdd2ad6f41d81b1e672c1ce471802ede"
 }
