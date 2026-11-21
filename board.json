@@ -30,16 +30,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_CAPSULE_AUTHORED",
-     "since": "2026-11-21T05:36Z",
-     "noted": "",
-     "progress": 62,
-     "ticked": 5,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -76,11 +67,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_CENTER_MARKER_FRAME",
-     "at": "2026-11-21T04:51Z",
-     "text": "5849c411bc on main. CenterMarker owns the crosshair, follow brackets, first-person reservation and portrait divider opacity. The map suggestion shape and Route endpoint label use the same frame decision. Mac 189 focused passes. EditMode All"
-    },
-    {
      "by": "MAC_BOARD_NOTIFY_FRAME",
      "at": "2026-11-21T05:12Z",
      "text": "91d0c976b2 on main. NotificationIsland owns map availability for the tray, erase banner, Menu ordering and MavChat viewport. An unbound portrait square no longer falls back to landscape pop-ups. Focused 189 pass. Full reruns isolated retain"
@@ -89,6 +75,11 @@
      "by": "MAC_BOARD_CHAT_AUTHOR",
      "at": "2026-11-21T05:34Z",
      "text": "daba1acc9f on main retires the one-time Chat Home icon sizing, peer backdrop and peer divider editor commands. Reusable builders remain. Unity checked both saved dividers and the saved backdrop/feather directly; 40 focused Chat tests passed"
+    },
+    {
+     "by": "MAC_CAPSULE_AUTHORED",
+     "at": "2026-11-21T05:45Z",
+     "text": "672e49f68c on main. The saved MavChat sheet owns the current face and all five neighbours with detail, tool, progress and fade bindings. Carousel drawing makes no copies and reads no sibling slots. The 142 focused cases passed; Mac Unity Al"
     }
    ]
   },
@@ -3063,26 +3054,6 @@
    ]
   },
   {
-   "n": 1871,
-   "name": "Using Strong and Lenovo for the Dev 868 metadata-first Web Mercator preview comparison.",
-   "done": "2026-11-20T05:41Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-20T05:41Z",
-     "text": "Released Strong and Lenovo. Strong Dev 868 reached Ready. Sender trace on a live older peer recorded 121 deferred offers, 45 finishing without body chunks. The original Lenovo was absent. Matched receiver and durable-tile timing remain open"
-    }
-   ]
-  },
-  {
    "n": 1873,
    "name": "Using Strong and Lenovo for the paired Dev 868 Web Mercator preview comparison",
    "done": "2026-11-20T05:54Z",
@@ -5580,6 +5551,6 @@
    "since": "2026-11-21T05:34Z"
   }
  ],
- "source_revision": "39f66c332a921869213a8db91c8122d25a61f59a",
- "board_revision": "9f3698e94346a27e4c468c0b872227f2b5c78d2f"
+ "source_revision": "5b72a63d793f100422f52ef1c0f08aa23642351f",
+ "board_revision": "e44fc1ddf9f471c7a33afea68ac7325ebe755e70"
 }
