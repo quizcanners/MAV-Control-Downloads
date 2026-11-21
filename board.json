@@ -30,16 +30,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_CHAT_AUTHOR",
-     "since": "2026-11-21T05:30Z",
-     "noted": "",
-     "progress": 62,
-     "ticked": 5,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -76,11 +67,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_CHAT_MGRS_AUTHOR",
-     "at": "2026-11-21T04:41Z",
-     "text": "d498767672 on main. Retired the one-time single-MGRS row author. The existing interaction test now runs the committed shared prefab through both Chat windows, checking its long-press binding, coordinate-only row selection, and cancellation "
-    },
-    {
      "by": "MAC_BOARD_CENTER_MARKER_FRAME",
      "at": "2026-11-21T04:51Z",
      "text": "5849c411bc on main. CenterMarker owns the crosshair, follow brackets, first-person reservation and portrait divider opacity. The map suggestion shape and Route endpoint label use the same frame decision. Mac 189 focused passes. EditMode All"
@@ -89,6 +75,11 @@
      "by": "MAC_BOARD_NOTIFY_FRAME",
      "at": "2026-11-21T05:12Z",
      "text": "91d0c976b2 on main. NotificationIsland owns map availability for the tray, erase banner, Menu ordering and MavChat viewport. An unbound portrait square no longer falls back to landscape pop-ups. Focused 189 pass. Full reruns isolated retain"
+    },
+    {
+     "by": "MAC_BOARD_CHAT_AUTHOR",
+     "at": "2026-11-21T05:34Z",
+     "text": "daba1acc9f on main retires the one-time Chat Home icon sizing, peer backdrop and peer divider editor commands. Reusable builders remain. Unity checked both saved dividers and the saved backdrop/feather directly; 40 focused Chat tests passed"
     }
    ]
   },
@@ -5570,8 +5561,16 @@
   {
    "screen": "Search",
    "since": "2026-11-20T23:58Z"
+  },
+  {
+   "screen": "Chat/Home",
+   "since": "2026-11-21T05:34Z"
+  },
+  {
+   "screen": "Chat/Peers",
+   "since": "2026-11-21T05:34Z"
   }
  ],
- "source_revision": "c82d06f92a1272901b202a8d4fa4066da6c98949",
- "board_revision": "6237c6e89486604596c281e65ddb876896d2362a"
+ "source_revision": "39f66c332a921869213a8db91c8122d25a61f59a",
+ "board_revision": "d62f3e486e98891a966913cbb1c629e9113676ce"
 }
