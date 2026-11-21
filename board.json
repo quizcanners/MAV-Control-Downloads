@@ -3100,26 +3100,6 @@
    ]
   },
   {
-   "n": 1914,
-   "name": "Settings / System / Sound",
-   "done": "2026-11-20T13:08Z",
-   "goal": false,
-   "under": 409,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T13:08Z",
-     "text": "f9b0aefa92 on main. Mac cold Play with notification volume saved at zero showed Off and both sliders while soundOwner=False. A test-profile change to 55% admitted Sounds and showed the healthy mixer tick. Direct pointer drag remains for vis"
-    }
-   ]
-  },
-  {
    "n": 1915,
    "name": "Settings / System / App updates",
    "done": "2026-11-20T13:19Z",
@@ -4767,6 +4747,29 @@
      "text": "Local Pilot Track keeps the final accepted endpoint, segments missing and jumped fixes, rejects non-finite altitude, and returns to Record after stopping with no points. Two simulated source and mesh checks are prepared. Diff and guide chec"
     }
    ]
+  },
+  {
+   "n": 1993,
+   "name": "Compass obstacle dots show every usable DJI Perception range",
+   "done": "",
+   "goal": false,
+   "under": 364,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_COMPASS_ALERT",
+     "since": "2026-11-21T13:08Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5364,5 +5367,5 @@
   }
  ],
  "source_revision": "e9b32466cb93bd17ce6ec849eefc6708e4e9a201",
- "board_revision": "e590a404ef48b840fdb2d23a202caaa6713a4784"
+ "board_revision": "3efff001606ecaddaa5bf8487e8049c5defb8d17"
 }
