@@ -3100,26 +3100,6 @@
    ]
   },
   {
-   "n": 1915,
-   "name": "Settings / System / App updates",
-   "done": "2026-11-20T13:19Z",
-   "goal": false,
-   "under": 409,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T13:19Z",
-     "text": "8da69e09f4 on main. Mac Play with simulated package availability verified current tick, retained result plus refreshing, server failure, and package failure above version and controls. Native Editor version-only page also checked. No downlo"
-    }
-   ]
-  },
-  {
    "n": 1916,
    "name": "Settings / Map / Advanced / Base map",
    "done": "2026-11-20T13:29Z",
@@ -4856,6 +4836,29 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 1998,
+   "name": "Fix Android player compilation in Station_Autel after the Station.OS move (CS0103)",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-21T13:19Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5449,5 +5452,5 @@
   }
  ],
  "source_revision": "973c56287609161d7f71bafe0b553acbfd02dd09",
- "board_revision": "8ac1505e1ea6e633f775ce225c9bd9e099a31efe"
+ "board_revision": "c21854fadb7f99b6b34a4c4cdb1bfb5b13e53013"
 }
