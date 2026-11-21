@@ -4666,25 +4666,22 @@
   {
    "n": 1974,
    "name": "Notifications SPEC",
-   "done": "",
+   "done": "2026-11-21T10:01Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-21T09:21Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-21T10:01Z",
+     "text": "b898467704 on main. The notification ScrollRect no longer injects a hit graphic into empty viewport space. Reloaded Windows Editor reports zero center raycast hits and map zoom responded to a center wheel event. Notifications check bumped."
+    }
+   ]
   },
   {
    "n": 1975,
@@ -5357,5 +5354,5 @@
   }
  ],
  "source_revision": "968d477b94491c02ae7d916a564aac8bf6542c21",
- "board_revision": "f8c33beceb9395d591c9c890397975086cb31735"
+ "board_revision": "5fc5d2d1b3bbb48789f15e529a83d51cd6d3b4cd"
 }
