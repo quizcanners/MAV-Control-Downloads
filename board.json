@@ -3858,16 +3858,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T16:29Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -3882,8 +3873,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T16:28Z",
-     "text": "d4dc8ca671 adds a native comparison against one frozen eight-view BASE reference. Each short model reuses the same outputs for model-confidence and unit-confidence decisions. Measured-depth and unrelated controls distinguish reference/depth"
+     "at": "2026-11-21T16:38Z",
+     "text": "103d538935 ran measured TartanAir clean/JPEG8 against exact frozen eight-view BASE on Metal at idle and 60 FPS. Both fresh views had support, but held-out error exceeded the unchanged 12% gate. Matched measured references passed and all Zur"
     }
    ]
   },
@@ -5222,6 +5213,6 @@
    "since": "2026-11-21T13:38Z"
   }
  ],
- "source_revision": "d4dc8ca671f2ce8a7dcc4b91bfad9faef2445d27",
- "board_revision": "8ecc279e828f0b1acaa183f9f1f006f32e728f78"
+ "source_revision": "103d5389356ede435f48f083e0ca38f40c2367e3",
+ "board_revision": "3145595b3931532a23a57a8109b23d9f093b7c12"
 }
