@@ -3077,23 +3077,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_METAL_DEPTH_PROBE",
-     "since": "2026-11-21T10:31Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_MATCHED_HELSINKI",
-     "at": "2026-11-21T09:23Z",
-     "text": "d213f3cc8c compares the exact installed BASE seed, both sparse matchers and conditioned SMALL on the same Helsinki inputs. Consecutive SIFT reached 1.74/0.54 m pose RMS; graph + SMALL with DISK/LightGlue placed both joins within 1.90/2.67 m"
-    },
     {
      "by": "CODEX_MATCHED_DEPTH_BASE",
      "at": "2026-11-21T09:28Z",
@@ -3103,6 +3089,11 @@
      "by": "CODEX_LONGSTREAM_HELSINKI",
      "at": "2026-11-21T09:42Z",
      "text": "66b52c7802 records LongStream on the matched Helsinki frames and Zurich. Endpoint-scaled depth RMS 8.76/7.78 m, weaker pose/CPU timing than the installed BASE control. Known-lens DISK+LightGlue confirmed A to B at 5.58 m and refused the rev"
+    },
+    {
+     "by": "CODEX_METAL_DEPTH_PROBE",
+     "at": "2026-11-21T10:36Z",
+     "text": "646281031c records actual Unity Metal GPUCompute depth readback on matched Helsinki tensors. Conditioned SMALL 210.90 ms vs conditioned BASE 594.17 ms, all four output tensors per model passed ONNX CPU parity and the Editor logged no new er"
     }
    ]
   },
@@ -5346,6 +5337,6 @@
    "since": "2026-11-21T09:53Z"
   }
  ],
- "source_revision": "ed6457fc1b0dfdde58dd89163a97ea251e8a0c28",
- "board_revision": "f6a1ed8f45572a99f31cc06874c1baef559fd800"
+ "source_revision": "646281031c09d4ecb1f5de7ae8b8e05af9f756b1",
+ "board_revision": "8cae98037c1c009f1d9731a6b4638806d9721f00"
 }
