@@ -30,16 +30,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD_LAYER_HIT_AUTHOR",
-     "since": "2026-11-21T04:18Z",
-     "noted": "",
-     "progress": 62,
-     "ticked": 5,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
@@ -76,11 +67,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD_MAP_SOURCE_AUTHOR",
-     "at": "2026-11-21T04:03Z",
-     "text": "bb9e69f3e1 retires the one-time Map Source layout author. 32 existing Map Source, Menu and lighting cases read the saved Processes and Timings prefab. Unity All 8,809 passed, 0 failed, 34 skipped. Roslyn clean. Menu visual follow-up f76e803"
-    },
-    {
      "by": "MAC_BOARD_SUGGESTIONS_AUTHOR",
      "at": "2026-11-21T04:09Z",
      "text": "8baa263526 retires the one-time Suggestions author and its two photo editor commands. Saved-prefab tests now cover the Stop action and sprite, row membership, and the distinct lock and item icons. Focused 25 passed. All 8,808 passed, 0 fail"
@@ -89,6 +75,11 @@
      "by": "MAC_BOARD_TELEMETRY_AUTHOR",
      "at": "2026-11-21T04:17Z",
      "text": "d5718b0215 retires the Telemetry and Navigator caption author and editor command. Saved-prefab tests cover Restream caption/actions, tab and label ownership, and one localized MavChat Route title. Focused 10 passed. All 8,807 passed, 0 fail"
+    },
+    {
+     "by": "MAC_BOARD_LAYER_HIT_AUTHOR",
+     "at": "2026-11-21T04:24Z",
+     "text": "378950b4ac retires the one-time Layers hit-area author. The saved Menu prefab test checks all nine caption and switch pairs for separate hit areas. Menu 14 passed. All 8,807 passed, 0 failed, 35 skipped. Roslyn clean. Menu/Layers visual fol"
     }
    ]
   },
@@ -1951,11 +1942,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_R6",
-     "at": "2026-11-17T06:22Z",
-     "text": "R6 bf01cb10b1: UDP send queues, receive queue and Distribution SQLite readers cleared on disable (uncompiled). Left: audit rest of static caches (DJI_KeyConsole._typed, IncomingQueue statics); Editor recompile run."
-    },
-    {
      "by": "CODEX_HOTRELOAD_AUDIT",
      "at": "2026-11-17T15:32Z",
      "text": "IncomingQueue audit: queue and coalescer retain data after COMM_Links shutdown. Three asynchronous producers exist: UDP ListenerRun, Mission Planner WebSocket Attempt, SineLink SerialTransport. Stop invalidates UDP/MP asynchronously; serial"
@@ -1964,6 +1950,11 @@
      "by": "MAC_BOARD",
      "at": "2026-11-19T11:29Z",
      "text": "Paused by quiz. Mac isolated Play at bfee804050 reproduced a Pano360 material leak: the projection material copy stayed alive 24 updates after Station disabled, and the renderer did not restore its authored material. Reproducer: ~/MavContro"
+    },
+    {
+     "by": "REVIEW",
+     "at": "2026-11-21T04:18Z",
+     "text": "CR-F732-01 P3: Linked Browser commands stay stopped when the same Station is re-enabled. S1/S2 brief ready for quiz: [review](https://github.com/quizcanners/MAV_Control/blob/main/Coordination/Reviews/62c88c8d3.md#cr-f732-01--p3-linked-brows"
     }
    ]
   },
@@ -3059,26 +3050,6 @@
      "by": "MAC_BOARD",
      "at": "2026-11-20T04:33Z",
      "text": "Mac Editor at 75a3834f53 containing both transfer-key and voice changes. VpnTransferKeyTests 15 passed and EncryptionBoxKeyTests 3 passed. EditMode All 8746 passed, 0 failed, 31 skipped. XML SHA-256 527bde095010d622728c42b4dad6935cb00868b51"
-    }
-   ]
-  },
-  {
-   "n": 1868,
-   "name": "Tools/Nightly",
-   "done": "2026-11-20T04:22Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T05:02Z",
-     "text": "af6ce29cfa reconciled interrupted Mac 867 owner 9d9d8e2d from original launchd evidence. Terminal hash and unchanged-input refusal preserved. Host 69 passed/3 skipped. Fresh macOS 868 All at 92d77fa0c1: 8742 passed/0 failed/35 skipped, cand"
     }
    ]
   },
@@ -5612,6 +5583,6 @@
    "since": "2026-11-20T23:58Z"
   }
  ],
- "source_revision": "87fbd8192e9990f2fd15176a9cb962a97c8e2458",
- "board_revision": "9f1c8788e2e85a1e34417427642284420a22b5cf"
+ "source_revision": "2b91ed2cc46cf06b06ea9401b1fd065ae3672fb7",
+ "board_revision": "65b59fd3c949972f72c86a90074021c34eb4924b"
 }
