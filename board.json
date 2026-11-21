@@ -3174,23 +3174,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MATCHED_DEPTH_BASE",
-     "since": "2026-11-21T09:24Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_CONDITIONED_UNITY",
-     "at": "2026-11-21T09:12Z",
-     "text": "60029c1de8 adds the conditioned Unity slice probe, fixture staging and ONNX parity receipts. Host controls passed at both 504x266 and Helsinki 504x280, five anchored replay tests passed and Roslyn reported no new errors. Native TestRun awai"
-    },
     {
      "by": "CODEX_STOCK_HELSINKI",
      "at": "2026-11-21T09:18Z",
@@ -3200,6 +3186,11 @@
      "by": "CODEX_MATCHED_HELSINKI",
      "at": "2026-11-21T09:23Z",
      "text": "d213f3cc8c compares the exact installed BASE seed, both sparse matchers and conditioned SMALL on the same Helsinki inputs. Consecutive SIFT reached 1.74/0.54 m pose RMS; graph + SMALL with DISK/LightGlue placed both joins within 1.90/2.67 m"
+    },
+    {
+     "by": "CODEX_MATCHED_DEPTH_BASE",
+     "at": "2026-11-21T09:28Z",
+     "text": "f52a6edffc compares pose-conditioned BASE and SMALL on identical Helsinki 504x266 inputs and SIFT cameras. SMALL took 0.48 s/window vs 1.25 s, reached 1.90/2.67 m join error vs 1.49/3.91 m for BASE with DISK+LightGlue, and both refused Zuri"
     }
    ]
   },
@@ -5425,6 +5416,6 @@
    "since": "2026-11-21T08:45Z"
   }
  ],
- "source_revision": "d213f3cc8c9af398b205bad04696b4cad37a8c13",
- "board_revision": "c41815de7475a0ffaa33e563b401c9440f5c4a52"
+ "source_revision": "f52a6edffc49666fef20b0b1197034026b645d1d",
+ "board_revision": "7a106a4983bafdb40d527e894b687d11191061b8"
 }
