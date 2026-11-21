@@ -3105,26 +3105,6 @@
    ]
   },
   {
-   "n": 1895,
-   "name": "Navigator SPEC",
-   "done": "2026-11-20T09:39Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T09:39Z",
-     "text": "b70da697c2 on main. The in-app MavChat Share Position card follows Share On, so local-only GPS and Share Off leave no card. The GPS panel handles starting and resuming. Updated the regression test and bumped MavChat verification. Roslyn fou"
-    }
-   ]
-  },
-  {
    "n": 1896,
    "name": "Navigator SPEC",
    "done": "2026-11-20T09:48Z",
@@ -4812,43 +4792,28 @@
   {
    "n": 1976,
    "name": "Navigator SPEC",
-   "done": "",
+   "done": "2026-11-21T09:41Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_MAVCHAT_BOTTOM",
-     "since": "2026-11-21T09:37Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_MAVCHAT_BOTTOM",
+     "at": "2026-11-21T09:41Z",
+     "text": "65cc75f534 on main. The shared mask clips at the divider and sides, and extends below the physical bottom with the backdrop. Chat and MavTube use layout bounds ending at the physical bottom. Three focused Unity tests passed, Roslyn found no"
+    }
+   ]
   }
  ],
  "verify": [
   {
    "screen": "Chat/Messages",
    "since": "2026-11-19T11:01Z"
-  },
-  {
-   "screen": "Waypoints",
-   "since": "2026-11-14T09:29Z"
-  },
-  {
-   "screen": "MainScreen",
-   "since": "2026-11-14T09:32Z"
-  },
-  {
-   "screen": "Store Post/Inventory",
-   "since": "2026-11-14T09:37Z"
   },
   {
    "screen": "MavChat",
@@ -5451,6 +5416,6 @@
    "since": "2026-11-21T08:45Z"
   }
  ],
- "source_revision": "f52a6edffc49666fef20b0b1197034026b645d1d",
- "board_revision": "6c4bbf037caf5ee8ffd04ef1b60f606544a0580d"
+ "source_revision": "65cc75f53462a483c24443f3a3662a84870034c8",
+ "board_revision": "b545c89c9a46d2e7303c41cbae452c3e03595a93"
 }
