@@ -4755,35 +4755,28 @@
   {
    "n": 1977,
    "name": "MavChat",
-   "done": "",
+   "done": "2026-11-21T09:53Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_MAVCHAT_HIGHLIGHT",
-     "since": "2026-11-21T09:51Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_MAVCHAT_HIGHLIGHT",
+     "at": "2026-11-21T09:53Z",
+     "text": "Main acff3db480: the panel-width highlight eases out at both ends, and the idle slate multiplies the map blur to preserve dark detail. Unity Metal EditMode: MavChatSheetTests 144/144, OnePixelLineTests 3/3, PanelWhiteTintRenderTests 5/5. Ro"
+    }
+   ]
   }
  ],
  "verify": [
   {
    "screen": "Chat/Messages",
    "since": "2026-11-19T11:01Z"
-  },
-  {
-   "screen": "MavChat",
-   "since": "2026-11-14T09:52Z"
   },
   {
    "screen": "Positioning",
@@ -5380,8 +5373,12 @@
   {
    "screen": "Ground Station Inspector",
    "since": "2026-11-21T08:45Z"
+  },
+  {
+   "screen": "MavChat",
+   "since": "2026-11-21T09:53Z"
   }
  ],
- "source_revision": "66b52c78026c3ffc56d0e450ec90e060d9ed3c50",
- "board_revision": "0337bfd62f9638b4413e075ea0ca1c27650ada84"
+ "source_revision": "7360f49fee26b303288f52d1f6ec8e44cae55a3b",
+ "board_revision": "7b87fbb18f191c34372ac0ce00a9781ae50d7a87"
 }
