@@ -3214,23 +3214,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_CONDITIONED_ONNX",
-     "since": "2026-11-21T08:57Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_HELSINKI_MATCHERS",
-     "at": "2026-11-21T08:44Z",
-     "text": "1e9b911fe2 records the unchanged-gate offline Helsinki match comparison. DISK + LightGlue with the adjacent SIFT graph and conditioned SMALL is the only estimated arm to confirm B, with support on all four held-out frames and no Zurich tran"
-    },
     {
      "by": "CODEX_HELSINKI_OFFSETS",
      "at": "2026-11-21T08:52Z",
@@ -3240,6 +3226,11 @@
      "by": "CODEX_JOIN_THROUGHPUT",
      "at": "2026-11-21T08:56Z",
      "text": "5ab3208ba2 makes Unity stitch replay fail if a positive clip joins but times out short of the mapped-frame target. Receipts include decoder/first join/target time, mapped frames per wall second and model/window status. Four host tests passe"
+    },
+    {
+     "by": "CODEX_CONDITIONED_ONNX",
+     "at": "2026-11-21T09:02Z",
+     "text": "fc247b977c exports four-view DA3-SMALL with camera matrices and removes the GPU-unsupported quaternion selection operation. CPU ONNX/PyTorch parity passed across three controls and the rewrite preserved all four tensors exactly across six y"
     }
    ]
   },
@@ -5398,5 +5389,5 @@
   }
  ],
  "source_revision": "fc247b977c056aaf280b41207eca3e320ceb77b7",
- "board_revision": "780bd0d30842cc20efb7ca612a6ddd49b07c32ea"
+ "board_revision": "071bbcf87ac262c621d520cd3cbfab345f4bd41a"
 }
