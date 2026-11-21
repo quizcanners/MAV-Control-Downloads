@@ -4393,16 +4393,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T12:23Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4417,8 +4408,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T12:21Z",
-     "text": "19042f439b adds an exact-frame Video Source replay for conditioned BASE/SMALL and RGB control. Source compile comparison, Unity camera math, and conditioned BASE export parity passed. Next: run all three arms in isolated TestRun, then measu"
+     "at": "2026-11-21T12:27Z",
+     "text": "f40b48a7cc adds a matched three-arm scorer with exact decoder/pixel/tensor checks and held-out pose, metric depth and coverage. Synthetic receipt scoring and mismatch refusal passed; 10 evaluator and 11 replay harness tests passed. Still ne"
     }
    ]
   },
@@ -5237,5 +5228,5 @@
   }
  ],
  "source_revision": "f40b48a7cc3fab6ae1048560635b7ab2cdb586f3",
- "board_revision": "807dad1f1197a406d7130e61ef38ec8a02575c87"
+ "board_revision": "9fe39f41be1da83e6ab96fa8ad463c533d31c18f"
 }
