@@ -4979,25 +4979,22 @@
   {
    "n": 1960,
    "name": "Main View SPEC",
-   "done": "",
+   "done": "2026-11-21T04:27Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_TELEMETRY_SEAM",
-     "since": "2026-11-21T04:26Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_TELEMETRY_SEAM",
+     "at": "2026-11-21T04:27Z",
+     "text": "Duplicate of completed task 1957. Confirmed 8f54f94dd6 is included in Android Test 871, 10/10 relevant tests passed in the latest Mac EditMode All run, and the TelemetryView and Pilot View device look checks are already due. DJI visual chec"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5607,5 +5604,5 @@
   }
  ],
  "source_revision": "2b91ed2cc46cf06b06ea9401b1fd065ae3672fb7",
- "board_revision": "090eb0e45f1a5738ab4a36ce1390a6295cccd5b4"
+ "board_revision": "cf636bd0e3805967936f3c9763a2dd98a112375f"
 }
