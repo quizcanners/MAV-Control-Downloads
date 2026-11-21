@@ -4770,7 +4770,7 @@
   },
   {
    "n": 1772,
-   "name": "Suggestions swipe moves only the panel; the suggestion tabs stay still",
+   "name": "Suggestions swipe moves only the panel (backing and rows); the suggestion tab row stays still and opaque. No goal fits",
    "done": "",
    "goal": false,
    "under": 0,
@@ -4783,12 +4783,29 @@
      "who": "cloud-thread",
      "since": "2026-11-21T17:34Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
+     "progress": 75,
+     "ticked": 3,
+     "total": 4
     }
    ],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Shift the tab row back by the panel offset in UI_SuggestionsSwipeAway, wire `_tabs` in RIGHT Suggestions.prefab (uncompiled)",
+     "x": true
+    },
+    {
+     "t": "Drop the panel fade so the tabs keep full opacity",
+     "x": true
+    },
+    {
+     "t": "Write the rule into UI SPEC",
+     "x": true
+    },
+    {
+     "t": "Bump the page check for the Suggestions screen",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
@@ -5366,5 +5383,5 @@
    "since": "2026-11-21T17:12Z"
   }
  ],
- "source_revision": "fd28f6520fc374d9e937db7ed0180e9650339ca1"
+ "source_revision": "d152109d1f276cf13ca3b454e4d8e4d1b5711e21"
 }
