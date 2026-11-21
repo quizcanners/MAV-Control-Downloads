@@ -3140,26 +3140,6 @@
    ]
   },
   {
-   "n": 1919,
-   "name": "Settings / Data / KMZ/KML",
-   "done": "2026-11-20T13:35Z",
-   "goal": false,
-   "under": 409,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T13:35Z",
-     "text": "2b98efdc10 on main. The latest import result leads the KMZ/KML page. Mac Play confirmed empty, simulated success and failure, and the separate parsed details page. EditMode parser fixture: 23 passed, 0 failed, 0 skipped. Roslyn clean. Setti"
-    }
-   ]
-  },
-  {
    "n": 1920,
    "name": "Coordination guides",
    "done": "2026-11-20T13:44Z",
@@ -4822,25 +4802,22 @@
   {
    "n": 1999,
    "name": "MavChat Route Creator",
-   "done": "",
+   "done": "2026-11-21T13:38Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_ROUTE_STOPS",
-     "since": "2026-11-21T13:26Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_ROUTE_STOPS",
+     "at": "2026-11-21T13:38Z",
+     "text": "a9a1c82d30 and d30d4606ff on main. Route uses the shortest reported stop order with fixed endpoints and keeps the ordinary route if rerouting cannot improve it. 75 Navigator tests passed, Roslyn no new errors, and RoutingServer --route-only"
+    }
+   ]
   },
   {
    "n": 2000,
@@ -5451,8 +5428,12 @@
   {
    "screen": "Store Post/Inventory",
    "since": "2026-11-21T13:27Z"
+  },
+  {
+   "screen": "Chat/Routes",
+   "since": "2026-11-21T13:38Z"
   }
  ],
- "source_revision": "5802c73c2231927f1be45f805636c9786a19a779",
- "board_revision": "6094ac3dfd273468aef040c03cf030ecfb08b406"
+ "source_revision": "a9071de78f1c2bd79739158229f6dce6edba1f45",
+ "board_revision": "138732fc45544d0ec21d5c63b7a3da4fbf3b846d"
 }
