@@ -3878,16 +3878,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_STRESS",
-     "since": "2026-11-21T16:12Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -3902,8 +3893,8 @@
     },
     {
      "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T16:11Z",
-     "text": "4c6900c1c2 adds one-model-per-process replay with pinned downloads and records actual four-arm clean Kenilworth timing plus stock JPEG8 refusal. Python compile and stubbed dispatch/early refusal passed. Disk reserve stopped remaining full t"
+     "at": "2026-11-21T16:22Z",
+     "text": "02448f14f3 records 64 completed decode-to-decision trials across both matchers and four model arms. Retained-camera recovery passed JPEG8, and all arms refused Zurich and missed compound overlap. BASE stays live default. Next route the reta"
     }
    ]
   },
@@ -5242,6 +5233,6 @@
    "since": "2026-11-21T13:38Z"
   }
  ],
- "source_revision": "4c6900c1c2c6971e2f8c489560635a09e83ea90c",
- "board_revision": "3d7cbbfba8f81884e2497f567d54d95c9bd40aa5"
+ "source_revision": "02448f14f351de03ad0c04fcf9f169eb83a25f6d",
+ "board_revision": "355c551b1ebf33fdf1d1fbc301c0723cdee3751e"
 }
