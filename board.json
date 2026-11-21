@@ -4568,25 +4568,22 @@
   {
    "n": 1980,
    "name": "Chat message bubbles",
-   "done": "",
+   "done": "2026-11-21T12:25Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_CHAT_BUBBLE_BLUR",
-     "since": "2026-11-21T12:14Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_CHAT_BUBBLE_BLUR",
+     "at": "2026-11-21T12:25Z",
+     "text": "Main bf815f0b1b: messages use 70% sampled blur and 30% tint; updated both shared runtime and mockup materials. ChatMessageLayoutTests 35/35, including both native shader outputs. Roslyn NEW ERRORS none. Live appearance queued."
+    }
+   ]
   },
   {
    "n": 1981,
@@ -4638,11 +4635,7 @@
  "verify": [
   {
    "screen": "Chat/Messages",
-   "since": "2026-11-19T11:01Z"
-  },
-  {
-   "screen": "Settings/Updates",
-   "since": "2026-11-14T12:23Z"
+   "since": "2026-11-21T12:24Z"
   },
   {
    "screen": "Motorola Known radios",
@@ -4654,7 +4647,7 @@
   },
   {
    "screen": "Menu",
-   "since": "2026-11-14T13:34Z"
+   "since": "2026-11-21T12:24Z"
   },
   {
    "screen": "Share Screen",
@@ -4722,7 +4715,7 @@
   },
   {
    "screen": "Chat",
-   "since": "2026-11-15T05:30Z"
+   "since": "2026-11-21T12:24Z"
   },
   {
    "screen": "Bootstrap hubs",
@@ -4750,7 +4743,7 @@
   },
   {
    "screen": "TelemetryView",
-   "since": "2026-11-15T05:34Z"
+   "since": "2026-11-21T12:24Z"
   },
   {
    "screen": "Altitude scroller",
@@ -5126,7 +5119,7 @@
   },
   {
    "screen": "Main/Map",
-   "since": "2026-11-19T12:00Z"
+   "since": "2026-11-21T12:24Z"
   },
   {
    "screen": "Main/MapSource",
@@ -5226,9 +5219,9 @@
   },
   {
    "screen": "MavChat",
-   "since": "2026-11-21T09:53Z"
+   "since": "2026-11-21T12:24Z"
   }
  ],
- "source_revision": "19042f439b4bc877479bb39ba9a99e8c4c531fa0",
- "board_revision": "6b38f678a73395f0f3dadeb9e06a97ffd6fddcaa"
+ "source_revision": "273d2a2318419e21054cb14fb02901d6b137d0d1",
+ "board_revision": "12ed9b76b88802c5c797acfa47e2e56e96d3ba9e"
 }
