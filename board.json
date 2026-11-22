@@ -4692,16 +4692,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T21:59Z",
-     "noted": "",
-     "progress": 33,
-     "ticked": 1,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Retain later landmark views when registration stalls",
@@ -4719,8 +4710,8 @@
    "notes": [
     {
      "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T21:58Z",
-     "text": "Retained lens experiments while delivering Point Clouds. Pose-seeded offline COLMAP registered 59 A images. Held-out A frame 18: 0.29 m / 0.085 degrees, frame 56: 5.46 m / 2.18 degrees. Localized 11/11 Heritage and 0/9 Zurich. No accepted l"
+     "at": "2026-11-22T22:16Z",
+     "text": "Main ff8dd3353d. Two Mac Metal Video Source runs built pose-seeded banks (13,318/13,569 landmarks) and passed independent A camera checks and real Heritage pose checks. Frozen validation finished after Pause. Heritage held-out pixel p90 2.1"
     }
    ]
   },
@@ -5207,6 +5198,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "4776ae157105a068cf0fc128337a9a38a813a4fe",
- "board_revision": "09bf5762de76f522cf6eddb509f78d36c4391cad"
+ "source_revision": "ff8dd3353d8374cf351f4eef775b9abae81ac924",
+ "board_revision": "3d5c7d28bb14f0278d30e1c4f7aca91f7e540866"
 }
