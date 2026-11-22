@@ -5009,25 +5009,22 @@
   {
    "n": 2067,
    "name": "Main View Left Lists and Suggestions",
-   "done": "",
+   "done": "2026-11-22T12:15Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_FOLD_UI",
-     "since": "2026-11-22T12:11Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_FOLD_UI",
+     "at": "2026-11-22T12:15Z",
+     "text": "736153ddf3 on main. Both imported handles start at the panel seam and extend 68 Canvas units outward, with tap and drag handlers intact. Left Lists and Suggestions page checks bumped. Native EditMode is tracked separately because the regula"
+    }
+   ]
   },
   {
    "n": 2068,
@@ -5375,5 +5372,5 @@
   }
  ],
  "source_revision": "736153ddf32c58d124401c9cee367d54da94ae50",
- "board_revision": "d5e7408fca0ecc5455dc849b1dd17f45e059d037"
+ "board_revision": "de757ffcdbdc8bfd6f2652dc174615a2adff878e"
 }
