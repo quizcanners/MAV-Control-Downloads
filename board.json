@@ -3125,188 +3125,6 @@
    "notes": []
   },
   {
-   "n": 1952,
-   "name": "Local agent",
-   "done": "2026-11-20T22:23Z",
-   "goal": false,
-   "under": 1951,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD_COMPILE",
-     "at": "2026-11-20T22:23Z",
-     "text": "Published ba1b70f1ab. Exact Unity 6000.6.8f1 Mac warm timings and the assemblies Bee rebuilt are in Performance Baseline/BUILD_TIME.md. Both reversible source edits and restorations compiled cleanly and original file hashes match. Main-sour"
-    }
-   ]
-  },
-  {
-   "n": 1953,
-   "name": "Split Assets/_PROJECT/Prublyda.asmdef so an edit recompiles less. Done so far (2026-11-20",
-   "done": "2026-11-20T21:44Z",
-   "goal": false,
-   "under": 1951,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "quiz decides: move the 56 files anyway (cost: scattering them into a Core folder, gain 0.5%), or leave Prublyda whole and take goal 1951's other steps (1954 tests off the edit path, 1955 reload script",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-20T21:44Z",
-     "text": "Won't do: no folder is a leaf and only 56 files/3.3k lines can sink, because Station.Manager is one partial class of 355 files that everything touches. Prublyda stays one assembly (quiz's choice). Scans: Tools/asm_leaf_scan.py, Tools/asm_co"
-    }
-   ]
-  },
-  {
-   "n": 1954,
-   "name": "Tests",
-   "done": "2026-11-20T22:31Z",
-   "goal": false,
-   "under": 1951,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Editor agent: time one Prublyda edit with and without the constraint (task 1952 numbers)",
-     "x": false
-    },
-    {
-     "t": "If worth it: add the constraint, update Tools/test_suites.py and the launchers/workflows (gameci-editmode.yml, daily-*.yml) to set it, and the Tests SPEC",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-20T21:44Z",
-     "text": "Scan done, lever named (define constraint); needs an Editor agent to time and wire the launchers."
-    },
-    {
-     "by": "MAC_BOARD_COMPILE",
-     "at": "2026-11-20T22:31Z",
-     "text": "Published ed10c721bf. Warm Native A/B and actual Standalone define flip measured on Mac. Normal API edit saves 2.91 s with the three dependent test assemblies excluded. A test-session definition round trip costs 50 s, about 18 qualifying ed"
-    }
-   ]
-  },
-  {
-   "n": 1955,
-   "name": "Editor scripts that run on every domain reload",
-   "done": "2026-11-20T21:44Z",
-   "goal": false,
-   "under": 1951,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_THREAD",
-     "at": "2026-11-20T21:44Z",
-     "text": "Audited: 4 reload-time scripts, all light and inside #if UNITY_EDITOR; nothing to move or drop. Need for verify: none, no code changed."
-    }
-   ]
-  },
-  {
-   "n": 1957,
-   "name": "Main View SPEC",
-   "done": "2026-11-20T20:58Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_TELEMETRY_JOIN",
-     "at": "2026-11-20T22:32Z",
-     "text": "8f54f94dd6 source on main. Mac Unity at ba1b70f1ab confirmed 21 EditMode passes across telemetry slots, Paint/Select preview, the bottom-left row and telemetry/video controls. Prefab and Roslyn source checks passed. TelemetryView and Pilot "
-    },
-    {
-     "by": "MAC_TELEMETRY_RECHECK",
-     "at": "2026-11-21T01:42Z",
-     "text": "Mac recheck on 6393776a41: 21 EditMode tests passed across Paint/Select, telemetry slots, Bottom Left Row, and telemetry/video. Android Test 871 (434fb6b89c) includes 8f54f94dd6 and is published to Drive Android/Test. Physical DJI/Android s"
-    },
-    {
-     "by": "MAC_TELEMETRY_LATEST",
-     "at": "2026-11-21T06:05Z",
-     "text": "Current main 94e0108149: reran 8/8 focused Unity cases covering Select bounds, the no-gap seam, and Pilot Goal row collapse. Confirmed Android Test 871 was built from a descendant of 8f54f94dd6. No attached Android device for a visual check"
-    }
-   ]
-  },
-  {
-   "n": 1958,
-   "name": "Normal DJI compass",
-   "done": "2026-11-20T21:25Z",
-   "goal": false,
-   "under": 364,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "DJI-Compass",
-     "at": "2026-11-20T21:25Z",
-     "text": "Published 3704354b9b and 016d2df4ee on main. Compass uses DJI warning and braking distances and fresh own-track closure. Full Java bridge compiled against DJI 5.18; 61 host assertions passed; Roslyn found no new errors. Compass and Pilot Vi"
-    }
-   ]
-  },
-  {
-   "n": 1959,
-   "name": "Rename Situation \"battle line\" to Flight zones (red off-limits and regular permitted ground) in code",
-   "done": "2026-11-20T21:15Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Persistent.BattleLine -> FlightZones; Singleton_ControlZonePainter -> Singleton_FlightZonePainter; folder, shaders, material, scene object, UpdateStage and diagnostics names follow",
-     "x": true
-    },
-    {
-     "t": "Localization keys situation.flightZones, extended.layers.flightZones(+Unavailable), singletonFlightZonePainter.*; texts \"Flight zones\" / \"\u041f\u043e\u043b\u044c\u043e\u0442\u043d\u0456 \u0437\u043e\u043d\u0438\"",
-     "x": true
-    },
-    {
-     "t": "Situation SPEC and AGENTS describe Flight zones in plain wording",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud-flightzones",
-     "at": "2026-11-20T21:15Z",
-     "text": "Renamed on main 18a48c4f3e; uncompiled; saved BattleLine key resets once"
-    }
-   ]
-  },
-  {
    "n": 1960,
    "name": "Main View SPEC",
    "done": "2026-11-21T04:27Z",
@@ -4932,6 +4750,20 @@
      "text": "Published 6133aba745. Pinned fixture reproduction, estimated-camera staging, and clean JSONL receipts. Re-ran paired SIFT and XFeat on all six TartanAir/Zurich conditions; the GPU baseline records the admission outcomes."
     }
    ]
+  },
+  {
+   "n": 2039,
+   "name": "Bind the SurfaceQuadMap shader in the Editor",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5516,6 +5348,6 @@
    "since": "2026-11-21T19:46Z"
   }
  ],
- "source_revision": "3198c3b8bb75ecb22e618263048ccdf73d293f0e",
- "board_revision": "584d29a5947a3e5ffc06ebaa4cac0cfcfdc240eb"
+ "source_revision": "54d800d09660f778380f1a6b85ed8d792b634eca",
+ "board_revision": "9e7edc6551433ab25ef686f025965310e5159a48"
 }
