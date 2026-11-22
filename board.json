@@ -3193,26 +3193,6 @@
    ]
   },
   {
-   "n": 2003,
-   "name": "Remove obsolete top-right Enter Finalize control from Main UI and startup. Main View SPEC.",
-   "done": "2026-11-21T15:34Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-21T15:34Z",
-     "text": "9b4682d627 is on main. Removed Enter Finalize scene objects and their input handler. The editing tool and physical Enter still finish Orthophoto edits. Roslyn had no new errors."
-    }
-   ]
-  },
-  {
    "n": 2004,
    "name": "Fix Unity UAC1001 for the DJI measured-depth request ID and preserve its wire format",
    "done": "2026-11-21T16:01Z",
@@ -4285,16 +4265,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T15:33Z",
-     "noted": "",
-     "progress": 60,
-     "ticked": 3,
-     "total": 5
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Place and draw a bounded provisional preview while fresh footage continues through a confirmed tracking gap.",
@@ -4320,8 +4291,8 @@
    "notes": [
     {
      "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T15:32Z",
-     "text": "Published 54b6f81ef8, 682c54f18f, b97c38a3b8. Mac Unity kept 8 later Kenilworth photos during B and 4 more on Pause. The unrelated draft stayed unchanged, and the interleaved control joined once. Nine EditMode tests passed, Roslyn clean. In"
+     "at": "2026-11-22T15:45Z",
+     "text": "Published 2afb68d756 and bac4ae0df6. Paused unregistered photos can now use the accepted Disk cloud and Pano360 alongside real-photo corrections. Mac Metal checked all 16 retained castle photos. Independent castle and Zurich had zero joins,"
     }
    ]
   },
@@ -5063,6 +5034,6 @@
    "since": "2026-11-22T14:07Z"
   }
  ],
- "source_revision": "907484082e4db19cf0f39f052853965f481dd568",
- "board_revision": "7bf8d60c3ccef9dd1ab43496a55f326b1bac889f"
+ "source_revision": "adc33084f657be2f38ff4cfc2b47ffd4b0f0df27",
+ "board_revision": "cdfa27c2ec7bebf5cc4f569c0bbb4ada328dcaad"
 }
