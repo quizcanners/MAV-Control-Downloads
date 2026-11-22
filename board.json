@@ -4961,25 +4961,22 @@
   {
    "n": 2065,
    "name": "MavChat MavTube",
-   "done": "",
+   "done": "2026-11-22T11:46Z",
    "goal": false,
    "under": 431,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_MAVTUBE",
-     "since": "2026-11-22T11:38Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_MAVTUBE",
+     "at": "2026-11-22T11:46Z",
+     "text": "37fc55eb62 on main. MavTube starts and stops device camera sharing, and shows only the saved-destination Restream switch for each available video. Exact-commit Roslyn compare reported no new errors in four sets; serialized bindings and loca"
+    }
+   ]
   },
   {
    "n": 2066,
@@ -5326,6 +5323,6 @@
    "since": "2026-11-22T09:36Z"
   }
  ],
- "source_revision": "5d83031529090a49430044db512d79b71fc517f6",
- "board_revision": "f7f470975a62fdf90ba07ada19e7a57979804f5c"
+ "source_revision": "37fc55eb62cef7b299a742d09b067487a423a48e",
+ "board_revision": "9395e14fb74584f3f28b352a28a49e0bae2c4b37"
 }
