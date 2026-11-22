@@ -2069,36 +2069,6 @@
    ]
   },
   {
-   "n": 1317,
-   "name": "Screen center",
-   "done": "2026-11-21T05:29Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD_TAB",
-     "at": "2026-11-19T12:26Z",
-     "text": "790922c08a adds an opt-in device-debug press trace. Mac selected-and-locked replay verified quick tap accepted; long hold returned Timeout. The intermittent miss remains open. On the affected device run ui.suggestion.tabs arm-press, tap Scr"
-    },
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T11:18Z",
-     "text": "4511b62376 fixed the distinct locked-point/centre altitude line. 91610eb281 preserves the lock when dismissing Alternatives. Centre tap still needs the affected touchscreen: prior Mac replay accepted a quick tap, and devicectl reports both "
-    },
-    {
-     "by": "MAC_SUGGESTIONS_TOUCH",
-     "at": "2026-11-21T05:29Z",
-     "text": "90fc23de54 on main. The saved Screen Centre tab reproduced a Drag cancellation at Unity\u2019s early pointer-up while the point was selected and locked. Suggestions now retains the contact through the swipe decision. Short vertical and sideways "
-    }
-   ]
-  },
-  {
    "n": 1352,
    "name": "Fix striped local-file playback in Windows Telemetry Video source. Reproduce with Kenilworth Castle - inner court and keep the selected video usable for 3D generation.",
    "done": "",
@@ -3123,46 +3093,6 @@
     }
    ],
    "notes": []
-  },
-  {
-   "n": 1960,
-   "name": "Main View SPEC",
-   "done": "2026-11-21T04:27Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_TELEMETRY_SEAM",
-     "at": "2026-11-21T04:27Z",
-     "text": "Duplicate of completed task 1957. Confirmed 8f54f94dd6 is included in Android Test 871, 10/10 relevant tests passed in the latest Mac EditMode All run, and the TelemetryView and Pilot View device look checks are already due. DJI visual chec"
-    }
-   ]
-  },
-  {
-   "n": 1961,
-   "name": "Main View bottom-left Telemetry Strip layout. Join the Telemetry grid to the local video preview with a shared edge",
-   "done": "2026-11-21T05:17Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_TELEMETRY_JOIN",
-     "at": "2026-11-21T05:17Z",
-     "text": "Duplicate of completed 1957. The requested layout shipped in 8f54f94dd6; remote main and Android Test 871 (434fb6b89c) contain it. Mac All report 20261121-050923-8587880: 21/21 relevant checks passed. Physical DJI appearance is tracked in t"
-    }
-   ]
   },
   {
    "n": 1962,
@@ -4764,6 +4694,20 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 2040,
+   "name": "Align EditMode fixtures with the current Menu",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5348,6 +5292,6 @@
    "since": "2026-11-21T19:46Z"
   }
  ],
- "source_revision": "54d800d09660f778380f1a6b85ed8d792b634eca",
- "board_revision": "9e7edc6551433ab25ef686f025965310e5159a48"
+ "source_revision": "473837bfe2c2a2ab29028c6771f683dff10c850f",
+ "board_revision": "c066ee8049edbff9bc9f642d6c662fa8a2d779dd"
 }
