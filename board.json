@@ -3193,26 +3193,6 @@
    ]
   },
   {
-   "n": 1973,
-   "name": "Video Processing SPEC",
-   "done": "2026-11-21T09:22Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_VIDEO_EFFECTS_FLICK",
-     "at": "2026-11-21T09:22Z",
-     "text": "cbd79f98bf on main. Left and right swipes use the existing fullscreen fold transition. Sliders and switches retain their drags. Paint is bottom-left inside the safe area and stays visible when folded. Unity 30 passed, 2 backend-specific ski"
-    }
-   ]
-  },
-  {
    "n": 1974,
    "name": "Notifications SPEC",
    "done": "2026-11-21T10:01Z",
@@ -4749,14 +4729,20 @@
     {
      "who": "GETAC",
      "since": "2026-11-22T09:06Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-22T09:31Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-22T09:31Z",
+     "text": "Main ed47867b41 eases Planetary orbit entry from the zoomed pose over 0.25 s while applying mouse motion on the admission frame. Unity passed 24 focused zoom/entry tests; frozen Roslyn comparison reported no new errors. Map/Planet screen ch"
+    }
+   ]
   },
   {
    "n": 2049,
@@ -5106,8 +5092,12 @@
   {
    "screen": "Map",
    "since": "2026-11-22T09:07Z"
+  },
+  {
+   "screen": "Left Lists",
+   "since": "2026-11-22T09:30Z"
   }
  ],
- "source_revision": "736343858ff91a26eeca36ad39d950e8cd686794",
- "board_revision": "6af90df41baa96c7816cfdfaabfc46353897e2e1"
+ "source_revision": "788f6a69afb09c96eedb6fd0d037166ce6bd7516",
+ "board_revision": "f870803fab86b4b98d0007de8b34a24022a55dbc"
 }
