@@ -3143,26 +3143,6 @@
    "notes": []
   },
   {
-   "n": 1970,
-   "name": "Copilot SPEC",
-   "done": "2026-11-21T09:10Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_PILOT_SIDE_VIEW",
-     "at": "2026-11-21T09:10Z",
-     "text": "abef7c88a0 on main. Pilot uses the assigned RC Plus chip for Side View, with a joined right-column fallback only when no chip is mapped. Controller assignments retain their current behavior. 8 focused Unity tests passed. Pinned Roslyn compa"
-    }
-   ]
-  },
-  {
    "n": 1971,
    "name": "Street View SPEC",
    "done": "2026-11-21T10:00Z",
@@ -4689,7 +4669,7 @@
     {
      "who": "GETAC",
      "since": "2026-11-22T08:23Z",
-     "noted": "2026-11-22T09:01Z",
+     "noted": "2026-11-22T09:11Z",
      "progress": 25,
      "ticked": 0,
      "total": 0
@@ -4699,8 +4679,8 @@
    "notes": [
     {
      "by": "GETAC",
-     "at": "2026-11-22T09:01Z",
-     "text": "Main c0e377f026 and 1ab4618fbf share Zen progress between both Remote Sensors bars. Live Editor confirmed omitted versus explicit zero and the delayed-frame 100% hold; the source probe covered the 5% cap and smooth downward retarget. Screen"
+     "at": "2026-11-22T09:11Z",
+     "text": "Main c0e377f026 and 1ab4618fbf share Zen progress in Remote Sensors. Live Editor checked omitted vs explicit 0% and a delayed first 100% frame; the source probe passed the 5% cap and downward retarget. Editor, Android and Windows Roslyn com"
     }
    ]
   },
@@ -5124,5 +5104,5 @@
   }
  ],
  "source_revision": "736343858ff91a26eeca36ad39d950e8cd686794",
- "board_revision": "cfe3da05a5ccb9d87cdc18caba157fec938f651b"
+ "board_revision": "3dc40644ed3a09a4750dc8c37664f20d09fee47d"
 }
