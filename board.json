@@ -3173,26 +3173,6 @@
    ]
   },
   {
-   "n": 1978,
-   "name": "Pilot Side View",
-   "done": "2026-11-21T12:09Z",
-   "goal": false,
-   "under": 364,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_PILOT_SIDE_VIEW",
-     "at": "2026-11-21T12:09Z",
-     "text": "Main bc1ec7f5e2: binary Side View, manual feed and direction selection, exclusive projection, Hide Video covers both, and 0.25 s flick. Removed stick-driven near-home camera switching. Roslyn NEW ERRORS none. Unity 168 passed, 1 existing pe"
-    }
-   ]
-  },
-  {
    "n": 1979,
    "name": "Main View telemetry",
    "done": "2026-11-21T12:26Z",
@@ -4765,7 +4745,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-22T12:09Z",
+     "noted": "",
+     "progress": 25,
+     "ticked": 1,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Retain a short local camera group when fresh views agree during a refused window.",
@@ -5349,5 +5338,5 @@
   }
  ],
  "source_revision": "f9c181504d92c0b3fe709b37d14b1fe29e83c95b",
- "board_revision": "37e9bda868728a41aea503d645fd14207c68a1ef"
+ "board_revision": "6002542976901766fa5194a3b7498a82b49e5780"
 }
