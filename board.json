@@ -5043,25 +5043,22 @@
   {
    "n": 2069,
    "name": "MavChat",
-   "done": "",
+   "done": "2026-11-22T12:23Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_MAVCHAT_ONLINE",
-     "since": "2026-11-22T12:15Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_MAVCHAT_ONLINE",
+     "at": "2026-11-22T12:23Z",
+     "text": "5a72ceea96 on main. A fresh MavChat panel opens to Peers and the roster refresh keeps online contacts above offline contacts, alphabetical within each. Message arrivals update previews. Focused comparator check passed; Roslyn reported no ne"
+    }
+   ]
   },
   {
    "n": 2070,
@@ -5445,6 +5442,6 @@
    "since": "2026-11-22T09:36Z"
   }
  ],
- "source_revision": "2eb2b9d50154c292a256274567e063a47fd3ea6a",
- "board_revision": "1d3d68b605dee8767a0465339daf40b3f8606853"
+ "source_revision": "5a72ceea962f9e29eaa0e87a5701e3757dbce971",
+ "board_revision": "ce9722a40b06797c076bfac847115b5e57a1c32f"
 }
