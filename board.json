@@ -3250,86 +3250,6 @@
    ]
   },
   {
-   "n": 2007,
-   "name": "Main View Suggestions",
-   "done": "2026-11-21T16:49Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC_MGRS_UI",
-     "at": "2026-11-21T16:49Z",
-     "text": "On main in fa827b662b: empty MGRS field with Paste icon, screen-center MGRS capsule with relation line, SPECs. Pages bumped: Main View, Remote Sensors. Not compiled (cmp.sh has no working .NET 8 SDK on the Getac), EditMode tests not run, pr"
-    }
-   ]
-  },
-  {
-   "n": 2008,
-   "name": "Approximated progress bar while a server gives no progress",
-   "done": "2026-11-21T16:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC_MGRS_UI",
-     "at": "2026-11-21T16:50Z",
-     "text": "On main in 2108bf475e: Remote Sensors command bar (list row and Command readout) is approximated while the server gives no progress, ends on confirmation or failure. Pages bumped. Not compiled, tests not run."
-    }
-   ]
-  },
-  {
-   "n": 2009,
-   "name": "Remote Sensors UI (Remote Sensors SPEC",
-   "done": "2026-11-21T16:51Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC_MGRS_UI",
-     "at": "2026-11-21T16:51Z",
-     "text": "On main in 2108bf475e: one Suggestions tab for a sensor, status line with Refresh on tinted blur, Set position caption, list header and rows at the shared width. Pages bumped: Main View, Remote Sensors. Not compiled, tests not run, prefabs "
-    }
-   ]
-  },
-  {
-   "n": 2010,
-   "name": "Remote Sensors (SPEC",
-   "done": "2026-11-21T16:54Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC_MGRS_UI",
-     "at": "2026-11-21T16:54Z",
-     "text": "On main in ad66c686d3: Manager.AnnounceCommandConfirmation shows the operation and the sensor's name once per confirmed command; the selection's own cached-status request and failures are not announced. Page bumped: Remote Sensors. Not comp"
-    }
-   ]
-  },
-  {
    "n": 2011,
    "name": "Remote Sensors (Alarm SPEC",
    "done": "2026-11-21T16:59Z",
@@ -4245,16 +4165,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T16:44Z",
-     "noted": "",
-     "progress": 60,
-     "ticked": 3,
-     "total": 5
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Place and draw a bounded provisional preview while fresh footage continues through a confirmed tracking gap.",
@@ -4280,8 +4191,8 @@
    "notes": [
     {
      "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T16:42Z",
-     "text": "cca40b1089, 6a85c7b231, 55e6893d09 on main. Keeps 16 photos across tracking loss and preserves live preview on late accepted windows. Unity stress replays and 55 EditMode tests passed for retention and handoff. Roslyn clean. The independent"
+     "at": "2026-11-22T16:55Z",
+     "text": "7ae6e1bae4 and 4be7810056 on main. Recovery searches across the retained flight. Full-resolution held-out overlap came from later unregistered Kenilworth footage. Starting near that overlap produced weighted real-photo agreement and provisi"
     }
    ]
   },
@@ -5023,6 +4934,6 @@
    "since": "2026-11-22T14:07Z"
   }
  ],
- "source_revision": "16d315a935bd4a8de75fb57c287ac4672e0311dc",
- "board_revision": "a3cd1cfcfb5fb492cdc75a73ac1777d293a1f025"
+ "source_revision": "08208f62a27c5fb93e4f6a6c2dbb767004b66444",
+ "board_revision": "93ce9b88e9b6f75b32000c25b9e620f939f14888"
 }
