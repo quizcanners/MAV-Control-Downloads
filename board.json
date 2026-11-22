@@ -3143,26 +3143,6 @@
    "notes": []
   },
   {
-   "n": 1967,
-   "name": "Notifications SPEC",
-   "done": "2026-11-21T08:10Z",
-   "goal": false,
-   "under": 410,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_NOTIFICATION_TONGUE",
-     "at": "2026-11-21T08:10Z",
-     "text": "b01a0566a7 on main. The landscape tongue shows only a centered arrow while cards are visible. Kind summary and active progress return when folded. 12 targeted Unity tests passed, the progress line probe passed, and Roslyn found no new error"
-    }
-   ]
-  },
-  {
    "n": 1968,
    "name": "Rename Brigade Configurations to Tester Group Config. Data Sync SPEC",
    "done": "2026-11-21T08:52Z",
@@ -4729,14 +4709,20 @@
     {
      "who": "GETAC",
      "since": "2026-11-22T08:01Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-22T08:22Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-22T08:22Z",
+     "text": "Main 848c378a6c fixes the two WayPoint call sites; Unity compiles, Roslyn no new errors, WayPoint 1/1 and ECS Text 7/7 passed. The pasted Burst hash error resolved IJob.Execute against TextLayoutResult. No fresh Burst messages after reload,"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5173,6 +5159,6 @@
    "since": "2026-11-22T06:34Z"
   }
  ],
- "source_revision": "ba95812fa83a0485141857c44dca8203a183f849",
- "board_revision": "92b88012cb515084960d47659368e073f3ab63e9"
+ "source_revision": "848c378a6cf1297ebfa138308c17b80a57ac9835",
+ "board_revision": "107311313058d91572973321173655306d600c90"
 }
