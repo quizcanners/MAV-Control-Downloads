@@ -4692,7 +4692,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-22T22:17Z",
+     "noted": "",
+     "progress": 33,
+     "ticked": 1,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Retain later landmark views when registration stalls",
@@ -5199,5 +5208,5 @@
   }
  ],
  "source_revision": "ff8dd3353d8374cf351f4eef775b9abae81ac924",
- "board_revision": "3d5c7d28bb14f0278d30e1c4f7aca91f7e540866"
+ "board_revision": "3506f3bc95af8ff3fdfd6020794bbc55a5e16022"
 }
