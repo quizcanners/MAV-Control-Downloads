@@ -4500,7 +4500,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-22T14:00Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Retain original exposure times and export source and shared times.",
@@ -5043,5 +5052,5 @@
   }
  ],
  "source_revision": "75245667c8314b11cd4377202bd766868bb205e1",
- "board_revision": "199312ee13c5f21fc3f112d130cab8e1f5961a68"
+ "board_revision": "14aa7fd26535be57b838224e2f23c5da9ad26d0e"
 }
