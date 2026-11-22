@@ -3250,26 +3250,6 @@
    ]
   },
   {
-   "n": 2011,
-   "name": "Remote Sensors (Alarm SPEC",
-   "done": "2026-11-21T16:59Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC_MGRS_UI",
-     "at": "2026-11-21T16:59Z",
-     "text": "On main in b3e98ca9a8: Manager.Notice drives the Remote Sensors notification card (offline, or connected with no gates); the bottom plaque reads server time | gates and refreshes each second. Pages bumped: Remote Sensors, Notifications. Not"
-    }
-   ]
-  },
-  {
    "n": 2012,
    "name": "Remote Sensors (SPEC",
    "done": "2026-11-21T17:08Z",
@@ -4165,16 +4145,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T16:56Z",
-     "noted": "",
-     "progress": 60,
-     "ticked": 3,
-     "total": 5
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Place and draw a bounded provisional preview while fresh footage continues through a confirmed tracking gap.",
@@ -4200,8 +4171,8 @@
    "notes": [
     {
      "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T16:55Z",
-     "text": "7ae6e1bae4 and 4be7810056 on main. Recovery searches across the retained flight. Full-resolution held-out overlap came from later unregistered Kenilworth footage. Starting near that overlap produced weighted real-photo agreement and provisi"
+     "at": "2026-11-22T17:07Z",
+     "text": "49ec9aed3b and 34e26776aa on main. Retains the earlier provisional photo bank across Video Source switches. The independent Kenilworth replay used its photos for 5 tentative pose proposals. The interleaved files joined, Zurich stayed out, a"
     }
    ]
   },
@@ -4943,6 +4914,6 @@
    "since": "2026-11-22T14:07Z"
   }
  ],
- "source_revision": "08208f62a27c5fb93e4f6a6c2dbb767004b66444",
- "board_revision": "fd06b33ae3db84562213130344ee3d9cf6f02de6"
+ "source_revision": "bed4b9e0436bcecb10f2c7ab44116d0f8c8da133",
+ "board_revision": "498906c3f62c481dfb83b9b2fc0077ba527777de"
 }
