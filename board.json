@@ -4305,7 +4305,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-22T15:00Z",
+     "noted": "",
+     "progress": 60,
+     "ticked": 3,
+     "total": 5
+    }
+   ],
    "steps": [
     {
      "t": "Place and draw a bounded provisional preview while fresh footage continues through a confirmed tracking gap.",
@@ -5065,5 +5074,5 @@
   }
  ],
  "source_revision": "2d14733c305e1647be06223c7865cb3d0ba89e73",
- "board_revision": "011c9de48e68a0abb05e27ae580b7bd09e303b23"
+ "board_revision": "9dd3189526ec3a4b6c7a1a7cff52a3a6d01cee6e"
 }
