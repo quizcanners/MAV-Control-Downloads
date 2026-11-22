@@ -3346,26 +3346,6 @@
    ]
   },
   {
-   "n": 2038,
-   "name": "Publish the calibrated TartanAir retained-camera replay used by the Photo anchors handoff comparison",
-   "done": "2026-11-21T19:49Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T19:49Z",
-     "text": "Published 6133aba745. Pinned fixture reproduction, estimated-camera staging, and clean JSONL receipts. Re-ran paired SIFT and XFeat on all six TartanAir/Zurich conditions; the GPU baseline records the admission outcomes."
-    }
-   ]
-  },
-  {
    "n": 2039,
    "name": "Bind the SurfaceQuadMap shader in the Editor",
    "done": "2026-11-22T17:26Z",
@@ -4187,7 +4167,7 @@
   },
   {
    "n": 2078,
-   "name": "MavChat GPS Starlink fallback on Android and iPhone is unverified with a location-enabled Priority-plan terminal. With phone GPS unavailable",
+   "name": "GPS sources (GPS LocationServices SPEC",
    "done": "",
    "goal": false,
    "under": 0,
@@ -4195,7 +4175,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLAUDE_2078",
+     "since": "2026-11-22T19:47Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -4446,7 +4435,7 @@
   },
   {
    "n": 2091,
-   "name": "Draw and select 1\u20133 suggested links between partially agreeing 3D Map flights. Retain distinct cross-flight placement proposals",
+   "name": "Draw and select one to three suggested joins between partially agreeing 3D Map flights. See Video Processing SPEC",
    "done": "",
    "goal": false,
    "under": 1693,
@@ -4455,7 +4444,20 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Retain likely placements backed by independent cross-flight photo matches. Group equivalent placements into one proposal.",
+     "x": false
+    },
+    {
+     "t": "Draw a selectable line on the Map for each of the strongest distinct proposals.",
+     "x": false
+    },
+    {
+     "t": "Record the chosen operator link and apply it to the separate flight in the working draft.",
+     "x": false
+    }
+   ],
    "notes": []
   },
   {
@@ -4519,7 +4521,7 @@
    "held": [
     {
      "who": "CLAUDE_CAMERA",
-     "since": "2026-11-22T19:44Z",
+     "since": "2026-11-22T19:45Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
@@ -4610,18 +4612,6 @@
   {
    "screen": "Pilot View",
    "since": "2026-11-21T12:33Z"
-  },
-  {
-   "screen": "Video Restreaming",
-   "since": "2026-11-15T19:23Z"
-  },
-  {
-   "screen": "DJI WebRTC",
-   "since": "2026-11-15T19:23Z"
-  },
-  {
-   "screen": "Web Mercator Sync",
-   "since": "2026-11-15T19:23Z"
   },
   {
    "screen": "Long press wave",
@@ -4844,6 +4834,6 @@
    "since": "2026-11-22T17:17Z"
   }
  ],
- "source_revision": "f180157a95970b8b3d6db2101b30c88b9c27ca3f",
- "board_revision": "9bcc0a87f75ea72ff8bf1c8adee4baa39c661a3c"
+ "source_revision": "6bdbdb5d1f47dc4a0d511cce12f32c408610e004",
+ "board_revision": "0916b9d52a11582e747e02293deeaedcce1e1307"
 }
