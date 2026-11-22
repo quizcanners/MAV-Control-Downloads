@@ -4705,16 +4705,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T12:25Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Place and draw a bounded provisional preview while fresh footage continues through a confirmed tracking gap.",
@@ -4733,7 +4724,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-22T12:25Z",
+     "text": "611b4bbba1 and 41b3d6a852 published. Pfeffingen provisional preview continued through 110 s. Zurich left accepted geometry intact, then Kenilworth B joined and cleared the preview. Eleven focused EditMode tests and Roslyn passed. Ground hei"
+    }
+   ]
   },
   {
    "n": 2056,
@@ -5394,5 +5391,5 @@
   }
  ],
  "source_revision": "bb59524f3322f43379604ab2bc912e559c35a352",
- "board_revision": "cdd8c1a2eb282d7eba9a490f46cd0aae2103a8d3"
+ "board_revision": "67c6ecf87109a2c682f149eba7cf062fc46d5573"
 }
