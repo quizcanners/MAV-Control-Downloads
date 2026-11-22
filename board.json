@@ -4848,18 +4848,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "claude-peers-startup",
-     "since": "2026-11-22T10:55Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "claude-peers-startup",
+     "at": "2026-11-22T10:59Z",
+     "text": "Done 167e6ae506: RestoreKnownPeers applies the cold-start hold, Chat lists held peers, PingFamiliarPeersWhenSocketSends greets peers seen in 2 days when the socket sends. Compiled in Editor. Left: none; Chat page bumped."
+    }
+   ]
   },
   {
    "n": 2060,
@@ -5215,6 +5212,6 @@
    "since": "2026-11-22T09:36Z"
   }
  ],
- "source_revision": "3ab6b3d98b2f3c307e8940111e1e63f573149630",
- "board_revision": "4f9779d8d8930987f921e1c14b13a986418c1d6a"
+ "source_revision": "2c9fbb0019c7034f7d014a863b7ef69e9e5c3440",
+ "board_revision": "c5cd1b108e2e5d6348e3e7a7d0f20ab92b9125a2"
 }
