@@ -4683,16 +4683,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T20:48Z",
-     "noted": "",
-     "progress": 33,
-     "ticked": 1,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Retain later landmark views when registration stalls",
@@ -4707,7 +4698,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-22T21:05Z",
+     "text": "The native bank now retains later RGB views. Mac TestRun retained 48 photos and localized all eight opening cameras. Kenilworth to independent Heritage still recorded zero joins. Camera and opening-depth alignment disagreed by 49.51 m and 7"
+    }
+   ]
   },
   {
    "n": 2103,
@@ -5156,5 +5153,5 @@
   }
  ],
  "source_revision": "862e92e12091367253da82ae567bf61228132b4a",
- "board_revision": "6001a586b37b8df33ed979f31bd58fe9f622cd04"
+ "board_revision": "9e5c9e2b223759a173a388763a64d7c4ff5e9eb9"
 }
