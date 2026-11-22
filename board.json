@@ -3193,26 +3193,6 @@
    ]
   },
   {
-   "n": 2004,
-   "name": "Fix Unity UAC1001 for the DJI measured-depth request ID and preserve its wire format",
-   "done": "2026-11-21T16:01Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-21T16:01Z",
-     "text": "b68fcb4c46 on main. Both GUID fields now keep the RequestId JSON contract under both project serializers. Unity recompiled without the measured-depth UAC1001 warnings; Roslyn no new errors. Production build remains held."
-    }
-   ]
-  },
-  {
    "n": 2005,
    "name": "A selected tile (a menu tile such as \u041f\u0440\u043e\u0434\u0443\u043a\u0442\u0438\u0432\u043d\u0456\u0441\u0442\u044c or \u0406\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442\u0438) turns its yellow selection light blue while pointed and back to yellow when the pointer leaves; today it stays yellow. Gap against U",
    "done": "2026-11-21T18:01Z",
@@ -4265,16 +4245,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T15:47Z",
-     "noted": "",
-     "progress": 60,
-     "ticked": 3,
-     "total": 5
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Place and draw a bounded provisional preview while fresh footage continues through a confirmed tracking gap.",
@@ -4300,8 +4271,8 @@
    "notes": [
     {
      "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T15:45Z",
-     "text": "Published 2afb68d756 and bac4ae0df6. Paused unregistered photos can now use the accepted Disk cloud and Pano360 alongside real-photo corrections. Mac Metal checked all 16 retained castle photos. Independent castle and Zurich had zero joins,"
+     "at": "2026-11-22T16:05Z",
+     "text": "Published f49c515c93 and 5d416b56a3. Weighted projection ranks and refines provisional cameras. Mac Metal and 32 focused tests passed their controls. Interleaved joined and Zurich left the draft intact. Independent castle still did not join"
     }
    ]
   },
@@ -5043,6 +5014,6 @@
    "since": "2026-11-22T14:07Z"
   }
  ],
- "source_revision": "adc33084f657be2f38ff4cfc2b47ffd4b0f0df27",
- "board_revision": "03ca34620a12b551b47bde5192e65f97b8b69f46"
+ "source_revision": "eb126c3a013b39f85eaa2a486b4a7bf3f2f76308",
+ "board_revision": "33a3bff472d287bd61268439164df6e6bd31d46f"
 }
