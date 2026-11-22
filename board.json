@@ -1752,7 +1752,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLAUDE_600",
+     "since": "2026-11-22T19:39Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Dispatcher commands still in AI_Sandbox_DeviceDebugCommands*.cs: the remaining vpn.*, training and remote-sensor editors, performance.wires, cfg/system.set and the other cfg cases in DebugControl; the",
@@ -4747,5 +4756,5 @@
   }
  ],
  "source_revision": "f180157a95970b8b3d6db2101b30c88b9c27ca3f",
- "board_revision": "c3f51e061bcadc94f045d0db132e72df9c65add8"
+ "board_revision": "8002f96994d3c40dff82ef992c2706eae8cf0e9b"
 }
