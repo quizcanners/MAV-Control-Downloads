@@ -3193,26 +3193,6 @@
    ]
   },
   {
-   "n": 2002,
-   "name": "Windows installer fails replacing the existing MAV Control executable when no app window is visible. Qualify lock handling and the existing install path.",
-   "done": "2026-11-21T15:33Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-21T15:33Z",
-     "text": "9b4682d627 is on main. The installer registers exact app files with Restart Manager and can defer locked private files. An isolated Inno update closed an invisible process and replaced the executable. Focused Unity rule test passed. No prod"
-    }
-   ]
-  },
-  {
    "n": 2003,
    "name": "Remove obsolete top-right Enter Finalize control from Main UI and startup. Main View SPEC.",
    "done": "2026-11-21T15:34Z",
@@ -4305,7 +4285,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-22T15:33Z",
+     "noted": "",
+     "progress": 60,
+     "ticked": 3,
+     "total": 5
+    }
+   ],
    "steps": [
     {
      "t": "Place and draw a bounded provisional preview while fresh footage continues through a confirmed tracking gap.",
@@ -5075,5 +5064,5 @@
   }
  ],
  "source_revision": "907484082e4db19cf0f39f052853965f481dd568",
- "board_revision": "43319be7a3af7f750e16ea13067e7a029f702fe6"
+ "board_revision": "7bf8d60c3ccef9dd1ab43496a55f326b1bac889f"
 }
