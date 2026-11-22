@@ -4685,7 +4685,9 @@
    "done": "",
    "goal": false,
    "under": 1693,
-   "ticks": [],
+   "ticks": [
+    "2026-11-22T21:04Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -4694,15 +4696,15 @@
      "who": "CODEX_MODEL_POSITIONING",
      "since": "2026-11-22T20:48Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Retain later landmark views when registration stalls",
-     "x": false
+     "x": true
     },
     {
      "t": "Place the joined draft against real landmark and depth evidence",
@@ -4718,48 +4720,42 @@
   {
    "n": 2103,
    "name": "Esri streaming holds the operator bake",
-   "done": "",
+   "done": "2026-11-22T21:02Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_2086",
-     "since": "2026-11-22T20:55Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_2086",
+     "at": "2026-11-22T21:02Z",
+     "text": "cc3774b92b: OperatorMapWorkWaiting (staged/running Orthophoto bake, projection bake, erase or reload asked) blocks new streamed batches and stops a running one each frame. No compile errors in these files, but others' errors in the shared t"
+    }
+   ]
   },
   {
    "n": 2104,
    "name": "Esri streaming forgets failed tiles and never retries a failed view (5236df6deb",
-   "done": "",
+   "done": "2026-11-22T21:03Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_2086",
-     "since": "2026-11-22T20:58Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_2086",
+     "at": "2026-11-22T21:03Z",
+     "text": "cc3774b92b: per-tile failure marks by tile id (retry 1 min doubling to 1 h), batch stops after 3 failures in a row, failed view replanned after 60 s; deletion on save, store epoch change, 1024 cap; one shared HttpClient for streamed batches"
+    }
+   ]
   },
   {
    "n": 2105,
@@ -5167,6 +5163,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "248eae4bb05a224ef0fa6858bb383350eb8a10dd",
- "board_revision": "492505ab471f17120e0b0194571071bb913af93b"
+ "source_revision": "862e92e12091367253da82ae567bf61228132b4a",
+ "board_revision": "8dcd3ab110f70692afd879ac71b5cf825f7ec7de"
 }
