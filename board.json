@@ -4765,18 +4765,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T10:24Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-22T10:41Z",
+     "text": "Published 16aa41d472. The Recording root stays fixed and Unity probes rejected windows for provisional camera groups. Both full FPV replays and Roslyn ran. Confirmed tracking still freezes. See GPU Baseline, Model Positioning on fast FPV. C"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5109,6 +5106,6 @@
    "since": "2026-11-22T09:36Z"
   }
  ],
- "source_revision": "f691ec544a75a82209ae846be50da72ce8441e0e",
- "board_revision": "439eed80b1ebf94139ee9fd93bb62f5e3846e3ba"
+ "source_revision": "c62dd06b199e69d92c9e1b8d3aca8816f9e3753f",
+ "board_revision": "03fa066c0b1d9c2d313e5c46e40b8d5f1cb63383"
 }
