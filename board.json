@@ -4500,16 +4500,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T14:00Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Retain original exposure times and export source and shared times.",
@@ -4531,8 +4522,8 @@
    "notes": [
     {
      "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T12:07Z",
-     "text": "e47b58edef and 5c34979933 published. Seven Unity tests passed. Kenilworth joined and the working graph relaxed during Pause. Known-offset trial did not recover the true clock and published no pose revision. Next bring older matched-photo ev"
+     "at": "2026-11-22T14:15Z",
+     "text": "8ee08b1959 and 7e554767bf published. Nine Unity tests and Roslyn passed. Independent paths through real photos now confirm or weaken the direct match; duplicate exposure replay cannot add weight. The -5 s control settled at -4.81 and -3.83 "
     }
    ]
   },
@@ -5049,8 +5040,12 @@
   {
    "screen": "Main/Layers",
    "since": "2026-11-22T09:36Z"
+  },
+  {
+   "screen": "Drone-Control",
+   "since": "2026-11-22T14:07Z"
   }
  ],
- "source_revision": "75245667c8314b11cd4377202bd766868bb205e1",
- "board_revision": "14aa7fd26535be57b838224e2f23c5da9ad26d0e"
+ "source_revision": "d005ba3625d61538570171e0004b15ed15751fd3",
+ "board_revision": "6e43ba8462edecfab93347d3cb0efa26e906511a"
 }
