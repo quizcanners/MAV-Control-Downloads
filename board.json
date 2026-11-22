@@ -4932,25 +4932,22 @@
   {
    "n": 2064,
    "name": "SDC Ping finds its USB board when the station starts with the STM32 board and another COM adapter already connected (SDC Ping SPEC",
-   "done": "",
+   "done": "2026-11-22T11:30Z",
    "goal": false,
    "under": 431,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_SDC",
-     "since": "2026-11-22T11:28Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_SDC",
+     "at": "2026-11-22T11:30Z",
+     "text": "Windows source published at cd43ce2ba4. A focused Windows check passed nine discovery assertions and selected COM17 with COM8 also present. Live station diagnostics reported COM17 Ready, an SDC session for USB2.0 PC CAMERA, and 10 board ack"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5284,5 +5281,5 @@
   }
  ],
  "source_revision": "c1446e3f8c1564d88d070c8ea070297954307eec",
- "board_revision": "07e1ae05fdef71731841641d86d051488a3e2954"
+ "board_revision": "c12a4cdc741fd21b56b4e9e17068ae501a2187b6"
 }
