@@ -4583,48 +4583,42 @@
   {
    "n": 2097,
    "name": "Phone GPS off still reads and shares the phone position when the app leaves the screen (ca8405d1f6",
-   "done": "",
+   "done": "2026-11-22T21:56Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_2078",
-     "since": "2026-11-22T21:27Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_2078",
+     "at": "2026-11-22T21:56Z",
+     "text": "Fixed in a289d30377: BackgroundTracker Android and iOS paths read ShouldShareNativeLocation (Share and Phone GPS); with Phone GPS off nothing is shared off screen."
+    }
+   ]
   },
   {
    "n": 2098,
    "name": "GPS source decided inside a getter on every read",
-   "done": "",
+   "done": "2026-11-22T21:56Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_2078",
-     "since": "2026-11-22T21:28Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_2078",
+     "at": "2026-11-22T21:56Z",
+     "text": "Fixed in a289d30377: TryGetUserDeviceLocation only reads; the phone read, dish poll and publish run once per frame behind a Gate.Frame in the GPS manager."
+    }
+   ]
   },
   {
    "n": 2099,
@@ -4782,48 +4776,42 @@
   {
    "n": 2105,
    "name": "Camera clip-distance host test reads files the camera restructure moved (1c84ee2f22 and 6390d86172",
-   "done": "",
+   "done": "2026-11-22T21:43Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_CAMERA",
-     "since": "2026-11-22T20:56Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_CAMERA",
+     "at": "2026-11-22T21:43Z",
+     "text": "26935e74d8: test reads Camera/Pose/ files, internal modifiers, ClippingController host shape, historical baseline path kept, Cesium package cache globbed. Run: actual PASS 36, all 8 mutants fail with their reasons. Offline compile clean; Ed"
+    }
+   ]
   },
   {
    "n": 2106,
    "name": "Camera SPEC Layout says more has moved to MainCamera than has (64f784c96b vs 6390d86172",
-   "done": "",
+   "done": "2026-11-22T21:43Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_CAMERA",
-     "since": "2026-11-22T20:56Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_CAMERA",
+     "at": "2026-11-22T21:43Z",
+     "text": "26935e74d8: PilotGimbalController and ViewChangeTracker are MainCamera parts; SPEC Layout lists every part by name and exactly what is still nested (Follow/Pose/GroundProbe, gesture states, DroneCameraControl) and the two decisions still on"
+    }
+   ]
   },
   {
    "n": 2107,
@@ -4885,6 +4873,11 @@
      "by": "GETAC",
      "at": "2026-11-22T21:26Z",
      "text": "quiz, 2026-11-22, asked whether agents may update the stale AGENTS guide lines in this finding: \"Yes, update them\". Camera + AI Sandbox lines -> camera-restructure session; Network + Encryption lines -> 1843 session."
+    },
+    {
+     "by": "CLAUDE_CAMERA",
+     "at": "2026-11-22T21:45Z",
+     "text": "Camera + AI Sandbox part done in a3b0d0b8e4: Systems/Camera/AGENTS.md rows 14-16, Drone camera control section (folder, Trainer in Workflows/Training/Drones/Recon/) and the runtime-groups sentence; Systems/AI Sandbox/AGENTS.md:24 now MainCa"
     }
    ]
   },
@@ -4894,7 +4887,9 @@
    "done": "",
    "goal": false,
    "under": 1693,
-   "ticks": [],
+   "ticks": [
+    "2026-11-22T21:56Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -4903,15 +4898,15 @@
      "who": "CODEX_MODEL_POSITIONING",
      "since": "2026-11-22T21:35Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 50,
+     "ticked": 1,
      "total": 2
     }
    ],
    "steps": [
     {
      "t": "Visible blocks refine at their own distance",
-     "x": false
+     "x": true
     },
     {
      "t": "Verify a saved-photo browse with near, far and off-screen blocks in Unity",
@@ -5223,6 +5218,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "93648e0f6023096890c674a724cbf8e08b6d1b68",
- "board_revision": "24e69bc4cc1a33bd903d4142bd193544220ddf16"
+ "source_revision": "4776ae157105a068cf0fc128337a9a38a813a4fe",
+ "board_revision": "3b8e55b2f53cc29da0040efe5c84fab58878fb5d"
 }
