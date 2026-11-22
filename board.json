@@ -4462,7 +4462,7 @@
   },
   {
    "n": 2092,
-   "name": "Use overlapping Orthophoto patches and uncertain starting positions to weight 3D Map flight joins. Compare independently generated ground-projected footprints",
+   "name": "Use uncertain starting positions and overlapping Orthophoto patches to weight 3D Map flight joins. See Video Processing SPEC",
    "done": "",
    "goal": false,
    "under": 1693,
@@ -4473,14 +4473,27 @@
    "held": [
     {
      "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T19:43Z",
+     "since": "2026-11-22T19:49Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
+     "progress": 33,
+     "ticked": 1,
+     "total": 3
     }
    ],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Let agreement with the manual start softly strengthen direct photo matches.",
+     "x": true
+    },
+    {
+     "t": "Retain independent ground-projected colour and coverage for each flight.",
+     "x": false
+    },
+    {
+     "t": "Compare footprints and feed the weighted Orthophoto evidence into automatic placement and suggested joins. Account for evidence shared with perspective matches.",
+     "x": false
+    }
+   ],
    "notes": []
   },
   {
@@ -4834,6 +4847,6 @@
    "since": "2026-11-22T17:17Z"
   }
  ],
- "source_revision": "6bdbdb5d1f47dc4a0d511cce12f32c408610e004",
- "board_revision": "0916b9d52a11582e747e02293deeaedcce1e1307"
+ "source_revision": "2589826d8b44b778d7993a75552c27bc62cccd48",
+ "board_revision": "a06441d1d2a28a4f3fa2c15f989676c3b90823d3"
 }
