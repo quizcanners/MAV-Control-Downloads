@@ -4928,18 +4928,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T11:14Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-22T11:26Z",
+     "text": "Published ec07c0e865 and 92caf5413b. Confirmed cross-capture pairs fit shared offsets and export capture-time.csv. Six Unity tests passed. Both the real join and the shifted control stitched spatially but admitted zero time links. Next use "
+    }
+   ]
   },
   {
    "n": 2064,
@@ -5296,5 +5293,5 @@
   }
  ],
  "source_revision": "7192f7c0b8f3cf7096311d7884ddca60ef4b16bd",
- "board_revision": "90815fb5cfd0aede50b319454be02a81973e7097"
+ "board_revision": "aa168b9bee445ce2049e63850047fb43d9137c53"
 }
