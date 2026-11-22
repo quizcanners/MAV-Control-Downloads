@@ -4765,7 +4765,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-22T10:55Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -4840,6 +4849,29 @@
    "parked": false,
    "flags": [],
    "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2060,
+   "name": "Give Capture Screen",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_VIDEO_ICONS",
+     "since": "2026-11-22T10:54Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   }
@@ -5175,5 +5207,5 @@
   }
  ],
  "source_revision": "3ab6b3d98b2f3c307e8940111e1e63f573149630",
- "board_revision": "54e919b124c3d827b59e4fca33b5454d7fe59383"
+ "board_revision": "9a2667872fdaf12c76c6f12307af2a59de4b95c9"
 }
