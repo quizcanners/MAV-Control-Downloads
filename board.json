@@ -5063,25 +5063,22 @@
   {
    "n": 2070,
    "name": "Mav Chat",
-   "done": "",
+   "done": "2026-11-22T12:24Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_CAPSULE_HAPTIC",
-     "since": "2026-11-22T12:16Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_CAPSULE_HAPTIC",
+     "at": "2026-11-22T12:24Z",
+     "text": "8549fef556 on main. The tick follows the committed capsule change, including short flicks. Carousel preview crossings stay quiet and vertical fold ticks retain their existing behavior. App and EditMode assemblies compiled before rebase usin"
+    }
+   ]
   },
   {
    "n": 2071,
@@ -5442,6 +5439,6 @@
    "since": "2026-11-22T09:36Z"
   }
  ],
- "source_revision": "5a72ceea962f9e29eaa0e87a5701e3757dbce971",
- "board_revision": "ce9722a40b06797c076bfac847115b5e57a1c32f"
+ "source_revision": "bb59524f3322f43379604ab2bc912e559c35a352",
+ "board_revision": "a44e933ed4127751ce34cdf5b667ebf06ef4d281"
 }
