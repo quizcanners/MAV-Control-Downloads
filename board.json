@@ -3173,26 +3173,6 @@
    ]
   },
   {
-   "n": 1985,
-   "name": "Pilot side columns fold and unfold from a flick with main video projection hidden",
-   "done": "2026-11-21T12:46Z",
-   "goal": false,
-   "under": 364,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_PILOT_FOLD",
-     "at": "2026-11-21T12:46Z",
-     "text": "d3bff9248e on main. PilotWorkflowTests 23/23 passed including Canvas raycast at the preview overlap. DJI touch check queued on Pilot View."
-    }
-   ]
-  },
-  {
    "n": 1986,
    "name": "Show the current live camera picture when opening raw Video Processing from Pilot",
    "done": "2026-11-21T12:59Z",
@@ -4625,7 +4605,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-22T12:49Z",
+     "noted": "",
+     "progress": 60,
+     "ticked": 3,
+     "total": 5
+    }
+   ],
    "steps": [
     {
      "t": "Place and draw a bounded provisional preview while fresh footage continues through a confirmed tracking gap.",
@@ -5340,6 +5329,6 @@
    "since": "2026-11-22T09:36Z"
   }
  ],
- "source_revision": "5026bef4f8ac1522b8f478082c12f91460022c1b",
- "board_revision": "954dbc7b11305bee1b0535b7aecb701325042417"
+ "source_revision": "d9286e2211e6a4199793cc95ba368cdf747067d0",
+ "board_revision": "fbe0e8e00107307c061bedca4e8270fd81046985"
 }
