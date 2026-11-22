@@ -4883,7 +4883,7 @@
   {
    "n": 2111,
    "name": "Preserve image-space depth detail and bound standalone photo Point Clouds generation (Video Processing SPEC",
-   "done": "",
+   "done": "2026-11-22T22:46Z",
    "goal": false,
    "under": 1693,
    "ticks": [
@@ -4894,16 +4894,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T22:36Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Stream bounded depth samples without an intermediate metric voxel grid",
@@ -4918,7 +4909,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-22T22:46Z",
+     "text": "Main 5a03219948. Direct GPU sampling preserves native depth detail and caps source measurements. Mac Metal preserved 961 samples in a 0.25 mm close-up crop. Saved Kenilworth photo refined from 1 m to 0.5 m spacing. Looking away released all"
+    }
+   ]
   },
   {
    "n": 2112,
@@ -5244,5 +5241,5 @@
   }
  ],
  "source_revision": "5a03219948101c146d1ae53d9948d9d12bdd93e5",
- "board_revision": "5a27d3229720a8578358d62cd64095780cf90d9a"
+ "board_revision": "198e55971c2312a985933b3d0edf5b4a789915b6"
 }
