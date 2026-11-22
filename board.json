@@ -4756,25 +4756,22 @@
   {
    "n": 2047,
    "name": "Restore the 3D Map live preview against the Kenilworth baseline",
-   "done": "",
+   "done": "2026-11-22T09:07Z",
    "goal": false,
    "under": 1693,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_3D_PREVIEW",
-     "since": "2026-11-22T08:57Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_3D_PREVIEW",
+     "at": "2026-11-22T09:07Z",
+     "text": "74cdbac59e on main, Map/Video bump 736343858f. Roslyn clean, 7/7 EditMode in patched 874 Editor, live Kenilworth projection, Synthetic pose, ground paint and placement control passed. Pending independent source preserved approved geometry a"
+    }
+   ]
   },
   {
    "n": 2048,
@@ -5120,8 +5117,12 @@
   {
    "screen": "Map/Planet",
    "since": "2026-11-22T08:51Z"
+  },
+  {
+   "screen": "Map",
+   "since": "2026-11-22T09:07Z"
   }
  ],
- "source_revision": "74cdbac59e77e25c16361167e9abbc13173a248b",
- "board_revision": "184a1dc1097fd8a02db6453c3b97118f7292afc1"
+ "source_revision": "736343858ff91a26eeca36ad39d950e8cd686794",
+ "board_revision": "cfe3da05a5ccb9d87cdc18caba157fec938f651b"
 }
