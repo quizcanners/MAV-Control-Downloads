@@ -4911,7 +4911,7 @@
   },
   {
    "n": 2063,
-   "name": "Model Positioning",
+   "name": "Model Positioning converges during and after capture. The current live draft estimates shared times separately. Make time another weighted component of the elastic draft in Video Processing SPEC",
    "done": "",
    "goal": false,
    "under": 1693,
@@ -4922,21 +4922,32 @@
    "held": [
     {
      "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T11:31Z",
+     "since": "2026-11-22T11:48Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
+     "progress": 25,
+     "ticked": 1,
+     "total": 4
     }
    ],
-   "steps": [],
-   "notes": [
+   "steps": [
     {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T11:26Z",
-     "text": "Published ec07c0e865 and 92caf5413b. Confirmed cross-capture pairs fit shared offsets and export capture-time.csv. Six Unity tests passed. Both the real join and the shifted control stitched spatially but admitted zero time links. Next use "
+     "t": "Retain original exposure times and export source and shared times.",
+     "x": true
+    },
+    {
+     "t": "Relax photo poses and capture offsets together while tentative links strengthen or fade as evidence arrives.",
+     "x": false
+    },
+    {
+     "t": "Continue settling after recording stops and wake the solve on new photos, changed anchors or revised evidence.",
+     "x": false
+    },
+    {
+     "t": "Preserve source intervals and derive motion from revised poses within each capture.",
+     "x": false
     }
-   ]
+   ],
+   "notes": []
   },
   {
    "n": 2064,
@@ -5323,6 +5334,6 @@
    "since": "2026-11-22T09:36Z"
   }
  ],
- "source_revision": "37fc55eb62cef7b299a742d09b067487a423a48e",
- "board_revision": "9395e14fb74584f3f28b352a28a49e0bae2c4b37"
+ "source_revision": "9ada80c5742e40ddb4e4b45e2fea35876bf4e1a9",
+ "board_revision": "cb6ff3e9f3c8d2886f400b69fb9422a688ca0535"
 }
