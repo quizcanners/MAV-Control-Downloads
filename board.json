@@ -4886,7 +4886,9 @@
    "done": "",
    "goal": false,
    "under": 1693,
-   "ticks": [],
+   "ticks": [
+    "2026-11-22T22:45Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -4895,15 +4897,15 @@
      "who": "CODEX_MODEL_POSITIONING",
      "since": "2026-11-22T22:36Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Stream bounded depth samples without an intermediate metric voxel grid",
-     "x": false
+     "x": true
     },
     {
      "t": "Choose the finest drawable spacing from the measured photo footprint",
@@ -5239,6 +5241,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "b41b12909cd3ff07a6b602fb60e0f04b0d0721b4",
- "board_revision": "c0bf2c31316c4e525cc63f5f3e614213038435e4"
+ "source_revision": "5a03219948101c146d1ae53d9948d9d12bdd93e5",
+ "board_revision": "031a6f780b09239545ec800c35e8ee4ea81723fb"
 }
