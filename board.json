@@ -4919,16 +4919,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T11:48Z",
-     "noted": "",
-     "progress": 25,
-     "ticked": 1,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Retain original exposure times and export source and shared times.",
@@ -4947,7 +4938,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-22T11:49Z",
+     "text": "d671052691 and 9ada80c574 specify one elastic draft with joint pose and time tension during and after capture. Guide check passed. Runtime still estimates file offsets separately. Replace that path with weighted time residuals in the backgr"
+    }
+   ]
   },
   {
    "n": 2064,
@@ -5335,5 +5332,5 @@
   }
  ],
  "source_revision": "9ada80c5742e40ddb4e4b45e2fea35876bf4e1a9",
- "board_revision": "cb6ff3e9f3c8d2886f400b69fb9422a688ca0535"
+ "board_revision": "e8908d5f88d2357d33e6942d36969d34ff891c17"
 }
