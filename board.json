@@ -1752,7 +1752,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLAUDE_600",
+     "since": "2026-11-22T20:36Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Dispatcher commands still in AI_Sandbox_DeviceDebugCommands*.cs: the remaining vpn.*, training and remote-sensor editors, performance.wires, cfg/system.set and the other cfg cases in DebugControl; the",
@@ -1939,7 +1948,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLAUDE_735",
+     "since": "2026-11-22T20:36Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -2868,6 +2886,11 @@
      "by": "GETAC",
      "at": "2026-11-19T15:26Z",
      "text": "Published 2030c41739. Exact isolated Unity EditMode passed 96: Memory Ledger 9, Index Paging 74, SQLite Retention 13. Slot identity, descendant row inheritance, populated-target fallback and the integrated Retention change passed. 100k host"
+    },
+    {
+     "by": "CLAUDE_1782",
+     "at": "2026-11-22T20:38Z",
+     "text": "Code was already on main (TryAdoptDecodedChildren, from 2030c41739 via 5e58fda906); 4e8b613e9a adds the three-part calculation to Performance Baseline/CPU.md. Removed work: one four-slot child array per page adopted into an empty branch (56"
     }
    ]
   },
@@ -4550,6 +4573,126 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 2096,
+   "name": "Peer messages from builds 869-876 lost after 6bb34a6aa5 (task 1843",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2097,
+   "name": "Phone GPS off still reads and shares the phone position when the app leaves the screen (ca8405d1f6",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2098,
+   "name": "GPS source decided inside a getter on every read",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2099,
+   "name": "MavChat GPS panel works out GPS state itself and contradicts Settings (ca8405d1f6",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2100,
+   "name": "A Starlink read that faults in an unexpected way breaks every GPS reader each frame (84ae04d118",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2101,
+   "name": "GPS and Navigator SPECs still describe Starlink as a fallback (84ae04d118 superseded by ca8405d1f6",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2102,
+   "name": "Join the independently recorded Kenilworth and Heritage flights through Video Source",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-22T20:48Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Retain later landmark views when registration stalls",
+     "x": false
+    },
+    {
+     "t": "Place the joined draft against real landmark and depth evidence",
+     "x": false
+    },
+    {
+     "t": "Show the independent join and accumulation in Unity",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -4854,6 +4997,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "d431b07f15f98c447d3189fdafffaa5e17cf6a1e",
- "board_revision": "e1d39fe0f32d2108e92f8e173b725b21dc78f78f"
+ "source_revision": "4e8b613e9ae8dbed74d0689438abb65380008bd6",
+ "board_revision": "18cbaaa3be96fc89cff37deda9c49d8d776cb805"
 }
