@@ -3143,26 +3143,6 @@
    "notes": []
   },
   {
-   "n": 1966,
-   "name": "Bootstrap SPEC",
-   "done": "2026-11-21T07:57Z",
-   "goal": false,
-   "under": 364,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_DJI_STARTUP_WORKFLOW",
-     "at": "2026-11-21T07:57Z",
-     "text": "1ea611d8df on main. A fresh DJI controller profile opens Pilot directly when available. Saved and locked workflows take precedence. 40 focused Unity tests passed, Roslyn found no new errors, and device verification is queued in 1e0d5d7afd. "
-    }
-   ]
-  },
-  {
    "n": 1967,
    "name": "Notifications SPEC",
    "done": "2026-11-21T08:10Z",
@@ -4729,14 +4709,20 @@
     {
      "who": "GETAC",
      "since": "2026-11-22T07:52Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-22T07:59Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-22T07:59Z",
+     "text": "Main 13f0232888 adds the scoped normal-close prompt and keeps the restart fallback. Inno fixture verified successful close, a same-name copy left open, and continuation after refusal. Exact Brigade 68 Windows 875 installer repackaged and ve"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5173,6 +5159,6 @@
    "since": "2026-11-22T06:34Z"
   }
  ],
- "source_revision": "5d8a9b75f729ec36f6c786b0dada0426e140acb0",
- "board_revision": "df6ccb06d7889915ba25d19d019f62296c69f267"
+ "source_revision": "ba95812fa83a0485141857c44dca8203a183f849",
+ "board_revision": "200e0705f478135659a3e2e4ca4e39eadae9cde8"
 }
