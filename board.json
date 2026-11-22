@@ -4745,18 +4745,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_EVACUATION",
-     "since": "2026-11-22T09:14Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_EVACUATION",
+     "at": "2026-11-22T09:37Z",
+     "text": "Done fe950fecb2: Evacuation routes (renamed from Migration Vectors everywhere, saves/messages/keys too, no migration), entity/waypoint/drone feeds and their Suggestions buttons removed, Painting toolbar row Evacuation vectors paints one rou"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5087,8 +5084,20 @@
   {
    "screen": "Left Lists",
    "since": "2026-11-22T09:30Z"
+  },
+  {
+   "screen": "Suggestions Video tab",
+   "since": "2026-11-22T09:35Z"
+  },
+  {
+   "screen": "Evacuation Routes",
+   "since": "2026-11-22T09:36Z"
+  },
+  {
+   "screen": "Main/Layers",
+   "since": "2026-11-22T09:36Z"
   }
  ],
- "source_revision": "788f6a69afb09c96eedb6fd0d037166ce6bd7516",
- "board_revision": "4911184be66c20733e99aa98ec49da5456f4ca1f"
+ "source_revision": "731b0fa579942730e35812ad89f92fd2d4fb6958",
+ "board_revision": "1c07881f4c871c0537b7a0e8562f5f37a34b4679"
 }
