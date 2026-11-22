@@ -1752,16 +1752,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_600",
-     "since": "2026-11-22T19:39Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Dispatcher commands still in AI_Sandbox_DeviceDebugCommands*.cs: the remaining vpn.*, training and remote-sensor editors, performance.wires, cfg/system.set and the other cfg cases in DebugControl; the",
@@ -1782,11 +1773,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T14:20Z",
-     "text": "9b8f0d66ef on main. Settings owns diagnostic Open/Close. Mac Play confirmed open, repeat, Map row press, close, usage error and blocks over Search and Workflow Selector. Three EditMode passes and zero Play console errors. Settings route and"
-    },
-    {
      "by": "MAC_BOARD_INPUT",
      "at": "2026-11-20T22:41Z",
      "text": "bf2f450be9 on main. Station Input owns scripted mouse move and drag parsing and command metadata. Unity refresh and Roslyn passed on the published source. 16 focused EditMode checks and 7 dispatcher argument/readiness cases passed. Other co"
@@ -1795,6 +1781,11 @@
      "by": "REVIEW",
      "at": "2026-11-21T01:19Z",
      "text": "CR-7D19-01 P3: Linked Browser ink can read another frame's scroll and zoom. S1/S2 brief ready for quiz: [review](https://github.com/quizcanners/MAV_Control/blob/main/Coordination/Reviews/81515eda6.md#cr-7d19-01--p3-linked-browser-ink-can-us"
+    },
+    {
+     "by": "CLAUDE_600",
+     "at": "2026-11-22T19:55Z",
+     "text": "629ad92ac4: systems.status, system.set, cfg.* now in Diagnostics.DebugControls (compiled, answer in Play). vpn/training/remote-sensor/wires already moved. Left: Station classes, Station.OS #if blocks, Linked Browser items, camera commands, "
     }
    ]
   },
@@ -2912,7 +2903,7 @@
   {
    "n": 1843,
    "name": "A key per transfer",
-   "done": "",
+   "done": "2026-11-22T20:09Z",
    "goal": false,
    "under": 371,
    "ticks": [
@@ -2925,21 +2916,13 @@
     "2026-11-20T04:11Z",
     "2026-11-20T04:11Z",
     "2026-11-20T04:11Z",
-    "2026-11-20T04:25Z"
+    "2026-11-20T04:25Z",
+    "2026-11-22T20:08Z"
    ],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_1843",
-     "since": "2026-11-22T19:43Z",
-     "noted": "",
-     "progress": 83,
-     "ticked": 5,
-     "total": 6
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Sender: one seal class for split payloads (EncryptedSplitPayload): a key per transfer for a build from 869 and today's form below it; each metadata send is one box of the fields and the key, sealed an",
@@ -2963,15 +2946,10 @@
     },
     {
      "t": "When the floor passes 868 (the floor moves on quiz's word): the session form, the plain-metadata reading of sealed kinds, the WiFi evidence receiver's own key copy and geometry's main-key seal go",
-     "x": false
+     "x": true
     }
    ],
    "notes": [
-    {
-     "by": "CLOUD_COMPLEXITY",
-     "at": "2026-11-20T04:25Z",
-     "text": "Done on main: ba438529089 (a key per transfer, one box for the metadata, builds from 869) and 9230b9a0ec2 (a voice message sealed once for all its peers). cmp.sh NEW ERRORS none; tests written, not run: VpnTransferKeyTests (15), EncryptionB"
-    },
     {
      "by": "MAC_BOARD",
      "at": "2026-11-20T04:33Z",
@@ -2981,6 +2959,11 @@
      "by": "GETAC",
      "at": "2026-11-22T19:41Z",
      "text": "quiz, 2026-11-22, asked whether to raise the peer floor past 868 now (cutting off peers on 692-868 until they update) or wait for the fleet: \"Raise floor now\". Raising PeerBuilds.Floor to 869 and removing the old forms."
+    },
+    {
+     "by": "CLAUDE_1843",
+     "at": "2026-11-22T20:09Z",
+     "text": "Floor 869 and the removals on main, 6bb34a6aa5"
     }
    ]
   },
@@ -3089,22 +3072,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_1929",
-     "since": "2026-11-22T19:19Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "MAC_VIDEO_STARTUP",
      "at": "2026-11-20T15:00Z",
      "text": "b109f94ecc on main. First open commits the peer surface and source together; matching JPEG bridges to live and the receiver reports this frame's wait. Mac 142 pass, 0 fail, 1 skip. Play with a stand-in desktop peer: NoSecureLink on the vide"
+    },
+    {
+     "by": "CLAUDE_1929",
+     "at": "2026-11-22T19:59Z",
+     "text": "677ee9e7f2 on main: VideoReceiveSource.Wait (Requested/PreviewJpeg/FirstFrame/Live/Blocked) polled each frame; fullscreen open applies on FirstFrame or Live; receive_stage in transport report; Peer Video SPEC Viewing tables the waits. Compi"
     }
    ]
   },
@@ -3322,26 +3301,6 @@
      "by": "CODEX_VIDEO_STRESS",
      "at": "2026-11-21T19:47Z",
      "text": "Published 58571b4880 and 8c502a011e. Positioned draft photo anchors, idle pose comparisons, and survey runner. Kenilworth joined in the same draft and retained the anchor; idle comparisons ran and settled without publishing a correction. 25"
-    }
-   ]
-  },
-  {
-   "n": 2037,
-   "name": "Remote Sensors list rows in the Remote Sensors SPEC",
-   "done": "2026-11-21T19:53Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-21T19:53Z",
-     "text": "3198c3b8bb on main. Remote Sensors lists reported battery below 10% first, then sensors without valid coordinates. Missing position has a yellow status indicator. Priority changes reorder the list as reports arrive. Focused native EditMode "
     }
    ]
   },
@@ -3728,7 +3687,7 @@
   },
   {
    "n": 2057,
-   "name": "Move the rest of UI to context-first folders",
+   "name": "Move UI to context-first folders",
    "done": "",
    "goal": false,
    "under": 0,
@@ -3736,17 +3695,21 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
+   "held": [],
+   "steps": [
     {
-     "who": "CLAUDE_2057",
-     "since": "2026-11-22T19:39Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
+     "t": "UI: MergedButtons, Style Sheet, Effects, Hints, Screen Lock, Scroll Selector into UI/Common (cc96b01082); MavChat MGRS/Capsule assets to Workflows/Navigator, B_Mergable_Top Edge to Timeline UI, Left_T",
+     "x": true
+    },
+    {
+     "t": "Drone Control: already context-first (UI/Telemetry View and Right Lists are used only by Drone Control, Main View and Scenes; Drones 3D config is used by Scenes); nothing to move",
+     "x": true
+    },
+    {
+     "t": "Workflows and Systems UI folders: look for assets used by one other view",
+     "x": false
     }
    ],
-   "steps": [],
    "notes": []
   },
   {
@@ -4331,27 +4294,19 @@
   {
    "n": 2086,
    "name": "Stream online tiles where the offline map is missing",
-   "done": "",
+   "done": "2026-11-22T19:53Z",
    "goal": false,
    "under": 0,
    "ticks": [
     "2026-11-22T19:50Z",
     "2026-11-22T19:51Z",
-    "2026-11-22T19:51Z"
+    "2026-11-22T19:51Z",
+    "2026-11-22T19:52Z"
    ],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_2086",
-     "since": "2026-11-22T19:18Z",
-     "noted": "",
-     "progress": 75,
-     "ticked": 3,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "a per-frame watcher finds view squares with no stored tile, centre first, at the depth the camera needs",
@@ -4367,10 +4322,16 @@
     },
     {
      "t": "a Settings switch for online fetching and counts on the map's Settings page; no new text on screen",
-     "x": false
+     "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_2086",
+     "at": "2026-11-22T19:53Z",
+     "text": "5236df6deb: once-a-second view watcher in OnlineRasterController (renderer demand, 5 km view capture, centre tile identity) runs missing-only Esri batches through the button's state machine; tiles that leave the view are dropped, a new view"
+    }
+   ]
   },
   {
    "n": 2087,
@@ -4477,7 +4438,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-22T20:26Z",
+     "noted": "",
+     "progress": 33,
+     "ticked": 1,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Let agreement with the manual start softly strengthen direct photo matches.",
@@ -4550,6 +4520,10 @@
   }
  ],
  "verify": [
+  {
+   "screen": "Map",
+   "since": "2026-11-22T09:07Z"
+  },
   {
    "screen": "Main/Map",
    "since": "2026-11-21T12:24Z"
@@ -4629,10 +4603,6 @@
   {
    "screen": "Pilot View",
    "since": "2026-11-21T12:33Z"
-  },
-  {
-   "screen": "Long press wave",
-   "since": "2026-11-15T19:55Z"
   },
   {
    "screen": "List Picker",
@@ -4819,10 +4789,6 @@
    "since": "2026-11-22T08:51Z"
   },
   {
-   "screen": "Map",
-   "since": "2026-11-22T09:07Z"
-  },
-  {
    "screen": "Left Lists",
    "since": "2026-11-22T09:30Z"
   },
@@ -4849,8 +4815,12 @@
   {
    "screen": "Storage",
    "since": "2026-11-22T17:17Z"
+  },
+  {
+   "screen": "Settings/GPS",
+   "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "2589826d8b44b778d7993a75552c27bc62cccd48",
- "board_revision": "e27384f3d46759c1a70732fe949bfe897fc2accc"
+ "source_revision": "d431b07f15f98c447d3189fdafffaa5e17cf6a1e",
+ "board_revision": "580cb92db4b901ec60769011502e6cb94d53f5ee"
 }
