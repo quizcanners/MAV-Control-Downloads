@@ -4931,7 +4931,7 @@
   },
   {
    "n": 2063,
-   "name": "Model Positioning converges during and after capture. The current live draft estimates shared times separately. Make time another weighted component of the elastic draft in Video Processing SPEC",
+   "name": "Model Positioning keeps converging during and after capture. Extend the live elastic draft beyond the projection slots so independent real-photo evidence can correct poses and shared capture times. Se",
    "done": "",
    "goal": false,
    "under": 1693,
@@ -4942,10 +4942,10 @@
    "held": [
     {
      "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T11:51Z",
+     "since": "2026-11-22T12:07Z",
      "noted": "",
-     "progress": 25,
-     "ticked": 1,
+     "progress": 50,
+     "ticked": 2,
      "total": 4
     }
    ],
@@ -4955,25 +4955,19 @@
      "x": true
     },
     {
-     "t": "Relax photo poses and capture offsets together while tentative links strengthen or fade as evidence arrives.",
+     "t": "Relax tentative projection-photo poses and clock offsets together during capture and Pause.",
+     "x": true
+    },
+    {
+     "t": "Revisit older photo pairs and let independent corroboration reinforce or retire conflicting links.",
      "x": false
     },
     {
-     "t": "Continue settling after recording stops and wake the solve on new photos, changed anchors or revised evidence.",
-     "x": false
-    },
-    {
-     "t": "Preserve source intervals and derive motion from revised poses within each capture.",
+     "t": "Resolve the known shifted-file offset and demonstrate improved pose and motion against recorded truth.",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T11:49Z",
-     "text": "d671052691 and 9ada80c574 specify one elastic draft with joint pose and time tension during and after capture. Guide check passed. Runtime still estimates file offsets separately. Replace that path with weighted time residuals in the backgr"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 2064,
@@ -5360,6 +5354,6 @@
    "since": "2026-11-22T09:36Z"
   }
  ],
- "source_revision": "9ada80c5742e40ddb4e4b45e2fea35876bf4e1a9",
- "board_revision": "8c91e7637a78422ba24b95d855110f4fb5c72209"
+ "source_revision": "f9c181504d92c0b3fe709b37d14b1fe29e83c95b",
+ "board_revision": "802ffda66493e6b95530c8388ced35abc64efdf2"
 }
