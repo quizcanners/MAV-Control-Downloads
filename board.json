@@ -3173,46 +3173,6 @@
    ]
   },
   {
-   "n": 1979,
-   "name": "Main View telemetry",
-   "done": "2026-11-21T12:26Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_TELEMETRY_COLORS",
-     "at": "2026-11-21T12:26Z",
-     "text": "Main a7927aca58: local dividers green, peer Suggestions divider blue, attention fades behind white battery/link values. Unity 6/6 strip and 16/16 Suggestions tests. Roslyn NEW ERRORS none. Live appearance queued."
-    }
-   ]
-  },
-  {
-   "n": 1981,
-   "name": "Chat SPEC",
-   "done": "2026-11-21T12:26Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_WINDOWS_CHAT_TOAST",
-     "at": "2026-11-21T12:26Z",
-     "text": "Main 25f7719659: Windows shell notices for accepted private and group text including companion inbox, with tap routing. C# 9 native shim passed. Unity 50/50 Chat groups, 13/13 background, 8 Windows configuration passed with the Windows-spec"
-    }
-   ]
-  },
-  {
    "n": 1983,
    "name": "Pilot Hide Video",
    "done": "2026-11-21T12:34Z",
@@ -4705,7 +4665,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-22T12:28Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Place and draw a bounded provisional preview while fresh footage continues through a confirmed tracking gap.",
@@ -5390,6 +5359,6 @@
    "since": "2026-11-22T09:36Z"
   }
  ],
- "source_revision": "bb59524f3322f43379604ab2bc912e559c35a352",
- "board_revision": "67c6ecf87109a2c682f149eba7cf062fc46d5573"
+ "source_revision": "2d6a891ed8996af8acee6ad97e2362d41266630e",
+ "board_revision": "258f21d518cb912f2c23551fb3d6a49cf397bae4"
 }
