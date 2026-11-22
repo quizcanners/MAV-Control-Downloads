@@ -4765,22 +4765,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T10:55Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T10:41Z",
-     "text": "Published 16aa41d472. The Recording root stays fixed and Unity probes rejected windows for provisional camera groups. Both full FPV replays and Roslyn ran. Confirmed tracking still freezes. See GPU Baseline, Model Positioning on fast FPV. C"
+     "at": "2026-11-22T11:03Z",
+     "text": "Published 168bf17d4c. The causal 30 Hz replay tests continuation with held-out image evidence and a fixed opening alignment against UZH. The same arm separates the Pfeffingen hard cut. Scale propagation still drifts. See GPU.md, Camera path"
     }
    ]
   },
@@ -5212,6 +5203,6 @@
    "since": "2026-11-22T09:36Z"
   }
  ],
- "source_revision": "c0b45eacf5337cff85e49b6afdff4df9f370494c",
- "board_revision": "ea5fa7b9297b29254f50ab85f1562b68ac9cab6d"
+ "source_revision": "168bf17d4c4c235e4696ce378a409bd7f32ecf96",
+ "board_revision": "301f0593eea382d932467b2d04c5868e3bda1cb3"
 }
