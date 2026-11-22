@@ -4765,7 +4765,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-22T11:04Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -4863,6 +4872,29 @@
     {
      "who": "CODEX_VIDEO_ICONS",
      "since": "2026-11-22T10:54Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2061,
+   "name": "Every click on video makes a ping on screen and sends it to every peer (no click thrown away)",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CLAUDE_VIDEO_PING_CLICKS",
+     "since": "2026-11-22T11:03Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
@@ -5204,5 +5236,5 @@
   }
  ],
  "source_revision": "168bf17d4c4c235e4696ce378a409bd7f32ecf96",
- "board_revision": "301f0593eea382d932467b2d04c5868e3bda1cb3"
+ "board_revision": "7796c9592f9e034b6930768283e208c3a1707a66"
 }
