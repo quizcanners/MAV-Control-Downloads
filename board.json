@@ -1642,7 +1642,9 @@
    "done": "",
    "goal": false,
    "under": 370,
-   "ticks": [],
+   "ticks": [
+    "2026-11-22T17:21Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -1658,14 +1660,20 @@
     },
     {
      "t": "quiz: A or B?",
-     "x": false
+     "x": true
     },
     {
      "t": "Cloud C#: build the chosen one (server half and MavServer release)",
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_558",
+     "at": "2026-11-22T17:52Z",
+     "text": "Option A built in source and pushed (9e2bb49536): a named Admin's plain Admins ask goes to the hub's tunnel address; the server binds it to the people-table row at the source address (BindTunnel, TunnelKeyAt_Optional -> TunnelGrants.ByAddre"
+    }
+   ]
   },
   {
    "n": 572,
@@ -1879,6 +1887,11 @@
      "by": "HEAVY",
      "at": "2026-11-14T16:32Z",
      "text": "Windows Editor 840 (680c455b19), same Persistent Data: tiles_sumy writer opened in 725.5 ms, 100 reads/90 hits, zero open/write/read failures, current_issue=None and minimum_write_allowed=True with 1.30 TB free. Store reports Adopting. Old "
+    },
+    {
+     "by": "CLAUDE_657",
+     "at": "2026-11-22T17:18Z",
+     "text": "Cause: Issue.Format (InvalidDataException on open: another format/map) fell to the generic line with the exception HResult -2146233087 shown as a code; TrueReason now answers Issue.Format with its own key, number only for SQLite errors (ec2"
     }
    ]
   },
@@ -2782,7 +2795,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLAUDE_1748",
+     "since": "2026-11-22T19:18Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -2830,26 +2852,6 @@
      "by": "HEAVY",
      "at": "2026-11-19T21:35Z",
      "text": "c9e3341dea settles each confirmed Video Source join. The combined original sequence accepts the Wide continuation and sometimes Inner Court, but does not reach Garden Orbit in the same draft. Zurich preserved accepted cells. Fixed later Inn"
-    }
-   ]
-  },
-  {
-   "n": 1774,
-   "name": "Web Mercator SPEC",
-   "done": "2026-11-21T18:24Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-19T15:00Z",
-     "text": "c98e7add12 signed, exact install and paired run complete. Strong peak 33.067 ms vs 92.590 ms before, but receiver root/data and traffic differed; no isolated speedup established. Windows admitted 273 by 203.19 s and roots remained different"
     }
    ]
   },
@@ -2957,7 +2959,7 @@
   {
    "n": 1875,
    "name": "Host tests kept as libraries",
-   "done": "",
+   "done": "2026-11-22T17:20Z",
    "goal": false,
    "under": 369,
    "ticks": [],
@@ -2966,7 +2968,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_1875",
+     "at": "2026-11-22T17:19Z",
+     "text": "Pushed 6a267b980f. Ran the four on the Getac: 0 pass. camera_gesture stopped at the copy (mapLighting.auto gone); agent_native read Station_JsonSerialization.cs (gone): both deleted with their hosts. light_host and diagnostic_photo kept, ca"
+    }
+   ]
   },
   {
    "n": 1897,
@@ -3053,7 +3061,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLAUDE_1929",
+     "since": "2026-11-22T19:19Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -3193,332 +3210,6 @@
    ]
   },
   {
-   "n": 2005,
-   "name": "A selected tile (a menu tile such as \u041f\u0440\u043e\u0434\u0443\u043a\u0442\u0438\u0432\u043d\u0456\u0441\u0442\u044c or \u0406\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442\u0438) turns its yellow selection light blue while pointed and back to yellow when the pointer leaves; today it stays yellow. Gap against U",
-   "done": "2026-11-21T18:01Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [
-    "2026-11-21T17:58Z",
-    "2026-11-21T17:59Z",
-    "2026-11-21T18:00Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Selected + pointed resolves to the blue light",
-     "x": true
-    },
-    {
-     "t": "Leaving returns the yellow light",
-     "x": true
-    },
-    {
-     "t": "Bump the menu page (\"Need for verify\")",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-21T18:01Z",
-     "text": "e0f159b6de: the selected glow uses ButtonPointed blue on hover or touch press and returns to yellow on exit. Unity compiled and imported the shader. Roslyn reported no new errors; Menu visual check is due."
-    }
-   ]
-  },
-  {
-   "n": 2006,
-   "name": "UI",
-   "done": "2026-11-21T18:01Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-21T18:01Z",
-     "text": "429dce7c4a: Unity imported three separate matching grey backgrounds. My Data and Workflow are round; Settings is a rounded square. Main View Paint/Search is the authored joined pair. Share Center and Settings Release/Test use capsules. Menu"
-    }
-   ]
-  },
-  {
-   "n": 2013,
-   "name": "Left lists (LISTS SPEC",
-   "done": "2026-11-21T17:12Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC_MGRS_UI",
-     "at": "2026-11-21T17:12Z",
-     "text": "On main in a1465eecc6: UI_WaypointGroupElement right padding 32 to 4 (name about 133 of 300 units, was 105) and the name no longer wraps. Page bumped: LISTS Left. Prefab edited as text, not imported in the Editor."
-    }
-   ]
-  },
-  {
-   "n": 2014,
-   "name": "Settings inspectors (Inspectors SPEC)",
-   "done": "2026-11-21T17:14Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC_MGRS_UI",
-     "at": "2026-11-21T17:14Z",
-     "text": "On main in b09e663a6a: RestreamLink.InspectInList writes name, format and protocol on one line; the second hint line is gone; Inspectors SPEC has the rule. Not compiled (cmp.sh has no working .NET 8 SDK on the Getac). Only this list was cha"
-    }
-   ]
-  },
-  {
-   "n": 2015,
-   "name": "Restream telemetry subtab (Drone UI SPEC",
-   "done": "2026-11-21T17:25Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC_MGRS_UI",
-     "at": "2026-11-21T17:25Z",
-     "text": "On main in f2078a66e5: Video server row, UI_VideoServerToggle and its test pins removed from the Restream panel (the switch stays in Settings); link buttons and the picker work for the inspected peer when no video plays. Compiled in the Get"
-    }
-   ]
-  },
-  {
-   "n": 2016,
-   "name": "Peers list",
-   "done": "2026-11-21T17:36Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-21T17:35Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Set merge-up and top screen edge in the prefab",
-     "x": true
-    },
-    {
-     "t": "Write the rule into the area AGENTS.md",
-     "x": true
-    },
-    {
-     "t": "Push to main",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud-thread",
-     "at": "2026-11-21T17:36Z",
-     "text": "Open Chat prefab flags set (merge top, screen edge Top); rule in Left Lists AGENTS.md; on main"
-    }
-   ]
-  },
-  {
-   "n": 2017,
-   "name": "Suggestions swipe moves only the panel (backing and rows); the suggestion tab row stays still and opaque. No goal fits",
-   "done": "2026-11-21T17:36Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Shift the tab row back by the panel offset in UI_SuggestionsSwipeAway, wire `_tabs` in RIGHT Suggestions.prefab (uncompiled)",
-     "x": true
-    },
-    {
-     "t": "Drop the panel fade so the tabs keep full opacity",
-     "x": true
-    },
-    {
-     "t": "Write the rule into UI SPEC",
-     "x": true
-    },
-    {
-     "t": "Bump the Main/Map page check",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
-   "n": 2018,
-   "name": "Search filter column",
-   "done": "2026-11-21T17:38Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Spec: Search SPEC filter-column paragraph updated",
-     "x": true
-    },
-    {
-     "t": "Prefab: Search Source Filter gets List Row Panel as its panel body",
-     "x": true
-    },
-    {
-     "t": "Code: UI_SearchSourceFilter.Fill tints the body instead of the black selected body",
-     "x": true
-    },
-    {
-     "t": "Need for verify: page bumped",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud-thread",
-     "at": "2026-11-21T17:38Z",
-     "text": "Done on main; Search page bumped for verify"
-    }
-   ]
-  },
-  {
-   "n": 2019,
-   "name": "Blurred World (SPEC",
-   "done": "2026-11-21T17:46Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC_MGRS_UI",
-     "at": "2026-11-21T17:46Z",
-     "text": "On main in cfc847d93a: RemoteSensor added to BlurManager.SelectionHasPointLight, SPEC names the kinds. Merged into the Getac Editor checkout; its build succeeded. Page bumped: Remote Sensors."
-    }
-   ]
-  },
-  {
-   "n": 2020,
-   "name": "Match the Liquid Glass squircle and touch deformation in its button shadow",
-   "done": "2026-11-21T18:01Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_TOUCH_SHADOW",
-     "at": "2026-11-21T18:01Z",
-     "text": "9f2faf1a09 on main. Liquid Glass squircle shadows follow the global touch shape. Quiet and joined edges keep their existing behavior. 12 native Unity render/mesh checks passed and Roslyn found no new errors. On-device look queued."
-    }
-   ]
-  },
-  {
-   "n": 2021,
-   "name": "Where-to-stream list picker (`UI_ListPicker`",
-   "done": "2026-11-21T17:59Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Remove the Back button from the picker",
-     "x": true
-    },
-    {
-     "t": "Replace the framed panel with a dark blue tinted plain background",
-     "x": true
-    },
-    {
-     "t": "Update the UI and Drone Control SPEC lines",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "quiz-thread",
-     "at": "2026-11-21T17:59Z",
-     "text": "Merged 8084548f"
-    }
-   ]
-  },
-  {
-   "n": 2022,
-   "name": "Telemetry Restream panel",
-   "done": "2026-11-21T18:00Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "SPEC written",
-     "x": true
-    },
-    {
-     "t": "Prefab: Edit moved into Restream And Photo Actions (94e9303449)",
-     "x": true
-    },
-    {
-     "t": "Code: selector hides while the switch is on, Edit row always shown with setup",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD",
-     "at": "2026-11-21T18:00Z",
-     "text": "Merged 94e9303449"
-    }
-   ]
-  },
-  {
    "n": 2023,
    "name": "Map shutdown waited 4.4 s for SQLite admitted work (ShutdownController.FinishPublications). Cause found",
    "done": "",
@@ -3567,96 +3258,9 @@
    ]
   },
   {
-   "n": 2026,
-   "name": "Brief",
-   "done": "2026-11-21T18:15Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "cloud-toggle",
-     "at": "2026-11-21T18:15Z",
-     "text": "Prefab scale 1.3, pivot right; rule in LISTS AGENTS"
-    }
-   ]
-  },
-  {
-   "n": 2027,
-   "name": "Capture picker and Capture subtab",
-   "done": "2026-11-21T18:27Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 2028,
-   "name": "Capture picker",
-   "done": "2026-11-21T18:29Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 2029,
-   "name": "Notifications",
-   "done": "2026-11-21T18:35Z",
-   "goal": false,
-   "under": 410,
-   "ticks": [
-    "2026-11-21T18:35Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Cloud: add the shadow to the Remote Sensors Offline card",
-     "x": true
-    },
-    {
-     "t": "Cloud: add the same shadow instance to the other plain notice cards in Notification Controllers.prefab",
-     "x": true
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 2030,
    "name": "Done",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 2031,
-   "name": "Selected object's MGRS copy button is the first element of the suggestions list with rounded edges (Safeguard UA SPEC",
-   "done": "2026-11-21T18:38Z",
+   "done": "2026-11-22T17:33Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -3667,77 +3271,9 @@
    "steps": [],
    "notes": [
     {
-     "by": "cloud-mgrs-top",
-     "at": "2026-11-21T18:38Z",
-     "text": "Merged to main; MGRS field and Copy lead the selected-actions row"
-    }
-   ]
-  },
-  {
-   "n": 2032,
-   "name": "Centre the Suggestions panel fold tongue vertically on its left edge. quiz 2026-11-21",
-   "done": "2026-11-21T18:41Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 2033,
-   "name": "Taps must survive pointer movement on buttons",
-   "done": "2026-11-21T18:43Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 2034,
-   "name": "Remote Sensors gate plaque",
-   "done": "2026-11-21T19:10Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-21T19:10Z",
-     "text": "44e52d4f39 on main. Live Editor plaque showed \u0413\u0435\u0439\u0442\u0438: \u041d\u0435\u0432\u0456\u0434\u043e\u043c\u043e. Reported zero alone triggers the zero-gates notice. Unity Console zero errors after pulling 31becf1e0b; Roslyn NEW ERRORS: none. Four fresh raw device_status_updated payloads ha"
-    }
-   ]
-  },
-  {
-   "n": 2035,
-   "name": "Repeatable 3D Map model trials",
-   "done": "2026-11-21T19:09Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T19:09Z",
-     "text": "Published 8cd4ab300a and 1c281b4f3f. JSON trial plans and Editor TestRun named eight-view RGB models. Roslyn clean. Native Kenilworth verified named opening, fresh photos after swaps, and unchanged digests while unloaded. BASE to named SMAL"
+     "by": "CLAUDE_2030",
+     "at": "2026-11-22T17:32Z",
+     "text": "Direct cause: Geometry marker, vehicle and Safeguard interception model scale (GetDistanceToClipPlane) ran in the GeometryPresentation stage before the camera step, so it read last frame's camera and jumped on zoom, like remote sensors. Dee"
     }
    ]
   },
@@ -3804,7 +3340,7 @@
   {
    "n": 2039,
    "name": "Bind the SurfaceQuadMap shader in the Editor",
-   "done": "",
+   "done": "2026-11-22T17:26Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -3813,7 +3349,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_2039",
+     "at": "2026-11-22T17:26Z",
+     "text": "Shader bound via Singleton_GroundStation.SurfaceQuadMapShader in Bootstrap.unity, moved to Web Mercator/TileData with GUID kept, Resources.Load removed (7fada976e3, 6cc2ed56ce). Compile showed no errors in these files; the only error was an"
+    }
+   ]
   },
   {
    "n": 2040,
@@ -4227,6 +3769,11 @@
      "by": "claude-peers-startup",
      "at": "2026-11-22T10:59Z",
      "text": "Done 167e6ae506: RestoreKnownPeers applies the cold-start hold, Chat lists held peers, PingFamiliarPeersWhenSocketSends greets peers seen in 2 days when the socket sends. Compiled in Editor. Left: none; Chat page bumped."
+    },
+    {
+     "by": "REVIEW_SYSTEMS",
+     "at": "2026-11-22T17:23Z",
+     "text": "review summary: 3 findings, tasks 2079 (Migration Vectors files never deleted, Erase All misses them; fe950fecb2), 2081 (SDC goggles tap queue has no limit; 87a2bf94d9), 2083 (SDC Settings view requests the capture source itself, and its gu"
     }
    ]
   },
@@ -4514,7 +4061,7 @@
   {
    "n": 2074,
    "name": "Video Processing and Restream",
-   "done": "",
+   "done": "2026-11-22T17:40Z",
    "goal": false,
    "under": 431,
    "ticks": [],
@@ -4523,7 +4070,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_2074",
+     "at": "2026-11-22T17:39Z",
+     "text": "Pushed acd7736250. Shared denoise owner (once per frame; consumers Fullscreen, first-person, processing, restream encoder); runs beside accumulation; Motion and 3D landmark/keyframe inputs take the denoised frame, evidence/Cube/Ortho keep t"
+    }
+   ]
   },
   {
    "n": 2075,
@@ -4575,16 +4128,259 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "REVIEW_UI",
+     "at": "2026-11-22T17:25Z",
+     "text": "review summary: 4 findings, task numbers 2080 (dead corner hold path), 2082 (bottom light retries forever, no state), 2084 (Situation author roster-count cache), 2085 (plural rule duplicated). Reviewed 87a639dddb..2d1d2efa63 plus 085b41eb60"
+    },
+    {
+     "by": "CLAUDE_PILOT",
+     "at": "2026-11-22T18:40Z",
+     "text": "64ff855de1 + b54ae471ed on main, C# uncompiled (Getac Editor busy with no log output 19:59-20:40). Done in code: flight mode row incl. Normal; Config panel System + views + DJI wishes (read/write/retry/clamp, no Dev Mode); Pre-flight height"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-22T19:13Z",
+     "text": "b41a05cb35 applied the two 2077 prefab edit files (Pre-flight 13 rows, Pilot Config panel); without the rows the telemetry tabs never initialised. Edit files deleted."
+    }
+   ]
+  },
+  {
+   "n": 2078,
+   "name": "MavChat GPS Starlink fallback on Android and iPhone is unverified with a location-enabled Priority-plan terminal. With phone GPS unavailable",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2079,
+   "name": "Evacuation routes rename (fe950fecb2",
+   "done": "2026-11-22T17:55Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CLAUDE_EVACUATION",
+     "at": "2026-11-22T17:54Z",
+     "text": "Done 70823ef8d2: Manager.DeleteRetiredFiles removes Data/MigrationVectorsRoutes.mcs (+.previous/.tmp) and the Migration Vectors history folder once per run on a worker (first ManagedUpdate) and in DeleteData (Erase All). SPEC Stored names l"
+    }
+   ]
+  },
+  {
+   "n": 2080,
+   "name": "REVIEW 88ae7edba0",
+   "done": "2026-11-22T18:46Z",
+   "goal": false,
+   "under": 364,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CLAUDE_PILOT",
+     "at": "2026-11-22T18:45Z",
+     "text": "cbf4cade35: hold members, ReleaseSidePreview, TurnToNearestDirection and the per-frame held-pixel reads deleted; side look takes only two-finger/right-mouse turn (elevation -90..90 kept from 64ff855de1)."
+    }
+   ]
+  },
+  {
+   "n": 2081,
+   "name": "SDC Ping goggles queue (87a2bf94d9",
+   "done": "2026-11-22T17:56Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "SDC_USB_VIDEO",
+     "at": "2026-11-22T17:56Z",
+     "text": "db139f03c9 fixes it (SDC Ping SPEC updated). Compile not checked here."
+    }
+   ]
+  },
+  {
+   "n": 2082,
+   "name": "REVIEW 2d1d2efa63",
+   "done": "2026-11-22T18:47Z",
+   "goal": false,
+   "under": 364,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CLAUDE_PILOT",
+     "at": "2026-11-22T18:46Z",
+     "text": "e9d7a86cd9: AircraftActions.BottomLight {Aircraft, Applying, Retrying, NotOffered}, shown in DJI Settings; after a refusal resend only when the reported light, connection or wish changes. DJI SPEC Bottom light updated."
+    }
+   ]
+  },
+  {
+   "n": 2083,
+   "name": "SDC Settings (f00454e5ae",
+   "done": "2026-11-22T17:57Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "SDC_USB_VIDEO",
+     "at": "2026-11-22T17:56Z",
+     "text": "db139f03c9 fixes it (SDC Ping SPEC updated). Compile not checked here."
+    }
+   ]
+  },
+  {
+   "n": 2084,
+   "name": "REVIEW 8e7b5f52d6",
+   "done": "2026-11-22T17:53Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CLAUDE_GETAC",
+     "at": "2026-11-22T17:52Z",
+     "text": "Done ca999db866: TryGetPeerByGUID walks Roster.Peers (VPN, radio-only, USB); TryGetSituationAuthor looks up each frame, count cache and retry removed. Direct lookup chosen over a ByGuid index: meta GUID is written in several places (DirectP"
+    }
+   ]
+  },
+  {
+   "n": 2085,
+   "name": "REVIEW 87a639dddb",
+   "done": "2026-11-22T17:55Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-22T17:54Z",
+     "text": "Done in 26c5daeb4b: Station.UI.Plural (PluralForm One/Few/Many) is the one plural rule; Remote Sensors device age and Video Server retry text call it. Not compiled yet: the Editor bridge is down on another session's compile error."
+    }
+   ]
+  },
+  {
+   "n": 2086,
+   "name": "Stream online tiles where the offline map is missing",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
    "held": [
     {
-     "who": "CLAUDE_PILOT",
-     "since": "2026-11-22T17:09Z",
+     "who": "CLAUDE_2086",
+     "since": "2026-11-22T19:18Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
-     "total": 0
+     "total": 4
     }
    ],
+   "steps": [
+    {
+     "t": "a per-frame watcher finds view squares with no stored tile, centre first, at the depth the camera needs",
+     "x": false
+    },
+    {
+     "t": "it hands them to the existing online owner (one batch per frame, saved as provider tiles through adoption)",
+     "x": false
+    },
+    {
+     "t": "a parent tile stays drawn until the child arrives; tiles that left the view are dropped from the queue",
+     "x": false
+    },
+    {
+     "t": "a Settings switch for online fetching and counts on the map's Settings page; no new text on screen",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 2087,
+   "name": "MavServer release with the Admin tunnel bind (task 558",
+   "done": "",
+   "goal": false,
+   "under": 370,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2088,
+   "name": "Pilot Config panel and Pre-flight rows",
+   "done": "2026-11-22T19:16Z",
+   "goal": false,
+   "under": 364,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2089,
+   "name": "3D Map keeps each recorded flight in its own starting position. With the current local file paused or stopped",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
    "steps": [],
    "notes": []
   }
@@ -4669,14 +4465,6 @@
   {
    "screen": "Pilot View",
    "since": "2026-11-21T12:33Z"
-  },
-  {
-   "screen": "Cars",
-   "since": "2026-11-15T17:17Z"
-  },
-  {
-   "screen": "Drone",
-   "since": "2026-11-15T17:17Z"
   },
   {
    "screen": "Video Restreaming",
@@ -4901,8 +4689,16 @@
   {
    "screen": "Drone-Control",
    "since": "2026-11-22T14:07Z"
+  },
+  {
+   "screen": "Settings",
+   "since": "2026-11-22T17:16Z"
+  },
+  {
+   "screen": "Storage",
+   "since": "2026-11-22T17:17Z"
   }
  ],
- "source_revision": "bed4b9e0436bcecb10f2c7ab44116d0f8c8da133",
- "board_revision": "b9781af90ba2c6f4c381318a3889ac4f835b0949"
+ "source_revision": "1c7a2c0d79770471e629e0d0e3855f5b7c61d743",
+ "board_revision": "4a438483b2afdfaf70fcb4f342f2da9c4a0732af"
 }
