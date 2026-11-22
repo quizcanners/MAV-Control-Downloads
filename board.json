@@ -4625,16 +4625,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T12:44Z",
-     "noted": "",
-     "progress": 60,
-     "ticked": 3,
-     "total": 5
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Place and draw a bounded provisional preview while fresh footage continues through a confirmed tracking gap.",
@@ -4657,7 +4648,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-22T12:45Z",
+     "text": "28ad14e298 published. Four focused Unity tests and Roslyn passed. Pfeffingen applied per-photo height and tilt corrections during the gap; an unrelated source established its own ground datum without a join. Independent terrain accuracy and"
+    }
+   ]
   },
   {
    "n": 2056,
@@ -5344,5 +5341,5 @@
   }
  ],
  "source_revision": "5026bef4f8ac1522b8f478082c12f91460022c1b",
- "board_revision": "57cfb2fb6f3fa08e8b58dd21f50f817009ee6c64"
+ "board_revision": "954dbc7b11305bee1b0535b7aecb701325042417"
 }
