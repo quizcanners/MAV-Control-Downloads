@@ -4812,25 +4812,22 @@
   {
    "n": 2058,
    "name": "Model Positioning",
-   "done": "",
+   "done": "2026-11-22T10:53Z",
    "goal": false,
    "under": 1693,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T10:46Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-22T10:53Z",
+     "text": "Published ce9972db6b. Retained accepted and provisional capture times and motion with provenance. Temporal link confidence and continuous Photo Tension formulas are in the SPEC. Unity passed 22 focused tests. The joint solver and calibratio"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5164,5 +5161,5 @@
   }
  ],
  "source_revision": "3ab6b3d98b2f3c307e8940111e1e63f573149630",
- "board_revision": "2ccd0f4b415c1952041acdfc26316ec82d5c0253"
+ "board_revision": "4521ed8a4e545a19293e87a3164d64a1571d0e49"
 }
