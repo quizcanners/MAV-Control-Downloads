@@ -4245,16 +4245,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T16:22Z",
-     "noted": "",
-     "progress": 60,
-     "ticked": 3,
-     "total": 5
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Place and draw a bounded provisional preview while fresh footage continues through a confirmed tracking gap.",
@@ -4280,8 +4271,8 @@
    "notes": [
     {
      "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T16:21Z",
-     "text": "Published f7fa2a2474 and 95651c2603. Same-source relocalization and CPU photo matching now share the rolling preview buffer. Decoder hold and Pfeffingen snow/cut kept updating the preview and held the accepted map. Interleaved joined. Indep"
+     "at": "2026-11-22T16:42Z",
+     "text": "cca40b1089, 6a85c7b231, 55e6893d09 on main. Keeps 16 photos across tracking loss and preserves live preview on late accepted windows. Unity stress replays and 55 EditMode tests passed for retention and handoff. Roslyn clean. The independent"
     }
    ]
   },
@@ -5023,6 +5014,6 @@
    "since": "2026-11-22T14:07Z"
   }
  ],
- "source_revision": "cd634a9cfb7192be1c44811d34b0f0b29127bff5",
- "board_revision": "2719ffe2d8ffa88f5392483db700dda36160b331"
+ "source_revision": "16d315a935bd4a8de75fb57c287ac4672e0311dc",
+ "board_revision": "281122524e1cfd88cddcc803bacfac7ce417eea4"
 }
