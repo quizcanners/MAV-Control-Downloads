@@ -3193,26 +3193,6 @@
    ]
   },
   {
-   "n": 1980,
-   "name": "Chat message bubbles",
-   "done": "2026-11-21T12:25Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_CHAT_BUBBLE_BLUR",
-     "at": "2026-11-21T12:25Z",
-     "text": "Main bf815f0b1b: messages use 70% sampled blur and 30% tint; updated both shared runtime and mockup materials. ChatMessageLayoutTests 35/35, including both native shader outputs. Roslyn NEW ERRORS none. Live appearance queued."
-    }
-   ]
-  },
-  {
    "n": 1981,
    "name": "Chat SPEC",
    "done": "2026-11-21T12:26Z",
@@ -3229,26 +3209,6 @@
      "by": "MAC_WINDOWS_CHAT_TOAST",
      "at": "2026-11-21T12:26Z",
      "text": "Main 25f7719659: Windows shell notices for accepted private and group text including companion inbox, with tap routing. C# 9 native shim passed. Unity 50/50 Chat groups, 13/13 background, 8 Windows configuration passed with the Windows-spec"
-    }
-   ]
-  },
-  {
-   "n": 1982,
-   "name": "Menu and Chat",
-   "done": "2026-11-21T12:25Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_MENU_CHAT_GRID",
-     "at": "2026-11-21T12:25Z",
-     "text": "Main ca7f984e4e: hardware/software viewport scale keeps the Menu feedback at the contact; fullscreen Chat gives feedback on the inactive map, preserving embedded Chat input. Unity 8/8 eligibility and viewport, 2/2 shader. Roslyn NEW ERRORS "
     }
    ]
   },
@@ -4748,38 +4708,32 @@
    "held": [
     {
      "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T12:09Z",
+     "since": "2026-11-22T12:25Z",
      "noted": "",
-     "progress": 25,
-     "ticked": 1,
+     "progress": 50,
+     "ticked": 2,
      "total": 4
     }
    ],
    "steps": [
     {
-     "t": "Retain a short local camera group when fresh views agree during a refused window.",
+     "t": "Place and draw a bounded provisional preview while fresh footage continues through a confirmed tracking gap.",
      "x": true
     },
     {
-     "t": "Place incoming photos and draw provisional points through the tracking gap.",
-     "x": false
+     "t": "Keep unrelated footage out of the accepted map and clear the provisional display when tracking resumes.",
+     "x": true
     },
     {
      "t": "Fit and retain height and orientation relative to ground independently of the provisional track.",
      "x": false
     },
     {
-     "t": "Align the provisional segment when overlap is supported, keeping the accepted model intact while placement is uncertain.",
+     "t": "Keep provisional photo evidence and align an entire segment when overlap is supported.",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T12:07Z",
-     "text": "5c34979933 documents independent ground-relative placement and continuous provisional preview. Pfeffingen retained provisional cameras after confirmed tracking stopped. It did not render further points or verify ground placement through the"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 2056,
@@ -5440,5 +5394,5 @@
   }
  ],
  "source_revision": "bb59524f3322f43379604ab2bc912e559c35a352",
- "board_revision": "a44e933ed4127751ce34cdf5b667ebf06ef4d281"
+ "board_revision": "cdd8c1a2eb282d7eba9a490f46cd0aae2103a8d3"
 }
