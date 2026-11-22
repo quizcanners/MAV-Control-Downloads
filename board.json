@@ -2890,7 +2890,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLAUDE_1807",
+     "since": "2026-11-22T19:40Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -2921,7 +2930,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLAUDE_1843",
+     "since": "2026-11-22T19:43Z",
+     "noted": "",
+     "progress": 83,
+     "ticked": 5,
+     "total": 6
+    }
+   ],
    "steps": [
     {
      "t": "Sender: one seal class for split payloads (EncryptedSplitPayload): a key per transfer for a build from 869 and today's form below it; each metadata send is one box of the fields and the key, sealed an",
@@ -2958,6 +2976,11 @@
      "by": "MAC_BOARD",
      "at": "2026-11-20T04:33Z",
      "text": "Mac Editor at 75a3834f53 containing both transfer-key and voice changes. VpnTransferKeyTests 15 passed and EncryptionBoxKeyTests 3 passed. EditMode All 8746 passed, 0 failed, 31 skipped. XML SHA-256 527bde095010d622728c42b4dad6935cb00868b51"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-22T19:41Z",
+     "text": "quiz, 2026-11-22, asked whether to raise the peer floor past 868 now (cutting off peers on 692-868 until they update) or wait for the fleet: \"Raise floor now\". Raising PeerBuilds.Floor to 869 and removing the old forms."
     }
    ]
   },
@@ -3733,7 +3756,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLAUDE_2057",
+     "since": "2026-11-22T19:39Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -4436,7 +4468,41 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-22T19:43Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2093,
+   "name": "using Strong",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "vague"
+   ],
+   "held": [
+    {
+     "who": "CLAUDE_1807",
+     "since": "2026-11-22T19:41Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   }
@@ -4756,5 +4822,5 @@
   }
  ],
  "source_revision": "f180157a95970b8b3d6db2101b30c88b9c27ca3f",
- "board_revision": "8002f96994d3c40dff82ef992c2706eae8cf0e9b"
+ "board_revision": "5177d6eeb3c7c94e4619452de373799cf80b305d"
 }
