@@ -3143,26 +3143,6 @@
    "notes": []
   },
   {
-   "n": 1965,
-   "name": "Make Unity Play Mode and the update-key check a post-upload step for sealed builds",
-   "done": "2026-11-21T07:48Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-21T07:48Z",
-     "text": "Published e530fb8c54. Getac is configured for the post-upload Play Mode step. For Test 871 the Editor imported the android-arm64 key and admitted one VPN peer send. Peer receipt is unverified. Roslyn found no new errors and publisher and ni"
-    }
-   ]
-  },
-  {
    "n": 1966,
    "name": "Bootstrap SPEC",
    "done": "2026-11-21T07:57Z",
@@ -4734,6 +4714,29 @@
      "text": "Main 5d8a9b75f7 disables Setup automatic closure and retains private-file replacement at restart. Brigade 68 Windows 875 repair and portable ZIP verified in Drive Windows/Test. Original Setup archived. Roslyn: no new errors. Native fixture "
     }
    ]
+  },
+  {
+   "n": 2042,
+   "name": "Windows Setup offers to close the running MAV Control session gracefully. If locked files remain",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC",
+     "since": "2026-11-22T07:52Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5171,5 +5174,5 @@
   }
  ],
  "source_revision": "5d8a9b75f729ec36f6c786b0dada0426e140acb0",
- "board_revision": "f04afdcbdd092755ced5fbfc0faeb0dc187b931d"
+ "board_revision": "df6ccb06d7889915ba25d19d019f62296c69f267"
 }
