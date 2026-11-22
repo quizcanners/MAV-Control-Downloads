@@ -4665,18 +4665,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_PILOT",
-     "since": "2026-11-22T09:49Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_PILOT",
+     "at": "2026-11-22T10:06Z",
+     "text": "085b41eb60 on main: Side view/side camera/corner feed kept in Copilot through Pilot view close; virtual gimbal Stabilize (MainCamera_PilotGimbal); Orthophoto LowFlightWeight 0.5 (<10 m or not flying) and FinestGoodFrameVideoZoom=TenMeters f"
+    }
+   ]
   },
   {
    "n": 2051,
@@ -5095,6 +5092,6 @@
    "since": "2026-11-22T09:36Z"
   }
  ],
- "source_revision": "085b41eb60c097e2fe6303eec16d77457e85d20d",
- "board_revision": "dbc056723963337cfc4f2e00c3141a88678e64d7"
+ "source_revision": "2fc6b2d18fcfc7fa2c81f71bd99eb525ad774064",
+ "board_revision": "5c47ff7f85f9e9273f2c6cd9f9179027a37e6c4d"
 }
