@@ -4335,7 +4335,8 @@
    "goal": false,
    "under": 0,
    "ticks": [
-    "2026-11-22T19:50Z"
+    "2026-11-22T19:50Z",
+    "2026-11-22T19:51Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -4345,8 +4346,8 @@
      "who": "CLAUDE_2086",
      "since": "2026-11-22T19:18Z",
      "noted": "",
-     "progress": 25,
-     "ticked": 1,
+     "progress": 50,
+     "ticked": 2,
      "total": 4
     }
    ],
@@ -4357,7 +4358,7 @@
     },
     {
      "t": "it hands them to the existing online owner (one batch per frame, saved as provider tiles through adoption)",
-     "x": false
+     "x": true
     },
     {
      "t": "a parent tile stays drawn until the child arrives; tiles that left the view are dropped from the queue",
@@ -4469,16 +4470,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T19:49Z",
-     "noted": "",
-     "progress": 33,
-     "ticked": 1,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Let agreement with the manual start softly strengthen direct photo matches.",
@@ -4493,7 +4485,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-22T19:51Z",
+     "text": "79c8907ae9 on main adds a bounded placement weight to real-photo proposals near the manual start. Unity negative replay left the map at the first flight. Remaining: retain two ground-projected colour footprints before a join, score their re"
+    }
+   ]
   },
   {
    "n": 2093,
@@ -4847,5 +4845,5 @@
   }
  ],
  "source_revision": "2589826d8b44b778d7993a75552c27bc62cccd48",
- "board_revision": "0dbe645e89cea671993db1b370846fe599842aae"
+ "board_revision": "bade26266a2ab7ae4e2b5e53b62a5257dad7f660"
 }
