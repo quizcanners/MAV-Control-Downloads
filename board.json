@@ -4548,7 +4548,8 @@
    "goal": false,
    "under": 1693,
    "ticks": [
-    "2026-11-22T20:59Z"
+    "2026-11-22T20:59Z",
+    "2026-11-22T21:01Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -4558,8 +4559,8 @@
      "who": "CODEX_MODEL_POSITIONING",
      "since": "2026-11-22T20:31Z",
      "noted": "2026-11-22T21:00Z",
-     "progress": 33,
-     "ticked": 1,
+     "progress": 67,
+     "ticked": 2,
      "total": 3
     }
    ],
@@ -4570,7 +4571,7 @@
     },
     {
      "t": "View-dependent, budgeted preview detail",
-     "x": false
+     "x": true
     },
     {
      "t": "Verify live and saved-photo preview in Unity",
@@ -4816,18 +4817,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_PILOT",
-     "since": "2026-11-22T20:56Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_PILOT",
+     "at": "2026-11-22T21:00Z",
+     "text": "248eae4bb0: button and panel each keep their own language gate, consumed only when their labels are written."
+    }
+   ]
   },
   {
    "n": 2108,
@@ -5169,6 +5167,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "9762df8f45f2286f9cd62783650b4a94f24fd1f2",
- "board_revision": "475fd299c983ee8c09f2e1252cbef05a5d468199"
+ "source_revision": "248eae4bb05a224ef0fa6858bb383350eb8a10dd",
+ "board_revision": "00d340b1fd48f1ae5264f4f6a4ec4edc47a6a42f"
 }
