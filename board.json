@@ -4546,16 +4546,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T20:31Z",
-     "noted": "2026-11-22T21:00Z",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Point Clouds toggle and depth-trimmed squircles",
@@ -4573,8 +4564,8 @@
    "notes": [
     {
      "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T21:00Z",
-     "text": "Point Clouds code and the GPU coverage test are on main at 1b7b16e3a6 and 9762df8f45. The Unity Layers tile shows Point Clouds. Native saved-photo replay produced 144 Disks from an 80x45 paired depth image. At 720 px and 60 degrees vertical"
+     "at": "2026-11-22T21:05Z",
+     "text": "Published on main and verified Layers, native saved-photo reconstruction, view-dependent spacing, and identical coverage in all three GPU passes. Finish browsing verification over a continuous traverse and split large regions into independe"
     }
    ]
   },
@@ -5153,5 +5144,5 @@
   }
  ],
  "source_revision": "862e92e12091367253da82ae567bf61228132b4a",
- "board_revision": "9e5c9e2b223759a173a388763a64d7c4ff5e9eb9"
+ "board_revision": "afb1d47ef5cfd4addaa4db5e70af5820658eca1c"
 }
