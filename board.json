@@ -3143,26 +3143,6 @@
    "notes": []
   },
   {
-   "n": 1971,
-   "name": "Street View SPEC",
-   "done": "2026-11-21T10:00Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-21T10:00Z",
-     "text": "6c4216de33 on main. Live video is composited over stills only for Pano360 display. Windows and Android display variants and Windows Web Mercator bake variant compiled. Nine GPU draw/readback cases passed, including fades and depth rejection"
-    }
-   ]
-  },
-  {
    "n": 1972,
    "name": "Qualify 3D Map positioning",
    "done": "",
@@ -4748,18 +4728,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-22T09:53Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-22T10:00Z",
+     "text": "Done in 6258f87832."
+    }
+   ]
   },
   {
    "n": 2052,
@@ -4865,18 +4842,6 @@
   {
    "screen": "Pilot View",
    "since": "2026-11-21T12:33Z"
-  },
-  {
-   "screen": "MavLink Settings",
-   "since": "2026-11-15T09:47Z"
-  },
-  {
-   "screen": "MGRS Entry",
-   "since": "2026-11-15T09:54Z"
-  },
-  {
-   "screen": "PayloadSplitter",
-   "since": "2026-11-15T09:55Z"
   },
   {
    "screen": "Mav Chat Sheet",
@@ -5127,6 +5092,6 @@
    "since": "2026-11-22T09:36Z"
   }
  ],
- "source_revision": "6258f87832b566cb605c007ba0a66e3a8fc15baa",
- "board_revision": "dc1e5827ff4289777af012938c910e116d2beec5"
+ "source_revision": "48e7978959243174671b2f103b976b2d4ced229d",
+ "board_revision": "dc18c164074a6c08c6a6bd4e11ad5614fd16f075"
 }
