@@ -3173,106 +3173,6 @@
    ]
   },
   {
-   "n": 1993,
-   "name": "Compass obstacle dots show every usable DJI Perception range",
-   "done": "2026-11-21T13:29Z",
-   "goal": false,
-   "under": 364,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_COMPASS_ALERT",
-     "at": "2026-11-21T13:29Z",
-     "text": "8ae5840b26 on main. Yellow range dots and closure-driven pulse. 19 compass tests passed. Object category and object velocity are unavailable from DJI range data. Grounded bench appearance still due. Roslyn no new errors."
-    }
-   ]
-  },
-  {
-   "n": 1994,
-   "name": "Post Store opens from the Menu context drag and closes through the shared X",
-   "done": "2026-11-21T13:30Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_POST_STORE_OPEN",
-     "at": "2026-11-21T13:30Z",
-     "text": "8ae5840b26 on main. Post Store activates before its first managed frame and early X is safe. Store navigation (4), history (12), typed prefab (2) and inventory (93) passed. Device look due. Roslyn no new errors."
-    }
-   ]
-  },
-  {
-   "n": 1995,
-   "name": "Chat QR",
-   "done": "2026-11-21T13:30Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_QR_FIELD",
-     "at": "2026-11-21T13:30Z",
-     "text": "8ae5840b26 on main. Flat square-cornered QR text field in both prefabs. 8 QR tests and 2 merged-glass tests passed. Device look due. Roslyn no new errors."
-    }
-   ]
-  },
-  {
-   "n": 1996,
-   "name": "Hide the pointed-object switch tab when screen centre points at an object already in the selection",
-   "done": "2026-11-21T13:30Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_POINTED_TAB",
-     "at": "2026-11-21T13:30Z",
-     "text": "8ae5840b26 on main. Offers only unselected hits in Screen Center, with stale tap rejection. All 63 SearchQuerySuggestionTests passed. Main/Map look due. Roslyn no new errors."
-    }
-   ]
-  },
-  {
-   "n": 1997,
-   "name": "Restore the red screen-centre marker while Pilot View is visible",
-   "done": "2026-11-21T13:31Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_POINTED_TAB",
-     "at": "2026-11-21T13:31Z",
-     "text": "8ae5840b26 on main. Pilot centre marker restored in first person, gated by overlay and lock. NavigatorRoutePanelTests 34 passed and PilotWorkflowTests 24 passed. DJI device look due. Roslyn no new errors."
-    }
-   ]
-  },
-  {
    "n": 1998,
    "name": "Fix Android player compilation in Station_Autel after the Station.OS move (CS0103)",
    "done": "2026-11-21T14:35Z",
@@ -3289,46 +3189,6 @@
      "by": "GETAC",
      "at": "2026-11-21T14:35Z",
      "text": "Published bc9c9efc63 and 8e6ae889b8 via 1f5f9f7122. Roslyn removed Android CS0103 with no new errors. Corp 3 Test 872 compiled, signed, and packaged after aligning its Autel flag with the parked SDK policy. Windows player and sealed install"
-    }
-   ]
-  },
-  {
-   "n": 1999,
-   "name": "MavChat Route Creator",
-   "done": "2026-11-21T13:38Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_ROUTE_STOPS",
-     "at": "2026-11-21T13:38Z",
-     "text": "a9a1c82d30 and d30d4606ff on main. Route uses the shortest reported stop order with fixed endpoints and keeps the ordinary route if rerouting cannot improve it. 75 Navigator tests passed, Roslyn no new errors, and RoutingServer --route-only"
-    }
-   ]
-  },
-  {
-   "n": 2000,
-   "name": "Group the Menu panel tabs at the left edge and place My Data before the workflow selector in the separate right window-action group",
-   "done": "2026-11-21T13:33Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_MENU_LAYOUT",
-     "at": "2026-11-21T13:33Z",
-     "text": "d290db942e on main. Menu tabs align at the left and My Data precedes Workflow in the right-side group. UiExtendedMenuTests 14 passed including loaded prefab layout at 1024 and 1440. Menu device look due."
     }
    ]
   },
@@ -4465,16 +4325,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T13:26Z",
-     "noted": "",
-     "progress": 60,
-     "ticked": 3,
-     "total": 5
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Place and draw a bounded provisional preview while fresh footage continues through a confirmed tracking gap.",
@@ -4500,8 +4351,8 @@
    "notes": [
     {
      "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T13:24Z",
-     "text": "0f3e827df7 and 7aa808ca9d published. Three Unity checks, Roslyn and real Kenilworth replays passed. Shared exposures now deform the retained preview and spread confidence to neighboring cameras. The obscured replay resumed on different expo"
+     "at": "2026-11-22T13:59Z",
+     "text": "76dd9042ab published. Six Unity tests and Roslyn passed. The existing Disk buffer yields a temporary Pano360-coloured depth view. A GPU check weights the raster, scores 12 nearby poses and feeds only weak pose evidence to the draft. The obs"
     }
    ]
   },
@@ -4955,10 +4806,6 @@
    "since": "2026-11-21T12:33Z"
   },
   {
-   "screen": "Chat/Details",
-   "since": "2026-11-15T13:57Z"
-  },
-  {
    "screen": "Notifications",
    "since": "2026-11-15T14:46Z"
   },
@@ -5195,6 +5042,6 @@
    "since": "2026-11-22T09:36Z"
   }
  ],
- "source_revision": "e2b1f96c34b8a7a047333c3438d487f5454167df",
- "board_revision": "be90bc510f2e89e70ace513d227dcee14e40ce48"
+ "source_revision": "75245667c8314b11cd4377202bd766868bb205e1",
+ "board_revision": "199312ee13c5f21fc3f112d130cab8e1f5961a68"
 }
