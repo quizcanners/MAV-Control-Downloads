@@ -4692,16 +4692,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T21:07Z",
-     "noted": "",
-     "progress": 33,
-     "ticked": 1,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Retain later landmark views when registration stalls",
@@ -4719,8 +4710,8 @@
    "notes": [
     {
      "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T21:05Z",
-     "text": "The native bank now retains later RGB views. Mac TestRun retained 48 photos and localized all eight opening cameras. Kenilworth to independent Heritage still recorded zero joins. Camera and opening-depth alignment disagreed by 49.51 m and 7"
+     "at": "2026-11-22T21:58Z",
+     "text": "Retained lens experiments while delivering Point Clouds. Pose-seeded offline COLMAP registered 59 A images. Held-out A frame 18: 0.29 m / 0.085 degrees, frame 56: 5.46 m / 2.18 degrees. Localized 11/11 Heritage and 0/9 Zurich. No accepted l"
     }
    ]
   },
@@ -5208,5 +5199,5 @@
   }
  ],
  "source_revision": "4776ae157105a068cf0fc128337a9a38a813a4fe",
- "board_revision": "84011559b9f03ad621431eae917b3f84dbf006da"
+ "board_revision": "b41114fbfd79768c6d03165dc09d7541562308b3"
 }
