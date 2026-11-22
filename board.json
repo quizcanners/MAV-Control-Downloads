@@ -1948,16 +1948,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_735",
-     "since": "2026-11-22T20:36Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -1978,11 +1969,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_HOTRELOAD_AUDIT",
-     "at": "2026-11-17T15:32Z",
-     "text": "IncomingQueue audit: queue and coalescer retain data after COMM_Links shutdown. Three asynchronous producers exist: UDP ListenerRun, Mission Planner WebSocket Attempt, SineLink SerialTransport. Stop invalidates UDP/MP asynchronously; serial"
-    },
-    {
      "by": "MAC_BOARD",
      "at": "2026-11-19T11:29Z",
      "text": "Paused by quiz. Mac isolated Play at bfee804050 reproduced a Pano360 material leak: the projection material copy stayed alive 24 updates after Station disabled, and the renderer did not restore its authored material. Reproducer: ~/MavContro"
@@ -1991,6 +1977,11 @@
      "by": "REVIEW",
      "at": "2026-11-21T04:18Z",
      "text": "CR-F732-01 P3: Linked Browser commands stay stopped when the same Station is re-enabled. S1/S2 brief ready for quiz: [review](https://github.com/quizcanners/MAV_Control/blob/main/Coordination/Reviews/62c88c8d3.md#cr-f732-01--p3-linked-brows"
+    },
+    {
+     "by": "CLAUDE_735",
+     "at": "2026-11-22T21:23Z",
+     "text": "93648e0f60: Linked Browser gets a fresh owner after its final stop (CR-F732-01). Pano360 and 5 other decals release their material copy. Keep-awake, GPS/Starlink, geometry and trail SQLite readers, UDP worker keys, VPN inbox and speed test "
     }
    ]
   },
@@ -4161,18 +4152,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_2078",
-     "since": "2026-11-22T19:47Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_2078",
+     "at": "2026-11-22T21:26Z",
+     "text": "Built: ca8405d1f6, d431b07f15. Phone/Starlink GPS toggles (MavChat GPS panel, Settings/GPS); one position + source; readers use the position only; source icon by the GPS status line. Compiled clean; EditMode tests refused by this Editor (re"
+    }
+   ]
   },
   {
    "n": 2079,
@@ -4602,7 +4590,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLAUDE_2078",
+     "since": "2026-11-22T21:27Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -4616,7 +4613,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLAUDE_2078",
+     "since": "2026-11-22T21:28Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -4630,7 +4636,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLAUDE_2078",
+     "since": "2026-11-22T21:28Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -4644,7 +4659,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLAUDE_2078",
+     "since": "2026-11-22T21:29Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -4658,7 +4682,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLAUDE_2078",
+     "since": "2026-11-22T21:29Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -4847,6 +4880,44 @@
    "flags": [],
    "held": [],
    "steps": [],
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-22T21:26Z",
+     "text": "quiz, 2026-11-22, asked whether agents may update the stale AGENTS guide lines in this finding: \"Yes, update them\". Camera + AI Sandbox lines -> camera-restructure session; Network + Encryption lines -> 1843 session."
+    }
+   ]
+  },
+  {
+   "n": 2110,
+   "name": "Point Clouds streaming blocks",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-22T21:35Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 2
+    }
+   ],
+   "steps": [
+    {
+     "t": "Visible blocks refine at their own distance",
+     "x": false
+    },
+    {
+     "t": "Verify a saved-photo browse with near, far and off-screen blocks in Unity",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
@@ -5152,6 +5223,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "26935e74d8885aa99aa64d3ecc592c0cd17271e0",
- "board_revision": "1246b862de0d8e1e38ea23c6597d557ba7b55cde"
+ "source_revision": "93648e0f6023096890c674a724cbf8e08b6d1b68",
+ "board_revision": "24e69bc4cc1a33bd903d4142bd193544220ddf16"
 }
