@@ -4498,25 +4498,22 @@
   {
    "n": 2094,
    "name": "Camera System",
-   "done": "",
+   "done": "2026-11-22T20:27Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_CAMERA",
-     "since": "2026-11-22T19:45Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_CAMERA",
+     "at": "2026-11-22T20:27Z",
+     "text": "Pushed 1c84ee2f22 (folders Input/Pose/Views/Diagnostics/Drone Camera; Trainer gimbal to Workflows/Training/Drones/Recon, Pilot gimbal and side view to Workflows/Copilot/UI/PilotView), 59f15b7e3d (OperatorManager -> MainCamera.Manager, Stati"
+    }
+   ]
   }
  ],
  "verify": [
@@ -4822,5 +4819,5 @@
   }
  ],
  "source_revision": "d431b07f15f98c447d3189fdafffaa5e17cf6a1e",
- "board_revision": "580cb92db4b901ec60769011502e6cb94d53f5ee"
+ "board_revision": "a532e52b7c405e4149b10a0c433ed0811a1ae589"
 }
