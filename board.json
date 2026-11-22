@@ -4333,28 +4333,26 @@
    "steps": [
     {
      "t": "a per-frame watcher finds view squares with no stored tile, centre first, at the depth the camera needs",
-     "x": true
+     "x": false
     },
     {
      "t": "it hands them to the existing online owner (one batch per frame, saved as provider tiles through adoption)",
-     "x": true
+     "x": false
     },
     {
      "t": "a parent tile stays drawn until the child arrives; tiles that left the view are dropped from the queue",
-     "x": true
+     "x": false
+    },
+    {
+     "t": "streamed tiles get the oldest provider stamp (like manual Esri), sync to peers, are evicted first, and fetching pauses under the storage reserve",
+     "x": false
     },
     {
      "t": "a Settings switch for online fetching and counts on the map's Settings page; no new text on screen",
-     "x": true
+     "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CLAUDE_2086",
-     "at": "2026-11-22T19:53Z",
-     "text": "5236df6deb: once-a-second view watcher in OnlineRasterController (renderer demand, 5 km view capture, centre tile identity) runs missing-only Esri batches through the button's state machine; tiles that leave the view are dropped, a new view"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 2087,
@@ -4535,6 +4533,11 @@
      "by": "CLAUDE_CAMERA",
      "at": "2026-11-22T20:28Z",
      "text": "quiz (2026-11-22): \"Also if Bootstrap already has some camera Manager - use that.\" Done that way: the Bootstrap camera manager was OperatorManager (Station.Manager.Operator); it became MainCamera.Manager (Station.Manager.MainCamera), no sec"
+    },
+    {
+     "by": "REVIEW_NIGHT",
+     "at": "2026-11-22T20:52Z",
+     "text": "review summary: 13 findings, tasks 2096 (P1: 869-876 peer messages refused), 2097-2101 (GPS 2078), 2103-2104 (Esri streaming 2086), 2105-2106 (camera 2094), 2107 (Pilot Config labels), 2108 (stale SPECs 1843), 2109 (quiz-owned AGENTS files)"
     }
    ]
   },
@@ -4544,7 +4547,9 @@
    "done": "",
    "goal": false,
    "under": 1693,
-   "ticks": [],
+   "ticks": [
+    "2026-11-22T20:59Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -4553,15 +4558,15 @@
      "who": "CODEX_MODEL_POSITIONING",
      "since": "2026-11-22T20:31Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Point Clouds toggle and depth-trimmed squircles",
-     "x": false
+     "x": true
     },
     {
      "t": "View-dependent, budgeted preview detail",
@@ -4584,7 +4589,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLAUDE_1843",
+     "since": "2026-11-22T20:56Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -4704,13 +4718,137 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLAUDE_2086",
+     "since": "2026-11-22T20:55Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
   {
    "n": 2104,
    "name": "Esri streaming forgets failed tiles and never retries a failed view (5236df6deb",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CLAUDE_2086",
+     "since": "2026-11-22T20:58Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2105,
+   "name": "Camera clip-distance host test reads files the camera restructure moved (1c84ee2f22 and 6390d86172",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CLAUDE_CAMERA",
+     "since": "2026-11-22T20:56Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2106,
+   "name": "Camera SPEC Layout says more has moved to MainCamera than has (64f784c96b vs 6390d86172",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CLAUDE_CAMERA",
+     "since": "2026-11-22T20:56Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2107,
+   "name": "Pilot Config labels stay in the old language",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CLAUDE_PILOT",
+     "since": "2026-11-22T20:56Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2108,
+   "name": "Four SPECs still describe the per-feature build gates 6bb34a6aa5 deleted (task 1843)",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CLAUDE_1843",
+     "since": "2026-11-22T20:56Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2109,
+   "name": "For quiz",
    "done": "",
    "goal": false,
    "under": 0,
@@ -5025,6 +5163,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "4e8b613e9ae8dbed74d0689438abb65380008bd6",
- "board_revision": "a386e8629e4ffa4187a90548271d661952fe1812"
+ "source_revision": "9762df8f45f2286f9cd62783650b4a94f24fd1f2",
+ "board_revision": "2524ea901286c42f73f31a222f725f0a3196813a"
 }
