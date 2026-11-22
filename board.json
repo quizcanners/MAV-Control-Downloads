@@ -3173,26 +3173,6 @@
    ]
   },
   {
-   "n": 1998,
-   "name": "Fix Android player compilation in Station_Autel after the Station.OS move (CS0103)",
-   "done": "2026-11-21T14:35Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-21T14:35Z",
-     "text": "Published bc9c9efc63 and 8e6ae889b8 via 1f5f9f7122. Roslyn removed Android CS0103 with no new errors. Corp 3 Test 872 compiled, signed, and packaged after aligning its Autel flag with the parked SDK policy. Windows player and sealed install"
-    }
-   ]
-  },
-  {
    "n": 2001,
    "name": "Startup stalls at Reading and preparing saved settings on a device without maps",
    "done": "",
@@ -4502,16 +4482,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T14:18Z",
-     "noted": "",
-     "progress": 75,
-     "ticked": 3,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Retain original exposure times and export source and shared times.",
@@ -4533,8 +4504,8 @@
    "notes": [
     {
      "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T14:15Z",
-     "text": "8ee08b1959 and 7e554767bf published. Nine Unity tests and Roslyn passed. Independent paths through real photos now confirm or weaken the direct match; duplicate exposure replay cannot add weight. The -5 s control settled at -4.81 and -3.83 "
+     "at": "2026-11-22T14:39Z",
+     "text": "47d0b0be0b, f77485814d and d4da8e855e published. Photo Tension matches older recovery photos. Nine native tests and the change's Roslyn comparison passed. Three shifted controls ended within 0.53 s of truth. Two independent English Heritage"
     }
    ]
   },
@@ -4733,6 +4704,26 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 2075,
+   "name": "DJI Pilot view corner video gestures",
+   "done": "2026-11-22T14:35Z",
+   "goal": false,
+   "under": 364,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CLAUDE_SIDE_PREVIEW",
+     "at": "2026-11-22T14:35Z",
+     "text": "88ae7edba0 on main: drag-turn removed from the corner video; release judges flick first (SwipeIntent.IsFlick, main axis, touch history when available), then tap (<=8 dp, <0.5 s). Pilot SPEC Side view updated. Compiled in Editor; touch feel "
+    }
+   ]
   }
  ],
  "verify": [
@@ -5057,6 +5048,6 @@
    "since": "2026-11-22T14:07Z"
   }
  ],
- "source_revision": "eccb6a9f139cbb05460bab53a1fc7e863b4eb509",
- "board_revision": "c8590eb75c8553ed030c9a097c378c49c9dc2cd9"
+ "source_revision": "d4da8e855eca1cd7e6513c757d046fcb90dd9c6b",
+ "board_revision": "da939812aa7dd092fc0ab11128d2dbd29047202b"
 }
