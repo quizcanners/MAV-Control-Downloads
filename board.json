@@ -4757,7 +4757,7 @@
   },
   {
    "n": 2055,
-   "name": "Model Positioning",
+   "name": "Model Positioning keeps the Synthetic drone and provisional points moving through tracking loss",
    "done": "",
    "goal": false,
    "under": 1693,
@@ -4768,21 +4768,32 @@
    "held": [
     {
      "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T12:02Z",
+     "since": "2026-11-22T12:05Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
+     "progress": 25,
+     "ticked": 1,
+     "total": 4
     }
    ],
-   "steps": [],
-   "notes": [
+   "steps": [
     {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T11:27Z",
-     "text": "Captured twelve accepted UZH depth observations in the native pause run. See Photo Tension after one Video Source pass and FPVDepth.fGnkYQ1H/uzh-pair-search-accepted-depth on the Mac. Use this receipt to test depth-constrained short-interva"
+     "t": "Retain a short local camera group when fresh views agree during a refused window.",
+     "x": true
+    },
+    {
+     "t": "Place incoming photos and draw provisional points through the tracking gap.",
+     "x": false
+    },
+    {
+     "t": "Fit and retain height and orientation relative to ground independently of the provisional track.",
+     "x": false
+    },
+    {
+     "t": "Align the provisional segment when overlap is supported, keeping the accepted model intact while placement is uncertain.",
+     "x": false
     }
-   ]
+   ],
+   "notes": []
   },
   {
    "n": 2056,
@@ -5350,5 +5361,5 @@
   }
  ],
  "source_revision": "9ada80c5742e40ddb4e4b45e2fea35876bf4e1a9",
- "board_revision": "eb2c203fea36f2dca1efab29ce79cf615c7f6e13"
+ "board_revision": "8c91e7637a78422ba24b95d855110f4fb5c72209"
 }
