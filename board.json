@@ -4878,7 +4878,7 @@
   {
    "n": 2110,
    "name": "Point Clouds streaming blocks",
-   "done": "",
+   "done": "2026-11-22T21:58Z",
    "goal": false,
    "under": 1693,
    "ticks": [
@@ -4888,16 +4888,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T21:35Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 2,
-     "total": 2
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Visible blocks refine at their own distance",
@@ -4908,7 +4899,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-22T21:58Z",
+     "text": "Main 4776ae1571. Mac Unity Kenilworth: 4,933 saved source samples, 1,183 far and 1,534 close draw samples. Turn-away released all draw buffers, turning back reused the source and moving out of range retired it. Verified memory-pressure reco"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5214,5 +5211,5 @@
   }
  ],
  "source_revision": "4776ae157105a068cf0fc128337a9a38a813a4fe",
- "board_revision": "9856ae45a512d67985a7ec711828f827886e5ff0"
+ "board_revision": "ddcda0b4f0f8284623c478d969fee4d641a2d4c6"
 }
