@@ -4881,7 +4881,7 @@
   {
    "n": 2061,
    "name": "Every click on video makes a ping on screen and sends it to every peer (no click thrown away)",
-   "done": "",
+   "done": "2026-11-22T11:07Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -4890,7 +4890,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "agent",
+     "at": "2026-11-22T11:07Z",
+     "text": "87a2bf94d9: every mouse press read from the Input System event stream pings (merged presses at 8 fps idle no longer lost); video tap never cancelled by movement or releasing over a control; SDC peer pings queued, none replaced. Point Ping a"
+    }
+   ]
   },
   {
    "n": 2062,
@@ -5247,5 +5253,5 @@
   }
  ],
  "source_revision": "c8687f745288cb17a80e4bf1364490916764122c",
- "board_revision": "5db5d5085cdeff2266015af91c54d9f366713d83"
+ "board_revision": "ae584b484715d8004dec59bcfa532267c7a58a4b"
 }
