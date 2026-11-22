@@ -4643,25 +4643,22 @@
   {
    "n": 2100,
    "name": "A Starlink read that faults in an unexpected way breaks every GPS reader each frame (84ae04d118",
-   "done": "",
+   "done": "2026-11-22T21:57Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_2078",
-     "since": "2026-11-22T21:29Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_2078",
+     "at": "2026-11-22T21:57Z",
+     "text": "Fixed in a289d30377: a faulted or cancelled dish read becomes an invalid fix with the 15 s retry; ReadPositionAsync catches every exception."
+    }
+   ]
   },
   {
    "n": 2101,
@@ -5217,5 +5214,5 @@
   }
  ],
  "source_revision": "4776ae157105a068cf0fc128337a9a38a813a4fe",
- "board_revision": "12c0f9e98ac5275eebac1262133ab46a018dc526"
+ "board_revision": "9856ae45a512d67985a7ec711828f827886e5ff0"
 }
