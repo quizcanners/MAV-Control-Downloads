@@ -4305,16 +4305,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T15:00Z",
-     "noted": "",
-     "progress": 60,
-     "ticked": 3,
-     "total": 5
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Place and draw a bounded provisional preview while fresh footage continues through a confirmed tracking gap.",
@@ -4340,8 +4331,8 @@
    "notes": [
     {
      "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T14:58Z",
-     "text": "c81c522de1, ea34962a19 and 5f039bb332 published. Refused source relocalization retains fresh paired photos. Native TestRun retained eight from each of Kenilworth and Zurich. Seven EditMode tests and the change's Roslyn comparison passed. Bo"
+     "at": "2026-11-22T15:13Z",
+     "text": "90257acd4f, 2c26699cbf and c72475112e on main. Provisional photos corroborate position, rotation and scale. Nine Unity tests and Roslyn passed. Independent Kenilworth and Zurich still held accepted counts with negligible common pull. The ca"
     }
    ]
   },
@@ -4753,6 +4744,20 @@
      "text": "Pushed 2b716018a5: OrthophotoNearLight.hlsl reuses TerrainCloseRangeFadeAt + _TerrainCloseBrightness in the Orthophoto decal graph (_NearTrueColor=1 on Orthophoto PseudoDecal.mat). Not checked by eye in the Editor or on a device."
     }
    ]
+  },
+  {
+   "n": 2077,
+   "name": "Pilot view (Workflows/Copilot/SPEC.md",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -4835,10 +4840,6 @@
   {
    "screen": "Pilot View",
    "since": "2026-11-21T12:33Z"
-  },
-  {
-   "screen": "iOS Background",
-   "since": "2026-11-15T15:01Z"
   },
   {
    "screen": "Cars",
@@ -5073,6 +5074,6 @@
    "since": "2026-11-22T14:07Z"
   }
  ],
- "source_revision": "2d14733c305e1647be06223c7865cb3d0ba89e73",
- "board_revision": "9dd3189526ec3a4b6c7a1a7cff52a3a6d01cee6e"
+ "source_revision": "cf45265e809b3de7ab0180336325446713c4aee1",
+ "board_revision": "e4845ec9bb8bd21f424b56ac1e8d216283123a17"
 }
