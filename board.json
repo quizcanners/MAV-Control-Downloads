@@ -3143,26 +3143,6 @@
    "notes": []
   },
   {
-   "n": 1968,
-   "name": "Rename Brigade Configurations to Tester Group Config. Data Sync SPEC",
-   "done": "2026-11-21T08:52Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_CONFIG_RENAME",
-     "at": "2026-11-21T08:52Z",
-     "text": "c70d808a5c is on main. Tester Group Config now appears in Unity asset creation, the Ground Station Inspector and related diagnostics. C# changes are string-only. Diff and guide checks passed (8 guide warnings). Roslyn exited before reportin"
-    }
-   ]
-  },
-  {
    "n": 1969,
    "name": "Copilot SPEC",
    "done": "2026-11-21T08:59Z",
@@ -4764,17 +4744,37 @@
   {
    "n": 2046,
    "name": "Planet renderer",
-   "done": "",
+   "done": "2026-11-22T08:54Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "claude-opus",
+     "at": "2026-11-22T08:52Z",
+     "text": "Done f3740fb986: space relief gains 24/90 (were 8/30), SlopeRange 0.03 (was 0.1) in PlanetSpaceRelief.cs + PLANET_SPACE_SLOPE_RANGE; SPEC Zoomed-out globe lighting updated; Map/Planet bumped. cmp.sh ran but printed no NEW ERRORS line (C# ch"
+    }
+   ]
+  },
+  {
+   "n": 2047,
+   "name": "Restore the 3D Map live preview against the Kenilworth baseline",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
    "held": [
     {
-     "who": "claude-opus",
-     "since": "2026-11-22T08:48Z",
+     "who": "CODEX_3D_PREVIEW",
+     "since": "2026-11-22T08:57Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
@@ -4865,122 +4865,6 @@
   {
    "screen": "Pilot View",
    "since": "2026-11-21T12:33Z"
-  },
-  {
-   "screen": "Dev Mode",
-   "since": "2026-11-15T06:41Z"
-  },
-  {
-   "screen": "Streamer Photos",
-   "since": "2026-11-15T06:43Z"
-  },
-  {
-   "screen": "Web Mercator Orthophoto base layer",
-   "since": "2026-11-15T06:43Z"
-  },
-  {
-   "screen": "GeoTIFF import",
-   "since": "2026-11-15T06:42Z"
-  },
-  {
-   "screen": "Peers",
-   "since": "2026-11-15T06:44Z"
-  },
-  {
-   "screen": "Shape Gizmos",
-   "since": "2026-11-15T06:42Z"
-  },
-  {
-   "screen": "Video status",
-   "since": "2026-11-15T06:44Z"
-  },
-  {
-   "screen": "Settings > Network",
-   "since": "2026-11-15T06:45Z"
-  },
-  {
-   "screen": "Video Peer Transport",
-   "since": "2026-11-15T06:41Z"
-  },
-  {
-   "screen": "Settings Planet Renderer",
-   "since": "2026-11-15T06:46Z"
-  },
-  {
-   "screen": "Startup",
-   "since": "2026-11-15T06:42Z"
-  },
-  {
-   "screen": "Map Sync",
-   "since": "2026-11-15T06:44Z"
-  },
-  {
-   "screen": "VPN Chat",
-   "since": "2026-11-15T07:46Z"
-  },
-  {
-   "screen": "Bootstrap",
-   "since": "2026-11-15T07:45Z"
-  },
-  {
-   "screen": "Settings > Dev Mode > Performance capture",
-   "since": "2026-11-15T07:45Z"
-  },
-  {
-   "screen": "Video Feed",
-   "since": "2026-11-15T07:47Z"
-  },
-  {
-   "screen": "FrameBudget",
-   "since": "2026-11-15T07:46Z"
-  },
-  {
-   "screen": "Screen Sharing",
-   "since": "2026-11-15T07:45Z"
-  },
-  {
-   "screen": "Peer Video",
-   "since": "2026-11-15T07:46Z"
-  },
-  {
-   "screen": "Radio Chat",
-   "since": "2026-11-15T07:51Z"
-  },
-  {
-   "screen": "Geometry Convergence",
-   "since": "2026-11-15T07:47Z"
-  },
-  {
-   "screen": "Motorola",
-   "since": "2026-11-15T07:50Z"
-  },
-  {
-   "screen": "Motorola IP",
-   "since": "2026-11-15T07:52Z"
-  },
-  {
-   "screen": "OSM Street Data",
-   "since": "2026-11-15T07:54Z"
-  },
-  {
-   "screen": "Training",
-   "since": "2026-11-15T07:50Z"
-  },
-  {
-   "screen": "Power Lines",
-   "since": "2026-11-15T07:52Z"
-  },
-  {
-   "screen": "Map loading",
-   "since": "2026-11-15T07:46Z"
-  },
-  {
-   "screen": "Map Editing",
-   "since": "2026-11-15T07:54Z"
-  },
-  {
-   "screen": "LinkedBrowser",
-   "since": "2026-11-15T07:56Z"
   },
   {
    "screen": "MavLink Settings",
@@ -5217,8 +5101,12 @@
   {
    "screen": "Video",
    "since": "2026-11-22T06:34Z"
+  },
+  {
+   "screen": "Map/Planet",
+   "since": "2026-11-22T08:51Z"
   }
  ],
- "source_revision": "848c378a6cf1297ebfa138308c17b80a57ac9835",
- "board_revision": "79383933062a5604fd7400b262abaad5927ccb17"
+ "source_revision": "345b7445eee1aabcfc126d5e58139aa2d0fc3ab0",
+ "board_revision": "82afb600fda61a86320acb8906b08dea1bc7b331"
 }
