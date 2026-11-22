@@ -4747,7 +4747,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "SDC_USB_VIDEO",
+     "at": "2026-11-22T10:11Z",
+     "text": "f00454e5ae: SDC marks follow the selected video source (USB capture card, USB camera added); SDC Settings requests the first USB capture device when no video is chosen. cmp.sh did not finish here: compile unverified."
+    }
+   ]
   }
  ],
  "verify": [
@@ -5081,5 +5087,5 @@
   }
  ],
  "source_revision": "cad1fbf9633c1926eb5e477f7169adfa8f5cb1a1",
- "board_revision": "16c1460afa417f507647e4b44c96cc39c12ad6fe"
+ "board_revision": "e3d95b0b00c95a3d7ab9e895450955760d48c10f"
 }
