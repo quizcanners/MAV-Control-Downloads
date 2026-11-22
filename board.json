@@ -4939,16 +4939,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T12:07Z",
-     "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Retain original exposure times and export source and shared times.",
@@ -4967,7 +4958,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-22T12:07Z",
+     "text": "e47b58edef and 5c34979933 published. Seven Unity tests passed. Kenilworth joined and the working graph relaxed during Pause. Known-offset trial did not recover the true clock and published no pose revision. Next bring older matched-photo ev"
+    }
+   ]
   },
   {
    "n": 2064,
@@ -5355,5 +5352,5 @@
   }
  ],
  "source_revision": "f9c181504d92c0b3fe709b37d14b1fe29e83c95b",
- "board_revision": "802ffda66493e6b95530c8388ced35abc64efdf2"
+ "board_revision": "039993c45f341bdc249545fab461ecd61c05a9fa"
 }
