@@ -4334,7 +4334,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-22T19:50Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -4343,15 +4345,15 @@
      "who": "CLAUDE_2086",
      "since": "2026-11-22T19:18Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 25,
+     "ticked": 1,
      "total": 4
     }
    ],
    "steps": [
     {
      "t": "a per-frame watcher finds view squares with no stored tile, centre first, at the depth the camera needs",
-     "x": false
+     "x": true
     },
     {
      "t": "it hands them to the existing online owner (one batch per frame, saved as provider tiles through adoption)",
@@ -4399,25 +4401,22 @@
   {
    "n": 2089,
    "name": "3D Map keeps each recorded flight in its own starting position. With the current local file paused or stopped",
-   "done": "",
+   "done": "2026-11-22T19:50Z",
    "goal": false,
    "under": 1693,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T19:28Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-22T19:50Z",
+     "text": "a7d4967441 and f03b2f7777 on main. Pause and Stop keep the preceding draft in place while the Synthetic drone is moved. The next file starts at the manual position. Unity replay covered Pause, Resume, Stop and Zurich continuation, with no a"
+    }
+   ]
   },
   {
    "n": 2090,
@@ -4848,5 +4847,5 @@
   }
  ],
  "source_revision": "2589826d8b44b778d7993a75552c27bc62cccd48",
- "board_revision": "a06441d1d2a28a4f3fa2c15f989676c3b90823d3"
+ "board_revision": "0dbe645e89cea671993db1b370846fe599842aae"
 }
