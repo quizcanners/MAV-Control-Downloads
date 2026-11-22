@@ -3173,106 +3173,6 @@
    ]
   },
   {
-   "n": 1988,
-   "name": "Keep the local DJI aircraft\u2019s last reported telemetry visible after link loss and show its age in the existing warning. Follow Copilot SPEC",
-   "done": "2026-11-21T13:08Z",
-   "goal": false,
-   "under": 364,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_DJI_STALE_TELEMETRY",
-     "at": "2026-11-21T13:08Z",
-     "text": "2cf0dba7d7 on main. Unity PilotWorkflowTests 24/24, including receipt age and aircraft switch. Physical disconnect check queued."
-    }
-   ]
-  },
-  {
-   "n": 1989,
-   "name": "Make the telemetry readouts a bare grid with icons",
-   "done": "2026-11-21T13:09Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_TELEMETRY_GRID",
-     "at": "2026-11-21T13:09Z",
-     "text": "2cf0dba7d7 on main. Unity RemoteDroneSuggestionTests 18/18 and TelemetryStripSlotTests 6/6. Device layout check queued."
-    }
-   ]
-  },
-  {
-   "n": 1990,
-   "name": "Default Pilot\u2019s displayed video projection to the local aircraft. The selected other aircraft takes precedence only while it has live video that can be projected",
-   "done": "2026-11-21T13:10Z",
-   "goal": false,
-   "under": 364,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_PILOT_PREVIEW",
-     "at": "2026-11-21T13:10Z",
-     "text": "2cf0dba7d7 on main. Unity VideoProcessingSourceTests 30 pass, 2 skipped. Exact live projection takes priority and expires back to our preview. Device check queued."
-    }
-   ]
-  },
-  {
-   "n": 1991,
-   "name": "Pilot top-left telemetry",
-   "done": "2026-11-21T13:11Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_TELEMETRY_GRID",
-     "at": "2026-11-21T13:11Z",
-     "text": "2cf0dba7d7 on main. PilotLeftColumnLayoutTests 6/6. One fixed-width flat backing covers visible rows and expanded battery details. Pilot View device check queued."
-    }
-   ]
-  },
-  {
-   "n": 1992,
-   "name": "Pilot Track records fresh reported positions and shows the recorded path in Pilot and on the map per Copilot SPEC",
-   "done": "2026-11-21T13:10Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_PILOT_TRACK",
-     "at": "2026-11-21T13:10Z",
-     "text": "2cf0dba7d7 on main. PilotTrackRecordingTests 2/2 and PilotTrackShaderRenderTests 10/10 in Unity. Short track produces geometry after Stop. Synthetic GPS gaps split tracks. Device check queued."
-    }
-   ]
-  },
-  {
    "n": 1993,
    "name": "Compass obstacle dots show every usable DJI Perception range",
    "done": "2026-11-21T13:29Z",
@@ -4565,16 +4465,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T13:06Z",
-     "noted": "",
-     "progress": 60,
-     "ticked": 3,
-     "total": 5
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Place and draw a bounded provisional preview while fresh footage continues through a confirmed tracking gap.",
@@ -4600,8 +4491,8 @@
    "notes": [
     {
      "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T13:05Z",
-     "text": "832cbe219d, 05e0a405df, 0c71e541d8 published. Four Unity checks and Roslyn passed. FPV kept 144 provisional photos. Stored photo evidence survived the hard cut and Kenilworth B joined the castle. Four shared exposures in Kenilworth A expose"
+     "at": "2026-11-22T13:24Z",
+     "text": "0f3e827df7 and 7aa808ca9d published. Three Unity checks, Roslyn and real Kenilworth replays passed. Shared exposures now deform the retained preview and spread confidence to neighboring cameras. The obscured replay resumed on different expo"
     }
    ]
   },
@@ -5295,6 +5186,6 @@
    "since": "2026-11-22T09:36Z"
   }
  ],
- "source_revision": "f4f0ba42a7b0dc7b5f8eda93184aa83736d40064",
- "board_revision": "22f645f7a8ddc60970d5332c46ce4e60a569096a"
+ "source_revision": "e2b1f96c34b8a7a047333c3438d487f5454167df",
+ "board_revision": "682acdf064ab3669f27221d3a4a74dad9df491c8"
 }
