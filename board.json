@@ -3173,46 +3173,6 @@
    ]
   },
   {
-   "n": 1986,
-   "name": "Show the current live camera picture when opening raw Video Processing from Pilot",
-   "done": "2026-11-21T12:59Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_RAW_VIDEO",
-     "at": "2026-11-21T12:59Z",
-     "text": "0cfb7ab68c on main. Pilot and raw Processing share the aircraft preview reader; capture-generation regression passed. Mac synthetic raw+noise raster and Android GLES3/Vulkan shader variants pass. Real Android controller check of the 871 bla"
-    }
-   ]
-  },
-  {
-   "n": 1987,
-   "name": "Set the default altitude correction in Settings > Drones > View to 5 metres",
-   "done": "2026-11-21T12:53Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_ALTITUDE_DEFAULT",
-     "at": "2026-11-21T12:53Z",
-     "text": "9dc7ea0424 on main. SyntheticDroneTests 22/22, ProjectionDisplayAltitudeTests 5/5 and Roslyn clean. New profiles use 5 m. Explicit and legacy corrections keep their value."
-    }
-   ]
-  },
-  {
    "n": 1988,
    "name": "Keep the local DJI aircraft\u2019s last reported telemetry visible after link loss and show its age in the existing warning. Follow Copilot SPEC",
    "done": "2026-11-21T13:08Z",
@@ -4605,16 +4565,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T12:49Z",
-     "noted": "",
-     "progress": 60,
-     "ticked": 3,
-     "total": 5
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Place and draw a bounded provisional preview while fresh footage continues through a confirmed tracking gap.",
@@ -4640,8 +4591,8 @@
    "notes": [
     {
      "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T12:45Z",
-     "text": "28ad14e298 published. Four focused Unity tests and Roslyn passed. Pfeffingen applied per-photo height and tilt corrections during the gap; an unrelated source established its own ground datum without a join. Independent terrain accuracy and"
+     "at": "2026-11-22T13:05Z",
+     "text": "832cbe219d, 05e0a405df, 0c71e541d8 published. Four Unity checks and Roslyn passed. FPV kept 144 provisional photos. Stored photo evidence survived the hard cut and Kenilworth B joined the castle. Four shared exposures in Kenilworth A expose"
     }
    ]
   },
@@ -5095,14 +5046,6 @@
    "since": "2026-11-21T12:33Z"
   },
   {
-   "screen": "Mav Chat Sheet",
-   "since": "2026-11-15T12:58Z"
-  },
-  {
-   "screen": "Mav Chat Route",
-   "since": "2026-11-15T13:01Z"
-  },
-  {
    "screen": "Chat/Details",
    "since": "2026-11-15T13:57Z"
   },
@@ -5343,6 +5286,6 @@
    "since": "2026-11-22T09:36Z"
   }
  ],
- "source_revision": "d9286e2211e6a4199793cc95ba368cdf747067d0",
- "board_revision": "39fa0ede24904b3c986d1603b2e255e73df6597d"
+ "source_revision": "b6a7379bf30ef1e43586fbe3fcfa17cebf8b327f",
+ "board_revision": "be9cfa6575ff8e9a3fb4d1f118d7d0eabf631adb"
 }
