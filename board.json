@@ -4682,7 +4682,7 @@
   {
    "n": 2102,
    "name": "Join the independently recorded Kenilworth and Heritage flights through Video Source",
-   "done": "",
+   "done": "2026-11-22T22:38Z",
    "goal": false,
    "under": 1693,
    "ticks": [
@@ -4693,16 +4693,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T22:17Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Retain later landmark views when registration stalls",
@@ -4720,8 +4711,8 @@
    "notes": [
     {
      "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T22:16Z",
-     "text": "Main ff8dd3353d. Two Mac Metal Video Source runs built pose-seeded banks (13,318/13,569 landmarks) and passed independent A camera checks and real Heritage pose checks. Frozen validation finished after Pause. Heritage held-out pixel p90 2.1"
+     "at": "2026-11-22T22:38Z",
+     "text": "Main 622815ef52. Mac Metal joined independent Kenilworth and Heritage via Video Source and a separate drone start. Held-out depth p90 4.27\u20135.77%. One draft grew from 8 to 32 photos and 49,509 to 173,476 canonical cells. Registered Pano360 p"
     }
    ]
   },
@@ -5247,5 +5238,5 @@
   }
  ],
  "source_revision": "622815ef52a04f5ddef6852a3a92950e58bf7dc6",
- "board_revision": "c310eac59ab0dc227facff4bd9cb7bf149eeb5a8"
+ "board_revision": "4365ab71575bd7d1dfe3a0358deb4b8f64849c82"
 }
