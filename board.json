@@ -4663,25 +4663,22 @@
   {
    "n": 2101,
    "name": "GPS and Navigator SPECs still describe Starlink as a fallback (84ae04d118 superseded by ca8405d1f6",
-   "done": "",
+   "done": "2026-11-22T21:58Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_2078",
-     "since": "2026-11-22T21:29Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_2078",
+     "at": "2026-11-22T21:58Z",
+     "text": "Fixed in a289d30377: GPS SPEC sources line and Navigator SPEC panel line describe the two toggled sources."
+    }
+   ]
   },
   {
    "n": 2102,
@@ -5211,5 +5208,5 @@
   }
  ],
  "source_revision": "4776ae157105a068cf0fc128337a9a38a813a4fe",
- "board_revision": "ddcda0b4f0f8284623c478d969fee4d641a2d4c6"
+ "board_revision": "84011559b9f03ad621431eae917b3f84dbf006da"
 }
