@@ -1752,16 +1752,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_600",
-     "since": "2026-11-22T20:36Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Dispatcher commands still in AI_Sandbox_DeviceDebugCommands*.cs: the remaining vpn.*, training and remote-sensor editors, performance.wires, cfg/system.set and the other cfg cases in DebugControl; the",
@@ -1793,8 +1784,8 @@
     },
     {
      "by": "CLAUDE_600",
-     "at": "2026-11-22T19:55Z",
-     "text": "629ad92ac4: systems.status, system.set, cfg.* now in Diagnostics.DebugControls (compiled, answer in Play). vpn/training/remote-sensor/wires already moved. Left: Station classes, Station.OS #if blocks, Linked Browser items, camera commands, "
+     "at": "2026-11-22T22:27Z",
+     "text": "Design, not move: Station.Focus (1700 uses, needs Station.WorkFlow/UI/Manager/Operator qualified, name Focus collides), NetworkStateMonitor (uses Station fields), Station.UI/Input groups (UI folder = task 2057). Linked Browser items need de"
     }
    ]
   },
@@ -3256,7 +3247,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_600",
+     "at": "2026-11-22T22:30Z",
+     "text": "6ed58e8572: LogisticsPackages moved to Workflows/Logistics. Left: StorePostController (serialized StorePostEventNotice(s) nested in NetworkManager; needs checkpoint-compat check), SendServerPackages/SendServerSpecs, Crypto_ReleaseKey messag"
+    }
+   ]
   },
   {
    "n": 2025,
@@ -3275,6 +3272,11 @@
      "by": "cloud-meta",
      "at": "2026-11-21T18:12Z",
      "text": "Naming rule added (REFACTORING.md, 'A name carries the meaning'): in each class the sweep touches, rename a class or member that needs a comment to say what it is (example: Usage.HttpHandler became BodyCountingHttpHandler; methods like Coun"
+    },
+    {
+     "by": "CLAUDE_600",
+     "at": "2026-11-22T22:35Z",
+     "text": "NetworkMessageStats -> NetworkManager.MessageStats pushed. Network area otherwise already nested; other areas (Systems, Workflows, Drone Control) not swept yet; NetworkUsageSystem enum left."
     }
    ]
   },
@@ -4560,25 +4562,22 @@
   {
    "n": 2096,
    "name": "Peer messages from builds 869-876 lost after 6bb34a6aa5 (task 1843",
-   "done": "",
+   "done": "2026-11-22T22:26Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_1843",
-     "since": "2026-11-22T20:56Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_1843",
+     "at": "2026-11-22T22:26Z",
+     "text": "6c3ddbbea8"
+    }
+   ]
   },
   {
    "n": 2097,
@@ -4827,30 +4826,27 @@
   {
    "n": 2108,
    "name": "Four SPECs still describe the per-feature build gates 6bb34a6aa5 deleted (task 1843)",
-   "done": "",
+   "done": "2026-11-22T22:27Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_1843",
-     "since": "2026-11-22T20:56Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_1843",
+     "at": "2026-11-22T22:27Z",
+     "text": "6c3ddbbea8"
+    }
+   ]
   },
   {
    "n": 2109,
    "name": "For quiz",
-   "done": "",
+   "done": "2026-11-22T22:29Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -4869,6 +4865,11 @@
      "by": "CLAUDE_CAMERA",
      "at": "2026-11-22T21:45Z",
      "text": "Camera + AI Sandbox part done in a3b0d0b8e4: Systems/Camera/AGENTS.md rows 14-16, Drone camera control section (folder, Trainer in Workflows/Training/Drones/Recon/) and the runtime-groups sentence; Systems/AI Sandbox/AGENTS.md:24 now MainCa"
+    },
+    {
+     "by": "CLAUDE_1843",
+     "at": "2026-11-22T22:29Z",
+     "text": "a3b0d0b8e4 (camera), 6c3ddbbea8 (seals)"
     }
    ]
   },
@@ -4903,6 +4904,42 @@
      "text": "Main 4776ae1571. Mac Unity Kenilworth: 4,933 saved source samples, 1,183 far and 1,534 close draw samples. Turn-away released all draw buffers, turning back reused the source and moving out of range retired it. Verified memory-pressure reco"
     }
    ]
+  },
+  {
+   "n": 2111,
+   "name": "Preserve image-space depth detail and bound standalone photo Point Clouds generation (Video Processing SPEC",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-22T22:36Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Stream bounded depth samples without an intermediate metric voxel grid",
+     "x": false
+    },
+    {
+     "t": "Choose the finest drawable spacing from the measured photo footprint",
+     "x": false
+    },
+    {
+     "t": "Replay the saved-photo Point Clouds layer on Mac Metal",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -5207,6 +5244,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "ff8dd3353d8374cf351f4eef775b9abae81ac924",
- "board_revision": "3506f3bc95af8ff3fdfd6020794bbc55a5e16022"
+ "source_revision": "aa7322f14de6d3e06f6bb1164a2f24e5c23b74db",
+ "board_revision": "1ca0f1952029740836e09a0ccf86ab4011ef108a"
 }
