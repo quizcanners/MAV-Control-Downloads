@@ -3173,46 +3173,6 @@
    ]
   },
   {
-   "n": 1974,
-   "name": "Notifications SPEC",
-   "done": "2026-11-21T10:01Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-21T10:01Z",
-     "text": "b898467704 on main. The notification ScrollRect no longer injects a hit graphic into empty viewport space. Reloaded Windows Editor reports zero center raycast hits and map zoom responded to a center wheel event. Notifications check bumped."
-    }
-   ]
-  },
-  {
-   "n": 1975,
-   "name": "Main View SPEC",
-   "done": "2026-11-21T10:01Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-21T10:01Z",
-     "text": "d24f48827e on main. Getac Editor press trace changed a 12 px motion from Movement and 0 clicks to one qualified click. An outside release produced zero clicks. Roslyn no new errors and Main View check bumped."
-    }
-   ]
-  },
-  {
    "n": 1978,
    "name": "Pilot Side View",
    "done": "2026-11-21T12:09Z",
@@ -4748,18 +4708,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-22T09:59Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-22T10:01Z",
+     "text": "Done in d201d7c97d. Not compiled here (other sessions editing this checkout)."
+    }
+   ]
   }
  ],
  "verify": [
@@ -5093,5 +5050,5 @@
   }
  ],
  "source_revision": "48e7978959243174671b2f103b976b2d4ced229d",
- "board_revision": "dfc25f40fb13421beb84d34777b8845e25f0dbde"
+ "board_revision": "cd1773ecc8833f8bb072b07ba13c68ca55c85555"
 }
