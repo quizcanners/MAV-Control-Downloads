@@ -3173,46 +3173,6 @@
    ]
   },
   {
-   "n": 1983,
-   "name": "Pilot Hide Video",
-   "done": "2026-11-21T12:34Z",
-   "goal": false,
-   "under": 364,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_PILOT_PREVIEW",
-     "at": "2026-11-21T12:34Z",
-     "text": "Main b00319668f: Hide Video moves the active feed into the corner and clears the projection. Corner taps swap colour and Vision Assist with Side View on or off. PilotWorkflowTests 22/22 and Roslyn NEW ERRORS none. DJI preview check queued i"
-    }
-   ]
-  },
-  {
-   "n": 1984,
-   "name": "Orthophoto recording uses the projected retransmitted stream and its matching camera metadata",
-   "done": "2026-11-21T12:44Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_ORTHOPHOTO_SOURCE",
-     "at": "2026-11-21T12:44Z",
-     "text": "d0aba1606c on main. Unity VideoProcessingSourceTests 29 pass, 2 skipped. Roslyn clean. Orthophoto page bumped for a live projected-stream check."
-    }
-   ]
-  },
-  {
    "n": 1985,
    "name": "Pilot side columns fold and unfold from a flick with main video projection hidden",
    "done": "2026-11-21T12:46Z",
@@ -4668,11 +4628,11 @@
    "held": [
     {
      "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-22T12:28Z",
+     "since": "2026-11-22T12:44Z",
      "noted": "",
-     "progress": 50,
-     "ticked": 2,
-     "total": 4
+     "progress": 60,
+     "ticked": 3,
+     "total": 5
     }
    ],
    "steps": [
@@ -4685,7 +4645,11 @@
      "x": true
     },
     {
-     "t": "Fit and retain height and orientation relative to ground independently of the provisional track.",
+     "t": "Estimate ground height and tilt from each provisional photo's own depth and update its pose and points.",
+     "x": true
+    },
+    {
+     "t": "Verify per-photo ground-relative accuracy against independent measured terrain or camera height.",
      "x": false
     },
     {
@@ -4693,13 +4657,7 @@
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T12:25Z",
-     "text": "611b4bbba1 and 41b3d6a852 published. Pfeffingen provisional preview continued through 110 s. Zurich left accepted geometry intact, then Kenilworth B joined and cleared the preview. Eleven focused EditMode tests and Roslyn passed. Ground hei"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 2056,
@@ -5026,30 +4984,33 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_CAPSULE_GATE",
+     "at": "2026-11-22T12:31Z",
+     "text": "681847b9dd moved the tick to the displayed current capsule. Include a tap selecting a different capsule, the silent initial display, and an unchanged redraw alongside the swipe checks."
+    }
+   ]
   },
   {
    "n": 2073,
    "name": "Mav Chat capsule vibration (2070)",
-   "done": "",
+   "done": "2026-11-22T12:32Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_CAPSULE_GATE",
-     "since": "2026-11-22T12:28Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_CAPSULE_GATE",
+     "at": "2026-11-22T12:32Z",
+     "text": "681847b9dd on main. One initialized Gate.TryChange drives the tick when the carousel draws a new current capsule. The first display and unchanged redraws are silent. Phone and focused EditMode verification stay with 2072."
+    }
+   ]
   }
  ],
  "verify": [
@@ -5382,6 +5343,6 @@
    "since": "2026-11-22T09:36Z"
   }
  ],
- "source_revision": "2d6a891ed8996af8acee6ad97e2362d41266630e",
- "board_revision": "d606e0b1f77c6d48805a28bb02fd2e138aea7def"
+ "source_revision": "5026bef4f8ac1522b8f478082c12f91460022c1b",
+ "board_revision": "57cfb2fb6f3fa08e8b58dd21f50f817009ee6c64"
 }
