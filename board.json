@@ -4623,25 +4623,22 @@
   {
    "n": 2099,
    "name": "MavChat GPS panel works out GPS state itself and contradicts Settings (ca8405d1f6",
-   "done": "",
+   "done": "2026-11-22T21:57Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_2078",
-     "since": "2026-11-22T21:28Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_2078",
+     "at": "2026-11-22T21:57Z",
+     "text": "Fixed in a289d30377: GPSlocationManager.GpsState (NotNeeded, Unsupported, NoSource, Off, Waiting, FixPhone, FixStarlink) is decided with the position; the MavChat panel status and icon, sharing status (IsLocationOff) and Settings / GPS read"
+    }
+   ]
   },
   {
    "n": 2100,
@@ -5219,5 +5216,5 @@
   }
  ],
  "source_revision": "4776ae157105a068cf0fc128337a9a38a813a4fe",
- "board_revision": "3b8e55b2f53cc29da0040efe5c84fab58878fb5d"
+ "board_revision": "86b2bd242229bd2c474e84aec3b4057a79dc65a6"
 }
