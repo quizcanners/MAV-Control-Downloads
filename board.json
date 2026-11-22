@@ -4514,6 +4514,42 @@
      "text": "quiz (2026-11-22): \"Also if Bootstrap already has some camera Manager - use that.\" Done that way: the Bootstrap camera manager was OperatorManager (Station.Manager.Operator); it became MainCamera.Manager (Station.Manager.MainCamera), no sec"
     }
    ]
+  },
+  {
+   "n": 2095,
+   "name": "Point Clouds layer streams detail from nearby Street View photo depth",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-22T20:31Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Point Clouds toggle and depth-trimmed squircles",
+     "x": false
+    },
+    {
+     "t": "View-dependent, budgeted preview detail",
+     "x": false
+    },
+    {
+     "t": "Verify live and saved-photo preview in Unity",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -4819,5 +4855,5 @@
   }
  ],
  "source_revision": "d431b07f15f98c447d3189fdafffaa5e17cf6a1e",
- "board_revision": "61cd4ff1b2b4f77cfdfa0e1de93f63c677e7945e"
+ "board_revision": "e1d39fe0f32d2108e92f8e173b725b21dc78f78f"
 }
