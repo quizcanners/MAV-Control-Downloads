@@ -3143,26 +3143,6 @@
    "notes": []
   },
   {
-   "n": 1969,
-   "name": "Copilot SPEC",
-   "done": "2026-11-21T08:59Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_PILOT_EDGE_FLICK",
-     "at": "2026-11-21T08:59Z",
-     "text": "1a5151fbc4 on main. First Pilot presentation initializes both columns before activation. Folded tongues accept inward swipes over 96 by 288 Canvas units, with the original tap area. Both column cases and 13 other focused Unity checks passed"
-    }
-   ]
-  },
-  {
    "n": 1970,
    "name": "Copilot SPEC",
    "done": "2026-11-21T09:10Z",
@@ -4709,14 +4689,20 @@
     {
      "who": "GETAC",
      "since": "2026-11-22T08:23Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-22T09:01Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-22T09:01Z",
+     "text": "Main c0e377f026 and 1ab4618fbf share Zen progress between both Remote Sensors bars. Live Editor confirmed omitted versus explicit zero and the delayed-frame 100% hold; the source probe covered the 5% cap and smooth downward retarget. Screen"
+    }
+   ]
   },
   {
    "n": 2045,
@@ -5108,5 +5094,5 @@
   }
  ],
  "source_revision": "345b7445eee1aabcfc126d5e58139aa2d0fc3ab0",
- "board_revision": "82afb600fda61a86320acb8906b08dea1bc7b331"
+ "board_revision": "af1d582cc55e88f04eebc605a0c4d91a10a729d1"
 }
