@@ -3473,46 +3473,6 @@
    ]
   },
   {
-   "n": 2086,
-   "name": "Stream online tiles where the offline map is missing",
-   "done": "2026-11-22T19:53Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-22T19:50Z",
-    "2026-11-22T19:51Z",
-    "2026-11-22T19:51Z",
-    "2026-11-22T19:52Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "a per-frame watcher finds view squares with no stored tile, centre first, at the depth the camera needs",
-     "x": false
-    },
-    {
-     "t": "it hands them to the existing online owner (one batch per frame, saved as provider tiles through adoption)",
-     "x": false
-    },
-    {
-     "t": "a parent tile stays drawn until the child arrives; tiles that left the view are dropped from the queue",
-     "x": false
-    },
-    {
-     "t": "streamed tiles get the oldest provider stamp (like manual Esri), sync to peers, are evicted first, and fetching pauses under the storage reserve",
-     "x": false
-    },
-    {
-     "t": "a Settings switch for online fetching and counts on the map's Settings page; no new text on screen",
-     "x": false
-    }
-   ],
-   "notes": []
-  },
-  {
    "n": 2087,
    "name": "MavServer release with the Admin tunnel bind (task 558",
    "done": "",
@@ -3525,26 +3485,6 @@
    "held": [],
    "steps": [],
    "notes": []
-  },
-  {
-   "n": 2089,
-   "name": "3D Map keeps each recorded flight in its own starting position. With the current local file paused or stopped",
-   "done": "2026-11-22T19:50Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T19:50Z",
-     "text": "a7d4967441 and f03b2f7777 on main. Pause and Stop keep the preceding draft in place while the Synthetic drone is moved. The next file starts at the manual position. Unity replay covered Pause, Resume, Stop and Zurich continuation, with no a"
-    }
-   ]
   },
   {
    "n": 2090,
@@ -5071,18 +5011,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE",
-     "since": "2026-11-23T19:45Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-23T19:54Z",
+     "text": "Analysis only, no code. Largest owner on the Lenovo: our replies' encode+seal+send on the main thread = HashReply 134 ms (304 flushes, ~0.44 ms per 8-hash message) + ReplySend 94 ms (full batches flushed inside the immediate reply) = ~228 m"
+    }
+   ]
   },
   {
    "n": 2148,
@@ -5559,6 +5496,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "919494444d748e29599bf5fecc7f853e7178b2c0",
- "board_revision": "5dd85e2cfda5055cb29c4e7e297895b60dd08686"
+ "source_revision": "5406f22f35352f3b18241dfaf76aae120f752828",
+ "board_revision": "b91fefc36b4370a46511f55fee7be35193e21936"
 }
