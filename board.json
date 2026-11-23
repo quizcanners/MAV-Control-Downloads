@@ -2651,7 +2651,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLAUDE_1710",
+     "since": "2026-11-23T13:28Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -3427,7 +3436,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLAUDE_PLAY_CHECKS",
+     "since": "2026-11-23T13:28Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -4947,7 +4965,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLAUDE_2132",
+     "since": "2026-11-23T13:27Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -5114,7 +5141,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLAUDE_PLAY_CHECKS",
+     "since": "2026-11-23T13:28Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -5149,6 +5185,42 @@
     },
     {
      "t": "Measure one-pass drift and stitching recovery in Unity",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 2141,
+   "name": "Scale the active 3D reconstruction and its Synthetic drone together when changing altitude",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-23T13:34Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Trace reconstruction Origin and reproduce zero or ignored altitude",
+     "x": false
+    },
+    {
+     "t": "Apply atomic scale and floor through the shared pose",
+     "x": false
+    },
+    {
+     "t": "Verify altitude edits and ground clearance in Unity",
      "x": false
     }
    ],
@@ -5442,5 +5514,5 @@
   }
  ],
  "source_revision": "a0d7807d2decd30d3525ba47bafb9337fef6b09c",
- "board_revision": "878210bf0770248ec375fdc4f5b3f224964850e3"
+ "board_revision": "a114267455b49cfe28c7121f2d620f3d5c535fd2"
 }
