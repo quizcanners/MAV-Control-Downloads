@@ -3440,26 +3440,6 @@
    "notes": []
   },
   {
-   "n": 2062,
-   "name": "Model Positioning",
-   "done": "2026-11-22T11:26Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T11:26Z",
-     "text": "Published ca397ac364 and a0a5508819. Paused Photo Tension now tries fresh retained reference groups. Mac Kenilworth ran more comparisons but no held-out acceptance. UZH held two photos, too few for the pose fit. See GPU Baseline, Photo Tens"
-    }
-   ]
-  },
-  {
    "n": 2063,
    "name": "Model Positioning keeps converging during and after capture. Extend the live elastic draft beyond the projection slots so independent real-photo evidence can correct poses and shared capture times. Se",
    "done": "",
@@ -3495,26 +3475,6 @@
      "by": "CODEX_MODEL_POSITIONING",
      "at": "2026-11-22T14:39Z",
      "text": "47d0b0be0b, f77485814d and d4da8e855e published. Photo Tension matches older recovery photos. Nine native tests and the change's Roslyn comparison passed. Three shifted controls ended within 0.53 s of truth. Two independent English Heritage"
-    }
-   ]
-  },
-  {
-   "n": 2064,
-   "name": "SDC Ping finds its USB board when the station starts with the STM32 board and another COM adapter already connected (SDC Ping SPEC",
-   "done": "2026-11-22T11:30Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_SDC",
-     "at": "2026-11-22T11:30Z",
-     "text": "Windows source published at cd43ce2ba4. A focused Windows check passed nine discovery assertions and selected COM17 with COM8 also present. Live station diagnostics reported COM17 Ready, an SDC session for USB2.0 PC CAMERA, and 10 board ack"
     }
    ]
   },
@@ -5082,7 +5042,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-23T11:34Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -5091,15 +5053,15 @@
      "who": "CODEX_MODEL_POSITIONING",
      "since": "2026-11-23T11:20Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Trace the missing buffers from the live Console",
-     "x": false
+     "x": true
     },
     {
      "t": "Rebind the buffers at all affected reconstruction dispatches",
@@ -5443,6 +5405,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "a945fa321caad32b77a26691eaf05355d3a07a08",
- "board_revision": "970dfaec6eca40e4d0450c87ce3e7d15e4865cf0"
+ "source_revision": "9f42ef2734566f659c5eb6fc9deffbdf0efacac5",
+ "board_revision": "079e4a6a970d08e375f7dedb5f0ed4b25b724e72"
 }
