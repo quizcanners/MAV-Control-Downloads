@@ -3384,26 +3384,6 @@
    ]
   },
   {
-   "n": 2047,
-   "name": "Restore the 3D Map live preview against the Kenilworth baseline",
-   "done": "2026-11-22T09:07Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_3D_PREVIEW",
-     "at": "2026-11-22T09:07Z",
-     "text": "74cdbac59e on main, Map/Video bump 736343858f. Roslyn clean, 7/7 EditMode in patched 874 Editor, live Kenilworth projection, Synthetic pose, ground paint and placement control passed. Pending independent source preserved approved geometry a"
-    }
-   ]
-  },
-  {
    "n": 2048,
    "name": "Camera SPEC",
    "done": "2026-11-22T09:32Z",
@@ -5089,18 +5069,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE",
-     "since": "2026-11-23T09:06Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-23T09:07Z",
+     "text": "0b8d2881c8: 20-unit thin chevron (CreateArrowSprite) as Arrow child of Fold icon; old 128x64 image not drawn (MavChat square still reads its sprite). Seen in Rog Editor Play open (^) and folded (v); NavigatorPathTests 12/12."
+    }
+   ]
   }
  ],
  "verify": [
@@ -5397,6 +5374,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "0b8d2881c8bc44f4a96df6ec68332e1ccb808bfd",
- "board_revision": "a56e6dd956b0fa6cf58992c3ef5d741e18dae3f7"
+ "source_revision": "706d2f8f7f9af04ed1115f8d29f20e0e99a13d9a",
+ "board_revision": "676cb541b4aabc622e32d68f67b278e17253e490"
 }
