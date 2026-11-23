@@ -5055,6 +5055,42 @@
      "text": "On main in edb69549b1. Same live Kenilworth terrain and six registered photos painted 370,482 of 589,824 texels compared with 222,888 before. Mac Unity GPU controls passed for clear rays, foreground blockers, missing depth and depth agreeme"
     }
    ]
+  },
+  {
+   "n": 2123,
+   "name": "Use one registered accumulation root for live Point Clouds and synthetic views",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-23T09:36Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Trace provisional and registered Disk publication",
+     "x": false
+    },
+    {
+     "t": "Require the same draft placement for displayed and synthetic Disks",
+     "x": false
+    },
+    {
+     "t": "Verify the single-root accumulation in Unity",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -5352,5 +5388,5 @@
   }
  ],
  "source_revision": "edb69549b1cd3477f2f532372787908e061b832e",
- "board_revision": "41c383ca11b71429f54484611ced0de88f43b9f0"
+ "board_revision": "cd09da59ff64ee7fca0a1ca1aae1f4d5b59e3684"
 }
