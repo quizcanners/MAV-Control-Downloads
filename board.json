@@ -5160,18 +5160,37 @@
   },
   {
    "n": 2157,
-   "name": "x",
+   "name": "Local machines (High performance",
    "done": "",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
-   "flags": [
-    "vague"
-   ],
+   "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Each machine, in its one checkout: push or commit any local work first (`git status`, `git log origin/main..HEAD`). Delete local branches, tags and stashes that point at old commits (`git branch -a`, ",
+     "x": false
+    },
+    {
+     "t": "`git fetch --depth=300 origin main`, then `git reflog expire --expire=now --all`, then `git gc --prune=now`, then `git lfs prune`. The working folder and Library are untouched. Never re-clone: that lo",
+     "x": false
+    },
+    {
+     "t": "Note the .git size before and after (`du -sh .git`) with `task_flow.py --note` on this task, as the machine's name",
+     "x": false
+    },
+    {
+     "t": "If an old commit is ever needed: `git fetch --unshallow` (or `--deepen=N`) on that machine, then the same gc afterwards. After this, pull main and refresh the Editor as usual (One Editor rule)",
+     "x": false
+    },
+    {
+     "t": "Close the task when all four machines have noted their sizes",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
@@ -5458,5 +5477,5 @@
   }
  ],
  "source_revision": "0d5ee500a0219ec625f547fc462aea6f6ac249d9",
- "board_revision": "c3783afceef9041ee23162bb6b5a967e9b7c217a"
+ "board_revision": "507053e624ee85dc241ba5a41ac592edd0b5f710"
 }
