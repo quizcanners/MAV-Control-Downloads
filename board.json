@@ -3344,26 +3344,6 @@
    ]
   },
   {
-   "n": 2048,
-   "name": "Camera SPEC",
-   "done": "2026-11-22T09:32Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-22T09:31Z",
-     "text": "Main ed47867b41 eases Planetary orbit entry from the zoomed pose over 0.25 s while applying mouse motion on the admission frame. Unity passed 24 focused zoom/entry tests; frozen Roslyn comparison reported no new errors. Map/Planet screen ch"
-    }
-   ]
-  },
-  {
    "n": 2049,
    "name": "Evacuation routes",
    "done": "2026-11-22T09:37Z",
@@ -4896,8 +4876,8 @@
     {
      "who": "CODEX",
      "since": "2026-11-23T09:04Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-23T09:34Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -4906,8 +4886,8 @@
    "notes": [
     {
      "by": "CODEX",
-     "at": "2026-11-23T08:13Z",
-     "text": "Quiz: \u201cUpdate release builds Android and Windows.\u201d Drive release folders currently list Android 850 and Windows 875. The Getac Editor has local edits and was active, both Windows build runners reported offline, and no build or version reser"
+     "at": "2026-11-23T09:34Z",
+     "text": "Shared release 877 published on main as 61c6fcd478. Native Android localization, graphics and signing preflight passed. First Android player attempt stalled during Unity Data Store startup and was archived. Android retried from current main"
     }
    ]
   },
@@ -5374,5 +5354,5 @@
   }
  ],
  "source_revision": "edb69549b1cd3477f2f532372787908e061b832e",
- "board_revision": "90b80a2549ff1781d4a280548dff9335bd68d61b"
+ "board_revision": "3b975c685d7c76afb3d9f5cea9c5931c42ed7aa6"
 }
