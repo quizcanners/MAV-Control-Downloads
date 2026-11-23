@@ -5226,7 +5226,7 @@
   {
    "n": 2152,
    "name": "Keep photo",
-   "done": "",
+   "done": "2026-11-23T18:30Z",
    "goal": false,
    "under": 1693,
    "ticks": [
@@ -5237,16 +5237,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-23T17:36Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Advance the recent-photo reference during weak map links and retain measured relative poses and paired depth in one continuous draft",
@@ -5261,7 +5252,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-23T18:30Z",
+     "text": "Main 5de0cbcada. Original Zurich file reached 98.8 s without looping in the ordinary Main Editor. 191/200 recent photos linked, longest gap 3.4 s. Relative displacement RMSE 0.79 m and whole-flight position RMSE 62.38 m. Exact current image"
+    }
+   ]
   },
   {
    "n": 2153,
@@ -5584,5 +5581,5 @@
   }
  ],
  "source_revision": "5de0cbcadae74d6e1c189fa7ae0553a68134d7ab",
- "board_revision": "93bbf2b4d75f97f7ac2cbdbc5bea49a555c599de"
+ "board_revision": "a683c4dfc1920ab0361030613656238bd56b0dee"
 }
