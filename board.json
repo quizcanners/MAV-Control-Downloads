@@ -331,7 +331,7 @@
   },
   {
    "n": 367,
-   "name": "Mav Chat reads as a proper chat at full height and a plain transcript at half height, and every touch on its capsule answers at once",
+   "name": "Mav Chat reads as a proper chat at full height and a plain transcript at half height, and every touch on its capsule answers at once. Done on main: snapping capsule carousel (94f6ee8db0), capsule draw",
    "done": "",
    "goal": true,
    "under": 0,
@@ -349,7 +349,7 @@
      "x": false
     },
     {
-     "t": "Two phones on VPN: shared deletion end to end (text, photo, group, offline peer returning, seven-day-old message) with disposable data; left tabs stay after leaving Chat",
+     "t": "Two phones on VPN: shared deletion end to end (text, photo, group, offline peer returning, seven-day-old message) with disposable data; left tabs stay after leaving Chat (the fixture covers persistenc",
      "x": false
     },
     {
@@ -361,35 +361,15 @@
      "x": false
     },
     {
-     "t": "223de4e530 removes a real hang risk: per-step while loops could run indefinitely on non-finite or extreme touch coordinates; panel-step updates are constant time with the same 60/40 thresholds, invali",
-     "x": true
+     "t": "Divider-swipe freeze (task 577): not proven; hub records 571-650 held no matching report. Get the submitted report or a device touch trace (Android/iOS live divider swipe), then fix what it shows",
+     "x": false
     },
     {
-     "t": "Windows (HEAVY): EditMode All at bef85b47bf 8572 passed, 0 failed; live Editor ac2f42eb65 at 600x900 split: sixteen scripted mouse swipes all acquired the divider and alternated Chat/GPS, Editor staye",
-     "x": true
-    },
-    {
-     "t": "Not proof of the reported freeze: hub records 571-650 held no matching report; get the report or a device touch trace (Android/iOS touch path, live divider swipe on a device), then fix what it shows",
+     "t": "Peer list on a phone/current build: row list top below the search field (runtime code does it), last row's rounded corner/shadow gone at the panel bottom, panel meets the screen top at the full stop; ",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CODEX_MAVCHAT_EDITOR",
-     "at": "2026-11-16T22:52Z",
-     "text": "Inspected the live Editor prefab: Chat suppresses Button Dark Opaque block while Row Light and the independent Previosu Separator remain; the light also owns selection/hover, and removing it would break those states. Current source/prefab m"
-    },
-    {
-     "by": "CODEX_UI_1407",
-     "at": "2026-11-17T07:17Z",
-     "text": "Current main keeps Chat row body hidden; remaining Row Light handles selection and pointing, so removing it is unsupported. iPad and iPhone unavailable in devicectl; prior Editor inspections did not reproduce the dashed edges. Resume with a"
-    },
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T15:12Z",
-     "text": "94f6ee8db0 added the snapping capsule carousel. b13055ca65 clears the top controls in portrait Notifications and folds the sheet for tall stacks. 24b7343f0b renders the Menu shortcut selector above the capsule. Mac EditMode 163 passed acros"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 368,
@@ -5400,5 +5380,5 @@
   }
  ],
  "source_revision": "1fab05d24959c93f5f62d872a3bcb7e53722739a",
- "board_revision": "c4c368578551fe49b3bd6bc044efe35a2d54dce2"
+ "board_revision": "f4b80f06eb2ef02af7168ddefd35c63e6f9ebb58"
 }
