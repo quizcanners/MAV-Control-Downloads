@@ -5022,7 +5022,7 @@
   {
    "n": 2122,
    "name": "Accumulate live video colour on ground wherever depth leaves it visible",
-   "done": "",
+   "done": "2026-11-23T09:35Z",
    "goal": false,
    "under": 0,
    "ticks": [
@@ -5033,16 +5033,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-23T09:21Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Measure the live ground coverage and trace the depth test",
@@ -5057,7 +5048,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-23T09:35Z",
+     "text": "On main in edb69549b1. Same live Kenilworth terrain and six registered photos painted 370,482 of 589,824 texels compared with 222,888 before. Mac Unity GPU controls passed for clear rays, foreground blockers, missing depth and depth agreeme"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5355,5 +5352,5 @@
   }
  ],
  "source_revision": "edb69549b1cd3477f2f532372787908e061b832e",
- "board_revision": "2a98003c176402edf49fabb25cef32f7d4e02ef7"
+ "board_revision": "41c383ca11b71429f54484611ced0de88f43b9f0"
 }
