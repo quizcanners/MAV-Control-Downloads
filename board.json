@@ -3527,20 +3527,6 @@
    "notes": []
   },
   {
-   "n": 2088,
-   "name": "Pilot Config panel and Pre-flight rows",
-   "done": "2026-11-22T19:16Z",
-   "goal": false,
-   "under": 364,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
    "n": 2089,
    "name": "3D Map keeps each recorded flight in its own starting position. With the current local file paused or stopped",
    "done": "2026-11-22T19:50Z",
@@ -5246,14 +5232,20 @@
     {
      "who": "CODEX_MODEL_POSITIONING",
      "since": "2026-11-23T19:06Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-23T19:20Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-23T19:20Z",
+     "text": "Main 67e44c1b66 adds repeatable Pause scoring. Ordinary Zurich replay retained 16 identical packets; all moved and Disk rebuilt. At 120 s, 1,256 independent matches: median 1.27\u21921.41 px, p90 10.79\u21929.35. At ~198 s median 0.97 px but 3D separ"
+    }
+   ]
   },
   {
    "n": 2154,
@@ -5558,6 +5550,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "449ef912bd1e54d4690fe2c43f517aac8d4d221b",
- "board_revision": "768222eb68758b8aec08b21697c47eb5139bf189"
+ "source_revision": "67e44c1b665a602e7b057d18b9693e7258337829",
+ "board_revision": "c76e23a4d7b0de9340f3876c93c995226844499a"
 }
