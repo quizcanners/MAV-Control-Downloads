@@ -5073,6 +5073,42 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 2124,
+   "name": "Clip Point Cloud squircles where paired Pano360 depth shows the background",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-23T09:44Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Trace why the current depth test fails to cut the squircle",
+     "x": false
+    },
+    {
+     "t": "Align the color, depth and normal pass silhouettes",
+     "x": false
+    },
+    {
+     "t": "Verify a foreground squircle over a measured background edge in Unity",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -5369,6 +5405,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "edb69549b1cd3477f2f532372787908e061b832e",
- "board_revision": "29b3efa3e6a7547aaccfed1ee8f0cf493e7d398c"
+ "source_revision": "4f589baaa35f1653d557866f1a31b764de09ea83",
+ "board_revision": "7ad3e625f553318db5de9a47a9938feb08616346"
 }
