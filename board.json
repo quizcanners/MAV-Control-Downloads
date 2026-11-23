@@ -3473,46 +3473,6 @@
    ]
   },
   {
-   "n": 2080,
-   "name": "REVIEW 88ae7edba0",
-   "done": "2026-11-22T18:46Z",
-   "goal": false,
-   "under": 364,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_PILOT",
-     "at": "2026-11-22T18:45Z",
-     "text": "cbf4cade35: hold members, ReleaseSidePreview, TurnToNearestDirection and the per-frame held-pixel reads deleted; side look takes only two-finger/right-mouse turn (elevation -90..90 kept from 64ff855de1)."
-    }
-   ]
-  },
-  {
-   "n": 2082,
-   "name": "REVIEW 2d1d2efa63",
-   "done": "2026-11-22T18:47Z",
-   "goal": false,
-   "under": 364,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_PILOT",
-     "at": "2026-11-22T18:46Z",
-     "text": "e9d7a86cd9: AircraftActions.BottomLight {Aircraft, Applying, Retrying, NotOffered}, shown in DJI Settings; after a refusal resend only when the reported light, connection or wish changes. DJI SPEC Bottom light updated."
-    }
-   ]
-  },
-  {
    "n": 2086,
    "name": "Stream online tiles where the offline map is missing",
    "done": "2026-11-22T19:53Z",
@@ -5221,7 +5181,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-23T18:55Z",
+     "text": "The first correction now nudges retained photos along the height axis in the paused pose solver. Main 8407895e2e requests measured elevation over the photo footprint and carries the capture with a deliberate drone Move. Keep whole-capture p"
+    }
+   ]
   },
   {
    "n": 2152,
@@ -5277,25 +5243,22 @@
   {
    "n": 2154,
    "name": "Menu \u2192 Layers tab",
-   "done": "",
+   "done": "2026-11-23T18:42Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_LAYERS",
-     "since": "2026-11-23T18:28Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_LAYERS",
+     "at": "2026-11-23T18:42Z",
+     "text": "fd3b873859 on main: Layers grouped (Map, Situation, Infrastructure) into header panels with [Toggle] [Icon] [Label] rows, two columns centered; Play capture checked on GETAC. Changed EditMode tests compiled but not run (the normal Editor re"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5580,6 +5543,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "5de0cbcadae74d6e1c189fa7ae0553a68134d7ab",
- "board_revision": "a683c4dfc1920ab0361030613656238bd56b0dee"
+ "source_revision": "8407895e2e4c457f356317393eb3160f2026b096",
+ "board_revision": "2ab89e3ed8dc2c55d04edb6bafc1e8200714e1aa"
 }
