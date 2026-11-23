@@ -3344,26 +3344,6 @@
    ]
   },
   {
-   "n": 2049,
-   "name": "Evacuation routes",
-   "done": "2026-11-22T09:37Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_EVACUATION",
-     "at": "2026-11-22T09:37Z",
-     "text": "Done fe950fecb2: Evacuation routes (renamed from Migration Vectors everywhere, saves/messages/keys too, no migration), entity/waypoint/drone feeds and their Suggestions buttons removed, Painting toolbar row Evacuation vectors paints one rou"
-    }
-   ]
-  },
-  {
    "n": 2050,
    "name": "DJI Pilot view",
    "done": "",
@@ -5062,7 +5042,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-23T09:38Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -5071,15 +5053,15 @@
      "who": "CODEX_MODEL_POSITIONING",
      "since": "2026-11-23T09:36Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Trace provisional and registered Disk publication",
-     "x": false
+     "x": true
     },
     {
      "t": "Require the same draft placement for displayed and synthetic Disks",
@@ -5388,5 +5370,5 @@
   }
  ],
  "source_revision": "edb69549b1cd3477f2f532372787908e061b832e",
- "board_revision": "cd09da59ff64ee7fca0a1ca1aae1f4d5b59e3684"
+ "board_revision": "29b3efa3e6a7547aaccfed1ee8f0cf493e7d398c"
 }
