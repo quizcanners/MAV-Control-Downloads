@@ -5078,7 +5078,7 @@
   {
    "n": 2124,
    "name": "Clip Point Cloud squircles where paired Pano360 depth shows the background",
-   "done": "",
+   "done": "2026-11-23T09:56Z",
    "goal": false,
    "under": 0,
    "ticks": [
@@ -5089,16 +5089,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-23T09:44Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Trace why the current depth test fails to cut the squircle",
@@ -5113,7 +5104,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-23T09:56Z",
+     "text": "main aa1506819e. Unity Metal reproduced both halves drawing before and removed the background half after, with identical color, depth and normal coverage. Pano360 PseudoDecal painted the surviving geometry. The app and edit-mode assemblies "
+    }
+   ]
   }
  ],
  "verify": [
@@ -5411,5 +5408,5 @@
   }
  ],
  "source_revision": "aa1506819e7eb83bfdd9a360830af44a8ec478db",
- "board_revision": "86b74250935803b0bddbc08ae591617865a5e8ca"
+ "board_revision": "6e1e21f3d6a27ca261af83f7e576cee5229d132a"
 }
