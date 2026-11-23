@@ -2900,26 +2900,6 @@
    ]
   },
   {
-   "n": 1875,
-   "name": "Host tests kept as libraries",
-   "done": "2026-11-22T17:20Z",
-   "goal": false,
-   "under": 369,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_1875",
-     "at": "2026-11-22T17:19Z",
-     "text": "Pushed 6a267b980f. Ran the four on the Getac: 0 pass. camera_gesture stopped at the copy (mapLighting.auto gone); agent_native read Station_JsonSerialization.cs (gone): both deleted with their hosts. light_host and diagnostic_photo kept, ca"
-    }
-   ]
-  },
-  {
    "n": 1897,
    "name": "Reduce cumulative camera pose drift in Unity 3D map generation on continuous Video Source footage (goal 1693). Use the Kalasatama waterfront receipt in GPU.md and the earlier Kulosaari depth baseline.",
    "done": "",
@@ -3253,26 +3233,6 @@
      "by": "CODEX_VIDEO_STRESS",
      "at": "2026-11-21T19:47Z",
      "text": "Published 58571b4880 and 8c502a011e. Positioned draft photo anchors, idle pose comparisons, and survey runner. Kenilworth joined in the same draft and retained the anchor; idle comparisons ran and settled without publishing a correction. 25"
-    }
-   ]
-  },
-  {
-   "n": 2039,
-   "name": "Bind the SurfaceQuadMap shader in the Editor",
-   "done": "2026-11-22T17:26Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_2039",
-     "at": "2026-11-22T17:26Z",
-     "text": "Shader bound via Singleton_GroundStation.SurfaceQuadMapShader in Bootstrap.unity, moved to Web Mercator/TileData with GUID kept, Resources.Load removed (7fada976e3, 6cc2ed56ce). Compile showed no errors in these files; the only error was an"
     }
    ]
   },
@@ -5136,7 +5096,7 @@
     {
      "who": "CODEX_MODEL_POSITIONING",
      "since": "2026-11-23T14:28Z",
-     "noted": "2026-11-23T17:17Z",
+     "noted": "2026-11-23T17:31Z",
      "progress": 67,
      "ticked": 2,
      "total": 3
@@ -5159,8 +5119,8 @@
    "notes": [
     {
      "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-23T17:17Z",
-     "text": "Main 60be8fceb6 replaces live Disk percentile clipping with weights. Metal verified weak samples and that unsupported fresh photos report their retained fit. Zurich loses at 22.2 m. Main 02d37b5aec records a 29% lens jump on the same exposu"
+     "at": "2026-11-23T17:31Z",
+     "text": "Main 0fd39fc30a fades stale yaw independently of translation. Six Unity tests passed, including a lateral shift and two yaw signs. Opt-in flow-renewal transferred depth once, got transient DA3 recovery at 16.1 s, and lost again at 19.6 s wi"
     }
    ]
   },
@@ -5680,6 +5640,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "02d37b5aec4745d4cfeb612894dbb55f436f3f79",
- "board_revision": "3d9aee78067ce76541ea6e360347f56a55ed7b4a"
+ "source_revision": "0fd39fc30a1b1e9a5e37081a95204e56c3c0ca03",
+ "board_revision": "57ed1fbec586c615d66f7b57a9fe738e94580041"
 }
