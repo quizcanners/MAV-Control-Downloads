@@ -5062,16 +5062,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-23T11:06Z",
-     "noted": "",
-     "progress": 67,
-     "ticked": 2,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Measure the exposure, pose and lens used by the live First Person View",
@@ -5086,7 +5077,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-23T11:17Z",
+     "text": "main b86b58bea5. In live Synthetic Pilot View the rendered camera was ~661 m and 47.7\u00b0 from the registered photo camera. Pilot now presents a single registered image, pose and fitted off-center lens after draft placement. App and ECS tests "
+    }
+   ]
   }
  ],
  "verify": [
@@ -5383,6 +5380,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "b86b58bea5c901a028fa87fb0236bca5ed5409f0",
- "board_revision": "0abbc5d7ad563ca3f1473c4f97e86b38f46c1200"
+ "source_revision": "15ab053e2a5048583f8c302ba81ec181f8761c38",
+ "board_revision": "8c81addefd3ebf68159dda65c5f2159a4b006791"
 }
