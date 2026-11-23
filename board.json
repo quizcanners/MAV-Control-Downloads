@@ -1848,8 +1848,8 @@
      "who": "CLAUDE_735_STATICS",
      "since": "2026-11-23T12:34Z",
      "noted": "",
-     "progress": 50,
-     "ticked": 2,
+     "progress": 75,
+     "ticked": 3,
      "total": 4
     }
    ],
@@ -1863,31 +1863,15 @@
      "x": true
     },
     {
-     "t": "Audit static caches and event subscriptions per system against the rule; add the missing Dispose/OnDisable (native arrays, RenderTextures, ComputeBuffers, threads, sockets)",
+     "t": "Audit static caches and event subscriptions per system against the rule; add the missing Dispose/OnDisable (native arrays, RenderTextures, ComputeBuffers, threads, sockets). Still open: Roadmap feedba",
      "x": false
     },
     {
-     "t": "Editor: play, force a script recompile, confirm nothing from the first run is left (native leak warnings, app.memory)",
-     "x": false
+     "t": "Editor: play, force a script recompile, confirm nothing from the first run is left (done on the Getac and the Rog; the only logged error is the Mission_Sync DirectoryNotFound for the absent G: Drive p",
+     "x": true
     }
    ],
-   "notes": [
-    {
-     "by": "REVIEW",
-     "at": "2026-11-21T04:18Z",
-     "text": "CR-F732-01 P3: Linked Browser commands stay stopped when the same Station is re-enabled. S1/S2 brief ready for quiz: [review](https://github.com/quizcanners/MAV_Control/blob/main/Coordination/Reviews/62c88c8d3.md#cr-f732-01--p3-linked-brows"
-    },
-    {
-     "by": "CLAUDE_735",
-     "at": "2026-11-22T21:23Z",
-     "text": "93648e0f60: Linked Browser gets a fresh owner after its final stop (CR-F732-01). Pano360 and 5 other decals release their material copy. Keep-awake, GPS/Starlink, geometry and trail SQLite readers, UDP worker keys, VPN inbox and speed test "
-    },
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-23T08:37Z",
-     "text": "Editor step done on the Rog at daa1a38ea3: Play, scripts.reload in Play (domain reload 7.5 s), no leak/not-disposed warning, lifecycle_error_count=0, Unity allocated 1.46 GB before vs 1.36 GB after; the only logged error is the same Mission"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 854,
@@ -5316,5 +5300,5 @@
   }
  ],
  "source_revision": "1fab05d24959c93f5f62d872a3bcb7e53722739a",
- "board_revision": "9bad6a70ab70bc3fa1fd80cd0877284d08735c25"
+ "board_revision": "f68a9fcbc05206c7d4c630661860048fa3a0da92"
 }
