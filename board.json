@@ -5015,7 +5015,7 @@
   {
    "n": 2127,
    "name": "Show the ground paint by remapping stored pixel quality to display opacity",
-   "done": "",
+   "done": "2026-11-23T11:14Z",
    "goal": false,
    "under": 0,
    "ticks": [
@@ -5026,16 +5026,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-23T11:03Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Measure pixel quality in the live ground atlas",
@@ -5050,7 +5041,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-23T11:14Z",
+     "text": "main 4ec2a202b4 and 604a512c81. The live 4096\u00b2 atlas median quality was 6/255. Metal confirmed the display opacity rises from about 9% to 61% while empty and reserved texels stay transparent. Imported the published shader into the active Ed"
+    }
+   ]
   },
   {
    "n": 2128,
@@ -5384,5 +5381,5 @@
   }
  ],
  "source_revision": "604a512c816ae68faaff13ef91b12940ff8da4e9",
- "board_revision": "651b2fefcdc709ee16904ee96d7dc2e76ded384a"
+ "board_revision": "99cd9cae07cb2a6837ac5f3b346b903caa7436e8"
 }
