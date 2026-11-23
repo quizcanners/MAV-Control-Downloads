@@ -4987,16 +4987,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-23T12:36Z",
-     "noted": "",
-     "progress": 67,
-     "ticked": 2,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Feed accepted linear and angular deltas to DroneState",
@@ -5011,7 +5002,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-23T12:54Z",
+     "text": "Live Unity verified same Synthetic, Pilot and projector pose; native keyframe timing, wrapped yaw, and 30 degree extrapolation bound passed. Kenilworth stable interval: 12.25 m/s from 12.39 requested, 11.15 deg/s from 11.21 requested, no re"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5301,5 +5298,5 @@
   }
  ],
  "source_revision": "1d81edfb87ba4ee8b58c15979e705237ff879398",
- "board_revision": "bfdc264acc59acc2820af700d4294dc9bf33027d"
+ "board_revision": "b02c6e6e98eaff1f519f4074aae8c5278696a903"
 }
