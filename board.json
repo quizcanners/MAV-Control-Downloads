@@ -4668,29 +4668,20 @@
   {
    "n": 2115,
    "name": "Brigade 68 Android and Windows release builds",
-   "done": "",
+   "done": "2026-11-23T11:23Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX",
-     "since": "2026-11-23T09:04Z",
-     "noted": "2026-11-23T10:45Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX",
-     "at": "2026-11-23T10:45Z",
-     "text": "Release 877 is published on main. Windows x64 877 from edb69549b1 is verified in Brigade 68 Drive release and Test and the sealed GitHub Test catalog. The superseded Windows release is archived. Android passed the earlier Data Store startup"
+     "at": "2026-11-23T11:23Z",
+     "text": "Brigade 68 release 877 delivered on both platforms. Android ARM64 from 823b166f53 is signed and Windows x64 from edb69549b1 is packaged and verified. Drive release and Test listings, matching mounted hashes, sealed GitHub Test catalog and b"
     }
    ]
   },
@@ -5120,6 +5111,42 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 2130,
+   "name": "Match Pilot video",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-23T11:25Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Lock the Synthetic Pilot camera to the recorded optics and pose",
+     "x": false
+    },
+    {
+     "t": "Use that same exposure as the primary Pano360 photo",
+     "x": false
+    },
+    {
+     "t": "Replay in Unity and compare Pilot video shown and hidden",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -5416,6 +5443,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "15ab053e2a5048583f8c302ba81ec181f8761c38",
- "board_revision": "aed7201604ed8d3734edc331ee8e4c33028e905d"
+ "source_revision": "a945fa321caad32b77a26691eaf05355d3a07a08",
+ "board_revision": "970dfaec6eca40e4d0450c87ce3e7d15e4865cf0"
 }
