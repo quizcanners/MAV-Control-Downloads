@@ -3364,46 +3364,6 @@
    ]
   },
   {
-   "n": 2051,
-   "name": "Video Source subtab",
-   "done": "2026-11-22T10:00Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-22T10:00Z",
-     "text": "Done in 6258f87832."
-    }
-   ]
-  },
-  {
-   "n": 2052,
-   "name": "Video Source tab shows the source in use under its label; Restream panel row 2 draws one continuous separator line (no two-column look).",
-   "done": "2026-11-22T10:01Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-22T10:01Z",
-     "text": "Done in d201d7c97d. Not compiled here (other sessions editing this checkout)."
-    }
-   ]
-  },
-  {
    "n": 2053,
    "name": "Situation SPEC",
    "done": "2026-11-22T10:11Z",
@@ -5115,7 +5075,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-23T10:01Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -5124,15 +5086,15 @@
      "who": "CODEX_MODEL_POSITIONING",
      "since": "2026-11-23T09:59Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Trace how joined Disks are tested against real photo rays",
-     "x": false
+     "x": true
     },
     {
      "t": "Make weak Disks yield to reliable free-space evidence",
@@ -5440,6 +5402,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "aa1506819e7eb83bfdd9a360830af44a8ec478db",
- "board_revision": "f73ae548fbb3a7c990a2164299e7a199b29016af"
+ "source_revision": "b21ffdc5b976816822f482e43de58d58719ada45",
+ "board_revision": "084962f89f5e8032e44c478f163a8ed4488c4b32"
 }
