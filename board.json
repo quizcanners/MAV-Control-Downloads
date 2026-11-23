@@ -5108,6 +5108,42 @@
      "text": "main aa1506819e. Unity Metal reproduced both halves drawing before and removed the background half after, with identical color, depth and normal coverage. Pano360 PseudoDecal painted the surviving geometry. The app and edit-mode assemblies "
     }
    ]
+  },
+  {
+   "n": 2125,
+   "name": "Clean weak Point Cloud Disks against paired photo depth after Video Source joins",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-23T09:59Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Trace how joined Disks are tested against real photo rays",
+     "x": false
+    },
+    {
+     "t": "Make weak Disks yield to reliable free-space evidence",
+     "x": false
+    },
+    {
+     "t": "Verify confirmed and occluded geometry is preserved in Unity",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -5405,5 +5441,5 @@
   }
  ],
  "source_revision": "aa1506819e7eb83bfdd9a360830af44a8ec478db",
- "board_revision": "1515a56f7acb76377eec33a7d8a2dfcfd54bf8cb"
+ "board_revision": "f73ae548fbb3a7c990a2164299e7a199b29016af"
 }
