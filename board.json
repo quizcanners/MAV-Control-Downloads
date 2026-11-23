@@ -5079,18 +5079,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE",
-     "since": "2026-11-23T13:08Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-23T13:08Z",
+     "text": "877e40b26c: OffersAnyNumberOn; catalog tests 34/34, inspector 34/34. Not run on a packaged build (the Editor has no installed channel). On Android a Release build with a lower number than the installed Test build may be refused by the syste"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5380,5 +5377,5 @@
   }
  ],
  "source_revision": "63370938db7f5de962e6a17765a3908957d21c31",
- "board_revision": "2f434b815e0e90c3a61d46237918bd9b3cde1af5"
+ "board_revision": "c549d97ac996b228ad092b71972d1b5222244db1"
 }
