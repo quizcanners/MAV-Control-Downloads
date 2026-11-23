@@ -5206,7 +5206,9 @@
    "done": "",
    "goal": false,
    "under": 1693,
-   "ticks": [],
+   "ticks": [
+    "2026-11-23T13:42Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -5215,15 +5217,15 @@
      "who": "CODEX_MODEL_POSITIONING",
      "since": "2026-11-23T13:34Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Trace reconstruction Origin and reproduce zero or ignored altitude",
-     "x": false
+     "x": true
     },
     {
      "t": "Apply atomic scale and floor through the shared pose",
@@ -5520,5 +5522,5 @@
   }
  ],
  "source_revision": "1de493d3a99e54bbea9e874c64d26a64f7e38fc0",
- "board_revision": "d0433b694997584730c870efcaa3d86a7c44ad00"
+ "board_revision": "b9de5047e94fd4d67ca3a63f602ecdf70028b62a"
 }
