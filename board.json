@@ -5060,18 +5060,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE",
-     "since": "2026-11-23T08:54Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-23T08:55Z",
+     "text": "168a3444af: SuggestionManager gives SelectedEmpty (empty field + Paste) only to a positionless Remote Sensor or Street View; peers and other tracked objects without a position show no field. Compiles in Rog Editor; SPEC and Map page updated"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5368,6 +5365,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "168a3444afef6c3bf5689094aa58bf690b316f0d",
- "board_revision": "7a5ccb21396d77caa604e292ec1f8c58d43e159a"
+ "source_revision": "9028f6812a0cc688f21bdef1290245c4b4294229",
+ "board_revision": "525e7fbd2e81f3bb6b9962715d571a2c800a25bd"
 }
