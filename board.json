@@ -2656,22 +2656,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_1710",
-     "since": "2026-11-23T13:28Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC",
      "at": "2026-11-19T00:58Z",
      "text": "Lenovo Dev 861 frame 19102 spent 1,703 ms waiting for the graphics worker. Perfetto followed UploadTexture2D into PowerVR glTexStorage2D allocation. Two Mask Apply calls totalled 524,288 B and 0.099 ms, consistent with two 256x256 RGBA32 up"
+    },
+    {
+     "by": "CLAUDE_1710",
+     "at": "2026-11-23T14:03Z",
+     "text": "f2a8aa2470: lag receipt now shows uploads of frame N and N-1 per owner with allocation counts, plus lag_N_allocation lines (Element Mask chunk/view, Imagery tile, Planet height page; size, format). Build 877 pan on Lenovo (2026-11-23) did n"
     }
    ]
   },
@@ -5534,5 +5530,5 @@
   }
  ],
  "source_revision": "f2a8aa24708d92ad852d896184900d0c922ea0cf",
- "board_revision": "9af21ee8cee388ff9de1e0b1dbe64e7e33395046"
+ "board_revision": "51d1ed0b95f9aa4979c687fa76e739b5402a1fe4"
 }
