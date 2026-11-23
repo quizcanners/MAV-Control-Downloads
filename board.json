@@ -3440,26 +3440,6 @@
    "notes": []
   },
   {
-   "n": 2061,
-   "name": "Every click on video makes a ping on screen and sends it to every peer (no click thrown away)",
-   "done": "2026-11-22T11:07Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "agent",
-     "at": "2026-11-22T11:07Z",
-     "text": "87a2bf94d9: every mouse press read from the Input System event stream pings (merged presses at 8 fps idle no longer lost); video tap never cancelled by movement or releasing over a control; SDC peer pings queued, none replaced. Point Ping a"
-    }
-   ]
-  },
-  {
    "n": 2062,
    "name": "Model Positioning",
    "done": "2026-11-22T11:26Z",
@@ -5040,7 +5020,8 @@
    "under": 0,
    "ticks": [
     "2026-11-23T11:04Z",
-    "2026-11-23T11:05Z"
+    "2026-11-23T11:05Z",
+    "2026-11-23T11:14Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -5050,8 +5031,8 @@
      "who": "CODEX_MODEL_POSITIONING",
      "since": "2026-11-23T11:03Z",
      "noted": "",
-     "progress": 67,
-     "ticked": 2,
+     "progress": 100,
+     "ticked": 3,
      "total": 3
     }
    ],
@@ -5066,7 +5047,7 @@
     },
     {
      "t": "Verify the remap and keep the live draft visible in Unity",
-     "x": false
+     "x": true
     }
    ],
    "notes": []
@@ -5403,5 +5384,5 @@
   }
  ],
  "source_revision": "604a512c816ae68faaff13ef91b12940ff8da4e9",
- "board_revision": "73b902785762258d963079996adb499c261d2538"
+ "board_revision": "651b2fefcdc709ee16904ee96d7dc2e76ded384a"
 }
