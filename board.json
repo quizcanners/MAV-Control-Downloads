@@ -3473,26 +3473,6 @@
    ]
   },
   {
-   "n": 2079,
-   "name": "Evacuation routes rename (fe950fecb2",
-   "done": "2026-11-22T17:55Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_EVACUATION",
-     "at": "2026-11-22T17:54Z",
-     "text": "Done 70823ef8d2: Manager.DeleteRetiredFiles removes Data/MigrationVectorsRoutes.mcs (+.previous/.tmp) and the Migration Vectors history folder once per run on a worker (first ManagedUpdate) and in DeleteData (Erase All). SPEC Stored names l"
-    }
-   ]
-  },
-  {
    "n": 2080,
    "name": "REVIEW 88ae7edba0",
    "done": "2026-11-22T18:46Z",
@@ -3513,26 +3493,6 @@
    ]
   },
   {
-   "n": 2081,
-   "name": "SDC Ping goggles queue (87a2bf94d9",
-   "done": "2026-11-22T17:56Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "SDC_USB_VIDEO",
-     "at": "2026-11-22T17:56Z",
-     "text": "db139f03c9 fixes it (SDC Ping SPEC updated). Compile not checked here."
-    }
-   ]
-  },
-  {
    "n": 2082,
    "name": "REVIEW 2d1d2efa63",
    "done": "2026-11-22T18:47Z",
@@ -3549,46 +3509,6 @@
      "by": "CLAUDE_PILOT",
      "at": "2026-11-22T18:46Z",
      "text": "e9d7a86cd9: AircraftActions.BottomLight {Aircraft, Applying, Retrying, NotOffered}, shown in DJI Settings; after a refusal resend only when the reported light, connection or wish changes. DJI SPEC Bottom light updated."
-    }
-   ]
-  },
-  {
-   "n": 2083,
-   "name": "SDC Settings (f00454e5ae",
-   "done": "2026-11-22T17:57Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "SDC_USB_VIDEO",
-     "at": "2026-11-22T17:56Z",
-     "text": "db139f03c9 fixes it (SDC Ping SPEC updated). Compile not checked here."
-    }
-   ]
-  },
-  {
-   "n": 2085,
-   "name": "REVIEW 87a639dddb",
-   "done": "2026-11-22T17:55Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-22T17:54Z",
-     "text": "Done in 26c5daeb4b: Station.UI.Plural (PluralForm One/Few/Many) is the one plural rule; Remote Sensors device age and Video Server retry text call it. Not compiled yet: the Editor bridge is down on another session's compile error."
     }
    ]
   },
@@ -5312,7 +5232,9 @@
    "done": "",
    "goal": false,
    "under": 1693,
-   "ticks": [],
+   "ticks": [
+    "2026-11-23T18:20Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -5321,15 +5243,15 @@
      "who": "CODEX_MODEL_POSITIONING",
      "since": "2026-11-23T17:36Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Advance the recent-photo reference during weak map links and retain measured relative poses and paired depth in one continuous draft",
-     "x": false
+     "x": true
     },
     {
      "t": "Verify local tracking through a deliberately weakened link and through the original first pass in Pilot View",
@@ -5639,6 +5561,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "9675bd8dc68cd140a3a0c99e6124be6c5715b1a7",
- "board_revision": "b23f001f7c1e205f443d64a9a5d4f107c8a31b6b"
+ "source_revision": "28c9072dd6456d7fac9c540f568a3a40a373fdc1",
+ "board_revision": "277db3291330e08b7210842c9fc613559799c3e8"
 }
