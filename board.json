@@ -4948,7 +4948,7 @@
   {
    "n": 2159,
    "name": "Establish the raw 3D Map generation performance and tracking baseline with several recorded flights and synchronized video-hidden Pilot views.",
-   "done": "",
+   "done": "2026-11-23T22:40Z",
    "goal": false,
    "under": 0,
    "ticks": [
@@ -4959,16 +4959,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_RAW_MAP_BASELINE",
-     "since": "2026-11-23T21:35Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Clean the ordinary capture path and retain dense raw surface generation",
@@ -4983,7 +4974,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_RAW_MAP_BASELINE",
+     "at": "2026-11-23T22:40Z",
+     "text": "Published e0fdecea07 and a3f8dc73b6. Six one-pass runs on three videos; synchronized comparisons and reusable fixture in Performance Baseline/GPU.md and local Raw-Map-Baseline-2159/final/observations.md. Throughput 67,023 / 58,007 / 25,502 "
+    }
+   ]
   },
   {
    "n": 2160,
@@ -5338,5 +5335,5 @@
   }
  ],
  "source_revision": "a3f8dc73b6832728959d72b4b32b5c3cb7a316e5",
- "board_revision": "fae039bdbcf6824cf4ffcd55e92c8c0256795afe"
+ "board_revision": "5264976a77b70cf5a1c646a71068a7edfbc85f10"
 }
