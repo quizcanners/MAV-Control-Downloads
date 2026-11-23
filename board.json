@@ -5049,16 +5049,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-23T09:36Z",
-     "noted": "",
-     "progress": 67,
-     "ticked": 2,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Trace provisional and registered Disk publication",
@@ -5073,7 +5064,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-23T09:57Z",
+     "text": "main aa1506819e. Display and synthetic cameras now use one registered Disk cloud while provisional photos still feed recovery. Unity Metal matched all 224 ground taps before and after. Remaining check is replaying tracking loss and a source"
+    }
+   ]
   },
   {
    "n": 2124,
@@ -5408,5 +5405,5 @@
   }
  ],
  "source_revision": "aa1506819e7eb83bfdd9a360830af44a8ec478db",
- "board_revision": "6e1e21f3d6a27ca261af83f7e576cee5229d132a"
+ "board_revision": "1515a56f7acb76377eec33a7d8a2dfcfd54bf8cb"
 }
