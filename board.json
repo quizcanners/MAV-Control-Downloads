@@ -5347,7 +5347,20 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Build a repeatable synthetic flight with independent camera positions, orientations and axial depth. Use the same distinct exposures and timestamps, but advance the Synthetic drone at an incorrect fix",
+     "x": false
+    },
+    {
+     "t": "After the live tracking work in 2140, replay once and Pause the same draft. Compare a frozen control with ordinary Photo Tension using real same-flight photo pairs, temporal motion and depth evidence.",
+     "x": false
+    },
+    {
+     "t": "Measure held-out position, orientation, depth error and coverage before and after Pause, then report convergence time and remaining drift. Keep the runnable fixture and leave its Unity draft available",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
@@ -5634,5 +5647,5 @@
   }
  ],
  "source_revision": "a1223ed3a13f75b9a7d0192e43776842bfd3f122",
- "board_revision": "af1c18e64b29e55cab5a54a9fd83cbbd3210bafe"
+ "board_revision": "db635c0a210c5719a7a84cdb6bcc123b35399805"
 }
