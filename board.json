@@ -3107,16 +3107,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE",
-     "since": "2026-11-23T10:38Z",
-     "noted": "",
-     "progress": 25,
-     "ticked": 1,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Measure today's recompile seconds on Mac and Windows",
@@ -3135,7 +3126,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-23T10:46Z",
+     "text": "46c9744839: step 1 done, Windows numbers beside the Mac ones in Performance Baseline/BUILD_TIME.md. Rog warm private Prublyda edit 69-78 s to Ready (C# 30 s + IL post-processing 20 s, Mac 17 s); Quiz-cAnners private edit 34 s (Prublyda not "
+    }
+   ]
   },
   {
    "n": 1962,
@@ -5416,5 +5413,5 @@
   }
  ],
  "source_revision": "0b47d6693ec3b844811626b9425e4dd045b0631c",
- "board_revision": "790c28bfef3a474d936c0c86786e391507ac0a74"
+ "board_revision": "50cd106777326a4b35c677c27e17827228e30ee7"
 }
