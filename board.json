@@ -5245,18 +5245,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE",
-     "since": "2026-11-23T15:21Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-23T15:27Z",
+     "text": "4f887bab67: the cases pinned the old three-second flight; 7adc388c3b capped focus at one second. Both now check longer than nearby and within MAX_FOCUS_TRAVEL_SECONDS. MainCameraTouchFollowTests 60/60."
+    }
+   ]
   },
   {
    "n": 2145,
@@ -5583,6 +5580,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "d07338433a9e2033075c353dfe52a6c11b77341e",
- "board_revision": "9073638ad1e0629af461fdf880f91ecfe33cffc0"
+ "source_revision": "4f887bab67baf0e2c865a004bbc2dc72f09de2c8",
+ "board_revision": "20587edee8345fcd78d0fabe4644d5c5bca05967"
 }
