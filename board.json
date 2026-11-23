@@ -5084,6 +5084,42 @@
      "text": "main b86b58bea5. In live Synthetic Pilot View the rendered camera was ~661 m and 47.7\u00b0 from the registered photo camera. Pilot now presents a single registered image, pose and fitted off-center lens after draft placement. App and ECS tests "
     }
    ]
+  },
+  {
+   "n": 2129,
+   "name": "Keep native reconstruction Compute Shader buffers bound through Editor shader refresh",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-23T11:20Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Trace the missing buffers from the live Console",
+     "x": false
+    },
+    {
+     "t": "Rebind the buffers at all affected reconstruction dispatches",
+     "x": false
+    },
+    {
+     "t": "Verify dispatch recovery and preserve the running flight",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -5381,5 +5417,5 @@
   }
  ],
  "source_revision": "15ab053e2a5048583f8c302ba81ec181f8761c38",
- "board_revision": "8c81addefd3ebf68159dda65c5f2159a4b006791"
+ "board_revision": "aed7201604ed8d3734edc331ee8e4c33028e905d"
 }
