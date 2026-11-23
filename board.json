@@ -5033,7 +5033,7 @@
   {
    "n": 2136,
    "name": "Keep looped Video Source frames in their registered camera and Point Cloud placement",
-   "done": "",
+   "done": "2026-11-23T13:17Z",
    "goal": false,
    "under": 1693,
    "ticks": [
@@ -5044,16 +5044,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-23T13:06Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Reproduce the repeated exposure displacement",
@@ -5068,7 +5059,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-23T13:17Z",
+     "text": "be76fddb9f on main. Mac Unity Kenilworth replay: 32 to 48 registered observations across two wraps, no duplicate decoder exposure in retained photos. Live projection and Pilot versions agreed in all 216 paired samples. Three focused test me"
+    }
+   ]
   },
   {
    "n": 2137,
@@ -5398,5 +5395,5 @@
   }
  ],
  "source_revision": "be76fddb9f7de76a00525789702ca46282aa1435",
- "board_revision": "94e4864f82f49b49e2b6166491a1aa57f47dabff"
+ "board_revision": "fc89cad0526b436f183e04b567edca3ceda0e5ac"
 }
