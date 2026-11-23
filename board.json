@@ -2796,23 +2796,14 @@
   {
    "n": 1782,
    "name": "Reuse the already-decoded child slots during Web Mercator index page adoption (Web Mercator SPEC",
-   "done": "",
+   "done": "2026-11-23T22:20Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE_CODEX",
-     "since": "2026-11-23T22:19Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -2824,6 +2815,11 @@
      "by": "CLAUDE_1782",
      "at": "2026-11-22T20:38Z",
      "text": "Code was already on main (TryAdoptDecodedChildren, from 2030c41739 via 5e58fda906); 4e8b613e9a adds the three-part calculation to Performance Baseline/CPU.md. Removed work: one four-slot child array per page adopted into an empty branch (56"
+    },
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-23T22:20Z",
+     "text": "Confirmed the existing child-slot reuse on main. Empty resident branches take the decoded slots; populated branches use the normal merge. WebMercatorMemoryLedgerTests 9/9 on 017af50b with fresh NUnit XML. Matched Strong timing is tracked un"
     }
    ]
   },
@@ -5383,5 +5379,5 @@
   }
  ],
  "source_revision": "017af50bc393814f6057b2d642d988ca3e5cf89f",
- "board_revision": "1dd6b7ade35871d52b7ce8a6b8eb5690bae032fa"
+ "board_revision": "8e2cf4e03bfc26bfbc9a986fbe15dc9423d42ab7"
 }
