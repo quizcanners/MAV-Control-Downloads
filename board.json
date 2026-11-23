@@ -1939,7 +1939,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG_FABLE",
+     "since": "2026-11-23T08:33Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -5349,6 +5358,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "6ce1bb32707163d5c7bac2f958dfce48bcc60b25",
- "board_revision": "817a6d86b3534e5e6d0c37e2a710713e3aaf27a7"
+ "source_revision": "9bd846d4333f7757502672b43fa767c86cb15fe3",
+ "board_revision": "9254f292d6c4eb334f8c1e1bbe9615e4ce78de0e"
 }
