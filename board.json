@@ -3101,7 +3101,9 @@
    "done": "",
    "goal": true,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-23T10:46Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -3110,15 +3112,15 @@
      "who": "ROG_FABLE",
      "since": "2026-11-23T10:38Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 25,
+     "ticked": 1,
      "total": 4
     }
    ],
    "steps": [
     {
      "t": "Measure today's recompile seconds on Mac and Windows",
-     "x": false
+     "x": true
     },
     {
      "t": "Cut Prublyda into leaf assemblies, biggest first",
@@ -4785,7 +4787,7 @@
     {
      "who": "CODEX",
      "since": "2026-11-23T09:04Z",
-     "noted": "2026-11-23T09:34Z",
+     "noted": "2026-11-23T10:45Z",
      "progress": 25,
      "ticked": 0,
      "total": 0
@@ -4795,8 +4797,8 @@
    "notes": [
     {
      "by": "CODEX",
-     "at": "2026-11-23T09:34Z",
-     "text": "Shared release 877 published on main as 61c6fcd478. Native Android localization, graphics and signing preflight passed. First Android player attempt stalled during Unity Data Store startup and was archived. Android retried from current main"
+     "at": "2026-11-23T10:45Z",
+     "text": "Release 877 is published on main. Windows x64 877 from edb69549b1 is verified in Brigade 68 Drive release and Test and the sealed GitHub Test catalog. The superseded Windows release is archived. Android passed the earlier Data Store startup"
     }
    ]
   },
@@ -5413,6 +5415,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "3a1bffeb92e9b621b4a1ed083eff8fea67cf6406",
- "board_revision": "fecd71bfa32430401080396556103beaa7e56fe6"
+ "source_revision": "0b47d6693ec3b844811626b9425e4dd045b0631c",
+ "board_revision": "790c28bfef3a474d936c0c86786e391507ac0a74"
 }
