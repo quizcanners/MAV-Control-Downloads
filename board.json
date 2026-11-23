@@ -3344,46 +3344,6 @@
    ]
   },
   {
-   "n": 2044,
-   "name": "Remote Sensors command bars ease from a 5% prediction to each server percentage",
-   "done": "2026-11-22T09:11Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-22T09:11Z",
-     "text": "Main c0e377f026 and 1ab4618fbf share Zen progress in Remote Sensors. Live Editor checked omitted vs explicit 0% and a delayed first 100% frame; the source probe passed the 5% cap and downward retarget. Editor, Android and Windows Roslyn com"
-    }
-   ]
-  },
-  {
-   "n": 2045,
-   "name": "Camera zoom continuity",
-   "done": "2026-11-22T09:12Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-22T09:11Z",
-     "text": "Main d2c7717a6f restores the wheel spring and documents the wheel-only exception. Live Editor checked first-frame motion, accumulated wheel distance, immediate reversal and full direct zoom in one frame. Editor, Android and Windows Roslyn c"
-    }
-   ]
-  },
-  {
    "n": 2048,
    "name": "Camera SPEC",
    "done": "2026-11-22T09:32Z",
@@ -5078,6 +5038,42 @@
      "text": "0b8d2881c8: 20-unit thin chevron (CreateArrowSprite) as Arrow child of Fold icon; old 128x64 image not drawn (MavChat square still reads its sprite). Seen in Rog Editor Play open (^) and folded (v); NavigatorPathTests 12/12."
     }
    ]
+  },
+  {
+   "n": 2122,
+   "name": "Accumulate live video colour on ground wherever depth leaves it visible",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-23T09:21Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Measure the live ground coverage and trace the depth test",
+     "x": false
+    },
+    {
+     "t": "Paint visible ground while preserving foreground occlusion",
+     "x": false
+    },
+    {
+     "t": "Verify ground accumulation in Unity",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -5374,6 +5370,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "706d2f8f7f9af04ed1115f8d29f20e0e99a13d9a",
- "board_revision": "d92f7c9033f0590a18cabb4914bcf7e11f939a43"
+ "source_revision": "61c6fcd4788371fc9eb71846e04fd58c9aeb1314",
+ "board_revision": "0145ff0f76e5c3f032a5a46fc78880e333ed7c30"
 }
