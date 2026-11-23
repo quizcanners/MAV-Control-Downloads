@@ -3364,46 +3364,6 @@
    ]
   },
   {
-   "n": 2053,
-   "name": "Situation SPEC",
-   "done": "2026-11-22T10:11Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_GETAC",
-     "at": "2026-11-22T10:10Z",
-     "text": "Done 8e7b5f52d6: Observation.AuthorGuid/AuthorName set at creation; Action.SituationAuthor + 'Situation Author' row in RIGHT Suggestions.prefab; tap selects the peer. Entities created before it have no author. Compile: Editor showed only un"
-    }
-   ]
-  },
-  {
-   "n": 2054,
-   "name": "SDC Ping takes the selected video source",
-   "done": "2026-11-22T10:10Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "SDC_USB_VIDEO",
-     "at": "2026-11-22T10:11Z",
-     "text": "f00454e5ae: SDC marks follow the selected video source (USB capture card, USB camera added); SDC Settings requests the first USB capture device when no video is chosen. cmp.sh did not finish here: compile unverified."
-    }
-   ]
-  },
-  {
    "n": 2055,
    "name": "Model Positioning keeps the Synthetic drone and provisional points moving through tracking loss",
    "done": "",
@@ -5111,6 +5071,42 @@
      "text": "main b21ffdc5b9. Unity Metal reproduced the weak backward-facing Disk surviving the previous clip. The revised shader clipped it from all three passes, preserved the better-supported Disk, and kept hidden geometry when the photo measured a "
     }
    ]
+  },
+  {
+   "n": 2126,
+   "name": "Apply paired Pano360 clipping to the actual Point Cloud camera depth buffer",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-23T10:15Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Reproduce the discrepancy in camera color and sampled depth",
+     "x": false
+    },
+    {
+     "t": "Use the paired photo mask in the camera depth path",
+     "x": false
+    },
+    {
+     "t": "Verify the background depth is visible behind a clipped squircle in URP",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -5407,6 +5403,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "c355225f3fe7cc36773bb5a84443e710b2f6d1d4",
- "board_revision": "8534de4c495f6596d0b61e8100785cc622d81108"
+ "source_revision": "8fb8fdbb7e7fe9a916bece2868ef0449ed08ff40",
+ "board_revision": "6e838e8f5e8e1f4203ace06f589d91ec77900c6b"
 }
