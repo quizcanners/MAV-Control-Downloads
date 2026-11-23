@@ -1331,7 +1331,7 @@
   },
   {
    "n": 429,
-   "name": "Performance: every device spends the least GPU, CPU, RAM and battery it can, and the next measured cost is always removed",
+   "name": "Performance: every device spends the least GPU, CPU, RAM and battery it can, and the next measured cost is always removed. Done on main (to 2026-11-21): startup cuts, Patch Preparation, skip sealing, ",
    "done": "",
    "goal": true,
    "under": 0,
@@ -1381,23 +1381,7 @@
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CODEX_PERF_MATH",
-     "at": "2026-11-18T09:00Z",
-     "text": "0a603b9d4e on main. Root and Web Mercator AGENTS require unavoidable workload math, owner/state skip predictions, and measured deltas before each performance plan. Performance Baseline/README.md works the Strong busy arrival example and dis"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-18T22:09Z",
-     "text": "Lenovo e7d573345e Dev861: frame19102 wall 1831.040ms, Gfx.WaitForPresentOnGfxThread 1702.643ms, native scheduler sleep 1704.690ms. First drag TryPoint 78.421ms with 47.857ms I/O wait; matched symbols identify on-CPU IL2CPP metadata init but"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-21T14:09Z",
-     "text": "CC-46CA-01 P3. The Positioning sky plot recalculates its fixed backdrop on a satellite update. Brief ready for quiz. [Review](https://github.com/quizcanners/MAV_Control/blob/22e5a80b978d8ff23155f344a9f901a9a92ff8a2/Coordination/Reviews/fbf8"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 430,
@@ -5364,5 +5348,5 @@
   }
  ],
  "source_revision": "1fab05d24959c93f5f62d872a3bcb7e53722739a",
- "board_revision": "1a95de46881b1858fc61111d987dff8a915c65b4"
+ "board_revision": "81d95fb0cc573bbc25c88b49f472ea5f3699edab"
 }
