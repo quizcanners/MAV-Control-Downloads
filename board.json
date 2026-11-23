@@ -5039,7 +5039,7 @@
   {
    "n": 2129,
    "name": "Keep native reconstruction Compute Shader buffers bound through Editor shader refresh",
-   "done": "",
+   "done": "2026-11-23T11:36Z",
    "goal": false,
    "under": 0,
    "ticks": [
@@ -5050,16 +5050,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-23T11:20Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Trace the missing buffers from the live Console",
@@ -5074,7 +5065,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-23T11:36Z",
+     "text": "Main 9f42ef2734 binds live resources at affected dispatches. Two blank Metal shader clones passed overlap, retain, rank, preserve and restore readback. Rebound 17 live bindings in the operator capture without stopping Play. No new compute e"
+    }
+   ]
   },
   {
    "n": 2130,
@@ -5408,5 +5405,5 @@
   }
  ],
  "source_revision": "9f42ef2734566f659c5eb6fc9deffbdf0efacac5",
- "board_revision": "a977b8787603d634b5f6c47f93750a7d9d882da5"
+ "board_revision": "0e4079c8d73cafa22d6213af186fdf0c994f54f5"
 }
