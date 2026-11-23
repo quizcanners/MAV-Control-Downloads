@@ -5308,7 +5308,32 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Replay arm of the first version (24 motion-spaced photos, groups of 12 with 5 shared, 30 % allowance, add-only Disks) on the city clip as the control",
+     "x": false
+    },
+    {
+     "t": "Glue error measured against the depth of the overlap being fitted, and a weak photo dropped alone (DepthAnything3Registration TryAlign, CheckHeldOut, SourceAgrees)",
+     "x": false
+    },
+    {
+     "t": "Photos picked by picture shift, eight-view model only, four-view model out of the live loop (ContinuousCapture FreshFrameSpacing, ShouldTryShortWindow)",
+     "x": false
+    },
+    {
+     "t": "Accepted keyframes keep their depth; each group fits two recent and two older keyframes",
+     "x": false
+    },
+    {
+     "t": "Recovery searches leave the capture loop; carving and refinement run on Pause and Save only",
+     "x": false
+    },
+    {
+     "t": "One estimator for the displayed drone, from 2140",
+     "x": false
+    }
+   ],
    "notes": []
   }
  ],
@@ -5595,5 +5620,5 @@
   }
  ],
  "source_revision": "88d4e9c3844becfa9bf6293a8a417a3c4e2679af",
- "board_revision": "4790116d3e5d568ac8fb3cb1ed71d1f0c1ed6be8"
+ "board_revision": "93df47d13e83498d369e408ae552f7cd1165ceb9"
 }
