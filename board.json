@@ -5181,16 +5181,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-23T13:19Z",
-     "noted": "",
-     "progress": 67,
-     "ticked": 2,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Remove same-decoder-frame pose recovery and choose a longer one-pass fixture",
@@ -5205,7 +5196,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-23T14:17Z",
+     "text": "0bb183a011 on main removes same-frame pose lookup and adds depth-anchored optical flow. Focused translation and cut cases passed. Kenilworth produced 28 estimates and recovered a 3 s registration gap with two accepted native bridges, but no"
+    }
+   ]
   },
   {
    "n": 2141,
@@ -5528,5 +5525,5 @@
   }
  ],
  "source_revision": "0bb183a0117751c43862ed12937166a8315e810d",
- "board_revision": "180c9ef37f74859de448395c4c2d9b9cb215ca5d"
+ "board_revision": "23c9256769219da24a7b5c7e9a929c8b4a6dd03e"
 }
