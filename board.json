@@ -5077,18 +5077,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_ZURICH_BASELINE",
-     "since": "2026-11-23T20:38Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_ZURICH_BASELINE",
+     "at": "2026-11-23T21:33Z",
+     "text": "Legacy cleanup 0d5ee500a0 and repeatable one-pass Zurich harness ef815f89f0 / 744a65821f shipped. b1f0f0640f compiled. The original site-verified failure control had 362/545 camera samples and 4687/12665 Disk centres below ground. Latest pr"
+    }
+   ]
   },
   {
    "n": 2157,
@@ -5451,5 +5448,5 @@
   }
  ],
  "source_revision": "744a65821f875e1bb42738f7f9587fae8e544aac",
- "board_revision": "4e4da01ff75a56805472ac274421e5b71dafa1b9"
+ "board_revision": "cebcfe1c154bfb61804a14151f6effb9bfb6fcb4"
 }
