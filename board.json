@@ -3586,106 +3586,6 @@
    ]
   },
   {
-   "n": 2097,
-   "name": "Phone GPS off still reads and shares the phone position when the app leaves the screen (ca8405d1f6",
-   "done": "2026-11-22T21:56Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_2078",
-     "at": "2026-11-22T21:56Z",
-     "text": "Fixed in a289d30377: BackgroundTracker Android and iOS paths read ShouldShareNativeLocation (Share and Phone GPS); with Phone GPS off nothing is shared off screen."
-    }
-   ]
-  },
-  {
-   "n": 2098,
-   "name": "GPS source decided inside a getter on every read",
-   "done": "2026-11-22T21:56Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_2078",
-     "at": "2026-11-22T21:56Z",
-     "text": "Fixed in a289d30377: TryGetUserDeviceLocation only reads; the phone read, dish poll and publish run once per frame behind a Gate.Frame in the GPS manager."
-    }
-   ]
-  },
-  {
-   "n": 2099,
-   "name": "MavChat GPS panel works out GPS state itself and contradicts Settings (ca8405d1f6",
-   "done": "2026-11-22T21:57Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_2078",
-     "at": "2026-11-22T21:57Z",
-     "text": "Fixed in a289d30377: GPSlocationManager.GpsState (NotNeeded, Unsupported, NoSource, Off, Waiting, FixPhone, FixStarlink) is decided with the position; the MavChat panel status and icon, sharing status (IsLocationOff) and Settings / GPS read"
-    }
-   ]
-  },
-  {
-   "n": 2100,
-   "name": "A Starlink read that faults in an unexpected way breaks every GPS reader each frame (84ae04d118",
-   "done": "2026-11-22T21:57Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_2078",
-     "at": "2026-11-22T21:57Z",
-     "text": "Fixed in a289d30377: a faulted or cancelled dish read becomes an invalid fix with the 15 s retry; ReadPositionAsync catches every exception."
-    }
-   ]
-  },
-  {
-   "n": 2101,
-   "name": "GPS and Navigator SPECs still describe Starlink as a fallback (84ae04d118 superseded by ca8405d1f6",
-   "done": "2026-11-22T21:58Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_2078",
-     "at": "2026-11-22T21:58Z",
-     "text": "Fixed in a289d30377: GPS SPEC sources line and Navigator SPEC panel line describe the two toggled sources."
-    }
-   ]
-  },
-  {
    "n": 2102,
    "name": "Join the independently recorded Kenilworth and Heritage flights through Video Source",
    "done": "2026-11-22T22:38Z",
@@ -3719,46 +3619,6 @@
      "by": "CODEX_MODEL_POSITIONING",
      "at": "2026-11-22T22:38Z",
      "text": "Main 622815ef52. Mac Metal joined independent Kenilworth and Heritage via Video Source and a separate drone start. Held-out depth p90 4.27\u20135.77%. One draft grew from 8 to 32 photos and 49,509 to 173,476 canonical cells. Registered Pano360 p"
-    }
-   ]
-  },
-  {
-   "n": 2105,
-   "name": "Camera clip-distance host test reads files the camera restructure moved (1c84ee2f22 and 6390d86172",
-   "done": "2026-11-22T21:43Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_CAMERA",
-     "at": "2026-11-22T21:43Z",
-     "text": "26935e74d8: test reads Camera/Pose/ files, internal modifiers, ClippingController host shape, historical baseline path kept, Cesium package cache globbed. Run: actual PASS 36, all 8 mutants fail with their reasons. Offline compile clean; Ed"
-    }
-   ]
-  },
-  {
-   "n": 2106,
-   "name": "Camera SPEC Layout says more has moved to MainCamera than has (64f784c96b vs 6390d86172",
-   "done": "2026-11-22T21:43Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_CAMERA",
-     "at": "2026-11-22T21:43Z",
-     "text": "26935e74d8: PilotGimbalController and ViewChangeTracker are MainCamera parts; SPEC Layout lists every part by name and exactly what is still nested (Follow/Pose/GroundProbe, gesture states, DroneCameraControl) and the two decisions still on"
     }
    ]
   },
@@ -3809,38 +3669,6 @@
      "by": "CLAUDE_1843",
      "at": "2026-11-22T22:29Z",
      "text": "a3b0d0b8e4 (camera), 6c3ddbbea8 (seals)"
-    }
-   ]
-  },
-  {
-   "n": 2110,
-   "name": "Point Clouds streaming blocks",
-   "done": "2026-11-22T21:58Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [
-    "2026-11-22T21:56Z",
-    "2026-11-22T21:57Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Visible blocks refine at their own distance",
-     "x": true
-    },
-    {
-     "t": "Verify a saved-photo browse with near, far and off-screen blocks in Unity",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T21:58Z",
-     "text": "Main 4776ae1571. Mac Unity Kenilworth: 4,933 saved source samples, 1,183 far and 1,534 close draw samples. Turn-away released all draw buffers, turning back reused the source and moving out of range retired it. Verified memory-pressure reco"
     }
    ]
   },
@@ -4776,7 +4604,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG_FABLE_CODEX",
+     "since": "2026-11-23T22:02Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -5170,7 +5007,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-23T22:02Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -5179,15 +5018,15 @@
      "who": "CODEX_RAW_MAP_BASELINE",
      "since": "2026-11-23T21:35Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Clean the ordinary capture path and retain dense raw surface generation",
-     "x": false
+     "x": true
     },
     {
      "t": "Run independent recorded flights in the same Unity setup and record camera, throughput and visible surface counts",
@@ -5483,6 +5322,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "744a65821f875e1bb42738f7f9587fae8e544aac",
- "board_revision": "e706db032d05a22bedac1e59f8433891ab0c373c"
+ "source_revision": "611f1b7db30df8415fb3c331972558a3cb442b0b",
+ "board_revision": "aa3634cc235702be9754b289f0cadf4111ae8352"
 }
