@@ -5163,6 +5163,42 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 2159,
+   "name": "Establish the raw 3D Map generation performance and tracking baseline with several recorded flights and synchronized video-hidden Pilot views.",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_RAW_MAP_BASELINE",
+     "since": "2026-11-23T21:35Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Clean the ordinary capture path and retain dense raw surface generation",
+     "x": false
+    },
+    {
+     "t": "Run independent recorded flights in the same Unity setup and record camera, throughput and visible surface counts",
+     "x": false
+    },
+    {
+     "t": "Compare the video-hidden ground and Pano360 squircle renders with the matching source frames and document remaining errors",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -5448,5 +5484,5 @@
   }
  ],
  "source_revision": "744a65821f875e1bb42738f7f9587fae8e544aac",
- "board_revision": "cebcfe1c154bfb61804a14151f6effb9bfb6fcb4"
+ "board_revision": "e706db032d05a22bedac1e59f8433891ab0c373c"
 }
