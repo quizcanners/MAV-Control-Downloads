@@ -3413,26 +3413,6 @@
    ]
   },
   {
-   "n": 2056,
-   "name": "Model Positioning",
-   "done": "2026-11-22T10:53Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T10:53Z",
-     "text": "Published a8aa2ab30e. Opening photos and the opening recovery group use ordinary retention. Removed the Recording root. Unity keyframe tests passed."
-    }
-   ]
-  },
-  {
    "n": 2057,
    "name": "Move UI to context-first folders",
    "done": "",
@@ -3458,51 +3438,6 @@
     }
    ],
    "notes": []
-  },
-  {
-   "n": 2058,
-   "name": "Model Positioning",
-   "done": "2026-11-22T10:53Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T10:53Z",
-     "text": "Published ce9972db6b. Retained accepted and provisional capture times and motion with provenance. Temporal link confidence and continuous Photo Tension formulas are in the SPEC. Unity passed 22 focused tests. The joint solver and calibratio"
-    }
-   ]
-  },
-  {
-   "n": 2059,
-   "name": "Peers appear late in Chat after launch",
-   "done": "2026-11-22T10:59Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "claude-peers-startup",
-     "at": "2026-11-22T10:59Z",
-     "text": "Done 167e6ae506: RestoreKnownPeers applies the cold-start hold, Chat lists held peers, PingFamiliarPeersWhenSocketSends greets peers seen in 2 days when the socket sends. Compiled in Editor. Left: none; Chat page bumped."
-    },
-    {
-     "by": "REVIEW_SYSTEMS",
-     "at": "2026-11-22T17:23Z",
-     "text": "review summary: 3 findings, tasks 2079 (Migration Vectors files never deleted, Erase All misses them; fe950fecb2), 2081 (SDC goggles tap queue has no limit; 87a2bf94d9), 2083 (SDC Settings view requests the capture source itself, and its gu"
-    }
-   ]
   },
   {
    "n": 2060,
@@ -5116,6 +5051,42 @@
      "text": "main 8ab8298d7f and 823b166f53, synced operator checkout. Reproduced the old shader blocking the background in the URP camera depth texture. Imported fixed shader and verified 3 m foreground and 6 m background in both depth-only and depth-p"
     }
    ]
+  },
+  {
+   "n": 2127,
+   "name": "Show the ground paint by remapping stored pixel quality to display opacity",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-23T11:03Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Measure pixel quality in the live ground atlas",
+     "x": false
+    },
+    {
+     "t": "Lift valid low-quality paint in the ground display shader",
+     "x": false
+    },
+    {
+     "t": "Verify the remap and keep the live draft visible in Unity",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -5413,5 +5384,5 @@
   }
  ],
  "source_revision": "b4668715de6c504e7624e29e5fff86329a4cf188",
- "board_revision": "1d4d9da8f4edb437d0fb8707e762ea2909d9c6e2"
+ "board_revision": "a8c0ee0ecfb3ab54c7e0ded757185a81a81a10b3"
 }
