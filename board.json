@@ -33,27 +33,31 @@
    "held": [],
    "steps": [
     {
-     "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it (Cars, Waypoints, Sensors, Drones, Photos, Peers), the top-left notification contr",
+     "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it, the top-left notification controls and \"is telemetry on screen\"; 44 unread prefab",
      "x": true
     },
     {
-     "t": "Cloud: fullscreen video \"owns the screen\" is answered by the video prefab (Singleton_UI_VideoFeed.OwnsFullVideoPresentation, read in 13 files). Whose video, video or screen map and the photo on screen",
+     "t": "Fullscreen video \"owns the screen\" is answered by Station.UI.FullscreenVideo (source, screen map, photo and Chat picture), the prefab applies visibility, shared Exit and map consume the system answer",
      "x": true
     },
     {
-     "t": "Cloud: which telemetry tabs exist is still decided by the telemetry prefab from its panels' rows (Tabs.UpdateTelemetryTabAvailability reads HasContent, which is activeSelf of the rows): the rows' cond",
+     "t": "Which telemetry tabs exist is decided by DronePanels (no rendered rows as inputs); covered tab swaps are published",
      "x": true
     },
     {
-     "t": "Cloud: the Peers page of the MavChat pager (page and strip position are the pager's fields, pushed into the peer list view and read back by LeftLists.PeersShown), and the Peers list's own two conditio",
+     "t": "The Peers page of the MavChat pager (Chat window and Navigator own their page; LeftLists owns List Picker and Search hiding)",
      "x": true
     },
     {
-     "t": "Cloud, prefab text: six more views build their own objects in RAM with a lookup for each piece (Dev FPS label, MavChat grabber and progress bars, Pilot side tongues, row divider, dragged-row blur, the",
+     "t": "Prefab text (place 33): views build their own objects in RAM no more (Dev FPS label, MavChat grabber and progress bars, Pilot side tongues and handles, row divider, dragged-row blur, App updates canva",
      "x": true
     },
     {
-     "t": "Cloud, when its view is touched: 11 prefab scripts with their own show expression, IsOverlayBlockingClicks, and the decisions with several inputs and no frame gate (ShouldHideLists, ShouldShowUIIntera",
+     "t": "Frame decisions: ShouldHideLists and ShouldShowUIInteractionOptions, Painting availability, overlay click blocking, drone surface, edge arrows, GPS menu toggle, WireGuard notice, Orthophoto layer tile",
+     "x": true
+    },
+    {
+     "t": "When its view is touched: the eleven prefab scripts with their own show expression still left, and IsOverlayBlockingClicks's remaining inputs",
      "x": false
     },
     {
@@ -65,23 +69,7 @@
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "MAC_LEFT_TAB_SEAM_BINDINGS",
-     "at": "2026-11-21T06:28Z",
-     "text": "5a2d32641e on main addresses the fixed vertical seam references in CC-B0CD-01 (goal 408). The saved rail starts dark with its seam hidden, and applies selection as it opens without a hierarchy scan. Mac DeferredListViewsTests 16 passed, All"
-    },
-    {
-     "by": "MAC_CHAT_VIEWPORT_BINDINGS",
-     "at": "2026-11-21T06:43Z",
-     "text": "c41ccb6604 on main. Saved Peers/Groups scroll views and masks drive portrait attachment; map clipping, spacing and drag state restore on return. 10 focused cases passed. Earlier full runs had transient clock, input and log failures; after s"
-    },
-    {
-     "by": "cloud-refactor",
-     "at": "2026-11-22T06:45Z",
-     "text": "6-hourly pass: Alternatives.TryPoint 9 to 8 params (camera always Station.Operator); long signatures 762 to 761"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 362,
@@ -1939,7 +1927,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CLAUDE_735_STATICS",
+     "since": "2026-11-23T12:34Z",
+     "noted": "",
+     "progress": 50,
+     "ticked": 2,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -2519,6 +2516,11 @@
      "by": "CLAUDE_1589",
      "at": "2026-11-23T07:42Z",
      "text": "ddfcc4b25e: Personal Info is now decoded and opened on the receive worker with a direct factory; main-thread fallback passes the same factory, so no GetConstructor/Activator. Parser and Newtonsoft ruled out by code (envelope-only type). Dev"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-23T12:32Z",
+     "text": "Lenovo HA1PGQ44 cold start on debug 877 (33f4e3b518, includes ddfcc4b25e), first 300 frames: no ReadIncoming<Crypto_PersonalInfo> stall in the 14 retained lags or 64 spikes; Crpt_ReleaseKey1 one spike 124.5 ms (was 824). Not reproduced unde"
     }
    ]
   },
@@ -2579,6 +2581,11 @@
      "by": "CLAUDE_1594",
      "at": "2026-11-23T07:44Z",
      "text": "No cause proven from code: no Session Maintenance owner blocks every frame, and the HA1PGQ44 receipts are not on the Getac. d426824890 adds child timing rows under Session Maintenance: Background Chat Windows/iOS, Routing Server, Direct Rou"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-23T12:33Z",
+     "text": "Lenovo HA1PGQ44 cold start on debug 877 (33f4e3b518, includes d426824890): no Session Maintenance block near frame 50; Session Maintenance reached the 50 ms lag line once, under Direct Route (child rows working). Longest frames now are star"
     }
    ]
   },
@@ -3553,26 +3560,6 @@
    ]
   },
   {
-   "n": 2073,
-   "name": "Mav Chat capsule vibration (2070)",
-   "done": "2026-11-22T12:32Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_CAPSULE_GATE",
-     "at": "2026-11-22T12:32Z",
-     "text": "681847b9dd on main. One initialized Gate.TryChange drives the tick when the carousel draws a new current capsule. The first display and unchanged redraws are silent. Phone and focused EditMode verification stay with 2072."
-    }
-   ]
-  },
-  {
    "n": 2074,
    "name": "Video Processing and Restream",
    "done": "2026-11-22T17:40Z",
@@ -4000,7 +3987,7 @@
   {
    "n": 2093,
    "name": "using Strong",
-   "done": "",
+   "done": "2026-11-23T12:28Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -4011,7 +3998,13 @@
    ],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-23T12:28Z",
+     "text": "Strong device reservation for 1807 ended; nothing left."
+    }
+   ]
   },
   {
    "n": 2094,
@@ -5059,6 +5052,65 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 2133,
+   "name": "Tablet cold start",
+   "done": "",
+   "goal": false,
+   "under": 429,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CLAUDE_VPN_PROCESSING",
+     "since": "2026-11-23T12:34Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2134,
+   "name": "Extrapolate the Synthetic drone and live projector from accepted reconstruction motion",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-23T12:36Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Feed accepted linear and angular deltas to DroneState",
+     "x": false
+    },
+    {
+     "t": "Verify continuous position and rotation during live playback",
+     "x": false
+    },
+    {
+     "t": "Start depth-anchored optical flow after motion verification",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -5347,6 +5399,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "92e355f7492051065ae8bc4df09ab71caa7fd56f",
- "board_revision": "913a87577e4d2882322771d832f2a233d9a3fe4c"
+ "source_revision": "1fab05d24959c93f5f62d872a3bcb7e53722739a",
+ "board_revision": "c4c368578551fe49b3bd6bc044efe35a2d54dce2"
 }
