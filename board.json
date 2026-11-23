@@ -5078,7 +5078,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-23T10:22Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -5087,15 +5089,15 @@
      "who": "CODEX_MODEL_POSITIONING",
      "since": "2026-11-23T10:15Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Reproduce the discrepancy in camera color and sampled depth",
-     "x": false
+     "x": true
     },
     {
      "t": "Use the paired photo mask in the camera depth path",
@@ -5403,6 +5405,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "8fb8fdbb7e7fe9a916bece2868ef0449ed08ff40",
- "board_revision": "6e838e8f5e8e1f4203ace06f589d91ec77900c6b"
+ "source_revision": "8ab8298d7f60c82bffb2cc870a0ea6bfa43d948c",
+ "board_revision": "29ac283e5f05d0c41cbf0a588eeca4c3c63f10d3"
 }
