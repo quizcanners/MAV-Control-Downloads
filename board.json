@@ -5181,7 +5181,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-23T14:28Z",
+     "noted": "",
+     "progress": 67,
+     "ticked": 2,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Remove same-decoder-frame pose recovery and choose a longer one-pass fixture",
@@ -5524,6 +5533,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "0bb183a0117751c43862ed12937166a8315e810d",
- "board_revision": "23c9256769219da24a7b5c7e9a929c8b4a6dd03e"
+ "source_revision": "f3d6433b1bf7ef5cac09a94ae482448311505e68",
+ "board_revision": "5864a1f285205ed0ad479a70bacff91ac2ec10ca"
 }
