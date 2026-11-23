@@ -5092,23 +5092,34 @@
   {
    "n": 2131,
    "name": "Pause map sync tells peers this device needs no sync and still takes in everything that arrives (Web Mercator SPEC",
-   "done": "",
+   "done": "2026-11-23T11:58Z",
    "goal": false,
    "under": 1558,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
+   "held": [],
+   "steps": [],
+   "notes": [
     {
-     "who": "GETAC",
-     "since": "2026-11-23T11:51Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
+     "by": "GETAC",
+     "at": "2026-11-23T11:58Z",
+     "text": "33f4e3b518: heartbeat SyncPaused; peers skip a paused peer in drills and view offers; the paused device starts nothing and still receives/answers over VPN and USB. Tests 284+11+25 green. Not checked between two real devices."
     }
-   ],
+   ]
+  },
+  {
+   "n": 2132,
+   "name": "Chat peer column",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
    "steps": [],
    "notes": []
   }
@@ -5197,14 +5208,6 @@
   {
    "screen": "Pilot View",
    "since": "2026-11-21T12:33Z"
-  },
-  {
-   "screen": "General",
-   "since": "2026-11-16T10:39Z"
-  },
-  {
-   "screen": "Settings/Windows/Install on another device",
-   "since": "2026-11-16T11:31Z"
   },
   {
    "screen": "Video preview",
@@ -5407,6 +5410,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "9f42ef2734566f659c5eb6fc9deffbdf0efacac5",
- "board_revision": "92930800f1a3f71064dbfae83ebd9761de463889"
+ "source_revision": "a6b8649ccd1ca135ba4cd0fe0920e222d8bf8c15",
+ "board_revision": "8e94961000a17597e43f49e31e2c397343016ab2"
 }
