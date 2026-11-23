@@ -3723,46 +3723,6 @@
    ]
   },
   {
-   "n": 2103,
-   "name": "Esri streaming holds the operator bake",
-   "done": "2026-11-22T21:02Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_2086",
-     "at": "2026-11-22T21:02Z",
-     "text": "cc3774b92b: OperatorMapWorkWaiting (staged/running Orthophoto bake, projection bake, erase or reload asked) blocks new streamed batches and stops a running one each frame. No compile errors in these files, but others' errors in the shared t"
-    }
-   ]
-  },
-  {
-   "n": 2104,
-   "name": "Esri streaming forgets failed tiles and never retries a failed view (5236df6deb",
-   "done": "2026-11-22T21:03Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_2086",
-     "at": "2026-11-22T21:03Z",
-     "text": "cc3774b92b: per-tile failure marks by tile id (retry 1 min doubling to 1 h), batch stops after 3 failures in a row, failed view replanned after 60 s; deletion on save, store epoch change, 1024 cap; one shared HttpClient for streamed batches"
-    }
-   ]
-  },
-  {
    "n": 2105,
    "name": "Camera clip-distance host test reads files the camera restructure moved (1c84ee2f22 and 6390d86172",
    "done": "2026-11-22T21:43Z",
@@ -3799,26 +3759,6 @@
      "by": "CLAUDE_CAMERA",
      "at": "2026-11-22T21:43Z",
      "text": "26935e74d8: PilotGimbalController and ViewChangeTracker are MainCamera parts; SPEC Layout lists every part by name and exactly what is still nested (Follow/Pose/GroundProbe, gesture states, DroneCameraControl) and the two decisions still on"
-    }
-   ]
-  },
-  {
-   "n": 2107,
-   "name": "Pilot Config labels stay in the old language",
-   "done": "2026-11-22T21:01Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_PILOT",
-     "at": "2026-11-22T21:00Z",
-     "text": "248eae4bb0: button and panel each keep their own language gate, consumed only when their labels are written."
     }
    ]
   },
@@ -5016,22 +4956,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_ZURICH_BASELINE",
-     "since": "2026-11-23T20:45Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_MODEL_POSITIONING",
      "at": "2026-11-23T18:55Z",
      "text": "The first correction now nudges retained photos along the height axis in the paused pose solver. Main 8407895e2e requests measured elevation over the photo footprint and carries the capture with a deliberate drone Move. Keep whole-capture p"
+    },
+    {
+     "by": "CODEX_ZURICH_BASELINE",
+     "at": "2026-11-23T21:31Z",
+     "text": "Main b1f0f0640f compiled in the ordinary Mac Editor. Registered and provisional photos use measured per-camera floors. Original depth footprint residuals can translate or turn each camera even without a fitted plane. The derived visible Dis"
     }
    ]
   },
@@ -5188,6 +5124,48 @@
     },
     {
      "t": "Close the task when all four machines have noted their sizes",
+     "x": false
+    }
+   ],
+   "notes": [
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-23T20:54Z",
+     "text": "ROG_FABLE: .git 3.1G -> 1.1G (objects 156M, 304 commits deep; lfs 953M is the current checkout's LFS files, lfs prune kept them). Before trimming, everything that existed only here was saved: 8 local branches with unpushed commits and 75 st"
+    },
+    {
+     "by": "GETAC",
+     "at": "2026-11-23T21:25Z",
+     "text": "GETAC: .git 3.0G -> 1.1G (objects 157M, 296 commits deep; lfs 953M is the current checkout's LFS files). Before trimming, 967 local-only refs (452 branches, 9 tags, codex, verify-runner, mav, archive and backup refs) saved in one verified c"
+    }
+   ]
+  },
+  {
+   "n": 2158,
+   "name": "GitHub side of shallow clones (2157)",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "List each branch other than main and board with its last commit date and whether main already contains it (`gh api repos/quizcanners/MAV_Control/branches --paginate`, `git merge-base --is-ancestor`)",
+     "x": false
+    },
+    {
+     "t": "Bundle the branches main does not contain into one verified file under D:/MAV_Work/Preserved before deletion",
+     "x": false
+    },
+    {
+     "t": "quiz approves the list; then delete those branches on GitHub (`git push origin --delete ...`); keep main, board and any branch a running tool or workflow uses (build, ci/*, verify-runner-state: check ",
+     "x": false
+    },
+    {
+     "t": "Note the repository size before and after (`gh api repos/quizcanners/MAV_Control --jq .size`). The 93 pull request refs (refs/pull/*) cannot be deleted by us and keep their objects on GitHub; only Git",
      "x": false
     }
    ],
@@ -5476,6 +5454,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "0d5ee500a0219ec625f547fc462aea6f6ac249d9",
- "board_revision": "507053e624ee85dc241ba5a41ac592edd0b5f710"
+ "source_revision": "b1f0f0640f0d8e222eb5fdcc1abcf7cf4c6414a6",
+ "board_revision": "8ae5ef1b11e16aea883480b98e3f2c6584eb8a92"
 }
