@@ -3197,26 +3197,6 @@
    ]
   },
   {
-   "n": 2030,
-   "name": "Done",
-   "done": "2026-11-22T17:33Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_2030",
-     "at": "2026-11-22T17:32Z",
-     "text": "Direct cause: Geometry marker, vehicle and Safeguard interception model scale (GetDistanceToClipPlane) ran in the GeometryPresentation stage before the camera step, so it read last frame's camera and jumped on zoom, like remote sensors. Dee"
-    }
-   ]
-  },
-  {
    "n": 2036,
    "name": "Positioned Video Source and photo anchors",
    "done": "",
@@ -5356,6 +5336,42 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 2152,
+   "name": "Keep photo",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-23T17:36Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Advance the recent-photo reference during weak map links and retain measured relative poses and paired depth in one continuous draft",
+     "x": false
+    },
+    {
+     "t": "Verify local tracking through a deliberately weakened link and through the original first pass in Pilot View",
+     "x": false
+    },
+    {
+     "t": "Record local pose coverage and surveyed drift separately, and retain the draft for inspection",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -5641,5 +5657,5 @@
   }
  ],
  "source_revision": "0fd39fc30a1b1e9a5e37081a95204e56c3c0ca03",
- "board_revision": "57ed1fbec586c615d66f7b57a9fe738e94580041"
+ "board_revision": "341420ed5a39168516e9754c5f648434c91a8cc8"
 }
