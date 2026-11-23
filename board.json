@@ -5032,6 +5032,42 @@
    ],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 2136,
+   "name": "Keep looped Video Source frames in their registered camera and Point Cloud placement",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-23T13:06Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Reproduce the repeated exposure displacement",
+     "x": false
+    },
+    {
+     "t": "Reuse recorded cameras and prevent repeated exposures from adding duplicate geometry",
+     "x": false
+    },
+    {
+     "t": "Verify loop recovery in Unity with live projection",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -5321,5 +5357,5 @@
   }
  ],
  "source_revision": "1d81edfb87ba4ee8b58c15979e705237ff879398",
- "board_revision": "dcc8907dbc6462fadc2572ad74d97a687c8dd0e8"
+ "board_revision": "2103ca73248a906d34e84d8eace9e10dae5548bd"
 }
