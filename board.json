@@ -3344,26 +3344,6 @@
    ]
   },
   {
-   "n": 2043,
-   "name": "Fix Getac Unity console warnings",
-   "done": "2026-11-22T08:23Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-22T08:22Z",
-     "text": "Main 848c378a6c fixes the two WayPoint call sites; Unity compiles, Roslyn no new errors, WayPoint 1/1 and ECS Text 7/7 passed. The pasted Burst hash error resolved IJob.Execute against TextLayoutResult. No fresh Burst messages after reload,"
-    }
-   ]
-  },
-  {
    "n": 2044,
    "name": "Remote Sensors command bars ease from a 5% prediction to each server percentage",
    "done": "2026-11-22T09:11Z",
@@ -5037,6 +5017,29 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 2117,
+   "name": "MGRS Coordinate Entry",
+   "done": "",
+   "goal": false,
+   "under": 407,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "ROG_FABLE",
+     "since": "2026-11-23T08:27Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5333,6 +5336,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "bb1f8d796208c7803bebb59b9dd7113a0bf2d85a",
- "board_revision": "0143dc56230bed4c6c5e7af3e5bfe951efcc91ad"
+ "source_revision": "79751d117f92476dc990c942b27534b7dcf47e01",
+ "board_revision": "2f66a96185e30538e76b0d3b55bd2ca4cc74baf9"
 }
