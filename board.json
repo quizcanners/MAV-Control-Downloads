@@ -5045,7 +5045,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-23T09:27Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -5054,15 +5056,15 @@
      "who": "CODEX_MODEL_POSITIONING",
      "since": "2026-11-23T09:21Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Measure the live ground coverage and trace the depth test",
-     "x": false
+     "x": true
     },
     {
      "t": "Paint visible ground while preserving foreground occlusion",
@@ -5371,5 +5373,5 @@
   }
  ],
  "source_revision": "61c6fcd4788371fc9eb71846e04fd58c9aeb1314",
- "board_revision": "0145ff0f76e5c3f032a5a46fc78880e333ed7c30"
+ "board_revision": "bbc3e97870d335469bcb075608f8d103250c2830"
 }
