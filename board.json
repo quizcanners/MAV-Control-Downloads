@@ -3110,7 +3110,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG_FABLE_CODEX",
+     "since": "2026-11-23T22:33Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -3591,113 +3600,6 @@
      "by": "CODEX_MODEL_POSITIONING",
      "at": "2026-11-22T21:05Z",
      "text": "Published on main and verified Layers, native saved-photo reconstruction, view-dependent spacing, and identical coverage in all three GPU passes. Finish browsing verification over a continuous traverse and split large regions into independe"
-    }
-   ]
-  },
-  {
-   "n": 2096,
-   "name": "Peer messages from builds 869-876 lost after 6bb34a6aa5 (task 1843",
-   "done": "2026-11-22T22:26Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_1843",
-     "at": "2026-11-22T22:26Z",
-     "text": "6c3ddbbea8"
-    }
-   ]
-  },
-  {
-   "n": 2102,
-   "name": "Join the independently recorded Kenilworth and Heritage flights through Video Source",
-   "done": "2026-11-22T22:38Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [
-    "2026-11-22T21:04Z",
-    "2026-11-22T22:37Z",
-    "2026-11-22T22:37Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Retain later landmark views when registration stalls",
-     "x": true
-    },
-    {
-     "t": "Place the joined draft against real landmark and depth evidence",
-     "x": true
-    },
-    {
-     "t": "Show the independent join and accumulation in Unity",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T22:38Z",
-     "text": "Main 622815ef52. Mac Metal joined independent Kenilworth and Heritage via Video Source and a separate drone start. Held-out depth p90 4.27\u20135.77%. One draft grew from 8 to 32 photos and 49,509 to 173,476 canonical cells. Registered Pano360 p"
-    }
-   ]
-  },
-  {
-   "n": 2108,
-   "name": "Four SPECs still describe the per-feature build gates 6bb34a6aa5 deleted (task 1843)",
-   "done": "2026-11-22T22:27Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_1843",
-     "at": "2026-11-22T22:27Z",
-     "text": "6c3ddbbea8"
-    }
-   ]
-  },
-  {
-   "n": 2109,
-   "name": "For quiz",
-   "done": "2026-11-22T22:29Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-22T21:26Z",
-     "text": "quiz, 2026-11-22, asked whether agents may update the stale AGENTS guide lines in this finding: \"Yes, update them\". Camera + AI Sandbox lines -> camera-restructure session; Network + Encryption lines -> 1843 session."
-    },
-    {
-     "by": "CLAUDE_CAMERA",
-     "at": "2026-11-22T21:45Z",
-     "text": "Camera + AI Sandbox part done in a3b0d0b8e4: Systems/Camera/AGENTS.md rows 14-16, Drone camera control section (folder, Trainer in Workflows/Training/Drones/Recon/) and the runtime-groups sentence; Systems/AI Sandbox/AGENTS.md:24 now MainCa"
-    },
-    {
-     "by": "CLAUDE_1843",
-     "at": "2026-11-22T22:29Z",
-     "text": "a3b0d0b8e4 (camera), 6c3ddbbea8 (seals)"
     }
    ]
   },
@@ -4638,8 +4540,8 @@
    "notes": [
     {
      "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-23T22:15Z",
-     "text": "Main 36ed7355 adds nine timing rows under Web Mercator Sync and skips redundant pending-sync queries in display selection. Rog Unity 6000.6.8f1 compiled and both focused display-selection cases passed on adc93769 with fresh NUnit results. N"
+     "at": "2026-11-23T22:31Z",
+     "text": "Main 36ed7355 and f0000058 add Web Mercator Sync timing rows and keep index-page admission under the phase that starts it, including Peer retirement. Display selection skips redundant pending-sync queries. Rog Unity compiled, both display-s"
     }
    ]
   },
@@ -4831,6 +4733,11 @@
      "by": "CODEX_ZURICH_BASELINE",
      "at": "2026-11-23T21:31Z",
      "text": "Main b1f0f0640f compiled in the ordinary Mac Editor. Registered and provisional photos use measured per-camera floors. Original depth footprint residuals can translate or turn each camera even without a fitted plane. The derived visible Dis"
+    },
+    {
+     "by": "CODEX_RAW_MAP_BASELINE",
+     "at": "2026-11-23T22:39Z",
+     "text": "Ordinary Main Editor, e0fdecea07, three independent clips at the saved measured placement: 0/431 camera, 0/5905 photo-origin and 0/22016 actual drawn Disk-centre samples below ground. Minimum centre +3.76 mm. Draw-time ECEF matters: convert"
     }
    ]
   },
@@ -5098,25 +5005,42 @@
   {
    "n": 2161,
    "name": "Page checks",
-   "done": "",
+   "done": "2026-11-23T22:22Z",
    "goal": false,
    "under": 412,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE_CODEX",
-     "since": "2026-11-23T22:21Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-23T22:22Z",
+     "text": "Main 1ff87210. The pending Map check now uses a timestamp one day before the test, preserving the original timestamp and note assertions while staying inside the real seven-day window. On Windows the baseline suite isolated this one failure"
+    }
+   ]
+  },
+  {
+   "n": 2162,
+   "name": "Page Checks",
+   "done": "2026-11-23T22:31Z",
+   "goal": false,
+   "under": 412,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-23T22:31Z",
+     "text": "Main bdb0a643. Page Checks now replaces an expired request before adding a new change, while a current request still keeps its original timestamp and merged notes. The regression reproduced the missing Map request before the fix. Screen Che"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5401,6 +5325,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "017af50bc393814f6057b2d642d988ca3e5cf89f",
- "board_revision": "c46d1528aa876ffaf4858efd55fcb914ca1b8609"
+ "source_revision": "234f169184b52c9a04fd2bdc372adc9dd9955bc6",
+ "board_revision": "b9205bde907e485da8b6d01daba18c6a87fe53d0"
 }
