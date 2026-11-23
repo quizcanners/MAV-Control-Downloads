@@ -5181,7 +5181,9 @@
    "done": "",
    "goal": false,
    "under": 1693,
-   "ticks": [],
+   "ticks": [
+    "2026-11-23T14:02Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -5190,15 +5192,15 @@
      "who": "CODEX_MODEL_POSITIONING",
      "since": "2026-11-23T13:19Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Remove same-decoder-frame pose recovery and choose a longer one-pass fixture",
-     "x": false
+     "x": true
     },
     {
      "t": "Use optical flow between Depth Anything camera observations",
@@ -5531,6 +5533,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "691e8193fa71c9b3ef910341f8f5c1df47d351c6",
- "board_revision": "0473014f39f80745ca21d95258d2d05d101da0a3"
+ "source_revision": "f2a8aa24708d92ad852d896184900d0c922ea0cf",
+ "board_revision": "9af21ee8cee388ff9de1e0b1dbe64e7e33395046"
 }
