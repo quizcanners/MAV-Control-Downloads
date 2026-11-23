@@ -2904,7 +2904,7 @@
   },
   {
    "n": 1897,
-   "name": "Reduce cumulative camera pose drift in Unity 3D map generation on continuous Video Source footage. Use the Kalasatama waterfront receipt in GPU.md and the earlier Kulosaari depth baseline. Isolate pit",
+   "name": "Reduce cumulative camera pose drift in Unity 3D map generation on continuous Video Source footage (goal 1693). Use the Kalasatama waterfront receipt in GPU.md and the earlier Kulosaari depth baseline.",
    "done": "",
    "goal": false,
    "under": 1693,
@@ -2913,24 +2913,25 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
-   "notes": [
+   "steps": [
     {
-     "by": "CODEX_MATCHED_DEPTH_BASE",
-     "at": "2026-11-21T09:28Z",
-     "text": "f52a6edffc compares pose-conditioned BASE and SMALL on identical Helsinki 504x266 inputs and SIFT cameras. SMALL took 0.48 s/window vs 1.25 s, reached 1.90/2.67 m join error vs 1.49/3.91 m for BASE with DISK+LightGlue, and both refused Zuri"
+     "t": "Native TestRun on the ordinary Video Source schedule (distinct launch ports, 25 GiB free; the Mac had 15 to 17 GiB): Helsinki A/B and the three Kenilworth clips against Zurich refusal, matched against",
+     "x": false
     },
     {
-     "by": "CODEX_LONGSTREAM_HELSINKI",
-     "at": "2026-11-21T09:42Z",
-     "text": "66b52c7802 records LongStream on the matched Helsinki frames and Zurich. Endpoint-scaled depth RMS 8.76/7.78 m, weaker pose/CPU timing than the installed BASE control. Known-lens DISK+LightGlue confirmed A to B at 5.58 m and refused the rev"
+     "t": "Bind the camera tensors of conditioned SMALL in TestRun and compare source joins to stock BASE; degraded recovery and admission on Metal",
+     "x": false
     },
     {
-     "by": "CODEX_METAL_DEPTH_PROBE",
-     "at": "2026-11-21T10:36Z",
-     "text": "646281031c records actual Unity Metal GPUCompute depth readback on matched Helsinki tensors. Conditioned SMALL 210.90 ms vs conditioned BASE 594.17 ms, all four output tensors per model passed ONNX CPU parity and the Editor logged no new er"
+     "t": "PASIKA: run --reconfirm with the Kalasatama file-observations and held-out survey CSV at the fixed opening scale (late silo error was 129 px); stage an exposure-matched aerial capture with Unity obser",
+     "x": false
+    },
+    {
+     "t": "LongStream on a CUDA station with room for its checkpoint, and native CUDA throughput; Unity/stitching qualification and live pose publication before carrying any correction into normal Video Source",
+     "x": false
     }
-   ]
+   ],
+   "notes": []
   },
   {
    "n": 1912,
@@ -5300,5 +5301,5 @@
   }
  ],
  "source_revision": "1fab05d24959c93f5f62d872a3bcb7e53722739a",
- "board_revision": "f68a9fcbc05206c7d4c630661860048fa3a0da92"
+ "board_revision": "73bd89f8844320ccb55c84a06343f81669746a40"
 }
