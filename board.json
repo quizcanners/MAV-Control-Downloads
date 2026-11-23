@@ -1439,7 +1439,7 @@
   },
   {
    "n": 431,
-   "name": "Video: a drone, peer screen or camera feed shows on any peer and restreams out, with case-specific diagnostics (Peer Video, Streamer and Video Restreaming SPECs)",
+   "name": "Video: a drone, peer screen or camera feed shows on any peer and restreams out, with case-specific diagnostics (Peer Video, Streamer and Video Restreaming SPECs). Done on main: one video relay Port (U",
    "done": "",
    "goal": true,
    "under": 0,
@@ -1471,6 +1471,10 @@
      "x": true
     },
     {
+     "t": "HEAVY: Windows RestreamRouteChoiceTests and LocalizationAssetTests verified in the retained qualified EditMode All; repeated native GPU codec checks passed. Evidence and source in Peer Video Native~/W",
+     "x": true
+    },
+    {
      "t": "Windows (HEAVY): qualify on two isolated devices, direct and relay: 831 player staged with the matching pair at C:/MavControlEvidence/Video-431-20261113/qualification-player-831 (webrtc.dll 85defdb6, ",
      "x": false
     },
@@ -1481,10 +1485,6 @@
     {
      "t": "Getac (Android): a viewer renews a screen share through :location over Chat 14668, with the sharer in the foreground",
      "x": false
-    },
-    {
-     "t": "HEAVY: Windows RestreamRouteChoiceTests and LocalizationAssetTests verified in the retained qualified EditMode All; repeated native GPU codec checks passed. Evidence and source in Peer Video Native~/W",
-     "x": true
     },
     {
      "t": "Getac or Rog Ally: restream from a Windows peer without NVIDIA; the status line should say \u00ab\u043f\u0435\u0440\u0435\u0434\u0430\u0432\u0430\u043d\u043d\u044f \u0431\u0435\u0437 \u043f\u0435\u0440\u0435\u043a\u043e\u0434\u0443\u0432\u0430\u043d\u043d\u044f\u00bb.",
@@ -1499,23 +1499,7 @@
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CODEX_STREET_SPLAT",
-     "at": "2026-11-17T05:57Z",
-     "text": "Paused at user request. Task 1430 records published increments and the preserved untracked GPU commit draft; replay integration and saved layer remain open."
-    },
-    {
-     "by": "CODEX_TEMPORAL_AREA",
-     "at": "2026-11-17T15:36Z",
-     "text": "Task 1528 delivered c69c2b729a; Unity area tests 2/2 and Roslyn clean. Windows D3D11/Linux VPI device rendering remains to verify."
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-18T08:53Z",
-     "text": "Done: 1dc103d3f9 archive copy cleanup; d9a5631387 Unity default and frozen Python reference."
-    }
-   ]
+   "notes": []
   },
   {
    "n": 479,
@@ -5348,5 +5332,5 @@
   }
  ],
  "source_revision": "1fab05d24959c93f5f62d872a3bcb7e53722739a",
- "board_revision": "81d95fb0cc573bbc25c88b49f472ea5f3699edab"
+ "board_revision": "16a902e08cbd825821c44d3e86eed2c3fd263946"
 }
