@@ -4985,7 +4985,7 @@
   {
    "n": 2116,
    "name": "Use each squircle normal for Street View shading and keep nearby evidence authoritative in Disk fusion",
-   "done": "",
+   "done": "2026-11-23T08:46Z",
    "goal": false,
    "under": 0,
    "ticks": [
@@ -4995,16 +4995,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-23T08:17Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 2,
-     "total": 2
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Trace the edge artifacts and how closer photos compete",
@@ -5015,7 +5006,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-23T08:46Z",
+     "text": "On main in bd97dc1010. Pano360 uses stored normals and derivative-free frame samples for squircles. Colour, depth and normals trim the same supported fringe without stippling. Fine pixel footprints dominate normals and resist coarse free-sp"
+    }
+   ]
   },
   {
    "n": 2117,
@@ -5369,5 +5366,5 @@
   }
  ],
  "source_revision": "564f85f0aa00135c2f2c4fd6706d77fa0816179e",
- "board_revision": "caaf6a07cefb3958cc05284e9d6544657eecb836"
+ "board_revision": "7e303cca7469ea778c133bcc38a680e4c935de4e"
 }
