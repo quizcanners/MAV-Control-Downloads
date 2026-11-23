@@ -5070,6 +5070,42 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 2128,
+   "name": "Keep Synthetic drone First Person View aligned with the registered Point Cloud",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-23T11:06Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Measure the exposure, pose and lens used by the live First Person View",
+     "x": false
+    },
+    {
+     "t": "Keep the video and render camera on one registered camera sample",
+     "x": false
+    },
+    {
+     "t": "Verify First Person View reprojection and ordinary video fallback",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -5367,5 +5403,5 @@
   }
  ],
  "source_revision": "604a512c816ae68faaff13ef91b12940ff8da4e9",
- "board_revision": "baebe10792ea65c4adc58cce3f76913ee40e8e9c"
+ "board_revision": "73b902785762258d963079996adb499c261d2538"
 }
