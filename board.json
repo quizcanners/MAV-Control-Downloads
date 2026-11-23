@@ -1287,7 +1287,8 @@
    "goal": true,
    "under": 0,
    "ticks": [
-    "2026-11-12T14:55Z"
+    "2026-11-12T14:55Z",
+    "2026-11-23T22:17Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -1304,7 +1305,7 @@
     },
     {
      "t": "quiz: pick the route by which the app writes to the board (the app reads the public downloads repo and cannot write to the private one)",
-     "x": false
+     "x": true
     },
     {
      "t": "Cloud, after that: in-app priority, Set for review, Park and Verified write back to the board",
@@ -1312,11 +1313,6 @@
     }
    ],
    "notes": [
-    {
-     "by": "REVIEW",
-     "at": "2026-11-14T13:04Z",
-     "text": "REVIEW-505 CR-3C3D-01: [P3 S1/S2 brief](../Reviews/95c3e9a28.md#cr-3c3d-01--p3-replacing-a-multiline-task-note-leaves-its-old-body-behind) ready: replacing a multiline note removes its heading but leaves stale continuation lines, which can "
-    },
     {
      "by": "CODEX_MAC_UI",
      "at": "2026-11-16T12:25Z",
@@ -1326,6 +1322,11 @@
      "by": "MAC_BOARD",
      "at": "2026-11-20T13:57Z",
      "text": "1922 on main. The public Tasks copy preserves current board and verification state when publishers overlap. Disposable Git race proof and 38 host passes recorded. 1921 preserves concurrent page-check updates when a task closes. In-app Verif"
+    },
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-23T22:17Z",
+     "text": "Main 017af50b reconciles UI SPEC with the shipped route: priority, Set for review, Park and Unpark use durable BoardEdit records and reconcile with published board.json. The goal still needs in-app Verified for Page checks and a live round "
     }
    ]
   },
@@ -2930,6 +2931,11 @@
      "by": "CLAUDE_1929",
      "at": "2026-11-22T19:59Z",
      "text": "677ee9e7f2 on main: VideoReceiveSource.Wait (Requested/PreviewJpeg/FirstFrame/Live/Blocked) polled each frame; fullscreen open applies on FirstFrame or Live; receive_stage in transport report; Peer Video SPEC Viewing tables the waits. Compi"
+    },
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-23T22:15Z",
+     "text": "Rog Unity 6000.6.8f1 on adc93769: PeerCameraViewTests passed 5/5, zero failures or skips, using Station test identity. run_id fb8a667b-3ff9-488e-b55e-c50554279983; fresh NUnit XML matched. Remaining: paired desktop cold first open, request-"
     }
    ]
   },
@@ -3126,6 +3132,11 @@
      "by": "CLAUDE_600",
      "at": "2026-11-22T22:35Z",
      "text": "NetworkMessageStats -> NetworkManager.MessageStats pushed. Network area otherwise already nested; other areas (Systems, Workflows, Drone Control) not swept yet; NetworkUsageSystem enum left."
+    },
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-23T22:14Z",
+     "text": "Main adc93769: Remote Sensors editor command dispatch now lives under RemoteSense.Diagnostics; existing routing and command behavior preserved. Normal Rog Editor compiled with zero errors. The wider sweep remains open."
     }
    ]
   },
@@ -3213,10 +3224,12 @@
   {
    "n": 2057,
    "name": "Move UI to context-first folders",
-   "done": "",
+   "done": "2026-11-23T22:10Z",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-23T22:10Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -3232,10 +3245,16 @@
     },
     {
      "t": "Workflows and Systems UI folders: look for assets used by one other view",
-     "x": false
+     "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-23T22:10Z",
+     "text": "Main 7e5c16fd completes the Workflows and Systems UI folder audit. Edge Fade is shared by Store Post and the Main View lists, so it now lives under UI/Common/Effects. The Store Post author loads that shared sprite. Unity moved the asset wit"
+    }
+   ]
   },
   {
    "n": 2063,
@@ -4604,18 +4623,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE_CODEX",
-     "since": "2026-11-23T22:02Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-23T22:15Z",
+     "text": "Main 36ed7355 adds nine timing rows under Web Mercator Sync and skips redundant pending-sync queries in display selection. Rog Unity 6000.6.8f1 compiled and both focused display-selection cases passed on adc93769 with fresh NUnit results. N"
+    }
+   ]
   },
   {
    "n": 2144,
@@ -5008,7 +5024,8 @@
    "goal": false,
    "under": 0,
    "ticks": [
-    "2026-11-23T22:02Z"
+    "2026-11-23T22:02Z",
+    "2026-11-23T22:17Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -5018,8 +5035,8 @@
      "who": "CODEX_RAW_MAP_BASELINE",
      "since": "2026-11-23T21:35Z",
      "noted": "",
-     "progress": 33,
-     "ticked": 1,
+     "progress": 67,
+     "ticked": 2,
      "total": 3
     }
    ],
@@ -5030,7 +5047,7 @@
     },
     {
      "t": "Run independent recorded flights in the same Unity setup and record camera, throughput and visible surface counts",
-     "x": false
+     "x": true
     },
     {
      "t": "Compare the video-hidden ground and Pano360 squircle renders with the matching source frames and document remaining errors",
@@ -5038,6 +5055,35 @@
     }
    ],
    "notes": []
+  },
+  {
+   "n": 2160,
+   "name": "Web Mercator tile requests on Lenovo Android Test 878 block the map in VPN Chat. Frame 537 took 5",
+   "done": "",
+   "goal": false,
+   "under": 429,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX",
+     "since": "2026-11-23T22:15Z",
+     "noted": "2026-11-23T22:16Z",
+     "progress": 25,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX",
+     "at": "2026-11-23T22:16Z",
+     "text": "The live Editor is building a private diagnostic APK from 1f12f8413f for Lenovo. It contains the direct tile-request message factory and the existing detailed receive phases. The production Test 878 APK is checksum-verified for restoration."
+    }
+   ]
   }
  ],
  "verify": [
@@ -5322,6 +5368,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "611f1b7db30df8415fb3c331972558a3cb442b0b",
- "board_revision": "aa3634cc235702be9754b289f0cadf4111ae8352"
+ "source_revision": "017af50bc393814f6057b2d642d988ca3e5cf89f",
+ "board_revision": "0ba3a79fc9a7d0dca3920d0a74dbfc3a788f414e"
 }
