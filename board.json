@@ -4957,25 +4957,22 @@
   {
    "n": 2133,
    "name": "Tablet cold start",
-   "done": "",
+   "done": "2026-11-23T12:51Z",
    "goal": false,
    "under": 429,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_VPN_PROCESSING",
-     "since": "2026-11-23T12:34Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_VPN_PROCESSING",
+     "at": "2026-11-23T12:51Z",
+     "text": "0a7ce02cf3: hash answers are routed to the 2 drill frames that can take them, not every frame of every drill. Next device build confirms with 'vpn.update.start 20' then 'vpn.update.report': WebMercatorHashTree avg well under the 60 us/hash "
+    }
+   ]
   },
   {
    "n": 2134,
@@ -4983,7 +4980,9 @@
    "done": "",
    "goal": false,
    "under": 1693,
-   "ticks": [],
+   "ticks": [
+    "2026-11-23T12:53Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -4992,15 +4991,15 @@
      "who": "CODEX_MODEL_POSITIONING",
      "since": "2026-11-23T12:36Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Feed accepted linear and angular deltas to DroneState",
-     "x": false
+     "x": true
     },
     {
      "t": "Verify continuous position and rotation during live playback",
@@ -5300,6 +5299,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "1fab05d24959c93f5f62d872a3bcb7e53722739a",
- "board_revision": "73bd89f8844320ccb55c84a06343f81669746a40"
+ "source_revision": "1d81edfb87ba4ee8b58c15979e705237ff879398",
+ "board_revision": "b0067b5b596fabb7036876aa57523354e2168790"
 }
