@@ -2833,73 +2833,6 @@
    ]
   },
   {
-   "n": 1843,
-   "name": "A key per transfer",
-   "done": "2026-11-22T20:09Z",
-   "goal": false,
-   "under": 371,
-   "ticks": [
-    "2026-11-20T04:10Z",
-    "2026-11-20T04:10Z",
-    "2026-11-20T04:10Z",
-    "2026-11-20T04:10Z",
-    "2026-11-20T04:10Z",
-    "2026-11-20T04:11Z",
-    "2026-11-20T04:11Z",
-    "2026-11-20T04:11Z",
-    "2026-11-20T04:11Z",
-    "2026-11-20T04:25Z",
-    "2026-11-22T20:08Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Sender: one seal class for split payloads (EncryptedSplitPayload): a key per transfer for a build from 869 and today's form below it; each metadata send is one box of the fields and the key, sealed an",
-     "x": true
-    },
-    {
-     "t": "Receiver: open the box where the metadata is read, admit it like every sealed message, keep the key in that receive's RAM and open the payload with it; a box that does not open leaves nothing",
-     "x": true
-    },
-    {
-     "t": "Tests from the SPEC through the real sender and receiver, a COMPATIBILITY.md note, the Encryption and Network guides",
-     "x": true
-    },
-    {
-     "t": "A chat photo's caption, file name and group name move inside the seal, and geometry leaves the main keys for a build from 869",
-     "x": true
-    },
-    {
-     "t": "A voice message is sealed once and each peer is handed the key",
-     "x": true
-    },
-    {
-     "t": "When the floor passes 868 (the floor moves on quiz's word): the session form, the plain-metadata reading of sealed kinds, the WiFi evidence receiver's own key copy and geometry's main-key seal go",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T04:33Z",
-     "text": "Mac Editor at 75a3834f53 containing both transfer-key and voice changes. VpnTransferKeyTests 15 passed and EncryptionBoxKeyTests 3 passed. EditMode All 8746 passed, 0 failed, 31 skipped. XML SHA-256 527bde095010d622728c42b4dad6935cb00868b51"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-22T19:41Z",
-     "text": "quiz, 2026-11-22, asked whether to raise the peer floor past 868 now (cutting off peers on 692-868 until they update) or wait for the fleet: \"Raise floor now\". Raising PeerBuilds.Floor to 869 and removing the old forms."
-    },
-    {
-     "by": "CLAUDE_1843",
-     "at": "2026-11-22T20:09Z",
-     "text": "Floor 869 and the removals on main, 6bb34a6aa5"
-    }
-   ]
-  },
-  {
    "n": 1897,
    "name": "Reduce cumulative camera pose drift in Unity 3D map generation on continuous Video Source footage (goal 1693). Use the Kalasatama waterfront receipt in GPU.md and the earlier Kulosaari depth baseline.",
    "done": "",
@@ -5212,6 +5145,20 @@
      "text": "fd3b873859 on main: Layers grouped (Map, Situation, Infrastructure) into header panels with [Toggle] [Icon] [Label] rows, two columns centered; Play capture checked on GETAC. Changed EditMode tests compiled but not run (the normal Editor re"
     }
    ]
+  },
+  {
+   "n": 2155,
+   "name": "Rebake saved Street View Point Clouds from paired photo depth whenever the viewing grid spacing changes. Replace the archive preview regrid and block reduction from fused surfels. Keep the resident bl",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5496,6 +5443,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "5406f22f35352f3b18241dfaf76aae120f752828",
- "board_revision": "df4fe44dfe714e08d04b790faa3bdc065a51d673"
+ "source_revision": "3ccf125c1e343dd921c8dedb0ec04af34bc37e30",
+ "board_revision": "64fe82df17266d7da7b9f87ff32c047b0cd608bd"
 }
