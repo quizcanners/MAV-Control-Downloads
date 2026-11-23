@@ -5085,18 +5085,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE",
-     "since": "2026-11-23T17:54Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-23T18:25Z",
+     "text": "7bfcfb848d: Save Game waited only 0.5 s without input, so a pause between drags let the full root serialization run mid-pan; it now waits 5 s like the idle file owners (pause, exit and explicit Save unchanged). New rows under Save Game: Pla"
+    }
+   ]
   },
   {
    "n": 2146,
@@ -5562,6 +5559,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "28c9072dd6456d7fac9c540f568a3a40a373fdc1",
- "board_revision": "59ac011a365686c5b5ccfab4b930008b626dd3ab"
+ "source_revision": "7bfcfb848d4776bdd1bef034b723bcb56835a11b",
+ "board_revision": "5a2db84ca0996370b18c9d7a08554894a6e93c0d"
 }
