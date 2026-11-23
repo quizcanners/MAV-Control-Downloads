@@ -3493,26 +3493,6 @@
    "notes": []
   },
   {
-   "n": 2067,
-   "name": "Main View Left Lists and Suggestions",
-   "done": "2026-11-22T12:15Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_FOLD_UI",
-     "at": "2026-11-22T12:15Z",
-     "text": "736153ddf3 on main. Both imported handles start at the panel seam and extend 68 Canvas units outward, with tap and drag handlers intact. Left Lists and Suggestions page checks bumped. Native EditMode is tracked separately because the regula"
-    }
-   ]
-  },
-  {
    "n": 2068,
    "name": "Windows Unity EditMode",
    "done": "2026-11-23T07:38Z",
@@ -3529,46 +3509,6 @@
      "by": "CLAUDE_EDITOR_TESTS",
      "at": "2026-11-23T07:37Z",
      "text": "Windows Editor 6000.6.8f1, 2026-11-23: LeftListSwipeHandleTests PASS 3/0 failed. Cause of the earlier refusal: the station Editor sat on its own populated Data folder (tests_require_disposable_data_namespace), and bare fixture names are ref"
-    }
-   ]
-  },
-  {
-   "n": 2069,
-   "name": "MavChat",
-   "done": "2026-11-22T12:23Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_MAVCHAT_ONLINE",
-     "at": "2026-11-22T12:23Z",
-     "text": "5a72ceea96 on main. A fresh MavChat panel opens to Peers and the roster refresh keeps online contacts above offline contacts, alphabetical within each. Message arrivals update previews. Focused comparator check passed; Roslyn reported no ne"
-    }
-   ]
-  },
-  {
-   "n": 2070,
-   "name": "Mav Chat",
-   "done": "2026-11-22T12:24Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_CAPSULE_HAPTIC",
-     "at": "2026-11-22T12:24Z",
-     "text": "8549fef556 on main. The tick follows the committed capsule change, including short flicks. Carousel preview crossings stay quiet and vertical fold ticks retain their existing behavior. App and EditMode assemblies compiled before rebase usin"
     }
    ]
   },
@@ -5063,16 +5003,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-23T11:25Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Lock the Synthetic Pilot camera to the recorded optics and pose",
@@ -5087,7 +5018,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-23T12:27Z",
+     "text": "Main 92e355f749 keeps the world projection on the current decoder image and shares the visible Synthetic drone pose with Pilot View. Moving Kenilworth replay verified frame advance and shared pose. Hide Video still exposed landmark errors. "
+    }
+   ]
   },
   {
    "n": 2131,
@@ -5410,6 +5347,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "a6b8649ccd1ca135ba4cd0fe0920e222d8bf8c15",
- "board_revision": "8e94961000a17597e43f49e31e2c397343016ab2"
+ "source_revision": "92e355f7492051065ae8bc4df09ab71caa7fd56f",
+ "board_revision": "913a87577e4d2882322771d832f2a233d9a3fe4c"
 }
