@@ -5203,7 +5203,7 @@
   {
    "n": 2141,
    "name": "Scale the active 3D reconstruction and its Synthetic drone together when changing altitude",
-   "done": "",
+   "done": "2026-11-23T13:57Z",
    "goal": false,
    "under": 1693,
    "ticks": [
@@ -5214,16 +5214,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-23T13:34Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Trace reconstruction Origin and reproduce zero or ignored altitude",
@@ -5238,7 +5229,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-23T13:57Z",
+     "text": "691e8193fa on main. Two native replays while tracking was lost raised the same live camera from the 1 m floor, including 1 to 10 m at 10x scale. 32 source tests passed, two unrelated denoise tests skipped. 142 Kenilworth paired samples used"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5524,5 +5521,5 @@
   }
  ],
  "source_revision": "691e8193fa71c9b3ef910341f8f5c1df47d351c6",
- "board_revision": "041dc96c236e409dee22038a77616ef88783027c"
+ "board_revision": "949de04f72342d65f5601509dab59430e6b98b52"
 }
