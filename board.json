@@ -5075,7 +5075,7 @@
   {
    "n": 2126,
    "name": "Apply paired Pano360 clipping to the actual Point Cloud camera depth buffer",
-   "done": "",
+   "done": "2026-11-23T10:24Z",
    "goal": false,
    "under": 0,
    "ticks": [
@@ -5086,16 +5086,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-23T10:15Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Reproduce the discrepancy in camera color and sampled depth",
@@ -5110,7 +5101,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-23T10:24Z",
+     "text": "main 8ab8298d7f and 823b166f53, synced operator checkout. Reproduced the old shader blocking the background in the URP camera depth texture. Imported fixed shader and verified 3 m foreground and 6 m background in both depth-only and depth-p"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5407,6 +5404,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "8ab8298d7f60c82bffb2cc870a0ea6bfa43d948c",
- "board_revision": "f82ab272b3a66725759adf316fa5f976ec7c825b"
+ "source_revision": "823b166f53ab3eba3414e9c1132c0d3d9c961366",
+ "board_revision": "a44c80a83cc81401ad9e555e2d5935fd34b17ec9"
 }
