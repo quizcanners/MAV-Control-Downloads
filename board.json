@@ -2423,6 +2423,11 @@
      "by": "GETAC",
      "at": "2026-11-23T12:32Z",
      "text": "Lenovo HA1PGQ44 cold start on debug 877 (33f4e3b518, includes ddfcc4b25e), first 300 frames: no ReadIncoming<Crypto_PersonalInfo> stall in the 14 retained lags or 64 spikes; Crpt_ReleaseKey1 one spike 124.5 ms (was 824). Not reproduced unde"
+    },
+    {
+     "by": "GETAC_LENOVO",
+     "at": "2026-11-23T14:55Z",
+     "text": "Lenovo debug f3d6433b1b (has ddfcc4b25e), cold start (peers resend keys and Personal Info), elevation cells arriving. vpn.update frames 30-172: Crypto_ReleaseKey 100 calls 106 ms, max 23.7 ms (859: 823.8); WorkerEnvelopeAdoption 175 calls 0"
     }
    ]
   },
@@ -2649,7 +2654,7 @@
   {
    "n": 1710,
    "name": "Identify the texture owner of the Lenovo PowerVR allocation hitch. Join the UnityGfxDeviceWorker glTexStorage2D allocation to the enqueue owner",
-   "done": "",
+   "done": "2026-11-23T14:54Z",
    "goal": false,
    "under": 429,
    "ticks": [],
@@ -2668,6 +2673,11 @@
      "by": "CLAUDE_1710",
      "at": "2026-11-23T14:03Z",
      "text": "f2a8aa2470: lag receipt now shows uploads of frame N and N-1 per owner with allocation counts, plus lag_N_allocation lines (Element Mask chunk/view, Imagery tile, Planet height page; size, format). Build 877 pan on Lenovo (2026-11-23) did n"
+    },
+    {
+     "by": "GETAC_LENOVO",
+     "at": "2026-11-23T14:56Z",
+     "text": "Lenovo debug f3d6433b1b (has f2a8aa2470). Frame 653: 433.9 ms, present wait 326.8 ms; frame 652 allocated one Element Mask view 256x256 RGBA32, 262,144 B. Frame 2517 (pan): 272.7 ms present wait with no uploads or allocations, so not every "
     }
    ]
   },
@@ -3498,26 +3508,6 @@
      "by": "CLAUDE_2074",
      "at": "2026-11-22T17:39Z",
      "text": "Pushed acd7736250. Shared denoise owner (once per frame; consumers Fullscreen, first-person, processing, restream encoder); runs beside accumulation; Motion and 3D landmark/keyframe inputs take the denoised frame, evidence/Cube/Ortho keep t"
-    }
-   ]
-  },
-  {
-   "n": 2076,
-   "name": "Orthophoto near light",
-   "done": "2026-11-22T14:43Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "claude-ortho-light",
-     "at": "2026-11-22T14:43Z",
-     "text": "Pushed 2b716018a5: OrthophotoNearLight.hlsl reuses TerrainCloseRangeFadeAt + _TerrainCloseBrightness in the Orthophoto decal graph (_NearTrueColor=1 on Orthophoto PseudoDecal.mat). Not checked by eye in the Editor or on a device."
     }
    ]
   },
@@ -4978,6 +4968,11 @@
      "by": "CLAUDE_VPN_PROCESSING",
      "at": "2026-11-23T12:51Z",
      "text": "0a7ce02cf3: hash answers are routed to the 2 drill frames that can take them, not every frame of every drill. Next device build confirms with 'vpn.update.start 20' then 'vpn.update.report': WebMercatorHashTree avg well under the 60 us/hash "
+    },
+    {
+     "by": "GETAC_LENOVO",
+     "at": "2026-11-23T14:53Z",
+     "text": "Lenovo HA1PGQ44 debug f3d6433b1b (has 0a7ce02cf3), cold start, 20 s vpn.update with peers syncing: 675 hash batches, 4,335 hashes. WebMercatorHashTree 133.1 ms = 30.7 us/hash (877: 60 us). Crpt_WMConvHashBatch 754 of 1,050 ms Processing Mes"
     }
    ]
   },
@@ -5227,6 +5222,40 @@
   {
    "n": 2142,
    "name": "Selected object's MGRS field with no coordinates (Main View SPEC",
+   "done": "2026-11-23T14:45Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC",
+     "at": "2026-11-23T14:45Z",
+     "text": "74f0f48fe2 (text, Edit icon code, shutdown fixes) + ab7d1e0e07 (Edit Icon in RIGHT Suggestions.prefab, 1992 existing fileIDs kept, 4 new objects). Not compiled or checked in Play, on quiz's word."
+    }
+   ]
+  },
+  {
+   "n": 2143,
+   "name": "Lenovo tablet",
+   "done": "",
+   "goal": false,
+   "under": 429,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2144,
+   "name": "MainCameraTouchFollowTests",
    "done": "",
    "goal": false,
    "under": 0,
@@ -5234,16 +5263,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC",
-     "since": "2026-11-23T14:42Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": []
   }
@@ -5530,6 +5550,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "78f162f31fe29d260fa1ea6feb00392c5f165c45",
- "board_revision": "7f536c603c57ce462229c37daf5709a1189a4267"
+ "source_revision": "cd9bc729164f5bca97bd6873b337612d64c657d1",
+ "board_revision": "b1a7ce80b47bcf8544d6a5da6fc7808a4a3bb88d"
 }
