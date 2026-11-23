@@ -2514,7 +2514,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_1589",
+     "at": "2026-11-23T07:42Z",
+     "text": "ddfcc4b25e: Personal Info is now decoded and opened on the receive worker with a direct factory; main-thread fallback passes the same factory, so no GetConstructor/Activator. Parser and Newtonsoft ruled out by code (envelope-only type). Dev"
+    }
+   ]
   },
   {
    "n": 1590,
@@ -2568,7 +2574,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_1594",
+     "at": "2026-11-23T07:44Z",
+     "text": "No cause proven from code: no Session Maintenance owner blocks every frame, and the HA1PGQ44 receipts are not on the Getac. d426824890 adds child timing rows under Session Maintenance: Background Chat Windows/iOS, Routing Server, Direct Rou"
+    }
+   ]
   },
   {
    "n": 1629,
@@ -3332,66 +3344,6 @@
    ]
   },
   {
-   "n": 2040,
-   "name": "Align EditMode fixtures with the current Menu",
-   "done": "2026-11-22T06:41Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_FRESH_BUILD",
-     "at": "2026-11-22T06:40Z",
-     "text": "58f8b4e3e8 and d533a2b43f on main. Restream switch needs a destination and focused selected controls show pointer tint. Updated stale fixtures. Roslyn clean. EditMode All on the 876 pin: 8,858 pass, 0 fail, 35 skip. Native runner retained e"
-    }
-   ]
-  },
-  {
-   "n": 2041,
-   "name": "Windows installer 875 stops at Closing applications. Remove the global automatic-close failure from in-place upgrades",
-   "done": "2026-11-22T07:47Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-22T07:46Z",
-     "text": "Main 5d8a9b75f7 disables Setup automatic closure and retains private-file replacement at restart. Brigade 68 Windows 875 repair and portable ZIP verified in Drive Windows/Test. Original Setup archived. Roslyn: no new errors. Native fixture "
-    }
-   ]
-  },
-  {
-   "n": 2042,
-   "name": "Windows Setup offers to close the running MAV Control session gracefully. If locked files remain",
-   "done": "2026-11-22T07:59Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-22T07:59Z",
-     "text": "Main 13f0232888 adds the scoped normal-close prompt and keeps the restart fallback. Inno fixture verified successful close, a same-name copy left open, and continuation after refusal. Exact Brigade 68 Windows 875 installer repackaged and ve"
-    }
-   ]
-  },
-  {
    "n": 2043,
    "name": "Fix Getac Unity console warnings",
    "done": "2026-11-22T08:23Z",
@@ -3940,7 +3892,7 @@
   {
    "n": 2068,
    "name": "Windows Unity EditMode",
-   "done": "",
+   "done": "2026-11-23T07:38Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -3949,7 +3901,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_EDITOR_TESTS",
+     "at": "2026-11-23T07:37Z",
+     "text": "Windows Editor 6000.6.8f1, 2026-11-23: LeftListSwipeHandleTests PASS 3/0 failed. Cause of the earlier refusal: the station Editor sat on its own populated Data folder (tests_require_disposable_data_namespace), and bare fixture names are ref"
+    }
+   ]
   },
   {
    "n": 2069,
@@ -4003,7 +3961,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_EDITOR_TESTS",
+     "at": "2026-11-23T07:38Z",
+     "text": "Windows Editor, station test identity: ChatPeerOrderTests PASS 6/0; ChatComposerTests MavChatStartsWithNoSelectedPeerAcrossControllerRecreation PASS 1/0 and MavChatKeepsPeersUntilAConversationIsExplicitlySelected PASS 1/0. Portrait Play che"
+    }
+   ]
   },
   {
    "n": 2072,
@@ -4980,6 +4944,42 @@
      "text": "On main in 0f6ca44a66. Two uninterrupted Mac Unity castle replays joined while video and provisional points kept advancing. The visible Synthetic drone and the registered Pano360 projection shared the same first render frame and position. J"
     }
    ]
+  },
+  {
+   "n": 2114,
+   "name": "Keep new 3D Map points in ground contact across the live castle flight join",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-23T08:01Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Measure the reported ground gap in the live draft",
+     "x": false
+    },
+    {
+     "t": "Correct ground continuity through the join",
+     "x": false
+    },
+    {
+     "t": "Replay the castle flights in Unity",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -5066,14 +5066,6 @@
   {
    "screen": "Pilot View",
    "since": "2026-11-21T12:33Z"
-  },
-  {
-   "screen": "List Picker",
-   "since": "2026-11-16T03:08Z"
-  },
-  {
-   "screen": "SDC Ping",
-   "since": "2026-11-16T06:29Z"
   },
   {
    "screen": "General",
@@ -5284,6 +5276,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "0f6ca44a668f9ad40d70bfaf9be784eabb838501",
- "board_revision": "38f57e7d6e99fd31cdd100d19e63376913659f4c"
+ "source_revision": "d426824890292df7c4f69cca93f5547eec247f2b",
+ "board_revision": "2854d32bfb5ff15b2a2f843f4a03c1d3372cda54"
 }
