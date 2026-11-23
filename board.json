@@ -4947,7 +4947,7 @@
   {
    "n": 2113,
    "name": "Keep live Video Source and the Synthetic drone aligned through an automatic stitching handoff",
-   "done": "",
+   "done": "2026-11-23T06:12Z",
    "goal": false,
    "under": 1693,
    "ticks": [
@@ -4958,16 +4958,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-23T05:57Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Replay a live source switch with video and projection active",
@@ -4982,7 +4973,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-23T06:12Z",
+     "text": "On main in 0f6ca44a66. Two uninterrupted Mac Unity castle replays joined while video and provisional points kept advancing. The visible Synthetic drone and the registered Pano360 projection shared the same first render frame and position. J"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5288,5 +5285,5 @@
   }
  ],
  "source_revision": "0f6ca44a668f9ad40d70bfaf9be784eabb838501",
- "board_revision": "a8c77df380879955ae0533c75ab7de790f046da7"
+ "board_revision": "38f57e7d6e99fd31cdd100d19e63376913659f4c"
 }
