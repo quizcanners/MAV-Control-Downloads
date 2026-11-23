@@ -3440,26 +3440,6 @@
    "notes": []
   },
   {
-   "n": 2060,
-   "name": "Give Capture Screen",
-   "done": "2026-11-22T11:04Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_VIDEO_ICONS",
-     "at": "2026-11-22T11:04Z",
-     "text": "37e7e555cc and a651a087c5 published to main. Verified the four PNG masks, catalog GUIDs, row bindings, guide and Gate checks. Roslyn comparison was interrupted because the shared checkout was changing. Video Source Need for verify was bumpe"
-    }
-   ]
-  },
-  {
    "n": 2061,
    "name": "Every click on video makes a ping on screen and sends it to every peer (no click thrown away)",
    "done": "2026-11-22T11:07Z",
@@ -5058,7 +5038,9 @@
    "done": "",
    "goal": false,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-23T11:04Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -5067,15 +5049,15 @@
      "who": "CODEX_MODEL_POSITIONING",
      "since": "2026-11-23T11:03Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Measure pixel quality in the live ground atlas",
-     "x": false
+     "x": true
     },
     {
      "t": "Lift valid low-quality paint in the ground display shader",
@@ -5383,6 +5365,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "b4668715de6c504e7624e29e5fff86329a4cf188",
- "board_revision": "a8c0ee0ecfb3ab54c7e0ded757185a81a81a10b3"
+ "source_revision": "604a512c816ae68faaff13ef91b12940ff8da4e9",
+ "board_revision": "5692dc801bd4a42544c3b209e9465becc22cdc93"
 }
