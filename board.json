@@ -1843,16 +1843,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_735_STATICS",
-     "since": "2026-11-23T12:34Z",
-     "noted": "",
-     "progress": 75,
-     "ticked": 3,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
@@ -1871,7 +1862,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_735_STATICS",
+     "at": "2026-11-23T13:11Z",
+     "text": "564540785d: on Station disable Roadmap feedback/checklist/catalog, Overpass wait, owed geometry texture deletes, mask chunk vaults of every folder and the Android network callback reset in their own owner stage. Material copies audited: all"
+    }
+   ]
   },
   {
    "n": 854,
@@ -5040,7 +5037,8 @@
    "goal": false,
    "under": 1693,
    "ticks": [
-    "2026-11-23T13:08Z"
+    "2026-11-23T13:08Z",
+    "2026-11-23T13:15Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -5050,8 +5048,8 @@
      "who": "CODEX_MODEL_POSITIONING",
      "since": "2026-11-23T13:06Z",
      "noted": "",
-     "progress": 33,
-     "ticked": 1,
+     "progress": 67,
+     "ticked": 2,
      "total": 3
     }
    ],
@@ -5062,7 +5060,7 @@
     },
     {
      "t": "Reuse recorded cameras and prevent repeated exposures from adding duplicate geometry",
-     "x": false
+     "x": true
     },
     {
      "t": "Verify loop recovery in Unity with live projection",
@@ -5398,6 +5396,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "63370938db7f5de962e6a17765a3908957d21c31",
- "board_revision": "73c4cf2bdc9968631e2592f6179cb43c550ed2d3"
+ "source_revision": "be76fddb9f7de76a00525789702ca46282aa1435",
+ "board_revision": "49be3460b00a38e20f5c096e51af8148e07740f2"
 }
