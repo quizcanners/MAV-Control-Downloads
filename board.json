@@ -5072,7 +5072,7 @@
   {
    "n": 2125,
    "name": "Clean weak Point Cloud Disks against paired photo depth after Video Source joins",
-   "done": "",
+   "done": "2026-11-23T10:03Z",
    "goal": false,
    "under": 0,
    "ticks": [
@@ -5083,16 +5083,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-23T09:59Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Trace how joined Disks are tested against real photo rays",
@@ -5107,7 +5098,13 @@
      "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MODEL_POSITIONING",
+     "at": "2026-11-23T10:03Z",
+     "text": "main b21ffdc5b9. Unity Metal reproduced the weak backward-facing Disk surviving the previous clip. The revised shader clipped it from all three passes, preserved the better-supported Disk, and kept hidden geometry when the photo measured a "
+    }
+   ]
   }
  ],
  "verify": [
@@ -5405,5 +5402,5 @@
   }
  ],
  "source_revision": "b21ffdc5b976816822f482e43de58d58719ada45",
- "board_revision": "a2a38969024e794c198ab4e101920c7b561822d4"
+ "board_revision": "5df7963d3d1a6ffccd5ffe32ee9b365024f10f7f"
 }
