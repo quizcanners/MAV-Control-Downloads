@@ -3573,26 +3573,6 @@
    ]
   },
   {
-   "n": 2084,
-   "name": "REVIEW 8e7b5f52d6",
-   "done": "2026-11-22T17:53Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_GETAC",
-     "at": "2026-11-22T17:52Z",
-     "text": "Done ca999db866: TryGetPeerByGUID walks Roster.Peers (VPN, radio-only, USB); TryGetSituationAuthor looks up each frame, count cache and retry removed. Direct lookup chosen over a ByGuid index: meta GUID is written in several places (DirectP"
-    }
-   ]
-  },
-  {
    "n": 2085,
    "name": "REVIEW 87a639dddb",
    "done": "2026-11-22T17:55Z",
@@ -5185,7 +5165,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG_FABLE",
+     "since": "2026-11-23T17:54Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -5650,6 +5639,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "0fd39fc30a1b1e9a5e37081a95204e56c3c0ca03",
- "board_revision": "efad6b3d88cc340e5ece4243e1bf1ed199a3ab25"
+ "source_revision": "9675bd8dc68cd140a3a0c99e6124be6c5715b1a7",
+ "board_revision": "b23f001f7c1e205f443d64a9a5d4f107c8a31b6b"
 }
