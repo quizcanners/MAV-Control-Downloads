@@ -5039,7 +5039,9 @@
    "done": "",
    "goal": false,
    "under": 1693,
-   "ticks": [],
+   "ticks": [
+    "2026-11-23T13:08Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -5048,15 +5050,15 @@
      "who": "CODEX_MODEL_POSITIONING",
      "since": "2026-11-23T13:06Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Reproduce the repeated exposure displacement",
-     "x": false
+     "x": true
     },
     {
      "t": "Reuse recorded cameras and prevent repeated exposures from adding duplicate geometry",
@@ -5377,5 +5379,5 @@
   }
  ],
  "source_revision": "63370938db7f5de962e6a17765a3908957d21c31",
- "board_revision": "c549d97ac996b228ad092b71972d1b5222244db1"
+ "board_revision": "cbc1a54be3ffebd0fbfb63bcb981fd080a82b4f9"
 }
