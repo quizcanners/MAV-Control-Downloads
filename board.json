@@ -4943,6 +4943,42 @@
      "text": "Main b41b12909c. Updated the 20 remaining callers of the removed Station owners and corrected one stale MGRS comment. Native Unity 6000.6.8f1 compiled with zero errors."
     }
    ]
+  },
+  {
+   "n": 2113,
+   "name": "Keep live Video Source and the Synthetic drone aligned through an automatic stitching handoff",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MODEL_POSITIONING",
+     "since": "2026-11-23T05:57Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Replay a live source switch with video and projection active",
+     "x": false
+    },
+    {
+     "t": "Keep projection and drone together when registration relocates the live flight",
+     "x": false
+    },
+    {
+     "t": "Verify the continuous path in Unity",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -5247,6 +5283,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "ee14598d0ca4a239feb1f76644f1b6ecbc7f56fe",
- "board_revision": "630ee9b5345f247ec170967f85e365ee808718c5"
+ "source_revision": "ea23a55b0629ab42a2eaa9d1414563a8e60956b1",
+ "board_revision": "a8eceb86285b4f54c248cb55776547dfb69ea996"
 }
