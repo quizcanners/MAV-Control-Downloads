@@ -4964,25 +4964,22 @@
   {
    "n": 2132,
    "name": "Chat peer column",
-   "done": "",
+   "done": "2026-11-23T14:08Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CLAUDE_2132",
-     "since": "2026-11-23T13:27Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLAUDE_2132",
+     "at": "2026-11-23T14:08Z",
+     "text": "d7897b6705: connection icons (brigade logo = the double chevron, radio, background tracker) moved from a centred full-width top strip into the name line as their own slot before the name; checked in Play with Chat open: names no longer cove"
+    }
+   ]
   },
   {
    "n": 2133,
@@ -5178,7 +5175,8 @@
    "goal": false,
    "under": 1693,
    "ticks": [
-    "2026-11-23T14:02Z"
+    "2026-11-23T14:02Z",
+    "2026-11-23T14:16Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -5188,8 +5186,8 @@
      "who": "CODEX_MODEL_POSITIONING",
      "since": "2026-11-23T13:19Z",
      "noted": "",
-     "progress": 33,
-     "ticked": 1,
+     "progress": 67,
+     "ticked": 2,
      "total": 3
     }
    ],
@@ -5200,7 +5198,7 @@
     },
     {
      "t": "Use optical flow between Depth Anything camera observations",
-     "x": false
+     "x": true
     },
     {
      "t": "Measure one-pass drift and stitching recovery in Unity",
@@ -5529,6 +5527,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "f2a8aa24708d92ad852d896184900d0c922ea0cf",
- "board_revision": "51d1ed0b95f9aa4979c687fa76e739b5402a1fe4"
+ "source_revision": "0bb183a0117751c43862ed12937166a8315e810d",
+ "board_revision": "180c9ef37f74859de448395c4c2d9b9cb215ca5d"
 }
