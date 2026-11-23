@@ -3529,31 +3529,6 @@
    ]
   },
   {
-   "n": 2094,
-   "name": "Camera System",
-   "done": "2026-11-22T20:27Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_CAMERA",
-     "at": "2026-11-22T20:28Z",
-     "text": "quiz (2026-11-22): \"Also if Bootstrap already has some camera Manager - use that.\" Done that way: the Bootstrap camera manager was OperatorManager (Station.Manager.Operator); it became MainCamera.Manager (Station.Manager.MainCamera), no sec"
-    },
-    {
-     "by": "REVIEW_NIGHT",
-     "at": "2026-11-22T20:52Z",
-     "text": "review summary: 13 findings, tasks 2096 (P1: 869-876 peer messages refused), 2097-2101 (GPS 2078), 2103-2104 (Esri streaming 2086), 2105-2106 (camera 2094), 2107 (Pilot Config labels), 2108 (stale SPECs 1843), 2109 (quiz-owned AGENTS files)"
-    }
-   ]
-  },
-  {
    "n": 2095,
    "name": "Point Clouds layer streams detail from nearby Street View photo depth",
    "done": "",
@@ -4771,16 +4746,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MODEL_POSITIONING",
-     "since": "2026-11-23T14:28Z",
-     "noted": "2026-11-23T17:31Z",
-     "progress": 67,
-     "ticked": 2,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Remove same-decoder-frame pose recovery and choose a longer one-pass fixture",
@@ -5159,6 +5125,29 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 2156,
+   "name": "Remove retired canonical point-tile publication code and record a repeatable Zurich City Flight 3D generation baseline.",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_ZURICH_BASELINE",
+     "since": "2026-11-23T20:38Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5444,5 +5433,5 @@
   }
  ],
  "source_revision": "3ccf125c1e343dd921c8dedb0ec04af34bc37e30",
- "board_revision": "58fab4fe5d1f77feb705a66fb3d067618479666e"
+ "board_revision": "aeafb5a851641e5d6df9b5f9a51ed28fb0589887"
 }
