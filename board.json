@@ -1435,6 +1435,11 @@
      "by": "GETAC",
      "at": "2026-11-18T18:13Z",
      "text": "Lenovo repaired Dev861/6967901230: archived our old Test860 updater APK after host/device SHA match. Freed 329.1 MiB, no map files touched. New retention sample 2.738 GB available vs 2.677 GB base reserve and 3.035 GB migration maintenance "
+    },
+    {
+     "by": "CODEX",
+     "at": "2026-11-24T02:34Z",
+     "text": "Lenovo Dev 878 with zero queued peer tiles: 663/1,230 app CPU samples (53.9%) were in legacy inventory, split 353 initial and 310 post-maintenance. Two included garbage retirement. SQLite 3.49.1 host fixture: attaching a WAL segment via a r"
     }
    ]
   },
@@ -2991,7 +2996,7 @@
   {
    "n": 1962,
    "name": "UI leaf assembly",
-   "done": "",
+   "done": "2026-11-24T02:10Z",
    "goal": false,
    "under": 1951,
    "ticks": [],
@@ -3005,6 +3010,11 @@
      "by": "GETAC",
      "at": "2026-11-21T09:02Z",
      "text": "e8ca2a6432 on main. Bootstrap pointer handling uses an input contract for pressed buttons and tooltips. Prublyda and EditMode test assemblies compiled with Unity Editor response files; fixtures were not executed. Full cmp.sh was stopped und"
+    },
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T02:10Z",
+     "text": "Published ff854b75. Unity compiles 61 UI implementation scripts in WarStation.SharedUI independently of Prublyda. Prublyda, its Editor assembly and EditMode/ECS tests reference it. Standalone Android-target C# and asset ID/event checks pass"
     }
    ]
   },
@@ -3018,9 +3028,24 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG_FABLE_CODEX",
+     "since": "2026-11-24T02:51Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T02:49Z",
+     "text": "Main a698f427 moves Compass tap state and camera decisions into Station UI. The tap method body matches the old implementation, including the existing Dev mode path. Station UI composition owns the only Singleton_MavUI lookups for Compass s"
+    }
+   ]
   },
   {
    "n": 1964,
@@ -3089,7 +3114,7 @@
   {
    "n": 2023,
    "name": "Map shutdown waited 4.4 s for SQLite admitted work (ShutdownController.FinishPublications). Cause found",
-   "done": "",
+   "done": "2026-11-24T00:04Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -3098,7 +3123,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T00:04Z",
+     "text": "Main 70af29b5. Rog native SQLite EditMode passed 31/31 on identical patch 565150d9 (NUnit run 13657e6e-cf63-4474-8e4e-8d2b4c95be78). Shutdown joined and dropped a real retention worker while its file gate remained held. The existing paused "
+    }
+   ]
   },
   {
    "n": 2024,
@@ -3110,22 +3141,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE_CODEX",
-     "since": "2026-11-23T22:33Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CLAUDE_600",
      "at": "2026-11-22T22:30Z",
      "text": "6ed58e8572: LogisticsPackages moved to Workflows/Logistics. Left: StorePostController (serialized StorePostEventNotice(s) nested in NetworkManager; needs checkpoint-compat check), SendServerPackages/SendServerSpecs, Crypto_ReleaseKey messag"
+    },
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-23T22:42Z",
+     "text": "Main 0b6f251d gives Store Post its own Station system and moves the code beside Logistics. Chat card updates and quiet notices keep their current frame order and VPNDevices.StorePostEvents checkpoint format. Rog Unity StorePostEventChatTest"
     }
    ]
   },
@@ -3472,79 +3499,6 @@
    "notes": []
   },
   {
-   "n": 2091,
-   "name": "Draw and select one to three suggested joins between partially agreeing 3D Map flights. See Video Processing SPEC",
-   "done": "2026-11-22T23:24Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [
-    "2026-11-22T23:22Z",
-    "2026-11-22T23:23Z",
-    "2026-11-22T23:23Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Retain likely placements backed by independent cross-flight photo matches. Group equivalent placements into one proposal.",
-     "x": true
-    },
-    {
-     "t": "Draw a selectable line on the Map for each of the strongest distinct proposals.",
-     "x": true
-    },
-    {
-     "t": "Record the chosen operator link and apply it to the separate flight in the working draft.",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T23:24Z",
-     "text": "Main ee14598d0c. Grouped independent observations into up to three ranked Map lines. Mac Metal: sparse Heritage refused automatic confirmation and drew one line. A real Unity Input System click moved four pending photos and cleared the line"
-    }
-   ]
-  },
-  {
-   "n": 2092,
-   "name": "Use uncertain starting positions and overlapping Orthophoto patches to weight 3D Map flight joins. See Video Processing SPEC",
-   "done": "2026-11-22T23:25Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [
-    "2026-11-22T23:02Z",
-    "2026-11-22T23:24Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Let agreement with the manual start softly strengthen direct photo matches.",
-     "x": true
-    },
-    {
-     "t": "Retain independent ground-projected colour and coverage for each flight.",
-     "x": true
-    },
-    {
-     "t": "Compare footprints and feed the weighted Orthophoto evidence into automatic placement and suggested joins. Account for evidence shared with perspective matches.",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T23:25Z",
-     "text": "Main be10885040 and ee14598d0c. Weighted depth-supported Orthophoto comparison refines verified joins and contributes to tentative photo matches without counting the same exposure twice. Latest automatic castle replay measured 6.96% support"
-    }
-   ]
-  },
-  {
    "n": 2093,
    "name": "using Strong",
    "done": "2026-11-23T12:28Z",
@@ -3600,63 +3554,6 @@
      "by": "CODEX_MODEL_POSITIONING",
      "at": "2026-11-22T21:05Z",
      "text": "Published on main and verified Layers, native saved-photo reconstruction, view-dependent spacing, and identical coverage in all three GPU passes. Finish browsing verification over a continuous traverse and split large regions into independe"
-    }
-   ]
-  },
-  {
-   "n": 2111,
-   "name": "Preserve image-space depth detail and bound standalone photo Point Clouds generation (Video Processing SPEC",
-   "done": "2026-11-22T22:46Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [
-    "2026-11-22T22:45Z",
-    "2026-11-22T22:46Z",
-    "2026-11-22T22:46Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Stream bounded depth samples without an intermediate metric voxel grid",
-     "x": true
-    },
-    {
-     "t": "Choose the finest drawable spacing from the measured photo footprint",
-     "x": true
-    },
-    {
-     "t": "Replay the saved-photo Point Clouds layer on Mac Metal",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T22:46Z",
-     "text": "Main 5a03219948. Direct GPU sampling preserves native depth detail and caps source measurements. Mac Metal preserved 961 samples in a 0.25 mm close-up crop. Saved Kenilworth photo refined from 1 m to 0.5 m spacing. Looking away released all"
-    }
-   ]
-  },
-  {
-   "n": 2112,
-   "name": "Restore Unity compilation after CurrentVpn and HorizonVisibility moved out of Station (600 follow-up)",
-   "done": "2026-11-22T22:42Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-22T22:42Z",
-     "text": "Main b41b12909c. Updated the 20 remaining callers of the removed Station owners and corrected one stale MGRS comment. Native Unity 6000.6.8f1 compiled with zero errors."
     }
    ]
   },
@@ -4798,11 +4695,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-23T20:39Z",
-     "text": "Handed below-ground depth recovery to Astra. Main 5406f22f35 joint solver improved held-out pictures but sometimes overshoots terrain. Current ordinary Main draft is paused at 83 s with 16 depth photos and zero planes; camera clearance impr"
-    },
-    {
      "by": "CODEX_ZURICH_BASELINE",
      "at": "2026-11-23T21:33Z",
      "text": "b1f0f0640f on main compiled in the Mac Editor. Paired raw measurements pull and rotate both working photos. Working and original origins, all matched endpoints and residuals are visible in Gizmos. True world observations and supported paths"
@@ -4811,6 +4703,11 @@
      "by": "CODEX_RAW_MAP_BASELINE",
      "at": "2026-11-23T22:39Z",
      "text": "e0fdecea07 puts measured rolling-photo point pairs into the same reciprocal solver used by registered photos. Kenilworth visual: 15 rolling links, 1034 final pairs, raw/working RMS 0.396/0.237 draft units. Zurich: 10 rolling links, 271 fina"
+    },
+    {
+     "by": "CODEX_PHOTO_GIZMOS",
+     "at": "2026-11-24T02:54Z",
+     "text": "5a0a6d0a26 on main scopes Photo Tension Shapes to current processing. Registered and provisional comparisons publish raw endpoints at each photo's displayed pose. Finishing a comparison clears its lines on the next idle frame. The Mac Edito"
     }
    ]
   },
@@ -4846,7 +4743,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-23T23:47Z",
+     "text": "Main 94288a85 rebakes archive blocks from paired photo depth at the requested spacing and retains the published buffer until replacement. 39b86d89 corrects the saved-archive full-raster test count. Rog D3D11 passed PointCloudCoverage (6), t"
+    }
+   ]
   },
   {
    "n": 2156,
@@ -4992,22 +4895,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX",
-     "since": "2026-11-23T22:15Z",
-     "noted": "2026-11-23T22:16Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX",
-     "at": "2026-11-23T22:16Z",
-     "text": "The live Editor is building a private diagnostic APK from 1f12f8413f for Lenovo. It contains the direct tile-request message factory and the existing detailed receive phases. The production Test 878 APK is checksum-verified for restoration."
+     "at": "2026-11-23T22:45Z",
+     "text": "Lenovo installed private Dev 878 from 1f12f8413f in place; installed APK digest and original data identity verified. Shared receive capture ran 226 frames over 30.114 s. Frame peak 137.113 ms, VPN update peak 12.315 ms, Processing Messages "
     }
    ]
   },
@@ -5048,6 +4942,85 @@
      "by": "ROG_FABLE_CODEX",
      "at": "2026-11-23T22:31Z",
      "text": "Main bdb0a643. Page Checks now replaces an expired request before adding a new change, while a current request still keeps its original timestamp and merged notes. The regression reproduced the missing Map request before the fix. Screen Che"
+    }
+   ]
+  },
+  {
+   "n": 2163,
+   "name": "Android map touch reports InputUpdateType.None during native touchscreen discovery. Lenovo Dev 878 reached the map and kept one process through startup",
+   "done": "",
+   "goal": false,
+   "under": 429,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX",
+     "at": "2026-11-24T00:55Z",
+     "text": "Lenovo Dev 878 b115cb9220 verified real menu taps and a single-finger pan of 1,325.1 m with the original view restored. Dev 878 53a5812f27 repeated the InputUpdateType.None startup exception and still rendered the map with one PID across 17"
+    }
+   ]
+  },
+  {
+   "n": 2164,
+   "name": "Lenovo Android peer tiles must save while Online Raster is producing streamed parents. Dev 878 grew from 557 to 2",
+   "done": "",
+   "goal": false,
+   "under": 429,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-23T23:18Z",
+     "text": "Rog Windows Editor passed 59 OnlineRasterSchedulingTests on 55877ee7 (run c3123593-910d-4c4e-8e71-ebb700d6b3ec). Main e12627f1 documents the write turn. Retry b115cb92 records a stale Editor EdgeSides layout and no APK. Rog Prublyda.dll has"
+    },
+    {
+     "by": "CODEX",
+     "at": "2026-11-24T02:40Z",
+     "text": "Lenovo Dev 878: with write admission open, 24 reads/114.8 s recorded 102 Raster parents, 1,977 queued peer tiles and zero batches. After Raster ended and the checkpoint cleared, the queue drained. bf9d28c365 gives a streamed peer turn while"
+    }
+   ]
+  },
+  {
+   "n": 2165,
+   "name": "Getac build PC D",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2166,
+   "name": "Lenovo Web Mercator startup spends 7",
+   "done": "",
+   "goal": false,
+   "under": 429,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX",
+     "at": "2026-11-24T02:51Z",
+     "text": "Lenovo Dev 878: 13,618 SQLite files (3.4 s map disk scan), up from 13,507 on the same APK. 90b11f91fb records WAL count and journal-reset calls/time. e641b6818f excludes linked payload folders from the startup sweep after a Windows fixture "
     }
    ]
   }
@@ -5334,6 +5307,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "a3f8dc73b6832728959d72b4b32b5c3cb7a316e5",
- "board_revision": "5264976a77b70cf5a1c646a71068a7edfbc85f10"
+ "source_revision": "5a0a6d0a26929064a574009bcb44d2cfe30b307f",
+ "board_revision": "e229e8f57699e392d0aba1119abddde2d105202b"
 }
