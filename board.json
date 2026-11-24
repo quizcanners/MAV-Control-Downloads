@@ -4971,7 +4971,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG_FABLE_CODEX",
+     "since": "2026-11-24T10:37Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -5006,48 +5015,42 @@
   {
    "n": 2191,
    "name": "Fat container StreamerManager",
-   "done": "",
+   "done": "2026-11-24T10:35Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "cloud-rename",
-     "since": "2026-11-24T10:34Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "cloud-rename",
+     "at": "2026-11-24T10:35Z",
+     "text": "Done: static container + nested Manager, all call sites renamed, merged to main. Quote: quiz, 2026-11-24: \"So Streaming.Manager and Network.Manager. Streaming actually can be renamed to VideoStreaming, if it is about video specifically. Net"
+    }
+   ]
   },
   {
    "n": 2192,
    "name": "Fat container NetworkManager",
-   "done": "",
+   "done": "2026-11-24T10:35Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "cloud-rename",
-     "since": "2026-11-24T10:35Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "cloud-rename",
+     "at": "2026-11-24T10:35Z",
+     "text": "Done: static container + nested Manager, all call sites renamed, merged to main. Quote: quiz, 2026-11-24: \"So Streaming.Manager and Network.Manager. Streaming actually can be renamed to VideoStreaming, if it is about video specifically. Net"
+    }
+   ]
   },
   {
    "n": 2193,
@@ -5080,6 +5083,26 @@
   {
    "n": 2195,
    "name": "Clear nearby duplicate voxel walls along the generating photo ray and render uncertain normals as transparent camera-facing Pano360 circles after the opaque squircles and Pano360.",
+   "done": "2026-11-24T10:39Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_CASTLE_PHOTO_AGREEMENT",
+     "at": "2026-11-24T10:39Z",
+     "text": "d48fcc554a on main. Mac Metal Editor passed both arrival orders for a same-normal double wall within three voxel widths. The published counts, moved-photo rebuild, and transparent circular Pano360 receiver passed. Final Castle Game view sho"
+    }
+   ]
+  },
+  {
+   "n": 2196,
+   "name": "Restore Unity Editor compilation after the Diagnostics PlayerLoop refactor. On main 2d68f047cd",
    "done": "",
    "goal": false,
    "under": 0,
@@ -5089,8 +5112,8 @@
    "flags": [],
    "held": [
     {
-     "who": "CODEX_CASTLE_PHOTO_AGREEMENT",
-     "since": "2026-11-24T10:34Z",
+     "who": "ROG_FABLE_CODEX",
+     "since": "2026-11-24T10:39Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
@@ -5359,6 +5382,6 @@
    "since": "2026-11-24T05:49Z"
   }
  ],
- "source_revision": "f3c35c0caa4bdd6447c41d6b33f491c4145dc496",
- "board_revision": "5c06a9b93423068fd71b66ddb0b56e0b2df75a5e"
+ "source_revision": "d48fcc554afe24ffdaa1fa6c2c615f7b73de382d",
+ "board_revision": "3e232712bf49915ea548938eb39e99969a4b71a2"
 }
