@@ -5043,29 +5043,25 @@
   {
    "n": 2212,
    "name": "Recorded-file photo selection in 3D Map Generation. Keep eight distinct views moving one exposure at a time",
-   "done": "",
+   "done": "2026-11-24T17:52Z",
    "goal": false,
    "under": 1693,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_RECORDED_TENSION",
-     "since": "2026-11-24T17:51Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_PHOTO_SELECTION",
      "at": "2026-11-24T17:47Z",
      "text": "Delivered 51f95fb915. Full 1x Zurich with actual predicted file camera: rolling diameter median 18.67m vs fixed 4.83m, newest age 2.3 vs 3.4s, 2s shown-camera epipolar P90 11.74 vs 41.42px. Fixed stale-edge runaway (max 103.52 to 23.86m), s"
+    },
+    {
+     "by": "CODEX_RECORDED_TENSION",
+     "at": "2026-11-24T17:52Z",
+     "text": "Accepted under revised practical bar. Second full 98.8 s 1x Play Mode Zurich pass at 51f95fb915: 40/40 windows, median surveyed diameter 18.74m, max 22.25m, largest adjacent gap max 3.75m, mapped age max 2.5s. Actual file camera P90 14.40 v"
     }
    ]
   }
@@ -5325,5 +5321,5 @@
   }
  ],
  "source_revision": "51f95fb9157c8fed33b9ec2700445216c6467ff5",
- "board_revision": "f515a3d623de5980b108c1ec3d84bf9da21ddc64"
+ "board_revision": "96a9d089fcba64f38de1b3153fa097793dcf4ac4"
 }
