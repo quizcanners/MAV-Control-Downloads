@@ -5036,25 +5036,22 @@
   {
    "n": 2215,
    "name": "Subdivide live preview Disks around the registered video camera and rebuild around the Game camera while paused",
-   "done": "",
+   "done": "2026-11-24T21:53Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_CASTLE_DISK_VIEW",
-     "since": "2026-11-24T21:49Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_CASTLE_DISK_VIEW",
+     "at": "2026-11-24T21:53Z",
+     "text": "Published d711623a35 to main. Paused Game-camera movement rebuilt retained Castle depth on Metal: 102095 close cells, 94905 at +4m, 9132 at +144m; holds stationary. Generation used the registered source. Raw/cache measured candidates matche"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5311,6 +5308,6 @@
    "since": "2026-11-24T21:22Z"
   }
  ],
- "source_revision": "267e614a253bcb71cd4759123ea7e7625778cbc6",
- "board_revision": "683b21331baf61af53331716950a3913679c8066"
+ "source_revision": "d711623a3536745b29072e899887c368c1901f07",
+ "board_revision": "dc00acb428539491d3e5c2a90785b622e09f4013"
 }
