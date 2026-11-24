@@ -2408,36 +2408,6 @@
    ]
   },
   {
-   "n": 1710,
-   "name": "Identify the texture owner of the Lenovo PowerVR allocation hitch. Join the UnityGfxDeviceWorker glTexStorage2D allocation to the enqueue owner",
-   "done": "2026-11-23T14:54Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-19T00:58Z",
-     "text": "Lenovo Dev 861 frame 19102 spent 1,703 ms waiting for the graphics worker. Perfetto followed UploadTexture2D into PowerVR glTexStorage2D allocation. Two Mask Apply calls totalled 524,288 B and 0.099 ms, consistent with two 256x256 RGBA32 up"
-    },
-    {
-     "by": "CLAUDE_1710",
-     "at": "2026-11-23T14:03Z",
-     "text": "f2a8aa2470: lag receipt now shows uploads of frame N and N-1 per owner with allocation counts, plus lag_N_allocation lines (Element Mask chunk/view, Imagery tile, Planet height page; size, format). Build 877 pan on Lenovo (2026-11-23) did n"
-    },
-    {
-     "by": "GETAC_LENOVO",
-     "at": "2026-11-23T14:56Z",
-     "text": "Lenovo debug f3d6433b1b (has f2a8aa2470). Frame 653: 433.9 ms, present wait 326.8 ms; frame 652 allocated one Element Mask view 256x256 RGBA32, 262,144 B. Frame 2517 (pan): 272.7 ms present wait with no uploads or allocations, so not every "
-    }
-   ]
-  },
-  {
    "n": 1713,
    "name": "Using Strong and Lenovo for the paired Web Mercator derived rebake baseline and containing build capture",
    "done": "2026-11-24T05:48Z",
@@ -3526,26 +3496,6 @@
    ]
   },
   {
-   "n": 2142,
-   "name": "Selected object's MGRS field with no coordinates (Main View SPEC",
-   "done": "2026-11-23T14:45Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-23T14:45Z",
-     "text": "74f0f48fe2 (text, Edit icon code, shutdown fixes) + ab7d1e0e07 (Edit Icon in RIGHT Suggestions.prefab, 1992 existing fileIDs kept, 4 new objects). Not compiled or checked in Play, on quiz's word."
-    }
-   ]
-  },
-  {
    "n": 2143,
    "name": "Lenovo tablet",
    "done": "",
@@ -3655,7 +3605,16 @@
    "priority": "high",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_VIDEO_COMPARISON",
+     "since": "2026-11-24T14:57Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 6
+    }
+   ],
    "steps": [
     {
      "t": "Replay arm of the first version (24 motion-spaced photos, groups of 12 with 5 shared, 30 % allowance, add-only Disks) on the city clip as the control",
@@ -5046,23 +5005,14 @@
   {
    "n": 2210,
    "name": "Starlink GPS as spoof backup",
-   "done": "",
+   "done": "2026-11-24T14:48Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "cloud-starlink-review",
-     "since": "2026-11-24T14:34Z",
-     "noted": "",
-     "progress": 12,
-     "ticked": 1,
-     "total": 8
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "SPEC: ultimate design, compromises and quiz's three answers written",
@@ -5097,7 +5047,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "cloud-starlink-review",
+     "at": "2026-11-24T14:48Z",
+     "text": "On main 1e3c5b734c, not compiled in Unity (cmp.sh: only missing-UnityEngine lines for the new file GPS_StarlinkDish.cs). Done: get_location with source and error radius, get_status GPS state, 30 s compare poll, disagreement with both points"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5354,6 +5310,6 @@
    "since": "2026-11-24T11:14Z"
   }
  ],
- "source_revision": "34003deebc191a7092a3f0a3086ff70adb9fee1e",
- "board_revision": "8902649e221335cdb5675a96cb99bf6b35aeb74e"
+ "source_revision": "3721755c25dcd09d468d576266f52f6e8047beb8",
+ "board_revision": "038e407e5012b85c9e4a7b38d308f20438eae346"
 }
