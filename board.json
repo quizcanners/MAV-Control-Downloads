@@ -4216,19 +4216,14 @@
     {
      "who": "CODEX_CASTLE_PHOTO_AGREEMENT",
      "since": "2026-11-24T09:52Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-24T10:19Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_RAW_MAP_BASELINE",
-     "at": "2026-11-23T22:39Z",
-     "text": "e0fdecea07 puts measured rolling-photo point pairs into the same reciprocal solver used by registered photos. Kenilworth visual: 15 rolling links, 1034 final pairs, raw/working RMS 0.396/0.237 draft units. Zurich: 10 rolling links, 271 fina"
-    },
     {
      "by": "CODEX_PHOTO_GIZMOS",
      "at": "2026-11-24T02:54Z",
@@ -4238,6 +4233,11 @@
      "by": "CODEX_CASTLE_PLAYBACK",
      "at": "2026-11-24T08:32Z",
      "text": "f32adff261, normal Editor. One native shutter moved 8.04 degrees away from its retained neighbours. Carrying the same group across both stores reduced worst measured rotation to 0.09 degrees across 28 pairs in eight windows. Four Castle pla"
+    },
+    {
+     "by": "CODEX_CASTLE_PHOTO_AGREEMENT",
+     "at": "2026-11-24T10:19Z",
+     "text": "9f6b40750d: normal Castle first pass, SIFT shared-window fit, bidirectional retained pose checks, bounded marker-aware retention, and one terrain landing. Held-out retained photo median 3.10 -> 2.49 px, nonadjacent groups 4.68 -> 3.39, disp"
     }
    ]
   },
@@ -5286,5 +5286,6 @@
    "since": "2026-11-24T05:49Z"
   }
  ],
- "source_revision": "bd76eec796d5895843b3fccf264cff8d213d6045"
+ "source_revision": "7f6281bd4ae5d5999519b38f063031b468ac9b34",
+ "board_revision": "f877f36e0320be262654acacc91d442255c27005"
 }
