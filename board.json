@@ -2534,36 +2534,6 @@
    ]
   },
   {
-   "n": 1782,
-   "name": "Reuse the already-decoded child slots during Web Mercator index page adoption (Web Mercator SPEC",
-   "done": "2026-11-23T22:20Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-19T15:26Z",
-     "text": "Published 2030c41739. Exact isolated Unity EditMode passed 96: Memory Ledger 9, Index Paging 74, SQLite Retention 13. Slot identity, descendant row inheritance, populated-target fallback and the integrated Retention change passed. 100k host"
-    },
-    {
-     "by": "CLAUDE_1782",
-     "at": "2026-11-22T20:38Z",
-     "text": "Code was already on main (TryAdoptDecodedChildren, from 2030c41739 via 5e58fda906); 4e8b613e9a adds the three-part calculation to Performance Baseline/CPU.md. Removed work: one four-slot child array per page adopted into an empty branch (56"
-    },
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-23T22:20Z",
-     "text": "Confirmed the existing child-slot reuse on main. Empty resident branches take the decoded slots; populated branches use the normal merge. WebMercatorMemoryLedgerTests 9/9 on 017af50b with fresh NUnit XML. Matched Strong timing is tracked un"
-    }
-   ]
-  },
-  {
    "n": 1807,
    "name": "Situation Entities SPEC",
    "done": "",
@@ -3004,41 +2974,6 @@
      "by": "CODEX_MODEL_POSITIONING",
      "at": "2026-11-22T17:07Z",
      "text": "49ec9aed3b and 34e26776aa on main. Retains the earlier provisional photo bank across Video Source switches. The independent Kenilworth replay used its photos for 5 tentative pose proposals. The interleaved files joined, Zurich stayed out, a"
-    }
-   ]
-  },
-  {
-   "n": 2057,
-   "name": "Move UI to context-first folders",
-   "done": "2026-11-23T22:10Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-23T22:10Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "UI: MergedButtons, Style Sheet, Effects, Hints, Screen Lock, Scroll Selector into UI/Common (cc96b01082); MavChat MGRS/Capsule assets to Workflows/Navigator, B_Mergable_Top Edge to Timeline UI, Left_T",
-     "x": true
-    },
-    {
-     "t": "Drone Control: already context-first (UI/Telemetry View and Right Lists are used only by Drone Control, Main View and Scenes; Drones 3D config is used by Scenes); nothing to move",
-     "x": true
-    },
-    {
-     "t": "Workflows and Systems UI folders: look for assets used by one other view",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-23T22:10Z",
-     "text": "Main 7e5c16fd completes the Workflows and Systems UI folder audit. Edge Fade is shared by Store Post and the Main View lists, so it now lives under UI/Common/Effects. The Store Post author loads that shared sprite. Unity moved the asset wit"
     }
    ]
   },
@@ -3841,48 +3776,6 @@
    "notes": []
   },
   {
-   "n": 2159,
-   "name": "Establish the raw 3D Map generation performance and tracking baseline with several recorded flights and synchronized video-hidden Pilot views.",
-   "done": "2026-11-23T22:40Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-23T22:02Z",
-    "2026-11-23T22:17Z",
-    "2026-11-23T22:40Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Clean the ordinary capture path and retain dense raw surface generation",
-     "x": true
-    },
-    {
-     "t": "Run independent recorded flights in the same Unity setup and record camera, throughput and visible surface counts",
-     "x": true
-    },
-    {
-     "t": "Compare the video-hidden ground and Pano360 squircle renders with the matching source frames and document remaining errors",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_RAW_MAP_BASELINE",
-     "at": "2026-11-23T22:40Z",
-     "text": "Published e0fdecea07 and a3f8dc73b6. Six one-pass runs on three videos; synchronized comparisons and reusable fixture in Performance Baseline/GPU.md and local Raw-Map-Baseline-2159/final/observations.md. Throughput 67,023 / 58,007 / 25,502 "
-    },
-    {
-     "by": "CODEX_CASTLE_PLAYBACK",
-     "at": "2026-11-24T08:37Z",
-     "text": "Pushed f32adff261. Frame-zero Castle shared-retained ran two passes. All 92 checks passed, 19 cameras/509 original photo centres/1024 submitted Disk centres above terrain. Only 2 screen/source matches within 5 px across six stills. Found di"
-    }
-   ]
-  },
-  {
    "n": 2160,
    "name": "Web Mercator tile requests on Lenovo Android Test 878 block the map in VPN Chat. Frame 537 took 5",
    "done": "",
@@ -3899,46 +3792,6 @@
      "by": "CODEX",
      "at": "2026-11-23T22:45Z",
      "text": "Lenovo installed private Dev 878 from 1f12f8413f in place; installed APK digest and original data identity verified. Shared receive capture ran 226 frames over 30.114 s. Frame peak 137.113 ms, VPN update peak 12.315 ms, Processing Messages "
-    }
-   ]
-  },
-  {
-   "n": 2161,
-   "name": "Page checks",
-   "done": "2026-11-23T22:22Z",
-   "goal": false,
-   "under": 412,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-23T22:22Z",
-     "text": "Main 1ff87210. The pending Map check now uses a timestamp one day before the test, preserving the original timestamp and note assertions while staying inside the real seven-day window. On Windows the baseline suite isolated this one failure"
-    }
-   ]
-  },
-  {
-   "n": 2162,
-   "name": "Page Checks",
-   "done": "2026-11-23T22:31Z",
-   "goal": false,
-   "under": 412,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-23T22:31Z",
-     "text": "Main bdb0a643. Page Checks now replaces an expired request before adding a new change, while a current request still keeps its original timestamp and merged notes. The regression reproduced the missing Map request before the fix. Screen Che"
     }
    ]
   },
@@ -5052,6 +4905,48 @@
      "text": "Published d711623a35 to main. Paused Game-camera movement rebuilt retained Castle depth on Metal: 102095 close cells, 94905 at +4m, 9132 at +144m; holds stationary. Generation used the registered source. Raw/cache measured candidates matche"
     }
    ]
+  },
+  {
+   "n": 2216,
+   "name": "Cars list / already-selected car double-tap (UI SPEC",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2217,
+   "name": "Map Peers list / Lists and counts",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2218,
+   "name": "3D Model Generation",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5306,8 +5201,16 @@
   {
    "screen": "Main/Tools",
    "since": "2026-11-24T21:22Z"
+  },
+  {
+   "screen": "Cars",
+   "since": "2026-11-24T22:17Z"
+  },
+  {
+   "screen": "Peers",
+   "since": "2026-11-24T22:20Z"
   }
  ],
- "source_revision": "d711623a3536745b29072e899887c368c1901f07",
- "board_revision": "dc00acb428539491d3e5c2a90785b622e09f4013"
+ "source_revision": "4d9281a122eb4598216e1796c2782b46457446e0",
+ "board_revision": "01271590995acb2fa16452803a0bf5533b87d2a9"
 }
