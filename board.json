@@ -3659,26 +3659,6 @@
    ]
   },
   {
-   "n": 2150,
-   "name": "1693",
-   "done": "2026-11-23T17:08Z",
-   "goal": true,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-23T17:08Z",
-     "text": "Accidental duplicate entry while looking up goal 1693. The original goal remains active."
-    }
-   ]
-  },
-  {
    "n": 2151,
    "name": "Refine the 3D capture Origin from independent bare-earth terrain during Pause. Use robust signed depth clearance",
    "done": "",
@@ -5061,18 +5041,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_PHOTO_SELECTION",
-     "since": "2026-11-24T17:00Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_PHOTO_SELECTION",
+     "at": "2026-11-24T17:47Z",
+     "text": "Delivered 51f95fb915. Full 1x Zurich with actual predicted file camera: rolling diameter median 18.67m vs fixed 4.83m, newest age 2.3 vs 3.4s, 2s shown-camera epipolar P90 11.74 vs 41.42px. Fixed stale-edge runaway (max 103.52 to 23.86m), s"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5329,6 +5306,6 @@
    "since": "2026-11-24T11:14Z"
   }
  ],
- "source_revision": "5a58ff10cf0961c47a47d4d702991a5478bf4502",
- "board_revision": "8d3141c8f6414c7de01fedf06f6c8400e622ae87"
+ "source_revision": "51f95fb9157c8fed33b9ec2700445216c6467ff5",
+ "board_revision": "112413dfce733030eb8c2ac9ceda8ae540e4862f"
 }
