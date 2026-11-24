@@ -426,7 +426,7 @@
   {
    "n": 370,
    "name": "A server is one file: boot it fresh, change it, roll it back, no hand installer",
-   "done": "",
+   "done": "2026-11-24T09:56Z",
    "goal": true,
    "under": 0,
    "ticks": [],
@@ -445,6 +445,11 @@
      "by": "MAC_BOARD",
      "at": "2026-11-20T05:26Z",
      "text": "Mac Editor proof on macOS 868 source 92d77fa0c1 includes all five named commits. Exact build-gate XML: DirectRouteHubTypesTests 5/5, ServerSpecsTests 10/10, LocalizationAssetTests 19/19. Both native language catalogs cover routingServer.wg."
+    },
+    {
+     "by": "CLOUD_PRUNE",
+     "at": "2026-11-24T09:56Z",
+     "text": "Pruned 2026-11-24: quiz does not use MavServer for VPN; server-as-one-file, release and Admin-bind work dropped."
     }
    ]
   },
@@ -3489,43 +3494,6 @@
    ]
   },
   {
-   "n": 2124,
-   "name": "Clip Point Cloud squircles where paired Pano360 depth shows the background",
-   "done": "2026-11-23T09:56Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-23T09:47Z",
-    "2026-11-23T09:47Z",
-    "2026-11-23T09:56Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Trace why the current depth test fails to cut the squircle",
-     "x": true
-    },
-    {
-     "t": "Align the color, depth and normal pass silhouettes",
-     "x": true
-    },
-    {
-     "t": "Verify a foreground squircle over a measured background edge in Unity",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-23T09:56Z",
-     "text": "main aa1506819e. Unity Metal reproduced both halves drawing before and removed the background half after, with identical color, depth and normal coverage. Pano360 PseudoDecal painted the surviving geometry. The app and edit-mode assemblies "
-    }
-   ]
-  },
-  {
    "n": 2125,
    "name": "Clean weak Point Cloud Disks against paired photo depth after Video Source joins",
    "done": "2026-11-23T10:03Z",
@@ -5309,5 +5277,5 @@
   }
  ],
  "source_revision": "286774a7e9ab0081eef8f7805ccbbf87f1d06933",
- "board_revision": "0ade38d112b810bdf51e196ce0872fd412c95485"
+ "board_revision": "2a385d2c7b0d86beed476cfe37ffc9a38d71812e"
 }
