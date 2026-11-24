@@ -2509,16 +2509,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX",
-     "since": "2026-11-24T09:54Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -2527,14 +2518,14 @@
      "text": "0e4bff8d1a adds iPhone Reply on direct Chat notices, verifies peer identity, and retires protected input after sealed outbox admission. 23 worker checks, 13 Unity tests, arm64 Xcode compile/link and Roslyn (including iOS symbols) passed. fa"
     },
     {
-     "by": "CODEX",
-     "at": "2026-11-24T08:30Z",
-     "text": "5b28fdba03 on main opens the exact saved MavChat conversation from a notification if the wake file is gone and the Routing Server is unreachable. Six host cases passed, plus 24 server mailbox checks. On the Lenovo Android 11 an injected cal"
-    },
-    {
      "by": "CLOUD_PREP",
      "at": "2026-11-24T10:18Z",
      "text": "Prepared: what is left for cloud is none until credentials exist. Needs a Firebase-enabled Android build, production APNs and MavChat App Group profiles for the iPhone build (task 2179 runner). Immediate resend on resume/presence already on"
+    },
+    {
+     "by": "CODEX",
+     "at": "2026-11-24T10:31Z",
+     "text": "Real Lenovo VPN Chat check on installed Brig68 Android Dev 880, source 2e705dd127, exact APK SHA ab04f7ebeaab. APK and Persistent Data hashes verified. One Editor text at 12:27:28 stayed Sent while Lenovo was on the uncovered keyguard, with"
     }
    ]
   },
@@ -3439,43 +3430,6 @@
      "by": "CODEX_MODEL_POSITIONING",
      "at": "2026-11-23T09:57Z",
      "text": "main aa1506819e. Display and synthetic cameras now use one registered Disk cloud while provisional photos still feed recovery. Unity Metal matched all 224 ground taps before and after. Remaining check is replaying tracking loss and a source"
-    }
-   ]
-  },
-  {
-   "n": 2126,
-   "name": "Apply paired Pano360 clipping to the actual Point Cloud camera depth buffer",
-   "done": "2026-11-23T10:24Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-23T10:22Z",
-    "2026-11-23T10:22Z",
-    "2026-11-23T10:22Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Reproduce the discrepancy in camera color and sampled depth",
-     "x": true
-    },
-    {
-     "t": "Use the paired photo mask in the camera depth path",
-     "x": true
-    },
-    {
-     "t": "Verify the background depth is visible behind a clipped squircle in URP",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-23T10:24Z",
-     "text": "main 8ab8298d7f and 823b166f53, synced operator checkout. Reproduced the old shader blocking the background in the URP camera depth texture. Imported fixed shader and verified 3 m foreground and 6 m background in both depth-only and depth-p"
     }
    ]
   },
@@ -4937,28 +4891,19 @@
   {
    "n": 2183,
    "name": "Schedule Esri viewport tiles only while idle and after peer sources",
-   "done": "",
+   "done": "2026-11-24T10:28Z",
    "goal": false,
-   "under": 0,
+   "under": 366,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE_CODEX",
-     "since": "2026-11-24T10:14Z",
-     "noted": "2026-11-24T10:19Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T10:19Z",
+     "at": "2026-11-24T10:28Z",
      "text": "quiz: By the way, since we now download missing tiles from ERSI. Be sure to select tiles to download when user is not interacting, and don\u2019t start loading all at once, so as user moves, we still have spots to start new downloads. Additional"
     }
    ]
@@ -5030,6 +4975,113 @@
    "parked": false,
    "flags": [],
    "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2189,
+   "name": "Fat container VideoProcessing",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2190,
+   "name": "Fat container WebMercator and its 12 Diagnostics partial files",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2191,
+   "name": "Fat container StreamerManager",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2192,
+   "name": "Fat container NetworkManager",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2193,
+   "name": "Fat container MotorolaIp",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2194,
+   "name": "Fat container Station",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2195,
+   "name": "Clear nearby duplicate voxel walls along the generating photo ray and render uncertain normals as transparent camera-facing Pano360 circles after the opaque squircles and Pano360.",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_CASTLE_PHOTO_AGREEMENT",
+     "since": "2026-11-24T10:34Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   }
@@ -5292,6 +5344,6 @@
    "since": "2026-11-24T05:49Z"
   }
  ],
- "source_revision": "7f6281bd4ae5d5999519b38f063031b468ac9b34",
- "board_revision": "a4bbcb476a6e192610eb48e9496251d6ffe65609"
+ "source_revision": "f3c35c0caa4bdd6447c41d6b33f491c4145dc496",
+ "board_revision": "ef9747c548076a663ae182194a4f1bcdbc54a0b7"
 }
