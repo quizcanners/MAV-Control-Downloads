@@ -1823,23 +1823,14 @@
   {
    "n": 1389,
    "name": "3D Street View metric point density",
-   "done": "",
+   "done": "2026-11-24T11:16Z",
    "goal": false,
    "under": 1693,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_CASTLE_LOD",
-     "since": "2026-11-24T10:49Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -1851,6 +1842,11 @@
      "by": "MAC_BOARD",
      "at": "2026-11-19T13:55Z",
      "text": "1c8842689c keeps the refined Disk in its selected preview cell. Mac Metal regression wrote both samples into cell 3 before the fix; after it, cells 2 and 3 each keep one sample and measured source data pass the preservation checks. Focused "
+    },
+    {
+     "by": "MAC_CASTLE_LOD",
+     "at": "2026-11-24T11:16Z",
+     "text": "Published fe918d0541 on main. Castle photo 242: nearest quartile 339\u21921,994 Disks (12.5\u201325 cm), 99.47% coverage; farthest 9,764\u21923,125 (1\u20132 m), 99.61%. Metal indirect draws at 14.00/22.17 s, 75% parent handoff, both footprints and unchanged G"
     }
    ]
   },
@@ -5160,7 +5156,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG_FABLE_CODEX",
+     "since": "2026-11-24T11:16Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -5193,25 +5198,22 @@
   {
    "n": 2204,
    "name": "Remote Sensors",
-   "done": "",
+   "done": "2026-11-24T11:15Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE_CODEX",
-     "since": "2026-11-24T11:06Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T11:15Z",
+     "text": "quiz: The armed indicator needs text too. 1bf33899 on main. Localized Armed text appears with no deadline, adds the time when reported, and includes the armed count for multi-selection. All five Remote Sensor Panel Look tests passed. The Re"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5470,8 +5472,12 @@
   {
    "screen": "Mav Chat Sheet",
    "since": "2026-11-24T05:49Z"
+  },
+  {
+   "screen": "3D Street View",
+   "since": "2026-11-24T11:14Z"
   }
  ],
- "source_revision": "3392be36be3b2f29516c236e8b6f0e49d495010c",
- "board_revision": "567d73a696804cac6799f1c653c5eec8bccad078"
+ "source_revision": "fe918d05416a9b77e6b38bd15b884f864efd9b5f",
+ "board_revision": "52b827979d63ff97f17d6299316fa85487d360e7"
 }
