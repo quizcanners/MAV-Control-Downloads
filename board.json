@@ -4175,7 +4175,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_CASTLE_PHOTO_PREDICTION",
+     "since": "2026-11-24T11:02Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -4964,25 +4973,22 @@
   {
    "n": 2188,
    "name": "Situation model pointing recomputes the drawn model-set heights on every query (review CC-43B1-01",
-   "done": "",
+   "done": "2026-11-24T10:54Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE_CODEX",
-     "since": "2026-11-24T10:37Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T10:54Z",
+     "text": "0c1af133 on main. Drawing publishes one conservative maximum from cached batch extents, including unchanged batches. Removing the tallest batch and shutdown are covered by the passing sizing test. All 13 Situation pointing tests passed in R"
+    }
+   ]
   },
   {
    "n": 2189,
@@ -5192,6 +5198,49 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 2202,
+   "name": "Investigate Situation marker URP pixel parity on Rog D3D11. MarkerKeepsUrpPixelsWithoutThePlatformDependentLegacyColorAlias observed exact-match differences in green (0.07603153 versus 0.07603496) and",
+   "done": "",
+   "goal": false,
+   "under": 479,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2203,
+   "name": "Remote Sensors",
+   "done": "",
+   "goal": false,
+   "under": 407,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "ROG_FABLE_CODEX",
+     "since": "2026-11-24T10:58Z",
+     "noted": "2026-11-24T11:02Z",
+     "progress": 25,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T11:02Z",
+     "text": "quiz: Fix up the icons a bit. The Router icon needs to be to the side from the Toggle. No need for them to overlap. Also write the word. So: [Toggle] [Icon] Retransmitter"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5452,6 +5501,6 @@
    "since": "2026-11-24T05:49Z"
   }
  ],
- "source_revision": "0bb985ff200b70991867bfc08ff9949056e3de18",
- "board_revision": "8f399d676eef589a62941e4db4e32f9922d2e8c6"
+ "source_revision": "5242b9557c629e7c43ea8388f433e89cd286bca1",
+ "board_revision": "0b98277d5783b43acd9c901b0f120d52958c665c"
 }
