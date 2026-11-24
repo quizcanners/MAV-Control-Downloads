@@ -2637,8 +2637,8 @@
     },
     {
      "by": "CODEX",
-     "at": "2026-11-24T07:19Z",
-     "text": "7db328aa52 on main opens previously retained wake texts without a live Routing Server session and queues delivery receipts after the exact Chat checkpoint. Offline open, multiple texts, restart/reconnect, and missing-history host cases pass"
+     "at": "2026-11-24T08:30Z",
+     "text": "5b28fdba03 on main opens the exact saved MavChat conversation from a notification if the wake file is gone and the Routing Server is unreachable. Six host cases passed, plus 24 server mailbox checks. On the Lenovo Android 11 an injected cal"
     }
    ]
   },
@@ -2934,7 +2934,7 @@
    "held": [
     {
      "who": "ROG_FABLE_CODEX",
-     "since": "2026-11-24T07:22Z",
+     "since": "2026-11-24T08:31Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
@@ -2945,8 +2945,8 @@
    "notes": [
     {
      "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T07:19Z",
-     "text": "43e77fea on main. Bootstrap now uses the telemetry presentation contract for staged updates, route-edit CanvasGroup and diagnostics. Unity compiled. Edit Mode verified missing, replaced and destroyed views and the authored route group. Live"
+     "at": "2026-11-24T07:51Z",
+     "text": "513f252f on main. Bootstrap uses the Suggestions presentation contract for updates and selected-point keyboard handling. Unity compiled. Edit Mode verified Name and MGRS typing gates, Escape without an editor, and removal releasing input. M"
     }
    ]
   },
@@ -3281,26 +3281,6 @@
    ]
   },
   {
-   "n": 2068,
-   "name": "Windows Unity EditMode",
-   "done": "2026-11-23T07:38Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_EDITOR_TESTS",
-     "at": "2026-11-23T07:37Z",
-     "text": "Windows Editor 6000.6.8f1, 2026-11-23: LeftListSwipeHandleTests PASS 3/0 failed. Cause of the earlier refusal: the station Editor sat on its own populated Data folder (tests_require_disposable_data_namespace), and bare fixture names are ref"
-    }
-   ]
-  },
-  {
    "n": 2071,
    "name": "MavChat Editor acceptance for 2069",
    "done": "2026-11-24T05:48Z",
@@ -3589,26 +3569,6 @@
      "by": "CODEX_MODEL_POSITIONING",
      "at": "2026-11-23T08:46Z",
      "text": "On main in bd97dc1010. Pano360 uses stored normals and derivative-free frame samples for squircles. Colour, depth and normals trim the same supported fringe without stippling. Fine pixel footprints dominate normals and resist coarse free-sp"
-    }
-   ]
-  },
-  {
-   "n": 2117,
-   "name": "MGRS Coordinate Entry",
-   "done": "2026-11-23T08:31Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-23T08:30Z",
-     "text": "daa1a38ea3: Clear Entered MGRS gets a Card Shadow child (copy of the Copy button's instance) and its MergedButtonController _shadow_Optional wired; prefab imports clean in the Rog Editor. Map page bumped."
     }
    ]
   },
@@ -4626,8 +4586,8 @@
     },
     {
      "by": "CODEX_CASTLE_PLAYBACK",
-     "at": "2026-11-24T07:13Z",
-     "text": "Published 7c9fcaa0ef on main. Each original recorded shutter and its local Marker observations, native-window connections and packed colour/depth survive eviction and file wrap until a measured replacement covers them. Castle two-pass conne"
+     "at": "2026-11-24T08:32Z",
+     "text": "f32adff261, normal Editor. One native shutter moved 8.04 degrees away from its retained neighbours. Carrying the same group across both stores reduced worst measured rotation to 0.09 degrees across 28 pairs in eight windows. Four Castle pla"
     }
    ]
   },
@@ -5088,7 +5048,10 @@
    "done": "",
    "goal": true,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-24T07:28Z",
+    "2026-11-24T07:28Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -5100,11 +5063,11 @@
     },
     {
      "t": "Keep unconfirmed texts through pause and restart, and resend on peer return.",
-     "x": false
+     "x": true
     },
     {
      "t": "Wire the encrypted server mailbox and APNs/FCM registration and notifications.",
-     "x": false
+     "x": true
     },
     {
      "t": "Verify lock-screen receipt, notification, tap and history on Android and iPhone with GPS sharing off, including the Android handoff fix in 9021f5f288.",
@@ -5114,8 +5077,8 @@
    "notes": [
     {
      "by": "CODEX",
-     "at": "2026-11-24T07:20Z",
-     "text": "7db328aa52 on main adds offline use of retained wake texts with deferred delivery receipts. Native Apple SDK and paired locked-phone verification still require the provisioned test setup in 1734."
+     "at": "2026-11-24T07:28Z",
+     "text": "Research and implementation are on main. The private text outbox, Routing Server mailbox and native APNs and FCM paths have host checks. 2ceca590c5 adds a log after native inbox retention for the paired locked-phone check. Provisioned build"
     }
    ]
   },
@@ -5196,6 +5159,80 @@
      "by": "ROG_FABLE_CODEX",
      "at": "2026-11-24T06:45Z",
      "text": "c6855e23 on main. Reduced-sheet Chat transcript uses 70% of the full message font and 8 canvas units of padding above and below. Unity refreshed and compiled. Remaining: run ChatMessageLayoutTests in disposable Data (the ordinary Editor ref"
+    }
+   ]
+  },
+  {
+   "n": 2177,
+   "name": "Windows video retransmission",
+   "done": "",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T08:00Z",
+     "text": "1d5cbd2c on main. video.restream now shows the broadcast choice and whether Restream can resolve the bound, default, or replacement video before output starts. Unity compiled. Edit Mode covered all four outcomes and confirmed reading leaves"
+    }
+   ]
+  },
+  {
+   "n": 2178,
+   "name": "Give the bottom-right time plaque a quiet non-interacting presentation",
+   "done": "2026-11-24T08:14Z",
+   "goal": false,
+   "under": 407,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T08:14Z",
+     "text": "Published b45acfab. Normal Unity Play Mode verified interactive glass, the idle blue capsule with shadow and live time, the wake transition, and Map focus selection after idle. Quiz: \u201cThe bottom right time plaque, give. Give it quiet non-in"
+    }
+   ]
+  },
+  {
+   "n": 2179,
+   "name": "Mac mini GitHub Actions runner",
+   "done": "",
+   "goal": false,
+   "under": 2172,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2180,
+   "name": "Show paused Video Retransmission in its notification",
+   "done": "2026-11-24T08:24Z",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T08:24Z",
+     "text": "Published 33521afd. Unity Edit Mode passed TelemetryControlLifetimeTests (4) and VideoRestreamProtocolTests (81). Quiz: \u201cWhen video stream is paused there are no indications in many places. The notification tongue could have a pause icon. T"
     }
    ]
   }
@@ -5458,6 +5495,6 @@
    "since": "2026-11-24T05:49Z"
   }
  ],
- "source_revision": "7db328aa5290036ad70945e52a3532bd6d6c2de9",
- "board_revision": "eb8668df6505314022d090f213d5ca7039d288c4"
+ "source_revision": "f32adff2619b00f947128590bbdc623513588a6a",
+ "board_revision": "66964fe1a989cd8f55cf33c8899bfa85e0d909dd"
 }
