@@ -1438,8 +1438,8 @@
     },
     {
      "by": "CODEX",
-     "at": "2026-11-24T03:04Z",
-     "text": "Lenovo Dev 878 with zero peer queue: legacy inventory accounted for 663/1,230 app CPU samples (53.9%), split 353 initial and 310 post-maintenance. Host SQLite attached an idle WAL segment on a read-only main connection and created a 0-byte "
+     "at": "2026-11-24T04:27Z",
+     "text": "Lenovo Dev 878 after Raster ended, peer queue zero: legacy inventory appeared in 896/1,452 app CPU samples (61.7%), split 482 initial and 414 after maintenance. The 19.877 s trace lost zero samples. Tile bytes fell 2.43 MB and volume free s"
     }
    ]
   },
@@ -3038,8 +3038,8 @@
    "notes": [
     {
      "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T04:04Z",
-     "text": "Main 6be39f3d moves Fullscreen Video open/close queue into Station and passes its view contract into camera rendering. Former prefab static request call sites now use the System. Independent C# compiled Prublyda and WarStation.EditModeTests"
+     "at": "2026-11-24T04:46Z",
+     "text": "Main b0ca9a6f moves the Station's two Pilot View camera stages behind a view contract. Restore still runs before optics consumers and presentation fit after camera work. With the stale preview fixture corrected in 5e18b199 (2170), Rog passe"
     }
    ]
   },
@@ -4691,11 +4691,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_ZURICH_BASELINE",
-     "at": "2026-11-23T21:33Z",
-     "text": "b1f0f0640f on main compiled in the Mac Editor. Paired raw measurements pull and rotate both working photos. Working and original origins, all matched endpoints and residuals are visible in Gizmos. True world observations and supported paths"
-    },
-    {
      "by": "CODEX_RAW_MAP_BASELINE",
      "at": "2026-11-23T22:39Z",
      "text": "e0fdecea07 puts measured rolling-photo point pairs into the same reciprocal solver used by registered photos. Kenilworth visual: 15 rolling links, 1034 final pairs, raw/working RMS 0.396/0.237 draft units. Zurich: 10 rolling links, 271 fina"
@@ -4704,6 +4699,11 @@
      "by": "CODEX_PHOTO_GIZMOS",
      "at": "2026-11-24T02:54Z",
      "text": "5a0a6d0a26 on main scopes Photo Tension Shapes to current processing. Registered and provisional comparisons publish raw endpoints at each photo's displayed pose. Finishing a comparison clears its lines on the next idle frame. The Mac Edito"
+    },
+    {
+     "by": "CODEX_CASTLE_PLAYBACK",
+     "at": "2026-11-24T04:47Z",
+     "text": "Castle: in the 30 s unmodified clip a refused DA3 join retained 460 held-out pairs and 238 agreeing samples, yet hard distribution cutoffs zeroed its placement vote. Shared exposure and weak-fit votes now enter one window placement. An inde"
     }
    ]
   },
@@ -4986,8 +4986,8 @@
     },
     {
      "by": "CODEX",
-     "at": "2026-11-24T02:40Z",
-     "text": "Lenovo Dev 878: with write admission open, 24 reads/114.8 s recorded 102 Raster parents, 1,977 queued peer tiles and zero batches. After Raster ended and the checkpoint cleared, the queue drained. bf9d28c365 gives a streamed peer turn while"
+     "at": "2026-11-24T04:37Z",
+     "text": "Lenovo Dev 878 reopened write admission in the same process after low-space maintenance. First open sample was Migrating, with 37 queued and a 16-tile incoming batch; the queue returned to zero. Online Raster was inactive. CPU.md records th"
     }
    ]
   },
@@ -5054,33 +5054,50 @@
    "notes": [
     {
      "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T04:20Z",
-     "text": "Rog native import and fixtures ran at 6be39f3d plus local Workflow_MapEditing.cs DA162209 and Copilot SPEC edits. Video Drawing 34/34, Top Right Exit 17/17, covered camera 1/1, Video Server Grid 8/9. The sole restream slider assertion was i"
+     "at": "2026-11-24T04:33Z",
+     "text": "Rog Edit Mode passed all 61 targeted tests after the Restream fixture correction (9 Video Server Grid, 34 Video Drawing, 17 Top Right Exit, 1 covered camera). Test and request PDBs matched; identical fixture source published at 3916a061. Co"
     }
    ]
   },
   {
    "n": 2169,
    "name": "Video Server Grid restream slider",
-   "done": "",
+   "done": "2026-11-24T04:30Z",
    "goal": false,
    "under": 431,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE_CODEX",
-     "since": "2026-11-24T04:25Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T04:30Z",
+     "text": "Fixed the simulated touch release to carry the Restream switch raycast. All nine VideoServerGridTests passed in Rog Unity Edit Mode after its portable PDB matched the changed fixture. Test ran with unrelated Peer Search edits in the checkou"
+    }
+   ]
+  },
+  {
+   "n": 2170,
+   "name": "Pilot View corner preview",
+   "done": "2026-11-24T04:46Z",
+   "goal": false,
+   "under": 1951,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T04:46Z",
+     "text": "Main 5e18b199. The corner fixture now checks pointer down, up and drag handlers and retains both overlap assertions. Rog passed all 30 PilotWorkflowTests on the published source with concurrent Peer Search and Camera edits. Portable PDBs ma"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5365,6 +5382,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "ed99d246e742d64fd97327e1ef150fdb84a4ac8a",
- "board_revision": "c4d08fcadb3ee5a7ae5212d7c28d20e197945d50"
+ "source_revision": "d92b9841937c4d00b45d36ff8c08ae628c568b72",
+ "board_revision": "e659ece67387cdb60c5d2d15eddde7f4a7b52742"
 }
