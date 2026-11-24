@@ -981,11 +981,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_UI_COMPOSITES",
-     "at": "2026-11-17T12:05Z",
-     "text": "Read origin/main COMPOSITES_PLAN: passive input and readout owners already use the merge-only element. Census of 21 direct prefab UI_MergeableListElementBase blocks with null composite Button found all 21 have co-located Unity Buttons; pres"
-    },
-    {
      "by": "MAC_BOARD",
      "at": "2026-11-19T14:40Z",
      "text": "ecf7de4409 centers the clock rule, softens and offsets the compass shadow, and corrects the baked east/west paint bias. No UI hides lock artwork and labels, keeps compass/plaque and restores planet-scale sunlight. Mac native Compass/Clock a"
@@ -994,6 +989,11 @@
      "by": "REVIEW",
      "at": "2026-11-20T05:23Z",
      "text": "CR-1ADA-01 P3 remains open; seven Ukrainian Street View texts are shifted. S1/S2: Coordination/Reviews/2abaea4d9.md#cr-1ada-01--p3-seven-ukrainian-street-view-texts-are-shifted. CC-0802-01 P3: Editor ribbon probe scans scene meshes by name "
+    },
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T13:44Z",
+     "text": "Suggestions flick 7752e060 verified on Windows Unity D3D11, main 72dfc69e. In the normal Editor at 915x403, the Input System raycast hit Screen Center Tab at 873,254 and Selected Object Tab at 829,254. Diagonal flicks from both tabs into th"
     }
    ]
   },
@@ -1597,48 +1597,6 @@
      "by": "CLOUD_PRUNE",
      "at": "2026-11-24T05:48Z",
      "text": "Pruned 2026-11-24: verification, measurement or build-PC housekeeping, not app work"
-    }
-   ]
-  },
-  {
-   "n": 735,
-   "name": "Hot reload leaves nothing behind",
-   "done": "2026-11-23T13:35Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Root unloads additive subscenes on disable (Singleton_SubScenes.UnloadStartupScenes, Map last)",
-     "x": true
-    },
-    {
-     "t": "Rule and ultimate/compromises written in Bootstrap SPEC, Shutdown",
-     "x": true
-    },
-    {
-     "t": "Audit static caches and event subscriptions per system against the rule; add the missing Dispose/OnDisable (native arrays, RenderTextures, ComputeBuffers, threads, sockets). Still open: Roadmap feedba",
-     "x": false
-    },
-    {
-     "t": "Editor: play, force a script recompile, confirm nothing from the first run is left (done on the Getac and the Rog; the only logged error is the Mission_Sync DirectoryNotFound for the absent G: Drive p",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLAUDE_735_STATICS",
-     "at": "2026-11-23T13:11Z",
-     "text": "564540785d: on Station disable Roadmap feedback/checklist/catalog, Overpass wait, owed geometry texture deletes, mask chunk vaults of every folder and the Android network callback reset in their own owner stage. Material copies audited: all"
-    },
-    {
-     "by": "agent",
-     "at": "2026-11-23T13:35Z",
-     "text": "4be70ca2d2: online raster shutdown records a failed tile read (provider 404) as the tile's outcome, not a shutdown failure; only output writes and disposal fail shutdown. With 564540785d every listed static resets in its owner's stage. Geta"
     }
    ]
   },
@@ -3522,97 +3480,6 @@
    ]
   },
   {
-   "n": 2135,
-   "name": "Selected object's MGRS field (Main View SPEC",
-   "done": "2026-11-23T13:19Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 2136,
-   "name": "Keep looped Video Source frames in their registered camera and Point Cloud placement",
-   "done": "2026-11-23T13:17Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [
-    "2026-11-23T13:08Z",
-    "2026-11-23T13:15Z",
-    "2026-11-23T13:16Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Reproduce the repeated exposure displacement",
-     "x": true
-    },
-    {
-     "t": "Reuse recorded cameras and prevent repeated exposures from adding duplicate geometry",
-     "x": true
-    },
-    {
-     "t": "Verify loop recovery in Unity with live projection",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-23T13:17Z",
-     "text": "be76fddb9f on main. Mac Unity Kenilworth replay: 32 to 48 registered observations across two wraps, no duplicate decoder exposure in retained photos. Live projection and Pilot versions agreed in all 216 paired samples. Three focused test me"
-    }
-   ]
-  },
-  {
-   "n": 2137,
-   "name": "App updates",
-   "done": "2026-11-23T13:09Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-23T13:08Z",
-     "text": "877e40b26c: OffersAnyNumberOn; catalog tests 34/34, inspector 34/34. Not run on a packaged build (the Editor has no installed channel). On Android a Release build with a lower number than the installed Test build may be refused by the syste"
-    }
-   ]
-  },
-  {
-   "n": 2138,
-   "name": "Compass hidden whenever the Suggestions panel is open (Main View SPEC",
-   "done": "2026-11-23T13:10Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-23T13:09Z",
-     "text": "a3e2fe9efb: CompassVisible requires the Suggestions backing hidden; three Suggestions test cases updated to the new rule; seen in Editor Play."
-    }
-   ]
-  },
-  {
    "n": 2139,
    "name": "Selected Remote Sensor without a position (connected",
    "done": "2026-11-24T05:48Z",
@@ -3675,43 +3542,6 @@
      "by": "CODEX_MODEL_POSITIONING",
      "at": "2026-11-23T17:31Z",
      "text": "Main 0fd39fc30a fades stale yaw independently of translation. Six Unity tests passed, including a lateral shift and two yaw signs. Opt-in flow-renewal transferred depth once, got transient DA3 recovery at 16.1 s, and lost again at 19.6 s wi"
-    }
-   ]
-  },
-  {
-   "n": 2141,
-   "name": "Scale the active 3D reconstruction and its Synthetic drone together when changing altitude",
-   "done": "2026-11-23T13:57Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [
-    "2026-11-23T13:42Z",
-    "2026-11-23T13:47Z",
-    "2026-11-23T13:53Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Trace reconstruction Origin and reproduce zero or ignored altitude",
-     "x": true
-    },
-    {
-     "t": "Apply atomic scale and floor through the shared pose",
-     "x": true
-    },
-    {
-     "t": "Verify altitude edits and ground clearance in Unity",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-23T13:57Z",
-     "text": "691e8193fa on main. Two native replays while tracking was lost raised the same live camera from the 1 m floor, including 1 to 10 m at 10x scale. 32 source tests passed, two unrelated denoise tests skipped. 142 Kenilworth paired samples used"
     }
    ]
   },
@@ -4366,6 +4196,11 @@
      "by": "CLOUD_BOARD",
      "at": "2026-11-24T05:48Z",
      "text": "Cloud: the companion sweep at map open now stops after 250 ms; unreached files go at the next open. Not compiled, not measured. Need for verify: Lenovo open time on a map with many segments."
+    },
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T13:51Z",
+     "text": "ad91f000 is on main. Store open checks its idle companion sweep budget between directory entries and reports enumeration separately from SQLite journal resets. Nonempty WALs remain with SQLite. Windows Unity compilation succeeded. Shard-sto"
     }
    ]
   },
@@ -4796,7 +4631,7 @@
   {
    "n": 2187,
    "name": "Training rescans every coverage cell for distance retirement on each update even when the observer did not move (review CC-0391-01",
-   "done": "",
+   "done": "2026-11-24T13:32Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -4805,7 +4640,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T13:32Z",
+     "text": "72dfc69e on main. Training checks distance retirement after the observer changes cells or spacing or despawn distance changes. The existing retirement and reset paths are preserved. Windows Unity compiled and EcsTrainingSimulationSourceTest"
+    }
+   ]
   },
   {
    "n": 2188,
@@ -5165,17 +5006,57 @@
   {
    "n": 2207,
    "name": "Suggestions tabs can start the panel dismissal flick and clear selection",
-   "done": "",
+   "done": "2026-11-24T13:02Z",
    "goal": false,
    "under": 407,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T13:02Z",
+     "text": "7752e060 on main keeps the Suggestions panel dismissal on panel presses and away from tabs. Main/Map is queued for verification. Unity regression fixtures are pending on task 2208 because main fails to compile."
+    }
+   ]
+  },
+  {
+   "n": 2208,
+   "name": "Windows Unity Editor cannot compile main after the Internet helper move. Network_UdpSplitter_Receive.cs reports an unexpected directive at line 19 and an expected #endif at line 234. Once Unity compil",
+   "done": "2026-11-24T13:07Z",
+   "goal": false,
+   "under": 407,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T13:07Z",
+     "text": "aea4b889 is on main. Backed out the three recent Internet and VideoStreaming structure commits that broke compilation. Unity Tundra build succeeded, then Edit Mode passed SuggestionsSwipeTests (2), SearchQuerySuggestionTests (63), and DragP"
+    }
+   ]
+  },
+  {
+   "n": 2209,
+   "name": "Simplify the Draft Disk rebuild code while preserving the Castle capture-distance LOD baseline.",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
    "held": [
     {
-     "who": "ROG_FABLE_CODEX",
-     "since": "2026-11-24T12:55Z",
+     "who": "MAC_CASTLE_CLEAN",
+     "since": "2026-11-24T13:58Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
@@ -5270,14 +5151,6 @@
   {
    "screen": "Pilot View",
    "since": "2026-11-21T12:33Z"
-  },
-  {
-   "screen": "AI Sandbox",
-   "since": "2026-11-17T06:23Z"
-  },
-  {
-   "screen": "Distribution",
-   "since": "2026-11-17T06:22Z"
   },
   {
    "screen": "Screen Saver",
@@ -5448,6 +5321,6 @@
    "since": "2026-11-24T11:14Z"
   }
  ],
- "source_revision": "73406f00543feb672c9d896f92f1fa3dfff1b5b5",
- "board_revision": "266a894879ad3f28f9a46dd3a52fa20b01ec596d"
+ "source_revision": "ad91f000ce2b140da1069f4cbf0d61edeee6e924",
+ "board_revision": "0987505971ab0763f631998e4fee120c0a55fe9a"
 }
