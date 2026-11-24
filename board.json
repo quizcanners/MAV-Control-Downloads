@@ -3735,23 +3735,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_RECORDED_TENSION",
-     "since": "2026-11-24T17:48Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_CASTLE_PLAYBACK",
-     "at": "2026-11-24T08:32Z",
-     "text": "f32adff261, normal Editor. One native shutter moved 8.04 degrees away from its retained neighbours. Carrying the same group across both stores reduced worst measured rotation to 0.09 degrees across 28 pairs in eight windows. Four Castle pla"
-    },
     {
      "by": "CODEX_CASTLE_PHOTO_AGREEMENT",
      "at": "2026-11-24T10:40Z",
@@ -3761,6 +3747,11 @@
      "by": "CODEX_CASTLE_PHOTO_PREDICTION",
      "at": "2026-11-24T11:14Z",
      "text": "3392be36be on main. File Pilot reads the last two causal corrected photo poses on the decoder clock. Either photo can revise velocity, including on pause. A decoded match follows its source photos until it owns depth. 32/32 focused UnityPla"
+    },
+    {
+     "by": "CODEX_RECORDED_TENSION",
+     "at": "2026-11-24T18:11Z",
+     "text": "e3eff3d415 delivered reciprocal post-run photo settlement, measured native depth overlaps, fixed and repeated-shutter handling, and late evidence wakeup. 25 focused tests passed. Zurich in real Play Mode: 35 cameras after 240s, reserved P90"
     }
    ]
   },
@@ -5320,6 +5311,6 @@
    "since": "2026-11-24T11:14Z"
   }
  ],
- "source_revision": "51f95fb9157c8fed33b9ec2700445216c6467ff5",
- "board_revision": "96a9d089fcba64f38de1b3153fa097793dcf4ac4"
+ "source_revision": "e3eff3d415928361472b1f9f4af20a0e784de41c",
+ "board_revision": "7e0aa501870fa2ff1662bad9521397a219eae7c9"
 }
