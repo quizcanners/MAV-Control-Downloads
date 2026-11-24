@@ -434,56 +434,7 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [
-    {
-     "t": "Server declaration written without Nix: WireGuard optional with its subnet from the marker, map build waits for server.key, Tools/Server/snapshot-prepare.sh, README with the three runs (3dc6bbc015, a6",
-     "x": true
-    },
-    {
-     "t": "One MavServer per VPN, code side: VPNs list with switching, Add device by name, Admin standing in three states, Admin edit of Blind Spots on the row, Specs folder (GET/POST /specs), Deploy WireGuard s",
-     "x": true
-    },
-    {
-     "t": "WireGuard QR view: 'Show QR' beside 'Send in chat' on each Tunnel file (dbf4492644); seen in Play with a test file, full QR drawn.",
-     "x": true
-    },
-    {
-     "t": "PASIKA (needs Nix): evaluate the declaration with evaluation-checks.nix, then vm-test.nix, and repair what fails (Tools/Server/README.md, Checks that need no server).",
-     "x": false
-    },
-    {
-     "t": "Token holder (quiz's Hetzner token): a fresh Hetzner server from the declaration, made a clean copy source with snapshot-prepare.sh, the first snapshot (README run 1).",
-     "x": false
-    },
-    {
-     "t": "Token holder: two servers from the snapshot id by the app's Deploy page, Deploy WireGuard on one (README run 2); the Ubuntu installer stays the fallback until both are seen.",
-     "x": false
-    },
-    {
-     "t": "Token holder: apply a change and roll back once on purpose (README run 3); then retire install.sh with its cloud-init runcmd and the installing half of install-valhalla.sh.",
-     "x": false
-    },
-    {
-     "t": "PASIKA, on quiz's word: publish one MavServer release from main (Tools/RoutingServer/README.md, Operator steps) and update the running MavServer. It carries the Specs folder, the subnet choice, one Ad",
-     "x": false
-    },
-    {
-     "t": "Cloud, after that release is pinned in the app: Deploy stops writing directory.json (RoutingServerDeployment.AppendConfigFiles).",
-     "x": false
-    },
-    {
-     "t": "Mac/Rog Editor: compile and run the cloud-only commits (07613219ba, c7192fe3ba, 8b8595f162, a6d85c779d, 3e900e614b); Unity tests DirectRouteHubTypesTests, ServerSpecsTests, LocalizationAssetTests (key",
-     "x": false
-    },
-    {
-     "t": "Cloud/quiz, open review findings, briefs ready, awaiting quiz: [CR-DBF4-01 P2 Show QR overwritten by the app-install URL while sharing](../Reviews/ad015dacb.md#cr-dbf4-01--p2-show-qr-loses-the-request",
-     "x": false
-    },
-    {
-     "t": "Quiz to know: the Blind Spots map start is typed as MGRS, not picked on the map (written in the VPNs SPEC as a compromise). Sub-tasks: 558 (tunnel that came as a file reports the wrong key), 560 (a ne",
-     "x": false
-    }
-   ],
+   "steps": [],
    "notes": [
     {
      "by": "HEAVY",
@@ -5358,5 +5309,5 @@
   }
  ],
  "source_revision": "286774a7e9ab0081eef8f7805ccbbf87f1d06933",
- "board_revision": "8c3039bfea7cebf0b680b85d05e1d086e26d66e2"
+ "board_revision": "0ade38d112b810bdf51e196ce0872fd412c95485"
 }
