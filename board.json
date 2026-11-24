@@ -2833,22 +2833,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE_CODEX",
-     "since": "2026-11-24T11:57Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T09:43Z",
-     "text": "Paused for the new Retransmission countdown request. Remote Sensors list view binding and list ordering move saved locally in stash a56acb21; no tests or push for that slice. Last delivered f9650e57."
+     "at": "2026-11-24T12:26Z",
+     "text": "eda641b3 on main. MavLink selection no longer invalidates the drone list directly. The list reads Focus.SelectionVersion before updating rows and uses the same change for navigation. Rog Unity 35 Edit Mode tests passed (10 Top Controls layo"
     }
    ]
   },
@@ -3333,28 +3324,6 @@
    ]
   },
   {
-   "n": 2093,
-   "name": "using Strong",
-   "done": "2026-11-23T12:28Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "vague"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-23T12:28Z",
-     "text": "Strong device reservation for 1807 ended; nothing left."
-    }
-   ]
-  },
-  {
    "n": 2095,
    "name": "Point Clouds layer streams detail from nearby Street View photo depth",
    "done": "",
@@ -3513,31 +3482,6 @@
      "by": "CLAUDE_2132",
      "at": "2026-11-23T15:02Z",
      "text": "d7897b6705: connection icons got their own slot before the name. 1d694d8903: the subtitle under the name ('\u041f\u043e\u0442\u0440\u0456\u0431\u043d\u0435 \u043e\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u044f (\u0437\u0431\u0456\u0440\u043a\u0430 N)', latest message, video status) lost a stale 120 px right margin and now writes across its whole line; "
-    }
-   ]
-  },
-  {
-   "n": 2133,
-   "name": "Tablet cold start",
-   "done": "2026-11-23T12:51Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_VPN_PROCESSING",
-     "at": "2026-11-23T12:51Z",
-     "text": "0a7ce02cf3: hash answers are routed to the 2 drill frames that can take them, not every frame of every drill. Next device build confirms with 'vpn.update.start 20' then 'vpn.update.report': WebMercatorHashTree avg well under the 60 us/hash "
-    },
-    {
-     "by": "GETAC_LENOVO",
-     "at": "2026-11-23T14:53Z",
-     "text": "Lenovo HA1PGQ44 debug f3d6433b1b (has 0a7ce02cf3), cold start, 20 s vpn.update with peers syncing: 675 hash batches, 4,335 hashes. WebMercatorHashTree 133.1 ms = 30.7 us/hash (877: 60 us). Crpt_WMConvHashBatch 754 of 1,050 ms Processing Mes"
     }
    ]
   },
@@ -3936,8 +3880,8 @@
     },
     {
      "by": "CODEX_VIDEO_COMPARISON",
-     "at": "2026-11-24T11:59Z",
-     "text": "c88647e332 records fresh native DA3 + production C# SIFT tests on Heritage and Zurich. Zurich placed 24/24 subsequent sample exposures, P90 1.83 px at 320px width. Its weakest tested join is between windows starting at 16 and 18s. Productio"
+     "at": "2026-11-24T12:59Z",
+     "text": "Uninterrupted isolated Unity photo comparisons on public English Heritage and Zurich, with the survey held out after 8 s. All 4 Heritage joins and all 47 Zurich joins registered, covering 24 and 196 distinct shutters. Heritage P90 reproject"
     }
    ]
   },
@@ -5028,7 +4972,7 @@
   {
    "n": 2197,
    "name": "Chat container",
-   "done": "",
+   "done": "2026-11-24T12:52Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -5037,7 +4981,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T12:52Z",
+     "text": "4d207dd2 on main. Chat owns Manager, BackgroundProcess, IosBackground, WindowsBackgroundProcess, IosBackgroundWorker and packet/records. Saved fields and wire types are preserved. Rog Unity passed 142 Chat Edit Mode tests. Managed compiler "
+    }
+   ]
   },
   {
    "n": 2198,
@@ -5191,6 +5141,49 @@
      "text": "9a0be2dc on main. Fullscreen diagnostic reads Pilot state only if the map camera exists, allowing the Search transition callback to run. MavTube viewport fixture owns a Timeline as the app does. Fresh Rog Edit Mode MavChatSheetTests 144/144"
     }
    ]
+  },
+  {
+   "n": 2206,
+   "name": "Drones list creation or pooling invalidates every existing row per change",
+   "done": "2026-11-24T12:36Z",
+   "goal": false,
+   "under": 429,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T12:36Z",
+     "text": "f5dff928 on main. Adding or pooling a drone row leaves other rows valid and refreshes the current/followed roles. The reused row refreshes. Source count for opening an empty list to 100 rows drops from 5,050 to 100 per-row invalidations. Th"
+    }
+   ]
+  },
+  {
+   "n": 2207,
+   "name": "Suggestions tabs can start the panel dismissal flick and clear selection",
+   "done": "",
+   "goal": false,
+   "under": 407,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "ROG_FABLE_CODEX",
+     "since": "2026-11-24T12:55Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5455,6 +5448,6 @@
    "since": "2026-11-24T11:14Z"
   }
  ],
- "source_revision": "c88647e332b162dba28e316c89c27b0a07ad18b8",
- "board_revision": "f0cac84e6ccea0631eb78ebfd342d74c2fffc692"
+ "source_revision": "73406f00543feb672c9d896f92f1fa3dfff1b5b5",
+ "board_revision": "db5da0644b1f8c694627cd3c4f6b0e1deee8475c"
 }
