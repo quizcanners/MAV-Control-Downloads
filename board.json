@@ -4995,8 +4995,8 @@
     },
     {
      "by": "CODEX",
-     "at": "2026-11-24T04:37Z",
-     "text": "Lenovo Dev 878 reopened write admission in the same process after low-space maintenance. First open sample was Migrating, with 37 queued and a 16-tile incoming batch; the queue returned to zero. Online Raster was inactive. CPU.md records th"
+     "at": "2026-11-24T04:48Z",
+     "text": "Lenovo Dev 878 after initial low-space write recovery: with Online Raster inactive the peer queue grew to 2,672 while batches were admitted. Later it fell from 2,368 to 1,296; minimum write admission closed again and ended 23.63 MB below ma"
     }
    ]
   },
@@ -5392,5 +5392,5 @@
   }
  ],
  "source_revision": "d92b9841937c4d00b45d36ff8c08ae628c568b72",
- "board_revision": "8332ff12b237e40bc8d9b78fc1cbff114419fa4c"
+ "board_revision": "237e1c5c03db37d2331b0b85f722c018e3570775"
 }
