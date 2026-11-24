@@ -2833,7 +2833,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "ROG_FABLE_CODEX",
+     "since": "2026-11-24T11:57Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -3383,26 +3392,6 @@
    ]
   },
   {
-   "n": 2115,
-   "name": "Brigade 68 Android and Windows release builds",
-   "done": "2026-11-23T11:23Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX",
-     "at": "2026-11-23T11:23Z",
-     "text": "Brigade 68 release 877 delivered on both platforms. Android ARM64 from 823b166f53 is signed and Windows x64 from edb69549b1 is packaged and verified. Drive release and Test listings, matching mounted hashes, sealed GitHub Test catalog and b"
-    }
-   ]
-  },
-  {
    "n": 2123,
    "name": "Use one registered accumulation root for live Point Clouds and synthetic views",
    "done": "",
@@ -3475,43 +3464,6 @@
    ]
   },
   {
-   "n": 2129,
-   "name": "Keep native reconstruction Compute Shader buffers bound through Editor shader refresh",
-   "done": "2026-11-23T11:36Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-23T11:34Z",
-    "2026-11-23T11:35Z",
-    "2026-11-23T11:35Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Trace the missing buffers from the live Console",
-     "x": true
-    },
-    {
-     "t": "Rebind the buffers at all affected reconstruction dispatches",
-     "x": true
-    },
-    {
-     "t": "Verify dispatch recovery and preserve the running flight",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-23T11:36Z",
-     "text": "Main 9f42ef2734 binds live resources at affected dispatches. Two blank Metal shader clones passed overlap, retain, rank, preserve and restore readback. Rebound 17 live bindings in the operator capture without stopping Play. No new compute e"
-    }
-   ]
-  },
-  {
    "n": 2130,
    "name": "Match Pilot video",
    "done": "",
@@ -3541,26 +3493,6 @@
      "by": "CODEX_MODEL_POSITIONING",
      "at": "2026-11-23T12:27Z",
      "text": "Main 92e355f749 keeps the world projection on the current decoder image and shares the visible Synthetic drone pose with Pilot View. Moving Kenilworth replay verified frame advance and shared pose. Hide Video still exposed landmark errors. "
-    }
-   ]
-  },
-  {
-   "n": 2131,
-   "name": "Pause map sync tells peers this device needs no sync and still takes in everything that arrives (Web Mercator SPEC",
-   "done": "2026-11-23T11:58Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-23T11:58Z",
-     "text": "33f4e3b518: heartbeat SyncPaused; peers skip a paused peer in drills and view offers; the paused device starts nothing and still receives/answers over VPN and USB. Tests 284+11+25 green. Not checked between two real devices."
     }
    ]
   },
@@ -4001,6 +3933,11 @@
      "by": "CODEX_RAW_MAP_BASELINE",
      "at": "2026-11-23T22:40Z",
      "text": "e0fdecea07 three-video baseline. Zurich visual last registered exposure 5.5 s, status lost 10.7\u201398.8 s; recent photo stopped at 78.6 s. Median working-photo lag 14.65 s, previously 9.3 s. 216 identical held-out exposures during loss worsene"
+    },
+    {
+     "by": "CODEX_VIDEO_COMPARISON",
+     "at": "2026-11-24T11:59Z",
+     "text": "c88647e332 records fresh native DA3 + production C# SIFT tests on Heritage and Zurich. Zurich placed 24/24 subsequent sample exposures, P90 1.83 px at 320px width. Its weakest tested join is between windows starting at 16 and 18s. Productio"
     }
    ]
   },
@@ -4645,8 +4582,8 @@
     },
     {
      "by": "CODEX",
-     "at": "2026-11-24T11:12Z",
-     "text": "Lenovo Android 11 direct VPN acceptance verified on build 880 with updated Editor b3995441fc. While locked and screen off it recorded the text, acknowledged it and posted a notification in about 15 s. Tapping the notification opened the rig"
+     "at": "2026-11-24T11:56Z",
+     "text": "Lenovo build 880 from e2141666b5 passed background sender handoff, locked receive, native notification and tap with one copy over VPN. The exact installed APK has no Firebase configuration resources. Routing Server 7d614de7de loads APNs and"
     }
    ]
   },
@@ -4725,8 +4662,8 @@
    "notes": [
     {
      "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T06:45Z",
-     "text": "c6855e23 on main. Reduced-sheet Chat transcript uses 70% of the full message font and 8 canvas units of padding above and below. Unity refreshed and compiled. Remaining: run ChatMessageLayoutTests in disposable Data (the ordinary Editor ref"
+     "at": "2026-11-24T11:41Z",
+     "text": "2b527bce retains the c6855e23 implementation. Fresh Windows Unity ChatMessageLayoutTests 35/35. The authored portrait prefab with 12 synthetic messages fit 5 complete transcript rows vs 3 full bubble rows at the same 600-unit viewport; font"
     }
    ]
   },
@@ -4845,8 +4782,8 @@
    "notes": [
     {
      "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T10:34Z",
-     "text": "Source pushed through 3a960c24. Full relay suite with FFmpeg passed, including blue slate to live RTP in one output. Edit Mode 83 Restream protocol and 5 Telemetry control tests passed. Pending paired Windows helper and FFmpeg package, a li"
+     "at": "2026-11-24T11:54Z",
+     "text": "a67cce30 on main. A saved FFmpeg delay no longer blocks WHIP start. An active countdown blocks a switch to an incompatible output through expiry. Rog Unity Restream protocol 85/85. Native Go: WHIP RTP and two FFmpeg countdown checks passed,"
     }
    ]
   },
@@ -4963,7 +4900,7 @@
   {
    "n": 2190,
    "name": "Fat container WebMercator and its 12 Diagnostics partial files",
-   "done": "",
+   "done": "2026-11-24T11:32Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -4972,7 +4909,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T11:32Z",
+     "text": "2b527bce on main. Each controller owns its diagnostics types and source folder. Shared throughput, per-frame flags and device reports remain in the sync core. Preserved moved script GUIDs. Rog Unity 6000.6.8f1 passed 373 Edit Mode tests: Br"
+    }
+   ]
   },
   {
    "n": 2191,
@@ -5162,22 +5105,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE_CODEX",
-     "since": "2026-11-24T11:16Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T11:05Z",
-     "text": "The exact test passed on the next Rog D3D11 run (20261124-110348-2550581-SituationEffectsTests.xml). No shader or pixel comparator change between those two runs. Initial mismatch remains intermittent."
+     "at": "2026-11-24T11:21Z",
+     "text": "On 1bf33899, D3D11 matched byte-for-byte in 48 exact ARGBFloat iterations, including four synchronous marker reimports. Marker/reference _BaseColor matched with CopyProperties and explicit binding. Reverse draw order and instancing off also"
     }
    ]
   },
@@ -5218,6 +5152,43 @@
      "by": "ROG_FABLE_CODEX",
      "at": "2026-11-24T11:15Z",
      "text": "quiz: The armed indicator needs text too. 1bf33899 on main. Localized Armed text appears with no deadline, adds the time when reported, and includes the armed count for multi-selection. All five Remote Sensor Panel Look tests passed. The Re"
+    }
+   ]
+  },
+  {
+   "n": 2205,
+   "name": "Windows Edit Mode MavChat Sheet coverage fails in Search capture and MavTube viewport",
+   "done": "2026-11-24T11:46Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [
+    "2026-11-24T11:45Z",
+    "2026-11-24T11:45Z",
+    "2026-11-24T11:46Z"
+   ],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Account for the missing camera during Search capture",
+     "x": true
+    },
+    {
+     "t": "Supply the Timeline owner needed by the MavTube viewport fixture",
+     "x": true
+    },
+    {
+     "t": "Verify all MavChatSheetTests and push to main",
+     "x": true
+    }
+   ],
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T11:46Z",
+     "text": "9a0be2dc on main. Fullscreen diagnostic reads Pilot state only if the map camera exists, allowing the Search transition callback to run. MavTube viewport fixture owns a Timeline as the app does. Fresh Rog Edit Mode MavChatSheetTests 144/144"
     }
    ]
   }
@@ -5484,6 +5455,6 @@
    "since": "2026-11-24T11:14Z"
   }
  ],
- "source_revision": "fe918d05416a9b77e6b38bd15b884f864efd9b5f",
- "board_revision": "b82a99494ff3805016aa4f491df2593e45eab664"
+ "source_revision": "c88647e332b162dba28e316c89c27b0a07ad18b8",
+ "board_revision": "f0cac84e6ccea0631eb78ebfd342d74c2fffc692"
 }
