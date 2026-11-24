@@ -5132,6 +5132,37 @@
      "text": "iPhone -> Android also didn't arrive, so messaging fails whenever an app is in background, sender side included."
     }
    ]
+  },
+  {
+   "n": 2172,
+   "name": "Background messaging and notifications: MavChat delivers private texts on Android and iPhone while MAV Control is backgrounded or the screen is locked, shows a native notification, and opens the right",
+   "done": "",
+   "goal": true,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Publish smartphone messaging research and the Chat SPEC delivery contract",
+     "x": false
+    },
+    {
+     "t": "Keep unconfirmed texts through pause and restart, and resend on peer return",
+     "x": false
+    },
+    {
+     "t": "Wire encrypted server mailbox and APNs/FCM registration and notifications",
+     "x": false
+    },
+    {
+     "t": "Verify Android and iPhone paired delivery and notifications with GPS sharing off",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -5417,5 +5448,5 @@
   }
  ],
  "source_revision": "8773f1139eb776ea7f67bfde31d165448a67bf28",
- "board_revision": "ec96ebb904cb6d434cafed68d9e5715bb761b34a"
+ "board_revision": "402818bd383a43f045f88fc9fcc293e0a2adf3bb"
 }
