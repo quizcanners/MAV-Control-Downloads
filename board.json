@@ -3585,16 +3585,7 @@
    "priority": "high",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_COMPARISON",
-     "since": "2026-11-24T15:49Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 6
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Replay arm of the first version (24 motion-spaced photos, groups of 12 with 5 shared, 30 % allowance, add-only Disks) on the city clip as the control",
@@ -3629,8 +3620,8 @@
     },
     {
      "by": "CODEX_VIDEO_COMPARISON",
-     "at": "2026-11-24T15:35Z",
-     "text": "Main b60a1419a6. Tried agreement x divergence independently on incoming and reference photos. Zurich 2s P90 fixed/back/front/both 1.96/2.22/4.45/7.19px; Heritage 0.90/1.28/1.61/1.46px. Zurich back-only recovered all 45 refusals but used 93 "
+     "at": "2026-11-24T16:06Z",
+     "text": "aa59c8d715, predictor-only; fixed app baseline preserved. Overlap+ray angle reduced held Zurich Brier .248 to .015 (time .002) and measured RGB-D Freiburg .379 to .253 with one pose, .345 to .129 with per-exposure poses. Single-pose high-co"
     }
    ]
   },
@@ -5290,6 +5281,6 @@
    "since": "2026-11-24T11:14Z"
   }
  ],
- "source_revision": "b60a1419a69a2df5bf612e3d0805c95864a48c4c",
- "board_revision": "7ef86208e945bb242295aff0174695e8ac6ed9bd"
+ "source_revision": "aa59c8d7158957e14356c7a147364d1d4e2d0ba5",
+ "board_revision": "ddae47bf954ad743a782cea74db90ddb04671ed0"
 }
