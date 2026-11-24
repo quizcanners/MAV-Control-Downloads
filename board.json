@@ -202,11 +202,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-15T20:02Z",
-     "text": "Windows D3D11 verified b8ccb161b9: Unity compiled 178 shader passes with zero errors. Long Press Wave tests 2/2."
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-19T18:21Z",
      "text": "CR-E15C-01 P2: slow visible peer translation can re-enter FrozenDouble between threshold reports; current drone continuation repair does not cover peers. S1 investigation/S2 brief and proposed reuse of the existing translation observer are "
@@ -215,6 +210,11 @@
      "by": "MAC_BOARD",
      "at": "2026-11-20T03:55Z",
      "text": "0726a49b0f publishes Mac Editor Metal Play evidence from 79d93e55ff in GPU.md. Full on the release frame, one-second sharp settle, scheduled refresh, visible-settings invalidation and local Synthetic wake/name passed. Receipt Mac-Render-Goa"
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-19T06:23Z",
+     "text": "101b169959 keeps the receive lease under Settings without requesting full display pacing. MapOnly Settings returned to FrozenDouble at 8 FPS while covered, and Synthetic capture stayed uncapped."
     }
    ]
   },
@@ -1438,7 +1438,10 @@
    "ticks": [
     "2026-11-13T11:19Z",
     "2026-11-13T22:05Z",
-    "2026-11-15T00:01Z"
+    "2026-11-15T00:01Z",
+    "2026-11-13T15:55Z",
+    "2026-11-14T20:22Z",
+    "2026-11-15T02:41Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -1464,81 +1467,7 @@
     {
      "t": "Cloud: model body hits from altitude-hidden models (REVIEW CR-A449-01, Reviews/3cdc97366.md); 9th Layers tile at 4:3 loses 19 units at the edges with Debug Mode on (no paging, no scaling); Anchors cou",
      "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-15T03:52Z",
-     "text": "edf1bf12b0 has passed Windows Play with 2,048 models and four Roslyn targets. One fade resized one of eight batches, with correct shadow and pointing bounds; camera motion resized all eight. Full fixture launcher refused because Unity is al"
     },
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-15T04:29Z",
-     "text": "Done: 27de2b90ac via ac5302cf83 culls shadow batches with kept bounds, preserving visible order, camera-distance sizing and pointing. 790 closed; native SituationEffects 10/10 and 80 exact render comparisons; final Roslyn clean. CPU/GPU cos"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-21T12:46Z",
-     "text": "CC-EDF1-01 P3. A sparse Situation placement triggers a second walk of active slots after refill. S1/S2 brief ready for quiz. [Review](https://github.com/quizcanners/MAV_Control/blob/caa9f658b051e6ed6d4053a8c5877492bfa498ef/Coordination/Revi"
-    }
-   ]
-  },
-  {
-   "n": 558,
-   "name": "A person who got their tunnel as a file and is then made an Admin is not an Admin on the WireGuard people table",
-   "done": "",
-   "goal": false,
-   "under": 370,
-   "ticks": [
-    "2026-11-22T17:21Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Cause read in code: a named Admin's app reports Station.Persistent.Crypto.TunnelKeys.PublicKey (DirectRouteManager.AdvanceAdmins, AdminOp.Tunnel; HubRole.IsAdminTunnelKey; TunnelGrants.IsAdminNow), bu",
-     "x": true
-    },
-    {
-     "t": "Proposal (identity is the WireGuard key read from the handshake and source address, never a report): (A, recommended) a named Admin sends its plain Admins ask to the hub's tunnel address (HubTunnel.Hu",
-     "x": true
-    },
-    {
-     "t": "quiz: A or B?",
-     "x": true
-    },
-    {
-     "t": "Cloud C#: build the chosen one (server half and MavServer release)",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLAUDE_558",
-     "at": "2026-11-22T17:52Z",
-     "text": "Option A built in source and pushed (9e2bb49536): a named Admin's plain Admins ask goes to the hub's tunnel address; the server binds it to the people-table row at the source address (BindTunnel, TunnelKeyAt_Optional -> TunnelGrants.ByAddre"
-    }
-   ]
-  },
-  {
-   "n": 572,
-   "name": "One reusable entity system: Remote Sensors, Training, Situation Entities and the next kind share one identity table, one fade, one ground pass, one draw and one pointing path, each kind a row of data ",
-   "done": "",
-   "goal": true,
-   "under": 0,
-   "ticks": [
-    "2026-11-13T15:55Z",
-    "2026-11-14T20:22Z",
-    "2026-11-15T02:41Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
     {
      "t": "EntityIdentityTable<TKey> in Systems/ECS; Situation Entities publication uses it (70fe9777ec); Remote Sensors rendering uses it, removed sensors release model, shadow and anchor (d15957630e)",
      "x": true
@@ -1587,6 +1516,50 @@
      "by": "REVIEW",
      "at": "2026-11-20T10:49Z",
      "text": "CC-0391-01 P3: Training scans every coverage cell for distance retirement each update although observerCellChanged already exists. S1/S2 brief ready for quiz before refactoring: Coordination/Reviews/577c0e7fa.md#cc-0391-01--p3-training-rech"
+    }
+   ]
+  },
+  {
+   "n": 558,
+   "name": "A person who got their tunnel as a file and is then made an Admin is not an Admin on the WireGuard people table",
+   "done": "2026-11-24T05:49Z",
+   "goal": false,
+   "under": 370,
+   "ticks": [
+    "2026-11-22T17:21Z"
+   ],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Cause read in code: a named Admin's app reports Station.Persistent.Crypto.TunnelKeys.PublicKey (DirectRouteManager.AdvanceAdmins, AdminOp.Tunnel; HubRole.IsAdminTunnelKey; TunnelGrants.IsAdminNow), bu",
+     "x": true
+    },
+    {
+     "t": "Proposal (identity is the WireGuard key read from the handshake and source address, never a report): (A, recommended) a named Admin sends its plain Admins ask to the hub's tunnel address (HubTunnel.Hu",
+     "x": true
+    },
+    {
+     "t": "quiz: A or B?",
+     "x": true
+    },
+    {
+     "t": "Cloud C#: build the chosen one (server half and MavServer release)",
+     "x": false
+    }
+   ],
+   "notes": [
+    {
+     "by": "CLAUDE_558",
+     "at": "2026-11-22T17:52Z",
+     "text": "Option A built in source and pushed (9e2bb49536): a named Admin's plain Admins ask goes to the hub's tunnel address; the server binds it to the people-table row at the source address (BindTunnel, TunnelKeyAt_Optional -> TunnelGrants.ByAddre"
+    },
+    {
+     "by": "CLOUD_PRUNE",
+     "at": "2026-11-24T05:49Z",
+     "text": "Pruned 2026-11-24: built and on main; remaining device checks are verification"
     }
    ]
   },
@@ -1746,26 +1719,6 @@
    ]
   },
   {
-   "n": 704,
-   "name": "Find and remove what keeps waking a still map on devices (goal 363)",
-   "done": "",
-   "goal": false,
-   "under": 363,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T06:23Z",
-     "text": "101b169959 keeps the receive lease under Settings without requesting full display pacing. MapOnly Settings returned to FrozenDouble at 8 FPS while covered, and Synthetic capture stayed uncapped."
-    }
-   ]
-  },
-  {
    "n": 735,
    "name": "Hot reload leaves nothing behind",
    "done": "2026-11-23T13:35Z",
@@ -1810,7 +1763,7 @@
   {
    "n": 854,
    "name": "Diagnose and fix the iPad crash reported through TestFlight on 2026-11-15. Awaiting the actual report",
-   "done": "",
+   "done": "2026-11-24T05:49Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -1829,6 +1782,11 @@
      "by": "MAC_BOARD",
      "at": "2026-11-20T05:25Z",
      "text": "Nov 20 05:25 UTC TestFlight GET confirmed the same Nov 16 iPad submission. Crash log, relationship and iOS 840 build diagnostics all still returned 404. No later iPad submission or feedback attachment, and the iPad is unavailable. Found sig"
+    },
+    {
+     "by": "CLOUD_PRUNE",
+     "at": "2026-11-24T05:49Z",
+     "text": "Pruned 2026-11-24: stall or crash never reproduced, no report to act on; reopen with a fresh one"
     }
    ]
   },
@@ -1890,7 +1848,7 @@
   {
    "n": 1309,
    "name": "Android Dev 849 first launch after an update sits on the empty loading bar for a long time (quiz's photo",
-   "done": "",
+   "done": "2026-11-24T05:49Z",
    "goal": false,
    "under": 373,
    "ticks": [],
@@ -1909,6 +1867,11 @@
      "by": "ROG",
      "at": "2026-11-16T10:53Z",
      "text": "Published da6a1ef896: an expired CodingSceneReady wait hands the completed read to the regular file owner after startup reaches Ready. The original settings root must still own it; no synchronous wait or repeat failure. Six host controls pa"
+    },
+    {
+     "by": "CLOUD_PRUNE",
+     "at": "2026-11-24T05:49Z",
+     "text": "Pruned 2026-11-24: stall or crash never reproduced, no report to act on; reopen with a fresh one"
     }
    ]
   },
@@ -2259,7 +2222,7 @@
   {
    "n": 1516,
    "name": "RTX box",
-   "done": "",
+   "done": "2026-11-24T05:48Z",
    "goal": false,
    "under": 1693,
    "ticks": [],
@@ -2268,7 +2231,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_PRUNE",
+     "at": "2026-11-24T05:48Z",
+     "text": "Pruned 2026-11-24: experiment or baseline with no committed app outcome"
+    }
+   ]
   },
   {
    "n": 1525,
@@ -2487,7 +2456,7 @@
   {
    "n": 1682,
    "name": "Video Processing",
-   "done": "",
+   "done": "2026-11-24T05:49Z",
    "goal": false,
    "under": 1693,
    "ticks": [],
@@ -2501,13 +2470,18 @@
      "by": "HEAVY_CUDA",
      "at": "2026-11-18T19:06Z",
      "text": "8e22d49c9b published standalone TensorRT D3D11 proof and same-input Kenilworth/Zurich parity. Live Unity closed before first result; WER 0x141 NVIDIA display timeout. Live integration removed and CUDA scratch DLLs cleaned. Next: isolate ren"
+    },
+    {
+     "by": "CLOUD_PRUNE",
+     "at": "2026-11-24T05:49Z",
+     "text": "Pruned 2026-11-24: experiment or baseline with no committed app outcome"
     }
    ]
   },
   {
    "n": 1685,
    "name": "Video Processing",
-   "done": "",
+   "done": "2026-11-24T05:49Z",
    "goal": false,
    "under": 431,
    "ticks": [],
@@ -2521,6 +2495,11 @@
      "by": "HEAVY_REFS",
      "at": "2026-11-18T19:06Z",
      "text": "8e22d49c9b on main. Windows captured fresh depth and colour from four views. After manual relocation under tracking loss, unrelated Zurich triggered fallback and was refused with canonical count and draft transform unchanged. An all-real co"
+    },
+    {
+     "by": "CLOUD_PRUNE",
+     "at": "2026-11-24T05:49Z",
+     "text": "Pruned 2026-11-24: experiment or baseline with no committed app outcome"
     }
    ]
   },
@@ -2547,28 +2526,7 @@
     {
      "t": "Measure accepted fresh photos per second, time to the first confirmed view after a switch, frame-time tails and peak working memory. Bound recurring stalls while preserving registration and depth qual",
      "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_3D_MAP_SPEC",
-     "at": "2026-11-20T18:53Z",
-     "text": "Published d5840ff35d to main. Current scope is photo positioning, paired depth, automatic stitching and measured performance. Guide check reported 0 errors and 8 existing warnings. Documentation only, Unity replay not rerun. Next: Kalasatam"
-    }
-   ]
-  },
-  {
-   "n": 1704,
-   "name": "3D Street View saves original photos whose poses, lenses and depth agree. The saved model and photo evidence can regenerate the transient Disk cloud.",
-   "done": "",
-   "goal": true,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
+    },
     {
      "t": "Refine photo poses with independent real-view validation and qualify depth corrections",
      "x": false
@@ -2587,6 +2545,11 @@
     }
    ],
    "notes": [
+    {
+     "by": "CODEX_3D_MAP_SPEC",
+     "at": "2026-11-20T18:53Z",
+     "text": "Published d5840ff35d to main. Current scope is photo positioning, paired depth, automatic stitching and measured performance. Guide check reported 0 errors and 8 existing warnings. Documentation only, Unity replay not rerun. Next: Kalasatam"
+    },
     {
      "by": "GETAC",
      "at": "2026-11-18T23:10Z",
@@ -2667,7 +2630,7 @@
    "held": [
     {
      "who": "CODEX",
-     "since": "2026-11-24T05:39Z",
+     "since": "2026-11-24T06:31Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
@@ -2683,8 +2646,8 @@
     },
     {
      "by": "CODEX",
-     "at": "2026-11-24T05:38Z",
-     "text": "On main c13f420021: optional Routing Server encrypted Chat mailbox over authenticated Noise. Recipient sender authorization, durable submit/fetch/confirm, duplicate suppression, and revocation run in a bounded worker. The full Routing Serve"
+     "at": "2026-11-24T06:28Z",
+     "text": "Wake fetch is on main at 45dfba7ee5 (02c15ae076 plus the URL parser compile fix). Windows Routing Server suite and final 30 push plus 24 mailbox checks passed. Remaining: Android WorkManager and iPhone notification extension, handset import"
     }
    ]
   },
@@ -2716,7 +2679,7 @@
   {
    "n": 1770,
    "name": "Locate a video of uncertain position on the synthetic top-down map",
-   "done": "",
+   "done": "2026-11-24T05:49Z",
    "goal": false,
    "under": 1693,
    "ticks": [
@@ -2751,6 +2714,11 @@
      "by": "HEAVY",
      "at": "2026-11-19T21:35Z",
      "text": "c9e3341dea settles each confirmed Video Source join. The combined original sequence accepts the Wide continuation and sometimes Inner Court, but does not reach Garden Orbit in the same draft. Zurich preserved accepted cells. Fixed later Inn"
+    },
+    {
+     "by": "CLOUD_PRUNE",
+     "at": "2026-11-24T05:49Z",
+     "text": "Pruned 2026-11-24: experiment or baseline with no committed app outcome"
     }
    ]
   },
@@ -2972,22 +2940,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE_CODEX",
-     "since": "2026-11-24T05:35Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T05:24Z",
-     "text": "Main 093af7ba removes all concrete Pilot View references from non-UI production files. Rendering, capture optics, frame delivery and diagnostics use the Station view contract, and shared FOV fitting belongs to Main Camera. Rog passed 67 Edi"
+     "at": "2026-11-24T06:23Z",
+     "text": "Main 58ed7658 moves the Search bar controller into UI with identical code and Unity GUID, and routes Needs readiness, attachment interest and window diagnostics through the Station view contract. Rog passed all 4 Store Navigation and 28 wee"
     }
    ]
   },
@@ -3014,7 +2973,7 @@
   {
    "n": 1972,
    "name": "Qualify 3D Map positioning",
-   "done": "",
+   "done": "2026-11-24T05:49Z",
    "goal": false,
    "under": 1693,
    "ticks": [],
@@ -3025,11 +2984,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_NATIVE_GAP_REPLAY",
-     "at": "2026-11-21T10:27Z",
-     "text": "ed6457fc1b adds file freeze/forward-seek to the native unsaved-draft replay. It verifies accepted counters and canonical digest through the hold and requires post-gap keyframes on the original source before timing recovery. Eight host harne"
-    },
-    {
      "by": "CODEX_DECODER_REPEAT_FIXTURE",
      "at": "2026-11-21T10:44Z",
      "text": "96b1afbe59 adds matched H.264 decoder fixtures and native replay observation. FFmpeg and macOS AVFoundation decoded 73 identical pictures at distinct 24 FPS timestamps and a fresh picture after the 48-exposure jump. Eleven host checks passe"
@@ -3038,6 +2992,11 @@
      "by": "CODEX_VIDEO_STRESS",
      "at": "2026-11-21T18:56Z",
      "text": "Paused by quiz. Local evaluator Tools/VisualOdometryExperiment/evaluate_retained_scale_poses.py is uncommitted. Actual decoded inputs: paired SIFT localized all six incoming views, worst 3.01 mm and 0.0933 deg, zero Zurich poses. Clean live"
+    },
+    {
+     "by": "CLOUD_PRUNE",
+     "at": "2026-11-24T05:49Z",
+     "text": "Pruned 2026-11-24: experiment or baseline with no committed app outcome"
     }
    ]
   },
@@ -3144,7 +3103,7 @@
   {
    "n": 2036,
    "name": "Positioned Video Source and photo anchors",
-   "done": "",
+   "done": "2026-11-24T05:49Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -3158,6 +3117,11 @@
      "by": "CODEX_VIDEO_STRESS",
      "at": "2026-11-21T19:47Z",
      "text": "Published 58571b4880 and 8c502a011e. Positioned draft photo anchors, idle pose comparisons, and survey runner. Kenilworth joined in the same draft and retained the anchor; idle comparisons ran and settled without publishing a correction. 25"
+    },
+    {
+     "by": "CLOUD_PRUNE",
+     "at": "2026-11-24T05:49Z",
+     "text": "Pruned 2026-11-24: experiment or baseline with no committed app outcome"
     }
    ]
   },
@@ -3394,7 +3358,7 @@
   {
    "n": 2077,
    "name": "Pilot view (Workflows/Copilot/SPEC.md",
-   "done": "",
+   "done": "2026-11-24T05:49Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -3405,11 +3369,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "REVIEW_UI",
-     "at": "2026-11-22T17:25Z",
-     "text": "review summary: 4 findings, task numbers 2080 (dead corner hold path), 2082 (bottom light retries forever, no state), 2084 (Situation author roster-count cache), 2085 (plural rule duplicated). Reviewed 87a639dddb..2d1d2efa63 plus 085b41eb60"
-    },
-    {
      "by": "CLAUDE_PILOT",
      "at": "2026-11-22T18:40Z",
      "text": "64ff855de1 + b54ae471ed on main, C# uncompiled (Getac Editor busy with no log output 19:59-20:40). Done in code: flight mode row incl. Normal; Config panel System + views + DJI wishes (read/write/retry/clamp, no Dev Mode); Pre-flight height"
@@ -3418,13 +3377,18 @@
      "by": "GETAC",
      "at": "2026-11-22T19:13Z",
      "text": "b41a05cb35 applied the two 2077 prefab edit files (Pre-flight 13 rows, Pilot Config panel); without the rows the telemetry tabs never initialised. Edit files deleted."
+    },
+    {
+     "by": "CLOUD_PRUNE",
+     "at": "2026-11-24T05:49Z",
+     "text": "Pruned 2026-11-24: built and on main; remaining device checks are verification"
     }
    ]
   },
   {
    "n": 2078,
    "name": "GPS sources (GPS LocationServices SPEC",
-   "done": "",
+   "done": "2026-11-24T05:49Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -3438,6 +3402,11 @@
      "by": "CLAUDE_2078",
      "at": "2026-11-22T21:58Z",
      "text": "Built: ca8405d1f6, d431b07f15; review fixes a289d30377 (2097-2101: one decision and one GpsState per frame, background sharing off with Phone GPS off, dish read faults contained). Phone/Starlink GPS toggles in the MavChat GPS panel and Sett"
+    },
+    {
+     "by": "CLOUD_PRUNE",
+     "at": "2026-11-24T05:49Z",
+     "text": "Pruned 2026-11-24: built and on main; remaining device checks are verification"
     }
    ]
   },
@@ -3531,43 +3500,6 @@
      "by": "CODEX_MODEL_POSITIONING",
      "at": "2026-11-22T21:05Z",
      "text": "Published on main and verified Layers, native saved-photo reconstruction, view-dependent spacing, and identical coverage in all three GPU passes. Finish browsing verification over a continuous traverse and split large regions into independe"
-    }
-   ]
-  },
-  {
-   "n": 2113,
-   "name": "Keep live Video Source and the Synthetic drone aligned through an automatic stitching handoff",
-   "done": "2026-11-23T06:12Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [
-    "2026-11-23T06:03Z",
-    "2026-11-23T06:10Z",
-    "2026-11-23T06:12Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Replay a live source switch with video and projection active",
-     "x": true
-    },
-    {
-     "t": "Keep projection and drone together when registration relocates the live flight",
-     "x": true
-    },
-    {
-     "t": "Verify the continuous path in Unity",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-23T06:12Z",
-     "text": "On main in 0f6ca44a66. Two uninterrupted Mac Unity castle replays joined while video and provisional points kept advancing. The visible Synthetic drone and the registered Pano360 projection shared the same first render frame and position. J"
     }
    ]
   },
@@ -4552,7 +4484,7 @@
   {
    "n": 2149,
    "name": "Overnight replay after 2140",
-   "done": "",
+   "done": "2026-11-24T05:49Z",
    "goal": false,
    "under": 1693,
    "ticks": [],
@@ -4574,7 +4506,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_PRUNE",
+     "at": "2026-11-24T05:49Z",
+     "text": "Pruned 2026-11-24: experiment or baseline with no committed app outcome"
+    }
+   ]
   },
   {
    "n": 2150,
@@ -4688,8 +4626,8 @@
     },
     {
      "by": "CODEX_CASTLE_PLAYBACK",
-     "at": "2026-11-24T05:35Z",
-     "text": "Kenilworth, two ordinary passes at the same operator placement. Initial drone altitude and common projection landing preserved. Individual photo altitude corrections disabled for file playback. Accepted shutters inherit current overlap. Nat"
+     "at": "2026-11-24T06:31Z",
+     "text": "5f9f3f01d3 on main. Recorded photos share camera-local Markers across distinct original shutters. The bounded history protects connected references and has eight incoming slots to earn matches. DA3 shared shutters remain joints after public"
     }
    ]
   },
@@ -4736,7 +4674,7 @@
   {
    "n": 2156,
    "name": "Remove retired canonical point-tile publication code and record a repeatable Zurich City Flight 3D generation baseline.",
-   "done": "",
+   "done": "2026-11-24T05:49Z",
    "goal": false,
    "under": 1693,
    "ticks": [],
@@ -4750,6 +4688,11 @@
      "by": "CODEX_ZURICH_BASELINE",
      "at": "2026-11-23T21:33Z",
      "text": "Legacy cleanup 0d5ee500a0 and repeatable one-pass Zurich harness ef815f89f0 / 744a65821f shipped. b1f0f0640f compiled. The original site-verified failure control had 362/545 camera samples and 4687/12665 Disk centres below ground. Latest pr"
+    },
+    {
+     "by": "CLOUD_PRUNE",
+     "at": "2026-11-24T05:49Z",
+     "text": "Pruned 2026-11-24: experiment or baseline with no committed app outcome"
     }
    ]
   },
@@ -5171,8 +5114,8 @@
    "notes": [
     {
      "by": "CODEX",
-     "at": "2026-11-24T05:38Z",
-     "text": "c13f420021 adds the authenticated encrypted Routing Server mailbox and passes the full host suite. Remaining in 1734: mobile client sync, APNs/FCM provider hookup, test Routing Server deployment and paired physical lock-screen acceptance. T"
+     "at": "2026-11-24T06:29Z",
+     "text": "45dfba7ee5 on main completes Routing Server support for native encrypted wake fetch. Native worker integration on both phones and the live locked-phone test remain in task 1734."
     }
    ]
   },
@@ -5195,6 +5138,43 @@
      "text": "Main ecf79f8a. The reduced MavChat/Chat transcript uses the 32-point message body and 12 canvas units above and below it. The expanded row restores its authored font and height. All 35 ChatMessageLayoutTests passed in Rog Edit Mode with the"
     }
    ]
+  },
+  {
+   "n": 2174,
+   "name": "Weekly Logistics host checks fail to compile on Windows from main c13d53be. Restore the Tests~/run.py fixture dependencies for Migration",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2175,
+   "name": "MavChat Search occasionally leaves the Query open when a person is chosen before the sheet loads in SearchQuerySuggestionTests.ChoosingPersonInMavChatSearchUnfoldsTheirConversationBeforeTheSheetLoads.",
+   "done": "",
+   "goal": false,
+   "under": 367,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "ROG_FABLE_CODEX",
+     "since": "2026-11-24T06:24Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5281,34 +5261,6 @@
   {
    "screen": "Pilot View",
    "since": "2026-11-21T12:33Z"
-  },
-  {
-   "screen": "Altitude Visualization",
-   "since": "2026-11-16T17:46Z"
-  },
-  {
-   "screen": "Right Lists",
-   "since": "2026-11-16T17:46Z"
-  },
-  {
-   "screen": "Photo",
-   "since": "2026-11-16T17:46Z"
-  },
-  {
-   "screen": "3D Street View",
-   "since": "2026-11-16T23:07Z"
-  },
-  {
-   "screen": "Altitude visualization",
-   "since": "2026-11-17T05:26Z"
-  },
-  {
-   "screen": "Compass",
-   "since": "2026-11-17T05:45Z"
-  },
-  {
-   "screen": "Left lists",
-   "since": "2026-11-17T05:36Z"
   },
   {
    "screen": "AI Sandbox",
@@ -5477,8 +5429,12 @@
   {
    "screen": "Settings/GPS",
    "since": "2026-11-22T20:04Z"
+  },
+  {
+   "screen": "Mav Chat Sheet",
+   "since": "2026-11-24T05:49Z"
   }
  ],
- "source_revision": "8a290eb3453bb4b1a918d530642cd5026ed99e79",
- "board_revision": "cbe54cd33a6a02cc3eb3d926e3080be00a794fa4"
+ "source_revision": "5f9f3f01d33bc2f9c5bce368f9c1f77c7ab9a4ba",
+ "board_revision": "03ea6b434b93fd4398c41049d5f59df2368ecf45"
 }
