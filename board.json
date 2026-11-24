@@ -2931,22 +2931,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE_CODEX",
-     "since": "2026-11-24T08:31Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T07:51Z",
-     "text": "513f252f on main. Bootstrap uses the Suggestions presentation contract for updates and selected-point keyboard handling. Unity compiled. Edit Mode verified Name and MGRS typing gates, Escape without an editor, and removal releasing input. M"
+     "at": "2026-11-24T09:43Z",
+     "text": "Paused for the new Retransmission countdown request. Remote Sensors list view binding and list ordering move saved locally in stash a56acb21; no tests or push for that slice. Last delivered f9650e57."
     }
    ]
   },
@@ -3484,43 +3475,6 @@
    ]
   },
   {
-   "n": 2114,
-   "name": "Keep new 3D Map points in ground contact across the live castle flight join",
-   "done": "2026-11-23T08:45Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-23T08:06Z",
-    "2026-11-23T08:12Z",
-    "2026-11-23T08:44Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Measure the reported ground gap in the live draft",
-     "x": true
-    },
-    {
-     "t": "Correct ground continuity through the join",
-     "x": true
-    },
-    {
-     "t": "Replay the castle flights in Unity",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-23T08:45Z",
-     "text": "On main in bd97dc1010. Mac Unity joined the independent castle flights live after 116.2 s. Terrain-referenced photo and recovery placement reduced the sampled recovered lower-surface gap from around 11 m to at most 1.9 m. Some unmeasured pr"
-    }
-   ]
-  },
-  {
    "n": 2115,
    "name": "Brigade 68 Android and Windows release builds",
    "done": "2026-11-23T11:23Z",
@@ -3537,38 +3491,6 @@
      "by": "CODEX",
      "at": "2026-11-23T11:23Z",
      "text": "Brigade 68 release 877 delivered on both platforms. Android ARM64 from 823b166f53 is signed and Windows x64 from edb69549b1 is packaged and verified. Drive release and Test listings, matching mounted hashes, sealed GitHub Test catalog and b"
-    }
-   ]
-  },
-  {
-   "n": 2116,
-   "name": "Use each squircle normal for Street View shading and keep nearby evidence authoritative in Disk fusion",
-   "done": "2026-11-23T08:46Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-23T08:20Z",
-    "2026-11-23T08:45Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Trace the edge artifacts and how closer photos compete",
-     "x": true
-    },
-    {
-     "t": "Implement and verify the squircle and evidence changes",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-23T08:46Z",
-     "text": "On main in bd97dc1010. Pano360 uses stored normals and derivative-free frame samples for squircles. Colour, depth and normals trim the same supported fringe without stippling. Fine pixel footprints dominate normals and resist coarse free-sp"
     }
    ]
   },
@@ -3591,103 +3513,6 @@
      "by": "ROG_FABLE",
      "at": "2026-11-23T10:08Z",
      "text": "c355225f3f: Pair form is safe (Remote Control Panel sits under Top Panels, a sibling of the strip). Found and fixed: with the panel open and the strip not placed, the strip's children returned to their root inside the open panel and drew th"
-    }
-   ]
-  },
-  {
-   "n": 2119,
-   "name": "Bottom-right device battery while plugged in",
-   "done": "2026-11-23T08:45Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-23T08:45Z",
-     "text": "45e0965aee: on power the battery bar stays green with the percentage; plug and green bolt in one centred Charging row under it. Seen in Rog Editor Play (plugged in, 100%). Main View SPEC updated, Map page bumped."
-    }
-   ]
-  },
-  {
-   "n": 2120,
-   "name": "Suggestions",
-   "done": "2026-11-23T08:55Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-23T08:55Z",
-     "text": "168a3444af: SuggestionManager gives SelectedEmpty (empty field + Paste) only to a positionless Remote Sensor or Street View; peers and other tracked objects without a position show no field. Compiles in Rog Editor; SPEC and Map page updated"
-    }
-   ]
-  },
-  {
-   "n": 2121,
-   "name": "Notifications fold-out / fold-in arrow made small",
-   "done": "2026-11-23T09:07Z",
-   "goal": false,
-   "under": 410,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-23T09:07Z",
-     "text": "0b8d2881c8: 20-unit thin chevron (CreateArrowSprite) as Arrow child of Fold icon; old 128x64 image not drawn (MavChat square still reads its sprite). Seen in Rog Editor Play open (^) and folded (v); NavigatorPathTests 12/12."
-    }
-   ]
-  },
-  {
-   "n": 2122,
-   "name": "Accumulate live video colour on ground wherever depth leaves it visible",
-   "done": "2026-11-23T09:35Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-23T09:27Z",
-    "2026-11-23T09:28Z",
-    "2026-11-23T09:35Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Measure the live ground coverage and trace the depth test",
-     "x": true
-    },
-    {
-     "t": "Paint visible ground while preserving foreground occlusion",
-     "x": true
-    },
-    {
-     "t": "Verify ground accumulation in Unity",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-23T09:35Z",
-     "text": "On main in edb69549b1. Same live Kenilworth terrain and six registered photos painted 370,482 of 589,824 texels compared with 222,888 before. Mac Unity GPU controls passed for clear rays, foreground blockers, missing depth and depth agreeme"
     }
    ]
   },
@@ -4571,7 +4396,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_CASTLE_PHOTO_AGREEMENT",
+     "since": "2026-11-24T09:52Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -5235,6 +5069,49 @@
      "text": "Published 33521afd. Unity Edit Mode passed TelemetryControlLifetimeTests (4) and VideoRestreamProtocolTests (81). Quiz: \u201cWhen video stream is paused there are no indications in many places. The notification tongue could have a pause icon. T"
     }
    ]
+  },
+  {
+   "n": 2181,
+   "name": "Place the shared landscape option strip on the left",
+   "done": "2026-11-24T09:25Z",
+   "goal": false,
+   "under": 407,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T09:25Z",
+     "text": "14853901 on main. Landscape option strip starts at the left quarter and shifts inward for wide option sets, using the current width on first open. Main/Map visual check bumped. Unity Edit Mode TopRightExitDragTests 18/18. Quiz: \u201cSorry. I me"
+    }
+   ]
+  },
+  {
+   "n": 2182,
+   "name": "Add a Retransmission start countdown that sends a blue slate until live video begins",
+   "done": "",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "ROG_FABLE_CODEX",
+     "since": "2026-11-24T09:43Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5495,6 +5372,6 @@
    "since": "2026-11-24T05:49Z"
   }
  ],
- "source_revision": "f32adff2619b00f947128590bbdc623513588a6a",
- "board_revision": "fb90c88b3429a9bb5a8820c751c9aafbfe768218"
+ "source_revision": "286774a7e9ab0081eef8f7805ccbbf87f1d06933",
+ "board_revision": "f99438049591a4b442afdf5fa205b642a8346d40"
 }
