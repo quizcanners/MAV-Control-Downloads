@@ -1438,8 +1438,8 @@
     },
     {
      "by": "CODEX",
-     "at": "2026-11-24T02:34Z",
-     "text": "Lenovo Dev 878 with zero queued peer tiles: 663/1,230 app CPU samples (53.9%) were in legacy inventory, split 353 initial and 310 post-maintenance. Two included garbage retirement. SQLite 3.49.1 host fixture: attaching a WAL segment via a r"
+     "at": "2026-11-24T03:04Z",
+     "text": "Lenovo Dev 878 with zero peer queue: legacy inventory accounted for 663/1,230 app CPU samples (53.9%), split 353 initial and 310 post-maintenance. Host SQLite attached an idle WAL segment on a read-only main connection and created a 0-byte "
     }
    ]
   },
@@ -2544,6 +2544,11 @@
      "by": "GETAC",
      "at": "2026-11-20T07:49Z",
      "text": "ff9b3cee21 on main: scoped view wakes pass 287 Unity tests. Matched Dev 869 tile revisions had 380 repeats before and 78 after, with unchanged median bodyless completion. Cold frame peaks rose. Strong frame 32 attributes the WM peak to Map "
+    },
+    {
+     "by": "CODEX",
+     "at": "2026-11-24T03:23Z",
+     "text": "Lenovo Dev 878 with no queued peer receives and local Raster active: resident index pages fell 2,389 to 1,123 and rose to 2,105 over 285 s. A triggered 60 s ViewOffer capture held 128 distinct page identities for one peer, interest and offe"
     }
    ]
   },
@@ -3028,22 +3033,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE_CODEX",
-     "since": "2026-11-24T02:51Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T02:49Z",
-     "text": "Main a698f427 moves Compass tap state and camera decisions into Station UI. The tap method body matches the old implementation, including the existing Dev mode path. Station UI composition owns the only Singleton_MavUI lookups for Compass s"
+     "at": "2026-11-24T04:04Z",
+     "text": "Main 6be39f3d moves Fullscreen Video open/close queue into Station and passes its view contract into camera rendering. Former prefab static request call sites now use the System. Independent C# compiled Prublyda and WarStation.EditModeTests"
     }
    ]
   },
@@ -4882,6 +4878,11 @@
      "by": "CODEX_RAW_MAP_BASELINE",
      "at": "2026-11-23T22:40Z",
      "text": "Published e0fdecea07 and a3f8dc73b6. Six one-pass runs on three videos; synchronized comparisons and reusable fixture in Performance Baseline/GPU.md and local Raw-Map-Baseline-2159/final/observations.md. Throughput 67,023 / 58,007 / 25,502 "
+    },
+    {
+     "by": "CODEX_CASTLE_PLAYBACK",
+     "at": "2026-11-24T04:25Z",
+     "text": "ed99d246e7 adds an automatic photo agreement recorder, independent bidirectional held-out scoring and a Castle regression policy. Two real file loops with video hidden fail. With a rolling preview tail, the 92 distinct source exposures have"
     }
    ]
   },
@@ -5019,10 +5020,67 @@
    "notes": [
     {
      "by": "CODEX",
-     "at": "2026-11-24T02:51Z",
-     "text": "Lenovo Dev 878: 13,618 SQLite files (3.4 s map disk scan), up from 13,507 on the same APK. 90b11f91fb records WAL count and journal-reset calls/time. e641b6818f excludes linked payload folders from the startup sweep after a Windows fixture "
+     "at": "2026-11-24T04:21Z",
+     "text": "Dev 880 attempt 5cb7e8f275 was interrupted by the planned Windows upgrade and has no new Build Report or APK. Build history records it. Local rewrites and Unity scene backup were retained by hash. The Lenovo stayed on Dev 878 and the write "
     }
    ]
+  },
+  {
+   "n": 2167,
+   "name": "Getac build PC",
+   "done": "",
+   "goal": false,
+   "under": 429,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2168,
+   "name": "Refresh the normal Rog Editor in Edit Mode and verify Fullscreen Video routing from main 6be39f3d or a descendant. The previous Play session held a stale compile list for the moved request file and re",
+   "done": "",
+   "goal": false,
+   "under": 1951,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T04:20Z",
+     "text": "Rog native import and fixtures ran at 6be39f3d plus local Workflow_MapEditing.cs DA162209 and Copilot SPEC edits. Video Drawing 34/34, Top Right Exit 17/17, covered camera 1/1, Video Server Grid 8/9. The sole restream slider assertion was i"
+    }
+   ]
+  },
+  {
+   "n": 2169,
+   "name": "Video Server Grid restream slider",
+   "done": "",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "ROG_FABLE_CODEX",
+     "since": "2026-11-24T04:25Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5307,6 +5365,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "5a0a6d0a26929064a574009bcb44d2cfe30b307f",
- "board_revision": "e229e8f57699e392d0aba1119abddde2d105202b"
+ "source_revision": "ed99d246e742d64fd97327e1ef150fdb84a4ac8a",
+ "board_revision": "c4d08fcadb3ee5a7ae5212d7c28d20e197945d50"
 }
