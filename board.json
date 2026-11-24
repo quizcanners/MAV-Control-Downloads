@@ -2533,8 +2533,8 @@
     },
     {
      "by": "CODEX",
-     "at": "2026-11-24T10:31Z",
-     "text": "Real Lenovo VPN Chat check on installed Brig68 Android Dev 880, source 2e705dd127, exact APK SHA ab04f7ebeaab. APK and Persistent Data hashes verified. One Editor text at 12:27:28 stayed Sent while Lenovo was on the uncovered keyguard, with"
+     "at": "2026-11-24T11:11Z",
+     "text": "Direct VPN Chat fixed in b3995441fc. Installed Lenovo Android 11 build 880 received one normal message sent from the updated Unity Editor while screen-off and locked. The native inbox recorded it and the Android notification posted about 15"
     }
    ]
   },
@@ -3443,43 +3443,6 @@
    ]
   },
   {
-   "n": 2127,
-   "name": "Show the ground paint by remapping stored pixel quality to display opacity",
-   "done": "2026-11-23T11:14Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-23T11:04Z",
-    "2026-11-23T11:05Z",
-    "2026-11-23T11:14Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Measure pixel quality in the live ground atlas",
-     "x": true
-    },
-    {
-     "t": "Lift valid low-quality paint in the ground display shader",
-     "x": true
-    },
-    {
-     "t": "Verify the remap and keep the live draft visible in Unity",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-23T11:14Z",
-     "text": "main 4ec2a202b4 and 604a512c81. The live 4096\u00b2 atlas median quality was 6/255. Metal confirmed the display opacity rises from about 9% to 61% while empty and reserved texels stay transparent. Imported the published shader into the active Ed"
-    }
-   ]
-  },
-  {
    "n": 2128,
    "name": "Keep Synthetic drone First Person View aligned with the registered Point Cloud",
    "done": "",
@@ -4175,23 +4138,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_CASTLE_PHOTO_PREDICTION",
-     "since": "2026-11-24T11:02Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "CODEX_PHOTO_GIZMOS",
-     "at": "2026-11-24T02:54Z",
-     "text": "5a0a6d0a26 on main scopes Photo Tension Shapes to current processing. Registered and provisional comparisons publish raw endpoints at each photo's displayed pose. Finishing a comparison clears its lines on the next idle frame. The Mac Edito"
-    },
     {
      "by": "CODEX_CASTLE_PLAYBACK",
      "at": "2026-11-24T08:32Z",
@@ -4201,6 +4150,11 @@
      "by": "CODEX_CASTLE_PHOTO_AGREEMENT",
      "at": "2026-11-24T10:40Z",
      "text": "Main 7f6281bd4a and d48fcc554a. Fresh Castle first pass with 52 registered photos, optical flow off. Held-out photo pairs median/P90 2.29/6.00 px and nonadjacent groups 2.96/7.16 at 504px width. The submitted Disks included all 198 sampled "
+    },
+    {
+     "by": "CODEX_CASTLE_PHOTO_PREDICTION",
+     "at": "2026-11-24T11:14Z",
+     "text": "3392be36be on main. File Pilot reads the last two causal corrected photo poses on the decoder clock. Either photo can revise velocity, including on pause. A decoded match follows its source photos until it owns depth. 32/32 focused UnityPla"
     }
    ]
   },
@@ -4689,14 +4643,14 @@
    ],
    "notes": [
     {
-     "by": "CODEX",
-     "at": "2026-11-24T08:32Z",
-     "text": "Research and implementation are on main through 5b28fdba03. Lenovo Android 11 displayed the lock-screen alert, retained the exact HTTPS payload and passed the native shade tap with an injected callback. Live paired verification is blocked o"
-    },
-    {
      "by": "CLOUD_PRUNE",
      "at": "2026-11-24T10:15Z",
      "text": "quiz 2026-11-24: order after 3D map: 2172 first, 378 before performance work (429). \"Yep\" / \"Have it come first\""
+    },
+    {
+     "by": "CODEX",
+     "at": "2026-11-24T11:12Z",
+     "text": "Lenovo Android 11 direct VPN acceptance verified on build 880 with updated Editor b3995441fc. While locked and screen off it recorded the text, acknowledged it and posted a notification in about 15 s. Tapping the notification opened the rig"
     }
    ]
   },
@@ -5109,25 +5063,22 @@
   {
    "n": 2196,
    "name": "Restore Unity Editor compilation after the Diagnostics PlayerLoop refactor. On main 2d68f047cd",
-   "done": "",
+   "done": "2026-11-24T11:04Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE_CODEX",
-     "since": "2026-11-24T10:39Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T11:04Z",
+     "text": "Main compiles in Rog Unity after the latest PlayerLoop move and repairs through 5242b955. Fixed the stale Restream and timing aliases, Linked Browser worker references, engine PlayerLoop ambiguity and runtime fixture type lookups. Edit Mode"
+    }
+   ]
   },
   {
    "n": 2197,
@@ -5211,10 +5162,36 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T11:05Z",
+     "text": "The exact test passed on the next Rog D3D11 run (20261124-110348-2550581-SituationEffectsTests.xml). No shader or pixel comparator change between those two runs. Initial mismatch remains intermittent."
+    }
+   ]
   },
   {
    "n": 2203,
+   "name": "Remote Sensors",
+   "done": "2026-11-24T11:05Z",
+   "goal": false,
+   "under": 407,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T11:05Z",
+     "text": "quiz: The Router icon needs to be to the side from the Toggle. No need for them to overlap. Also write the word. So: [Toggle] [Icon] Retransmitter. Main 3aef1924. The prefab has three siblings with measured spacing and a localized label. Al"
+    }
+   ]
+  },
+  {
+   "n": 2204,
    "name": "Remote Sensors",
    "done": "",
    "goal": false,
@@ -5226,21 +5203,15 @@
    "held": [
     {
      "who": "ROG_FABLE_CODEX",
-     "since": "2026-11-24T10:58Z",
-     "noted": "2026-11-24T11:02Z",
-     "progress": 25,
+     "since": "2026-11-24T11:06Z",
+     "noted": "",
+     "progress": 0,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T11:02Z",
-     "text": "quiz: Fix up the icons a bit. The Router icon needs to be to the side from the Toggle. No need for them to overlap. Also write the word. So: [Toggle] [Icon] Retransmitter"
-    }
-   ]
+   "notes": []
   }
  ],
  "verify": [
@@ -5501,6 +5472,6 @@
    "since": "2026-11-24T05:49Z"
   }
  ],
- "source_revision": "5242b9557c629e7c43ea8388f433e89cd286bca1",
- "board_revision": "0b98277d5783b43acd9c901b0f120d52958c665c"
+ "source_revision": "3392be36be3b2f29516c236e8b6f0e49d495010c",
+ "board_revision": "567d73a696804cac6799f1c653c5eec8bccad078"
 }
