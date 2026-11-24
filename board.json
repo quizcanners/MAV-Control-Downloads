@@ -3516,26 +3516,6 @@
    ]
   },
   {
-   "n": 2144,
-   "name": "MainCameraTouchFollowTests",
-   "done": "2026-11-23T15:27Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-23T15:27Z",
-     "text": "4f887bab67: the cases pinned the old three-second flight; 7adc388c3b capped focus at one second. Both now check longer than nearby and within MAX_FOCUS_TRAVEL_SECONDS. MainCameraTouchFollowTests 60/60."
-    }
-   ]
-  },
-  {
    "n": 2145,
    "name": "Lenovo tablet",
    "done": "",
@@ -3605,16 +3585,7 @@
    "priority": "high",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_COMPARISON",
-     "since": "2026-11-24T14:57Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 6
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Replay arm of the first version (24 motion-spaced photos, groups of 12 with 5 shared, 30 % allowance, add-only Disks) on the city clip as the control",
@@ -3649,8 +3620,8 @@
     },
     {
      "by": "CODEX_VIDEO_COMPARISON",
-     "at": "2026-11-24T14:42Z",
-     "text": "Main 34003deebc. Fixed baseline reproduced; optional unity adaptive selects recorded-file 4+4 batches from placed photos. Heritage accepted 1/5 exchanged groups; Zurich 3/27. All 28 rejected groups recovered the same four photos on chronolo"
+     "at": "2026-11-24T15:35Z",
+     "text": "Main b60a1419a6. Tried agreement x divergence independently on incoming and reference photos. Zurich 2s P90 fixed/back/front/both 1.96/2.22/4.45/7.19px; Heritage 0.90/1.28/1.61/1.46px. Zurich back-only recovered all 45 refusals but used 93 "
     }
    ]
   },
@@ -5310,6 +5281,6 @@
    "since": "2026-11-24T11:14Z"
   }
  ],
- "source_revision": "3721755c25dcd09d468d576266f52f6e8047beb8",
- "board_revision": "038e407e5012b85c9e4a7b38d308f20438eae346"
+ "source_revision": "b60a1419a69a2df5bf612e3d0805c95864a48c4c",
+ "board_revision": "82489e17af77196cdb70e6676b69ae87ad2f2dd6"
 }
