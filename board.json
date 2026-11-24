@@ -2627,16 +2627,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX",
-     "since": "2026-11-24T07:12Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -2646,8 +2637,8 @@
     },
     {
      "by": "CODEX",
-     "at": "2026-11-24T07:11Z",
-     "text": "c8b6dfad8d on main stores the authenticated push reference with its Chat text and clears only that alert on read. iPhone skips a local fallback when the exact push is visible. Windows Routing Server suite passed (32 push and 24 mailbox chec"
+     "at": "2026-11-24T07:19Z",
+     "text": "7db328aa52 on main opens previously retained wake texts without a live Routing Server session and queues delivery receipts after the exact Chat checkpoint. Offline open, multiple texts, restart/reconnect, and missing-history host cases pass"
     }
    ]
   },
@@ -2940,22 +2931,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE_CODEX",
-     "since": "2026-11-24T07:14Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T07:13Z",
-     "text": "9171c90b on main. Map Editing no longer names the toolbar singleton. Its view binds the existing report without requiring the Workflow Spawner. Unity compiled. Edit Mode probes matched the authored toolbar and Inspector reports, returned no"
+     "at": "2026-11-24T07:19Z",
+     "text": "43e77fea on main. Bootstrap now uses the telemetry presentation contract for staged updates, route-edit CanvasGroup and diagnostics. Unity compiled. Edit Mode verified missing, replaced and destroyed views and the authored route group. Live"
     }
    ]
   },
@@ -4819,8 +4801,8 @@
     },
     {
      "by": "CODEX_CASTLE_PLAYBACK",
-     "at": "2026-11-24T07:00Z",
-     "text": "Castle first pass and wrap with archived native joints: 96 original exposures, nonadjacent 4.36 px median, distinct revisit 31.63 px. Repeat Pilot at 22 s missed by 14.9 px against 36 held-out points (prior 277 px). Actual video-hidden scre"
+     "at": "2026-11-24T07:20Z",
+     "text": "7c9fcaa0ef is on main. Archived original photos keep placement and Marker links across a Castle loop. Two 30-second passes in the normal Editor, 88 checks passed. Independent held-out Pilot camera errors at second-pass 6/14/22 s were 0.8/2."
     }
    ]
   },
@@ -5123,8 +5105,8 @@
    "notes": [
     {
      "by": "CODEX",
-     "at": "2026-11-24T07:11Z",
-     "text": "Push alert read cleanup is on main at c8b6dfad8d. The connected Android tablet remains on build 878. Provisioned test builds, Mac runner repair or another Xcode host, and both locked phones remain outstanding in 1734."
+     "at": "2026-11-24T07:20Z",
+     "text": "7db328aa52 on main adds offline use of retained wake texts with deferred delivery receipts. Native Apple SDK and paired locked-phone verification still require the provisioned test setup in 1734."
     }
    ]
   },
@@ -5467,6 +5449,6 @@
    "since": "2026-11-24T05:49Z"
   }
  ],
- "source_revision": "9171c90b7da50a4443b6eca05eb9ee853dd4a7ab",
- "board_revision": "1eef53715ce927b66805128bf765507fc0edfd26"
+ "source_revision": "7db328aa5290036ad70945e52a3532bd6d6c2de9",
+ "board_revision": "a3f9a89904d96b432fd3d323966a4ef9971bf582"
 }
