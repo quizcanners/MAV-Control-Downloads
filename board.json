@@ -2727,7 +2727,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX",
+     "since": "2026-11-24T05:28Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -3036,7 +3045,7 @@
    "held": [
     {
      "who": "ROG_FABLE_CODEX",
-     "since": "2026-11-24T05:09Z",
+     "since": "2026-11-24T05:35Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
@@ -3047,8 +3056,8 @@
    "notes": [
     {
      "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T04:58Z",
-     "text": "Main d02402d2 moves Action History view scripts and their original Unity GUIDs into Left Lists UI. The existing post-camera Action History stage dispatches through Left Lists composition. Rog passed 37 Edit Mode tests: 19 Action History, 16"
+     "at": "2026-11-24T05:24Z",
+     "text": "Main 093af7ba removes all concrete Pilot View references from non-UI production files. Rendering, capture optics, frame delivery and diagnostics use the Station view contract, and shared FOV fitting belongs to Main Camera. Rog passed 67 Edi"
     }
    ]
   },
@@ -4711,8 +4720,8 @@
     },
     {
      "by": "CODEX_CASTLE_PLAYBACK",
-     "at": "2026-11-24T05:10Z",
-     "text": "Castle source-priority diagnosis in the ordinary Editor. At 37 exact shutters known at draw, measured Pilot agrees with its owning photo to numerical precision. On loop two sixteen other exact repeated photos were present only in the workin"
+     "at": "2026-11-24T05:35Z",
+     "text": "Kenilworth, two ordinary passes at the same operator placement. Initial drone altitude and common projection landing preserved. Individual photo altitude corrections disabled for file playback. Accepted shutters inherit current overlap. Nat"
     }
    ]
   },
@@ -5118,16 +5127,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX",
-     "since": "2026-11-24T05:12Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -5139,12 +5139,17 @@
      "by": "quiz",
      "at": "2026-11-24T05:06Z",
      "text": "iPhone -> Android also didn't arrive, so messaging fails whenever an app is in background, sender side included."
+    },
+    {
+     "by": "CODEX",
+     "at": "2026-11-24T05:27Z",
+     "text": "On main: 9021f5f288 starts Android Chat on the first service cycle after Unity unbinds. f2b018dafb restores unconfirmed VPN texts from saved history and retries with the same message ID and wire ordinal on VPN or an available Background Cha"
     }
    ]
   },
   {
    "n": 2172,
-   "name": "Background messaging and notifications: MavChat delivers private texts on Android and iPhone while MAV Control is backgrounded or the screen is locked, shows a native notification, and opens the right",
+   "name": "Background messaging and notifications. MavChat delivers private texts on Android and iPhone while MAV Control is backgrounded or the screen is locked, shows a native notification, and opens the right",
    "done": "",
    "goal": true,
    "under": 0,
@@ -5155,23 +5160,49 @@
    "held": [],
    "steps": [
     {
-     "t": "Publish smartphone messaging research and the Chat SPEC delivery contract",
+     "t": "Smartphone messaging research and the Chat SPEC delivery contract are on main in 9021f5f288.",
+     "x": true
+    },
+    {
+     "t": "Keep unconfirmed texts through pause and restart, and resend on peer return.",
      "x": false
     },
     {
-     "t": "Keep unconfirmed texts through pause and restart, and resend on peer return",
+     "t": "Wire the encrypted server mailbox and APNs/FCM registration and notifications.",
      "x": false
     },
     {
-     "t": "Wire encrypted server mailbox and APNs/FCM registration and notifications",
-     "x": false
-    },
-    {
-     "t": "Verify Android and iPhone paired delivery and notifications with GPS sharing off",
+     "t": "Verify lock-screen receipt, notification, tap and history on Android and iPhone with GPS sharing off, including the Android handoff fix in 9021f5f288.",
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX",
+     "at": "2026-11-24T05:27Z",
+     "text": "Research and the first implementation are on main in 9021f5f288 and f2b018dafb. 2171 holds source and host evidence. 1734 remains open for authenticated APNs/FCM provider enrollment, the encrypted Routing Server mailbox and paired lock-scre"
+    }
+   ]
+  },
+  {
+   "n": 2173,
+   "name": "MavChat / Chat half-height transcript fits more message text. Use smaller text and tighter vertical spacing in the reduced sheet",
+   "done": "2026-11-24T05:32Z",
+   "goal": false,
+   "under": 367,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T05:32Z",
+     "text": "Main ecf79f8a. The reduced MavChat/Chat transcript uses the 32-point message body and 12 canvas units above and below it. The expanded row restores its authored font and height. All 35 ChatMessageLayoutTests passed in Rog Edit Mode with the"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5456,6 +5487,6 @@
    "since": "2026-11-22T20:04Z"
   }
  ],
- "source_revision": "8773f1139eb776ea7f67bfde31d165448a67bf28",
- "board_revision": "f6104660e545b9e8ae6e3430590e90fe5ed60c03"
+ "source_revision": "ecf79f8ad4b2dfcf71b746b69f96c05dbb88ea8e",
+ "board_revision": "c0ed22857b45399b4adadb5791b84ee6f6e93efa"
 }
