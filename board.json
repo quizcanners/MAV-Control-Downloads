@@ -2630,7 +2630,7 @@
    "held": [
     {
      "who": "CODEX",
-     "since": "2026-11-24T06:31Z",
+     "since": "2026-11-24T06:59Z",
      "noted": "",
      "progress": 0,
      "ticked": 0,
@@ -2646,8 +2646,8 @@
     },
     {
      "by": "CODEX",
-     "at": "2026-11-24T06:28Z",
-     "text": "Wake fetch is on main at 45dfba7ee5 (02c15ae076 plus the URL parser compile fix). Windows Routing Server suite and final 30 push plus 24 mailbox checks passed. Remaining: Android WorkManager and iPhone notification extension, handset import"
+     "at": "2026-11-24T06:58Z",
+     "text": "iPhone APNs wake fetch, protected App Group inbox and signed export wiring are on main (a895d52d13, native check cb656842a8). 10 Xcode-project and 9 signing/package host checks passed. Mac runner 45344187943 failed before steps in both atte"
     }
    ]
   },
@@ -2945,8 +2945,8 @@
    "notes": [
     {
      "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T06:23Z",
-     "text": "Main 58ed7658 moves the Search bar controller into UI with identical code and Unity GUID, and routes Needs readiness, attachment interest and window diagnostics through the Station view contract. Rog passed all 4 Store Navigation and 28 wee"
+     "at": "2026-11-24T06:57Z",
+     "text": "33be5042 on main. Chat occlusion, composer, Peers and QR diagnostics use the Bootstrap view contract; the AI Sandbox Chat handler has no concrete Chat window or Workflow Spawner references. Unity compiled and Play returned all four expected"
     }
    ]
   },
@@ -4810,8 +4810,8 @@
     },
     {
      "by": "CODEX_CASTLE_PLAYBACK",
-     "at": "2026-11-24T06:32Z",
-     "text": "Castle baseline OPEN. Same 238 independent pixels: end-of-first-pass residual 174.21 -> 55.83 px; same 62 at the 6s revisit 250.43 -> 41.82 px. First publication 5.84 -> 7.41 px. All six hidden Pilot stills still lack a source feature withi"
+     "at": "2026-11-24T07:00Z",
+     "text": "Castle first pass and wrap with archived native joints: 96 original exposures, nonadjacent 4.36 px median, distinct revisit 31.63 px. Repeat Pilot at 22 s missed by 14.9 px against 36 held-out points (prior 277 px). Actual video-hidden scre"
     }
    ]
   },
@@ -5114,8 +5114,8 @@
    "notes": [
     {
      "by": "CODEX",
-     "at": "2026-11-24T06:29Z",
-     "text": "45dfba7ee5 on main completes Routing Server support for native encrypted wake fetch. Native worker integration on both phones and the live locked-phone test remain in task 1734."
+     "at": "2026-11-24T06:58Z",
+     "text": "Source paths for Android and iPhone encrypted wake fetch are on main at cb656842a8. Mac SDK job 45344187943 is blocked at runner startup by disk I/O. Signed builds, provider setup and locked-phone delivery evidence remain in 1734."
     }
    ]
   },
@@ -5142,7 +5142,7 @@
   {
    "n": 2174,
    "name": "Weekly Logistics host checks fail to compile on Windows from main c13d53be. Restore the Tests~/run.py fixture dependencies for Migration",
-   "done": "",
+   "done": "2026-11-24T06:50Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -5151,11 +5151,37 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T06:50Z",
+     "text": "68287790 on main. The Windows standalone host builds and passes all 71 checks, including all 15 persistence and transfer owner checks. The two Ground Station supply-sheet tests keep their existing Unity fixture and assertions."
+    }
+   ]
   },
   {
    "n": 2175,
    "name": "MavChat Search occasionally leaves the Query open when a person is chosen before the sheet loads in SearchQuerySuggestionTests.ChoosingPersonInMavChatSearchUnfoldsTheirConversationBeforeTheSheetLoads.",
+   "done": "2026-11-24T06:36Z",
+   "goal": false,
+   "under": 367,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T06:36Z",
+     "text": "Main c2ee0d4c. The test had attempted to select a default row when Search had not published its measured peer match. The fixture now exhausts the first frame deliberately, checks no row was published, advances through Search's retained work"
+    }
+   ]
+  },
+  {
+   "n": 2176,
+   "name": "MavChat Chat",
    "done": "",
    "goal": false,
    "under": 367,
@@ -5163,18 +5189,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE_CODEX",
-     "since": "2026-11-24T06:24Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-24T06:45Z",
+     "text": "c6855e23 on main. Reduced-sheet Chat transcript uses 70% of the full message font and 8 canvas units of padding above and below. Unity refreshed and compiled. Remaining: run ChatMessageLayoutTests in disposable Data (the ordinary Editor ref"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5435,6 +5458,6 @@
    "since": "2026-11-24T05:49Z"
   }
  ],
- "source_revision": "5f9f3f01d33bc2f9c5bce368f9c1f77c7ab9a4ba",
- "board_revision": "feb83f2a0da0435eaa97b73b3956cabeb5af1328"
+ "source_revision": "cb656842a81582ec7c4cacdfc964f364861ed4c8",
+ "board_revision": "6bfb0cf79794fa996db0e29ebd5f464e78fe67ec"
 }
