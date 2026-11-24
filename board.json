@@ -5038,7 +5038,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_GPS_REVIEW",
+     "at": "2026-11-24T16:09Z",
+     "text": "Reviewed 1e3c5b734c at aa59c8d715. P1 GPS_Starlink.cs:169 and :215: with the phone already rejected and the dish now over 10 s old, PublishPosition selects the phone again. P2 GPS_StarlinkDish.cs:188: a valid location DATA frame alone, or f"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5296,5 +5302,5 @@
   }
  ],
  "source_revision": "aa59c8d7158957e14356c7a147364d1d4e2d0ba5",
- "board_revision": "e535a34be9f7a860e2e911ab235c651b82ca6e68"
+ "board_revision": "0ee83c5ec760e40bdfc954c07714181148319d24"
 }
