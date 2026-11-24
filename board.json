@@ -4969,8 +4969,8 @@
    "notes": [
     {
      "by": "CODEX_GPS_REVIEW",
-     "at": "2026-11-24T16:09Z",
-     "text": "Reviewed 1e3c5b734c at aa59c8d715. P1 GPS_Starlink.cs:169 and :215: with the phone already rejected and the dish now over 10 s old, PublishPosition selects the phone again. P2 GPS_StarlinkDish.cs:188: a valid location DATA frame alone, or f"
+     "at": "2026-11-24T21:44Z",
+     "text": "Quiz: \"Rejected is better then no fix. We need to show something to know fix is wrong.\" Keep the fix and mark the primary map point red. Quiz accepts the dish-mode switch in Settings only (\"That is fine\"). For 9201, suggested change: admit "
     }
    ]
   },
@@ -5018,6 +5018,43 @@
      "text": "Paused at quiz's requested break. Same 35 Zurich shutters: coupled solver, 4ms/update at 60Hz, visible agreement at 20s vs old 180s; numerical idle 36.6s. Fresh 98.8s EOF: 972\u2013575 still shifted 18.19px from 30\u219245s (69/71 matches for 972 go "
     }
    ]
+  },
+  {
+   "n": 2214,
+   "name": "Area Weather Profile in Menu > Tools needs its first normal Editor Play Mode check after b282c7df. Weather SPEC",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2215,
+   "name": "Subdivide live preview Disks around the registered video camera and rebuild around the Game camera while paused",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_CASTLE_DISK_VIEW",
+     "since": "2026-11-24T21:49Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5104,10 +5141,6 @@
   {
    "screen": "Pilot View",
    "since": "2026-11-21T12:33Z"
-  },
-  {
-   "screen": "Screen Saver",
-   "since": "2026-11-17T19:21Z"
   },
   {
    "screen": "Actions",
@@ -5272,8 +5305,12 @@
   {
    "screen": "3D Street View",
    "since": "2026-11-24T11:14Z"
+  },
+  {
+   "screen": "Main/Tools",
+   "since": "2026-11-24T21:22Z"
   }
  ],
- "source_revision": "e94c1f1ce9d77a50ccbeeeca34f070b2f1c4de03",
- "board_revision": "45c7542de6a09cd9f96b6f720e60d867185ff7fd"
+ "source_revision": "267e614a253bcb71cd4759123ea7e7625778cbc6",
+ "board_revision": "683b21331baf61af53331716950a3913679c8066"
 }
