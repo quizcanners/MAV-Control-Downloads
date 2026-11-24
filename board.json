@@ -455,7 +455,7 @@
   },
   {
    "n": 371,
-   "name": "VPN tunnel: Windows runs WireGuard inside the app as Android does, a new device joins by QR, and peers inside the tunnel send plain split payloads counted in vpn.udp",
+   "name": "VPN tunnel: Windows runs WireGuard inside the app as Android does, joining quiz's own separate WireGuard server (not MavServer), a new device joins by QR, and peers inside the tunnel send plain split ",
    "done": "",
    "goal": true,
    "under": 0,
@@ -466,42 +466,23 @@
    "held": [],
    "steps": [
     {
-     "t": "Code done: background app MavControlBackgroundChat.exe is the tunnel service host (--tunnel-service / --tunnel-install / --tunnel-uninstall, a3cbc72ef1); WindowsTunnelBridge in Station_OtherApps.cs be",
+     "t": "Code done on main: background app is the tunnel service host, WindowsTunnelBridge behind IBridge, tunnel.windows.* wording, DLLs copied from the Setup folder against SHA256SUMS; plain split payloads f",
      "x": true
     },
     {
-     "t": "Plain split payloads inside the tunnel flow and are accepted both ways (PASIKA 2026-11-13: PL-007 plain 1302 to 10.10.10.9; 10.10.10.9 shows no plain refusal); first sends after a peer starts are seal",
-     "x": true
-    },
-    {
-     "t": "HEAVY/PASIKA (build drive): recover the exact pinned tunnel.dll (f7b82f6783d5ae99c7c8f575b3799e72024a46088b501094e447a729a1781a7f; the rebuild on PL-007 gave bea1936e0f..., different) or qualify and r",
+     "t": "Pin a reproducible tunnel.dll and wireguard.dll with SHA256SUMS in the Windows installer folder (HEAVY staged a matching pair on 2026-11-14 under C:/MavControlEvidence/WireGuard-371-20261113/repro-pai",
      "x": false
     },
     {
-     "t": "PASIKA or Rog (a Windows PC with no WireGuard app): receive the tunnel file in chat, Install here (one admin consent), handshake with the MavServer, ping 10.10.10.x, Uninstall leaves no adapter",
+     "t": "Windows PC with no WireGuard app: receive the tunnel file in chat, Install here (one admin consent) and join the separate server; Uninstall leaves no adapter. Getac Dev 833 returned UAC 1223 once; ret",
      "x": false
     },
     {
-     "t": "Cloud: read Network/SPEC.md against the code for the public-IP QR and for enrollment by an existing member on the one MavServer; write what is missing as lines here",
-     "x": false
-    },
-    {
-     "t": "Open finding REVIEW-441-CR-D7C6-01 (P2): Windows Forget drops its input before uninstall consent succeeds; waits for quiz (Reviews/3d80fc828.md#cr-d7c6-01--p2-windows-forget-reports-noconfig-before-un",
+     "t": "Windows Forget drops its input before uninstall consent succeeds (CR-D7C6-01, Reviews/3d80fc828.md)",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T07:19Z",
-     "text": "HEAVY staged a reproducible Windows amd64 WireGuard pair in C:/MavControlEvidence/WireGuard-371-20261113/repro-pair-20261114/staged/WireGuard/amd64, with SHA256SUMS and a sibling BUILD.md two levels above WireGuard. Two fresh source extract"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-17T13:40Z",
-     "text": "Windows 817 on Getac predates the built-in bridge. Dev 833 has the host and both DLLs, including signed WireGuardNT, and the Drive Peer113 profile was staged. The Windows UAC prompt opened and returned 1223 before the installer ran. Externa"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 372,
@@ -559,7 +540,7 @@
   },
   {
    "n": 374,
-   "name": "Users get qualified public updates without an account on every platform through the same sealed route as Android, install by QR or USB, and a coordinate link opens the app",
+   "name": "People get app builds the easy way on every platform: Google Drive for the first copy, then automatic update through the sealed route, plus install and update over USB. All the ways we have stay.",
    "done": "",
    "goal": true,
    "under": 0,
@@ -570,79 +551,27 @@
    "held": [],
    "steps": [
     {
-     "t": "Published to GitHub Test: Windows 831 portable (7ed82324aa) and Linux x64 831 (e17575dd18), both MAVSEAL1; Windows installer 831 compiled from the published player (243600249 bytes, receipts under C:/",
+     "t": "Published to GitHub Test: Windows 831 portable and Linux x64 831 (MAVSEAL1), Windows installer 831; protected installer catalog live over HTTPS; app updates resume in 8 MiB ranges and show the real HT",
      "x": true
     },
     {
-     "t": "Protected Galera installer catalog is live over HTTPS (Android 808 first); in-app update 810 to 811 seal-1 passed on the Lenovo; app updates resume in 8 MiB ranges with 2/4/8/16 s retries and show the",
-     "x": true
-    },
-    {
-     "t": "Dev 827 (964c225b93) installed on the Strong; clean DJI RC Plus 2 install over Windows USB with the built-in VPN passed (816)",
-     "x": true
-    },
-    {
-     "t": "Getac: Lenovo is not on ADB (cable or driver); install the current Dev build there, then read the Strong at rest over the VPN with peer_diag.py want <ip>: planet.status, performance.top, vpn.routing, ",
+     "t": "Second Windows PC: run Windows 831 Setup from an ordinary browser-user session, confirm link registration and ReadyToInstall, publish through the sealed installer route",
      "x": false
     },
     {
-     "t": "PASIKA or Getac: run Windows 831 Setup from an ordinary browser-user session on a second Windows player (this PC has the 817 installation), confirm link registration and ReadyToInstall, then publish t",
+     "t": "In-app update from a seal-1 and a seal-2 fixture, a mid-range cut, and a legacy older build; then flip the publish.py default to --seal-format 2 on 2026-12-08 (build 792 cannot resume and needs QR or ",
      "x": false
     },
     {
-     "t": "Getac + a second device: in-app updates from a seal-1 and a seal-2 Test fixture, a real cut mid-range, and a legacy older build; then Cloud flips the publish.py default to --seal-format 2 on 2026-12-0",
+     "t": "Linux desktop starts, draws the map and quits normally from the 831 tar; macOS and iOS (TestFlight) follow as builds come",
      "x": false
     },
     {
-     "t": "Linux desktop: native startup, rendered map and normal quit of the 831 tar, and the Servers page Linux row visible to a consumer",
-     "x": false
-    },
-    {
-     "t": "Mac: macOS and iOS (TestFlight fastlane) follow as builds come",
-     "x": false
-    },
-    {
-     "t": "Getac: QR or Windows USB install with the VPN authorizing; browser invitation and a physical install through the protected HTTPS route",
-     "x": false
-    },
-    {
-     "t": "quiz's values (assetlinks fingerprint, Apple Team ID: real values, not code; the Play Console developer account was closed for inactivity 2024-07-16), then Mac and Getac: https coordinate links open t",
-     "x": false
-    },
-    {
-     "t": "PASIKA: canonical build publishing: Windows installer through the sealed route and the Android signing gate (needs a native build)",
-     "x": false
-    },
-    {
-     "t": "Decisions waiting for quiz: CC-4C37-01 (USB inspector rebuilds labels each draw), CC-8B21-01 (verify reads the Linux tar twice); retire earlier .previous-* cache copies (CR-31F7-01 follow-up)",
-     "x": false
-    },
-    {
-     "t": "Existing worker evidence and remaining checks retained in the [review report](../Reviews/1672e965b.md#existing-374-relay-receipt-retained); no earlier finding or claim is closed.",
-     "x": false
-    },
-    {
-     "t": "REVIEW-501 CR-C88B-01: [P2 S1/S2 brief](../Reviews/1672e965b.md#cr-c88b-01--p2-routing-cleanup-removes-the-published-asset-before-replacing-its-manifest) ready for quiz. Routing retention deletes the ",
+     "t": "QR or Windows USB install with the VPN authorising; canonical build publishing through the sealed route",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-14T13:11Z",
-     "text": "Done: iOS 838, source 5aaeb3ba39; test compile fix PR88, release PR89, history PR90."
-    },
-    {
-     "by": "CODEX_UPDATES",
-     "at": "2026-11-14T13:18Z",
-     "text": "Android 835 is live in Drive Android/Test and sealed GitHub Test. EditMode All 8,532 passed, 4 failed, 8 skipped, advisory per quiz. App updates now retains completed Release/Test results through refresh/cancel, with server failure and no p"
-    },
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T05:28Z",
-     "text": "Apple read-only check Nov 20 05:28 UTC: exact Brig68 868 iOS and macOS are VALID and IN_BETA_TESTING internally. Both external builds still WAITING_FOR_BETA_REVIEW with WAITING_FOR_REVIEW receipts. Existing group assignments were verified a"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 375,
@@ -726,7 +655,7 @@
    "ticks": [
     "2026-11-11T17:53Z"
    ],
-   "priority": "normal",
+   "priority": "high",
    "parked": false,
    "flags": [],
    "held": [],
@@ -745,6 +674,16 @@
      "by": "ROG",
      "at": "2026-11-16T08:36Z",
      "text": "\"Same for search Input. When in search view, any keyboard input should write into input. Someone needs to research the best way to do an always-selected input field.\" \"This is tricky: without keyboard user should be able to hide/show keyboa"
+    },
+    {
+     "by": "CLOUD_PRUNE",
+     "at": "2026-11-24T10:15Z",
+     "text": "quiz 2026-11-24: \"Have it come first\" (before the performance work); \"Don\u2019t park\" 479."
+    },
+    {
+     "by": "CLOUD_PREP",
+     "at": "2026-11-24T10:18Z",
+     "text": "bd76eec796 on main: with a hardware keyboard Search takes the field on open on Android (was skipped), and a hardware key pressed after the field lost focus refocuses it once. SPEC compromise 4. Left: device acceptance (hotplug, resume, Ukra"
     }
    ]
   },
@@ -799,11 +738,6 @@
    ],
    "notes": [
     {
-     "by": "cloud",
-     "at": "2026-11-14T13:54Z",
-     "text": "Report items 4 and 5 and 3 and the isolation hint are in code (uncompiled); item 8 (ARS/LRRP through the Android bridge) and the SIO_UDP_CONNRESET/ReuseAddress hygiene are not done."
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-14T17:01Z",
      "text": "Main e1a3e6fe71 fixes the Android half-lease request to unicast with ciaddr and no selection options. Scripted USB lost the first reply, accepted a retry ACK and sent through original expiry on the same handle. USB packet/layout/ECM/network"
@@ -812,6 +746,11 @@
      "by": "REVIEW",
      "at": "2026-11-19T09:51Z",
      "text": "S1/S2 ready for quiz: [CR-9DC6-01 P2](../Reviews/af9069671.md#cr-9dc6-01--p2-retained-radio-id-is-restored-without-checking-the-reconnect-adapter), reconnect restores the old confirmed Radio ID without qualifying the new adapter. Source con"
+    },
+    {
+     "by": "CLOUD_PRUNE",
+     "at": "2026-11-24T10:11Z",
+     "text": "quiz 2026-11-24: \"We will test them when we can.\" Stays paused."
     }
    ]
   },
@@ -2442,7 +2381,7 @@
    "goal": true,
    "under": 0,
    "ticks": [],
-   "priority": "normal",
+   "priority": "high",
    "parked": false,
    "flags": [],
    "held": [],
@@ -2478,11 +2417,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_3D_MAP_SPEC",
-     "at": "2026-11-20T18:53Z",
-     "text": "Published d5840ff35d to main. Current scope is photo positioning, paired depth, automatic stitching and measured performance. Guide check reported 0 errors and 8 existing warnings. Documentation only, Unity replay not rerun. Next: Kalasatam"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-18T23:10Z",
      "text": "Native Unity import on d4c4b7ef5a reported the Pano360Depth.hlsl.meta GUID invalid and skipped the asset. Source GUID introduced by 50d41faa26 has 33 hex characters, and one shader references the include by name. Live private Android build "
@@ -2491,6 +2425,11 @@
      "by": "HEAVY",
      "at": "2026-11-19T11:11Z",
      "text": "Goal paused. Streamed Save and Kenilworth replay findings on main (aa09f88bbf, 5ce3592b13). Helsinki fixture validated (af0e8bbc5d); b8f95f633c records the refused distinct-photo joins. Training capture and the live two-flight check remain "
+    },
+    {
+     "by": "CLOUD_PRUNE",
+     "at": "2026-11-24T10:15Z",
+     "text": "quiz 2026-11-24: \"3D map is the main push now. Don\u2019t touch it.\""
     }
    ]
   },
@@ -2757,13 +2696,18 @@
      "by": "DJI-Dev",
      "at": "2026-11-20T20:15Z",
      "text": "Android Dev 870 (7ecf2d3797): Unity ignored UsbCaptureCard.java because its .meta GUID has 33 hex digits. APK class definitions confirm the optional USB capture-card bridge is absent. Direct DJI bridge is present."
+    },
+    {
+     "by": "CLOUD_PRUNE",
+     "at": "2026-11-24T10:11Z",
+     "text": "quiz 2026-11-24: \"Keep it. Don\u2019t break anything.\""
     }
    ]
   },
   {
    "n": 1917,
    "name": "Use measured DJI Zenmuse LiDAR for 3D map generation. Project calibrated DJI Terra LiDAR and RGB into paired metric depth and rebuild Disks in Unity without Depth Anything. Keep the live Payload SDK s",
-   "done": "",
+   "done": "2026-11-24T10:11Z",
    "goal": false,
    "under": 1693,
    "ticks": [],
@@ -2777,6 +2721,11 @@
      "by": "HEAVY",
      "at": "2026-11-20T16:53Z",
      "text": "30503ad4f7 on main opens a Positioned draft with the first calibrated DJI depth frame before model admission. Later Depth Anything must match the retained exposure before joining the metric surface. 17 portable controller checks passed; Ros"
+    },
+    {
+     "by": "CLOUD_PRUNE",
+     "at": "2026-11-24T10:11Z",
+     "text": "Pruned 2026-11-24: quiz does not fly with Zenmuse LiDAR (quiz: \"I think i don\u2019t fly with it\")."
     }
    ]
   },
@@ -3442,28 +3391,6 @@
    ]
   },
   {
-   "n": 2118,
-   "name": "Check UI_BottomLeftRow parenting",
-   "done": "2026-11-23T10:09Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-23T10:08Z",
-     "text": "c355225f3f: Pair form is safe (Remote Control Panel sits under Top Panels, a sibling of the strip). Found and fixed: with the panel open and the strip not placed, the strip's children returned to their root inside the open panel and drew th"
-    }
-   ]
-  },
-  {
    "n": 2123,
    "name": "Use one registered accumulation root for live Point Clouds and synthetic views",
    "done": "",
@@ -3496,43 +3423,6 @@
      "by": "CODEX_MODEL_POSITIONING",
      "at": "2026-11-23T09:57Z",
      "text": "main aa1506819e. Display and synthetic cameras now use one registered Disk cloud while provisional photos still feed recovery. Unity Metal matched all 224 ground taps before and after. Remaining check is replaying tracking loss and a source"
-    }
-   ]
-  },
-  {
-   "n": 2125,
-   "name": "Clean weak Point Cloud Disks against paired photo depth after Video Source joins",
-   "done": "2026-11-23T10:03Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-23T10:01Z",
-    "2026-11-23T10:02Z",
-    "2026-11-23T10:02Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Trace how joined Disks are tested against real photo rays",
-     "x": true
-    },
-    {
-     "t": "Make weak Disks yield to reliable free-space evidence",
-     "x": true
-    },
-    {
-     "t": "Verify confirmed and occluded geometry is preserved in Unity",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-23T10:03Z",
-     "text": "main b21ffdc5b9. Unity Metal reproduced the weak backward-facing Disk surviving the previous clip. The revised shader clipped it from all three passes, preserved the better-supported Disk, and kept hidden geometry when the photo measured a "
     }
    ]
   },
@@ -4796,7 +4686,7 @@
     "2026-11-24T07:28Z",
     "2026-11-24T07:28Z"
    ],
-   "priority": "normal",
+   "priority": "high",
    "parked": false,
    "flags": [],
    "held": [],
@@ -4823,6 +4713,11 @@
      "by": "CODEX",
      "at": "2026-11-24T08:32Z",
      "text": "Research and implementation are on main through 5b28fdba03. Lenovo Android 11 displayed the lock-screen alert, retained the exact HTTPS payload and passed the native shade tap with an injected callback. Live paired verification is blocked o"
+    },
+    {
+     "by": "CLOUD_PRUNE",
+     "at": "2026-11-24T10:15Z",
+     "text": "quiz 2026-11-24: order after 3D map: 2172 first, 378 before performance work (429). \"Yep\" / \"Have it come first\""
     }
    ]
   },
@@ -5002,7 +4897,7 @@
   },
   {
    "n": 2182,
-   "name": "Add a Retransmission start countdown that sends a blue slate until live video begins",
+   "name": "Add a start countdown for Restream and peer video sharing",
    "done": "",
    "goal": false,
    "under": 431,
@@ -5013,21 +4908,108 @@
    "held": [
     {
      "who": "ROG_FABLE_CODEX",
-     "since": "2026-11-24T09:43Z",
-     "noted": "2026-11-24T10:01Z",
-     "progress": 25,
+     "since": "2026-11-24T10:10Z",
+     "noted": "",
+     "progress": 0,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": [
+   "notes": []
+  },
+  {
+   "n": 2183,
+   "name": "Schedule Esri viewport tiles only while idle and after peer sources",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
     {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T10:01Z",
-     "text": "quiz: And the same generated timer video - also retransmit that to other peers. So this is not for retransmission only, but also for general sharing. Working on one deadline shared by the Restream panel, FFmpeg and the local source's peer v"
+     "who": "ROG_FABLE_CODEX",
+     "since": "2026-11-24T10:14Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
     }
-   ]
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2184,
+   "name": "Remote Sensors",
+   "done": "",
+   "goal": false,
+   "under": 479,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2185,
+   "name": "Situation",
+   "done": "",
+   "goal": false,
+   "under": 479,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2186,
+   "name": "Remote Sensors models are drawn by their own loop while Situation icons use SituationGroupedIconSystem. Gap vs ECS SPEC 'One reusable entity system'",
+   "done": "",
+   "goal": false,
+   "under": 479,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2187,
+   "name": "Training rescans every coverage cell for distance retirement on each update even when the observer did not move (review CC-0391-01",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2188,
+   "name": "Situation model pointing recomputes the drawn model-set heights on every query (review CC-43B1-01",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5288,6 +5270,5 @@
    "since": "2026-11-24T05:49Z"
   }
  ],
- "source_revision": "286774a7e9ab0081eef8f7805ccbbf87f1d06933",
- "board_revision": "a03f08b1821d6e99ce2149a23dcee8e116750bbf"
+ "source_revision": "bd76eec796d5895843b3fccf264cff8d213d6045"
 }
