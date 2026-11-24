@@ -3655,16 +3655,7 @@
    "priority": "high",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_COMPARISON",
-     "since": "2026-11-24T14:12Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 6
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Replay arm of the first version (24 motion-spaced photos, groups of 12 with 5 shared, 30 % allowance, add-only Disks) on the city clip as the control",
@@ -3699,8 +3690,8 @@
     },
     {
      "by": "CODEX_VIDEO_COMPARISON",
-     "at": "2026-11-24T13:00Z",
-     "text": "Heritage and Zurich, full isolated Unity photo sequences: all 4 and 47 joins accepted. Heritage 8 s held-image P90 improved 6.92 to 3.24 px at 320 px width. Zurich at 88-97.5 s: survey 12.86 m, native joins 13.16 m, photo corrections 28.77 "
+     "at": "2026-11-24T14:42Z",
+     "text": "Main 34003deebc. Fixed baseline reproduced; optional unity adaptive selects recorded-file 4+4 batches from placed photos. Heritage accepted 1/5 exchanged groups; Zurich 3/27. All 28 rejected groups recovered the same four photos on chronolo"
     }
    ]
   },
@@ -5062,15 +5053,51 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
+   "held": [
     {
-     "by": "cloud-starlink-review",
-     "at": "2026-11-24T14:18Z",
-     "text": "No goal fits. quiz, 2026-11-24: \"Basically, we want GPS backup in case our GPS is spoofed, but Starlink can provide more accurate location for evacuation.\" Steps 4 and the dish_inhibit_gps option replace SPEC lines (dish not asked while pho"
+     "who": "cloud-starlink-review",
+     "since": "2026-11-24T14:34Z",
+     "noted": "",
+     "progress": 12,
+     "ticked": 1,
+     "total": 8
     }
-   ]
+   ],
+   "steps": [
+    {
+     "t": "SPEC: ultimate design, compromises and quiz's three answers written",
+     "x": true
+    },
+    {
+     "t": "Read the position from get_location (lla and source in one reply) in place of get_diagnostics; get_location is confirmed working on quiz's dish over grpcurl on port 9200, the app keeps gRPC-Web on 920",
+     "x": false
+    },
+    {
+     "t": "Settings / GPS / Starlink: a test of get_location on both ports, 9200 (gRPC over HTTP/2 without TLS, which the app's HttpClient may not speak) and 9201 (gRPC-Web); each shows its position and source o",
+     "x": false
+    },
+    {
+     "t": "Freshness from the reply's arrival time, not a comparison with the phone clock",
+     "x": false
+    },
+    {
+     "t": "Read the dish's error radius and GPS state (get_status inhibit_gps / gpsValid)",
+     "x": false
+    },
+    {
+     "t": "Ask the dish every 30 s while the phone is fresh and compare the two fixes",
+     "x": false
+    },
+    {
+     "t": "On disagreement light the Starlink icon and show both points on the map; a tap chooses the valid one; a clearly spoofed point is not choosable and the other is taken without a tap",
+     "x": false
+    },
+    {
+     "t": "GPS panel and Settings / GPS: option to switch the dish to Starlink positioning exclusively (dish_inhibit_gps), state read from the dish",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -5327,6 +5354,6 @@
    "since": "2026-11-24T11:14Z"
   }
  ],
- "source_revision": "d0cd974ddfa3074af6d9c35b20a457e1314d16d0",
- "board_revision": "e4d1e71201bad89d408acadcffee7ce07a12b2ca"
+ "source_revision": "34003deebc191a7092a3f0a3086ff70adb9fee1e",
+ "board_revision": "8902649e221335cdb5675a96cb99bf6b35aeb74e"
 }
