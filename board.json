@@ -3689,43 +3689,6 @@
    ]
   },
   {
-   "n": 2152,
-   "name": "Keep photo",
-   "done": "2026-11-23T18:30Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [
-    "2026-11-23T18:20Z",
-    "2026-11-23T18:23Z",
-    "2026-11-23T18:29Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Advance the recent-photo reference during weak map links and retain measured relative poses and paired depth in one continuous draft",
-     "x": true
-    },
-    {
-     "t": "Verify local tracking through a deliberately weakened link and through the original first pass in Pilot View",
-     "x": true
-    },
-    {
-     "t": "Record local pose coverage and surveyed drift separately, and retain the draft for inspection",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-23T18:30Z",
-     "text": "Main 5de0cbcada. Original Zurich file reached 98.8 s without looping in the ordinary Main Editor. 191/200 recent photos linked, longest gap 3.4 s. Relative displacement RMSE 0.79 m and whole-flight position RMSE 62.38 m. Exact current image"
-    }
-   ]
-  },
-  {
    "n": 2153,
    "name": "Refine Photo Tension with shared point observations and fixed world anchors. Reuse the existing original UV and world position. Let cameras rotate or translate while keeping anchor reprojection consis",
    "done": "",
@@ -3752,26 +3715,6 @@
      "by": "CODEX_RECORDED_TENSION",
      "at": "2026-11-24T18:11Z",
      "text": "e3eff3d415 delivered reciprocal post-run photo settlement, measured native depth overlaps, fixed and repeated-shutter handling, and late evidence wakeup. 25 focused tests passed. Zurich in real Play Mode: 35 cameras after 240s, reserved P90"
-    }
-   ]
-  },
-  {
-   "n": 2154,
-   "name": "Menu \u2192 Layers tab",
-   "done": "2026-11-23T18:42Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_LAYERS",
-     "at": "2026-11-23T18:42Z",
-     "text": "fd3b873859 on main: Layers grouped (Map, Situation, Infrastructure) into header panels with [Toggle] [Icon] [Label] rows, two columns centered; Play capture checked on GETAC. Changed EditMode tests compiled but not run (the normal Editor re"
     }
    ]
   },
@@ -5055,6 +4998,29 @@
      "text": "Accepted under revised practical bar. Second full 98.8 s 1x Play Mode Zurich pass at 51f95fb915: 40/40 windows, median surveyed diameter 18.74m, max 22.25m, largest adjacent gap max 3.75m, mapped age max 2.5s. Actual file camera P90 14.40 v"
     }
    ]
+  },
+  {
+   "n": 2213,
+   "name": "Bring paused recorded photo reconciliation to its stable result in under 30 seconds",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_SETTLEMENT_SPEED",
+     "since": "2026-11-24T20:38Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -5311,6 +5277,6 @@
    "since": "2026-11-24T11:14Z"
   }
  ],
- "source_revision": "e3eff3d415928361472b1f9f4af20a0e784de41c",
- "board_revision": "7e0aa501870fa2ff1662bad9521397a219eae7c9"
+ "source_revision": "e94c1f1ce9d77a50ccbeeeca34f070b2f1c4de03",
+ "board_revision": "bddb9c12eec010d9971e04ad2e8caf80d2bdcb8f"
 }
