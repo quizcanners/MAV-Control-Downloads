@@ -5009,18 +5009,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_SETTLEMENT_SPEED",
-     "since": "2026-11-24T20:38Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_SETTLEMENT_SPEED",
+     "at": "2026-11-24T20:55Z",
+     "text": "Paused at quiz's requested break. Same 35 Zurich shutters: coupled solver, 4ms/update at 60Hz, visible agreement at 20s vs old 180s; numerical idle 36.6s. Fresh 98.8s EOF: 972\u2013575 still shifted 18.19px from 30\u219245s (69/71 matches for 972 go "
+    }
+   ]
   }
  ],
  "verify": [
@@ -5278,5 +5275,5 @@
   }
  ],
  "source_revision": "e94c1f1ce9d77a50ccbeeeca34f070b2f1c4de03",
- "board_revision": "bddb9c12eec010d9971e04ad2e8caf80d2bdcb8f"
+ "board_revision": "45c7542de6a09cd9f96b6f720e60d867185ff7fd"
 }
