@@ -5046,25 +5046,22 @@
   {
    "n": 2209,
    "name": "Simplify the Draft Disk rebuild code while preserving the Castle capture-distance LOD baseline.",
-   "done": "",
+   "done": "2026-11-24T14:00Z",
    "goal": false,
    "under": 1693,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_CASTLE_CLEAN",
-     "since": "2026-11-24T13:58Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_CASTLE_CLEAN",
+     "at": "2026-11-24T14:00Z",
+     "text": "Published b1a6d9492e on main. Draft Disk rebuild now receives photo-freeze and registered-spacing options per call. Removed duplicate winner-index binding and five local iteration scratch files. Current SharedUI (62 sources) and runtime (29"
+    }
+   ]
   }
  ],
  "verify": [
@@ -5321,6 +5318,6 @@
    "since": "2026-11-24T11:14Z"
   }
  ],
- "source_revision": "ad91f000ce2b140da1069f4cbf0d61edeee6e924",
- "board_revision": "0987505971ab0763f631998e4fee120c0a55fe9a"
+ "source_revision": "b1a6d9492e4fbf4c36e120086c00e51a92562143",
+ "board_revision": "e7673a4b53fcadc4818f7dcad94aa9e25810087f"
 }
