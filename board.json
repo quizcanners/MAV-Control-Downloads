@@ -2940,22 +2940,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "ROG_FABLE_CODEX",
-     "since": "2026-11-24T07:08Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T07:06Z",
-     "text": "f6be10b8 on main. Situation owns the retained entity editing request and Workflow UI creates the prefab. Unity compiled. An Edit Mode probe confirmed no eager spawn, retention with the Workflow UI holder missing, one authored instance when "
+     "at": "2026-11-24T07:13Z",
+     "text": "9171c90b on main. Map Editing no longer names the toolbar singleton. Its view binds the existing report without requiring the Workflow Spawner. Unity compiled. Edit Mode probes matched the authored toolbar and Inspector reports, returned no"
     }
    ]
   },
@@ -5468,5 +5459,5 @@
   }
  ],
  "source_revision": "9171c90b7da50a4443b6eca05eb9ee853dd4a7ab",
- "board_revision": "3840583a155214f4e1d1acb34ef769b05b612d4e"
+ "board_revision": "56a9285f2e0b409a6a2aae1b83b648461e914773"
 }
