@@ -1850,7 +1850,16 @@
    "priority": "high",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "NT68-C15-002",
+     "since": "2026-11-25T08:42Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 7
+    }
+   ],
    "steps": [
     {
      "t": "Reduce late-flight pose drift on Kalasatama using independent landmarks. Check depth at the same accepted pixels with independently fitted cameras (1897).",
@@ -2973,7 +2982,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MAC_UI",
+     "since": "2026-11-25T08:42Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -3995,5 +4013,5 @@
   }
  ],
  "source_revision": "403ca3c36fd7cb9e31f850f3f45d6cfdfb805cee",
- "board_revision": "b93e1acf79f644ad4773eb7e133a1c4145981368"
+ "board_revision": "bedbe9f5b0a5190c2fdb570a18bb72e7f65053de"
 }
