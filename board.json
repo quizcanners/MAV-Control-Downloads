@@ -2823,29 +2823,25 @@
   {
    "n": 2176,
    "name": "MavChat Chat",
-   "done": "",
+   "done": "2026-11-25T14:10Z",
    "goal": false,
    "under": 367,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-25T14:08Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "ROG_FABLE_CODEX",
      "at": "2026-11-24T11:41Z",
      "text": "2b527bce retains the c6855e23 implementation. Fresh Windows Unity ChatMessageLayoutTests 35/35. The authored portrait prefab with 12 synthetic messages fit 5 complete transcript rows vs 3 full bubble rows at the same 600-unit viewport; font"
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-25T14:10Z",
+     "text": "Current main 41e6ef162d retains 70% font and 8 units of padding per edge in half-height MavChat. Three focused Mac Unity checks passed for authored transcript styling, full-bubble restoration, and scroll position. Prior 600-unit viewport ev"
     }
    ]
   },
@@ -4044,5 +4040,5 @@
   }
  ],
  "source_revision": "41e6ef162dc372b0bfd8a3557b3a818a6bd95f7a",
- "board_revision": "c4d1ead68c1c2ad4f4d92dd4b295bb3f6f864bd7"
+ "board_revision": "15e6953a4b4addf100e5a445490806c430ef9ce3"
 }
