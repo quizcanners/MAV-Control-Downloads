@@ -3294,26 +3294,6 @@
    ]
   },
   {
-   "n": 2219,
-   "name": "Video Restreaming",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-25T14:04Z",
-     "text": "Duplicate of 2221. Main already has local/VPN identity fix in 66fc82bad3. The Mac is PublishingPlatform.None, and LocalRestreamCanStartWithoutAVpnAddress deliberately exercises Windows RTSP publication. The existing Windows task retains the"
-    }
-   ]
-  },
-  {
    "n": 2220,
    "name": "Area Weather Profile",
    "done": "",
@@ -3359,6 +3339,11 @@
      "by": "Codex",
      "at": "2026-11-25T09:09Z",
      "text": "Fixed on main in 66fc82bad3. The normal Editor restarted after an out-of-memory crash and compiled. The Editor blocked the focused regression in ordinary Data with tests_require_disposable_data_namespace. Remaining verification: run Planet."
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-25T14:04Z",
+     "text": "Duplicate of 2221. Main already has local/VPN identity fix in 66fc82bad3. The Mac is PublishingPlatform.None, and LocalRestreamCanStartWithoutAVpnAddress deliberately exercises Windows RTSP publication. The existing Windows task retains the"
     }
    ]
   },
@@ -4045,5 +4030,5 @@
   }
  ],
  "source_revision": "47cae3c2d1587a0fe219ba558f308c56447dcc64",
- "board_revision": "7029f24f2078da2bdf1f2ed942a49c16c2a7fbdd"
+ "board_revision": "552df7f92eb4319957a01cd1057fd8014987d4fa"
 }
