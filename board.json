@@ -3621,8 +3621,8 @@
     {
      "who": "MAC_BOARD",
      "since": "2026-11-25T14:15Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-25T14:29Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
@@ -3633,6 +3633,11 @@
      "by": "cloud-naming",
      "at": "2026-11-25T14:06Z",
      "text": "Also: Station.OS.Network (was Station.NetworkInspector); Safeguard.API.Client, Waypoints.Sharing, MGRS.Parser, Geometry.MarkerTypes, Encryption, MAV.Fleet, Station.Input.Mouse.State/Stylus; folder moves; SelfTest per subject; Build.*, Peer."
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-25T14:29Z",
+     "text": "Published and compiled Internet.MessageCodec, UdpQueue and UdpTrafficClass (6a4838e0ca), then Internet.Udp (3681a9c9c1). Preserved the Unity GUIDs and wire fields. Unity wire and UDP accounting tests passed and Roslyn reported no new errors"
     }
    ]
   },
@@ -4049,6 +4054,6 @@
    "since": "2026-11-25T09:49Z"
   }
  ],
- "source_revision": "41e6ef162dc372b0bfd8a3557b3a818a6bd95f7a",
- "board_revision": "79d3bf27821eab84ced250e8f6f040bd401863ca"
+ "source_revision": "3681a9c9c146f5b260ab3a085738534cc03641c0",
+ "board_revision": "37990806be74bae600bf38bd3ab8054fccc347a8"
 }
