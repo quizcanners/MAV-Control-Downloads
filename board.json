@@ -4253,25 +4253,22 @@
   {
    "n": 2269,
    "name": "Show an active local manual Status notification",
-   "done": "",
+   "done": "2026-11-25T17:15Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_STATUS",
-     "since": "2026-11-25T17:13Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_STATUS",
+     "at": "2026-11-25T17:15Z",
+     "text": "41ce965a07 on main. Runtime and EditMode test assemblies compiled. Unity imported the card and verified its Finish binding. An isolated Unity check showed You are Repairing, rejected a stale Finish, switched the shown status to a new Idle t"
+    }
+   ]
   }
  ],
  "verify": [
@@ -4520,6 +4517,6 @@
    "since": "2026-11-25T15:45Z"
   }
  ],
- "source_revision": "41ce965a07642e60c92b0e17aa126db86309ef85",
- "board_revision": "acd014a29ff864d9377440cf0b2b4b47d2f48969"
+ "source_revision": "f5b55729ebd5159b8d03467143bb41d0b1baa043",
+ "board_revision": "7f280598844b8f35c00fe78997aa43a665e048fe"
 }
