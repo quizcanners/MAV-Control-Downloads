@@ -3781,25 +3781,22 @@
   {
    "n": 2242,
    "name": "Clear the in-scene Shapes text when a Web Mercator download finishes successfully. Keep the download result in the Offline menu.",
-   "done": "",
+   "done": "2026-11-25T13:22Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_RASTER",
-     "since": "2026-11-25T13:20Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_RASTER",
+     "at": "2026-11-25T13:22Z",
+     "text": "143dabb51e on main. Successful Esri completion stops the in-scene Shapes presentation. Offline menu still reads the retained result. Unity compiled and OnlineRasterSchedulingTests passed 55/55, including the successful completion regression"
+    }
+   ]
   }
  ],
  "verify": [
@@ -4052,6 +4049,6 @@
    "since": "2026-11-25T09:49Z"
   }
  ],
- "source_revision": "3317d50e11bc160ade682ba14ef4cd99214316b5",
- "board_revision": "aec1638fe13264eb21e355f149c4af5b024223c0"
+ "source_revision": "143dabb51efb0f660a2e63470d4e4440cfd0362f",
+ "board_revision": "b443697e98fe79376f65147af9d4183739ed2c4e"
 }
