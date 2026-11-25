@@ -1338,36 +1338,6 @@
    ]
   },
   {
-   "n": 1389,
-   "name": "3D Street View metric point density",
-   "done": "2026-11-24T11:16Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-17T06:21Z",
-     "text": "Published 19d4968600. Revisited Street View preview holds coarse cells until confirmed finer cells cover 75% of their nominal surface footprint. Repeated poses and coarse transfers do not supply fine confirmation. SPEC centers reconstructio"
-    },
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T13:55Z",
-     "text": "1c8842689c keeps the refined Disk in its selected preview cell. Mac Metal regression wrote both samples into cell 3 before the fix; after it, cells 2 and 3 each keep one sample and measured source data pass the preservation checks. Focused "
-    },
-    {
-     "by": "MAC_CASTLE_LOD",
-     "at": "2026-11-24T11:16Z",
-     "text": "Published fe918d0541 on main. Castle photo 242: nearest quartile 339\u21921,994 Disks (12.5\u201325 cm), 99.47% coverage; farthest 9,764\u21923,125 (1\u20132 m), 99.61%. Metal indirect draws at 14.00/22.17 s, 75% parent handoff, both footprints and unchanged G"
-    }
-   ]
-  },
-  {
    "n": 1417,
    "name": "Live map refinement 2/4",
    "done": "",
@@ -3003,26 +2973,6 @@
    ]
   },
   {
-   "n": 2188,
-   "name": "Situation model pointing recomputes the drawn model-set heights on every query (review CC-43B1-01",
-   "done": "2026-11-24T10:54Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T10:54Z",
-     "text": "0c1af133 on main. Drawing publishes one conservative maximum from cached batch extents, including unchanged batches. Removing the tallest batch and shutdown are covered by the passing sizing test. All 13 Situation pointing tests passed in R"
-    }
-   ]
-  },
-  {
    "n": 2189,
    "name": "Fat container VideoProcessing",
    "done": "",
@@ -3035,66 +2985,6 @@
    "held": [],
    "steps": [],
    "notes": []
-  },
-  {
-   "n": 2190,
-   "name": "Fat container WebMercator and its 12 Diagnostics partial files",
-   "done": "2026-11-24T11:32Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T11:32Z",
-     "text": "2b527bce on main. Each controller owns its diagnostics types and source folder. Shared throughput, per-frame flags and device reports remain in the sync core. Preserved moved script GUIDs. Rog Unity 6000.6.8f1 passed 373 Edit Mode tests: Br"
-    }
-   ]
-  },
-  {
-   "n": 2191,
-   "name": "Fat container StreamerManager",
-   "done": "2026-11-24T10:35Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "cloud-rename",
-     "at": "2026-11-24T10:35Z",
-     "text": "Done: static container + nested Manager, all call sites renamed, merged to main. Quote: quiz, 2026-11-24: \"So Streaming.Manager and Network.Manager. Streaming actually can be renamed to VideoStreaming, if it is about video specifically. Net"
-    }
-   ]
-  },
-  {
-   "n": 2192,
-   "name": "Fat container NetworkManager",
-   "done": "2026-11-24T10:35Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "cloud-rename",
-     "at": "2026-11-24T10:35Z",
-     "text": "Done: static container + nested Manager, all call sites renamed, merged to main. Quote: quiz, 2026-11-24: \"So Streaming.Manager and Network.Manager. Streaming actually can be renamed to VideoStreaming, if it is about video specifically. Net"
-    }
-   ]
   },
   {
    "n": 2193,
@@ -3123,46 +3013,6 @@
    "held": [],
    "steps": [],
    "notes": []
-  },
-  {
-   "n": 2195,
-   "name": "Clear nearby duplicate voxel walls along the generating photo ray and render uncertain normals as transparent camera-facing Pano360 circles after the opaque squircles and Pano360.",
-   "done": "2026-11-24T10:39Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_CASTLE_PHOTO_AGREEMENT",
-     "at": "2026-11-24T10:39Z",
-     "text": "d48fcc554a on main. Mac Metal Editor passed both arrival orders for a same-normal double wall within three voxel widths. The published counts, moved-photo rebuild, and transparent circular Pano360 receiver passed. Final Castle Game view sho"
-    }
-   ]
-  },
-  {
-   "n": 2196,
-   "name": "Restore Unity Editor compilation after the Diagnostics PlayerLoop refactor. On main 2d68f047cd",
-   "done": "2026-11-24T11:04Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T11:04Z",
-     "text": "Main compiles in Rog Unity after the latest PlayerLoop move and repairs through 5242b955. Fixed the stale Restream and timing aliases, Linked Browser worker references, engine PlayerLoop ambiguity and runtime fixture type lookups. Edit Mode"
-    }
-   ]
   },
   {
    "n": 2197,
@@ -3257,83 +3107,6 @@
      "by": "ROG_FABLE_CODEX",
      "at": "2026-11-24T11:21Z",
      "text": "On 1bf33899, D3D11 matched byte-for-byte in 48 exact ARGBFloat iterations, including four synchronous marker reimports. Marker/reference _BaseColor matched with CopyProperties and explicit binding. Reverse draw order and instancing off also"
-    }
-   ]
-  },
-  {
-   "n": 2203,
-   "name": "Remote Sensors",
-   "done": "2026-11-24T11:05Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T11:05Z",
-     "text": "quiz: The Router icon needs to be to the side from the Toggle. No need for them to overlap. Also write the word. So: [Toggle] [Icon] Retransmitter. Main 3aef1924. The prefab has three siblings with measured spacing and a localized label. Al"
-    }
-   ]
-  },
-  {
-   "n": 2204,
-   "name": "Remote Sensors",
-   "done": "2026-11-24T11:15Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T11:15Z",
-     "text": "quiz: The armed indicator needs text too. 1bf33899 on main. Localized Armed text appears with no deadline, adds the time when reported, and includes the armed count for multi-selection. All five Remote Sensor Panel Look tests passed. The Re"
-    }
-   ]
-  },
-  {
-   "n": 2205,
-   "name": "Windows Edit Mode MavChat Sheet coverage fails in Search capture and MavTube viewport",
-   "done": "2026-11-24T11:46Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-24T11:45Z",
-    "2026-11-24T11:45Z",
-    "2026-11-24T11:46Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Account for the missing camera during Search capture",
-     "x": true
-    },
-    {
-     "t": "Supply the Timeline owner needed by the MavTube viewport fixture",
-     "x": true
-    },
-    {
-     "t": "Verify all MavChatSheetTests and push to main",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T11:46Z",
-     "text": "9a0be2dc on main. Fullscreen diagnostic reads Pilot state only if the map camera exists, allowing the Search transition callback to run. MavTube viewport fixture owns a Timeline as the app does. Fresh Rog Edit Mode MavChatSheetTests 144/144"
     }
    ]
   },
@@ -3650,16 +3423,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "Codex",
-     "since": "2026-11-25T08:46Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": []
   },
@@ -4010,6 +3774,20 @@
      "text": "bdb6f51480 on main. Unity compiled, Roslyn found no new errors, and the portrait GPS panel showed a real timeout on the Mac with no dish. Simulated HTTP/gRPC/reply failures updated the line. Both new checks passed and English/Ukrainian labe"
     }
    ]
+  },
+  {
+   "n": 2238,
+   "name": "MavTube mobile streaming",
+   "done": "",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -4263,5 +4041,5 @@
   }
  ],
  "source_revision": "bdb6f51480fb5ca7a4462e0f6c6bf837f6483155",
- "board_revision": "cbf32de1e1046ae29ff967ea8a77297a71d74557"
+ "board_revision": "660ba631673393f79cafb4bf77622636e45450b8"
 }
