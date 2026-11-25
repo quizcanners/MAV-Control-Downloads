@@ -4017,7 +4017,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_ANCHORED_FLIGHT",
+     "since": "2026-11-25T16:51Z",
+     "noted": "",
+     "progress": 33,
+     "ticked": 1,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Reproduce against reopened Anchored reference",
@@ -4492,5 +4501,5 @@
   }
  ],
  "source_revision": "497e3d5300463dff312dc6deb77f681be35189f9",
- "board_revision": "028126fd4432e95faab4b0e519b35e0965210eda"
+ "board_revision": "7276edf0d9ab088d4e2694be2b0c9a294af67f42"
 }
