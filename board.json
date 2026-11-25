@@ -4017,16 +4017,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_ANCHORED_FLIGHT",
-     "since": "2026-11-25T15:39Z",
-     "noted": "2026-11-25T15:54Z",
-     "progress": 33,
-     "ticked": 1,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Reproduce against reopened Anchored reference",
@@ -4044,8 +4035,8 @@
    "notes": [
     {
      "by": "CODEX_ANCHORED_FLIGHT",
-     "at": "2026-11-25T15:54Z",
-     "text": "Isolated Mac TestRun saved and reopened Kenilworth with six archived photos. Existing direct archive registration refused English Heritage. Testing a compact pose-seeded landmark map with separate archive and incoming holdouts."
+     "at": "2026-11-25T16:11Z",
+     "text": "Main bf10afcf6e. Mac TestRun reopened 11 original Kenilworth photos and built 1,010 landmarks. Heritage refused 12 landmark attempts. Zurich refused and seed archive hash stayed identical. Native probe localized 20/24 Kenilworth, 0/24 Herit"
     }
    ]
   },
@@ -4457,5 +4448,6 @@
    "since": "2026-11-25T15:45Z"
   }
  ],
- "source_revision": "bf10afcf6e2fc3abf7400113b14f99afe8f594a1"
+ "source_revision": "ed221994799c28307cf64997e90eee4885a339a3",
+ "board_revision": "8f04ac3cbacb4ff310b28e4c1bdf50dd9582f75c"
 }
