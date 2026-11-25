@@ -2975,29 +2975,25 @@
   {
    "n": 2179,
    "name": "Mac mini GitHub Actions runner",
-   "done": "",
+   "done": "2026-11-25T08:45Z",
    "goal": false,
    "under": 2172,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_UI",
-     "since": "2026-11-25T08:42Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX",
      "at": "2026-11-24T11:17Z",
      "text": "Run 45382270534 on current main c4d3931393 used the online, idle Mac mini and failed before checkout. The check-run annotation still reports Device error while enumerating /Users/quizcannersmac/actions-runner/_diag/Worker_20261102-151959-ut"
+    },
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-25T08:45Z",
+     "text": "Confirmed macOS EDEVERR 83 on Worker_20261102-151959-utc.log. Individual rename also failed. While idle, preserved the entire old diagnostics directory as ~/actions-runner/_diag-quarantine-20261125T084439Z and created a fresh _diag. GitHub "
     }
    ]
   },
@@ -4033,6 +4029,6 @@
    "since": "2026-11-24T22:20Z"
   }
  ],
- "source_revision": "403ca3c36fd7cb9e31f850f3f45d6cfdfb805cee",
- "board_revision": "0d7831e5aed089c5c9a2c7a7827131d748a1dc77"
+ "source_revision": "77cd4f1abc6e6d43b38792620103f16d15615937",
+ "board_revision": "036a898341237b552dab702ff9bf115537ffb216"
 }
