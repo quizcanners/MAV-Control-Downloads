@@ -4233,25 +4233,22 @@
   {
    "n": 2268,
    "name": "Add the shared manual Status controls to the MavChat GPS panel.",
-   "done": "",
+   "done": "2026-11-25T17:01Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_STATUS",
-     "since": "2026-11-25T16:58Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_STATUS",
+     "at": "2026-11-25T17:01Z",
+     "text": "6293889231 on main. Portrait Play opened the grid and exercised all six choices against the shared station status. GPS and recording restore case passed. NavigatorSharingControlTests 7/8, with the existing Phone GPS and Set Manual duplicate"
+    }
+   ]
   }
  ],
  "verify": [
@@ -4500,6 +4497,6 @@
    "since": "2026-11-25T15:45Z"
   }
  ],
- "source_revision": "9b84aade60fd2bd0ae25e10f2fedc1f435f183db",
- "board_revision": "e67e0e21469e6a7ff4303a230cea723f33828bd7"
+ "source_revision": "0d53ffbc2d94527c4f4f48b33020c3a198c464ca",
+ "board_revision": "b69d8797608ce0ffb6800e823159c095f540832a"
 }
