@@ -3825,25 +3825,22 @@
   {
    "n": 2222,
    "name": "Weather Profile",
-   "done": "",
+   "done": "2026-11-25T09:02Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_WEATHER",
-     "since": "2026-11-25T08:51Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_WEATHER",
+     "at": "2026-11-25T09:02Z",
+     "text": "Main 82b12cc5d1. Fixed Tools layout adds selected-hour precipitation chance and visibility below forecast time. Mac normal Unity Play upgraded a cached Open-Meteo profile and displayed live values. Advancing 10:00 to 11:00 changed 3% / 25.9"
+    }
+   ]
   }
  ],
  "verify": [
@@ -4108,6 +4105,6 @@
    "since": "2026-11-24T22:20Z"
   }
  ],
- "source_revision": "1841ce4a9749d16eacb4f9f95b0b588b08a79ae1",
- "board_revision": "cee008f11f621694c369124c62d77c0cfd1cfd80"
+ "source_revision": "82b12cc5d112c198ccabb7f3b776bab857c0f9ea",
+ "board_revision": "92de5a7c3ba9cca726cb814659c0a7a1ceb8e28e"
 }
