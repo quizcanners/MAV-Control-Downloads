@@ -3091,26 +3091,6 @@
    ]
   },
   {
-   "n": 2208,
-   "name": "Windows Unity Editor cannot compile main after the Internet helper move. Network_UdpSplitter_Receive.cs reports an unexpected directive at line 19 and an expected #endif at line 234. Once Unity compil",
-   "done": "2026-11-24T13:07Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T13:07Z",
-     "text": "aea4b889 is on main. Backed out the three recent Internet and VideoStreaming structure commits that broke compilation. Unity Tundra build succeeded, then Edit Mode passed SuggestionsSwipeTests (2), SearchQuerySuggestionTests (63), and DragP"
-    }
-   ]
-  },
-  {
    "n": 2209,
    "name": "Simplify the Draft Disk rebuild code while preserving the Castle capture-distance LOD baseline.",
    "done": "2026-11-24T14:00Z",
@@ -3797,6 +3777,29 @@
      "text": "3317d50e11 on main: Online Raster now stops after source adoption. Provider writes use the same durable parent dirtiness as peer tiles, with provider stamps intact. Deleted download-side parent composition and ordinary view inventory scan. "
     }
    ]
+  },
+  {
+   "n": 2242,
+   "name": "Clear the in-scene Shapes text when a Web Mercator download finishes successfully. Keep the download result in the Offline menu.",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_MAC_RASTER",
+     "since": "2026-11-25T13:20Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -4050,5 +4053,5 @@
   }
  ],
  "source_revision": "3317d50e11bc160ade682ba14ef4cd99214316b5",
- "board_revision": "59f3c0d9c7438281591300f2ec3ec9af254749fa"
+ "board_revision": "aec1638fe13264eb21e355f149c4af5b024223c0"
 }
