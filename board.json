@@ -4011,7 +4011,9 @@
    "done": "",
    "goal": false,
    "under": 1693,
-   "ticks": [],
+   "ticks": [
+    "2026-11-25T15:54Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -4020,15 +4022,15 @@
      "who": "CODEX_ANCHORED_FLIGHT",
      "since": "2026-11-25T15:39Z",
      "noted": "",
-     "progress": 0,
-     "ticked": 0,
+     "progress": 33,
+     "ticked": 1,
      "total": 3
     }
    ],
    "steps": [
     {
      "t": "Reproduce against reopened Anchored reference",
-     "x": false
+     "x": true
     },
     {
      "t": "Verify and retain cross-capture photo evidence",
@@ -4051,16 +4053,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "cloud-gps",
-     "since": "2026-11-25T15:51Z",
-     "noted": "2026-11-25T15:53Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4080,16 +4073,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "cloud-gps",
-     "since": "2026-11-25T15:51Z",
-     "noted": "2026-11-25T15:53Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4109,16 +4093,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "cloud-gps",
-     "since": "2026-11-25T15:51Z",
-     "noted": "2026-11-25T15:53Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -4196,7 +4171,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "cloud-thread",
+     "at": "2026-11-25T15:54Z",
+     "text": "quiz 2026-11-25: \"for video restreaming we also share JPEGS when internet is bad. This isn't always working. Sometimes video just vanishes. Sometimes it takes really long time for first jpeg to arrive.\" (clarified: video sharing between pho"
+    }
+   ]
   }
  ],
  "verify": [
@@ -4445,6 +4426,6 @@
    "since": "2026-11-25T15:45Z"
   }
  ],
- "source_revision": "f7280dd14917c2ed86c0130291f8a3e4e68c9a4f",
- "board_revision": "ddee81b8c7f98d3638aeb71fe415b25f7c8b39fd"
+ "source_revision": "a2d4751ba09efa7111b345ca0b7b8469296765ef",
+ "board_revision": "9f1a17f4669fa0a300f3b07e84a631de9e61b5af"
 }
