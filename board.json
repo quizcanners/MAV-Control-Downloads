@@ -4204,25 +4204,22 @@
   {
    "n": 2267,
    "name": "Add Telemetry Status for manual Idle",
-   "done": "",
+   "done": "2026-11-25T16:50Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_STATUS",
-     "since": "2026-11-25T16:49Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_STATUS",
+     "at": "2026-11-25T16:50Z",
+     "text": "e06e8f0d59 on main. Unity EditMode 35 passed and normal Play opened the Status panel with all six choices responding. Reselecting the same choice kept its timer. The two-station check for peer and drone rows and overdue notices is queued in"
+    }
+   ]
   }
  ],
  "verify": [
@@ -4472,5 +4469,5 @@
   }
  ],
  "source_revision": "497e3d5300463dff312dc6deb77f681be35189f9",
- "board_revision": "8fcf943090c911f9fb41b49e831230dab177fd24"
+ "board_revision": "0a31eca43224823f89e2e023d2bc4cc43df0add5"
 }
