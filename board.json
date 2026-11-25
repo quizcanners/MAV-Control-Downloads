@@ -3983,7 +3983,7 @@
   {
    "n": 2257,
    "name": "3D Model Generation",
-   "done": "",
+   "done": "2026-11-25T18:10Z",
    "goal": false,
    "under": 1693,
    "ticks": [
@@ -3994,16 +3994,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_ANCHORED_FLIGHT",
-     "since": "2026-11-25T18:01Z",
-     "noted": "",
-     "progress": 100,
-     "ticked": 3,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Reproduce against reopened Anchored reference",
@@ -4021,8 +4012,8 @@
    "notes": [
     {
      "by": "CODEX_ANCHORED_FLIGHT",
-     "at": "2026-11-25T17:58Z",
-     "text": "8c51830f24 on main records the Stitching Markers contract. A separate bank uses saved Anchored RGB, intrinsics, accepted camera poses and paired depth to generate placement candidates. Photo Tension keeps independently selected corroborated"
+     "at": "2026-11-25T18:10Z",
+     "text": "4d044014e0 verified on main. Separate depth-backed Stitching Marker bank left Photo Tension independent. macOS Unity TestRun saved and reopened Anchored Kenilworth with 24 paired photos and 3,773 Marker observations. Heritage joined with 48"
     }
    ]
   },
@@ -4545,5 +4536,5 @@
   }
  ],
  "source_revision": "4d044014e0bf2e19ba5252f98d350c4ba7862f0b",
- "board_revision": "a0cacbbd3cb5c8bec86af9da631dc0994968abd0"
+ "board_revision": "d0306a62fffef07bc11409cf8fc77443118c9648"
 }
