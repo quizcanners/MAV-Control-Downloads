@@ -1239,7 +1239,7 @@
     {
      "by": "CODEX_WINDOWS_TILE_CLOSE",
      "at": "2026-11-25T08:46Z",
-     "text": "Windows v879 live Copy report: Ready map, NeedsRetry at attempt 0, job=Close, one 13,966-byte tile retained, zero SQLite failures and writes admitted. Main 77cd4f1abc reopens the same map when a close overlaps an accepted tile. Remaining Wi"
+     "text": "Windows v879 Copy report: map Ready, NeedsRetry at attempt 0, job=Close, one 13,966-byte tile retained, zero SQLite failures. Main 77cd4f1abc reopens the same map after a late tile receipt. Editor test is blocked by Orthophoto_Sync_MatchSam"
     }
    ]
   },
@@ -4049,5 +4049,5 @@
   }
  ],
  "source_revision": "77cd4f1abc6e6d43b38792620103f16d15615937",
- "board_revision": "d225191be24c484625444e5b0c22adcabce2ffbf"
+ "board_revision": "baa92abcb174fc91d54e4e64e951ad0ae94c2a13"
 }
