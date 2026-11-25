@@ -1210,16 +1210,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_WINDOWS_TILE_CLOSE",
-     "since": "2026-11-25T08:33Z",
-     "noted": "",
-     "progress": 67,
-     "ticked": 2,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "The line now names SQLite's real reason (UI_TileStorageNotification.TrueReason)",
@@ -1244,6 +1235,11 @@
      "by": "CLAUDE_657",
      "at": "2026-11-22T17:18Z",
      "text": "Cause: Issue.Format (InvalidDataException on open: another format/map) fell to the generic line with the exception HResult -2146233087 shown as a code; TrueReason now answers Issue.Format with its own key, number only for SQLite errors (ec2"
+    },
+    {
+     "by": "CODEX_WINDOWS_TILE_CLOSE",
+     "at": "2026-11-25T08:46Z",
+     "text": "Windows v879 live Copy report: Ready map, NeedsRetry at attempt 0, job=Close, one 13,966-byte tile retained, zero SQLite failures and writes admitted. Main 77cd4f1abc reopens the same map when a close overlaps an accepted tile. Remaining Wi"
     }
    ]
   },
@@ -4030,5 +4026,5 @@
   }
  ],
  "source_revision": "77cd4f1abc6e6d43b38792620103f16d15615937",
- "board_revision": "036a898341237b552dab702ff9bf115537ffb216"
+ "board_revision": "f6f40a52a589d60d685cdba5e9b1d3d0a10acc35"
 }
