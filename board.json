@@ -4017,16 +4017,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_ANCHORED_FLIGHT",
-     "since": "2026-11-25T17:06Z",
-     "noted": "",
-     "progress": 33,
-     "ticked": 1,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Reproduce against reopened Anchored reference",
@@ -4044,8 +4035,8 @@
    "notes": [
     {
      "by": "CODEX_ANCHORED_FLIGHT",
-     "at": "2026-11-25T17:02Z",
-     "text": "517857b5fb published on main. Save persists connected Marker measurements with archived original RGB and paired depth. After a fresh-process Castle reload, 2,395 Markers yielded identical 46 and 44 Marker-backed matches; held-out P90 was 26"
+     "at": "2026-11-25T17:15Z",
+     "text": "Unity TestRun at 517857b5fb verified exact SVMF archive across Play restart. 711 Marker tracks, 2,378 observations, 24 paired photos. Both runs loaded all observations and seeded the same 1,336 landmarks from 12 references. Heritage 0/12 jo"
     }
    ]
   },
@@ -4518,5 +4509,5 @@
   }
  ],
  "source_revision": "f5b55729ebd5159b8d03467143bb41d0b1baa043",
- "board_revision": "7f280598844b8f35c00fe78997aa43a665e048fe"
+ "board_revision": "536c26120184d36dfcd688f9ec4078aec46c37ce"
 }
