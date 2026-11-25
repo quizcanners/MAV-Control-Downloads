@@ -3743,22 +3743,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-25T14:11Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_MAC_RASTER",
      "at": "2026-11-25T12:52Z",
      "text": "3317d50e11 on main: Online Raster now stops after source adoption. Provider writes use the same durable parent dirtiness as peer tiles, with provider stamps intact. Deleted download-side parent composition and ordinary view inventory scan. "
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-25T14:15Z",
+     "text": "Observed the existing manual Esri run passively. Its plan and stored check were complete throughout the 30.3 s sample. Downloaded advanced 35 to 90 with zero failures; IndexReading, Reading, Applying and Writing all appeared, with no multi-"
     }
    ]
   },
@@ -4054,5 +4050,5 @@
   }
  ],
  "source_revision": "41e6ef162dc372b0bfd8a3557b3a818a6bd95f7a",
- "board_revision": "d55fca9b4f748aecec97e4c5415b299d4b3d625e"
+ "board_revision": "79d3bf27821eab84ced250e8f6f040bd401863ca"
 }
