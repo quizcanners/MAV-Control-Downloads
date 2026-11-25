@@ -3621,7 +3621,7 @@
     {
      "who": "MAC_BOARD",
      "since": "2026-11-25T14:15Z",
-     "noted": "2026-11-25T14:35Z",
+     "noted": "2026-11-25T14:39Z",
      "progress": 25,
      "ticked": 0,
      "total": 0
@@ -3636,8 +3636,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-25T14:35Z",
-     "text": "On main: MessageCodec and UDP queues (6a4838e0ca), Udp (3681a9c9c1), TunnelLibrary (054289c2af), UDP host harness (a73cf8f640), and Tunnel (bae81fabc3). Unity focused tests and cross-target compilation passed; synthetic tunnel-list bytes ma"
+     "at": "2026-11-25T14:39Z",
+     "text": "Through 719e657723 on main: MessageCodec, UDP queue and Udp, TunnelLibrary and Tunnel, plus DirectRoute. Unity and cross-target checks passed. Existing tunnel-list bytes matched and DiagnosticCheckpointData still resolves under its original"
     }
    ]
   },
@@ -4054,6 +4054,6 @@
    "since": "2026-11-25T09:49Z"
   }
  ],
- "source_revision": "bae81fabc326c88f563f037794c938a4fb6894a6",
- "board_revision": "33cb87a58006c91d8cc64af4724c2a29dd2095b9"
+ "source_revision": "719e657723f73614c1dd67c2341856b06ae0983f",
+ "board_revision": "29bdbc1b2884d864da1863fb0e1a0de663f04a4d"
 }
