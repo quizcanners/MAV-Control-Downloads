@@ -3808,6 +3808,29 @@
      "text": "Published 5d8e4cbca0 on main. Focused Unity prefab test passed. Mac Unity Play Mode verified the ready Route, tinted and non-interactive To, interactive unset From, and visible route actions."
     }
    ]
+  },
+  {
+   "n": 2240,
+   "name": "MAV Control Windows launch can stall before opening a window. On Getac",
+   "done": "",
+   "goal": false,
+   "under": 362,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Compare repeated launches of 879 and the current Windows build on the Getac with StarBoard touch USB connected and disconnected, keeping HDMI and the Getac touchscreen state fixed. Record time to the ",
+     "x": false
+    },
+    {
+     "t": "Fix the confirmed startup blocker and verify cold launch to Bootstrap Ready in both USB states, with StarBoard touch still working after launch.",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -4061,5 +4084,5 @@
   }
  ],
  "source_revision": "5d8e4cbca0ec2653e046da5b9b8636afe3eda813",
- "board_revision": "22b4053ad7d22c48989cc76d01a78d6edf9ac50a"
+ "board_revision": "195b82ee33e4c03e9770b3afe5dd1febc8768fc2"
 }
