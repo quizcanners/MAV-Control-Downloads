@@ -3307,14 +3307,20 @@
     {
      "who": "MAC_BOARD",
      "since": "2026-11-25T14:03Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-25T14:04Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-25T14:04Z",
+     "text": "Duplicate of 2221. Main already has local/VPN identity fix in 66fc82bad3. The Mac is PublishingPlatform.None, and LocalRestreamCanStartWithoutAVpnAddress deliberately exercises Windows RTSP publication. The existing Windows task retains the"
+    }
+   ]
   },
   {
    "n": 2220,
@@ -4039,5 +4045,5 @@
   }
  ],
  "source_revision": "47cae3c2d1587a0fe219ba558f308c56447dcc64",
- "board_revision": "182e65c23cdfd89407c7cdcedb74cb7f028b90a6"
+ "board_revision": "6b9b34533e957716254f5a9ba5e16e148030038c"
 }
