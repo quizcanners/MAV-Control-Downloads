@@ -3646,25 +3646,22 @@
   {
    "n": 2214,
    "name": "Area Weather Profile in Menu > Tools needs its first normal Editor Play Mode check after b282c7df. Weather SPEC",
-   "done": "",
+   "done": "2026-11-25T08:42Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_UI",
-     "since": "2026-11-25T08:36Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_UI",
+     "at": "2026-11-25T08:42Z",
+     "text": "Mac normal Unity Play on 403ca3c36f: Weather Profile opened through Tools; matched the displayed MGRS square to the capture, changed forecast hour both ways, saw the 1500 m and 2 m ends plus the 100 m highlight, and returned to Tools. Fixed"
+    }
+   ]
   },
   {
    "n": 2215,
@@ -3997,6 +3994,6 @@
    "since": "2026-11-24T22:20Z"
   }
  ],
- "source_revision": "553c5632375a10085c14d73f4b3f9b89b9c6b7c8",
- "board_revision": "af5f251fd9fec60c2eb536878099cf7956157bee"
+ "source_revision": "403ca3c36fd7cb9e31f850f3f45d6cfdfb805cee",
+ "board_revision": "b93e1acf79f644ad4773eb7e133a1c4145981368"
 }
