@@ -3621,7 +3621,7 @@
     {
      "who": "MAC_BOARD",
      "since": "2026-11-25T14:15Z",
-     "noted": "2026-11-25T14:39Z",
+     "noted": "2026-11-25T14:42Z",
      "progress": 25,
      "ticked": 0,
      "total": 0
@@ -3636,8 +3636,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-25T14:39Z",
-     "text": "Through 719e657723 on main: MessageCodec, UDP queue and Udp, TunnelLibrary and Tunnel, plus DirectRoute. Unity and cross-target checks passed. Existing tunnel-list bytes matched and DiagnosticCheckpointData still resolves under its original"
+     "at": "2026-11-25T14:42Z",
+     "text": "Also on main: 3978676ee8 moves all PayloadSplitter partials as one area. Unity legacy chunk and confirmation wire tests and the sender accounting host check passed. Continuing with Internet.Diagnostics, then VideoStreaming. Prior commits 6a"
     }
    ]
   },
@@ -4054,6 +4054,6 @@
    "since": "2026-11-25T09:49Z"
   }
  ],
- "source_revision": "719e657723f73614c1dd67c2341856b06ae0983f",
- "board_revision": "29bdbc1b2884d864da1863fb0e1a0de663f04a4d"
+ "source_revision": "3978676ee812b60977e2509bae66700abfb16525",
+ "board_revision": "6dbf0b729273d2b99cb73750dc4e5121c711bb79"
 }
