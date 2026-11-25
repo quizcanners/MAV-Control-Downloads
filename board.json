@@ -3071,26 +3071,6 @@
    ]
   },
   {
-   "n": 2209,
-   "name": "Simplify the Draft Disk rebuild code while preserving the Castle capture-distance LOD baseline.",
-   "done": "2026-11-24T14:00Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_CASTLE_CLEAN",
-     "at": "2026-11-24T14:00Z",
-     "text": "Published b1a6d9492e on main. Draft Disk rebuild now receives photo-freeze and registered-spacing options per call. Removed duplicate winner-index binding and five local iteration scratch files. Current SharedUI (62 sources) and runtime (29"
-    }
-   ]
-  },
-  {
    "n": 2210,
    "name": "Starlink GPS as spoof backup",
    "done": "2026-11-24T14:48Z",
@@ -3323,7 +3303,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-25T14:03Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -3636,8 +3625,8 @@
    "notes": [
     {
      "by": "cloud-naming",
-     "at": "2026-11-25T12:33Z",
-     "text": "Also: GeoTiff.Import/Raster/BakeCache/GpuResampler; Situation.Entities.Groups/Models, Events.Smoke, Effects.Backend, BakeTarget; SwarmEmulator.Backend/System and TrainingEcsSimulation.Backend/System; plus the earlier prefix-container, Video"
+     "at": "2026-11-25T13:57Z",
+     "text": "Also: Safeguard.API.Client, Waypoints.Sharing, MGRS.Parser, Geometry.MarkerTypes, Encryption, MAV.Fleet, Station.Input.Mouse.State/Stylus; folder moves; SelfTest per subject; Build.*, Peer.*, Ecs.*, FilePublication, GeoTiff, Situation, Swar"
     }
    ]
   },
@@ -4049,6 +4038,6 @@
    "since": "2026-11-25T09:49Z"
   }
  ],
- "source_revision": "eebb6141a75c9e287ced09231feeacc576f11253",
- "board_revision": "f71779b31419a18c9b218929fb877f17d353d8aa"
+ "source_revision": "47cae3c2d1587a0fe219ba558f308c56447dcc64",
+ "board_revision": "182e65c23cdfd89407c7cdcedb74cb7f028b90a6"
 }
