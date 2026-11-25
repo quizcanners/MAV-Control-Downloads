@@ -3091,26 +3091,6 @@
    ]
   },
   {
-   "n": 2207,
-   "name": "Suggestions tabs can start the panel dismissal flick and clear selection",
-   "done": "2026-11-24T13:02Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T13:02Z",
-     "text": "7752e060 on main keeps the Suggestions panel dismissal on panel presses and away from tabs. Main/Map is queued for verification. Unity regression fixtures are pending on task 2208 because main fails to compile."
-    }
-   ]
-  },
-  {
    "n": 2208,
    "name": "Windows Unity Editor cannot compile main after the Internet helper move. Network_UdpSplitter_Receive.cs reports an unexpected directive at line 19 and an expected #endif at line 234. Once Unity compil",
    "done": "2026-11-24T13:07Z",
@@ -3790,7 +3770,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_GETAC",
+     "at": "2026-11-25T13:03Z",
+     "text": "Getac Windows 879 reproduced the no-window stall on the first launch after reboot with StarBoard USB connected (14:58 local). Native main-thread unwind: UnityMain -> UnityPlayer -> RoGetActivationFactory -> Windows.Gaming.UI.GameBar.dll -> "
+    }
+   ]
   },
   {
    "n": 2241,
@@ -4064,5 +4050,5 @@
   }
  ],
  "source_revision": "3317d50e11bc160ade682ba14ef4cd99214316b5",
- "board_revision": "e4325b56f7def375c213bd75458a007f5faa5169"
+ "board_revision": "59f3c0d9c7438281591300f2ec3ec9af254749fa"
 }
