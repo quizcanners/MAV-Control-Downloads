@@ -3313,22 +3313,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-25T14:05Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_MAC_WEATHER",
      "at": "2026-11-25T09:03Z",
      "text": "Mac normal Unity Play after 82b12cc5d1 displayed a fresh full Open-Meteo forecast and the selected-hour surface summary. Live locality/region is still unconfirmed; this session displayed the MGRS square and provider without a place name."
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-25T14:11Z",
+     "text": "Normal Mac Unity showed a full Open-Meteo profile and surface fields in Weather Profile. The header had its MGRS square and provider, with no place name. The same reverse-geocoding endpoint with a public Zurich control from the Unity HttpCl"
     }
    ]
   },
@@ -4049,5 +4045,5 @@
   }
  ],
  "source_revision": "41e6ef162dc372b0bfd8a3557b3a818a6bd95f7a",
- "board_revision": "e96e45192c3e8d2b45170b9e5323701ccd077ec4"
+ "board_revision": "a6ea0ca988eb74dd85f2562fdb7037b0fdd53892"
 }
