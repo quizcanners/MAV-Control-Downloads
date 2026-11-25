@@ -309,25 +309,23 @@
      "x": true
     },
     {
-     "t": "Pin a reproducible tunnel.dll and wireguard.dll with SHA256SUMS in the Windows installer folder (HEAVY staged a matching pair on 2026-11-14 under C:/MavControlEvidence/WireGuard-371-20261113/repro-pai",
+     "t": "tunnel.dll rebuilt from wireguard-windows v1.1.1 and repinned (9b84aade60, quiz approved); 881 Windows Test ships it",
+     "x": true
+    },
+    {
+     "t": "881 on a PC: Allow VPN did nothing because the IL2CPP player has no Process.Start (runas threw, the error was hidden, sc.exe query/start/stop failed the same way). Now ShellExecuteEx runas on a worker",
+     "x": true
+    },
+    {
+     "t": "Windows PC with no WireGuard app, on a build after this fix: Open tunnel file or Paste, Allow VPN shows the Windows prompt once, the service installs (install.log \"installed\"), handshake with the sepa",
      "x": false
     },
     {
-     "t": "Windows PC with no WireGuard app: receive the tunnel file in chat, Install here (one admin consent) and join the separate server; Uninstall leaves no adapter. Getac Dev 833 returned UAC 1223 once; ret",
-     "x": false
-    },
-    {
-     "t": "Windows Forget drops its input before uninstall consent succeeds (CR-D7C6-01, Reviews/3d80fc828.md)",
+     "t": "Windows Forget drops its input before uninstall consent succeeds (CR-D7C6-01, Reviews/3d80fc828.md); Forget now waits on the main thread while the Windows prompt is open",
      "x": false
     }
    ],
-   "notes": [
-    {
-     "by": "CODEX_WINDOWS_WIREGUARD",
-     "at": "2026-11-25T09:12Z",
-     "text": "Main 9dece2ef58 requires the pinned Windows WireGuard pair and SHA256SUMS at build preflight and verifies both DLLs in the player and installer staging. NT68 lacks the E: installer drive and the pinned tunnel.dll. Publisher must stage the v"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 372,
@@ -4291,6 +4289,158 @@
      "text": "AGENTS.md, Development_Coordination and REFACTORING edits merged (789c1d09). Left: local agents stop editing main's Board.md; Editor refresh cause is done."
     }
    ]
+  },
+  {
+   "n": 2272,
+   "name": "Telemetry tab column on Windows",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Editor: open Telemetry with Status available, the Status row's right edge and its \"<\" arrow line up with Positioning, Video Source and the rest (landscape; portrait too if the column shows there). Not",
+     "x": false
+    },
+    {
+     "t": "Windows Test build after 881: same check, in Ukrainian (\"\u0421\u0442\u0430\u0442\u0443\u0441\") and English, and Pre-Flight when it is shown.",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 2273,
+   "name": "Restream with a start delay fails on Windows 881 (Video Restreaming",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Run the \"FFmpeg for video publishing\" workflow (workflow_dispatch) so CI commits ffmpeg.exe from the current recipe; TestRelayFFmpegCarriesCountdownPipes must pass there",
+     "x": false
+    },
+    {
+     "t": "Prepare-VideoRuntime.ps1 repackages mav-video-runtime.zip with the new FFmpeg and relay; new Windows Test build",
+     "x": false
+    },
+    {
+     "t": "Device: delay 00:30 on an RTMP/SRT/RTSP link with OBS as source, blue countdown then live picture on the receiver; VP8 RTSP/UDP link too",
+     "x": false
+    },
+    {
+     "t": "Editor: delay row shows Stop while restream is on and the timer reads 12m 34s; check Restream Panel.prefab layout after import",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 2274,
+   "name": "Split the one big Prublyda assembly (about 3",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2275,
+   "name": "Enter Play Mode Options are on but set to 0",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2276,
+   "name": "Shared import cache",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2277,
+   "name": "Faster Development players for verify loops",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2278,
+   "name": "Run pure-logic tests outside the Editor",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2279,
+   "name": "Trim what agents read before a build",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2280,
+   "name": "Matching Drill",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -4535,6 +4685,6 @@
    "since": "2026-11-25T15:45Z"
   }
  ],
- "source_revision": "4d044014e0bf2e19ba5252f98d350c4ba7862f0b",
- "board_revision": "d0306a62fffef07bc11409cf8fc77443118c9648"
+ "source_revision": "6134959fda8fcdbb11773aeea374681faefeee9b",
+ "board_revision": "f864871a534ee550f3ba5029dbcad89a98f58502"
 }
