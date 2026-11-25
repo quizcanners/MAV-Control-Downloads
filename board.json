@@ -3568,7 +3568,7 @@
     {
      "who": "MAC_BOARD",
      "since": "2026-11-25T14:15Z",
-     "noted": "2026-11-25T14:49Z",
+     "noted": "2026-11-25T14:54Z",
      "progress": 25,
      "ticked": 0,
      "total": 0
@@ -3583,8 +3583,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-25T14:49Z",
-     "text": "Internet section is on main through 523249e3f7. 9cc99fa937 renames Streaming to VideoStreaming. Legacy Streamer JSON matched byte for byte, all six saved delivery values passed in Unity, and the Spout and grid hosts accepted the real versio"
+     "at": "2026-11-25T14:54Z",
+     "text": "On main: e277ec6fc8 moves VideoStreaming.Sources and preserves source values 13/14; Unity camera selection and cancellation tests passed. 0bb2114c45 moves VideoStreaming.Diagnostics; the peer report fixture JSON matched and latency/grid che"
     }
    ]
   },
@@ -4001,6 +4001,6 @@
    "since": "2026-11-25T09:49Z"
   }
  ],
- "source_revision": "9cc99fa9376d4e5d87e7e62066014f0a8cca462b",
- "board_revision": "a564152d65a83c2efb07ea10194850b69d51424b"
+ "source_revision": "0bb2114c45898e84a6632111df6ef49e54bb791e",
+ "board_revision": "f00f6ce37acf73292d5f6bcf8308fafff2993378"
 }
