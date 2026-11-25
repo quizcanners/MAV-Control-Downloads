@@ -3015,26 +3015,6 @@
    "notes": []
   },
   {
-   "n": 2197,
-   "name": "Chat container",
-   "done": "2026-11-24T12:52Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T12:52Z",
-     "text": "4d207dd2 on main. Chat owns Manager, BackgroundProcess, IosBackground, WindowsBackgroundProcess, IosBackgroundWorker and packet/records. Saved fields and wire types are preserved. Rog Unity passed 142 Chat Edit Mode tests. Managed compiler "
-    }
-   ]
-  },
-  {
    "n": 2198,
    "name": "Drone container",
    "done": "",
@@ -3822,22 +3802,13 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_RASTER",
-     "since": "2026-11-25T12:45Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_MAC_RASTER",
-     "at": "2026-11-25T12:34Z",
-     "text": "1f278508cc on main. Mac automatic Esri stall sample (35 s): 38 parent saves, zero source downloads, 12 already present; 10,068 parents queued. Cached view now skips the modified snapshot and parent pass. After restart two streamed batches s"
+     "at": "2026-11-25T12:52Z",
+     "text": "3317d50e11 on main: Online Raster now stops after source adoption. Provider writes use the same durable parent dirtiness as peer tiles, with provider stamps intact. Deleted download-side parent composition and ordinary view inventory scan. "
     }
    ]
   }
@@ -4092,6 +4063,6 @@
    "since": "2026-11-25T09:49Z"
   }
  ],
- "source_revision": "3ea0412979e3bbebc14e2b534e7c7aca93cf1c84",
- "board_revision": "4d95b56469ad9df2501e373592acc0a610936850"
+ "source_revision": "3317d50e11bc160ade682ba14ef4cd99214316b5",
+ "board_revision": "e4325b56f7def375c213bd75458a007f5faa5169"
 }
