@@ -332,7 +332,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_WINDOWS_WIREGUARD",
+     "since": "2026-11-25T09:07Z",
+     "noted": "",
+     "progress": 25,
+     "ticked": 1,
+     "total": 4
+    }
+   ],
    "steps": [
     {
      "t": "Code done on main: background app is the tunnel service host, WindowsTunnelBridge behind IBridge, tunnel.windows.* wording, DLLs copied from the Setup folder against SHA256SUMS; plain split payloads f",
@@ -1846,16 +1855,7 @@
    "priority": "high",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "NT68-C15-002",
-     "since": "2026-11-25T08:42Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 7
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Reduce late-flight pose drift on Kalasatama using independent landmarks. Check depth at the same accepted pixels with independently fitted cameras (1897).",
@@ -1888,11 +1888,6 @@
    ],
    "notes": [
     {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T10:15Z",
-     "text": "quiz 2026-11-24: \"3D map is the main push now. Don\u2019t touch it.\""
-    },
-    {
      "by": "REVIEW_3D_GENERATION",
      "at": "2026-11-25T07:44Z",
      "text": "Sequential 3D review on main 1c41ef3a2c, Coordination/Reviews/3d-generation-2026-11-25.md. 3D-6758-01 couples the saved capture revision to durable Orthophoto publication, 02 bounds the lock-time GPU readback, 03 rechecks reference coverage"
@@ -1901,6 +1896,11 @@
      "by": "REVIEW_3D_GENERATION_SPEC",
      "at": "2026-11-25T08:11Z",
      "text": "032166b8fe specifies the next workflow from quiz. At end of file, elastic Photo Tension until stable or generation is stopped. Mark Positioned starts first bake. OrthoPhotoBakeUpdated follows actual projection edits, Rebake to Orthophoto re"
+    },
+    {
+     "by": "NT68-C15-002",
+     "at": "2026-11-25T09:06Z",
+     "text": "Main badc28fe57 closes source finding 3D-6758-03 by rechecking the exact marked reference tiles before applying a pending position fit. Unity compiled and the SQLite controls passed. Real cross-flight positioning and Zurich refusal stay on "
     }
    ]
   },
@@ -3743,22 +3743,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "NT68-C15-002",
-     "since": "2026-11-25T08:43Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "MAC-Orthophoto",
      "at": "2026-11-24T23:42Z",
      "text": "Main 6758af1b67. Kenilworth tiles versus three English Heritage triplets confirmed 0/3. Independent visual correspondences concentrated on castle walls. The measured cross-flight residual for 573 of 603 paired points was under 2 m. Native i"
+    },
+    {
+     "by": "NT68-C15-002",
+     "at": "2026-11-25T09:05Z",
+     "text": "Main badc28fe57 rejects a pending 3D placement when its marked Orthophoto reference tiles changed or were erased. SQLite controls passed; Unity compiled. Focused Unity test was refused in the populated data namespace. The Mac 0/3 Heritage r"
     }
    ]
   },
@@ -3815,18 +3811,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "Codex",
-     "since": "2026-11-25T08:47Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "Codex",
+     "at": "2026-11-25T09:09Z",
+     "text": "Fixed on main in 66fc82bad3. The normal Editor restarted after an out-of-memory crash and compiled. The Editor blocked the focused regression in ordinary Data with tests_require_disposable_data_namespace. Remaining verification: run Planet."
+    }
+   ]
   },
   {
    "n": 2222,
@@ -3847,6 +3840,52 @@
      "text": "Main 82b12cc5d1. Fixed Tools layout adds selected-hour precipitation chance and visibility below forecast time. Mac normal Unity Play upgraded a cached Open-Meteo profile and displayed live values. Advancing 10:00 to 11:00 changed 3% / 25.9"
     }
    ]
+  },
+  {
+   "n": 2223,
+   "name": "Video Restreaming",
+   "done": "",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "Codex",
+     "since": "2026-11-25T09:11Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2224,
+   "name": "Rename Situation to FlightZone Affectors in code and SPEC while keeping the localized Situation label",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_FLIGHTZONE_AFFECTORS",
+     "since": "2026-11-25T09:11Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -4111,6 +4150,6 @@
    "since": "2026-11-24T22:20Z"
   }
  ],
- "source_revision": "82b12cc5d112c198ccabb7f3b776bab857c0f9ea",
- "board_revision": "5e08bdd0c745313afdacd54aa35682ccef89b8b2"
+ "source_revision": "9dece2ef5832f0857b6a3253ec3141117382c713",
+ "board_revision": "546e6c90431ac91c4695f4426ab4a5131cff9db0"
 }
