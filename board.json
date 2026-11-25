@@ -4017,16 +4017,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_ANCHORED_FLIGHT",
-     "since": "2026-11-25T16:51Z",
-     "noted": "",
-     "progress": 33,
-     "ticked": 1,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Reproduce against reopened Anchored reference",
@@ -4044,8 +4035,8 @@
    "notes": [
     {
      "by": "CODEX_ANCHORED_FLIGHT",
-     "at": "2026-11-25T16:11Z",
-     "text": "Main bf10afcf6e. Mac TestRun reopened 11 original Kenilworth photos and built 1,010 landmarks. Heritage refused 12 landmark attempts. Zurich refused and seed archive hash stayed identical. Native probe localized 20/24 Kenilworth, 0/24 Herit"
+     "at": "2026-11-25T17:02Z",
+     "text": "517857b5fb published on main. Save persists connected Marker measurements with archived original RGB and paired depth. After a fresh-process Castle reload, 2,395 Markers yielded identical 46 and 44 Marker-backed matches; held-out P90 was 26"
     }
    ]
   },
@@ -4497,6 +4488,6 @@
    "since": "2026-11-25T15:45Z"
   }
  ],
- "source_revision": "0d53ffbc2d94527c4f4f48b33020c3a198c464ca",
- "board_revision": "b69d8797608ce0ffb6800e823159c095f540832a"
+ "source_revision": "517857b5fb7529749642d8bfb0d04af39d7ed56b",
+ "board_revision": "30ee7f5191325f3c90cd1dcd02f2d966c37dbe0c"
 }
