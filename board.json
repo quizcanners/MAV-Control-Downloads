@@ -332,16 +332,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_WINDOWS_WIREGUARD",
-     "since": "2026-11-25T09:07Z",
-     "noted": "",
-     "progress": 25,
-     "ticked": 1,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Code done on main: background app is the tunnel service host, WindowsTunnelBridge behind IBridge, tunnel.windows.* wording, DLLs copied from the Setup folder against SHA256SUMS; plain split payloads f",
@@ -360,7 +351,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_WINDOWS_WIREGUARD",
+     "at": "2026-11-25T09:12Z",
+     "text": "Main 9dece2ef58 requires the pinned Windows WireGuard pair and SHA256SUMS at build preflight and verifies both DLLs in the player and installer staging. NT68 lacks the E: installer drive and the pinned tunnel.dll. Publisher must stage the v"
+    }
+   ]
   },
   {
    "n": 372,
@@ -4174,5 +4171,5 @@
   }
  ],
  "source_revision": "9dece2ef5832f0857b6a3253ec3141117382c713",
- "board_revision": "f06a51787672d40b0fb749ef114c52a7890024f0"
+ "board_revision": "3ba6f6db1d9fcdaf573d0d635bed3553d2831b24"
 }
