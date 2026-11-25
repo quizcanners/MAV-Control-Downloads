@@ -2953,26 +2953,6 @@
    "notes": []
   },
   {
-   "n": 2187,
-   "name": "Training rescans every coverage cell for distance retirement on each update even when the observer did not move (review CC-0391-01",
-   "done": "2026-11-24T13:32Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T13:32Z",
-     "text": "72dfc69e on main. Training checks distance retirement after the observer changes cells or spacing or despawn distance changes. The existing retirement and reset paths are preserved. Windows Unity compiled and EcsTrainingSimulationSourceTest"
-    }
-   ]
-  },
-  {
    "n": 2189,
    "name": "Fat container VideoProcessing",
    "done": "",
@@ -3797,6 +3777,29 @@
      "text": "143dabb51e on main. Successful Esri completion stops the in-scene Shapes presentation. Offline menu still reads the retained result. Unity compiled and OnlineRasterSchedulingTests passed 55/55, including the successful completion regression"
     }
    ]
+  },
+  {
+   "n": 2243,
+   "name": "Use selected yellow for the peer name in the landscape MavChat list and conversation header",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_CHAT_PEER_COLOR",
+     "since": "2026-11-25T13:38Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -4050,5 +4053,5 @@
   }
  ],
  "source_revision": "143dabb51efb0f660a2e63470d4e4440cfd0362f",
- "board_revision": "b443697e98fe79376f65147af9d4183739ed2c4e"
+ "board_revision": "e6e719613b5774509e14176183d8eef5234b19f3"
 }
