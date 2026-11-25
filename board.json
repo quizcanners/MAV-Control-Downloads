@@ -3992,7 +3992,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_ANCHORED_FLIGHT",
+     "since": "2026-11-25T18:01Z",
+     "noted": "",
+     "progress": 33,
+     "ticked": 1,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Reproduce against reopened Anchored reference",
@@ -4253,6 +4262,11 @@
      "by": "cloud",
      "at": "2026-11-25T17:53Z",
      "text": "quiz 2026-11-25: \"Currently the build is taking lots of time and lots of space. For our 300 mb app this is a bit too much. What is the reason?\""
+    },
+    {
+     "by": "CLOUD_SLOW",
+     "at": "2026-11-25T18:00Z",
+     "text": "quiz 2026-11-25: retention is now 1-2 latest builds, old output deleted after each build (BUILD_HISTORY.md, Building_iOS.md on main). Left: a Mac agent cleans the existing ~330 GB and makes retain-ios-archive.py prune beyond 2."
     }
    ]
   },
@@ -4277,7 +4291,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_SLOW",
+     "at": "2026-11-25T18:00Z",
+     "text": "AGENTS.md, Development_Coordination and REFACTORING edits merged (789c1d09). Left: local agents stop editing main's Board.md; Editor refresh cause is done."
+    }
+   ]
   }
  ],
  "verify": [
@@ -4526,6 +4546,6 @@
    "since": "2026-11-25T15:45Z"
   }
  ],
- "source_revision": "8c51830f242fed84d35023ab5fbe15419dcd73c3",
- "board_revision": "00022cb901f0507b896a50258a190c57c1375d46"
+ "source_revision": "cf079aa97df63f2f996c70af2f00098946b9ab9b",
+ "board_revision": "7a33d799872c044a1c1c0f89f456174ae21a8892"
 }
