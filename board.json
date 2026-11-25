@@ -3564,16 +3564,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-25T14:15Z",
-     "noted": "2026-11-25T15:28Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
@@ -3583,8 +3574,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-25T15:28Z",
-     "text": "Main through ed9e1671ea moves Streamer to Systems/Video Streaming and updates the four guide destinations quiz approved. Compared 157 Unity metadata files byte-for-byte, ran grid/Spout checks, and verified the Editor resolves the original G"
+     "at": "2026-11-25T15:32Z",
+     "text": "Delivered through 1d7784873f on main. Streamer moved to Systems/Video Streaming in ed9e1671ea with all 157 metadata files intact. Keep RestreamLink and its saved Link field per 5cd76e1312. Unity passed ECS runtime load and text slot tests. "
     }
    ]
   },
@@ -4024,6 +4015,6 @@
    "since": "2026-11-25T09:49Z"
   }
  ],
- "source_revision": "ed9e1671eaefaf4fb5021e8ffe6b1c12d6877f0b",
- "board_revision": "c5a279bfcc4f215a0d3024522e6a883753e455bb"
+ "source_revision": "1d7784873f7928fb43f37467d168cdaaccea8de1",
+ "board_revision": "45d1d21abe17a327bf8f7ab4e233a192b961eb35"
 }
