@@ -3076,59 +3076,6 @@
    ]
   },
   {
-   "n": 2210,
-   "name": "Starlink GPS as spoof backup",
-   "done": "2026-11-24T14:48Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "SPEC: ultimate design, compromises and quiz's three answers written",
-     "x": true
-    },
-    {
-     "t": "Read the position from get_location (lla and source in one reply) in place of get_diagnostics; get_location is confirmed working on quiz's dish over grpcurl on port 9200, the app keeps gRPC-Web on 920",
-     "x": false
-    },
-    {
-     "t": "Settings / GPS / Starlink: a test of get_location on both ports, 9200 (gRPC over HTTP/2 without TLS, which the app's HttpClient may not speak) and 9201 (gRPC-Web); each shows its position and source o",
-     "x": false
-    },
-    {
-     "t": "Freshness from the reply's arrival time, not a comparison with the phone clock",
-     "x": false
-    },
-    {
-     "t": "Read the dish's error radius and GPS state (get_status inhibit_gps / gpsValid)",
-     "x": false
-    },
-    {
-     "t": "Ask the dish every 30 s while the phone is fresh and compare the two fixes",
-     "x": false
-    },
-    {
-     "t": "On disagreement light the Starlink icon and show both points on the map; a tap chooses the valid one; a clearly spoofed point is not choosable and the other is taken without a tap",
-     "x": false
-    },
-    {
-     "t": "GPS panel and Settings / GPS: option to switch the dish to Starlink positioning exclusively (dish_inhibit_gps), state read from the dish",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "cloud-starlink-review",
-     "at": "2026-11-24T14:48Z",
-     "text": "On main 1e3c5b734c, not compiled in Unity (cmp.sh: only missing-UnityEngine lines for the new file GPS_StarlinkDish.cs). Done: get_location with source and error radius, get_status GPS state, 30 s compare poll, disagreement with both points"
-    }
-   ]
-  },
-  {
    "n": 2211,
    "name": "MavChat GPS and Settings / GPS / Starlink review follow-up for 2210. A phone fix marked unreliable can become the shared position if the dish fix expires. The 9201 reader accepts incomplete replies as",
    "done": "2026-11-25T14:10Z",
@@ -3621,7 +3568,7 @@
     {
      "who": "MAC_BOARD",
      "since": "2026-11-25T14:15Z",
-     "noted": "2026-11-25T14:45Z",
+     "noted": "2026-11-25T14:49Z",
      "progress": 25,
      "ticked": 0,
      "total": 0
@@ -3636,8 +3583,8 @@
     },
     {
      "by": "MAC_BOARD",
-     "at": "2026-11-25T14:45Z",
-     "text": "Internet scope published through eb5be323c3: MessageCodec, Udp/UdpQueue, Tunnel/TunnelLibrary, DirectRoute, PayloadSplitter, and Diagnostics. Unity core checks and the UDP host mutation cases passed. Saved checkpoint identity and tunnel lis"
+     "at": "2026-11-25T14:49Z",
+     "text": "Internet section is on main through 523249e3f7. 9cc99fa937 renames Streaming to VideoStreaming. Legacy Streamer JSON matched byte for byte, all six saved delivery values passed in Unity, and the Spout and grid hosts accepted the real versio"
     }
    ]
   },
@@ -4054,6 +4001,6 @@
    "since": "2026-11-25T09:49Z"
   }
  ],
- "source_revision": "eb5be323c39fce598845def20748fbcd60f46105",
- "board_revision": "d700d523cbce506acdf7b032dc0cf7ddace99afb"
+ "source_revision": "9cc99fa9376d4e5d87e7e62066014f0a8cca462b",
+ "board_revision": "a564152d65a83c2efb07ea10194850b69d51424b"
 }
