@@ -3935,25 +3935,22 @@
   {
    "n": 2229,
    "name": "MavChat MavTube shows a black bar",
-   "done": "",
+   "done": "2026-11-25T09:44Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_MAVTUBE_FIX",
-     "since": "2026-11-25T09:39Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_MAVTUBE_FIX",
+     "at": "2026-11-25T09:44Z",
+     "text": "9cb3f348a2 on main. Reproduced at 486x900 in Unity Play: the opaque interaction overlay covered Start stream. Moved the camera caption and the peer picture/name above their overlays. Confirmed Start stream rendered at both fold stops and th"
+    }
+   ]
   }
  ],
  "verify": [
@@ -4040,22 +4037,6 @@
   {
    "screen": "Pilot View",
    "since": "2026-11-21T12:33Z"
-  },
-  {
-   "screen": "Actions",
-   "since": "2026-11-18T08:28Z"
-  },
-  {
-   "screen": "Navigator",
-   "since": "2026-11-18T09:16Z"
-  },
-  {
-   "screen": "Copilot",
-   "since": "2026-11-18T09:16Z"
-  },
-  {
-   "screen": "Timeline",
-   "since": "2026-11-18T09:17Z"
   },
   {
    "screen": "Drones/DJI",
@@ -4218,6 +4199,6 @@
    "since": "2026-11-24T22:20Z"
   }
  ],
- "source_revision": "0aa1a76acb3a168c624713e98fb9eb9b278bf754",
- "board_revision": "149b8bd38d75f329430d3253d1b91ba94a5c6df8"
+ "source_revision": "9cb3f348a2f5bed0469823aed995f88b67b322a4",
+ "board_revision": "eb9e31370975c6636fcbd37ad52d9bd5a4ba9752"
 }
