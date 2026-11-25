@@ -3112,31 +3112,6 @@
    ]
   },
   {
-   "n": 2212,
-   "name": "Recorded-file photo selection in 3D Map Generation. Keep eight distinct views moving one exposure at a time",
-   "done": "2026-11-24T17:52Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_PHOTO_SELECTION",
-     "at": "2026-11-24T17:47Z",
-     "text": "Delivered 51f95fb915. Full 1x Zurich with actual predicted file camera: rolling diameter median 18.67m vs fixed 4.83m, newest age 2.3 vs 3.4s, 2s shown-camera epipolar P90 11.74 vs 41.42px. Fixed stale-edge runaway (max 103.52 to 23.86m), s"
-    },
-    {
-     "by": "CODEX_RECORDED_TENSION",
-     "at": "2026-11-24T17:52Z",
-     "text": "Accepted under revised practical bar. Second full 98.8 s 1x Play Mode Zurich pass at 51f95fb915: 40/40 windows, median surveyed diameter 18.74m, max 22.25m, largest adjacent gap max 3.75m, mapped age max 2.5s. Actual file camera P90 14.40 v"
-    }
-   ]
-  },
-  {
    "n": 2213,
    "name": "Bring paused recorded photo reconciliation to its stable result in under 30 seconds",
    "done": "",
@@ -4017,16 +3992,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_ANCHORED_FLIGHT",
-     "since": "2026-11-25T17:51Z",
-     "noted": "",
-     "progress": 33,
-     "ticked": 1,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Reproduce against reopened Anchored reference",
@@ -4044,8 +4010,8 @@
    "notes": [
     {
      "by": "CODEX_ANCHORED_FLIGHT",
-     "at": "2026-11-25T17:30Z",
-     "text": "49e9c3b946 on main. Save ranks additional paired photos by the sum of 1/(1+N^2) for each Marker across distinct shutters. Unity PhotoMarkerTests 11/11. Fresh Kenilworth SVMF kept 742 tracks, 2,395 observations, 22 photo/depth pairs; latest "
+     "at": "2026-11-25T17:52Z",
+     "text": "Controlled offline native replay on actual archives isolated sparse landmark construction. Saved 25.17s/Heritage 11.50s yields 63 pair matches. Recreated sparse shortlist localized 5/24 latest, all 22 refs 1/24; one saved RGB/depth photo in"
     }
    ]
   },
@@ -4518,5 +4484,5 @@
   }
  ],
  "source_revision": "49e9c3b9465cb083eab19da67f96ee532f317358",
- "board_revision": "88f424271ad90d8254c945be1e1186d1166b2d34"
+ "board_revision": "91a09bf86990f4ad4616c95aa0b62d2c2a10fc2b"
 }
