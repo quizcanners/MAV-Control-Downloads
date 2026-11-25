@@ -3848,18 +3848,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "Codex",
-     "since": "2026-11-25T09:11Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "Codex",
+     "at": "2026-11-25T09:17Z",
+     "text": "Published f9e4a4fddb to main. Normal Editor refreshed and compiled. The new EditMode regression is blocked in ordinary Data by tests_require_disposable_data_namespace. Remaining checks: run LocalRestreamKeepsItsSettingsWhenTheStationGetsAVp"
+    }
+   ]
   },
   {
    "n": 2224,
@@ -3884,25 +3881,22 @@
   {
    "n": 2225,
    "name": "Add the Scenes panel to MavChat Portrait. Select one Markers group or Coding scene using existing scene owners. The panel contains only those two row types. No goal fits.",
-   "done": "",
+   "done": "2026-11-25T09:18Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_SCENES",
-     "since": "2026-11-25T09:11Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_SCENES",
+     "at": "2026-11-25T09:18Z",
+     "text": "Main e6be103549. MavChat Scenes has its own Portrait prefab and an exclusive selection across Coding scenes and Markers groups. Mac normal Unity Play at 430x860: switched MavTube \u2194 Scenes using the carousel, rendered two Coding scenes and t"
+    }
+   ]
   }
  ],
  "verify": [
@@ -4167,6 +4161,6 @@
    "since": "2026-11-24T22:20Z"
   }
  ],
- "source_revision": "003b735c25f437c66d283a79429dbcd83aebbc25",
- "board_revision": "55227a4044268f502c1f47144b3a51f8b7bb7772"
+ "source_revision": "e6be103549dd7878bc0be43b3cb64b53aaa10f86",
+ "board_revision": "3957c0b1a2fd41a3ba556a62aa2d292389f7bf91"
 }
