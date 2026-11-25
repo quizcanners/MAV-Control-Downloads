@@ -4017,16 +4017,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_ANCHORED_FLIGHT",
-     "since": "2026-11-25T17:23Z",
-     "noted": "",
-     "progress": 33,
-     "ticked": 1,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Reproduce against reopened Anchored reference",
@@ -4044,8 +4035,8 @@
    "notes": [
     {
      "by": "CODEX_ANCHORED_FLIGHT",
-     "at": "2026-11-25T17:15Z",
-     "text": "Unity TestRun at 517857b5fb verified exact SVMF archive across Play restart. 711 Marker tracks, 2,378 observations, 24 paired photos. Both runs loaded all observations and seeded the same 1,336 landmarks from 12 references. Heritage 0/12 jo"
+     "at": "2026-11-25T17:30Z",
+     "text": "49e9c3b946 on main. Save ranks additional paired photos by the sum of 1/(1+N^2) for each Marker across distinct shutters. Unity PhotoMarkerTests 11/11. Fresh Kenilworth SVMF kept 742 tracks, 2,395 observations, 22 photo/depth pairs; latest "
     }
    ]
   },
@@ -4517,6 +4508,6 @@
    "since": "2026-11-25T15:45Z"
   }
  ],
- "source_revision": "d0e611b38a83fd3dfc65d72885218b8be4ad9120",
- "board_revision": "30e9d21f70ca6f2510627dfb4d7b3fbf37d7e31b"
+ "source_revision": "49e9c3b9465cb083eab19da67f96ee532f317358",
+ "board_revision": "8b6b6230599727ca7e10147c80f2345550faed12"
 }
