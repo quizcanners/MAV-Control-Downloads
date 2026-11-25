@@ -3792,25 +3792,22 @@
   {
    "n": 2239,
    "name": "MavChat Route",
-   "done": "",
+   "done": "2026-11-25T12:15Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_ROUTE",
-     "since": "2026-11-25T12:11Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_ROUTE",
+     "at": "2026-11-25T12:15Z",
+     "text": "Published 5d8e4cbca0 on main. Focused Unity prefab test passed. Mac Unity Play Mode verified the ready Route, tinted and non-interactive To, interactive unset From, and visible route actions."
+    }
+   ]
   }
  ],
  "verify": [
@@ -4063,6 +4060,6 @@
    "since": "2026-11-25T09:49Z"
   }
  ],
- "source_revision": "bdb6f51480fb5ca7a4462e0f6c6bf837f6483155",
- "board_revision": "8be4b3b4e9e8258f157f3c75f2dc5c587ff37233"
+ "source_revision": "5d8e4cbca0ec2653e046da5b9b8636afe3eda813",
+ "board_revision": "22b4053ad7d22c48989cc76d01a78d6edf9ac50a"
 }
