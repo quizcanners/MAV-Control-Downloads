@@ -293,36 +293,6 @@
    ]
   },
   {
-   "n": 370,
-   "name": "A server is one file: boot it fresh, change it, roll it back, no hand installer",
-   "done": "2026-11-24T09:56Z",
-   "goal": true,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-14T07:26Z",
-     "text": "HEAVY prepared a source-matched, self-contained Linux x64 MavServer archive (bf507558fc) for vm-test.nix at C:/MavControlEvidence/Windows-370-20261114/routing.tar.gz with adjacent SHA-256; archive entries and ELF headers verified. Windows s"
-    },
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T05:26Z",
-     "text": "Mac Editor proof on macOS 868 source 92d77fa0c1 includes all five named commits. Exact build-gate XML: DirectRouteHubTypesTests 5/5, ServerSpecsTests 10/10, LocalizationAssetTests 19/19. Both native language catalogs cover routingServer.wg."
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T09:56Z",
-     "text": "Pruned 2026-11-24: quiz does not use MavServer for VPN; server-as-one-file, release and Admin-bind work dropped."
-    }
-   ]
-  },
-  {
    "n": 371,
    "name": "VPN tunnel: Windows runs WireGuard inside the app as Android does, joining quiz's own separate WireGuard server (not MavServer), a new device joins by QR, and peers inside the tunnel send plain split ",
    "done": "",
@@ -2233,26 +2203,6 @@
    ]
   },
   {
-   "n": 2087,
-   "name": "MavServer release with the Admin tunnel bind (task 558",
-   "done": "2026-11-24T09:56Z",
-   "goal": false,
-   "under": 370,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T09:56Z",
-     "text": "Pruned 2026-11-24: quiz does not use MavServer for VPN."
-    }
-   ]
-  },
-  {
    "n": 2095,
    "name": "Point Clouds layer streams detail from nearby Street View photo depth",
    "done": "",
@@ -4005,6 +3955,29 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 2233,
+   "name": "Share screen center disappears when flicked off; keep the off button available like it is after tapping.",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "MAC_CENTER_FLICK",
+     "since": "2026-11-25T09:56Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
@@ -4258,5 +4231,5 @@
   }
  ],
  "source_revision": "0c87f3394f5387a0e5b0e3ddfe80017228a6f4a4",
- "board_revision": "2f2640000c710bc53cf7214b335b9bf7827d0ea0"
+ "board_revision": "39c37fc6a08ff2e208dda1bd7cbd2580d3c52240"
 }
