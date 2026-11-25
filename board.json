@@ -3135,29 +3135,25 @@
   {
    "n": 2211,
    "name": "MavChat GPS and Settings / GPS / Starlink review follow-up for 2210. A phone fix marked unreliable can become the shared position if the dish fix expires. The 9201 reader accepts incomplete replies as",
-   "done": "",
+   "done": "2026-11-25T14:10Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_BOARD",
-     "since": "2026-11-25T14:06Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_GPS_REVIEW",
      "at": "2026-11-24T21:44Z",
      "text": "Quiz: \"Rejected is better then no fix. We need to show something to know fix is wrong.\" Keep the fix and mark the primary map point red. Quiz accepts the dish-mode switch in Settings only (\"That is fine\"). For 9201, suggested change: admit "
+    },
+    {
+     "by": "MAC_BOARD",
+     "at": "2026-11-25T14:10Z",
+     "text": "Port 9201 now requires one complete uncompressed data frame followed by a final unique grpc-status: 0 trailer. This source, SPEC and its regression test were included in 41e6ef162d on main. Normal Mac Editor compiled and three focused Starl"
     }
    ]
   },
@@ -4047,6 +4043,6 @@
    "since": "2026-11-25T09:49Z"
   }
  ],
- "source_revision": "1fa1774fc6962aa18fd5832975d5cc8cfbe375d2",
- "board_revision": "a5637b26c887be859cab4783930df89ca268ea59"
+ "source_revision": "41e6ef162dc372b0bfd8a3557b3a818a6bd95f7a",
+ "board_revision": "c4d1ead68c1c2ad4f4d92dd4b295bb3f6f864bd7"
 }
