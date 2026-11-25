@@ -2941,26 +2941,6 @@
    ]
   },
   {
-   "n": 2183,
-   "name": "Schedule Esri viewport tiles only while idle and after peer sources",
-   "done": "2026-11-24T10:28Z",
-   "goal": false,
-   "under": 366,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T10:28Z",
-     "text": "quiz: By the way, since we now download missing tiles from ERSI. Be sure to select tiles to download when user is not interacting, and don\u2019t start loading all at once, so as user moves, we still have spots to start new downloads. Additional"
-    }
-   ]
-  },
-  {
    "n": 2184,
    "name": "Remote Sensors",
    "done": "",
@@ -4014,25 +3994,22 @@
   {
    "n": 2237,
    "name": "MavChat GPS shows the exact current Starlink tracking state below the buttons",
-   "done": "",
+   "done": "2026-11-25T10:31Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_STARLINK_GPS",
-     "since": "2026-11-25T10:21Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_STARLINK_GPS",
+     "at": "2026-11-25T10:31Z",
+     "text": "bdb6f51480 on main. Unity compiled, Roslyn found no new errors, and the portrait GPS panel showed a real timeout on the Mac with no dish. Simulated HTTP/gRPC/reply failures updated the line. Both new checks passed and English/Ukrainian labe"
+    }
+   ]
   }
  ],
  "verify": [
@@ -4285,6 +4262,6 @@
    "since": "2026-11-25T09:49Z"
   }
  ],
- "source_revision": "1cb6a769e3a87c99eeb49b3f2f3796ea425e3f96",
- "board_revision": "bc061220e36d0b27ff0c40d2939284c23fdbb76b"
+ "source_revision": "bdb6f51480fb5ca7a4462e0f6c6bf837f6483155",
+ "board_revision": "cbf32de1e1046ae29ff967ea8a77297a71d74557"
 }
