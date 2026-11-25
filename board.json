@@ -4055,14 +4055,20 @@
     {
      "who": "cloud-gps",
      "since": "2026-11-25T15:51Z",
-     "noted": "",
-     "progress": 0,
+     "noted": "2026-11-25T15:53Z",
+     "progress": 25,
      "ticked": 0,
      "total": 0
     }
    ],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "cloud-gps",
+     "at": "2026-11-25T15:53Z",
+     "text": "done in code: restart on Failed (10 s) + accuracy-class restart (Station_GPSlocation.cs); iOS native session runs for route recording with fix buffer drained on return (.mm, Chat_Background_Ios.cs, SPEC compromise 7). Not compiled."
+    }
+   ]
   },
   {
    "n": 2259,
@@ -4413,5 +4419,6 @@
    "since": "2026-11-25T15:45Z"
   }
  ],
- "source_revision": "f7280dd14917c2ed86c0130291f8a3e4e68c9a4f"
+ "source_revision": "f7280dd14917c2ed86c0130291f8a3e4e68c9a4f",
+ "board_revision": "4ca880ee0b206e90919848d1453e42f21e0eb10c"
 }
