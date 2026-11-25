@@ -3968,25 +3968,22 @@
   {
    "n": 2233,
    "name": "Share screen center disappears when flicked off; keep the off button available like it is after tapping.",
-   "done": "",
+   "done": "2026-11-25T10:08Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_CENTER_FLICK",
-     "since": "2026-11-25T09:56Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_CENTER_FLICK",
+     "at": "2026-11-25T10:08Z",
+     "text": "5417246c34 on main. Roslyn found no additions. Normal Unity 6000.6.8f1 landscape Play Mode: a real backing drag closed Suggestions, the Screen Center tab stayed at the same coordinates and tapped open again. The separate EditMode runner req"
+    }
+   ]
   },
   {
    "n": 2234,
@@ -4276,6 +4273,6 @@
    "since": "2026-11-25T09:49Z"
   }
  ],
- "source_revision": "036ed1d7d32a359fc62c876ad09ae9d2b3257504",
- "board_revision": "35842eb6e9b10479dc9f78edb7b51fd6b86e9f80"
+ "source_revision": "5417246c348a482a08d36bb9243435dc98ea3949",
+ "board_revision": "b1183a6c2c688bf8472fd81be6f90cbd1387ad06"
 }
