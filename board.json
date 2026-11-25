@@ -3736,8 +3736,8 @@
    "notes": [
     {
      "by": "cloud-naming",
-     "at": "2026-11-25T10:20Z",
-     "text": "Also: Station.OS.KeepAwake/ChildProcess with platform parts, Station.OS.Windows.Firewall; SineLink.Native/SelfTest/Exception; Mavlink.Telemetry.Peer/Inbox/Replay/Capacity; VideoRestreaming.Link/Destination/Settings/StartDelay. Details in fa"
+     "at": "2026-11-25T12:33Z",
+     "text": "Also: GeoTiff.Import/Raster/BakeCache/GpuResampler; Situation.Entities.Groups/Models, Events.Smoke, Effects.Backend, BakeTarget; SwarmEmulator.Backend/System and TrainingEcsSimulation.Backend/System; plus the earlier prefix-container, Video"
     }
    ]
   },
@@ -3842,18 +3842,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_MAC_RASTER",
-     "since": "2026-11-25T12:29Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_RASTER",
+     "at": "2026-11-25T12:34Z",
+     "text": "1f278508cc on main. Mac automatic Esri stall sample (35 s): 38 parent saves, zero source downloads, 12 already present; 10,068 parents queued. Cached view now skips the modified snapshot and parent pass. After restart two streamed batches s"
+    }
+   ]
   }
  ],
  "verify": [
@@ -4106,6 +4103,6 @@
    "since": "2026-11-25T09:49Z"
   }
  ],
- "source_revision": "3bfdcb437dd8559fdd564d68ca358f950289b355",
- "board_revision": "3427ff59610e1e6c673833a849fdd66a6a84940d"
+ "source_revision": "1f278508ccec5f56aa106da0704d99a4f1a77863",
+ "board_revision": "f8f90203d44df27eca4b64e8d8dbf9da23f70f22"
 }
