@@ -3955,25 +3955,22 @@
   {
    "n": 2230,
    "name": "Add a shadow to the Sent/Complete action feedback and narrow it in MavChat while retaining its landscape width.",
-   "done": "",
+   "done": "2026-11-25T09:49Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_ACTION_FEEDBACK",
-     "since": "2026-11-25T09:45Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_ACTION_FEEDBACK",
+     "at": "2026-11-25T09:49Z",
+     "text": "f0bf6a2431 on main. Authored the shared soft shadow behind the action feedback surface, under the same animation and fade. A sample Bake complete plaque rendered in Unity Play at 486x900 and 960x540. Runtime widths were 400 in MavChat and 5"
+    }
+   ]
   }
  ],
  "verify": [
@@ -4220,8 +4217,12 @@
   {
    "screen": "Peers",
    "since": "2026-11-24T22:20Z"
+  },
+  {
+   "screen": "Notifications",
+   "since": "2026-11-25T09:49Z"
   }
  ],
- "source_revision": "9cb3f348a2f5bed0469823aed995f88b67b322a4",
- "board_revision": "6f61f10372f680865820bd21a6639716482a4079"
+ "source_revision": "f0bf6a24316cec5a76b28aa5d36ae4031132c8f4",
+ "board_revision": "be296a5cd0257fe7b8a66087e4a2e2858c6e7c18"
 }
