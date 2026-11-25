@@ -2008,31 +2008,6 @@
    ]
   },
   {
-   "n": 1917,
-   "name": "Use measured DJI Zenmuse LiDAR for 3D map generation. Project calibrated DJI Terra LiDAR and RGB into paired metric depth and rebuild Disks in Unity without Depth Anything. Keep the live Payload SDK s",
-   "done": "2026-11-24T10:11Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-20T16:53Z",
-     "text": "30503ad4f7 on main opens a Positioned draft with the first calibrated DJI depth frame before model admission. Later Depth Anything must match the retained exposure before joining the metric surface. 17 portable controller checks passed; Ros"
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T10:11Z",
-     "text": "Pruned 2026-11-24: quiz does not fly with Zenmuse LiDAR (quiz: \"I think i don\u2019t fly with it\")."
-    }
-   ]
-  },
-  {
    "n": 1929,
    "name": "Peer Video startup",
    "done": "",
@@ -4017,6 +3992,26 @@
    "flags": [],
    "held": [],
    "steps": [],
+   "notes": [
+    {
+     "by": "cloud-naming",
+     "at": "2026-11-25T10:15Z",
+     "text": "Also: PeerVideoManager (+PeerVideoNative, PeerVideoSelfTest) to VideoLink with Native and SelfTest; AndroidCapture{Adb,Protocol,Runtime,Session} to AndroidCapture.{Adb,Protocol,Runtime,Session}; every nested Persistent class to PersistentDa"
+    }
+   ]
+  },
+  {
+   "n": 2236,
+   "name": "Apply the 6000.6.10f1 project upgrade on the Windows Editor PC and Getac. Install the matching build modules",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
    "notes": []
   }
  ],
@@ -4270,6 +4265,6 @@
    "since": "2026-11-25T09:49Z"
   }
  ],
- "source_revision": "dc1feef3bcd951efb7303d9a1023a27ab12ba3f0",
- "board_revision": "a732d1402b38e024ffd44c86b6be6ec4f78e4628"
+ "source_revision": "3fd5f8cbd653bc448801d9fba6122aaf5deb1864",
+ "board_revision": "f0082b52637d28fc2d4dca23652c7f459207db46"
 }
