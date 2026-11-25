@@ -2830,7 +2830,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "MAC_BOARD",
+     "since": "2026-11-25T14:08Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -3625,8 +3634,8 @@
    "notes": [
     {
      "by": "cloud-naming",
-     "at": "2026-11-25T13:57Z",
-     "text": "Also: Safeguard.API.Client, Waypoints.Sharing, MGRS.Parser, Geometry.MarkerTypes, Encryption, MAV.Fleet, Station.Input.Mouse.State/Stylus; folder moves; SelfTest per subject; Build.*, Peer.*, Ecs.*, FilePublication, GeoTiff, Situation, Swar"
+     "at": "2026-11-25T14:06Z",
+     "text": "Also: Station.OS.Network (was Station.NetworkInspector); Safeguard.API.Client, Waypoints.Sharing, MGRS.Parser, Geometry.MarkerTypes, Encryption, MAV.Fleet, Station.Input.Mouse.State/Stylus; folder moves; SelfTest per subject; Build.*, Peer."
     }
    ]
   },
@@ -4038,6 +4047,6 @@
    "since": "2026-11-25T09:49Z"
   }
  ],
- "source_revision": "47cae3c2d1587a0fe219ba558f308c56447dcc64",
- "board_revision": "f1259af765cf11987c269e73b7357667c1b6b964"
+ "source_revision": "1fa1774fc6962aa18fd5832975d5cc8cfbe375d2",
+ "board_revision": "a5637b26c887be859cab4783930df89ca268ea59"
 }
