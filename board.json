@@ -3945,25 +3945,22 @@
   {
    "n": 2232,
    "name": "Unity compile regressed in 85288617c6",
-   "done": "",
+   "done": "2026-11-25T10:09Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_CENTER_FLICK",
-     "since": "2026-11-25T10:04Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_CENTER_FLICK",
+     "at": "2026-11-25T10:09Z",
+     "text": "dc1feef3bc on main. Distinct TunnelController, DirectRouteController and PayloadSplitterController types preserve the instance field names. Roslyn found no new errors, normal Unity compiled, and MavChat landscape ran in Play Mode."
+    }
+   ]
   },
   {
    "n": 2233,
@@ -4273,6 +4270,6 @@
    "since": "2026-11-25T09:49Z"
   }
  ],
- "source_revision": "5417246c348a482a08d36bb9243435dc98ea3949",
- "board_revision": "b1183a6c2c688bf8472fd81be6f90cbd1387ad06"
+ "source_revision": "dc1feef3bcd951efb7303d9a1023a27ab12ba3f0",
+ "board_revision": "a732d1402b38e024ffd44c86b6be6ec4f78e4628"
 }
