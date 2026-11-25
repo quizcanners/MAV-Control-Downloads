@@ -3703,6 +3703,11 @@
      "by": "MAC_BOARD",
      "at": "2026-11-25T14:15Z",
      "text": "Observed the existing manual Esri run passively. Its plan and stored check were complete throughout the 30.3 s sample. Downloaded advanced 35 to 90 with zero failures; IndexReading, Reading, Applying and Writing all appeared, with no multi-"
+    },
+    {
+     "by": "esri-review",
+     "at": "2026-11-25T15:36Z",
+     "text": "Review 2026-11-25 (cloud): three waits found in code, split into follow-up tasks: whole-JPEG stored check before the first request; batch gap in recorded downloads (plan + check with nothing in flight); strictly serial fetch with main-threa"
     }
    ]
   },
@@ -3765,12 +3770,72 @@
      "text": "814d3d8d53 on main. Unity compiled; both native countdown tests passed on macOS with FFmpeg. Prepared Editor and Windows destination plus peer acceptance are tracked in task 2182."
     }
    ]
+  },
+  {
+   "n": 2245,
+   "name": "WebMercator Online downloads (SPEC Online downloads",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2246,
+   "name": "WebMercator Online downloads (SPEC Online downloads",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2247,
+   "name": "WebMercator Online downloads (SPEC Online downloads",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2248,
+   "name": "Windows tunnel service",
+   "done": "",
+   "goal": false,
+   "under": 371,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
   }
  ],
  "verify": [
   {
    "screen": "Map",
    "since": "2026-11-22T09:07Z"
+  },
+  {
+   "screen": "Video",
+   "since": "2026-11-22T06:34Z"
   },
   {
    "screen": "Main/Map",
@@ -3953,10 +4018,6 @@
    "since": "2026-11-21T19:46Z"
   },
   {
-   "screen": "Video",
-   "since": "2026-11-22T06:34Z"
-  },
-  {
    "screen": "Map/Planet",
    "since": "2026-11-22T08:51Z"
   },
@@ -4017,6 +4078,6 @@
    "since": "2026-11-25T09:49Z"
   }
  ],
- "source_revision": "814d3d8d539a8c589f75efece6f3aadea5e6a09b",
- "board_revision": "6b12f431953fd2fd98e73642dddc2d18fa6326d3"
+ "source_revision": "3f395c27bcbc9179da04986e384a884849edad71",
+ "board_revision": "68d5938342370b195ffb9ca1b860d89e4370a6af"
 }
