@@ -1874,11 +1874,6 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-19T11:11Z",
-     "text": "Goal paused. Streamed Save and Kenilworth replay findings on main (aa09f88bbf, 5ce3592b13). Helsinki fixture validated (af0e8bbc5d); b8f95f633c records the refused distinct-photo joins. Training capture and the live two-flight check remain "
-    },
-    {
      "by": "CLOUD_PRUNE",
      "at": "2026-11-24T10:15Z",
      "text": "quiz 2026-11-24: \"3D map is the main push now. Don\u2019t touch it.\""
@@ -1887,6 +1882,11 @@
      "by": "REVIEW_3D_GENERATION",
      "at": "2026-11-25T07:44Z",
      "text": "Sequential 3D review on main 1c41ef3a2c, Coordination/Reviews/3d-generation-2026-11-25.md. 3D-6758-01 couples the saved capture revision to durable Orthophoto publication, 02 bounds the lock-time GPU readback, 03 rechecks reference coverage"
+    },
+    {
+     "by": "REVIEW_3D_GENERATION_SPEC",
+     "at": "2026-11-25T08:11Z",
+     "text": "032166b8fe specifies the next workflow from quiz. At end of file, elastic Photo Tension until stable or generation is stopped. Mark Positioned starts first bake. OrthoPhotoBakeUpdated follows actual projection edits, Rebake to Orthophoto re"
     }
    ]
   },
@@ -4019,6 +4019,6 @@
    "since": "2026-11-24T22:20Z"
   }
  ],
- "source_revision": "1c41ef3a2cfa887eae9c0e5b0a94bb0ba213bde2",
- "board_revision": "b20beb7c7b4e040469b8bfd8e6616acc9ba5ca3d"
+ "source_revision": "032166b8fe2edf054ec45141831a3f88cfb3f781",
+ "board_revision": "aa51061300c4c1a7fe6522c5f45c33dc59530cc3"
 }
