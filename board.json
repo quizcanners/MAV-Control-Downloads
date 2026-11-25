@@ -3674,11 +3674,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_MAC_RASTER",
-     "at": "2026-11-25T12:52Z",
-     "text": "3317d50e11 on main: Online Raster now stops after source adoption. Provider writes use the same durable parent dirtiness as peer tiles, with provider stamps intact. Deleted download-side parent composition and ordinary view inventory scan. "
-    },
-    {
      "by": "MAC_BOARD",
      "at": "2026-11-25T14:15Z",
      "text": "Observed the existing manual Esri run passively. Its plan and stored check were complete throughout the 30.3 s sample. Downloaded advanced 35 to 90 with zero failures; IndexReading, Reading, Applying and Writing all appeared, with no multi-"
@@ -3687,6 +3682,11 @@
      "by": "esri-review",
      "at": "2026-11-25T15:36Z",
      "text": "Review 2026-11-25 (cloud): three waits found in code, split into follow-up tasks: whole-JPEG stored check before the first request; batch gap in recorded downloads (plan + check with nothing in flight); strictly serial fetch with main-threa"
+    },
+    {
+     "by": "NT68-C15-002",
+     "at": "2026-11-25T20:33Z",
+     "text": "NT68-C15-002 found and fixed on main: OnlineRasterSource.CreateHttpClient set MaxConnectionsPerServer, which Unity's Mono handler does not implement; it threw every frame (Editor Play, WatchView) and stopped online downloads. Now falls back"
     }
    ]
   },
@@ -3853,7 +3853,7 @@
   {
    "n": 2250,
    "name": "Windows build requires a tunnel.dll that the build drive may not have",
-   "done": "",
+   "done": "2026-11-25T19:42Z",
    "goal": false,
    "under": 371,
    "ticks": [],
@@ -3862,7 +3862,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "NT68-C15-002",
+     "at": "2026-11-25T19:42Z",
+     "text": "Done 2026-11-25: tunnel.dll rebuilt from wireguard-windows v1.1.1 and repinned to e20fb40d (9b84aade60, quiz approved); wireguard.dll WireGuardNT 1.1 matches its pin; inputs with SHA256SUMS on E:\\Builds\\Installer Setup\\WireGuard and Drive D"
+    }
+   ]
   },
   {
    "n": 2251,
@@ -4032,6 +4038,11 @@
      "by": "cloud-gps",
      "at": "2026-11-25T15:53Z",
      "text": "Need for verify: Phone GPS recovers after permission granted late (restart every 10 s while Failed); iPhone sharing+recording keeps the 5 m accuracy; iPhone route keeps recording off screen (parked fixes drained on return). Uncompiled."
+    },
+    {
+     "by": "NT68-C15-002",
+     "at": "2026-11-25T20:06Z",
+     "text": "b2942c2ae1 on main: status stays Off (no Waiting blink) while a Failed location service is retried every 10 s; cloud code a2d4751ba0 reviewed, compiles on Windows. Need for verify on Android: deny location, grant later in settings, fix with"
     }
    ]
   },
@@ -4052,6 +4063,11 @@
      "by": "cloud-gps",
      "at": "2026-11-25T15:53Z",
      "text": "Need for verify: Phone GPS recovers after permission granted late (restart every 10 s while Failed); iPhone sharing+recording keeps the 5 m accuracy; iPhone route keeps recording off screen (parked fixes drained on return). Uncompiled."
+    },
+    {
+     "by": "NT68-C15-002",
+     "at": "2026-11-25T20:05Z",
+     "text": "Reviewed a2d4751ba0: no change needed (restart only when the accuracy class changes). Need for verify on iPhone: sharing + Navigator recording at 5 m, back to 10 m after stop."
     }
    ]
   },
@@ -4072,6 +4088,11 @@
      "by": "cloud-gps",
      "at": "2026-11-25T15:53Z",
      "text": "Need for verify: Phone GPS recovers after permission granted late (restart every 10 s while Failed); iPhone sharing+recording keeps the 5 m accuracy; iPhone route keeps recording off screen (parked fixes drained on return). Uncompiled."
+    },
+    {
+     "by": "NT68-C15-002",
+     "at": "2026-11-25T20:05Z",
+     "text": "4f3076df15 on main: every background fix parked, drained with altitude through gate spacing (no zigzag when still), recording re-armed after Stop. iOS native code not compiled here. Need for verify on iPhone: 5 min locked-screen route with "
     }
    ]
   },
@@ -4099,7 +4120,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "NT68-C15-002",
+     "since": "2026-11-25T20:57Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -4113,7 +4143,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "NT68-C15-002",
+     "since": "2026-11-25T20:58Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -4129,7 +4168,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "NT68-C15-002",
+     "at": "2026-11-25T20:04Z",
+     "text": "3cfe576c86 on main: every FFmpeg encode counts as a conversion and the line names input and output format (VP8/VP9 included); VideoLineTests extended; compiles. Need for verify: a live restream to a VP8/VP9 link shows the format in the vide"
+    }
+   ]
   },
   {
    "n": 2265,
@@ -4148,6 +4193,11 @@
      "by": "cloud-thread",
      "at": "2026-11-25T15:54Z",
      "text": "quiz 2026-11-25: \"for video restreaming we also share JPEGS when internet is bad. This isn't always working. Sometimes video just vanishes. Sometimes it takes really long time for first jpeg to arrive.\" (clarified: video sharing between pho"
+    },
+    {
+     "by": "NT68-C15-002",
+     "at": "2026-11-25T20:33Z",
+     "text": "On main (Peer video JPEG fallback): small first JPEG, sender shrinks JPEGs on a slow/bad line, Autel/RTSP/screen/USB/standalone answer JPEG requests or SourceUnavailable, StreamFrameFailed for peers on 883+. Compiles, Editor Play clean, Jpe"
     }
    ]
   },
@@ -4311,7 +4361,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "NT68-C15-002",
+     "at": "2026-11-25T20:13Z",
+     "text": "c754097aea is in Windows/Android Test 882 (0847e67e5a). Prefab check: Status and Pre-Flight rows now 300, no 340 element left in MavLink telemetry.prefab. Editor screenshot not taken (no backdoor tap for the Telemetry tabs). Left: look at t"
+    }
+   ]
   },
   {
    "n": 2273,
@@ -4421,13 +4477,18 @@
      "by": "CLOUD_PREP_SPEEDUP",
      "at": "2026-11-25T18:58Z",
      "text": "Code on main db016362f0 (cloud, may not compile): MavBuildPipeline builds Development Android with IL2CPP Debug + Incremental IL2CPP, Development Windows on Mono; MavMacBuild uses Mono when MAV_MAC_DEVELOPMENT=1; settings restored after the"
+    },
+    {
+     "by": "NT68-C15-002",
+     "at": "2026-11-25T20:06Z",
+     "text": "4a623a0c37 on main: Mac Development stays IL2CPP (Keychain plugin), every changed Player Setting restored even when the build throws; obsolete incremental switch dropped. Need: one Development Windows (Mono), Android (IL2CPP Debug) and Mac "
     }
    ]
   },
   {
    "n": 2278,
    "name": "Run pure-logic tests outside the Editor",
-   "done": "",
+   "done": "2026-11-25T20:04Z",
    "goal": false,
    "under": 2281,
    "ticks": [],
@@ -4441,6 +4502,11 @@
      "by": "CLOUD_PREP_SPEEDUP",
      "at": "2026-11-25T18:58Z",
      "text": "Script on main db016362f0: python3 Tools/dotnet_logic_tests.py [mapmath|planetmath|encryption|all]; Tests/SPEC.md 'Logic tests outside the Editor'. Left for a machine with dotnet: first run; MapMath also needs Assets/NASA MGRS sources, asse"
+    },
+    {
+     "by": "NT68-C15-002",
+     "at": "2026-11-25T20:04Z",
+     "text": "Done 1d49598423: python Tools/dotnet_logic_tests.py all runs on Windows (finds Unity via Hub install path), MapMath 5/5 and Encryption 3/3 pass in about 5 s warm; PlanetMath stays in the Editor (textures, Burst, GPU)."
     }
    ]
   },
@@ -4522,6 +4588,26 @@
      "by": "CLOUD_PREP_SPEEDUP",
      "at": "2026-11-25T18:58Z",
      "text": "Spec brief: the Editor refresh after an agent's one-file edit compiles one small assembly (a few seconds), as Unity projects built from many asmdefs do, instead of all of Prublyda. Earlier decisions: PERF-EDITMODE-COMPILE-TIME (leaf audit S"
+    }
+   ]
+  },
+  {
+   "n": 2282,
+   "name": "No internet shows on Android and iPhone while the internet works",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "NT68-C15-002",
+     "at": "2026-11-25T20:05Z",
+     "text": "6ff508bb18 on main: No internet needs two failed probes in a row, 1 s recheck after a failure, 4.5 s probe timeout, resume restarts the check. Editor Play: reached, 0 of 2. Need for verify on Android/iPhone on mobile data: no false No inter"
     }
    ]
   }
@@ -4768,6 +4854,6 @@
    "since": "2026-11-25T15:45Z"
   }
  ],
- "source_revision": "8838bd6cde7d6f177b7a7e2633ea26620b1bc96a",
- "board_revision": "57cebae84428aee20dcbd07f39474e94c0e3afdf"
+ "source_revision": "5e875983b1442b2aeeb22418a57b4e80c0e0e5fd",
+ "board_revision": "ae2852c02ff1cf2eb5c929f8a954ead00c407ea3"
 }
