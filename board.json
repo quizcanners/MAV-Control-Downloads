@@ -3111,26 +3111,6 @@
    ]
   },
   {
-   "n": 2206,
-   "name": "Drones list creation or pooling invalidates every existing row per change",
-   "done": "2026-11-24T12:36Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T12:36Z",
-     "text": "f5dff928 on main. Adding or pooling a drone row leaves other rows valid and refreshes the current/followed roles. The reused row refreshes. Source count for opening an empty list to 100 rows drops from 5,050 to 100 per-row invalidations. Th"
-    }
-   ]
-  },
-  {
    "n": 2207,
    "name": "Suggestions tabs can start the panel dismissal flick and clear selection",
    "done": "2026-11-24T13:02Z",
@@ -3842,7 +3822,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MAC_RASTER",
+     "since": "2026-11-25T12:45Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": [
     {
@@ -4103,6 +4092,6 @@
    "since": "2026-11-25T09:49Z"
   }
  ],
- "source_revision": "1f278508ccec5f56aa106da0704d99a4f1a77863",
- "board_revision": "f8f90203d44df27eca4b64e8d8dbf9da23f70f22"
+ "source_revision": "3ea0412979e3bbebc14e2b534e7c7aca93cf1c84",
+ "board_revision": "4d95b56469ad9df2501e373592acc0a610936850"
 }
