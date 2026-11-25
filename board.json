@@ -4266,7 +4266,7 @@
    "name": "Local agents are slow again",
    "done": "",
    "goal": false,
-   "under": 0,
+   "under": 2281,
    "ticks": [],
    "priority": "normal",
    "parked": false,
@@ -4349,14 +4349,20 @@
    "name": "Split the one big Prublyda assembly (about 3",
    "done": "",
    "goal": false,
-   "under": 0,
+   "under": 2281,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_PREP_SPEEDUP",
+     "at": "2026-11-25T18:58Z",
+     "text": "Prepared, under goal 2281 (spec: Tests/SPEC.md 'One edit recompiles a small assembly'). Left: Editor/local agent refreshes the leaf list and moves the first leaf. quote (quiz, 2026-11-25): \"We already started something related to this. Lets"
+    }
+   ]
   },
   {
    "n": 2275,
@@ -4370,7 +4376,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_PREP_SPEEDUP",
+     "at": "2026-11-25T18:58Z",
+     "text": "Prepared; quiz approved. Left for a local machine: Disable Domain Reload, static-field reset list, before/after of the Play/verify loop. quote (quiz, 2026-11-25): \"Lets do that too.\""
+    }
+   ]
   },
   {
    "n": 2276,
@@ -4384,7 +4396,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_PREP_SPEEDUP",
+     "at": "2026-11-25T18:58Z",
+     "text": "Prepared; quiz approved. Guide on main db016362f0: Coordination/Environment_Preparation.md (Accelerator, cp -c Library, Defender, Bee, old builds). Left for local machines: install the Accelerator on the always-on LAN machine and point Edit"
+    }
+   ]
   },
   {
    "n": 2277,
@@ -4398,26 +4416,38 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_PREP_SPEEDUP",
+     "at": "2026-11-25T18:58Z",
+     "text": "Code on main db016362f0 (cloud, may not compile): MavBuildPipeline builds Development Android with IL2CPP Debug + Incremental IL2CPP, Development Windows on Mono; MavMacBuild uses Mono when MAV_MAC_DEVELOPMENT=1; settings restored after the"
+    }
+   ]
   },
   {
    "n": 2278,
    "name": "Run pure-logic tests outside the Editor",
    "done": "",
    "goal": false,
-   "under": 0,
+   "under": 2281,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_PREP_SPEEDUP",
+     "at": "2026-11-25T18:58Z",
+     "text": "Script on main db016362f0: python3 Tools/dotnet_logic_tests.py [mapmath|planetmath|encryption|all]; Tests/SPEC.md 'Logic tests outside the Editor'. Left for a machine with dotnet: first run; MapMath also needs Assets/NASA MGRS sources, asse"
+    }
+   ]
   },
   {
    "n": 2279,
    "name": "Trim what agents read before a build",
-   "done": "",
+   "done": "2026-11-25T18:58Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -4426,7 +4456,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_PREP_SPEEDUP",
+     "at": "2026-11-25T18:58Z",
+     "text": "Quick card at the top of Building_Android, iOS, macOS, Linux and BUILD_HISTORY, then a Reference heading (db016362f0). quote (quiz, 2026-11-25): \"Yep.\""
+    }
+   ]
   },
   {
    "n": 2280,
@@ -4440,7 +4476,54 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_ANCHORED_FLIGHT",
+     "at": "2026-11-25T19:03Z",
+     "text": "8838bd6cde on main adds native-pixel tiles to the offline Stitching Elements probe. 960x506 uses two crops and one 128x128 mask; overlap keeps the more confident result. Same original Castle inputs ranked the strongest saved reference first"
+    }
+   ]
+  },
+  {
+   "n": 2281,
+   "name": "Editing one file recompiles a small assembly, not the 3,100-script Prublyda assembly plus EditModeTests: leaf systems (Network, Peers, Chat, Workflows, Drone Control) each sit in their own asmdef, as ",
+   "done": "",
+   "goal": true,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Leaf list refreshed with RoslynClosures and leaf_candidates.py",
+     "x": false
+    },
+    {
+     "t": "First leaf moved into its own asmdef and compiled by cmp.sh set m",
+     "x": false
+    },
+    {
+     "t": "Network, Peers and Chat each in their own asmdef",
+     "x": false
+    },
+    {
+     "t": "Workflows and Drone Control in their own asmdefs",
+     "x": false
+    },
+    {
+     "t": "One-line edit compile and reload time recorded before and after",
+     "x": false
+    }
+   ],
+   "notes": [
+    {
+     "by": "CLOUD_PREP_SPEEDUP",
+     "at": "2026-11-25T18:58Z",
+     "text": "Spec brief: the Editor refresh after an agent's one-file edit compiles one small assembly (a few seconds), as Unity projects built from many asmdefs do, instead of all of Prublyda. Earlier decisions: PERF-EDITMODE-COMPILE-TIME (leaf audit S"
+    }
+   ]
   }
  ],
  "verify": [
@@ -4685,6 +4768,6 @@
    "since": "2026-11-25T15:45Z"
   }
  ],
- "source_revision": "6134959fda8fcdbb11773aeea374681faefeee9b",
- "board_revision": "f864871a534ee550f3ba5029dbcad89a98f58502"
+ "source_revision": "8838bd6cde7d6f177b7a7e2633ea26620b1bc96a",
+ "board_revision": "57cebae84428aee20dcbd07f39474e94c0e3afdf"
 }
