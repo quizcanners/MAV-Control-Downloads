@@ -2,88 +2,6 @@
  "stale_hours": 3,
  "tasks": [
   {
-   "n": 12,
-   "name": "Parked ideas and suggestions (13 parked",
-   "done": "2026-11-24T05:46Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:46Z",
-     "text": "Pruned 2026-11-24: parked ideas, no concrete app benefit; folder Archive/Parked stays."
-    }
-   ]
-  },
-  {
-   "n": 241,
-   "name": "Creeping complexity",
-   "done": "2026-11-24T05:46Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [
-    "2026-11-21T02:46Z",
-    "2026-11-21T02:51Z",
-    "2026-11-21T02:51Z",
-    "2026-11-21T02:51Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "On main: places 1 to 36 of creeping-complexity.md; one decision per frame for the left list rail and every list on it, the top-left notification controls and \"is telemetry on screen\"; 44 unread prefab",
-     "x": true
-    },
-    {
-     "t": "Fullscreen video \"owns the screen\" is answered by Station.UI.FullscreenVideo (source, screen map, photo and Chat picture), the prefab applies visibility, shared Exit and map consume the system answer",
-     "x": true
-    },
-    {
-     "t": "Which telemetry tabs exist is decided by DronePanels (no rendered rows as inputs); covered tab swaps are published",
-     "x": true
-    },
-    {
-     "t": "The Peers page of the MavChat pager (Chat window and Navigator own their page; LeftLists owns List Picker and Search hiding)",
-     "x": true
-    },
-    {
-     "t": "Prefab text (place 33): views build their own objects in RAM no more (Dev FPS label, MavChat grabber and progress bars, Pilot side tongues and handles, row divider, dragged-row blur, App updates canva",
-     "x": true
-    },
-    {
-     "t": "Frame decisions: ShouldHideLists and ShouldShowUIInteractionOptions, Painting availability, overlay click blocking, drone surface, edge arrows, GPS menu toggle, WireGuard notice, Orthophoto layer tile",
-     "x": true
-    },
-    {
-     "t": "When its view is touched: the eleven prefab scripts with their own show expression still left, and IsOverlayBlockingClicks's remaining inputs",
-     "x": false
-    },
-    {
-     "t": "Candidates, read fresh before acting: Navigator.SetDestination is called only by the backdoor command ui.navigator.route and by tests, and six Navigator text keys have no reader (place 34, Left), yell",
-     "x": false
-    },
-    {
-     "t": "Waits for a MavServer release, which is quiz's word: a retired report gives its slot back and /status is built when asked (place 17); the rest of place 11 is a wire change",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:46Z",
-     "text": "Pruned 2026-11-24: process or code-tidying work with no visible app benefit"
-    }
-   ]
-  },
-  {
    "n": 362,
    "name": "Load map only: on first launch the user sees the map as fast as possible. UI and overlays load up in parallel.",
    "done": "",
@@ -277,26 +195,6 @@
    ]
   },
   {
-   "n": 365,
-   "name": "The Raspberry Pi scanner feeds fresh WiFi readings to the map, and blind-spot recording honours its zone",
-   "done": "2026-11-24T05:46Z",
-   "goal": true,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:46Z",
-     "text": "Pruned 2026-11-24: no Pi connected; reopen when one is."
-    }
-   ]
-  },
-  {
    "n": 366,
    "name": "Two peers converge on one map quickly, on one SQLite build on every platform, and low disk never costs imagery",
    "done": "",
@@ -391,40 +289,6 @@
      "by": "CLOUD_E",
      "at": "2026-11-12T08:13Z",
      "text": "CLOUD_E: nothing a cloud thread can do on these steps: all four are real two-peer or iPad checks. Left as is."
-    }
-   ]
-  },
-  {
-   "n": 369,
-   "name": "The full test run is green on fresh Windows source: the Editor automation bridge answers, the containing All and the native gates pass, and the Windows player starts with Debug Mode on and off",
-   "done": "2026-11-24T05:46Z",
-   "goal": true,
-   "under": 0,
-   "ticks": [
-    "2026-11-12T07:14Z",
-    "2026-11-13T11:59Z",
-    "2026-11-13T12:02Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG",
-     "at": "2026-11-15T17:13Z",
-     "text": "Rog targeted native NUnit: task 1168 fixed List Picker (Frame Budget 42/42). 1169 fixed related fixture owners (52/52, source a6910f1abc after iOS-only rebase). Crosshair 1/1 and Linked Browser/Chat 17/17 previously at 746a8491b0. Additiona"
-    },
-    {
-     "by": "HEAVY",
-     "at": "2026-11-16T06:55Z",
-     "text": "809046ca99 restores four host checks: Android descriptor token/refusal, GeoTIFF Unicode project refs, Wi-Fi current Android tools, and command catalog platform profiles."
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:46Z",
-     "text": "Pruned 2026-11-24: process or code-tidying work with no visible app benefit"
     }
    ]
   },
@@ -577,38 +441,6 @@
     }
    ],
    "notes": []
-  },
-  {
-   "n": 375,
-   "name": "Test rig: one agent drives two release tablets, a folded tablet keeps its Direct USB link, and the daily build runner picks up its job",
-   "done": "2026-11-24T05:47Z",
-   "goal": true,
-   "under": 0,
-   "ticks": [
-    "2026-11-14T07:08Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-18T14:04Z",
-     "text": "Done: Test860 published/installed DJI;907816dd3c,8c7742770c,0eac7bd27f on main."
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-21T10:55Z",
-     "text": "CR-90BF-01 P3. Android daily can stop after the prepared release lands if the last push acknowledgment is lost. S1/S2 brief ready for quiz. [Review](https://github.com/quizcanners/MAV_Control/blob/6b7ae1cc7d757061956c0056d3d914c6ffdc8b79/Co"
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:47Z",
-     "text": "Pruned 2026-11-24: process or code-tidying work with no visible app benefit"
-    }
-   ]
   },
   {
    "n": 377,
@@ -1096,39 +928,6 @@
    ]
   },
   {
-   "n": 412,
-   "name": "Dev Mode Task Management: Settings > Dev Mode > Tasks shows workers and their state, tasks, goals, completed and verify lists as merged progress buttons, and quiz sets priority, review, park and verif",
-   "done": "2026-11-24T05:47Z",
-   "goal": true,
-   "under": 0,
-   "ticks": [
-    "2026-11-12T14:55Z",
-    "2026-11-23T22:17Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T13:57Z",
-     "text": "1922 on main. The public Tasks copy preserves current board and verification state when publishers overlap. Disposable Git race proof and 38 host passes recorded. 1921 preserves concurrent page-check updates when a task closes. In-app Verif"
-    },
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-23T22:17Z",
-     "text": "Main 017af50b reconciles UI SPEC with the shipped route: priority, Set for review, Park and Unpark use durable BoardEdit records and reconcile with published board.json. The goal still needs in-app Verified for Page checks and a live round "
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:47Z",
-     "text": "Pruned 2026-11-24: process or code-tidying work with no visible app benefit"
-    }
-   ]
-  },
-  {
    "n": 429,
    "name": "Performance: every device spends the least GPU, CPU, RAM and battery it can, and the next measured cost is always removed. Done on main (to 2026-11-21): startup cuts, Patch Preparation, skip sealing, ",
    "done": "",
@@ -1402,147 +1201,6 @@
    ]
   },
   {
-   "n": 558,
-   "name": "A person who got their tunnel as a file and is then made an Admin is not an Admin on the WireGuard people table",
-   "done": "2026-11-24T05:49Z",
-   "goal": false,
-   "under": 370,
-   "ticks": [
-    "2026-11-22T17:21Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Cause read in code: a named Admin's app reports Station.Persistent.Crypto.TunnelKeys.PublicKey (DirectRouteManager.AdvanceAdmins, AdminOp.Tunnel; HubRole.IsAdminTunnelKey; TunnelGrants.IsAdminNow), bu",
-     "x": true
-    },
-    {
-     "t": "Proposal (identity is the WireGuard key read from the handshake and source address, never a report): (A, recommended) a named Admin sends its plain Admins ask to the hub's tunnel address (HubTunnel.Hu",
-     "x": true
-    },
-    {
-     "t": "quiz: A or B?",
-     "x": true
-    },
-    {
-     "t": "Cloud C#: build the chosen one (server half and MavServer release)",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLAUDE_558",
-     "at": "2026-11-22T17:52Z",
-     "text": "Option A built in source and pushed (9e2bb49536): a named Admin's plain Admins ask goes to the hub's tunnel address; the server binds it to the people-table row at the source address (BindTunnel, TunnelKeyAt_Optional -> TunnelGrants.ByAddre"
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:49Z",
-     "text": "Pruned 2026-11-24: built and on main; remaining device checks are verification"
-    }
-   ]
-  },
-  {
-   "n": 600,
-   "name": "Move the rest of the AI Sandbox dispatcher commands and the Station classes to the systems that own them",
-   "done": "2026-11-24T05:47Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Dispatcher commands still in AI_Sandbox_DeviceDebugCommands*.cs: the remaining vpn.*, training and remote-sensor editors, performance.wires, cfg/system.set and the other cfg cases in DebugControl; the",
-     "x": false
-    },
-    {
-     "t": "Classes still inside Singleton_GroundStation and Station (UI, Focus, Input, Enums, Math, Inspect, Vpn, the network monitor), each to the system that owns its source of truth; the rest of the early bre",
-     "x": false
-    },
-    {
-     "t": "Move remaining platform #if blocks into Station.OS as they are touched (Systems/Platform/Station_OS_FilePick.cs is the pattern)",
-     "x": false
-    },
-    {
-     "t": "Linked Browser: page pings and drawing directly in Chrome; device and paired-station checks of the page view; Gamepad rumble and light bars (Controller Input AGENTS); paired-station check of private c",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "REVIEW",
-     "at": "2026-11-21T01:19Z",
-     "text": "CR-7D19-01 P3: Linked Browser ink can read another frame's scroll and zoom. S1/S2 brief ready for quiz: [review](https://github.com/quizcanners/MAV_Control/blob/main/Coordination/Reviews/81515eda6.md#cr-7d19-01--p3-linked-browser-ink-can-us"
-    },
-    {
-     "by": "CLAUDE_600",
-     "at": "2026-11-22T22:27Z",
-     "text": "Design, not move: Station.Focus (1700 uses, needs Station.WorkFlow/UI/Manager/Operator qualified, name Focus collides), NetworkStateMonitor (uses Station fields), Station.UI/Input groups (UI folder = task 2057). Linked Browser items need de"
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:47Z",
-     "text": "Pruned 2026-11-24: process or code-tidying work with no visible app benefit"
-    }
-   ]
-  },
-  {
-   "n": 606,
-   "name": "Every SPEC.md and AGENTS.md reads as clean, organized rules with no quiz quotes or '(quiz, date)' tags; the quotes live in board tasks only. Done on main: UI, Workflows, Network, Shaders, Bootstrap, L",
-   "done": "2026-11-24T05:47Z",
-   "goal": true,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:47Z",
-     "text": "Pruned 2026-11-24: process or code-tidying work with no visible app benefit"
-    }
-   ]
-  },
-  {
-   "n": 627,
-   "name": "iPhone background presence (Xcode/device)",
-   "done": "2026-11-24T05:48Z",
-   "goal": false,
-   "under": 380,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "cloud-ios-bg",
-     "at": "2026-11-14T08:03Z",
-     "text": "Fits goal 380 (iPhone online in background); added without --under."
-    },
-    {
-     "by": "CLOUD_IOS_BG",
-     "at": "2026-11-19T23:06Z",
-     "text": "Cloud thread 2026-11-13 (stopped mid-work, core fix landed separately in 266a61656). Two findings not on main, code read only: (1) Chat_Background_IosWorker.cs binds its socket at most 3 times 10 s apart, then waits for ever (_bindAttempts "
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:48Z",
-     "text": "Pruned 2026-11-24: verification, measurement or build-PC housekeeping, not app work"
-    }
-   ]
-  },
-  {
    "n": 657,
    "name": "Tile storage warning on Windows",
    "done": "",
@@ -1577,56 +1235,6 @@
      "by": "CLAUDE_657",
      "at": "2026-11-22T17:18Z",
      "text": "Cause: Issue.Format (InvalidDataException on open: another format/map) fell to the generic line with the exception HResult -2146233087 shown as a code; TrueReason now answers Issue.Format with its own key, number only for SQLite errors (ec2"
-    }
-   ]
-  },
-  {
-   "n": 700,
-   "name": "Motorola device measurement (Getac",
-   "done": "2026-11-24T05:48Z",
-   "goal": false,
-   "under": 379,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:48Z",
-     "text": "Pruned 2026-11-24: verification, measurement or build-PC housekeeping, not app work"
-    }
-   ]
-  },
-  {
-   "n": 854,
-   "name": "Diagnose and fix the iPad crash reported through TestFlight on 2026-11-15. Awaiting the actual report",
-   "done": "2026-11-24T05:49Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_IPAD",
-     "at": "2026-11-16T19:03Z",
-     "text": "Apple now lists an iPad14,10 submission from 2026-11-16 06:20 UTC on build 840; it may be separate from the Nov 15 report. Both documented crashLog and crashLog relationship endpoints return HTTP 404. No stack or exception available; iPad i"
-    },
-    {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T05:25Z",
-     "text": "Nov 20 05:25 UTC TestFlight GET confirmed the same Nov 16 iPad submission. Crash log, relationship and iOS 840 build diagnostics all still returned 404. No later iPad submission or feedback attachment, and the iPad is unavailable. Found sig"
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:49Z",
-     "text": "Pruned 2026-11-24: stall or crash never reproduced, no report to act on; reopen with a fresh one"
     }
    ]
   },
@@ -1682,36 +1290,6 @@
      "by": "ROG",
      "at": "2026-11-16T11:35Z",
      "text": "Published 86227c327e: Geometry hash requests and replies avoid cloning their DTO before synchronous wire preparation, and new Geometry zones reuse their key. Windows Unity: 72 plain payload comparisons matched after source mutation and enco"
-    }
-   ]
-  },
-  {
-   "n": 1309,
-   "name": "Android Dev 849 first launch after an update sits on the empty loading bar for a long time (quiz's photo",
-   "done": "2026-11-24T05:49Z",
-   "goal": false,
-   "under": 373,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-16T10:23Z",
-     "text": "Release 850 (9d20269db0) includes the 20 s Coding scene wait timeout. StartupBatchTiming passed 21/21. The Editor reached Ready (CodingSceneReady 55.2 ms) and Strong rendered the map after the in-place update and unlock. The release smoke p"
-    },
-    {
-     "by": "ROG",
-     "at": "2026-11-16T10:53Z",
-     "text": "Published da6a1ef896: an expired CodingSceneReady wait hands the completed read to the regular file owner after startup reaches Ready. The original settings root must still own it; no synchronous wait or repeat failure. Six host controls pa"
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:49Z",
-     "text": "Pruned 2026-11-24: stall or crash never reproduced, no report to act on; reopen with a fresh one"
     }
    ]
   },
@@ -1888,31 +1466,6 @@
    ]
   },
   {
-   "n": 1419,
-   "name": "Live map refinement 4/4",
-   "done": "2026-11-24T05:48Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "RTX box: run the streaming model and the Unity Depth Anything 3 path on the same Kenilworth and Synthetic clips; record held-out path error, VRAM and frames per second",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:48Z",
-     "text": "Pruned 2026-11-24: experiment or baseline with no committed app outcome"
-    }
-   ]
-  },
-  {
    "n": 1430,
    "name": "Street View",
    "done": "",
@@ -2061,26 +1614,6 @@
      "by": "HEAVY",
      "at": "2026-11-18T17:44Z",
      "text": "d5094f10dc records the RTX 5070 audit. Native shares retained GPU depth/confidence with projection and Save, and caches saved observations. Scheduling joint DA3 inference dominated five complete warm windows. Four cached overlap images stil"
-    }
-   ]
-  },
-  {
-   "n": 1516,
-   "name": "RTX box",
-   "done": "2026-11-24T05:48Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:48Z",
-     "text": "Pruned 2026-11-24: experiment or baseline with no committed app outcome"
     }
    ]
   },
@@ -2299,56 +1832,6 @@
    ]
   },
   {
-   "n": 1682,
-   "name": "Video Processing",
-   "done": "2026-11-24T05:49Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY_CUDA",
-     "at": "2026-11-18T19:06Z",
-     "text": "8e22d49c9b published standalone TensorRT D3D11 proof and same-input Kenilworth/Zurich parity. Live Unity closed before first result; WER 0x141 NVIDIA display timeout. Live integration removed and CUDA scratch DLLs cleaned. Next: isolate ren"
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:49Z",
-     "text": "Pruned 2026-11-24: experiment or baseline with no committed app outcome"
-    }
-   ]
-  },
-  {
-   "n": 1685,
-   "name": "Video Processing",
-   "done": "2026-11-24T05:49Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "HEAVY_REFS",
-     "at": "2026-11-18T19:06Z",
-     "text": "8e22d49c9b on main. Windows captured fresh depth and colour from four views. After manual relocation under tracking loss, unrelated Zurich triggered fallback and was refused with canonical count and draft transform unchanged. An all-real co"
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:49Z",
-     "text": "Pruned 2026-11-24: experiment or baseline with no committed app outcome"
-    }
-   ]
-  },
-  {
    "n": 1693,
    "name": "3D map generation \u2014 accurate photo positioning, paired depth and automatic stitching",
    "done": "",
@@ -2391,11 +1874,6 @@
    ],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-18T23:10Z",
-     "text": "Native Unity import on d4c4b7ef5a reported the Pano360Depth.hlsl.meta GUID invalid and skipped the asset. Source GUID introduced by 50d41faa26 has 33 hex characters, and one shader references the include by name. Live private Android build "
-    },
-    {
      "by": "HEAVY",
      "at": "2026-11-19T11:11Z",
      "text": "Goal paused. Streamed Save and Kenilworth replay findings on main (aa09f88bbf, 5ce3592b13). Helsinki fixture validated (af0e8bbc5d); b8f95f633c records the refused distinct-photo joins. Training capture and the live two-flight check remain "
@@ -2404,31 +1882,11 @@
      "by": "CLOUD_PRUNE",
      "at": "2026-11-24T10:15Z",
      "text": "quiz 2026-11-24: \"3D map is the main push now. Don\u2019t touch it.\""
-    }
-   ]
-  },
-  {
-   "n": 1713,
-   "name": "Using Strong and Lenovo for the paired Web Mercator derived rebake baseline and containing build capture",
-   "done": "2026-11-24T05:48Z",
-   "goal": false,
-   "under": 1558,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-19T18:59Z",
-     "text": "Strong exact Dev 864 fbf88299a3 installed in place and reached map. CPU.md 63d6119079: warmed Web Mercator peak 15.801 ms versus before 41.681 ms at a different view/workload, 299 tile confirmations over 92 s. Native scheduler identifies pr"
     },
     {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:48Z",
-     "text": "Pruned 2026-11-24: verification, measurement or build-PC housekeeping, not app work"
+     "by": "REVIEW_3D_GENERATION",
+     "at": "2026-11-25T07:44Z",
+     "text": "Sequential 3D review on main 1c41ef3a2c, Coordination/Reviews/3d-generation-2026-11-25.md. 3D-6758-01 couples the saved capture revision to durable Orthophoto publication, 02 bounds the lock-time GPU readback, 03 rechecks reference coverage"
     }
    ]
   },
@@ -2484,52 +1942,6 @@
      "by": "CLAUDE_1748",
      "at": "2026-11-22T19:30Z",
      "text": "f180157a95: WindowStateManager calls AppUINativePlugin NativeAppUI_Uninitialize at Application.quitting (main thread, window alive), removing AppUI's window subclass before managed teardown; Windows shutdown order in Bootstrap SPEC. Code is"
-    }
-   ]
-  },
-  {
-   "n": 1770,
-   "name": "Locate a video of uncertain position on the synthetic top-down map",
-   "done": "2026-11-24T05:49Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [
-    "2026-11-19T12:35Z",
-    "2026-11-19T12:35Z",
-    "2026-11-19T18:07Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Render the synthetic top-down tile around the prior position",
-     "x": true
-    },
-    {
-     "t": "Warp a frame flat from depth and attitude",
-     "x": true
-    },
-    {
-     "t": "Match with LightGlue, fit position and heading, hold out a check",
-     "x": true
-    },
-    {
-     "t": "Offer the result to placement; test with a known offset on the three Kenilworth clips",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "HEAVY",
-     "at": "2026-11-19T21:35Z",
-     "text": "c9e3341dea settles each confirmed Video Source join. The combined original sequence accepts the Wide continuation and sometimes Inner Court, but does not reach Garden Orbit in the same draft. Zurich preserved accepted cells. Fixed later Inn"
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:49Z",
-     "text": "Pruned 2026-11-24: experiment or baseline with no committed app outcome"
     }
    ]
   },
@@ -2670,58 +2082,6 @@
    ]
   },
   {
-   "n": 1951,
-   "name": "Editing one script recompiles in seconds: Editor script recompile is split into small assemblies so a typical edit rebuilds well under 1/10 of today's 690k lines",
-   "done": "2026-11-24T05:47Z",
-   "goal": true,
-   "under": 0,
-   "ticks": [
-    "2026-11-23T10:46Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-23T10:47Z",
-     "text": "b4668715de: step 1 done, Windows numbers beside the Mac ones in Performance Baseline/BUILD_TIME.md. Rog warm private Prublyda edit 69-78 s to Ready (C# 30 s + IL post-processing 20 s, Mac 17 s); Quiz-cAnners private edit 34 s (Prublyda not "
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:47Z",
-     "text": "Pruned 2026-11-24: process or code-tidying work with no visible app benefit"
-    }
-   ]
-  },
-  {
-   "n": 1962,
-   "name": "UI leaf assembly",
-   "done": "2026-11-24T02:10Z",
-   "goal": false,
-   "under": 1951,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-21T09:02Z",
-     "text": "e8ca2a6432 on main. Bootstrap pointer handling uses an input contract for pressed buttons and tooltips. Prublyda and EditMode test assemblies compiled with Unity Editor response files; fixtures were not executed. Full cmp.sh was stopped und"
-    },
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T02:10Z",
-     "text": "Published ff854b75. Unity compiles 61 UI implementation scripts in WarStation.SharedUI independently of Prublyda. Prublyda, its Editor assembly and EditMode/ECS tests reference it. Standalone Android-target C# and asset ID/event checks pass"
-    }
-   ]
-  },
-  {
    "n": 1963,
    "name": "UI and Bootstrap Systems boundary",
    "done": "",
@@ -2742,56 +2102,6 @@
    ]
   },
   {
-   "n": 1964,
-   "name": "World and Systems assembly boundaries",
-   "done": "2026-11-24T05:47Z",
-   "goal": false,
-   "under": 1951,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:47Z",
-     "text": "Pruned 2026-11-24: process or code-tidying work with no visible app benefit"
-    }
-   ]
-  },
-  {
-   "n": 1972,
-   "name": "Qualify 3D Map positioning",
-   "done": "2026-11-24T05:49Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_DECODER_REPEAT_FIXTURE",
-     "at": "2026-11-21T10:44Z",
-     "text": "96b1afbe59 adds matched H.264 decoder fixtures and native replay observation. FFmpeg and macOS AVFoundation decoded 73 identical pictures at distinct 24 FPS timestamps and a fresh picture after the 48-exposure jump. Eleven host checks passe"
-    },
-    {
-     "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T18:56Z",
-     "text": "Paused by quiz. Local evaluator Tools/VisualOdometryExperiment/evaluate_retained_scale_poses.py is uncommitted. Actual decoded inputs: paired SIFT localized all six incoming views, worst 3.01 mm and 0.0933 deg, zero Zurich poses. Clean live"
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:49Z",
-     "text": "Pruned 2026-11-24: experiment or baseline with no committed app outcome"
-    }
-   ]
-  },
-  {
    "n": 2001,
    "name": "Startup stalls at Reading and preparing saved settings on a device without maps",
    "done": "",
@@ -2808,111 +2118,6 @@
      "by": "GETAC",
      "at": "2026-11-21T15:33Z",
      "text": "9b4682d627 is on main. Removed the diagnostic recursive data-folder scan from the checkpoint worker. Fresh isolated Windows Editor reached the map with DPAPI migration complete. The reported PC is inaccessible, so the original stall is stil"
-    }
-   ]
-  },
-  {
-   "n": 2023,
-   "name": "Map shutdown waited 4.4 s for SQLite admitted work (ShutdownController.FinishPublications). Cause found",
-   "done": "2026-11-24T00:04Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T00:04Z",
-     "text": "Main 70af29b5. Rog native SQLite EditMode passed 31/31 on identical patch 565150d9 (NUnit run 13657e6e-cf63-4474-8e4e-8d2b4c95be78). Shutdown joined and dropped a real retention worker while its file gate remained held. The existing paused "
-    }
-   ]
-  },
-  {
-   "n": 2024,
-   "name": "Named features hidden in managers get their own System (rule",
-   "done": "2026-11-24T05:47Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_600",
-     "at": "2026-11-22T22:30Z",
-     "text": "6ed58e8572: LogisticsPackages moved to Workflows/Logistics. Left: StorePostController (serialized StorePostEventNotice(s) nested in NetworkManager; needs checkpoint-compat check), SendServerPackages/SendServerSpecs, Crypto_ReleaseKey messag"
-    },
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-23T22:42Z",
-     "text": "Main 0b6f251d gives Store Post its own Station system and moves the code beside Logistics. Chat card updates and quiet notices keep their current frame order and VPNDevices.StorePostEvents checkpoint format. Rog Unity StorePostEventChatTest"
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:47Z",
-     "text": "Pruned 2026-11-24: process or code-tidying work with no visible app benefit"
-    }
-   ]
-  },
-  {
-   "n": 2025,
-   "name": "Sweep",
-   "done": "2026-11-24T05:47Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_600",
-     "at": "2026-11-22T22:35Z",
-     "text": "NetworkMessageStats -> NetworkManager.MessageStats pushed. Network area otherwise already nested; other areas (Systems, Workflows, Drone Control) not swept yet; NetworkUsageSystem enum left."
-    },
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-23T22:14Z",
-     "text": "Main adc93769: Remote Sensors editor command dispatch now lives under RemoteSense.Diagnostics; existing routing and command behavior preserved. Normal Rog Editor compiled with zero errors. The wider sweep remains open."
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:47Z",
-     "text": "Pruned 2026-11-24: process or code-tidying work with no visible app benefit"
-    }
-   ]
-  },
-  {
-   "n": 2036,
-   "name": "Positioned Video Source and photo anchors",
-   "done": "2026-11-24T05:49Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_VIDEO_STRESS",
-     "at": "2026-11-21T19:47Z",
-     "text": "Published 58571b4880 and 8c502a011e. Positioned draft photo anchors, idle pose comparisons, and survey runner. Kenilworth joined in the same draft and retained the anchor; idle comparisons ran and settled without publishing a correction. 25"
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:49Z",
-     "text": "Pruned 2026-11-24: experiment or baseline with no committed app outcome"
     }
    ]
   },
@@ -3017,136 +2222,6 @@
    ]
   },
   {
-   "n": 2066,
-   "name": "iPhone and Android MavTube device pass",
-   "done": "2026-11-24T05:48Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:48Z",
-     "text": "Pruned 2026-11-24: verification, measurement or build-PC housekeeping, not app work"
-    }
-   ]
-  },
-  {
-   "n": 2071,
-   "name": "MavChat Editor acceptance for 2069",
-   "done": "2026-11-24T05:48Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_EDITOR_TESTS",
-     "at": "2026-11-23T07:38Z",
-     "text": "Windows Editor, station test identity: ChatPeerOrderTests PASS 6/0; ChatComposerTests MavChatStartsWithNoSelectedPeerAcrossControllerRecreation PASS 1/0 and MavChatKeepsPeersUntilAConversationIsExplicitlySelected PASS 1/0. Portrait Play che"
-    },
-    {
-     "by": "CLAUDE_PLAY_CHECKS",
-     "at": "2026-11-23T13:59Z",
-     "text": "2071 (CLAUDE_PLAY_CHECKS): station test identity, ChatPeerOrderTests 6/0; ChatComposerTests MavChatStartsWithNoSelectedPeer... 1/0 and MavChatKeepsPeersUntilAConversationIsExplicitlySelected 1/0, all PASS. Portrait Play check NOT done: Edit"
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:48Z",
-     "text": "Pruned 2026-11-24: verification, measurement or build-PC housekeeping, not app work"
-    }
-   ]
-  },
-  {
-   "n": 2072,
-   "name": "Mav Chat on a phone",
-   "done": "2026-11-24T05:48Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_CAPSULE_GATE",
-     "at": "2026-11-22T12:31Z",
-     "text": "681847b9dd moved the tick to the displayed current capsule. Include a tap selecting a different capsule, the silent initial display, and an unchanged redraw alongside the swipe checks."
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:48Z",
-     "text": "Pruned 2026-11-24: verification, measurement or build-PC housekeeping, not app work"
-    }
-   ]
-  },
-  {
-   "n": 2077,
-   "name": "Pilot view (Workflows/Copilot/SPEC.md",
-   "done": "2026-11-24T05:49Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_PILOT",
-     "at": "2026-11-22T18:40Z",
-     "text": "64ff855de1 + b54ae471ed on main, C# uncompiled (Getac Editor busy with no log output 19:59-20:40). Done in code: flight mode row incl. Normal; Config panel System + views + DJI wishes (read/write/retry/clamp, no Dev Mode); Pre-flight height"
-    },
-    {
-     "by": "GETAC",
-     "at": "2026-11-22T19:13Z",
-     "text": "b41a05cb35 applied the two 2077 prefab edit files (Pre-flight 13 rows, Pilot Config panel); without the rows the telemetry tabs never initialised. Edit files deleted."
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:49Z",
-     "text": "Pruned 2026-11-24: built and on main; remaining device checks are verification"
-    }
-   ]
-  },
-  {
-   "n": 2078,
-   "name": "GPS sources (GPS LocationServices SPEC",
-   "done": "2026-11-24T05:49Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_2078",
-     "at": "2026-11-22T21:58Z",
-     "text": "Built: ca8405d1f6, d431b07f15; review fixes a289d30377 (2097-2101: one decision and one GpsState per frame, background sharing off with Phone GPS off, dish read faults contained). Phone/Starlink GPS toggles in the MavChat GPS panel and Sett"
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:49Z",
-     "text": "Pruned 2026-11-24: built and on main; remaining device checks are verification"
-    }
-   ]
-  },
-  {
    "n": 2087,
    "name": "MavServer release with the Admin tunnel bind (task 558",
    "done": "2026-11-24T09:56Z",
@@ -3163,26 +2238,6 @@
      "by": "CLOUD_PRUNE",
      "at": "2026-11-24T09:56Z",
      "text": "Pruned 2026-11-24: quiz does not use MavServer for VPN."
-    }
-   ]
-  },
-  {
-   "n": 2090,
-   "name": "Windows standalone player close",
-   "done": "2026-11-24T05:48Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:48Z",
-     "text": "Pruned 2026-11-24: verification, measurement or build-PC housekeeping, not app work"
     }
    ]
   },
@@ -3365,36 +2420,6 @@
    ]
   },
   {
-   "n": 2139,
-   "name": "Selected Remote Sensor without a position (connected",
-   "done": "2026-11-24T05:48Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLAUDE_PLAY_CHECKS",
-     "at": "2026-11-23T13:59Z",
-     "text": "2139 NOT done (CLAUDE_PLAY_CHECKS): play enter twice left Editor at is_playing=true will_change=true for 5+ min; Editor responding, Editor.log idle, runtime bridge never connected. Screen access was denied so no dialog could be seen. Needs "
-    },
-    {
-     "by": "LOCAL_MAC",
-     "at": "2026-11-23T14:38Z",
-     "text": "LOCAL_MAC: code path for a positionless sensor/photo matches Main View SPEC Bottom coordinates (SelectedEmpty -> empty field, Paste at the Copy spot, tap opens the editor via MgrsEditable, Confirm -> AssignPositionAsync / TrySetPhotoPositio"
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:48Z",
-     "text": "Pruned 2026-11-24: verification, measurement or build-PC housekeeping, not app work"
-    }
-   ]
-  },
-  {
    "n": 2140,
    "name": "Track long one-pass Video Source flights with depth-anchored optical flow and recover from distinct exposures",
    "done": "",
@@ -3561,39 +2586,6 @@
    ]
   },
   {
-   "n": 2149,
-   "name": "Overnight replay after 2140",
-   "done": "2026-11-24T05:49Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Build a repeatable synthetic flight with independent camera positions, orientations and axial depth. Use the same distinct exposures and timestamps, but advance the Synthetic drone at an incorrect fix",
-     "x": false
-    },
-    {
-     "t": "After the live tracking work in 2140, replay once and Pause the same draft. Compare a frozen control with ordinary Photo Tension using real same-flight photo pairs, temporal motion and depth evidence.",
-     "x": false
-    },
-    {
-     "t": "Measure held-out position, orientation, depth error and coverage before and after Pause, then report convergence time and remaining drift. Keep the runnable fixture and leave its Unity draft available",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:49Z",
-     "text": "Pruned 2026-11-24: experiment or baseline with no committed app outcome"
-    }
-   ]
-  },
-  {
    "n": 2151,
    "name": "Refine the 3D capture Origin from independent bare-earth terrain during Pause. Use robust signed depth clearance",
    "done": "",
@@ -3670,31 +2662,6 @@
      "by": "ROG_FABLE_CODEX",
      "at": "2026-11-23T23:47Z",
      "text": "Main 94288a85 rebakes archive blocks from paired photo depth at the requested spacing and retains the published buffer until replacement. 39b86d89 corrects the saved-archive full-raster test count. Rog D3D11 passed PointCloudCoverage (6), t"
-    }
-   ]
-  },
-  {
-   "n": 2156,
-   "name": "Remove retired canonical point-tile publication code and record a repeatable Zurich City Flight 3D generation baseline.",
-   "done": "2026-11-24T05:49Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_ZURICH_BASELINE",
-     "at": "2026-11-23T21:33Z",
-     "text": "Legacy cleanup 0d5ee500a0 and repeatable one-pass Zurich harness ef815f89f0 / 744a65821f shipped. b1f0f0640f compiled. The original site-verified failure control had 362/545 camera samples and 4687/12665 Disk centres below ground. Latest pr"
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:49Z",
-     "text": "Pruned 2026-11-24: experiment or baseline with no committed app outcome"
     }
    ]
   },
@@ -3841,26 +2808,6 @@
    ]
   },
   {
-   "n": 2165,
-   "name": "Getac build PC D",
-   "done": "2026-11-24T05:47Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:47Z",
-     "text": "Pruned 2026-11-24: verification, measurement or build-PC housekeeping, not app work"
-    }
-   ]
-  },
-  {
    "n": 2166,
    "name": "Lenovo Web Mercator startup spends 7",
    "done": "",
@@ -3887,91 +2834,6 @@
      "by": "ROG_FABLE_CODEX",
      "at": "2026-11-24T13:51Z",
      "text": "ad91f000 is on main. Store open checks its idle companion sweep budget between directory entries and reports enumeration separately from SQLite journal resets. Nonempty WALs remain with SQLite. Windows Unity compilation succeeded. Shard-sto"
-    }
-   ]
-  },
-  {
-   "n": 2167,
-   "name": "Getac build PC",
-   "done": "2026-11-24T05:47Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:47Z",
-     "text": "Pruned 2026-11-24: verification, measurement or build-PC housekeeping, not app work"
-    }
-   ]
-  },
-  {
-   "n": 2168,
-   "name": "Refresh the normal Rog Editor in Edit Mode and verify Fullscreen Video routing from main 6be39f3d or a descendant. The previous Play session held a stale compile list for the moved request file and re",
-   "done": "2026-11-24T05:47Z",
-   "goal": false,
-   "under": 1951,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T05:07Z",
-     "text": "Rog reran all 61 tests at 3dc27e46, with exact Fullscreen Video request and fixture PDBs, and all passed. A local PlanetSurface.hlsl edit appeared during the Editor reload before fixture execution, so the clean-main gate remains. Preserved "
-    },
-    {
-     "by": "CLOUD_PRUNE",
-     "at": "2026-11-24T05:47Z",
-     "text": "Pruned 2026-11-24: verification, measurement or build-PC housekeeping, not app work"
-    }
-   ]
-  },
-  {
-   "n": 2169,
-   "name": "Video Server Grid restream slider",
-   "done": "2026-11-24T04:30Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T04:30Z",
-     "text": "Fixed the simulated touch release to carry the Restream switch raycast. All nine VideoServerGridTests passed in Rog Unity Edit Mode after its portable PDB matched the changed fixture. Test ran with unrelated Peer Search edits in the checkou"
-    }
-   ]
-  },
-  {
-   "n": 2170,
-   "name": "Pilot View corner preview",
-   "done": "2026-11-24T04:46Z",
-   "goal": false,
-   "under": 1951,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T04:46Z",
-     "text": "Main 5e18b199. The corner fixture now checks pointer down, up and drag handlers and retains both overlap assertions. Rog passed all 30 PilotWorkflowTests on the published source with concurrent Peer Search and Camera edits. Portable PDBs ma"
     }
    ]
   },
@@ -4049,66 +2911,6 @@
      "by": "CODEX",
      "at": "2026-11-24T11:56Z",
      "text": "Lenovo build 880 from e2141666b5 passed background sender handoff, locked receive, native notification and tap with one copy over VPN. The exact installed APK has no Firebase configuration resources. Routing Server 7d614de7de loads APNs and"
-    }
-   ]
-  },
-  {
-   "n": 2173,
-   "name": "MavChat / Chat half-height transcript fits more message text. Use smaller text and tighter vertical spacing in the reduced sheet",
-   "done": "2026-11-24T05:32Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T05:32Z",
-     "text": "Main ecf79f8a. The reduced MavChat/Chat transcript uses the 32-point message body and 12 canvas units above and below it. The expanded row restores its authored font and height. All 35 ChatMessageLayoutTests passed in Rog Edit Mode with the"
-    }
-   ]
-  },
-  {
-   "n": 2174,
-   "name": "Weekly Logistics host checks fail to compile on Windows from main c13d53be. Restore the Tests~/run.py fixture dependencies for Migration",
-   "done": "2026-11-24T06:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T06:50Z",
-     "text": "68287790 on main. The Windows standalone host builds and passes all 71 checks, including all 15 persistence and transfer owner checks. The two Ground Station supply-sheet tests keep their existing Unity fixture and assertions."
-    }
-   ]
-  },
-  {
-   "n": 2175,
-   "name": "MavChat Search occasionally leaves the Query open when a person is chosen before the sheet loads in SearchQuerySuggestionTests.ChoosingPersonInMavChatSearchUnfoldsTheirConversationBeforeTheSheetLoads.",
-   "done": "2026-11-24T06:36Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T06:36Z",
-     "text": "Main c2ee0d4c. The test had attempted to select a default row when Search had not published its measured peer match. The fixture now exhausts the first frame deliberately, checks no row was published, advances through Search's retained work"
     }
    ]
   },
@@ -5217,6 +4019,6 @@
    "since": "2026-11-24T22:20Z"
   }
  ],
- "source_revision": "6758af1b67899a8630f95da65d3190a8401a47ed",
- "board_revision": "86cb466b98cab2289326352dadc79cf6365a45cd"
+ "source_revision": "1c41ef3a2cfa887eae9c0e5b0a94bb0ba213bde2",
+ "board_revision": "b20beb7c7b4e040469b8bfd8e6616acc9ba5ca3d"
 }
