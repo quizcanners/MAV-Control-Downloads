@@ -3888,41 +3888,35 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "Codex",
-     "since": "2026-11-25T09:35Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "Codex",
+     "at": "2026-11-25T09:35Z",
+     "text": "Published 960d157212 to main. The normal Editor compiled. DirectUsbPairingTests require disposable Data. Device check remains: with VPN inactive and current apps on both ends, connect Android ADB, Android USB tethering and iPhone USB, open "
+    }
+   ]
   },
   {
    "n": 2227,
    "name": "MavChat GPS",
-   "done": "",
+   "done": "2026-11-25T09:38Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_GPS_PANEL",
-     "since": "2026-11-25T09:30Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_GPS_PANEL",
+     "at": "2026-11-25T09:38Z",
+     "text": "0aa1a76acb on main and compiled in the refreshed open Unity Editor. Top row and native prefab bindings checked. Set Manual is available only with no fresh enabled fix; a newer GPS fix replaces the session fallback and dependent route origin"
+    }
+   ]
   },
   {
    "n": 2228,
@@ -4201,6 +4195,6 @@
    "since": "2026-11-24T22:20Z"
   }
  ],
- "source_revision": "960d157212595bf8839dae666ce0acd6887c7a53",
- "board_revision": "9611c951b860338142b774a3b406b341bdb2e15a"
+ "source_revision": "0aa1a76acb3a168c624713e98fb9eb9b278bf754",
+ "board_revision": "da4d7266adcac6fe44b9d13a02c6b5f84d0ec934"
 }
