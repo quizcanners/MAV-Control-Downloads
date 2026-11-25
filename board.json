@@ -3781,25 +3781,22 @@
   {
    "n": 2243,
    "name": "Use selected yellow for the peer name in the landscape MavChat list and conversation header",
-   "done": "",
+   "done": "2026-11-25T13:43Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "MAC_CHAT_PEER_COLOR",
-     "since": "2026-11-25T13:38Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "MAC_CHAT_PEER_COLOR",
+     "at": "2026-11-25T13:43Z",
+     "text": "eebb6141a7 on main. Unity compiled and Roslyn found no new errors. A landscape Play Mode probe applied the production bindings to both authored prefabs and confirmed yellow on the selected row and conversation header, with the group and por"
+    }
+   ]
   }
  ],
  "verify": [
@@ -4052,6 +4049,6 @@
    "since": "2026-11-25T09:49Z"
   }
  ],
- "source_revision": "143dabb51efb0f660a2e63470d4e4440cfd0362f",
- "board_revision": "e6e719613b5774509e14176183d8eef5234b19f3"
+ "source_revision": "eebb6141a75c9e287ced09231feeacc576f11253",
+ "board_revision": "f71779b31419a18c9b218929fb877f17d353d8aa"
 }
