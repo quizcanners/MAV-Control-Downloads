@@ -3871,18 +3871,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_FLIGHTZONE_AFFECTORS",
-     "since": "2026-11-25T09:14Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_FLIGHTZONE_AFFECTORS",
+     "at": "2026-11-25T09:15Z",
+     "text": "Implemented and pushed in be15473349, with 003b735c25 restoring concurrent MavChat test edits to the working tree. Unity compile clean. The 209 Situation EditMode cases stopped in setup because ordinary Data is active. Remaining: run the Si"
+    }
+   ]
   },
   {
    "n": 2225,
@@ -4170,6 +4167,6 @@
    "since": "2026-11-24T22:20Z"
   }
  ],
- "source_revision": "be154733493e512835a04fe5f5518a79132a2b16",
- "board_revision": "4913ddd35fa825078a0cf4f027f463c425ebd10f"
+ "source_revision": "003b735c25f437c66d283a79429dbcd83aebbc25",
+ "board_revision": "55227a4044268f502c1f47144b3a51f8b7bb7772"
 }
