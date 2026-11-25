@@ -1210,7 +1210,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_WINDOWS_TILE_CLOSE",
+     "since": "2026-11-25T08:33Z",
+     "noted": "",
+     "progress": 67,
+     "ticked": 2,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "The line now names SQLite's real reason (UI_TileStorageNotification.TrueReason)",
@@ -2955,26 +2964,6 @@
    ]
   },
   {
-   "n": 2178,
-   "name": "Give the bottom-right time plaque a quiet non-interacting presentation",
-   "done": "2026-11-24T08:14Z",
-   "goal": false,
-   "under": 407,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T08:14Z",
-     "text": "Published b45acfab. Normal Unity Play Mode verified interactive glass, the idle blue capsule with shadow and live time, the wake transition, and Map focus selection after idle. Quiz: \u201cThe bottom right time plaque, give. Give it quiet non-in"
-    }
-   ]
-  },
-  {
    "n": 2179,
    "name": "Mac mini GitHub Actions runner",
    "done": "",
@@ -2991,26 +2980,6 @@
      "by": "CODEX",
      "at": "2026-11-24T11:17Z",
      "text": "Run 45382270534 on current main c4d3931393 used the online, idle Mac mini and failed before checkout. The check-run annotation still reports Device error while enumerating /Users/quizcannersmac/actions-runner/_diag/Worker_20261102-151959-ut"
-    }
-   ]
-  },
-  {
-   "n": 2180,
-   "name": "Show paused Video Retransmission in its notification",
-   "done": "2026-11-24T08:24Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T08:24Z",
-     "text": "Published 33521afd. Unity Edit Mode passed TelemetryControlLifetimeTests (4) and VideoRestreamProtocolTests (81). Quiz: \u201cWhen video stream is paused there are no indications in many places. The notification tongue could have a pause icon. T"
     }
    ]
   },
@@ -3684,7 +3653,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_MAC_UI",
+     "since": "2026-11-25T08:36Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -4019,6 +3997,6 @@
    "since": "2026-11-24T22:20Z"
   }
  ],
- "source_revision": "032166b8fe2edf054ec45141831a3f88cfb3f781",
- "board_revision": "aa51061300c4c1a7fe6522c5f45c33dc59530cc3"
+ "source_revision": "553c5632375a10085c14d73f4b3f9b89b9c6b7c8",
+ "board_revision": "af5f251fd9fec60c2eb536878099cf7956157bee"
 }
