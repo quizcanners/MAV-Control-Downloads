@@ -3992,7 +3992,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "CODEX_ANCHORED_FLIGHT",
+     "since": "2026-11-25T17:58Z",
+     "noted": "",
+     "progress": 33,
+     "ticked": 1,
+     "total": 3
+    }
+   ],
    "steps": [
     {
      "t": "Reproduce against reopened Anchored reference",
@@ -4255,6 +4264,29 @@
      "text": "quiz 2026-11-25: \"Currently the build is taking lots of time and lots of space. For our 300 mb app this is a bit too much. What is the reason?\""
     }
    ]
+  },
+  {
+   "n": 2271,
+   "name": "Local agents are slow again",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "quiz: edit AGENTS.md (Editor refresh once per task, at its start) and REFACTORING.md (hot goals from task_flow.py, not Board.md)",
+     "x": false
+    },
+    {
+     "t": "Local agent: stop editing main's Board.md; one board only (origin/board)",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -4503,6 +4535,6 @@
    "since": "2026-11-25T15:45Z"
   }
  ],
- "source_revision": "49e9c3b9465cb083eab19da67f96ee532f317358",
- "board_revision": "937be8d5b5bc79f15f1b6f0bb07bdb632fefbf54"
+ "source_revision": "ec3e6fe318d707167564cd02a25b6a0df09696d8",
+ "board_revision": "99c9d6082ba9cec9456fb0733b1b1254fdf25484"
 }
