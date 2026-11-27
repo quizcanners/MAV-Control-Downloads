@@ -989,11 +989,6 @@
    ],
    "notes": [
     {
-     "by": "cloud-thread",
-     "at": "2026-11-27T10:35Z",
-     "text": "Cloud 2026-11-27: quiz settled the unit: Under 100 counts files on disk, not rows (Record Vault SPEC compromise 6). The five stores listed in 'rest of Under 100 files' are tens of files and do not explain the iPhone's 51K. Cause: old payloa"
-    },
-    {
      "by": "CLOUD_NEXT",
      "at": "2026-11-27T11:02Z",
      "text": "CR-9108-01 is stale: CopyNewerRows checks HasRoomForCopy and waits (RoomWaiting). Close it. Still open on main: CR-D288-01, CR-0096-01, CR-F070-01; CR-E7ED-01 unclear (census reworked, _committedSinceSample still cleared at Retention.cs:263"
@@ -1002,6 +997,11 @@
      "by": "CLOUD_THREAD",
      "at": "2026-11-27T11:44Z",
      "text": "CLOSED by quiz 2026-11-27 as won't fix: CR-D288-01 (\"Nope. If we check it then what will happen next? We will need to decide how to handle that. Lets just keep it as is.\") and CR-F070-01 (\"Nope. Lets not add extra logic. It is likely to cau"
+    },
+    {
+     "by": "CLOUD_Q",
+     "at": "2026-11-27T13:13Z",
+     "text": "Settled 2026-11-27 by stances (no new logic for rare or one-time costs): CLOSED stale CR-E7ED-01 (logical maps now measure fresh, cache gone); WON'T FIX CC-3D80-01, CC-9108-01, CC-5265-01 (one-time migration/import cost), CR-0096-02 (needs "
     }
    ]
   },
@@ -8447,6 +8447,5 @@
    "since": "2026-11-27T12:12Z"
   }
  ],
- "source_revision": "dcd6446ef7fca159587878c48ac7eb279afbf312",
- "board_revision": "e9a4434b8f9061f83c8fe327e177ebb691bae394"
+ "source_revision": "dcd6446ef7fca159587878c48ac7eb279afbf312"
 }
