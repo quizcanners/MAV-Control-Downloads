@@ -8125,18 +8125,15 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC_WORKER",
-     "since": "2026-11-27T12:59Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T13:06Z",
+     "text": "First sweep shipped on main as 3db35fa5f8. MavChat Outbox consumes resume and returning-peer retry requests. Incoming owns the retry for photos still in RAM. Roslyn parsed the six files and nine isolated assertions passed. Unity and device "
+    }
+   ]
   },
   {
    "n": 2484,
@@ -8441,6 +8438,6 @@
    "since": "2026-11-27T12:12Z"
   }
  ],
- "source_revision": "219458680092b3f6ceeb755b9da88491ed01a738",
- "board_revision": "619c3e75bc61ac6327ae2063edb17f33aca96a00"
+ "source_revision": "3db35fa5f8e41e44c9279d21ad5217dc8a937b2f",
+ "board_revision": "bd132dd41afbc0ca5124aa80a9d6427307fe974d"
 }
