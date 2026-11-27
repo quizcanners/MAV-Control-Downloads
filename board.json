@@ -54,11 +54,6 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD",
-     "at": "2026-11-20T05:21Z",
-     "text": "b510f4bbff records fresh Mac Bootstrap Play. Map preceded Ready and Layers. A Waypoints pointer input during Loading found no tab; the same input opened Waypoints once it appeared. A direct Chat request showed fallback Alerts during Loading"
-    },
-    {
      "by": "CLOUD_PREP",
      "at": "2026-11-24T10:19Z",
      "text": "Prepared: code and baselines are on main; what remains is long boot frames of 1.7-1.9 s between owner steps (one frame 1.5 s with 1.35 s unmeasured engine work, e.g. Main UI waking). Needs a Strong cold-start trace naming that frame; goes a"
@@ -67,6 +62,11 @@
      "by": "NT68-C15-002",
      "at": "2026-11-25T21:59Z",
      "text": "NT68-C15-002 boot capture (warm Editor Play, 6000.6.10f1, profiler.arm bootmainui, 2026-11-25): Ready frame 7 = 1,206 ms, of which UpdateScene 677 ms self (Main UI scene integration), Prefabs.MergePrefabs 166 ms (Editor only), Instantiate 9"
+    },
+    {
+     "by": "CLOUD_GUARDS_362",
+     "at": "2026-11-27T10:00Z",
+     "text": "Compass Open file already keeps the picked path and requests Late UI (446e4af49), so (b) was done. (a) Default Coding records: the read worker now stamps WorkerValidatedHash; OptionalScene.Validate skips the point walk while ContentHash sti"
     }
    ]
   },
@@ -775,19 +775,19 @@
    ],
    "notes": [
     {
-     "by": "MAC_BOARD",
-     "at": "2026-11-19T14:40Z",
-     "text": "ecf7de4409 centers the clock rule, softens and offsets the compass shadow, and corrects the baked east/west paint bias. No UI hides lock artwork and labels, keeps compass/plaque and restores planet-scale sunlight. Mac native Compass/Clock a"
-    },
-    {
-     "by": "REVIEW",
-     "at": "2026-11-20T05:23Z",
-     "text": "CR-1ADA-01 P3 remains open; seven Ukrainian Street View texts are shifted. S1/S2: Coordination/Reviews/2abaea4d9.md#cr-1ada-01--p3-seven-ukrainian-street-view-texts-are-shifted. CC-0802-01 P3: Editor ribbon probe scans scene meshes by name "
-    },
-    {
      "by": "ROG_FABLE_CODEX",
      "at": "2026-11-24T13:44Z",
      "text": "Suggestions flick 7752e060 verified on Windows Unity D3D11, main 72dfc69e. In the normal Editor at 915x403, the Input System raycast hit Screen Center Tab at 873,254 and Selected Object Tab at 829,254. Diagonal flicks from both tabs into th"
+    },
+    {
+     "by": "CLOUD_META",
+     "at": "2026-11-27T10:44Z",
+     "text": "Receivers OnScreenCornersChanged and OnAndroidWindowInsetsChanged restored on Singleton_GroundStation (eec52123); CR-1DEF-01 draw array already sized from full list on main; CR-E15C-01 peer pointer already uses MapMotion.VisibleTranslation "
+    },
+    {
+     "by": "CLOUD_NEXT",
+     "at": "2026-11-27T11:02Z",
+     "text": "Review brief CC-BD61-01 is stale: on main the flick commits the dismissal at release (UI_SuggestionsSwipeAway.CommitDismissal), the SuggestionsDismissing flag is gone. Close it. CC-DC49-01 (two extra list scans in MergeGroupPair) and CC-134"
     }
    ]
   },
@@ -836,11 +836,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_MAC_UI",
-     "at": "2026-11-16T12:03Z",
-     "text": "Paused by user. No Settings subpage edits made. Inspectors SPEC still says content starts below X, contradicting the 16 px top gap and right clearance now on main (084c2224be); correct that guide when work resumes. Do not add unrequested on"
-    },
-    {
      "by": "ui1",
      "at": "2026-11-18T11:35Z",
      "text": "Inspectors SPEC line about content starting below the X now states the 16 px top gap and right clearance; guide matches main."
@@ -849,6 +844,11 @@
      "by": "MAC_BOARD",
      "at": "2026-11-20T13:36Z",
      "text": "1919 on main. KMZ/KML leads with the import result, and parsed details open separately. Mac Play and 23 EditMode passes recorded. Base map 1916 and App updates 1915 also landed. Other subpages and the unidentified foldout remain."
+    },
+    {
+     "by": "CLOUD_NEXT",
+     "at": "2026-11-27T11:02Z",
+     "text": "Review brief CC-D232-01 is stale: main's MAVLink status (DroneLists.RefreshAdvertised) walks ConnectedRealDrones once with IsAdvertised; no re-search. Close it."
     }
    ]
   },
@@ -938,6 +938,11 @@
      "by": "CLOUD_PREP",
      "at": "2026-11-24T10:18Z",
      "text": "Prepared: 429 stays after 378. Claimable pieces are its Getac lines (Strong, Lenovo frame stalls via tasks 1437/1493/1525/1589). Cloud-only piece: VPN messaging wire change behind a PeerBuilds gate (Research/VPN_Messaging_CPU_2026-11-09.md)"
+    },
+    {
+     "by": "CLOUD_NEXT",
+     "at": "2026-11-27T11:02Z",
+     "text": "Stale on main 19bc4ce9eaa, close: CC-6299-01 (no GetBytes copy), CR-0CC1-01/-03 (Enemy Logistics shader gone), CC-A030-01 (pen mirror id found once), CC-A9DF-01 (shader snaps every frame, no rebuild), CR-8CE4-02 (poll recovery receipt exist"
     }
    ]
   },
@@ -984,19 +989,19 @@
    ],
    "notes": [
     {
-     "by": "HEAVY",
-     "at": "2026-11-15T02:18Z",
-     "text": "6e1d0705ca records a 40,000-file Windows NTFS census baseline in Performance Baseline/CPU.md. Host compiled the production scan."
+     "by": "cloud-thread",
+     "at": "2026-11-27T10:35Z",
+     "text": "Cloud 2026-11-27: quiz settled the unit: Under 100 counts files on disk, not rows (Record Vault SPEC compromise 6). The five stores listed in 'rest of Under 100 files' are tens of files and do not explain the iPhone's 51K. Cause: old payloa"
     },
     {
-     "by": "GETAC",
-     "at": "2026-11-18T18:13Z",
-     "text": "Lenovo repaired Dev861/6967901230: archived our old Test860 updater APK after host/device SHA match. Freed 329.1 MiB, no map files touched. New retention sample 2.738 GB available vs 2.677 GB base reserve and 3.035 GB migration maintenance "
+     "by": "CLOUD_NEXT",
+     "at": "2026-11-27T11:02Z",
+     "text": "CR-9108-01 is stale: CopyNewerRows checks HasRoomForCopy and waits (RoomWaiting). Close it. Still open on main: CR-D288-01, CR-0096-01, CR-F070-01; CR-E7ED-01 unclear (census reworked, _committedSinceSample still cleared at Retention.cs:263"
     },
     {
-     "by": "CODEX",
-     "at": "2026-11-24T04:27Z",
-     "text": "Lenovo Dev 878 after Raster ended, peer queue zero: legacy inventory appeared in 896/1,452 app CPU samples (61.7%), split 482 initial and 414 after maintenance. The 19.877 s trace lost zero samples. Tile bytes fell 2.43 MB and volume free s"
+     "by": "CLOUD_THREAD",
+     "at": "2026-11-27T11:44Z",
+     "text": "CLOSED by quiz 2026-11-27 as won't fix: CR-D288-01 (\"Nope. If we check it then what will happen next? We will need to decide how to handle that. Lets just keep it as is.\") and CR-F070-01 (\"Nope. Lets not add extra logic. It is likely to cau"
     }
    ]
   },
@@ -1062,7 +1067,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CLOUD_VERIFIED",
+     "at": "2026-11-27T10:22Z",
+     "text": "CORRECTION quiz 2026-11-27: earlier verified mark was wrong for the on-phone part. BUG: Android sharing its own device screen from the app on the phone does NOT work (USB capture over cable and restream options do work, retransmits included"
+    }
+   ]
   },
   {
    "n": 479,
@@ -1138,11 +1149,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_GRAPHICS",
-     "at": "2026-11-15T06:55Z",
-     "text": "Shared-workflow audit at 1e0b80295c: Alarm CanPresent requires RemoteSensors + Alarm + PinValidated (Station_RemoteSense.cs:36); TrainingSimulationBackend.cs:65 stops outside Training or in its RemoteSensors mode. MapOnly also omits the Rem"
-    },
-    {
      "by": "REVIEW",
      "at": "2026-11-20T10:49Z",
      "text": "CC-0391-01 P3: Training scans every coverage cell for distance retirement each update although observerCellChanged already exists. S1/S2 brief ready for quiz before refactoring: Coordination/Reviews/577c0e7fa.md#cc-0391-01--p3-training-rech"
@@ -1151,6 +1157,11 @@
      "by": "CLOUD_PREP",
      "at": "2026-11-24T10:18Z",
      "text": "Prepared: Situation/Entities SPEC already holds Ultimate and compromises. Cloud pieces left are the checklist items under 572 (one ground system, one fade component, shared draw loop) and CR-A449-01; the device item (phone/tablet frame time"
+    },
+    {
+     "by": "CLOUD_NEXT",
+     "at": "2026-11-27T11:02Z",
+     "text": "Stale on main 19bc4ce9eaa, close: CR-A449-01 (models hidden above cutoff skip pointing), CC-43B1-01 (draw publishes MaximumDrawnBodyHeight), CC-0391-01 (cull gated by observerCellChanged). Still open: CC-EDF1-01 (matrix refresh walks every "
     }
    ]
   },
@@ -1737,6 +1748,11 @@
      "by": "HEAVY",
      "at": "2026-11-18T12:56Z",
      "text": "5205f6e595 slices Depth Anything scheduling; Unity and cmp.sh passed. GPU.md (a7544f465f) holds the baseline. New Pexels castle orbit at 4:3 mapped 40 frames and drew 38,845 points. At 60 FPS target, 599 frames gave p99 46.229 ms, max 51.07"
+    },
+    {
+     "by": "MAC_PERF",
+     "at": "2026-11-26T17:33Z",
+     "text": "Mac Metal short Zurich replay: active 93 steady frames mean 30.45 ms, max 215.25 ms; WaitForLastPresentation inclusive 1,413 ms, max 202.60 ms. Paused 226 frames mean 12.79 ms, max 57.17 ms. Different pacing/draft state; Metal GPU timing un"
     }
    ]
   },
@@ -1808,11 +1824,6 @@
    ],
    "notes": [
     {
-     "by": "REVIEW_3D_GENERATION_SPEC",
-     "at": "2026-11-25T08:11Z",
-     "text": "032166b8fe specifies the next workflow from quiz. At end of file, elastic Photo Tension until stable or generation is stopped. Mark Positioned starts first bake. OrthoPhotoBakeUpdated follows actual projection edits, Rebake to Orthophoto re"
-    },
-    {
      "by": "NT68-C15-002",
      "at": "2026-11-25T09:06Z",
      "text": "Main badc28fe57 closes source finding 3D-6758-03 by rechecking the exact marked reference tiles before applying a pending position fit. Unity compiled and the SQLite controls passed. Real cross-flight positioning and Zurich refusal stay on "
@@ -1821,6 +1832,11 @@
      "by": "Codex",
      "at": "2026-11-26T09:26Z",
      "text": "NT68 in the ordinary Windows Editor with RTX 5060 Laptop and Direct3D 11. The pinned DA3 eight-view model generated 8 and 20 registered photos on two Kenilworth bridge passes. Both lost confirmed tracking around 10\u201311 s and continued provis"
+    },
+    {
+     "by": "CODEX_WINDOWS_BASELINE",
+     "at": "2026-11-27T07:00Z",
+     "text": "Ordinary Windows Unity 6000.6.10f1 (D3D11), main 3b0fb58a53: 11 focused Editor controls passed for camera fit/turn, 15 degree ground refit, recovery shutters/Marker weights, Elements fine/coarse coverage and no compounding Pano360 opacity w"
     }
    ]
   },
@@ -1868,11 +1884,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "GETAC",
-     "at": "2026-11-19T13:41Z",
-     "text": "Reproduced on the same qualified Windows Dev863 6ec21f06b4 during active sync. Close saved a 257,469-byte quit checkpoint in 673.3 ms, then hit ReversePInvokeWrapper_WindowsPlatformImpl_OnScaleFactorChanged through AppUINativePlugin after i"
-    },
-    {
      "by": "CLAUDE_1748",
      "at": "2026-11-22T19:30Z",
      "text": "f180157a95: WindowStateManager calls AppUINativePlugin NativeAppUI_Uninitialize at Application.quitting (main thread, window alive), removing AppUI's window subclass before managed teardown; Windows shutdown order in Bootstrap SPEC. Code is"
@@ -1881,6 +1892,11 @@
      "by": "NT68-C15-002",
      "at": "2026-11-25T21:44Z",
      "text": "NT68-C15-002 2026-11-25: Windows Test 883 player (4d634a6434, has WindowStateManager NativeAppUI_Uninitialize at quitting) started, ran 60 s, closed by WM_CLOSE: exit 0x0, no Application-log crash/WER for MAV Control. No peers, so not durin"
+    },
+    {
+     "by": "NT68_HEAVY",
+     "at": "2026-11-26T19:08Z",
+     "text": "Actual Windows IL2CPP 889 (509a79e362) selected generic App UI in stripped assembly. The real player exited 0 under Setup WM_CLOSE and relaunched with no reboot or WER crash. The relaunched player also closed without a Unity crash. Short na"
     }
    ]
   },
@@ -1949,11 +1965,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_SDC",
-     "at": "2026-11-20T15:58Z",
-     "text": "Published 40ab70ca25 on main. Android Video Source lists OTG UVC capture cards exposed through Camera2, requests camera permission and retries after reconnect. Java API 36 compile and Linguist passed, and Roslyn found no new errors. Video S"
-    },
-    {
      "by": "DJI-Dev",
      "at": "2026-11-20T20:15Z",
      "text": "Android Dev 870 (7ecf2d3797): Unity ignored UsbCaptureCard.java because its .meta GUID has 33 hex digits. APK class definitions confirm the optional USB capture-card bridge is absent. Direct DJI bridge is present."
@@ -1962,6 +1973,11 @@
      "by": "CLOUD_PRUNE",
      "at": "2026-11-24T10:11Z",
      "text": "quiz 2026-11-24: \"Keep it. Don\u2019t break anything.\""
+    },
+    {
+     "by": "CLOUD_VERIFIED",
+     "at": "2026-11-27T10:22Z",
+     "text": "quiz tested 2026-11-27: restream options and Android screen capture over USB work, retransmits included. Verified by quiz. (Correction same day: Android sharing its OWN screen from the app on the phone does NOT work; that part is not verifi"
     }
    ]
   },
@@ -2009,9 +2025,19 @@
    "steps": [],
    "notes": [
     {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T12:26Z",
-     "text": "eda641b3 on main. MavLink selection no longer invalidates the drone list directly. The list reads Focus.SelectionVersion before updating rows and uses the same change for navigation. Rog Unity 35 Edit Mode tests passed (10 Top Controls layo"
+     "by": "CODEX_SCREEN_DIAG",
+     "at": "2026-11-27T00:26Z",
+     "text": "e65af76fec routes Self Diagnosis screen view through a Bootstrap contract bound by UI composition, removing its Screen Blur singleton reference. Unity compiled and actual binder/absence test passed; running diagnose screen verification is t"
+    },
+    {
+     "by": "CODEX_DIAGNOSTIC_UI",
+     "at": "2026-11-27T00:37Z",
+     "text": "9e8f2d0912 routes Sandbox screen alignment through the Screen Blur presentation contract, preserving the exact missing-owner response. Unity compiled and actual binder/status/fallback fixture passed. Running alignment verification remains i"
+    },
+    {
+     "by": "CODEX_TELEMETRY_PREVIEW",
+     "at": "2026-11-27T00:57Z",
+     "text": "9969493b75 routes Pilot telemetry preview visibility through TelemetryPresentation and calls VideoRestreaming directly for countdown frames, retaining absent-view fallback. Mac Unity compiles; PilotWorkflowTests 31/31 and VideoRestreamProto"
     }
    ]
   },
@@ -2274,6 +2300,11 @@
      "by": "CODEX_MODEL_POSITIONING",
      "at": "2026-11-23T12:27Z",
      "text": "Main 92e355f749 keeps the world projection on the current decoder image and shares the visible Synthetic drone pose with Pilot View. Moving Kenilworth replay verified frame advance and shared pose. Hide Video still exposed landmark errors. "
+    },
+    {
+     "by": "CODEX_WINDOWS_BASELINE",
+     "at": "2026-11-26T21:55Z",
+     "text": "Saved Windows Kenilworth at 21.063 s, video hidden, six retained Pano360 photos. 130 inlier patches on three regions matched source landmarks (median local geometry residual 0.88\u20131.09 px). Pilot median luma minus source -0.3, -3.1 and -6.7 "
     }
    ]
   },
@@ -2307,9 +2338,19 @@
    ],
    "notes": [
     {
-     "by": "CODEX_MODEL_POSITIONING",
-     "at": "2026-11-23T12:54Z",
-     "text": "Live Unity verified same Synthetic, Pilot and projector pose; native keyframe timing, wrapped yaw, and 30 degree extrapolation bound passed. Kenilworth stable interval: 12.25 m/s from 12.39 requested, 11.15 deg/s from 11.21 requested, no re"
+     "by": "CODEX_PHOTO_MOTION_DIAG",
+     "at": "2026-11-26T17:50Z",
+     "text": "quiz 2026-11-26: \"Drone movement doesn\u2019t look healthy.\" Zurich instrumented replay: at 55 s hidden Pilot read 58.2 m/s; selected photos at 53.7/54.1 s had 48.2/21.0 px held-out errors, and presented camera matched full-elapsed extrapolation"
+    },
+    {
+     "by": "CODEX_PHOTO_MOTION_FIX",
+     "at": "2026-11-26T17:57Z",
+     "text": "Castle 23 s pair control completed: 56 pairs, 55 fit/fit, no drops; 8 pairs had a held-out median above 16 px, including 314.94 px fit accepted at confidence 0.429. Only 2 exact-tick pairs also had later registered same-exposure cameras, to"
+    },
+    {
+     "by": "CODEX_WINDOWS_BASELINE",
+     "at": "2026-11-26T21:52Z",
+     "text": "Windows Kenilworth before 148379c837 accepted a 139.23 px reserved reprojection error and turned 175.3 degrees over 0.292 s. Fix reduced sampled accepted error to 1.59 px and Pilot p90 turn rate from 131.6 to 53.8 deg/s. Peak 506 deg/s pers"
     }
    ]
   },
@@ -2503,19 +2544,19 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_ZURICH_BASELINE",
-     "at": "2026-11-23T21:31Z",
-     "text": "Main b1f0f0640f compiled in the ordinary Mac Editor. Registered and provisional photos use measured per-camera floors. Original depth footprint residuals can translate or turn each camera even without a fitted plane. The derived visible Dis"
+     "by": "CODEX_KENILWORTH_FINE_FLOOR",
+     "at": "2026-11-27T12:29Z",
+     "text": "Main 6e8a767f11 uses Fine Altitude at retained resolution for the local Disk floor. One ordinary DX11 replay with survey present from start kept one placed Origin and scale through 55.015 s Pause. Runtime elevation: 30/10887 Disk samples be"
     },
     {
-     "by": "CODEX_RAW_MAP_BASELINE",
-     "at": "2026-11-23T22:39Z",
-     "text": "Ordinary Main Editor, e0fdecea07, three independent clips at the saved measured placement: 0/431 camera, 0/5905 photo-origin and 0/22016 actual drawn Disk-centre samples below ground. Minimum centre +3.76 mm. Draw-time ECEF matters: convert"
+     "by": "CODEX_KENILWORTH_DATUM",
+     "at": "2026-11-27T12:44Z",
+     "text": "Main 153dac6f9a checked 11,311 plotted Disk centres against the in-app elevation and all were above, min +0.0247 m. Independent 1 m DTM still had 7 playback and 34 Pause below, min -0.379 m. Main 77913da330 separates Copernicus EGM2008 disp"
     },
     {
-     "by": "CODEX_CASTLE_PHOTO_AGREEMENT",
-     "at": "2026-11-24T10:41Z",
-     "text": "Main 7f6281bd4a and d48fcc554a. On a real measured slope the whole draft was landed together, preserving relative photo geometry. Its measured ground plane was within 1.21 degrees of the local terrain normal. Before correcting the published"
+     "by": "CODEX_KENILWORTH_RESAMPLING",
+     "at": "2026-11-27T12:54Z",
+     "text": "Main e3e49c3052 records the external clearance cross-check. In 11311 covered Disk samples, nearest and pixel-centre bilinear DTM marked 41/42 negative, with 30 shared. All 53 flagged by either had positive 0.0249 to 0.2111 m clearance again"
     }
    ]
   },
@@ -2533,11 +2574,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_CASTLE_PHOTO_AGREEMENT",
-     "at": "2026-11-24T10:40Z",
-     "text": "Main 7f6281bd4a and d48fcc554a. Fresh Castle first pass with 52 registered photos, optical flow off. Held-out photo pairs median/P90 2.29/6.00 px and nonadjacent groups 2.96/7.16 at 504px width. The submitted Disks included all 198 sampled "
-    },
-    {
      "by": "CODEX_CASTLE_PHOTO_PREDICTION",
      "at": "2026-11-24T11:14Z",
      "text": "3392be36be on main. File Pilot reads the last two causal corrected photo poses on the decoder clock. Either photo can revise velocity, including on pause. A decoded match follows its source photos until it owns depth. 32/32 focused UnityPla"
@@ -2546,6 +2582,11 @@
      "by": "CODEX_RECORDED_TENSION",
      "at": "2026-11-24T18:11Z",
      "text": "e3eff3d415 delivered reciprocal post-run photo settlement, measured native depth overlaps, fixed and repeated-shutter handling, and late evidence wakeup. 25 focused tests passed. Zurich in real Play Mode: 35 cameras after 240s, reserved P90"
+    },
+    {
+     "by": "CODEX_3D_REMAINING",
+     "at": "2026-11-26T17:06Z",
+     "text": "Mac station: normal Unity Editor is in use for quiz\u2019s live 3D generation; replay and refresh are unavailable. Checkout main also diverges from origin/main and has unrelated local changes (task 2353). Resume measured verification after the E"
     }
    ]
   },
@@ -2604,14 +2645,19 @@
    ],
    "notes": [
     {
-     "by": "ROG_FABLE",
-     "at": "2026-11-23T20:54Z",
-     "text": "ROG_FABLE: .git 3.1G -> 1.1G (objects 156M, 304 commits deep; lfs 953M is the current checkout's LFS files, lfs prune kept them). Before trimming, everything that existed only here was saved: 8 local branches with unpushed commits and 75 st"
-    },
-    {
      "by": "GETAC",
      "at": "2026-11-23T21:25Z",
      "text": "GETAC: .git 3.0G -> 1.1G (objects 157M, 296 commits deep; lfs 953M is the current checkout's LFS files). Before trimming, 967 local-only refs (452 branches, 9 tags, codex, verify-runner, mav, archive and backup refs) saved in one verified c"
+    },
+    {
+     "by": "CODEX_MAC_GIT_AUDIT",
+     "at": "2026-11-27T01:02Z",
+     "text": "Mac audit: .git is 3.8 GiB with hundreds of local branches and 20 stashes. They have not been deleted or pruned; identify and preserve any local-only work before trimming, with other Git activity stopped. The shallow boundary was also reset"
+    },
+    {
+     "by": "CODEX_MAC_GIT_TRIM",
+     "at": "2026-11-27T01:16Z",
+     "text": "Mac: .git 3.8 GiB -> 1.1 GiB; checkout fast-forwarded, 304 commits deep at trim, existing user edits preserved, connectivity fsck clean. A verified 2.1 GiB archive under ~/MavControlEvidence/WorkCritical/mac-git-preservation-20261127-030722"
     }
    ]
   },
@@ -2843,19 +2889,19 @@
    "steps": [],
    "notes": [
     {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-24T08:00Z",
-     "text": "1d5cbd2c on main. video.restream now shows the broadcast choice and whether Restream can resolve the bound, default, or replacement video before output starts. Unity compiled. Edit Mode covered all four outcomes and confirmed reading leaves"
-    },
-    {
-     "by": "Codex",
-     "at": "2026-11-26T08:54Z",
-     "text": "NT68 build 884 showed No relay and Relay stopped. Main retires native transport feed/output identities on relay loss and shows typed helper failures. The shipped relay and FFmpeg decoded 24 VP8 RTSP frames over loopback with plain and 4 s d"
-    },
-    {
      "by": "CODEX",
      "at": "2026-11-26T12:43Z",
      "text": "Installed NT68 build 885 reproduced the relay InvalidOutput history with generic 0x80131500. Main 09b0965b39 corrects the mismatch between the native subscriber RTP write measurement and Unity validation. Bad measurements and stale stats ar"
+    },
+    {
+     "by": "NT68_HEAVY",
+     "at": "2026-11-26T17:50Z",
+     "text": "Installed Windows 886 startup failure was narrowed to IL2CPP stripping (2383). Re-linked 886 with current 1ca035f6cd preservation and decoded actual bundled protocol-6 ready JSON plus nested diagnostics. The installed 886 is still the origi"
+    },
+    {
+     "by": "NT68_888_QA",
+     "at": "2026-11-26T18:44Z",
+     "text": "Windows 888 local production player 4241e50671: through Telemetry UI loaded synthetic MP4, entered 00:45, started loopback RTMP H.264. Receiver decoded countdown (00:12 plus logo) and then 57.003 s of live-source color bars at 640x360. Loca"
     }
    ]
   },
@@ -2906,6 +2952,11 @@
      "by": "NT68-C15-002",
      "at": "2026-11-25T21:38Z",
      "text": "c6351ba26f on main: shared EntityGroundProbe + EntityGroundRequest and one 5 cm move rule for Remote Sensors and Situation (Remote Sensors was 1 cm). Left: one shared walk of requests; Situation's baking list needs its groups as entities be"
+    },
+    {
+     "by": "CODEX_MAC_SHARED_GROUND",
+     "at": "2026-11-26T22:56Z",
+     "text": "Both owners already use EntityGroundProbe. Situation must ground the unpublished list in 1024-item/2 ms windows, keep old height for displayed models without visual terrain, and publish only after the staged pass; Remote Sensors retries ena"
     }
    ]
   },
@@ -2946,6 +2997,11 @@
      "by": "NT68-C15-002",
      "at": "2026-11-25T21:37Z",
      "text": "Not started (NT68-C15-002 batch): Remote Sensors draw through Entities Graphics, not their own loop. Moving them onto Situation's draw needs a shared drawer lifted out of SituationGroupedIconSystem, per-device size, normal/armed materials a"
+    },
+    {
+     "by": "CODEX_SHARED_DRAW",
+     "at": "2026-11-26T22:27Z",
+     "text": "Sensor point and shadow use separate Entities Graphics prototypes. The marker shader draws depth in AfterBlur (Map Overlay); shadows currently use PseudoDecals, whereas Situation draws shadow boxes after transparents with declared depth. Pr"
     }
    ]
   },
@@ -2989,7 +3045,18 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_STATION_CONTAINER",
+     "at": "2026-11-26T22:50Z",
+     "text": "0f87ab051a groups the geographic PositionVersionHistory as Station.Geo.PositionVersionHistory and updates callers. Editor compiled cleanly; CameraPositionVersion rotation test passed in disposable identity. Other Station areas remain."
+    },
+    {
+     "by": "CODEX_STATION_SLICE",
+     "at": "2026-11-26T23:12Z",
+     "text": "Reviewed remaining Station root pieces after Geo.PositionVersionHistory. The geographic transform methods are shared by camera, MGRS and active 3D projection; moving them would touch 3D files excluded by this task. Other inspected classes a"
+    }
+   ]
   },
   {
    "n": 2198,
@@ -3017,7 +3084,18 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_NESTED_OWNER",
+     "at": "2026-11-26T22:50Z",
+     "text": "b2e275437d moves TelemetryDecodeWorker beside Internet.Manager, keeping implementation unchanged and qualifying owner-held session/diagnostics types. Unity compile clean; MavLinkTelemetryInboxTests 45/45 and SafePeerDiagnosticsTests 12/12 p"
+    },
+    {
+     "by": "CODEX_LINKED_BROWSER",
+     "at": "2026-11-27T00:39Z",
+     "text": "LinkedBrowser CommandWorker already uses _owner for instance reads and Manager members are internal, with static import for Manager helpers. These files compile only on Windows; the requested Windows compilation remains unverified on this M"
+    }
+   ]
   },
   {
    "n": 2200,
@@ -3031,7 +3109,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_INSPECTOR_MOVE",
+     "at": "2026-11-26T22:31Z",
+     "text": "Inspected shared Settings core: owner inspectors already provide most system pages and route details; remaining Inspect_Pages is shared navigation/dispatch and includes 3D DiskMap, excluded by this task. No isolated non-3D implementation id"
+    }
+   ]
   },
   {
    "n": 2201,
@@ -3045,7 +3129,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_BUDGET_OWNER",
+     "at": "2026-11-26T22:43Z",
+     "text": "Core scan: shared frame timing, admission pools and counts are cross-system. The only dedicated measured-work methods found are GroundAlignment, which this task explicitly excludes as 3D map code. HeavyUsage contains many system job names; "
+    }
+   ]
   },
   {
    "n": 2202,
@@ -3081,9 +3171,19 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_SETTLEMENT_SPEED",
-     "at": "2026-11-24T20:55Z",
-     "text": "Paused at quiz's requested break. Same 35 Zurich shutters: coupled solver, 4ms/update at 60Hz, visible agreement at 20s vs old 180s; numerical idle 36.6s. Fresh 98.8s EOF: 972\u2013575 still shifted 18.19px from 30\u219245s (69/71 matches for 972 go "
+     "by": "CODEX_REGISTERED_PAUSE",
+     "at": "2026-11-26T18:20Z",
+     "text": "No-wrap Zurich reached 120.02 s Pause. After final window publication, 75 pairs/1,494 reserved points: at 30 s P90 remaining motion 1.01 px, worst-pair median 105.07 px; target failed. Independent image matching 160/252 pairs median/P90 2.4"
+    },
+    {
+     "by": "CODEX_SETTLEMENT_CAUSAL",
+     "at": "2026-11-26T18:40Z",
+     "text": "Same-run guarded Zurich: measured start clearance matched 62.765 m; 105 s Pause, terrain failed. Early/late graph and photo snapshots identify exposure 383\u2194314: 10 reserved points moved 38.69 px, median error 37.67\u21922.85 px; graph gained 6 e"
+    },
+    {
+     "by": "CODEX_FIRSTPERSON_STABLE",
+     "at": "2026-11-26T19:03Z",
+     "text": "Two matched Castle replays associate Pilot jumps with adding a new depth-photo donor. In one, photo 205 (disk revision 7) entered alongside 174/168 (revision 6) and pose shifted sharply. In another, new donor 221 had held-out median 1.63 px"
     }
    ]
   },
@@ -3141,11 +3241,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "Codex",
-     "at": "2026-11-26T11:04Z",
-     "text": "Paused Matching Drill delivered on main e54589a751. SatLens classified 3 loaded Web Mercator tiles; the 43.181 m Altitude, 100 m east replay grew 30 to 150 m with 3 candidate checks and a visible cyan perimeter. The synthetic 60 m candidate"
-    },
-    {
      "by": "CODEX",
      "at": "2026-11-26T11:45Z",
      "text": "Paused Matching Drill stays on main with the Windows 100 m east replay at 43.181 m Altitude. The radius reached 150 m. The first proposal was 110 m west, 50 m north and moved agreement from 34.4% to 33.8%. The overlay and source tile compar"
@@ -3154,6 +3249,11 @@
      "by": "CODEX_NT68",
      "at": "2026-11-26T14:39Z",
      "text": "Kenilworth two-file replay on main e77d8068d2: changing to the overlapping bridge clip entered SourceChanged and kept the old draft's 32 photos and cells with zero joins. Bridge reconstructed independently as a fresh capture (12 photos by 7"
+    },
+    {
+     "by": "CODEX_MAC_CROSSCAPTURE",
+     "at": "2026-11-26T17:07Z",
+     "text": "Mac review: retained cross-flight receipt confirms 0/3 independent Heritage joins and 3/3 unrelated Zurich refusals; strong shared features were mainly castle walls rather than the marked ground raster. Normal Mac Editor is in use and check"
     }
    ]
   },
@@ -3171,14 +3271,19 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_MAC_WEATHER",
-     "at": "2026-11-25T09:03Z",
-     "text": "Mac normal Unity Play after 82b12cc5d1 displayed a fresh full Open-Meteo forecast and the selected-hour surface summary. Live locality/region is still unconfirmed; this session displayed the MGRS square and provider without a place name."
-    },
-    {
      "by": "MAC_BOARD",
      "at": "2026-11-25T14:11Z",
      "text": "Normal Mac Unity showed a full Open-Meteo profile and surface fields in Weather Profile. The header had its MGRS square and provider, with no place name. The same reverse-geocoding endpoint with a public Zurich control from the Unity HttpCl"
+    },
+    {
+     "by": "CODEX_GRIB_SIGNED",
+     "at": "2026-11-27T11:56Z",
+     "text": "NOAA GRIB2 signed-magnitude fix 0e140c11cb on main: negative packing scales, signed coordinates and optional surface values decode per WMO 92.1.5; missing sentinels preserved. Unity compiled and tests passed 2/2 new plus 41/41 WeatherProvid"
+    },
+    {
+     "by": "CODEX_WEATHER_QUALITY",
+     "at": "2026-11-27T12:07Z",
+     "text": "5f8cfa8573 preserves explicit forecast-field availability and reports flight quality unknown if any required factor is missing; NOAA without precipitation and old unverifiable caches remain unknown. Source/copy/altitude and valid-zero tests"
     }
    ]
   },
@@ -3295,14 +3400,19 @@
    "steps": [],
    "notes": [
     {
-     "by": "cloud-naming",
-     "at": "2026-11-25T14:06Z",
-     "text": "Also: Station.OS.Network (was Station.NetworkInspector); Safeguard.API.Client, Waypoints.Sharing, MGRS.Parser, Geometry.MarkerTypes, Encryption, MAV.Fleet, Station.Input.Mouse.State/Stylus; folder moves; SelfTest per subject; Build.*, Peer."
+     "by": "CODEX_SWARM_NAMING",
+     "at": "2026-11-26T22:45Z",
+     "text": "Swarm slice blocked by assembly boundary: MAV.SwarmEmulator is in Prublyda, while SwarmSimulationBackend and SwarmSimulationSystem use WarStation.Ecs.asmref. C# partial types cannot span assemblies; an explicit container/API design is neede"
     },
     {
-     "by": "MAC_BOARD",
-     "at": "2026-11-25T15:32Z",
-     "text": "Delivered through 1d7784873f on main. Streamer moved to Systems/Video Streaming in ed9e1671ea with all 157 metadata files intact. Keep RestreamLink and its saved Link field per 5cd76e1312. Unity passed ECS runtime load and text slot tests. "
+     "by": "CODEX_SELFTEST_OWNER",
+     "at": "2026-11-26T23:20Z",
+     "text": "0110ea168a moves the SQLite self-test beside WebMercator.SqliteTileStore.Native with its sqlite command and behavior retained. Unity compiled; SelfDiagnosisTests and DiagnoseRegistryTests each passed 11/11, including temporary SQLite write/"
+    },
+    {
+     "by": "CODEX_MAC_MAV_FLEET",
+     "at": "2026-11-27T00:08Z",
+     "text": "d2a68cb17d renames MAV.StatesManager to MAV.Fleet and moves its eight partials with metadata; saved States field stays. Shared Unity compile clean; DroneVisibility 12/12 and MAVLink inbox 45/45 pass. Drone Control AGENTS still uses the form"
     }
    ]
   },
@@ -3337,6 +3447,16 @@
      "by": "CODEX_MAC_SOURCE",
      "at": "2026-11-26T09:23Z",
      "text": "Current Navigator SPEC says MavTube is temporarily absent from MavChat (task 2303); the panel is unreachable. Defer this mobile streaming work until MavTube returns, then verify on phones."
+    },
+    {
+     "by": "CODEX_MAVTUBE_SOURCES",
+     "at": "2026-11-26T22:35Z",
+     "text": "MavTube is restored and the header exposes Device Camera only; CaptureMenu already supports other inputs. Navigator SPEC MavTube and searchable quiz wording specify scrolling, selected video and peer label, but do not explicitly specify a M"
+    },
+    {
+     "by": "CLOUD_VERIFIED",
+     "at": "2026-11-27T10:22Z",
+     "text": "CORRECTION quiz 2026-11-27: the earlier verified mark for Android screen share was wrong. BUG: Android sharing its own device screen from the app on the phone does NOT work. Not verified. USB capture and restream options do work. Cloud is i"
     }
    ]
   },
@@ -3383,11 +3503,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "MAC_BOARD",
-     "at": "2026-11-25T14:15Z",
-     "text": "Observed the existing manual Esri run passively. Its plan and stored check were complete throughout the 30.3 s sample. Downloaded advanced 35 to 90 with zero failures; IndexReading, Reading, Applying and Writing all appeared, with no multi-"
-    },
-    {
      "by": "esri-review",
      "at": "2026-11-25T15:36Z",
      "text": "Review 2026-11-25 (cloud): three waits found in code, split into follow-up tasks: whole-JPEG stored check before the first request; batch gap in recorded downloads (plan + check with nothing in flight); strictly serial fetch with main-threa"
@@ -3396,26 +3511,11 @@
      "by": "NT68-C15-002",
      "at": "2026-11-25T20:33Z",
      "text": "NT68-C15-002 found and fixed on main: OnlineRasterSource.CreateHttpClient set MaxConnectionsPerServer, which Unity's Mono handler does not implement; it threw every frame (Editor Play, WatchView) and stopped online downloads. Now falls back"
-    }
-   ]
-  },
-  {
-   "n": 2250,
-   "name": "Windows build requires a tunnel.dll that the build drive may not have",
-   "done": "2026-11-25T19:42Z",
-   "goal": false,
-   "under": 371,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
+    },
     {
-     "by": "NT68-C15-002",
-     "at": "2026-11-25T19:42Z",
-     "text": "Done 2026-11-25: tunnel.dll rebuilt from wireguard-windows v1.1.1 and repinned to e20fb40d (9b84aade60, quiz approved); wireguard.dll WireGuardNT 1.1 matches its pin; inputs with SHA256SUMS on E:\\Builds\\Installer Setup\\WireGuard and Drive D"
+     "by": "CODEX_ESRI_INVESTIGATE",
+     "at": "2026-11-27T10:24Z",
+     "text": "User says current report may be from an old build. Read-only check of origin/main confirms the Mono connection-limit fallback plus six-request prefetch and chunked stored checks are present. Prior Mac sample progressed 35 to 90 in 30.3 s wi"
     }
    ]
   },
@@ -3432,43 +3532,6 @@
    "held": [],
    "steps": [],
    "notes": []
-  },
-  {
-   "n": 2257,
-   "name": "3D Model Generation",
-   "done": "2026-11-25T18:10Z",
-   "goal": false,
-   "under": 1693,
-   "ticks": [
-    "2026-11-25T15:54Z",
-    "2026-11-25T18:09Z",
-    "2026-11-25T18:09Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Reproduce against reopened Anchored reference",
-     "x": true
-    },
-    {
-     "t": "Verify and retain cross-capture photo evidence",
-     "x": true
-    },
-    {
-     "t": "Verify Save and reopen and unrelated-source refusal",
-     "x": true
-    }
-   ],
-   "notes": [
-    {
-     "by": "CODEX_ANCHORED_FLIGHT",
-     "at": "2026-11-25T18:10Z",
-     "text": "4d044014e0 verified on main. Separate depth-backed Stitching Marker bank left Photo Tension independent. macOS Unity TestRun saved and reopened Anchored Kenilworth with 24 paired photos and 3,773 Marker observations. Heritage joined with 48"
-    }
-   ]
   },
   {
    "n": 2258,
@@ -3557,7 +3620,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_VIDEO_PICTURE",
+     "at": "2026-11-26T22:55Z",
+     "text": "Spout currently gets source texture and flip only; LocalLiveVideoFrame has generation/version but peer display needs a stable source identity. TemporalDenoise.Share uses one Restream consumer and needs a remembered Windows shader: reusing i"
+    }
+   ]
   },
   {
    "n": 2262,
@@ -3576,6 +3645,11 @@
      "by": "NT68-C15-002",
      "at": "2026-11-25T21:36Z",
      "text": "4d473cfc7c on main (first step): OBS VP8 to an H.264 link publishes the transport's single H.264 encode instead of an FFmpeg decode. Left: share a link's encode with the viewers' Mid rendition (rate/CBR decision); one shared processed textu"
+    },
+    {
+     "by": "CODEX_MAC_RESTREAM_SHARING",
+     "at": "2026-11-26T23:51Z",
+     "text": "Local publication binds the original feed output port; Mid is viewer-owned, expires without viewers, and currently has no publication output update. Switching live between the original and Mid also changes RTP source/SSRC. A shared implemen"
     }
    ]
   },
@@ -3650,66 +3724,6 @@
    ]
   },
   {
-   "n": 2267,
-   "name": "Add Telemetry Status for manual Idle",
-   "done": "2026-11-25T16:50Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_STATUS",
-     "at": "2026-11-25T16:50Z",
-     "text": "e06e8f0d59 on main. Unity EditMode 35 passed and normal Play opened the Status panel with all six choices responding. Reselecting the same choice kept its timer. The two-station check for peer and drone rows and overdue notices is queued in"
-    }
-   ]
-  },
-  {
-   "n": 2268,
-   "name": "Add the shared manual Status controls to the MavChat GPS panel.",
-   "done": "2026-11-25T17:01Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_STATUS",
-     "at": "2026-11-25T17:01Z",
-     "text": "6293889231 on main. Portrait Play opened the grid and exercised all six choices against the shared station status. GPS and recording restore case passed. NavigatorSharingControlTests 7/8, with the existing Phone GPS and Set Manual duplicate"
-    }
-   ]
-  },
-  {
-   "n": 2269,
-   "name": "Show an active local manual Status notification",
-   "done": "2026-11-25T17:15Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_STATUS",
-     "at": "2026-11-25T17:15Z",
-     "text": "41ce965a07 on main. Runtime and EditMode test assemblies compiled. Unity imported the card and verified its Finish binding. An isolated Unity check showed You are Repairing, rejected a stale Finish, switched the shown status to a new Idle t"
-    }
-   ]
-  },
-  {
    "n": 2270,
    "name": "Builds are slow and take huge disk for a ~300 MB app. Gap vs Building_iOS.md retention rule (keep about 10 older artifacts)",
    "done": "",
@@ -3723,24 +3737,31 @@
    "steps": [],
    "notes": [
     {
-     "by": "cloud",
-     "at": "2026-11-25T17:53Z",
-     "text": "quiz 2026-11-25: \"Currently the build is taking lots of time and lots of space. For our 300 mb app this is a bit too much. What is the reason?\""
-    },
-    {
      "by": "CLOUD_SLOW",
      "at": "2026-11-25T18:00Z",
      "text": "quiz 2026-11-25: retention is now 1-2 latest builds, old output deleted after each build (BUILD_HISTORY.md, Building_iOS.md on main). Left: a Mac agent cleans the existing ~330 GB and makes retain-ios-archive.py prune beyond 2."
+    },
+    {
+     "by": "CODEX_IOS_RETENTION",
+     "at": "2026-11-26T22:22Z",
+     "text": "Published 4c880e4efa: helper retains the newest two recognized attempts, refuses linked paths, and nine disposable tests pass. No real archive cleanup performed; existing build cleanup and Windows notes remain."
+    },
+    {
+     "by": "CODEX_MAC_BUILD_CLEANUP",
+     "at": "2026-11-26T22:34Z",
+     "text": "Mac 2026-11-27: applied existing retention owners to 12 recognized old iOS archives and PreviousOutputs (kept two per type); free space rose from 83 to 113 GiB. No open descriptors found. Daily candidate cleanup refused because a Unity proc"
     }
    ]
   },
   {
    "n": 2271,
    "name": "Local agents are slow again",
-   "done": "",
+   "done": "2026-11-26T22:41Z",
    "goal": false,
    "under": 2281,
-   "ticks": [],
+   "ticks": [
+    "2026-11-26T22:41Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -3748,10 +3769,16 @@
    "steps": [
     {
      "t": "Local agent: stop editing main's Board.md; one board only (origin/board)",
-     "x": false
+     "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_BOARD_SINGLE",
+     "at": "2026-11-26T22:41Z",
+     "text": "558cfd004e replaces the stale main-branch board with a pointer; offline reads use the cached board ref, and writes require the board branch. All 38 board-tool tests pass."
+    }
+   ]
   },
   {
    "n": 2272,
@@ -3816,10 +3843,14 @@
   {
    "n": 2274,
    "name": "Unity Editor warm script compilation stays slow for frequently edited Prublyda utilities. Qualify one cohesive utility or controller group for an independent assembly using Tests/SPEC.md",
-   "done": "",
+   "done": "2026-11-26T17:00Z",
    "goal": false,
    "under": 2281,
-   "ticks": [],
+   "ticks": [
+    "2026-11-26T16:27Z",
+    "2026-11-26T16:59Z",
+    "2026-11-26T17:00Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -3827,18 +3858,24 @@
    "steps": [
     {
      "t": "Measure matched warm edits in Prublyda, SharedUI and Celestial and record the compile, IL post-processing, reload and Ready timings in Performance Baseline/BUILD_TIME.md.",
-     "x": false
+     "x": true
     },
     {
      "t": "Refresh the Roslyn leaf audit and choose one group with a useful predicted compile-scope reduction.",
-     "x": false
+     "x": true
     },
     {
      "t": "Preserve asset GUIDs, compile and time the selected split. Keep communicating Managers in Main and favor concrete dependencies.",
-     "x": false
+     "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-26T17:00Z",
+     "text": "acb7eab982 is on main. Restream Delay slate rendering compiles in SharedUI. The Manager remains in Prublyda. The matched Getac timing and reference-output control are in Performance Baseline/BUILD_TIME.md. VideoRestreamProtocolTests 121 pas"
+    }
+   ]
   },
   {
    "n": 2275,
@@ -3857,6 +3894,11 @@
      "by": "CLOUD_PREP_SPEEDUP",
      "at": "2026-11-25T18:58Z",
      "text": "Prepared; quiz approved. Left for a local machine: Disable Domain Reload, static-field reset list, before/after of the Play/verify loop. quote (quiz, 2026-11-25): \"Lets do that too.\""
+    },
+    {
+     "by": "CODEX_MAC_DOMAIN_RELOAD",
+     "at": "2026-11-26T22:29Z",
+     "text": "eff0f34e99 readiness-reset test passed in normal Unity Editor under disposable test identity (1/1); identity restored, no project-settings diff. Repeated Play timing is still blocked: TestRun preparation refuses shared diagnostic ports, so "
     }
    ]
   },
@@ -3906,51 +3948,6 @@
    ]
   },
   {
-   "n": 2278,
-   "name": "Run pure-logic tests outside the Editor",
-   "done": "2026-11-25T20:04Z",
-   "goal": false,
-   "under": 2281,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_PREP_SPEEDUP",
-     "at": "2026-11-25T18:58Z",
-     "text": "Script on main db016362f0: python3 Tools/dotnet_logic_tests.py [mapmath|planetmath|encryption|all]; Tests/SPEC.md 'Logic tests outside the Editor'. Left for a machine with dotnet: first run; MapMath also needs Assets/NASA MGRS sources, asse"
-    },
-    {
-     "by": "NT68-C15-002",
-     "at": "2026-11-25T20:04Z",
-     "text": "Done 1d49598423: python Tools/dotnet_logic_tests.py all runs on Windows (finds Unity via Hub install path), MapMath 5/5 and Encryption 3/3 pass in about 5 s warm; PlanetMath stays in the Editor (textures, Burst, GPU)."
-    }
-   ]
-  },
-  {
-   "n": 2279,
-   "name": "Trim what agents read before a build",
-   "done": "2026-11-25T18:58Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CLOUD_PREP_SPEEDUP",
-     "at": "2026-11-25T18:58Z",
-     "text": "Quick card at the top of Building_Android, iOS, macOS, Linux and BUILD_HISTORY, then a Reference heading (db016362f0). quote (quiz, 2026-11-25): \"Yep.\""
-    }
-   ]
-  },
-  {
    "n": 2280,
    "name": "Matching Drill",
    "done": "",
@@ -3973,42 +3970,34 @@
   {
    "n": 2281,
    "name": "A typical MAV Control script edit reaches Unity Ready faster",
-   "done": "",
+   "done": "2026-11-27T01:45Z",
    "goal": true,
    "under": 0,
-   "ticks": [],
+   "ticks": [
+    "2026-11-27T01:45Z",
+    "2026-11-27T01:45Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC_WORKER",
-     "since": "2026-11-26T15:59Z",
-     "noted": "",
-     "progress": 25,
-     "ticked": 1,
-     "total": 4
-    }
-   ],
+   "held": [],
    "steps": [
     {
-     "t": "Celestial extraction compiled in Unity and passed the assembly-aware comparison (a139abb5d5).",
+     "t": "Qualify a cohesive boundary that removes repeated Main compiler work and preserves the concrete Manager dependencies",
      "x": true
     },
     {
-     "t": "Time matched warm private edits in Prublyda, SharedUI and Celestial, then a separate public signature edit.",
-     "x": false
-    },
-    {
-     "t": "Refresh the Roslyn leaf list and identify a cohesive utility group with meaningful expected savings.",
-     "x": false
-    },
-    {
-     "t": "Compile the selected split and measure its before/after Ready time before choosing the next one.",
-     "x": false
+     "t": "Verify faster Ready on the same warm Main control and representative script edits",
+     "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T01:45Z",
+     "text": "Verified c3fe6e053a on main. The text layout and mask blur jobs now use existing ECS and PlanetMath boundaries with their concrete data, and Main keeps its Managers. Matched native Main Ready improved 25.89 seconds (12%), representative job"
+    }
+   ]
   },
   {
    "n": 2282,
@@ -4047,6 +4036,11 @@
      "by": "CODEX_MAC_PEER",
      "at": "2026-11-26T07:55Z",
      "text": "Peer row rework prepared: removed stale control dereferences and picture fallback; message and manual status share row. Editor compile passed before final layout adjustment. Still needed: compile final edit and verify populated rows in Play"
+    },
+    {
+     "by": "CODEX_PEER_ROW_AUDIT",
+     "at": "2026-11-26T23:55Z",
+     "text": "Source audit: peer row uses GetForChat (no Tester logo fallback) and CurrentStatus (expired states display idle); existing PeerManualStatusTests cover visibility and prefab status bindings. Populated row rendering and final Editor/device ve"
     }
    ]
   },
@@ -4067,6 +4061,11 @@
      "by": "CODEX_MAC_STATUS",
      "at": "2026-11-26T08:07Z",
      "text": "Published f3ffd9a623: retained and relayed statuses, active peers first including offline, 12-hour display-only Idle. Roslyn comparison: no new errors. Editor refresh refused while Play Mode active; run PeerManualStatusTests and verify two-"
+    },
+    {
+     "by": "CODEX_PEER_STATUS_VERIFY",
+     "at": "2026-11-27T00:29Z",
+     "text": "PeerManualStatusTests passed 7/7 in normal Unity Editor with disposable test identity; verifies stale timestamps, display-only 12-hour expiry, row bindings and snapshot columns. Normal identity restored. Two-device offline relay, restart an"
     }
    ]
   },
@@ -4087,6 +4086,11 @@
      "by": "CODEX_MAC_SCENES",
      "at": "2026-11-26T08:15Z",
      "text": "Published 1ee24a29b0: MavChat uses one session-local visible Coding scene or Markers group; repeat tap clears, other workflows keep saved visibility. Roslyn comparison: no new errors. Editor refresh refused in active Play Mode; run CodingSc"
+    },
+    {
+     "by": "CODEX_SCENES_VERIFY",
+     "at": "2026-11-27T00:31Z",
+     "text": "CodingSceneGroupListTests passed 6/6 in Mac Unity Editor with isolated test identity, including MavChat exclusive Coding Scene/Markers group, repeat toggle and saved visibility. Normal identity restored. Rendered MavChat tap-through and swi"
     }
    ]
   },
@@ -4127,6 +4131,11 @@
      "by": "CODEX_MAC_CHATLINK",
      "at": "2026-11-26T08:31Z",
      "text": "Published c0d5298f32: web-link taps open full reader with Dev browser, default browser and Copy link; read-only TMP selection, horizontal selection/vertical scrolling, EN/UK labels. Roslyn comparison no new errors; prefab references checked"
+    },
+    {
+     "by": "CODEX_CHAT_LINK_VERIFY",
+     "at": "2026-11-27T00:26Z",
+     "text": "Published 5b1b8489bd: corrected two assertions to inspect selectable InputField.text rather than TMP\u2019s caret-sentinel rendering text. ChatMessageLayoutTests passed 37/37 in normal Unity Editor with disposable identity; normal identity resto"
     }
    ]
   },
@@ -4212,6 +4221,11 @@
      "by": "CODEX_UI_AUDIT",
      "at": "2026-11-26T09:43Z",
      "text": "Published 930b319b03: Status grid fits narrow peer panels and starts directly below header; removed obsolete GPS-picker test and added Chat hierarchy/width cases. Roslyn comparison passed. Remaining: run NavigatorSharingControlTests and Nav"
+    },
+    {
+     "by": "CODEX_CHAT_STATUS_VERIFY",
+     "at": "2026-11-27T00:34Z",
+     "text": "NavigatorRouteTests passed 22/22 in Unity; NavigatorSharingControlTests passed 9/10. The remaining GPS artwork check expects six distinct sprites, but Phone GPS and Set Manual both use Location.png. No clearly fitting distinct Set Manual ic"
     }
    ]
   },
@@ -4242,35 +4256,41 @@
    "held": [],
    "steps": [
     {
-     "t": "Server compile and RoutingServer.Tests run; deploy; one real Valhalla route through a blocker (Valhalla server)",
+     "t": "Deploy the routing server and test a real Valhalla route through a blocker",
      "x": false
     },
     {
-     "t": "Valhalla graph rebuild merging submitted-roads.jsonl into the OSM extract (Valhalla server)",
+     "t": "Rebuild the Valhalla graph merging submitted-roads.jsonl into the OSM extract",
      "x": false
     },
     {
-     "t": "Draw blockers on the map from Navigator.RoadBlockers.Items (code)",
+     "t": "Verify WayPoint route submission and receipt on a phone against the server",
      "x": false
     },
     {
-     "t": "WayPoint Route drag-right calls RoadBlockers.SubmitRoad and shows LastRoadResult (code, then device)",
+     "t": "Verify Road Blockers Scene editing, map outline and exclusive selection on a phone (2423)",
      "x": false
     },
     {
-     "t": "Road blockers as a separate bottom Scene, edited from MavChat Route (Editor prefab)",
-     "x": false
-    },
-    {
-     "t": "Qualify end to end on a phone (device)",
+     "t": "Qualify cross-device offline/reconnect blocker sync end to end",
      "x": false
     }
    ],
    "notes": [
     {
-     "by": "CLOUD_NAV_CLIENT",
-     "at": "2026-11-26T10:02Z",
-     "text": "f9e9740981 on main (uncompiled): Navigator.RoadBlockers sync (GET/POST /blockers, POST /roads) with Persistent queue; nothing calls Add/Remove/SubmitRoad yet. Left: draw blockers on the map; Route drag-right calls SubmitRoad; bottom Scene ("
+     "by": "CODEX_ROAD_RESULT",
+     "at": "2026-11-26T23:29Z",
+     "text": "96191d3677 adds explicit route admission, offline/rejection/malformed receipt results, latest-submission tracking and the configured routing endpoint; retryable entries remain queued. Unity compiled and NavigatorRouteCompletionTests 6/6 pas"
+    },
+    {
+     "by": "CODEX_ROAD_ACTION",
+     "at": "2026-11-26T23:47Z",
+     "text": "7bb61220bc adds WayPoint route context submission and receipt notices; disconnected sections stay separate in one persistent queued job, with section progress and aggregate counts. Unity compiled; 7 route receipt, 5 geometry, prefab context"
+    },
+    {
+     "by": "CODEX_BLOCKER_SCENE",
+     "at": "2026-11-27T00:08Z",
+     "text": "57747b2cf3 adds the exclusive Road Blockers Scene, add/edit/delete controls, server-matching map outline and same-second edit protection. PrefabEdit authored the inputs; Unity compiled, 9 route/sync and 6 Scene tests passed. Portrait/device"
     }
    ]
   },
@@ -4336,66 +4356,11 @@
      "by": "CODEX_MAC_SOURCE",
      "at": "2026-11-26T09:27Z",
      "text": "Published 8d19e5bafc: enabling Altitude with no selection outside crosshair selects a fresh map-centre point; previous helper rejected that exact case. Added focused regression to AltitudeVisualizationTests; diff check passed. Shared Editor"
-    }
-   ]
-  },
-  {
-   "n": 2298,
-   "name": "Rename Telemetry Status Idle to Ready",
-   "done": "2026-11-26T09:19Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
+    },
     {
-     "by": "CODEX_MAC_READY",
-     "at": "2026-11-26T09:19Z",
-     "text": "Published 25ee8bcfc7: Ready in English and Ukrainian, shared Telemetry and MavChat label; source and localization checked. Editor not refreshed."
-    }
-   ]
-  },
-  {
-   "n": 2300,
-   "name": "MavChat",
-   "done": "2026-11-26T09:24Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAVCHAT_POSITION",
-     "at": "2026-11-26T09:24Z",
-     "text": "Published c0a67561c7: portrait MavChat selected Positions show Groups active/reserve personnel. Focused Unity test and portrait check queued; Editor in use, Roslyn comparison invalidated by concurrent source edits."
-    }
-   ]
-  },
-  {
-   "n": 2301,
-   "name": "Remove the MavTube panel from MavChat for now",
-   "done": "2026-11-26T09:21Z",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_REMOVE_MAVTUBE",
-     "at": "2026-11-26T09:21Z",
-     "text": "Published d5ce93b9bb: MavTube removed from the selector, saved MavTube falls back to Route and saved Scenes remains Scenes. Source checks passed; Editor and visual checks queued as 2303 to avoid interrupting concurrent work."
+     "by": "CODEX_ALTITUDE_TEST",
+     "at": "2026-11-27T00:34Z",
+     "text": "AltitudeVisualizationTests passed 35/35 in Mac Unity Editor under isolated test identity, including the map-center first-enable regression; normal identity restored. Real MavChat first-enable projector and scroller behavior remains to be vi"
     }
    ]
   },
@@ -4416,29 +4381,18 @@
      "by": "Codex",
      "at": "2026-11-26T09:35Z",
      "text": "The page is Settings / Video / 3D Model Generation. It now owns the generation toggle, file reconstruction controls and Photo anchors. Put model download controls beside the toggle. A regular build still needs the desktop feature separated "
+    },
+    {
+     "by": "CODEX_3D_SETUP",
+     "at": "2026-11-26T17:07Z",
+     "text": "Source review: DepthAnything3Models already locates Persistent Data before StreamingAssets. MavBuildPipeline ties the 3D generation define and Mac native packaging to nonempty DepthModels; MavBuildStreamingAssetsProcessor also gates the sky"
     }
    ]
   },
   {
    "n": 2303,
-   "name": "Verify MavChat selector after MavTube removal",
+   "name": "MavChat selector",
    "done": "",
-   "goal": false,
-   "under": 367,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 2304,
-   "name": "Simplify MavChat saved panel recovery for unavailable tabs",
-   "done": "2026-11-26T09:25Z",
    "goal": false,
    "under": 367,
    "ticks": [],
@@ -4449,9 +4403,14 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_MAC_REMOVE_MAVTUBE",
-     "at": "2026-11-26T09:25Z",
-     "text": "Published ffbbe526f0: unsupported saved selections recover to Route; supported selections restore directly. Source checks passed; Editor verification remains task 2303."
+     "by": "CODEX_MAVCHAT_SELECTOR",
+     "at": "2026-11-26T22:16Z",
+     "text": "MavTube is present in UI_MavChatSheet and in MavChatSheetTests; updated this task to include it. Normal Editor selector and fallback checks remain."
+    },
+    {
+     "by": "CODEX_SELECTOR_CHECK",
+     "at": "2026-11-27T00:15Z",
+     "text": "MavChatSheetTests on Mac Metal: 147/148 passed, including unsupported saved panel recovery and MavTube persistence. GPS clipping binding assertion repaired in 65eaa954bc; separate Search pressed-color failure tracked in 2425. Live selector/"
     }
    ]
   },
@@ -4467,25 +4426,11 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
-  },
-  {
-   "n": 2306,
-   "name": "Telemetry panels",
-   "done": "2026-11-26T09:28Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
    "notes": [
     {
-     "by": "CODEX_TELEMETRY_SIZE",
-     "at": "2026-11-26T09:28Z",
-     "text": "Published d6dac5fadc: ten Video and Positioning switch artworks enlarged from 38 to 50 high; existing full-row raycast targets retained. Prefab structure and raycast checks passed. Editor and device checks are task 2307."
+     "by": "CODEX_PERSONNEL_TEST",
+     "at": "2026-11-27T00:29Z",
+     "text": "WaypointMarkerPresentationTests passed 5/5 in Mac Unity Editor with isolated test identity; selected Position personnel test passes. Normal identity restored. Portrait device still needs active/reserve rendering, live assignment changes and"
     }
    ]
   },
@@ -4526,52 +4471,22 @@
      "by": "CODEX_NOUI",
      "at": "2026-11-26T09:57Z",
      "text": "Published 3a70b6f5a8: No UI blocks object pointing/selection and its dismissal click cannot select or clear; map drag remains available. Roslyn comparison reports no new errors. Remaining: run SituationPointingTests and verify mouse/touch h"
-    }
-   ]
-  },
-  {
-   "n": 2309,
-   "name": "Make Telemetry panel toggles visibly larger",
-   "done": "2026-11-26T10:09Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
+    },
     {
-     "by": "CODEX_TELEMETRY_REWORK",
-     "at": "2026-11-26T10:09Z",
-     "text": "Published df8429cc0a and imported into the existing Editor. Video/Positioning switches are 68 high, Restream is 79.2 high; Unity prefab geometry confirms label spacing for all 11. Unity tests refused because scenes are dirty; visual/touch c"
-    }
-   ]
-  },
-  {
-   "n": 2310,
-   "name": "Update UI guides for pivots",
-   "done": "2026-11-26T10:13Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
+     "by": "CODEX_NOUI_VERIFY",
+     "at": "2026-11-26T21:52Z",
+     "text": "Claim released before testing; continuing the approved Web Mercator page-retention work as coordinated."
+    },
     {
-     "by": "CODEX_UI_GUIDES",
-     "at": "2026-11-26T10:13Z",
-     "text": "Published 4705cf9420: guides now describe side pivots, stretching anchors, zero offsets with padding, layout groups only for rearrangement, and visibility without default Canvas Groups or alpha fades. Diff check passed."
+     "by": "CODEX_NOUI_AUDIT",
+     "at": "2026-11-27T00:11Z",
+     "text": "Published 3a70b6f5a8 remains in place; focused No-UI regression and full SituationPointingTests passed 14/14 in the normal Editor using disposable test identity. Normal identity restored. Live mouse/touch hover, pan, dismissal and selection"
     }
    ]
   },
   {
    "n": 2311,
-   "name": "Rework Telemetry Restream panel play pause link and edit rows",
+   "name": "Telemetry Restream panel",
    "done": "",
    "goal": false,
    "under": 0,
@@ -4581,13 +4496,7 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_RESTREAM_ROWS",
-     "at": "2026-11-26T10:26Z",
-     "text": "UI and localized link count published in 8cd671b5f0; PrefabEdit bindings validate and Unity compilation reports no errors. Focused EditMode tests were refused because the open scenes are dirty; rendered Play Mode and device checks remain. V"
-    }
-   ]
+   "notes": []
   },
   {
    "n": 2312,
@@ -4603,14 +4512,19 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_MAC_RESTREAM",
-     "at": "2026-11-26T10:35Z",
-     "text": "Mac restream implementation e4b9fa6553 on main: relay and VideoToolbox FFmpeg, RTMP(S), RTSP and WHIP; SRT and VP9 encoding remain unsupported. Apple Silicon relay builds; focused native tests and RTP-to-FFmpeg VideoToolbox handoff pass. Fu"
-    },
-    {
      "by": "CODEX_MAC_LIVE",
      "at": "2026-11-26T11:25Z",
      "text": "Mac live test pending: Editor has one ready RTMPS link, but no active source. Normal Editor is held by task 2315 (CODEX_TELEMETRY_VISUAL), which is changing Play state and Synthetic settings; no source or publication started to avoid interr"
+    },
+    {
+     "by": "CODEX_MAC_RELAY_TEST",
+     "at": "2026-11-27T00:27Z",
+     "text": "a7a425087d gates the native RTP-to-SRT test on Mac FFmpeg SRT capability; shipped Mac runtime reports none (SPEC: SRT unsupported). Native suite with packaged FFmpeg: 325 passed, 13 skipped, including full-test-FFmpeg-dependent tests. Suppo"
+    },
+    {
+     "by": "CODEX_MAC_FFMPEG_TEST",
+     "at": "2026-11-27T00:45Z",
+     "text": "18cd4595bd tests Mac SRT only when publisher and listener FFmpeg support it. Expanded native suite with packaged Mac publisher and separate arm64 test FFmpeg: 345 pass, 7 capability skips (including SRT and VP9 publisher); local RTMP, RTSP,"
     }
    ]
   },
@@ -4631,6 +4545,11 @@
      "by": "CODEX_MAVCHAT_ATTACH",
      "at": "2026-11-26T10:45Z",
      "text": "Published 2d0585ca60: paperclip, scrollable multi-select categories, selected waypoint/photo and staged map point. Editor compilation and saved prefab bindings checked; EditMode tests refused dirty scenes. Verify portrait rendering/scroll c"
+    },
+    {
+     "by": "CODEX_ATTACH_VERIFY",
+     "at": "2026-11-27T00:35Z",
+     "text": "MavChatSheetTests passed 148/148 on Mac Unity with isolated test identity, including authored paperclip, scroll content and selected-object staging button bindings. This does not exercise sending; portrait clipping, multi-select send and ph"
     }
    ]
   },
@@ -4651,6 +4570,11 @@
      "by": "CODEX_SITUATION_NOTICE",
      "at": "2026-11-26T10:51Z",
      "text": "Published 43188744ec: remote entity arrivals queue a notification with Ping to select and focus the current entity position; duplicate updates do not re-alert. Standalone Prublyda and EditMode test assemblies build, but open Editor main thr"
+    },
+    {
+     "by": "CODEX_SITUATION_NOTICE_VERIFY",
+     "at": "2026-11-27T00:18Z",
+     "text": "SituationRemoteApplyTests now passes 59 runnable cases, including new-entity notification deduplication and latest-record lookup; 1 Windows-only share-delete test skipped on Mac. Fixed stale transfer-key expectation in ed02d5f18e. Normal Ed"
     }
    ]
   },
@@ -4696,12 +4620,17 @@
      "by": "CODEX_BRUSH_UI",
      "at": "2026-11-26T12:02Z",
      "text": "51dd03a279 on main adds Turn off to the selected suggestion row layout and its size list; Unity PrefabEdit saved the two bindings. Normal Editor or device: select the local Synthetic drone and verify Turn off is in the suggestion rows and f"
+    },
+    {
+     "by": "CODEX_SYNTHETIC_OFF_VERIFY",
+     "at": "2026-11-27T00:21Z",
+     "text": "SyntheticEnableSelectsOnceAndPositioningLabelSelectsAndFollows passed 1/1 in normal Unity Editor using disposable test identity; action enables, selects, offers Turn off and disables local Synthetic drone. Normal identity restored. Rendered"
     }
    ]
   },
   {
    "n": 2317,
-   "name": "Make the Video Retransmitting notification one row with Pause only",
+   "name": "Video Retransmitting notification",
    "done": "",
    "goal": false,
    "under": 0,
@@ -4711,118 +4640,12 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_RESTREAM_NOTICE",
-     "at": "2026-11-26T11:09Z",
-     "text": "Published 9f2c8b20d4: one-row Restream notification with Pause/Resume as its only action; Stop and Retry removed from the card. Unity compiled with no errors, saved prefab has a 144-unit single row, and other notification side-action refere"
-    }
-   ]
-  },
-  {
-   "n": 2318,
-   "name": "Video relay",
-   "done": "2026-11-26T11:12Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_UDP",
-     "at": "2026-11-26T11:12Z",
-     "text": "Published 0544bbee98: gateway and FFmpeg handoff request 64 KiB UDP send buffers, including macOS where the default 9216 bytes blocked large datagrams. Full Go suite passes on Mac; maximum datagram production sockets, feedback and affected "
-    }
-   ]
-  },
-  {
-   "n": 2319,
-   "name": "Main Notifications",
-   "done": "2026-11-26T11:13Z",
-   "goal": false,
-   "under": 410,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_NOTIFICATION_TONGUE",
-     "at": "2026-11-26T11:13Z",
-     "text": "Published a640b40b98 on main. The fold control joins the last drawn card while notifications scroll. Main/Notifications screen verification queued."
-    }
-   ]
-  },
-  {
-   "n": 2320,
-   "name": "Main Notifications",
-   "done": "2026-11-26T11:20Z",
-   "goal": false,
-   "under": 410,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_NOTIFICATION_SHADOW",
-     "at": "2026-11-26T11:20Z",
-     "text": "Published 4826f71abf on main. Added seven missing shadows and moved four body-only shadows to the card root. All 31 card layouts passed the prefab audit; Main/Notifications visual verification is queued."
-    }
-   ]
-  },
-  {
-   "n": 2321,
-   "name": "Restore English and Ukrainian localization tables after malformed values",
-   "done": "2026-11-26T11:19Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_TELEMETRY_VISUAL",
-     "at": "2026-11-26T11:19Z",
-     "text": "Published e5932eb5c9. Both loaded language dictionaries now have 7,180 matching keys; verified Telemetry, Restream, selected attachment and Situation labels in both languages through Unity. The malformed values were introduced in earlier co"
-    }
-   ]
-  },
-  {
-   "n": 2322,
-   "name": "Main Notifications",
-   "done": "2026-11-26T11:33Z",
-   "goal": false,
-   "under": 410,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_SIMPLE_NOTIFICATION",
-     "at": "2026-11-26T11:33Z",
-     "text": "Published 6089bc288d on main. Local Status, Peer Status and Situation arrivals now use the same on-demand card. Verified prefab wiring and queued Main/Notifications visual verification."
-    }
-   ]
+   "notes": []
   },
   {
    "n": 2323,
    "name": "Windows Editor Web Mercator EditMode has four remaining fixture failures around manual Download area progress and GPU JPEG decode. Restore the scheduling fixture for Web Mercator SPEC Online downloads",
-   "done": "",
+   "done": "2026-11-26T17:19Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -4836,6 +4659,11 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-26T15:49Z",
      "text": "Paused when the ongoing goal was cleared. On d2c82ca47c, fixture-only edits compiled in Unity 6000.6.10f1 and are saved in the Getac stash 3524e30b89. The fixture constructs the real OnlineRasterUpdate, waits for the stored check and record"
+    },
+    {
+     "by": "NT68_HEAVY",
+     "at": "2026-11-26T17:19Z",
+     "text": "f47bee8431 on main. Windows Unity 6000.6.10f1 Direct3D11 reproduced 56 passed/4 failed and now passes all 60 with zero skips. Fixture uses the real download constructor, waits for the stored check and recorded batch, and checks GPU pixel pa"
     }
    ]
   },
@@ -4867,7 +4695,10 @@
    "done": "",
    "goal": false,
    "under": 429,
-   "ticks": [],
+   "ticks": [
+    "2026-11-26T21:52Z",
+    "2026-11-26T22:12Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -4875,18 +4706,24 @@
    "steps": [
     {
      "t": "Cloud: backdoor command that sets a layer or feature switch and a camera route step (reuse smoke.run and performance.capture.start in AI Sandbox)",
-     "x": false
+     "x": true
     },
     {
      "t": "Cloud: the runner script and the ranked table output (AI Sandbox SPEC, Layer stress run)",
-     "x": false
+     "x": true
     },
     {
      "t": "Editor/device: first run on Windows Editor, then Strong and Lenovo; summary as a note on goal 429",
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_LAYER_STRESS",
+     "at": "2026-11-26T22:13Z",
+     "text": "Published c5a483d5f8: runner captures baseline and six layers, ranked worst/p95/p99, GC and sampled RAM; restores camera and layer states and refuses incomplete capture. Nine host tests pass. First Windows Editor run then Strong/Lenovo rema"
+    }
+   ]
   },
   {
    "n": 2326,
@@ -4894,7 +4731,11 @@
    "done": "",
    "goal": false,
    "under": 379,
-   "ticks": [],
+   "ticks": [
+    "2026-11-26T22:11Z",
+    "2026-11-26T22:12Z",
+    "2026-11-26T22:12Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -4902,18 +4743,24 @@
    "steps": [
     {
      "t": "Code: capture the binding at KeepIdentityForReconnect and compare it in StartTransport before BeginSession restores",
-     "x": false
+     "x": true
     },
     {
      "t": "Code: a fixture with adapter A bounce (kept) and adapter B or a changed address (not kept)",
-     "x": false
+     "x": true
     },
     {
      "t": "Update Motorola IP SPEC: retained identity is tied to the observed binding",
-     "x": false
+     "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MOTOROLA_BINDING",
+     "at": "2026-11-26T22:13Z",
+     "text": "Published 1fd046905a; 11 listener cases passed in host and Editor compiled; Unity and hardware checks in 2405. Goal paused."
+    }
+   ]
   },
   {
    "n": 2327,
@@ -4936,15 +4783,25 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MOTOROLA_BINDING",
+     "at": "2026-11-26T22:13Z",
+     "text": "Goal paused; current sheet-based RadioOwners no longer has RadioAssignment or ContestedRadios; reassess task before resuming."
+    }
+   ]
   },
   {
    "n": 2328,
    "name": "Agent inbox retention strands an interrupted poll (CR-8CE4-02",
-   "done": "",
+   "done": "2026-11-26T21:57Z",
    "goal": false,
    "under": 429,
-   "ticks": [],
+   "ticks": [
+    "2026-11-26T21:55Z",
+    "2026-11-26T21:56Z",
+    "2026-11-26T21:56Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -4952,26 +4809,35 @@
    "steps": [
     {
      "t": "Code: server side settles a crossed cohort and reports the lost span",
-     "x": false
+     "x": true
     },
     {
      "t": "Code: Python and PowerShell clients apply skipped and recover from snapshot refusal",
-     "x": false
+     "x": true
     },
     {
      "t": "Code: fixture that admits more than 1,024 records between two pages of one poll",
-     "x": false
+     "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_INBOX_RETENTION",
+     "at": "2026-11-26T21:57Z",
+     "text": "Published a6b63d6f98: replayable interrupted receipt retains prefix, reports loss, resumes full-record boundary; Python/PowerShell recover structured and legacy gaps. Python and PowerShell host suites passed, plus production C# Inbox .NET h"
+    }
+   ]
   },
   {
    "n": 2329,
    "name": "Mask answers at the end of the patch list starve under continual arrivals (CR-55DB-01",
-   "done": "",
+   "done": "2026-11-26T21:42Z",
    "goal": false,
    "under": 429,
-   "ticks": [],
+   "ticks": [
+    "2026-11-26T21:41Z",
+    "2026-11-26T21:42Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -4979,14 +4845,20 @@
    "steps": [
     {
      "t": "Code: retained refresh position over the existing slots, finishing a cycle before restarting",
-     "x": false
+     "x": true
     },
     {
      "t": "Code: fixture with three visible questions and a revision advancing every draw: the tail catches up",
-     "x": false
+     "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MASK_FAIRNESS",
+     "at": "2026-11-26T21:42Z",
+     "text": "Published 6d4db2e5a7; retained draw cursor completes pending suffix before new revisions revisit prefix, new questions remain immediate, renewals replay. Exact helper compiled and changing-revision fixtures passed; Unity/device verification"
+    }
+   ]
   },
   {
    "n": 2330,
@@ -5065,10 +4937,13 @@
   {
    "n": 2334,
    "name": "Linux nightly cannot pass the packaged-bootstrap check (CR-4066-01",
-   "done": "",
+   "done": "2026-11-26T21:49Z",
    "goal": false,
    "under": 374,
-   "ticks": [],
+   "ticks": [
+    "2026-11-26T21:49Z",
+    "2026-11-26T21:49Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -5076,22 +4951,30 @@
    "steps": [
     {
      "t": "Code: verify_package reads the linux-x64 gzip tar and checks identity, platform and key",
-     "x": false
+     "x": true
     },
     {
      "t": "Code: a fixture with a real tar and a tampered tar (refused)",
-     "x": false
+     "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_LINUX_PACKAGE",
+     "at": "2026-11-26T21:49Z",
+     "text": "Published b6deaa3fbc. Main already had gzip tar inspection; it now requires the bootstrap at the actual Linux player path. Test packages a synthetic player with package-linux.py, validates own identity/key and rejects changed identity/key, "
+    }
+   ]
   },
   {
    "n": 2335,
    "name": "Logistics motion gradients lose the varying flow direction (CR-0CC1-01",
-   "done": "",
+   "done": "2026-11-26T21:38Z",
    "goal": false,
    "under": 429,
-   "ticks": [],
+   "ticks": [
+    "2026-11-26T21:38Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -5099,18 +4982,27 @@
    "steps": [
     {
      "t": "Code: restore the UV gradients in the logistics motion shader, four-call form if equivalent",
-     "x": false
+     "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_LOGISTICS_GRADIENT",
+     "at": "2026-11-26T21:38Z",
+     "text": "Published 43bec583f5: both motion taps include direction derivatives using four derivative calls. 10,000 finite-difference comparisons passed. Unity shader compilation and rendered/device check remain in task 2399."
+    }
+   ]
   },
   {
    "n": 2336,
    "name": "Shared overlay quality is only published by an Offline Planet draw (CR-0CC1-03",
-   "done": "",
+   "done": "2026-11-26T21:51Z",
    "goal": false,
    "under": 429,
-   "ticks": [],
+   "ticks": [
+    "2026-11-26T21:50Z",
+    "2026-11-26T21:51Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -5118,14 +5010,20 @@
    "steps": [
     {
      "t": "Code: publish the keyword from the shared owner before any render and on change",
-     "x": false
+     "x": true
     },
     {
      "t": "Code: remove the Planet Draw duplicate; update the BaseMap SPEC line",
-     "x": false
+     "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_OVERLAY_QUALITY",
+     "at": "2026-11-26T21:51Z",
+     "text": "Published 719e0467e4: BaseMap owns the single global quality keyword before render and on selection; Map Focus retains Low. Added online/offline behavior test. Roslyn comparison was interrupted by concurrent source changes; Editor/device ch"
+    }
+   ]
   },
   {
    "n": 2337,
@@ -5146,10 +5044,12 @@
   {
    "n": 2338,
    "name": "Each finger rechecks every contact for the known Pencil touch (CC-A030-01",
-   "done": "",
+   "done": "2026-11-26T21:41Z",
    "goal": false,
    "under": 429,
-   "ticks": [],
+   "ticks": [
+    "2026-11-26T21:40Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -5157,18 +5057,26 @@
    "steps": [
     {
      "t": "Code: validate _penMirrorTouchId once per gather, filter fingers by ID",
-     "x": false
+     "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_PENCIL_LOOKUP",
+     "at": "2026-11-26T21:41Z",
+     "text": "Published 19e26e92d0: Pencil mirror is resolved once per touch snapshot and both finger loops filter its ID. Added InputSystem regression; static diff check passed. Editor owned by 3D work; Unity and physical stylus checks are task 2400."
+    }
+   ]
   },
   {
    "n": 2339,
    "name": "Pixel snapping keeps rebuilding unchanged line meshes on the CPU (CC-A9DF-01",
-   "done": "",
+   "done": "2026-11-26T17:25Z",
    "goal": false,
    "under": 429,
-   "ticks": [],
+   "ticks": [
+    "2026-11-26T17:25Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -5176,18 +5084,26 @@
    "steps": [
     {
      "t": "Code: confirm the Canvas batching case, then keep one path and delete the other",
-     "x": false
+     "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "NT68_HEAVY",
+     "at": "2026-11-26T17:25Z",
+     "text": "3312cfb10d on main. Existing production uses GPU snapping and only checks edge insets in the pre-render pass. Windows Unity 6000.6.10f1 D3D11 OnePixelLineTests passed 5/5. New real Canvas GPU readback covers World Space and Screen Space Cam"
+    }
+   ]
   },
   {
    "n": 2340,
    "name": "Page release rediscovers unserved outbound reads (CC-4F1B-01",
-   "done": "",
+   "done": "2026-11-26T22:17Z",
    "goal": false,
    "under": 429,
-   "ticks": [],
+   "ticks": [
+    "2026-11-26T22:17Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -5195,10 +5111,16 @@
    "steps": [
     {
      "t": "Code: store the unserved-read answer on the admission branch, read it in the detach walk",
-     "x": false
+     "x": true
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_PAGE_RETENTION",
+     "at": "2026-11-26T22:17Z",
+     "text": "Published 0f9039abd7. Count unserved holds on live branches; root handoff and page adoption rebind unresolved holds without per-release read scans. Isolated Unity TestRun: IndexPaging 75 passed, two Windows-only skipped; FinestTiles 286 pas"
+    }
+   ]
   },
   {
    "n": 2341,
@@ -5237,7 +5159,13 @@
      "x": false
     }
    ],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_SKYPLOT_SOURCES",
+     "at": "2026-11-26T22:13Z",
+     "text": "f35863b0b0 documents local Android GnssStatus, fresh MAVLink GPS_STATUS, and the absence of per-satellite local sources on iOS/macOS/Windows and non-MAVLink aircraft. Android tablet listener/permission/row check remains; no device was avail"
+    }
+   ]
   },
   {
    "n": 2343,
@@ -5263,6 +5191,11 @@
      "by": "CODEX",
      "at": "2026-11-26T15:18Z",
      "text": "d2c82ca47c on main moves the expanded processing column and handle with the finger, then finishes offscreen or returns on a cancelled or short swipe. The managed and Edit Mode test assemblies compiled without interrupting the active Unity P"
+    },
+    {
+     "by": "NT68_HEAVY",
+     "at": "2026-11-26T17:26Z",
+     "text": "Windows Unity 6000.6.10f1 D3D11 passed FullscreenProcessingColumnTracksAnInProgressDismissalSwipe on the 8491429cae source plus the pixel-line test. The real prefab drag follows an in-progress reversal, then completes the fold and resets it"
     }
    ]
   },
@@ -5413,7 +5346,7 @@
   {
    "n": 2353,
    "name": "Reconcile this Mac checkout with main before building",
-   "done": "",
+   "done": "2026-11-26T22:10Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -5422,7 +5355,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_MAC_CHECKOUT",
+     "at": "2026-11-26T22:10Z",
+     "text": "Synchronized the single Mac checkout to c56557706d with overlapping published files verified byte-for-byte; preserved local Pano360 and UI edits. Normal Editor refreshed successfully with zero compilation errors; no build was run."
+    }
+   ]
   },
   {
    "n": 2354,
@@ -5497,6 +5436,11 @@
      "by": "CODEX_RESTREAM_STALL",
      "at": "2026-11-26T15:05Z",
      "text": "Local OBS countdown and live H.264 work after 0b6f77fc1d; late reader decoded in 1.72 s. The external RTMPS stall remains unverified: its original saved link disappeared during Editor test setup and no matching checkpoint was recoverable. A"
+    },
+    {
+     "by": "CODEX_MAC_FFMPEG_TEST",
+     "at": "2026-11-27T00:46Z",
+     "text": "Mac native relay suite with packaged publisher and separate fixture FFmpeg passed local RTMP listener and H.264 output checks (18cd4595bd; 345 passed, 7 skipped overall). These local checks do not reproduce or clear the original external RT"
     }
    ]
   },
@@ -5534,9 +5478,19 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_NT68",
-     "at": "2026-11-26T15:00Z",
-     "text": "Published first-bake Web Mercator fallback on main 2917cf234a. A 325 m search confirmed the rectified 300 m Kenilworth control within 2.2 m and refused occluded, conflicting, and missing-coverage controls. Both focused Unity fixtures passed"
+     "by": "CODEX_3D_REMAINING",
+     "at": "2026-11-26T17:06Z",
+     "text": "Mac station: normal Unity Editor is in use for quiz\u2019s live 3D generation; replay and refresh are unavailable. Checkout main also diverges from origin/main and has unrelated local changes (task 2353). Resume measured verification after the E"
+    },
+    {
+     "by": "CODEX_WINDOWS_BASELINE",
+     "at": "2026-11-26T22:02Z",
+     "text": "Main accdfa35d9 now carries current Web Mercator missing-quadrant coverage into Elements proposals and tries a valid parent where finer imagery has gaps. Unity-argument compile and both managed controls passed (parent fallback and existing "
+    },
+    {
+     "by": "CODEX_KENILWORTH_BASEMAP_EVIDENCE",
+     "at": "2026-11-27T12:54Z",
+     "text": "Main e3e49c3052 exposes the actual first-bake match gates. Native DX11 replay with known ellipsoid terrain held one Origin through 70 s Pause, used up to 72 Web Mercator tiles, and remained AmbiguousFit even at >95% fit coverage. Saved 71-t"
     }
    ]
   },
@@ -5584,6 +5538,11 @@
      "by": "CODEX_SIZE_AUDIT",
      "at": "2026-11-26T16:00Z",
      "text": "Unity countdown track replacement 5fe81925aa/ca6c45b48d passed a local same-connection WebRTC receiver check (640\u00d7360\u2192960\u00d7506). Relay test b2ba299f39 confirms bundled Mac FFmpeg stream-copy output stays decodable at 640\u00d7360 then 960\u00d7540 acr"
+    },
+    {
+     "by": "CODEX_SIZE_FOLLOWUP",
+     "at": "2026-11-26T22:16Z",
+     "text": "Relay path uses fixed-size rawvideo stdin and scales decoder frames to startup dimensions; current SPEC explicitly records this compromise. A dynamic path needs variable-size framed input or encoded RTP handoff with continuous sequence, tim"
     }
    ]
   },
@@ -5599,7 +5558,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "NT68_HEAVY",
+     "at": "2026-11-26T17:57Z",
+     "text": "b272fc6d38 on main. Countdown relay/input now start while FFmpeg checks, and a pending slate does not advance the output renewal clock. The original deadline and FFmpeg output gate stay in effect. Windows Unity passed 122/122 and five nativ"
+    }
+   ]
   },
   {
    "n": 2363,
@@ -5640,35 +5605,36 @@
      "by": "CODEX_VIDEO_PACING",
      "at": "2026-11-26T16:03Z",
      "text": "88131c10ec on main. Live local file and desktop input feed the existing Video wake, which keeps active pacing regardless of the idle toggle. Paused files release their wake. Standalone C# checks passed for playback, pause and desktop input."
+    },
+    {
+     "by": "NT68_HEAVY",
+     "at": "2026-11-26T18:02Z",
+     "text": "Windows 886 read-only player checks show LocalVideoFile Running/Streaming with fullscreen closed, non-interacting and idle FPS reduction enabled. FrameRateDemand=VideoFeed, limit=Full, render interval=1, reduction inactive. DevicePowerPolic"
     }
    ]
   },
   {
    "n": 2365,
    "name": "Use the shared video source answer for local preview",
-   "done": "",
+   "done": "2026-11-26T16:31Z",
    "goal": false,
    "under": 431,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_VIDEO_PLAY_TEST",
-     "since": "2026-11-26T16:17Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CODEX_LOCAL_VIDEO_SOURCE",
      "at": "2026-11-26T16:09Z",
      "text": "e37d3a9f26 on main. Streamer owns local playback, preview availability and standalone frame retrieval, and the projector reads eligibility from the same source resolver while keeping its pose check. Standalone C# checks passed for a paused "
+    },
+    {
+     "by": "CODEX_VIDEO_PLAY_TEST",
+     "at": "2026-11-26T16:31Z",
+     "text": "498cff2a1e on main. Windows Unity Play Mode verified screen (912 live frames), window (1145), map (1133). On every sampled live frame the bottom-left preview and Synthetic drone Pano360 projector bound the same capture texture, and none req"
     }
    ]
   },
@@ -5691,7 +5657,7 @@
   {
    "n": 2367,
    "name": "Split the flat Video Processing/_Scripts folder (202 files",
-   "done": "",
+   "done": "2026-11-27T12:06Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -5700,7 +5666,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T12:06Z",
+     "text": "4eb05d62a6 on main groups 189 Video Processing C# files into nine feature folders. The flat root has 3 C# files instead of 192. Verified that all moved source and .meta blobs match their originals, the assembly boundaries and seven compute "
+    }
+   ]
   },
   {
    "n": 2368,
@@ -5714,12 +5686,18 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_OD_FOLDERS",
+     "at": "2026-11-26T22:28Z",
+     "text": "Deferred: active 3D work and its evidence refer to these scripts by path; moving the shared folder now would disrupt that work. No files changed. Reorganize once the 3D worker releases those paths, updating imports and guides together."
+    }
+   ]
   },
   {
    "n": 2369,
    "name": "Move vendored code into third_party/ folders like Video Restreaming/Native~ already has",
-   "done": "",
+   "done": "2026-11-26T23:01Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -5728,11 +5706,279 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "CODEX_VENDOR_LAYOUT",
+     "at": "2026-11-26T22:56Z",
+     "text": "ba099bd532 moves PlanetRenderer etcpak/stb into third_party; Mac codec compile/full tests passed and equivalent iOS generated source passes clang. 6fa5d229e5 moves NVENC header with byte identity and clang syntax verified. Actual PowerShell"
+    },
+    {
+     "by": "CODEX_FFMPEG_VENDOR",
+     "at": "2026-11-26T23:01Z",
+     "text": "ba099bd532, 6fa5d229e5 and 4cd5e262da group the listed vendors with license notes and update build paths. Mac codec compile/full tests, FFmpeg file identity, header syntax and local CI path checks passed. Platform and hosted workflow verifi"
+    }
+   ]
   },
   {
    "n": 2370,
    "name": "Find dead shader graphs",
+   "done": "2026-11-26T21:39Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_MAC_SHADER_AUDIT",
+     "at": "2026-11-26T21:39Z",
+     "text": "All eight graphs have live references: AmbientShadowAndAimDecal (drone); AmbientShadowDecal Consistent Edge Size (grid/transformer); Fire Decal (prefab); Geometry Stylized OLD (placeholder material); Geometry With Specular (vehicles/geometr"
+    }
+   ]
+  },
+  {
+   "n": 2371,
+   "name": "Sort Tools/Tests~ (251 one-bug *Host harnesses",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC_WORKER",
+     "since": "2026-11-27T12:48Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_DJI_CUSTODY_HOST",
+     "at": "2026-11-27T10:55Z",
+     "text": "19bc4ce9 groups DJI release-custody Java host under DroneControl and retains evidence outside checkout. Rider JDK passed the actual listener/surface/camera replacement checks; the omitted-reattachment-guard control failed on its intended as"
+    },
+    {
+     "by": "CODEX_MAVVISUAL_HOST",
+     "at": "2026-11-27T11:02Z",
+     "text": "MavControlVisual host left in place: actual component now has panel tint, shadow and geometry APIs absent from its adapters; the quiet shader also uses role keywords and a different shared-blur branch. Refresh the real behavior and all exis"
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T12:46Z",
+     "text": "667f105fbd on main groups prepared script compilation and MonoScript generation under Verification, and descriptor retry under AI Sandbox. All three passed against installed Unity 6000.6.10f1 references, with three Runtime Profile tests and"
+    }
+   ]
+  },
+  {
+   "n": 2372,
+   "name": "Investigate periodic brightening of live 3D point cloud and Pano360 during generation",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_BRIGHTNESS",
+     "at": "2026-11-26T17:05Z",
+     "text": "Duplicate of 2373; handoff to first-person brightness chat."
+    }
+   ]
+  },
+  {
+   "n": 2373,
+   "name": "Fix periodic first-person 3D point cloud brightening during generation; investigate retained Pano360 photo colour space (no existing goal)",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_PANO_SAME_PHOTO",
+     "at": "2026-11-26T18:33Z",
+     "text": "Same-exposure GPU check: temporary paused Castle key LocalVideoFile:0:11:42 has original 960x506 and its Depth.PhotoColour 504x266. Fixed offscreen quad through actual Pano360SampleFrame, linear RGB, 127,968 opaque interior pixels: encoded "
+    },
+    {
+     "by": "CODEX_PILOT_FLICKER",
+     "at": "2026-11-26T20:00Z",
+     "text": "Temporary two-buffer Disk transition used complementary 4x4 coverage for 0.25 s without changing captured data. Guarded Castle replay passed terrain but showed obvious large checkerboard artifacts in same-camera frames, so it failed quality"
+    },
+    {
+     "by": "CODEX_FIRSTPERSON_FIX",
+     "at": "2026-11-27T06:29Z",
+     "text": "Main 15cf9205 stops blended Pano360 coverage from compounding: actual GPU draw with equivalent .25-opacity inputs now stays .251 for 1, 2 and 6 slots, instead of .251/.439/.824. Ten direct GPU checks passed. Castle alternating-rule replay s"
+    }
+   ]
+  },
+  {
+   "n": 2374,
+   "name": "Investigate accumulated 3D point cloud trailing into space in quiz\u2019s live test",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_CLOUD_TRAIL",
+     "at": "2026-11-26T17:31Z",
+     "text": "Castle 23 s and Zurich 98.7 s + Pause both show displayed-camera excursions: Castle -171 m at 16.08 s while extrapolating the 14.83 s photo; Zurich min -894 m with repeated Pause samples. Raw recorded mode; no photo ground contacts measured"
+    }
+   ]
+  },
+  {
+   "n": 2375,
+   "name": "Web Mercator file publication and JPEG checks rebuild Main when their implementation changes. Qualify these shared file utilities for an engine-free Core under Tests SPEC One edit recompiles a small a",
+   "done": "2026-11-26T17:32Z",
+   "goal": false,
+   "under": 2281,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-26T17:32Z",
+     "text": "23d8470a5b is on main. File publication and JPEG checks compile in the .NET Standard Core. Measured a matched Getac edit and restore with stable reference output in Performance Baseline/BUILD_TIME.md. WebMercatorPublicationTests 4 and Onlin"
+    }
+   ]
+  },
+  {
+   "n": 2376,
+   "name": "Verify MavTube video double-tap focuses the matching drone or video position",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2377,
+   "name": "A combined 3D Model Generation replay supplies shared measurements for visual quality, grounding, tracking and performance, and verified easy fixes reach main",
+   "done": "",
+   "goal": true,
+   "under": 0,
+   "ticks": [
+    "2026-11-26T18:23Z",
+    "2026-11-26T18:24Z",
+    "2026-11-26T18:34Z",
+    "2026-11-26T18:41Z"
+   ],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Prepare a reproducible shared capture and measurement plan for the 3D generation workers",
+     "x": true
+    },
+    {
+     "t": "Run the shared baseline and publish evidence for brightness, ground, tracking, photo agreement and performance",
+     "x": true
+    },
+    {
+     "t": "Batch measured straightforward fixes and rerun targeted comparisons",
+     "x": true
+    },
+    {
+     "t": "Investigate mismatches between expected and observed results and record remaining work",
+     "x": true
+    }
+   ],
+   "notes": [
+    {
+     "by": "CODEX_COMBINED_3D",
+     "at": "2026-11-26T18:08Z",
+     "text": "No-wrap Zurich reached Pause but reload interrupted at 11.5 s; 54 colour/depth pairs preserved. Reserved-point movement over 10.7 s: p90 3.05 px; worst-pair median 5.65 px; insufficient for 30 s settlement. 2373 GPU decode and 8 shader pass"
+    },
+    {
+     "by": "CODEX_REGISTERED_PAUSE",
+     "at": "2026-11-26T18:20Z",
+     "text": "No-wrap Zurich completed 120.02 s Pause on frame 903, loop 0; saved registered photos and fit observations, independent image agreement and terrain receipt. Photo settlement target and terrain failed; full metrics published on main f06e16b7"
+    }
+   ]
+  },
+  {
+   "n": 2378,
+   "name": "Bind accepted terrain footprint buffer on each 3D generation dispatch",
+   "done": "2026-11-26T17:17Z",
+   "goal": false,
+   "under": 2377,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_3D_BINDING",
+     "at": "2026-11-26T17:17Z",
+     "text": "Published 8491429cae: bind the footprint buffer immediately before each sampling dispatch. Source and diff checks passed; previous initialization already bound it, so why the reported binding disappeared is unconfirmed. Unity replay must ve"
+    }
+   ]
+  },
+  {
+   "n": 2379,
+   "name": "Fix 3D replay terrain recorder lifetime and retry transient read-only status failures",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_PANO_GPU",
+     "at": "2026-11-26T17:23Z",
+     "text": "Pano colour GPU probe prepared outside checkout. Waiting for recorder source edit and Editor handoff before compiling shader or running probe; please record when finished."
+    },
+    {
+     "by": "CODEX_REPLAY_RELIABILITY",
+     "at": "2026-11-26T17:23Z",
+     "text": "Published 0b20c1af94: explicit read-only status retries on transient bridge errors; recorder defers close while polling and prevents reentrant polls. Five Python checks passed. Recorder C# lifetime and pending GPU drain still require a focu"
+    }
+   ]
+  },
+  {
+   "n": 2380,
+   "name": "On a phone",
    "done": "",
    "goal": false,
    "under": 0,
@@ -5745,8 +5991,2151 @@
    "notes": []
   },
   {
-   "n": 2371,
-   "name": "Sort Tools/Tests~ (251 one-bug *Host harnesses",
+   "n": 2381,
+   "name": "Record bounded live photo-motion pair provenance for Zurich Pilot tracking diagnosis without changing motion decisions",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Record selected shutter pair and donor evidence at the render tick",
+     "x": false
+    },
+    {
+     "t": "Replay Zurich with diagnostics and measure overhead",
+     "x": false
+    },
+    {
+     "t": "Deliver diagnostic and record findings",
+     "x": false
+    }
+   ],
+   "notes": [
+    {
+     "by": "CODEX_PHOTO_MOTION_DIAG",
+     "at": "2026-11-26T17:49Z",
+     "text": "Main 2b22292958: opt-in Editor pair recorder captures selected shutter poses, fit quality, donor keys and available depth revisions. Zurich reached 90 s before assembly reload disconnected replay; 277 pair samples, zero drops, revision samp"
+    },
+    {
+     "by": "CODEX_PANO_SERIALIZATION",
+     "at": "2026-11-26T17:55Z",
+     "text": "Serializer control confirmed nested in-memory Slot[] omitted; primitive int/bool/long/float/string arrays serialize. Editor released for Castle. Recorder repair and CheckSlotSerialization entry prepared and compiled offline; please signal w"
+    }
+   ]
+  },
+  {
+   "n": 2382,
+   "name": "Verify the next Windows Test candidate can update in-app using a sealed installer",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "NT68_UPDATE",
+     "at": "2026-11-26T18:10Z",
+     "text": "845a78c372 fixes Win32 error 5: the verified 886 installer inherited Low integrity in LocalLow; the same executable created its Temp directory from Local. Unity AppUpdateManagerTests passed 25/25. 4140cd0ab4 stops Setup before file replacem"
+    },
+    {
+     "by": "NT68_HEAVY",
+     "at": "2026-11-27T07:09Z",
+     "text": "Windows 889 installed from the portable 887 Update notification after successful download and raw installer SHA verification. User observed two windows. Setup only closed a player in the installed folder. 621b7384ee now saves and quits the "
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T07:34Z",
+     "text": "Getac installed Windows Brigade 68 player 879 held a stale Test 888 offer. The old GitHub URL independently returns HTTP 404. Refresh selected 889, actual player download and verification finished, and the unsealed installer SHA-256 matches"
+    }
+   ]
+  },
+  {
+   "n": 2383,
+   "name": "Preserve the video relay control message types in the Windows Player so Restream can read the helper startup (Video Restreaming SPEC",
+   "done": "2026-11-26T17:50Z",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_RELAY_PLAYER",
+     "at": "2026-11-26T17:43Z",
+     "text": "1ca035f6cd on main. Installed Windows Player 886 reported InvalidOutput before any packets. Its bundled helper emitted valid protocol 6 ready JSON. Replaying ready through Newtonsoft against the Windows build stripped DLL reproduced missing"
+    },
+    {
+     "by": "NT68_HEAVY",
+     "at": "2026-11-26T17:50Z",
+     "text": "Confirmed 1ca035f6cd locally. Re-ran 886 Windows x64 IL2CPP Aggressive UnityLinker response with current link.xml into separate D: evidence. Original 886 stripped Newtonsoft fails on real bundled relay protocol-6 ready JSON with missing Eve"
+    }
+   ]
+  },
+  {
+   "n": 2384,
+   "name": "Measure extracting Online Raster footprint geometry into MapMath",
+   "done": "2026-11-26T18:06Z",
+   "goal": false,
+   "under": 2281,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-26T18:06Z",
+     "text": "Main 98d5cb9d97. Online Raster footprint math now compiles in existing MapMath using a concrete value type. One matched Getac Unity 6000.6.10f1 edit/restore pair averaged 229.4 s in Main and 74.7 s in MapMath. Only MapMath recompiled in C#,"
+    }
+   ]
+  },
+  {
+   "n": 2385,
+   "name": "Verify Painting toolbar on map and fullscreen video",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2386,
+   "name": "Verify fullscreen video processing Area",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2387,
+   "name": "Record original controls and restoration outcome for interrupted 3D replay",
+   "done": "2026-11-26T18:11Z",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_REPLAY_RECEIPT",
+     "at": "2026-11-26T18:11Z",
+     "text": "Published 4d0118689c on main. Saved-start replay writes and fsyncs pre-run controls before mutation, then records observed restoration or unverified interruption; missing controls refuse the run. Six focused Python checks passed. No Editor "
+    }
+   ]
+  },
+  {
+   "n": 2388,
+   "name": "Measure moving Restream Delay field presentation into SharedUI",
+   "done": "2026-11-26T18:54Z",
+   "goal": false,
+   "under": 2281,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-26T18:54Z",
+     "text": "Main 5c39056693. Restream Delay field binding, editing and display compile in existing SharedUI. Getac Unity 6000.6.10f1 matched warm edit and restore averaged 219.0 s in Main and 80.3 s in SharedUI, 63% faster. Only SharedUI compiled in C#"
+    }
+   ]
+  },
+  {
+   "n": 2389,
+   "name": "Reject changed terrain clearance for recorded 3D replay starts",
+   "done": "2026-11-26T18:32Z",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_REPLAY_TERRAIN",
+     "at": "2026-11-26T18:32Z",
+     "text": "Published 94960e3aa3: recorded-start replay requires matching site, finite altitude and measured terrain clearance within 0.01 m. Rejects missing/nonfinite measurements and reports both clearances on mismatch. Ten Python tests passed; no Un"
+    }
+   ]
+  },
+  {
+   "n": 2390,
+   "name": "Complete pending MAV Control board tasks and goals that need the NT68 Windows workstation or the connected Strong Android tablet.",
+   "done": "",
+   "goal": true,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Claim an eligible unheld task and work it through native verification or an evidence-backed handoff",
+     "x": false
+    },
+    {
+     "t": "Continue through pending hardware and resource-heavy tasks while keeping one Editor and preserving needed build evidence",
+     "x": false
+    },
+    {
+     "t": "Clear verified superseded build output and temporary files between runs so the workstation remains usable",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 2391,
+   "name": "Starting video in First Person View gives a smooth, stable track and non-blinking 3D visuals suitable for baking",
+   "done": "",
+   "goal": true,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Measure first-person motion and visible blinking on repeatable video from startup through sustained capture",
+     "x": false
+    },
+    {
+     "t": "Correct the measured causes while retaining paired video, poses and depth for baking",
+     "x": false
+    },
+    {
+     "t": "Verify stable motion and projection in live playback and record remaining device or bake checks",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 2392,
+   "name": "Measure and improve First Person View track continuity during 3D Model Generation without corrupting paired photo data",
+   "done": "",
+   "goal": false,
+   "under": 2391,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_FIRSTPERSON_STABLE",
+     "at": "2026-11-26T19:03Z",
+     "text": "Castle Pilot matched 62.765 m Planet start reproduced 14.93 and 18.29 draft-units/s jumps (median about 0.12). Per-render trace links one spike to a new depth-photo reference; another shows per-donor held medians 1.63/2.61/3.94 px against a"
+    },
+    {
+     "by": "CODEX_FIRSTPERSON_FIX",
+     "at": "2026-11-26T20:30Z",
+     "text": "Reanalysed Castle high-rate capture: one adjacent pair with identical camera, decoder and Pano exposure set had a new Disk draw preparation and central image mean difference 2.48/255 (p99 40); 41 unchanged-counter/set pairs median 0.004, ma"
+    }
+   ]
+  },
+  {
+   "n": 2393,
+   "name": "Measure extracting temporary Player Settings and Mac profile setup into an Editor-only assembly",
+   "done": "2026-11-26T19:36Z",
+   "goal": false,
+   "under": 2281,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-26T19:36Z",
+     "text": "Main 6b926daec3. Temporary Player Settings and macOS profile settings compile in the Editor-only BuildSettings assembly. Matched Getac implementation edit averaged 240.3 s in Main and 79.9 s after extraction, 67% less. A separate API probe "
+    }
+   ]
+  },
+  {
+   "n": 2394,
+   "name": "Correct recorded photo reference disagreement that destabilizes First Person View tracking",
+   "done": "",
+   "goal": false,
+   "under": 2391,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_FIRSTPERSON_FIX",
+     "at": "2026-11-26T21:25Z",
+     "text": "Per-photo-pair held-out guard passed 3 direct fixture checks but failed live Zurich: 165/296 camera samples below terrain; surveyed Pilot median/p90 31.43/91.96 m. Against baseline on 559 common decoder exposures, median/p90 24.12/60.24\u219230."
+    }
+   ]
+  },
+  {
+   "n": 2395,
+   "name": "Measure moving the peer status row view into SharedUI while preserving its prefab bindings",
+   "done": "2026-11-26T20:06Z",
+   "goal": false,
+   "under": 2281,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-26T20:06Z",
+     "text": "Main 9a6c70fc5b. The Peer status row view moved to existing SharedUI with its original script GUID. Getac Unity 6000.6.10f1 matched warm edits averaged 222.5 s in Main and 84.8 s in SharedUI, with stable references and C# limited to SharedU"
+    }
+   ]
+  },
+  {
+   "n": 2396,
+   "name": "2391",
+   "done": "2026-11-26T20:28Z",
+   "goal": true,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_FIRSTPERSON_FIX",
+     "at": "2026-11-26T20:28Z",
+     "text": "Created in error by a malformed board lookup; the active goal is 2391."
+    }
+   ]
+  },
+  {
+   "n": 2397,
+   "name": "Investigate Disk preview rebuild discontinuities in First Person View",
+   "done": "",
+   "goal": false,
+   "under": 2391,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_FIRSTPERSON_FIX",
+     "at": "2026-11-27T06:36Z",
+     "text": "Handoff for MSI: Castle first Disk draw had 117128 indirect instances while both Editor shader passes reported uncompiled; both reported compiled next frame. Camera also jumped between those frames, so this does not establish the pop cause."
+    }
+   ]
+  },
+  {
+   "n": 2398,
+   "name": "Video Restreaming helper implementation edits compile Main even when relay orchestration stays the same (Video Restreaming SPEC",
+   "done": "2026-11-26T21:36Z",
+   "goal": false,
+   "under": 2281,
+   "ticks": [
+    "2026-11-26T21:34Z",
+    "2026-11-26T21:35Z",
+    "2026-11-26T21:36Z"
+   ],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Check existing relay and helper dependencies and time a private relay implementation edit in Main",
+     "x": true
+    },
+    {
+     "t": "Extract the concrete process owner and package with Main Manager coordination intact",
+     "x": true
+    },
+    {
+     "t": "Verify native compilation and test the same warm relay edit and Main control",
+     "x": true
+    }
+   ],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-26T21:36Z",
+     "text": "Verified on main ba609fc728. VideoRuntime owns the native helper process controller and package, and Core owns ChildProcess. Main retains the Restream Manager, firewall decisions and peer coordination. The same warm relay edit averaged 235."
+    }
+   ]
+  },
+  {
+   "n": 2399,
+   "name": "Verify Evacuation Routes motion sampling around curved routes on device",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2400,
+   "name": "Verify Pencil mirror filtering in Unity and on a stylus touch device",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2401,
+   "name": "Verify Web Mercator Element mask refresh under continuous incoming updates in normal Unity and on device",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2402,
+   "name": "Verify Elements overlay quality in the normal Editor on Offline and online maps",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_OVERLAY_QUALITY",
+     "at": "2026-11-26T22:06Z",
+     "text": "Follow-up c56557706d lazily initializes the shared keyword after Unity deserialization; normal Editor refresh compiled and Console reported zero errors. Visual checks still on 2402."
+    }
+   ]
+  },
+  {
+   "n": 2403,
+   "name": "Verify agent.poll retention recovery on a real Debug transport and Windows PowerShell",
+   "done": "",
+   "goal": false,
+   "under": 429,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2404,
+   "name": "Changing the hardcoded release number recompiles Main during release preparation. Keep the same compiled integer and prepared-versus-compiled guard while measuring a stable assembly reference (Tests S",
+   "done": "2026-11-26T22:52Z",
+   "goal": false,
+   "under": 2281,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-26T22:52Z",
+     "text": "Verified on main c23e1d6069. The hardcoded release integer compiles in WarStation.ReleaseVersion and Peers Manager reads it through a stable getter. On Getac Unity 6000.6.10f1 the matched source restoration reached Ready in 66.4 s, down fro"
+    }
+   ]
+  },
+  {
+   "n": 2405,
+   "name": "Verify Motorola Radio ID reconnect binding with the Unity MotorolaIpListenerTests fixture in a disposable TestRun and on Windows/Android radio hardware",
+   "done": "",
+   "goal": false,
+   "under": 379,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2406,
+   "name": "Run Web Mercator native map-replacement and vault shutdown blocked-read tests on Windows after 0f9039abd7; both skip on Mac",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2407,
+   "name": "Safeguard interception editor after d53ed6e91b",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2408,
+   "name": "Search Sandbox presentation contract after e68a63b6dd",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2409,
+   "name": "Extended Menu Sandbox toggle after 30e066e6d1",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_UI_MENU_BOUNDARY",
+     "at": "2026-11-26T22:40Z",
+     "text": "area_input reports normal Editor refresh compiled 30e066e6d1 with zero errors. Sandbox toggle and normal button live interaction still need checking."
+    },
+    {
+     "by": "CODEX_MENU_LIVE_MAC",
+     "at": "2026-11-27T11:13Z",
+     "text": "Normal Mac Editor: live ui.extended toggle opened and closed menu, ui.status confirmed both; actual handler returned err ui_extended_unavailable with button temporarily absent, then restored. Invoking normal menu click handler opened and cl"
+    }
+   ]
+  },
+  {
+   "n": 2410,
+   "name": "Frame Budget heavy-work leader must distinguish system job types and name the actual action",
+   "done": "2026-11-26T22:47Z",
+   "goal": false,
+   "under": 429,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_MAC_BUDGET_LEADER",
+     "at": "2026-11-26T22:47Z",
+     "text": "8f7d0e6615 preserves job type in the leader tally and uses the owner name. Focused Unity collision test passed; full FrameBudgetTests: 33 passed, one HorizonVisibility test needs a scene object absent here. Editor compiled with zero errors."
+    }
+   ]
+  },
+  {
+   "n": 2411,
+   "name": "Board updates on a shallow checkout retry transient Git shallow-lock contention",
+   "done": "2026-11-26T22:59Z",
+   "goal": false,
+   "under": 429,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_MAC_BOARD_RETRY",
+     "at": "2026-11-26T22:59Z",
+     "text": "dcbfa2d0d7 retries only shallow lock and shallow-file races with bounded backoff; authentication and other errors fail immediately. All 39 board tests pass."
+    }
+   ]
+  },
+  {
+   "n": 2412,
+   "name": "Verify relocated native vendor paths on Windows and CI",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2413,
+   "name": "Unity Ready after a typical script edit is still unverified for the current assembly layout. Measure recent Main edit coverage and repeat the warm BaseMap control on Getac (Tests SPEC",
+   "done": "2026-11-26T23:19Z",
+   "goal": false,
+   "under": 2281,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-26T23:19Z",
+     "text": "Verified on main e03b019bcd. In 818 first-parent project records Main owned 597 of 621 eligible C# changes. Getac BaseMap add and restore reached Ready in 226.45 and 195.22 s. Only Main compiled in C#, all 146 sampled references stayed byte"
+    }
+   ]
+  },
+  {
+   "n": 2414,
+   "name": "Board publication preserves main ancestry in shallow checkouts",
+   "done": "2026-11-26T23:07Z",
+   "goal": false,
+   "under": 2281,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_MAC_BOARD_HISTORY",
+     "at": "2026-11-26T23:07Z",
+     "text": "653630be77 fetches main incrementally in shallow checkouts, keeping its ancestry; board branch still fetches its tip only. A real shallow-repository fast-forward regression and all 40 board tests pass."
+    }
+   ]
+  },
+  {
+   "n": 2415,
+   "name": "Screen checks closes files after reading and writing so repeated verification does not retain descriptors or emit ResourceWarnings.",
+   "done": "2026-11-26T23:11Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_MAC_SCREEN_FILES",
+     "at": "2026-11-26T23:11Z",
+     "text": "e5a5eb9130 closes Screen Checks files promptly, including its test fixture. Both verification host groups pass (10 cases) with ResourceWarnings treated as errors."
+    }
+   ]
+  },
+  {
+   "n": 2416,
+   "name": "Verify canvas-scale presentation after 0b082b0f56 in normal Unity and on device",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2417,
+   "name": "MavChat and Store Post prefab authoring still recompiles with Main on ordinary Unity edits. Test a boundary in Prublyda.Editor with existing author admission and preview behavior (Tests SPEC",
+   "done": "2026-11-27T00:17Z",
+   "goal": false,
+   "under": 2281,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T00:17Z",
+     "text": "Verified on main 7407cba8ba. The Editor authoring prototype took the matched MavChat edit from 206.56 to 60.86 s. The ordinary BaseMap control averaged 208.21 s on the original layout and 217.19 s with the prototype. Author-only changes cov"
+    }
+   ]
+  },
+  {
+   "n": 2418,
+   "name": "Verify peer crosshair rendering after 4fa87b47bc",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2419,
+   "name": "Pilot remote-drone peer badge",
+   "done": "2026-11-27T00:08Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_PILOT_USER_ICON",
+     "at": "2026-11-27T00:08Z",
+     "text": "Published e4ca34586a: remote Pilot badge uses peer picture without logo fallback, hides empty image, and restores later pictures. Normal Editor compile clean and focused EditMode test passed 1/1; real-device rendering is task 2424."
+    }
+   ]
+  },
+  {
+   "n": 2420,
+   "name": "Exercise ui.status and ui.graphic in a running Editor after fbdee547e6",
+   "done": "2026-11-27T11:10Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_UI_DIAG_LIVE",
+     "at": "2026-11-27T11:10Z",
+     "text": "Normal Mac Editor Play: live Sandbox ui.status returned complete report with loaded Left Lists and absent Peer Lists; ui.graphic returned active Compass Lock material/shader/size and found=0 for missing name. Temporarily unregistered Left L"
+    }
+   ]
+  },
+  {
+   "n": 2421,
+   "name": "Verify crosshair after 584321e013",
+   "done": "",
+   "goal": false,
+   "under": 407,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2422,
+   "name": "Repair FrameBudget horizon visibility test after the type moved from Station to the namespace",
+   "done": "2026-11-27T00:09Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_HORIZON_FIX",
+     "at": "2026-11-27T00:09Z",
+     "text": "2afb25eec5 calls the moved HorizonVisibility directly; normal Unity Editor compiled and FrameBudgetTests passed 34/34 under the test identity, then normal identity restored."
+    }
+   ]
+  },
+  {
+   "n": 2423,
+   "name": "Verify MavChat Road Blockers Scene after 57747b2cf3",
+   "done": "",
+   "goal": false,
+   "under": 2294,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2424,
+   "name": "Verify the remote-drone Pilot peer badge after e4ca34586a",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2425,
+   "name": "Investigate MavChat Search capsule pressed-color render failure in Unity",
+   "done": "2026-11-27T00:20Z",
+   "goal": false,
+   "under": 367,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_SELECTOR_CHECK",
+     "at": "2026-11-27T00:20Z",
+     "text": "bbfe761bd0 checks the pressed yellow interaction overlay at the capsule rim and checks its quiet center; Mac Metal focused shader render passed, and MavChatSheetTests passed 148/148. Normal Play/device appearance remains part of selector ch"
+    }
+   ]
+  },
+  {
+   "n": 2426,
+   "name": "Update Situation branch-transfer regression for transfer-key payload sealing while retaining independent-peer isolation checks.",
+   "done": "2026-11-27T00:18Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_SITUATION_TRANSFER_TEST",
+     "at": "2026-11-27T00:18Z",
+     "text": "Published ed02d5f18e: Situation branch regression uses actual transfer-key sealing, asserts each own key opens and the other key fails. Normal Editor suite 59 pass, 1 Windows-only skip; normal identity restored."
+    }
+   ]
+  },
+  {
+   "n": 2427,
+   "name": "Verify Sandbox performance commands after c8993506b5",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2428,
+   "name": "Measure the Main dependency closure of Planet Renderer controllers and Web Mercator index components",
+   "done": "2026-11-27T00:29Z",
+   "goal": false,
+   "under": 2281,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T00:29Z",
+     "text": "91a7de7623 on main. Roslyn bound 2,985 Main sources without errors. Branch state and resource streams have six Main dependencies, 936 lines and zero of 178 recent complete edits. Drawing has 64 dependencies and one complete edit. IndexContr"
+    }
+   ]
+  },
+  {
+   "n": 2429,
+   "name": "Verify diagnose screen after e65af76fec in a running Debug or Editor session",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_SCREEN_ALIGN",
+     "at": "2026-11-27T00:36Z",
+     "text": "Also verify screen.alignment.status after 9e8f2d0912 with Screen Blur present and unavailable; Unity compile and actual binder/fallback test passed."
+    }
+   ]
+  },
+  {
+   "n": 2430,
+   "name": "Find shared value and utility dependencies that can move concrete controllers out of Main",
+   "done": "2026-11-27T00:42Z",
+   "goal": false,
+   "under": 2281,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T00:42Z",
+     "text": "5445afa1b8 on main. Tested 100 single prerequisites and 406 pairs. ChangeTime.Rank would free 1,412 Planet Mask lines, 2,293 with full closure, and no complete edits after checking both catalog diffs. Unity C# replay passed in 52.48 s; cand"
+    }
+   ]
+  },
+  {
+   "n": 2431,
+   "name": "Remove the unused peer picture accessor that substitutes the Tester logo for a missing user picture",
+   "done": "2026-11-27T00:43Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_PEER_ICON_CLEANUP",
+     "at": "2026-11-27T00:43Z",
+     "text": "Removed unused Tester-logo fallback accessor and retained no-fallback peer picture path. Unity compile clean; ChatIconPersistenceTests passed 24/24. Published acb9b26974."
+    }
+   ]
+  },
+  {
+   "n": 2432,
+   "name": "Measure concrete state boundaries inside Video Processing UnityContinuous",
+   "done": "2026-11-27T00:54Z",
+   "goal": false,
+   "under": 2281,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T00:54Z",
+     "text": "e03b5e92cf on main. Bound 2,988 sources. Of 424 UnityContinuous callable roots, 8 static roots contain 36 lines and 24 roots total 90 lines with field inputs. None of seven matching recent edits was confined to those members. The adjacent a"
+    }
+   ]
+  },
+  {
+   "n": 2433,
+   "name": "Check Pilot telemetry preview after 9969493b75",
+   "done": "",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2434,
+   "name": "Compile a combined Core",
+   "done": "2026-11-27T01:11Z",
+   "goal": false,
+   "under": 2281,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T01:11Z",
+     "text": "82915c62b7 on main. Actual scratch layout compiled four existing lower assemblies, Main and EditMode tests. Moved 21 whole files and four source slices. Four matched pairs averaged 45.64 vs 46.26 s wall and 283.37 vs 292.82 s CPU; all compi"
+    }
+   ]
+  },
+  {
+   "n": 2435,
+   "name": "Measure native Unity Ready after moving the Main Burst text and mask jobs to their existing assemblies",
+   "done": "2026-11-27T01:44Z",
+   "goal": false,
+   "under": 2281,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T01:44Z",
+     "text": "c3fe6e053a on main. Native Getac warm Main Ready averaged 215.23 to 189.33 seconds and Main IL post-processing 42.36 to 27.47 seconds. Main stopped running Burst post-processing. Private text and blur edits compiled only ECS and PlanetMath "
+    }
+   ]
+  },
+  {
+   "n": 2436,
+   "name": "Restrict Pilot and fullscreen video painting to the requested pointer modes",
+   "done": "2026-11-27T07:18Z",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_VIDEO_PAINT_INPUT",
+     "at": "2026-11-27T07:18Z",
+     "text": "aae8355e restricts non-stylus video drawing to fullscreen Paint, clears retained map Paint on opening fullscreen and prevents retained eraser on tap-only video; pen remains direct. Unity compiles; VideoDrawingCompositionTests 35/35 final an"
+    }
+   ]
+  },
+  {
+   "n": 2437,
+   "name": "Find and fix the Windows Direct3D11 graphics reset during Kenilworth 3D Model Generation in Pilot with video hidden",
+   "done": "",
+   "goal": false,
+   "under": 1693,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_WINDOWS_BASELINE",
+     "since": "2026-11-27T07:15Z",
+     "noted": "2026-11-27T10:00Z",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Correlate the driver event with the replay and isolate the smallest failing workload",
+     "x": false
+    },
+    {
+     "t": "Fix the responsible workload without dropping the Point Cloud or Pano360",
+     "x": false
+    },
+    {
+     "t": "Repeat capture and Pause in the ordinary Editor and publish the result",
+     "x": false
+    }
+   ],
+   "notes": [
+    {
+     "by": "CODEX_KENILWORTH_INDEX_READOUT",
+     "at": "2026-11-27T12:13Z",
+     "text": "Main 4eaa2e65e0 separates build attempts and actual index dispatches, adds two scatter destination checks, and offers Editor disk-index-evidence opt-in pre/post argument and rejection count async reads. FXC compiled typed and raw cs_5_0. Hi"
+    },
+    {
+     "by": "CODEX_KENILWORTH_D3D11_STAGE",
+     "at": "2026-11-27T12:29Z",
+     "text": "Main 6e8a767f11 replaces D3D11 global index atomics with bounded counts, prefixes, separate scatter buffers and final guarded args. On RTX 5060 ordinary DX11 with local veto temporarily removed, native mixed/partial group fixture passed and"
+    },
+    {
+     "by": "CODEX_KENILWORTH_INDEX_TIMING",
+     "at": "2026-11-27T12:44Z",
+     "text": "Main 153dac6f9a avoids routine CPU indirect argument resets on the staged D3D11 path. Kenilworth with compact Disk readback and Pause-only probes completed 55.016 s, 24 mapped photos and 5 Pano360 views. 32 builds, all 21 probes valid, zero"
+    }
+   ]
+  },
+  {
+   "n": 2438,
+   "name": "Verify video painting input after aae8355e on a device",
+   "done": "",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2439,
+   "name": "Compile sweep of main",
+   "done": "2026-11-27T09:49Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T09:49Z",
+     "text": "29c41e587a restored moved CI test paths. Mac run 45975309953 compared 66b0a8ca8d through f0d54bce3e. All 126 positives were unavailable dependencies in eight files; identical source files, package settings and assembly boundaries were cover"
+    }
+   ]
+  },
+  {
+   "n": 2440,
+   "name": "Refresh a retired App Update offer when retrying a release asset that returned HTTP 404. On Getac Windows Test 879",
+   "done": "",
+   "goal": false,
+   "under": 374,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "NT68_UPDATE",
+     "at": "2026-11-27T08:34Z",
+     "text": "588d4621de on main. Retry after package HTTP 404/410 revalidates the selected channel. A matching offer retains the original failure; a replacement waits for its own key or starts download. Verified decision cases with a source-linked local"
+    }
+   ]
+  },
+  {
+   "n": 2441,
+   "name": "StarBoard touch opens Settings on Getac but leaves its Map row closed. Fix the input path based on what reaches Unity UI and Settings OnGUI",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T08:49Z",
+     "text": "Touch opened Settings but missed Map; mouse opened Map in the same mode. Windows Dev-only trace 36a4d0943c compiled in Unity 6000.6.10f1. On a Dev player containing it, use ui.settings.inputtrace arm and stop for each physical touch/mouse t"
+    }
+   ]
+  },
+  {
+   "n": 2442,
+   "name": "Investigate the weak GeoTIFF Feather effect in the latest Windows build; trace the control through its alpha processing and correct any confirmed defect.",
+   "done": "2026-11-27T08:43Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_MAC_FEATHER",
+     "at": "2026-11-27T08:43Z",
+     "text": "fada7418 fades both the GeoTIFF footprint and transparent cutouts with a 16 px ramp visible after mask alpha doubling. Unity Metal GeoTiffFeatherTests 4/4 and GeoTiffRasterTests 70/70 pass. Save and bake mask path traced; Windows rendered a"
+    }
+   ]
+  },
+  {
+   "n": 2443,
+   "name": "Dragging multiple GeoTIFF files imports every dropped file",
+   "done": "2026-11-27T08:39Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_GEOTIFF_DROP",
+     "at": "2026-11-27T08:39Z",
+     "text": "Quiz corrected the report: dropping multiple GeoTIFF files worked. No code changes made."
+    }
+   ]
+  },
+  {
+   "n": 2444,
+   "name": "Verify GeoTIFF Feather after fada7418 in a Windows build",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2445,
+   "name": "NOTE FOR QUIZ",
+   "done": "2026-11-27T10:00Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CLOUD_GUARDS_362",
+     "at": "2026-11-27T10:00Z",
+     "text": "Line added to REFACTORING.md under Standing refactor tasks, by quiz's word."
+    }
+   ]
+  },
+  {
+   "n": 2446,
+   "name": "Blocking guards",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "cloud-blocking-guards",
+     "at": "2026-11-27T08:56Z",
+     "text": "ShowBlockedGuard( added in Station_Utils_UI.cs; marked Map3D source recovery. Still to mark when they block: GeoTiffBakeMetadata failures SourceMissingOrChanged/InvalidRasterOrMask (Baker thread owns), Store_Blur ChunkUnreadable return. Sea"
+    },
+    {
+     "by": "CLOUD_GUARDS_362",
+     "at": "2026-11-27T10:00Z",
+     "text": "Part 1 done: Map 3D source recovery no longer goes Stale on source/placement change (still stops while finalizing). Part 2 Mask Blur stays on quiz's word; ArchiveMatching.cs:66 has a similar AnchorReceiptIsCurrent stop, left. Part 3 (GeoTIF"
+    }
+   ]
+  },
+  {
+   "n": 2447,
+   "name": "Show telemetry for local and remote drones in Suggestions Video tab; video only for non-local subjects",
+   "done": "2026-11-27T09:46Z",
+   "goal": false,
+   "under": 407,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_TELEMETRY_PLACEMENT",
+     "at": "2026-11-27T09:45Z",
+     "text": "2068b76d returns the external lent telemetry grid home during local or remote drone Video, including the plaque closing transition. Unity Strip lifecycle test passed 1/1; Suggestions fixture passed 22/22. Rendered MSI/device placement remai"
+    },
+    {
+     "by": "CODEX_SUGGESTION_TELEMETRY",
+     "at": "2026-11-27T09:46Z",
+     "text": "2068b76d shows available local and remote drone telemetry in Suggestions Video, omits local video/thumbnail, and returns the lent external grid home while a drone Video tab is active. Unity compiles; RemoteDroneSuggestionTests 22/22 and Str"
+    }
+   ]
+  },
+  {
+   "n": 2448,
+   "name": "Fix Deep State ribbon shader alignment when the map render resolution changes.",
+   "done": "2026-11-27T09:53Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_DEEPSTATE_SCALE",
+     "at": "2026-11-27T09:53Z",
+     "text": "6ad4b951 scales shared grid using URP actual display/target dimensions and scaled target height for flip. Unity Metal synthetic GPU tests pass 2/2; no-scale control fails, but exact old shader passes so flipped path is not proven. Actual ca"
+    }
+   ]
+  },
+  {
+   "n": 2449,
+   "name": "Verify Suggestions Video telemetry after 2068b76d on MSI and device",
+   "done": "",
+   "goal": false,
+   "under": 407,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2450,
+   "name": "Verify Deep State and Borders grid position and width after 6ad4b951 using an actual URP camera and a device",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2451,
+   "name": "Video Restreaming Signal Calibration renders an undistorted circle and square grid at 16",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T10:24Z",
+     "text": "ace4508c52: standalone D3D11 WARP confirmed 16:9 and 5:3 calibration geometry, moving bars and pulse. On bbe9b56631, extracted production decisions passed 18 Windows and 2 Android-defined .NET controls with stand-in inputs. Covered manual T"
+    },
+    {
+     "by": "CODEX_MAC_CALIBRATION",
+     "at": "2026-11-27T10:46Z",
+     "text": "Handed Editor calibration verification to route_edge, who owns the requested capture."
+    },
+    {
+     "by": "CODEX_TEST_VIDEO_MAC",
+     "at": "2026-11-27T11:05Z",
+     "text": "Normal Mac Editor: selected actual Test source after reloading clean Bootstrap binding; captured 640x360 45 distinct frames in 2.94 s, moving bands/pulse, circular shape, 10-pixel grid and 640x360/30 FPS caption visible. MP4/GIF in ~/MavCon"
+    }
+   ]
+  },
+  {
+   "n": 2452,
+   "name": "Video Restreaming on Android publishes the Signal Calibration Test source over a compatible RTMP or RTMPS link when selected or started without video",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2453,
+   "name": "Disable content context dragging in MavChat while preserving list scroll and other workflows",
+   "done": "2026-11-27T10:21Z",
+   "goal": false,
+   "under": 367,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_MAVCHAT_CONTENT_DRAG",
+     "at": "2026-11-27T10:21Z",
+     "text": "eb67f554 disables shared row context-drag arbitration in MavChat while retaining other workflows. Unity compiled; focused workflow regression passed, DragPointerTests 67/67 and ListScrollInteractionTests 46/46 passed. Portrait phone interac"
+    }
+   ]
+  },
+  {
+   "n": 2454,
+   "name": "Verify MavChat content rows after eb67f554 on a portrait phone",
+   "done": "",
+   "goal": false,
+   "under": 367,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2455,
+   "name": "BUG (quiz 2026-11-27)",
+   "done": "",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T10:31Z",
+     "text": "24960ed293 passed 28 isolated checks on Getac using the production C# routing and packet code with an in-memory queue. All renew/stop packets used 14668 despite learned app port 14666, before and after presence. Android's production Java de"
+    }
+   ]
+  },
+  {
+   "n": 2456,
+   "name": "Android Entire screen in MAV Control keeps delivering decoded frames to a Windows viewer when the Android app goes into the background and the display stays on. Verify an admitted viewer before switch",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T10:34Z",
+     "text": "Getac passed 26 isolated assertions using the full production ScreenSharingControl, C# packet codec and renewal queue methods from f1132bd3f3 with an in-memory queue. Reopening uses a fresh session and sends the first renew to 14668 before "
+    }
+   ]
+  },
+  {
+   "n": 2457,
+   "name": "Web Mercator",
+   "done": "",
+   "goal": false,
+   "under": 430,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2458,
+   "name": "MAV Control on Android and iPhone shows recently reachable peers immediately on return from the background",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Android: receive new presence while MAV Control is backgrounded and confirm the peer is shown on resume before another packet arrives.",
+     "x": false
+    },
+    {
+     "t": "iPhone: confirm the same handoff for presence received during an available background execution window.",
+     "x": false
+    },
+    {
+     "t": "On both platforms, verify expired, replayed and superseded observations leave the current peer state intact.",
+     "x": false
+    }
+   ],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T10:54Z",
+     "text": "dff95b644d on main. Android and iPhone now hand off sealed Background Chat presence with its original local receipt time and source port. 354 Android host assertions (including service and bridge compile against Android 36) and 25 iPhone wo"
+    }
+   ]
+  },
+  {
+   "n": 2459,
+   "name": "Update Test video calibration with 10-pixel grid and truthful source resolution",
+   "done": "2026-11-27T11:05Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_CALIBRATION_LABEL",
+     "at": "2026-11-27T11:05Z",
+     "text": "bfc4bb40 adds 10-pixel source grid and source dimensions, measured fps and raw ARGB32 caption. Unity compiled cleanly; live 640x360 Test capture 45/45 sampled frames distinct. Per-destination actual codec/pixel-format burn-in remains task 2"
+    }
+   ]
+  },
+  {
+   "n": 2460,
+   "name": "Work that must not stop (GPS, chat, tunnel, radio, unsent texts) runs on the native owner whether the screen is on or off, and the screen only reads it. Like Google Maps navigation or Signal: one fore",
+   "done": "",
+   "goal": true,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Per-process RAM and battery measured",
+     "x": false
+    },
+    {
+     "t": "Return window and 5 s position gap closed",
+     "x": false
+    },
+    {
+     "t": "Radio inbox on disk",
+     "x": false
+    },
+    {
+     "t": "Tunnel watchdog",
+     "x": false
+    },
+    {
+     "t": "iPhone parked fixes on disk",
+     "x": false
+    },
+    {
+     "t": "Android 14+ hardening",
+     "x": false
+    }
+   ],
+   "notes": [
+    {
+     "by": "CLOUD_BG_PLAN",
+     "at": "2026-11-27T10:52Z",
+     "text": "quiz 2026-11-27: 'The task for foreground and background. Just make the most optimal plan other quality and reliable apps do. Start multiple agents, with review.' Plan and compromises are in the Background Tracker SPEC; an independent revie"
+    },
+    {
+     "by": "CLOUD_BG_RESEARCH",
+     "at": "2026-11-27T11:00Z",
+     "text": "Web research 2026-11-27 done: SPEC corrected, tasks 2467 reworded, service types and local network tasks added."
+    }
+   ]
+  },
+  {
+   "n": 2461,
+   "name": "Measure RAM of each Android process (Unity main",
+   "done": "",
+   "goal": false,
+   "under": 2460,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "verify-only"
+   ],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2462,
+   "name": "Chat on Android",
+   "done": "",
+   "goal": false,
+   "under": 2460,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T11:00Z",
+     "text": "4ae4504e7b on main. Android :location listens on 14668 until the current Binder connection confirms Unity has bound 14666. Already-admitted text is saved and receipted before close. Android API 36 service/bridge compiled; 362 host checks pa"
+    }
+   ]
+  },
+  {
+   "n": 2463,
+   "name": "Android position sharing",
+   "done": "",
+   "goal": false,
+   "under": 2460,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_POSITION_UNBIND",
+     "at": "2026-11-27T11:06Z",
+     "text": "Source audit: the worker explicitly gates both position and Motorola in Cycle.TakeoverDelay; Unity bridge currently supplies no last GPS fix. A correct immediate handoff needs a timestamped foreground-fix transfer and existing privacy/fresh"
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T11:57Z",
+     "text": "1998fccf21 on main stages the last accepted, timestamped Unity phone fix in memory and sends it on the Android worker's first off-screen cycle when permission, freshness and privacy revision match. Motorola retains the 5 s socket takeover w"
+    }
+   ]
+  },
+  {
+   "n": 2464,
+   "name": "Motorola radio inbox lives only in service RAM and is lost if Unity dies",
+   "done": "",
+   "goal": false,
+   "under": 2460,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T11:11Z",
+     "text": "d6800b3b65 on main. Motorola inbox appends to the service no-backup file before ACK and survives restart; Unity confirms the exact Binder offer after applying it. Java journal/packet tests passed, four pinned C# payloads matched byte-for-by"
+    }
+   ]
+  },
+  {
+   "n": 2465,
+   "name": "VPN tunnel",
+   "done": "",
+   "goal": false,
+   "under": 2460,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T11:42Z",
+     "text": "7d3e00246c on main. Always-on VPN is primary. The off-screen :location watchdog requires durable wanted intent, a profile, confirmed :vpn absence and consent, then parks after three tries. Turn off, Forget and revocation disarm native recov"
+    }
+   ]
+  },
+  {
+   "n": 2466,
+   "name": "iPhone route recording off screen",
+   "done": "",
+   "goal": false,
+   "under": 2460,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_IOS_ROUTE_JOURNAL",
+     "at": "2026-11-27T11:29Z",
+     "text": "Unpublished Mac draft remains in checkout: session-keyed journal, checkpointed replay cursor, action/live-sample gating and checkpointed retirement. Native iPhoneOS syntax and deterministic host controls passed; actual-root export/checkpoin"
+    }
+   ]
+  },
+  {
+   "n": 2467,
+   "name": "Android 14+ services",
+   "done": "",
+   "goal": false,
+   "under": 2460,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T11:20Z",
+     "text": "5cb9eaf259 on main. Refused Android service requests/promotions leave per-owner/phase exception type and time in private no-backup files. Each process logs its latest own ApplicationExitInfo with description. The existing one-time exemption"
+    }
+   ]
+  },
+  {
+   "n": 2468,
+   "name": "Show the actual codec and pixel format per destination on Test video",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_CALIBRATION_CODEC",
+     "at": "2026-11-27T11:40Z",
+     "text": "Main 78d43a582f, f76796b4a2 and 12e839fbcc: desktop Test publications stamp codec, enforced yuv420p and output size/FPS; old relay preserves unlabeled stream. Mac packaged H264 and VP8 WHIP passed ffprobe and decoded-label checks; ordinary "
+    }
+   ]
+  },
+  {
+   "n": 2469,
+   "name": "Android service types",
+   "done": "",
+   "goal": false,
+   "under": 2460,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T12:16Z",
+     "text": "14bdbb0061 on main uses remoteMessaging for Android Chat, adds connectedDevice for Motorola USB and location with access, and removes the standalone Keep Alive service and Settings toggle. Manifest linked for target 35, Java compiled with S"
+    }
+   ]
+  },
+  {
+   "n": 2470,
+   "name": "Local network permission",
+   "done": "",
+   "goal": false,
+   "under": 2460,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T11:29Z",
+     "text": "bc279f348d on main. Generated launcher emits ACCESS_LOCAL_NETWORK only for target >=37, and Unity asks via Nearby devices only when Android actually requires it. UDP denial is distinct in VPN, native Chat, Tracker and radio diagnostics. Tar"
+    }
+   ]
+  },
+  {
+   "n": 2471,
+   "name": "Improve Test video with sharp angled edges and fine detail while retaining calibration grid and motion",
+   "done": "2026-11-27T11:41Z",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_CALIBRATION_EDGES",
+     "at": "2026-11-27T11:41Z",
+     "text": "1df106d9 on main: reference-inspired checker, geometry and moving bands, local wall clock to milliseconds, configured peer name and reused caption buffers. Mac Unity shader compiled; actual Test source capture confirmed 90 frames/5.94 s, mo"
+    }
+   ]
+  },
+  {
+   "n": 2472,
+   "name": "Weather profile",
+   "done": "2026-11-27T11:51Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_MAC_WEATHER",
+     "at": "2026-11-27T11:51Z",
+     "text": "Duplicate of active task 2473; no independent work."
+    }
+   ]
+  },
+  {
+   "n": 2473,
+   "name": "Weather profile",
+   "done": "2026-11-27T11:54Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_MAC_WEATHER",
+     "at": "2026-11-27T11:54Z",
+     "text": "Published 7248906a5d; 41/41 WeatherProviderTests in Unity EditMode, normal identity restored. Missing model elevation remains separate follow-up."
+    }
+   ]
+  },
+  {
+   "n": 2474,
+   "name": "Weather profile",
+   "done": "2026-11-27T11:58Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "CODEX_MAC_WEATHER",
+     "at": "2026-11-27T11:58Z",
+     "text": "Published a49e6464ec; Open-Meteo and NOAA missing terrain suppress pressure heights while fixed AGL remains; legacy rows refresh. Unity WeatherProviderTests 42/42."
+    }
+   ]
+  },
+  {
+   "n": 2475,
+   "name": "Notification stack transitions and heartbeat",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "CODEX_NOTIF",
+     "since": "2026-11-27T12:04Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Implement continuously retargetable appearance and removal transitions",
+     "x": false
+    },
+    {
+     "t": "Add notification heartbeat ping",
+     "x": false
+    },
+    {
+     "t": "Verify in Unity and update notification spec",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 2476,
+   "name": "Notification stack transitions and heartbeat (notification standardisation)",
+   "done": "2026-11-27T12:56Z",
+   "goal": false,
+   "under": 410,
+   "ticks": [
+    "2026-11-27T12:53Z",
+    "2026-11-27T12:54Z",
+    "2026-11-27T12:55Z"
+   ],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Implement continuously retargetable appearance and removal transitions",
+     "x": true
+    },
+    {
+     "t": "Add notification heartbeat ping",
+     "x": true
+    },
+    {
+     "t": "Verify in Unity and update notification spec",
+     "x": true
+    }
+   ],
+   "notes": [
+    {
+     "by": "CODEX_NOTIF",
+     "at": "2026-11-27T12:56Z",
+     "text": "Published 8cade4c7df; Unity compile, 5 motion and 2 heartbeat tests pass. Live Editor confirms fade at full extent, scale-before-fade on return, and pulse after reveal. Broader fixture failures have source-backed baseline explanations; phon"
+    }
+   ]
+  },
+  {
+   "n": 2477,
+   "name": "MavChat portrait QR scanner and shared pasted-content actions for QR scans (no board goal)",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "qr_portrait",
+     "at": "2026-11-27T12:15Z",
+     "text": "Code published in 74518a28; Unity ChatQrTextTests 8/8 and landscape no-camera state inspected. Verify portrait layout and actual camera scans, including Google Maps paste route, on a camera-equipped phone."
+    },
+    {
+     "by": "qr_portrait",
+     "at": "2026-11-27T12:10Z",
+     "text": "Duplicate of 2477; folding into the active task."
+    }
+   ]
+  },
+  {
+   "n": 2478,
+   "name": "Replace Video Processing icon with calibration feed behind translucent colored filters; no board goal fits",
+   "done": "2026-11-27T12:10Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "codex-weather-icon",
+     "at": "2026-11-27T12:10Z",
+     "text": "Published 8c938163: user-approved parallel calibration and tinted filter layers, preserved proportions at 64px."
+    }
+   ]
+  },
+  {
+   "n": 2479,
+   "name": "Replace Video Processing icon with calibration feed behind translucent colored filters",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "codex-weather-icon",
+     "since": "2026-11-27T12:05Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2481,
+   "name": "Audit and update UI Style Sheet reusable components against current UI standards; no fitting board goal",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "codex-ui-reference",
+     "at": "2026-11-27T12:32Z",
+     "text": "Published 5aea9eac: larger gallery labels, colourful interacting icons, explicit quiet comparison and nested MavButton/MavInputField. Main gallery inspected in Unity; active text bounds fit and bindings present. Remaining: refresh the map-b"
+    }
+   ]
+  },
+  {
+   "n": 2482,
+   "name": "Share screen center capsule fills with peer name while non-interacting (no board goal)",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "qr_portrait",
+     "at": "2026-11-27T12:19Z",
+     "text": "Implemented and pushed 58e92d94; Unity ShareScreenCenterButtonTests passed 3/3. Remaining: inspect actual quiet and interaction transitions visually in Unity or on device. UI SPEC sentence will ship with the notifications agent changes."
+    }
+   ]
+  },
+  {
+   "n": 2483,
+   "name": "Trust coordination sweep",
    "done": "",
    "goal": false,
    "under": 0,
@@ -6003,8 +8392,12 @@
   {
    "screen": "Video Feed",
    "since": "2026-11-26T16:03Z"
+  },
+  {
+   "screen": "Settings/View",
+   "since": "2026-11-27T12:12Z"
   }
  ],
- "source_revision": "46e9272d9ba0dd9b469653167f7cd660221edcd6",
- "board_revision": "cb9f91b08e0d43f91c0f3353bfd4bda0b261c898"
+ "source_revision": "219458680092b3f6ceeb755b9da88491ed01a738",
+ "board_revision": "00414f21193f46492516eacbf1696b5549f53b54"
 }
