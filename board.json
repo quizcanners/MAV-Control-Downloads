@@ -8118,29 +8118,20 @@
   {
    "n": 2483,
    "name": "Trust coordination sweep",
-   "done": "",
+   "done": "2026-11-27T13:13Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC_WORKER",
-     "since": "2026-11-27T13:08Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "GETAC_WORKER",
-     "at": "2026-11-27T13:06Z",
-     "text": "First sweep shipped on main as 3db35fa5f8. MavChat Outbox consumes resume and returning-peer retry requests. Incoming owns the retry for photos still in RAM. Roslyn parsed the six files and nine isolated assertions passed. Unity and device "
+     "at": "2026-11-27T13:13Z",
+     "text": "Sweep shipped in 3db35fa5f8 and 5a675fec94. MavChat owners consume text and photo retry requests. Android USB installer records the tunnel request after package readback, and the tunnel controller owns the two-second check and completion. T"
     }
    ]
   },
@@ -8447,5 +8438,6 @@
    "since": "2026-11-27T12:12Z"
   }
  ],
- "source_revision": "dcd6446ef7fca159587878c48ac7eb279afbf312"
+ "source_revision": "5a675fec945cb1090336b0637c1cb9e533fb0eb3",
+ "board_revision": "501ada19a31cfd097bd32114729e6c2c10d24f8d"
 }
