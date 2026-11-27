@@ -7146,11 +7146,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX_KENILWORTH_INDEX_READOUT",
-     "at": "2026-11-27T12:13Z",
-     "text": "Main 4eaa2e65e0 separates build attempts and actual index dispatches, adds two scatter destination checks, and offers Editor disk-index-evidence opt-in pre/post argument and rejection count async reads. FXC compiled typed and raw cs_5_0. Hi"
-    },
-    {
      "by": "CODEX_KENILWORTH_D3D11_STAGE",
      "at": "2026-11-27T12:29Z",
      "text": "Main 6e8a767f11 replaces D3D11 global index atomics with bounded counts, prefixes, separate scatter buffers and final guarded args. On RTX 5060 ordinary DX11 with local veto temporarily removed, native mixed/partial group fixture passed and"
@@ -7159,6 +7154,11 @@
      "by": "CODEX_KENILWORTH_INDEX_TIMING",
      "at": "2026-11-27T12:44Z",
      "text": "Main 153dac6f9a avoids routine CPU indirect argument resets on the staged D3D11 path. Kenilworth with compact Disk readback and Pause-only probes completed 55.016 s, 24 mapped photos and 5 Pano360 views. 32 builds, all 21 probes valid, zero"
+    },
+    {
+     "by": "CODEX_KENILWORTH_BASEMAP_EVIDENCE",
+     "at": "2026-11-27T13:08Z",
+     "text": "Kenilworth staged-index replay in ordinary Windows Unity Editor (RTX 5060 laptop, DX11): 70 s Pause, 36 mapped photos, six Pano360 views. 33 builds, 18 distinct fully valid three-stage readouts, no rejected writes up to 2,477,395 candidates"
     }
    ]
   },
@@ -8439,5 +8439,5 @@
   }
  ],
  "source_revision": "dcd6446ef7fca159587878c48ac7eb279afbf312",
- "board_revision": "0c4e5dad00c839fe17c269aadbad5d6f77dac7f4"
+ "board_revision": "b6cecade1bfd46c0d32d58c2e6812cc22a58925c"
 }
