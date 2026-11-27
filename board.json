@@ -7129,16 +7129,7 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "CODEX_WINDOWS_BASELINE",
-     "since": "2026-11-27T07:15Z",
-     "noted": "2026-11-27T10:00Z",
-     "progress": 0,
-     "ticked": 0,
-     "total": 3
-    }
-   ],
+   "held": [],
    "steps": [
     {
      "t": "Correlate the driver event with the replay and isolate the smallest failing workload",
@@ -8162,6 +8153,42 @@
    "held": [],
    "steps": [],
    "notes": []
+  },
+  {
+   "n": 2485,
+   "name": "Complete drone telemetry in Suggestions Video and fix flying or missing Suggestions tabs; no fitting board goal",
+   "done": "",
+   "goal": false,
+   "under": 407,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "codex-telemetry-suggestions",
+     "since": "2026-11-27T13:03Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Reproduce and identify flying and missing tabs",
+     "x": false
+    },
+    {
+     "t": "Place all selected-drone telemetry inside Suggestions Video and update panels",
+     "x": false
+    },
+    {
+     "t": "Verify local and remote drones and tab transitions in Unity",
+     "x": false
+    }
+   ],
+   "notes": []
   }
  ],
  "verify": [
@@ -8415,5 +8442,5 @@
   }
  ],
  "source_revision": "219458680092b3f6ceeb755b9da88491ed01a738",
- "board_revision": "09fca52fbea9ed483c7d6dc266648188c5eaea85"
+ "board_revision": "619c3e75bc61ac6327ae2063edb17f33aca96a00"
 }
