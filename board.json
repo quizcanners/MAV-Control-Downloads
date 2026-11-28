@@ -7099,7 +7099,9 @@
     "2026-11-27T19:57Z",
     "2026-11-27T19:57Z",
     "2026-11-27T20:06Z",
-    "2026-11-27T22:08Z"
+    "2026-11-27T22:08Z",
+    "2026-11-27T20:18Z",
+    "2026-11-27T20:19Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -7149,14 +7151,21 @@
     {
      "t": "Verify a containing APK and the app installer FileProvider on Android.",
      "x": false
+    },
+    {
+     "t": "Verify the upstream release and compare it with the vendored plugin.",
+     "x": true
+    },
+    {
+     "t": "Update the Android archive and verify the existing Unity callback and permissions contract.",
+     "x": true
+    },
+    {
+     "t": "On a containing Android Build, verify a large file pick and cancellation.",
+     "x": false
     }
    ],
    "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T07:35Z",
-     "text": "Android Test 892 packages Firebase Messaging 26.0.2. Its DEX registrar reports fire-fcm 26.0.2 as in the Google AAR. Evidence c8bf0117da. Installation ID registration, locked-screen receipt and notification tap still need the device."
-    },
     {
      "by": "GETAC_WORKER",
      "at": "2026-11-28T07:35Z",
@@ -7166,6 +7175,11 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T02:59Z",
      "text": "50b3446add fixes the Windows SDK path in the AndroidX fixture. Unity JDK 17 parsed the old value incorrectly and resolved the same path with spaces after the fix, from both absolute and relative inputs. fc21174e76 reproduces the Gradle inpu"
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T07:36Z",
+     "text": "Android Test 892 includes the pinned 1.4.4 AAR and the packaged picker bytecode uses the 262,144-byte buffer. Evidence c8bf0117da. The system picker, large-file result and cancellation still need the device."
     }
    ]
   },
@@ -8208,42 +8222,6 @@
      "by": "codex-alert-options",
      "at": "2026-11-27T19:56Z",
      "text": "Published ee622f26. Landscape alert options use larger tinted blur on a dark panel and horizontally scroll when narrow; response lists fill remaining height. Normal Play visual check and focused Landscape/Portrait reachability test passed. "
-    }
-   ]
-  },
-  {
-   "n": 2560,
-   "name": "Update the vendored Native File Picker from 1.4.3 to 1.4.4 and verify Android file pick and cancellation in MAV Control.",
-   "done": "",
-   "goal": false,
-   "under": 2533,
-   "ticks": [
-    "2026-11-27T20:18Z",
-    "2026-11-27T20:19Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Verify the upstream release and compare it with the vendored plugin.",
-     "x": true
-    },
-    {
-     "t": "Update the Android archive and verify the existing Unity callback and permissions contract.",
-     "x": true
-    },
-    {
-     "t": "On a containing Android Build, verify a large file pick and cancellation.",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T07:36Z",
-     "text": "Android Test 892 includes the pinned 1.4.4 AAR and the packaged picker bytecode uses the 262,144-byte buffer. Evidence c8bf0117da. The system picker, large-file result and cancellation still need the device."
     }
    ]
   },
@@ -11364,5 +11342,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "47004c0c4de1a10e3ebcd06823eefecd96206d7c"
+ "board_revision": "d9308bbf22fbab082949695911412728f5a43ffd"
 }
