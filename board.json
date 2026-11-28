@@ -4289,6 +4289,11 @@
      "by": "CODEX_MAP_BRUSH_WAKE",
      "at": "2026-11-26T11:59Z",
      "text": "Commits 98e4094836 and 6254341ccc wake the map for moving brush and other editing-tool previews, including Baker and GeoTIFF. Verify movement, idle settling, painting and tile previews in the normal Editor and on a device; focused MapRender"
+    },
+    {
+     "by": "CODEX_BRUSH_UI",
+     "at": "2026-11-26T11:59Z",
+     "text": "0f089d7b2b is on main. Uses IsActivelyPainting to hide the brush size slider; source diff check passed. Live normal Editor and touch-device verification remain; check mouse, stylus, multiple editing modes, release and tool changes. No suita"
     }
    ]
   },
@@ -4396,28 +4401,6 @@
      "by": "CODEX_MOTOROLA_BINDING",
      "at": "2026-11-26T22:13Z",
      "text": "Goal paused; current sheet-based RadioOwners no longer has RadioAssignment or ContestedRadios; reassess task before resuming."
-    }
-   ]
-  },
-  {
-   "n": 2330,
-   "name": "Verify Map Editing hides brush size during painting and restores it after release",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_BRUSH_UI",
-     "at": "2026-11-26T11:59Z",
-     "text": "0f089d7b2b is on main. Uses IsActivelyPainting to hide the brush size slider; source diff check passed. Live normal Editor and touch-device verification remain; check mouse, stylus, multiple editing modes, release and tool changes. No suita"
     }
    ]
   },
@@ -9975,5 +9958,5 @@
   }
  ],
  "source_revision": "17da022fd79af2601e88bb9bff70b3016469c7b3",
- "board_revision": "50d64d41139c20bcd82af8c9a805b33d9bb9fe09"
+ "board_revision": "088bca383de7d8e255e6e506cf9e762ef67aacf1"
 }
