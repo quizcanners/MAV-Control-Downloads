@@ -5752,36 +5752,6 @@
    "notes": []
   },
   {
-   "n": 2451,
-   "name": "Video Restreaming Signal Calibration renders an undistorted circle and square grid at 16",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-27T10:24Z",
-     "text": "ace4508c52: standalone D3D11 WARP confirmed 16:9 and 5:3 calibration geometry, moving bars and pulse. On bbe9b56631, extracted production decisions passed 18 Windows and 2 Android-defined .NET controls with stand-in inputs. Covered manual T"
-    },
-    {
-     "by": "CODEX_MAC_CALIBRATION",
-     "at": "2026-11-27T10:46Z",
-     "text": "Handed Editor calibration verification to route_edge, who owns the requested capture."
-    },
-    {
-     "by": "CODEX_TEST_VIDEO_MAC",
-     "at": "2026-11-27T11:05Z",
-     "text": "Normal Mac Editor: selected actual Test source after reloading clean Bootstrap binding; captured 640x360 45 distinct frames in 2.94 s, moving bands/pulse, circular shape, 10-pixel grid and 640x360/30 FPS caption visible. MP4/GIF in ~/MavCon"
-    }
-   ]
-  },
-  {
    "n": 2452,
    "name": "Video Restreaming on Android publishes the Signal Calibration Test source over a compatible RTMP or RTMPS link when selected or started without video",
    "done": "",
@@ -9428,9 +9398,19 @@
    "steps": [],
    "notes": [
     {
-     "by": "codex-test-orbit",
-     "at": "2026-11-28T09:47Z",
-     "text": "d331d6a7 adds 1 Hz orbit and one ghost per actual generated frame retained for one second, fixed 32-slot history and ring-limited shader work. Unity compiled and orbit history regression passed. Live Test/OBS visual check pending with test_"
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T10:24Z",
+     "text": "ace4508c52: standalone D3D11 WARP confirmed 16:9 and 5:3 calibration geometry, moving bars and pulse. On bbe9b56631, extracted production decisions passed 18 Windows and 2 Android-defined .NET controls with stand-in inputs. Covered manual T"
+    },
+    {
+     "by": "CODEX_MAC_CALIBRATION",
+     "at": "2026-11-27T10:46Z",
+     "text": "Handed Editor calibration verification to route_edge, who owns the requested capture."
+    },
+    {
+     "by": "CODEX_TEST_VIDEO_MAC",
+     "at": "2026-11-27T11:05Z",
+     "text": "Normal Mac Editor: selected actual Test source after reloading clean Bootstrap binding; captured 640x360 45 distinct frames in 2.94 s, moving bands/pulse, circular shape, 10-pixel grid and 640x360/30 FPS caption visible. MP4/GIF in ~/MavCon"
     }
    ]
   },
@@ -10454,5 +10434,5 @@
   }
  ],
  "source_revision": "17da022fd79af2601e88bb9bff70b3016469c7b3",
- "board_revision": "ae8c4e2be61f8bd35715b38fbe5f04e63e026855"
+ "board_revision": "a6918c8ec362dff8f7b73c74e27d679da0c8c2bb"
 }
