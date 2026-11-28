@@ -7695,11 +7695,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "codex-video-reasons",
-     "at": "2026-11-28T12:24Z",
-     "text": "493ce0a881: watched window/screen capture distinguishes source closed, capture failed and unsupported, without carrying failure into another selected input; old peers get generic no-frame. Mac unsupported text now names macOS/Metal, with En"
-    },
-    {
      "by": "codex-mac-sink-failure",
      "at": "2026-11-28T13:16Z",
      "text": "8658b9aa97: device camera that opens but stops producing frames now enters Blocked after 6s; standing screen-share card reports no frames and clears on fresh capture. Unity compiled; ScreenSharingProtocolTests 9/9 and screen failure-card te"
@@ -7708,22 +7703,7 @@
      "by": "codex-mac-video",
      "at": "2026-11-28T04:31Z",
      "text": "c3aa5c9a: USB takeover invalidates the old receiver; 398cecc2 and 53dad6ae: WebRTC receiver owns retry and delivery-switch shutdown. 07b95550: native receiver closes itself on delivery change; pending old session cannot present frames or ac"
-    }
-   ]
-  },
-  {
-   "n": 2546,
-   "name": "A route is one value with its cost",
-   "done": "",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
+    },
     {
      "by": "codex-mac-video",
      "at": "2026-11-28T04:14Z",
@@ -10593,5 +10573,5 @@
   }
  ],
  "source_revision": "17da022fd79af2601e88bb9bff70b3016469c7b3",
- "board_revision": "f28c783fc5d40054d3dbf3f5b6829ecf55b3fa58"
+ "board_revision": "0e1267e7ef11eba76d8520c633c3ab9992817a50"
 }
