@@ -3035,31 +3035,6 @@
    ]
   },
   {
-   "n": 2194,
-   "name": "Fat container Station",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_MAC_STATION_CONTAINER",
-     "at": "2026-11-26T22:50Z",
-     "text": "0f87ab051a groups the geographic PositionVersionHistory as Station.Geo.PositionVersionHistory and updates callers. Editor compiled cleanly; CameraPositionVersion rotation test passed in disposable identity. Other Station areas remain."
-    },
-    {
-     "by": "CODEX_STATION_SLICE",
-     "at": "2026-11-26T23:12Z",
-     "text": "Reviewed remaining Station root pieces after Geo.PositionVersionHistory. The geographic transform methods are shared by camera, MGRS and active 3D projection; moving them would touch 3D files excluded by this task. Other inspected classes a"
-    }
-   ]
-  },
-  {
    "n": 2198,
    "name": "Drone container",
    "done": "",
@@ -3421,19 +3396,19 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_SWARM_NAMING",
-     "at": "2026-11-26T22:45Z",
-     "text": "Swarm slice blocked by assembly boundary: MAV.SwarmEmulator is in Prublyda, while SwarmSimulationBackend and SwarmSimulationSystem use WarStation.Ecs.asmref. C# partial types cannot span assemblies; an explicit container/API design is neede"
-    },
-    {
-     "by": "CODEX_SELFTEST_OWNER",
-     "at": "2026-11-26T23:20Z",
-     "text": "0110ea168a moves the SQLite self-test beside WebMercator.SqliteTileStore.Native with its sqlite command and behavior retained. Unity compiled; SelfDiagnosisTests and DiagnoseRegistryTests each passed 11/11, including temporary SQLite write/"
-    },
-    {
      "by": "CODEX_MAC_MAV_FLEET",
      "at": "2026-11-27T00:08Z",
      "text": "d2a68cb17d renames MAV.StatesManager to MAV.Fleet and moves its eight partials with metadata; saved States field stays. Shared Unity compile clean; DroneVisibility 12/12 and MAVLink inbox 45/45 pass. Drone Control AGENTS still uses the form"
+    },
+    {
+     "by": "CODEX_MAC_STATION_CONTAINER",
+     "at": "2026-11-26T22:50Z",
+     "text": "0f87ab051a groups the geographic PositionVersionHistory as Station.Geo.PositionVersionHistory and updates callers. Editor compiled cleanly; CameraPositionVersion rotation test passed in disposable identity. Other Station areas remain."
+    },
+    {
+     "by": "CODEX_STATION_SLICE",
+     "at": "2026-11-26T23:12Z",
+     "text": "Reviewed remaining Station root pieces after Geo.PositionVersionHistory. The geographic transform methods are shared by camera, MGRS and active 3D projection; moving them would touch 3D files excluded by this task. Other inspected classes a"
     }
    ]
   },
@@ -11811,5 +11786,5 @@
   }
  ],
  "source_revision": "675c9451e9888d152384a98b3d038d97dd2f25a3",
- "board_revision": "b7ef1d755eb12e5ef3f09bfc64d0826d7b20990a"
+ "board_revision": "e825377fcf2bdcd1df3830666348790f53914523"
 }
