@@ -8488,14 +8488,29 @@
     {
      "t": "Verify that renaming a serialized field with FormerlySerializedAs updates the affected archive hash in a containing content build.",
      "x": false
+    },
+    {
+     "t": "Verify the Unity 3.2.2 package. Both DLLs and importers match the registry and cache. Both DLLs report Json.NET 13.0.2 from Unity source cf0a246981c33ae00121dfe58b850aefeac1aac0. Retained Windows and ",
+     "x": true
+    },
+    {
+     "t": "Compare signed upstream 13.0.4 with the Unity DLLs. Stock netstandard2.0 and netstandard1.3 lack AotHelper and use a different reflection factory. Baseline evidence is on main in 41a839b404.",
+     "x": true
+    },
+    {
+     "t": "Build a source candidate on upstream 13.0.4. The patch in 94e13c9fc6 reapplies to pristine source. Both variants build with .NET SDK 10.0.400, retain delay-signed identity and linker directives, and r",
+     "x": true
+    },
+    {
+     "t": "Add the reproducible local candidate packager in 5e6332e7dc. Two runs from the same inputs matched byte for byte. Archive readback verified matching symbol IDs, both reflection paths and JSON round-tr",
+     "x": true
+    },
+    {
+     "t": "Check whether Unity offers a newer supported package before adopting the source candidate. Verify normal Editor package resolution and Windows, Android and iOS IL2CPP Builds with existing JSON setting",
+     "x": false
     }
    ],
    "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T09:43Z",
-     "text": "Main e7eee784b4. The compiled Unity Pipeline 1.0.1 package passed 11 Unity Mono checks for its auto-tick delay-call fix, including the exact installed Editor delegate, command defaults and 150 ms background interval. The live Editor command"
-    },
     {
      "by": "GETAC_WORKER",
      "at": "2026-11-28T05:51Z",
@@ -8505,6 +8520,11 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T05:58Z",
      "text": "Pushed and verified 5efb80f896. Registry graph, direct consumers and worker trace checked. Package resolution and actual Entities Content Archive cache behavior need the normal Editor."
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T08:42Z",
+     "text": "Main 5d82429529. Unity still lists 3.2.2. UnityLinker Aggressive stripping succeeded for the stock and rebuilt 13.0.4 AOT DLLs. Unity Mono loaded each stripped DLL and passed the same synthetic typed JSON fixture. Standalone IL2CPP conversi"
     }
    ]
   },
@@ -9448,47 +9468,6 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T08:26Z",
      "text": "e7bb921b8b verifies the notice in Windows Test 892. The vendored Windows OLE adapter is maintained against the documented Win32 contract. 926dd2369b balances initialization and 161607c2e0 preserves full Unicode CF_HDROP paths and releases n"
-    }
-   ]
-  },
-  {
-   "n": 2602,
-   "name": "Qualify a current Unity Newtonsoft.Json package that preserves IL2CPP support",
-   "done": "",
-   "goal": false,
-   "under": 2533,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Verify the Unity 3.2.2 package. Both DLLs and importers match the registry and cache. Both DLLs report Json.NET 13.0.2 from Unity source cf0a246981c33ae00121dfe58b850aefeac1aac0. Retained Windows and ",
-     "x": true
-    },
-    {
-     "t": "Compare signed upstream 13.0.4 with the Unity DLLs. Stock netstandard2.0 and netstandard1.3 lack AotHelper and use a different reflection factory. Baseline evidence is on main in 41a839b404.",
-     "x": true
-    },
-    {
-     "t": "Build a source candidate on upstream 13.0.4. The patch in 94e13c9fc6 reapplies to pristine source. Both variants build with .NET SDK 10.0.400, retain delay-signed identity and linker directives, and r",
-     "x": true
-    },
-    {
-     "t": "Add the reproducible local candidate packager in 5e6332e7dc. Two runs from the same inputs matched byte for byte. Archive readback verified matching symbol IDs, both reflection paths and JSON round-tr",
-     "x": true
-    },
-    {
-     "t": "Check whether Unity offers a newer supported package before adopting the source candidate. Verify normal Editor package resolution and Windows, Android and iOS IL2CPP Builds with existing JSON setting",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T08:42Z",
-     "text": "Main 5d82429529. Unity still lists 3.2.2. UnityLinker Aggressive stripping succeeded for the stock and rebuilt 13.0.4 AOT DLLs. Unity Mono loaded each stripped DLL and passed the same synthetic typed JSON fixture. Standalone IL2CPP conversi"
     }
    ]
   },
@@ -11241,5 +11220,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "777b14ad5b2529c1e520d4d945afc76cdf8bfa18"
+ "board_revision": "ce1333d882b2c97315976fc8a9687cad01996081"
 }
