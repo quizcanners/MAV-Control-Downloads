@@ -8173,7 +8173,9 @@
    "goal": false,
    "under": 2533,
    "ticks": [
-    "2026-11-28T01:43Z"
+    "2026-11-28T01:43Z",
+    "2026-11-27T20:39Z",
+    "2026-11-27T21:37Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -8195,6 +8197,18 @@
     {
      "t": "An iOS Build containing 118093191c loads prefixed SQLite and reads and writes a scratch database.",
      "x": false
+    },
+    {
+     "t": "Verify the upstream 1.0.22 binaries, Android page alignment and Windows crypto interoperability.",
+     "x": true
+    },
+    {
+     "t": "Build and qualify the complete Unity package with its Apple and other platform artifacts.",
+     "x": true
+    },
+    {
+     "t": "Adopt it through the Unity Package Manager and run the crypto checks in containing Builds.",
+     "x": false
     }
    ],
    "notes": [
@@ -8202,6 +8216,11 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T07:46Z",
      "text": "57106459e5 verifies SQLite 3.54.1 in both Test 892 packages. The extracted Windows DLL matched the committed bytes and passed the full standalone verifier on a scratch database. NDK strip reproduced the Android APK library byte for byte, wi"
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T07:51Z",
+     "text": "Verified d3de51b6c8 on main. Windows Test 892 ships the exact 1.0.22 DLL and it initialized and reported that version in a standalone process. Android Test 892 matches the 1.0.22 tarball library after NDK strip with 16 KiB LOAD alignment an"
     }
    ]
   },
@@ -8279,42 +8298,6 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T07:28Z",
      "text": "Windows Test 892 contains win-x64 Background Chat with self-contained Microsoft.NETCore.App 10.0.15. Its embedded runtime configuration and dependency manifest agree. The containing installer was read from Drive and matched the recorded art"
-    }
-   ]
-  },
-  {
-   "n": 2562,
-   "name": "Refresh the Unity libsodium native package from 1.0.20 to 1.0.22 and verify its platform and managed binding compatibility.",
-   "done": "",
-   "goal": false,
-   "under": 2533,
-   "ticks": [
-    "2026-11-27T20:39Z",
-    "2026-11-27T21:37Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Verify the upstream 1.0.22 binaries, Android page alignment and Windows crypto interoperability.",
-     "x": true
-    },
-    {
-     "t": "Build and qualify the complete Unity package with its Apple and other platform artifacts.",
-     "x": true
-    },
-    {
-     "t": "Adopt it through the Unity Package Manager and run the crypto checks in containing Builds.",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T07:51Z",
-     "text": "Verified d3de51b6c8 on main. Windows Test 892 ships the exact 1.0.22 DLL and it initialized and reported that version in a standalone process. Android Test 892 matches the 1.0.22 tarball library after NDK strip with 16 KiB LOAD alignment an"
     }
    ]
   },
@@ -11199,5 +11182,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "d0b6fcc4535b8b5c8d6a96ece6417308dbc1f3a0"
+ "board_revision": "d2b2f352ef00f569baa25e21afd81512ea58aeb1"
 }
