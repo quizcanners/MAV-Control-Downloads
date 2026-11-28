@@ -3035,31 +3035,6 @@
    ]
   },
   {
-   "n": 2199,
-   "name": "Classes nested in a Manager",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_NESTED_OWNER",
-     "at": "2026-11-26T22:50Z",
-     "text": "b2e275437d moves TelemetryDecodeWorker beside Internet.Manager, keeping implementation unchanged and qualifying owner-held session/diagnostics types. Unity compile clean; MavLinkTelemetryInboxTests 45/45 and SafePeerDiagnosticsTests 12/12 p"
-    },
-    {
-     "by": "CODEX_LINKED_BROWSER",
-     "at": "2026-11-27T00:39Z",
-     "text": "LinkedBrowser CommandWorker already uses _owner for instance reads and Manager members are internal, with static import for Manager helpers. These files compile only on Windows; the requested Windows compilation remains unverified on this M"
-    }
-   ]
-  },
-  {
    "n": 2200,
    "name": "Inspectors",
    "done": "",
@@ -3382,19 +3357,19 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_MAC_MAV_FLEET",
-     "at": "2026-11-27T00:08Z",
-     "text": "d2a68cb17d renames MAV.StatesManager to MAV.Fleet and moves its eight partials with metadata; saved States field stays. Shared Unity compile clean; DroneVisibility 12/12 and MAVLink inbox 45/45 pass. Drone Control AGENTS still uses the form"
-    },
-    {
-     "by": "CODEX_MAC_STATION_CONTAINER",
-     "at": "2026-11-26T22:50Z",
-     "text": "0f87ab051a groups the geographic PositionVersionHistory as Station.Geo.PositionVersionHistory and updates callers. Editor compiled cleanly; CameraPositionVersion rotation test passed in disposable identity. Other Station areas remain."
-    },
-    {
      "by": "CODEX_STATION_SLICE",
      "at": "2026-11-26T23:12Z",
      "text": "Reviewed remaining Station root pieces after Geo.PositionVersionHistory. The geographic transform methods are shared by camera, MGRS and active 3D projection; moving them would touch 3D files excluded by this task. Other inspected classes a"
+    },
+    {
+     "by": "CODEX_NESTED_OWNER",
+     "at": "2026-11-26T22:50Z",
+     "text": "b2e275437d moves TelemetryDecodeWorker beside Internet.Manager, keeping implementation unchanged and qualifying owner-held session/diagnostics types. Unity compile clean; MavLinkTelemetryInboxTests 45/45 and SafePeerDiagnosticsTests 12/12 p"
+    },
+    {
+     "by": "CODEX_LINKED_BROWSER",
+     "at": "2026-11-27T00:39Z",
+     "text": "LinkedBrowser CommandWorker already uses _owner for instance reads and Manager members are internal, with static import for Manager helpers. These files compile only on Windows; the requested Windows compilation remains unverified on this M"
     }
    ]
   },
@@ -11772,5 +11747,5 @@
   }
  ],
  "source_revision": "675c9451e9888d152384a98b3d038d97dd2f25a3",
- "board_revision": "3e7e0b78bd8ecbc65a23c52a1420bfd94e0fac49"
+ "board_revision": "b3d286c7cc9aaf33835915a00eb22fc9f5aa6638"
 }
