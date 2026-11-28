@@ -7696,36 +7696,6 @@
    "notes": [
     {
      "by": "codex-mac-video",
-     "at": "2026-11-28T05:44Z",
-     "text": "ReceptionState keys only by peer, and RequestDisplayFrame actively releases the prior frame when serial, source or JPEG-only mode changes. Safe migration requires changing receive lookup, retirement, WebRTC/native session and JPEG matching "
-    },
-    {
-     "by": "codex-mac-video",
-     "at": "2026-11-28T05:53Z",
-     "text": "58d3ae42 converts named RTSP camera native codec once at receiver boundary to VideoFormat; line and H.265 publication use it. Unity 41 VideoLine, 9 RTSP input, 123/126 Restream protocol pass (3 platform skips). Mac H.265 camera -> RTSP -> O"
-    },
-    {
-     "by": "codex-local-frame",
-     "at": "2026-11-28T13:20Z",
-     "text": "dcfc60e028 retains a received WebRTC session codec as internal VideoFormat at its boundary, preserving unknown and source-change invalidation; fresh Unity compile and VideoCodecNegotiationTests 20/20 passed. Remaining: convert session signa"
-    }
-   ]
-  },
-  {
-   "n": 2544,
-   "name": "Every Blocked video reason reaches the screen",
-   "done": "",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "codex-mac-video",
      "at": "2026-11-28T05:42Z",
      "text": "Prototyped a standing per-viewer encoder-failure card and 99 VideoDiagnostics tests passed with station test identity; discarded it because FeedController.Close removes viewers during source replacement and tells them to retry, making a fee"
     },
@@ -10643,5 +10613,5 @@
   }
  ],
  "source_revision": "17da022fd79af2601e88bb9bff70b3016469c7b3",
- "board_revision": "3aafad61fee3fd74eaf5f8ff7718831a66b7bb10"
+ "board_revision": "b018d69a44fcde3c73e088290dfc87d15b5575a8"
 }
