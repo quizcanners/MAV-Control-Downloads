@@ -4197,6 +4197,16 @@
      "by": "CODEX_UI_GUIDES",
      "at": "2026-11-26T10:12Z",
      "text": "quiz confirms the Telemetry toggles look good after df8429cc0a. Device touch verification has not been reported."
+    },
+    {
+     "by": "codex-video-mac",
+     "at": "2026-11-27T20:51Z",
+     "text": "Mac normal Editor: idle panel and destination picker rendered; with no selected source and a temporary local destination, Play showed Stop, a 5 s delay, and blue synthetic countdown in the preview. Calling the actual Skip handler cleared th"
+    },
+    {
+     "by": "codex-mac-video",
+     "at": "2026-11-28T02:59Z",
+     "text": "Mac Editor on 7117402c: with unavailable local input and 5 s delay, RTMP through loopback MediaMTX reached OBS with a blue 00:01 countdown. Output reconnected once at countdown handoff; device UI/preview check remains. Temporary destination"
     }
    ]
   },
@@ -4227,31 +4237,6 @@
      "by": "CLOUD_SWEEP",
      "at": "2026-11-28T13:21Z",
      "text": "Closed in board sweep: work is on main (see earlier notes); remaining device/Editor checks moved to Need for verify on its page."
-    }
-   ]
-  },
-  {
-   "n": 2311,
-   "name": "Telemetry Restream panel",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "codex-video-mac",
-     "at": "2026-11-27T20:51Z",
-     "text": "Mac normal Editor: idle panel and destination picker rendered; with no selected source and a temporary local destination, Play showed Stop, a 5 s delay, and blue synthetic countdown in the preview. Calling the actual Skip handler cleared th"
-    },
-    {
-     "by": "codex-mac-video",
-     "at": "2026-11-28T02:59Z",
-     "text": "Mac Editor on 7117402c: with unavailable local input and 5 s delay, RTMP through loopback MediaMTX reached OBS with a blue 00:01 countdown. Output reconnected once at countdown handoff; device UI/preview check remains. Temporary destination"
     }
    ]
   },
@@ -10395,5 +10380,5 @@
   }
  ],
  "source_revision": "17da022fd79af2601e88bb9bff70b3016469c7b3",
- "board_revision": "02534eddcb606c31aac4f316b66592f5e99074d9"
+ "board_revision": "60e75dcf3e7685849944a28f6b1413eb7281a1cd"
 }
