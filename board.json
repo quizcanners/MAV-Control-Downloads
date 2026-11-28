@@ -7695,11 +7695,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "codex-mac-video",
-     "at": "2026-11-28T05:42Z",
-     "text": "Prototyped a standing per-viewer encoder-failure card and 99 VideoDiagnostics tests passed with station test identity; discarded it because FeedController.Close removes viewers during source replacement and tells them to retry, making a fee"
-    },
-    {
      "by": "codex-video-reasons",
      "at": "2026-11-28T12:24Z",
      "text": "493ce0a881: watched window/screen capture distinguishes source closed, capture failed and unsupported, without carrying failure into another selected input; old peers get generic no-frame. Mac unsupported text now names macOS/Metal, with En"
@@ -7708,22 +7703,7 @@
      "by": "codex-mac-sink-failure",
      "at": "2026-11-28T13:16Z",
      "text": "8658b9aa97: device camera that opens but stops producing frames now enters Blocked after 6s; standing screen-share card reports no frames and clears on fresh capture. Unity compiled; ScreenSharingProtocolTests 9/9 and screen failure-card te"
-    }
-   ]
-  },
-  {
-   "n": 2545,
-   "name": "Video children decide for themselves",
-   "done": "",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
+    },
     {
      "by": "codex-mac-video",
      "at": "2026-11-28T04:31Z",
@@ -10613,5 +10593,5 @@
   }
  ],
  "source_revision": "17da022fd79af2601e88bb9bff70b3016469c7b3",
- "board_revision": "b018d69a44fcde3c73e088290dfc87d15b5575a8"
+ "board_revision": "f28c783fc5d40054d3dbf3f5b6829ecf55b3fa58"
 }
