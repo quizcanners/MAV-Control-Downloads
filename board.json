@@ -6056,31 +6056,6 @@
    ]
   },
   {
-   "n": 2468,
-   "name": "Show the actual codec and pixel format per destination on Test video",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_CALIBRATION_CODEC",
-     "at": "2026-11-27T11:40Z",
-     "text": "Main 78d43a582f, f76796b4a2 and 12e839fbcc: desktop Test publications stamp codec, enforced yuv420p and output size/FPS; old relay preserves unlabeled stream. Mac packaged H264 and VP8 WHIP passed ffprobe and decoded-label checks; ordinary "
-    },
-    {
-     "by": "codex-mac-video",
-     "at": "2026-11-28T02:34Z",
-     "text": "dbdd5f71: one shared relay source fed simultaneous H.264 and VP8 publications; race-enabled test decoded each output, verified ffprobe codec/pixel format and checked its label matches its own codec better than the other. H.264 uses packaged"
-    }
-   ]
-  },
-  {
    "n": 2469,
    "name": "Android service types",
    "done": "",
@@ -9384,19 +9359,19 @@
    "steps": [],
    "notes": [
     {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-27T10:24Z",
-     "text": "ace4508c52: standalone D3D11 WARP confirmed 16:9 and 5:3 calibration geometry, moving bars and pulse. On bbe9b56631, extracted production decisions passed 18 Windows and 2 Android-defined .NET controls with stand-in inputs. Covered manual T"
-    },
-    {
-     "by": "CODEX_MAC_CALIBRATION",
-     "at": "2026-11-27T10:46Z",
-     "text": "Handed Editor calibration verification to route_edge, who owns the requested capture."
-    },
-    {
      "by": "CODEX_TEST_VIDEO_MAC",
      "at": "2026-11-27T11:05Z",
      "text": "Normal Mac Editor: selected actual Test source after reloading clean Bootstrap binding; captured 640x360 45 distinct frames in 2.94 s, moving bands/pulse, circular shape, 10-pixel grid and 640x360/30 FPS caption visible. MP4/GIF in ~/MavCon"
+    },
+    {
+     "by": "CODEX_CALIBRATION_CODEC",
+     "at": "2026-11-27T11:40Z",
+     "text": "Main 78d43a582f, f76796b4a2 and 12e839fbcc: desktop Test publications stamp codec, enforced yuv420p and output size/FPS; old relay preserves unlabeled stream. Mac packaged H264 and VP8 WHIP passed ffprobe and decoded-label checks; ordinary "
+    },
+    {
+     "by": "codex-mac-video",
+     "at": "2026-11-28T02:34Z",
+     "text": "dbdd5f71: one shared relay source fed simultaneous H.264 and VP8 publications; race-enabled test decoded each output, verified ffprobe codec/pixel format and checked its label matches its own codec better than the other. H.264 uses packaged"
     }
    ]
   },
@@ -10420,5 +10395,5 @@
   }
  ],
  "source_revision": "17da022fd79af2601e88bb9bff70b3016469c7b3",
- "board_revision": "8a2c601296db8cf5186735792007182cc7b628d6"
+ "board_revision": "02534eddcb606c31aac4f316b66592f5e99074d9"
 }
