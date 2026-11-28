@@ -2870,7 +2870,24 @@
    "parked": false,
    "flags": [],
    "held": [],
-   "steps": [],
+   "steps": [
+    {
+     "t": "Run the \"FFmpeg for video publishing\" workflow (workflow_dispatch) so CI commits ffmpeg.exe from the current recipe; TestRelayFFmpegCarriesCountdownPipes must pass there",
+     "x": false
+    },
+    {
+     "t": "Prepare-VideoRuntime.ps1 repackages mav-video-runtime.zip with the new FFmpeg and relay; new Windows Test build",
+     "x": false
+    },
+    {
+     "t": "Device: delay 00:30 on an RTMP/SRT/RTSP link with OBS as source, blue countdown then live picture on the receiver; VP8 RTSP/UDP link too",
+     "x": false
+    },
+    {
+     "t": "Editor: delay row shows Stop while restream is on and the timer reads 12m 34s; check Restream Panel.prefab layout after import",
+     "x": false
+    }
+   ],
    "notes": [
     {
      "by": "CODEX",
@@ -3627,37 +3644,6 @@
      "text": "c754097aea is in Windows/Android Test 882 (0847e67e5a). Prefab check: Status and Pre-Flight rows now 300, no 340 element left in MavLink telemetry.prefab. Editor screenshot not taken (no backdoor tap for the Telemetry tabs). Left: look at t"
     }
    ]
-  },
-  {
-   "n": 2273,
-   "name": "Restream with a start delay fails on Windows 881 (Video Restreaming",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Run the \"FFmpeg for video publishing\" workflow (workflow_dispatch) so CI commits ffmpeg.exe from the current recipe; TestRelayFFmpegCarriesCountdownPipes must pass there",
-     "x": false
-    },
-    {
-     "t": "Prepare-VideoRuntime.ps1 repackages mav-video-runtime.zip with the new FFmpeg and relay; new Windows Test build",
-     "x": false
-    },
-    {
-     "t": "Device: delay 00:30 on an RTMP/SRT/RTSP link with OBS as source, blue countdown then live picture on the receiver; VP8 RTSP/UDP link too",
-     "x": false
-    },
-    {
-     "t": "Editor: delay row shows Stop while restream is on and the timer reads 12m 34s; check Restream Panel.prefab layout after import",
-     "x": false
-    }
-   ],
-   "notes": []
   },
   {
    "n": 2275,
@@ -10717,5 +10703,5 @@
   }
  ],
  "source_revision": "17da022fd79af2601e88bb9bff70b3016469c7b3",
- "board_revision": "1bdbae410b7554407536cf6f32f9b9870a14c977"
+ "board_revision": "3e745b100215245c98eebaae5b44a14cfc8ca773"
 }
