@@ -3169,11 +3169,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_LINKED_BROWSER",
-     "at": "2026-11-27T00:39Z",
-     "text": "LinkedBrowser CommandWorker already uses _owner for instance reads and Manager members are internal, with static import for Manager helpers. These files compile only on Windows; the requested Windows compilation remains unverified on this M"
-    },
-    {
      "by": "CODEX_INSPECTOR_MOVE",
      "at": "2026-11-26T22:31Z",
      "text": "Inspected shared Settings core: owner inspectors already provide most system pages and route details; remaining Inspect_Pages is shared navigation/dispatch and includes 3D DiskMap, excluded by this task. No isolated non-3D implementation id"
@@ -3182,6 +3177,11 @@
      "by": "CODEX_MAC_BUDGET_OWNER",
      "at": "2026-11-26T22:43Z",
      "text": "Core scan: shared frame timing, admission pools and counts are cross-system. The only dedicated measured-work methods found are GroundAlignment, which this task explicitly excludes as 3D map code. HeavyUsage contains many system job names; "
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T15:28Z",
+     "text": "9458e4253e moves OfflineMapBuild to Map Editing. All seven scripts and eight Unity metadata files are byte-identical and still resolve to the Main assembly. A 35-source Unity Roslyn check passed, including the ordinary build callback, map a"
     }
    ]
   },
@@ -3392,11 +3392,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "codex-video-mac",
-     "at": "2026-11-27T21:56Z",
-     "text": "20c7db6e: Mac OBS/MediaMTX H.265 camera -> RTMP and RTSP links reached OBS with moving frames, one camera pull. RTMPS local test reached TLS but rejected the deliberately self-signed certificate; trusted-endpoint delivery remains unverified"
-    },
-    {
      "by": "codex-mac-video",
      "at": "2026-11-28T09:06Z",
      "text": "Paused for reported Test source and MavTube regressions. Local long-GOP H.265 test reached streaming; after restarting the server, a pull attempt reported DecoderError and recovered on retry, so startup evidence remains inconclusive. Resume"
@@ -3405,6 +3400,11 @@
      "by": "codex-h265-retry",
      "at": "2026-11-28T09:21Z",
      "text": "Published 7a741e2e: RTSP pull forwards pre-keyframe packets; native H.265 first frame waits while packets remain fresh, up to 60s; 10s no-packet and established-frame recovery remains. Unity focused timeout test and Go race tests pass. Mac "
+    },
+    {
+     "by": "codex-local-frame",
+     "at": "2026-11-28T14:08Z",
+     "text": "Read-only Mac audit: decoded local frames for WebRTC, native encoding, USB and Spout enter ProcessRestreamFrame with source revision when known; current remaining evidence is Windows Spout/denoise, physical USB and Android/direct or remote "
     }
    ]
   },
@@ -4538,6 +4538,11 @@
      "by": "NT68_HEAVY",
      "at": "2026-11-26T18:02Z",
      "text": "Windows 886 read-only player checks show LocalVideoFile Running/Streaming with fullscreen closed, non-interacting and idle FPS reduction enabled. FrameRateDemand=VideoFeed, limit=Full, render interval=1, reduction inactive. DevicePowerPolic"
+    },
+    {
+     "by": "codex-local-frame",
+     "at": "2026-11-28T14:09Z",
+     "text": "Released without changes to take the USB receive lifecycle audit."
     }
    ]
   },
@@ -4588,8 +4593,8 @@
     },
     {
      "by": "GETAC_WORKER",
-     "at": "2026-11-28T13:53Z",
-     "text": "Published 687a69b87e, grouping the Planet Renderer diagnostic skirt-cache harness with Map. Actual-source host passed 15,917 assertions and all eight negative controls failed as intended. Compared with PlanetProbeSkirtCacheTests, this prese"
+     "at": "2026-11-28T14:32Z",
+     "text": "444110fcc5 on main groups the terrain-water WARP harness with Cesium and moves the shared D3D11 probe byte-for-byte into Test Infrastructure. Normal hidden launch finds the installed SDK. Real HLSL and DXBC passed all five paths plus previe"
     }
    ]
   },
@@ -5147,19 +5152,19 @@
    ],
    "notes": [
     {
-     "by": "CODEX_KENILWORTH_COMPARISON",
-     "at": "2026-11-27T22:26Z",
-     "text": "75307d4ce2 makes the replay score surface growth and readback waits. The failed run grew SourceCapacity from 4,194,304 to 8,388,608 in 1.874 s (1,200 MiB across the old and new source banks), then finished three photo readbacks. The Project"
+     "by": "CODEX_STAGED_CONTROL",
+     "at": "2026-11-28T14:36Z",
+     "text": "Recovered D3D11 Editor passed isolated production staged index at crash size: 4,641,647 candidates, 3,978,554 visible; exact CPU membership and layer ordering. Includes multirow dispatch. This control excludes raster drawing and concurrent "
     },
     {
-     "by": "Codex",
-     "at": "2026-11-28T13:51Z",
-     "text": "Kenilworth normal Windows Editor exited on 2026-11-28. Last recorded sample at 15:47:35 Kyiv: 32 mapped photos, 1598499 canonical cells, zero registration rejects, ground contact error 0.0831 m. NVIDIA event 153 at 15:47:39 followed by Wind"
+     "by": "CODEX_DRAW_OFF_CONTROL",
+     "at": "2026-11-28T14:46Z",
+     "text": "16:45 Kyiv Kenilworth, disk-draw OFF, bake/index ON. 28 mapped photos, 1,546,793 cells, 3,569,930 peak indexed candidates. WER 141 names WATCHDOG-20261128-1645; 27 event rows include repeated and historical reports. No System 153 in interva"
     },
     {
-     "by": "CODEX_KENILWORTH_TRACED_PAUSE",
-     "at": "2026-11-28T13:58Z",
-     "text": "Nov 28 ordinary Kenilworth DX11 repeat with measured Planet elevation and Photo Disk trace: 44 mapped photos, 1533676 canonical cells, bake revision 39, 47.234 s sampled Pause. Completed camera stop, both 9/9 footprint queries, paint probe "
+     "by": "CODEX_PAUSE_POSES",
+     "at": "2026-11-28T14:56Z",
+     "text": "20s Kenilworth, 32 mapped. New WER 141 at 16:50, no 153, 95 readbacks after report, peak 3,806,745 candidates. Repeated rev 34 bakes each published the selected pose. All 27 editable targets continued moving during Pause, 52 links, no fixed"
     }
    ]
   },
@@ -5740,6 +5745,11 @@
      "by": "codex-ui-reference",
      "at": "2026-11-27T13:16Z",
      "text": "Published 5aea9eac with larger labels, colorful icons and current button/input examples; remaining: update native map-backed reference, verify alternate gallery, reconcile quiz-owned AGENTS guide with current SPEC. Add explicit detached bla"
+    },
+    {
+     "by": "codex-ui-samples",
+     "at": "2026-11-28T14:34Z",
+     "text": "68874bf053 refreshes the 1600x1750 native map-backed reference from the current prefab: larger labels, colorful icons, interacting/quiet states, input and action and the black/yellow selected divider. Rendered in an isolated Unity preview s"
     }
    ]
   },
@@ -5809,26 +5819,6 @@
    ]
   },
   {
-   "n": 2486,
-   "name": "Animate notification tongue folding with the shrinking card slots",
-   "done": "2026-11-27T14:06Z",
-   "goal": false,
-   "under": 410,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "codex-notification-fold",
-     "at": "2026-11-27T14:06Z",
-     "text": "Published 61b4d920: stack folds and opens as one, follows tongue while held and pauses card-size changes. Unity compiled, 13 gesture tests passed; live held-drag verified full-size card moves and returns to folded position. Phone touch chec"
-    }
-   ]
-  },
-  {
    "n": 2488,
    "name": "Encryption rekey only when something was sealed",
    "done": "",
@@ -5873,26 +5863,6 @@
      "by": "codex-notch-coverage",
      "at": "2026-11-27T14:23Z",
      "text": "Published 6ab82e42 and visually verified Search with a simulated inset; audit remaining edge-touching views and verify actual iPhone notch and orientations."
-    }
-   ]
-  },
-  {
-   "n": 2493,
-   "name": "Keep Notifications in Main and move the stack fold",
-   "done": "2026-11-27T14:26Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-27T14:26Z",
-     "text": "5cf793d2df verified on origin/main. Moved 278 lines of notification stack fold, card motion and heartbeat code to existing SharedUI. Main owns visibility, layout and acknowledgement. Windows Unity compiler replay passed, including an oversc"
     }
    ]
   },
@@ -5944,28 +5914,6 @@
     }
    ],
    "notes": []
-  },
-  {
-   "n": 2497,
-   "name": "Test video calibration renderer compiles with Main for picture and caption edits. Keep generation beside the countdown slate in existing SharedUI and keep source",
-   "done": "2026-11-27T14:36Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-27T14:36Z",
-     "text": "2297736342 verified on origin/main. The 248-line Test video calibration renderer and its original script GUID are in existing SharedUI beside RestreamCountdownSlate. The Video Restreaming Manager keeps the Test source and pause and publicat"
-    }
-   ]
   },
   {
    "n": 2498,
@@ -6023,46 +5971,6 @@
    ]
   },
   {
-   "n": 2501,
-   "name": "Use tinted blur on non-clickable notification parts and keep liquid glass on actionable controls",
-   "done": "2026-11-27T15:00Z",
-   "goal": false,
-   "under": 410,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-27T15:00Z",
-     "text": "ff0b957ac5 verified on origin/main. Passive notification bodies and the separate map erase banner now use the existing tinted-blur panel. Authored body actions and side controls keep liquid glass. The panel uses a local shader variant for t"
-    }
-   ]
-  },
-  {
-   "n": 2502,
-   "name": "NOAA GRIB2 forecast decoding compiles with Main for changes like the signed-field fix. Compile the decoder with its longitude normalization in existing MapMath so decoder edits can reuse Main C# while",
-   "done": "2026-11-27T14:44Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-27T14:44Z",
-     "text": "ba53b0b5fe verified on origin/main. The unchanged 424-line decoder and script GUID now compile in existing MapMath alongside the longitude normalization it already uses. Main still owns Weather providers, requests and cache. Windows Unity c"
-    }
-   ]
-  },
-  {
    "n": 2504,
    "name": "Reveal new notifications from above while the stack moves down",
    "done": "2026-11-28T13:21Z",
@@ -6107,26 +6015,6 @@
    "notes": []
   },
   {
-   "n": 2506,
-   "name": "Completion plaque animation and result timing compile with Main. Move the plaque and its concrete state to existing SharedUI",
-   "done": "2026-11-27T15:20Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-27T15:20Z",
-     "text": "c322502e27 verified on origin/main. The 456-line completion plaque and concrete state now compile in existing SharedUI. Main retains clipboard registration and supplies the owner and language. Both script GUIDs and the prefab binding are in"
-    }
-   ]
-  },
-  {
    "n": 2507,
    "name": "Completion plaque in SharedUI on c322502e27 or later (Tests SPEC",
    "done": "",
@@ -6163,26 +6051,6 @@
      "by": "codex-classifier-mask",
      "at": "2026-11-27T15:30Z",
      "text": "Published 0d6d801f. After checkout update, Unity compiled; Offline \u2192 Map showed an active Generate Mask button, status model=ade20k, and GPU inference produced (1,150,128,128). Actual persisted mask bake and accuracy remain unverified; use "
-    }
-   ]
-  },
-  {
-   "n": 2509,
-   "name": "Safely update Mac shared checkout to main while preserving in-progress local work",
-   "done": "2026-11-27T15:27Z",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "codex-checkout-reconcile",
-     "at": "2026-11-27T15:27Z",
-     "text": "Fast-forwarded shared Mac checkout to 0d6d801f with dirty work preserved and three-way conflicts reconciled; original files and index diff backed up under ~/MavControlEvidence/checkout-reconcile-20261127-172146. Editor refresh and classifie"
     }
    ]
   },
@@ -6502,11 +6370,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "codex-rtsp-camera-list",
-     "at": "2026-11-27T16:32Z",
-     "text": "Published d05c9d03: named RTSP cameras in Video Sources and Settings, persistent selection, Windows existing native pull and new scoped universal macOS VideoToolbox receiver. Final Unity tests: input 8/8, UI 3/3; OBS via loopback RTSP displ"
-    },
-    {
      "by": "codex-video-mac",
      "at": "2026-11-27T21:30Z",
      "text": "20d10fa3 adds retry by selecting the failed camera row, with Stop still available; Settings also offers retry. Mac normal Editor/OBS: 3 unavailable-source attempts reached Stopped; after OBS appeared, selecting that same camera succeeded on"
@@ -6515,6 +6378,11 @@
      "by": "codex-mac-video",
      "at": "2026-11-27T23:52Z",
      "text": "Mac normal Unity Editor at 0325c5e2: generated 1280x720 H.265 RTSP camera input was selected via named source, receiver advanced frames 644 to 772; its RTSP H.265 stream-copy Restream reached OBS Playing and two captures showed moving calib"
+    },
+    {
+     "by": "codex-test-obs",
+     "at": "2026-11-28T15:30Z",
+     "text": "bb6dbe53a2: Mac normal Editor Computer Use created a named RTSP camera, pasted its URL, selected it, received the live feed, and verified Stop after the Test/RTSP priority fix. A separate callback-based live check switched two distinct RTSP"
     }
    ]
   },
@@ -6792,6 +6660,11 @@
      "by": "codex-mac-video",
      "at": "2026-11-28T03:33Z",
      "text": "Mac 8ea3e048: stronger fixture alternated fine-detail amplitude on successive numbered frames. OBS displayed the RTMP->RTSP stream, and Unity reported the Restream Temporal Detail history active with output. Exact current+previous ID matche"
+    },
+    {
+     "by": "codex-test-obs",
+     "at": "2026-11-28T14:34Z",
+     "text": "a85ece5c07: GPU pixel regression, Unity 5/5. Mac 5 s H.264 RTSP: OBS displayed moving fixture off/on. Live WebRTC encoder staging selected raw texture when disabled; with Detail enabled it selected the exact processed texture, source gen 1 "
     }
    ]
   },
@@ -7068,11 +6941,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "codex-test-obs",
-     "at": "2026-11-28T12:20Z",
-     "text": "Normal Mac Editor: a real app-screen frame and captured camera pose reached an enabled LocalVideo projector, with active projection decal, bound video texture and PROJECTION_DJI shader. Actual map visual remains inconclusive because this li"
-    },
-    {
      "by": "codex-local-frame",
      "at": "2026-11-28T13:11Z",
      "text": "Reviewed capture command ownership: selected source identity and requested playback are separate dimensions; a same-frame source choice plus pause can both be valid. A single latest-command-wins enum would drop the choice, so do not collaps"
@@ -7081,6 +6949,11 @@
      "by": "codex-video-ownership",
      "at": "2026-11-28T13:47Z",
      "text": "6c219232a0 moved named peer-stop receive cleanup to the receiver update; stale callbacks are rejected immediately and Unity VideoCodecNegotiationTests passed 22/22. Two-device checks and the broader unified Source, demand, route and sink wo"
+    },
+    {
+     "by": "codex-video-demand",
+     "at": "2026-11-28T14:13Z",
+     "text": "e67db41759 matches peer-drone demand to its current advertised serial and video kind; a stale or withdrawn peer source no longer keeps the replacement active. Fresh Unity compile and focused identity/withdrawal/expired-lease test passed 1/1"
     }
    ]
   },
@@ -7697,6 +7570,11 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T01:57Z",
      "text": "98b25a65bc loads the real UI Configurations asset on the inactive Chat Composer test station. The failing picker now has both the symbolic icons and the button palettes used by Station.UI.MergedControlHost. Both fixture versions passed the "
+    },
+    {
+     "by": "codex-local-frame",
+     "at": "2026-11-28T14:34Z",
+     "text": "Inspected candidate tests; no changes or live rerun before reprioritization to Restream destination."
     }
    ]
   },
@@ -9254,7 +9132,16 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [],
+   "held": [
+    {
+     "who": "GETAC_WORKER",
+     "since": "2026-11-28T15:31Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
    "steps": [],
    "notes": []
   },
@@ -9312,9 +9199,14 @@
    "steps": [],
    "notes": [
     {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T14:21Z",
+     "text": "a17e80aaa3 on main removes Geometry Convergence loose JSON discovery, import and fallback. Actual vault and scan passed on Windows SQLite; restoring fallback failed as intended. Geometry fixtures compiled against cached Main, omitting an un"
+    },
+    {
      "by": "cloud-thread",
-     "at": "2026-11-28T13:13Z",
-     "text": "Web Mercator tile store: its file importer was already gone from the code (no loose tile file is read). Dropped what was left of it: Lifecycle.Converting, Issue.ImportRead, Conversion.NotStarted/Importing; SPEC states the rule. Left: payloa"
+     "at": "2026-11-28T14:58Z",
+     "text": "Web Mercator tile store: rows waiting for an import (tombstone=2) dropped on main 10bda1c9 (quiz approved): RowState.Pending, ReadResult.NotImported, OutboundRow.Pending, owed-import settle and counter, pending presence index and cursor str"
     }
    ]
   },
@@ -9611,6 +9503,11 @@
      "by": "codex-local-frame",
      "at": "2026-11-28T13:40Z",
      "text": "4562116150 records peer video and direct-route state boundaries. Added 2674 (feed status query; high), 2675 (viewer tier hold), 2676 (routing question/tunnel). WebRTC first/last media, metadata, negotiation and stats times are independent e"
+    },
+    {
+     "by": "codex-video-states",
+     "at": "2026-11-28T14:22Z",
+     "text": "Surveyed JPEG receive and local OBS preview: 2682 owns explicit JPEG request lifecycle; OBS preview already owns an explicit state and its transport retry clock is separate. USB lifecycle and directional errors were recorded as 2683/2684 an"
     }
    ]
   },
@@ -9781,36 +9678,27 @@
   {
    "n": 2677,
    "name": "Update position personnel from Peers on positions and keep reserve visible",
-   "done": "",
+   "done": "2026-11-28T13:59Z",
    "goal": false,
    "under": 0,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "codex-test-obs",
-     "since": "2026-11-28T13:57Z",
-     "noted": "2026-11-28T13:57Z",
-     "progress": 25,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "codex-test-obs",
-     "at": "2026-11-28T13:57Z",
-     "text": "Pushed through 6868660fb8; focused Unity tests 7/7 pass. Live visual check remains: disposable identity Play refused with SharedDiagnosticPort (Editor 17693, runtime 17692); needs separate Editor launch with distinct diagnostic ports. No us"
+     "at": "2026-11-28T13:59Z",
+     "text": "Pushed through 6868660fb8. Focused Unity tests 7/7 passed. Normal Editor visual check of existing selected Position in KSP showed active and reserve personnel, coding in parentheses; no personnel or radio records edited. Play stopped and Ed"
     }
    ]
   },
   {
    "n": 2678,
    "name": "Keep Deep State and Ukrainian borders in a stable",
-   "done": "",
+   "done": "2026-11-28T14:04Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -9822,33 +9710,30 @@
    "notes": [
     {
      "by": "codex-local-frame",
-     "at": "2026-11-28T13:55Z",
-     "text": "4390cc7260 sets Deep State to 2501 and Ukraine Borders to 2502; Unity AssetDatabase confirms the loaded queues and shared shader, and individual/combined renderers use those shared materials. Remaining: visually verify an actual overlap on "
+     "at": "2026-11-28T14:04Z",
+     "text": "4390cc7260 assigns Deep State queue 2501 and Ukraine Borders 2502. Normal Mac Editor: real cached geometry crossing near 50.1770, 37.6408 showed yellow border above red Deep State both settled (both ribbon batches active) and immediately af"
     }
    ]
   },
   {
    "n": 2679,
    "name": "Windows DevMode Tasks board publication flashes a console for detached Git child processes. Keep the board publisher silent while preserving detached mirroring.",
-   "done": "",
+   "done": "2026-11-28T14:04Z",
    "goal": false,
    "under": 2673,
    "ticks": [],
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC_WORKER",
-     "since": "2026-11-28T13:58Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T14:04Z",
+     "text": "Published 63acbfa239 on main. Windows Git launches now use CREATE_NO_WINDOW and the detached board publisher is unchanged. A Win32 runtime probe found no console handle, four focused board checks passed, and the live claim worked through hi"
+    }
+   ]
   },
   {
    "n": 2680,
@@ -9860,6 +9745,326 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2681,
+   "name": "Audit USB video receive intent",
+   "done": "2026-11-28T14:13Z",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "codex-local-frame",
+     "at": "2026-11-28T14:13Z",
+     "text": "9cb7acea09 specifies USB receive activity independent of source identity, request, freshness and issue. Audit created 2683 for explicit receive activity and 2684 for independent send/receive diagnostics. No runtime changes; physical-device "
+    }
+   ]
+  },
+  {
+   "n": 2682,
+   "name": "Make JPEG preview request lifecycle explicit on each video receive source",
+   "done": "2026-11-28T14:28Z",
+   "goal": false,
+   "under": 431,
+   "ticks": [
+    "2026-11-28T14:27Z",
+    "2026-11-28T14:27Z"
+   ],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Represent idle, awaiting reply and retry delay while preserving separate source-unavailable hold and clocks",
+     "x": true
+    },
+    {
+     "t": "Verify first request, stale answer, retry, source change and USB takeover behavior in Unity",
+     "x": true
+    }
+   ],
+   "notes": [
+    {
+     "by": "codex-jpeg-state",
+     "at": "2026-11-28T14:28Z",
+     "text": "02b355b13c: receive source owns Idle/AwaitingReply/RetryDelay transitions; unavailable-reason hold remains independent. Fresh Unity compile, JpegResponseAdmissionTests 12/12 and VideoCodecNegotiationTests 22/22 passed, including timeout, st"
+    }
+   ]
+  },
+  {
+   "n": 2683,
+   "name": "USB video receive",
+   "done": "",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "codex-usb-lifecycle",
+     "at": "2026-11-28T14:22Z",
+     "text": "737edff6e5: explicit Idle, WaitingForFirstFrame, Receiving and TimedOut activity; source, request, connection, freshness and receive issue stay separate. Shared Mac Unity compile passed; DirectUsbVideoTests 10/10 cover lifecycle, stale toke"
+    }
+   ]
+  },
+  {
+   "n": 2684,
+   "name": "USB video diagnostics",
+   "done": "",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "codex-local-frame",
+     "at": "2026-11-28T14:22Z",
+     "text": "737edff6e5 keeps receive/send USB issues on their own observations and gives receive an explicit activity. Unity compiled; DirectUsb 10/10, receive failure 3/3, VideoDiagnostics 98/98 passed. Remaining: verify simultaneous send/receive fail"
+    }
+   ]
+  },
+  {
+   "n": 2685,
+   "name": "Prevent Restream destination name lookup from breaking notification updates when saved link cache changes",
+   "done": "2026-11-28T14:27Z",
+   "goal": false,
+   "under": 410,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "codex-local-frame",
+     "at": "2026-11-28T14:27Z",
+     "text": "f5e50dc72c refreshes Restream labels when list identity, count or language changes even without a revision. Unity compiled and the targeted growth/replacement regression passed. In normal Play the notification owner listed its cards and the"
+    }
+   ]
+  },
+  {
+   "n": 2686,
+   "name": "Restream destination row",
+   "done": "",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "codex-local-frame",
+     "at": "2026-11-28T15:30Z",
+     "text": "Published bb6dbe53a2. Unity compiled; VideoRestreamProtocolTests 126 passed, 3 platform skips; RtspCameraInputTests 12 passed. Live RTSP source Play/Stop and name picker passed. Remaining: verify switching a real running Restream destinatio"
+    }
+   ]
+  },
+  {
+   "n": 2687,
+   "name": "Place RTSP at bottom of Video Sources with play",
+   "done": "",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "codex-video-sources-rtsp",
+     "since": "2026-11-28T14:35Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 3
+    }
+   ],
+   "steps": [
+    {
+     "t": "Keep RTSP below other source choices and never block them",
+     "x": false
+    },
+    {
+     "t": "Provide play or stop and name selector with list editing",
+     "x": false
+    },
+    {
+     "t": "Verify source choice and panel behavior",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 2688,
+   "name": "Allow explicit video source switches while aircraft video is present",
+   "done": "2026-11-28T14:40Z",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [
+    {
+     "t": "Keep automatic aircraft priority without blocking explicit file, screen or window choices",
+     "x": false
+    },
+    {
+     "t": "Verify direct switching and retained aircraft telemetry in focused Unity checks",
+     "x": false
+    }
+   ],
+   "notes": [
+    {
+     "by": "codex-video-priority",
+     "at": "2026-11-28T14:40Z",
+     "text": "Superseded by quiz clarification: automatic DJI/aircraft video keeps priority over all choices, including Test. No code changed for this task; source switching among other inputs continues under the RTSP source rework."
+    }
+   ]
+  },
+  {
+   "n": 2689,
+   "name": "Keep automatic aircraft video above explicit Test and other inputs",
+   "done": "",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "codex-aircraft-priority",
+     "since": "2026-11-28T14:41Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 2
+    }
+   ],
+   "steps": [
+    {
+     "t": "Make broadcast source and telemetry agree that available DJI or Autel video takes priority over Test and RTSP",
+     "x": false
+    },
+    {
+     "t": "Verify priority and recovery when aircraft video is absent",
+     "x": false
+    }
+   ],
+   "notes": []
+  },
+  {
+   "n": 2690,
+   "name": "Elements mask bake shows no visible effect",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "codex-elements-visible",
+     "since": "2026-11-28T15:20Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": [
+    {
+     "by": "codex-elements-visible",
+     "at": "2026-11-28T15:19Z",
+     "text": "Read-only Mac inspection: normal identity PlanetMasks chunks last edited 10:16 UTC; Editor restarted 14:58 UTC and current/previous logs do not record successful Generate Mask. Source trace reaches MergeElements/upload and shared Elements s"
+    }
+   ]
+  },
+  {
+   "n": 2691,
+   "name": "Install and verify purchased Hot Reload Unity asset",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "codex-local-frame",
+     "since": "2026-11-28T15:31Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2692,
+   "name": "Preserve soft building mask edges in Planet raised and flat-top rendering",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "codex-parallax-shader",
+     "since": "2026-11-28T15:35Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2693,
+   "name": "x",
+   "done": "",
+   "goal": false,
+   "under": 2673,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [
+    "vague"
+   ],
    "held": [],
    "steps": [],
    "notes": []
@@ -9877,10 +10082,6 @@
   {
    "screen": "Video",
    "since": "2026-11-22T06:34Z"
-  },
-  {
-   "screen": "Chat/Routes",
-   "since": "2026-11-21T13:38Z"
   },
   {
    "screen": "LISTS Left",
@@ -10035,6 +10236,6 @@
    "since": "2026-11-28T13:35Z"
   }
  ],
- "source_revision": "4390cc72603d7ca5929cf91d51dbf49833c6ecf7",
- "board_revision": "2b55481dc4d5b20807adc52fd21f9342335c89b8"
+ "source_revision": "db818c3353216e0c92983d9160e58c8b0761d25b",
+ "board_revision": "b226a606bf1a3351e7a013aaa8dc1384bea665cb"
 }
