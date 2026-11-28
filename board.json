@@ -7695,35 +7695,10 @@
    "steps": [],
    "notes": [
     {
-     "by": "codex-video-mac",
-     "at": "2026-11-27T20:28Z",
-     "text": "Current policy folds per-drone display, processing and receive demands, then pending responses, USB, WebRTC, direct-H.264 and peer feeds. A replacement needs source-owned keyed leases written at each producer and expiry/owner teardown, incl"
-    },
-    {
-     "by": "codex-mac-video",
-     "at": "2026-11-28T05:43Z",
-     "text": "Current RecordsController.GetRecordFor covers only the active Local and MAVLink RTSP records; DJI, Autel and received peer video still have no SourceRecord. Moving only their display gates into those two records would drop demand or conflat"
-    },
-    {
      "by": "codex-mac-video",
      "at": "2026-11-28T05:44Z",
      "text": "ReceptionState keys only by peer, and RequestDisplayFrame actively releases the prior frame when serial, source or JPEG-only mode changes. Safe migration requires changing receive lookup, retirement, WebRTC/native session and JPEG matching "
-    }
-   ]
-  },
-  {
-   "n": 2543,
-   "name": "One video format type in the app",
-   "done": "",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
+    },
     {
      "by": "codex-mac-video",
      "at": "2026-11-28T05:53Z",
@@ -10668,5 +10643,5 @@
   }
  ],
  "source_revision": "17da022fd79af2601e88bb9bff70b3016469c7b3",
- "board_revision": "0bbcb328d8dd48e14f606f5fb97d75238dec5796"
+ "board_revision": "3aafad61fee3fd74eaf5f8ff7718831a66b7bb10"
 }
