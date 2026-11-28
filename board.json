@@ -8237,14 +8237,21 @@
     {
      "t": "Exercise GeoTIFF import and the Windows Raspberry Pi Installer in containing Builds.",
      "x": false
+    },
+    {
+     "t": "Verify the Unity-supplied version and the methods required by TiffLibrary, JpegLibrary and Collections.",
+     "x": true
+    },
+    {
+     "t": "Verify GeoTIFF host decoding and Windows AOT linking, then remove the vendored package and restore entry.",
+     "x": true
+    },
+    {
+     "t": "Verify GeoTIFF import in containing Windows and Android Builds.",
+     "x": false
     }
    ],
    "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T07:51Z",
-     "text": "Verified d3de51b6c8 on main. Windows Test 892 ships the exact 1.0.22 DLL and it initialized and reported that version in a standalone process. Android Test 892 matches the 1.0.22 tarball library after NDK strip with 16 KiB LOAD alignment an"
-    },
     {
      "by": "GETAC_WORKER",
      "at": "2026-11-28T07:23Z",
@@ -8254,6 +8261,11 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T07:56Z",
      "text": "Verified cb4051fe1c on main. Windows and Android Test 892 omit Microsoft.Bcl.AsyncInterfaces from their IL2CPP assembly tables. Windows retains SSH.NET 2026.0.1.1 without a retained reference to that forwarder. Existing standalone decode an"
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T07:57Z",
+     "text": "Verified cb4051fe1c on main. Both Test 892 IL2CPP tables retain one Unsafe assembly identity 6.0.0.0 and show TiffLibrary, JpegLibrary and Unity.Collections referencing it. The old vendored package and restore entry are absent from the buil"
     }
    ]
   },
@@ -8919,39 +8931,6 @@
      "by": "codex-mac-video",
      "at": "2026-11-28T03:12Z",
      "text": "a5ebd97b: unsupported platforms verify the actual Unavailable observation replaces the old Ready cache; supported platforms retain the exception/fail-closed check. Mac normal Unity compiled and VideoDiagnosticsTests passed 96/96."
-    }
-   ]
-  },
-  {
-   "n": 2585,
-   "name": "Use the Unsafe library shipped with Unity for GeoTIFF and Collections",
-   "done": "",
-   "goal": false,
-   "under": 2533,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Verify the Unity-supplied version and the methods required by TiffLibrary, JpegLibrary and Collections.",
-     "x": true
-    },
-    {
-     "t": "Verify GeoTIFF host decoding and Windows AOT linking, then remove the vendored package and restore entry.",
-     "x": true
-    },
-    {
-     "t": "Verify GeoTIFF import in containing Windows and Android Builds.",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T07:57Z",
-     "text": "Verified cb4051fe1c on main. Both Test 892 IL2CPP tables retain one Unsafe assembly identity 6.0.0.0 and show TiffLibrary, JpegLibrary and Unity.Collections referencing it. The old vendored package and restore entry are absent from the buil"
     }
    ]
   },
@@ -11145,5 +11124,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "93a0e9ae811836fd8e61488be929df547dd1c3f7"
+ "board_revision": "a41dba9c477a8427d830680fd3e9339f9f3065f9"
 }
