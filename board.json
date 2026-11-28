@@ -2622,18 +2622,18 @@
    "notes": [
     {
      "by": "ROG_FABLE",
-     "at": "2026-11-23T18:25Z",
-     "text": "7bfcfb848d: Save Game waited only 0.5 s without input, so a pause between drags let the full root serialization run mid-pan; it now waits 5 s like the idle file owners (pause, exit and explicit Save unchanged). New rows under Save Game: Pla"
-    },
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-23T19:07Z",
-     "text": "449ef912bd: Bake gates now has rows Written tiles (beneath it Index pages, Load tile records, Finish record write, Complete incoming tiles, Adopt written tiles, Start incoming tiles, Save records, Store work), Coarser rebuild, Bundled map r"
-    },
-    {
-     "by": "ROG_FABLE",
      "at": "2026-11-23T19:54Z",
      "text": "Analysis only, no code. Largest owner on the Lenovo: our replies' encode+seal+send on the main thread = HashReply 134 ms (304 flushes, ~0.44 ms per 8-hash message) + ReplySend 94 ms (full batches flushed inside the immediate reply) = ~228 m"
+    },
+    {
+     "by": "ROG_FABLE_CODEX",
+     "at": "2026-11-23T23:18Z",
+     "text": "Rog Windows Editor passed 59 OnlineRasterSchedulingTests on 55877ee7 (run c3123593-910d-4c4e-8e71-ebb700d6b3ec). Main e12627f1 documents the write turn. Retry b115cb92 records a stale Editor EdgeSides layout and no APK. Rog Prublyda.dll has"
+    },
+    {
+     "by": "CODEX",
+     "at": "2026-11-24T04:48Z",
+     "text": "Lenovo Dev 878 after initial low-space write recovery: with Online Raster inactive the peer queue grew to 2,672 while batches were admitted. Later it fell from 2,368 to 1,296; minimum write admission closed again and ended 23.63 MB below ma"
     }
    ]
   },
@@ -2654,31 +2654,6 @@
      "by": "CODEX",
      "at": "2026-11-24T00:55Z",
      "text": "Lenovo Dev 878 b115cb9220 verified real menu taps and a single-finger pan of 1,325.1 m with the original view restored. Dev 878 53a5812f27 repeated the InputUpdateType.None startup exception and still rendered the map with one PID across 17"
-    }
-   ]
-  },
-  {
-   "n": 2164,
-   "name": "Lenovo Android peer tiles must save while Online Raster is producing streamed parents. Dev 878 grew from 557 to 2",
-   "done": "",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE_CODEX",
-     "at": "2026-11-23T23:18Z",
-     "text": "Rog Windows Editor passed 59 OnlineRasterSchedulingTests on 55877ee7 (run c3123593-910d-4c4e-8e71-ebb700d6b3ec). Main e12627f1 documents the write turn. Retry b115cb92 records a stale Editor EdgeSides layout and no APK. Rog Prublyda.dll has"
-    },
-    {
-     "by": "CODEX",
-     "at": "2026-11-24T04:48Z",
-     "text": "Lenovo Dev 878 after initial low-space write recovery: with Online Raster inactive the peer queue grew to 2,672 while batches were admitted. Later it fell from 2,368 to 1,296; minimum write admission closed again and ended 23.63 MB below ma"
     }
    ]
   },
@@ -10204,5 +10179,5 @@
   }
  ],
  "source_revision": "17da022fd79af2601e88bb9bff70b3016469c7b3",
- "board_revision": "5ee547aab55b906af503dd2ab7715338aedda602"
+ "board_revision": "ac48c969effa53f9fc621cba9ceccc01ec60108e"
 }
