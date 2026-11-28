@@ -4283,19 +4283,19 @@
    "steps": [],
    "notes": [
     {
-     "by": "codex-mac-video",
-     "at": "2026-11-28T05:46Z",
-     "text": "Mac normal Editor with test-built relay and full FFmpeg 9: local H.264 file -> 5 s delay -> WHIP -> loopback MediaMTX -> RTSP OBS. WHIP returned 201, relay reported Streaming/AppleVideoToolbox, OBS showed source-present countdown and moving"
-    },
-    {
-     "by": "codex-mac-video",
-     "at": "2026-11-28T05:37Z",
-     "text": "3bc1328b adds a race-tested real held child-probe case: the watchdog cancels and reaps the blocked process, then a fresh encoder probe succeeds without a poisoned cache. Timeout is simulated by aging the publication clock; not a reproductio"
-    },
-    {
      "by": "codex-test-obs",
      "at": "2026-11-28T12:32Z",
      "text": "Normal Mac Editor: custom H.264 RTSP 720p/15fps/1Mbps with a real 1280x720 local video and Synthetic drone streamed to OBS with Apple VideoToolbox; Automatic streamed with StreamCopy. Two further custom starts after stopping the relay also "
+    },
+    {
+     "by": "CODEX_RESTREAM_STALL",
+     "at": "2026-11-26T15:05Z",
+     "text": "Local OBS countdown and live H.264 work after 0b6f77fc1d; late reader decoded in 1.72 s. The external RTMPS stall remains unverified: its original saved link disappeared during Editor test setup and no matching checkpoint was recoverable. A"
+    },
+    {
+     "by": "CODEX_MAC_FFMPEG_TEST",
+     "at": "2026-11-27T00:46Z",
+     "text": "Mac native relay suite with packaged publisher and separate fixture FFmpeg passed local RTMP listener and H.264 output checks (18cd4595bd; 345 passed, 7 skipped overall). These local checks do not reproduce or clear the original external RT"
     }
    ]
   },
@@ -4843,31 +4843,6 @@
    "held": [],
    "steps": [],
    "notes": []
-  },
-  {
-   "n": 2357,
-   "name": "Investigate transient RTMPS Output stalled when publishing a local video on Mac",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_RESTREAM_STALL",
-     "at": "2026-11-26T15:05Z",
-     "text": "Local OBS countdown and live H.264 work after 0b6f77fc1d; late reader decoded in 1.72 s. The external RTMPS stall remains unverified: its original saved link disappeared during Editor test setup and no matching checkpoint was recoverable. A"
-    },
-    {
-     "by": "CODEX_MAC_FFMPEG_TEST",
-     "at": "2026-11-27T00:46Z",
-     "text": "Mac native relay suite with packaged publisher and separate fixture FFmpeg passed local RTMP listener and H.264 output checks (18cd4595bd; 345 passed, 7 skipped overall). These local checks do not reproduce or clear the original external RT"
-    }
-   ]
   },
   {
    "n": 2359,
@@ -10786,5 +10761,5 @@
   }
  ],
  "source_revision": "17da022fd79af2601e88bb9bff70b3016469c7b3",
- "board_revision": "a4092bba79e795f07dab961133ba98417421bfbf"
+ "board_revision": "18c6fea606c161e19f35889c7db9f595a3642b98"
 }
