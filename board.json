@@ -8508,14 +8508,21 @@
     {
      "t": "Check whether Unity offers a newer supported package before adopting the source candidate. Verify normal Editor package resolution and Windows, Android and iOS IL2CPP Builds with existing JSON setting",
      "x": false
+    },
+    {
+     "t": "Verify Unity support status and whether Render Streaming removes the deprecated dependency",
+     "x": true
+    },
+    {
+     "t": "Identify the Unity WebRTC binary in retained Builds and document the selected package",
+     "x": true
+    },
+    {
+     "t": "Qualify a supported replacement in containing Builds",
+     "x": false
     }
    ],
    "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T05:51Z",
-     "text": "Pushed and verified 4876befc44. The registry, static native ABI and standalone compile checks passed. Normal Editor resolution, import and graph visualizer acceptance remain open."
-    },
     {
      "by": "GETAC_WORKER",
      "at": "2026-11-28T05:58Z",
@@ -8525,6 +8532,11 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T08:42Z",
      "text": "Main 5d82429529. Unity still lists 3.2.2. UnityLinker Aggressive stripping succeeded for the stock and rebuilt 13.0.4 AOT DLLs. Unity Mono loaded each stripped DLL and passed the same synthetic typed JSON fixture. Standalone IL2CPP conversi"
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T09:54Z",
+     "text": "Main 428e614f7c. Test 892 Windows and Android WebRTC match the pinned 3.0.0-mav-editor.2 package (Android after NDK stripping). Both Windows dumps match the same pinned WebRTC PE image fingerprint. This identifies the library in the 892 sta"
     }
    ]
   },
@@ -9097,39 +9109,6 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T08:51Z",
      "text": "Main 9aef7c6a14. The real GLES timer helper built with both the default pin and an explicit Unity 6000.6.10f1 path using installed NDK r27c. Both outputs matched the tracked LFS binary. NDK-stripped output matched the Android Test 892 APK. "
-    }
-   ]
-  },
-  {
-   "n": 2590,
-   "name": "MAV Control Builds include deprecated Unity WebRTC 3.0.0. Verify the packaged dependency and qualify a supported replacement.",
-   "done": "",
-   "goal": false,
-   "under": 2533,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Verify Unity support status and whether Render Streaming removes the deprecated dependency",
-     "x": true
-    },
-    {
-     "t": "Identify the Unity WebRTC binary in retained Builds and document the selected package",
-     "x": true
-    },
-    {
-     "t": "Qualify a supported replacement in containing Builds",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T09:54Z",
-     "text": "Main 428e614f7c. Test 892 Windows and Android WebRTC match the pinned 3.0.0-mav-editor.2 package (Android after NDK stripping). Both Windows dumps match the same pinned WebRTC PE image fingerprint. This identifies the library in the 892 sta"
     }
    ]
   },
@@ -11220,5 +11199,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "ce1333d882b2c97315976fc8a9687cad01996081"
+ "board_revision": "d0b6fcc4535b8b5c8d6a96ece6417308dbc1f3a0"
 }
