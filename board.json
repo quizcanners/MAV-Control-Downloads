@@ -4655,11 +4655,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_FULLSCREEN_CONTROLS",
-     "at": "2026-11-26T12:59Z",
-     "text": "Fullscreen controls published 596964bfe4: processing starts folded, hides during painting; Paint uses icon and right/bottom joins. Editor compiled before final reopen-reset guard and prefab saved. Verify rendering and interactions in normal"
-    },
-    {
      "by": "CODEX",
      "at": "2026-11-26T15:18Z",
      "text": "d2c82ca47c on main moves the expanded processing column and handle with the finger, then finishes offscreen or returns on a cancelled or short swipe. The managed and Edit Mode test assemblies compiled without interrupting the active Unity P"
@@ -4668,24 +4663,7 @@
      "by": "NT68_HEAVY",
      "at": "2026-11-26T17:26Z",
      "text": "Windows Unity 6000.6.10f1 D3D11 passed FullscreenProcessingColumnTracksAnInProgressDismissalSwipe on the 8491429cae source plus the pixel-line test. The real prefab drag follows an in-progress reversal, then completes the fold and resets it"
-    }
-   ]
-  },
-  {
-   "n": 2344,
-   "name": "Verify stylus painting on fullscreen video and Pilot view on a stylus device",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
+    },
     {
      "by": "CODEX_STYLUS_VIDEO",
      "at": "2026-11-26T13:00Z",
@@ -10344,5 +10322,5 @@
   }
  ],
  "source_revision": "17da022fd79af2601e88bb9bff70b3016469c7b3",
- "board_revision": "25624946c218cce7ebebc559bfe55cefca5cb22c"
+ "board_revision": "5ec08399e470cf623817959736d38a4012014aee"
 }
