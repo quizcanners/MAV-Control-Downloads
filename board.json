@@ -2890,11 +2890,6 @@
    ],
    "notes": [
     {
-     "by": "CODEX",
-     "at": "2026-11-26T12:43Z",
-     "text": "Installed NT68 build 885 reproduced the relay InvalidOutput history with generic 0x80131500. Main 09b0965b39 corrects the mismatch between the native subscriber RTP write measurement and Unity validation. Bad measurements and stale stats ar"
-    },
-    {
      "by": "NT68_HEAVY",
      "at": "2026-11-26T17:50Z",
      "text": "Installed Windows 886 startup failure was narrowed to IL2CPP stripping (2383). Re-linked 886 with current 1ca035f6cd preservation and decoded actual bundled protocol-6 ready JSON plus nested diagnostics. The installed 886 is still the origi"
@@ -2903,6 +2898,11 @@
      "by": "NT68_888_QA",
      "at": "2026-11-26T18:44Z",
      "text": "Windows 888 local production player 4241e50671: through Telemetry UI loaded synthetic MP4, entered 00:45, started loopback RTMP H.264. Receiver decoded countdown (00:12 plus logo) and then 57.003 s of live-source color bars at 640x360. Loca"
+    },
+    {
+     "by": "codex-test-obs",
+     "at": "2026-11-28T09:58Z",
+     "text": "Published c95cb677. Normal Editor verified Synthetic selected: preview opens Pilot with Test, top-right processing toggle opens Test fullscreen and returns to Pilot. Shared selected video source remains independent from drone telemetry."
     }
    ]
   },
@@ -9619,26 +9619,6 @@
    ]
   },
   {
-   "n": 2629,
-   "name": "Restore Pilot view for Synthetic drone with standalone video",
-   "done": "",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "codex-test-obs",
-     "at": "2026-11-28T09:58Z",
-     "text": "Published c95cb677. Normal Editor verified Synthetic selected: preview opens Pilot with Test, top-right processing toggle opens Test fullscreen and returns to Pilot. Shared selected video source remains independent from drone telemetry."
-    }
-   ]
-  },
-  {
    "n": 2630,
    "name": "Let Test video yield to an available configured RTSP source and return on loss",
    "done": "2026-11-28T13:22Z",
@@ -10703,5 +10683,5 @@
   }
  ],
  "source_revision": "17da022fd79af2601e88bb9bff70b3016469c7b3",
- "board_revision": "3e745b100215245c98eebaae5b44a14cfc8ca773"
+ "board_revision": "319a8b17f0828091f174bfbf6348dfb8a5e9022a"
 }
