@@ -8209,6 +8209,22 @@
     {
      "t": "Adopt it through the Unity Package Manager and run the crypto checks in containing Builds.",
      "x": false
+    },
+    {
+     "t": "Compare the upstream JPEG and BC1 code against the shipped codec.",
+     "x": true
+    },
+    {
+     "t": "Verify Windows outputs, build the Android native component, and generate the iOS source.",
+     "x": true
+    },
+    {
+     "t": "Verify the Android component on device and compile and qualify the Apple outputs.",
+     "x": false
+    },
+    {
+     "t": "Adopt matching vendor headers, Windows and Android libraries, macOS library and iOS source.",
+     "x": false
     }
    ],
    "notes": [
@@ -8221,6 +8237,11 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T07:51Z",
      "text": "Verified d3de51b6c8 on main. Windows Test 892 ships the exact 1.0.22 DLL and it initialized and reported that version in a standalone process. Android Test 892 matches the 1.0.22 tarball library after NDK strip with 16 KiB LOAD alignment an"
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T07:23Z",
+     "text": "The source candidate remains unadopted. The Apple scratch workflow stopped before compilation, first while exporting the sparse checkout and then at its source checksum. The test workflow was removed from main in 4da0f44aae. There was no An"
     }
    ]
   },
@@ -8886,43 +8907,6 @@
      "by": "codex-mac-video",
      "at": "2026-11-28T03:12Z",
      "text": "a5ebd97b: unsupported platforms verify the actual Unavailable observation replaces the old Ready cache; supported platforms retain the exception/fail-closed check. Mac normal Unity compiled and VideoDiagnosticsTests passed 96/96."
-    }
-   ]
-  },
-  {
-   "n": 2583,
-   "name": "Update MavTileCodec to stb_image 2.34 with the upstream progressive JPEG fix and stb_dxt 1.13",
-   "done": "",
-   "goal": false,
-   "under": 2533,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Compare the upstream JPEG and BC1 code against the shipped codec.",
-     "x": true
-    },
-    {
-     "t": "Verify Windows outputs, build the Android native component, and generate the iOS source.",
-     "x": true
-    },
-    {
-     "t": "Verify the Android component on device and compile and qualify the Apple outputs.",
-     "x": false
-    },
-    {
-     "t": "Adopt matching vendor headers, Windows and Android libraries, macOS library and iOS source.",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T07:23Z",
-     "text": "The source candidate remains unadopted. The Apple scratch workflow stopped before compilation, first while exporting the sparse checkout and then at its source checksum. The test workflow was removed from main in 4da0f44aae. There was no An"
     }
    ]
   },
@@ -11182,5 +11166,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "d2b2f352ef00f569baa25e21afd81512ea58aeb1"
+ "board_revision": "3b0c5a4ee9a0f04b60974203a16cf959ea703df6"
 }
