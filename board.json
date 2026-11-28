@@ -8225,14 +8225,21 @@
     {
      "t": "Adopt matching vendor headers, Windows and Android libraries, macOS library and iOS source.",
      "x": false
+    },
+    {
+     "t": "Confirm the managed dependencies and Unity compiler references resolve through the runtime.",
+     "x": true
+    },
+    {
+     "t": "Verify standalone GeoTIFF decoding and SSH.NET binding, then remove the vendored package and its restore entry.",
+     "x": true
+    },
+    {
+     "t": "Exercise GeoTIFF import and the Windows Raspberry Pi Installer in containing Builds.",
+     "x": false
     }
    ],
    "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T07:46Z",
-     "text": "57106459e5 verifies SQLite 3.54.1 in both Test 892 packages. The extracted Windows DLL matched the committed bytes and passed the full standalone verifier on a scratch database. NDK strip reproduced the Android APK library byte for byte, wi"
-    },
     {
      "by": "GETAC_WORKER",
      "at": "2026-11-28T07:51Z",
@@ -8242,6 +8249,11 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T07:23Z",
      "text": "The source candidate remains unadopted. The Apple scratch workflow stopped before compilation, first while exporting the sparse checkout and then at its source checksum. The test workflow was removed from main in 4da0f44aae. There was no An"
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T07:56Z",
+     "text": "Verified cb4051fe1c on main. Windows and Android Test 892 omit Microsoft.Bcl.AsyncInterfaces from their IL2CPP assembly tables. Windows retains SSH.NET 2026.0.1.1 without a retained reference to that forwarder. Existing standalone decode an"
     }
    ]
   },
@@ -8907,39 +8919,6 @@
      "by": "codex-mac-video",
      "at": "2026-11-28T03:12Z",
      "text": "a5ebd97b: unsupported platforms verify the actual Unavailable observation replaces the old Ready cache; supported platforms retain the exception/fail-closed check. Mac normal Unity compiled and VideoDiagnosticsTests passed 96/96."
-    }
-   ]
-  },
-  {
-   "n": 2584,
-   "name": "Remove the obsolete vendored Microsoft.Bcl.AsyncInterfaces 6.0.0 and verify GeoTIFF import and the Windows Raspberry Pi Installer in containing Builds.",
-   "done": "",
-   "goal": false,
-   "under": 2533,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Confirm the managed dependencies and Unity compiler references resolve through the runtime.",
-     "x": true
-    },
-    {
-     "t": "Verify standalone GeoTIFF decoding and SSH.NET binding, then remove the vendored package and its restore entry.",
-     "x": true
-    },
-    {
-     "t": "Exercise GeoTIFF import and the Windows Raspberry Pi Installer in containing Builds.",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T07:56Z",
-     "text": "Verified cb4051fe1c on main. Windows and Android Test 892 omit Microsoft.Bcl.AsyncInterfaces from their IL2CPP assembly tables. Windows retains SSH.NET 2026.0.1.1 without a retained reference to that forwarder. Existing standalone decode an"
     }
    ]
   },
@@ -11166,5 +11145,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "3b0c5a4ee9a0f04b60974203a16cf959ea703df6"
+ "board_revision": "93a0e9ae811836fd8e61488be929df547dd1c3f7"
 }
