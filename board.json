@@ -5699,6 +5699,11 @@
      "by": "CODEX_MENU_LIVE_MAC",
      "at": "2026-11-27T11:13Z",
      "text": "Normal Mac Editor: live ui.extended toggle opened and closed menu, ui.status confirmed both; actual handler returned err ui_extended_unavailable with button temporarily absent, then restored. Invoking normal menu click handler opened and cl"
+    },
+    {
+     "by": "CODEX_SCREEN_ALIGN",
+     "at": "2026-11-27T00:36Z",
+     "text": "Also verify screen.alignment.status after 9e8f2d0912 with Screen Blur present and unavailable; Unity compile and actual binder/fallback test passed."
     }
    ]
   },
@@ -5814,28 +5819,6 @@
    "held": [],
    "steps": [],
    "notes": []
-  },
-  {
-   "n": 2429,
-   "name": "Verify diagnose screen after e65af76fec in a running Debug or Editor session",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_SCREEN_ALIGN",
-     "at": "2026-11-27T00:36Z",
-     "text": "Also verify screen.alignment.status after 9e8f2d0912 with Screen Blur present and unavailable; Unity compile and actual binder/fallback test passed."
-    }
-   ]
   },
   {
    "n": 2433,
@@ -11450,5 +11433,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "a12c717375aeab4dd7f1437fa4b69106fe616618"
+ "board_revision": "4f1c53609c71687a8be3c1775382713a383396d6"
 }
