@@ -2806,23 +2806,9 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "codex-test-obs",
-     "since": "2026-11-28T13:10Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
-    {
-     "by": "codex-video-mac",
-     "at": "2026-11-27T21:10Z",
-     "text": "Found existing Mac Player 891 dated Nov 27 (after b272fc6d); source-free countdown preview works in normal Editor. A true cold Player measurement still needs an isolated runtime/cache so the user\u2019s existing FFmpeg package and settings are n"
-    },
     {
      "by": "codex-mac-video",
      "at": "2026-11-28T04:28Z",
@@ -2832,6 +2818,11 @@
      "by": "CODEX_RESTREAM_CODEC",
      "at": "2026-11-26T15:52Z",
      "text": "Apple Silicon Mac Editor: normal runtime preparation succeeded; five-second source-free Restream reached a VP8-only local WHIP receiver (114 packets, decoded blue countdown), then returned to Waiting for source. Known VP8 source countdown\u2192l"
+    },
+    {
+     "by": "codex-test-obs",
+     "at": "2026-11-28T13:45Z",
+     "text": "Published b7ce097efc: automatic no-signal Test is not counted as a real video for countdown background. Unity focused regression passed. Normal Mac Editor with no video and a 5s RTSP link: OBS showed blue countdown at 00:01 and 00:00, then "
     }
    ]
   },
@@ -3222,11 +3213,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_MAVTUBE_SOURCES",
-     "at": "2026-11-26T22:35Z",
-     "text": "MavTube is restored and the header exposes Device Camera only; CaptureMenu already supports other inputs. Navigator SPEC MavTube and searchable quiz wording specify scrolling, selected video and peer label, but do not explicitly specify a M"
-    },
-    {
      "by": "CLOUD_VERIFIED",
      "at": "2026-11-27T10:22Z",
      "text": "CORRECTION quiz 2026-11-27: the earlier verified mark for Android screen share was wrong. BUG: Android sharing its own device screen from the app on the phone does NOT work. Not verified. USB capture and restream options do work. Cloud is i"
@@ -3235,6 +3221,11 @@
      "by": "codex-mavtube-own",
      "at": "2026-11-28T09:11Z",
      "text": "4a110693: own active video is the first MavTube row, from the local frame rather than peer authentication; covers camera startup and Test. Normal Editor compiled, local-first row regression and viewport/tap checks passed. Live phone camera "
+    },
+    {
+     "by": "codex-mavtube-source",
+     "at": "2026-11-28T13:46Z",
+     "text": "cfc8511566: Mac Unity focused MavTube preview test passed: unselected peer row keeps only JPEG; selection starts full receive while retaining JPEG until live frame. Reopened Editor also passed MavTubeVideoTapSelectsAndDoubleTapFocusesTheSam"
     }
    ]
   },
@@ -4591,14 +4582,14 @@
      "text": "MavControlVisual host left in place: actual component now has panel tint, shadow and geometry APIs absent from its adapters; the quiet shader also uses role keywords and a different shared-blur branch. Refresh the real behavior and all exis"
     },
     {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-27T15:29Z",
-     "text": "d9ce928de1 on main moves Coding Search key serialization and its C# harness under Situation. Explicit UTF-8 fixes retained-baseline reads on Windows. The actual source passed all 16 checks and all five negative controls failed as intended. "
-    },
-    {
      "by": "CODEX_OD_FOLDERS",
      "at": "2026-11-26T22:28Z",
      "text": "Deferred: active 3D work and its evidence refer to these scripts by path; moving the shared folder now would disrupt that work. No files changed. Reorganize once the 3D worker releases those paths, updating imports and guides together."
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T13:53Z",
+     "text": "Published 687a69b87e, grouping the Planet Renderer diagnostic skirt-cache harness with Map. Actual-source host passed 15,917 assertions and all eight negative controls failed as intended. Compared with PlanetProbeSkirtCacheTests, this prese"
     }
    ]
   },
@@ -5156,19 +5147,19 @@
    ],
    "notes": [
     {
-     "by": "CODEX_KENILWORTH_INDEX_TIMING",
-     "at": "2026-11-27T12:44Z",
-     "text": "Main 153dac6f9a avoids routine CPU indirect argument resets on the staged D3D11 path. Kenilworth with compact Disk readback and Pause-only probes completed 55.016 s, 24 mapped photos and 5 Pano360 views. 32 builds, all 21 probes valid, zero"
-    },
-    {
-     "by": "CODEX_KENILWORTH_BASEMAP_EVIDENCE",
-     "at": "2026-11-27T13:08Z",
-     "text": "Kenilworth staged-index replay in ordinary Windows Unity Editor (RTX 5060 laptop, DX11): 70 s Pause, 36 mapped photos, six Pano360 views. 33 builds, 18 distinct fully valid three-stage readouts, no rejected writes up to 2,477,395 candidates"
-    },
-    {
      "by": "CODEX_KENILWORTH_COMPARISON",
      "at": "2026-11-27T22:26Z",
      "text": "75307d4ce2 makes the replay score surface growth and readback waits. The failed run grew SourceCapacity from 4,194,304 to 8,388,608 in 1.874 s (1,200 MiB across the old and new source banks), then finished three photo readbacks. The Project"
+    },
+    {
+     "by": "Codex",
+     "at": "2026-11-28T13:51Z",
+     "text": "Kenilworth normal Windows Editor exited on 2026-11-28. Last recorded sample at 15:47:35 Kyiv: 32 mapped photos, 1598499 canonical cells, zero registration rejects, ground contact error 0.0831 m. NVIDIA event 153 at 15:47:39 followed by Wind"
+    },
+    {
+     "by": "CODEX_KENILWORTH_TRACED_PAUSE",
+     "at": "2026-11-28T13:58Z",
+     "text": "Nov 28 ordinary Kenilworth DX11 repeat with measured Planet elevation and Photo Disk trace: 44 mapped photos, 1533676 canonical cells, bake revision 39, 47.234 s sampled Pause. Completed camera stop, both 9/9 footprint queries, paint probe "
     }
    ]
   },
@@ -5852,26 +5843,6 @@
    "notes": []
   },
   {
-   "n": 2489,
-   "name": "Video diagnostics are 4",
-   "done": "2026-11-27T13:47Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-27T13:47Z",
-     "text": "533a8e2da6 on main trims duplicate JPEG counts, static SDK placeholders, idle photo/send details and Restream fields for transports or attempts that do not exist. Actual and retained failures, photo transfer evidence, active codecs and atte"
-    }
-   ]
-  },
-  {
    "n": 2490,
    "name": "FPV Goggles Inject",
    "done": "",
@@ -5884,26 +5855,6 @@
    "held": [],
    "steps": [],
    "notes": []
-  },
-  {
-   "n": 2491,
-   "name": "Frame-debug double-resolution idle screen and verify terrain rendering stops between updates",
-   "done": "2026-11-27T13:42Z",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "codex-frame-render",
-     "at": "2026-11-27T13:42Z",
-     "text": "Mac Metal native Frame Debugger in FrozenDouble, kept picture true, 1253x740: 93 named events, one CoreBlit of the retained image and 92 screen-space UI events; no terrain passes in that captured non-refresh frame. First 48 UI events sample"
-    }
-   ]
   },
   {
    "n": 2492,
@@ -7117,11 +7068,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "codex-video-owner",
-     "at": "2026-11-28T11:26Z",
-     "text": "5b4fa1c1c3 projects positioned standalone local frames; 5cdcc5e61f verifies a shared-screen texture and its capture pose travel through source selection into the projector with no drone. Isolated PhotoEditingProjectionTests 24/24 pass. Actu"
-    },
-    {
      "by": "codex-test-obs",
      "at": "2026-11-28T12:20Z",
      "text": "Normal Mac Editor: a real app-screen frame and captured camera pose reached an enabled LocalVideo projector, with active projection decal, bound video texture and PROJECTION_DJI shader. Actual map visual remains inconclusive because this li"
@@ -7130,6 +7076,11 @@
      "by": "codex-local-frame",
      "at": "2026-11-28T13:11Z",
      "text": "Reviewed capture command ownership: selected source identity and requested playback are separate dimensions; a same-frame source choice plus pause can both be valid. A single latest-command-wins enum would drop the choice, so do not collaps"
+    },
+    {
+     "by": "codex-video-ownership",
+     "at": "2026-11-28T13:47Z",
+     "text": "6c219232a0 moved named peer-stop receive cleanup to the receiver update; stale callbacks are rejected immediately and Unity VideoCodecNegotiationTests passed 22/22. Two-device checks and the broader unified Source, demand, route and sink wo"
     }
    ]
   },
@@ -9146,22 +9097,18 @@
    "priority": "normal",
    "parked": false,
    "flags": [],
-   "held": [
-    {
-     "who": "GETAC_WORKER",
-     "since": "2026-11-28T13:36Z",
-     "noted": "",
-     "progress": 0,
-     "ticked": 0,
-     "total": 0
-    }
-   ],
+   "held": [],
    "steps": [],
    "notes": [
     {
      "by": "CLOUD_STRIP_LAYERS",
      "at": "2026-11-28T11:53Z",
      "text": "The heavy-work names task (CLOUD_STRIP_LAYERS, 2026-11-28) removes HeavyUsage and CodeAuthor, so do it first and move only the budget ask to Core. quote (quiz, 2026-11-28): \"Heavy-work name list: - Yes.\""
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T13:46Z",
+     "text": "Published 9119694747 on main. Core owns concrete count, timed and measured budget admission. Station keeps Unity clock wiring, wake behavior and diagnostics. Seven script GUIDs preserved. Entire Core and an independent consumer compiled; fo"
     }
    ]
   },
@@ -9659,7 +9606,13 @@
    "flags": [],
    "held": [],
    "steps": [],
-   "notes": []
+   "notes": [
+    {
+     "by": "codex-local-frame",
+     "at": "2026-11-28T13:40Z",
+     "text": "4562116150 records peer video and direct-route state boundaries. Added 2674 (feed status query; high), 2675 (viewer tier hold), 2676 (routing question/tunnel). WebRTC first/last media, metadata, negotiation and stats times are independent e"
+    }
+   ]
   },
   {
    "n": 2669,
@@ -9757,6 +9710,158 @@
      "x": false
     }
    ],
+   "notes": [
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T13:54Z",
+     "text": "Getac bake-safe batch: 9119694747 moved concrete Frame Budget admission into Core, preserving Station clock/scheduling and diagnostics in Main and all seven script GUIDs. Core and independent consumer compile and host controls pass. 687a69b"
+    }
+   ]
+  },
+  {
+   "n": 2674,
+   "name": "Peer video feed native status",
+   "done": "2026-11-28T13:49Z",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "high",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "codex-local-frame",
+     "at": "2026-11-28T13:49Z",
+     "text": "22c43bab99 gives native feed query NotQueried, Querying, Failed, Current and Stale states, retaining last-good sample and generation; fresh Unity compilation passed, PeerVideoTransportTests 25/25 and VideoRestreamProtocolTests 124 passed wi"
+    }
+   ]
+  },
+  {
+   "n": 2675,
+   "name": "Peer video rendition decisions",
+   "done": "2026-11-28T13:44Z",
+   "goal": false,
+   "under": 431,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "codex-local-frame",
+     "at": "2026-11-28T13:44Z",
+     "text": "daab7da745 makes tier choice Stable/Holding with target and times as separate data. Fresh Unity TransportLogTests passed 44/44 after Editor recovery; .NET Prublyda and EditModeTests builds passed and an isolated hold-transition harness pass"
+    }
+   ]
+  },
+  {
+   "n": 2676,
+   "name": "Routing server direct route",
+   "done": "2026-11-28T13:50Z",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "codex-direct-route-state",
+     "at": "2026-11-28T13:50Z",
+     "text": "87b23faec0 makes capability questions Idle/AwaitingAnswer/TimedOut and tunnel requests Idle/Waiting/Refused. First unanswered timeout and retry spacing remain independent; explicit retry changes refusal only after a request for that binding"
+    }
+   ]
+  },
+  {
+   "n": 2677,
+   "name": "Update position personnel from Peers on positions and keep reserve visible",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "codex-test-obs",
+     "since": "2026-11-28T13:57Z",
+     "noted": "2026-11-28T13:57Z",
+     "progress": 25,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": [
+    {
+     "by": "codex-test-obs",
+     "at": "2026-11-28T13:57Z",
+     "text": "Pushed through 6868660fb8; focused Unity tests 7/7 pass. Live visual check remains: disposable identity Play refused with SharedDiagnosticPort (Editor 17693, runtime 17692); needs separate Editor launch with distinct diagnostic ports. No us"
+    }
+   ]
+  },
+  {
+   "n": 2678,
+   "name": "Keep Deep State and Ukrainian borders in a stable",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
+   "notes": [
+    {
+     "by": "codex-local-frame",
+     "at": "2026-11-28T13:55Z",
+     "text": "4390cc7260 sets Deep State to 2501 and Ukraine Borders to 2502; Unity AssetDatabase confirms the loaded queues and shared shader, and individual/combined renderers use those shared materials. Remaining: visually verify an actual overlap on "
+    }
+   ]
+  },
+  {
+   "n": 2679,
+   "name": "Windows DevMode Tasks board publication flashes a console for detached Git child processes. Keep the board publisher silent while preserving detached mirroring.",
+   "done": "",
+   "goal": false,
+   "under": 2673,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [
+    {
+     "who": "GETAC_WORKER",
+     "since": "2026-11-28T13:58Z",
+     "noted": "",
+     "progress": 0,
+     "ticked": 0,
+     "total": 0
+    }
+   ],
+   "steps": [],
+   "notes": []
+  },
+  {
+   "n": 2680,
+   "name": "Planet Element mask edits made by hand on one device do not appear on another",
+   "done": "",
+   "goal": false,
+   "under": 0,
+   "ticks": [],
+   "priority": "normal",
+   "parked": false,
+   "flags": [],
+   "held": [],
+   "steps": [],
    "notes": []
   }
  ],
@@ -9930,6 +10035,6 @@
    "since": "2026-11-28T13:35Z"
   }
  ],
- "source_revision": "0dbdc233307e14d6eb804ddc3ee364ff6b88daae",
- "board_revision": "214dd5460711bcc89ff8ecdab4b4f71fee2c1c81"
+ "source_revision": "4390cc72603d7ca5929cf91d51dbf49833c6ecf7",
+ "board_revision": "2b55481dc4d5b20807adc52fd21f9342335c89b8"
 }
