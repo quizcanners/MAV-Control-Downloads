@@ -2651,38 +2651,7 @@
     {
      "t": "Close the task when all four machines have noted their sizes",
      "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC",
-     "at": "2026-11-23T21:25Z",
-     "text": "GETAC: .git 3.0G -> 1.1G (objects 157M, 296 commits deep; lfs 953M is the current checkout's LFS files). Before trimming, 967 local-only refs (452 branches, 9 tags, codex, verify-runner, mav, archive and backup refs) saved in one verified c"
     },
-    {
-     "by": "CODEX_MAC_GIT_AUDIT",
-     "at": "2026-11-27T01:02Z",
-     "text": "Mac audit: .git is 3.8 GiB with hundreds of local branches and 20 stashes. They have not been deleted or pruned; identify and preserve any local-only work before trimming, with other Git activity stopped. The shallow boundary was also reset"
-    },
-    {
-     "by": "CODEX_MAC_GIT_TRIM",
-     "at": "2026-11-27T01:16Z",
-     "text": "Mac: .git 3.8 GiB -> 1.1 GiB; checkout fast-forwarded, 304 commits deep at trim, existing user edits preserved, connectivity fsck clean. A verified 2.1 GiB archive under ~/MavControlEvidence/WorkCritical/mac-git-preservation-20261127-030722"
-    }
-   ]
-  },
-  {
-   "n": 2158,
-   "name": "GitHub side of shallow clones (2157)",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
     {
      "t": "List each branch other than main and board with its last commit date and whether main already contains it (`gh api repos/quizcanners/MAV_Control/branches --paginate`, `git merge-base --is-ancestor`)",
      "x": false
@@ -11525,5 +11494,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "b9e0b77d0dab2923b1d71a6dca89b4a02ea6a3a1"
+ "board_revision": "add9f3a7f2688b0d14b2a52dc2ddf0a5c1d89312"
 }
