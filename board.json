@@ -4236,26 +4236,6 @@
    ]
   },
   {
-   "n": 2317,
-   "name": "Video Retransmitting notification",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "codex-mac-video",
-     "at": "2026-11-28T03:02Z",
-     "text": "Mac normal Editor 50b3446a: local failed-output notification rendered a single row with one Stop icon. Set legacy local execution Paused and submitted the actual visible notification action; Enabled became false. Original link/settings rest"
-    }
-   ]
-  },
-  {
    "n": 2324,
    "name": "Verify moving Map Editing brush keeps the map responsive in the normal Unity Editor and on device",
    "done": "",
@@ -5675,6 +5655,11 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T09:12Z",
      "text": "Main c802ece99e. The notification motion and heartbeat implementation and Notifications SPEC are already on main. Four committed stack-motion tests, one heartbeat-shape test and two interrupted-fold scratch controls passed in Unity Mono. Na"
+    },
+    {
+     "by": "codex-mac-video",
+     "at": "2026-11-28T03:02Z",
+     "text": "Mac normal Editor 50b3446a: local failed-output notification rendered a single row with one Stop icon. Set legacy local execution Paused and submitted the actual visible notification action; Enabled became false. Original link/settings rest"
     }
    ]
   },
@@ -9911,5 +9896,5 @@
   }
  ],
  "source_revision": "17da022fd79af2601e88bb9bff70b3016469c7b3",
- "board_revision": "1ec71f507374c76826e9bb234ff1634335bd5a4e"
+ "board_revision": "f0ad942340304040ae1561c4e3cf7f39ede66b7a"
 }
