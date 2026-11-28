@@ -8464,14 +8464,33 @@
     {
      "t": "Resolve App UI in the normal Editor after the next safe reload. Confirm no App UI importer-version messages and open the AI Inference graph visualizer.",
      "x": false
+    },
+    {
+     "t": "Verify Unity registry digests and package dependencies. 3.0.3 and 4.0.4 request the same two dependencies. Unity 6000.6.10f1 already supplies Test Framework 1.8.0 and Asset Bundle 1.0.0.",
+     "x": true
+    },
+    {
+     "t": "Compile the package runtime and Editor assemblies, Unity.Scenes.Editor and Assembly-CSharp-Editor against 3.0.3 and 4.0.4. All eight compilations passed without warnings using the pinned Unity compile",
+     "x": true
+    },
+    {
+     "t": "Verify build report behavior. The standalone worker-log probe reproduced the invalid JSON when 3.0.3 logged a quoted Windows path and verified that 4.0.4 returns the exact message in valid JSON.",
+     "x": true
+    },
+    {
+     "t": "Pin 4.0.4 directly and verify 5efb80f896 on main.",
+     "x": true
+    },
+    {
+     "t": "Confirm package resolution in the normal Editor and run clean and incremental Entities Content Archive builds. Change a prefab dependency and verify the dependent archive hash changes while unrelated ",
+     "x": false
+    },
+    {
+     "t": "Verify that renaming a serialized field with FormerlySerializedAs updates the affected archive hash in a containing content build.",
+     "x": false
     }
    ],
    "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T09:17Z",
-     "text": "Main 1564e94f1d. Unity 6000.6.10f1 rebuilt both 1.2.0 and 1.2.1. Each passed eleven Unity Mono probes for synthetic snapshot entry layouts and ranges, including the pointer argument conversion used by the roots adapter. The native async fil"
-    },
     {
      "by": "GETAC_WORKER",
      "at": "2026-11-28T09:43Z",
@@ -8481,6 +8500,11 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T05:51Z",
      "text": "Pushed and verified 4876befc44. The registry, static native ABI and standalone compile checks passed. Normal Editor resolution, import and graph visualizer acceptance remain open."
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T05:58Z",
+     "text": "Pushed and verified 5efb80f896. Registry graph, direct consumers and worker trace checked. Package resolution and actual Entities Content Archive cache behavior need the normal Editor."
     }
    ]
   },
@@ -9485,53 +9509,6 @@
      "by": "codex-mac-video",
      "at": "2026-11-28T06:02Z",
      "text": "ddeb048c: H.265 camera joined mid-GOP lacks dimensions until in-band parameter sets; FFmpeg now gets a bounded 10 s / 16 MiB probe for H.265. Regression failed before, passes with full FFmpeg 9 and Mac minimal FFmpeg 8.1.3; H264/VP8 control"
-    }
-   ]
-  },
-  {
-   "n": 2605,
-   "name": "Verify Scriptable Build Pipeline 4.0.4 in Entities Content Archive builds",
-   "done": "",
-   "goal": false,
-   "under": 2533,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [
-    {
-     "t": "Verify Unity registry digests and package dependencies. 3.0.3 and 4.0.4 request the same two dependencies. Unity 6000.6.10f1 already supplies Test Framework 1.8.0 and Asset Bundle 1.0.0.",
-     "x": true
-    },
-    {
-     "t": "Compile the package runtime and Editor assemblies, Unity.Scenes.Editor and Assembly-CSharp-Editor against 3.0.3 and 4.0.4. All eight compilations passed without warnings using the pinned Unity compile",
-     "x": true
-    },
-    {
-     "t": "Verify build report behavior. The standalone worker-log probe reproduced the invalid JSON when 3.0.3 logged a quoted Windows path and verified that 4.0.4 returns the exact message in valid JSON.",
-     "x": true
-    },
-    {
-     "t": "Pin 4.0.4 directly and verify 5efb80f896 on main.",
-     "x": true
-    },
-    {
-     "t": "Confirm package resolution in the normal Editor and run clean and incremental Entities Content Archive builds. Change a prefab dependency and verify the dependent archive hash changes while unrelated ",
-     "x": false
-    },
-    {
-     "t": "Verify that renaming a serialized field with FormerlySerializedAs updates the affected archive hash in a containing content build.",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T05:58Z",
-     "text": "Pushed and verified 5efb80f896. Registry graph, direct consumers and worker trace checked. Package resolution and actual Entities Content Archive cache behavior need the normal Editor."
     }
    ]
   },
@@ -11264,5 +11241,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "d3f96ea9c357d4b80cbbc0d435eae65523d63ddd"
+ "board_revision": "777b14ad5b2529c1e520d4d945afc76cdf8bfa18"
 }
