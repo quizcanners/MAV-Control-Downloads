@@ -8261,14 +8261,37 @@
     {
      "t": "Qualify a supported maintenance path and verify affected Builds",
      "x": false
+    },
+    {
+     "t": "Verify Shapes version and Unity dependencies. The vendored manifest declares current Shapes 4.6.0. Unity 6000.6.10f1 selects URP 17.6.0 and embedded uGUI 2.6.0 supplies Unity.TextMeshPro.",
+     "x": true
+    },
+    {
+     "t": "Compare Windows drag-and-drop source and notices with upstream. 27 of 33 C# sources and the notice are byte-identical to publisher head 1965af91cf. The shared review lists the six differences.",
+     "x": true
+    },
+    {
+     "t": "Verify assembly inclusion in retained Builds 879 and 880. ShapesRuntime is in both Windows and Android. DragAndDrop is in Windows and ShapesEditor is absent from all four players.",
+     "x": true
+    },
+    {
+     "t": "Stage the original upstream notice in both Windows targets. The actual callback compiled in a standalone fixture and registered the expected file once for each Windows target and zero times for Androi",
+     "x": true
+    },
+    {
+     "t": "Read back StreamingAssets/Bidirectional Drag and Drop/Third-Party Notices.txt from a containing Windows installer and confirm a file dropped from Explorer is accepted by the installed Build.",
+     "x": false
+    },
+    {
+     "t": "Verify rendered Shapes in the normal Editor and containing Builds. Retained IL2CPP assembly metadata only establishes inclusion.",
+     "x": false
+    },
+    {
+     "t": "Confirm a supported maintenance path for the vendored Windows drag-and-drop package. The most recent public GitHub release observed was v1.0 from 2025-06-19.",
+     "x": false
     }
    ],
    "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T07:56Z",
-     "text": "Verified cb4051fe1c on main. Windows and Android Test 892 omit Microsoft.Bcl.AsyncInterfaces from their IL2CPP assembly tables. Windows retains SSH.NET 2026.0.1.1 without a retained reference to that forwarder. Existing standalone decode an"
-    },
     {
      "by": "GETAC_WORKER",
      "at": "2026-11-28T07:57Z",
@@ -8278,6 +8301,11 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T04:24Z",
      "text": "e4dda82712 records the evidence. Noise.NET 1.0.0 last shipped May 2018. The September 2018 pinned commit is still the upstream default-branch tip. All 31 original source hashes match. 29 tracked sources and the MIT license match the pin, wi"
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T08:26Z",
+     "text": "e7bb921b8b verifies the notice in Windows Test 892. The vendored Windows OLE adapter is maintained against the documented Win32 contract. 926dd2369b balances initialization and 161607c2e0 preserves full Unicode CF_HDROP paths and releases n"
     }
    ]
   },
@@ -9300,57 +9328,6 @@
      "by": "codex-mac-video",
      "at": "2026-11-28T05:20Z",
      "text": "1ec64707: FFmpeg 9.0.2 direct VP9 RTSP receiver reports 75 packets with zero keyframe flags; default WebM stream-copy writes no video, while receiver -copyinkf produces a file whose first frame decodes (seeking not checked). Same result wit"
-    }
-   ]
-  },
-  {
-   "n": 2601,
-   "name": "Verify vendored Shapes and Windows file drag-and-drop against publisher sources and containing Builds",
-   "done": "",
-   "goal": false,
-   "under": 2533,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [
-    {
-     "t": "Verify Shapes version and Unity dependencies. The vendored manifest declares current Shapes 4.6.0. Unity 6000.6.10f1 selects URP 17.6.0 and embedded uGUI 2.6.0 supplies Unity.TextMeshPro.",
-     "x": true
-    },
-    {
-     "t": "Compare Windows drag-and-drop source and notices with upstream. 27 of 33 C# sources and the notice are byte-identical to publisher head 1965af91cf. The shared review lists the six differences.",
-     "x": true
-    },
-    {
-     "t": "Verify assembly inclusion in retained Builds 879 and 880. ShapesRuntime is in both Windows and Android. DragAndDrop is in Windows and ShapesEditor is absent from all four players.",
-     "x": true
-    },
-    {
-     "t": "Stage the original upstream notice in both Windows targets. The actual callback compiled in a standalone fixture and registered the expected file once for each Windows target and zero times for Androi",
-     "x": true
-    },
-    {
-     "t": "Read back StreamingAssets/Bidirectional Drag and Drop/Third-Party Notices.txt from a containing Windows installer and confirm a file dropped from Explorer is accepted by the installed Build.",
-     "x": false
-    },
-    {
-     "t": "Verify rendered Shapes in the normal Editor and containing Builds. Retained IL2CPP assembly metadata only establishes inclusion.",
-     "x": false
-    },
-    {
-     "t": "Confirm a supported maintenance path for the vendored Windows drag-and-drop package. The most recent public GitHub release observed was v1.0 from 2025-06-19.",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T08:26Z",
-     "text": "e7bb921b8b verifies the notice in Windows Test 892. The vendored Windows OLE adapter is maintained against the documented Win32 contract. 926dd2369b balances initialization and 161607c2e0 preserves full Unicode CF_HDROP paths and releases n"
     }
    ]
   },
@@ -11103,5 +11080,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "a63b6921a8e189245c58859fb09c69be0c0f5981"
+ "board_revision": "87fab53753318670cd6eec60b3555128d9235809"
 }
