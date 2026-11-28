@@ -3523,36 +3523,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "NT68-C15-002",
-     "at": "2026-11-25T21:36Z",
-     "text": "4d473cfc7c on main (first step): OBS VP8 to an H.264 link publishes the transport's single H.264 encode instead of an FFmpeg decode. Left: share a link's encode with the viewers' Mid rendition (rate/CBR decision); one shared processed textu"
-    },
-    {
-     "by": "CODEX_MAC_RESTREAM_SHARING",
-     "at": "2026-11-26T23:51Z",
-     "text": "Local publication binds the original feed output port; Mid is viewer-owned, expires without viewers, and currently has no publication output update. Switching live between the original and Mid also changes RTP source/SSRC. A shared implemen"
-    },
-    {
-     "by": "codex-mac-video",
-     "at": "2026-11-28T02:35Z",
-     "text": "Encoder feeds explicitly bypass rendition selection and use their original output; pass-through feeds manage Mid separately. Automatic H.264 already copies a matching original. Sharing Mid for a conversion needs a publisher-held rendition a"
-    }
-   ]
-  },
-  {
-   "n": 2263,
-   "name": "Video Restreaming",
-   "done": "",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
      "by": "codex-video-mac",
      "at": "2026-11-27T21:56Z",
      "text": "20c7db6e: Mac OBS/MediaMTX H.265 camera -> RTMP and RTSP links reached OBS with moving frames, one camera pull. RTMPS local test reached TLS but rejected the deliberately self-signed certificate; trusted-endpoint delivery remains unverified"
@@ -10841,5 +10811,5 @@
   }
  ],
  "source_revision": "17da022fd79af2601e88bb9bff70b3016469c7b3",
- "board_revision": "7714b9b29a68c79bd90993d1bfaa7cdc194a2e38"
+ "board_revision": "93abc9b84c4d3a07efb109a5af4f1178d45ac79c"
 }
