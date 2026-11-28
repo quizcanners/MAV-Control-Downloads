@@ -2912,11 +2912,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "NT68_HEAVY",
-     "at": "2026-11-26T17:57Z",
-     "text": "b272fc6d38 on main. Countdown relay/input now start while FFmpeg checks, and a pending slate does not advance the output renewal clock. The original deadline and FFmpeg output gate stay in effect. Windows Unity passed 122/122 and five nativ"
-    },
-    {
      "by": "codex-video-mac",
      "at": "2026-11-27T21:10Z",
      "text": "Found existing Mac Player 891 dated Nov 27 (after b272fc6d); source-free countdown preview works in normal Editor. A true cold Player measurement still needs an isolated runtime/cache so the user\u2019s existing FFmpeg package and settings are n"
@@ -2925,6 +2920,11 @@
      "by": "codex-mac-video",
      "at": "2026-11-28T04:28Z",
      "text": "Previously saved Mac FFmpeg runtime warm samples (5 each): two rawvideo listings median 12.2 ms; a single rawvideo round trip 6.4 ms; 1280x720/3-frame VideoToolbox H.264 encoder probe 163.6 ms. These warm measurements do not explain cold st"
+    },
+    {
+     "by": "CODEX_RESTREAM_CODEC",
+     "at": "2026-11-26T15:52Z",
+     "text": "Apple Silicon Mac Editor: normal runtime preparation succeeded; five-second source-free Restream reached a VP8-only local WHIP receiver (114 packets, decoded blue countdown), then returned to Waiting for source. Known VP8 source countdown\u2192l"
     }
    ]
   },
@@ -5010,28 +5010,6 @@
      "by": "CODEX_WINDOWS_OBS",
      "at": "2026-11-26T15:26Z",
      "text": "Windows Editor d2c82ca47c, D3D11, OBS 33.0.1 via loopback MediaMTX RTMP. OBS played H.264 on direct start, cleared on Stop, then played the 00:30 logo countdown and live on restart. At zero the RTMP output reopened and OBS reconnected to th"
-    }
-   ]
-  },
-  {
-   "n": 2363,
-   "name": "Verify Restream five-second VP8 WHIP countdown and source handoff on Intel Mac",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_RESTREAM_CODEC",
-     "at": "2026-11-26T15:52Z",
-     "text": "Apple Silicon Mac Editor: normal runtime preparation succeeded; five-second source-free Restream reached a VP8-only local WHIP receiver (114 packets, decoded blue countdown), then returned to Waiting for source. Known VP8 source countdown\u2192l"
     }
    ]
   },
@@ -10925,5 +10903,5 @@
   }
  ],
  "source_revision": "17da022fd79af2601e88bb9bff70b3016469c7b3",
- "board_revision": "dbf39d2a974ffd62e6d69c3c67a1b38f587e8aa9"
+ "board_revision": "8e5bcedd087e5ab35559a75aadcc8892fe154103"
 }
