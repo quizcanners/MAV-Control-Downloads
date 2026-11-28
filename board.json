@@ -7095,7 +7095,9 @@
    "under": 2533,
    "ticks": [
     "2026-11-27T19:51Z",
-    "2026-11-27T19:51Z"
+    "2026-11-27T19:51Z",
+    "2026-11-27T19:57Z",
+    "2026-11-27T19:57Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -7121,6 +7123,18 @@
     {
      "t": "Verify registration, locked-screen receipt, and notification tap on a containing Android Build.",
      "x": false
+    },
+    {
+     "t": "Check the release notes, dependencies and SDK minimum for 22.0.0.",
+     "x": true
+    },
+    {
+     "t": "Compile the existing Google Sheets authorization bridge and verify its manifest requirements.",
+     "x": true
+    },
+    {
+     "t": "On a containing Android Build, verify account consent, a Sheets request, and cancellation.",
+     "x": false
     }
    ],
    "notes": [
@@ -7133,6 +7147,11 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T07:35Z",
      "text": "Android Test 892 packages Firebase Messaging 26.0.2. Its DEX registrar reports fire-fcm 26.0.2 as in the Google AAR. Evidence c8bf0117da. Installation ID registration, locked-screen receipt and notification tap still need the device."
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T07:35Z",
+     "text": "Verified c8bf0117da on main. The published Android Test 892 APK contains Play services Auth 22.0.0 and its Google authorization activity remains private. Account consent, a Sheets request and cancellation remain on the device."
     }
    ]
   },
@@ -8175,42 +8194,6 @@
      "by": "codex-alert-options",
      "at": "2026-11-27T19:56Z",
      "text": "Published ee622f26. Landscape alert options use larger tinted blur on a dark panel and horizontally scroll when narrow; response lists fill remaining height. Normal Play visual check and focused Landscape/Portrait reachability test passed. "
-    }
-   ]
-  },
-  {
-   "n": 2558,
-   "name": "Update Android Google Play services Auth from 21.6.0 to 22.0.0 and verify the Google Sheets authorization bridge in a containing Build.",
-   "done": "",
-   "goal": false,
-   "under": 2533,
-   "ticks": [
-    "2026-11-27T19:57Z",
-    "2026-11-27T19:57Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Check the release notes, dependencies and SDK minimum for 22.0.0.",
-     "x": true
-    },
-    {
-     "t": "Compile the existing Google Sheets authorization bridge and verify its manifest requirements.",
-     "x": true
-    },
-    {
-     "t": "On a containing Android Build, verify account consent, a Sheets request, and cancellation.",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T07:35Z",
-     "text": "Verified c8bf0117da on main. The published Android Test 892 APK contains Play services Auth 22.0.0 and its Google authorization activity remains private. Account consent, a Sheets request and cancellation remain on the device."
     }
    ]
   },
@@ -11403,5 +11386,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "8a77207f1137a2f6023a07da05a9a1a3e13b6338"
+ "board_revision": "2ad29016f67fbf478f3b02af98cdaf6b893eea45"
 }
