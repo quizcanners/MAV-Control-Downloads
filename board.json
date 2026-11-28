@@ -4283,11 +4283,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "codex-test-obs",
-     "at": "2026-11-28T12:32Z",
-     "text": "Normal Mac Editor: custom H.264 RTSP 720p/15fps/1Mbps with a real 1280x720 local video and Synthetic drone streamed to OBS with Apple VideoToolbox; Automatic streamed with StreamCopy. Two further custom starts after stopping the relay also "
-    },
-    {
      "by": "CODEX_RESTREAM_STALL",
      "at": "2026-11-26T15:05Z",
      "text": "Local OBS countdown and live H.264 work after 0b6f77fc1d; late reader decoded in 1.72 s. The external RTMPS stall remains unverified: its original saved link disappeared during Editor test setup and no matching checkpoint was recoverable. A"
@@ -4296,6 +4291,11 @@
      "by": "CODEX_MAC_FFMPEG_TEST",
      "at": "2026-11-27T00:46Z",
      "text": "Mac native relay suite with packaged publisher and separate fixture FFmpeg passed local RTMP listener and H.264 output checks (18cd4595bd; 345 passed, 7 skipped overall). These local checks do not reproduce or clear the original external RT"
+    },
+    {
+     "by": "codex-test-obs",
+     "at": "2026-11-28T09:49Z",
+     "text": "Published fa7b6dcc. Unity GPU composition regression passed. In the normal Mac Editor, Test with a Synthetic drone appeared in the drone preview and fullscreen, processing identified Test, and OBS received the animated H.264 RTSP stream wit"
     }
    ]
   },
@@ -9514,28 +9514,6 @@
    ]
   },
   {
-   "n": 2623,
-   "name": "Verify Test video in Drone and fullscreen",
-   "done": "",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "codex-test-obs",
-     "at": "2026-11-28T09:49Z",
-     "text": "Published fa7b6dcc. Unity GPU composition regression passed. In the normal Mac Editor, Test with a Synthetic drone appeared in the drone preview and fullscreen, processing identified Test, and OBS received the animated H.264 RTSP stream wit"
-    }
-   ]
-  },
-  {
    "n": 2624,
    "name": "Windows MAV Control imports batches of large GeoTIFFs without crashing",
    "done": "",
@@ -10761,5 +10739,5 @@
   }
  ],
  "source_revision": "17da022fd79af2601e88bb9bff70b3016469c7b3",
- "board_revision": "18c6fea606c161e19f35889c7db9f595a3642b98"
+ "board_revision": "f731e4ab708df3021a0161067f6e0c83d33ebbf8"
 }
