@@ -7055,7 +7055,9 @@
    "goal": false,
    "under": 2533,
    "ticks": [
-    "2026-11-27T19:42Z"
+    "2026-11-27T19:42Z",
+    "2026-11-27T21:45Z",
+    "2026-11-27T21:47Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -7077,6 +7079,18 @@
     {
      "t": "Publish the qualified release and verify the running version, starting with the Hetzner test server.",
      "x": false
+    },
+    {
+     "t": "Verify the official Linux amd64 digest and test the new image with old and freshly built map generations.",
+     "x": true
+    },
+    {
+     "t": "Update both deployment pins and verify their declarations and installer checks.",
+     "x": true
+    },
+    {
+     "t": "Verify the new generation through a deployed MavServer and its routing gateway.",
+     "x": false
     }
    ],
    "notes": [
@@ -7084,6 +7098,11 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T05:12Z",
      "text": "ed2c152d07 aligns MavServer release publish, signer builds and Linux CI with the same .NET 10 SDK policy. A disposable feed refresh passed from a caller with an incompatible SDK policy. The normal publish probe selected SDK 10.0.400 before "
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-27T21:47Z",
+     "text": "3ce1482213 updates the Ubuntu installer and NixOS source pins to Valhalla 3.9.3 amd64, sha256:09474155aa81dbda1b6bfa7bd32917040dcdf5c7a9a9a6322915fe4703ae19c2. Podman runs 46072027622 and 46072346431 checked status, route geometry and road "
     }
    ]
   },
@@ -8388,42 +8407,6 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T07:28Z",
      "text": "Windows Test 892 contains win-x64 Background Chat with self-contained Microsoft.NETCore.App 10.0.15. Its embedded runtime configuration and dependency manifest agree. The containing installer was read from Drive and matched the recorded art"
-    }
-   ]
-  },
-  {
-   "n": 2563,
-   "name": "Update the MavServer Valhalla image from 3.9.1 to 3.9.3. Verify routing and existing map-generation compatibility before changing both deployment pins.",
-   "done": "",
-   "goal": false,
-   "under": 2533,
-   "ticks": [
-    "2026-11-27T21:45Z",
-    "2026-11-27T21:47Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Verify the official Linux amd64 digest and test the new image with old and freshly built map generations.",
-     "x": true
-    },
-    {
-     "t": "Update both deployment pins and verify their declarations and installer checks.",
-     "x": true
-    },
-    {
-     "t": "Verify the new generation through a deployed MavServer and its routing gateway.",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-27T21:47Z",
-     "text": "3ce1482213 updates the Ubuntu installer and NixOS source pins to Valhalla 3.9.3 amd64, sha256:09474155aa81dbda1b6bfa7bd32917040dcdf5c7a9a9a6322915fe4703ae19c2. Podman runs 46072027622 and 46072346431 checked status, route geometry and road "
     }
    ]
   },
@@ -11065,5 +11048,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "f8142c13cbcaed3d780160582b20f18bf99eda7b"
+ "board_revision": "3ec233e58bd7211015a4a6eae69a5b9889469c7c"
 }
