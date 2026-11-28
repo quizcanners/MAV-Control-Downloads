@@ -8432,6 +8432,18 @@
     {
      "t": "Resolve the pinned 1.2.1 package in the normal Editor, open a snapshot and generate a MAV Control roots report.",
      "x": false
+    },
+    {
+     "t": "Verify the Unity registry archive, dependencies and Player inclusion conditions.",
+     "x": true
+    },
+    {
+     "t": "Qualify all six assemblies against the installed Unity 6.6 Editor references.",
+     "x": true
+    },
+    {
+     "t": "Adopt through Package Manager and verify the normal Editor command flow and a containing release Build.",
+     "x": false
     }
    ],
    "notes": [
@@ -8444,6 +8456,11 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T09:17Z",
      "text": "Main 1564e94f1d. Unity 6000.6.10f1 rebuilt both 1.2.0 and 1.2.1. Each passed eleven Unity Mono probes for synthetic snapshot entry layouts and ranges, including the pointer argument conversion used by the roots adapter. The native async fil"
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T09:43Z",
+     "text": "Main e7eee784b4. The compiled Unity Pipeline 1.0.1 package passed 11 Unity Mono checks for its auto-tick delay-call fix, including the exact installed Editor delegate, command defaults and 150 ms background interval. The live Editor command"
     }
    ]
   },
@@ -8913,39 +8930,6 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T07:57Z",
      "text": "Verified cb4051fe1c on main. Both Test 892 IL2CPP tables retain one Unsafe assembly identity 6.0.0.0 and show TiffLibrary, JpegLibrary and Unity.Collections referencing it. The old vendored package and restore entry are absent from the buil"
-    }
-   ]
-  },
-  {
-   "n": 2586,
-   "name": "Adopt stable Unity Pipeline 1.0.1 for MAV Control Editor tooling after normal Editor and release Build checks.",
-   "done": "",
-   "goal": false,
-   "under": 2533,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Verify the Unity registry archive, dependencies and Player inclusion conditions.",
-     "x": true
-    },
-    {
-     "t": "Qualify all six assemblies against the installed Unity 6.6 Editor references.",
-     "x": true
-    },
-    {
-     "t": "Adopt through Package Manager and verify the normal Editor command flow and a containing release Build.",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T09:43Z",
-     "text": "Main e7eee784b4. The compiled Unity Pipeline 1.0.1 package passed 11 Unity Mono checks for its auto-tick delay-call fix, including the exact installed Editor delegate, command defaults and 150 ms background interval. The live Editor command"
     }
    ]
   },
@@ -11303,5 +11287,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "e42671f14aadbbd8de1a435ad6ca62f553e3a410"
+ "board_revision": "d56c874f64e65dc0d5c28d3928eeebff3b9da7b4"
 }
