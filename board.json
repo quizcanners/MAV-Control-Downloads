@@ -4787,7 +4787,7 @@
    "name": "Verify the next Windows Test candidate can update in-app using a sealed installer",
    "done": "2026-11-28T13:34Z",
    "goal": false,
-   "under": 0,
+   "under": 374,
    "ticks": [],
    "priority": "normal",
    "parked": false,
@@ -5834,31 +5834,6 @@
      "by": "codex-notification-fold",
      "at": "2026-11-27T14:06Z",
      "text": "Published 61b4d920: stack folds and opens as one, follows tongue while held and pauses card-size changes. Unity compiled, 13 gesture tests passed; live held-drag verified full-size card moves and returns to folded position. Phone touch chec"
-    }
-   ]
-  },
-  {
-   "n": 2487,
-   "name": "Remove the Mask Blur all-or-nothing destination guard in Store_Blur.cs (~96)",
-   "done": "2026-11-27T13:36Z",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-27T13:36Z",
-     "text": "08f6e574b9 on main applies Mask Blur one destination at a time after the frozen source read. Earlier edits survive a late destination failure. Saved unreadable source still stops before any write, with ChunkUnreadable. Ten checks linked the"
-    },
-    {
-     "by": "codex-notch-coverage",
-     "at": "2026-11-27T14:20Z",
-     "text": "Correction: previous notch-coverage note was posted to this task in error; the relevant task is 2492."
     }
    ]
   },
@@ -9946,6 +9921,6 @@
    "since": "2026-11-28T13:35Z"
   }
  ],
- "source_revision": "3db0897c2fb76a143ece319918f4ce5f24bb919e",
- "board_revision": "7f75af324a0992ed778032fc985c28a8346d1020"
+ "source_revision": "0dbdc233307e14d6eb804ddc3ee364ff6b88daae",
+ "board_revision": "efa144d7bee324dbc73f8dcfd6984a7fe05b6e4f"
 }
