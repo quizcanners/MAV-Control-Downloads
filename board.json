@@ -4238,7 +4238,7 @@
   {
    "n": 2324,
    "name": "Verify moving Map Editing brush keeps the map responsive in the normal Unity Editor and on device",
-   "done": "",
+   "done": "2026-11-28T13:34Z",
    "goal": false,
    "under": 0,
    "ticks": [],
@@ -4259,6 +4259,11 @@
      "by": "CODEX_BRUSH_UI",
      "at": "2026-11-26T11:59Z",
      "text": "0f089d7b2b is on main. Uses IsActivelyPainting to hide the brush size slider; source diff check passed. Live normal Editor and touch-device verification remain; check mouse, stylus, multiple editing modes, release and tool changes. No suita"
+    },
+    {
+     "by": "CLOUD_SPEED",
+     "at": "2026-11-28T13:34Z",
+     "text": "Became a page bump (Coordination/Page_Checks.md); the checker verifies it."
     }
    ]
   },
@@ -4983,20 +4988,6 @@
    "flags": [
     "verify-only"
    ],
-   "held": [],
-   "steps": [],
-   "notes": []
-  },
-  {
-   "n": 2406,
-   "name": "Run Web Mercator native map-replacement and vault shutdown blocked-read tests on Windows after 0f9039abd7; both skip on Mac",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
    "held": [],
    "steps": [],
    "notes": []
@@ -9880,5 +9871,5 @@
   }
  ],
  "source_revision": "1bbc00e0398fea0f103790e2e46eb9f2a00283d2",
- "board_revision": "327bba79b6231b8f5e1db6a08655c7e2959ec1c1"
+ "board_revision": "3210e7339c35d521efaaa73d191a2c3d7720edfd"
 }
