@@ -5238,26 +5238,6 @@
    "notes": []
   },
   {
-   "n": 2368,
-   "name": "Split Tools/VisualOdometryExperiment (118 python scripts flat",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_OD_FOLDERS",
-     "at": "2026-11-26T22:28Z",
-     "text": "Deferred: active 3D work and its evidence refer to these scripts by path; moving the shared folder now would disrupt that work. No files changed. Reorganize once the 3D worker releases those paths, updating imports and guides together."
-    }
-   ]
-  },
-  {
    "n": 2371,
    "name": "Sort Tools/Tests~ (251 one-bug *Host harnesses",
    "done": "",
@@ -5271,11 +5251,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_DJI_CUSTODY_HOST",
-     "at": "2026-11-27T10:55Z",
-     "text": "19bc4ce9 groups DJI release-custody Java host under DroneControl and retains evidence outside checkout. Rider JDK passed the actual listener/surface/camera replacement checks; the omitted-reattachment-guard control failed on its intended as"
-    },
-    {
      "by": "CODEX_MAVVISUAL_HOST",
      "at": "2026-11-27T11:02Z",
      "text": "MavControlVisual host left in place: actual component now has panel tint, shadow and geometry APIs absent from its adapters; the quiet shader also uses role keywords and a different shared-blur branch. Refresh the real behavior and all exis"
@@ -5284,6 +5259,11 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-27T15:29Z",
      "text": "d9ce928de1 on main moves Coding Search key serialization and its C# harness under Situation. Explicit UTF-8 fixes retained-baseline reads on Windows. The actual source passed all 16 checks and all five negative controls failed as intended. "
+    },
+    {
+     "by": "CODEX_OD_FOLDERS",
+     "at": "2026-11-26T22:28Z",
+     "text": "Deferred: active 3D work and its evidence refer to these scripts by path; moving the shared folder now would disrupt that work. No files changed. Reorganize once the 3D worker releases those paths, updating imports and guides together."
     }
    ]
   },
@@ -11707,5 +11687,5 @@
   }
  ],
  "source_revision": "675c9451e9888d152384a98b3d038d97dd2f25a3",
- "board_revision": "582bc54c02dc2150de6a5c91bac58f2109c6bfaf"
+ "board_revision": "757fa689805fcd0442c460a9b292301e4953874c"
 }
