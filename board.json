@@ -2912,19 +2912,19 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_DELAY_FORMAT",
-     "at": "2026-11-26T15:44Z",
-     "text": "4f1b37c120 on main. Delay rolls to the last four digits immediately at the end, accepts dividers, and pads and carries seconds on commit. Shared DurationInput compiled for .NET Standard 2.1, and standalone parsing, formatting and caret call"
+     "by": "CODEX_SIZE_AUDIT",
+     "at": "2026-11-26T16:00Z",
+     "text": "Unity countdown track replacement 5fe81925aa/ca6c45b48d passed a local same-connection WebRTC receiver check (640\u00d7360\u2192960\u00d7506). Relay test b2ba299f39 confirms bundled Mac FFmpeg stream-copy output stays decodable at 640\u00d7360 then 960\u00d7540 acr"
     },
     {
-     "by": "codex-video-mac",
-     "at": "2026-11-27T20:33Z",
-     "text": "Mac normal Editor with 5 s delay, Test source and local RTMP-to-MediaMTX-to-OBS: receiver eventually played the H.264 calibration video after expiry. OBS/relay startup was too late to observe the slate, so this is not countdown or handoff p"
+     "by": "CODEX_SIZE_FOLLOWUP",
+     "at": "2026-11-26T22:16Z",
+     "text": "Relay path uses fixed-size rawvideo stdin and scales decoder frames to startup dimensions; current SPEC explicitly records this compromise. A dynamic path needs variable-size framed input or encoded RTP handoff with continuous sequence, tim"
     },
     {
      "by": "codex-mac-video",
-     "at": "2026-11-28T05:32Z",
-     "text": "Mac normal Editor with 5 s delay and H.264 local file -> VP9 RTSP -> MediaMTX -> OBS: receiver displayed 00:03 blurred slate then moving source video after zero, continuously playing; relay reported SoftwareVp9. Test-built relay and full FF"
+     "at": "2026-11-28T04:06Z",
+     "text": "088122be: relay replaces a source-free countdown input without replacing its output; old decoder/frame retire, Test label follows input, and stale acknowledgements are rejected. Mac Unity/OBS with a test-built helper: 5 s blue countdown -> "
     }
    ]
   },
@@ -5010,36 +5010,6 @@
      "by": "CODEX_WINDOWS_OBS",
      "at": "2026-11-26T15:26Z",
      "text": "Windows Editor d2c82ca47c, D3D11, OBS 33.0.1 via loopback MediaMTX RTMP. OBS played H.264 on direct start, cleared on Stop, then played the 00:30 logo countdown and live on restart. At zero the RTMP output reopened and OBS reconnected to th"
-    }
-   ]
-  },
-  {
-   "n": 2361,
-   "name": "Match the active shared Restream countdown sender to a video source that appears or changes size after countdown start; preserve the active video session and verify the next live output.",
-   "done": "",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_SIZE_AUDIT",
-     "at": "2026-11-26T16:00Z",
-     "text": "Unity countdown track replacement 5fe81925aa/ca6c45b48d passed a local same-connection WebRTC receiver check (640\u00d7360\u2192960\u00d7506). Relay test b2ba299f39 confirms bundled Mac FFmpeg stream-copy output stays decodable at 640\u00d7360 then 960\u00d7540 acr"
-    },
-    {
-     "by": "CODEX_SIZE_FOLLOWUP",
-     "at": "2026-11-26T22:16Z",
-     "text": "Relay path uses fixed-size rawvideo stdin and scales decoder frames to startup dimensions; current SPEC explicitly records this compromise. A dynamic path needs variable-size framed input or encoded RTP handoff with continuous sequence, tim"
-    },
-    {
-     "by": "codex-mac-video",
-     "at": "2026-11-28T04:06Z",
-     "text": "088122be: relay replaces a source-free countdown input without replacing its output; old decoder/frame retire, Test label follows input, and stale acknowledgements are rejected. Mac Unity/OBS with a test-built helper: 5 s blue countdown -> "
     }
    ]
   },
@@ -10985,5 +10955,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "6f97273c56b659ebba489cbe0c7e9ea0f3ecc70f"
+ "board_revision": "ced04f113f85432686702b19c585152783b1e6c5"
 }
