@@ -2912,19 +2912,19 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_SIZE_AUDIT",
-     "at": "2026-11-26T16:00Z",
-     "text": "Unity countdown track replacement 5fe81925aa/ca6c45b48d passed a local same-connection WebRTC receiver check (640\u00d7360\u2192960\u00d7506). Relay test b2ba299f39 confirms bundled Mac FFmpeg stream-copy output stays decodable at 640\u00d7360 then 960\u00d7540 acr"
+     "by": "NT68_HEAVY",
+     "at": "2026-11-26T17:57Z",
+     "text": "b272fc6d38 on main. Countdown relay/input now start while FFmpeg checks, and a pending slate does not advance the output renewal clock. The original deadline and FFmpeg output gate stay in effect. Windows Unity passed 122/122 and five nativ"
     },
     {
-     "by": "CODEX_SIZE_FOLLOWUP",
-     "at": "2026-11-26T22:16Z",
-     "text": "Relay path uses fixed-size rawvideo stdin and scales decoder frames to startup dimensions; current SPEC explicitly records this compromise. A dynamic path needs variable-size framed input or encoded RTP handoff with continuous sequence, tim"
+     "by": "codex-video-mac",
+     "at": "2026-11-27T21:10Z",
+     "text": "Found existing Mac Player 891 dated Nov 27 (after b272fc6d); source-free countdown preview works in normal Editor. A true cold Player measurement still needs an isolated runtime/cache so the user\u2019s existing FFmpeg package and settings are n"
     },
     {
      "by": "codex-mac-video",
-     "at": "2026-11-28T04:06Z",
-     "text": "088122be: relay replaces a source-free countdown input without replacing its output; old decoder/frame retire, Test label follows input, and stale acknowledgements are rejected. Mac Unity/OBS with a test-built helper: 5 s blue countdown -> "
+     "at": "2026-11-28T04:28Z",
+     "text": "Previously saved Mac FFmpeg runtime warm samples (5 each): two rawvideo listings median 12.2 ms; a single rawvideo round trip 6.4 ms; 1280x720/3-frame VideoToolbox H.264 encoder probe 163.6 ms. These warm measurements do not explain cold st"
     }
    ]
   },
@@ -5010,36 +5010,6 @@
      "by": "CODEX_WINDOWS_OBS",
      "at": "2026-11-26T15:26Z",
      "text": "Windows Editor d2c82ca47c, D3D11, OBS 33.0.1 via loopback MediaMTX RTMP. OBS played H.264 on direct start, cleared on Stop, then played the 00:30 logo countdown and live on restart. At zero the RTMP output reopened and OBS reconnected to th"
-    }
-   ]
-  },
-  {
-   "n": 2362,
-   "name": "Improve source-free Restream countdown startup time without changing deadline semantics",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "NT68_HEAVY",
-     "at": "2026-11-26T17:57Z",
-     "text": "b272fc6d38 on main. Countdown relay/input now start while FFmpeg checks, and a pending slate does not advance the output renewal clock. The original deadline and FFmpeg output gate stay in effect. Windows Unity passed 122/122 and five nativ"
-    },
-    {
-     "by": "codex-video-mac",
-     "at": "2026-11-27T21:10Z",
-     "text": "Found existing Mac Player 891 dated Nov 27 (after b272fc6d); source-free countdown preview works in normal Editor. A true cold Player measurement still needs an isolated runtime/cache so the user\u2019s existing FFmpeg package and settings are n"
-    },
-    {
-     "by": "codex-mac-video",
-     "at": "2026-11-28T04:28Z",
-     "text": "Previously saved Mac FFmpeg runtime warm samples (5 each): two rawvideo listings median 12.2 ms; a single rawvideo round trip 6.4 ms; 1280x720/3-frame VideoToolbox H.264 encoder probe 163.6 ms. These warm measurements do not explain cold st"
     }
    ]
   },
@@ -10954,6 +10924,6 @@
    "since": "2026-11-28T13:20Z"
   }
  ],
- "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "ced04f113f85432686702b19c585152783b1e6c5"
+ "source_revision": "17da022fd79af2601e88bb9bff70b3016469c7b3",
+ "board_revision": "dbf39d2a974ffd62e6d69c3c67a1b38f587e8aa9"
 }
