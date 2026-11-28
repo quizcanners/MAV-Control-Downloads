@@ -4283,11 +4283,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_RESTREAM_STALL",
-     "at": "2026-11-26T15:05Z",
-     "text": "Local OBS countdown and live H.264 work after 0b6f77fc1d; late reader decoded in 1.72 s. The external RTMPS stall remains unverified: its original saved link disappeared during Editor test setup and no matching checkpoint was recoverable. A"
-    },
-    {
      "by": "CODEX_MAC_FFMPEG_TEST",
      "at": "2026-11-27T00:46Z",
      "text": "Mac native relay suite with packaged publisher and separate fixture FFmpeg passed local RTMP listener and H.264 output checks (18cd4595bd; 345 passed, 7 skipped overall). These local checks do not reproduce or clear the original external RT"
@@ -4296,6 +4291,11 @@
      "by": "codex-test-obs",
      "at": "2026-11-28T09:49Z",
      "text": "Published fa7b6dcc. Unity GPU composition regression passed. In the normal Mac Editor, Test with a Synthetic drone appeared in the drone preview and fullscreen, processing identified Test, and OBS received the animated H.264 RTSP stream wit"
+    },
+    {
+     "by": "CODEX_WINDOWS_OBS",
+     "at": "2026-11-26T15:26Z",
+     "text": "Windows Editor d2c82ca47c, D3D11, OBS 33.0.1 via loopback MediaMTX RTMP. OBS played H.264 on direct start, cleared on Stop, then played the 00:30 logo countdown and live on restart. At zero the RTMP output reopened and OBS reconnected to th"
     }
    ]
   },
@@ -4871,28 +4871,6 @@
      "by": "CODEX_QUALITY_SCOPE",
      "at": "2026-11-27T13:58Z",
      "text": "User scope 27 Nov: isolated positioning quality tests and instrumentation. Report confirmed limits of current methods and investigate reproducible behavior below theoretical expectations. Keep shipped recovery passes unchanged. Score terrai"
-    }
-   ]
-  },
-  {
-   "n": 2360,
-   "name": "Check Windows Restream to OBS and late viewers after the keyframe fix; also verify stream-copy VP8/H.265 and RTSP/SRT destinations on their supported devices.",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_WINDOWS_OBS",
-     "at": "2026-11-26T15:26Z",
-     "text": "Windows Editor d2c82ca47c, D3D11, OBS 33.0.1 via loopback MediaMTX RTMP. OBS played H.264 on direct start, cleared on Stop, then played the 00:30 logo countdown and live on restart. At zero the RTMP output reopened and OBS reconnected to th"
     }
    ]
   },
@@ -10739,5 +10717,5 @@
   }
  ],
  "source_revision": "17da022fd79af2601e88bb9bff70b3016469c7b3",
- "board_revision": "f731e4ab708df3021a0161067f6e0c83d33ebbf8"
+ "board_revision": "1bdbae410b7554407536cf6f32f9b9870a14c977"
 }
