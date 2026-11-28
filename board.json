@@ -3035,26 +3035,6 @@
    ]
   },
   {
-   "n": 2200,
-   "name": "Inspectors",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_INSPECTOR_MOVE",
-     "at": "2026-11-26T22:31Z",
-     "text": "Inspected shared Settings core: owner inspectors already provide most system pages and route details; remaining Inspect_Pages is shared navigation/dispatch and includes 3D DiskMap, excluded by this task. No isolated non-3D implementation id"
-    }
-   ]
-  },
-  {
    "n": 2201,
    "name": "Budgets",
    "done": "",
@@ -3357,11 +3337,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_STATION_SLICE",
-     "at": "2026-11-26T23:12Z",
-     "text": "Reviewed remaining Station root pieces after Geo.PositionVersionHistory. The geographic transform methods are shared by camera, MGRS and active 3D projection; moving them would touch 3D files excluded by this task. Other inspected classes a"
-    },
-    {
      "by": "CODEX_NESTED_OWNER",
      "at": "2026-11-26T22:50Z",
      "text": "b2e275437d moves TelemetryDecodeWorker beside Internet.Manager, keeping implementation unchanged and qualifying owner-held session/diagnostics types. Unity compile clean; MavLinkTelemetryInboxTests 45/45 and SafePeerDiagnosticsTests 12/12 p"
@@ -3370,6 +3345,11 @@
      "by": "CODEX_LINKED_BROWSER",
      "at": "2026-11-27T00:39Z",
      "text": "LinkedBrowser CommandWorker already uses _owner for instance reads and Manager members are internal, with static import for Manager helpers. These files compile only on Windows; the requested Windows compilation remains unverified on this M"
+    },
+    {
+     "by": "CODEX_INSPECTOR_MOVE",
+     "at": "2026-11-26T22:31Z",
+     "text": "Inspected shared Settings core: owner inspectors already provide most system pages and route details; remaining Inspect_Pages is shared navigation/dispatch and includes 3D DiskMap, excluded by this task. No isolated non-3D implementation id"
     }
    ]
   },
@@ -11747,5 +11727,5 @@
   }
  ],
  "source_revision": "675c9451e9888d152384a98b3d038d97dd2f25a3",
- "board_revision": "b3d286c7cc9aaf33835915a00eb22fc9f5aa6638"
+ "board_revision": "19ed31164cacaff96914526e76f63de0ecba80ff"
 }
