@@ -7097,7 +7097,9 @@
     "2026-11-27T19:51Z",
     "2026-11-27T19:51Z",
     "2026-11-27T19:57Z",
-    "2026-11-27T19:57Z"
+    "2026-11-27T19:57Z",
+    "2026-11-27T20:06Z",
+    "2026-11-27T22:08Z"
    ],
    "priority": "normal",
    "parked": false,
@@ -7135,14 +7137,21 @@
     {
      "t": "On a containing Android Build, verify account consent, a Sheets request, and cancellation.",
      "x": false
+    },
+    {
+     "t": "Verify Core 1.19.1 minimum SDK and Gradle requirements.",
+     "x": true
+    },
+    {
+     "t": "Qualify compile SDK 37 and the new Core dependency with MAV Control Android inputs.",
+     "x": true
+    },
+    {
+     "t": "Verify a containing APK and the app installer FileProvider on Android.",
+     "x": false
     }
    ],
    "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-27T19:14Z",
-     "text": "73298b40be raises the global target from SDK 35 and pins all nine Android Build Profiles from Auto to SDK 36. Saved 872/879/880 APKs already target 36. Build 891 used c5c3154be4, which predates the pins, and its APK is on the other host. SD"
-    },
     {
      "by": "GETAC_WORKER",
      "at": "2026-11-28T07:35Z",
@@ -7152,6 +7161,11 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T07:35Z",
      "text": "Verified c8bf0117da on main. The published Android Test 892 APK contains Play services Auth 22.0.0 and its Google authorization activity remains private. Account consent, a Sheets request and cancellation remain on the device."
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T02:59Z",
+     "text": "50b3446add fixes the Windows SDK path in the AndroidX fixture. Unity JDK 17 parsed the old value incorrectly and resolved the same path with spaces after the fix, from both absolute and relative inputs. fc21174e76 reproduces the Gradle inpu"
     }
    ]
   },
@@ -8194,42 +8208,6 @@
      "by": "codex-alert-options",
      "at": "2026-11-27T19:56Z",
      "text": "Published ee622f26. Landscape alert options use larger tinted blur on a dark panel and horizontally scroll when narrow; response lists fill remaining height. Normal Play visual check and focused Landscape/Portrait reachability test passed. "
-    }
-   ]
-  },
-  {
-   "n": 2559,
-   "name": "Update AndroidX Core from 1.13.1 to 1.19.1. Compile against Android API 37 while keeping the app minimum at 26 and target at 36",
-   "done": "",
-   "goal": false,
-   "under": 2533,
-   "ticks": [
-    "2026-11-27T20:06Z",
-    "2026-11-27T22:08Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Verify Core 1.19.1 minimum SDK and Gradle requirements.",
-     "x": true
-    },
-    {
-     "t": "Qualify compile SDK 37 and the new Core dependency with MAV Control Android inputs.",
-     "x": true
-    },
-    {
-     "t": "Verify a containing APK and the app installer FileProvider on Android.",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T02:59Z",
-     "text": "50b3446add fixes the Windows SDK path in the AndroidX fixture. Unity JDK 17 parsed the old value incorrectly and resolved the same path with spaces after the fix, from both absolute and relative inputs. fc21174e76 reproduces the Gradle inpu"
     }
    ]
   },
@@ -11386,5 +11364,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "2ad29016f67fbf478f3b02af98cdaf6b893eea45"
+ "board_revision": "47004c0c4de1a10e3ebcd06823eefecd96206d7c"
 }
