@@ -2406,26 +2406,6 @@
    ]
   },
   {
-   "n": 2145,
-   "name": "Lenovo tablet",
-   "done": "",
-   "goal": false,
-   "under": 429,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "ROG_FABLE",
-     "at": "2026-11-23T18:25Z",
-     "text": "7bfcfb848d: Save Game waited only 0.5 s without input, so a pause between drags let the full root serialization run mid-pan; it now waits 5 s like the idle file owners (pause, exit and explicit Save unchanged). New rows under Save Game: Pla"
-    }
-   ]
-  },
-  {
    "n": 2146,
    "name": "Lenovo tablet",
    "done": "",
@@ -2689,6 +2669,11 @@
      "by": "ROG_FABLE_CODEX",
      "at": "2026-11-23T22:31Z",
      "text": "Main 36ed7355 and f0000058 add Web Mercator Sync timing rows and keep index-page admission under the phase that starts it, including Peer retirement. Display selection skips redundant pending-sync queries. Rog Unity compiled, both display-s"
+    },
+    {
+     "by": "ROG_FABLE",
+     "at": "2026-11-23T18:25Z",
+     "text": "7bfcfb848d: Save Game waited only 0.5 s without input, so a pause between drags let the full root serialization run mid-pan; it now waits 5 s like the idle file owners (pause, exit and explicit Save unchanged). New rows under Save Game: Pla"
     }
    ]
   },
@@ -10259,5 +10244,5 @@
   }
  ],
  "source_revision": "17da022fd79af2601e88bb9bff70b3016469c7b3",
- "board_revision": "f7a3a510152937057f0a382a1a9058d98e3298db"
+ "board_revision": "ca9cf21d92fb90fd2d4ef9a84623d4c501981ecb"
 }
