@@ -8444,14 +8444,29 @@
     {
      "t": "Adopt through Package Manager and verify the normal Editor command flow and a containing release Build.",
      "x": false
+    },
+    {
+     "t": "Verify official package digests and dependency graph. Both archives match Unity's registry. All four dependency pins are unchanged and all 93 repaired asset importer records keep their GUIDs.",
+     "x": true
+    },
+    {
+     "t": "Compile the ten enabled App UI and two AI Inference Editor assemblies for both 2.3.1 and 2.3.3 using Unity 6000.6.10f1's compiler and package references. Both runs passed with zero warnings.",
+     "x": true
+    },
+    {
+     "t": "Compare native binaries. Windows import DLLs and exports and macOS exports are unchanged across both architectures. Linux exposes 33 TextMate symbols and retains all 30 used by the managed wrapper.",
+     "x": true
+    },
+    {
+     "t": "Select the current stable 2.3.3 in Packages/manifest.json and packages-lock.json. Verified 4876befc44 on main.",
+     "x": true
+    },
+    {
+     "t": "Resolve App UI in the normal Editor after the next safe reload. Confirm no App UI importer-version messages and open the AI Inference graph visualizer.",
+     "x": false
     }
    ],
    "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-27T22:38Z",
-     "text": "Mac Roslyn run 46076965254 now compares the TMP update with separate base/head uGUI references and reports no new errors in Editor, Android, Windows and the asmdef check. Normal Unity import and rendered UI checks in this task remain open."
-    },
     {
      "by": "GETAC_WORKER",
      "at": "2026-11-28T09:17Z",
@@ -8461,6 +8476,11 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T09:43Z",
      "text": "Main e7eee784b4. The compiled Unity Pipeline 1.0.1 package passed 11 Unity Mono checks for its auto-tick delay-call fix, including the exact installed Editor delegate, command defaults and 150 ms background interval. The live Editor command"
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T05:51Z",
+     "text": "Pushed and verified 4876befc44. The registry, static native ABI and standalone compile checks passed. Normal Editor resolution, import and graph visualizer acceptance remain open."
     }
    ]
   },
@@ -9445,49 +9465,6 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T08:42Z",
      "text": "Main 5d82429529. Unity still lists 3.2.2. UnityLinker Aggressive stripping succeeded for the stock and rebuilt 13.0.4 AOT DLLs. Unity Mono loaded each stripped DLL and passed the same synthetic typed JSON fixture. Standalone IL2CPP conversi"
-    }
-   ]
-  },
-  {
-   "n": 2603,
-   "name": "Verify Unity App UI 2.3.3 in the normal Editor",
-   "done": "",
-   "goal": false,
-   "under": 2533,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [
-    {
-     "t": "Verify official package digests and dependency graph. Both archives match Unity's registry. All four dependency pins are unchanged and all 93 repaired asset importer records keep their GUIDs.",
-     "x": true
-    },
-    {
-     "t": "Compile the ten enabled App UI and two AI Inference Editor assemblies for both 2.3.1 and 2.3.3 using Unity 6000.6.10f1's compiler and package references. Both runs passed with zero warnings.",
-     "x": true
-    },
-    {
-     "t": "Compare native binaries. Windows import DLLs and exports and macOS exports are unchanged across both architectures. Linux exposes 33 TextMate symbols and retains all 30 used by the managed wrapper.",
-     "x": true
-    },
-    {
-     "t": "Select the current stable 2.3.3 in Packages/manifest.json and packages-lock.json. Verified 4876befc44 on main.",
-     "x": true
-    },
-    {
-     "t": "Resolve App UI in the normal Editor after the next safe reload. Confirm no App UI importer-version messages and open the AI Inference graph visualizer.",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T05:51Z",
-     "text": "Pushed and verified 4876befc44. The registry, static native ABI and standalone compile checks passed. Normal Editor resolution, import and graph visualizer acceptance remain open."
     }
    ]
   },
@@ -11287,5 +11264,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "d56c874f64e65dc0d5c28d3928eeebff3b9da7b4"
+ "board_revision": "d3f96ea9c357d4b80cbbc0d435eae65523d63ddd"
 }
