@@ -4194,11 +4194,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "CODEX_UI_GUIDES",
-     "at": "2026-11-26T10:12Z",
-     "text": "quiz confirms the Telemetry toggles look good after df8429cc0a. Device touch verification has not been reported."
-    },
-    {
      "by": "codex-video-mac",
      "at": "2026-11-27T20:51Z",
      "text": "Mac normal Editor: idle panel and destination picker rendered; with no selected source and a temporary local destination, Play showed Stop, a 5 s delay, and blue synthetic countdown in the preview. Calling the actual Skip handler cleared th"
@@ -4207,6 +4202,11 @@
      "by": "codex-mac-video",
      "at": "2026-11-28T02:59Z",
      "text": "Mac Editor on 7117402c: with unavailable local input and 5 s delay, RTMP through loopback MediaMTX reached OBS with a blue 00:01 countdown. Output reconnected once at countdown handoff; device UI/preview check remains. Temporary destination"
+    },
+    {
+     "by": "CODEX_TELEMETRY_VISUAL",
+     "at": "2026-11-26T12:05Z",
+     "text": "Telemetry review fixes published, latest 3200786878. Pre-Flight now uses one-row toggles and editable numeric fields; choices use the shared picker. A temporary simulated preview confirmed layout, and prefab bindings and compilation passed;"
     }
    ]
   },
@@ -4327,26 +4327,6 @@
      "by": "CLOUD_SWEEP",
      "at": "2026-11-28T13:21Z",
      "text": "Closed in board sweep: work is on main (see earlier notes); remaining device/Editor checks moved to Need for verify on its page."
-    }
-   ]
-  },
-  {
-   "n": 2315,
-   "name": "Visually inspect Telemetry panels and tabs in the normal Editor",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "CODEX_TELEMETRY_VISUAL",
-     "at": "2026-11-26T12:05Z",
-     "text": "Telemetry review fixes published, latest 3200786878. Pre-Flight now uses one-row toggles and editable numeric fields; choices use the shared picker. A temporary simulated preview confirmed layout, and prefab bindings and compilation passed;"
     }
    ]
   },
@@ -10380,5 +10360,5 @@
   }
  ],
  "source_revision": "17da022fd79af2601e88bb9bff70b3016469c7b3",
- "board_revision": "60e75dcf3e7685849944a28f6b1413eb7281a1cd"
+ "board_revision": "7c522fd62ea3e531802cfec5a9ade579c8d7acda"
 }
