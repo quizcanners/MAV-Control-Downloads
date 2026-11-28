@@ -7091,6 +7091,14 @@
     {
      "t": "Verify the new generation through a deployed MavServer and its routing gateway.",
      "x": false
+    },
+    {
+     "t": "DJI_SDK_VERSION is 5.20.1 and the build packages; DJI's notes read for breaking changes.",
+     "x": false
+    },
+    {
+     "t": "On the RC Plus 2 with an aircraft linked: live video, telemetry, camera and gimbal still work.",
+     "x": false
     }
    ],
    "notes": [
@@ -7103,6 +7111,11 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-27T21:47Z",
      "text": "3ce1482213 updates the Ubuntu installer and NixOS source pins to Valhalla 3.9.3 amd64, sha256:09474155aa81dbda1b6bfa7bd32917040dcdf5c7a9a9a6322915fe4703ae19c2. Podman runs 46072027622 and 46072346431 checked status, route geometry and road "
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T02:53Z",
+     "text": "7117402ce6 extends the ELF check to GNU RELRO. All 62 libraries from aircraft 5.18.0 and Waypoint 1.0.5.0 pass LOAD alignment, but eight share unaligned RELRO pages with writable data. The same eight appear in signed APKs 879 and 880. Aircr"
     }
    ]
   },
@@ -7219,35 +7232,6 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T07:36Z",
      "text": "Android Test 892 predates 9e5471a9cd and packages Startup 1.1.1, WorkManager 2.12.0 and Play Asset Delivery 2.3.0. The private provider includes WorkManagerInitializer. Evidence c8bf0117da. The existing checklist requires a later APK contai"
-    }
-   ]
-  },
-  {
-   "n": 2512,
-   "name": "DJI MSDK is 5.18.0 and 5.20.1 is out",
-   "done": "",
-   "goal": false,
-   "under": 2533,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "DJI_SDK_VERSION is 5.20.1 and the build packages; DJI's notes read for breaking changes.",
-     "x": false
-    },
-    {
-     "t": "On the RC Plus 2 with an aircraft linked: live video, telemetry, camera and gimbal still work.",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T02:53Z",
-     "text": "7117402ce6 extends the ELF check to GNU RELRO. All 62 libraries from aircraft 5.18.0 and Waypoint 1.0.5.0 pass LOAD alignment, but eight share unaligned RELRO pages with writable data. The same eight appear in signed APKs 879 and 880. Aircr"
     }
    ]
   },
@@ -11048,5 +11032,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "3ec233e58bd7211015a4a6eae69a5b9889469c7c"
+ "board_revision": "5a8155310c811686ef5043e562a4fe7e86249a7d"
 }
