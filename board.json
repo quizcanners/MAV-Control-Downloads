@@ -7099,23 +7099,35 @@
     {
      "t": "On the RC Plus 2 with an aircraft linked: live video, telemetry, camera and gimbal still work.",
      "x": false
+    },
+    {
+     "t": "Cesium 1.26.1 with the rebased patch, tgz rebuilt, and the Editor opens the project.",
+     "x": false
+    },
+    {
+     "t": "Rider, Visual Studio and android-logcat packages bumped; SSH.NET 2026.0.1.",
+     "x": false
+    },
+    {
+     "t": "android.enableJetifier off, and the Android build still packages (otherwise leave it on and note why).",
+     "x": false
     }
    ],
    "notes": [
     {
      "by": "GETAC_WORKER",
-     "at": "2026-11-28T05:12Z",
-     "text": "ed2c152d07 aligns MavServer release publish, signer builds and Linux CI with the same .NET 10 SDK policy. A disposable feed refresh passed from a caller with an incompatible SDK policy. The normal publish probe selected SDK 10.0.400 before "
-    },
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-27T21:47Z",
-     "text": "3ce1482213 updates the Ubuntu installer and NixOS source pins to Valhalla 3.9.3 amd64, sha256:09474155aa81dbda1b6bfa7bd32917040dcdf5c7a9a9a6322915fe4703ae19c2. Podman runs 46072027622 and 46072346431 checked status, route geometry and road "
-    },
-    {
-     "by": "GETAC_WORKER",
      "at": "2026-11-28T02:53Z",
      "text": "7117402ce6 extends the ELF check to GNU RELRO. All 62 libraries from aircraft 5.18.0 and Waypoint 1.0.5.0 pass LOAD alignment, but eight share unaligned RELRO pages with writable data. The same eight appear in signed APKs 879 and 880. Aircr"
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T08:58Z",
+     "text": "Main 7cb788470a. Test 892 Windows Cesium matches the pinned 1.26.1 package byte for byte and Android matches after NDK strip. Windows IL2CPP contains the SSH.NET 2026.0.1 identity. The build lock confirms Rider 3.1.1, Visual Studio 2.0.29 a"
+    },
+    {
+     "by": "CLOUD_DEPS",
+     "at": "2026-11-28T13:25Z",
+     "text": "quiz, 2026-11-28, on dropping WebGL and WSA from the Cesium tgz: \"yep, can go\". No open goal fits; it saves disk and first import, nothing per edit."
     }
    ]
   },
@@ -7273,44 +7285,6 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-27T18:37Z",
      "text": "Mac CI 46049785045 verified FFmpeg 8.1.3/libvpx 1.17.0 and Pion 4.2.29/Go 1.27.4. Relay SHA-256 arm64 8f88d018a1bae7a6d2b4812933968829add452fa82ada9b049e133ae95ce7b98; x86_64 57ad54bd709a204dccc1eb9fe1c1f9a3411c6b0d2d71919b3297cef623cd0d3a;"
-    }
-   ]
-  },
-  {
-   "n": 2514,
-   "name": "Cesium for Unity 1.26.0 to 1.26.1 (cesium-native 0.66)",
-   "done": "",
-   "goal": false,
-   "under": 2533,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Cesium 1.26.1 with the rebased patch, tgz rebuilt, and the Editor opens the project.",
-     "x": false
-    },
-    {
-     "t": "Rider, Visual Studio and android-logcat packages bumped; SSH.NET 2026.0.1.",
-     "x": false
-    },
-    {
-     "t": "android.enableJetifier off, and the Android build still packages (otherwise leave it on and note why).",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T08:58Z",
-     "text": "Main 7cb788470a. Test 892 Windows Cesium matches the pinned 1.26.1 package byte for byte and Android matches after NDK strip. Windows IL2CPP contains the SSH.NET 2026.0.1 identity. The build lock confirms Rider 3.1.1, Visual Studio 2.0.29 a"
-    },
-    {
-     "by": "CLOUD_DEPS",
-     "at": "2026-11-28T13:25Z",
-     "text": "quiz, 2026-11-28, on dropping WebGL and WSA from the Cesium tgz: \"yep, can go\". No open goal fits; it saves disk and first import, nothing per edit."
     }
    ]
   },
@@ -11032,5 +11006,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "5a8155310c811686ef5043e562a4fe7e86249a7d"
+ "board_revision": "5150b0347ad4136fbf81d11a5f4fcc8e22c14077"
 }
