@@ -8399,7 +8399,9 @@
    "done": "",
    "goal": false,
    "under": 2533,
-   "ticks": [],
+   "ticks": [
+    "2026-11-28T03:09Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [
@@ -8418,6 +8420,18 @@
     {
      "t": "Run UiFontEllipsisTests and verify long localized labels and font fallback in the containing UI.",
      "x": false
+    },
+    {
+     "t": "Compare the official Unity registry patch with the current package and MAV Control snapshot readers. Both package versions compiled the Runtime, Editor and Profiler Module assemblies with Unity 6000.6",
+     "x": true
+    },
+    {
+     "t": "Pin Unity Memory Profiler 1.2.1 in the project manifest and lockfile. The current stable Unity archive matches the published digest. The five dependencies and their resolutions are unchanged. Verified",
+     "x": true
+    },
+    {
+     "t": "Resolve the pinned 1.2.1 package in the normal Editor, open a snapshot and generate a MAV Control roots report.",
+     "x": false
     }
    ],
    "notes": [
@@ -8425,6 +8439,11 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-27T22:38Z",
      "text": "Mac Roslyn run 46076965254 now compares the TMP update with separate base/head uGUI references and reports no new errors in Editor, Android, Windows and the asmdef check. Normal Unity import and rendered UI checks in this task remain open."
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T09:17Z",
+     "text": "Main 1564e94f1d. Unity 6000.6.10f1 rebuilt both 1.2.0 and 1.2.1. Each passed eleven Unity Mono probes for synthetic snapshot entry layouts and ranges, including the pointer argument conversion used by the roots adapter. The native async fil"
     }
    ]
   },
@@ -8771,41 +8790,6 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T02:52Z",
      "text": "7117402ce6 checks GNU RELRO as well as LOAD alignment. The retained 879 and 880 APKs match their receipts, verify with v2 signatures, declare min 26/target 36, and pass zipalign and ARM64 LOAD checks. Both carry the same eight RELRO gaps fr"
-    }
-   ]
-  },
-  {
-   "n": 2581,
-   "name": "Qualify Unity Memory Profiler 1.2.1 for MAV Control and verify that the Editor can open snapshots and report memory roots.",
-   "done": "",
-   "goal": false,
-   "under": 2533,
-   "ticks": [
-    "2026-11-28T03:09Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Compare the official Unity registry patch with the current package and MAV Control snapshot readers. Both package versions compiled the Runtime, Editor and Profiler Module assemblies with Unity 6000.6",
-     "x": true
-    },
-    {
-     "t": "Pin Unity Memory Profiler 1.2.1 in the project manifest and lockfile. The current stable Unity archive matches the published digest. The five dependencies and their resolutions are unchanged. Verified",
-     "x": true
-    },
-    {
-     "t": "Resolve the pinned 1.2.1 package in the normal Editor, open a snapshot and generate a MAV Control roots report.",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T09:17Z",
-     "text": "Main 1564e94f1d. Unity 6000.6.10f1 rebuilt both 1.2.0 and 1.2.1. Each passed eleven Unity Mono probes for synthetic snapshot entry layouts and ranges, including the pointer argument conversion used by the roots adapter. The native async fil"
     }
    ]
   },
@@ -11319,5 +11303,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "86d8da64fa6de0c235315b33899664623fc5507c"
+ "board_revision": "e42671f14aadbbd8de1a435ad6ca62f553e3a410"
 }
