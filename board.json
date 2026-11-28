@@ -3523,36 +3523,6 @@
    "steps": [],
    "notes": [
     {
-     "by": "codex-mac-video",
-     "at": "2026-11-28T04:24Z",
-     "text": "2e506505 routes known local USB video frames through the same per-source processed texture as WebRTC and native encoding; countdown remains unprocessed. Mac Unity compiled; VideoProcessingSourceTests 35 passed/3 platform skips, ScreenSharin"
-    },
-    {
-     "by": "codex-source-audit",
-     "at": "2026-11-28T09:18Z",
-     "text": "349e103d and c02d7315: Test feeds processing and outgoing encoder with the same source frame; stale desktop requests reject replacement source, and a retained file is not presented while Test is selected. Unity VideoSourceSuggestionTests 15"
-    },
-    {
-     "by": "codex-test-obs",
-     "at": "2026-11-28T13:08Z",
-     "text": "Published 87150f4ce9: outgoing Contrast resolves its shader even before fullscreen is loaded; its shader GUID is preserved. Four TemporalDetailRestreamTests pass including the null-view shader case. Normal Mac Editor Test -> RTSP -> OBS str"
-    }
-   ]
-  },
-  {
-   "n": 2262,
-   "name": "Video Restreaming",
-   "done": "",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
      "by": "NT68-C15-002",
      "at": "2026-11-25T21:36Z",
      "text": "4d473cfc7c on main (first step): OBS VP8 to an H.264 link publishes the transport's single H.264 encode instead of an FFmpeg decode. Left: share a link's encode with the viewers' Mid rendition (rate/CBR decision); one shared processed textu"
@@ -10871,5 +10841,5 @@
   }
  ],
  "source_revision": "17da022fd79af2601e88bb9bff70b3016469c7b3",
- "board_revision": "d2eb7cb6ac284184f36fb4713b1ac1490f261722"
+ "board_revision": "7714b9b29a68c79bd90993d1bfaa7cdc194a2e38"
 }
