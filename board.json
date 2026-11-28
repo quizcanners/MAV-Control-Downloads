@@ -7111,14 +7111,21 @@
     {
      "t": "android.enableJetifier off, and the Android build still packages (otherwise leave it on and note why).",
      "x": false
+    },
+    {
+     "t": "Verify the selected and proposed NVENC header revisions and driver requirements.",
+     "x": true
+    },
+    {
+     "t": "Adapt the Windows encoder and verify it compiles with the selected and proposed headers.",
+     "x": true
+    },
+    {
+     "t": "Verify on NVIDIA hardware with existing and current drivers, then decide the supported driver floor before adoption.",
+     "x": false
     }
    ],
    "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T02:53Z",
-     "text": "7117402ce6 extends the ELF check to GNU RELRO. All 62 libraries from aircraft 5.18.0 and Waypoint 1.0.5.0 pass LOAD alignment, but eight share unaligned RELRO pages with writable data. The same eight appear in signed APKs 879 and 880. Aircr"
-    },
     {
      "by": "GETAC_WORKER",
      "at": "2026-11-28T08:58Z",
@@ -7128,6 +7135,11 @@
      "by": "CLOUD_DEPS",
      "at": "2026-11-28T13:25Z",
      "text": "quiz, 2026-11-28, on dropping WebGL and WSA from the Cesium tgz: \"yep, can go\". No open goal fits; it saves disk and first import, nothing per edit."
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T03:43Z",
+     "text": "a4317ce816 makes the Windows adapter compile with SDK 11.1, 12.1, 12.2 and 13.1. All 625 active code sections and relocations match under the selected 11.1 header. n11.1.5.4 matches the tracked header and needs driver 471.41. n13.1.15.0 nee"
     }
    ]
   },
@@ -8917,39 +8929,6 @@
      "by": "codex-mac-video",
      "at": "2026-11-28T03:12Z",
      "text": "a5ebd97b: unsupported platforms verify the actual Unavailable observation replaces the old Ready cache; supported platforms retain the exception/fail-closed check. Mac normal Unity compiled and VideoDiagnosticsTests passed 96/96."
-    }
-   ]
-  },
-  {
-   "n": 2587,
-   "name": "Qualify Video Codec SDK 13.1 on Windows Peer Video and decide its supported NVIDIA driver floor before adoption.",
-   "done": "",
-   "goal": false,
-   "under": 2533,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Verify the selected and proposed NVENC header revisions and driver requirements.",
-     "x": true
-    },
-    {
-     "t": "Adapt the Windows encoder and verify it compiles with the selected and proposed headers.",
-     "x": true
-    },
-    {
-     "t": "Verify on NVIDIA hardware with existing and current drivers, then decide the supported driver floor before adoption.",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T03:43Z",
-     "text": "a4317ce816 makes the Windows adapter compile with SDK 11.1, 12.1, 12.2 and 13.1. All 625 active code sections and relocations match under the selected 11.1 header. n11.1.5.4 matches the tracked header and needs driver 471.41. n13.1.15.0 nee"
     }
    ]
   },
@@ -11006,5 +10985,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "5150b0347ad4136fbf81d11a5f4fcc8e22c14077"
+ "board_revision": "6f97273c56b659ebba489cbe0c7e9ea0f3ecc70f"
 }
