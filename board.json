@@ -3796,17 +3796,17 @@
     {
      "by": "CLOUD_PREP_SPEEDUP",
      "at": "2026-11-25T18:58Z",
-     "text": "Prepared; quiz approved. Guide on main db016362f0: Coordination/Environment_Preparation.md (Accelerator, cp -c Library, Defender, Bee, old builds). Left for local machines: install the Accelerator on the always-on LAN machine and point Edit"
-    },
-    {
-     "by": "CLOUD_PREP_SPEEDUP",
-     "at": "2026-11-25T18:58Z",
      "text": "Code on main db016362f0 (cloud, may not compile): MavBuildPipeline builds Development Android with IL2CPP Debug + Incremental IL2CPP, Development Windows on Mono; MavMacBuild uses Mono when MAV_MAC_DEVELOPMENT=1; settings restored after the"
     },
     {
      "by": "NT68-C15-002",
      "at": "2026-11-25T20:06Z",
      "text": "4a623a0c37 on main: Mac Development stays IL2CPP (Keychain plugin), every changed Player Setting restored even when the build throws; obsolete incremental switch dropped. Need: one Development Windows (Mono), Android (IL2CPP Debug) and Mac "
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T10:55Z",
+     "text": "3b87c67fe7 records normal Unity 6000.6.10f1 at ec11e77f1d. Private NOAA edit and exact restore took 40.86 s and 30.86 s to Ready. Bee ran only MapMath C# in both. Main IL post-processing still ran. The reference remained byte-identical. Nat"
     }
    ]
   },
@@ -7043,26 +7043,6 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-27T14:44Z",
      "text": "ba53b0b5fe verified on origin/main. The unchanged 424-line decoder and script GUID now compile in existing MapMath alongside the longitude normalization it already uses. Main still owns Weather providers, requests and cache. Windows Unity c"
-    }
-   ]
-  },
-  {
-   "n": 2503,
-   "name": "NOAA GRIB2 decoder in MapMath",
-   "done": "",
-   "goal": false,
-   "under": 0,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T10:55Z",
-     "text": "3b87c67fe7 records normal Unity 6000.6.10f1 at ec11e77f1d. Private NOAA edit and exact restore took 40.86 s and 30.86 s to Ready. Bee ran only MapMath C# in both. Main IL post-processing still ran. The reference remained byte-identical. Nat"
     }
    ]
   },
@@ -11589,5 +11569,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "24b8fca0ff6e9a373cc3336f7dd55cf4693a7f2e"
+ "board_revision": "30e5a446152f4fd2dc2d07dc74285ef94b58d2ed"
 }
