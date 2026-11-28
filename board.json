@@ -7695,19 +7695,19 @@
    "steps": [],
    "notes": [
     {
-     "by": "codex-mac-sink-failure",
-     "at": "2026-11-28T13:16Z",
-     "text": "8658b9aa97: device camera that opens but stops producing frames now enters Blocked after 6s; standing screen-share card reports no frames and clears on fresh capture. Unity compiled; ScreenSharingProtocolTests 9/9 and screen failure-card te"
-    },
-    {
-     "by": "codex-mac-video",
-     "at": "2026-11-28T04:31Z",
-     "text": "c3aa5c9a: USB takeover invalidates the old receiver; 398cecc2 and 53dad6ae: WebRTC receiver owns retry and delivery-switch shutdown. 07b95550: native receiver closes itself on delivery change; pending old session cannot present frames or ac"
-    },
-    {
      "by": "codex-mac-video",
      "at": "2026-11-28T04:14Z",
      "text": "30222a29 shares the existing effective receive plan with the JPEG fallback instead of calculating the selected delivery twice; fallback and live receiver keep their overlapping behavior. Mac Unity compiled and VideoCodecNegotiationTests pas"
+    },
+    {
+     "by": "codex-video-owner",
+     "at": "2026-11-28T11:26Z",
+     "text": "5b4fa1c1c3 projects positioned standalone local frames; 5cdcc5e61f verifies a shared-screen texture and its capture pose travel through source selection into the projector with no drone. Isolated PhotoEditingProjectionTests 24/24 pass. Actu"
+    },
+    {
+     "by": "codex-test-obs",
+     "at": "2026-11-28T12:20Z",
+     "text": "Normal Mac Editor: a real app-screen frame and captured camera pose reached an enabled LocalVideo projector, with active projection decal, bound video texture and PROJECTION_DJI shader. Actual map visual remains inconclusive because this li"
     }
    ]
   },
@@ -9534,31 +9534,6 @@
    ]
   },
   {
-   "n": 2631,
-   "name": "Centralize source-independent video availability and positioned projection for all local sources; consumers use the resolved source and drone telemetry independently.",
-   "done": "",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "codex-video-owner",
-     "at": "2026-11-28T11:26Z",
-     "text": "5b4fa1c1c3 projects positioned standalone local frames; 5cdcc5e61f verifies a shared-screen texture and its capture pose travel through source selection into the projector with no drone. Isolated PhotoEditingProjectionTests 24/24 pass. Actu"
-    },
-    {
-     "by": "codex-test-obs",
-     "at": "2026-11-28T12:20Z",
-     "text": "Normal Mac Editor: a real app-screen frame and captured camera pose reached an enabled LocalVideo projector, with active projection decal, bound video texture and PROJECTION_DJI shader. Actual map visual remains inconclusive because this li"
-    }
-   ]
-  },
-  {
    "n": 2632,
    "name": "Soften and desaturate the map outside the selected object",
    "done": "",
@@ -10573,5 +10548,5 @@
   }
  ],
  "source_revision": "17da022fd79af2601e88bb9bff70b3016469c7b3",
- "board_revision": "0e1267e7ef11eba76d8520c633c3ab9992817a50"
+ "board_revision": "7ae67a3a6c52605ab42934b0b993c1e41e3e9897"
 }
