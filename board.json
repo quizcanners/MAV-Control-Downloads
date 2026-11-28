@@ -7163,14 +7163,29 @@
     {
      "t": "On a containing Android Build, verify a large file pick and cancellation.",
      "x": false
+    },
+    {
+     "t": "Read exact versions from retained 879 and 880 APKs. Both have Play Asset Delivery 2.3.0 and Startup 1.1.1. 879 has WorkManager 2.9.1 and 880 has 2.12.0.",
+     "x": true
+    },
+    {
+     "t": "Verify official archives and compatibility. Startup 1.2.0 preserves the checked public JVM signatures and provider declaration. Unity's Android wrapper and Asset Delivery 2.3.0 agree on the Play servi",
+     "x": true
+    },
+    {
+     "t": "Build and read back isolated Android APKs with both Startup versions. Both keep WorkManager 2.12.0, Asset Delivery 2.3.0, the private InitializationProvider and its WorkManagerInitializer metadata, mi",
+     "x": true
+    },
+    {
+     "t": "Select Startup 1.2.0 in the Android Gradle template. Verified 9e5471a9cd on main. The Autel pins are unchanged.",
+     "x": true
+    },
+    {
+     "t": "Read back Startup 1.2.0 in a containing Android APK. Confirm cold launch and that WorkManager initializes and schedules MavChat work as expected.",
+     "x": false
     }
    ],
    "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T07:35Z",
-     "text": "Verified c8bf0117da on main. The published Android Test 892 APK contains Play services Auth 22.0.0 and its Google authorization activity remains private. Account consent, a Sheets request and cancellation remain on the device."
-    },
     {
      "by": "GETAC_WORKER",
      "at": "2026-11-28T02:59Z",
@@ -7180,6 +7195,11 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T07:36Z",
      "text": "Android Test 892 includes the pinned 1.4.4 AAR and the packaged picker bytecode uses the 262,144-byte buffer. Evidence c8bf0117da. The system picker, large-file result and cancellation still need the device."
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T07:36Z",
+     "text": "Android Test 892 predates 9e5471a9cd and packages Startup 1.1.1, WorkManager 2.12.0 and Play Asset Delivery 2.3.0. The private provider includes WorkManagerInitializer. Evidence c8bf0117da. The existing checklist requires a later APK contai"
     }
    ]
   },
@@ -9665,49 +9685,6 @@
    ]
   },
   {
-   "n": 2609,
-   "name": "Verify AndroidX Startup 1.2.0 with WorkManager in a containing Android Build",
-   "done": "",
-   "goal": false,
-   "under": 2533,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [
-    "verify-only"
-   ],
-   "held": [],
-   "steps": [
-    {
-     "t": "Read exact versions from retained 879 and 880 APKs. Both have Play Asset Delivery 2.3.0 and Startup 1.1.1. 879 has WorkManager 2.9.1 and 880 has 2.12.0.",
-     "x": true
-    },
-    {
-     "t": "Verify official archives and compatibility. Startup 1.2.0 preserves the checked public JVM signatures and provider declaration. Unity's Android wrapper and Asset Delivery 2.3.0 agree on the Play servi",
-     "x": true
-    },
-    {
-     "t": "Build and read back isolated Android APKs with both Startup versions. Both keep WorkManager 2.12.0, Asset Delivery 2.3.0, the private InitializationProvider and its WorkManagerInitializer metadata, mi",
-     "x": true
-    },
-    {
-     "t": "Select Startup 1.2.0 in the Android Gradle template. Verified 9e5471a9cd on main. The Autel pins are unchanged.",
-     "x": true
-    },
-    {
-     "t": "Read back Startup 1.2.0 in a containing Android APK. Confirm cold launch and that WorkManager initializes and schedules MavChat work as expected.",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T07:36Z",
-     "text": "Android Test 892 predates 9e5471a9cd and packages Startup 1.1.1, WorkManager 2.12.0 and Play Asset Delivery 2.3.0. The private provider includes WorkManagerInitializer. Evidence c8bf0117da. The existing checklist requires a later APK contai"
-    }
-   ]
-  },
-  {
    "n": 2610,
    "name": "Move compile-diff GitHub Actions to their supported Node 24 releases",
    "done": "2026-11-28T06:49Z",
@@ -11342,5 +11319,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "d9308bbf22fbab082949695911412728f5a43ffd"
+ "board_revision": "86d8da64fa6de0c235315b33899664623fc5507c"
 }
