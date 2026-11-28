@@ -4283,19 +4283,19 @@
    "steps": [],
    "notes": [
     {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-27T18:36Z",
-     "text": "Mac runtime CI 46049785045 on 89b209b96f verified packaged FFmpeg 8.1.3/libvpx 1.17.0 and Pion 4.2.29/Go 1.27.4 on Apple Silicon and Intel. Relay startup/digest, VP8 WHIP and concurrent-close checks passed on both; H.264 countdown passed on"
-    },
-    {
-     "by": "codex-video-mac",
-     "at": "2026-11-27T20:03Z",
-     "text": "Mac Editor normal Play at 3b2816b0: temporary 5 s test-source RTMP link published H.264 via VideoToolbox to loopback MediaMTX; OBS RTSP Media Source played and screenshot showed the calibration image. Local OBS settings and temporary link/s"
-    },
-    {
      "by": "codex-mac-video",
      "at": "2026-11-28T05:46Z",
      "text": "Mac normal Editor with test-built relay and full FFmpeg 9: local H.264 file -> 5 s delay -> WHIP -> loopback MediaMTX -> RTSP OBS. WHIP returned 201, relay reported Streaming/AppleVideoToolbox, OBS showed source-present countdown and moving"
+    },
+    {
+     "by": "codex-mac-video",
+     "at": "2026-11-28T05:37Z",
+     "text": "3bc1328b adds a race-tested real held child-probe case: the watchdog cancels and reaps the blocked process, then a fresh encoder probe succeeds without a poisoned cache. Timeout is simulated by aging the publication clock; not a reproductio"
+    },
+    {
+     "by": "codex-test-obs",
+     "at": "2026-11-28T12:32Z",
+     "text": "Normal Mac Editor: custom H.264 RTSP 720p/15fps/1Mbps with a real 1280x720 local video and Synthetic drone streamed to OBS with Apple VideoToolbox; Automatic streamed with StreamCopy. Two further custom starts after stopping the relay also "
     }
    ]
   },
@@ -8450,31 +8450,6 @@
    ]
   },
   {
-   "n": 2568,
-   "name": "Mac Editor RTSP Restream custom H.264 profile stalls Starting",
-   "done": "",
-   "goal": false,
-   "under": 431,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [],
-   "notes": [
-    {
-     "by": "codex-mac-video",
-     "at": "2026-11-28T05:37Z",
-     "text": "3bc1328b adds a race-tested real held child-probe case: the watchdog cancels and reaps the blocked process, then a fresh encoder probe succeeds without a poisoned cache. Timeout is simulated by aging the publication clock; not a reproductio"
-    },
-    {
-     "by": "codex-test-obs",
-     "at": "2026-11-28T12:32Z",
-     "text": "Normal Mac Editor: custom H.264 RTSP 720p/15fps/1Mbps with a real 1280x720 local video and Synthetic drone streamed to OBS with Apple VideoToolbox; Automatic streamed with StreamCopy. Two further custom starts after stopping the relay also "
-    }
-   ]
-  },
-  {
    "n": 2569,
    "name": "2533",
    "done": "",
@@ -10811,5 +10786,5 @@
   }
  ],
  "source_revision": "17da022fd79af2601e88bb9bff70b3016469c7b3",
- "board_revision": "93abc9b84c4d3a07efb109a5af4f1178d45ac79c"
+ "board_revision": "a4092bba79e795f07dab961133ba98417421bfbf"
 }
