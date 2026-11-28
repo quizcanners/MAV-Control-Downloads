@@ -8249,14 +8249,21 @@
     {
      "t": "Verify GeoTIFF import in containing Windows and Android Builds.",
      "x": false
+    },
+    {
+     "t": "Check the latest published package and upstream source revision",
+     "x": true
+    },
+    {
+     "t": "Verify the vendored source hashes, license, and build consumers",
+     "x": true
+    },
+    {
+     "t": "Qualify a supported maintenance path and verify affected Builds",
+     "x": false
     }
    ],
    "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T07:23Z",
-     "text": "The source candidate remains unadopted. The Apple scratch workflow stopped before compilation, first while exporting the sparse checkout and then at its source checksum. The test workflow was removed from main in 4da0f44aae. There was no An"
-    },
     {
      "by": "GETAC_WORKER",
      "at": "2026-11-28T07:56Z",
@@ -8266,6 +8273,11 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T07:57Z",
      "text": "Verified cb4051fe1c on main. Both Test 892 IL2CPP tables retain one Unsafe assembly identity 6.0.0.0 and show TiffLibrary, JpegLibrary and Unity.Collections referencing it. The old vendored package and restore entry are absent from the buil"
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T04:24Z",
+     "text": "e4dda82712 records the evidence. Noise.NET 1.0.0 last shipped May 2018. The September 2018 pinned commit is still the upstream default-branch tip. All 31 original source hashes match. 29 tracked sources and the MIT license match the pin, wi"
     }
    ]
   },
@@ -9104,39 +9116,6 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-28T04:20Z",
      "text": "2e13ee0703 records the current noble-hashes 2.4.0 release. The npm archive SHA-512 matches the provenance. All five modules and the MIT license match the npm archive, main and the public installer paths. Node 24.22.3 passed 47 handoff and 9"
-    }
-   ]
-  },
-  {
-   "n": 2593,
-   "name": "MAV Control and MavServer ship source-pinned Noise.NET from 2018. Verify current provenance and assess a supported maintenance path.",
-   "done": "",
-   "goal": false,
-   "under": 2533,
-   "ticks": [],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Check the latest published package and upstream source revision",
-     "x": true
-    },
-    {
-     "t": "Verify the vendored source hashes, license, and build consumers",
-     "x": true
-    },
-    {
-     "t": "Qualify a supported maintenance path and verify affected Builds",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T04:24Z",
-     "text": "e4dda82712 records the evidence. Noise.NET 1.0.0 last shipped May 2018. The September 2018 pinned commit is still the upstream default-branch tip. All 31 original source hashes match. 29 tracked sources and the MIT license match the pin, wi"
     }
    ]
   },
@@ -11124,5 +11103,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "a41dba9c477a8427d830680fd3e9339f9f3065f9"
+ "board_revision": "a63b6921a8e189245c58859fb09c69be0c0f5981"
 }
