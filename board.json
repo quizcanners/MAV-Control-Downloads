@@ -7093,7 +7093,10 @@
    "done": "",
    "goal": false,
    "under": 2533,
-   "ticks": [],
+   "ticks": [
+    "2026-11-27T19:51Z",
+    "2026-11-27T19:51Z"
+   ],
    "priority": "normal",
    "parked": false,
    "flags": [],
@@ -7106,6 +7109,18 @@
     {
      "t": "On the DJI RC Plus 2 and one phone: edge-to-edge layout, background activity starts and foreground-service types behave as on SDK 35.",
      "x": false
+    },
+    {
+     "t": "Check the release and dependencies against the Android SDK 26 minimum.",
+     "x": true
+    },
+    {
+     "t": "Compile the MavChat service and check the merged manifest with 26.0.2.",
+     "x": true
+    },
+    {
+     "t": "Verify registration, locked-screen receipt, and notification tap on a containing Android Build.",
+     "x": false
     }
    ],
    "notes": [
@@ -7113,6 +7128,11 @@
      "by": "GETAC_WORKER",
      "at": "2026-11-27T19:14Z",
      "text": "73298b40be raises the global target from SDK 35 and pins all nine Android Build Profiles from Auto to SDK 36. Saved 872/879/880 APKs already target 36. Build 891 used c5c3154be4, which predates the pins, and its APK is on the other host. SD"
+    },
+    {
+     "by": "GETAC_WORKER",
+     "at": "2026-11-28T07:35Z",
+     "text": "Android Test 892 packages Firebase Messaging 26.0.2. Its DEX registrar reports fire-fcm 26.0.2 as in the Google AAR. Evidence c8bf0117da. Installation ID registration, locked-screen receipt and notification tap still need the device."
     }
    ]
   },
@@ -8155,42 +8175,6 @@
      "by": "codex-alert-options",
      "at": "2026-11-27T19:56Z",
      "text": "Published ee622f26. Landscape alert options use larger tinted blur on a dark panel and horizontally scroll when narrow; response lists fill remaining height. Normal Play visual check and focused Landscape/Portrait reachability test passed. "
-    }
-   ]
-  },
-  {
-   "n": 2556,
-   "name": "Update the Android MavChat Firebase Messaging SDK from 25.1.3 to 26.0.2 and verify the Installation ID registration and notification path in a containing Build.",
-   "done": "",
-   "goal": false,
-   "under": 2533,
-   "ticks": [
-    "2026-11-27T19:51Z",
-    "2026-11-27T19:51Z"
-   ],
-   "priority": "normal",
-   "parked": false,
-   "flags": [],
-   "held": [],
-   "steps": [
-    {
-     "t": "Check the release and dependencies against the Android SDK 26 minimum.",
-     "x": true
-    },
-    {
-     "t": "Compile the MavChat service and check the merged manifest with 26.0.2.",
-     "x": true
-    },
-    {
-     "t": "Verify registration, locked-screen receipt, and notification tap on a containing Android Build.",
-     "x": false
-    }
-   ],
-   "notes": [
-    {
-     "by": "GETAC_WORKER",
-     "at": "2026-11-28T07:35Z",
-     "text": "Android Test 892 packages Firebase Messaging 26.0.2. Its DEX registrar reports fire-fcm 26.0.2 as in the Google AAR. Evidence c8bf0117da. Installation ID registration, locked-screen receipt and notification tap still need the device."
     }
    ]
   },
@@ -11419,5 +11403,5 @@
   }
  ],
  "source_revision": "b7ce097efc288eef6488a7369a9d6b6797895871",
- "board_revision": "accbee008de74507ce5b181896badd12dec2ddd1"
+ "board_revision": "8a77207f1137a2f6023a07da05a9a1a3e13b6338"
 }
